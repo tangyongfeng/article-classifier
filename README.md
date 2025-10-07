@@ -1,155 +1,225 @@
-# 智能文章分类系统
+<div align="center">
 
-基于 LangChain 和 Ollama 的智能文章分类系统，支持自动分类、动态调整分类体系。
+# 📚 Article Classifier
 
-## 功能特性
+### Intelligent LLM-Powered Article Classification System
 
-- ✅ 自动智能分类（LLM 驱动）
-- ✅ 动态分类体系（自动调整）
-- ✅ 多文件格式支持（HTML/Markdown/TXT）
-- ✅ PostgreSQL + JSON 双重存储
-- ✅ 批量处理 + 单文件处理
-- ✅ 后台运行支持（nohup）
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13+-blue.svg)](https://www.postgresql.org/)
 
-## 技术栈
+[English](README.md) | [简体中文](docs/README_CN.md) | [Deutsch](docs/README_DE.md)
 
-- **LangChain**: LLM 编排框架
-- **Ollama**: 本地 LLM 服务（gpt-oss:20b）
-- **PostgreSQL**: 关系型数据库
-- **Python 3.10+**
+</div>
 
-## 快速开始
+---
 
-### 1. 安装依赖
+## ✨ Features
 
-\`\`\`bash
-cd article-classifier
-pip install -r requirements.txt
-\`\`\`
+- 🤖 **AI-Powered Classification** - Leverages LLM to intelligently categorize articles
+- 🌳 **Dynamic Category Hierarchy** - Automatically builds and optimizes multi-level category trees
+- 📄 **Multi-Format Support** - Handles HTML, Markdown, and plain text files
+- 💾 **Dual Storage** - PostgreSQL for metadata + JSON for full content
+- ⚡ **Batch Processing** - Efficiently processes thousands of articles
+- 🔄 **Auto-Optimization** - Continuously refines category structure based on content patterns
+- 🎯 **Confidence Scoring** - Assigns confidence levels to classifications
+- 📊 **Comprehensive Logging** - Detailed processing logs and error tracking
 
-### 2. 初始化数据库
+## 🚀 Quick Start
 
-\`\`\`bash
-psql -U postgres -f scripts/setup_database.sql
-\`\`\`
+### Prerequisites
 
-**数据库信息：**
-- 数据库: article_classifier
-- 用户: article_classifier_user
-- 密码: AcUs3r#2025!Px7Qm（已保存在 .env 文件）
+- Python 3.10 or higher
+- PostgreSQL 13 or higher
+- [Ollama](https://ollama.ai/) with a compatible LLM model
 
-### 3. 配置
+### Installation
 
-配置文件 `config.yaml` 已经预设好，通常不需要修改。
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/tangyongfeng/article-classifier.git
+   cd article-classifier
+   ```
 
-如需修改 Ollama 模型或数据库配置，编辑 `config.yaml`。
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-### 4. 运行
+3. **Set up the database**
+   ```bash
+   psql -U postgres -f scripts/setup_database.sql
+   ```
 
-#### 批量处理（推荐）
+4. **Configure environment variables**
+   ```bash
+   cp .env.example .env
+   # Edit .env and set your PostgreSQL password
+   ```
 
-\`\`\`bash
-# 前台运行
-python scripts/batch_process.py --input "2023年6月"
+5. **Configure the system**
+   ```bash
+   cp config.yaml.example config.yaml
+   # Edit config.yaml to adjust settings (optional)
+   ```
 
-# 后台运行（nohup）
-nohup python scripts/batch_process.py --input "2023年6月" > nohup.out 2>&1 &
+### Usage
 
-# 查看实时日志
-tail -f data/logs/batch_*.log
-\`\`\`
+#### Single File Processing
+```bash
+python scripts/single_process.py path/to/article.html
+```
 
-#### 单文件处理
+#### Batch Processing
+```bash
+# Process all files in a directory
+python scripts/batch_process.py --input /path/to/articles
 
-\`\`\`bash
-python scripts/single_process.py "path/to/file.html"
-\`\`\`
+# Run in background
+nohup python scripts/batch_process.py --input /path/to/articles > output.log 2>&1 &
+```
 
-## 项目结构
+## 📁 Project Structure
 
-\`\`\`
+```
 article-classifier/
-├── src/
-│   ├── core/               # 核心模块
-│   │   ├── classifier.py   # 分类引擎
-│   │   ├── llm_service.py  # LLM 服务
-│   │   ├── category_manager.py  # 分类管理
-│   │   └── category_optimizer.py  # 分类优化
-│   ├── loaders/            # 文件加载器
+├── src/                      # Source code
+│   ├── core/                # Core classification engine
+│   │   ├── classifier.py    # Main classifier
+│   │   ├── llm_service.py   # LLM integration
+│   │   ├── category_manager.py    # Category management
+│   │   └── category_optimizer.py  # Auto-optimization
+│   ├── loaders/             # File loaders
 │   │   ├── html_loader.py
 │   │   ├── markdown_loader.py
 │   │   └── text_loader.py
-│   ├── storage/            # 存储模块
-│   │   ├── database.py     # PostgreSQL
-│   │   ├── json_storage.py # JSON 文件
-│   │   └── models.py       # 数据模型
-│   └── utils/              # 工具模块
-│       ├── config.py
-│       └── logger.py
-├── scripts/                # 脚本
-│   ├── batch_process.py    # 批量处理
-│   ├── single_process.py   # 单文件处理
-│   └── setup_database.sql  # 数据库初始化
-├── data/                   # 数据目录
-│   ├── json/               # JSON 存储
-│   │   ├── articles/       # 文章（按年月）
-│   │   └── categories.json # 分类体系
-│   ├── logs/               # 日志
-│   └── failed/             # 失败文件
-├── config.yaml             # 配置文件
-├── .env                    # 环境变量
-└── README.md
-\`\`\`
-
-## 工作流程
-
-1. **扫描目录** → 收集待处理文件
-2. **加载文件** → 提取标题、内容、元数据
-3. **LLM 分类** → 调用 Ollama 分析内容
-4. **创建分类** → 自动创建分类路径（最多3层）
-5. **保存结果** → PostgreSQL（元数据） + JSON（完整内容）
-6. **自动优化** → 每100篇触发分类优化
-
-## 分类策略
-
-### 初始阶段（前100篇）
-- LLM 分析文章内容，自由创建分类体系
-- 自动建立 1-3 层分类结构
-
-### 持续分类（101篇后）
-- 按现有分类体系分类
-- 置信度低于 0.6 时建议新分类
-
-### 自动优化（每100篇）
-- 文章数多的类别 → 细分子类
-- 文章数少的类别 → 合并到其他类
-- 识别新兴主题 → 创建新类别
-
-## 数据存储
-
-### PostgreSQL 数据库
-- **articles**: 文章元数据
-- **categories**: 分类体系
-- **keywords**: 关键词
-- **article_categories**: 文章-分类关联
-- **article_keywords**: 文章-关键词关联
-
-### JSON 文件系统
+│   ├── storage/             # Storage layer
+│   │   ├── database.py      # PostgreSQL operations
+│   │   ├── json_storage.py  # JSON file operations
+│   │   └── models.py        # Data models
+│   └── utils/               # Utilities
+│       ├── config.py        # Configuration management
+│       └── logger.py        # Logging utilities
+├── scripts/                  # Executable scripts
+│   ├── batch_process.py     # Batch processing
+│   ├── single_process.py    # Single file processing
+│   ├── test_setup.py        # Setup verification
+│   └── setup_database.sql   # Database schema
+├── docs/                     # Documentation
+│   ├── USAGE_GUIDE.md       # Detailed usage guide
+│   ├── README_CN.md         # Chinese README
+│   └── README_DE.md         # German README
+├── data/                     # Data directory (gitignored)
+│   ├── json/                # JSON storage
+│   ├── logs/                # Processing logs
+│   └── failed/              # Failed files tracking
+├── config.yaml.example       # Configuration template
+├── .env.example             # Environment variables template
+└── requirements.txt         # Python dependencies
 ```
-data/json/articles/
-├── 2023/
-│   └── 06/
-│       ├── 000001.json
-│       └── 000002.json
+
+## 🔧 Configuration
+
+### Environment Variables (.env)
+```env
+POSTGRES_PASSWORD=your_secure_password
+OLLAMA_API_KEY=             # Optional for local Ollama
+```
+
+### System Configuration (config.yaml)
+```yaml
+ollama:
+  base_url: "http://localhost:11434"
+  model: "gpt-oss:20b"
+  temperature: 0.3
+
+classifier:
+  max_category_levels: 3
+  min_confidence: 0.6
+  initial_training_size: 100
+  optimization_interval: 100
+  auto_optimize: true
+
+database:
+  host: "localhost"
+  port: 5432
+  database: "article_classifier"
+  user: "article_classifier_user"
+
+storage:
+  json_root: "data/json"
+  organize_by_date: true
+  save_raw_content: true
+
+processing:
+  batch_size: 10
+  enable_parallel: false
+  checkpoint_interval: 100
+  log_level: "INFO"
+```
+
+## 🎯 How It Works
+
+### Classification Pipeline
+
+1. **File Scanning** - Discovers articles in target directory
+2. **Content Loading** - Extracts title, content, and metadata
+3. **LLM Analysis** - Sends content to LLM for categorization
+4. **Category Creation** - Builds hierarchical categories (up to 3 levels)
+5. **Storage** - Saves to PostgreSQL and JSON
+6. **Optimization** - Refines category structure every N articles
+
+### Category Strategy
+
+#### Initial Phase (First 100 Articles)
+- LLM freely creates category structure
+- Builds organic hierarchy based on content patterns
+- Establishes foundational taxonomy
+
+#### Continuous Classification (After 100 Articles)
+- Classifies into existing categories
+- Creates new categories when confidence < 0.6
+- Maintains category consistency
+
+#### Auto-Optimization (Every 100 Articles)
+- **Split** - Subdivides categories with many articles
+- **Merge** - Combines categories with few articles
+- **Evolve** - Identifies emerging topics and creates new categories
+
+## 📊 Data Storage
+
+### PostgreSQL Schema
+```sql
+articles              -- Article metadata
+categories            -- Category hierarchy
+keywords              -- Extracted keywords
+article_categories    -- Article-category relationships
+article_keywords      -- Article-keyword relationships
+```
+
+### JSON Structure
+```
+data/json/
+├── articles/
+│   └── YYYY/
+│       └── MM/
+│           ├── 000001.json
+│           └── 000002.json
 └── categories.json
 ```
 
-## 查询示例
+## 📈 Performance
 
-### SQL 查询
+- **Processing Speed**: 3-6 seconds per article
+- **Batch Performance**: ~2 hours for 1,300 articles
+- **LLM**: Tested with gpt-oss:20b on local Ollama
+- **Storage**: Efficient dual-storage approach
 
-\`\`\`sql
--- 查看分类树
+## 🔍 Query Examples
+
+### SQL Queries
+```sql
+-- View category tree
 WITH RECURSIVE category_tree AS (
   SELECT id, name, parent_id, 1 as level
   FROM categories WHERE parent_id IS NULL
@@ -158,78 +228,128 @@ WITH RECURSIVE category_tree AS (
   FROM categories c
   JOIN category_tree ct ON c.parent_id = ct.id
 )
-SELECT * FROM category_tree;
+SELECT * FROM category_tree ORDER BY level, name;
 
--- 热门关键词
-SELECT keyword, usage_count FROM keywords
-ORDER BY usage_count DESC LIMIT 20;
-\`\`\`
+-- Top keywords
+SELECT keyword, usage_count
+FROM keywords
+ORDER BY usage_count DESC
+LIMIT 20;
 
-### Python 查询
+-- Articles by category
+SELECT a.title, c.name as category
+FROM articles a
+JOIN article_categories ac ON a.id = ac.article_id
+JOIN categories c ON ac.category_id = c.id
+WHERE c.name = 'Technology';
+```
 
-\`\`\`python
+### Python Queries
+```python
 import json
 from pathlib import Path
 
-# 加载分类树
-categories = json.load(open('data/json/categories.json'))
+# Load category tree
+with open('data/json/categories.json') as f:
+    categories = json.load(f)
 
-# 查找特定分类的文章
-for file in Path('data/json/articles').rglob('*.json'):
-    data = json.load(open(file))
-    if '技术' in data['classification']['category_path']:
-        print(data['metadata']['title'])
-\`\`\`
+# Find articles by category
+for article_file in Path('data/json/articles').rglob('*.json'):
+    with open(article_file) as f:
+        data = json.load(f)
+        if 'Technology' in data['classification']['category_path']:
+            print(f"{data['metadata']['title']}")
+```
 
-## 常见问题
+## 🛠️ Advanced Usage
 
-### 如何修改 LLM 模型？
-
-编辑 `config.yaml`：
-
-\`\`\`yaml
+### Custom LLM Models
+Edit `config.yaml` to use different models:
+```yaml
 ollama:
-  model: "your-model-name"
-\`\`\`
+  model: "llama2:70b"  # or any other model
+```
 
-### 如何重新处理已处理的文件？
+### Reprocessing Files
+```sql
+-- Remove article to reprocess
+DELETE FROM articles WHERE file_path = '/path/to/article.html';
+```
 
-删除数据库记录：
+### Backup
+```bash
+# Backup JSON files
+tar -czf backup_$(date +%Y%m%d).tar.gz data/json/
 
-\`\`\`sql
-DELETE FROM articles WHERE file_path = '/path/to/file';
-\`\`\`
+# Backup database
+pg_dump -U postgres article_classifier > backup_$(date +%Y%m%d).sql
+```
 
-### 如何备份数据？
+## 🐛 Troubleshooting
 
-\`\`\`bash
-# 备份 JSON
-tar -czf backup.tar.gz data/json/
+### Common Issues
 
-# 备份数据库
-pg_dump -U postgres article_classifier > backup.sql
-\`\`\`
+**Q: LLM connection fails**
+```bash
+# Check Ollama is running
+curl http://localhost:11434/api/tags
 
-### 如何查看失败文件？
+# Start Ollama if needed
+ollama serve
+```
 
-\`\`\`bash
-cat data/failed/failed_files.json
-\`\`\`
+**Q: Database connection error**
+```bash
+# Verify PostgreSQL is running
+pg_isready
 
-## 性能
+# Check credentials in .env
+cat .env
+```
 
-- **单文件处理**: 3-6 秒/篇
-- **1342 篇文章**: 约 1.5-2 小时
-- **LLM**: gpt-oss:20b (本地 Ollama)
+**Q: Classification quality is poor**
+- Adjust `temperature` in config.yaml (lower = more deterministic)
+- Use a larger LLM model
+- Increase `initial_training_size` for better category foundation
 
-## 未来扩展
+## 🗺️ Roadmap
 
-- [ ] 邮件自动处理
-- [ ] Web 管理界面
-- [ ] 向量检索（相似文章推荐）
-- [ ] 多语言支持
-- [ ] PDF 文件支持
+- [ ] Web UI dashboard
+- [ ] Vector search for similar articles
+- [ ] Multi-language UI support
+- [ ] PDF document support
+- [ ] API endpoints for integration
+- [ ] Real-time classification service
+- [ ] Category suggestion API
 
-## License
+## 🤝 Contributing
 
-MIT
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Built with [LangChain](https://langchain.com/)
+- Powered by [Ollama](https://ollama.ai/)
+- Database: [PostgreSQL](https://www.postgresql.org/)
+
+## 📧 Contact
+
+Project Link: [https://github.com/tangyongfeng/article-classifier](https://github.com/tangyongfeng/article-classifier)
+
+---
+
+<div align="center">
+
+Made with ❤️ by the Article Classifier team
+
+</div>
