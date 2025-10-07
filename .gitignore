@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# 环境变量
+.env
+config.yaml
+
+# 运行日志
+nohup.out
+*.log
+
+# 数据文件
+data/json/articles/
+data/logs/
+data/failed/
+backups/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# 数据库
+*.db
+*.sqlite
