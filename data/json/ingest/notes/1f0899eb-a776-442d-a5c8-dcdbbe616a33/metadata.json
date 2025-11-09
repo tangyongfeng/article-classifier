@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "fccd769b-ca29-451b-a4a1-1f8466d84599",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/加拿大/加拿大现存问题.html",
+    "collected_at": "2025-11-09T20:01:38.180462Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "faf3709b81992719594e02fae099c7f80c0db7d758c71df1c43b75ca5b6425c5",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1f0899eb-a776-442d-a5c8-dcdbbe616a33",
+    "ingest_source_id": "fccd769b-ca29-451b-a4a1-1f8466d84599",
+    "canonical_title": "加拿大现存问题",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.180466Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "加拿大现存问题.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8e11073e-4bf0-439c-a303-3e12a63c60e2",
+      "note_id": "1f0899eb-a776-442d-a5c8-dcdbbe616a33",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.180468Z",
+      "content": "---\ntitle: 加拿大现存问题\nupdated: 2018-02-06 08:31:36Z\ncreated: 2018-02-06 08:28:44Z\nauthor: tangyongfeng\n---\n\n\n<en-note><div>1、是否能够确定让李佳按照化妆师的职业身份办理手续？</div><div>2、不太清楚，是在国内办理手续直接拿到工签还是以旅游身份登陆加拿大以后再通过手续转换身份？</div><div>3、李佳护照上有一个德国的长期法人签证（非旅游探亲，可定居，有税号）是否会影响加拿大身份的取得？</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "faf3709b81992719594e02fae099c7f80c0db7d758c71df1c43b75ca5b6425c5",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/加拿大/加拿大现存问题.html"
+      }
+    },
+    {
+      "id": "8bc9733e-df44-42ef-be6e-6b9e531270dd",
+      "note_id": "1f0899eb-a776-442d-a5c8-dcdbbe616a33",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.180471Z",
+      "content": "---\ntitle: 加拿大现存问题\nupdated: 2018-02-06 08:31:36Z\ncreated: 2018-02-06 08:28:44Z\nauthor: tangyongfeng\n---\n\n1、是否能够确定让李佳按照化妆师的职业身份办理手续？\n2、不太清楚，是在国内办理手续直接拿到工签还是以旅游身份登陆加拿大以后再通过手续转换身份？\n3、李佳护照上有一个德国的长期法人签证（非旅游探亲，可定居，有税号）是否会影响加拿大身份的取得？",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 226,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0b099dc5-67c9-490a-82b6-3445de5c5a0d",
+    "note_id": "1f0899eb-a776-442d-a5c8-dcdbbe616a33",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.180476Z",
+    "finished_at": "2025-11-09T20:01:38.180476Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8fc238b1-1254-4e61-9f7c-12a9e15d5dd1",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/加拿大/加拿大现存问题.html",
+      "checksum": "faf3709b81992719594e02fae099c7f80c0db7d758c71df1c43b75ca5b6425c5"
+    },
+    "output_ref": {
+      "ingest_source": "fccd769b-ca29-451b-a4a1-1f8466d84599",
+      "note": "1f0899eb-a776-442d-a5c8-dcdbbe616a33",
+      "variants": [
+        "8e11073e-4bf0-439c-a303-3e12a63c60e2",
+        "8bc9733e-df44-42ef-be6e-6b9e531270dd"
+      ]
+    },
+    "error_detail": null
+  }
+}

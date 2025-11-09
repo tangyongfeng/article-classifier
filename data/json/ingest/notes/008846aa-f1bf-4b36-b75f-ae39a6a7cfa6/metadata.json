@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "35979ac5-8838-4e5a-89c2-3df8fe2a43c8",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/【未经对方同意的录音】有法律效力吗？！ - 电子物证 - CSDN博客.html",
+    "collected_at": "2025-11-09T20:01:35.253203Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "165c88bf217cef054cc9478b9f928ff51c1ba805a600a655fbbe2054a9656de2",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "008846aa-f1bf-4b36-b75f-ae39a6a7cfa6",
+    "ingest_source_id": "35979ac5-8838-4e5a-89c2-3df8fe2a43c8",
+    "canonical_title": "【未经对方同意的录音】有法律效力吗？！ - 电子物证 - CSDN博客",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.253207Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "【未经对方同意的录音】有法律效力吗？！ - 电子物证 - CSDN博客.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b2616780-a9f2-4f25-bd43-bb6b7018af27",
+      "note_id": "008846aa-f1bf-4b36-b75f-ae39a6a7cfa6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.253210Z",
+      "content": "---\ntitle: 【未经对方同意的录音】有法律效力吗？！ - 电子物证 - CSDN博客\nupdated: 2019-06-22 22:58:59Z\ncreated: 2019-06-22 22:58:59Z\nauthor: '=?utf-8?B?5ZSQ5rC45bOw?= <yongfeng.tang@me.com>'\n---\n\n\n\n<en-note><a SHAPE=\"rect\" HREF=\"https://blog.csdn.net/xCnhYKoHj3eK/article/details/92802383\">https://blog.csdn.net/xCnhYKoHj3eK/article/details/92802383</a><br CLEAR=\"none\"/><br CLEAR=\"none\"/><br CLEAR=\"none\"/>This email was send by the mobile phone. Please forgive the inconvenience caused by typography or format confusion.<br CLEAR=\"none\"/>这份邮件是由手机回复的，如有排版或者格式的混乱请见谅。</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "165c88bf217cef054cc9478b9f928ff51c1ba805a600a655fbbe2054a9656de2",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/【未经对方同意的录音】有法律效力吗？！ - 电子物证 - CSDN博客.html"
+      }
+    },
+    {
+      "id": "eca49f57-145f-48a2-9d41-d261f9a6aaaf",
+      "note_id": "008846aa-f1bf-4b36-b75f-ae39a6a7cfa6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.253212Z",
+      "content": "---\ntitle: 【未经对方同意的录音】有法律效力吗？！ - 电子物证 - CSDN博客\nupdated: 2019-06-22 22:58:59Z\ncreated: 2019-06-22 22:58:59Z\nauthor: '=?utf-8?B?5ZSQ5rC45bOw?=\n'\n---\n\nhttps://blog.csdn.net/xCnhYKoHj3eK/article/details/92802383\nThis email was send by the mobile phone. Please forgive the inconvenience caused by typography or format confusion.\n这份邮件是由手机回复的，如有排版或者格式的混乱请见谅。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 351,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1540ff91-49ab-45e3-86f1-f12b7bb6834a",
+    "note_id": "008846aa-f1bf-4b36-b75f-ae39a6a7cfa6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.253217Z",
+    "finished_at": "2025-11-09T20:01:35.253218Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5686d65d-5c77-4d9c-bbca-5a28c4d3ad28",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/【未经对方同意的录音】有法律效力吗？！ - 电子物证 - CSDN博客.html",
+      "checksum": "165c88bf217cef054cc9478b9f928ff51c1ba805a600a655fbbe2054a9656de2"
+    },
+    "output_ref": {
+      "ingest_source": "35979ac5-8838-4e5a-89c2-3df8fe2a43c8",
+      "note": "008846aa-f1bf-4b36-b75f-ae39a6a7cfa6",
+      "variants": [
+        "b2616780-a9f2-4f25-bd43-bb6b7018af27",
+        "eca49f57-145f-48a2-9d41-d261f9a6aaaf"
+      ]
+    },
+    "error_detail": null
+  }
+}

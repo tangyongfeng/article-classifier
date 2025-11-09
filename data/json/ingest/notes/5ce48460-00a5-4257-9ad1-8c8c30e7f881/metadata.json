@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d53154e0-fc98-4f87-8ebf-1cb6e75da37d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Django 学习笔记.html",
+    "collected_at": "2025-11-09T20:01:33.982090Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "efec67cb99518218a9e93d7c9ebca39d0de51fa0bd6c0e3098948e98494998d4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "5ce48460-00a5-4257-9ad1-8c8c30e7f881",
+    "ingest_source_id": "d53154e0-fc98-4f87-8ebf-1cb6e75da37d",
+    "canonical_title": "Django 学习笔记",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:33.982095Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Django 学习笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b3e1d126-971e-4a79-ab0a-8db1a4836167",
+      "note_id": "5ce48460-00a5-4257-9ad1-8c8c30e7f881",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:33.982099Z",
+      "content": "---\ntitle: Django 学习笔记\nupdated: 2017-12-31 05:55:29Z\ncreated: 2017-12-31 05:54:08Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - django\n  - python\n---\n\n\n<en-note><div><span STYLE=\"text-indent: 0px;\"><font COLOR=\"#242729\" FACE=\"Arial, Helvetica Neue, Helvetica, sans-serif\"><span STYLE=\"font-size: 15px;\">Python manage.py migrate 建立同步数据库</span></font></span></div><div><font COLOR=\"#242729\" FACE=\"Arial, Helvetica Neue, Helvetica, sans-serif\"><span STYLE=\"font-size: 15px;\">Python manage.py createsuperuser 建立超级管理员</span></font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "efec67cb99518218a9e93d7c9ebca39d0de51fa0bd6c0e3098948e98494998d4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Django 学习笔记.html"
+      }
+    },
+    {
+      "id": "9a5f395e-1773-4a35-889a-fbc5e04bea8c",
+      "note_id": "5ce48460-00a5-4257-9ad1-8c8c30e7f881",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:33.982102Z",
+      "content": "---\ntitle: Django 学习笔记\nupdated: 2017-12-31 05:55:29Z\ncreated: 2017-12-31 05:54:08Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - django\n  - python\n---\n\nPython manage.py migrate 建立同步数据库\nPython manage.py createsuperuser 建立超级管理员",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 220,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e7a9a9e5-83b2-49b0-b708-89a1d732f0ff",
+    "note_id": "5ce48460-00a5-4257-9ad1-8c8c30e7f881",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:33.982108Z",
+    "finished_at": "2025-11-09T20:01:33.982108Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a8d1ba4e-f2a1-461a-a307-226d2220f0a0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Django 学习笔记.html",
+      "checksum": "efec67cb99518218a9e93d7c9ebca39d0de51fa0bd6c0e3098948e98494998d4"
+    },
+    "output_ref": {
+      "ingest_source": "d53154e0-fc98-4f87-8ebf-1cb6e75da37d",
+      "note": "5ce48460-00a5-4257-9ad1-8c8c30e7f881",
+      "variants": [
+        "b3e1d126-971e-4a79-ab0a-8db1a4836167",
+        "9a5f395e-1773-4a35-889a-fbc5e04bea8c"
+      ]
+    },
+    "error_detail": null
+  }
+}

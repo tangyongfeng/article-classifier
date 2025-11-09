@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "880759fa-ced5-4190-9fb7-4ba05172427c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/2019年寒假时间.html",
+    "collected_at": "2025-11-09T20:05:17.723120Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a3dd244e14d09cbd8d636472239f5465bfececa09b4af0d7585043b19a159dd4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6ea8bb3d-9d34-4210-a1c4-2cd1559c336e",
+    "ingest_source_id": "880759fa-ced5-4190-9fb7-4ba05172427c",
+    "canonical_title": "2019年寒假时间",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:17.723125Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "2019年寒假时间.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4634c810-6b41-4fb7-9211-df24b8ce2173",
+      "note_id": "6ea8bb3d-9d34-4210-a1c4-2cd1559c336e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.723128Z",
+      "content": "---\ntitle: 2019年寒假时间\nupdated: 2019-01-02 02:05:05Z\ncreated: 2019-01-02 02:04:44Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"color: rgb(68, 68, 68); font-family: &quot;Lantinghei SC&quot;, &quot;Open Sans&quot;, Monaco, Arial, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, &quot;WenQuanYi Micro Hei&quot;, SimSun; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 28px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">2019年北京中小学寒假从2019年1月26日（星期六）开始，2月24日（星期日）结束，共4周零2天。</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a3dd244e14d09cbd8d636472239f5465bfececa09b4af0d7585043b19a159dd4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/2019年寒假时间.html"
+      }
+    },
+    {
+      "id": "f2390ab9-f0e5-4aab-8de4-0d738ecea0db",
+      "note_id": "6ea8bb3d-9d34-4210-a1c4-2cd1559c336e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.723131Z",
+      "content": "---\ntitle: 2019年寒假时间\nupdated: 2019-01-02 02:05:05Z\ncreated: 2019-01-02 02:04:44Z\nauthor: tangyongfeng@gmail.com\n---\n\n2019年北京中小学寒假从2019年1月26日（星期六）开始，2月24日（星期日）结束，共4周零2天。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 168,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e9829744-82c5-4d99-aec2-033c400355e0",
+    "note_id": "6ea8bb3d-9d34-4210-a1c4-2cd1559c336e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.723136Z",
+    "finished_at": "2025-11-09T20:05:17.723137Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b31136ce-f469-414f-a286-db6df1a880b5",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/2019年寒假时间.html",
+      "checksum": "a3dd244e14d09cbd8d636472239f5465bfececa09b4af0d7585043b19a159dd4"
+    },
+    "output_ref": {
+      "ingest_source": "880759fa-ced5-4190-9fb7-4ba05172427c",
+      "note": "6ea8bb3d-9d34-4210-a1c4-2cd1559c336e",
+      "variants": [
+        "4634c810-6b41-4fb7-9211-df24b8ce2173",
+        "f2390ab9-f0e5-4aab-8de4-0d738ecea0db"
+      ]
+    },
+    "error_detail": null
+  }
+}

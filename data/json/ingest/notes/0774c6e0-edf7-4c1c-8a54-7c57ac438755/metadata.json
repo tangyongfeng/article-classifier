@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "29b4e9bd-0a6d-4249-b83a-4b0b17de1789",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Karl-Kreiner-Schule.html",
+    "collected_at": "2025-11-09T20:05:17.733783Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "b05f03c688169328580f1251c7e55b7c8f703d455754ec72fef250c1a16b0501",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0774c6e0-edf7-4c1c-8a54-7c57ac438755",
+    "ingest_source_id": "29b4e9bd-0a6d-4249-b83a-4b0b17de1789",
+    "canonical_title": "Karl-Kreiner-Schule",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:05:17.733787Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Karl-Kreiner-Schule.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6ffa161a-1f95-46a5-af8b-b5c2418e862e",
+      "note_id": "0774c6e0-edf7-4c1c-8a54-7c57ac438755",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.733789Z",
+      "content": "---\ntitle: Karl-Kreiner-Schule\nupdated: 2019-03-09 19:08:18Z\ncreated: 2019-03-09 18:55:38Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\n\n<en-note><div><span STYLE=\"box-sizing: border-box; font-size: 14px; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); color: rgb(68, 69, 69); font-family: &quot;Open Sans&quot;, sans-serif; font-variant-caps: normal; font-variant-ligatures: normal;\">在</span><span STYLE=\"box-sizing: border-box; font-size: 14px; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); color: rgb(68, 69, 69); font-family: &quot;Open Sans&quot;, sans-serif; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: bold;\">卡尔Kreiner学校</span><span STYLE=\"box-sizing: border-box; font-size: 14px; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); color: rgb(68, 69, 69); font-family: &quot;Open Sans&quot;, sans-serif; font-variant-caps: normal; font-variant-ligatures: normal;\">是在诺伊斯市北部一所天主教教会学校。</span><span STYLE=\"box-sizing: border-box; font-size: 14px; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); color: rgb(68, 69, 69); font-family: &quot;Open Sans&quot;, sans-serif; font-variant-caps: normal; font-variant-ligatures: normal;\">我们是一所三元素的小学，约有295名学生。</span><span STYLE=\"box-sizing: border-box; font-size: 14px; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; color: rgb(68, 69, 69); font-family: &quot;Open Sans&quot;, sans-serif; font-variant-caps: normal; font-variant-ligatures: normal;\">我们的团队目前包括：一名校长，一名导演，11名教师和一名学校社工。</span></div><div>全部女老师</div><div>Karl Kreiner学校的历史根源可以追溯到1717年。</div><div><span STYLE=\"font-weight: bold;\">Karl Kreiner（1896-1967） - 老师，也是一位诗人</span></div><div><span STYLE=\"font-weight: bold;\">4/22</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b05f03c688169328580f1251c7e55b7c8f703d455754ec72fef250c1a16b0501",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Karl-Kreiner-Schule.html"
+      }
+    },
+    {
+      "id": "dfc61250-3e1f-4a49-bdc1-80ea84b629db",
+      "note_id": "0774c6e0-edf7-4c1c-8a54-7c57ac438755",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.733792Z",
+      "content": "---\ntitle: Karl-Kreiner-Schule\nupdated: 2019-03-09 19:08:18Z\ncreated: 2019-03-09 18:55:38Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\n在\n卡尔Kreiner学校\n是在诺伊斯市北部一所天主教教会学校。\n我们是一所三元素的小学，约有295名学生。\n我们的团队目前包括：一名校长，一名导演，11名教师和一名学校社工。\n全部女老师\nKarl Kreiner学校的历史根源可以追溯到1717年。\nKarl Kreiner（1896-1967） - 老师，也是一位诗人\n4/22",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 306,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9e965194-f555-4003-8b69-b141aace2a9e",
+    "note_id": "0774c6e0-edf7-4c1c-8a54-7c57ac438755",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.733796Z",
+    "finished_at": "2025-11-09T20:05:17.733797Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f65cc98d-6064-4383-9b5d-5ee54482b9e0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Karl-Kreiner-Schule.html",
+      "checksum": "b05f03c688169328580f1251c7e55b7c8f703d455754ec72fef250c1a16b0501"
+    },
+    "output_ref": {
+      "ingest_source": "29b4e9bd-0a6d-4249-b83a-4b0b17de1789",
+      "note": "0774c6e0-edf7-4c1c-8a54-7c57ac438755",
+      "variants": [
+        "6ffa161a-1f95-46a5-af8b-b5c2418e862e",
+        "dfc61250-3e1f-4a49-bdc1-80ea84b629db"
+      ]
+    },
+    "error_detail": null
+  }
+}

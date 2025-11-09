@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "95c26204-5197-46f5-9291-3b2bb00e7700",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/笔记.html",
+    "collected_at": "2025-11-09T20:05:17.410862Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ca8dd5f2c69c02ebbb7fbb51cdbd3f7de5c037e36a463cbac05e1fa7205b20d4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6e894336-eb28-43fd-8a82-92ec71d76535",
+    "ingest_source_id": "95c26204-5197-46f5-9291-3b2bb00e7700",
+    "canonical_title": "笔记",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:17.410865Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4e516ef5-6186-4eb0-9bef-10f4e6b1a4d1",
+      "note_id": "6e894336-eb28-43fd-8a82-92ec71d76535",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.410868Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-05-13 13:17:21Z\ncreated: 2014-05-13 13:16:15Z\n---\n\n\n\n<en-note>增加回访前短信提醒<div>个人信息首页增加烟酒用量</div><div>个人信息页增加称谓</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ca8dd5f2c69c02ebbb7fbb51cdbd3f7de5c037e36a463cbac05e1fa7205b20d4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/笔记.html"
+      }
+    },
+    {
+      "id": "517a61e6-cba8-400a-a34f-1118d1d2b6c2",
+      "note_id": "6e894336-eb28-43fd-8a82-92ec71d76535",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.410870Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-05-13 13:17:21Z\ncreated: 2014-05-13 13:16:15Z\n---\n\n增加回访前短信提醒\n个人信息首页增加烟酒用量\n个人信息页增加称谓",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 111,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ff4bd638-bdfc-4842-91a5-1a841223a4a9",
+    "note_id": "6e894336-eb28-43fd-8a82-92ec71d76535",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.410875Z",
+    "finished_at": "2025-11-09T20:05:17.410875Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "307b4920-8916-46d3-aff6-065a8dbfdaa6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/笔记.html",
+      "checksum": "ca8dd5f2c69c02ebbb7fbb51cdbd3f7de5c037e36a463cbac05e1fa7205b20d4"
+    },
+    "output_ref": {
+      "ingest_source": "95c26204-5197-46f5-9291-3b2bb00e7700",
+      "note": "6e894336-eb28-43fd-8a82-92ec71d76535",
+      "variants": [
+        "4e516ef5-6186-4eb0-9bef-10f4e6b1a4d1",
+        "517a61e6-cba8-400a-a34f-1118d1d2b6c2"
+      ]
+    },
+    "error_detail": null
+  }
+}

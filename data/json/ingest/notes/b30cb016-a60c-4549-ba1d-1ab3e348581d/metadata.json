@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ec79bdd1-a88c-48cb-b17f-44a63f433457",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/词性名称.html",
+    "collected_at": "2025-11-09T20:05:18.251804Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "953bd1ffb74af2387021620167969d029e29c1dc4356fd1e5ceec98eb1744cf8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b30cb016-a60c-4549-ba1d-1ab3e348581d",
+    "ingest_source_id": "ec79bdd1-a88c-48cb-b17f-44a63f433457",
+    "canonical_title": "词性名称",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.251807Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "词性名称.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bb6bda07-4ddc-4f26-a9bf-8c6a70b23263",
+      "note_id": "b30cb016-a60c-4549-ba1d-1ab3e348581d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.251810Z",
+      "content": "---\ntitle: 词性名称\nupdated: 2020-06-17 22:18:45Z\ncreated: 2020-06-17 22:18:10Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>den 主语</div><div><br/></div><div>Tuwort 动词</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "953bd1ffb74af2387021620167969d029e29c1dc4356fd1e5ceec98eb1744cf8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/词性名称.html"
+      }
+    },
+    {
+      "id": "3fac904e-184f-4c72-b1a1-8a9594fe2fa7",
+      "note_id": "b30cb016-a60c-4549-ba1d-1ab3e348581d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.251812Z",
+      "content": "---\ntitle: 词性名称\nupdated: 2020-06-17 22:18:45Z\ncreated: 2020-06-17 22:18:10Z\nauthor: tangyongfeng@gmail.com\n---\n\nden 主语\nTuwort 动词",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 128,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5c6e2da5-4f7a-4639-a945-b016c90def5a",
+    "note_id": "b30cb016-a60c-4549-ba1d-1ab3e348581d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.251817Z",
+    "finished_at": "2025-11-09T20:05:18.251817Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "25459c8b-e9b6-48aa-adcc-4d64f3a8df1f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/词性名称.html",
+      "checksum": "953bd1ffb74af2387021620167969d029e29c1dc4356fd1e5ceec98eb1744cf8"
+    },
+    "output_ref": {
+      "ingest_source": "ec79bdd1-a88c-48cb-b17f-44a63f433457",
+      "note": "b30cb016-a60c-4549-ba1d-1ab3e348581d",
+      "variants": [
+        "bb6bda07-4ddc-4f26-a9bf-8c6a70b23263",
+        "3fac904e-184f-4c72-b1a1-8a9594fe2fa7"
+      ]
+    },
+    "error_detail": null
+  }
+}

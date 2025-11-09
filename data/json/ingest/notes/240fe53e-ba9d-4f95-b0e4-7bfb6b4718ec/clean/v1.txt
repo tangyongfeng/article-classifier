@@ -1,0 +1,699 @@
+---
+title: 技术文章索引 | 小土刀
+updated: 2016-04-09 07:36:25Z
+created: 2016-04-09 07:36:25Z
+source: http://wdxtub.com/about/?url_type=39&object_type=webpage&pos=1
+---
+
+技术文章索引
+小土刀
+
+Agony is my triumph
+
+ 首页
+ 技术
+ 生活
+ 作品
+ 归档
+ 订阅
+
+技术文章索引
+
+因为文章越来越多，所以分成了技术和生活两类，这里是技术部分相关的文章，主要是课程学习，和一些个人的技术积累。
+
+版权声明：所有内容均为个人学习所用，请勿转载。
+
+架与构
+
+这个系列会写不同的架构概念，写不同的实际系统分析，写自己的想法和思考。
+
+之所以把这个系列取名为『架与构』，是为了提醒自己设计和实现是不可分割的部分，『架』得再好，『构』不出来也没用。所谓『脚踏实地，仰望星空』，大概就是这个道理。
+
+缘起
+
+云计算 CMU 15619
+
+新兴神课 CC 的课程学习笔记。被查水表，暂时取消除课程思考外的所有链接。
+
+试验分析的策略与思考
+
+并发编程的策略与思考
+
+提高 Web 服务性能的策略与思考
+
+HBase 优化的策略与思考
+
+实时服务测试的策略与思考
+
+深入理解计算机系统 CMU 15213
+
+镇校神课的学习笔记。更新中
+
+深入理解计算机系统 - 读书笔记
+
+总览 - 课程总体介绍
+
+Bits, Bytes, Integers - 数据在计算机中的基本表达形式
+
+Floating Point - 浮点数在计算机中的表达
+
+Machine Basics - 机器指令基础
+
+Machine Control - 机器指令如何实现控制流
+
+Machine Procedures - 机器指令如何实现过程调用
+
+Machine Data - 机器指令中的数据表达形式
+
+Machine Advanced - 机器指令中的高级话题
+
+Program Optimization - 程序优化指引
+
+Memory Hierarchy - 内存层级的基本知识
+
+Cache Memories - 缓存的机制介绍
+
+Linking - 不同的代码是如何链接起来的
+
+Exceptions and Processes - 异常处理以及进程的相关知识
+
+Signals and Nonlocal Jumps - 信号和非本地跳转
+
+System Level I/O - 系统级别的输入输出
+
+Virtual Memory - Concepts 虚拟内存的概念
+
+Virtual Memory - System 虚拟内存在系统中的应用
+
+Dynamic Memory Allocation - Basic Concept 动态内存分配的基本概念
+
+Dynamic Memory Allocation - Advanced Concept 动态内存分配的高级概念
+
+Network Programming I - 网络编程的基本概念
+
+Network Programming II - 如何编写网络服务器
+
+Concurrent Programming - 并行编程的基本概念
+
+Synchronization - Basics 线程同步的基本概念
+
+Synchronization - Advanced 读者写者问题与生产者消费者问题
+
+Thread-Level Parallelism - 如何利用线程并行提高效率
+
+Future of Computing - 计算的未来也许就是人类的未来
+
+总结 - 为什么说这是一门神课
+
+习题课与复习
+
+Data Lab - 数据的表示形式
+
+Bomb Lab - 反编译找到正确答案
+
+Attack Lab - 实现溢出或跳转攻击
+
+Cache Lab - 缓存的基本机制
+
+Shell Lab - 写一个自己的 shell
+
+Malloclab - 自己实现内存分配
+
+Proxylab - 自己实现多线程带缓存的代理服务器
+
+期中考试复习
+
+软件架构与设计 CMU 18653
+
+软件工程的进阶课程——软件架构课程学习笔记。更新中
+
+总览
+
+Architectures in Context
+
+Basic Concepts
+
+Designing Architectures
+
+Architectural Styles
+
+Styles and Greenfield Design
+
+Software Connectors
+
+Choosing Connectors
+
+Introduction to Modeling
+
+Visualizing Software Architectures
+
+Service-Oriented Architecture
+
+Analysis of Software Architectures
+
+Implementing Architecture
+
+Architecture Tradeoff Analysis Method
+
+Applied Architectures
+
+Non-Functional Property
+
+Security and Trust
+
+Deployment and Mobility
+
+People, Role, Teams
+
+设计模式
+
+习题课与复习
+
+面向对象复习
+
+不同架构风格应用
+
+从不同视角描述系统
+
+面向服务系统架构设计
+
+期中考试复习
+
+设计模式练习
+
+设计模式进阶练习
+
+课程项目
+
+Docker 快速入门及试验环境配置
+
+Docker 基本概念
+
+Docker 碎碎念
+
+计算机学科知识
+
+转载整理 - 计算机网络
+
+转载整理 - Linux 的概念与体系
+
+设计模式
+
+操作系统(未完成)
+
+编译器(未完成)
+
+数据库(未完成)
+
+经典阅读
+
+【代码大全】读书笔记
+
+【程序员修炼之道】读书笔记
+
+【程序员的思维修炼】学习与思考
+
+【编程珠玑】读书笔记
+
+【深入理解计算机系统】读书笔记
+
+【启示录：打造用户喜爱的产品】读书笔记
+
+【鸟哥的 Linux 私房菜 - 基础】学习笔记
+
+编程手记
+
+Java 概念/算法/设计模式 复习
+
+Node.js 命令行程序实例教程
+
+JavaScript 学习笔记 - 概述
+
+JavaScript 学习笔记 - 语言核心
+
+Cpp 学习笔记
+
+Java 学习笔记
+
+SQL 指南
+
+OpenMP 入门指南
+
+CUDA 简明指南
+
+Hadoop 指南
+
+Python 编程思想
+
+Ruby 快速入门
+
+Io 快速入门
+
+Prolog 快速入门
+
+Docker 快速入门及试验环境配置
+
+Docker 基本概念
+
+Docker 碎碎念
+
+平台工具技巧指南
+
+静态博客 Github 并存指南
+
+Hexo 插件指南
+
+Hexo 主题 Maupassant 换图标教程
+
+iOS 上 Markdown 编辑器简评
+
+libsvm 简易指南
+
+zsh 全程指南
+
+Mac 技巧指南
+
+iTerm2 指南
+
+iTerm2 Version3 动手玩
+
+Ubuntu 工作环境搭建
+
+Make 与 GCC 指南
+
+VS Code 指南
+
+Sublime 指南
+
+Gradle 指南
+
+Vim 基本操作
+
+SVN 指南
+
+简易 Shell 指南
+
+Google 搜索技巧
+
+Latex 常用符号表
+
+tmux 指南
+
+移动开发
+
+Programming iOS9 学习笔记 - Views
+
+Programming iOS9 学习笔记 - Drawing
+
+Programming iOS9 学习笔记 - Layer
+
+Programming iOS9 学习笔记 - Animation
+
+Programming iOS9 学习笔记 - Touches
+
+Programming iOS9 学习笔记 - View Controllers
+
+Programming iOS9 学习笔记 - Scroll View
+
+Programming iOS9 学习笔记 - TableViews and Collection Views
+
+Programming iOS9 学习笔记 - iPad Interface
+
+Programming iOS9 学习笔记 - Text
+
+Programming iOS9 学习笔记 - Web Views
+
+Programming iOS9 学习笔记 - Controls and Other Views
+
+Swift 千金方 - 闭包
+
+Swift 千金方 - Stanford CS193p 学习笔记
+
+Objective-C 格致余论 - Selector
+
+Objective-C 格致余论 - Category
+
+iOS 杂病论 - Library not loaded
+
+iOS 杂病论 - HTTP? HTTPS!
+
+Swift 学习笔记 - 概述
+
+Swift 学习笔记 - 基础
+
+Swift 学习笔记 - 进阶
+
+Swift 学习笔记 - 高级
+
+Android 开发笔记 - ActionBar
+
+Android 开发笔记 - Google Map V2
+
+How to Write Fast Code CMU 18645
+
+我是 16 SPRING 这门课的助教，简单总结一下知识点，不按照老师的安排来进行课程编排了。已完结。
+
+往年笔记与问题集
+
+背景知识
+
+Multicore 编程
+
+OpenMP 入门指南
+
+CUDA 简明指南
+
+Hadoop 指南
+
+Manycore 编程
+
+并行架构
+
+数据结构与算法 CMU 95771
+
+虽然主要介绍的是信息处理相关的数据结构与算法，不过还是比较通用的。已完结
+
+建议配合下面的『编程起跑线』系列阅读学习
+
+总览
+
+基础知识
+
+链表、栈和队列
+
+树
+
+图
+
+搜索与排序
+
+数据压缩
+
+有限状态机
+
+递归
+
+编程起跑线
+
+给还在刷题的同学，一点点过来人的经验。已完结
+
+总览
+
+Big O 分析
+
+数组和字符串
+
+栈和队列
+
+链表
+
+递归与动态规划
+
+树和图
+
+排序和搜索
+
+数学
+
+位操作
+
+面向对象
+
+其他知识
+
+总结
+
+番外篇
+
+技术面试感悟
+
+北美找工作软实力指南
+
+我的软实力
+
+被顶起来的评论
+
+小土刀
+
+回复 高梵梵高:
+这个就是部署在 github 上的呀，在这里
+https://github.com/wdxtub/wdxtub.github.io
+
+2月26日
+回复
+顶(2)
+转发
+举报
+
+高梵梵高
+
+建议楼主放到GitHub,已经看见无数优秀的博客最后因为各种原因平白消失.
+
+放到GitHub可以吸引更多读者,作为一个备份工具也更好.
+
+2月26日
+回复
+顶(1)
+转发
+举报
+
+最新
+最早
+最热
+
+12
+
+郭庆
+
+博客做得太用心了，膜拜。敢问大神是哪位？加个好友呗。
+
+2月20日
+回复
+顶
+转发
+举报
+
+小土刀
+
+我在 CC 群的昵称是『不要在意这些细节』，哈哈
+
+2月20日
+回复
+顶
+转发
+举报
+
+高梵梵高
+
+建议楼主放到GitHub,已经看见无数优秀的博客最后因为各种原因平白消失.
+
+放到GitHub可以吸引更多读者,作为一个备份工具也更好.
+
+2月26日
+回复
+顶(1)
+转发
+举报
+
+小土刀
+
+回复 高梵梵高:
+这个就是部署在 github 上的呀，在这里
+https://github.com/wdxtub/wdxtub.github.io
+
+2月26日
+回复
+顶(2)
+转发
+举报
+
+高梵梵高
+
+回复 小土刀:
+soga~
+
+3月1日
+回复
+顶
+转发
+举报
+
+黄胖子
+
+同样选了CC的同学表示拜服博主
+
+3月7日
+回复
+顶
+转发
+举报
+
+小土刀
+
+回复 黄胖子:
+感动中国
+
+3月8日
+回复
+顶
+转发
+举报
+
+喜卜喜欢
+
+好
+
+3月16日
+回复
+顶
+转发
+举报
+
+晓飞
+
+fast code 敲碗求更新呀~
+
+3月20日
+回复
+顶
+转发
+举报
+
+小土刀
+
+回复 晓飞:
+明天更！最近太忙了没来得及哈
+
+3月20日
+回复
+顶
+转发
+举报
+
+hq
+
+请问95771的难度是处于15650和95772之间吗
+
+4月5日
+回复
+顶
+转发
+举报
+
+小土刀
+
+回复 hq:
+其实这三门课我都没上过，不过算法和数据结构就是多练习，具体看有没有同学一起学比较好
+
+4月6日
+回复
+顶
+转发
+举报
+
+社交帐号登录:
+
+微信
+
+微博
+
+QQ
+
+人人
+
+更多»
+
+豆瓣
+
+开心
+
+百度
+
+谷歌
+
+发布
+
+小土刀正在使用多说
+
+分类
+
+Game
+
+Gossip
+
+Memory
+
+Movie
+
+Reading
+
+Story
+
+Technique
+
+Thinking
+
+Traveling
+
+最近评论
+
+Tisoga
+2小时前
+
+在
+深入理解计算机系统 第 1 课 总览
+ 中评论
+
+惊叹于博主的写作速度！    有几个问题想请教一下：  1. 博主写了这…
+
+孙好黑1220
+14小时前
+
+在
+tmux 指南
+ 中评论
+
+byobu 蛮不错的
+
+唐昊
+15小时前
+
+在
+【深入理解计算机系统】读书笔记
+ 中评论
+
+“机器支持两种形式的右移：逻辑右移(补 0)和算术右移(补 1)”， 算术…
+
+guest232
+4月8日
+
+在
+第十二周 - 正趣果上果
+ 中评论
+
+博主一定是网易云音乐会员。 Jam不错。
+
+唐昊
+4月8日
+
+在
+Deadline 与不插电
+ 中评论
+
+确实是这样，时间规划很重要。我很长一段时间每天看似都待在实验室…
+
+友情链接
+
+Lei YU
+
+我的书摘
+
+刷题笔记
+
+©
+小土刀.
+ Powered by
+ Hexo.
+ Theme
+ by
+ Cho.

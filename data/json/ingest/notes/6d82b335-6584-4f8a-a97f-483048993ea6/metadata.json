@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d7573ff5-03bf-44b6-8dae-989cec22f430",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/学车软件用户名密码.html",
+    "collected_at": "2025-11-09T20:05:16.151634Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "1b712163ae27debfa34ff31bbf52fc7bc5b004b4f9a56798b112282e90c38f5a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6d82b335-6584-4f8a-a97f-483048993ea6",
+    "ingest_source_id": "d7573ff5-03bf-44b6-8dae-989cec22f430",
+    "canonical_title": "学车软件用户名密码",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.151638Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "学车软件用户名密码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "12b1f7b9-da41-45f5-9a1c-09ddff95814f",
+      "note_id": "6d82b335-6584-4f8a-a97f-483048993ea6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.151641Z",
+      "content": "---\ntitle: 学车软件用户名密码\nupdated: 2020-08-24 21:26:00Z\ncreated: 2020-08-24 21:25:27Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>用户名 :evalijia.de@gmail.com</div><div>密码 :965509</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1b712163ae27debfa34ff31bbf52fc7bc5b004b4f9a56798b112282e90c38f5a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/学车软件用户名密码.html"
+      }
+    },
+    {
+      "id": "505e60a9-c3e6-473d-9702-ce99ab1bbd6c",
+      "note_id": "6d82b335-6584-4f8a-a97f-483048993ea6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.151644Z",
+      "content": "---\ntitle: 学车软件用户名密码\nupdated: 2020-08-24 21:26:00Z\ncreated: 2020-08-24 21:25:27Z\nauthor: tangyongfeng@gmail.com\n---\n\n用户名 :evalijia.de@gmail.com\n密码 :965509",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 154,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a10cbd2a-801d-46de-a35b-7303a3f9685c",
+    "note_id": "6d82b335-6584-4f8a-a97f-483048993ea6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.151648Z",
+    "finished_at": "2025-11-09T20:05:16.151649Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0159b14e-328d-44d2-87f8-78465eeb4976",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/学车软件用户名密码.html",
+      "checksum": "1b712163ae27debfa34ff31bbf52fc7bc5b004b4f9a56798b112282e90c38f5a"
+    },
+    "output_ref": {
+      "ingest_source": "d7573ff5-03bf-44b6-8dae-989cec22f430",
+      "note": "6d82b335-6584-4f8a-a97f-483048993ea6",
+      "variants": [
+        "12b1f7b9-da41-45f5-9a1c-09ddff95814f",
+        "505e60a9-c3e6-473d-9702-ce99ab1bbd6c"
+      ]
+    },
+    "error_detail": null
+  }
+}

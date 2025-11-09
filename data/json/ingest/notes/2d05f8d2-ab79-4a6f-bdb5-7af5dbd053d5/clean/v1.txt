@@ -1,0 +1,152 @@
+---
+title: 如何在Linux系统建立自己的闪电网络节点和通道_巴比特_服务于区块链创新者
+updated: 2019-02-18 10:00:08Z
+created: 2019-02-18 10:00:08Z
+source: https://www.8btc.com/article/156211
+---
+
+如何在Linux系统建立自己的闪电网络节点和通道
+
+            p2pbucks
+         
+2018-01-24 13:19
+发布在
+
+              技术指南
+           
+ 26286
+       
+有问题请及时指出，欢迎修改补充和转载
+如何在Linux系统建立自己的闪电网络节点和通道
+下面你需要准备一个硬盘储存大于200G的VPS环境和Ubuntu 16.04系统。推荐用DigitalOcean的虚拟主机，文中的配置是320G硬盘/6核/16GRAM。费用为80$/月
+
+uname -a
+Linux docker-s-6vcpu-16gb-sgp1-01 4.4.0-109-generic #132-Ubuntu SMP Tue Jan 9 19:52:39 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+另外，你需要安装docker环境，如果你用的DigitalOcean，请在One-click APP 中选择Docker 17.12。
+第一步，同步比特币网络数据
+构建docker镜像
+
+git clone https://github.com/dougvk/lightning-node.git
+cd lightning-node
+docker build . -t dougvk/bitcoind
+
+运行比特币节点
+
+mkdir -p /scratch/bitcoin/mainnet/bitcoind
+docker run --name bitcoind_mainnet -d -v /scratch/bitcoin/mainnet/bitcoind:/data -p 8333:8333 -p 9735:9735 dougvk/bitcoind:latest
+docker logs bitcoind_mainnet --tail "10"
+
+将下列内容写到文件/usr/local/bin/bitcoin-cli
+
+#!/usr/bin/env bash
+docker run --rm --network container:bitcoind_mainnet -v /scratch/bitcoin/mainnet/bitcoind:/data dougvk/bitcoind:latest bitcoin-cli "$@"
+
+查看比特币节点运行情况
+
+chmod +x /usr/local/bin/bitcoin-cli
+bitcoin-cli getinfo
+
+等待比特币网络同步账本，我用的新加坡节点大概9个小时同步完成
+第二步，运行闪电网络节点
+现在我们需要运行你的闪电网络节点了。用tmux或打开一个窗口监视闪电网络日志情况
+
+mkdir -p /scratch/bitcoin/mainnet/clightning
+docker run --rm --name lightning --network container:bitcoind_mainnet -v /scratch/bitcoin/mainnet/bitcoind:/root/.bitcoin -v /scratch/bitcoin/mainnet/clightning:/root/.lightning --entrypoint /usr/bin/lightningd cdecker/lightningd:master --network=bitcoin --log-level=debug
+
+将下列内容写到文件/usr/local/bin/lightning-cli 中
+
+#!/usr/bin/env bash
+docker run --rm -v /scratch/bitcoin/mainnet/clightning:/root/.lightning --entrypoint /usr/bin/lightning-cli cdecker/lightningd:master "$@"
+
+运行
+
+chmod +x /usr/local/bin/lightning-cli
+
+检查闪电网络状况
+
+第三步，发送比特币到你的闪电网络地址
+现在你需要将一点比特币发送到你的闪电网络地址上，我发了0.001BTC到闪电网络地址。现在闪电网络还处于起步状态，很多地方需要改进，所以不要发送大量比特币。
+
+lightning-cli newaddr
+{ "address" : "34hXsNhraSsXKsJ2fu162HzEkCFSVUvFzu" }
+
+等待确认后查看资金情况
+
+lightning-cli listfunds
+{ "outputs" : 
+ [ 
+ { "txid" : "690652a94e13ae09e6a32556ce0a7b70043b321cdfb4db87ee144ce494dfd76e", "output" : 1, "value" : 100000 } ] }
+
+现在你需要把自己连接到闪电网络中了，去
+https://lnmainnet.gaben.win/
+ 找到一个节点，点击找到详情。
+
+然后用lightning-cli 命令连接这个闪电网络节点
+
+lightning-cli connect 02c119d2fd2e98a88f50d0d2ee4213255b7b8ec2be3a95f9aabd6afb09dd25b083 98.186.249.155:9735
+{ "id" : "02c119d2fd2e98a88f50d0d2ee4213255b7b8ec2be3a95f9aabd6afb09dd25b083" }
+
+查看闪电网络节点连接情况，我已经连接了两个节点
+
+lightning-cli getpeers
+{ "peers" : 
+ [ 
+ { "state" : "GOSSIPING", "peerid" : "02f6725f9c1c40333b67faea92fd211c183050f28df32cac3f9d69685fe9665432", "netaddr" : 
+ [ "104.198.32.198:9735" ], "connected" : true, "owner" : "lightning_gossipd" }, 
+ { "state" : "GOSSIPING", "peerid" : "02c119d2fd2e98a88f50d0d2ee4213255b7b8ec2be3a95f9aabd6afb09dd25b083", "netaddr" : 
+ [ "98.186.249.155:9735" ], "connected" : true, "owner" : "lightning_gossipd" } ] }
+
+第四步，建立通道
+在资金到账后，下面我们需要和某个已存在的闪电网络节点建立通道了。我选择了节点02f6725f9c1c40333b67faea92fd211c183050f28df32cac3f9d69685fe9665432 来建立闪电通道，其中 2000 satoshi 是通道建立费用
+
+ lightning-cli fundchannel 02f6725f9c1c40333b67faea92fd211c183050f28df32cac3f9d69685fe9665432 2000
+{ "tx" : "020000000001016ed7df94e44c14ee87dbb4df1c323b04707b0ace5625a3e609ae134ea95206690100000017160014db08f81ac41d0c47ebff7ce173ddaa45b22d1253ffffffff02d007000000000000220020f92834320b66494ec5fefbf0a9052c7b4549730af446d004b477cc24ec9afb0d4750010000000000160014781b3864b779a54cf464e277a8fd93c38e8ab048024730440220549dc897e5a582a4c72a0ab8e1695b6ddc7d413e87b532b75f801d335e0e1ccf02205d5fec4bd7193dfbf6a22587ce6877bbcf9440998aaa7cd3a858a4e232cd17c601210301077c8d2e9e97fcf8f2e9a4d60bdf2c266da3b66f2103e8444ec0a7c358d88800000000" }
+
+第五步，收款和支付
+收款
+如果你想通过闪电网络收款的话可以运行以下命令。
+
+lightning-cli invoice <amount> <label> <description>
+
+其中 label 和 description 是支付的标签和说明，amount是数量，单位为聪。
+
+ lightning-cli invoice 100 fist myfistLNpayment
+{ "rhash" : "e762cc7be38cad612a30cc076992d3c1c897971868fffc4ca6b1e825f6e5841e", "expiry_time" : 1516615363, "bolt11" : "lnbc1n1pdxt29npp5ua3vc7lr3jkkz23sesrknyknc8yf09ccdrllcn9xk85ztah9ss0qdqcd4ukv6tnw3xyuurp09kk2mn5cqpg987a88kj4t6wzthvqx6ky9zyys8ued6p5y7eh2k74u9z4nsqr4l8fh5e38gpch0syv6tuq7u83486c9hk3xs9pfuzx8r48evn757y0spd9fvph" }
+
+这样我们就生成了
+bolt11地址
+，即上面那个JSON结构中的lnbcXXXX
+bolt11地址中包含了支付的所有信息，我们可以解码一下这个地址
+
+lightning-cli decodepay lnbc1n1pdxt29npp5ua3vc7lr3jkkz23sesrknyknc8yf09ccdrllcn9xk85ztah9ss0qdqcd4ukv6tnw3xyuurp09kk2mn5cqpg987a88kj4t6wzthvqx6ky9zyys8ued6p5y7eh2k74u9z4nsqr4l8fh5e38gpch0syv6tuq7u83486c9hk3xs9pfuzx8r48evn757y0spd9fvph
+{ "currency" : "bc", "timestamp" : 1516611763, "expiry" : 3600, "payee" : "03c3fa4e2b2c11ab9d4a078e13f0dfb091423e0f06d7d9cc1d9c9ba3b9a5ad5d50", "msatoshi" : 100, "description" : "myfistLNpayment", "payment_hash" : "e762cc7be38cad612a30cc076992d3c1c897971868fffc4ca6b1e825f6e5841e", "signature" : "3044022029fdd39ed2aaf4e12eec01b5621444240fccb741a13d9baadeaf0a2ace001d7e022074de9989d01c5df02334be03dc3c6a7d60b7b44d02853c118e3a9f2c9fa9e23e" }
+
+上面收款的金额和描述就显示了出来
+把上面的bolt11支付地址发给对方就可以等待收款了
+支付
+在我们知道了对方的bolt11支付地址后，我们就可以用以下命令进行支付了
+
+lightning-cli pay bolt11_addr
+
+在拿到付款方的bolt11地址后，我们用上面的lightning-cli decodepay bolt11解码出收款方的payee hash 然后查看通道
+
+lightning-cli getroute 03c3fa4e2b2c11ab9d4a078e13f0dfb091423e0f06d7d9cc1d9c9ba3b9a5ad5d50
+
+如果通道存在的话就可以付款了
+
+ lightning-cli pay lnbc1n1pdxt29npp5ua3vc7lr3jkkz23sesrknyknc8yf09ccdrllcn9xk85ztah9ss0qdqcd4ukv6tnw3xyuurp09kk2mn5cqpg987a88kj4t6wzthvqx6ky9zyys8ued6p5y7eh2k74u9z4nsqr4l8fh5e38gpch0syv6tuq7u83486c9hk3x9pfuzx8r48evn757y0spd9fvph
+{ "preimage" : "xd2005e012ff32b79f88fe976599c5dceeb99b111b81aa5087b815f2e4cdc59a" }
+
+这样我们就完成了收付款的流程
+参考说明
+本文主要参考了
+https://medium.com/@dougvk/run-your-own-mainnet-lightning-node-2d2eab628a8b
+ 和
+https://github.com/ElementsProject/lightning#opening-a-channel-on-the-bitcoin-testnet
+其他文档包括：
+闪电网络测试网络部署
+https://interfect.github.io/#!/posts/009-Ride-the-Lightning.md
+闪电网络 windows 部署
+https://medium.com/@jadmubaslat/bitcoin-lightning-network-node-easy-setup-tutorial-for-windows-desktop-users-a-how-to-guide-9937b5a8a669
+Measure

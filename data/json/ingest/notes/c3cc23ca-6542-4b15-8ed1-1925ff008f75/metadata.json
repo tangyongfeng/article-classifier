@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "07a5e6bf-21eb-4b81-863a-951cc3595a5b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/安装figures 笔记.html",
+    "collected_at": "2025-11-09T20:05:14.839204Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c1954dc3ba655d2ceffdd17ff1a72838b8b62b7abe4667f79ed4a73b5f98a1b6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c3cc23ca-6542-4b15-8ed1-1925ff008f75",
+    "ingest_source_id": "07a5e6bf-21eb-4b81-863a-951cc3595a5b",
+    "canonical_title": "安装figures 笔记",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:14.839207Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "安装figures 笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "50dfc96b-b84a-49dc-bad9-99adcfbb0f93",
+      "note_id": "c3cc23ca-6542-4b15-8ed1-1925ff008f75",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.839210Z",
+      "content": "---\ntitle: 安装figures 笔记\nupdated: 2021-06-16 15:11:36Z\ncreated: 2021-06-14 22:00:22Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>1、ubuntu 16.</div><div>2、安装ginkgo.master</div><ol><li><div>&nbsp; &nbsp; pip 问题，用.local/bin的pip 替代/usr/local/bin/ 中的pip</div></li><li><div><span STYLE=\"font-size: 11px; color: rgb(0, 0, 0); font-family: Menlo; font-stretch: normal; font-variant-ligatures: no-common-ligatures; line-height: normal;\">第一步完成， Done bootstrapping, edx_ansible is now installed in /edx/app/edx_ansible.</span><span STYLE=\"font-size: 11px; color: rgb(0, 0, 0); font-family: Menlo; font-stretch: normal; font-variant-ligatures: no-common-ligatures; line-height: normal;\">Time to run some plays.&nbsp; Activate the virtual env with</span><span STYLE=\"font-size: 11px; --inversion-type-color:  simple; color: rgb(0, 0, 0); font-family: Menlo;\">&nbsp; &nbsp; &gt; . /edx/app/edx_ansible/venvs/edx_ansible/bin/activate</span></div></li><li><div>mango问题：<a HREF=\"https://askubuntu.com/questions/842592/apt-get-fails-on-16-04-or-18-04-installing-mongodb\">https://askubuntu.com/questions/842592/apt-get-fails-on-16-04-or-18-04-installing-mongodb</a></div></li><li><div><br/></div></li></ol><div><br/></div><div><br/></div><div><br/></div><div>\n<span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(251, 30, 255);\">1S8d9VlrPvEF5J9K1e4QG6KJ4T6efZxZE9s</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c1954dc3ba655d2ceffdd17ff1a72838b8b62b7abe4667f79ed4a73b5f98a1b6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/安装figures 笔记.html"
+      }
+    },
+    {
+      "id": "fcae38f1-c497-4219-b2a5-126448e79d74",
+      "note_id": "c3cc23ca-6542-4b15-8ed1-1925ff008f75",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.839213Z",
+      "content": "---\ntitle: 安装figures 笔记\nupdated: 2021-06-16 15:11:36Z\ncreated: 2021-06-14 22:00:22Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、ubuntu 16.\n2、安装ginkgo.master\n    pip 问题，用.local/bin的pip 替代/usr/local/bin/ 中的pip\n第一步完成， Done bootstrapping, edx_ansible is now installed in /edx/app/edx_ansible.\nTime to run some plays.  Activate the virtual env with\n    > . /edx/app/edx_ansible/venvs/edx_ansible/bin/activate\nmango问题：\nhttps://askubuntu.com/questions/842592/apt-get-fails-on-16-04-or-18-04-installing-mongodb\n\n1S8d9VlrPvEF5J9K1e4QG6KJ4T6efZxZE9s",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 533,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "83264f12-db4b-4f60-acc8-5fddd9e78b6c",
+    "note_id": "c3cc23ca-6542-4b15-8ed1-1925ff008f75",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.839217Z",
+    "finished_at": "2025-11-09T20:05:14.839218Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1d1f7294-1eeb-40b0-9733-a3453d878941",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/安装figures 笔记.html",
+      "checksum": "c1954dc3ba655d2ceffdd17ff1a72838b8b62b7abe4667f79ed4a73b5f98a1b6"
+    },
+    "output_ref": {
+      "ingest_source": "07a5e6bf-21eb-4b81-863a-951cc3595a5b",
+      "note": "c3cc23ca-6542-4b15-8ed1-1925ff008f75",
+      "variants": [
+        "50dfc96b-b84a-49dc-bad9-99adcfbb0f93",
+        "fcae38f1-c497-4219-b2a5-126448e79d74"
+      ]
+    },
+    "error_detail": null
+  }
+}

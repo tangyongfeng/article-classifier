@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a3c5b492-b80a-4b6e-9537-732044e638d9",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/奥特迅 002227.html",
+    "collected_at": "2025-11-09T20:05:18.619728Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "268c1a3c68e1aac6c22cad8633721dfb33f98cc91f3a2522099bd7669bbaad84",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "2e7987f1-7a25-44f8-9e08-63ccf530d77f",
+    "ingest_source_id": "a3c5b492-b80a-4b6e-9537-732044e638d9",
+    "canonical_title": "奥特迅 002227",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.619732Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "奥特迅 002227.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ef054f0a-1365-46ad-ab4a-3b2dfaf8264c",
+      "note_id": "2e7987f1-7a25-44f8-9e08-63ccf530d77f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.619735Z",
+      "content": "---\ntitle: 奥特迅 002227\nupdated: 2013-09-11 07:45:27Z\ncreated: 2013-09-11 07:44:53Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n9/11 &nbsp; 充电桩受益股，因为什么什么部的一个讲话，冲击涨停\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "268c1a3c68e1aac6c22cad8633721dfb33f98cc91f3a2522099bd7669bbaad84",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/奥特迅 002227.html"
+      }
+    },
+    {
+      "id": "8b0e34aa-9e7e-4b29-a1bf-c488736f6498",
+      "note_id": "2e7987f1-7a25-44f8-9e08-63ccf530d77f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.619738Z",
+      "content": "---\ntitle: 奥特迅 002227\nupdated: 2013-09-11 07:45:27Z\ncreated: 2013-09-11 07:44:53Z\n---\n\n9/11   充电桩受益股，因为什么什么部的一个讲话，冲击涨停",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 118,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0e8fba2a-6400-4f3b-963d-bec353a56239",
+    "note_id": "2e7987f1-7a25-44f8-9e08-63ccf530d77f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.619743Z",
+    "finished_at": "2025-11-09T20:05:18.619743Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "de7714bd-f883-42c9-838b-48af6e06b9ab",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/奥特迅 002227.html",
+      "checksum": "268c1a3c68e1aac6c22cad8633721dfb33f98cc91f3a2522099bd7669bbaad84"
+    },
+    "output_ref": {
+      "ingest_source": "a3c5b492-b80a-4b6e-9537-732044e638d9",
+      "note": "2e7987f1-7a25-44f8-9e08-63ccf530d77f",
+      "variants": [
+        "ef054f0a-1365-46ad-ab4a-3b2dfaf8264c",
+        "8b0e34aa-9e7e-4b29-a1bf-c488736f6498"
+      ]
+    },
+    "error_detail": null
+  }
+}

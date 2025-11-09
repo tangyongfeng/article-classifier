@@ -1,0 +1,228 @@
+---
+title: SQLiteDatabase.cs
+updated: 2013-06-08 07:55:50Z
+created: 2013-06-08 07:55:42Z
+tags:
+  - SQLite
+  - c#
+---
+
+
+
+
+<en-note STYLE="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+using System;<br/>
+using System.Collections.Generic;<br/>
+using System.Data;<br/>
+using System.Data.SQLite;<br/>
+using System.Windows.Forms;<br/><br/>
+class SQLiteDatabase<br/>
+{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; String dbConnection;<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Default Constructor for SQLiteDatabase Class.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public SQLiteDatabase()<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dbConnection = &quot;Data Source=recipes.s3db&quot;;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Single Param Constructor for specifying the DB file.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;inputFile&quot;&gt;The File containing the DB&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public SQLiteDatabase(String inputFile)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dbConnection = String.Format(&quot;Data Source={0}&quot;, inputFile);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Single Param Constructor for specifying advanced connection options.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;connectionOpts&quot;&gt;A dictionary containing all desired options and their values&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public SQLiteDatabase(Dictionary&lt;String, String&gt; connectionOpts)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; String str = &quot;&quot;;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; foreach (KeyValuePair&lt;String, String&gt; row in connectionOpts)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; str += String.Format(&quot;{0}={1}; &quot;, row.Key, row.Value);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; str = str.Trim().Substring(0, str.Length - 1);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dbConnection = str;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Allows the programmer to run a query against the Database.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;sql&quot;&gt;The SQL to run&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;returns&gt;A DataTable containing the result set.&lt;/returns&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public DataTable GetDataTable(string sql)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DataTable dt = new DataTable();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLiteConnection cnn = new SQLiteConnection(dbConnection);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cnn.Open();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLiteCommand mycommand = new SQLiteCommand(cnn);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mycommand.CommandText = sql;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLiteDataReader reader = mycommand.ExecuteReader();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; dt.Load(reader);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; reader.Close();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cnn.Close();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; catch (Exception e)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; throw new Exception(e.Message);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return dt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Allows the programmer to interact with the database for purposes other than a query.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;sql&quot;&gt;The SQL to be run.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;returns&gt;An Integer containing the number of rows updated.&lt;/returns&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public int ExecuteNonQuery(string sql)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLiteConnection cnn = new SQLiteConnection(dbConnection);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cnn.Open();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLiteCommand mycommand = new SQLiteCommand(cnn);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mycommand.CommandText = sql;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int rowsUpdated = mycommand.ExecuteNonQuery();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cnn.Close();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return rowsUpdated;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Allows the programmer to retrieve single items from the DB.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;sql&quot;&gt;The query to run.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;returns&gt;A string.&lt;/returns&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public string ExecuteScalar(string sql)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLiteConnection cnn = new SQLiteConnection(dbConnection);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cnn.Open();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SQLiteCommand mycommand = new SQLiteCommand(cnn);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mycommand.CommandText = sql;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; object value = mycommand.ExecuteScalar();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cnn.Close();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (value != null)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return value.ToString();<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return &quot;&quot;;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Allows the programmer to easily update rows in the DB.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;tableName&quot;&gt;The table to update.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;data&quot;&gt;A dictionary containing Column names and their new values.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;where&quot;&gt;The where clause for the update statement.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;returns&gt;A boolean true or false to signify success or failure.&lt;/returns&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public bool Update(String tableName, Dictionary&lt;String, String&gt; data, String where)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; String vals = &quot;&quot;;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Boolean returnCode = true;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if (data.Count &gt;= 1)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; foreach (KeyValuePair&lt;String, String&gt; val in data)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vals += String.Format(&quot; {0} = &apos;{1}&apos;,&quot;, val.Key.ToString(), val.Value.ToString());<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vals = vals.Substring(0, vals.Length - 1);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.ExecuteNonQuery(String.Format(&quot;update {0} set {1} where {2};&quot;, tableName, vals, where));<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; catch<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; returnCode = false;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return returnCode;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Allows the programmer to easily delete rows from the DB.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;tableName&quot;&gt;The table from which to delete.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;where&quot;&gt;The where clause for the delete.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;returns&gt;A boolean true or false to signify success or failure.&lt;/returns&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public bool Delete(String tableName, String where)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Boolean returnCode = true;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.ExecuteNonQuery(String.Format(&quot;delete from {0} where {1};&quot;, tableName, where));<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; catch (Exception fail)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MessageBox.Show(fail.Message);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; returnCode = false;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return returnCode;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Allows the programmer to easily insert into the DB<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;tableName&quot;&gt;The table into which we insert the data.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;data&quot;&gt;A dictionary containing the column names and data for the insert.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;returns&gt;A boolean true or false to signify success or failure.&lt;/returns&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public bool Insert(String tableName, Dictionary&lt;String, String&gt; data)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; String columns = &quot;&quot;;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; String values = &quot;&quot;;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Boolean returnCode = true;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; foreach (KeyValuePair&lt;String, String&gt; val in data)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; columns += String.Format(&quot; {0},&quot;, val.Key.ToString());<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; values += String.Format(&quot; &apos;{0}&apos;,&quot;, val.Value);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; columns = columns.Substring(0, columns.Length - 1);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; values = values.Substring(0, values.Length - 1);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.ExecuteNonQuery(String.Format(&quot;insert into {0}({1}) values({2});&quot;, tableName, columns, values));<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; catch(Exception fail)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MessageBox.Show(fail.Message);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; returnCode = false;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return returnCode;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Allows the programmer to easily delete all data from the DB.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;returns&gt;A boolean true or false to signify success or failure.&lt;/returns&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public bool ClearDB()<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DataTable tables;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; tables = this.GetDataTable(&quot;select NAME from SQLITE_MASTER where type=&apos;table&apos; order by NAME;&quot;);<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; foreach (DataRow table in tables.Rows)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.ClearTable(table[&quot;NAME&quot;].ToString());<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return true;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; catch<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return false;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }<br/><br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; ///&nbsp;&nbsp;&nbsp;&nbsp; Allows the user to easily clear all data from a specific table.<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;/summary&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;param name=&quot;table&quot;&gt;The name of the table to clear.&lt;/param&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; /// &lt;returns&gt;A boolean true or false to signify success or failure.&lt;/returns&gt;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; public bool ClearTable(String table)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; try<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; this.ExecuteNonQuery(String.Format(&quot;delete from {0};&quot;, table));<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return true;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; catch<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; return false;<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; }&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+}<br/><br/></en-note>      

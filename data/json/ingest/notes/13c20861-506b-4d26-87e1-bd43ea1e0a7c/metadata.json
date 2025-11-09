@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "875f374f-500f-4812-bec9-854dd9741af5",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/umgehend sofort bald 区别.html",
+    "collected_at": "2025-11-09T20:01:38.849234Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "67eaba1a8df15aa095c462689ad96e17a7f67e6ca3a0fe7c676207cbb596e301",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "13c20861-506b-4d26-87e1-bd43ea1e0a7c",
+    "ingest_source_id": "875f374f-500f-4812-bec9-854dd9741af5",
+    "canonical_title": "umgehend sofort bald 区别",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.849238Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "umgehend sofort bald 区别.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e6e8f5a1-8ac4-485d-9cc2-270ff23238d5",
+      "note_id": "13c20861-506b-4d26-87e1-bd43ea1e0a7c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.849241Z",
+      "content": "---\ntitle: umgehend sofort bald 区别\nupdated: 2021-02-23 12:56:39Z\ncreated: 2021-02-23 12:56:22Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "67eaba1a8df15aa095c462689ad96e17a7f67e6ca3a0fe7c676207cbb596e301",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/umgehend sofort bald 区别.html"
+      }
+    },
+    {
+      "id": "21919590-b99d-4c06-a385-5d91e24bf945",
+      "note_id": "13c20861-506b-4d26-87e1-bd43ea1e0a7c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.849244Z",
+      "content": "---\ntitle: umgehend sofort bald 区别\nupdated: 2021-02-23 12:56:39Z\ncreated: 2021-02-23 12:56:22Z\nauthor: tangyongfeng@gmail.com\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 129,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f44d47fc-32e5-4112-9e23-63df5f5ce667",
+    "note_id": "13c20861-506b-4d26-87e1-bd43ea1e0a7c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.849249Z",
+    "finished_at": "2025-11-09T20:01:38.849249Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c5770d71-06a2-4fbe-ad93-69edc36e84b3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/umgehend sofort bald 区别.html",
+      "checksum": "67eaba1a8df15aa095c462689ad96e17a7f67e6ca3a0fe7c676207cbb596e301"
+    },
+    "output_ref": {
+      "ingest_source": "875f374f-500f-4812-bec9-854dd9741af5",
+      "note": "13c20861-506b-4d26-87e1-bd43ea1e0a7c",
+      "variants": [
+        "e6e8f5a1-8ac4-485d-9cc2-270ff23238d5",
+        "21919590-b99d-4c06-a385-5d91e24bf945"
+      ]
+    },
+    "error_detail": null
+  }
+}

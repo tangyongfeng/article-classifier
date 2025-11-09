@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "72159fbf-2cb9-486d-bdd8-ca783daa7122",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/8.6.html",
+    "collected_at": "2025-11-09T20:05:18.117540Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "dc323ee04f2cc224a4111f1f184064a4a9772dfa96642999c2dda7dbb84ff230",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "bc7b4e50-c9f1-4111-b015-1b1e318eb07d",
+    "ingest_source_id": "72159fbf-2cb9-486d-bdd8-ca783daa7122",
+    "canonical_title": "8.6",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.117543Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "8.6.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "fd4df9d8-8efa-4ad1-a6b7-c4c7c840594e",
+      "note_id": "bc7b4e50-c9f1-4111-b015-1b1e318eb07d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.117546Z",
+      "content": "---\ntitle: 8.6\nupdated: 2020-08-06 11:34:08Z\ncreated: 2020-08-06 11:33:57Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><ul><li><div> <span STYLE=\"font-size: 28.0pt; mso-bidi-font-size: 48.0pt; mso-ansi-language: DE;\">Er bringt mich jedes Mal zum Lachen.</span></div></li><li><div> <span STYLE=\"font-size: 28.0pt; mso-bidi-font-size: 48.0pt; mso-ansi-language: DE;\">Ich habe aber bemerkt, dass Tom nicht lacht.</span></div></li><li><div> <span STYLE=\"font-size: 28.0pt; mso-bidi-font-size: 48.0pt; mso-ansi-language: DE;\">Er ist eifers&uuml;chtig geworden.</span></div></li></ul><div><span STYLE=\"font-size: 28.0pt; mso-bidi-font-size: 48.0pt; mso-ansi-language: DE;\">&nbsp;</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dc323ee04f2cc224a4111f1f184064a4a9772dfa96642999c2dda7dbb84ff230",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/8.6.html"
+      }
+    },
+    {
+      "id": "58f2e807-3a49-44ff-8b5f-5ad7821a8b85",
+      "note_id": "bc7b4e50-c9f1-4111-b015-1b1e318eb07d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.117549Z",
+      "content": "---\ntitle: 8.6\nupdated: 2020-08-06 11:34:08Z\ncreated: 2020-08-06 11:33:57Z\nauthor: tangyongfeng@gmail.com\n---\n\nEr bringt mich jedes Mal zum Lachen.\n\nIch habe aber bemerkt, dass Tom nicht lacht.\n\nEr ist eifersüchtig geworden.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 224,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "76e61476-83e3-4b6c-9d7b-58db3a9fc2d5",
+    "note_id": "bc7b4e50-c9f1-4111-b015-1b1e318eb07d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.117553Z",
+    "finished_at": "2025-11-09T20:05:18.117554Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b3fa454a-dddc-4924-af85-f5fd1bab5f08",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/8.6.html",
+      "checksum": "dc323ee04f2cc224a4111f1f184064a4a9772dfa96642999c2dda7dbb84ff230"
+    },
+    "output_ref": {
+      "ingest_source": "72159fbf-2cb9-486d-bdd8-ca783daa7122",
+      "note": "bc7b4e50-c9f1-4111-b015-1b1e318eb07d",
+      "variants": [
+        "fd4df9d8-8efa-4ad1-a6b7-c4c7c840594e",
+        "58f2e807-3a49-44ff-8b5f-5ad7821a8b85"
+      ]
+    },
+    "error_detail": null
+  }
+}

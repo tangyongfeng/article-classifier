@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4098bc0a-2da5-4a79-871c-4df90311940b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/段子/妈：怎么不把男朋友带回家看看啊？.html",
+    "collected_at": "2025-11-09T20:01:39.928716Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "067b6625bfdc58ff7b126f7587d169f90c6e1be9a48fb723a312945de9050027",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0baead16-d65e-4a2f-a498-52e62bfdbca7",
+    "ingest_source_id": "4098bc0a-2da5-4a79-871c-4df90311940b",
+    "canonical_title": "妈：怎么不把男朋友带回家看看啊？",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.928720Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "妈：怎么不把男朋友带回家看看啊？.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0a6c9d16-3ef6-4817-91f0-77e584d182d8",
+      "note_id": "0baead16-d65e-4a2f-a498-52e62bfdbca7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.928722Z",
+      "content": "---\ntitle: 妈：怎么不把男朋友带回家看看啊？\nupdated: 2014-04-01 04:46:41Z\ncreated: 2014-04-01 04:46:41Z\nsource: >-\n  https://plus.google.com/110402715572698674699/posts?utm_source=dlvr.it&utm_medium=facebook\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">妈：怎么不把男朋友带回家看看啊？</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">我：他嫌我家太穷，不来。</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">妈：你去他家住几天吧。</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">我：干嘛？</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">妈：他家也得穷啊。</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">亲妈啊-_-||﻿</span></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "067b6625bfdc58ff7b126f7587d169f90c6e1be9a48fb723a312945de9050027",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/段子/妈：怎么不把男朋友带回家看看啊？.html"
+      }
+    },
+    {
+      "id": "75da58eb-3ba8-4fef-9320-2e7f0ef3ca97",
+      "note_id": "0baead16-d65e-4a2f-a498-52e62bfdbca7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.928725Z",
+      "content": "---\ntitle: 妈：怎么不把男朋友带回家看看啊？\nupdated: 2014-04-01 04:46:41Z\ncreated: 2014-04-01 04:46:41Z\nsource: >-\n  https://plus.google.com/110402715572698674699/posts?utm_source=dlvr.it&utm_medium=facebook\n---\n\n妈：怎么不把男朋友带回家看看啊？\n我：他嫌我家太穷，不来。\n妈：你去他家住几天吧。\n我：干嘛？\n妈：他家也得穷啊。\n亲妈啊-_-||﻿",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 264,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e8db2d17-9867-48a6-b769-3fcc0b599e97",
+    "note_id": "0baead16-d65e-4a2f-a498-52e62bfdbca7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.928730Z",
+    "finished_at": "2025-11-09T20:01:39.928730Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0cbe5815-a207-475a-8035-249314ce8d63",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/段子/妈：怎么不把男朋友带回家看看啊？.html",
+      "checksum": "067b6625bfdc58ff7b126f7587d169f90c6e1be9a48fb723a312945de9050027"
+    },
+    "output_ref": {
+      "ingest_source": "4098bc0a-2da5-4a79-871c-4df90311940b",
+      "note": "0baead16-d65e-4a2f-a498-52e62bfdbca7",
+      "variants": [
+        "0a6c9d16-3ef6-4817-91f0-77e584d182d8",
+        "75da58eb-3ba8-4fef-9320-2e7f0ef3ca97"
+      ]
+    },
+    "error_detail": null
+  }
+}

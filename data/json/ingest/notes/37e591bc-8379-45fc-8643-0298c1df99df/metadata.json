@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "de29e3e5-f73f-4aa5-8923-af894b3362f9",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/书单.html",
+    "collected_at": "2025-11-09T20:05:15.906901Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "213affebabdfd1218452bd56b367c289f37c13f1b6eac0005bb1d04410084c52",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "37e591bc-8379-45fc-8643-0298c1df99df",
+    "ingest_source_id": "de29e3e5-f73f-4aa5-8923-af894b3362f9",
+    "canonical_title": "书单",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:15.906905Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "书单.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2675f5aa-5d39-4a74-b7cd-d3a1fbd7df05",
+      "note_id": "37e591bc-8379-45fc-8643-0298c1df99df",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.906907Z",
+      "content": "---\ntitle: 书单\nupdated: 2021-03-17 00:25:06Z\ncreated: 2021-03-17 00:24:50Z\n---\n\n\n\n<en-note><div><br/></div><div><span STYLE=\"font-weight: bold;\">《枪炮、病菌与钢铁》</span></div><div>为什么是欧洲人征服了美洲，而不是相反?这个答案百万年前就已决定。</div><div><br STYLE=\"margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;\"/></div><div><span STYLE=\"font-weight: bold;\">《思维旅行》</span></div><div>时间与空间的悖论，古代哲学家对宇宙本质的深刻洞察。</div><div><br STYLE=\"margin: 0px; padding: 0px; max-width: 100%; box-sizing: border-box !important; word-wrap: break-word !important;\"/></div><div><span STYLE=\"font-weight: bold;\">《信息简史》</span></div><div>人类的目光从极微的原子到广阔的星系，无所不览，而今日人类的认知开始逆转，回归对信息本质的研究，而这就是那段历史。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "213affebabdfd1218452bd56b367c289f37c13f1b6eac0005bb1d04410084c52",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/书单.html"
+      }
+    },
+    {
+      "id": "bd41446b-5dbb-4ba5-8cc7-c1b31d543bda",
+      "note_id": "37e591bc-8379-45fc-8643-0298c1df99df",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.906910Z",
+      "content": "---\ntitle: 书单\nupdated: 2021-03-17 00:25:06Z\ncreated: 2021-03-17 00:24:50Z\n---\n\n《枪炮、病菌与钢铁》\n为什么是欧洲人征服了美洲，而不是相反?这个答案百万年前就已决定。\n《思维旅行》\n时间与空间的悖论，古代哲学家对宇宙本质的深刻洞察。\n《信息简史》\n人类的目光从极微的原子到广阔的星系，无所不览，而今日人类的认知开始逆转，回归对信息本质的研究，而这就是那段历史。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 219,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "eca1df59-2fc8-4b95-8076-675bea004969",
+    "note_id": "37e591bc-8379-45fc-8643-0298c1df99df",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.906915Z",
+    "finished_at": "2025-11-09T20:05:15.906915Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8c8d2a7a-b0dd-4b78-8fc9-43c2c6efb62c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/书单.html",
+      "checksum": "213affebabdfd1218452bd56b367c289f37c13f1b6eac0005bb1d04410084c52"
+    },
+    "output_ref": {
+      "ingest_source": "de29e3e5-f73f-4aa5-8923-af894b3362f9",
+      "note": "37e591bc-8379-45fc-8643-0298c1df99df",
+      "variants": [
+        "2675f5aa-5d39-4a74-b7cd-d3a1fbd7df05",
+        "bd41446b-5dbb-4ba5-8cc7-c1b31d543bda"
+      ]
+    },
+    "error_detail": null
+  }
+}

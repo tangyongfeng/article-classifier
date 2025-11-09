@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6d40ecb6-296e-4487-8e7f-babfa439b3b0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/无标题笔记-1.html",
+    "collected_at": "2025-11-09T20:05:17.069837Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "df2b36c06646b9b16bdfbe47ef8b3515056a8f982e4141b5783c82f2a8d5a721",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "996e0100-3e0b-4b67-a18f-7bfe37fe2917",
+    "ingest_source_id": "6d40ecb6-296e-4487-8e7f-babfa439b3b0",
+    "canonical_title": "无标题笔记-1",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:17.069840Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "274de3e7-b8af-4f7f-b688-16edad4015a4",
+      "note_id": "996e0100-3e0b-4b67-a18f-7bfe37fe2917",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.069843Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2015-05-16 12:10:17Z\ncreated: 2015-05-16 12:09:25Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><img src=\"../_resources/2f5c381eed174726058fd228c731f623.png\"  hash=\"2f5c381eed174726058fd228c731f623\" style=\"cursor: default;cursor: default;\" type=\"image/png\" alt=\"\" /></en-media><img src=\"../_resources/0aab85a49e8630592a64c9fd68472de8.png\"  hash=\"0aab85a49e8630592a64c9fd68472de8\" style=\"cursor: default;\" type=\"image/png\" alt=\"\" /></en-media><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "df2b36c06646b9b16bdfbe47ef8b3515056a8f982e4141b5783c82f2a8d5a721",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/无标题笔记-1.html"
+      }
+    },
+    {
+      "id": "a50a93e2-b7ca-4ae0-8f0d-9ce66e6c099e",
+      "note_id": "996e0100-3e0b-4b67-a18f-7bfe37fe2917",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.069845Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2015-05-16 12:10:17Z\ncreated: 2015-05-16 12:09:25Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 80,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2f811489-64f7-4013-8b6c-57df383da45c",
+    "note_id": "996e0100-3e0b-4b67-a18f-7bfe37fe2917",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.069850Z",
+    "finished_at": "2025-11-09T20:05:17.069850Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a1237a82-dd64-4bbe-8d7f-a3cd0333d49b",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/无标题笔记-1.html",
+      "checksum": "df2b36c06646b9b16bdfbe47ef8b3515056a8f982e4141b5783c82f2a8d5a721"
+    },
+    "output_ref": {
+      "ingest_source": "6d40ecb6-296e-4487-8e7f-babfa439b3b0",
+      "note": "996e0100-3e0b-4b67-a18f-7bfe37fe2917",
+      "variants": [
+        "274de3e7-b8af-4f7f-b688-16edad4015a4",
+        "a50a93e2-b7ca-4ae0-8f0d-9ce66e6c099e"
+      ]
+    },
+    "error_detail": null
+  }
+}

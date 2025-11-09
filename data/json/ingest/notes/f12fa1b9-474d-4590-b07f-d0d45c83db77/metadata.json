@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "798e1648-65d2-43ae-9966-d951d174d39e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/bclc.html",
+    "collected_at": "2025-11-09T20:01:37.763525Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d2545b9043533f6d6ac9c27529ef7d2c205f0883973e91fc281a0585559dcf21",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f12fa1b9-474d-4590-b07f-d0d45c83db77",
+    "ingest_source_id": "798e1648-65d2-43ae-9966-d951d174d39e",
+    "canonical_title": "bclc",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.763529Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "bclc.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "41c89d9d-36c4-44e3-8d10-b858f212e1ab",
+      "note_id": "f12fa1b9-474d-4590-b07f-d0d45c83db77",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.763532Z",
+      "content": "---\ntitle: bclc\nupdated: 2018-02-07 07:39:44Z\ncreated: 2018-02-07 07:39:02Z\nauthor: tangyongfeng\n---\n\n\n<en-note><div>加拿大在线博彩公司，为betfair合作伙伴</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d2545b9043533f6d6ac9c27529ef7d2c205f0883973e91fc281a0585559dcf21",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/bclc.html"
+      }
+    },
+    {
+      "id": "91b853b3-d73b-4f8a-adf7-b6544b8d7b9f",
+      "note_id": "f12fa1b9-474d-4590-b07f-d0d45c83db77",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.763534Z",
+      "content": "---\ntitle: bclc\nupdated: 2018-02-07 07:39:44Z\ncreated: 2018-02-07 07:39:02Z\nauthor: tangyongfeng\n---\n\n加拿大在线博彩公司，为betfair合作伙伴",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 124,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "438eb4a5-998d-4786-a89d-10c0a147d717",
+    "note_id": "f12fa1b9-474d-4590-b07f-d0d45c83db77",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.763539Z",
+    "finished_at": "2025-11-09T20:01:37.763539Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "db11267f-8fe4-4643-b2a1-5d9773908f83",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/bclc.html",
+      "checksum": "d2545b9043533f6d6ac9c27529ef7d2c205f0883973e91fc281a0585559dcf21"
+    },
+    "output_ref": {
+      "ingest_source": "798e1648-65d2-43ae-9966-d951d174d39e",
+      "note": "f12fa1b9-474d-4590-b07f-d0d45c83db77",
+      "variants": [
+        "41c89d9d-36c4-44e3-8d10-b858f212e1ab",
+        "91b853b3-d73b-4f8a-adf7-b6544b8d7b9f"
+      ]
+    },
+    "error_detail": null
+  }
+}

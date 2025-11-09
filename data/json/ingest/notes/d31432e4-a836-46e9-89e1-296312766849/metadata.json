@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "67c4d34a-bf22-4752-b25b-9a749d137f58",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/多晶硅和太阳能薄膜.html",
+    "collected_at": "2025-11-09T20:01:39.548822Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "05a0f768e51011f55c77b0d0a13cd9a8697fe22aa36444ee7bc16d0c11e2925c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d31432e4-a836-46e9-89e1-296312766849",
+    "ingest_source_id": "67c4d34a-bf22-4752-b25b-9a749d137f58",
+    "canonical_title": "多晶硅和太阳能薄膜",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.548826Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "多晶硅和太阳能薄膜.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "02b7d361-ced1-4838-843d-d90504b82403",
+      "note_id": "d31432e4-a836-46e9-89e1-296312766849",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.548829Z",
+      "content": "---\ntitle: 多晶硅和太阳能薄膜\nupdated: 2014-02-21 14:18:11Z\ncreated: 2014-02-21 14:17:53Z\nauthor: tangyongfeng\n---\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n<span STYLE=\"color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 18px; background-color: rgb(255, 255, 255);\">微软和苹果，都是伟大的公司。不过，如果买入的顺序反了，就会很惨。必须是先买微软，卖出，然后买入苹果。这样才能赚到高额利润。买的就是台式机到移动手机这个过渡。同样，太阳能行业也是这样。必须是先买多晶硅，然后，等多晶硅普及之后，再买太阳能薄膜。千万不要搞反顺序。</span><br/>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "05a0f768e51011f55c77b0d0a13cd9a8697fe22aa36444ee7bc16d0c11e2925c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/多晶硅和太阳能薄膜.html"
+      }
+    },
+    {
+      "id": "74b4190c-01db-4fef-9af6-52a539acffc6",
+      "note_id": "d31432e4-a836-46e9-89e1-296312766849",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.548832Z",
+      "content": "---\ntitle: 多晶硅和太阳能薄膜\nupdated: 2014-02-21 14:18:11Z\ncreated: 2014-02-21 14:17:53Z\nauthor: tangyongfeng\n---\n\n微软和苹果，都是伟大的公司。不过，如果买入的顺序反了，就会很惨。必须是先买微软，卖出，然后买入苹果。这样才能赚到高额利润。买的就是台式机到移动手机这个过渡。同样，太阳能行业也是这样。必须是先买多晶硅，然后，等多晶硅普及之后，再买太阳能薄膜。千万不要搞反顺序。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 236,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4356ff1f-5209-4a56-b787-ff02035b63b3",
+    "note_id": "d31432e4-a836-46e9-89e1-296312766849",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.548837Z",
+    "finished_at": "2025-11-09T20:01:39.548837Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7c24d605-28cb-4bcf-b2e0-a1c7a969d91e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/多晶硅和太阳能薄膜.html",
+      "checksum": "05a0f768e51011f55c77b0d0a13cd9a8697fe22aa36444ee7bc16d0c11e2925c"
+    },
+    "output_ref": {
+      "ingest_source": "67c4d34a-bf22-4752-b25b-9a749d137f58",
+      "note": "d31432e4-a836-46e9-89e1-296312766849",
+      "variants": [
+        "02b7d361-ced1-4838-843d-d90504b82403",
+        "74b4190c-01db-4fef-9af6-52a539acffc6"
+      ]
+    },
+    "error_detail": null
+  }
+}

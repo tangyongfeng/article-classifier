@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e07e8e8f-0e94-40d0-9944-44f11ce795cc",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/劲嘉股份。大宗交易.html",
+    "collected_at": "2025-11-09T20:01:39.485121Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "5b795bdbaf572de7de71c27c5ed6951a4ecf5b8385d08c6fbc6a4de7143cdd27",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c25a9add-1950-409e-acbe-5c6636a6f0d4",
+    "ingest_source_id": "e07e8e8f-0e94-40d0-9944-44f11ce795cc",
+    "canonical_title": "劲嘉股份。大宗交易",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.485126Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "劲嘉股份。大宗交易.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "36f7f120-94d8-4277-9192-8bb5197d6846",
+      "note_id": "c25a9add-1950-409e-acbe-5c6636a6f0d4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.485130Z",
+      "content": "---\ntitle: 劲嘉股份。大宗交易\nupdated: 2013-09-07 14:48:32Z\ncreated: 2013-09-04 14:04:27Z\nsource: >-\n  http://f10.eastmoney.com/f10_v2/ShareholderResearch.aspx?code=sz002191#sdltgd-0\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n&nbsp; 2013年9月3、4日 减持1800万股，套现8183+10640万，公司为深圳世纪运通投资有限公司，该公司实际控制人为乔鲁予，本人持有劲嘉创投（大股东）90股权。\n<div>减持前，深圳世纪运通投资有限公司持有劲嘉股份33,600,000&nbsp;&nbsp;&nbsp;&nbsp; 5.23% 。</div><div>此次大宗交易为大股东减持。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5b795bdbaf572de7de71c27c5ed6951a4ecf5b8385d08c6fbc6a4de7143cdd27",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/劲嘉股份。大宗交易.html"
+      }
+    },
+    {
+      "id": "565901c1-e4b8-48ea-b819-7a7dfbf32b6c",
+      "note_id": "c25a9add-1950-409e-acbe-5c6636a6f0d4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.485134Z",
+      "content": "---\ntitle: 劲嘉股份。大宗交易\nupdated: 2013-09-07 14:48:32Z\ncreated: 2013-09-04 14:04:27Z\nsource: >-\n  http://f10.eastmoney.com/f10_v2/ShareholderResearch.aspx?code=sz002191#sdltgd-0\n---\n\n  2013年9月3、4日 减持1800万股，套现8183+10640万，公司为深圳世纪运通投资有限公司，该公司实际控制人为乔鲁予，本人持有劲嘉创投（大股东）90股权。\n\n减持前，深圳世纪运通投资有限公司持有劲嘉股份33,600,000     5.23% 。\n此次大宗交易为大股东减持。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 323,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "cf0cae44-f7c9-4bc7-a6fc-264ccb228171",
+    "note_id": "c25a9add-1950-409e-acbe-5c6636a6f0d4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.485140Z",
+    "finished_at": "2025-11-09T20:01:39.485141Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "725f70a8-ca68-4ead-b26a-524b3c867fac",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/劲嘉股份。大宗交易.html",
+      "checksum": "5b795bdbaf572de7de71c27c5ed6951a4ecf5b8385d08c6fbc6a4de7143cdd27"
+    },
+    "output_ref": {
+      "ingest_source": "e07e8e8f-0e94-40d0-9944-44f11ce795cc",
+      "note": "c25a9add-1950-409e-acbe-5c6636a6f0d4",
+      "variants": [
+        "36f7f120-94d8-4277-9192-8bb5197d6846",
+        "565901c1-e4b8-48ea-b819-7a7dfbf32b6c"
+      ]
+    },
+    "error_detail": null
+  }
+}

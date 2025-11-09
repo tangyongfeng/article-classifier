@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "285ee4bd-4ea5-4d47-a4c0-36a1b59df4b7",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/马耳他汇报稿.html",
+    "collected_at": "2025-11-09T20:01:38.105922Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c7e256d10469582674187a99fd21128314b6e5b6c890f623144236724cc2712e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a284989e-a3db-4f56-a5f3-6e7d9640f87d",
+    "ingest_source_id": "285ee4bd-4ea5-4d47-a4c0-36a1b59df4b7",
+    "canonical_title": "马耳他汇报稿",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.105926Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "马耳他汇报稿.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c7f1a7ba-f6a4-4e2e-9399-e9cbb109f3c7",
+      "note_id": "a284989e-a3db-4f56-a5f3-6e7d9640f87d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.105929Z",
+      "content": "---\ntitle: 马耳他汇报稿\nupdated: 2018-07-23 06:09:23Z\ncreated: 2018-07-23 06:08:22Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>1、政策法规</div><div>2、市场环境</div><div>3、推展及产品规划</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c7e256d10469582674187a99fd21128314b6e5b6c890f623144236724cc2712e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/马耳他汇报稿.html"
+      }
+    },
+    {
+      "id": "0da8a577-50c8-4bda-bb43-fd19e198336a",
+      "note_id": "a284989e-a3db-4f56-a5f3-6e7d9640f87d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.105932Z",
+      "content": "---\ntitle: 马耳他汇报稿\nupdated: 2018-07-23 06:09:23Z\ncreated: 2018-07-23 06:08:22Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、政策法规\n2、市场环境\n3、推展及产品规划",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 137,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9a17d215-a941-4908-b468-c48bb24f63b4",
+    "note_id": "a284989e-a3db-4f56-a5f3-6e7d9640f87d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.105937Z",
+    "finished_at": "2025-11-09T20:01:38.105938Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ecdf5af6-eebc-4893-aa78-cb2a453fdb89",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/马耳他汇报稿.html",
+      "checksum": "c7e256d10469582674187a99fd21128314b6e5b6c890f623144236724cc2712e"
+    },
+    "output_ref": {
+      "ingest_source": "285ee4bd-4ea5-4d47-a4c0-36a1b59df4b7",
+      "note": "a284989e-a3db-4f56-a5f3-6e7d9640f87d",
+      "variants": [
+        "c7f1a7ba-f6a4-4e2e-9399-e9cbb109f3c7",
+        "0da8a577-50c8-4bda-bb43-fd19e198336a"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,25 @@
+---
+title: Mysql 对SQL语句监控查看的记录
+updated: 2021-04-15 15:31:24Z
+created: 2021-04-15 15:31:10Z
+author: tangyongfeng@gmail.com
+---
+
+mysql 默认不开启sql语句跟踪监控记录，如查看sql语句执行记录，一般有下面三种方式:
+          1.修改配置文件，my.cnf
+             #vi /etc/my.cnf
+            log =/mysql/mysqls.log
+            #慢查询语句 ,time 单位是秒
+            log-slow-queries = /mysql/slowquery.log
+            long_query_time = 1
+          2. 查看正在执行的SQL语句，用 processlist，缺点是，时时变化，不易观察到需要的SQL 。
+            mysql> use information_schema;
+            mysql> select * from PROCESSLIST where info is not null;
+          3.使用 global general_log 参数，方便随时查看
+             默认也是OFF，使用时候，最好，先查看 用 show global variables like '%general%';
+             可以看到，log文件的位置，。
+            SET GLOBAL general_log = 'ON';         //需要root权限。
+            设置ON 之后，就可以查看log文件，数据库所有操作都会记录。
+            也可以输出到系统表，需要SET GLOBAL log_output = 'TABLE';
+            然后，查看 SELECT * from mysql.general_log ORDER BY  event_time DESC ；
+            不查看时候，记得 关闭，否则日志或表，都会很大。

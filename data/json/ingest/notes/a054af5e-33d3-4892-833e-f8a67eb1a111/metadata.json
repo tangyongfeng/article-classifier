@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e1ab191c-64e5-48cb-a829-c1439da0b867",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/freebsd port安装.html",
+    "collected_at": "2025-11-09T20:05:13.835642Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a4dd9c176ea4effb455cfad106d15eb7238b00acf4b9fe7bced54e74acef8dfc",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a054af5e-33d3-4892-833e-f8a67eb1a111",
+    "ingest_source_id": "e1ab191c-64e5-48cb-a829-c1439da0b867",
+    "canonical_title": "freebsd port安装",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.835645Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "freebsd port安装.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bc05f84e-b7e4-4d65-a2d2-bbd8fb65f067",
+      "note_id": "a054af5e-33d3-4892-833e-f8a67eb1a111",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.835648Z",
+      "content": "---\ntitle: freebsd port安装\nupdated: 2017-12-17 10:07:13Z\ncreated: 2017-12-17 10:06:56Z\nauthor: tangyongfeng\n---\n\n\n<en-note><div>FreeBSD::ports::make参数说明，哈哈，很多地方都用到哦<br/>\n<code>make fetch # 只抓取软件包<br/>\nmake extract # 只解开软件包<br/>\nmake patch # 解开软件包并补上官方的patch<br/>\nmake install # 安装一个新port<br/>\nmake clean # 清除中间生成的文件<br/>\nmake package # 将安装完的软件做成package<br/>\nmake distclean # 全部删除，包括/usr/ports/distfiles下的源码包<br/>\nmake all-depends-list&nbsp; # 显示所有相关的依赖<br/>\nmake pretty-print-build-depends-list&nbsp; # 显示编译期间所需要的依赖<br/>\nmake pretty-print-run-depends-list&nbsp; # 显示执行时需要的依赖<br/>\nmake deinstall # 删除软件<br/>\nmake deinstall-depends # 连同依赖一起删除<br/>\npkg_version -c # 列出所有可升级的ports<br/>\nmake PREFIX=/usr/local/XXX # 指定一个安装路径<br/>\nmake showconfig make rmconfig<br/>\nmake search key=XXXX # 查找ports<br/>\nmake index # 更新index<br/>\nmake fetchindex # 更新index</code></div><div>\nmake readmes # 网页的方式察看</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a4dd9c176ea4effb455cfad106d15eb7238b00acf4b9fe7bced54e74acef8dfc",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/freebsd port安装.html"
+      }
+    },
+    {
+      "id": "3dc296d8-bdf1-4ff2-99b0-521cb256ceab",
+      "note_id": "a054af5e-33d3-4892-833e-f8a67eb1a111",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.835650Z",
+      "content": "---\ntitle: freebsd port安装\nupdated: 2017-12-17 10:07:13Z\ncreated: 2017-12-17 10:06:56Z\nauthor: tangyongfeng\n---\n\nFreeBSD::ports::make参数说明，哈哈，很多地方都用到哦\n\nmake fetch # 只抓取软件包\n\nmake extract # 只解开软件包\n\nmake patch # 解开软件包并补上官方的patch\n\nmake install # 安装一个新port\n\nmake clean # 清除中间生成的文件\n\nmake package # 将安装完的软件做成package\n\nmake distclean # 全部删除，包括/usr/ports/distfiles下的源码包\n\nmake all-depends-list  # 显示所有相关的依赖\n\nmake pretty-print-build-depends-list  # 显示编译期间所需要的依赖\n\nmake pretty-print-run-depends-list  # 显示执行时需要的依赖\n\nmake deinstall # 删除软件\n\nmake deinstall-depends # 连同依赖一起删除\n\npkg_version -c # 列出所有可升级的ports\n\nmake PREFIX=/usr/local/XXX # 指定一个安装路径\n\nmake showconfig make rmconfig\n\nmake search key=XXXX # 查找ports\n\nmake index # 更新index\n\nmake fetchindex # 更新index\n\nmake readmes # 网页的方式察看",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 762,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fb302b36-0b61-404c-9c93-64d916bc6fa8",
+    "note_id": "a054af5e-33d3-4892-833e-f8a67eb1a111",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.835655Z",
+    "finished_at": "2025-11-09T20:05:13.835655Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0f853a73-06c0-47aa-8606-3129618683b6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/freebsd port安装.html",
+      "checksum": "a4dd9c176ea4effb455cfad106d15eb7238b00acf4b9fe7bced54e74acef8dfc"
+    },
+    "output_ref": {
+      "ingest_source": "e1ab191c-64e5-48cb-a829-c1439da0b867",
+      "note": "a054af5e-33d3-4892-833e-f8a67eb1a111",
+      "variants": [
+        "bc05f84e-b7e4-4d65-a2d2-bbd8fb65f067",
+        "3dc296d8-bdf1-4ff2-99b0-521cb256ceab"
+      ]
+    },
+    "error_detail": null
+  }
+}

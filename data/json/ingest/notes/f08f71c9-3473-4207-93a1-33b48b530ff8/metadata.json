@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3ba66836-14f7-4c24-a46b-7d6f96e2a33d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/删除openedx课程.html",
+    "collected_at": "2025-11-09T20:01:35.416647Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ced3e8a77239abdef4b1458b7b7637377ad585d2fe79d8840ca40ba06f3bd228",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f08f71c9-3473-4207-93a1-33b48b530ff8",
+    "ingest_source_id": "3ba66836-14f7-4c24-a46b-7d6f96e2a33d",
+    "canonical_title": "删除openedx课程",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.416654Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "删除openedx课程.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b28e1a52-3627-4061-9e23-494f4f69347b",
+      "note_id": "f08f71c9-3473-4207-93a1-33b48b530ff8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.416659Z",
+      "content": "---\ntitle: 删除openedx课程\nupdated: 2021-06-22 08:59:17Z\ncreated: 2021-06-22 08:59:07Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - openedx\n---\n\n\n<en-note><ol STYLE=\"padding: 0px 0px 0px 40px; list-style-type: decimal; color: rgb(9, 30, 66); font-family: -apple-system, system-ui, &quot;Segoe UI&quot;, Roboto, &quot;Noto Sans&quot;, Ubuntu, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"><li><div>在 edx-platform 目录中：</div><div>&nbsp; -&nbsp;<span STYLE=\"font-weight: bold;\">cd /edx/app/edxapp/edx-platform</span></div></li><li STYLE=\"\"><div>运行以下 Django 管理命令：</div><div>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;<span STYLE=\"font-weight: bold;\">sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp lms dump_course_ids --settings production</span></div></li><li STYLE=\"\"><div>在生成的课程 ID 列表中找到您要删除的课程 ID。</div></li><li STYLE=\"\"><div>将课程 ID 复制到以下命令中并运行它：</div><div>&nbsp; -&nbsp;<span STYLE=\"font-weight: bold;\">&nbsp;sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp cms delete_course &lt;COURSE_ID&gt; --settings production</span></div><div>&nbsp; - 你会被问到以验证删除。</div></li><li STYLE=\"\"><div>要验证删除，请运行上述步骤 2 中的命令并确保课程 ID 不在列表中。</div></li></ol><div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ced3e8a77239abdef4b1458b7b7637377ad585d2fe79d8840ca40ba06f3bd228",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/删除openedx课程.html"
+      }
+    },
+    {
+      "id": "84326370-cd7e-4f11-b477-a0c1befcf241",
+      "note_id": "f08f71c9-3473-4207-93a1-33b48b530ff8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.416663Z",
+      "content": "---\ntitle: 删除openedx课程\nupdated: 2021-06-22 08:59:17Z\ncreated: 2021-06-22 08:59:07Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - openedx\n---\n\n在 edx-platform 目录中：\n  - \ncd /edx/app/edxapp/edx-platform\n运行以下 Django 管理命令：\n   -  \nsudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp lms dump_course_ids --settings production\n在生成的课程 ID 列表中找到您要删除的课程 ID。\n将课程 ID 复制到以下命令中并运行它：\n  - \n sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp cms delete_course <COURSE_ID> --settings production\n  - 你会被问到以验证删除。\n要验证删除，请运行上述步骤 2 中的命令并确保课程 ID 不在列表中。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 544,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4f314554-49f0-422e-860a-617aff88e7e1",
+    "note_id": "f08f71c9-3473-4207-93a1-33b48b530ff8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.416670Z",
+    "finished_at": "2025-11-09T20:01:35.416670Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "00c9971b-637e-4c19-866d-4bea0b6eb095",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/删除openedx课程.html",
+      "checksum": "ced3e8a77239abdef4b1458b7b7637377ad585d2fe79d8840ca40ba06f3bd228"
+    },
+    "output_ref": {
+      "ingest_source": "3ba66836-14f7-4c24-a46b-7d6f96e2a33d",
+      "note": "f08f71c9-3473-4207-93a1-33b48b530ff8",
+      "variants": [
+        "b28e1a52-3627-4061-9e23-494f4f69347b",
+        "84326370-cd7e-4f11-b477-a0c1befcf241"
+      ]
+    },
+    "error_detail": null
+  }
+}

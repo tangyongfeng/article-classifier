@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5319969a-3492-4cd9-bc22-bbeb96603d13",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Welches heutige deutsche Bundesland gehörte früher.html",
+    "collected_at": "2025-11-09T20:01:38.821945Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "c24e4810789b97d62822d9ff70bd51e8d75244a916dcd328a56dbcbad1422744",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "123ff6dd-455c-4a0e-a59e-ee3b7dc1e07c",
+    "ingest_source_id": "5319969a-3492-4cd9-bc22-bbeb96603d13",
+    "canonical_title": "Welches heutige deutsche Bundesland gehörte früher",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:38.821949Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Welches heutige deutsche Bundesland gehörte früher.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "293a9b06-bba8-46f9-a0fa-c26de648da16",
+      "note_id": "123ff6dd-455c-4a0e-a59e-ee3b7dc1e07c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.821952Z",
+      "content": "---\ntitle: Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR\nupdated: 2021-04-06 21:12:22Z\ncreated: 2021-04-06 21:10:42Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Das Staatsgebiet der Deutschen Demokratischen Republik bestand aus den heutigen deutschen L&auml;ndern&nbsp;</div><div>Mecklenburg-Vorpommern,</div><div>&nbsp;Brandenburg,</div><div>&nbsp;Sachsen,</div><div>&nbsp;Sachsen-Anhalt,</div><div>&nbsp;Th&uuml;ringen</div><div>&nbsp;dem Amt Neuhaus in Niedersachsen;</div><div>&nbsp;strittig war die Einbeziehung Ost-Berlins.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c24e4810789b97d62822d9ff70bd51e8d75244a916dcd328a56dbcbad1422744",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Welches heutige deutsche Bundesland gehörte früher.html"
+      }
+    },
+    {
+      "id": "9231ebe7-b659-4836-b613-c9125b5cb10a",
+      "note_id": "123ff6dd-455c-4a0e-a59e-ee3b7dc1e07c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.821955Z",
+      "content": "---\ntitle: Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR\nupdated: 2021-04-06 21:12:22Z\ncreated: 2021-04-06 21:10:42Z\nauthor: tangyongfeng@gmail.com\n---\n\nDas Staatsgebiet der Deutschen Demokratischen Republik bestand aus den heutigen deutschen Ländern \nMecklenburg-Vorpommern,\n Brandenburg,\n Sachsen,\n Sachsen-Anhalt,\n Thüringen\n dem Amt Neuhaus in Niedersachsen;\n strittig war die Einbeziehung Ost-Berlins.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 430,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "85cbfcb0-d5f0-44a1-9dc3-5766d7934111",
+    "note_id": "123ff6dd-455c-4a0e-a59e-ee3b7dc1e07c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.821959Z",
+    "finished_at": "2025-11-09T20:01:38.821960Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d0cfe6b4-0b76-45f6-83f3-5b62e4628931",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Welches heutige deutsche Bundesland gehörte früher.html",
+      "checksum": "c24e4810789b97d62822d9ff70bd51e8d75244a916dcd328a56dbcbad1422744"
+    },
+    "output_ref": {
+      "ingest_source": "5319969a-3492-4cd9-bc22-bbeb96603d13",
+      "note": "123ff6dd-455c-4a0e-a59e-ee3b7dc1e07c",
+      "variants": [
+        "293a9b06-bba8-46f9-a0fa-c26de648da16",
+        "9231ebe7-b659-4836-b613-c9125b5cb10a"
+      ]
+    },
+    "error_detail": null
+  }
+}

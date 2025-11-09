@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e2cb1584-0a5e-4dc9-9734-9040fde39161",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/2013_11__1320421.PNG.html",
+    "collected_at": "2025-11-09T20:05:13.006242Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "69a2f244b2e2b25d6a4a47d2e9a57974d4aa8b0baeba04fc695f3ee7bb104074",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "97332ad6-f4f3-4864-bfea-269dd0b95218",
+    "ingest_source_id": "e2cb1584-0a5e-4dc9-9734-9040fde39161",
+    "canonical_title": "2013_11__1320421.PNG",
+    "language": "ro",
+    "ingested_at": "2025-11-09T20:05:13.006247Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "2013_11__1320421.PNG.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "00a270ab-0e94-4ee7-a81d-5779f1933bc6",
+      "note_id": "97332ad6-f4f3-4864-bfea-269dd0b95218",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.006251Z",
+      "content": "---\ntitle: 2013/11//1320421.PNG\nupdated: 2013-11-20 06:08:52Z\ncreated: 2013-11-20 05:24:53Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n2013/11//1320421.PNG\n<div>L3NwYWNlLzQ1Lzc5L2RvY195aW5tdXJhbi9maWxlLzIwMTMvMTEvLzEzMjA0MjEuUE5H</div><div>/space/45/79/doc_yinmuran/file/2013/11//1320421.PNG</div><div><br/></div><div><br/></div><div><br/></div><div>/space/45/79/doc_yinmuran/file/2013/11//1334041.jpg</div><div>/space/45/79/doc_yinmuran/file/2013/11//1336292.jpg</div><div>/space/45/79/doc_yinmuran/file/2013/11//1337573.jpg</div><div>/space/45/79/doc_yinmuran/file/2013/11//1407381.pdf</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "69a2f244b2e2b25d6a4a47d2e9a57974d4aa8b0baeba04fc695f3ee7bb104074",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/2013_11__1320421.PNG.html"
+      }
+    },
+    {
+      "id": "b2c80e38-c802-492a-9306-1f3ad0349c86",
+      "note_id": "97332ad6-f4f3-4864-bfea-269dd0b95218",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.006254Z",
+      "content": "---\ntitle: 2013/11//1320421.PNG\nupdated: 2013-11-20 06:08:52Z\ncreated: 2013-11-20 05:24:53Z\n---\n\n2013/11//1320421.PNG\n\nL3NwYWNlLzQ1Lzc5L2RvY195aW5tdXJhbi9maWxlLzIwMTMvMTEvLzEzMjA0MjEuUE5H\n/space/45/79/doc_yinmuran/file/2013/11//1320421.PNG\n/space/45/79/doc_yinmuran/file/2013/11//1334041.jpg\n/space/45/79/doc_yinmuran/file/2013/11//1336292.jpg\n/space/45/79/doc_yinmuran/file/2013/11//1337573.jpg\n/space/45/79/doc_yinmuran/file/2013/11//1407381.pdf",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 447,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0294a37e-675b-44ec-bdaa-52637a3e29b8",
+    "note_id": "97332ad6-f4f3-4864-bfea-269dd0b95218",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.006259Z",
+    "finished_at": "2025-11-09T20:05:13.006260Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4b34b67d-d1b6-4ee8-9394-309f1f11b1ee",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/2013_11__1320421.PNG.html",
+      "checksum": "69a2f244b2e2b25d6a4a47d2e9a57974d4aa8b0baeba04fc695f3ee7bb104074"
+    },
+    "output_ref": {
+      "ingest_source": "e2cb1584-0a5e-4dc9-9734-9040fde39161",
+      "note": "97332ad6-f4f3-4864-bfea-269dd0b95218",
+      "variants": [
+        "00a270ab-0e94-4ee7-a81d-5779f1933bc6",
+        "b2c80e38-c802-492a-9306-1f3ad0349c86"
+      ]
+    },
+    "error_detail": null
+  }
+}

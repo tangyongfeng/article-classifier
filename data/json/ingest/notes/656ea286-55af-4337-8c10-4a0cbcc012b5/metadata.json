@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "03b95bf8-d568-430a-b3c1-433b5151a12e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/update 自己.html",
+    "collected_at": "2025-11-09T20:05:14.282122Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8786e54c3f1f09214df7d1575fa1a30334f51a0036ee4941ac1ff2e60dc7f232",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "656ea286-55af-4337-8c10-4a0cbcc012b5",
+    "ingest_source_id": "03b95bf8-d568-430a-b3c1-433b5151a12e",
+    "canonical_title": "update 自己",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:14.282126Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "update 自己.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d52eafcc-0a8d-45d6-930b-02d1543206f9",
+      "note_id": "656ea286-55af-4337-8c10-4a0cbcc012b5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.282129Z",
+      "content": "---\ntitle: update 自己\nupdated: 2021-07-04 15:03:42Z\ncreated: 2021-07-04 14:57:40Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - mysql\n---\n\n\n<en-note><div><br/></div><div>将 2020-10-02 00:00:00 全部更新为 2020-10-02</div><div>update index_history_ex set `Trade_date`= substring_index(Trade_date,&apos; &apos;,1);</div><div><br/></div><div><br/></div><div>&nbsp;其中：</div><div>substring_index(目标字符串，&rsquo;标志位&rsquo;，count)</div><div><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">当 count 为正数，取第 n 个分隔符之前的所有字符； 当 count 为负数，取倒数第 n 个分隔符之后的所有字符。</span></div><div><br/></div><div><br/></div><div>将 2020-10-02 全部更新为 20201002</div><div>update index_history_ex set `Trade_date`= replace(Trade_date,&apos;-&apos;,&apos;&apos;);</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8786e54c3f1f09214df7d1575fa1a30334f51a0036ee4941ac1ff2e60dc7f232",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/update 自己.html"
+      }
+    },
+    {
+      "id": "3a3d9429-e2fd-4dae-b84a-d2a641a6403c",
+      "note_id": "656ea286-55af-4337-8c10-4a0cbcc012b5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.282131Z",
+      "content": "---\ntitle: update 自己\nupdated: 2021-07-04 15:03:42Z\ncreated: 2021-07-04 14:57:40Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - mysql\n---\n\n将 2020-10-02 00:00:00 全部更新为 2020-10-02\nupdate index_history_ex set `Trade_date`= substring_index(Trade_date,' ',1);\n 其中：\nsubstring_index(目标字符串，’标志位’，count)\n当 count 为正数，取第 n 个分隔符之前的所有字符； 当 count 为负数，取倒数第 n 个分隔符之后的所有字符。\n将 2020-10-02 全部更新为 20201002\nupdate index_history_ex set `Trade_date`= replace(Trade_date,'-','');",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 448,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a210e1dd-36bc-4100-990d-23eccc77ab78",
+    "note_id": "656ea286-55af-4337-8c10-4a0cbcc012b5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.282136Z",
+    "finished_at": "2025-11-09T20:05:14.282137Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2907efc4-1b26-4774-b6cf-e31e071e9ae9",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/update 自己.html",
+      "checksum": "8786e54c3f1f09214df7d1575fa1a30334f51a0036ee4941ac1ff2e60dc7f232"
+    },
+    "output_ref": {
+      "ingest_source": "03b95bf8-d568-430a-b3c1-433b5151a12e",
+      "note": "656ea286-55af-4337-8c10-4a0cbcc012b5",
+      "variants": [
+        "d52eafcc-0a8d-45d6-930b-02d1543206f9",
+        "3a3d9429-e2fd-4dae-b84a-d2a641a6403c"
+      ]
+    },
+    "error_detail": null
+  }
+}

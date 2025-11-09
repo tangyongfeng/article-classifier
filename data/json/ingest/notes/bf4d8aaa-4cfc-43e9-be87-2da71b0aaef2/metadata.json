@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "4ea1f246-eb7a-4dcc-bc44-d1037efbb011",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/openedx 安装笔记.html",
+    "collected_at": "2025-11-09T20:01:34.998940Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8b096b0d0bf4140f35e4170392129c48539dcc96f3d60ab09ca674a17cdb00db",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "bf4d8aaa-4cfc-43e9-be87-2da71b0aaef2",
+    "ingest_source_id": "4ea1f246-eb7a-4dcc-bc44-d1037efbb011",
+    "canonical_title": "openedx 安装笔记",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.998945Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "openedx 安装笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ba3bcb0e-d4b0-4e68-8af3-2424fc469e76",
+      "note_id": "bf4d8aaa-4cfc-43e9-be87-2da71b0aaef2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.998948Z",
+      "content": "---\ntitle: openedx 安装笔记\nupdated: 2021-05-05 08:37:08Z\ncreated: 2021-05-05 07:51:28Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - openedx\n---\n\n\n<en-note><div><br/></div><div>ubuntu 20</div><div><br/></div><div>1、mysql 问题，单独安装即可</div><div>2、<span STYLE=\"font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">libgnutls28-dev 安装问题 ,根本是</span><span STYLE=\"font-size: 11px; color: rgb(0, 0, 0); font-family: Menlo; --inversion-type-color: simple;\">Unable to correct problems, you have held broken packages.</span><span STYLE=\"font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">使用&nbsp;</span><span STYLE=\"color: rgb(248, 248, 242); font-family: &quot;Source Code Pro&quot;, &quot;DejaVu Sans Mono&quot;, &quot;Ubuntu Mono&quot;, &quot;Anonymous Pro&quot;, &quot;Droid Sans Mono&quot;, Menlo, Monaco, Consolas, Inconsolata, Courier, monospace, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, sans-serif; font-size: 14px; font-variant-ligatures: common-ligatures; orphans: 2; white-space: pre; widows: 2; background-color: rgb(40, 42, 54);\">sudo aptitude install </span></div><div>重点：第一个方案选n，选择第二个方案</div><div>3、</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8b096b0d0bf4140f35e4170392129c48539dcc96f3d60ab09ca674a17cdb00db",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/openedx 安装笔记.html"
+      }
+    },
+    {
+      "id": "a4b052b7-70e2-4eb3-8319-bdc2cb8f9b98",
+      "note_id": "bf4d8aaa-4cfc-43e9-be87-2da71b0aaef2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.998952Z",
+      "content": "---\ntitle: openedx 安装笔记\nupdated: 2021-05-05 08:37:08Z\ncreated: 2021-05-05 07:51:28Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - openedx\n---\n\nubuntu 20\n1、mysql 问题，单独安装即可\n2、\nlibgnutls28-dev 安装问题 ,根本是\nUnable to correct problems, you have held broken packages.\n使用 \nsudo aptitude install\n重点：第一个方案选n，选择第二个方案\n3、",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 301,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0f81e795-1e39-4c7c-9faa-6bf24879c805",
+    "note_id": "bf4d8aaa-4cfc-43e9-be87-2da71b0aaef2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.998957Z",
+    "finished_at": "2025-11-09T20:01:34.998958Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a836c8d0-751f-4b20-a725-012d0ed659f4",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/openedx 安装笔记.html",
+      "checksum": "8b096b0d0bf4140f35e4170392129c48539dcc96f3d60ab09ca674a17cdb00db"
+    },
+    "output_ref": {
+      "ingest_source": "4ea1f246-eb7a-4dcc-bc44-d1037efbb011",
+      "note": "bf4d8aaa-4cfc-43e9-be87-2da71b0aaef2",
+      "variants": [
+        "ba3bcb0e-d4b0-4e68-8af3-2424fc469e76",
+        "a4b052b7-70e2-4eb3-8319-bdc2cb8f9b98"
+      ]
+    },
+    "error_detail": null
+  }
+}

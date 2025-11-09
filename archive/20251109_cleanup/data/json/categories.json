@@ -1,0 +1,1701 @@
+{
+  "version": "1.0",
+  "last_updated": "2025-10-08T12:51:40.487848",
+  "total_articles": 1343,
+  "categories": [
+    {
+      "id": 4,
+      "name": "Education",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 17,
+      "created_at": "2025-10-07T17:16:47.057903",
+      "updated_at": "2025-10-08T12:51:40.420543",
+      "children": [
+        {
+          "id": 5,
+          "name": "Language Learning",
+          "parent_id": 4,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 7,
+          "created_at": "2025-10-07T17:16:47.059857",
+          "updated_at": "2025-10-08T12:51:40.443833",
+          "children": [
+            {
+              "id": 122,
+              "name": "German",
+              "parent_id": 5,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 2,
+              "created_at": "2025-10-07T22:01:11.573158",
+              "updated_at": "2025-10-08T12:51:40.468973",
+              "children": []
+            },
+            {
+              "id": 6,
+              "name": "German Language Exams",
+              "parent_id": 5,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 3,
+              "created_at": "2025-10-07T17:16:47.061577",
+              "updated_at": "2025-10-08T12:51:40.469368",
+              "children": []
+            },
+            {
+              "id": 125,
+              "name": "Vocabulary",
+              "parent_id": 5,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T22:10:17.622206",
+              "updated_at": "2025-10-08T12:51:40.474074",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Finance",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 34,
+      "created_at": "2025-10-07T17:24:46.829782",
+      "updated_at": "2025-10-08T12:51:40.422294",
+      "children": [
+        {
+          "id": 130,
+          "name": "Payment Services",
+          "parent_id": 78,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T22:19:49.951882",
+          "updated_at": "2025-10-08T12:51:40.444444",
+          "children": []
+        },
+        {
+          "id": 79,
+          "name": "Stock Market",
+          "parent_id": 78,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 20,
+          "created_at": "2025-10-07T17:24:46.831705",
+          "updated_at": "2025-10-08T12:51:40.445383",
+          "children": [
+            {
+              "id": 80,
+              "name": "Company Analysis",
+              "parent_id": 79,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 17,
+              "created_at": "2025-10-07T17:24:46.833261",
+              "updated_at": "2025-10-08T12:51:40.468200",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Language",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 13,
+      "created_at": "2025-10-07T17:19:55.264060",
+      "updated_at": "2025-10-08T12:51:40.423157",
+      "children": [
+        {
+          "id": 34,
+          "name": "German",
+          "parent_id": 33,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 9,
+          "created_at": "2025-10-07T17:19:55.266708",
+          "updated_at": "2025-10-08T12:51:40.443066",
+          "children": [
+            {
+              "id": 35,
+              "name": "Grammar",
+              "parent_id": 34,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 9,
+              "created_at": "2025-10-07T17:19:55.268422",
+              "updated_at": "2025-10-08T12:51:40.469753",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 89,
+          "name": "德语",
+          "parent_id": 33,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T18:42:18.165101",
+          "updated_at": "2025-10-08T12:51:40.454646",
+          "children": [
+            {
+              "id": 90,
+              "name": "语法",
+              "parent_id": 89,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T18:42:18.167021",
+              "updated_at": "2025-10-08T12:51:40.482947",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 92,
+          "name": "语法",
+          "parent_id": 33,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 3,
+          "created_at": "2025-10-07T18:48:51.099145",
+          "updated_at": "2025-10-08T12:51:40.463754",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Language Learning",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 49,
+      "created_at": "2025-10-07T17:19:03.104972",
+      "updated_at": "2025-10-08T12:51:40.424050",
+      "children": [
+        {
+          "id": 26,
+          "name": "German",
+          "parent_id": 25,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 47,
+          "created_at": "2025-10-07T17:19:03.107039",
+          "updated_at": "2025-10-08T12:51:40.442503",
+          "children": [
+            {
+              "id": 27,
+              "name": "Grammar",
+              "parent_id": 26,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 39,
+              "created_at": "2025-10-07T17:19:03.108727",
+              "updated_at": "2025-10-08T12:51:40.470143",
+              "children": []
+            },
+            {
+              "id": 41,
+              "name": "Verb Conjugation",
+              "parent_id": 26,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 4,
+              "created_at": "2025-10-07T17:20:32.813159",
+              "updated_at": "2025-10-08T12:51:40.473812",
+              "children": []
+            },
+            {
+              "id": 95,
+              "name": "Vocabulary",
+              "parent_id": 26,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T18:56:00.000378",
+              "updated_at": "2025-10-08T12:51:40.474334",
+              "children": []
+            },
+            {
+              "id": 94,
+              "name": "形容词词尾",
+              "parent_id": 26,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T18:50:53.205189",
+              "updated_at": "2025-10-08T12:51:40.479372",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Social",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 15,
+      "created_at": "2025-10-07T17:23:46.000182",
+      "updated_at": "2025-10-08T12:51:40.424824",
+      "children": [
+        {
+          "id": 133,
+          "name": "Family Discussions",
+          "parent_id": 71,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T22:23:06.828494",
+          "updated_at": "2025-10-08T12:51:40.440282",
+          "children": []
+        },
+        {
+          "id": 72,
+          "name": "Family Events",
+          "parent_id": 71,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 6,
+          "created_at": "2025-10-07T17:23:46.002319",
+          "updated_at": "2025-10-08T12:51:40.440804",
+          "children": [
+            {
+              "id": 73,
+              "name": "Wedding Congratulations",
+              "parent_id": 72,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 2,
+              "created_at": "2025-10-07T17:23:46.003990",
+              "updated_at": "2025-10-08T12:51:40.474600",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 134,
+          "name": "Family Relationships",
+          "parent_id": 71,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T22:24:36.753139",
+          "updated_at": "2025-10-08T12:51:40.441314",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Travel",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 53,
+      "created_at": "2025-10-07T17:20:47.079043",
+      "updated_at": "2025-10-08T12:51:40.425935",
+      "children": [
+        {
+          "id": 46,
+          "name": "Accommodation",
+          "parent_id": 42,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 11,
+          "created_at": "2025-10-07T17:21:02.897306",
+          "updated_at": "2025-10-08T12:51:40.439783",
+          "children": [
+            {
+              "id": 47,
+              "name": "Hotel Booking Inquiry",
+              "parent_id": 46,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 11,
+              "created_at": "2025-10-07T17:21:02.898602",
+              "updated_at": "2025-10-08T12:51:40.470824",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 96,
+          "name": "Frequent Flyer",
+          "parent_id": 42,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 2,
+          "created_at": "2025-10-07T19:14:11.029375",
+          "updated_at": "2025-10-08T12:51:40.441842",
+          "children": []
+        },
+        {
+          "id": 67,
+          "name": "Solo Travel",
+          "parent_id": 42,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T17:23:13.476427",
+          "updated_at": "2025-10-08T12:51:40.444963",
+          "children": [
+            {
+              "id": 68,
+              "name": "Personal Experience",
+              "parent_id": 67,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:23:13.478479",
+              "updated_at": "2025-10-08T12:51:40.472484",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 43,
+          "name": "Travel Experience",
+          "parent_id": 42,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 33,
+          "created_at": "2025-10-07T17:20:47.081054",
+          "updated_at": "2025-10-08T12:51:40.445842",
+          "children": [
+            {
+              "id": 97,
+              "name": "General",
+              "parent_id": 43,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 17,
+              "created_at": "2025-10-07T19:17:26.126569",
+              "updated_at": "2025-10-08T12:51:40.468590",
+              "children": []
+            },
+            {
+              "id": 127,
+              "name": "Other",
+              "parent_id": 43,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 2,
+              "created_at": "2025-10-07T22:11:56.015258",
+              "updated_at": "2025-10-08T12:51:40.472219",
+              "children": []
+            },
+            {
+              "id": 44,
+              "name": "Solo vs Group Travel",
+              "parent_id": 43,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 6,
+              "created_at": "2025-10-07T17:20:47.082720",
+              "updated_at": "2025-10-08T12:51:40.473280",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 69,
+          "name": "Travel Preferences",
+          "parent_id": 42,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 2,
+          "created_at": "2025-10-07T17:23:27.184817",
+          "updated_at": "2025-10-08T12:51:40.446287",
+          "children": [
+            {
+              "id": 70,
+              "name": "Group vs Solo Travel",
+              "parent_id": 69,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 2,
+              "created_at": "2025-10-07T17:23:27.186000",
+              "updated_at": "2025-10-08T12:51:40.470522",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "Unclassified",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 57,
+      "created_at": "2025-10-07T21:22:05.390441",
+      "updated_at": "2025-10-08T12:51:40.426968",
+      "children": [
+        {
+          "id": 126,
+          "name": "金融",
+          "parent_id": 118,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T22:10:37.830372",
+          "updated_at": "2025-10-08T12:51:40.464994",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "个人发展",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 6,
+      "created_at": "2025-10-07T17:20:24.319836",
+      "updated_at": "2025-10-08T12:51:40.427811",
+      "children": [
+        {
+          "id": 91,
+          "name": "生活规划",
+          "parent_id": 38,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 4,
+          "created_at": "2025-10-07T18:44:21.265485",
+          "updated_at": "2025-10-08T12:51:40.460309",
+          "children": []
+        },
+        {
+          "id": 39,
+          "name": "青年成长",
+          "parent_id": 38,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T17:20:24.321264",
+          "updated_at": "2025-10-08T12:51:40.465814",
+          "children": [
+            {
+              "id": 40,
+              "name": "生活规划",
+              "parent_id": 39,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:20:24.322035",
+              "updated_at": "2025-10-08T12:51:40.481158",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "交通",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 19,
+      "created_at": "2025-10-07T17:17:19.972685",
+      "updated_at": "2025-10-08T12:51:40.428895",
+      "children": [
+        {
+          "id": 87,
+          "name": "交通知识",
+          "parent_id": 11,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 8,
+          "created_at": "2025-10-07T18:17:37.477638",
+          "updated_at": "2025-10-08T12:51:40.447834",
+          "children": [
+            {
+              "id": 88,
+              "name": "公共交通",
+              "parent_id": 87,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 4,
+              "created_at": "2025-10-07T18:17:37.479630",
+              "updated_at": "2025-10-08T12:51:40.476287",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 61,
+          "name": "驾照",
+          "parent_id": 11,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 5,
+          "created_at": "2025-10-07T17:22:20.216331",
+          "updated_at": "2025-10-08T12:51:40.466237",
+          "children": [
+            {
+              "id": 62,
+              "name": "驾驶理论",
+              "parent_id": 61,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 4,
+              "created_at": "2025-10-07T17:22:20.218649",
+              "updated_at": "2025-10-08T12:51:40.485490",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 53,
+          "name": "驾驶",
+          "parent_id": 11,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 2,
+          "created_at": "2025-10-07T17:21:37.443373",
+          "updated_at": "2025-10-08T12:51:40.466641",
+          "children": [
+            {
+              "id": 54,
+              "name": "驾驶指令",
+              "parent_id": 53,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 2,
+              "created_at": "2025-10-07T17:21:37.445300",
+              "updated_at": "2025-10-08T12:51:40.485160",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "name": "驾驶知识",
+          "parent_id": 11,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T17:17:19.974203",
+          "updated_at": "2025-10-08T12:51:40.467041",
+          "children": [
+            {
+              "id": 13,
+              "name": "驾驶规则",
+              "parent_id": 12,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:17:19.975269",
+              "updated_at": "2025-10-08T12:51:40.485753",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "交通安全",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 1,
+      "created_at": "2025-10-07T17:22:06.088948",
+      "updated_at": "2025-10-08T12:51:40.429757",
+      "children": [
+        {
+          "id": 58,
+          "name": "驾驶考试",
+          "parent_id": 57,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T17:22:06.090741",
+          "updated_at": "2025-10-08T12:51:40.467423",
+          "children": [
+            {
+              "id": 59,
+              "name": "词汇",
+              "parent_id": 58,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:22:06.092074",
+              "updated_at": "2025-10-08T12:51:40.482175",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "历史",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 20,
+      "created_at": "2025-10-07T17:16:40.968099",
+      "updated_at": "2025-10-08T12:51:40.430552",
+      "children": [
+        {
+          "id": 124,
+          "name": "中国历史",
+          "parent_id": 1,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 8,
+          "created_at": "2025-10-07T22:06:26.732984",
+          "updated_at": "2025-10-08T12:51:40.446821",
+          "children": []
+        },
+        {
+          "id": 2,
+          "name": "德国历史",
+          "parent_id": 1,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 2,
+          "created_at": "2025-10-07T17:16:40.970822",
+          "updated_at": "2025-10-08T12:51:40.453675",
+          "children": [
+            {
+              "id": 3,
+              "name": "东德",
+              "parent_id": 2,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:16:40.972224",
+              "updated_at": "2025-10-08T12:51:40.475148",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "商务",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 100,
+      "created_at": "2025-10-07T17:21:22.623378",
+      "updated_at": "2025-10-08T12:51:40.431468",
+      "children": [
+        {
+          "id": 119,
+          "name": "创业",
+          "parent_id": 51,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 11,
+          "created_at": "2025-10-07T21:29:53.354964",
+          "updated_at": "2025-10-08T12:51:40.448939",
+          "children": [
+            {
+              "id": 120,
+              "name": "公司注册",
+              "parent_id": 119,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 3,
+              "created_at": "2025-10-07T21:29:53.355874",
+              "updated_at": "2025-10-08T12:51:40.477146",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 52,
+          "name": "合作",
+          "parent_id": 51,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 38,
+          "created_at": "2025-10-07T17:21:22.625576",
+          "updated_at": "2025-10-08T12:51:40.450318",
+          "children": []
+        },
+        {
+          "id": 121,
+          "name": "品牌国际化",
+          "parent_id": 51,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T21:55:28.629381",
+          "updated_at": "2025-10-08T12:51:40.450839",
+          "children": []
+        },
+        {
+          "id": 131,
+          "name": "品牌管理",
+          "parent_id": 51,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T22:20:20.993582",
+          "updated_at": "2025-10-08T12:51:40.451316",
+          "children": [
+            {
+              "id": 132,
+              "name": "假洋品牌",
+              "parent_id": 131,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T22:20:20.994848",
+              "updated_at": "2025-10-08T12:51:40.475709",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 86,
+          "name": "广告投放商",
+          "parent_id": 51,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 7,
+          "created_at": "2025-10-07T17:52:06.601535",
+          "updated_at": "2025-10-08T12:51:40.452735",
+          "children": []
+        },
+        {
+          "id": 98,
+          "name": "技术创新",
+          "parent_id": 51,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 9,
+          "created_at": "2025-10-07T19:37:44.656516",
+          "updated_at": "2025-10-08T12:51:40.456958",
+          "children": [
+            {
+              "id": 99,
+              "name": "区块链应用",
+              "parent_id": 98,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T19:37:44.659067",
+              "updated_at": "2025-10-08T12:51:40.478260",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "国家与地区",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 1,
+      "created_at": "2025-10-07T17:19:09.697840",
+      "updated_at": "2025-10-08T12:51:40.432265",
+      "children": [
+        {
+          "id": 29,
+          "name": "德国",
+          "parent_id": 28,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T17:19:09.699636",
+          "updated_at": "2025-10-08T12:51:40.453200",
+          "children": [
+            {
+              "id": 30,
+              "name": "政治制度",
+              "parent_id": 29,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:19:09.701051",
+              "updated_at": "2025-10-08T12:51:40.479881",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "城市生活",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 3,
+      "created_at": "2025-10-07T17:24:09.045169",
+      "updated_at": "2025-10-08T12:51:40.432898",
+      "children": [
+        {
+          "id": 75,
+          "name": "交通",
+          "parent_id": 74,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 2,
+          "created_at": "2025-10-07T17:24:09.047339",
+          "updated_at": "2025-10-08T12:51:40.447330",
+          "children": [
+            {
+              "id": 76,
+              "name": "停车冲突",
+              "parent_id": 75,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:24:09.049443",
+              "updated_at": "2025-10-08T12:51:40.475981",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "多媒体",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 16,
+      "created_at": "2025-10-07T17:21:16.214446",
+      "updated_at": "2025-10-08T12:51:40.433538",
+      "children": [
+        {
+          "id": 49,
+          "name": "图片",
+          "parent_id": 48,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 7,
+          "created_at": "2025-10-07T17:21:16.217007",
+          "updated_at": "2025-10-08T12:51:40.451795",
+          "children": [
+            {
+              "id": 50,
+              "name": "未分类",
+              "parent_id": 49,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 4,
+              "created_at": "2025-10-07T17:21:16.218718",
+              "updated_at": "2025-10-08T12:51:40.480393",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 107,
+          "name": "未分类",
+          "parent_id": 48,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 9,
+          "created_at": "2025-10-07T20:01:29.470989",
+          "updated_at": "2025-10-08T12:51:40.459482",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "技术",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 371,
+      "created_at": "2025-10-07T19:41:59.634384",
+      "updated_at": "2025-10-08T12:51:40.434132",
+      "children": [
+        {
+          "id": 114,
+          "name": "区块链",
+          "parent_id": 100,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 7,
+          "created_at": "2025-10-07T20:42:25.943937",
+          "updated_at": "2025-10-08T12:51:40.449695",
+          "children": []
+        },
+        {
+          "id": 112,
+          "name": "技术创新",
+          "parent_id": 100,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 10,
+          "created_at": "2025-10-07T20:30:08.745631",
+          "updated_at": "2025-10-08T12:51:40.457421",
+          "children": [
+            {
+              "id": 113,
+              "name": "区块链应用",
+              "parent_id": 112,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 2,
+              "created_at": "2025-10-07T20:30:08.747983",
+              "updated_at": "2025-10-08T12:51:40.477991",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 105,
+          "name": "数据库",
+          "parent_id": 100,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 39,
+          "created_at": "2025-10-07T19:51:37.171923",
+          "updated_at": "2025-10-08T12:51:40.458276",
+          "children": [
+            {
+              "id": 111,
+              "name": "MySQL",
+              "parent_id": 105,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 14,
+              "created_at": "2025-10-07T20:29:23.394549",
+              "updated_at": "2025-10-08T12:51:40.471597",
+              "children": []
+            },
+            {
+              "id": 146,
+              "name": "Oracle",
+              "parent_id": 105,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-08T12:37:47.262366",
+              "updated_at": "2025-10-08T12:51:40.471858",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 116,
+          "name": "未分类",
+          "parent_id": 100,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 83,
+          "created_at": "2025-10-07T21:05:39.207901",
+          "updated_at": "2025-10-08T12:51:40.459074",
+          "children": [
+            {
+              "id": 117,
+              "name": "未分类",
+              "parent_id": 116,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 15,
+              "created_at": "2025-10-07T21:05:39.210049",
+              "updated_at": "2025-10-08T12:51:40.480647",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 101,
+          "name": "架构",
+          "parent_id": 100,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 23,
+          "created_at": "2025-10-07T19:45:06.266789",
+          "updated_at": "2025-10-08T12:51:40.459877",
+          "children": [
+            {
+              "id": 102,
+              "name": "高并发架构",
+              "parent_id": 101,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 12,
+              "created_at": "2025-10-07T19:45:06.268879",
+              "updated_at": "2025-10-08T12:51:40.486003",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 103,
+          "name": "编程语言",
+          "parent_id": 100,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 71,
+          "created_at": "2025-10-07T19:48:20.070610",
+          "updated_at": "2025-10-08T12:51:40.460719",
+          "children": [
+            {
+              "id": 108,
+              "name": "C#",
+              "parent_id": 103,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 11,
+              "created_at": "2025-10-07T20:02:52.755007",
+              "updated_at": "2025-10-08T12:51:40.467815",
+              "children": []
+            },
+            {
+              "id": 109,
+              "name": "Java",
+              "parent_id": 103,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 7,
+              "created_at": "2025-10-07T20:15:01.803585",
+              "updated_at": "2025-10-08T12:51:40.471334",
+              "children": []
+            },
+            {
+              "id": 104,
+              "name": "Python",
+              "parent_id": 103,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 46,
+              "created_at": "2025-10-07T19:48:20.072721",
+              "updated_at": "2025-10-08T12:51:40.472750",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 106,
+          "name": "网络安全",
+          "parent_id": 100,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 60,
+          "created_at": "2025-10-07T19:58:34.087988",
+          "updated_at": "2025-10-08T12:51:40.461120",
+          "children": [
+            {
+              "id": 110,
+              "name": "SSH",
+              "parent_id": 106,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 7,
+              "created_at": "2025-10-07T20:27:28.793998",
+              "updated_at": "2025-10-08T12:51:40.473019",
+              "children": []
+            },
+            {
+              "id": 115,
+              "name": "身份验证",
+              "parent_id": 106,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 14,
+              "created_at": "2025-10-07T20:55:30.466510",
+              "updated_at": "2025-10-08T12:51:40.484650",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "教育",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 30,
+      "created_at": "2025-10-07T17:22:30.727055",
+      "updated_at": "2025-10-08T12:51:40.434784",
+      "children": [
+        {
+          "id": 64,
+          "name": "语言学习",
+          "parent_id": 63,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 8,
+          "created_at": "2025-10-07T17:22:30.729070",
+          "updated_at": "2025-10-08T12:51:40.464590",
+          "children": [
+            {
+              "id": 140,
+              "name": "德语",
+              "parent_id": 64,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 3,
+              "created_at": "2025-10-08T11:09:59.589395",
+              "updated_at": "2025-10-08T12:51:40.479630",
+              "children": []
+            },
+            {
+              "id": 65,
+              "name": "词汇",
+              "parent_id": 64,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 3,
+              "created_at": "2025-10-07T17:22:30.730799",
+              "updated_at": "2025-10-08T12:51:40.481924",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "旅行",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 9,
+      "created_at": "2025-10-08T11:22:30.976703",
+      "updated_at": "2025-10-08T12:51:40.435367",
+      "children": [
+        {
+          "id": 142,
+          "name": "旅行经验",
+          "parent_id": 141,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 6,
+          "created_at": "2025-10-08T11:32:41.568149",
+          "updated_at": "2025-10-08T12:51:40.458677",
+          "children": [
+            {
+              "id": 143,
+              "name": "一般",
+              "parent_id": 142,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 5,
+              "created_at": "2025-10-08T11:32:41.570552",
+              "updated_at": "2025-10-08T12:51:40.474874",
+              "children": []
+            },
+            {
+              "id": 147,
+              "name": "其他",
+              "parent_id": 142,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-08T12:39:59.763768",
+              "updated_at": "2025-10-08T12:51:40.477438",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "无线安全",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 1,
+      "created_at": "2025-10-07T22:02:57.964213",
+      "updated_at": "2025-10-08T12:51:40.435984",
+      "children": []
+    },
+    {
+      "id": 93,
+      "name": "未分类",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 223,
+      "created_at": "2025-10-07T18:49:32.469251",
+      "updated_at": "2025-10-08T12:51:40.436620",
+      "children": []
+    },
+    {
+      "id": 128,
+      "name": "社会",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 37,
+      "created_at": "2025-10-07T22:17:40.312488",
+      "updated_at": "2025-10-08T12:51:40.437188",
+      "children": [
+        {
+          "id": 129,
+          "name": "健康",
+          "parent_id": 128,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 31,
+          "created_at": "2025-10-07T22:17:40.315014",
+          "updated_at": "2025-10-08T12:51:40.448388",
+          "children": []
+        },
+        {
+          "id": 145,
+          "name": "家庭讨论",
+          "parent_id": 128,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-08T12:14:44.681210",
+          "updated_at": "2025-10-08T12:51:40.452268",
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "语言",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 7,
+      "created_at": "2025-10-07T17:18:28.726043",
+      "updated_at": "2025-10-08T12:51:40.437682",
+      "children": [
+        {
+          "id": 23,
+          "name": "德语",
+          "parent_id": 16,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 4,
+          "created_at": "2025-10-07T17:18:58.099275",
+          "updated_at": "2025-10-08T12:51:40.455581",
+          "children": [
+            {
+              "id": 24,
+              "name": "语法",
+              "parent_id": 23,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 2,
+              "created_at": "2025-10-07T17:18:58.101531",
+              "updated_at": "2025-10-08T12:51:40.483216",
+              "children": []
+            },
+            {
+              "id": 45,
+              "name": "语法-否定",
+              "parent_id": 23,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:20:56.510226",
+              "updated_at": "2025-10-08T12:51:40.484147",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "name": "词汇",
+          "parent_id": 16,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T17:18:28.728171",
+          "updated_at": "2025-10-08T12:51:40.462882",
+          "children": [
+            {
+              "id": 18,
+              "name": "形容词",
+              "parent_id": 17,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:18:28.729939",
+              "updated_at": "2025-10-08T12:51:40.478535",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 31,
+          "name": "语法",
+          "parent_id": 16,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 2,
+          "created_at": "2025-10-07T17:19:32.924633",
+          "updated_at": "2025-10-08T12:51:40.463292",
+          "children": [
+            {
+              "id": 32,
+              "name": "动词",
+              "parent_id": 31,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:19:32.926825",
+              "updated_at": "2025-10-08T12:51:40.477711",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "语言学",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 2,
+      "created_at": "2025-10-07T17:18:40.846801",
+      "updated_at": "2025-10-08T12:51:40.438170",
+      "children": [
+        {
+          "id": 21,
+          "name": "德语",
+          "parent_id": 20,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T17:18:40.848771",
+          "updated_at": "2025-10-08T12:51:40.455103",
+          "children": [
+            {
+              "id": 22,
+              "name": "语法",
+              "parent_id": 21,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:18:40.850277",
+              "updated_at": "2025-10-08T12:51:40.483478",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 55,
+          "name": "语法",
+          "parent_id": 20,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T17:21:55.765141",
+          "updated_at": "2025-10-08T12:51:40.464159",
+          "children": [
+            {
+              "id": 56,
+              "name": "从句连词",
+              "parent_id": 55,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:21:55.767294",
+              "updated_at": "2025-10-08T12:51:40.475435",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "语言学习",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 34,
+      "created_at": "2025-10-07T17:17:01.310535",
+      "updated_at": "2025-10-08T12:51:40.438761",
+      "children": [
+        {
+          "id": 8,
+          "name": "德语",
+          "parent_id": 7,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 30,
+          "created_at": "2025-10-07T17:17:01.311639",
+          "updated_at": "2025-10-08T12:51:40.454156",
+          "children": [
+            {
+              "id": 66,
+              "name": "形容词",
+              "parent_id": 8,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:22:50.432885",
+              "updated_at": "2025-10-08T12:51:40.478810",
+              "children": []
+            },
+            {
+              "id": 9,
+              "name": "形容词词尾",
+              "parent_id": 8,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:17:01.312516",
+              "updated_at": "2025-10-08T12:51:40.479108",
+              "children": []
+            },
+            {
+              "id": 19,
+              "name": "词汇",
+              "parent_id": 8,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 5,
+              "created_at": "2025-10-07T17:18:35.955257",
+              "updated_at": "2025-10-08T12:51:40.481670",
+              "children": []
+            },
+            {
+              "id": 77,
+              "name": "词汇与语法",
+              "parent_id": 8,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:24:17.122344",
+              "updated_at": "2025-10-08T12:51:40.482433",
+              "children": []
+            },
+            {
+              "id": 60,
+              "name": "词汇前缀",
+              "parent_id": 8,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:22:14.609330",
+              "updated_at": "2025-10-08T12:51:40.482687",
+              "children": []
+            },
+            {
+              "id": 10,
+              "name": "语法",
+              "parent_id": 8,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 21,
+              "created_at": "2025-10-07T17:17:09.090260",
+              "updated_at": "2025-10-08T12:51:40.483890",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 36,
+          "name": "德语词汇",
+          "parent_id": 7,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 3,
+          "created_at": "2025-10-07T17:20:11.821545",
+          "updated_at": "2025-10-08T12:51:40.456041",
+          "children": [
+            {
+              "id": 37,
+              "name": "时间表达",
+              "parent_id": 36,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 3,
+              "created_at": "2025-10-07T17:20:11.823734",
+              "updated_at": "2025-10-08T12:51:40.480141",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "name": "德语语法",
+          "parent_id": 7,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 1,
+          "created_at": "2025-10-07T17:18:13.279838",
+          "updated_at": "2025-10-08T12:51:40.456493",
+          "children": [
+            {
+              "id": 15,
+              "name": "格",
+              "parent_id": 14,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:18:13.281801",
+              "updated_at": "2025-10-08T12:51:40.480902",
+              "children": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "金融",
+      "parent_id": null,
+      "level": 1,
+      "description": "自动创建的一级分类",
+      "article_count": 93,
+      "created_at": "2025-10-07T17:24:51.431021",
+      "updated_at": "2025-10-08T12:51:40.439286",
+      "children": [
+        {
+          "id": 139,
+          "name": "支付服务",
+          "parent_id": 81,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 5,
+          "created_at": "2025-10-08T11:03:47.991117",
+          "updated_at": "2025-10-08T12:51:40.457878",
+          "children": []
+        },
+        {
+          "id": 137,
+          "name": "股市",
+          "parent_id": 81,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 58,
+          "created_at": "2025-10-08T10:51:24.790950",
+          "updated_at": "2025-10-08T12:51:40.461525",
+          "children": [
+            {
+              "id": 138,
+              "name": "公司分析",
+              "parent_id": 137,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 32,
+              "created_at": "2025-10-08T10:54:54.899024",
+              "updated_at": "2025-10-08T12:51:40.476560",
+              "children": []
+            },
+            {
+              "id": 148,
+              "name": "股票交易",
+              "parent_id": 137,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-08T12:43:01.940384",
+              "updated_at": "2025-10-08T12:51:40.481414",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 84,
+          "name": "股票交易",
+          "parent_id": 81,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 2,
+          "created_at": "2025-10-07T17:25:00.725207",
+          "updated_at": "2025-10-08T12:51:40.461926",
+          "children": [
+            {
+              "id": 85,
+              "name": "TD Ameritrade",
+              "parent_id": 84,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-07T17:25:00.726757",
+              "updated_at": "2025-10-08T12:51:40.473547",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 135,
+          "name": "股票市场",
+          "parent_id": 81,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 6,
+          "created_at": "2025-10-08T10:50:38.270870",
+          "updated_at": "2025-10-08T12:51:40.462343",
+          "children": [
+            {
+              "id": 136,
+              "name": "公司分析",
+              "parent_id": 135,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 3,
+              "created_at": "2025-10-08T10:50:38.272734",
+              "updated_at": "2025-10-08T12:51:40.476856",
+              "children": []
+            },
+            {
+              "id": 144,
+              "name": "量化策略",
+              "parent_id": 135,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 1,
+              "created_at": "2025-10-08T12:06:31.442654",
+              "updated_at": "2025-10-08T12:51:40.484907",
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": 82,
+          "name": "银行",
+          "parent_id": 81,
+          "level": 2,
+          "description": "自动创建的二级分类",
+          "article_count": 10,
+          "created_at": "2025-10-07T17:24:51.432978",
+          "updated_at": "2025-10-08T12:51:40.465414",
+          "children": [
+            {
+              "id": 83,
+              "name": "账户信息",
+              "parent_id": 82,
+              "level": 3,
+              "description": "自动创建的三级分类",
+              "article_count": 7,
+              "created_at": "2025-10-07T17:24:51.434401",
+              "updated_at": "2025-10-08T12:51:40.484399",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

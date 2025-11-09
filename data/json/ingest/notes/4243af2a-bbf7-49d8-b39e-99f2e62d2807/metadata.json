@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "29403247-374e-435e-9f5d-e1c10e22ec43",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/software development of the OsmocomBB Open Source -1.html",
+    "collected_at": "2025-11-09T20:05:14.255484Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "97559290b3c9471d6ea8315877717933371f878a75afe2b85dace4627d309b16",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4243af2a-bbf7-49d8-b39e-99f2e62d2807",
+    "ingest_source_id": "29403247-374e-435e-9f5d-e1c10e22ec43",
+    "canonical_title": "software development of the OsmocomBB Open Source -1",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:14.255488Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "software development of the OsmocomBB Open Source -1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "17d3541b-63f4-47fe-9667-14d66a95880e",
+      "note_id": "4243af2a-bbf7-49d8-b39e-99f2e62d2807",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.255491Z",
+      "content": "---\ntitle: software development of the OsmocomBB Open Source GSM BaseBand stack\nupdated: 2016-04-02 16:17:37Z\ncreated: 2016-04-02 16:17:37Z\nsource: http://comments.gmane.org/gmane.comp.mobile.osmocom.baseband.devel/3417\n---\n\n\n\n<en-note><div STYLE=\"position:relative;\"><div>\n<p STYLE=\"margin-block-start:;margin-block-end:;margin-top:10px;\">Hello <div></div><div></div><div></div>I hope someone can help me whit this , that i dont understand, the sap_open() function...<div></div><div></div>i already make in C115 , c139 and C118 (actually the C118 is not support for latino america) the Hello_world, Layer1&nbsp; and Rssi,<div></div>\n\nIm using a Latino american Sim card from Claro and Telefonica..&nbsp; he provider are actually using GSM 850-1900 MHz.band<div></div><div></div>Actually im trying to log in the Wireshark the GSM calls, sms and other&apos;s stuff to look at it... but when i try to run the &quot;Misc apps &quot; all the apps get me the same error-<div></div><div></div>****<div></div><span><span>Failed to connect to &apos;/tmp/osmocom_sap&apos;.<div></div>Failed during sap_open(), no SIM reader</span></span><div></div>\n\n****<div></div>when i try to find this file is not created.<div></div><div></div>root &lt;at&gt; cyttek:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# file /tmp/osmocom_*<div></div>&nbsp;/tmp/osmocom_l2:&nbsp;&nbsp;&nbsp;&nbsp; socket<div></div>/tmp/osmocom_loader: socket<div></div><div></div>I find that is the file for the process of simcard reader (if im not wrong) .. but actually i didnt find the file its not created..<div></div><div></div>any one knows whats the problem or how i can dump to wireshark the stuff.?<div></div><div></div><div></div>thanks...<div></div><div></div><span>================================================================================</span><div></div></p>\n<div>\n<span>root &lt;at&gt; raf10x:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# ./ccch_scan <div></div>Copyright (C) 2010 Harald Welte &lt;<a HREF=\"#\" STYLE=\"color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;font-weight:700;\">laforge &lt;at&gt; gnumonks.org</a>&gt;<div></div>\n\nContributions by Holger Hans Peter Freyther<div></div><div></div>License GPLv2+: GNU GPL version 2 or later &lt;<a HREF=\"http://gnu.org/licenses/gpl.html\" STYLE=\"color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;font-weight:700;\">http://gnu.org/licenses/gpl.html</a>&gt;<div></div>This is free software: you are free to change and redistribute it.<div></div>\n\nThere is NO WARRANTY, to the extent permitted by law.<div></div><div></div><span>Failed to connect to &apos;/tmp/osmocom_sap&apos;.<div></div>Failed during sap_open(), no SIM reader</span><div></div>^CSignal 2 recevied.<div></div><div></div><div></div>================================================================================<div></div>root &lt;at&gt; raf10x:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# ./bcch_scan <div></div>\n\nCopyright (C) 2010 Harald Welte &lt;<a HREF=\"#\" STYLE=\"color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;font-weight:700;\">laforge &lt;at&gt; gnumonks.org</a>&gt;<div></div>Contributions by Holger Hans Peter Freyther<div></div><div></div>License GPLv2+: GNU GPL version 2 or later &lt;<a HREF=\"http://gnu.org/licenses/gpl.html\" STYLE=\"color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;font-weight:700;\">http://gnu.org/licenses/gpl.html</a>&gt;<div></div>\n\nThis is free software: you are free to change and redistribute it.<div></div>There is NO WARRANTY, to the extent permitted by law.<div></div><div></div><span>Failed to connect to &apos;/tmp/osmocom_sap&apos;.<div></div>\n\nFailed during sap_open(), no SIM reader</span><div></div>^CSignal 2 recevied.<div></div></span><div></div><span><span>================================================================================<div></div></span>root &lt;at&gt; raf10x:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# ./cbch_sniff <div></div>Copyright (C) 2010 Harald Welte &lt;<a HREF=\"#\" STYLE=\"color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;font-weight:700;\">laforge &lt;at&gt; gnumonks.org</a>&gt;<div></div>Contributions by Holger Hans Peter Freyther<div></div><div></div>License GPLv2+: GNU GPL version 2 or later &lt;<a HREF=\"http://gnu.org/licenses/gpl.html\" STYLE=\"color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;font-weight:700;\">http://gnu.org/licenses/gpl.html</a>&gt;<div></div>This is free software: you are free to change and redistribute it.<div></div>There is NO WARRANTY, to the extent permitted by law.<div></div><div></div><span>Failed to connect to &apos;/tmp/osmocom_sap&apos;.<div></div>Failed during sap_open(), no SIM reader</span><div></div>^CSignal 2 recevied.<div></div></span><div></div><span><span>================================================================================<div></div><div></div></span>root &lt;at&gt; raf10x:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# ./cell_log <div></div>Copyright (C) 2010 Andreas Eversberg<div></div><div></div>License GPLv2+: GNU GPL version 2 or later &lt;<a HREF=\"http://gnu.org/licenses/gpl.html\" STYLE=\"color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;font-weight:700;\">http://gnu.org/licenses/gpl.html</a>&gt;<div></div>\n\nThis is free software: you are free to change and redistribute it.<div></div>There is NO WARRANTY, to the extent permitted by law.<div></div><div></div><span>Failed to connect to &apos;/tmp/osmocom_sap&apos;.<div></div>\n\nFailed during sap_open(), no SIM reader</span><div></div>&lt;000e&gt; cell_log.c:804 Scanner initialized<div></div>Mobile initialized, please start phone now!<div></div>^CSignal 2 recevied.<div></div>&lt;000e&gt; cell_log.c:811 Scanner exit<div></div></span><div></div><div></div><div></div><div></div><div></div>#__________________<div></div>Atte.<div></div>Rafael R.</div>\n</div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "97559290b3c9471d6ea8315877717933371f878a75afe2b85dace4627d309b16",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/software development of the OsmocomBB Open Source -1.html"
+      }
+    },
+    {
+      "id": "e3b4288f-e5d8-4c8d-8f48-b1dead78cd50",
+      "note_id": "4243af2a-bbf7-49d8-b39e-99f2e62d2807",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.255494Z",
+      "content": "---\ntitle: software development of the OsmocomBB Open Source GSM BaseBand stack\nupdated: 2016-04-02 16:17:37Z\ncreated: 2016-04-02 16:17:37Z\nsource: http://comments.gmane.org/gmane.comp.mobile.osmocom.baseband.devel/3417\n---\n\nHello\nI hope someone can help me whit this , that i dont understand, the sap_open() function...\ni already make in C115 , c139 and C118 (actually the C118 is not support for latino america) the Hello_world, Layer1  and Rssi,\n\nIm using a Latino american Sim card from Claro and Telefonica..  he provider are actually using GSM 850-1900 MHz.band\nActually im trying to log in the Wireshark the GSM calls, sms and other's stuff to look at it... but when i try to run the \"Misc apps \" all the apps get me the same error-\n****\nFailed to connect to '/tmp/osmocom_sap'.\nFailed during sap_open(), no SIM reader\n\n****\nwhen i try to find this file is not created.\nroot <at> cyttek:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# file /tmp/osmocom_*\n /tmp/osmocom_l2:     socket\n/tmp/osmocom_loader: socket\nI find that is the file for the process of simcard reader (if im not wrong) .. but actually i didnt find the file its not created..\nany one knows whats the problem or how i can dump to wireshark the stuff.?\nthanks...\n================================================================================\n\nroot <at> raf10x:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# ./ccch_scan\nCopyright (C) 2010 Harald Welte <\nlaforge <at> gnumonks.org\n>\n\nContributions by Holger Hans Peter Freyther\nLicense GPLv2+: GNU GPL version 2 or later <\nhttp://gnu.org/licenses/gpl.html\n>\nThis is free software: you are free to change and redistribute it.\n\nThere is NO WARRANTY, to the extent permitted by law.\nFailed to connect to '/tmp/osmocom_sap'.\nFailed during sap_open(), no SIM reader\n^CSignal 2 recevied.\n================================================================================\nroot <at> raf10x:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# ./bcch_scan\n\nCopyright (C) 2010 Harald Welte <\nlaforge <at> gnumonks.org\n>\nContributions by Holger Hans Peter Freyther\nLicense GPLv2+: GNU GPL version 2 or later <\nhttp://gnu.org/licenses/gpl.html\n>\n\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\nFailed to connect to '/tmp/osmocom_sap'.\n\nFailed during sap_open(), no SIM reader\n^CSignal 2 recevied.\n================================================================================\nroot <at> raf10x:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# ./cbch_sniff\nCopyright (C) 2010 Harald Welte <\nlaforge <at> gnumonks.org\n>\nContributions by Holger Hans Peter Freyther\nLicense GPLv2+: GNU GPL version 2 or later <\nhttp://gnu.org/licenses/gpl.html\n>\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\nFailed to connect to '/tmp/osmocom_sap'.\nFailed during sap_open(), no SIM reader\n^CSignal 2 recevied.\n================================================================================\nroot <at> raf10x:/opt/cellphone/osmocom-bb/src/host/layer23/src/misc# ./cell_log\nCopyright (C) 2010 Andreas Eversberg\nLicense GPLv2+: GNU GPL version 2 or later <\nhttp://gnu.org/licenses/gpl.html\n>\n\nThis is free software: you are free to change and redistribute it.\nThere is NO WARRANTY, to the extent permitted by law.\nFailed to connect to '/tmp/osmocom_sap'.\n\nFailed during sap_open(), no SIM reader\n<000e> cell_log.c:804 Scanner initialized\nMobile initialized, please start phone now!\n^CSignal 2 recevied.\n<000e> cell_log.c:811 Scanner exit\n\nAtte.\nRafael R.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 3605,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "social_handles",
+            "description": "Drop standalone social handles and hashtags",
+            "note": "removed social handle only lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4fd6ec28-6fe1-4859-808e-2953668bbb1a",
+    "note_id": "4243af2a-bbf7-49d8-b39e-99f2e62d2807",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.255498Z",
+    "finished_at": "2025-11-09T20:05:14.255499Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "faf5fae7-ce3a-41ce-8566-4c7932aee9d6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/software development of the OsmocomBB Open Source -1.html",
+      "checksum": "97559290b3c9471d6ea8315877717933371f878a75afe2b85dace4627d309b16"
+    },
+    "output_ref": {
+      "ingest_source": "29403247-374e-435e-9f5d-e1c10e22ec43",
+      "note": "4243af2a-bbf7-49d8-b39e-99f2e62d2807",
+      "variants": [
+        "17d3541b-63f4-47fe-9667-14d66a95880e",
+        "e3b4288f-e5d8-4c8d-8f48-b1dead78cd50"
+      ]
+    },
+    "error_detail": null
+  }
+}

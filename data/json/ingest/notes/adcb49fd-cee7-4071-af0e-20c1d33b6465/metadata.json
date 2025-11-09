@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4f81dc5e-6672-4794-815c-09bd36fe366b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/包子馅加水比例.html",
+    "collected_at": "2025-11-09T20:05:15.972028Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "fd0aca7c3b71ae8c5bba2a5c1ad285844267e62d92c8f3854845005fd15197de",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "adcb49fd-cee7-4071-af0e-20c1d33b6465",
+    "ingest_source_id": "4f81dc5e-6672-4794-815c-09bd36fe366b",
+    "canonical_title": "包子馅加水比例",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:15.972032Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "包子馅加水比例.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5ca7bdd4-1c65-4f96-9a35-3cc5ed319041",
+      "note_id": "adcb49fd-cee7-4071-af0e-20c1d33b6465",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.972034Z",
+      "content": "---\ntitle: 包子馅加水比例\nupdated: 2021-11-18 20:39:19Z\ncreated: 2021-11-18 20:38:56Z\n---\n\n\n<en-note><div>在给肉馅儿打水时，不同的肉类食材吸水量也不同。 猪肉打水的比例为1:0.4也就是1斤肉打4两水。 牛肉的打水比例为1:0.6。 而羊肉的打水比例为1:0.5。<br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fd0aca7c3b71ae8c5bba2a5c1ad285844267e62d92c8f3854845005fd15197de",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/包子馅加水比例.html"
+      }
+    },
+    {
+      "id": "eaeaaaa6-c5c8-4ade-8422-db74796b72c3",
+      "note_id": "adcb49fd-cee7-4071-af0e-20c1d33b6465",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.972037Z",
+      "content": "---\ntitle: 包子馅加水比例\nupdated: 2021-11-18 20:39:19Z\ncreated: 2021-11-18 20:38:56Z\n---\n\n在给肉馅儿打水时，不同的肉类食材吸水量也不同。 猪肉打水的比例为1:0.4也就是1斤肉打4两水。 牛肉的打水比例为1:0.6。 而羊肉的打水比例为1:0.5。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 163,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f1725a3c-907a-449f-ab2f-e0c5bfecc8bf",
+    "note_id": "adcb49fd-cee7-4071-af0e-20c1d33b6465",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.972042Z",
+    "finished_at": "2025-11-09T20:05:15.972042Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "47288543-a574-470a-9c76-c990ddb8ad36",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/包子馅加水比例.html",
+      "checksum": "fd0aca7c3b71ae8c5bba2a5c1ad285844267e62d92c8f3854845005fd15197de"
+    },
+    "output_ref": {
+      "ingest_source": "4f81dc5e-6672-4794-815c-09bd36fe366b",
+      "note": "adcb49fd-cee7-4071-af0e-20c1d33b6465",
+      "variants": [
+        "5ca7bdd4-1c65-4f96-9a35-3cc5ed319041",
+        "eaeaaaa6-c5c8-4ade-8422-db74796b72c3"
+      ]
+    },
+    "error_detail": null
+  }
+}

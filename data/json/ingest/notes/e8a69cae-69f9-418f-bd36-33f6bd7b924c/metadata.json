@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0108118e-a30d-48bb-93d2-3ad41f8cecaa",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/唐悠然身份证号码.html",
+    "collected_at": "2025-11-09T20:01:38.336485Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5ca4406649ad9a4c3ed967864ff6275d753bb0b42f8643dea568b3375e397abf",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e8a69cae-69f9-418f-bd36-33f6bd7b924c",
+    "ingest_source_id": "0108118e-a30d-48bb-93d2-3ad41f8cecaa",
+    "canonical_title": "唐悠然身份证号码",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.336489Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "唐悠然身份证号码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "837a3888-8744-4f98-bd0f-a6fc5a061057",
+      "note_id": "e8a69cae-69f9-418f-bd36-33f6bd7b924c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.336493Z",
+      "content": "---\ntitle: 唐悠然身份证号码\nupdated: 2019-10-24 04:01:53Z\ncreated: 2015-12-18 02:15:50Z\nsource: http://yjzc.bjedu.cn/register/pages/wz/step2_wz.do\n---\n\n\n<en-note><div><span>李佳 &nbsp; &nbsp; &nbsp; &nbsp;</span><span STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">142703197903023628</span></div><div>唐悠然 &nbsp; &nbsp; &nbsp;410902201101170105</div><div>唐跃然 &nbsp; &nbsp; 140882201305250036</div><div STYLE=\"letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; height: 20px; width: 300px; margin-left: 730px;\"><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5ca4406649ad9a4c3ed967864ff6275d753bb0b42f8643dea568b3375e397abf",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/唐悠然身份证号码.html"
+      }
+    },
+    {
+      "id": "847c7c0d-879d-4b83-b10e-5bc114020bcc",
+      "note_id": "e8a69cae-69f9-418f-bd36-33f6bd7b924c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.336496Z",
+      "content": "---\ntitle: 唐悠然身份证号码\nupdated: 2019-10-24 04:01:53Z\ncreated: 2015-12-18 02:15:50Z\nsource: http://yjzc.bjedu.cn/register/pages/wz/step2_wz.do\n---\n\n李佳        \n142703197903023628\n唐悠然      410902201101170105\n唐跃然     140882201305250036",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 228,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0972de25-0dc3-4849-a4ec-4deb3b4340ff",
+    "note_id": "e8a69cae-69f9-418f-bd36-33f6bd7b924c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.336502Z",
+    "finished_at": "2025-11-09T20:01:38.336502Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c611ce58-a619-4c95-a0b9-2f3d99806dd3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/唐悠然身份证号码.html",
+      "checksum": "5ca4406649ad9a4c3ed967864ff6275d753bb0b42f8643dea568b3375e397abf"
+    },
+    "output_ref": {
+      "ingest_source": "0108118e-a30d-48bb-93d2-3ad41f8cecaa",
+      "note": "e8a69cae-69f9-418f-bd36-33f6bd7b924c",
+      "variants": [
+        "837a3888-8744-4f98-bd0f-a6fc5a061057",
+        "847c7c0d-879d-4b83-b10e-5bc114020bcc"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "14863b1c-9a86-46a3-95ce-1b5934b6661e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/笔记-2.html",
+    "collected_at": "2025-11-09T20:05:17.404899Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "02ae4e519783f291f40608b3f65b66cab6269ee9d4e09d2fa5e970cdc960272a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1543175c-b0d1-41ea-a487-1abcd70da5ad",
+    "ingest_source_id": "14863b1c-9a86-46a3-95ce-1b5934b6661e",
+    "canonical_title": "笔记-2",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:17.404902Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-2.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d60f9903-3bf8-4aeb-838b-f194b15d781b",
+      "note_id": "1543175c-b0d1-41ea-a487-1abcd70da5ad",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.404905Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-03-28 02:44:24Z\ncreated: 2014-03-28 02:44:17Z\n---\n\n\n\n<en-note></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "02ae4e519783f291f40608b3f65b66cab6269ee9d4e09d2fa5e970cdc960272a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/笔记-2.html"
+      }
+    },
+    {
+      "id": "1f78dc04-7e50-4a23-8940-493a4a51a1c6",
+      "note_id": "1543175c-b0d1-41ea-a487-1abcd70da5ad",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.404907Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-03-28 02:44:24Z\ncreated: 2014-03-28 02:44:17Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 77,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "63ac0007-aea9-4b71-a2a7-61c10363f069",
+    "note_id": "1543175c-b0d1-41ea-a487-1abcd70da5ad",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.404912Z",
+    "finished_at": "2025-11-09T20:05:17.404912Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2f927121-8168-444a-aa88-1297d0c4e452",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/笔记-2.html",
+      "checksum": "02ae4e519783f291f40608b3f65b66cab6269ee9d4e09d2fa5e970cdc960272a"
+    },
+    "output_ref": {
+      "ingest_source": "14863b1c-9a86-46a3-95ce-1b5934b6661e",
+      "note": "1543175c-b0d1-41ea-a487-1abcd70da5ad",
+      "variants": [
+        "d60f9903-3bf8-4aeb-838b-f194b15d781b",
+        "1f78dc04-7e50-4a23-8940-493a4a51a1c6"
+      ]
+    },
+    "error_detail": null
+  }
+}

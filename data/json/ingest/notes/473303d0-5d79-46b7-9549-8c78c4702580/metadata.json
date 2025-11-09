@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8a5ae68a-91e2-4a52-be53-744ef49b4625",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/_usr_lib_php_20170718_mysqli.so.html",
+    "collected_at": "2025-11-09T20:05:13.734953Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "29c36b8f2b9726d73202cd0224dd084bfa15aa629012207a5f4ecf8ad3b5fd41",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "473303d0-5d79-46b7-9549-8c78c4702580",
+    "ingest_source_id": "8a5ae68a-91e2-4a52-be53-744ef49b4625",
+    "canonical_title": "_usr_lib_php_20170718_mysqli.so",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.734957Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "_usr_lib_php_20170718_mysqli.so.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "23333203-5bf3-4171-9045-f06db4d6936a",
+      "note_id": "473303d0-5d79-46b7-9549-8c78c4702580",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.734959Z",
+      "content": "---\ntitle: /usr/lib/php/20170718/mysqli.so\nupdated: 2019-10-11 06:58:06Z\ncreated: 2019-10-11 06:58:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>/usr/lib/php/20170718/mysqli.so</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "29c36b8f2b9726d73202cd0224dd084bfa15aa629012207a5f4ecf8ad3b5fd41",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/_usr_lib_php_20170718_mysqli.so.html"
+      }
+    },
+    {
+      "id": "ca47e1f0-2a64-49bc-bff0-9822445e6ae2",
+      "note_id": "473303d0-5d79-46b7-9549-8c78c4702580",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.734962Z",
+      "content": "---\ntitle: /usr/lib/php/20170718/mysqli.so\nupdated: 2019-10-11 06:58:06Z\ncreated: 2019-10-11 06:58:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n/usr/lib/php/20170718/mysqli.so",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 170,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ff466847-6635-4342-b3c9-da89c974c438",
+    "note_id": "473303d0-5d79-46b7-9549-8c78c4702580",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.734967Z",
+    "finished_at": "2025-11-09T20:05:13.734967Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2867c3e9-7426-44a1-bb16-29a33d09eda7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/_usr_lib_php_20170718_mysqli.so.html",
+      "checksum": "29c36b8f2b9726d73202cd0224dd084bfa15aa629012207a5f4ecf8ad3b5fd41"
+    },
+    "output_ref": {
+      "ingest_source": "8a5ae68a-91e2-4a52-be53-744ef49b4625",
+      "note": "473303d0-5d79-46b7-9549-8c78c4702580",
+      "variants": [
+        "23333203-5bf3-4171-9045-f06db4d6936a",
+        "ca47e1f0-2a64-49bc-bff0-9822445e6ae2"
+      ]
+    },
+    "error_detail": null
+  }
+}

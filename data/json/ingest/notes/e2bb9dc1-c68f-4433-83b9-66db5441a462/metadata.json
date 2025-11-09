@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b70144d8-1ad5-4554-8590-74fe0be24587",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/die Praktikum für Supermarkt.html",
+    "collected_at": "2025-11-09T20:01:39.061578Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "0e45bcb6ccc878392f7e35684783aaa420dc0718262474d23977bb75d6018359",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e2bb9dc1-c68f-4433-83b9-66db5441a462",
+    "ingest_source_id": "b70144d8-1ad5-4554-8590-74fe0be24587",
+    "canonical_title": "die Praktikum für Supermarkt",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:39.061582Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "die Praktikum für Supermarkt.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "fa728185-49a9-47e6-96b6-0ceb05ab0385",
+      "note_id": "e2bb9dc1-c68f-4433-83b9-66db5441a462",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.061584Z",
+      "content": "---\ntitle: die Praktikum für Supermarkt\nupdated: 2020-10-15 07:00:53Z\ncreated: 2020-10-15 06:47:49Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - B1\n  - schreiben\n---\n\n\n<en-note><div>Sehr geehrter Herr Geissler ,</div><div><br/></div><div>ich habe im Internet ein Angebot f&uuml;r ein Praktikum in Ihrem Supermarkt gesehen.&nbsp;</div><div>Ich interessiere mich sehr daf&uuml;r . Ich habe noch ein paar Fragen .Ich m&ouml;chte noch wissen, von wann bis wann ist die Arbeitszeit ? &nbsp;Was soll ich machen ? Wie viel Lohn kann ich bekomme ?</div><div>Ich freue mich auf Ihre Antwort.&nbsp;</div><div>Ich danke Ihnen im Voraus.</div><div><br/></div><div>Beste Gr&uuml;&szlig;e</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0e45bcb6ccc878392f7e35684783aaa420dc0718262474d23977bb75d6018359",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/die Praktikum für Supermarkt.html"
+      }
+    },
+    {
+      "id": "ee25ee2f-909a-48fe-91f6-302202f81402",
+      "note_id": "e2bb9dc1-c68f-4433-83b9-66db5441a462",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.061587Z",
+      "content": "---\ntitle: die Praktikum für Supermarkt\nupdated: 2020-10-15 07:00:53Z\ncreated: 2020-10-15 06:47:49Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - B1\n  - schreiben\n---\n\nSehr geehrter Herr Geissler ,\nich habe im Internet ein Angebot für ein Praktikum in Ihrem Supermarkt gesehen. \nIch interessiere mich sehr dafür . Ich habe noch ein paar Fragen .Ich möchte noch wissen, von wann bis wann ist die Arbeitszeit ?  Was soll ich machen ? Wie viel Lohn kann ich bekomme ?\nIch freue mich auf Ihre Antwort. \nIch danke Ihnen im Voraus.\nBeste Grüße",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 532,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a7e4d0f6-6e34-4f04-8bd4-e24773ded419",
+    "note_id": "e2bb9dc1-c68f-4433-83b9-66db5441a462",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.061592Z",
+    "finished_at": "2025-11-09T20:01:39.061592Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6911ae55-827a-4551-849b-648f708342b0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/die Praktikum für Supermarkt.html",
+      "checksum": "0e45bcb6ccc878392f7e35684783aaa420dc0718262474d23977bb75d6018359"
+    },
+    "output_ref": {
+      "ingest_source": "b70144d8-1ad5-4554-8590-74fe0be24587",
+      "note": "e2bb9dc1-c68f-4433-83b9-66db5441a462",
+      "variants": [
+        "fa728185-49a9-47e6-96b6-0ceb05ab0385",
+        "ee25ee2f-909a-48fe-91f6-302202f81402"
+      ]
+    },
+    "error_detail": null
+  }
+}

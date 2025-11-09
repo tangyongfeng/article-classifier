@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "92113921-3dbf-40d4-8094-edbf039868a9",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/笔记-3.html",
+    "collected_at": "2025-11-09T20:01:37.427063Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a94c4fe1312858c74638e6ab02b936b55e9ad287873981c43aae6333ff2577d4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e3798262-88db-4ffe-89c7-8f908577fd4a",
+    "ingest_source_id": "92113921-3dbf-40d4-8094-edbf039868a9",
+    "canonical_title": "笔记-3",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.427067Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-3.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f90bed74-b93a-4424-aad3-acc610b59b09",
+      "note_id": "e3798262-88db-4ffe-89c7-8f908577fd4a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.427069Z",
+      "content": "---\ntitle: 笔记\nupdated: 2017-03-29 13:39:36Z\ncreated: 2017-03-29 13:39:09Z\n---\n\n\n\n<en-note><div>唐倩茹身份证<font STYLE=\"font-family: 'Helvetica Neue';\">她的是：410928198703239623</font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a94c4fe1312858c74638e6ab02b936b55e9ad287873981c43aae6333ff2577d4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/笔记-3.html"
+      }
+    },
+    {
+      "id": "9a89e8ff-e51a-4686-be12-33e1687b812b",
+      "note_id": "e3798262-88db-4ffe-89c7-8f908577fd4a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.427072Z",
+      "content": "---\ntitle: 笔记\nupdated: 2017-03-29 13:39:36Z\ncreated: 2017-03-29 13:39:09Z\n---\n\n唐倩茹身份证\n她的是：410928198703239623",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 108,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a49db051-f5e3-4af2-8178-cefd1321f08d",
+    "note_id": "e3798262-88db-4ffe-89c7-8f908577fd4a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.427076Z",
+    "finished_at": "2025-11-09T20:01:37.427077Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fed2b3a0-16ea-4420-8991-3fdee53af21d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/笔记-3.html",
+      "checksum": "a94c4fe1312858c74638e6ab02b936b55e9ad287873981c43aae6333ff2577d4"
+    },
+    "output_ref": {
+      "ingest_source": "92113921-3dbf-40d4-8094-edbf039868a9",
+      "note": "e3798262-88db-4ffe-89c7-8f908577fd4a",
+      "variants": [
+        "f90bed74-b93a-4424-aad3-acc610b59b09",
+        "9a89e8ff-e51a-4686-be12-33e1687b812b"
+      ]
+    },
+    "error_detail": null
+  }
+}

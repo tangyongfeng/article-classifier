@@ -1,0 +1,10 @@
+---
+title: 语音评测
+updated: 2021-09-20 21:09:39Z
+created: 2021-09-20 20:24:54Z
+---
+
+Speech Assessment 语音评测
+学术界关于自动口语评分的算法的研究可以追溯到90年代初。目前工业界采用的主流的跟读口语评分方法主要是基于
+隐马尔可夫模型
+ (Hidden Markov Model) 的语音识别引擎，利用其似然分数值 (likelihood score) 以及其他相关的信息做为评分依据。其中，最经典的GOP (Goodness of Pronunciation) 方法是由麻省理工大学的Silke Witt在他的博士论文中提出。之后的评分方法大都与GOP算法相似，或者是由它衍生出来。流利说使用的打分算法也正是以GOP算法为基础的。

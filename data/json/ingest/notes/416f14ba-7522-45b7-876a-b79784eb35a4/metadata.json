@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "60cd26c2-ac28-403f-8260-594174288e15",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/糖尿病.html",
+    "collected_at": "2025-11-09T20:01:38.298007Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "a47d9ffa4828cf798e9eaa980efe48a170370d9a5f7805cef351791a80c8740e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "416f14ba-7522-45b7-876a-b79784eb35a4",
+    "ingest_source_id": "60cd26c2-ac28-403f-8260-594174288e15",
+    "canonical_title": "糖尿病",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.298010Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "糖尿病.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6cf1038d-5c0c-4f0e-a7f4-82c7c00bf22d",
+      "note_id": "416f14ba-7522-45b7-876a-b79784eb35a4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.298013Z",
+      "content": "---\ntitle: 糖尿病\nupdated: 2013-06-24 09:18:01Z\ncreated: 2013-06-24 03:28:14Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n糖尿病是一种因体内胰岛素绝对或者相对不足所导致的一系列临床综合症，与遗传基因有着非常密切的关联。糖尿病的主要临床表现为多饮、多尿、多食和体重下降（&ldquo;三多一少&rdquo;），以及血糖高、尿液中含有葡萄糖（正常的尿液中不应含有葡萄糖）等。\n<div><br/><div>1型糖尿病一般是由于自体免疫系统破坏产生胰岛素的&beta;细胞导致的；</div></div><div>2型糖尿病是由于组织细胞的胰岛素抵抗（通俗地说，就是细胞不再同胰岛素结合，使得进入细胞内部参与生成热量的葡萄糖减少，留在血液中的葡萄糖增多）、&beta;细胞功能衰退或其他多种原因引起的；</div><div>妊娠期糖尿病则与2型糖尿病相似，也是源于细胞的胰岛素抵抗，不过其胰岛素抵抗是由于妊娠期妇女分泌的激素（荷尔蒙）所导致的。</div><div>糖尿病的诊断标准</div><div><br/></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">糖尿病诊断标准（2010中华医学会糖尿病分会）</span></font></div><div ALIGN=\"left\"><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">静脉血浆葡萄糖水平</span></font> <font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">mmol/L(mg/dl)</span></font></div></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">1.</span></font> <font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">糖尿病症状（典型症状包括多饮、多尿和不明原因</span></font><span STYLE=\"font-size: 10pt; color: rgb(1, 1, 1); font-family: 'Times New Roman';\">的体重下降）加</span></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Arial\">&nbsp; &nbsp; &nbsp;&nbsp;</font><font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">1</span></font><font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">）随机血糖（指不考虑上次用餐时间，一天中任意</span></font><span STYLE=\"font-size: 10pt; color: rgb(1, 1, 1); font-family: 'Times New Roman';\">时间的血糖）&nbsp;</span><font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size: 10pt;\">&ge;</span></font><font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\">&nbsp;<span STYLE=\"font-size: 10pt;\">11.1(200)</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Times New Roman\">&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</font> <font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">2</span></font><font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">）空腹血糖（空腹状态指至少</span></font> <font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">8</span></font> <font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">小时没有进食热量）&nbsp;</span></font><font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size: 10pt;\">&ge;</span></font><font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\">&nbsp;<span STYLE=\"font-size: 10pt;\">7.0(126)</span></font></div><div><font COLOR=\"#010101\" FACE=\"Times New Roman\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</font><font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">3</span></font><font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">）葡萄糖负荷后</span></font><font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">2</span></font> <font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">小时血糖</span></font><font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\" STYLE=\"text-align: -webkit-left;\"><span STYLE=\"font-size: 10pt;\">&ge;</span></font><font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\" STYLE=\"text-align: -webkit-left;\">&nbsp;<span STYLE=\"font-size: 10pt;\">11.1(200)</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Arial\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">2.</span></font><font COLOR=\"#010101\" FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">无糖尿病症状者，需另日重复检查明确诊断</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Times New Roman\"><br/></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Times New Roman\"><br/></font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a47d9ffa4828cf798e9eaa980efe48a170370d9a5f7805cef351791a80c8740e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/糖尿病.html"
+      }
+    },
+    {
+      "id": "09fe2e3a-1c58-4ab5-b1f1-83e47abdb0c7",
+      "note_id": "416f14ba-7522-45b7-876a-b79784eb35a4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.298015Z",
+      "content": "---\ntitle: 糖尿病\nupdated: 2013-06-24 09:18:01Z\ncreated: 2013-06-24 03:28:14Z\n---\n\n糖尿病是一种因体内胰岛素绝对或者相对不足所导致的一系列临床综合症，与遗传基因有着非常密切的关联。糖尿病的主要临床表现为多饮、多尿、多食和体重下降（“三多一少”），以及血糖高、尿液中含有葡萄糖（正常的尿液中不应含有葡萄糖）等。\n\n1型糖尿病一般是由于自体免疫系统破坏产生胰岛素的β细胞导致的；\n2型糖尿病是由于组织细胞的胰岛素抵抗（通俗地说，就是细胞不再同胰岛素结合，使得进入细胞内部参与生成热量的葡萄糖减少，留在血液中的葡萄糖增多）、β细胞功能衰退或其他多种原因引起的；\n妊娠期糖尿病则与2型糖尿病相似，也是源于细胞的胰岛素抵抗，不过其胰岛素抵抗是由于妊娠期妇女分泌的激素（荷尔蒙）所导致的。\n糖尿病的诊断标准\n糖尿病诊断标准（2010中华医学会糖尿病分会）\n静脉血浆葡萄糖水平\n\nmmol/L(mg/dl)\n1.\n\n糖尿病症状（典型症状包括多饮、多尿和不明原因\n的体重下降）加\n      \n1\n）随机血糖（指不考虑上次用餐时间，一天中任意\n时间的血糖） \n≥\n \n11.1(200)\n       \n2\n）空腹血糖（空腹状态指至少\n\n8\n\n小时没有进食热量） \n≥\n \n7.0(126)\n        \n3\n）葡萄糖负荷后\n2\n\n小时血糖\n≥\n \n11.1(200)\n2.\n无糖尿病症状者，需另日重复检查明确诊断",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 639,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ecd8e5ec-bf92-4b9b-9759-a162b742d342",
+    "note_id": "416f14ba-7522-45b7-876a-b79784eb35a4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.298020Z",
+    "finished_at": "2025-11-09T20:01:38.298020Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "41107e7e-3126-4380-b8ea-d70d79e51bef",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/糖尿病.html",
+      "checksum": "a47d9ffa4828cf798e9eaa980efe48a170370d9a5f7805cef351791a80c8740e"
+    },
+    "output_ref": {
+      "ingest_source": "60cd26c2-ac28-403f-8260-594174288e15",
+      "note": "416f14ba-7522-45b7-876a-b79784eb35a4",
+      "variants": [
+        "6cf1038d-5c0c-4f0e-a7f4-82c7c00bf22d",
+        "09fe2e3a-1c58-4ab5-b1f1-83e47abdb0c7"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c9162b9d-e681-4237-97ee-b220f7c6ac66",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/儿研所挂号，心血管.html",
+    "collected_at": "2025-11-09T20:05:17.447941Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "et",
+    "captured_at": null,
+    "checksum": "68ce36037130c23e594dea4576b7f2494817209ab0ac39001e8e39836087cf46",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0742928f-9cfa-4d95-8e93-cffdfd2f85b3",
+    "ingest_source_id": "c9162b9d-e681-4237-97ee-b220f7c6ac66",
+    "canonical_title": "儿研所挂号，心血管",
+    "language": "et",
+    "ingested_at": "2025-11-09T20:05:17.447946Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "儿研所挂号，心血管.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "48fe6365-264b-4d7f-a967-aaf022cfb2c5",
+      "note_id": "0742928f-9cfa-4d95-8e93-cffdfd2f85b3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.447949Z",
+      "content": "---\ntitle: 儿研所挂号，心血管\nupdated: 2012-07-01 14:22:43Z\ncreated: 2012-07-01 14:20:47Z\nlatitude: 39.88860000\nlongitude: 116.63100000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>1/3:您已成功预约了首都儿科研究所附属儿童医院心血管内科门诊的副主任医师,顺序号是15,预约识别码是:【15419532】,就诊日期是<br/> </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "68ce36037130c23e594dea4576b7f2494817209ab0ac39001e8e39836087cf46",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/儿研所挂号，心血管.html"
+      }
+    },
+    {
+      "id": "4a7ea36c-87ce-497e-9a3f-cdb9bac8fb0b",
+      "note_id": "0742928f-9cfa-4d95-8e93-cffdfd2f85b3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.447952Z",
+      "content": "---\ntitle: 儿研所挂号，心血管\nupdated: 2012-07-01 14:22:43Z\ncreated: 2012-07-01 14:20:47Z\nlatitude: 39.88860000\nlongitude: 116.63100000\naltitude: 0.0000\n---\n\n1/3:您已成功预约了首都儿科研究所附属儿童医院心血管内科门诊的副主任医师,顺序号是15,预约识别码是:【15419532】,就诊日期是",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "et",
+        "length": 217,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fc9685a0-bb3a-4824-918d-d8044519b07f",
+    "note_id": "0742928f-9cfa-4d95-8e93-cffdfd2f85b3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.447958Z",
+    "finished_at": "2025-11-09T20:05:17.447959Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e46b0033-3842-4429-b4c9-6b1cb88ef717",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/儿研所挂号，心血管.html",
+      "checksum": "68ce36037130c23e594dea4576b7f2494817209ab0ac39001e8e39836087cf46"
+    },
+    "output_ref": {
+      "ingest_source": "c9162b9d-e681-4237-97ee-b220f7c6ac66",
+      "note": "0742928f-9cfa-4d95-8e93-cffdfd2f85b3",
+      "variants": [
+        "48fe6365-264b-4d7f-a967-aaf022cfb2c5",
+        "4a7ea36c-87ce-497e-9a3f-cdb9bac8fb0b"
+      ]
+    },
+    "error_detail": null
+  }
+}

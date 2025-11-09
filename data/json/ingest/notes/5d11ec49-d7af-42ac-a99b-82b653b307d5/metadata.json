@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9d469714-d594-4263-8d4e-b9ea6218728f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/8月4日.html",
+    "collected_at": "2025-11-09T20:05:18.121020Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "b1c3d549fa07248e32e11f7a4ffb851b3911162b39df72c662b6ee128768504d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "5d11ec49-d7af-42ac-a99b-82b653b307d5",
+    "ingest_source_id": "9d469714-d594-4263-8d4e-b9ea6218728f",
+    "canonical_title": "8月4日",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.121024Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "8月4日.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "470e9709-9070-4004-aaf2-e53b960d7406",
+      "note_id": "5d11ec49-d7af-42ac-a99b-82b653b307d5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.121026Z",
+      "content": "---\ntitle: 8月4日\nupdated: 2020-08-04 14:38:26Z\ncreated: 2020-08-04 14:37:36Z\n---\n\n\n\n<en-note><div>1）Ich habe ihr die Situation erkl&auml;rt.</div><div>2) Sie hat mir ein paar Sicherheitsfragen gestellt.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b1c3d549fa07248e32e11f7a4ffb851b3911162b39df72c662b6ee128768504d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/8月4日.html"
+      }
+    },
+    {
+      "id": "e2385ca0-94d0-484e-a629-cb59f3283a73",
+      "note_id": "5d11ec49-d7af-42ac-a99b-82b653b307d5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.121029Z",
+      "content": "---\ntitle: 8月4日\nupdated: 2020-08-04 14:38:26Z\ncreated: 2020-08-04 14:37:36Z\n---\n\n1）Ich habe ihr die Situation erklärt.\n2) Sie hat mir ein paar Sicherheitsfragen gestellt.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 170,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "84dad6e2-199c-4ccb-b97d-970ae82c46ac",
+    "note_id": "5d11ec49-d7af-42ac-a99b-82b653b307d5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.121033Z",
+    "finished_at": "2025-11-09T20:05:18.121034Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8cdf6dd0-26c0-4fa3-bb6c-c95bfbe8535d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/8月4日.html",
+      "checksum": "b1c3d549fa07248e32e11f7a4ffb851b3911162b39df72c662b6ee128768504d"
+    },
+    "output_ref": {
+      "ingest_source": "9d469714-d594-4263-8d4e-b9ea6218728f",
+      "note": "5d11ec49-d7af-42ac-a99b-82b653b307d5",
+      "variants": [
+        "470e9709-9070-4004-aaf2-e53b960d7406",
+        "e2385ca0-94d0-484e-a629-cb59f3283a73"
+      ]
+    },
+    "error_detail": null
+  }
+}

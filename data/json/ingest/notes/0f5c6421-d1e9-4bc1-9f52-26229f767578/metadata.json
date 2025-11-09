@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "acb6c069-5526-4537-9d63-3aef04faa27b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ubuntu 安装open cv.html",
+    "collected_at": "2025-11-09T20:01:35.143561Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "135dddee6fb75e09ab5dc99aa3d52cb2020892e099de2b39e6b16e2b8a0749f0",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0f5c6421-d1e9-4bc1-9f52-26229f767578",
+    "ingest_source_id": "acb6c069-5526-4537-9d63-3aef04faa27b",
+    "canonical_title": "ubuntu 安装open cv",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.143565Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ubuntu 安装open cv.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ee2903b6-078e-41bd-9a23-9bc0396cef3d",
+      "note_id": "0f5c6421-d1e9-4bc1-9f52-26229f767578",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.143568Z",
+      "content": "---\ntitle: ubuntu 安装open cv\nupdated: 2017-12-01 08:29:40Z\ncreated: 2017-11-16 15:58:04Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - opencv\n  - python\n---\n\n\n<en-note><div><span STYLE=\"font-size: 9pt;\">cd $HOME</span></div><div STYLE=\"font-family:gotham, helvetica, arial, sans-serif;font-size:14px;\"><span STYLE=\"font-size: 9pt;\">sudo apt-get install -y build-essential cmake</span></div><div STYLE=\"font-family:&quot;Helvetica Neue&quot;, Arial, sans;font-size:16px;\"><span STYLE=\"font-size: 9pt;\"># GUI:</span></div><div><div STYLE=\"font-family:&quot;Helvetica Neue&quot;, Arial, sans;font-size:16px;\"><span STYLE=\"font-size: 9pt;\">sudo apt-get install -y qt5-default libvtk6-dev</span></div><div STYLE=\"font-family:&quot;Helvetica Neue&quot;, Arial, sans;font-size:16px;\"><span STYLE=\"font-size: 9pt;\"># Media I/O:</span></div><div STYLE=\"font-family:&quot;Helvetica Neue&quot;, Arial, sans;font-size:16px;\"><span STYLE=\"font-size: 9pt;\">sudo apt-get install -y zlib1g-dev libjpeg-dev libwebp-dev libpng-</span><span STYLE=\"font-size: 9pt;\">dev libtiff5-dev libjasper-dev libopenexr-dev libgdal-dev</span></div><div STYLE=\"font-family:&quot;Helvetica Neue&quot;, Arial, sans;font-size:16px;\"><span STYLE=\"font-size: 9pt;\"># Video I/O:</span></div><div STYLE=\"font-family:&quot;Helvetica Neue&quot;, Arial, sans;font-size:16px;\"><span STYLE=\"font-size: 9pt;\">sudo apt-get install -y libdc1394-22-dev libavcodec-dev libavformat-</span><span STYLE=\"font-size: 9pt;\">dev libswscale-dev libtheora-dev libvorbis-dev libxvidcore-dev</span></div><div STYLE=\"font-family:gotham, helvetica, arial, sans-serif;font-size:12px;\"><span STYLE=\"font-size: 9pt;\">libx264-dev yasm libopencore-amrnb-dev libopencore-amrwb-dev libv4l-</span><span STYLE=\"font-size: 9pt;\">dev libxine2-dev</span></div></div><div><br/></div><div><br/></div><div><span STYLE=\"font-size: 9pt;\">mkdir opencv_src</span></div><div><span STYLE=\"font-size: 9pt;\">cd opencv_src/</span></div><div><span STYLE=\"font-size: 9pt;\">git clone</span> <a HREF=\"https://github.com/Itseez/opencv.git\" STYLE=\"font-size: 9pt;\">https://github.com/Itseez/opencv.git</a></div><div><span STYLE=\"font-size: 9pt;\">cd opencv/</span></div><div><span STYLE=\"font-size: 9pt;\">mkdir release</span></div><div><span STYLE=\"font-size: 9pt;\">cd release/</span></div><div><br/></div><div><span STYLE=\"font-size: 9pt;\">cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -DBUILD_NEW_PYTHON_SUPPORT=ON WITH_CUDA=ON -D WITH_NVCUVID=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D ENABLE_FAST_MATH=1 -D CUDA_FAST_MATH=1 -DCUDA_NVCC_FLAGS=&quot;-D_FORCE_INLINES&quot; ..</span></div><div><span STYLE=\"font-size: 9pt;\"><br/></span></div><div><span STYLE=\"font-size: 9pt;\">make -j 8</span></div><div><span STYLE=\"font-size: 9pt;\">sudo make install</span></div><div><br/></div><div><br/></div><div><span STYLE=\"font-size: 9pt;\"><br/></span></div><div><span STYLE=\"font-size: 9pt;\"><br/></span></div><div><span STYLE=\"font-size: 9pt;\">pip install opencv-python</span></div><div><span STYLE=\"font-size: 9pt;\">&nbsp;&nbsp;&nbsp;&nbsp;Import the package:</span></div><div><span STYLE=\"font-size: 9pt;\">import cv2</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "135dddee6fb75e09ab5dc99aa3d52cb2020892e099de2b39e6b16e2b8a0749f0",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ubuntu 安装open cv.html"
+      }
+    },
+    {
+      "id": "4c557d21-44aa-4263-bd0c-9f97ad32a60e",
+      "note_id": "0f5c6421-d1e9-4bc1-9f52-26229f767578",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.143570Z",
+      "content": "---\ntitle: ubuntu 安装open cv\nupdated: 2017-12-01 08:29:40Z\ncreated: 2017-11-16 15:58:04Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - opencv\n  - python\n---\n\ncd $HOME\nsudo apt-get install -y build-essential cmake\n# GUI:\nsudo apt-get install -y qt5-default libvtk6-dev\n# Media I/O:\nsudo apt-get install -y zlib1g-dev libjpeg-dev libwebp-dev libpng-\ndev libtiff5-dev libjasper-dev libopenexr-dev libgdal-dev\n# Video I/O:\nsudo apt-get install -y libdc1394-22-dev libavcodec-dev libavformat-\ndev libswscale-dev libtheora-dev libvorbis-dev libxvidcore-dev\nlibx264-dev yasm libopencore-amrnb-dev libopencore-amrwb-dev libv4l-\ndev libxine2-dev\nmkdir opencv_src\ncd opencv_src/\ngit clone\n\nhttps://github.com/Itseez/opencv.git\ncd opencv/\nmkdir release\ncd release/\ncmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -DBUILD_NEW_PYTHON_SUPPORT=ON WITH_CUDA=ON -D WITH_NVCUVID=ON -D BUILD_NEW_PYTHON_SUPPORT=ON -D ENABLE_FAST_MATH=1 -D CUDA_FAST_MATH=1 -DCUDA_NVCC_FLAGS=\"-D_FORCE_INLINES\" ..\nmake -j 8\nsudo make install\npip install opencv-python\n    Import the package:\nimport cv2",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1080,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "84eb9371-fbfd-4f3a-ac3b-0a3861ffa329",
+    "note_id": "0f5c6421-d1e9-4bc1-9f52-26229f767578",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.143575Z",
+    "finished_at": "2025-11-09T20:01:35.143576Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f8b30767-e6fb-409f-8e16-02d42be7347a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ubuntu 安装open cv.html",
+      "checksum": "135dddee6fb75e09ab5dc99aa3d52cb2020892e099de2b39e6b16e2b8a0749f0"
+    },
+    "output_ref": {
+      "ingest_source": "acb6c069-5526-4537-9d63-3aef04faa27b",
+      "note": "0f5c6421-d1e9-4bc1-9f52-26229f767578",
+      "variants": [
+        "ee2903b6-078e-41bd-9a23-9bc0396cef3d",
+        "4c557d21-44aa-4263-bd0c-9f97ad32a60e"
+      ]
+    },
+    "error_detail": null
+  }
+}

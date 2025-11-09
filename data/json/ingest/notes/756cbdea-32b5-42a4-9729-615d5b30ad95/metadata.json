@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d3bfece6-8f4c-4ffa-9926-0aa3146ae221",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/SSH 可能遇到 rsa key 验证失败.html",
+    "collected_at": "2025-11-09T20:05:13.602072Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6376c1d446c735924036c670e5e3b9d295994a0944285eaa0b53faeb4e221984",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "756cbdea-32b5-42a4-9729-615d5b30ad95",
+    "ingest_source_id": "d3bfece6-8f4c-4ffa-9926-0aa3146ae221",
+    "canonical_title": "SSH 可能遇到 rsa key 验证失败",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.602076Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "SSH 可能遇到 rsa key 验证失败.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5e972dae-10ec-4882-b00b-5c61e8097ddb",
+      "note_id": "756cbdea-32b5-42a4-9729-615d5b30ad95",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.602078Z",
+      "content": "---\ntitle: SSH 可能遇到 rsa key 验证失败\nupdated: 2022-10-25 16:59:45Z\ncreated: 2022-10-25 16:59:16Z\n---\n\n\n<en-note><div>升级到 macOS Ventura 之后 SSH 可能遇到 rsa key 验证失败，解决方案：编辑 ~/.ssh/config, 新增两行:</div><div><br/></div><div>HostkeyAlgorithms +ssh-rsa</div><div>PubkeyAcceptedAlgorithms +ssh-rsa</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6376c1d446c735924036c670e5e3b9d295994a0944285eaa0b53faeb4e221984",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/SSH 可能遇到 rsa key 验证失败.html"
+      }
+    },
+    {
+      "id": "588a3e68-01e8-4273-8014-1c0b02875ce4",
+      "note_id": "756cbdea-32b5-42a4-9729-615d5b30ad95",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.602081Z",
+      "content": "---\ntitle: SSH 可能遇到 rsa key 验证失败\nupdated: 2022-10-25 16:59:45Z\ncreated: 2022-10-25 16:59:16Z\n---\n\n升级到 macOS Ventura 之后 SSH 可能遇到 rsa key 验证失败，解决方案：编辑 ~/.ssh/config, 新增两行:\nHostkeyAlgorithms +ssh-rsa\nPubkeyAcceptedAlgorithms +ssh-rsa",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 230,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fa588947-4f11-4779-916d-e48f19076be4",
+    "note_id": "756cbdea-32b5-42a4-9729-615d5b30ad95",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.602086Z",
+    "finished_at": "2025-11-09T20:05:13.602086Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3ec6213e-a89c-486a-9e0d-22db1f06bdca",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/SSH 可能遇到 rsa key 验证失败.html",
+      "checksum": "6376c1d446c735924036c670e5e3b9d295994a0944285eaa0b53faeb4e221984"
+    },
+    "output_ref": {
+      "ingest_source": "d3bfece6-8f4c-4ffa-9926-0aa3146ae221",
+      "note": "756cbdea-32b5-42a4-9729-615d5b30ad95",
+      "variants": [
+        "5e972dae-10ec-4882-b00b-5c61e8097ddb",
+        "588a3e68-01e8-4273-8014-1c0b02875ce4"
+      ]
+    },
+    "error_detail": null
+  }
+}

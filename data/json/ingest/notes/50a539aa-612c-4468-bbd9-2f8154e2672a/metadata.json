@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "84849383-c327-47ec-b04c-8720c3f65e4f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/大盘与个股的八大关系.html",
+    "collected_at": "2025-11-09T20:01:39.552883Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "9d67cd6372214990f727dabe25e582cf6c0202eb8a5250ab15f6b210c3fe1738",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "50a539aa-612c-4468-bbd9-2f8154e2672a",
+    "ingest_source_id": "84849383-c327-47ec-b04c-8720c3f65e4f",
+    "canonical_title": "大盘与个股的八大关系",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.552888Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "大盘与个股的八大关系.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9ce741e2-da3a-4040-8b9d-247c685c8ce9",
+      "note_id": "50a539aa-612c-4468-bbd9-2f8154e2672a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.552891Z",
+      "content": "---\ntitle: 大盘与个股的八大关系\nupdated: 2021-03-12 13:10:33Z\ncreated: 2021-03-12 13:09:17Z\n---\n\n\n\n<en-note><div>大盘与个股的八大关系：1、逆跌持平会上行， 2、逆跌小涨会大涨， 3、逆跌大涨要清仓， 4、逆涨持平要下行， 5、逆涨小跌要大跌， 6、逆涨大跌准备接， 7、差不要，同不行，只有强势才上攻， 8、踏准节奏，事不过三，跌势将尽，进，涨势趋缓，出。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9d67cd6372214990f727dabe25e582cf6c0202eb8a5250ab15f6b210c3fe1738",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/大盘与个股的八大关系.html"
+      }
+    },
+    {
+      "id": "dd84b1de-7d18-4a1c-9d86-2ee38453cf27",
+      "note_id": "50a539aa-612c-4468-bbd9-2f8154e2672a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.552895Z",
+      "content": "---\ntitle: 大盘与个股的八大关系\nupdated: 2021-03-12 13:10:33Z\ncreated: 2021-03-12 13:09:17Z\n---\n\n大盘与个股的八大关系：1、逆跌持平会上行， 2、逆跌小涨会大涨， 3、逆跌大涨要清仓， 4、逆涨持平要下行， 5、逆涨小跌要大跌， 6、逆涨大跌准备接， 7、差不要，同不行，只有强势才上攻， 8、踏准节奏，事不过三，跌势将尽，进，涨势趋缓，出。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 209,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f95fdf23-18a8-4c20-ad53-c80c1af279cd",
+    "note_id": "50a539aa-612c-4468-bbd9-2f8154e2672a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.552900Z",
+    "finished_at": "2025-11-09T20:01:39.552900Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2473b118-23d4-4a9b-8633-f2f81ee132fb",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/大盘与个股的八大关系.html",
+      "checksum": "9d67cd6372214990f727dabe25e582cf6c0202eb8a5250ab15f6b210c3fe1738"
+    },
+    "output_ref": {
+      "ingest_source": "84849383-c327-47ec-b04c-8720c3f65e4f",
+      "note": "50a539aa-612c-4468-bbd9-2f8154e2672a",
+      "variants": [
+        "9ce741e2-da3a-4040-8b9d-247c685c8ce9",
+        "dd84b1de-7d18-4a1c-9d86-2ee38453cf27"
+      ]
+    },
+    "error_detail": null
+  }
+}

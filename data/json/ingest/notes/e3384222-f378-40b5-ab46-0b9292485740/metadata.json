@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f46f3ed4-6b83-4e74-9596-6b43bca079b3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。.html",
+    "collected_at": "2025-11-09T20:01:38.095422Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "d468ae3d7f4cb7969f0a1ea7f87c1e8426e89f68efce152bae3658d93b3e98f6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e3384222-f378-40b5-ab46-0b9292485740",
+    "ingest_source_id": "f46f3ed4-6b83-4e74-9596-6b43bca079b3",
+    "canonical_title": "酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.095426Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f32e10fc-3dc5-443f-bc82-51e9989b177a",
+      "note_id": "e3384222-f378-40b5-ab46-0b9292485740",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.095429Z",
+      "content": "---\ntitle: 酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。\nupdated: 2013-07-12 03:24:47Z\ncreated: 2013-07-12 03:24:47Z\nsource: http://www.homeinns.com/rjhotel/057152\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><ul STYLE=\"margin: 0px; padding: 0px; border: 0px; font-size: 12px; font-family: 'microsoft yahei', Arial, Helvetica, Verdana, simsun; vertical-align: baseline; list-style: none; color: rgb(51, 51, 51); line-height: 18px; background-color: rgb(255, 255, 255);\"><li STYLE=\"list-style: none; display: inline\"><p STYLE=\"margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 24px; color: rgb(83, 83, 83);\">酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。</p><p STYLE=\"margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 24px; color: rgb(83, 83, 83);\">联系电话：0571-87019995</p><p STYLE=\"margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 24px; color: rgb(83, 83, 83);\">开业时间：2012-3-8</p></li></ul></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d468ae3d7f4cb7969f0a1ea7f87c1e8426e89f68efce152bae3658d93b3e98f6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。.html"
+      }
+    },
+    {
+      "id": "5068b57f-7973-464a-b5e0-864d5d5e0c7a",
+      "note_id": "e3384222-f378-40b5-ab46-0b9292485740",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.095432Z",
+      "content": "---\ntitle: 酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。\nupdated: 2013-07-12 03:24:47Z\ncreated: 2013-07-12 03:24:47Z\nsource: http://www.homeinns.com/rjhotel/057152\n---\n\n酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。\n联系电话：0571-87019995\n开业时间：2012-3-8",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 233,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c013cfe6-7606-4b42-8841-b061f60cf7cd",
+    "note_id": "e3384222-f378-40b5-ab46-0b9292485740",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.095438Z",
+    "finished_at": "2025-11-09T20:01:38.095438Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3c716eea-9a82-4b5b-a429-644e66e678d4",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。.html",
+      "checksum": "d468ae3d7f4cb7969f0a1ea7f87c1e8426e89f68efce152bae3658d93b3e98f6"
+    },
+    "output_ref": {
+      "ingest_source": "f46f3ed4-6b83-4e74-9596-6b43bca079b3",
+      "note": "e3384222-f378-40b5-ab46-0b9292485740",
+      "variants": [
+        "f32e10fc-3dc5-443f-bc82-51e9989b177a",
+        "5068b57f-7973-464a-b5e0-864d5d5e0c7a"
+      ]
+    },
+    "error_detail": null
+  }
+}

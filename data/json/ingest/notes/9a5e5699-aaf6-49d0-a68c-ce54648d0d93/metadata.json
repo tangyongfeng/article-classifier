@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0d232e71-1786-4ec5-907d-23327a7493ec",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/einkaufen und kaufen.html",
+    "collected_at": "2025-11-09T20:05:18.255006Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "bd8862cf36eb5e2cf429ae79c676817403e233cebeb6d7a733b1d8ffa0db2d5f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "9a5e5699-aaf6-49d0-a68c-ce54648d0d93",
+    "ingest_source_id": "0d232e71-1786-4ec5-907d-23327a7493ec",
+    "canonical_title": "einkaufen und kaufen",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.255010Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "einkaufen und kaufen.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "19327f76-3ae6-40bc-bb1f-bf25d1a869b6",
+      "note_id": "9a5e5699-aaf6-49d0-a68c-ce54648d0d93",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.255012Z",
+      "content": "---\ntitle: einkaufen und kaufen\nupdated: 2020-06-08 10:15:47Z\ncreated: 2020-06-08 10:13:48Z\n---\n\n\n\n<en-note><div>有具体买的东西用kaufen，没具体的用einfaufen.</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bd8862cf36eb5e2cf429ae79c676817403e233cebeb6d7a733b1d8ffa0db2d5f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/einkaufen und kaufen.html"
+      }
+    },
+    {
+      "id": "3a2bdc54-1a6b-46a9-9c71-ae22ae45be16",
+      "note_id": "9a5e5699-aaf6-49d0-a68c-ce54648d0d93",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.255015Z",
+      "content": "---\ntitle: einkaufen und kaufen\nupdated: 2020-06-08 10:15:47Z\ncreated: 2020-06-08 10:13:48Z\n---\n\n有具体买的东西用kaufen，没具体的用einfaufen.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 127,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5f47b9ef-19cc-43ca-866f-9bace6b26a99",
+    "note_id": "9a5e5699-aaf6-49d0-a68c-ce54648d0d93",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.255020Z",
+    "finished_at": "2025-11-09T20:05:18.255020Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0497b0ea-6665-4f84-a126-77528fdabc0e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/einkaufen und kaufen.html",
+      "checksum": "bd8862cf36eb5e2cf429ae79c676817403e233cebeb6d7a733b1d8ffa0db2d5f"
+    },
+    "output_ref": {
+      "ingest_source": "0d232e71-1786-4ec5-907d-23327a7493ec",
+      "note": "9a5e5699-aaf6-49d0-a68c-ce54648d0d93",
+      "variants": [
+        "19327f76-3ae6-40bc-bb1f-bf25d1a869b6",
+        "3a2bdc54-1a6b-46a9-9c71-ae22ae45be16"
+      ]
+    },
+    "error_detail": null
+  }
+}

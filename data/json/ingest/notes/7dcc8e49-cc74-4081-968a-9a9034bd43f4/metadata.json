@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "40623a11-ffc8-4617-b868-e0c79d40ed6e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/保单.html",
+    "collected_at": "2025-11-09T20:05:19.058162Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "392cd96fc9a296489756f2652325ef9941c896fb59fe4dced0301f47f18e9739",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7dcc8e49-cc74-4081-968a-9a9034bd43f4",
+    "ingest_source_id": "40623a11-ffc8-4617-b868-e0c79d40ed6e",
+    "canonical_title": "保单",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:19.058166Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "保单.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6676775a-9022-49ee-acce-8c1ea2104525",
+      "note_id": "7dcc8e49-cc74-4081-968a-9a9034bd43f4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.058169Z",
+      "content": "---\ntitle: 保单\nupdated: 2014-02-19 14:56:22Z\ncreated: 2014-02-19 14:56:10Z\n---\n\n\n\n<en-note>尊敬的客户，您的投保已成功。保单号码PC0100W055210015，被保险人唐跃然，证件号码140882201305250036,保险期限为2014年2月25日零时起至2015年2月24日24时止。请妥善保管好保单号，若有疑问敬请致电95511【中国平安】\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "392cd96fc9a296489756f2652325ef9941c896fb59fe4dced0301f47f18e9739",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/保单.html"
+      }
+    },
+    {
+      "id": "2694c2b3-728a-4a34-b940-6af888bb7ed4",
+      "note_id": "7dcc8e49-cc74-4081-968a-9a9034bd43f4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.058172Z",
+      "content": "---\ntitle: 保单\nupdated: 2014-02-19 14:56:22Z\ncreated: 2014-02-19 14:56:10Z\n---\n\n尊敬的客户，您的投保已成功。保单号码PC0100W055210015，被保险人唐跃然，证件号码140882201305250036,保险期限为2014年2月25日零时起至2015年2月24日24时止。请妥善保管好保单号，若有疑问敬请致电95511【中国平安】",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 208,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9cf3141e-1104-4c0e-9f57-0ce30e2e3209",
+    "note_id": "7dcc8e49-cc74-4081-968a-9a9034bd43f4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:19.058178Z",
+    "finished_at": "2025-11-09T20:05:19.058178Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0b58e01f-369e-48fb-bd50-ccb6ac32fc9c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/保单.html",
+      "checksum": "392cd96fc9a296489756f2652325ef9941c896fb59fe4dced0301f47f18e9739"
+    },
+    "output_ref": {
+      "ingest_source": "40623a11-ffc8-4617-b868-e0c79d40ed6e",
+      "note": "7dcc8e49-cc74-4081-968a-9a9034bd43f4",
+      "variants": [
+        "6676775a-9022-49ee-acce-8c1ea2104525",
+        "2694c2b3-728a-4a34-b940-6af888bb7ed4"
+      ]
+    },
+    "error_detail": null
+  }
+}

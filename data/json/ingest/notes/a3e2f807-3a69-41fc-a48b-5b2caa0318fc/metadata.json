@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "66b357dc-65ad-465d-80f7-1780710d3aac",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/咖啡机回收.html",
+    "collected_at": "2025-11-09T20:05:16.039787Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "7509ace423f6516c827fc1067057bf221b9e9581abf8f0a25563f1df496e2e5d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a3e2f807-3a69-41fc-a48b-5b2caa0318fc",
+    "ingest_source_id": "66b357dc-65ad-465d-80f7-1780710d3aac",
+    "canonical_title": "咖啡机回收",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.039791Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "咖啡机回收.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "51f0ee56-7306-4364-9336-1f1d0391c90f",
+      "note_id": "a3e2f807-3a69-41fc-a48b-5b2caa0318fc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.039793Z",
+      "content": "---\ntitle: 咖啡机回收\nupdated: 2021-08-18 20:18:41Z\ncreated: 2021-08-18 20:17:50Z\n---\n\n\n<en-note><div>参考：<b>6527</b></div><div>请保留此参考编号，如果您需要帮助，请告诉我们。</div><div>感谢您使用亚马逊回收计划！</div><div>您将收到一封来自我们的承运人 UPS 的电子邮件，其中包含要打印的标签以及有关如何发送 EAG 的说明。</div><div>请在发送前根据这些<a HREF=\"https://www.h2compliance.com/resources/Packaging_Instructions_Printing_Label_Service_DE.pdf\" REL=\"noopener\" REV=\"en_rl_none\">说明</a>准备您的 EAG&nbsp;。</div><div>请注意，只有符合<a HREF=\"https://www.h2compliance.com/resources/Terms_of_Use_DE.pdf\" REL=\"noopener\" REV=\"en_rl_none\">条款</a>和<a HREF=\"https://www.h2compliance.com/resources/Terms_of_Use_DE.pdf\" REL=\"noopener\" REV=\"en_rl_none\">条件的</a>WEEE 才会被接受，并且允许的最大重量为 30 公斤。</div><div>此致，</div><div>亚马逊回收计划团队</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7509ace423f6516c827fc1067057bf221b9e9581abf8f0a25563f1df496e2e5d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/咖啡机回收.html"
+      }
+    },
+    {
+      "id": "5abcce41-1c4c-4082-ba03-a93b993044f7",
+      "note_id": "a3e2f807-3a69-41fc-a48b-5b2caa0318fc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.039796Z",
+      "content": "---\ntitle: 咖啡机回收\nupdated: 2021-08-18 20:18:41Z\ncreated: 2021-08-18 20:17:50Z\n---\n\n参考：\n6527\n请保留此参考编号，如果您需要帮助，请告诉我们。\n感谢您使用亚马逊回收计划！\n您将收到一封来自我们的承运人 UPS 的电子邮件，其中包含要打印的标签以及有关如何发送 EAG 的说明。\n请在发送前根据这些\n说明\n准备您的 EAG 。\n请注意，只有符合\n条款\n和\n条件的\nWEEE 才会被接受，并且允许的最大重量为 30 公斤。\n此致，\n亚马逊回收计划团队",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 266,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a7fb809b-957b-4ce1-a563-9f5bffecb0aa",
+    "note_id": "a3e2f807-3a69-41fc-a48b-5b2caa0318fc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.039801Z",
+    "finished_at": "2025-11-09T20:05:16.039801Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7d05bbd8-be56-456c-8b03-7cf777970f05",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/咖啡机回收.html",
+      "checksum": "7509ace423f6516c827fc1067057bf221b9e9581abf8f0a25563f1df496e2e5d"
+    },
+    "output_ref": {
+      "ingest_source": "66b357dc-65ad-465d-80f7-1780710d3aac",
+      "note": "a3e2f807-3a69-41fc-a48b-5b2caa0318fc",
+      "variants": [
+        "51f0ee56-7306-4364-9336-1f1d0391c90f",
+        "5abcce41-1c4c-4082-ba03-a93b993044f7"
+      ]
+    },
+    "error_detail": null
+  }
+}

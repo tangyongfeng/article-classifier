@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2d702d6a-77f1-46dd-9df5-1a4d56c45931",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/自媒体话题.html",
+    "collected_at": "2025-11-09T20:05:16.663536Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "beec11a5263124de63025460b81266d2fedc707348340ba2cbf4f847406195fa",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "570314a2-241a-4efb-b86a-436564d707ce",
+    "ingest_source_id": "2d702d6a-77f1-46dd-9df5-1a4d56c45931",
+    "canonical_title": "自媒体话题",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.663540Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "自媒体话题.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "135d6cd1-1c92-4e91-b4ec-41a0475557f9",
+      "note_id": "570314a2-241a-4efb-b86a-436564d707ce",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.663543Z",
+      "content": "---\ntitle: 自媒体话题\nupdated: 2019-11-17 05:49:00Z\ncreated: 2019-11-17 05:48:03Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>1、印尼红土镍矿</div><div>2、工业4.0和智能制造2025</div><div>3、马耳他博彩</div><div>4、欧洲隐私法案</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "beec11a5263124de63025460b81266d2fedc707348340ba2cbf4f847406195fa",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/自媒体话题.html"
+      }
+    },
+    {
+      "id": "ffe0ce93-9b78-4cd3-b0b9-508703d0ca46",
+      "note_id": "570314a2-241a-4efb-b86a-436564d707ce",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.663546Z",
+      "content": "---\ntitle: 自媒体话题\nupdated: 2019-11-17 05:49:00Z\ncreated: 2019-11-17 05:48:03Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、印尼红土镍矿\n2、工业4.0和智能制造2025\n3、马耳他博彩\n4、欧洲隐私法案",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 155,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d195f124-724e-436c-99ac-d676de68be1b",
+    "note_id": "570314a2-241a-4efb-b86a-436564d707ce",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.663552Z",
+    "finished_at": "2025-11-09T20:05:16.663552Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c33a3d89-2cf8-40c5-841c-99440f3da3b7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/自媒体话题.html",
+      "checksum": "beec11a5263124de63025460b81266d2fedc707348340ba2cbf4f847406195fa"
+    },
+    "output_ref": {
+      "ingest_source": "2d702d6a-77f1-46dd-9df5-1a4d56c45931",
+      "note": "570314a2-241a-4efb-b86a-436564d707ce",
+      "variants": [
+        "135d6cd1-1c92-4e91-b4ec-41a0475557f9",
+        "ffe0ce93-9b78-4cd3-b0b9-508703d0ca46"
+      ]
+    },
+    "error_detail": null
+  }
+}

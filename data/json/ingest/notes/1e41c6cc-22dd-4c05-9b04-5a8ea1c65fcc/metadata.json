@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1d4f17b6-6d16-497b-814e-7b576be953b4",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/Orbitz优惠码.html",
+    "collected_at": "2025-11-09T20:01:39.992370Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "b7fcabcde3e7f8947fe641173affcb81a5075abd7aea3d2998955f25f9c24619",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1e41c6cc-22dd-4c05-9b04-5a8ea1c65fcc",
+    "ingest_source_id": "1d4f17b6-6d16-497b-814e-7b576be953b4",
+    "canonical_title": "Orbitz优惠码",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.992374Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Orbitz优惠码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "86bb853c-f653-4257-b5ac-f44ffe8174da",
+      "note_id": "1e41c6cc-22dd-4c05-9b04-5a8ea1c65fcc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.992376Z",
+      "content": "---\ntitle: Orbitz优惠码\nupdated: 2012-12-16 04:25:16Z\ncreated: 2012-12-16 04:24:57Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div ALIGN=\"justify\"><font COLOR=\"#010101\" FACE=\"Calibri\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">ORB4R8X2</span></font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b7fcabcde3e7f8947fe641173affcb81a5075abd7aea3d2998955f25f9c24619",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/Orbitz优惠码.html"
+      }
+    },
+    {
+      "id": "66a7bd6d-7120-459b-874a-f6317cd53fa5",
+      "note_id": "1e41c6cc-22dd-4c05-9b04-5a8ea1c65fcc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.992379Z",
+      "content": "---\ntitle: Orbitz优惠码\nupdated: 2012-12-16 04:25:16Z\ncreated: 2012-12-16 04:24:57Z\n---\n\nORB4R8X2",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 94,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "73c28869-d7d2-4b89-9274-abbc3e13ddf7",
+    "note_id": "1e41c6cc-22dd-4c05-9b04-5a8ea1c65fcc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.992384Z",
+    "finished_at": "2025-11-09T20:01:39.992384Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c01b5d83-8e3f-4178-a8c0-2b2bf5210dd9",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/Orbitz优惠码.html",
+      "checksum": "b7fcabcde3e7f8947fe641173affcb81a5075abd7aea3d2998955f25f9c24619"
+    },
+    "output_ref": {
+      "ingest_source": "1d4f17b6-6d16-497b-814e-7b576be953b4",
+      "note": "1e41c6cc-22dd-4c05-9b04-5a8ea1c65fcc",
+      "variants": [
+        "86bb853c-f653-4257-b5ac-f44ffe8174da",
+        "66a7bd6d-7120-459b-874a-f6317cd53fa5"
+      ]
+    },
+    "error_detail": null
+  }
+}

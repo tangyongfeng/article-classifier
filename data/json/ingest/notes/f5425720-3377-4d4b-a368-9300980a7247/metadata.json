@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "90983218-59f8-45bd-a63c-910c4f738697",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/人民币兑换.html",
+    "collected_at": "2025-11-09T20:01:40.016261Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ko",
+    "captured_at": null,
+    "checksum": "4b2f744acb98c25c656b6d9c5b2d5c74c0c902ce491f667ec43c04abb1d2040a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f5425720-3377-4d4b-a368-9300980a7247",
+    "ingest_source_id": "90983218-59f8-45bd-a63c-910c4f738697",
+    "canonical_title": "人民币兑换",
+    "language": "ko",
+    "ingested_at": "2025-11-09T20:01:40.016268Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "人民币兑换.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d2cf9ee6-fd2d-4501-aa08-4be672c3c8f2",
+      "note_id": "f5425720-3377-4d4b-a368-9300980a7247",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.016271Z",
+      "content": "---\ntitle: 人民币兑换\nupdated: 2013-02-19 09:41:43Z\ncreated: 2013-02-19 09:40:27Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><table BORDER=\"0\" CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"border-collapse: collapse;width:348pt\" WIDTH=\"464\"><colgroup><col STYLE=\"mso-width-source:userset;mso-width-alt:3328;width:78pt\" WIDTH=\"104\"/><col SPAN=\"5\" STYLE=\"width:54pt\" WIDTH=\"72\"/></colgroup><tbody><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\">2013-02-19<br/>\n人民币兑换额</td><td ALIGN=\"right\" STYLE=\"width:54pt\" WIDTH=\"72\">100000 &nbsp; &nbsp;&nbsp;</td><td STYLE=\"width:54pt\" WIDTH=\"72\"></td><td STYLE=\"width:54pt\" WIDTH=\"72\"></td><td STYLE=\"width:54pt\" WIDTH=\"72\"></td><td STYLE=\"width:54pt\" WIDTH=\"72\"></td></tr><tr STYLE=\"height:14.25pt\"><td HEIGHT=\"19\" STYLE=\"height:14.25pt\"></td><td>买入价</td><td>卖出价</td><td></td><td>相差美元</td><td>相差人民币</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E4%B8%8A%E6%B5%B7%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=150\" STYLE=\"text-decoration:initial\">上海银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1802</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1802</td><td ALIGN=\"right\">16180.71</td><td ALIGN=\"right\">0</td><td ALIGN=\"right\">0</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E6%B1%87%E4%B8%B0%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=210\" STYLE=\"text-decoration:initial\">汇丰银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2281819</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2530914</td><td ALIGN=\"right\">15992.09</td><td ALIGN=\"right\">188.6162</td><td ALIGN=\"right\">1174.736</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E4%BA%A4%E9%80%9A%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=60\" STYLE=\"text-decoration:initial\">交通银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1811</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2547</td><td ALIGN=\"right\">15987.98</td><td ALIGN=\"right\">192.7291</td><td ALIGN=\"right\">1191.278</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E5%8D%97%E4%BA%AC%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=160\" STYLE=\"text-decoration:initial\">南京银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1802</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2551</td><td ALIGN=\"right\">15986.95</td><td ALIGN=\"right\">193.7515</td><td ALIGN=\"right\">1197.423</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E4%B8%AD%E5%9B%BD%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=10\" STYLE=\"text-decoration:initial\">中国银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1806</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2555</td><td ALIGN=\"right\">15985.93</td><td ALIGN=\"right\">194.7737</td><td ALIGN=\"right\">1203.819</td></tr><tr STYLE=\"height:27.0pt\"><td HEIGHT=\"36\" STYLE=\"height:27.0pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E4%B8%8A%E6%B5%B7%E6%B5%A6%E4%B8%9C%E5%8F%91%E5%B1%95%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=90\" STYLE=\"text-decoration:initial\">上海浦东发展银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1808</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2558</td><td ALIGN=\"right\">15985.17</td><td ALIGN=\"right\">195.5404</td><td ALIGN=\"right\">1208.596</td></tr><tr STYLE=\"height:27.0pt\"><td HEIGHT=\"36\" STYLE=\"height:27.0pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E6%B7%B1%E5%9C%B3%E5%8F%91%E5%B1%95%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=80\" STYLE=\"text-decoration:initial\">深圳发展银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1809</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2558</td><td ALIGN=\"right\">15985.17</td><td ALIGN=\"right\">195.5404</td><td ALIGN=\"right\">1208.615</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E6%8B%9B%E5%95%86%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=50\" STYLE=\"text-decoration:initial\">招商银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1811</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.256</td><td ALIGN=\"right\">15984.65</td><td ALIGN=\"right\">196.0514</td><td ALIGN=\"right\">1211.813</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E5%86%9C%E4%B8%9A%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=30\" STYLE=\"text-decoration:initial\">农业银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1811</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.256</td><td ALIGN=\"right\">15984.65</td><td ALIGN=\"right\">196.0514</td><td ALIGN=\"right\">1211.813</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E4%B8%AD%E4%BF%A1%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=100\" STYLE=\"text-decoration:initial\">中信银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1815</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2564</td><td ALIGN=\"right\">15983.63</td><td ALIGN=\"right\">197.0734</td><td ALIGN=\"right\">1218.209</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E5%BB%BA%E8%AE%BE%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=40\" STYLE=\"text-decoration:initial\">建设银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1816</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2565</td><td ALIGN=\"right\">15983.38</td><td ALIGN=\"right\">197.3288</td><td ALIGN=\"right\">1219.808</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E5%85%B4%E4%B8%9A%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=110\" STYLE=\"text-decoration:initial\">兴业银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1819</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2568</td><td ALIGN=\"right\">15982.61</td><td ALIGN=\"right\">198.0952</td><td ALIGN=\"right\">1224.605</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E5%8D%8E%E5%A4%8F%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=120\" STYLE=\"text-decoration:initial\">华夏银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.1819</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2568</td><td ALIGN=\"right\">15982.61</td><td ALIGN=\"right\">198.0952</td><td ALIGN=\"right\">1224.605</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E5%85%89%E5%A4%A7%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=70\" STYLE=\"text-decoration:initial\">光大银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.181956</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.256889</td><td ALIGN=\"right\">15982.38</td><td ALIGN=\"right\">198.3225</td><td ALIGN=\"right\">1226.021</td></tr><tr STYLE=\"height:13.5pt\"><td HEIGHT=\"18\" STYLE=\"height:13.5pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E5%B7%A5%E5%95%86%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=20\" STYLE=\"text-decoration:initial\">工商银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.182</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2569</td><td ALIGN=\"right\">15982.36</td><td ALIGN=\"right\">198.3506</td><td ALIGN=\"right\">1226.204</td></tr><tr STYLE=\"height:27.0pt\"><td HEIGHT=\"36\" STYLE=\"height:27.0pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E5%93%88%E5%B0%94%E6%BB%A8%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=170\" STYLE=\"text-decoration:initial\">哈尔滨银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.181857</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2589</td><td ALIGN=\"right\">15977.25</td><td ALIGN=\"right\">203.4577</td><td ALIGN=\"right\">1257.747</td></tr><tr STYLE=\"height:14.25pt\"><td HEIGHT=\"19\" STYLE=\"height:14.25pt;width:78pt\" WIDTH=\"104\"><a HREF=\"http://www.chinarate.org/exchange_rate_china_bank.php?c=%E5%BE%BD%E5%95%86%E9%93%B6%E8%A1%8C%E6%B1%87%E7%8E%87&amp;a=190\" STYLE=\"text-decoration:initial\">徽商银行</a></td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2193</td><td STYLE=\"width:54pt\" WIDTH=\"72\">6.2947</td><td ALIGN=\"right\">15886.38</td><td ALIGN=\"right\">294.3255</td><td ALIGN=\"right\">1830.499</td></tr></tbody></table></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4b2f744acb98c25c656b6d9c5b2d5c74c0c902ce491f667ec43c04abb1d2040a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/人民币兑换.html"
+      }
+    },
+    {
+      "id": "0c2cc302-6554-432a-937c-184ab1d02c12",
+      "note_id": "f5425720-3377-4d4b-a368-9300980a7247",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.016274Z",
+      "content": "---\ntitle: 人民币兑换\nupdated: 2013-02-19 09:41:43Z\ncreated: 2013-02-19 09:40:27Z\n---\n\n2013-02-19\n\n人民币兑换额\n100000     \n买入价\n卖出价\n相差美元\n相差人民币\n上海银行\n6.1802\n16180.71\n0\n汇丰银行\n6.2281819\n6.2530914\n15992.09\n188.6162\n1174.736\n交通银行\n6.1811\n6.2547\n15987.98\n192.7291\n1191.278\n南京银行\n6.1802\n6.2551\n15986.95\n193.7515\n1197.423\n中国银行\n6.1806\n6.2555\n15985.93\n194.7737\n1203.819\n上海浦东发展银行\n6.1808\n6.2558\n15985.17\n195.5404\n1208.596\n深圳发展银行\n6.1809\n6.2558\n15985.17\n195.5404\n1208.615\n招商银行\n6.1811\n6.256\n15984.65\n196.0514\n1211.813\n农业银行\n6.1811\n6.256\n15984.65\n196.0514\n1211.813\n中信银行\n6.1815\n6.2564\n15983.63\n197.0734\n1218.209\n建设银行\n6.1816\n6.2565\n15983.38\n197.3288\n1219.808\n兴业银行\n6.1819\n6.2568\n15982.61\n198.0952\n1224.605\n华夏银行\n6.1819\n6.2568\n15982.61\n198.0952\n1224.605\n光大银行\n6.181956\n6.256889\n15982.38\n198.3225\n1226.021\n工商银行\n6.182\n6.2569\n15982.36\n198.3506\n1226.204\n哈尔滨银行\n6.181857\n6.2589\n15977.25\n203.4577\n1257.747\n徽商银行\n6.2193\n6.2947\n15886.38\n294.3255\n1830.499",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ko",
+        "length": 906,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c0d4b50b-9e3d-4e22-8fb3-95020499f33a",
+    "note_id": "f5425720-3377-4d4b-a368-9300980a7247",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.016279Z",
+    "finished_at": "2025-11-09T20:01:40.016279Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "db7d6da8-1d8b-4d70-9d12-efbaad2dac49",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/人民币兑换.html",
+      "checksum": "4b2f744acb98c25c656b6d9c5b2d5c74c0c902ce491f667ec43c04abb1d2040a"
+    },
+    "output_ref": {
+      "ingest_source": "90983218-59f8-45bd-a63c-910c4f738697",
+      "note": "f5425720-3377-4d4b-a368-9300980a7247",
+      "variants": [
+        "d2cf9ee6-fd2d-4501-aa08-4be672c3c8f2",
+        "0c2cc302-6554-432a-937c-184ab1d02c12"
+      ]
+    },
+    "error_detail": null
+  }
+}

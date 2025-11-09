@@ -1,0 +1,46 @@
+---
+title: '[*] exec: nmap -sT -A 117.79.229.216 -sT'
+updated: 2014-04-11 06:10:56Z
+created: 2014-04-11 06:10:56Z
+---
+
+
+
+
+<en-note STYLE="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;"><br/>
+[*] exec: nmap -sT -A 117.79.229.216 -sT<br/><br/><br/>
+Starting Nmap 6.40 ( http://nmap.org ) at 2014-04-11 14:00 ������������<br/>
+Nmap scan report for 117.79.229.216<br/>
+Host is up (0.42s latency).<br/>
+Not shown: 992 closed ports<br/>
+PORT&nbsp;&nbsp;&nbsp;&nbsp; STATE&nbsp;&nbsp;&nbsp; SERVICE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; VERSION<br/>
+21/tcp&nbsp;&nbsp; open&nbsp;&nbsp;&nbsp;&nbsp; ftp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; vsftpd 2.0.5<br/>
+80/tcp&nbsp;&nbsp; open&nbsp;&nbsp;&nbsp;&nbsp; http&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apache httpd 2.2.3 ((CentOS))<br/>
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)<br/>
+| http-robots.txt: 4 disallowed entries<br/>
+|_*/js/ */css/ /~*/ /ch/shiping/<br/>
+|_http-title:&nbsp; \xC0\xB6\xBF\xA8\xBD\xA1\xBF\xB5 -- \xD7\xA8\xD2\xB5\xC1\xAC\xCB\xF8\xD2\xBD\xC1\xC6\xB1\xA3\xBD\xA1\xBB\xFA\xB9\xB9<br/>
+111/tcp&nbsp; open&nbsp;&nbsp;&nbsp;&nbsp; rpcbind&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 (RPC #100000)<br/>
+| rpcinfo:<br/>
+|&nbsp;&nbsp; program version&nbsp;&nbsp; port/proto&nbsp; service<br/>
+|&nbsp;&nbsp; 100000&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 111/tcp&nbsp; rpcbind<br/>
+|&nbsp;&nbsp; 100000&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 111/udp&nbsp; rpcbind<br/>
+|&nbsp;&nbsp; 100024&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 926/udp&nbsp; status<br/>
+|_&nbsp; 100024&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 929/tcp&nbsp; status<br/>
+445/tcp&nbsp; filtered microsoft-ds<br/>
+3306/tcp open&nbsp;&nbsp;&nbsp;&nbsp; mysql&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; MySQL (Host blocked because of too many connections)<br/>
+4444/tcp filtered krb524<br/>
+8009/tcp open&nbsp;&nbsp;&nbsp;&nbsp; ajp13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apache Jserv (Protocol v1.3)<br/>
+|_ajp-methods: Failed to get a valid response for the OPTION request<br/>
+8080/tcp open&nbsp;&nbsp;&nbsp;&nbsp; http&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Apache Tomcat/Coyote JSP engine 1.1<br/>
+|_http-favicon: Apache Tomcat<br/>
+|_http-methods: No Allow or Public header in OPTIONS response (status code 200)<br/>
+|_http-title: Apache Tomcat/7.0.23<br/>
+Device type: firewall|general purpose|media device|storage-misc|WAP|webcam|PBX<br/>
+Running (JUST GUESSING): Check Point Linux 2.6.X (95%), Linux 2.6.X|3.X|2.4.X (94%), Sony embedded (90%), Axcient embedded (88%), ISS Linux 2.4.X (87%), Cisco Linux 2.6.X (87%), Logitech Linux 2.6.X (87%)<br/>
+OS CPE: cpe:/o:linux:linux_kernel:2.6.18 cpe:/o:linux:linux_kernel:2.6 cpe:/h:sony:bravia_kdl-46hs720 cpe:/o:linux:linux_kernel:3 cpe:/o:iss:linux_kernel:2.4 cpe:/h:cisco:rv042 cpe:/o:cisco:linux_kernel:2.6 cpe:/o:linux:linux_kernel:2.4.20<br/>
+Aggressive OS guesses: Check Point GAiA (Linux 2.6.18) (95%), Linux 2.6.9 - 2.6.27 (94%), Linux 2.6.22 (94%), Linux 2.6.18 (93%), Linux 2.6.18 (CentOS 5) (91%), Linux 2.6.24 (91%), Linux 2.6.16 - 2.6.28 (91%), Linux 2.6.30 (91%), Blue Coat Director (Linux 2.6.10) (90%), Linux 2.6.5 (90%)<br/>
+No exact OS matches for host (test conditions non-ideal).<br/>
+Network Distance: 12 hops<br/>
+Service Info: OS: Unix
+</en-note>      

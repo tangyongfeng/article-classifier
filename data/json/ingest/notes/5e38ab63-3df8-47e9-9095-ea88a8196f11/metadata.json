@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0c8191ad-c4da-4e62-b68f-6383e3afca55",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/年轻人.html",
+    "collected_at": "2025-11-09T20:05:18.007473Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "ab0fa68145f1855b39db4b53b407f2bbd535b55ed85c51eda5187cd985130355",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "5e38ab63-3df8-47e9-9095-ea88a8196f11",
+    "ingest_source_id": "0c8191ad-c4da-4e62-b68f-6383e3afca55",
+    "canonical_title": "年轻人",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.007478Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "年轻人.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6a2529db-82c7-4bfb-b824-d9b1c339cb74",
+      "note_id": "5e38ab63-3df8-47e9-9095-ea88a8196f11",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.007481Z",
+      "content": "---\ntitle: 年轻人\nupdated: 2020-12-14 18:33:33Z\ncreated: 2020-12-14 13:54:04Z\n---\n\n\n\n<en-note><div>Nur wenn junge Menschen alles selbst entscheiden, k&ouml;nnen sie lernen, mit sich selbst Lebensplanung.</div><div><br/></div><div>Seit 15 alten habe ich selbst in der Schul gewohnt, habe ich jerden Wochen zu meinen eltern gegangen. meine eltern haben jeden monat einmal Geld gebenich ,ich kann ganz Geld f&uuml;r Schnack ausgeben.oder ich kann Lebensplanung machen.</div><div>und ich glaube,dass Sport auch wichtig f&uuml;r Gesondheit ist.</div><div>ich bin gl&uuml;cklich,dann habe ich Lebensplanung gelernt .</div><div><br/></div><div>lch glaube,dass Gesondheit geh&ouml;rt selbst ,muss man selbst entscheiden.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ab0fa68145f1855b39db4b53b407f2bbd535b55ed85c51eda5187cd985130355",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/年轻人.html"
+      }
+    },
+    {
+      "id": "f9b0ac82-21b5-4c93-b2b6-3dd7876c13b3",
+      "note_id": "5e38ab63-3df8-47e9-9095-ea88a8196f11",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.007485Z",
+      "content": "---\ntitle: 年轻人\nupdated: 2020-12-14 18:33:33Z\ncreated: 2020-12-14 13:54:04Z\n---\n\nNur wenn junge Menschen alles selbst entscheiden, können sie lernen, mit sich selbst Lebensplanung.\nSeit 15 alten habe ich selbst in der Schul gewohnt, habe ich jerden Wochen zu meinen eltern gegangen. meine eltern haben jeden monat einmal Geld gebenich ,ich kann ganz Geld für Schnack ausgeben.oder ich kann Lebensplanung machen.\nund ich glaube,dass Sport auch wichtig für Gesondheit ist.\nich bin glücklich,dann habe ich Lebensplanung gelernt .\nlch glaube,dass Gesondheit gehört selbst ,muss man selbst entscheiden.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 596,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a1f65c2a-a281-470b-855a-785cde3f7cc2",
+    "note_id": "5e38ab63-3df8-47e9-9095-ea88a8196f11",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.007490Z",
+    "finished_at": "2025-11-09T20:05:18.007490Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7312a9fb-c875-41b1-8bc2-c46632df6c38",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/年轻人.html",
+      "checksum": "ab0fa68145f1855b39db4b53b407f2bbd535b55ed85c51eda5187cd985130355"
+    },
+    "output_ref": {
+      "ingest_source": "0c8191ad-c4da-4e62-b68f-6383e3afca55",
+      "note": "5e38ab63-3df8-47e9-9095-ea88a8196f11",
+      "variants": [
+        "6a2529db-82c7-4bfb-b824-d9b1c339cb74",
+        "f9b0ac82-21b5-4c93-b2b6-3dd7876c13b3"
+      ]
+    },
+    "error_detail": null
+  }
+}

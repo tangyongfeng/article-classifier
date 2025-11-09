@@ -1,0 +1,351 @@
+---
+title: Python通过psycopg2操作PostgreSQL - Cynhard的专栏 - CSDN博客
+updated: 2019-02-03 05:49:31Z
+created: 2019-02-03 05:49:31Z
+source: https://blog.csdn.net/u011304970/article/details/72771775
+---
+
+原
+
+Python通过psycopg2操作PostgreSQL
+
+2017年05月27日 09:31:58
+
+Cynhard85
+
+阅读数：11471
+
+ 版权声明：本文为博主原创文章，转载请注明出处。 https://blog.csdn.net/u011304970/article/details/72771775
+
+说明
+
+本文假设已经安装和配置好了PostgreSQL，如果还没有安装和配置PostgreSQL，请移步至我的另一篇博文：
+Debian8下安装配置PostgreSQL
+
+本例中用的操作系统为：
+
+Debian
+ GNU/Linux 8.2 (jessie)
+
+1
+
+Python版本为：
+
+Python 2.7.9
+
+1
+
+psycopg2的安装
+
+Debian下执行以下命令安装 psycopg2：
+
+apt
+-get
+ install python
+-psycopg2
+1
+
+安装好后，就可以写Python脚本来访问PostgreSQL了。
+
+导入psycopg2
+
+想要使用psycopg2，必须用import语句导入该包：
+
+import
+ psycopg2
+1
+
+connection类
+
+connection类表示数据库连接对象。由psycopg2.connect()方法创建。
+
+创建connection对象
+
+psycopg2.connect()
+函数创建一个新的数据库会话（Session）并且返回一个连接对象。该函数的参数为：
+
+dbname – 数据库名字
+
+user – 数据库角色名称
+
+password – 数据库角色密码
+
+host – 数据库地址
+
+port – 端口
+
+connection的主要方法
+
+connection提供了常用的数据库操作：
+
+commit()：提交任何未提交的事务（transaction）到数据库。
+
+rollback()：回滚。
+
+close()：关闭数据库。如果关闭数据库时仍有未提交的事务，则执行回滚操作。
+
+cursor类
+
+创建cursor对象
+
+psycopg2提供了一个cursor类，用来在数据库Session里执行PostgreSQL命令。cursor对象由
+connection.cursor()
+方法创建：
+
+cur = conn.cursor()
+1
+
+cursor的主要方法
+
+execute(query, vars=None)：执行SQL语句。
+
+fetchall()：获取所有查询结果，返回值为tuple列表。
+
+有了cursor对象，就可以操作数据库了。
+
+建立数据库连接
+
+conn = psycopg2.connect(dbname=
+"mydb"
+, user=
+"postgres"
+,
+        password=
+"1234"
+, host=
+"127.0.0.1"
+, port=
+"5432"
+)
+1
+2
+
+创建表
+
+cur.execute(
+       
+'CREATE TABLE Employee ('
+
+'name    varchar(80),'
+
+'address varchar(80),'
+
+'age     int,'
+
+'date    date'
+
+')'
+
+    )
+1
+2
+3
+4
+5
+6
+7
+8
+
+插入数据
+
+cur.execute(
+"INSERT INTO Employee "
+
+"VALUES('Gopher', 'China Beijing', 100, '2017-05-27')"
+)
+1
+2
+
+查询数据
+
+cur.execute(
+"SELECT * FROM Employee"
+)
+rows = cur.fetchall()
+
+for
+ row
+in
+ rows:
+    print(
+'name='
+ + str(row[
+0
+]) +
+' address='
+ + str(row[
+1
+]) +
+       
+' age='
+ + str(row[
+2
+]) +
+' date='
+ + str(row[
+3
+]))
+1
+2
+3
+4
+5
+
+更新数据
+
+cur.execute(
+"UPDATE Employee SET age=12 WHERE name='Gopher'"
+)
+1
+
+删除数据
+
+cur.execute(
+"DELETE FROM Employee WHERE name='Gopher'"
+)
+1
+
+完整示例
+
+#coding=utf-8
+
+import
+ psycopg2
+
+# 连接数据库
+
+conn = psycopg2.connect(dbname=
+"mydb"
+, user=
+"postgres"
+,
+        password=
+"1234"
+, host=
+"127.0.0.1"
+, port=
+"5432"
+)
+
+# 创建cursor以访问数据库
+
+cur = conn.cursor()
+
+# 创建表
+
+cur.execute(
+       
+'CREATE TABLE Employee ('
+
+'name    varchar(80),'
+
+'address varchar(80),'
+
+'age     int,'
+
+'date    date'
+
+')'
+
+    )
+
+# 插入数据
+
+cur.execute(
+"INSERT INTO Employee "
+
+"VALUES('Gopher', 'China Beijing', 100, '2017-05-27')"
+)
+
+# 查询数据
+
+cur.execute(
+"SELECT * FROM Employee"
+)
+rows = cur.fetchall()
+
+for
+ row
+in
+ rows:
+    print(
+'name='
+ + str(row[
+0
+]) +
+' address='
+ + str(row[
+1
+]) +
+       
+' age='
+ + str(row[
+2
+]) +
+' date='
+ + str(row[
+3
+]))
+
+# 更新数据
+
+cur.execute(
+"UPDATE Employee SET age=12 WHERE name='Gopher'"
+)
+
+# 删除数据
+
+cur.execute(
+"DELETE FROM Employee WHERE name='Gopher'"
+)
+
+# 提交事务
+
+conn.commit()
+
+# 关闭连接
+
+conn.close()
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43

@@ -1,0 +1,123 @@
+{% extends "base.html" %}
+
+{% block title %}编辑文章 - {{ article.title }}{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8 mx-auto">
+        <h2 class="mb-4"><i class="bi bi-pencil"></i> 编辑文章</h2>
+
+        <form id="editForm">
+            <!-- 标题（只读） -->
+            <div class="mb-3">
+                <label class="form-label"><strong>标题:</strong></label>
+                <p class="form-control-plaintext">{{ article.title }}</p>
+            </div>
+
+            <!-- 摘要 -->
+            <div class="mb-3">
+                <label for="summary" class="form-label">摘要</label>
+                <textarea class="form-control" id="summary" name="summary" rows="3">{{ article.summary }}</textarea>
+            </div>
+
+            <!-- 关键词 -->
+            <div class="mb-3">
+                <label for="keywords" class="form-label">关键词 <small class="text-muted">(用逗号分隔)</small></label>
+                <input type="text" class="form-control" id="keywords" name="keywords"
+                       value="{{ article.keywords | map(attribute='keyword') | join(', ') }}">
+            </div>
+
+            <!-- 置信度 -->
+            <div class="mb-3">
+                <label for="confidence" class="form-label">置信度 (0-1)</label>
+                <input type="number" class="form-control" id="confidence" name="confidence"
+                       min="0" max="1" step="0.01" value="{{ article.confidence }}">
+            </div>
+
+            <!-- 分类选择 -->
+            <div class="mb-3">
+                <label class="form-label">分类</label>
+                <select class="form-select" id="categorySelect" name="categories" multiple size="10">
+                    {% for cat in all_categories %}
+                        <option value="{{ cat.id }}">{{ cat.full_name }}</option>
+                    {% endfor %}
+                </select>
+                <small class="text-muted">按住 Ctrl/Cmd 可多选</small>
+            </div>
+
+            <!-- 按钮 -->
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn btn-primary">
+                    <i class="bi bi-check-lg"></i> 保存
+                </button>
+                <a href="{{ url_for('article_view', article_id=article.id) }}" class="btn btn-secondary">
+                    <i class="bi bi-x-lg"></i> 取消
+                </a>
+            </div>
+        </form>
+
+        <!-- 消息提示 -->
+        <div id="message" class="alert mt-3" style="display: none;"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+$(document).ready(function() {
+    // 预选当前分类
+    // TODO: 从服务器获取当前文章的分类ID列表并预选
+
+    // 表单提交
+    $('#editForm').on('submit', function(e) {
+        e.preventDefault();
+
+        // 收集数据
+        const keywords = $('#keywords').val().split(',').map(k => k.trim()).filter(k => k.length > 0);
+        const categoryIds = $('#categorySelect').val().map(id => parseInt(id));
+
+        const data = {
+            summary: $('#summary').val(),
+            keywords: keywords,
+            confidence: parseFloat($('#confidence').val()),
+            category_ids: categoryIds
+        };
+
+        // 发送 AJAX 请求
+        $.ajax({
+            url: '{{ url_for("article_edit", article_id=article.id) }}',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(data),
+            success: function(response) {
+                if (response.success) {
+                    $('#message')
+                        .removeClass('alert-danger')
+                        .addClass('alert-success')
+                        .text('保存成功！')
+                        .show();
+
+                    // 2秒后跳转回文章页
+                    setTimeout(function() {
+                        window.location.href = '{{ url_for("article_view", article_id=article.id) }}';
+                    }, 2000);
+                } else {
+                    $('#message')
+                        .removeClass('alert-success')
+                        .addClass('alert-danger')
+                        .text('保存失败: ' + response.message)
+                        .show();
+                }
+            },
+            error: function(xhr) {
+                $('#message')
+                    .removeClass('alert-success')
+                    .addClass('alert-danger')
+                    .text('保存失败: 服务器错误')
+                    .show();
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

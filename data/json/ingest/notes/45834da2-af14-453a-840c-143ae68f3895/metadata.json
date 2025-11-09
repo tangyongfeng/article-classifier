@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b92f7091-6662-434f-a2ab-62c8a9cc67d1",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/树莓派密码，两句古诗两个数字.html",
+    "collected_at": "2025-11-09T20:05:15.213045Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "81994c78b17e21beeff439982b9f5f176b83de4b9628e93d250a92554b06e4e3",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "45834da2-af14-453a-840c-143ae68f3895",
+    "ingest_source_id": "b92f7091-6662-434f-a2ab-62c8a9cc67d1",
+    "canonical_title": "树莓派密码，两句古诗两个数字",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.213049Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "树莓派密码，两句古诗两个数字.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "25f872f3-8ed4-4522-8819-e0db3148e49e",
+      "note_id": "45834da2-af14-453a-840c-143ae68f3895",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.213052Z",
+      "content": "---\ntitle: 树莓派密码，两句古诗两个数字\nupdated: 2019-09-27 09:36:32Z\ncreated: 2019-09-27 09:36:32Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>树莓派密码，两句古诗两个数字</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "81994c78b17e21beeff439982b9f5f176b83de4b9628e93d250a92554b06e4e3",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/树莓派密码，两句古诗两个数字.html"
+      }
+    },
+    {
+      "id": "378c0d8c-2f2a-4501-b66d-f6399595b793",
+      "note_id": "45834da2-af14-453a-840c-143ae68f3895",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.213056Z",
+      "content": "---\ntitle: 树莓派密码，两句古诗两个数字\nupdated: 2019-09-27 09:36:32Z\ncreated: 2019-09-27 09:36:32Z\nauthor: tangyongfeng@gmail.com\n---\n\n树莓派密码，两句古诗两个数字",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 136,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0108f3f4-2a36-46bc-998c-ecce79a37940",
+    "note_id": "45834da2-af14-453a-840c-143ae68f3895",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.213061Z",
+    "finished_at": "2025-11-09T20:05:15.213062Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c30a2518-0ca1-4110-b2f2-e99627a06c87",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/树莓派密码，两句古诗两个数字.html",
+      "checksum": "81994c78b17e21beeff439982b9f5f176b83de4b9628e93d250a92554b06e4e3"
+    },
+    "output_ref": {
+      "ingest_source": "b92f7091-6662-434f-a2ab-62c8a9cc67d1",
+      "note": "45834da2-af14-453a-840c-143ae68f3895",
+      "variants": [
+        "25f872f3-8ed4-4522-8819-e0db3148e49e",
+        "378c0d8c-2f2a-4501-b66d-f6399595b793"
+      ]
+    },
+    "error_detail": null
+  }
+}

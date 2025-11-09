@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4bf1da57-0cde-444c-8840-d6373fe5f35f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码.html",
+    "collected_at": "2025-11-09T20:01:37.724371Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "dccbd6df9d84fe63c47f1d33228f6bcc9aee2042776cc5b4a79b5008c8985c0d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a41f198f-b487-485f-ad2a-8e9a835be05e",
+    "ingest_source_id": "4bf1da57-0cde-444c-8840-d6373fe5f35f",
+    "canonical_title": "1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:37.724375Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a101d83b-7858-4af0-8d3a-dd72a079aaeb",
+      "note_id": "a41f198f-b487-485f-ad2a-8e9a835be05e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.724377Z",
+      "content": "---\ntitle: 1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码\nupdated: 2013-06-14 02:29:18Z\ncreated: 2013-06-14 02:15:09Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码\n<div>2、<br/><div><br/></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dccbd6df9d84fe63c47f1d33228f6bcc9aee2042776cc5b4a79b5008c8985c0d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码.html"
+      }
+    },
+    {
+      "id": "16ccb8b8-192e-4b4c-832f-537e14c268ab",
+      "note_id": "a41f198f-b487-485f-ad2a-8e9a835be05e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.724380Z",
+      "content": "---\ntitle: 1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码\nupdated: 2013-06-14 02:29:18Z\ncreated: 2013-06-14 02:15:09Z\n---\n\n1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码\n\n2、",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 141,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a8239784-98ed-4f53-b501-39aa52c8ec65",
+    "note_id": "a41f198f-b487-485f-ad2a-8e9a835be05e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.724385Z",
+    "finished_at": "2025-11-09T20:01:37.724385Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "eb9c666d-7b25-45b6-9c68-0b026a4e2071",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码.html",
+      "checksum": "dccbd6df9d84fe63c47f1d33228f6bcc9aee2042776cc5b4a79b5008c8985c0d"
+    },
+    "output_ref": {
+      "ingest_source": "4bf1da57-0cde-444c-8840-d6373fe5f35f",
+      "note": "a41f198f-b487-485f-ad2a-8e9a835be05e",
+      "variants": [
+        "a101d83b-7858-4af0-8d3a-dd72a079aaeb",
+        "16ccb8b8-192e-4b4c-832f-537e14c268ab"
+      ]
+    },
+    "error_detail": null
+  }
+}

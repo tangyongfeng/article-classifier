@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "7593ae70-6143-427b-af15-9daf2ffb0cf0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Python輸出帶顏色文字.html",
+    "collected_at": "2025-11-09T20:01:34.435803Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f95357e2cebb25f311b3edb1de2a6173c48f761fea079dac8b0e50c219ebca52",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "71cb74a0-3146-496a-868f-17dff8c797dc",
+    "ingest_source_id": "7593ae70-6143-427b-af15-9daf2ffb0cf0",
+    "canonical_title": "Python輸出帶顏色文字",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.435808Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Python輸出帶顏色文字.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1025c0dd-2d89-40dd-b799-4e3ad014477a",
+      "note_id": "71cb74a0-3146-496a-868f-17dff8c797dc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.435811Z",
+      "content": "---\ntitle: Python輸出帶顏色文字\nupdated: 2021-07-21 11:06:01Z\ncreated: 2021-07-21 11:03:07Z\n---\n\n\n<en-note><h3 STYLE=\"text-align:start;\"><b>顯示顏色格式：\\033[顯示方式;字體色;背景色m......[\\033[0m]</b></h3><div STYLE=\"--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;\"><div>-------------------------------------------</div><div>-------------------------------------------</div><div>字體色&nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp;  背景色&nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp; 顏色描述</div><div>-------------------------------------------</div><div>30&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; 40&nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp;  黑色</div><div>31&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; 41&nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp;  紅色</div><div>32&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; 42&nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp;  綠色</div><div>33&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; 43&nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp;  黃色</div><div>34&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; 44&nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp;  藍色</div><div>35&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; 45&nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp;  紫紅色</div><div>36&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; 46&nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp;  青藍色</div><div>37&nbsp; &nbsp; &nbsp; &nbsp; |&nbsp; &nbsp; &nbsp; &nbsp; 47&nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp;  白色</div><div>-------------------------------------------</div><div>-------------------------------</div><div>顯示方式&nbsp; &nbsp;  |&nbsp; &nbsp; &nbsp; 效果</div><div>-------------------------------</div><div>0&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp;  終端默認設置</div><div>1&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp;  高亮顯示</div><div>4&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp;  使用下劃線</div><div>5&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp;  閃爍</div><div>7&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp;  反白顯示</div><div>8&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  |&nbsp; &nbsp;  不可見</div><div>-------------------------------</div></div><div><br/></div><div>自己程序的例子</div><div>print(&apos;{} \\033[7;37;40m{}\\033[0m&nbsp; update at {}&apos;.format(k[-8:],k[:-8],v))</div><div><br/></div><div><span STYLE=\"color:rgb(0, 0, 0);\">20210721 news&nbsp; update at 2021-07-21T10:55:50.019683</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f95357e2cebb25f311b3edb1de2a6173c48f761fea079dac8b0e50c219ebca52",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Python輸出帶顏色文字.html"
+      }
+    },
+    {
+      "id": "07d82c18-6d4e-41ee-8e8c-d48d85d24c86",
+      "note_id": "71cb74a0-3146-496a-868f-17dff8c797dc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.435814Z",
+      "content": "---\ntitle: Python輸出帶顏色文字\nupdated: 2021-07-21 11:06:01Z\ncreated: 2021-07-21 11:03:07Z\n---\n\n顯示顏色格式：\\033[顯示方式;字體色;背景色m......[\\033[0m]\n-------------------------------------------\n字體色     |       背景色     |      顏色描述\n-------------------------------------------\n30        |        40       |       黑色\n31        |        41       |       紅色\n32        |        42       |       綠色\n33        |        43       |       黃色\n34        |        44       |       藍色\n35        |        45       |       紫紅色\n36        |        46       |       青藍色\n37        |        47       |       白色\n-------------------------------------------\n-------------------------------\n顯示方式     |      效果\n-------------------------------\n0           |     終端默認設置\n1           |     高亮顯示\n4           |     使用下劃線\n5           |     閃爍\n7           |     反白顯示\n8           |     不可見\n-------------------------------\n自己程序的例子\nprint('{} \\033[7;37;40m{}\\033[0m  update at {}'.format(k[-8:],k[:-8],v))\n20210721 news  update at 2021-07-21T10:55:50.019683",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 998,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "917718dd-78ff-4e1f-940e-1e66c0404c31",
+    "note_id": "71cb74a0-3146-496a-868f-17dff8c797dc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.435819Z",
+    "finished_at": "2025-11-09T20:01:34.435819Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1c328168-2859-4d0f-bb1b-321c4e307baf",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Python輸出帶顏色文字.html",
+      "checksum": "f95357e2cebb25f311b3edb1de2a6173c48f761fea079dac8b0e50c219ebca52"
+    },
+    "output_ref": {
+      "ingest_source": "7593ae70-6143-427b-af15-9daf2ffb0cf0",
+      "note": "71cb74a0-3146-496a-868f-17dff8c797dc",
+      "variants": [
+        "1025c0dd-2d89-40dd-b799-4e3ad014477a",
+        "07d82c18-6d4e-41ee-8e8c-d48d85d24c86"
+      ]
+    },
+    "error_detail": null
+  }
+}

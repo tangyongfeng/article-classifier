@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "71904ecf-1cc4-493d-91fc-cfdfc6c18a13",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/homeiptv.html",
+    "collected_at": "2025-11-09T20:05:15.752199Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e1dbe86468226e9323b5ded1a7003ffd88ff0d8f3e2bf071ff031df4a97e4c7b",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ec490060-35c1-4ada-9bdd-b230ba7f4952",
+    "ingest_source_id": "71904ecf-1cc4-493d-91fc-cfdfc6c18a13",
+    "canonical_title": "homeiptv",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.752205Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "homeiptv.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "888437df-7723-42ce-9a42-6f7d35a3bda2",
+      "note_id": "ec490060-35c1-4ada-9bdd-b230ba7f4952",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.752209Z",
+      "content": "---\ntitle: homeiptv\nupdated: 2020-03-20 23:07:10Z\ncreated: 2020-03-20 23:06:36Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><a HREF=\"http://www.homeiptv.com\">www.homeiptv.com</a></div><div>&nbsp;tvid: &nbsp; &nbsp; 5e7544b903234</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e1dbe86468226e9323b5ded1a7003ffd88ff0d8f3e2bf071ff031df4a97e4c7b",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/homeiptv.html"
+      }
+    },
+    {
+      "id": "fa5ef8d3-4e91-4e49-af02-279177238216",
+      "note_id": "ec490060-35c1-4ada-9bdd-b230ba7f4952",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.752213Z",
+      "content": "---\ntitle: homeiptv\nupdated: 2020-03-20 23:07:10Z\ncreated: 2020-03-20 23:06:36Z\nauthor: tangyongfeng@gmail.com\n---\n\nwww.homeiptv.com\n tvid:     5e7544b903234",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 157,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "506cf732-f212-45fb-8623-1d629eb4f829",
+    "note_id": "ec490060-35c1-4ada-9bdd-b230ba7f4952",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.752218Z",
+    "finished_at": "2025-11-09T20:05:15.752219Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1ea479ed-f99f-4291-916a-dd833b2fb58d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/homeiptv.html",
+      "checksum": "e1dbe86468226e9323b5ded1a7003ffd88ff0d8f3e2bf071ff031df4a97e4c7b"
+    },
+    "output_ref": {
+      "ingest_source": "71904ecf-1cc4-493d-91fc-cfdfc6c18a13",
+      "note": "ec490060-35c1-4ada-9bdd-b230ba7f4952",
+      "variants": [
+        "888437df-7723-42ce-9a42-6f7d35a3bda2",
+        "fa5ef8d3-4e91-4e49-af02-279177238216"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,628 @@
+2025-10-08 10:49:24 - batch_processor - INFO - ============================================================
+2025-10-08 10:49:24 - batch_processor - INFO - 重新处理失败文章
+2025-10-08 10:49:24 - batch_processor - INFO - ============================================================
+2025-10-08 10:49:24 - batch_processor - INFO - 发现 458 个失败文件
+2025-10-08 10:49:24 - batch_processor - INFO - 需要重试: 457 个文件
+2025-10-08 10:49:24 - batch_processor - INFO - 已处理（跳过）: 1 个文件
+2025-10-08 10:49:24 - batch_processor - INFO - 已清空原有失败日志
+2025-10-08 10:49:24 - batch_processor - INFO - 开始重新处理...
+重试处理:   0%|          | 0/457 [00:00<?, ?it/s]2025-10-08 10:49:43 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 10:49:43 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '烹饪', 'summary': '介绍不同类型面粉和淀粉及其在烹饪中的用途与区别。', 'keywords': ['淀粉', '玉米淀粉', '太白粉', '勾芡', '烹饪'], 'confidence': 0.42}
+2025-10-08 10:49:43 - article_classifier - INFO - ✓ 分类完成: 【分享我的一些面粉小常识】萍聚社区-德国热线-德国实用信息网厨艺问答 - 手机版.html -> 未分类
+重试处理:   0%|          | 1/457 [00:18<2:22:36, 18.77s/it]2025-10-08 10:49:55 - article_classifier - INFO - ✓ 分类完成: 炎黄健康.html -> 社会/健康
+重试处理:   0%|          | 2/457 [00:31<1:54:47, 15.14s/it]2025-10-08 10:50:17 - article_classifier - INFO - ✓ 分类完成: hynnet_openwrt-mt7620-1.html -> 技术/编程语言
+重试处理:   1%|          | 3/457 [00:52<2:16:28, 18.04s/it]2025-10-08 10:50:26 - article_classifier - INFO - ✓ 分类完成: 人名记录.html -> 未分类
+重试处理:   1%|          | 4/457 [01:01<1:48:13, 14.33s/it]2025-10-08 10:50:38 - article_classifier - INFO - 创建新分类: 股票市场 (level=2, parent_id=81)
+2025-10-08 10:50:38 - article_classifier - INFO - 创建新分类: 公司分析 (level=3, parent_id=135)
+2025-10-08 10:50:38 - article_classifier - INFO - ✓ 分类完成: 大盘与个股的八大关系.html -> 金融/股票市场/公司分析
+重试处理:   1%|          | 5/457 [01:13<1:42:18, 13.58s/it]2025-10-08 10:50:57 - article_classifier - INFO - ✓ 分类完成: 批复解读.html -> 未分类
+重试处理:   1%|▏         | 6/457 [01:33<1:57:44, 15.66s/it]2025-10-08 10:51:06 - article_classifier - INFO - ✓ 分类完成: 需要更新的内容.html -> 技术/未分类
+重试处理:   2%|▏         | 7/457 [01:41<1:39:25, 13.26s/it]2025-10-08 10:51:24 - article_classifier - INFO - 创建新分类: 股市 (level=2, parent_id=81)
+2025-10-08 10:51:24 - article_classifier - INFO - ✓ 分类完成: 海通证券账户.html -> 金融/股市
+重试处理:   2%|▏         | 8/457 [02:00<1:51:43, 14.93s/it]2025-10-08 10:51:32 - article_classifier - INFO - ✓ 分类完成: python3之requests - Py.qi - 博客园.html -> 技术/编程语言/Python
+重试处理:   2%|▏         | 9/457 [02:07<1:34:15, 12.62s/it]2025-10-08 10:51:43 - article_classifier - INFO - ✓ 分类完成: 一文速览以太坊HackMoney 2022黑客松十大获奖项目 — 深潮TechFlow.html -> 技术/区块链
+重试处理:   2%|▏         | 10/457 [02:18<1:29:56, 12.07s/it]2025-10-08 10:52:07 - article_classifier - INFO - ✓ 分类完成: 隔离目标和原则.html -> 技术/架构/高并发架构
+重试处理:   2%|▏         | 11/457 [02:42<1:57:02, 15.75s/it]2025-10-08 10:52:28 - article_classifier - INFO - ✓ 分类完成: 量化资源.html -> 技术/编程语言/Python
+重试处理:   3%|▎         | 12/457 [03:03<2:09:02, 17.40s/it]2025-10-08 10:52:43 - article_classifier - INFO - ✓ 分类完成: GSA发布标准.html -> 技术/未分类
+重试处理:   3%|▎         | 13/457 [03:19<2:03:58, 16.75s/it]2025-10-08 10:53:00 - article_classifier - INFO - 已处理 900 篇文章，触发分类优化...
+2025-10-08 10:53:00 - article_classifier - INFO - 开始分类优化...
+2025-10-08 10:53:00 - article_classifier - ERROR - 分类优化失败: Object of type Decimal is not JSON serializable
+2025-10-08 10:53:00 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 10:53:00 - article_classifier - INFO - ✓ 分类完成: 从德国邮寄包裹回中国.html -> 未分类
+重试处理:   3%|▎         | 14/457 [03:36<2:04:46, 16.90s/it]2025-10-08 10:53:32 - article_classifier - INFO - ✓ 分类完成: 遁卦.html -> 未分类
+重试处理:   3%|▎         | 15/457 [04:07<2:36:12, 21.21s/it]2025-10-08 10:53:45 - article_classifier - INFO - ✓ 分类完成: 挪威石油工业概况之一：历史沿革.html -> 历史
+重试处理:   4%|▎         | 16/457 [04:20<2:18:14, 18.81s/it]2025-10-08 10:53:59 - article_classifier - INFO - ✓ 分类完成: OSMOCOMBB新手指南 - Note Pad-1.html -> 技术/网络安全
+重试处理:   4%|▎         | 17/457 [04:34<2:07:37, 17.40s/it]2025-10-08 10:54:18 - article_classifier - INFO - ✓ 分类完成: 看病准备.html -> 社会/健康
+重试处理:   4%|▍         | 18/457 [04:53<2:10:18, 17.81s/it]2025-10-08 10:54:31 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 10:54:31 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['技术', '操作系统'], 'summary': '苹果操作系统雪豹10.6的概述与主要特性。', 'keywords': ['雪豹', '10.6', 'macOS', '操作系统', '苹果'], 'confidence': 0.75}
+2025-10-08 10:54:31 - article_classifier - INFO - ✓ 分类完成: 雪豹10.6.html -> 未分类
+重试处理:   4%|▍         | 19/457 [05:06<1:59:35, 16.38s/it]2025-10-08 10:54:54 - article_classifier - INFO - 创建新分类: 公司分析 (level=3, parent_id=137)
+2025-10-08 10:54:54 - article_classifier - INFO - ✓ 分类完成: 利用遗传算法预测新股股价.html -> 金融/股市/公司分析
+重试处理:   4%|▍         | 20/457 [05:30<2:15:03, 18.54s/it]2025-10-08 10:55:03 - article_classifier - INFO - ✓ 分类完成: n95口罩.html -> 社会/健康
+重试处理:   5%|▍         | 21/457 [05:39<1:53:47, 15.66s/it]2025-10-08 10:55:24 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 10:55:24 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '金融 > 债券', 'summary': '本文以Excel文件形式展示了债券相关数据和分析，涵盖发行人、到期日、利率以及市场表现。', 'keywords': ['债券', '固定收益', '利率', '信用评级', '债券市场'], 'confidence': 0.4}
+2025-10-08 10:55:24 - article_classifier - INFO - ✓ 分类完成: 债券.html -> 未分类
+重试处理:   5%|▍         | 22/457 [05:59<2:04:05, 17.12s/it]2025-10-08 10:55:43 - article_classifier - INFO - ✓ 分类完成: www.alphavantage.co 股市信息数据库.html -> 金融/股市
+重试处理:   5%|▌         | 23/457 [06:19<2:08:45, 17.80s/it]2025-10-08 10:55:57 - article_classifier - INFO - ✓ 分类完成: 履卦.html -> 未分类
+重试处理:   5%|▌         | 24/457 [06:33<2:00:32, 16.70s/it]2025-10-08 10:56:17 - article_classifier - INFO - ✓ 分类完成: _      maik2hello.eth _ 🧊 在 Twitter_ _经常会用到的一些便捷平.html -> 技术/区块链
+重试处理:   5%|▌         | 25/457 [06:52<2:06:21, 17.55s/it]2025-10-08 10:56:29 - article_classifier - INFO - ✓ 分类完成: osmocom-bb中cell_log的多种使用姿势 - K1two2 - 博客园.html -> 技术/未分类
+重试处理:   6%|▌         | 26/457 [07:04<1:54:18, 15.91s/it]2025-10-08 10:56:42 - article_classifier - INFO - ✓ 分类完成: 分红除权截止过户.html -> 金融/股市
+重试处理:   6%|▌         | 27/457 [07:17<1:47:05, 14.94s/it]2025-10-08 10:56:52 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 10:56:52 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '占卜术/易经', 'summary': '阐释《恒卦》各爻义，讨论恒心与道德之关联。', 'keywords': ['恒卦', '易经', '六爻', '象辞', '道德'], 'confidence': 0.22}
+2025-10-08 10:56:52 - article_classifier - INFO - ✓ 分类完成: 恒卦.html -> 未分类
+重试处理:   6%|▌         | 28/457 [07:28<1:37:22, 13.62s/it]2025-10-08 10:57:04 - article_classifier - INFO - ✓ 分类完成: Sharing link.html -> 未分类
+重试处理:   6%|▋         | 29/457 [07:39<1:33:10, 13.06s/it]2025-10-08 10:57:17 - article_classifier - INFO - ✓ 分类完成: 高血压.html -> 社会/健康
+重试处理:   7%|▋         | 30/457 [07:53<1:33:53, 13.19s/it]2025-10-08 10:57:33 - article_classifier - INFO - ✓ 分类完成: 医生.html -> 社会/健康
+重试处理:   7%|▋         | 31/457 [08:08<1:38:33, 13.88s/it]2025-10-08 10:57:48 - article_classifier - INFO - ✓ 分类完成: 可转债的到期收益率（YTM）漫谈.html -> 金融/股市
+重试处理:   7%|▋         | 32/457 [08:23<1:40:44, 14.22s/it]2025-10-08 10:58:04 - article_classifier - INFO - ✓ 分类完成: 中心二期重点.html -> 技术/未分类
+重试处理:   7%|▋         | 33/457 [08:39<1:44:14, 14.75s/it]2025-10-08 10:58:25 - article_classifier - INFO - ✓ 分类完成: 申诉书.html -> 商务
+重试处理:   7%|▋         | 34/457 [09:01<1:58:02, 16.74s/it]2025-10-08 10:58:42 - article_classifier - INFO - ✓ 分类完成: 2017年德国最受欢迎的App有哪些_德国人常用聊天软件_沪江德语.html -> 技术/未分类
+重试处理:   8%|▊         | 35/457 [09:18<1:58:29, 16.85s/it]2025-10-08 10:58:55 - article_classifier - INFO - ✓ 分类完成: 光照量.html -> 技术/未分类
+重试处理:   8%|▊         | 36/457 [09:30<1:49:10, 15.56s/it]2025-10-08 10:59:10 - article_classifier - INFO - ✓ 分类完成: 什么样的电影最赚钱？基于2009-2015年中国影片的数据分析.html -> 商务
+重试处理:   8%|▊         | 37/457 [09:46<1:48:09, 15.45s/it]2025-10-08 10:59:19 - article_classifier - INFO - ✓ 分类完成: 20行Python搞定可转债回测.html -> 技术/编程语言/Python
+重试处理:   8%|▊         | 38/457 [09:54<1:33:51, 13.44s/it]2025-10-08 10:59:38 - article_classifier - INFO - ✓ 分类完成: 用户盛赞的口碑交易API接口清单.html -> 金融/股市
+重试处理:   9%|▊         | 39/457 [10:14<1:45:41, 15.17s/it]2025-10-08 10:59:48 - article_classifier - INFO - ✓ 分类完成: 转股规则.html -> 金融/股市
+重试处理:   9%|▉         | 40/457 [10:23<1:34:04, 13.54s/it]2025-10-08 11:00:10 - article_classifier - INFO - ✓ 分类完成: 通达信软件系统目录结构及文件数据格式.html -> 技术/未分类
+重试处理:   9%|▉         | 41/457 [10:45<1:51:31, 16.09s/it]2025-10-08 11:00:23 - article_classifier - INFO - ✓ 分类完成: 为什么投资日本.html -> 金融
+重试处理:   9%|▉         | 42/457 [10:58<1:44:04, 15.05s/it]2025-10-08 11:00:32 - article_classifier - INFO - ✓ 分类完成: 电子病历数据资源库.html -> 未分类
+重试处理:   9%|▉         | 43/457 [11:07<1:31:32, 13.27s/it]2025-10-08 11:00:46 - article_classifier - INFO - ✓ 分类完成: 2014年2月25日会议记录.html -> 技术/未分类
+重试处理:  10%|▉         | 44/457 [11:22<1:34:09, 13.68s/it]2025-10-08 11:00:55 - article_classifier - INFO - ✓ 分类完成: 解决没有my.ini文件，和关掉binlog.html -> 技术/数据库/MySQL
+重试处理:  10%|▉         | 45/457 [11:31<1:24:08, 12.25s/it]2025-10-08 11:01:13 - article_classifier - INFO - ✓ 分类完成: wochenende.html -> 语言学习/德语/语法
+重试处理:  10%|█         | 46/457 [11:49<1:35:20, 13.92s/it]2025-10-08 11:01:27 - article_classifier - INFO - ✓ 分类完成: 股票纪录.html -> 金融/股市
+重试处理:  10%|█         | 47/457 [12:02<1:34:31, 13.83s/it]2025-10-08 11:01:50 - article_classifier - INFO - ✓ 分类完成: 租车.html -> 交通/交通知识
+重试处理:  11%|█         | 48/457 [12:26<1:54:28, 16.79s/it]2025-10-08 11:02:07 - article_classifier - INFO - ✓ 分类完成: Linux系统无线网络抓包程序(分析手机WIFI MAC地址)-echojb.com.html -> 技术/网络安全
+重试处理:  11%|█         | 49/457 [12:43<1:54:50, 16.89s/it]2025-10-08 11:02:26 - article_classifier - INFO - ✓ 分类完成: 口令.html -> 技术/网络安全/身份验证
+重试处理:  11%|█         | 50/457 [13:01<1:57:45, 17.36s/it]2025-10-08 11:02:37 - article_classifier - INFO - ✓ 分类完成: 笔记-1.html -> 未分类
+重试处理:  11%|█         | 51/457 [13:13<1:45:35, 15.60s/it]2025-10-08 11:02:51 - article_classifier - INFO - ✓ 分类完成: 欧菲光.html -> 金融/股市/公司分析
+重试处理:  11%|█▏        | 52/457 [13:26<1:41:06, 14.98s/it]2025-10-08 11:03:11 - article_classifier - INFO - ✓ 分类完成: 医保管理系统.html -> 技术/未分类
+重试处理:  12%|█▏        | 53/457 [13:47<1:51:50, 16.61s/it]2025-10-08 11:03:36 - article_classifier - INFO - ✓ 分类完成: 可儿口腔溃疡药.html -> 未分类
+重试处理:  12%|█▏        | 54/457 [14:12<2:08:31, 19.14s/it]2025-10-08 11:03:47 - article_classifier - INFO - 创建新分类: 支付服务 (level=2, parent_id=81)
+2025-10-08 11:03:48 - article_classifier - INFO - ✓ 分类完成: 关于在香港开户、申请信用卡及投资经验分享.html -> 金融/支付服务
+重试处理:  12%|█▏        | 55/457 [14:23<1:52:01, 16.72s/it]2025-10-08 11:04:06 - article_classifier - INFO - ✓ 分类完成: 本系统的主要特点.html -> 技术/架构/高并发架构
+重试处理:  12%|█▏        | 56/457 [14:42<1:55:27, 17.28s/it]2025-10-08 11:04:16 - article_classifier - INFO - ✓ 分类完成: 无妄卦.html -> 未分类
+重试处理:  12%|█▏        | 57/457 [14:52<1:41:02, 15.16s/it]2025-10-08 11:04:27 - article_classifier - INFO - ✓ 分类完成: 药监局路径.html -> 社会/健康
+重试处理:  13%|█▎        | 58/457 [15:03<1:32:25, 13.90s/it]2025-10-08 11:04:40 - article_classifier - INFO - ✓ 分类完成: update.cs.html -> 技术/编程语言/C#
+重试处理:  13%|█▎        | 59/457 [15:15<1:29:03, 13.43s/it]2025-10-08 11:04:50 - article_classifier - INFO - ✓ 分类完成: 利弗莫尔 买入法：.html -> 金融/股市
+重试处理:  13%|█▎        | 60/457 [15:25<1:22:50, 12.52s/it]2025-10-08 11:05:17 - article_classifier - WARNING - category_path 无效: []
+2025-10-08 11:05:17 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': [], 'new_category_suggestion': ['商务', '移民服务'], 'summary': '文章讨论针对高净值和中产阶级客户的德国移民服务产品设计，强调可靠性、隐私保护和性价比。', 'keywords': ['移民', '产品设计', '高净值客户', '中产阶级', '德国'], 'confidence': 0.65}
+2025-10-08 11:05:17 - article_classifier - INFO - ✓ 分类完成: 移民产品设计建议.html -> 未分类
+重试处理:  13%|█▎        | 61/457 [15:52<1:51:05, 16.83s/it]2025-10-08 11:05:35 - article_classifier - INFO - ✓ 分类完成: 以预测股票涨跌案例入门基于SVM的机器学习.html -> 技术
+重试处理:  14%|█▎        | 62/457 [16:11<1:53:56, 17.31s/it]2025-10-08 11:05:54 - article_classifier - INFO - ✓ 分类完成: 特殊动词变位.html -> 语言学习/德语/语法
+重试处理:  14%|█▍        | 63/457 [16:30<1:57:19, 17.87s/it]2025-10-08 11:06:05 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 11:06:05 - article_classifier - INFO - ✓ 分类完成: 会议记录.html -> 社会/健康
+重试处理:  14%|█▍        | 64/457 [16:41<1:43:30, 15.80s/it]2025-10-08 11:06:28 - article_classifier - INFO - ✓ 分类完成: 春和债   122683.html -> 金融
+重试处理:  14%|█▍        | 65/457 [17:04<1:57:06, 17.92s/it]2025-10-08 11:06:38 - article_classifier - INFO - ✓ 分类完成: 身份证号码.html -> 未分类
+重试处理:  14%|█▍        | 66/457 [17:14<1:41:08, 15.52s/it]2025-10-08 11:06:47 - article_classifier - INFO - ✓ 分类完成: Hashmap遍历的两种方式.html -> 技术/编程语言/Java
+重试处理:  15%|█▍        | 67/457 [17:22<1:26:54, 13.37s/it]2025-10-08 11:06:56 - article_classifier - WARNING - category_path 无效: []
+2025-10-08 11:06:56 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': [], 'new_category_suggestion': ['博彩', '体育博彩'], 'summary': '文章列举了几家知名体育博彩公司的官网，介绍其业务范围和主要服务。', 'keywords': ['博彩公司', 'Unibet', 'Bet365', 'William Hill', '体育博彩'], 'confidence': 0.3}
+2025-10-08 11:06:56 - article_classifier - INFO - ✓ 分类完成: 博彩公司.html -> 未分类
+重试处理:  15%|█▍        | 68/457 [17:31<1:18:39, 12.13s/it]2025-10-08 11:07:05 - article_classifier - INFO - ✓ 分类完成: win10.html -> 技术/未分类
+重试处理:  15%|█▌        | 69/457 [17:40<1:12:27, 11.20s/it]2025-10-08 11:07:16 - article_classifier - INFO - ✓ 分类完成: ppt意见.html -> 教育
+重试处理:  15%|█▌        | 70/457 [17:51<1:11:15, 11.05s/it]2025-10-08 11:07:29 - article_classifier - INFO - ✓ 分类完成: 可转债指标计算.html -> 金融/股市
+重试处理:  16%|█▌        | 71/457 [18:05<1:15:53, 11.80s/it]2025-10-08 11:07:50 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-2.html -> 技术/编程语言/Python
+重试处理:  16%|█▌        | 72/457 [18:25<1:33:06, 14.51s/it]2025-10-08 11:08:03 - article_classifier - INFO - ✓ 分类完成: 折叠自行车轮胎.html -> 交通
+重试处理:  16%|█▌        | 73/457 [18:38<1:29:13, 13.94s/it]2025-10-08 11:08:19 - article_classifier - INFO - ✓ 分类完成: 中小盘二八轮动策略.html -> 金融/股市
+重试处理:  16%|█▌        | 74/457 [18:54<1:33:31, 14.65s/it]2025-10-08 11:08:33 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:08:33 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['文学', '网络文学', '翻译与批评'], 'summary': '中国网络小说翻译滞后，海外读者关注，译者与批评不足成发展瓶颈。', 'keywords': ['网络小说', '翻译', '读者', '批评', '文化输出'], 'confidence': 0.4}
+2025-10-08 11:08:33 - article_classifier - INFO - ✓ 分类完成: 中国网络小说受到外国读者欢迎 翻译却远滞后创作.html -> 未分类
+重试处理:  16%|█▋        | 75/457 [19:09<1:33:03, 14.62s/it]2025-10-08 11:08:49 - article_classifier - INFO - ✓ 分类完成: 马耳他华人从事什么行业？.html -> 商务/创业
+重试处理:  17%|█▋        | 76/457 [19:24<1:34:04, 14.82s/it]2025-10-08 11:09:07 - article_classifier - INFO - ✓ 分类完成: ScaleUp测试.html -> 技术/架构
+重试处理:  17%|█▋        | 77/457 [19:42<1:40:08, 15.81s/it]2025-10-08 11:09:24 - article_classifier - INFO - ✓ 分类完成: 德国律师事务所.html -> 商务
+重试处理:  17%|█▋        | 78/457 [20:00<1:43:23, 16.37s/it]2025-10-08 11:09:37 - article_classifier - INFO - ✓ 分类完成: Create an Ecommerce Website and Sell Online! Ecomm.html -> 商务/技术创新
+重试处理:  17%|█▋        | 79/457 [20:13<1:36:06, 15.25s/it]2025-10-08 11:09:59 - article_classifier - INFO - 创建新分类: 德语 (level=3, parent_id=64)
+2025-10-08 11:09:59 - article_classifier - INFO - ✓ 分类完成: 阅读.html -> 教育/语言学习/德语
+重试处理:  18%|█▊        | 80/457 [20:35<1:48:29, 17.27s/it]2025-10-08 11:10:12 - article_classifier - INFO - ✓ 分类完成: 剥卦.html -> 未分类
+重试处理:  18%|█▊        | 81/457 [20:47<1:39:58, 15.95s/it]2025-10-08 11:10:35 - article_classifier - INFO - ✓ 分类完成: 制定自己的交易框架.html -> 金融/股市
+重试处理:  18%|█▊        | 82/457 [21:10<1:52:04, 17.93s/it]2025-10-08 11:11:09 - article_classifier - INFO - ✓ 分类完成: 安卓推广.html -> 技术/未分类
+重试处理:  18%|█▊        | 83/457 [21:44<2:22:13, 22.82s/it]2025-10-08 11:11:18 - article_classifier - WARNING - category_path 无效: []
+2025-10-08 11:11:18 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': [], 'new_category_suggestion': '商务/内部管理/工作总结', 'summary': '董事长召集经理办公会，讨论2017年工作总结、存在问题与改进措施，并安排汇编成册。', 'keywords': ['工作总结', '董事长', '会议', '年度计划', '改进措施'], 'confidence': 0.55}
+2025-10-08 11:11:18 - article_classifier - INFO - ✓ 分类完成: 2017年工作总结.html -> 未分类
+重试处理:  18%|█▊        | 84/457 [21:54<1:56:42, 18.77s/it]2025-10-08 11:11:41 - article_classifier - INFO - ✓ 分类完成: 当前要储备的东西.html -> 社会/健康
+重试处理:  19%|█▊        | 85/457 [22:16<2:03:43, 19.95s/it]2025-10-08 11:11:56 - article_classifier - INFO - ✓ 分类完成: 贲卦.html -> 历史/中国历史
+重试处理:  19%|█▉        | 86/457 [22:31<1:54:29, 18.52s/it]2025-10-08 11:12:08 - article_classifier - INFO - ✓ 分类完成: 宝宝先心.html -> 社会/健康
+重试处理:  19%|█▉        | 87/457 [22:44<1:42:43, 16.66s/it]2025-10-08 11:12:24 - article_classifier - INFO - ✓ 分类完成: OsmocomBB项目 - 酒水不犯茶水 - BlogJava.html -> 技术/未分类
+重试处理:  19%|█▉        | 88/457 [22:59<1:40:09, 16.29s/it]2025-10-08 11:12:32 - article_classifier - INFO - ✓ 分类完成: 用户推测.html -> 技术/架构/高并发架构
+重试处理:  19%|█▉        | 89/457 [23:08<1:25:38, 13.96s/it]2025-10-08 11:12:46 - article_classifier - INFO - ✓ 分类完成: 三法印.html -> 未分类
+重试处理:  20%|█▉        | 90/457 [23:21<1:24:33, 13.82s/it]2025-10-08 11:12:58 - article_classifier - INFO - ✓ 分类完成: “有女朋友了吗？”.html -> 未分类
+重试处理:  20%|█▉        | 91/457 [23:34<1:21:58, 13.44s/it]2025-10-08 11:13:14 - article_classifier - INFO - ✓ 分类完成: 工具租赁.html -> 商务
+重试处理:  20%|██        | 92/457 [23:50<1:26:20, 14.19s/it]2025-10-08 11:13:27 - article_classifier - INFO - ✓ 分类完成: 乐普医疗.html -> 金融/股市/公司分析
+重试处理:  20%|██        | 93/457 [24:02<1:23:32, 13.77s/it]2025-10-08 11:13:43 - article_classifier - INFO - ✓ 分类完成: 沧州明珠.html -> 金融/股市/公司分析
+重试处理:  21%|██        | 94/457 [24:18<1:27:21, 14.44s/it]2025-10-08 11:13:59 - article_classifier - INFO - ✓ 分类完成: JLGMBH.html -> 技术/数据库/MySQL
+重试处理:  21%|██        | 95/457 [24:34<1:29:53, 14.90s/it]2025-10-08 11:14:14 - article_classifier - INFO - ✓ 分类完成: ice展会.html -> 技术/技术创新
+重试处理:  21%|██        | 96/457 [24:50<1:29:55, 14.95s/it]2025-10-08 11:14:43 - article_classifier - INFO - ✓ 分类完成: 加拿大的好处和缺点.html -> 社会
+重试处理:  21%|██        | 97/457 [25:19<1:55:04, 19.18s/it]2025-10-08 11:15:13 - article_classifier - INFO - ✓ 分类完成: keno终端.html -> 技术/未分类
+重试处理:  21%|██▏       | 98/457 [25:49<2:14:25, 22.47s/it]2025-10-08 11:15:32 - article_classifier - INFO - ✓ 分类完成: 外伤和溃疡敷药.html -> 社会/健康
+重试处理:  22%|██▏       | 99/457 [26:07<2:06:53, 21.27s/it]2025-10-08 11:15:52 - article_classifier - INFO - ✓ 分类完成: 《清洁生产标准钢铁行业（高炉炼铁）》.PDF.html -> 技术
+重试处理:  22%|██▏       | 100/457 [26:27<2:04:31, 20.93s/it]2025-10-08 11:16:13 - article_classifier - INFO - ✓ 分类完成: 小畜卦.html -> 未分类
+重试处理:  22%|██▏       | 101/457 [26:48<2:04:29, 20.98s/it]2025-10-08 11:16:31 - article_classifier - INFO - ✓ 分类完成: 腾讯企业邮箱.html -> 技术/网络安全
+重试处理:  22%|██▏       | 102/457 [27:06<1:58:04, 19.96s/it]2025-10-08 11:16:43 - article_classifier - INFO - ✓ 分类完成: 定时任务yueran.de记录和调整.html -> 技术/未分类
+重试处理:  23%|██▎       | 103/457 [27:19<1:44:49, 17.77s/it]2025-10-08 11:17:04 - article_classifier - INFO - ✓ 分类完成: 讨论会后感.html -> 商务
+重试处理:  23%|██▎       | 104/457 [27:39<1:49:55, 18.69s/it]2025-10-08 11:17:16 - article_classifier - INFO - ✓ 分类完成: 商业计划相关问题.html -> 商务/创业/公司注册
+重试处理:  23%|██▎       | 105/457 [27:51<1:37:50, 16.68s/it]2025-10-08 11:17:27 - article_classifier - WARNING - category_path 无效: []
+2025-10-08 11:17:27 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': [], 'new_category_suggestion': ['商务', '人事管理', '考勤管理'], 'summary': '该文展示了某员工在 2018 年 11 月的考勤记录，包括签到、签退时间及请假情况。', 'keywords': ['考勤查询', '签到', '签退', '年假', '互联网事业部'], 'confidence': 0.32}
+2025-10-08 11:17:27 - article_classifier - INFO - ✓ 分类完成: 考勤查询.html -> 未分类
+重试处理:  23%|██▎       | 106/457 [28:02<1:26:53, 14.85s/it]2025-10-08 11:17:43 - article_classifier - INFO - ✓ 分类完成: IBM电话会议拨入号码.html -> 技术/未分类/未分类
+重试处理:  23%|██▎       | 107/457 [28:18<1:29:19, 15.31s/it]2025-10-08 11:17:57 - article_classifier - INFO - ✓ 分类完成: Frau Adler 学校推荐.html -> 教育
+重试处理:  24%|██▎       | 108/457 [28:33<1:26:56, 14.95s/it]2025-10-08 11:18:07 - article_classifier - INFO - ✓ 分类完成: 点餐.html -> 未分类
+重试处理:  24%|██▍       | 109/457 [28:42<1:17:47, 13.41s/it]2025-10-08 11:18:21 - article_classifier - INFO - ✓ 分类完成: 心经略说.html -> 未分类
+重试处理:  24%|██▍       | 110/457 [28:56<1:18:41, 13.61s/it]2025-10-08 11:18:47 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:18:47 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '游戏策划', 'summary': '本文讨论通过 Steam Early Access 快速获取市场反馈，利用 AI 与对抗网络自动生成游戏数值，并分享国产手游数值平衡与迭代流程。', 'keywords': ['游戏策划', 'AI', '对抗网络', '价值平衡', 'MVP'], 'confidence': 0.45}
+2025-10-08 11:18:47 - article_classifier - INFO - ✓ 分类完成: 游戏策划.html -> 未分类
+重试处理:  24%|██▍       | 111/457 [29:22<1:39:45, 17.30s/it]2025-10-08 11:19:01 - article_classifier - INFO - ✓ 分类完成: 双色球中奖面6.7%-8.48-9%%.html -> 未分类
+重试处理:  25%|██▍       | 112/457 [29:37<1:34:37, 16.46s/it]2025-10-08 11:19:16 - article_classifier - INFO - ✓ 分类完成: Facebook的消息系统.html -> 技术/未分类
+重试处理:  25%|██▍       | 113/457 [29:51<1:30:23, 15.77s/it]2025-10-08 11:19:36 - article_classifier - INFO - 已处理 1000 篇文章，触发分类优化...
+2025-10-08 11:19:36 - article_classifier - INFO - 开始分类优化...
+2025-10-08 11:19:36 - article_classifier - ERROR - 分类优化失败: Object of type Decimal is not JSON serializable
+2025-10-08 11:19:36 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 11:19:36 - article_classifier - INFO - ✓ 分类完成: 技术宅硬核跨年，DIY墨水屏日历：自动刷新位置、天气，随机播放2000多条「毒鸡汤」_ 开源.html -> 技术/未分类
+重试处理:  25%|██▍       | 114/457 [30:12<1:38:57, 17.31s/it]2025-10-08 11:19:56 - article_classifier - INFO - ✓ 分类完成: 雅戈尔.html -> 金融/股票市场/公司分析
+重试处理:  25%|██▌       | 115/457 [30:31<1:42:29, 17.98s/it]2025-10-08 11:20:18 - article_classifier - INFO - ✓ 分类完成: 内地居民如何在香港开立银行户口？香港五大银行开户全攻略！.html -> 金融/支付服务
+重试处理:  25%|██▌       | 116/457 [30:54<1:49:31, 19.27s/it]2025-10-08 11:20:34 - article_classifier - INFO - ✓ 分类完成: 意大利交通罚单.html -> 交通/交通知识
+重试处理:  26%|██▌       | 117/457 [31:09<1:42:49, 18.15s/it]2025-10-08 11:20:53 - article_classifier - INFO - ✓ 分类完成: 多晶硅和太阳能薄膜.html -> 金融/股市/公司分析
+重试处理:  26%|██▌       | 118/457 [31:28<1:43:59, 18.40s/it]2025-10-08 11:21:15 - article_classifier - INFO - ✓ 分类完成: 光大证券。。。.html -> 金融/股市/公司分析
+重试处理:  26%|██▌       | 119/457 [31:51<1:50:20, 19.59s/it]2025-10-08 11:21:30 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:21:30 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['法律', '司法'], 'summary': '文章报道王保安等人受贿案，北京兴源置业集团因单位行贿被判罚金，陈永杰免刑，案件审理细节公开。', 'keywords': ['行贿', '王保安', '北京兴源置业集团', '司法判决', '受贿'], 'confidence': 0.6}
+2025-10-08 11:21:30 - article_classifier - INFO - ✓ 分类完成: 副部级官员为这案子出具情况说明_手机新浪网.html -> 未分类
+重试处理:  26%|██▋       | 120/457 [32:06<1:42:48, 18.30s/it]2025-10-08 11:21:51 - article_classifier - INFO - ✓ 分类完成: Browse the State-of-the-Art in Machine Learning.html -> 技术/技术创新
+重试处理:  26%|██▋       | 121/457 [32:27<1:46:57, 19.10s/it]2025-10-08 11:22:00 - article_classifier - INFO - ✓ 分类完成: 港股账号.html -> 金融/股市
+重试处理:  27%|██▋       | 122/457 [32:36<1:29:10, 15.97s/it]2025-10-08 11:22:12 - article_classifier - INFO - ✓ 分类完成: 第二均价预测.html -> 金融/股市
+重试处理:  27%|██▋       | 123/457 [32:47<1:21:46, 14.69s/it]2025-10-08 11:22:30 - article_classifier - INFO - 创建新分类: 旅行 (level=1, parent_id=None)
+2025-10-08 11:22:30 - article_classifier - INFO - ✓ 分类完成: 申根签证需要准备的材料.html -> 旅行
+重试处理:  27%|██▋       | 124/457 [33:06<1:28:12, 15.89s/it]2025-10-08 11:22:45 - article_classifier - WARNING - category_path 无效: []
+2025-10-08 11:22:45 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': [], 'new_category_suggestion': '物流', 'summary': '中通快递是中国主要快递公司之一，提供国内外包裹递送服务。', 'keywords': ['中通快递', '快递服务', '物流', '国内配送', '费用'], 'confidence': 0.4}
+2025-10-08 11:22:45 - article_classifier - INFO - ✓ 分类完成: 中通快递.html -> 未分类
+重试处理:  27%|██▋       | 125/457 [33:21<1:26:18, 15.60s/it]2025-10-08 11:23:05 - article_classifier - INFO - ✓ 分类完成: 搬家自我介绍.html -> 个人发展/生活规划
+重试处理:  28%|██▊       | 126/457 [33:40<1:32:00, 16.68s/it]2025-10-08 11:23:18 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:23:18 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '医疗信息分类', 'summary': '本文按主题、来源与内容介绍医院信息分类，包括医疗、费用、物资、管理等多类信息。', 'keywords': ['医疗信息', '费用信息', '物资信息', '管理信息', '信息分类'], 'confidence': 0.75}
+2025-10-08 11:23:18 - article_classifier - INFO - ✓ 分类完成: 医院信息的分类.html -> 未分类
+重试处理:  28%|██▊       | 127/457 [33:53<1:26:09, 15.66s/it]2025-10-08 11:23:34 - article_classifier - INFO - ✓ 分类完成: 自我介绍-1.html -> 语言/德语
+重试处理:  28%|██▊       | 128/457 [34:10<1:26:45, 15.82s/it]2025-10-08 11:23:52 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:23:52 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['商务', '代购'], 'summary': '列举多种代购商品：书籍、乐谱、珍珠、饰品、红茶、电子产品、素肉、文具、魔方。', 'keywords': ['代购', '商品', '电子产品', '茶叶', '饰品'], 'confidence': 0.6}
+2025-10-08 11:23:52 - article_classifier - INFO - ✓ 分类完成: 代购.html -> 未分类
+重试处理:  28%|██▊       | 129/457 [34:28<1:30:27, 16.55s/it]2025-10-08 11:24:04 - article_classifier - INFO - ✓ 分类完成: 华策影视.html -> 金融/股市/公司分析
+重试处理:  28%|██▊       | 130/457 [34:40<1:22:58, 15.23s/it]2025-10-08 11:24:20 - article_classifier - INFO - ✓ 分类完成: 电子血压计硬件需求.html -> 技术/未分类
+重试处理:  29%|██▊       | 131/457 [34:55<1:22:52, 15.25s/it]2025-10-08 11:24:32 - article_classifier - INFO - ✓ 分类完成: 南京准备问题.html -> 技术/数据库
+重试处理:  29%|██▉       | 132/457 [35:07<1:16:55, 14.20s/it]2025-10-08 11:24:47 - article_classifier - INFO - ✓ 分类完成: 人民币兑换.html -> 金融/银行/账户信息
+重试处理:  29%|██▉       | 133/457 [35:23<1:18:49, 14.60s/it]2025-10-08 11:25:10 - article_classifier - INFO - ✓ 分类完成: 江苏体彩试点获批.html -> 金融
+重试处理:  29%|██▉       | 134/457 [35:45<1:31:54, 17.07s/it]2025-10-08 11:25:17 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-3.html -> 未分类
+重试处理:  30%|██▉       | 135/457 [35:53<1:16:09, 14.19s/it]2025-10-08 11:25:34 - article_classifier - INFO - ✓ 分类完成: 本阶段服务端工作.html -> 技术/架构
+重试处理:  30%|██▉       | 136/457 [36:10<1:20:32, 15.05s/it]2025-10-08 11:25:46 - article_classifier - INFO - ✓ 分类完成: 宜通世纪 300310.html -> 金融/股市/公司分析
+重试处理:  30%|██▉       | 137/457 [36:21<1:14:29, 13.97s/it]2025-10-08 11:26:28 - article_classifier - INFO - ✓ 分类完成: 二年级上册词语表.html -> 教育/语言学习/词汇
+重试处理:  30%|███       | 138/457 [37:03<1:58:27, 22.28s/it]2025-10-08 11:26:48 - article_classifier - INFO - ✓ 分类完成: 可转债直接转股持有到止息日的收益率究竟有多高？.html -> 金融/股票市场
+重试处理:  30%|███       | 139/457 [37:24<1:55:41, 21.83s/it]2025-10-08 11:27:06 - article_classifier - INFO - ✓ 分类完成: 机器学习的要素.html -> 技术/未分类
+重试处理:  31%|███       | 140/457 [37:41<1:47:58, 20.44s/it]2025-10-08 11:27:13 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-1.html -> 未分类
+重试处理:  31%|███       | 141/457 [37:48<1:26:48, 16.48s/it]2025-10-08 11:27:32 - article_classifier - INFO - ✓ 分类完成: PBM知识点.html -> 社会/健康
+重试处理:  31%|███       | 142/457 [38:08<1:30:59, 17.33s/it]2025-10-08 11:27:47 - article_classifier - INFO - ✓ 分类完成: 雅典买房.html -> 未分类
+重试处理:  31%|███▏      | 143/457 [38:23<1:27:00, 16.63s/it]2025-10-08 11:28:02 - article_classifier - INFO - ✓ 分类完成: 上海社保主任&林康公司座谈会.html -> 社会/健康
+重试处理:  32%|███▏      | 144/457 [38:38<1:24:38, 16.23s/it]2025-10-08 11:28:18 - article_classifier - INFO - ✓ 分类完成: 美加边界.html -> 未分类
+重试处理:  32%|███▏      | 145/457 [38:54<1:24:10, 16.19s/it]2025-10-08 11:28:40 - article_classifier - INFO - ✓ 分类完成: 如何记忆德语名词的词性.html -> 语言学习/德语/语法
+重试处理:  32%|███▏      | 146/457 [39:16<1:32:47, 17.90s/it]2025-10-08 11:28:58 - article_classifier - INFO - ✓ 分类完成: 盈透账户.html -> 金融/股市
+重试处理:  32%|███▏      | 147/457 [39:33<1:31:42, 17.75s/it]2025-10-08 11:29:13 - article_classifier - INFO - ✓ 分类完成: Open edX环境.html -> 技术/未分类
+重试处理:  32%|███▏      | 148/457 [39:49<1:28:01, 17.09s/it]2025-10-08 11:29:33 - article_classifier - INFO - ✓ 分类完成: 史上最全NFT工具大全 — 追风Lab.html -> 技术/区块链
+重试处理:  33%|███▎      | 149/457 [40:09<1:32:29, 18.02s/it]2025-10-08 11:29:51 - article_classifier - INFO - ✓ 分类完成: 楼梯.html -> 语言学习/德语/词汇
+重试处理:  33%|███▎      | 150/457 [40:26<1:30:50, 17.75s/it]2025-10-08 11:30:05 - article_classifier - INFO - ✓ 分类完成: 华为概念股.html -> 金融/股市/公司分析
+重试处理:  33%|███▎      | 151/457 [40:41<1:26:07, 16.89s/it]2025-10-08 11:30:28 - article_classifier - INFO - ✓ 分类完成: IFTTT key.html -> 技术/未分类
+重试处理:  33%|███▎      | 152/457 [41:04<1:34:30, 18.59s/it]2025-10-08 11:30:38 - article_classifier - INFO - ✓ 分类完成: bclc.html -> 商务/合作
+重试处理:  33%|███▎      | 153/457 [41:13<1:20:46, 15.94s/it]2025-10-08 11:30:54 - article_classifier - INFO - ✓ 分类完成: 我是如何不花一分钱把游戏服务器租用 SaaS 做到第一位的 - V2EX.html -> 技术/未分类
+重试处理:  34%|███▎      | 154/457 [41:29<1:20:20, 15.91s/it]2025-10-08 11:31:08 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-1.html -> 未分类
+重试处理:  34%|███▍      | 155/457 [41:43<1:17:38, 15.42s/it]2025-10-08 11:31:21 - article_classifier - INFO - ✓ 分类完成: 金自天正 600560.html -> 金融/股市/公司分析
+重试处理:  34%|███▍      | 156/457 [41:56<1:13:08, 14.58s/it]2025-10-08 11:31:40 - article_classifier - INFO - ✓ 分类完成: Sharing link-9.html -> 未分类
+重试处理:  34%|███▍      | 157/457 [42:16<1:20:34, 16.11s/it]2025-10-08 11:31:53 - article_classifier - INFO - ✓ 分类完成: 需卦.html -> 未分类
+重试处理:  35%|███▍      | 158/457 [42:28<1:15:05, 15.07s/it]2025-10-08 11:32:01 - article_classifier - INFO - ✓ 分类完成: 免费看球.html -> 多媒体/未分类
+重试处理:  35%|███▍      | 159/457 [42:37<1:04:56, 13.08s/it]2025-10-08 11:32:10 - article_classifier - INFO - ✓ 分类完成: 8月13日会议记录.html -> 技术/架构
+重试处理:  35%|███▌      | 160/457 [42:45<57:43, 11.66s/it]  2025-10-08 11:32:24 - article_classifier - INFO - ✓ 分类完成: 如果你觉得微博上有人肆无忌惮地伤害您，您又不知道TA是谁、不知怎么告TA，一步一步这样做：.html -> 未分类
+重试处理:  35%|███▌      | 161/457 [43:00<1:01:52, 12.54s/it]2025-10-08 11:32:33 - article_classifier - INFO - ✓ 分类完成: 可儿护理记录.html -> 未分类
+重试处理:  35%|███▌      | 162/457 [43:08<56:02, 11.40s/it]  2025-10-08 11:32:41 - article_classifier - INFO - 创建新分类: 旅行经验 (level=2, parent_id=141)
+2025-10-08 11:32:41 - article_classifier - INFO - 创建新分类: 一般 (level=3, parent_id=142)
+2025-10-08 11:32:41 - article_classifier - INFO - ✓ 分类完成: 最近要去美国生娃的妈妈要注意啦 !.html -> 旅行/旅行经验/一般
+重试处理:  36%|███▌      | 163/457 [43:17<50:59, 10.41s/it]2025-10-08 11:32:53 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 11:32:53 - article_classifier - INFO - ✓ 分类完成: 印尼镍铁项目可行性报告 - 百度文库.html -> 商务/合作
+重试处理:  36%|███▌      | 164/457 [43:28<52:51, 10.82s/it]2025-10-08 11:33:06 - article_classifier - INFO - ✓ 分类完成: 王律师事务所交涉内容.html -> 商务/创业
+重试处理:  36%|███▌      | 165/457 [43:42<56:15, 11.56s/it]2025-10-08 11:33:19 - article_classifier - INFO - ✓ 分类完成: 2GhlmcL1HblsqT.html -> 技术
+重试处理:  36%|███▋      | 166/457 [43:54<57:28, 11.85s/it]2025-10-08 11:33:28 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:33:28 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '资源与能源/矿业', 'summary': '文章讨论印尼镍铁产量及出口成本，指出不锈钢产量落后，利润空间大。', 'keywords': ['印尼', '镍铁', '不锈钢', '出口', '成本'], 'confidence': 0.42}
+2025-10-08 11:33:28 - article_classifier - INFO - ✓ 分类完成: 印尼产量.html -> 未分类
+重试处理:  37%|███▋      | 167/457 [44:03<53:14, 11.02s/it]2025-10-08 11:33:41 - article_classifier - INFO - ✓ 分类完成: 一文了解Web3.0生态66个项目 — 追风Lab.html -> 技术/区块链
+重试处理:  37%|███▋      | 168/457 [44:16<55:51, 11.60s/it]2025-10-08 11:33:54 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:33:54 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['法律', '司法'], 'summary': '本文简要列出庭审要点，包括谈话、公示以及制度是否已修订等方面。', 'keywords': ['庭审', '谈话', '公示', '制度', '修订'], 'confidence': 0.18}
+2025-10-08 11:33:54 - article_classifier - INFO - ✓ 分类完成: 庭审要点.html -> 未分类
+重试处理:  37%|███▋      | 169/457 [44:29<57:25, 11.96s/it]2025-10-08 11:34:18 - article_classifier - INFO - ✓ 分类完成: 药品.html -> 社会/健康
+重试处理:  37%|███▋      | 170/457 [44:54<1:15:33, 15.80s/it]2025-10-08 11:34:51 - article_classifier - INFO - ✓ 分类完成: 融券分析软件功能.html -> 金融/股市
+重试处理:  37%|███▋      | 171/457 [45:27<1:39:58, 20.97s/it]2025-10-08 11:35:12 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-1.html -> 技术/未分类
+重试处理:  38%|███▊      | 172/457 [45:47<1:38:31, 20.74s/it]2025-10-08 11:35:41 - article_classifier - INFO - ✓ 分类完成: 飞利信 300287.html -> 金融/股市/公司分析
+重试处理:  38%|███▊      | 173/457 [46:16<1:50:34, 23.36s/it]2025-10-08 11:36:04 - article_classifier - INFO - ✓ 分类完成: 招聘-1.html -> 商务
+重试处理:  38%|███▊      | 174/457 [46:39<1:49:39, 23.25s/it]2025-10-08 11:36:22 - article_classifier - INFO - ✓ 分类完成: openwrt 无线结构 - 华六的博客 - CSDN博客.html -> 技术/架构
+重试处理:  38%|███▊      | 175/457 [46:58<1:42:09, 21.74s/it]2025-10-08 11:36:33 - article_classifier - INFO - ✓ 分类完成: 第三轮迭代评审.html -> 技术/未分类
+重试处理:  39%|███▊      | 176/457 [47:08<1:26:11, 18.40s/it]2025-10-08 11:36:55 - article_classifier - INFO - ✓ 分类完成: 十大慢性病.html -> 社会/健康
+重试处理:  39%|███▊      | 177/457 [47:31<1:31:31, 19.61s/it]2025-10-08 11:37:11 - article_classifier - INFO - ✓ 分类完成: Node.js 究竟是什么？.html -> 技术/未分类/未分类
+重试处理:  39%|███▉      | 178/457 [47:46<1:25:49, 18.46s/it]2025-10-08 11:37:18 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:37:18 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '房地产', 'summary': '探讨未来不再卖房的行业趋势与市场变化。', 'keywords': ['房产', '卖房', '未来', '市场', '行业'], 'confidence': 0.32}
+2025-10-08 11:37:18 - article_classifier - INFO - ✓ 分类完成: 不再卖房的未来-墙外楼.html -> 未分类
+重试处理:  39%|███▉      | 179/457 [47:54<1:09:42, 15.04s/it]2025-10-08 11:37:34 - article_classifier - INFO - ✓ 分类完成: 自动售货机都有哪些品牌.html -> 未分类
+重试处理:  39%|███▉      | 180/457 [48:09<1:10:16, 15.22s/it]2025-10-08 11:37:51 - article_classifier - INFO - ✓ 分类完成: 中国最早的即时通讯软件.html -> 技术/未分类
+重试处理:  40%|███▉      | 181/457 [48:26<1:12:49, 15.83s/it]2025-10-08 11:37:58 - article_classifier - INFO - ✓ 分类完成: 莱宝高科.html -> 技术
+重试处理:  40%|███▉      | 182/457 [48:34<1:00:39, 13.23s/it]2025-10-08 11:38:19 - article_classifier - INFO - ✓ 分类完成: 坤卦.html -> 未分类
+重试处理:  40%|████      | 183/457 [48:55<1:11:12, 15.59s/it]2025-10-08 11:38:36 - article_classifier - INFO - ✓ 分类完成: 英语爽文写作项目.html -> 商务/合作
+重试处理:  40%|████      | 184/457 [49:11<1:12:10, 15.86s/it]2025-10-08 11:39:04 - article_classifier - INFO - ✓ 分类完成: CNNIC 2012年6月底 报告.html -> 技术/未分类
+重试处理:  40%|████      | 185/457 [49:40<1:28:55, 19.61s/it]2025-10-08 11:39:15 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:39:15 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '哲学', 'summary': '讨论《易经》豫卦的象征意义与爻辞。', 'keywords': ['易经', '豫卦', '六爻', '愉悦', '预备'], 'confidence': 0.42}
+2025-10-08 11:39:15 - article_classifier - INFO - ✓ 分类完成: 豫卦.html -> 未分类
+重试处理:  41%|████      | 186/457 [49:50<1:16:44, 16.99s/it]2025-10-08 11:39:42 - article_classifier - INFO - ✓ 分类完成: 六十四卦排列.html -> 未分类
+重试处理:  41%|████      | 187/457 [50:18<1:30:31, 20.12s/it]2025-10-08 11:39:58 - article_classifier - INFO - ✓ 分类完成: 招聘.html -> 技术/编程语言/Java
+重试处理:  41%|████      | 188/457 [50:34<1:24:31, 18.85s/it]2025-10-08 11:40:12 - article_classifier - INFO - ✓ 分类完成: 设定系统时区（根本上解决）.html -> 技术/未分类
+重试处理:  41%|████▏     | 189/457 [50:47<1:16:59, 17.24s/it]2025-10-08 11:40:33 - article_classifier - INFO - ✓ 分类完成: 可转债历史数据分析.html -> 金融/股市
+重试处理:  42%|████▏     | 190/457 [51:08<1:21:42, 18.36s/it]2025-10-08 11:40:45 - article_classifier - INFO - ✓ 分类完成: 离卦.html -> 未分类
+重试处理:  42%|████▏     | 191/457 [51:21<1:13:42, 16.63s/it]2025-10-08 11:41:02 - article_classifier - INFO - ✓ 分类完成: 基于小波变换的方法预测未来6天的收盘价.html -> 金融/股市
+重试处理:  42%|████▏     | 192/457 [51:37<1:13:08, 16.56s/it]2025-10-08 11:41:11 - article_classifier - INFO - ✓ 分类完成: 可儿吸管杯优惠码.html -> 未分类
+重试处理:  42%|████▏     | 193/457 [51:46<1:02:48, 14.28s/it]2025-10-08 11:41:20 - article_classifier - INFO - ✓ 分类完成: 家庭医生.html -> 社会/健康
+重试处理:  42%|████▏     | 194/457 [51:55<55:48, 12.73s/it]  2025-10-08 11:41:37 - article_classifier - INFO - ✓ 分类完成: 这６家专门收治“非典”的医院.html -> 社会/健康
+重试处理:  43%|████▎     | 195/457 [52:12<1:00:57, 13.96s/it]2025-10-08 11:41:45 - article_classifier - INFO - ✓ 分类完成: immigration-flowchart-roadmap-to-green-card.pdf.html -> 未分类
+重试处理:  43%|████▎     | 196/457 [52:20<52:49, 12.14s/it]  2025-10-08 11:42:14 - article_classifier - INFO - ✓ 分类完成: 睽卦.html -> 未分类
+重试处理:  43%|████▎     | 197/457 [52:49<1:14:38, 17.23s/it]2025-10-08 11:42:25 - article_classifier - INFO - ✓ 分类完成: 小市值选股策略.html -> 金融/股市
+重试处理:  43%|████▎     | 198/457 [53:01<1:07:25, 15.62s/it]2025-10-08 11:42:39 - article_classifier - INFO - ✓ 分类完成: 作文谨记.html -> 语言/德语/语法
+重试处理:  44%|████▎     | 199/457 [53:15<1:04:39, 15.04s/it]2025-10-08 11:42:49 - article_classifier - INFO - ✓ 分类完成: 笔记-3.html -> 未分类
+重试处理:  44%|████▍     | 200/457 [53:25<58:21, 13.62s/it]  2025-10-08 11:43:07 - article_classifier - INFO - ✓ 分类完成: 1初期.html -> 技术/未分类
+重试处理:  44%|████▍     | 201/457 [53:42<1:02:47, 14.72s/it]2025-10-08 11:43:25 - article_classifier - INFO - ✓ 分类完成: 移动互联网创业公司的服务器选择 -- 系统运维 -- IT技术博客大学习 -- 共学习 共进步！.html -> 技术/架构
+重试处理:  44%|████▍     | 202/457 [54:00<1:07:03, 15.78s/it]2025-10-08 11:43:38 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:43:38 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['医疗健康', '药品信息管理'], 'summary': '本文列举了药品、公司及分类的数据库结构，涵盖药物相互作用与价格等信息。', 'keywords': ['药品数据', '数据结构', '药物相互作用', '药品分类', '数据库'], 'confidence': 0.2}
+2025-10-08 11:43:38 - article_classifier - INFO - ✓ 分类完成: drug数据结构.html -> 未分类
+重试处理:  44%|████▍     | 203/457 [54:13<1:02:50, 14.84s/it]2025-10-08 11:43:58 - article_classifier - INFO - ✓ 分类完成: Openedx 快捷粘贴.html -> 技术/未分类
+重试处理:  45%|████▍     | 204/457 [54:33<1:09:27, 16.47s/it]2025-10-08 11:44:09 - article_classifier - INFO - ✓ 分类完成: 笔记.html -> 技术/技术创新
+重试处理:  45%|████▍     | 205/457 [54:44<1:01:47, 14.71s/it]2025-10-08 11:44:21 - article_classifier - INFO - ✓ 分类完成: 西游记读书笔记.html -> 未分类
+重试处理:  45%|████▌     | 206/457 [54:57<58:57, 14.09s/it]  2025-10-08 11:44:33 - article_classifier - INFO - ✓ 分类完成: 大数据导航.html -> 技术/技术创新
+重试处理:  45%|████▌     | 207/457 [55:09<56:20, 13.52s/it]2025-10-08 11:44:56 - article_classifier - INFO - ✓ 分类完成: 华闻传媒--2B公司.html -> 金融/股市/公司分析
+重试处理:  46%|████▌     | 208/457 [55:31<1:06:50, 16.11s/it]2025-10-08 11:45:08 - article_classifier - INFO - ✓ 分类完成: 23.106.149.17.html -> 技术/网络安全/身份验证
+重试处理:  46%|████▌     | 209/457 [55:43<1:02:04, 15.02s/it]2025-10-08 11:45:23 - article_classifier - INFO - ✓ 分类完成: 09银基债   112014.html -> 金融
+重试处理:  46%|████▌     | 210/457 [55:58<1:01:34, 14.96s/it]2025-10-08 11:45:51 - article_classifier - INFO - ✓ 分类完成: 茂硕电源.html -> 金融/股市/公司分析
+重试处理:  46%|████▌     | 211/457 [56:26<1:17:22, 18.87s/it]2025-10-08 11:46:05 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:46:05 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['技术', '医疗技术'], 'summary': '文章讨论 ESI 系统中的处方审核、利益冲突、AI 自动开药、后台业务比重等医药信息系统相关问题。', 'keywords': ['电子病历', '处方审核', 'AI 自动开药', '后台系统', '临床路径'], 'confidence': 0.6}
+2025-10-08 11:46:05 - article_classifier - INFO - ✓ 分类完成: 关于ESI的问题.html -> 未分类
+重试处理:  46%|████▋     | 212/457 [56:41<1:11:20, 17.47s/it]2025-10-08 11:46:22 - article_classifier - INFO - ✓ 分类完成: 互联网拓展工作思路.html -> 商务/创业
+重试处理:  47%|████▋     | 213/457 [56:58<1:10:45, 17.40s/it]2025-10-08 11:46:41 - article_classifier - INFO - 已处理 1100 篇文章，触发分类优化...
+2025-10-08 11:46:41 - article_classifier - INFO - 开始分类优化...
+2025-10-08 11:46:41 - article_classifier - ERROR - 分类优化失败: Object of type Decimal is not JSON serializable
+2025-10-08 11:46:41 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 11:46:41 - article_classifier - INFO - ✓ 分类完成: 强化学习.html -> 技术
+重试处理:  47%|████▋     | 214/457 [57:16<1:11:56, 17.76s/it]2025-10-08 11:46:58 - article_classifier - INFO - ✓ 分类完成: 太阳纸业   002078.html -> 金融/股市/公司分析
+重试处理:  47%|████▋     | 215/457 [57:33<1:10:18, 17.43s/it]2025-10-08 11:47:23 - article_classifier - INFO - ✓ 分类完成: yueran.de.html -> 技术/未分类
+重试处理:  47%|████▋     | 216/457 [57:58<1:19:09, 19.71s/it]2025-10-08 11:47:45 - article_classifier - INFO - ✓ 分类完成: （受权发布）习近平：在统筹推进新冠肺炎疫情防控和经济社会发展工作部署会议上的讲话-新华网.html -> 社会/健康
+重试处理:  47%|████▋     | 217/457 [58:20<1:21:48, 20.45s/it]2025-10-08 11:48:02 - article_classifier - INFO - ✓ 分类完成: 否卦.html -> 未分类
+重试处理:  48%|████▊     | 218/457 [58:38<1:17:45, 19.52s/it]2025-10-08 11:48:37 - article_classifier - INFO - ✓ 分类完成: 马耳他汇报稿.html -> 金融
+重试处理:  48%|████▊     | 219/457 [59:12<1:35:38, 24.11s/it]2025-10-08 11:48:48 - article_classifier - INFO - ✓ 分类完成: 3521工程.html -> 技术/未分类
+重试处理:  48%|████▊     | 220/457 [59:23<1:19:39, 20.17s/it]2025-10-08 11:49:05 - article_classifier - INFO - ✓ 分类完成: 深度学习.html -> 技术
+重试处理:  48%|████▊     | 221/457 [59:41<1:16:18, 19.40s/it]2025-10-08 11:49:28 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-14.html -> 社会/健康
+重试处理:  49%|████▊     | 222/457 [1:00:04<1:19:56, 20.41s/it]2025-10-08 11:49:43 - article_classifier - INFO - ✓ 分类完成: 光伏成本.html -> 技术/技术创新
+重试处理:  49%|████▉     | 223/457 [1:00:18<1:12:24, 18.57s/it]2025-10-08 11:49:58 - article_classifier - INFO - ✓ 分类完成: wtcf讨论会.html -> 技术/技术创新
+重试处理:  49%|████▉     | 224/457 [1:00:33<1:08:30, 17.64s/it]2025-10-08 11:50:14 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:50:14 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['医疗', '医院物资', '库存管理'], 'summary': '本文概述医院主要库存分类，涵盖药房、医疗器械、一次性消耗品、仪器及维修用品等。', 'keywords': ['药房', '医疗器械', '一次性消耗品', '大型仪器', '维修用品'], 'confidence': 0.32}
+2025-10-08 11:50:14 - article_classifier - INFO - ✓ 分类完成: 医院主要有三个库.html -> 未分类
+重试处理:  49%|████▉     | 225/457 [1:00:50<1:06:21, 17.16s/it]2025-10-08 11:50:30 - article_classifier - INFO - ✓ 分类完成: 讨论到关于版权.html -> 未分类
+重试处理:  49%|████▉     | 226/457 [1:01:06<1:04:53, 16.86s/it]2025-10-08 11:50:57 - article_classifier - WARNING - category_path 无效: []
+2025-10-08 11:50:57 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': [], 'new_category_suggestion': ['技术', '未分类', '家庭KTV系统'], 'summary': '指南介绍在美国搭建低成本家庭KTV系统，包括点歌软件选择和硬件配备。', 'keywords': ['KTV系统', '点歌软件', '音响设备', '美国', '低成本'], 'confidence': 0.4}
+2025-10-08 11:50:57 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-11.html -> 未分类
+重试处理:  50%|████▉     | 227/457 [1:01:32<1:15:43, 19.76s/it]2025-10-08 11:51:12 - article_classifier - INFO - ✓ 分类完成: 华润双鹤.html -> 金融/股市/公司分析
+重试处理:  50%|████▉     | 228/457 [1:01:47<1:09:59, 18.34s/it]2025-10-08 11:51:30 - article_classifier - INFO - ✓ 分类完成: 赌博术语的中英文对照.html -> 未分类
+重试处理:  50%|█████     | 229/457 [1:02:05<1:09:06, 18.19s/it]2025-10-08 11:51:42 - article_classifier - INFO - ✓ 分类完成: 德国院校申请三类审核须知.html -> 教育/语言学习/德语
+重试处理:  50%|█████     | 230/457 [1:02:17<1:01:50, 16.35s/it]2025-10-08 11:51:50 - article_classifier - INFO - ✓ 分类完成: 在线看电影的网站.html -> 多媒体/未分类
+重试处理:  51%|█████     | 231/457 [1:02:25<52:02, 13.82s/it]  2025-10-08 11:52:50 - article_classifier - ERROR - Ollama API 调用失败: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-10-08 11:52:50 - article_classifier - ERROR - LLM API 调用失败: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60)
+2025-10-08 11:52:50 - article_classifier - INFO - ✓ 分类完成: 西藏发展 000752.html -> 未分类
+重试处理:  51%|█████     | 232/457 [1:03:25<1:43:47, 27.68s/it]2025-10-08 11:52:58 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:52:58 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['移民', '签证', '雇主担保'], 'summary': '本文介绍了BC省雇主担保移民的要求与流程，包括雇主资质、招聘广告、工作岗位条件及雇主责任等细节。', 'keywords': ['BC省', '雇主担保', '移民政策', '工作合同', '招聘广告'], 'confidence': 0.35}
+2025-10-08 11:52:58 - article_classifier - INFO - ✓ 分类完成: BC省雇主担保移民中对雇主的要求.html -> 未分类
+重试处理:  51%|█████     | 233/457 [1:03:33<1:21:30, 21.83s/it]2025-10-08 11:53:12 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-2.html -> 商务/技术创新
+重试处理:  51%|█████     | 234/457 [1:03:47<1:12:19, 19.46s/it]2025-10-08 11:53:45 - article_classifier - INFO - ✓ 分类完成: 如何申请medical.html -> 社会/健康
+重试处理:  51%|█████▏    | 235/457 [1:04:20<1:27:08, 23.55s/it]2025-10-08 11:53:59 - article_classifier - INFO - ✓ 分类完成: 换个角度看转债：可转债与博弈.html -> 金融/股市
+重试处理:  52%|█████▏    | 236/457 [1:04:34<1:16:04, 20.66s/it]2025-10-08 11:54:26 - article_classifier - INFO - ✓ 分类完成: WTCF测试记录.html -> 技术/未分类
+重试处理:  52%|█████▏    | 237/457 [1:05:01<1:22:50, 22.59s/it]2025-10-08 11:54:45 - article_classifier - WARNING - category_path 无效: []
+2025-10-08 11:54:45 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': [], 'new_category_suggestion': '育儿', 'summary': '父母对孩子的教育与成长方式的反思与实践。', 'keywords': ['育儿', '早教', '家庭决策', '孩子成长', '父母观念'], 'confidence': 0.42}
+2025-10-08 11:54:45 - article_classifier - INFO - ✓ 分类完成: 孩子和我的改变.html -> 未分类
+重试处理:  52%|█████▏    | 238/457 [1:05:21<1:19:12, 21.70s/it]2025-10-08 11:55:06 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:55:06 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['游戏运营'], 'summary': '本文讨论游戏中提升用户留存的关键功能与流失原因。', 'keywords': ['用户留存', '流失原因', '游戏设计', '社交功能', '成就感'], 'confidence': 0.15}
+2025-10-08 11:55:06 - article_classifier - INFO - ✓ 分类完成: 用户留存.html -> 未分类
+重试处理:  52%|█████▏    | 239/457 [1:05:41<1:17:09, 21.24s/it]2025-10-08 11:55:24 - article_classifier - INFO - ✓ 分类完成: St.-Konrad-Schule.html -> 教育
+重试处理:  53%|█████▎    | 240/457 [1:05:59<1:13:22, 20.29s/it]2025-10-08 11:55:43 - article_classifier - INFO - ✓ 分类完成: 特殊的礼物.html -> 未分类
+重试处理:  53%|█████▎    | 241/457 [1:06:19<1:12:28, 20.13s/it]2025-10-08 11:56:04 - article_classifier - INFO - ✓ 分类完成: 中心演示第二次迭代会议.html -> 技术/未分类/未分类
+重试处理:  53%|█████▎    | 242/457 [1:06:40<1:12:41, 20.28s/it]2025-10-08 11:56:15 - article_classifier - INFO - ✓ 分类完成: Windows7旗舰版激活教程(永久、免费) 六枚密钥双重激活.html -> 技术
+重试处理:  53%|█████▎    | 243/457 [1:06:51<1:02:32, 17.53s/it]2025-10-08 11:56:25 - article_classifier - INFO - ✓ 分类完成: 大族激光-1.html -> 商务/技术创新
+重试处理:  53%|█████▎    | 244/457 [1:07:00<53:33, 15.09s/it]  2025-10-08 11:56:44 - article_classifier - INFO - ✓ 分类完成: 光伏产能和成本.html -> 技术/未分类
+重试处理:  54%|█████▎    | 245/457 [1:07:19<57:32, 16.28s/it]2025-10-08 11:56:59 - article_classifier - INFO - ✓ 分类完成: 双低策略.html -> 金融/股市/公司分析
+重试处理:  54%|█████▍    | 246/457 [1:07:34<55:52, 15.89s/it]2025-10-08 11:57:13 - article_classifier - INFO - ✓ 分类完成: 乐视网.html -> 金融/股市/公司分析
+重试处理:  54%|█████▍    | 247/457 [1:07:49<54:23, 15.54s/it]2025-10-08 11:57:18 - article_classifier - INFO - ✓ 分类完成: mysql 改目录.html -> 技术/数据库/MySQL
+重试处理:  54%|█████▍    | 248/457 [1:07:54<43:02, 12.36s/it]2025-10-08 11:57:36 - article_classifier - INFO - ✓ 分类完成: OpenBTS 5.0安装 - 原子冲击 - 博客园.html -> 技术/未分类
+重试处理:  54%|█████▍    | 249/457 [1:08:12<48:42, 14.05s/it]2025-10-08 11:57:51 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:57:51 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '易经', 'summary': '本文阐述《大有卦》六爻含义，解读卦辞与象数，适合易经初学者。', 'keywords': ['大有卦', '易经', '六爻', '卦辞', '象数'], 'confidence': 0.35}
+2025-10-08 11:57:51 - article_classifier - INFO - ✓ 分类完成: 大有卦.html -> 未分类
+重试处理:  55%|█████▍    | 250/457 [1:08:26<48:44, 14.13s/it]2025-10-08 11:58:04 - article_classifier - INFO - ✓ 分类完成: 大畜卦.html -> 未分类
+重试处理:  55%|█████▍    | 251/457 [1:08:39<47:35, 13.86s/it]2025-10-08 11:58:12 - article_classifier - INFO - ✓ 分类完成: python 虚拟环境.html -> 技术/编程语言/Python
+重试处理:  55%|█████▌    | 252/457 [1:08:48<41:41, 12.20s/it]2025-10-08 11:58:27 - article_classifier - INFO - ✓ 分类完成: 客户版功能.html -> 社会/健康
+重试处理:  55%|█████▌    | 253/457 [1:09:03<44:30, 13.09s/it]2025-10-08 11:58:36 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:58:36 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['赌博'], 'summary': '文章介绍欧洲各地区与组织对博彩的许可及监管政策，重点关注远程博彩联盟的法规与实施。', 'keywords': ['欧洲', '博彩', '法规', '远程博彩联盟', '许可'], 'confidence': 0.72}
+2025-10-08 11:58:36 - article_classifier - INFO - ✓ 分类完成: 允许博彩的地区和组织.html -> 未分类
+重试处理:  56%|█████▌    | 254/457 [1:09:12<40:03, 11.84s/it]2025-10-08 11:58:49 - article_classifier - WARNING - category_path 无效: []
+2025-10-08 11:58:49 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': [], 'new_category_suggestion': ['游戏', 'Minecraft'], 'summary': '文章讨论Minecraft游戏相关内容，可能涉及账号或设置。', 'keywords': ['Minecraft', '游戏', '账号', '设置', '网站'], 'confidence': 0.22}
+2025-10-08 11:58:49 - article_classifier - INFO - ✓ 分类完成: vPP_yq5pC!_Ut=T6.html -> 未分类
+重试处理:  56%|█████▌    | 255/457 [1:09:25<41:04, 12.20s/it]2025-10-08 11:59:11 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 11:59:11 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['法律', '移民法'], 'summary': '本文整理了德国联邦移民与难民署发布的欧盟蓝卡FAQ，阐述蓝卡的法律依据、适用国家、申请条件及相关细则，帮助高技能人才了解蓝卡申请流程。', 'keywords': ['欧盟蓝卡', '居留许可', '德国移民', '法律依据', '高技能人才'], 'confidence': 0.85}
+2025-10-08 11:59:11 - article_classifier - INFO - ✓ 分类完成: 欧盟蓝卡FAQ - 日记 - 豆瓣.html -> 未分类
+重试处理:  56%|█████▌    | 256/457 [1:09:46<50:05, 14.95s/it]2025-10-08 11:59:22 - article_classifier - INFO - ✓ 分类完成: 佳佳保险事宜.html -> 金融
+重试处理:  56%|█████▌    | 257/457 [1:09:58<46:36, 13.98s/it]2025-10-08 11:59:42 - article_classifier - INFO - ✓ 分类完成: 李佳.html -> 未分类
+重试处理:  56%|█████▋    | 258/457 [1:10:18<52:17, 15.77s/it]2025-10-08 11:59:54 - article_classifier - INFO - ✓ 分类完成: 奥特迅 002227.html -> 金融/股市/公司分析
+重试处理:  57%|█████▋    | 259/457 [1:10:30<48:04, 14.57s/it]2025-10-08 12:00:10 - article_classifier - INFO - ✓ 分类完成: 第三方设备连进用户的WiFi.html -> 技术/网络安全
+重试处理:  57%|█████▋    | 260/457 [1:10:46<49:32, 15.09s/it]2025-10-08 12:00:21 - article_classifier - INFO - ✓ 分类完成: 质证思路.html -> 未分类
+重试处理:  57%|█████▋    | 261/457 [1:10:57<45:02, 13.79s/it]2025-10-08 12:00:53 - article_classifier - INFO - ✓ 分类完成: 驯虫记.html -> 社会
+重试处理:  57%|█████▋    | 262/457 [1:11:28<1:02:04, 19.10s/it]2025-10-08 12:01:12 - article_classifier - INFO - ✓ 分类完成: 有哪些好看的高智商悬疑电影？ - 夏目的回答 - 知乎.html -> 未分类
+重试处理:  58%|█████▊    | 263/457 [1:11:48<1:02:16, 19.26s/it]2025-10-08 12:01:28 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 12:01:28 - article_classifier - INFO - ✓ 分类完成: 观点小记.html -> 个人发展/生活规划
+重试处理:  58%|█████▊    | 264/457 [1:12:03<58:35, 18.21s/it]  2025-10-08 12:01:37 - article_classifier - INFO - ✓ 分类完成: slikpay.html -> 金融/支付服务
+重试处理:  58%|█████▊    | 265/457 [1:12:13<49:29, 15.46s/it]2025-10-08 12:01:56 - article_classifier - INFO - ✓ 分类完成: 卫计委委托统计.html -> 社会/健康
+重试处理:  58%|█████▊    | 266/457 [1:12:31<52:21, 16.45s/it]2025-10-08 12:02:11 - article_classifier - INFO - ✓ 分类完成: 第一次赴德签证资料列表.html -> 旅行
+重试处理:  58%|█████▊    | 267/457 [1:12:46<50:44, 16.03s/it]2025-10-08 12:02:29 - article_classifier - INFO - ✓ 分类完成: 办宽带问题.html -> 技术/未分类
+重试处理:  59%|█████▊    | 268/457 [1:13:04<52:20, 16.62s/it]2025-10-08 12:02:47 - article_classifier - INFO - ✓ 分类完成: 转；终于有人把股市集合竞价的秘密说清楚了！（收好不谢）.html -> 金融/股市
+重试处理:  59%|█████▉    | 269/457 [1:13:22<53:12, 16.98s/it]2025-10-08 12:02:56 - article_classifier - INFO - ✓ 分类完成: DB2电话会议.html -> 技术/数据库
+重试处理:  59%|█████▉    | 270/457 [1:13:31<45:30, 14.60s/it]2025-10-08 12:03:05 - article_classifier - INFO - ✓ 分类完成: 投影机在距离屏幕4.1米到4.6米的地方都能投满120寸画面。.html -> 技术/未分类/未分类
+重试处理:  59%|█████▉    | 271/457 [1:13:40<40:13, 12.98s/it]2025-10-08 12:03:29 - article_classifier - INFO - ✓ 分类完成: 宇顺电子.html -> 金融/股市/公司分析
+重试处理:  60%|█████▉    | 272/457 [1:14:05<50:33, 16.40s/it]2025-10-08 12:03:40 - article_classifier - INFO - ✓ 分类完成: QQ information.html -> 技术/数据库
+重试处理:  60%|█████▉    | 273/457 [1:14:15<44:41, 14.57s/it]2025-10-08 12:03:50 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:03:50 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['法律', '劳动法'], 'summary': '本文阐述用人单位解除或终止劳动合同的法律责任、赔偿与补偿标准，详述不同情形下的经济补偿公式与赔偿金双倍原则。', 'keywords': ['劳动合同', '解除', '经济补偿', '赔偿金', '用人单位'], 'confidence': 0.7}
+2025-10-08 12:03:50 - article_classifier - INFO - ✓ 分类完成: 明夷相关.html -> 未分类
+重试处理:  60%|█████▉    | 274/457 [1:14:26<40:54, 13.41s/it]2025-10-08 12:04:02 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:04:02 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['房地产'], 'summary': '文章列出若干住宅地址及对应租金，并提及保险推荐。', 'keywords': ['地址', '租金', '住房', '保险', '备选地址'], 'confidence': 0.32}
+2025-10-08 12:04:02 - article_classifier - INFO - ✓ 分类完成: 备选地址.html -> 未分类
+重试处理:  60%|██████    | 275/457 [1:14:38<39:27, 13.01s/it]2025-10-08 12:04:17 - article_classifier - INFO - ✓ 分类完成: 隆基股份.html -> 金融/股市/公司分析
+重试处理:  60%|██████    | 276/457 [1:14:52<40:38, 13.47s/it]2025-10-08 12:04:36 - article_classifier - INFO - ✓ 分类完成: 健康档案数据资源库.html -> 社会/健康
+重试处理:  61%|██████    | 277/457 [1:15:12<45:51, 15.29s/it]2025-10-08 12:04:48 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:04:48 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['技术', 'API'], 'summary': '本文介绍了全球 API 目录、SDK、库、框架等资源，帮助开发者快速查找并使用各类接口。', 'keywords': ['API', '目录', 'SDK', '框架', '开发者'], 'confidence': 0.73}
+2025-10-08 12:04:48 - article_classifier - INFO - ✓ 分类完成: 搜索api.html -> 未分类
+重试处理:  61%|██████    | 278/457 [1:15:23<41:56, 14.06s/it]2025-10-08 12:04:59 - article_classifier - INFO - ✓ 分类完成: 蓝色光标 300058.html -> 金融/股票市场/公司分析
+重试处理:  61%|██████    | 279/457 [1:15:35<39:42, 13.38s/it]2025-10-08 12:05:18 - article_classifier - INFO - ✓ 分类完成: 博彩游戏设计.html -> 商务
+重试处理:  61%|██████▏   | 280/457 [1:15:54<44:07, 14.96s/it]2025-10-08 12:05:27 - article_classifier - INFO - ✓ 分类完成: Mattermost – Wikipedia.html -> 技术/技术创新
+重试处理:  61%|██████▏   | 281/457 [1:16:02<38:12, 13.03s/it]2025-10-08 12:05:42 - article_classifier - INFO - ✓ 分类完成: dv.Rows[0].Cells[0] as DataGridViewComboBoxCell).D.html -> 技术/编程语言/C#
+重试处理:  62%|██████▏   | 282/457 [1:16:17<39:48, 13.65s/it]2025-10-08 12:06:31 - article_classifier - INFO - 创建新分类: 量化策略 (level=3, parent_id=135)
+2025-10-08 12:06:31 - article_classifier - INFO - ✓ 分类完成: 【重磅】AI Alphas(A股版) - 策略&研究 - BigQuant量化社区.html -> 金融/股票市场/量化策略
+重试处理:  62%|██████▏   | 283/457 [1:17:06<1:10:35, 24.34s/it]2025-10-08 12:06:42 - article_classifier - INFO - ✓ 分类完成: 王东临《一文读懂区块链存储》阅读问题.html -> 技术/区块链
+重试处理:  62%|██████▏   | 284/457 [1:17:18<58:43, 20.36s/it]  2025-10-08 12:06:55 - article_classifier - INFO - ✓ 分类完成: 另类挂钩-RING3数据包监视（Delphi版）.html -> 技术/编程语言
+重试处理:  62%|██████▏   | 285/457 [1:17:31<52:09, 18.19s/it]2025-10-08 12:07:03 - article_classifier - INFO - ✓ 分类完成: 绘本前言.html -> 未分类
+重试处理:  63%|██████▎   | 286/457 [1:17:38<42:52, 15.05s/it]2025-10-08 12:07:12 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:07:12 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '博彩', 'summary': '日本自2018年起开放网络彩票销售，涵盖大额及区域彩票，但细节尚未确定。', 'keywords': ['日本', '彩票', '网络销售', '大额彩票', '自治协会'], 'confidence': 0.4}
+2025-10-08 12:07:12 - article_classifier - INFO - ✓ 分类完成: 日本彩票互联网销售开放.html -> 未分类
+重试处理:  63%|██████▎   | 287/457 [1:17:48<37:52, 13.37s/it]2025-10-08 12:07:58 - article_classifier - INFO - ✓ 分类完成: 深海视点：黄慕兰.html -> 历史/中国历史
+重试处理:  63%|██████▎   | 288/457 [1:18:34<1:05:09, 23.13s/it]2025-10-08 12:08:13 - article_classifier - INFO - ✓ 分类完成: 雅化集团.html -> 金融/股市/公司分析
+重试处理:  63%|██████▎   | 289/457 [1:18:49<57:55, 20.69s/it]  2025-10-08 12:08:30 - article_classifier - INFO - ✓ 分类完成: 市场部规划.html -> 商务
+重试处理:  63%|██████▎   | 290/457 [1:19:05<54:15, 19.49s/it]2025-10-08 12:08:39 - article_classifier - INFO - ✓ 分类完成: c_类.html -> 技术/编程语言/C#
+重试处理:  64%|██████▎   | 291/457 [1:19:14<45:08, 16.32s/it]2025-10-08 12:08:59 - article_classifier - INFO - ✓ 分类完成: 2020量化交易数据源大全.html -> 金融/股市
+重试处理:  64%|██████▍   | 292/457 [1:19:34<47:53, 17.41s/it]2025-10-08 12:09:12 - article_classifier - INFO - ✓ 分类完成: 郑宇两个问题的回答.html -> 未分类
+重试处理:  64%|██████▍   | 293/457 [1:19:48<44:15, 16.19s/it]2025-10-08 12:09:33 - article_classifier - INFO - ✓ 分类完成: 海底捞“骗局”：年赚165亿，靠的不是服务，揭秘暴利与亏损的真相！ - 餐厨产业链 - 知乎专栏.html -> 商务/创业
+重试处理:  64%|██████▍   | 294/457 [1:20:09<47:48, 17.60s/it]2025-10-08 12:09:46 - article_classifier - INFO - ✓ 分类完成: 无标题笔记.html -> 社会/健康
+重试处理:  65%|██████▍   | 295/457 [1:20:22<44:04, 16.33s/it]2025-10-08 12:10:03 - article_classifier - INFO - ✓ 分类完成: 买书清单.html -> 教育
+重试处理:  65%|██████▍   | 296/457 [1:20:39<44:17, 16.51s/it]2025-10-08 12:10:18 - article_classifier - INFO - ✓ 分类完成: 彩超结果.html -> 社会/健康
+重试处理:  65%|██████▍   | 297/457 [1:20:53<42:09, 15.81s/it]2025-10-08 12:10:31 - article_classifier - INFO - ✓ 分类完成: 以太坊私有链搭建指南.html -> 技术/区块链
+重试处理:  65%|██████▌   | 298/457 [1:21:07<40:19, 15.22s/it]2025-10-08 12:10:47 - article_classifier - INFO - ✓ 分类完成: RTL-SDR的安装和使用_丫丫爸_新浪博客.html -> 技术/未分类
+重试处理:  65%|██████▌   | 299/457 [1:21:22<40:10, 15.26s/it]2025-10-08 12:10:59 - article_classifier - INFO - ✓ 分类完成: Dns隧道.html -> 技术/网络安全
+重试处理:  66%|██████▌   | 300/457 [1:21:35<37:57, 14.51s/it]2025-10-08 12:11:13 - article_classifier - INFO - ✓ 分类完成: 谈谈欧美日韩新加坡这一系的对抗疫情路数。只是客观捋捋，便于大家理解有关的资讯，便于有亲人在这些国家的.html -> 社会/健康
+重试处理:  66%|██████▌   | 301/457 [1:21:49<37:16, 14.34s/it]2025-10-08 12:11:24 - article_classifier - INFO - ✓ 分类完成: tang@jlgmbh.de 客户端密码.html -> 技术/网络安全/身份验证
+重试处理:  66%|██████▌   | 302/457 [1:21:59<33:50, 13.10s/it]2025-10-08 12:11:47 - article_classifier - INFO - ✓ 分类完成: 要买的东西.html -> 未分类
+重试处理:  66%|██████▋   | 303/457 [1:22:23<41:48, 16.29s/it]2025-10-08 12:12:12 - article_classifier - INFO - ✓ 分类完成: 劲嘉股份。大宗交易.html -> 金融/股市/公司分析
+重试处理:  67%|██████▋   | 304/457 [1:22:47<47:55, 18.80s/it]2025-10-08 12:12:43 - article_classifier - INFO - ✓ 分类完成: 北京.html -> 城市生活/交通
+重试处理:  67%|██████▋   | 305/457 [1:23:19<57:10, 22.57s/it]2025-10-08 12:13:03 - article_classifier - INFO - ✓ 分类完成: Über _Sind junge Menschen heute schlecht erzogen_.html -> 社会
+重试处理:  67%|██████▋   | 306/457 [1:23:39<54:54, 21.82s/it]2025-10-08 12:13:12 - article_classifier - INFO - ✓ 分类完成: WTCF进阶沟通会.html -> 技术/数据库
+重试处理:  67%|██████▋   | 307/457 [1:23:47<44:35, 17.84s/it]2025-10-08 12:13:24 - article_classifier - INFO - ✓ 分类完成: 北京紫飞网络科技有限公司.html -> 技术/未分类
+重试处理:  67%|██████▋   | 308/457 [1:24:00<40:13, 16.20s/it]2025-10-08 12:13:46 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:13:46 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': None, 'summary': '文章暂无内容，无法生成摘要。', 'keywords': [], 'confidence': 0.05}
+2025-10-08 12:13:46 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-1.html -> 未分类
+重试处理:  68%|██████▊   | 309/457 [1:24:21<43:51, 17.78s/it]2025-10-08 12:13:54 - article_classifier - INFO - ✓ 分类完成: 无标题笔记.html -> 未分类
+重试处理:  68%|██████▊   | 310/457 [1:24:29<36:08, 14.75s/it]2025-10-08 12:14:16 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:14:16 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['金融', '博彩'], 'summary': '中福在线被曝为个人牟利，涉嫌违规获利超过40亿元，审计与监管失效引发关注。', 'keywords': ['中福在线', '彩票', '贺文', '审计署', '违规'], 'confidence': 0.48}
+2025-10-08 12:14:16 - article_classifier - INFO - ✓ 分类完成: 中福在线为个人牟利超40亿元_手机新浪网.html -> 未分类
+重试处理:  68%|██████▊   | 311/457 [1:24:52<41:39, 17.12s/it]2025-10-08 12:14:33 - article_classifier - INFO - ✓ 分类完成: 笔记-4.html -> 技术/未分类
+重试处理:  68%|██████▊   | 312/457 [1:25:09<41:13, 17.06s/it]2025-10-08 12:14:44 - article_classifier - INFO - 创建新分类: 家庭讨论 (level=2, parent_id=128)
+2025-10-08 12:14:44 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-15.html -> 社会/家庭讨论
+重试处理:  68%|██████▊   | 313/457 [1:25:20<36:40, 15.28s/it]2025-10-08 12:14:56 - article_classifier - INFO - 已处理 1200 篇文章，触发分类优化...
+2025-10-08 12:14:56 - article_classifier - INFO - 开始分类优化...
+2025-10-08 12:14:56 - article_classifier - ERROR - 分类优化失败: Object of type Decimal is not JSON serializable
+2025-10-08 12:14:56 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 12:14:56 - article_classifier - INFO - ✓ 分类完成: Returning a DataSet From a Web Services_ Step-by-S.html -> 技术/编程语言/C#
+重试处理:  69%|██████▊   | 314/457 [1:25:31<33:39, 14.13s/it]2025-10-08 12:15:10 - article_classifier - INFO - ✓ 分类完成: html 课笔记.html -> 技术/未分类
+重试处理:  69%|██████▉   | 315/457 [1:25:45<33:37, 14.21s/it]2025-10-08 12:15:28 - article_classifier - INFO - ✓ 分类完成: 气球.html -> 未分类
+重试处理:  69%|██████▉   | 316/457 [1:26:03<35:54, 15.28s/it]2025-10-08 12:16:00 - article_classifier - INFO - ✓ 分类完成: 电话调查.html -> 商务
+重试处理:  69%|██████▉   | 317/457 [1:26:35<47:21, 20.30s/it]2025-10-08 12:16:14 - article_classifier - INFO - ✓ 分类完成: 视频带宽计算公式(码流_分辨率_帧率)   (自己整理过的.).html -> 多媒体/未分类
+重试处理:  70%|██████▉   | 318/457 [1:26:50<42:52, 18.50s/it]2025-10-08 12:16:23 - article_classifier - INFO - ✓ 分类完成: 张鹏 护照号.html -> 未分类
+重试处理:  70%|██████▉   | 319/457 [1:26:59<35:58, 15.64s/it]2025-10-08 12:16:47 - article_classifier - INFO - ✓ 分类完成: 师卦.html -> 未分类
+重试处理:  70%|███████   | 320/457 [1:27:22<41:08, 18.02s/it]2025-10-08 12:16:57 - article_classifier - INFO - ✓ 分类完成: 各省电话投注系统容量分析.html -> 技术/架构/高并发架构
+重试处理:  70%|███████   | 321/457 [1:27:33<35:47, 15.79s/it]2025-10-08 12:17:13 - article_classifier - INFO - ✓ 分类完成: 医疗信息系统的标准.html -> 技术/未分类
+重试处理:  70%|███████   | 322/457 [1:27:48<35:14, 15.66s/it]2025-10-08 12:17:22 - article_classifier - INFO - ✓ 分类完成: Karl-Kreiner-Schule.html -> 教育
+重试处理:  71%|███████   | 323/457 [1:27:57<30:39, 13.73s/it]2025-10-08 12:17:37 - article_classifier - INFO - ✓ 分类完成: 古井贡酒.html -> 金融/股市/公司分析
+重试处理:  71%|███████   | 324/457 [1:28:12<31:08, 14.05s/it]2025-10-08 12:17:52 - article_classifier - INFO - ✓ 分类完成: 医疗检查项目.html -> 社会/健康
+重试处理:  71%|███████   | 325/457 [1:28:28<32:02, 14.57s/it]2025-10-08 12:18:14 - article_classifier - INFO - ✓ 分类完成: HTC ONE M8.html -> 技术/未分类
+重试处理:  71%|███████▏  | 326/457 [1:28:49<36:18, 16.63s/it]2025-10-08 12:18:25 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:18:25 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['技术', '域名服务'], 'summary': 'GoDaddy 是一家提供域名注册和网站托管服务的公司。', 'keywords': ['GoDaddy', '域名注册', '网站托管', '云服务', '网络托管'], 'confidence': 0.45}
+2025-10-08 12:18:25 - article_classifier - INFO - ✓ 分类完成: godaddy.html -> 未分类
+重试处理:  72%|███████▏  | 327/457 [1:29:01<32:30, 15.01s/it]2025-10-08 12:18:37 - article_classifier - INFO - ✓ 分类完成: 中华人民共和国劳动合同法（劳动合同的法律条文）_百度百科.html -> 未分类
+重试处理:  72%|███████▏  | 328/457 [1:29:12<30:02, 13.97s/it]2025-10-08 12:18:53 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:18:53 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '税务', 'summary': '列举几位个人的税号，用于税务登记或身份识别。', 'keywords': ['税号', '税务', '个人信息', '身份识别', '税务登记'], 'confidence': 0.42}
+2025-10-08 12:18:53 - article_classifier - INFO - ✓ 分类完成: 税号.html -> 未分类
+重试处理:  72%|███████▏  | 329/457 [1:29:28<31:08, 14.60s/it]2025-10-08 12:19:23 - article_classifier - INFO - ✓ 分类完成: 巽卦.html -> 历史/中国历史
+重试处理:  72%|███████▏  | 330/457 [1:29:59<41:06, 19.42s/it]2025-10-08 12:19:39 - article_classifier - INFO - ✓ 分类完成: vim 中文乱码解决.html -> 技术/编程语言/Python
+重试处理:  72%|███████▏  | 331/457 [1:30:14<38:06, 18.15s/it]2025-10-08 12:19:58 - article_classifier - INFO - ✓ 分类完成: FreeBsd也可以部署KVM.html -> 技术/未分类/未分类
+重试处理:  73%|███████▎  | 332/457 [1:30:33<38:31, 18.49s/it]2025-10-08 12:20:17 - article_classifier - INFO - ✓ 分类完成: 549 S Atlantic Blvd Montereypark , CA 91754 佳佳月子中心.html -> 社会/健康
+重试处理:  73%|███████▎  | 333/457 [1:30:52<38:24, 18.59s/it]2025-10-08 12:20:27 - article_classifier - INFO - ✓ 分类完成: 儿研所挂号，呼吸科.html -> 社会/健康
+重试处理:  73%|███████▎  | 334/457 [1:31:02<32:57, 16.07s/it]2025-10-08 12:20:45 - article_classifier - INFO - ✓ 分类完成: 数字起卦.html -> 技术/未分类
+重试处理:  73%|███████▎  | 335/457 [1:31:20<33:48, 16.62s/it]2025-10-08 12:21:04 - article_classifier - INFO - ✓ 分类完成: 加州卷，让不爱吃生鱼的人也能接受的“美式寿司”.html -> 未分类
+重试处理:  74%|███████▎  | 336/457 [1:31:40<35:10, 17.44s/it]2025-10-08 12:21:12 - article_classifier - INFO - ✓ 分类完成: Ubuntu US CA.html -> 技术/数据库/MySQL
+重试处理:  74%|███████▎  | 337/457 [1:31:47<28:51, 14.43s/it]2025-10-08 12:21:30 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:21:30 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['技术', '编程语言', 'C++'], 'summary': '文章介绍使用 clang 编译器构建 Boost C++ 库的 bootstrap 过程，演示如何通过 --with-toolset=clang 选项指定工具链。', 'keywords': ['Boost', 'clang', 'bootstrap.sh', '编译器', '工具链'], 'confidence': 0.65}
+2025-10-08 12:21:30 - article_classifier - INFO - ✓ 分类完成: boost with clang.html -> 未分类
+重试处理:  74%|███████▍  | 338/457 [1:32:05<30:45, 15.51s/it]2025-10-08 12:21:42 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-2.html -> 未分类
+重试处理:  74%|███████▍  | 339/457 [1:32:17<28:30, 14.49s/it]2025-10-08 12:22:04 - article_classifier - INFO - ✓ 分类完成: 互联网系统需求总结.html -> 技术/架构/高并发架构
+重试处理:  74%|███████▍  | 340/457 [1:32:39<32:41, 16.76s/it]2025-10-08 12:22:25 - article_classifier - INFO - ✓ 分类完成: 佛说马有三相经.html -> 未分类
+重试处理:  75%|███████▍  | 341/457 [1:33:00<34:46, 17.99s/it]2025-10-08 12:22:40 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-13.html -> 教育
+重试处理:  75%|███████▍  | 342/457 [1:33:15<32:58, 17.20s/it]2025-10-08 12:23:04 - article_classifier - INFO - ✓ 分类完成: freebsd utf-8.html -> 技术/未分类/未分类
+重试处理:  75%|███████▌  | 343/457 [1:33:39<36:26, 19.18s/it]2025-10-08 12:23:25 - article_classifier - INFO - ✓ 分类完成: 国庆大事件！中国被人暗中踢了一屁屁.html -> 商务
+重试处理:  75%|███████▌  | 344/457 [1:34:00<37:18, 19.81s/it]2025-10-08 12:23:37 - article_classifier - INFO - ✓ 分类完成: 交易策略和原则：完整的交易系统设计方案（纯干货）！.html -> 金融/股票市场
+重试处理:  75%|███████▌  | 345/457 [1:34:13<32:50, 17.59s/it]2025-10-08 12:23:47 - article_classifier - INFO - ✓ 分类完成: ncbc nas notes.html -> 技术/网络安全/身份验证
+重试处理:  76%|███████▌  | 346/457 [1:34:22<27:59, 15.13s/it]2025-10-08 12:24:05 - article_classifier - INFO - ✓ 分类完成: 国家领导人的求救电话.html -> 未分类
+重试处理:  76%|███████▌  | 347/457 [1:34:41<29:40, 16.18s/it]2025-10-08 12:24:15 - article_classifier - INFO - ✓ 分类完成: 中工国际.html -> 商务/合作
+重试处理:  76%|███████▌  | 348/457 [1:34:51<26:02, 14.33s/it]2025-10-08 12:24:37 - article_classifier - INFO - ✓ 分类完成: dolf-Clarenbach-Schule.html -> 教育
+重试处理:  76%|███████▋  | 349/457 [1:35:12<29:26, 16.35s/it]2025-10-08 12:24:52 - article_classifier - INFO - ✓ 分类完成: 汪京晶.html -> 社会/健康
+重试处理:  77%|███████▋  | 350/457 [1:35:27<28:38, 16.06s/it]2025-10-08 12:25:03 - article_classifier - INFO - ✓ 分类完成: 开乐彩发行比例.html -> 金融
+重试处理:  77%|███████▋  | 351/457 [1:35:38<25:34, 14.48s/it]2025-10-08 12:25:20 - article_classifier - INFO - ✓ 分类完成: 国际象棋第六课.html -> 教育
+重试处理:  77%|███████▋  | 352/457 [1:35:55<26:39, 15.23s/it]2025-10-08 12:25:35 - article_classifier - INFO - ✓ 分类完成: 互联网系统用户资金系统展示项目.html -> 金融/支付服务
+重试处理:  77%|███████▋  | 353/457 [1:36:10<26:25, 15.24s/it]2025-10-08 12:25:51 - article_classifier - INFO - ✓ 分类完成: 内部控制系统简介 ICS.html -> 金融/股市/公司分析
+重试处理:  77%|███████▋  | 354/457 [1:36:26<26:35, 15.49s/it]2025-10-08 12:26:11 - article_classifier - INFO - ✓ 分类完成: 地藏菩萨本愿经白话解释.html -> 未分类
+重试处理:  78%|███████▊  | 355/457 [1:36:46<28:38, 16.85s/it]2025-10-08 12:26:28 - article_classifier - INFO - ✓ 分类完成: 券商接口api.html -> 金融/股票交易
+重试处理:  78%|███████▊  | 356/457 [1:37:04<28:36, 16.99s/it]2025-10-08 12:26:47 - article_classifier - INFO - ✓ 分类完成: 使用 DOCKER 容器安装 ODOO.html -> 技术/未分类
+重试处理:  78%|███████▊  | 357/457 [1:37:22<29:07, 17.47s/it]2025-10-08 12:27:02 - article_classifier - INFO - ✓ 分类完成: https___mobile.twitter.com_falldreamshadow_status_.html -> 未分类
+重试处理:  78%|███████▊  | 358/457 [1:37:37<27:24, 16.61s/it]2025-10-08 12:27:12 - article_classifier - INFO - ✓ 分类完成: 连接系统扩展测试准备会议.html -> 技术/架构
+重试处理:  79%|███████▊  | 359/457 [1:37:48<24:16, 14.86s/it]2025-10-08 12:27:23 - article_classifier - INFO - ✓ 分类完成: 华安基金账户密码.html -> 金融
+重试处理:  79%|███████▉  | 360/457 [1:37:59<22:03, 13.64s/it]2025-10-08 12:27:44 - article_classifier - INFO - ✓ 分类完成: Supreme Court rules for New Jersey in challenge to.html -> 未分类
+重试处理:  79%|███████▉  | 361/457 [1:38:19<25:08, 15.71s/it]2025-10-08 12:28:11 - article_classifier - INFO - ✓ 分类完成: 连环夺宝游戏研究_Gad-腾讯游戏开发者平台.html -> 技术/未分类
+重试处理:  79%|███████▉  | 362/457 [1:38:47<30:25, 19.21s/it]2025-10-08 12:28:21 - article_classifier - INFO - ✓ 分类完成: 融资融券账户.html -> 金融/股市
+重试处理:  79%|███████▉  | 363/457 [1:38:57<25:49, 16.48s/it]2025-10-08 12:28:44 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 12:28:44 - article_classifier - INFO - ✓ 分类完成: 浅谈欧奈尔对利弗莫尔的继承和发扬.html -> 金融/股市
+重试处理:  80%|███████▉  | 364/457 [1:39:19<28:29, 18.38s/it]2025-10-08 12:28:58 - article_classifier - INFO - ✓ 分类完成: 用户系统.html -> 技术/网络安全/身份验证
+重试处理:  80%|███████▉  | 365/457 [1:39:33<25:58, 16.94s/it]2025-10-08 12:29:15 - article_classifier - INFO - ✓ 分类完成: 红旗轿车给国家领导丢脸的那些故事.html -> 历史/中国历史
+重试处理:  80%|████████  | 366/457 [1:39:51<26:06, 17.21s/it]2025-10-08 12:29:43 - article_classifier - INFO - ✓ 分类完成: 讼卦.html -> 未分类
+重试处理:  80%|████████  | 367/457 [1:40:18<30:18, 20.20s/it]2025-10-08 12:30:01 - article_classifier - INFO - ✓ 分类完成: 法灭尽经.html -> 未分类
+重试处理:  81%|████████  | 368/457 [1:40:36<28:58, 19.53s/it]2025-10-08 12:30:06 - article_classifier - INFO - ✓ 分类完成: 哪些Python库让你相见恨晚？-2.html -> 技术/编程语言/Python
+重试处理:  81%|████████  | 369/457 [1:40:42<22:33, 15.38s/it]2025-10-08 12:30:20 - article_classifier - INFO - ✓ 分类完成: networksolutions.html -> 技术/未分类
+重试处理:  81%|████████  | 370/457 [1:40:56<21:37, 14.91s/it]2025-10-08 12:30:32 - article_classifier - INFO - ✓ 分类完成: 明夷卦.html -> 未分类
+重试处理:  81%|████████  | 371/457 [1:41:07<20:00, 13.96s/it]2025-10-08 12:30:49 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:30:49 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '技术 > 硬件 > 键盘', 'summary': 'Dell SK 8115键盘，轻便耐用，适合办公和游戏使用。', 'keywords': ['Dell SK 8115', '键盘', '硬件', '输入设备', '便携'], 'confidence': 0.6}
+2025-10-08 12:30:49 - article_classifier - INFO - ✓ 分类完成: 好用的键盘.html -> 未分类
+重试处理:  81%|████████▏ | 372/457 [1:41:25<21:20, 15.06s/it]2025-10-08 12:31:04 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:31:04 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '博彩', 'summary': '文章介绍海南地区多款老虎机游戏规则、投注方式与奖金结构。', 'keywords': ['老虎机', '投注', '奖金', '海南', '中奖规则'], 'confidence': 0.6}
+2025-10-08 12:31:04 - article_classifier - INFO - ✓ 分类完成: 海南笔记.html -> 未分类
+重试处理:  82%|████████▏ | 373/457 [1:41:39<20:43, 14.80s/it]2025-10-08 12:31:16 - article_classifier - INFO - ✓ 分类完成: 电话投注会议纪要.html -> 未分类
+重试处理:  82%|████████▏ | 374/457 [1:41:51<19:21, 13.99s/it]2025-10-08 12:31:32 - article_classifier - INFO - ✓ 分类完成: Pornhub 年度报告.html -> 未分类
+重试处理:  82%|████████▏ | 375/457 [1:42:08<20:08, 14.74s/it]2025-10-08 12:31:44 - article_classifier - INFO - ✓ 分类完成: SQLiteDatabase.cs.html -> 技术/编程语言/C#
+重试处理:  82%|████████▏ | 376/457 [1:42:19<18:37, 13.79s/it]2025-10-08 12:31:55 - article_classifier - INFO - ✓ 分类完成: 身体部分.html -> 社会/健康
+重试处理:  82%|████████▏ | 377/457 [1:42:30<17:09, 12.87s/it]2025-10-08 12:32:04 - article_classifier - INFO - ✓ 分类完成: 逆回购记录.html -> 金融
+重试处理:  83%|████████▎ | 378/457 [1:42:40<15:38, 11.88s/it]2025-10-08 12:32:14 - article_classifier - INFO - ✓ 分类完成: 唐人神002567 唐人转债128092.html -> 金融/股市/公司分析
+重试处理:  83%|████████▎ | 379/457 [1:42:50<14:50, 11.42s/it]2025-10-08 12:32:27 - article_classifier - INFO - ✓ 分类完成: DLIB增加CUDA支持.html -> 技术/编程语言/Python
+重试处理:  83%|████████▎ | 380/457 [1:43:02<14:59, 11.68s/it]2025-10-08 12:32:46 - article_classifier - INFO - ✓ 分类完成: 笔记 位于 天津市.html -> 旅行/旅行经验/一般
+重试处理:  83%|████████▎ | 381/457 [1:43:22<17:51, 14.09s/it]2025-10-08 12:33:08 - article_classifier - INFO - ✓ 分类完成: 妈妈身份证号码.html -> 未分类
+重试处理:  84%|████████▎ | 382/457 [1:43:43<20:17, 16.23s/it]2025-10-08 12:33:17 - article_classifier - INFO - ✓ 分类完成: 笔记-4.html -> 技术/网络安全/身份验证
+重试处理:  84%|████████▍ | 383/457 [1:43:53<17:30, 14.20s/it]2025-10-08 12:33:30 - article_classifier - INFO - ✓ 分类完成: die Praktikum für Supermarkt.html -> 未分类
+重试处理:  84%|████████▍ | 384/457 [1:44:06<16:57, 13.94s/it]2025-10-08 12:33:52 - article_classifier - INFO - ✓ 分类完成: 常见扑克游戏玩法.html -> 未分类
+重试处理:  84%|████████▍ | 385/457 [1:44:27<19:22, 16.15s/it]2025-10-08 12:34:06 - article_classifier - INFO - ✓ 分类完成: 2013年边境安全、经济机会、移民（微博）现代化法案”.html -> 未分类
+重试处理:  84%|████████▍ | 386/457 [1:44:41<18:18, 15.47s/it]2025-10-08 12:34:15 - article_classifier - INFO - ✓ 分类完成: nachhilfe.html -> 教育/语言学习/德语
+重试处理:  85%|████████▍ | 387/457 [1:44:51<16:03, 13.76s/it]2025-10-08 12:34:28 - article_classifier - INFO - ✓ 分类完成: 1、用户注册流程中，需要增强代销商注册的接口。例如手机验证码.html -> 技术/未分类
+重试处理:  85%|████████▍ | 388/457 [1:45:04<15:29, 13.47s/it]2025-10-08 12:34:43 - article_classifier - INFO - ✓ 分类完成: 谷歌SEO免费关键词工具 Ubersuggest 讲解.html -> 技术/未分类
+重试处理:  85%|████████▌ | 389/457 [1:45:18<15:41, 13.85s/it]2025-10-08 12:34:55 - article_classifier - INFO - ✓ 分类完成: 易经基础知识.html -> 未分类
+重试处理:  85%|████████▌ | 390/457 [1:45:31<15:00, 13.44s/it]2025-10-08 12:35:15 - article_classifier - INFO - ✓ 分类完成: OsmocomBB项目 - 酒水不犯茶水 - BlogJava-1.html -> 技术
+重试处理:  86%|████████▌ | 391/457 [1:45:51<16:57, 15.41s/it]2025-10-08 12:35:23 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:35:23 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': None, 'summary': '', 'keywords': [], 'confidence': 0.0}
+2025-10-08 12:35:23 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-6.html -> 未分类
+重试处理:  86%|████████▌ | 392/457 [1:45:58<14:01, 12.95s/it]2025-10-08 12:35:38 - article_classifier - INFO - ✓ 分类完成: 临卦.html -> 未分类
+重试处理:  86%|████████▌ | 393/457 [1:46:13<14:32, 13.64s/it]2025-10-08 12:35:47 - article_classifier - INFO - ✓ 分类完成: 东华科技.html -> 金融/股市/公司分析
+重试处理:  86%|████████▌ | 394/457 [1:46:23<12:55, 12.32s/it]2025-10-08 12:36:01 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:36:01 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '易经', 'summary': '本文解读《家人卦》六爻含义，分析各爻吉凶提示。', 'keywords': ['易经', '卦象', '家人卦', '六爻', '吉凶'], 'confidence': 0.15}
+2025-10-08 12:36:01 - article_classifier - INFO - ✓ 分类完成: 家人卦.html -> 未分类
+重试处理:  86%|████████▋ | 395/457 [1:46:36<13:03, 12.64s/it]2025-10-08 12:36:18 - article_classifier - INFO - ✓ 分类完成: 物联网轻量芯片.html -> 技术/未分类
+重试处理:  87%|████████▋ | 396/457 [1:46:53<14:13, 14.00s/it]2025-10-08 12:36:26 - article_classifier - INFO - ✓ 分类完成: scale out 测试记录 大压力测试记录.html -> 技术/架构/高并发架构
+重试处理:  87%|████████▋ | 397/457 [1:47:02<12:26, 12.44s/it]2025-10-08 12:36:38 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:36:38 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['保险', '医疗保险'], 'summary': '介绍访客医疗保险的基本概念、适用范围及购买注意事项，帮助旅行者在境外获得必要的医疗保障。', 'keywords': ['访客医疗保险', '医疗保障', '旅行保险', '保险条款', '费用'], 'confidence': 0.35}
+2025-10-08 12:36:38 - article_classifier - INFO - ✓ 分类完成: visitor medical insurance.html -> 未分类
+重试处理:  87%|████████▋ | 398/457 [1:47:13<11:53, 12.09s/it]2025-10-08 12:36:45 - article_classifier - INFO - ✓ 分类完成: v16q.html -> 技术/编程语言/Python
+重试处理:  87%|████████▋ | 399/457 [1:47:21<10:21, 10.72s/it]2025-10-08 12:37:00 - article_classifier - INFO - ✓ 分类完成: 携带物品清单.html -> 旅行
+重试处理:  88%|████████▊ | 400/457 [1:47:35<11:16, 11.87s/it]2025-10-08 12:37:20 - article_classifier - INFO - ✓ 分类完成: 中天科技   600522.html -> 金融/股市/公司分析
+重试处理:  88%|████████▊ | 401/457 [1:47:55<13:17, 14.23s/it]2025-10-08 12:37:35 - article_classifier - INFO - ✓ 分类完成: 大族激光.html -> 技术/未分类
+重试处理:  88%|████████▊ | 402/457 [1:48:10<13:19, 14.53s/it]2025-10-08 12:37:47 - article_classifier - INFO - 创建新分类: Oracle (level=3, parent_id=105)
+2025-10-08 12:37:47 - article_classifier - INFO - ✓ 分类完成: oracle.com 用户名.html -> 技术/数据库/Oracle
+重试处理:  88%|████████▊ | 403/457 [1:48:22<12:23, 13.76s/it]2025-10-08 12:38:17 - article_classifier - INFO - ✓ 分类完成: 长城开发.html -> 金融/股市/公司分析
+重试处理:  88%|████████▊ | 404/457 [1:48:53<16:38, 18.85s/it]2025-10-08 12:38:30 - article_classifier - INFO - ✓ 分类完成: HJ∕T 427-2008 清洁生产标准 钢铁行业(高炉炼铁).pdf-文档投稿赚钱网.html -> 技术/未分类
+重试处理:  89%|████████▊ | 405/457 [1:49:05<14:37, 16.88s/it]2025-10-08 12:38:44 - article_classifier - INFO - ✓ 分类完成: 湛江图书馆.html -> 教育
+重试处理:  89%|████████▉ | 406/457 [1:49:20<13:43, 16.14s/it]2025-10-08 12:38:58 - article_classifier - INFO - ✓ 分类完成: 高速收费 7.5.html -> 旅行/旅行经验/一般
+重试处理:  89%|████████▉ | 407/457 [1:49:34<12:55, 15.52s/it]2025-10-08 12:39:15 - article_classifier - INFO - ✓ 分类完成: 简历搜索.html -> 未分类
+重试处理:  89%|████████▉ | 408/457 [1:49:50<12:51, 15.75s/it]2025-10-08 12:39:34 - article_classifier - WARNING - category_path 无效: []
+2025-10-08 12:39:34 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': [], 'new_category_suggestion': '移民与签证', 'summary': '作者写信给外管局询问其妻子和儿子的居住卡是否已办理完成，并请告知领取时间。', 'keywords': ['居住卡', '外管局', '护照号', '申请进度', '领取时间'], 'confidence': 0.3}
+2025-10-08 12:39:34 - article_classifier - INFO - ✓ 分类完成: 给外管局写信询问居住卡是不是已经做好.html -> 未分类
+重试处理:  89%|████████▉ | 409/457 [1:50:10<13:36, 17.01s/it]2025-10-08 12:39:45 - article_classifier - INFO - ✓ 分类完成: 大壮卦.html -> 未分类
+重试处理:  90%|████████▉ | 410/457 [1:50:20<11:45, 15.01s/it]2025-10-08 12:39:59 - article_classifier - INFO - 创建新分类: 其他 (level=3, parent_id=142)
+2025-10-08 12:39:59 - article_classifier - INFO - ✓ 分类完成: 港澳通行证签注.html -> 旅行/旅行经验/其他
+重试处理:  90%|████████▉ | 411/457 [1:50:35<11:22, 14.84s/it]2025-10-08 12:40:15 - article_classifier - INFO - ✓ 分类完成: 证 件 护照、身份证、结婚证、机票、驾照.html -> 旅行/旅行经验/一般
+重试处理:  90%|█████████ | 412/457 [1:50:50<11:16, 15.03s/it]2025-10-08 12:40:27 - article_classifier - INFO - ✓ 分类完成: 咸卦.html -> 未分类
+重试处理:  90%|█████████ | 413/457 [1:51:02<10:20, 14.09s/it]2025-10-08 12:40:57 - article_classifier - INFO - 已处理 1300 篇文章，触发分类优化...
+2025-10-08 12:40:57 - article_classifier - INFO - 开始分类优化...
+2025-10-08 12:40:57 - article_classifier - ERROR - 分类优化失败: Object of type Decimal is not JSON serializable
+2025-10-08 12:40:57 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 12:40:57 - article_classifier - INFO - ✓ 分类完成: 老虎接收账户信息.html -> 金融/支付服务
+重试处理:  91%|█████████ | 414/457 [1:51:33<13:40, 19.07s/it]2025-10-08 12:41:12 - article_classifier - INFO - ✓ 分类完成: 视频彩票发展前景报告.html -> 技术/未分类
+重试处理:  91%|█████████ | 415/457 [1:51:48<12:25, 17.76s/it]2025-10-08 12:41:28 - article_classifier - INFO - ✓ 分类完成: Wordpress _= 4.9.6 任意文件删除漏洞.html -> 技术/网络安全
+重试处理:  91%|█████████ | 416/457 [1:52:03<11:40, 17.08s/it]2025-10-08 12:41:37 - article_classifier - INFO - ✓ 分类完成: 网站推广.html -> 商务/广告投放商
+重试处理:  91%|█████████ | 417/457 [1:52:12<09:48, 14.71s/it]2025-10-08 12:41:50 - article_classifier - INFO - ✓ 分类完成: 维格转债.html -> 金融/股市/公司分析
+重试处理:  91%|█████████▏| 418/457 [1:52:25<09:15, 14.25s/it]2025-10-08 12:41:59 - article_classifier - INFO - ✓ 分类完成: freebsd port 免打扰安装.html -> 技术/未分类
+重试处理:  92%|█████████▏| 419/457 [1:52:35<08:05, 12.78s/it]2025-10-08 12:42:08 - article_classifier - INFO - ✓ 分类完成: realtime@yeah.net.html -> 技术/网络安全/身份验证
+重试处理:  92%|█████████▏| 420/457 [1:52:43<07:07, 11.54s/it]2025-10-08 12:42:18 - article_classifier - INFO - ✓ 分类完成: github 密码.html -> 技术/网络安全/身份验证
+重试处理:  92%|█████████▏| 421/457 [1:52:53<06:36, 11.02s/it]2025-10-08 12:42:32 - article_classifier - INFO - ✓ 分类完成: popupzoo-1.html -> 技术/未分类
+重试处理:  92%|█████████▏| 422/457 [1:53:07<06:59, 11.98s/it]2025-10-08 12:42:49 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:42:49 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['易经'], 'summary': '文章讨论《易经》六爻卦象，解析各爻含义与吉凶提示，体现古代占卜哲学思想。', 'keywords': ['易经', '六爻', '卦象'], 'confidence': 0.4}
+2025-10-08 12:42:49 - article_classifier - INFO - ✓ 分类完成: 随卦.html -> 未分类
+重试处理:  93%|█████████▎| 423/457 [1:53:24<07:38, 13.47s/it]2025-10-08 12:43:01 - article_classifier - INFO - 创建新分类: 股票交易 (level=3, parent_id=137)
+2025-10-08 12:43:01 - article_classifier - INFO - ✓ 分类完成: 海通模拟账号.html -> 金融/股市/股票交易
+重试处理:  93%|█████████▎| 424/457 [1:53:37<07:15, 13.21s/it]2025-10-08 12:43:16 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:43:16 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': '个人身份信息', 'summary': '文章列出了多位个人的身份证号码，包含姓名与编号。', 'keywords': ['身份证号码', '个人信息', '姓名', '身份信息', '编号'], 'confidence': 0.15}
+2025-10-08 12:43:16 - article_classifier - INFO - ✓ 分类完成: 唐悠然身份证号码.html -> 未分类
+重试处理:  93%|█████████▎| 425/457 [1:53:51<07:15, 13.60s/it]2025-10-08 12:43:32 - article_classifier - INFO - ✓ 分类完成: 不卑不亢.html -> 社会
+重试处理:  93%|█████████▎| 426/457 [1:54:07<07:21, 14.23s/it]2025-10-08 12:43:47 - article_classifier - INFO - ✓ 分类完成: 解决树莓派上 ssh 时终端中文显示乱码问题.html -> 技术/网络安全/SSH
+重试处理:  93%|█████████▎| 427/457 [1:54:23<07:19, 14.65s/it]2025-10-08 12:44:06 - article_classifier - INFO - ✓ 分类完成: 哪些方法可以高效休息？.html -> 个人发展
+重试处理:  94%|█████████▎| 428/457 [1:54:41<07:38, 15.81s/it]2025-10-08 12:44:18 - article_classifier - INFO - ✓ 分类完成: 我是如何编译osmocomBB的 _ sqzr_s blog.html -> 技术/未分类
+重试处理:  94%|█████████▍| 429/457 [1:54:54<06:53, 14.76s/it]2025-10-08 12:44:28 - article_classifier - INFO - ✓ 分类完成: Nassauer Land Mineralwasser medium.html -> 未分类
+重试处理:  94%|█████████▍| 430/457 [1:55:04<05:59, 13.33s/it]2025-10-08 12:44:37 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:44:37 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['博彩'], 'summary': '本文讨论投注量与查询量的比例关系，并说明在开奖后如何处理查询与投注的关系，涉及公共资源维护。', 'keywords': ['访问比例', '投注量', '查询量', '公共资源', '开奖'], 'confidence': 0.45}
+2025-10-08 12:44:37 - article_classifier - INFO - ✓ 分类完成: 访问类型在访问量中的比例.html -> 未分类
+重试处理:  94%|█████████▍| 431/457 [1:55:13<05:13, 12.04s/it]2025-10-08 12:44:57 - article_classifier - INFO - ✓ 分类完成: 金仕达卫宁.html -> 技术
+重试处理:  95%|█████████▍| 432/457 [1:55:32<05:56, 14.26s/it]2025-10-08 12:45:05 - article_classifier - INFO - ✓ 分类完成: 持续调用.html -> 技术/未分类
+重试处理:  95%|█████████▍| 433/457 [1:55:40<04:58, 12.42s/it]2025-10-08 12:45:23 - article_classifier - INFO - ✓ 分类完成: 中国南京云锦博物馆www.njyunjin.com.html -> 旅行/旅行经验/一般
+重试处理:  95%|█████████▍| 434/457 [1:55:59<05:27, 14.23s/it]2025-10-08 12:45:37 - article_classifier - INFO - ✓ 分类完成: mac 开机启动最详细的步骤解释.html -> 技术/未分类/未分类
+重试处理:  95%|█████████▌| 435/457 [1:56:13<05:13, 14.24s/it]2025-10-08 12:45:59 - article_classifier - INFO - ✓ 分类完成: 电子书.html -> 多媒体/未分类
+重试处理:  95%|█████████▌| 436/457 [1:56:35<05:46, 16.48s/it]2025-10-08 12:46:58 - article_classifier - INFO - ✓ 分类完成: 近期工作.html -> 金融/股市
+重试处理:  96%|█████████▌| 437/457 [1:57:33<09:42, 29.15s/it]2025-10-08 12:47:11 - article_classifier - INFO - ✓ 分类完成: 不谏言.html -> 社会
+重试处理:  96%|█████████▌| 438/457 [1:57:46<07:42, 24.36s/it]2025-10-08 12:47:24 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:47:24 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['社会', '职场管理', '迟到旷工'], 'summary': '文章介绍职场迟到和旷工的定义、原因及管理办法。', 'keywords': ['迟到', '旷工', '请假', '出勤', '考勤'], 'confidence': 0.45}
+2025-10-08 12:47:24 - article_classifier - INFO - ✓ 分类完成: 迟到和旷工.html -> 未分类
+重试处理:  96%|█████████▌| 439/457 [1:57:59<06:17, 20.95s/it]2025-10-08 12:47:44 - article_classifier - INFO - ✓ 分类完成: 无标题笔记-12.html -> 金融/股市/公司分析
+重试处理:  96%|█████████▋| 440/457 [1:58:19<05:50, 20.59s/it]2025-10-08 12:47:54 - article_classifier - INFO - ✓ 分类完成: 晋卦.html -> 未分类
+重试处理:  96%|█████████▋| 441/457 [1:58:30<04:41, 17.62s/it]2025-10-08 12:48:00 - article_classifier - INFO - ✓ 分类完成: 笔记-1.html -> 未分类
+重试处理:  97%|█████████▋| 442/457 [1:58:36<03:32, 14.13s/it]2025-10-08 12:48:13 - article_classifier - INFO - ✓ 分类完成: 舌上有龙泉.html -> 历史/中国历史
+重试处理:  97%|█████████▋| 443/457 [1:58:48<03:11, 13.66s/it]2025-10-08 12:48:24 - article_classifier - INFO - ✓ 分类完成: 方大特钢.html -> 金融/股市/公司分析
+重试处理:  97%|█████████▋| 444/457 [1:58:59<02:46, 12.79s/it]2025-10-08 12:48:38 - article_classifier - INFO - ✓ 分类完成: int 为null in SQLSERVER.html -> 技术/数据库
+重试处理:  97%|█████████▋| 445/457 [1:59:13<02:38, 13.18s/it]2025-10-08 12:48:51 - article_classifier - INFO - ✓ 分类完成: 胡耀邦陆铿访谈录.html -> 历史/中国历史
+重试处理:  98%|█████████▊| 446/457 [1:59:26<02:24, 13.12s/it]2025-10-08 12:49:04 - article_classifier - INFO - ✓ 分类完成: Apache性能基准测试.html -> 技术/未分类
+重试处理:  98%|█████████▊| 447/457 [1:59:40<02:11, 13.19s/it]2025-10-08 12:49:23 - article_classifier - INFO - ✓ 分类完成: 美股，第一理财账户.html -> 金融/股市
+重试处理:  98%|█████████▊| 448/457 [1:59:59<02:14, 14.94s/it]2025-10-08 12:49:38 - article_classifier - INFO - ✓ 分类完成: 如何在12个月内创办一家资产数百万美元的公司？_36氪.html -> 商务/创业
+重试处理:  98%|█████████▊| 449/457 [2:00:14<01:59, 14.99s/it]2025-10-08 12:49:47 - article_classifier - INFO - ✓ 分类完成: 登录.html -> 技术/网络安全/身份验证
+重试处理:  98%|█████████▊| 450/457 [2:00:23<01:31, 13.10s/it]2025-10-08 12:50:08 - article_classifier - WARNING - category_path 无效: None
+2025-10-08 12:50:08 - article_classifier - WARNING - 分类结果不完整，使用默认值。原始结果: {'category_path': None, 'new_category_suggestion': ['医疗'], 'summary': '喉炎的雾化治疗方案，使用病毒唑注射液、生理盐水和地塞米松糜蛋白酶，剂量为20毫升。', 'keywords': ['喉炎', '雾化治疗', '病毒唑注射液', '生理盐水', '地塞米松'], 'confidence': 0.6}
+2025-10-08 12:50:08 - article_classifier - INFO - ✓ 分类完成: 喉炎雾化治疗.html -> 未分类
+重试处理:  99%|█████████▊| 451/457 [2:00:43<01:32, 15.40s/it]2025-10-08 12:50:18 - article_classifier - INFO - ✓ 分类完成: 吴伟：1988物价闯关高层决策（下）《炎黄春秋》2015.12，完全稿.html -> 历史/中国历史
+重试处理:  99%|█████████▉| 452/457 [2:00:54<01:09, 13.90s/it]2025-10-08 12:50:39 - article_classifier - INFO - ✓ 分类完成: 笔记.html -> 未分类
+重试处理:  99%|█████████▉| 453/457 [2:01:14<01:03, 15.88s/it]2025-10-08 12:50:57 - article_classifier - INFO - ✓ 分类完成: 屯卦.html -> 未分类
+重试处理:  99%|█████████▉| 454/457 [2:01:33<00:49, 16.64s/it]2025-10-08 12:51:09 - article_classifier - INFO - ✓ 分类完成: tony报价.html -> 商务/合作
+重试处理: 100%|█████████▉| 455/457 [2:01:44<00:30, 15.09s/it]2025-10-08 12:51:20 - article_classifier - INFO - ✓ 分类完成: ffmpeg 录制m3u8.html -> 多媒体/未分类
+重试处理: 100%|█████████▉| 456/457 [2:01:56<00:14, 14.01s/it]2025-10-08 12:51:40 - article_classifier - INFO - ✓ 分类完成: 个人收藏，神华.html -> 金融/股市/公司分析
+重试处理: 100%|██████████| 457/457 [2:02:15<00:00, 15.76s/it]重试处理: 100%|██████████| 457/457 [2:02:15<00:00, 16.05s/it]
+2025-10-08 12:51:40 - article_classifier - INFO - 分类计数已更新
+2025-10-08 12:51:40 - article_classifier - INFO - 分类体系已保存: /Users/tang/workbench/article-classifier/data/json/categories.json
+2025-10-08 12:51:40 - batch_processor - INFO - ============================================================
+2025-10-08 12:51:40 - batch_processor - INFO - 重试处理完成
+2025-10-08 12:51:40 - batch_processor - INFO - ============================================================
+2025-10-08 12:51:40 - batch_processor - INFO - 总文件数: 457
+2025-10-08 12:51:40 - batch_processor - INFO - 成功处理: 457 (100.0%)
+2025-10-08 12:51:40 - batch_processor - INFO - 处理失败: 0 (0.0%)
+2025-10-08 12:51:40 - batch_processor - INFO - 总耗时: 7335.9 秒 (122.3 分钟)
+2025-10-08 12:51:40 - batch_processor - INFO - 平均处理时间: 16.05 秒/篇
+2025-10-08 12:51:40 - batch_processor - INFO - 
+当前分类分布:
+2025-10-08 12:51:40 - batch_processor - INFO - ------------------------------------------------------------
+2025-10-08 12:51:40 - batch_processor - INFO -   技术: 371 篇 (30.6%)
+2025-10-08 12:51:40 - batch_processor - INFO -   未分类: 223 篇 (18.4%)
+2025-10-08 12:51:40 - batch_processor - INFO -   商务: 100 篇 (8.3%)
+2025-10-08 12:51:40 - batch_processor - INFO -   金融: 93 篇 (7.7%)
+2025-10-08 12:51:40 - batch_processor - INFO -   Unclassified: 57 篇 (4.7%)
+2025-10-08 12:51:40 - batch_processor - INFO -   Travel: 53 篇 (4.4%)
+2025-10-08 12:51:40 - batch_processor - INFO -   Language Learning: 49 篇 (4.0%)
+2025-10-08 12:51:40 - batch_processor - INFO -   社会: 37 篇 (3.1%)
+2025-10-08 12:51:40 - batch_processor - INFO -   Finance: 34 篇 (2.8%)
+2025-10-08 12:51:40 - batch_processor - INFO -   语言学习: 34 篇 (2.8%)
+2025-10-08 12:51:40 - batch_processor - INFO - ============================================================

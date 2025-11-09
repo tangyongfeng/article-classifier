@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "923d122c-6f1c-4504-9bd8-8c1d9e5946a0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/佛学/三法印.html",
+    "collected_at": "2025-11-09T20:01:38.118666Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "328721deea978d079af44898d8f554f0c35a45a6bf26fb5649e286a1dd5ad1a9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "9cdf781a-daae-4238-b7d4-129c9a2e228b",
+    "ingest_source_id": "923d122c-6f1c-4504-9bd8-8c1d9e5946a0",
+    "canonical_title": "三法印",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.118670Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "三法印.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d6be7308-6456-47d7-b813-e5e8dc11140a",
+      "note_id": "9cdf781a-daae-4238-b7d4-129c9a2e228b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.118672Z",
+      "content": "---\ntitle: 三法印\nupdated: 2019-03-14 17:32:20Z\ncreated: 2019-03-14 17:31:41Z\n---\n\n\n\n<en-note><div><br/></div><div>无常</div><div>缘起</div><div>无我</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "328721deea978d079af44898d8f554f0c35a45a6bf26fb5649e286a1dd5ad1a9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/佛学/三法印.html"
+      }
+    },
+    {
+      "id": "9f9999b9-095c-4367-91a6-11601c343df1",
+      "note_id": "9cdf781a-daae-4238-b7d4-129c9a2e228b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.118675Z",
+      "content": "---\ntitle: 三法印\nupdated: 2019-03-14 17:32:20Z\ncreated: 2019-03-14 17:31:41Z\n---\n\n无常\n缘起\n无我",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 88,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "beadfb45-16b8-42c2-b6fe-e906310c2c8c",
+    "note_id": "9cdf781a-daae-4238-b7d4-129c9a2e228b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.118679Z",
+    "finished_at": "2025-11-09T20:01:38.118680Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a15c03f1-b61e-4fab-8ba9-4662638851a7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/佛学/三法印.html",
+      "checksum": "328721deea978d079af44898d8f554f0c35a45a6bf26fb5649e286a1dd5ad1a9"
+    },
+    "output_ref": {
+      "ingest_source": "923d122c-6f1c-4504-9bd8-8c1d9e5946a0",
+      "note": "9cdf781a-daae-4238-b7d4-129c9a2e228b",
+      "variants": [
+        "d6be7308-6456-47d7-b813-e5e8dc11140a",
+        "9f9999b9-095c-4367-91a6-11601c343df1"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,11 @@
+---
+title: update 自己
+updated: 2021-07-04 15:03:42Z
+created: 2021-07-04 14:57:40Z
+author: tangyongfeng@gmail.com
+tags:
+  - mysql
+---
+
+
+<en-note><div><br/></div><div>将 2020-10-02 00:00:00 全部更新为 2020-10-02</div><div>update index_history_ex set `Trade_date`= substring_index(Trade_date,&apos; &apos;,1);</div><div><br/></div><div><br/></div><div>&nbsp;其中：</div><div>substring_index(目标字符串，&rsquo;标志位&rsquo;，count)</div><div><span STYLE="color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">当 count 为正数，取第 n 个分隔符之前的所有字符； 当 count 为负数，取倒数第 n 个分隔符之后的所有字符。</span></div><div><br/></div><div><br/></div><div>将 2020-10-02 全部更新为 20201002</div><div>update index_history_ex set `Trade_date`= replace(Trade_date,&apos;-&apos;,&apos;&apos;);</div><div><br/></div><div><br/></div></en-note>      

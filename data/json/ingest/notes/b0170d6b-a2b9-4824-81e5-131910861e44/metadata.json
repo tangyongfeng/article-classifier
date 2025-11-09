@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b36cb25b-1327-4c09-bfe8-b2131ca32180",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Schriftlicher Ausdruck.html",
+    "collected_at": "2025-11-09T20:05:18.141062Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "8dc1a44da61562f65efc5cd33d0138185635c925b4ca26adcdf80324e704fabc",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b0170d6b-a2b9-4824-81e5-131910861e44",
+    "ingest_source_id": "b36cb25b-1327-4c09-bfe8-b2131ca32180",
+    "canonical_title": "Schriftlicher Ausdruck",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.141066Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Schriftlicher Ausdruck.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "23aaaf80-c74c-4247-b301-7a0a2e7e2f98",
+      "note_id": "b0170d6b-a2b9-4824-81e5-131910861e44",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.141069Z",
+      "content": "---\ntitle: Schriftlicher Ausdruck\nupdated: 2020-11-22 15:16:07Z\ncreated: 2020-11-22 15:11:54Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Sie haben einen Deutschkurs besucht und m&ouml;chten gerne privat weiter lernen. Sie haben deshalb Ihrer Lehrerin geschrieben . Kurz darauf schickt sie Ihnen folgende Antwort :</div><div><br/></div><div><br/></div><div>Sehr geehrte Frau Gr&auml;rtner,</div><div>wie geht es Ihnen? Ich danke f&uuml;r Ihren Brief.</div><div>Ich m&ouml;chte in Deutschland Deutsch weiter lernen, deshalb habe ich Pl&auml;ne f&uuml;r das n&auml;chste Jahr?</div><div>Im Mai m&ouml;chte ich in D&uuml;sseldorf eine Wohnung suchen, dann weide ich etwas deutsch B&uuml;cher zu kaufen. Weil ich in Deutschland arbeite werde, deshalb muss ich Deutsch lernen.</div><div>Am liebesten lerne ich Deutsch &uuml;ber das Internet. Ich hoffe, wenn ich etwas Frage habe, kann ich Sie fragen.</div><div><br/></div><div> Mit freundliche Gr&uuml;&szlig;e</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8dc1a44da61562f65efc5cd33d0138185635c925b4ca26adcdf80324e704fabc",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Schriftlicher Ausdruck.html"
+      }
+    },
+    {
+      "id": "9ab742a2-be85-4baa-b733-d248dc3a8d41",
+      "note_id": "b0170d6b-a2b9-4824-81e5-131910861e44",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.141072Z",
+      "content": "---\ntitle: Schriftlicher Ausdruck\nupdated: 2020-11-22 15:16:07Z\ncreated: 2020-11-22 15:11:54Z\nauthor: tangyongfeng@gmail.com\n---\n\nSie haben einen Deutschkurs besucht und möchten gerne privat weiter lernen. Sie haben deshalb Ihrer Lehrerin geschrieben . Kurz darauf schickt sie Ihnen folgende Antwort :\nSehr geehrte Frau Grärtner,\nwie geht es Ihnen? Ich danke für Ihren Brief.\nIch möchte in Deutschland Deutsch weiter lernen, deshalb habe ich Pläne für das nächste Jahr?\nIm Mai möchte ich in Düsseldorf eine Wohnung suchen, dann weide ich etwas deutsch Bücher zu kaufen. Weil ich in Deutschland arbeite werde, deshalb muss ich Deutsch lernen.\nAm liebesten lerne ich Deutsch über das Internet. Ich hoffe, wenn ich etwas Frage habe, kann ich Sie fragen.\n Mit freundliche Grüße",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 773,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6a42c775-f964-458e-857a-f9f41d290f79",
+    "note_id": "b0170d6b-a2b9-4824-81e5-131910861e44",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.141076Z",
+    "finished_at": "2025-11-09T20:05:18.141077Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8121bf37-cf27-4716-b7e1-5f3947f105d7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Schriftlicher Ausdruck.html",
+      "checksum": "8dc1a44da61562f65efc5cd33d0138185635c925b4ca26adcdf80324e704fabc"
+    },
+    "output_ref": {
+      "ingest_source": "b36cb25b-1327-4c09-bfe8-b2131ca32180",
+      "note": "b0170d6b-a2b9-4824-81e5-131910861e44",
+      "variants": [
+        "23aaaf80-c74c-4247-b301-7a0a2e7e2f98",
+        "9ab742a2-be85-4baa-b733-d248dc3a8d41"
+      ]
+    },
+    "error_detail": null
+  }
+}

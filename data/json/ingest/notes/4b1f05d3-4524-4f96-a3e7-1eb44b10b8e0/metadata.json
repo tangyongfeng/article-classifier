@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0d8808e9-994b-4282-bc92-a36b4775ac79",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/zabbix.html",
+    "collected_at": "2025-11-09T20:05:14.321432Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "d84fcf578da82328e72e868008f4c715a7f9a96395aec526a38d3afccb176f41",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4b1f05d3-4524-4f96-a3e7-1eb44b10b8e0",
+    "ingest_source_id": "0d8808e9-994b-4282-bc92-a36b4775ac79",
+    "canonical_title": "zabbix",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:05:14.321436Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "zabbix.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4af3be6f-9ed0-44da-9b86-960a2028ac04",
+      "note_id": "4b1f05d3-4524-4f96-a3e7-1eb44b10b8e0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.321438Z",
+      "content": "---\ntitle: zabbix\nupdated: 2013-01-08 00:41:54Z\ncreated: 2013-01-08 00:41:11Z\nsource: http://www.oschina.net/p/zabbix\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(51, 51, 51); font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 13px; line-height: 20px; text-align: left; background-color: rgb(255, 255, 255);\"><b>zabbix是一个基于WEB界面的提供分布式系统监视以及网络监视功能的企业级的开源解决方案</b></span><div STYLE=\"text-align: left;\"><font COLOR=\"#333333\" FACE=\"微软雅黑, Verdana, sans-serif, 宋体\"><span STYLE=\"line-height: 20px;\"><br/></span></font></div><div><p STYLE=\"padding: 0px; margin: 0px 0px 10px; color: rgb(51, 51, 51); font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 13px; line-height: 20px; text-align: left; background-color: rgb(255, 255, 255);\"><strong STYLE=\"padding: 0px; margin: 0px;\">zabbix</strong>由2部分构成，<strong STYLE=\"padding: 0px; margin: 0px;\">zabbix server</strong>与可选组件zabbix agent。<br STYLE=\"padding: 0px; margin: 0px;\"/><strong STYLE=\"padding: 0px; margin: 0px;\">zabbix server</strong>可以通过SNMP，<strong STYLE=\"padding: 0px; margin: 0px;\">zabbix agent</strong>，ping，端口监视等方法提供对远程服务器/网络状态的监视，数据收集等功能，它可以运行在Linux, Solaris, HP-UX, AIX, Free BSD, Open BSD, OS X等平台之上。<br STYLE=\"padding: 0px; margin: 0px;\"/><strong STYLE=\"padding: 0px; margin: 0px;\">zabbix agent</strong>需要安装在被监视的目标服务器上，它主要完成对硬件信息或与操作系统有关的内存，CPU等信息的收集。<strong STYLE=\"padding: 0px; margin: 0px;\">zabbix agent</strong>可以运行在Linux ,Solaris, HP-UX, AIX, Free BSD, Open BSD, OS X, Tru64/OSF1, Windows NT4.0, Windows 2000/2003/XP/Vista)等系统之上。<br STYLE=\"padding: 0px; margin: 0px;\"/><br STYLE=\"padding: 0px; margin: 0px;\"/><strong STYLE=\"padding: 0px; margin: 0px;\">zabbix server</strong>可以单独监视远程服务器的服务状态；同时也可以与<strong STYLE=\"padding: 0px; margin: 0px;\">zabbix agent</strong>配合，可以轮询<strong STYLE=\"padding: 0px; margin: 0px;\">zabbix agent</strong>主动接收监视数据（trapping方式），同时还可被动接收<strong STYLE=\"padding: 0px; margin: 0px;\">zabbix agent</strong>发送的数据（trapping方式）。<br STYLE=\"padding: 0px; margin: 0px;\"/>\n另外<strong STYLE=\"padding: 0px; margin: 0px;\">zabbix server</strong>还支持SNMP (v1,v2)，可以与SNMP软件(例如：net-snmp)等配合使用。<br STYLE=\"padding: 0px; margin: 0px;\"/><br STYLE=\"padding: 0px; margin: 0px;\"/></p><div STYLE=\"padding: 0px; margin: 0px; color: rgb(51, 51, 51); font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 13px; line-height: 20px; text-align: left; background-color: rgb(255, 255, 255);\">zabbix的主要特点：</div><p STYLE=\"padding: 0px; margin: 0px 0px 10px; color: rgb(51, 51, 51); font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 13px; line-height: 20px; text-align: left; background-color: rgb(255, 255, 255);\">- 安装与配置简单，学习成本低<br STYLE=\"padding: 0px; margin: 0px;\"/>\n- 支持多语言（包括中文）<br STYLE=\"padding: 0px; margin: 0px;\"/>\n- 免费开源<br STYLE=\"padding: 0px; margin: 0px;\"/>\n- 自动发现服务器与网络设备<br STYLE=\"padding: 0px; margin: 0px;\"/>\n- 分布式监视以及WEB集中管理功能<br STYLE=\"padding: 0px; margin: 0px;\"/>\n- 可以无agent监视<br STYLE=\"padding: 0px; margin: 0px;\"/>\n- 用户安全认证和柔软的授权方式<br STYLE=\"padding: 0px; margin: 0px;\"/>\n- 通过WEB界面设置或查看监视结果<br STYLE=\"padding: 0px; margin: 0px;\"/>\n- email等通知功能&nbsp;</p></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d84fcf578da82328e72e868008f4c715a7f9a96395aec526a38d3afccb176f41",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/zabbix.html"
+      }
+    },
+    {
+      "id": "d597c6c6-c6ab-4369-b0d5-61cbf6d6e827",
+      "note_id": "4b1f05d3-4524-4f96-a3e7-1eb44b10b8e0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.321441Z",
+      "content": "---\ntitle: zabbix\nupdated: 2013-01-08 00:41:54Z\ncreated: 2013-01-08 00:41:11Z\nsource: http://www.oschina.net/p/zabbix\n---\n\nzabbix是一个基于WEB界面的提供分布式系统监视以及网络监视功能的企业级的开源解决方案\nzabbix\n由2部分构成，\nzabbix server\n与可选组件zabbix agent。\nzabbix server\n可以通过SNMP，\nzabbix agent\n，ping，端口监视等方法提供对远程服务器/网络状态的监视，数据收集等功能，它可以运行在Linux, Solaris, HP-UX, AIX, Free BSD, Open BSD, OS X等平台之上。\nzabbix agent\n需要安装在被监视的目标服务器上，它主要完成对硬件信息或与操作系统有关的内存，CPU等信息的收集。\nzabbix agent\n可以运行在Linux ,Solaris, HP-UX, AIX, Free BSD, Open BSD, OS X, Tru64/OSF1, Windows NT4.0, Windows 2000/2003/XP/Vista)等系统之上。\nzabbix server\n可以单独监视远程服务器的服务状态；同时也可以与\nzabbix agent\n配合，可以轮询\nzabbix agent\n主动接收监视数据（trapping方式），同时还可被动接收\nzabbix agent\n发送的数据（trapping方式）。\n\n另外\nzabbix server\n还支持SNMP (v1,v2)，可以与SNMP软件(例如：net-snmp)等配合使用。\nzabbix的主要特点：\n- 安装与配置简单，学习成本低\n\n- 支持多语言（包括中文）\n\n- 免费开源\n\n- 自动发现服务器与网络设备\n\n- 分布式监视以及WEB集中管理功能\n\n- 可以无agent监视\n\n- 用户安全认证和柔软的授权方式\n\n- 通过WEB界面设置或查看监视结果\n\n- email等通知功能",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 902,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "557eb321-e438-4205-9807-1bf3e5558985",
+    "note_id": "4b1f05d3-4524-4f96-a3e7-1eb44b10b8e0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.321446Z",
+    "finished_at": "2025-11-09T20:05:14.321446Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8985d35a-8f78-41ca-9e38-039cc9edab2f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/zabbix.html",
+      "checksum": "d84fcf578da82328e72e868008f4c715a7f9a96395aec526a38d3afccb176f41"
+    },
+    "output_ref": {
+      "ingest_source": "0d8808e9-994b-4282-bc92-a36b4775ac79",
+      "note": "4b1f05d3-4524-4f96-a3e7-1eb44b10b8e0",
+      "variants": [
+        "4af3be6f-9ed0-44da-9b86-960a2028ac04",
+        "d597c6c6-c6ab-4369-b0d5-61cbf6d6e827"
+      ]
+    },
+    "error_detail": null
+  }
+}

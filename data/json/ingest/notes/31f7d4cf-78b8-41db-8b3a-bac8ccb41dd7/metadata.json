@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "acc7842e-b02b-4851-8a82-e10da5fe4f34",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/端口.html",
+    "collected_at": "2025-11-09T20:01:36.202572Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "f6f10411d86830a9b25748cdc91f02b36fe4f397f6be4c7bad63672b400b88aa",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "31f7d4cf-78b8-41db-8b3a-bac8ccb41dd7",
+    "ingest_source_id": "acc7842e-b02b-4851-8a82-e10da5fe4f34",
+    "canonical_title": "端口",
+    "language": "ro",
+    "ingested_at": "2025-11-09T20:01:36.202576Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "端口.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "add62923-a60b-4bb9-ad06-6c6c77205057",
+      "note_id": "31f7d4cf-78b8-41db-8b3a-bac8ccb41dd7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.202578Z",
+      "content": "---\ntitle: 端口\nupdated: 2012-07-08 04:58:52Z\ncreated: 2012-06-25 10:24:57Z\nlatitude: 39.98760000\nlongitude: 116.36000000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>fc 4587<br/>administrator&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; X87W09i7785Sp<div><br/></div><div><br/></div> </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f6f10411d86830a9b25748cdc91f02b36fe4f397f6be4c7bad63672b400b88aa",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/端口.html"
+      }
+    },
+    {
+      "id": "ab522fd8-d536-4fc1-813c-943c4ec6e16a",
+      "note_id": "31f7d4cf-78b8-41db-8b3a-bac8ccb41dd7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.202581Z",
+      "content": "---\ntitle: 端口\nupdated: 2012-07-08 04:58:52Z\ncreated: 2012-06-25 10:24:57Z\nlatitude: 39.98760000\nlongitude: 116.36000000\naltitude: 0.0000\n---\n\nfc 4587\nadministrator      X87W09i7785Sp",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 182,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d7e24ad9-6e1f-4157-a3b6-13e9872d1ca9",
+    "note_id": "31f7d4cf-78b8-41db-8b3a-bac8ccb41dd7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.202586Z",
+    "finished_at": "2025-11-09T20:01:36.202586Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dfbef36c-f736-4c74-bf7a-e53a2cf286a0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/端口.html",
+      "checksum": "f6f10411d86830a9b25748cdc91f02b36fe4f397f6be4c7bad63672b400b88aa"
+    },
+    "output_ref": {
+      "ingest_source": "acc7842e-b02b-4851-8a82-e10da5fe4f34",
+      "note": "31f7d4cf-78b8-41db-8b3a-bac8ccb41dd7",
+      "variants": [
+        "add62923-a60b-4bb9-ad06-6c6c77205057",
+        "ab522fd8-d536-4fc1-813c-943c4ec6e16a"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7dcfc240-7b26-408b-ab09-2a95a851cc2a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mysqldump 按条件导出.html",
+    "collected_at": "2025-11-09T20:05:14.123533Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "01e94294176db01266155659546cf080f373ec0862cf37a0b0647871a7d5de2e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "eee0b1f6-849e-45ff-8008-e39f109ba125",
+    "ingest_source_id": "7dcfc240-7b26-408b-ab09-2a95a851cc2a",
+    "canonical_title": "mysqldump 按条件导出",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:14.123538Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "mysqldump 按条件导出.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c88eb15b-acd4-4933-83e9-3a1e7a1f139a",
+      "note_id": "eee0b1f6-849e-45ff-8008-e39f109ba125",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.123540Z",
+      "content": "---\ntitle: mysqldump 按条件导出\nupdated: 2021-07-09 09:52:58Z\ncreated: 2021-07-09 09:52:23Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>\n<span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">mysqldump stock real_stock_cn_data --where=&quot;trade_date=&apos;20210709&apos;&quot; --no-create-info --set-gtid-purged=OFF &gt;20210709.real_stock_cn_data.sql</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "01e94294176db01266155659546cf080f373ec0862cf37a0b0647871a7d5de2e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mysqldump 按条件导出.html"
+      }
+    },
+    {
+      "id": "4bf22e03-1822-4c73-af4f-19ecc2ef0919",
+      "note_id": "eee0b1f6-849e-45ff-8008-e39f109ba125",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.123543Z",
+      "content": "---\ntitle: mysqldump 按条件导出\nupdated: 2021-07-09 09:52:58Z\ncreated: 2021-07-09 09:52:23Z\nauthor: tangyongfeng@gmail.com\n---\n\nmysqldump stock real_stock_cn_data --where=\"trade_date='20210709'\" --no-create-info --set-gtid-purged=OFF >20210709.real_stock_cn_data.sql",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 261,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "141f398b-b96b-4465-83f3-f7d9ff549de6",
+    "note_id": "eee0b1f6-849e-45ff-8008-e39f109ba125",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.123549Z",
+    "finished_at": "2025-11-09T20:05:14.123549Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ab92440f-9fae-42b4-8a3d-4d1a7b0eaaa3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mysqldump 按条件导出.html",
+      "checksum": "01e94294176db01266155659546cf080f373ec0862cf37a0b0647871a7d5de2e"
+    },
+    "output_ref": {
+      "ingest_source": "7dcfc240-7b26-408b-ab09-2a95a851cc2a",
+      "note": "eee0b1f6-849e-45ff-8008-e39f109ba125",
+      "variants": [
+        "c88eb15b-acd4-4933-83e9-3a1e7a1f139a",
+        "4bf22e03-1822-4c73-af4f-19ecc2ef0919"
+      ]
+    },
+    "error_detail": null
+  }
+}

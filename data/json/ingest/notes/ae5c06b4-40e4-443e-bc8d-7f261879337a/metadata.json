@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "609332e6-0fc9-4bf5-840a-3f5d90126b0b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/无标题笔记.html",
+    "collected_at": "2025-11-09T20:05:18.638144Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "128a22aa02c2dc6406ada0e9da6121cd70e6807f3a16e02f1ceb13322df93097",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ae5c06b4-40e4-443e-bc8d-7f261879337a",
+    "ingest_source_id": "609332e6-0fc9-4bf5-840a-3f5d90126b0b",
+    "canonical_title": "无标题笔记",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.638148Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "85cc6d22-556b-4023-81cd-3606d90d22ef",
+      "note_id": "ae5c06b4-40e4-443e-bc8d-7f261879337a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.638151Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2022-09-16 09:00:35Z\ncreated: 2022-09-16 09:00:30Z\n---\n\n\n<en-note><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "128a22aa02c2dc6406ada0e9da6121cd70e6807f3a16e02f1ceb13322df93097",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/无标题笔记.html"
+      }
+    },
+    {
+      "id": "09a147f1-5c54-4821-8f67-86d408a3911b",
+      "note_id": "ae5c06b4-40e4-443e-bc8d-7f261879337a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.638154Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2022-09-16 09:00:35Z\ncreated: 2022-09-16 09:00:30Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 80,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e35d78e0-ae71-4985-bf29-03fa35a424f0",
+    "note_id": "ae5c06b4-40e4-443e-bc8d-7f261879337a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.638159Z",
+    "finished_at": "2025-11-09T20:05:18.638159Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7caeac1e-3138-4902-a4ae-411659ace24c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/无标题笔记.html",
+      "checksum": "128a22aa02c2dc6406ada0e9da6121cd70e6807f3a16e02f1ceb13322df93097"
+    },
+    "output_ref": {
+      "ingest_source": "609332e6-0fc9-4bf5-840a-3f5d90126b0b",
+      "note": "ae5c06b4-40e4-443e-bc8d-7f261879337a",
+      "variants": [
+        "85cc6d22-556b-4023-81cd-3606d90d22ef",
+        "09a147f1-5c54-4821-8f67-86d408a3911b"
+      ]
+    },
+    "error_detail": null
+  }
+}

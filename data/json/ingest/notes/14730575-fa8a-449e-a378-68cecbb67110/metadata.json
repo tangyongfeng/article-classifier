@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "21d07285-48b6-42ee-9062-58a087445aaa",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/华润双鹤.html",
+    "collected_at": "2025-11-09T20:05:18.568336Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "60cf09ed89f52cc33fe07e00a2195fa56a91932066fd2f0c9b105345a562236b",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "14730575-fa8a-449e-a378-68cecbb67110",
+    "ingest_source_id": "21d07285-48b6-42ee-9062-58a087445aaa",
+    "canonical_title": "华润双鹤",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.568340Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "华润双鹤.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1d02e114-f03d-4653-a51f-cc6828ca4ea6",
+      "note_id": "14730575-fa8a-449e-a378-68cecbb67110",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.568343Z",
+      "content": "---\ntitle: 华润双鹤\nupdated: 2013-09-22 04:48:21Z\ncreated: 2013-09-09 10:34:49Z\nsource: http://xueqiu.com/S/SH600062\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n且得跌呢，成本分布乱七八糟\n<div><br/></div><div>9/22 &nbsp; <span STYLE=\"color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; text-align: left; background-color: rgb(255, 255, 255);\">双鹤药业：羟乙基淀粉退市 布局或受影响----自今年5月羟乙基淀粉HES安全性被捅破以来，所涉企业科伦药业（002422.SZ）、华润双鹤（600062.SH）以及费森尤斯等公司均遭受着巨大的压力，股价一度应声跳水。而就在近日，欧洲药品管理局药品风险评估委员会建议将羟乙基淀粉退市。</span></div><div><div STYLE=\"text-align: left;\"><font COLOR=\"#333333\" FACE=\"Helvetica Neue, Helvetica, Arial, sans-serif\"><span STYLE=\"font-size: 14px; line-height: 21px;\">&nbsp; &nbsp; &nbsp;</span></font><span STYLE=\"color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 21px; text-align: left; background-color: rgb(255, 255, 255);\">羟乙基淀粉在中国依然是畅销药物，且销售额逐年攀升，业内保守估计已经超过15亿元。血液紧缺和市场销售额攀升，让国内不少企业积极进行羟乙基淀粉产品的开发和市场开拓，其中包括大输液巨头科伦药业（002422）和华润双鹤（600062）。 科伦药业对羟乙基淀粉投入了非常大的精力，且销售额已经相当靠前。而在华润双鹤2009年半年报中，羟乙基淀粉（盈源）被列为重点产品。</span></div>\n&nbsp;\n<div><br/></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "60cf09ed89f52cc33fe07e00a2195fa56a91932066fd2f0c9b105345a562236b",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/华润双鹤.html"
+      }
+    },
+    {
+      "id": "500ecc36-bdfc-40ab-930f-5f0631fc3399",
+      "note_id": "14730575-fa8a-449e-a378-68cecbb67110",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.568345Z",
+      "content": "---\ntitle: 华润双鹤\nupdated: 2013-09-22 04:48:21Z\ncreated: 2013-09-09 10:34:49Z\nsource: http://xueqiu.com/S/SH600062\n---\n\n且得跌呢，成本分布乱七八糟\n\n9/22  \n双鹤药业：羟乙基淀粉退市 布局或受影响----自今年5月羟乙基淀粉HES安全性被捅破以来，所涉企业科伦药业（002422.SZ）、华润双鹤（600062.SH）以及费森尤斯等公司均遭受着巨大的压力，股价一度应声跳水。而就在近日，欧洲药品管理局药品风险评估委员会建议将羟乙基淀粉退市。\n     \n羟乙基淀粉在中国依然是畅销药物，且销售额逐年攀升，业内保守估计已经超过15亿元。血液紧缺和市场销售额攀升，让国内不少企业积极进行羟乙基淀粉产品的开发和市场开拓，其中包括大输液巨头科伦药业（002422）和华润双鹤（600062）。 科伦药业对羟乙基淀粉投入了非常大的精力，且销售额已经相当靠前。而在华润双鹤2009年半年报中，羟乙基淀粉（盈源）被列为重点产品。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 468,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "611aa8ab-5774-43b3-b9ba-b0603b11f642",
+    "note_id": "14730575-fa8a-449e-a378-68cecbb67110",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.568350Z",
+    "finished_at": "2025-11-09T20:05:18.568350Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7de4b44d-543c-4801-8f49-21ffad7a05f3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/华润双鹤.html",
+      "checksum": "60cf09ed89f52cc33fe07e00a2195fa56a91932066fd2f0c9b105345a562236b"
+    },
+    "output_ref": {
+      "ingest_source": "21d07285-48b6-42ee-9062-58a087445aaa",
+      "note": "14730575-fa8a-449e-a378-68cecbb67110",
+      "variants": [
+        "1d02e114-f03d-4653-a51f-cc6828ca4ea6",
+        "500ecc36-bdfc-40ab-930f-5f0631fc3399"
+      ]
+    },
+    "error_detail": null
+  }
+}

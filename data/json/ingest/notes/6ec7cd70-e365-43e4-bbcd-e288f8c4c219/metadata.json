@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8f84c463-de15-4da7-a9b2-58634d8a1b4b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/笔记-3.html",
+    "collected_at": "2025-11-09T20:05:17.118433Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3274fbed139a7be8aca7641c44249f21bba0017e2bdf8810813d24ee5718b3a4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6ec7cd70-e365-43e4-bbcd-e288f8c4c219",
+    "ingest_source_id": "8f84c463-de15-4da7-a9b2-58634d8a1b4b",
+    "canonical_title": "笔记-3",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:17.118436Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-3.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6968b8e6-c835-4a20-9a22-20bf8187af44",
+      "note_id": "6ec7cd70-e365-43e4-bbcd-e288f8c4c219",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.118439Z",
+      "content": "---\ntitle: 笔记\nupdated: 2013-02-27 06:32:44Z\ncreated: 2013-02-27 06:32:22Z\n---\n\n\n\n<en-note>环球星彩</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3274fbed139a7be8aca7641c44249f21bba0017e2bdf8810813d24ee5718b3a4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/笔记-3.html"
+      }
+    },
+    {
+      "id": "4fb6d4e2-07ee-43fd-bbfe-84404addd269",
+      "note_id": "6ec7cd70-e365-43e4-bbcd-e288f8c4c219",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.118441Z",
+      "content": "---\ntitle: 笔记\nupdated: 2013-02-27 06:32:44Z\ncreated: 2013-02-27 06:32:22Z\n---\n\n环球星彩",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 83,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6a03f3a6-0adb-4a95-8e42-e577727de9ee",
+    "note_id": "6ec7cd70-e365-43e4-bbcd-e288f8c4c219",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.118446Z",
+    "finished_at": "2025-11-09T20:05:17.118446Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8332590c-810e-446f-b49e-9a87731ac362",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/笔记-3.html",
+      "checksum": "3274fbed139a7be8aca7641c44249f21bba0017e2bdf8810813d24ee5718b3a4"
+    },
+    "output_ref": {
+      "ingest_source": "8f84c463-de15-4da7-a9b2-58634d8a1b4b",
+      "note": "6ec7cd70-e365-43e4-bbcd-e288f8c4c219",
+      "variants": [
+        "6968b8e6-c835-4a20-9a22-20bf8187af44",
+        "4fb6d4e2-07ee-43fd-bbfe-84404addd269"
+      ]
+    },
+    "error_detail": null
+  }
+}

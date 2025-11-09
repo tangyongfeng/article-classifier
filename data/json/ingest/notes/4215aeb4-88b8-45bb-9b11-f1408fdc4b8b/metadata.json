@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "82259838-5726-428e-8961-4a1bf3181795",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/写作批改助手实现和需求：.html",
+    "collected_at": "2025-11-09T20:05:18.180826Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "29a9a9f7f2828a86c22e4f07267fba3d9ff04c1c2214d8a7a24ef8a7940ab782",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4215aeb4-88b8-45bb-9b11-f1408fdc4b8b",
+    "ingest_source_id": "82259838-5726-428e-8961-4a1bf3181795",
+    "canonical_title": "写作批改助手实现和需求：",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.180829Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "写作批改助手实现和需求：.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "726d32b5-7899-4b16-b02f-24a2020c84a7",
+      "note_id": "4215aeb4-88b8-45bb-9b11-f1408fdc4b8b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.180831Z",
+      "content": "---\ntitle: 写作批改助手实现和需求：\nupdated: 2020-07-23 08:56:48Z\ncreated: 2020-07-22 09:53:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note><div>写作批改助手实现和需求：</div><div><br/></div><div>1、基本的单词用法</div><ol><li><div>&nbsp;&nbsp; &nbsp;拼写</div></li><li><div>&nbsp;&nbsp; &nbsp;动词变位</div></li><li><div>&nbsp;&nbsp; &nbsp;时态</div></li></ol><div>2、标点符号和空格</div><div>3、错误用词</div><ol><li><div>错误搭配</div></li><ol><li><div>冠词：错误使用，例如 an Haus</div></li><li><div>词性</div></li><li><div>介词固定搭配：搭配固定的格</div></li></ol><li><div>可分动词</div></li><li><div>错误使用英语单词，如have</div></li><li><div>形容词</div></li></ol><div>4、句中</div><ol><li><div>&nbsp;大小写</div></li><li><div>标点符号</div></li><li><div>用词顺序错误 &nbsp;</div></li><li><div>性别</div></li><li><div>详细用词差异，例如 leigen ,entschlei&szlig;en</div></li></ol><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "29a9a9f7f2828a86c22e4f07267fba3d9ff04c1c2214d8a7a24ef8a7940ab782",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/写作批改助手实现和需求：.html"
+      }
+    },
+    {
+      "id": "fc77cbe4-4653-46b0-886a-fe68efecc52e",
+      "note_id": "4215aeb4-88b8-45bb-9b11-f1408fdc4b8b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.180834Z",
+      "content": "---\ntitle: 写作批改助手实现和需求：\nupdated: 2020-07-23 08:56:48Z\ncreated: 2020-07-22 09:53:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n写作批改助手实现和需求：\n1、基本的单词用法\n    拼写\n    动词变位\n    时态\n2、标点符号和空格\n3、错误用词\n错误搭配\n冠词：错误使用，例如 an Haus\n词性\n介词固定搭配：搭配固定的格\n可分动词\n错误使用英语单词，如have\n形容词\n4、句中\n 大小写\n标点符号\n用词顺序错误  \n性别\n详细用词差异，例如 leigen ,entschleißen",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 305,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "091b0f9f-22ef-4dd8-9674-31e94746d2b4",
+    "note_id": "4215aeb4-88b8-45bb-9b11-f1408fdc4b8b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.180839Z",
+    "finished_at": "2025-11-09T20:05:18.180839Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f34840d6-00f1-443a-98bd-e97b330bddc3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/写作批改助手实现和需求：.html",
+      "checksum": "29a9a9f7f2828a86c22e4f07267fba3d9ff04c1c2214d8a7a24ef8a7940ab782"
+    },
+    "output_ref": {
+      "ingest_source": "82259838-5726-428e-8961-4a1bf3181795",
+      "note": "4215aeb4-88b8-45bb-9b11-f1408fdc4b8b",
+      "variants": [
+        "726d32b5-7899-4b16-b02f-24a2020c84a7",
+        "fc77cbe4-4653-46b0-886a-fe68efecc52e"
+      ]
+    },
+    "error_detail": null
+  }
+}

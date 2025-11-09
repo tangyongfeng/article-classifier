@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "243af30d-960d-4ac2-9c44-dde8f37bc234",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Windows 下 批量执行sql 脚本.html",
+    "collected_at": "2025-11-09T20:05:13.697886Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ede0dc47c6dd2d27cd277d8dc9d6525d5b847c9da946adae13afe1b3e20c31ad",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "75907a18-fcb3-4ca1-9a28-e173c426b1a1",
+    "ingest_source_id": "243af30d-960d-4ac2-9c44-dde8f37bc234",
+    "canonical_title": "Windows 下 批量执行sql 脚本",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.697890Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Windows 下 批量执行sql 脚本.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "45234a34-088d-4f30-b2a3-eb1735539cf6",
+      "note_id": "75907a18-fcb3-4ca1-9a28-e173c426b1a1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.697892Z",
+      "content": "---\ntitle: Windows 下 批量执行sql 脚本\nupdated: 2022-09-01 10:11:15Z\ncreated: 2022-08-28 20:51:35Z\n---\n\n\n\n<en-note><div>Get-Content stock.20220720.day.sql | mysql -u tang -pabcd1234 stock</div><div STYLE=\"position: absolute; left: 428px; top: 21px;\"><div></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ede0dc47c6dd2d27cd277d8dc9d6525d5b847c9da946adae13afe1b3e20c31ad",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Windows 下 批量执行sql 脚本.html"
+      }
+    },
+    {
+      "id": "cf296309-6a51-46e8-b538-6457827c3aa2",
+      "note_id": "75907a18-fcb3-4ca1-9a28-e173c426b1a1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.697895Z",
+      "content": "---\ntitle: Windows 下 批量执行sql 脚本\nupdated: 2022-09-01 10:11:15Z\ncreated: 2022-08-28 20:51:35Z\n---\n\nGet-Content stock.20220720.day.sql | mysql -u tang -pabcd1234 stock",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 164,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2f002de2-4d47-4249-aff2-6cfebf38748f",
+    "note_id": "75907a18-fcb3-4ca1-9a28-e173c426b1a1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.697900Z",
+    "finished_at": "2025-11-09T20:05:13.697900Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3d5f71b1-8227-4f26-9b53-e286dcb1a551",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Windows 下 批量执行sql 脚本.html",
+      "checksum": "ede0dc47c6dd2d27cd277d8dc9d6525d5b847c9da946adae13afe1b3e20c31ad"
+    },
+    "output_ref": {
+      "ingest_source": "243af30d-960d-4ac2-9c44-dde8f37bc234",
+      "note": "75907a18-fcb3-4ca1-9a28-e173c426b1a1",
+      "variants": [
+        "45234a34-088d-4f30-b2a3-eb1735539cf6",
+        "cf296309-6a51-46e8-b538-6457827c3aa2"
+      ]
+    },
+    "error_detail": null
+  }
+}

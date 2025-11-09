@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "ceed415f-427e-4b84-ac82-75de547b8503",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mysql 建库 加用户 授权.html",
+    "collected_at": "2025-11-09T20:01:34.979072Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ca2d54d134e708385b9ad8a8cfa85f143e4d8700ea3759e9c4aac416381f1e73",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a601936b-2745-48e8-accf-79104a0268ff",
+    "ingest_source_id": "ceed415f-427e-4b84-ac82-75de547b8503",
+    "canonical_title": "mysql 建库 加用户 授权",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.979076Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "mysql 建库 加用户 授权.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3aaa8d9a-3158-4d89-ad24-51a03b03cf2a",
+      "note_id": "a601936b-2745-48e8-accf-79104a0268ff",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.979079Z",
+      "content": "---\ntitle: mysql 建库 加用户 授权\nupdated: 2022-08-16 11:00:10Z\ncreated: 2021-05-18 10:43:26Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - mysql\n---\n\n\n\n<en-note><div><span></span><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\"><span>mysql</span>&gt; create database stock;</span></div><div><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\"> Query OK, 1 row affected (0.02 sec)</span></div><div><br CLEAR=\"none\"/></div><div><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\"> <span>mysql</span>&gt; create user &apos;tang&apos;@&apos;localhost&apos; identified by &apos;abcd1234&apos;;</span></div><div><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\"> Query OK, 0 rows affected (0.06 sec)</span></div><div><br CLEAR=\"none\"/></div><div><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\"> <span>mysql</span>&gt;&nbsp;</span><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; line-height: normal;\">grant all on stock.* to tang@localhost;</span></div><div><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\"> Query OK, 0 rows affected (0.02 sec)</span></div><div><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\"><br CLEAR=\"none\"/></span></div><div><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\"><br CLEAR=\"none\"/></span></div><div><span STYLE=\"font-size: 11px; color: #000000; font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\">tang@frank</span></div><div><span></span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: #000000;\"><span>mysql</span>&gt; create user &apos;readonly&apos;@&apos;localhost&apos; identified by &apos;JDlDA1YWXEhtiSWm&apos;;</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: #000000;\"> Query OK, 0 rows affected (0.01 sec)</span></div><div><br CLEAR=\"none\"/></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: #000000;\"> <span>mysql</span>&gt; grant select on *.* to readonly;</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: #000000;\"><br CLEAR=\"none\"/></span></div><div><strong><span STYLE=\"font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 128, 0);\">问题解决:</span></strong></div><div><strong><span STYLE=\"font-style: normal; font-variant-caps: normal; font-stretch: normal; font-size: 14px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 128, 0);\">ERROR 1410 (42000): You are not allowed to create a user with GRANT<br CLEAR=\"none\"/></span></strong></div><div>从建立用户开始在执行一遍</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ca2d54d134e708385b9ad8a8cfa85f143e4d8700ea3759e9c4aac416381f1e73",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mysql 建库 加用户 授权.html"
+      }
+    },
+    {
+      "id": "f5fb660a-2c06-47bf-9abf-c642730db57c",
+      "note_id": "a601936b-2745-48e8-accf-79104a0268ff",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.979082Z",
+      "content": "---\ntitle: mysql 建库 加用户 授权\nupdated: 2022-08-16 11:00:10Z\ncreated: 2021-05-18 10:43:26Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - mysql\n---\n\nmysql\n> create database stock;\n Query OK, 1 row affected (0.02 sec)\n\nmysql\n> create user 'tang'@'localhost' identified by 'abcd1234';\n Query OK, 0 rows affected (0.06 sec)\n\nmysql\n> \ngrant all on stock.* to tang@localhost;\n Query OK, 0 rows affected (0.02 sec)\ntang@frank\nmysql\n> create user 'readonly'@'localhost' identified by 'JDlDA1YWXEhtiSWm';\n Query OK, 0 rows affected (0.01 sec)\n\nmysql\n> grant select on *.* to readonly;\n问题解决:\nERROR 1410 (42000): You are not allowed to create a user with GRANT\n从建立用户开始在执行一遍",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 653,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "176545a4-64e2-425b-9c3a-a27f14257677",
+    "note_id": "a601936b-2745-48e8-accf-79104a0268ff",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.979087Z",
+    "finished_at": "2025-11-09T20:01:34.979087Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "edc41578-b76c-4a44-8b86-e2bf1be6c6f0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mysql 建库 加用户 授权.html",
+      "checksum": "ca2d54d134e708385b9ad8a8cfa85f143e4d8700ea3759e9c4aac416381f1e73"
+    },
+    "output_ref": {
+      "ingest_source": "ceed415f-427e-4b84-ac82-75de547b8503",
+      "note": "a601936b-2745-48e8-accf-79104a0268ff",
+      "variants": [
+        "3aaa8d9a-3158-4d89-ad24-51a03b03cf2a",
+        "f5fb660a-2c06-47bf-9abf-c642730db57c"
+      ]
+    },
+    "error_detail": null
+  }
+}

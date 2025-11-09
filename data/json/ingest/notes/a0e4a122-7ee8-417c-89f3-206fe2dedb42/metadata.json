@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f013bb04-ac7d-43ba-9a62-b21d7975db2d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/常见扑克游戏玩法.html",
+    "collected_at": "2025-11-09T20:01:35.748897Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "29eff0711d0bfc00371c382872ac092d62e3bb8222b76812ffea3fe3f33e171c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a0e4a122-7ee8-417c-89f3-206fe2dedb42",
+    "ingest_source_id": "f013bb04-ac7d-43ba-9a62-b21d7975db2d",
+    "canonical_title": "常见扑克游戏玩法",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.748901Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "常见扑克游戏玩法.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6eca0163-68aa-4d74-b75d-eb55145ef82e",
+      "note_id": "a0e4a122-7ee8-417c-89f3-206fe2dedb42",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.748903Z",
+      "content": "---\ntitle: 常见扑克游戏玩法\nupdated: 2017-01-08 07:17:31Z\ncreated: 2017-01-04 05:05:20Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note><div>三公</div><div>斗牛</div><div>金花</div><div>佳佳宝</div><div>9点半</div><div>9点</div><div>2点</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "29eff0711d0bfc00371c382872ac092d62e3bb8222b76812ffea3fe3f33e171c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/常见扑克游戏玩法.html"
+      }
+    },
+    {
+      "id": "dabc5040-eb03-47c7-bdba-1292dceaceaf",
+      "note_id": "a0e4a122-7ee8-417c-89f3-206fe2dedb42",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.748906Z",
+      "content": "---\ntitle: 常见扑克游戏玩法\nupdated: 2017-01-08 07:17:31Z\ncreated: 2017-01-04 05:05:20Z\nauthor: tangyongfeng@gmail.com\n---\n\n三公\n斗牛\n金花\n佳佳宝\n9点半\n9点\n2点",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 138,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "783d5ec3-dbfc-42e8-8e32-49b1c8bb7b49",
+    "note_id": "a0e4a122-7ee8-417c-89f3-206fe2dedb42",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.748911Z",
+    "finished_at": "2025-11-09T20:01:35.748911Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9c7cdc53-0526-466a-84d4-c6572a57fbad",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/常见扑克游戏玩法.html",
+      "checksum": "29eff0711d0bfc00371c382872ac092d62e3bb8222b76812ffea3fe3f33e171c"
+    },
+    "output_ref": {
+      "ingest_source": "f013bb04-ac7d-43ba-9a62-b21d7975db2d",
+      "note": "a0e4a122-7ee8-417c-89f3-206fe2dedb42",
+      "variants": [
+        "6eca0163-68aa-4d74-b75d-eb55145ef82e",
+        "dabc5040-eb03-47c7-bdba-1292dceaceaf"
+      ]
+    },
+    "error_detail": null
+  }
+}

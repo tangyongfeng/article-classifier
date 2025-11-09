@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "84a7c500-f7eb-403a-a363-7f242068d632",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/克劳斯塔工业大学.html",
+    "collected_at": "2025-11-09T20:01:35.383751Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "02a30824a65cb53bccc2cad4efde74e2775e69e89ddbf5976271553516fca757",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "04fc4e94-8bbf-4c20-98e9-703c859eaf24",
+    "ingest_source_id": "84a7c500-f7eb-403a-a363-7f242068d632",
+    "canonical_title": "克劳斯塔工业大学",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.383754Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "克劳斯塔工业大学.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a0e690a8-94d9-40f6-9f96-b34bf0014582",
+      "note_id": "04fc4e94-8bbf-4c20-98e9-703c859eaf24",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.383757Z",
+      "content": "---\ntitle: 克劳斯塔工业大学\nupdated: 2019-07-17 08:48:41Z\ncreated: 2019-07-17 08:48:29Z\n---\n\n\n\n<en-note><div>克劳斯塔工业大学</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "02a30824a65cb53bccc2cad4efde74e2775e69e89ddbf5976271553516fca757",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/克劳斯塔工业大学.html"
+      }
+    },
+    {
+      "id": "2f52174b-5fe1-40d0-a7d7-f9a894aac813",
+      "note_id": "04fc4e94-8bbf-4c20-98e9-703c859eaf24",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.383760Z",
+      "content": "---\ntitle: 克劳斯塔工业大学\nupdated: 2019-07-17 08:48:41Z\ncreated: 2019-07-17 08:48:29Z\n---\n\n克劳斯塔工业大学",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 93,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0350ab5c-9de7-4291-9f21-5146a4d579be",
+    "note_id": "04fc4e94-8bbf-4c20-98e9-703c859eaf24",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.383764Z",
+    "finished_at": "2025-11-09T20:01:35.383765Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "28e91162-45ea-4562-8727-59cc7de08345",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/克劳斯塔工业大学.html",
+      "checksum": "02a30824a65cb53bccc2cad4efde74e2775e69e89ddbf5976271553516fca757"
+    },
+    "output_ref": {
+      "ingest_source": "84a7c500-f7eb-403a-a363-7f242068d632",
+      "note": "04fc4e94-8bbf-4c20-98e9-703c859eaf24",
+      "variants": [
+        "a0e690a8-94d9-40f6-9f96-b34bf0014582",
+        "2f52174b-5fe1-40d0-a7d7-f9a894aac813"
+      ]
+    },
+    "error_detail": null
+  }
+}

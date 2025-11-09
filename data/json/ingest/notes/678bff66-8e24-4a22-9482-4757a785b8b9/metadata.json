@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "03ef4515-0d8e-44fb-98c3-39790c057bb1",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mac 开机启动最详细的步骤解释.html",
+    "collected_at": "2025-11-09T20:01:34.960796Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "68e7ca636dedd7313c33be0255a86b81de083831ce3d5decd50090f7b7e633c0",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "678bff66-8e24-4a22-9482-4757a785b8b9",
+    "ingest_source_id": "03ef4515-0d8e-44fb-98c3-39790c057bb1",
+    "canonical_title": "mac 开机启动最详细的步骤解释",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.960801Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "mac 开机启动最详细的步骤解释.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4c0d1f57-5265-4d39-a02d-62c32ef7443f",
+      "note_id": "678bff66-8e24-4a22-9482-4757a785b8b9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.960805Z",
+      "content": "---\ntitle: mac 开机启动最详细的步骤解释\nupdated: 2019-07-21 14:56:38Z\ncreated: 2019-07-21 14:56:38Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><span>mac 开机启动最详细的步骤解释</span></div>\n<div><span>https://blog.csdn.net/astarring/article/details/69055218</span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "68e7ca636dedd7313c33be0255a86b81de083831ce3d5decd50090f7b7e633c0",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mac 开机启动最详细的步骤解释.html"
+      }
+    },
+    {
+      "id": "0df458c8-9b26-49e0-98e1-6a7d8baa88cb",
+      "note_id": "678bff66-8e24-4a22-9482-4757a785b8b9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.960809Z",
+      "content": "---\ntitle: mac 开机启动最详细的步骤解释\nupdated: 2019-07-21 14:56:38Z\ncreated: 2019-07-21 14:56:38Z\nauthor: tangyongfeng@gmail.com\n---\n\nmac 开机启动最详细的步骤解释\n\nhttps://blog.csdn.net/astarring/article/details/69055218",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 198,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9ad39896-7d1f-469d-b49f-b9354d35e522",
+    "note_id": "678bff66-8e24-4a22-9482-4757a785b8b9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.960815Z",
+    "finished_at": "2025-11-09T20:01:34.960816Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "849a5cc9-a9da-49eb-96b3-b7db062b389b",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mac 开机启动最详细的步骤解释.html",
+      "checksum": "68e7ca636dedd7313c33be0255a86b81de083831ce3d5decd50090f7b7e633c0"
+    },
+    "output_ref": {
+      "ingest_source": "03ef4515-0d8e-44fb-98c3-39790c057bb1",
+      "note": "678bff66-8e24-4a22-9482-4757a785b8b9",
+      "variants": [
+        "4c0d1f57-5265-4d39-a02d-62c32ef7443f",
+        "0df458c8-9b26-49e0-98e1-6a7d8baa88cb"
+      ]
+    },
+    "error_detail": null
+  }
+}

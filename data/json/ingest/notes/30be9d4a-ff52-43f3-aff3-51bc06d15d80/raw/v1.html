@@ -1,0 +1,8 @@
+---
+title: SSH 可能遇到 rsa key 验证失败
+updated: 2022-10-25 16:59:45Z
+created: 2022-10-25 16:59:16Z
+---
+
+
+<en-note><div>升级到 macOS Ventura 之后 SSH 可能遇到 rsa key 验证失败，解决方案：编辑 ~/.ssh/config, 新增两行:</div><div><br/></div><div>HostkeyAlgorithms +ssh-rsa</div><div>PubkeyAcceptedAlgorithms +ssh-rsa</div></en-note>      

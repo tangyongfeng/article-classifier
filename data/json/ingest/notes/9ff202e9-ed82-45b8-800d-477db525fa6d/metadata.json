@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9900a104-4c05-4f37-83bb-90e15293facd",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/1. Im Tiergarten.html",
+    "collected_at": "2025-11-09T20:05:15.608530Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "7f0a4cd406e3f21fcdbed8098443e17f53a00b9c5dd42e8c6f5ea22e45b2e206",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "9ff202e9-ed82-45b8-800d-477db525fa6d",
+    "ingest_source_id": "9900a104-4c05-4f37-83bb-90e15293facd",
+    "canonical_title": "1. Im Tiergarten",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:15.608534Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "1. Im Tiergarten.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0189f552-98b6-4724-9d52-4299bfbc3777",
+      "note_id": "9ff202e9-ed82-45b8-800d-477db525fa6d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.608537Z",
+      "content": "---\ntitle: 1. Im Tiergarten\nupdated: 2021-09-15 12:52:06Z\ncreated: 2021-09-15 12:51:04Z\n---\n\n\n\n<en-note><div><br/></div><div>Es ist Sonntag. Dunkelblau und ohne Wolke ist der Himmel. Viele Leute sind im Tiergarten. Vorn rechts steht das Elefantenhaus. Da kommt ein Elefant. Auf seinem R&uuml;cken sitzt ein W&auml;rter. Der Elefant hebt seinen R&uuml;ssel und nimmt damit einen Apfel, dem ihn ein M&auml;dchen gibt. Jetzt steckt er ihn in seinen gro&szlig;en Mund und nimmt von Peter ein Br&ouml;tchen. Wohin geht er nun? - Ans Wasser. Da trinkt er mit seinem R&uuml;ssel. Ein Herr zeigt ihm ein Geldst&uuml;ck. Der Elefant kommt zu ihm, nimmt das Geld mit seinem R&uuml;ssel aus der Hand und steckt es in die Tasche des W&auml;rters. Wie klug die Elefanten sind! </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7f0a4cd406e3f21fcdbed8098443e17f53a00b9c5dd42e8c6f5ea22e45b2e206",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/1. Im Tiergarten.html"
+      }
+    },
+    {
+      "id": "523eb714-95bd-4cce-a0b2-4f023705cfd3",
+      "note_id": "9ff202e9-ed82-45b8-800d-477db525fa6d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.608540Z",
+      "content": "---\ntitle: 1. Im Tiergarten\nupdated: 2021-09-15 12:52:06Z\ncreated: 2021-09-15 12:51:04Z\n---\n\nEs ist Sonntag. Dunkelblau und ohne Wolke ist der Himmel. Viele Leute sind im Tiergarten. Vorn rechts steht das Elefantenhaus. Da kommt ein Elefant. Auf seinem Rücken sitzt ein Wärter. Der Elefant hebt seinen Rüssel und nimmt damit einen Apfel, dem ihn ein Mädchen gibt. Jetzt steckt er ihn in seinen großen Mund und nimmt von Peter ein Brötchen. Wohin geht er nun? - Ans Wasser. Da trinkt er mit seinem Rüssel. Ein Herr zeigt ihm ein Geldstück. Der Elefant kommt zu ihm, nimmt das Geld mit seinem Rüssel aus der Hand und steckt es in die Tasche des Wärters. Wie klug die Elefanten sind!",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 680,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7aabe1c8-a1a1-4c7b-8339-8e5315588951",
+    "note_id": "9ff202e9-ed82-45b8-800d-477db525fa6d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.608545Z",
+    "finished_at": "2025-11-09T20:05:15.608545Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6a300bac-d9a5-4a5e-85ff-204a5839c1cf",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/1. Im Tiergarten.html",
+      "checksum": "7f0a4cd406e3f21fcdbed8098443e17f53a00b9c5dd42e8c6f5ea22e45b2e206"
+    },
+    "output_ref": {
+      "ingest_source": "9900a104-4c05-4f37-83bb-90e15293facd",
+      "note": "9ff202e9-ed82-45b8-800d-477db525fa6d",
+      "variants": [
+        "0189f552-98b6-4724-9d52-4299bfbc3777",
+        "523eb714-95bd-4cce-a0b2-4f023705cfd3"
+      ]
+    },
+    "error_detail": null
+  }
+}

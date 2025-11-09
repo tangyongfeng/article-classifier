@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "57ba7aa2-301a-477a-8081-dd7ca76e8259",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/scale out 测试记录 大压力测试记录.html",
+    "collected_at": "2025-11-09T20:05:16.903358Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e61549907e4d7c6aa1c6e2aaa91177c12ceac8be8470b90b16d41f30407102bd",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "3fb42747-1397-465e-b6f0-2a9e0109a2af",
+    "ingest_source_id": "57ba7aa2-301a-477a-8081-dd7ca76e8259",
+    "canonical_title": "scale out 测试记录 大压力测试记录",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.903362Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "scale out 测试记录 大压力测试记录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c174b804-3262-48de-a316-a25455692d94",
+      "note_id": "3fb42747-1397-465e-b6f0-2a9e0109a2af",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.903365Z",
+      "content": "---\ntitle: scale out 测试记录 大压力测试记录\nupdated: 2013-04-12 18:36:30Z\ncreated: 2013-04-12 18:23:01Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1\n<div>CF1&nbsp;</div><table BORDER=\"1\" CELLPADDING=\"2\" CELLSPACING=\"0\" WIDTH=\"100%\"><tbody><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">server 1</td><td VALIGN=\"top\">server2</td><td VALIGN=\"top\">server3</td></tr><tr><td VALIGN=\"top\">cpu</td><td VALIGN=\"top\">4chip*4process</td><td VALIGN=\"top\">8chip*4process</td><td VALIGN=\"top\">12chip*process</td></tr><tr><td VALIGN=\"top\">memory</td><td VALIGN=\"top\">100G</td><td VALIGN=\"top\">100G</td><td VALIGN=\"top\">100G</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td></tr></tbody></table><div><br/></div><div>开始的是有主要的工作是从磁盘上loading数据到内存里，所以开始的时候系统主要的负担是iowait.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e61549907e4d7c6aa1c6e2aaa91177c12ceac8be8470b90b16d41f30407102bd",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/scale out 测试记录 大压力测试记录.html"
+      }
+    },
+    {
+      "id": "3acefd39-882c-4264-a0e4-2b7af92c13e2",
+      "note_id": "3fb42747-1397-465e-b6f0-2a9e0109a2af",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.903368Z",
+      "content": "---\ntitle: scale out 测试记录 大压力测试记录\nupdated: 2013-04-12 18:36:30Z\ncreated: 2013-04-12 18:23:01Z\n---\n\n1\n\nCF1 \nserver 1\nserver2\nserver3\ncpu\n4chip*4process\n8chip*4process\n12chip*process\nmemory\n100G\n开始的是有主要的工作是从磁盘上loading数据到内存里，所以开始的时候系统主要的负担是iowait.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 244,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c8feaedb-ae4d-4272-a95c-0b0fd832e142",
+    "note_id": "3fb42747-1397-465e-b6f0-2a9e0109a2af",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.903373Z",
+    "finished_at": "2025-11-09T20:05:16.903373Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "16ce5284-688c-4e08-a7cf-e28c80e50122",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/scale out 测试记录 大压力测试记录.html",
+      "checksum": "e61549907e4d7c6aa1c6e2aaa91177c12ceac8be8470b90b16d41f30407102bd"
+    },
+    "output_ref": {
+      "ingest_source": "57ba7aa2-301a-477a-8081-dd7ca76e8259",
+      "note": "3fb42747-1397-465e-b6f0-2a9e0109a2af",
+      "variants": [
+        "c174b804-3262-48de-a316-a25455692d94",
+        "3acefd39-882c-4264-a0e4-2b7af92c13e2"
+      ]
+    },
+    "error_detail": null
+  }
+}

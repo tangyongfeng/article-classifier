@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "433c7b68-990a-4be8-98f3-78222fb0cb84",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/腾讯企业邮箱.html",
+    "collected_at": "2025-11-09T20:05:17.876699Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8e5c04755c387ec9e9b27bbd8534c5a69797fac3bfffb980f43de050b6a2d60f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b173b27b-ef90-4159-9ea8-81182482390d",
+    "ingest_source_id": "433c7b68-990a-4be8-98f3-78222fb0cb84",
+    "canonical_title": "腾讯企业邮箱",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:17.876702Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "腾讯企业邮箱.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3592f6a4-dfb5-44d0-9724-a44ae6e1c2ff",
+      "note_id": "b173b27b-ef90-4159-9ea8-81182482390d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.876705Z",
+      "content": "---\ntitle: 腾讯企业邮箱\nupdated: 2018-12-05 07:23:23Z\ncreated: 2018-12-05 07:19:51Z\n---\n\n\n<en-note><div>管理员tangatgmbh</div><div>密码&nbsp;b8#!F4e5CdcvhVVv</div><div><br/></div><div>tang@jlgmbh.de</div><div>CQnBnOXlM@^Cst88*P</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8e5c04755c387ec9e9b27bbd8534c5a69797fac3bfffb980f43de050b6a2d60f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/腾讯企业邮箱.html"
+      }
+    },
+    {
+      "id": "ae94d8d0-3488-46a6-8217-bfc5609db31b",
+      "note_id": "b173b27b-ef90-4159-9ea8-81182482390d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.876708Z",
+      "content": "---\ntitle: 腾讯企业邮箱\nupdated: 2018-12-05 07:23:23Z\ncreated: 2018-12-05 07:19:51Z\n---\n\n管理员tangatgmbh\n密码 b8#!F4e5CdcvhVVv\ntang@jlgmbh.de\nCQnBnOXlM@^Cst88*P",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 150,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ae97287b-2ab8-474b-8552-39bed650537d",
+    "note_id": "b173b27b-ef90-4159-9ea8-81182482390d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.876712Z",
+    "finished_at": "2025-11-09T20:05:17.876713Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c1eb2038-c1a0-486a-943c-f33aee081e5b",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/腾讯企业邮箱.html",
+      "checksum": "8e5c04755c387ec9e9b27bbd8534c5a69797fac3bfffb980f43de050b6a2d60f"
+    },
+    "output_ref": {
+      "ingest_source": "433c7b68-990a-4be8-98f3-78222fb0cb84",
+      "note": "b173b27b-ef90-4159-9ea8-81182482390d",
+      "variants": [
+        "3592f6a4-dfb5-44d0-9724-a44ae6e1c2ff",
+        "ae94d8d0-3488-46a6-8217-bfc5609db31b"
+      ]
+    },
+    "error_detail": null
+  }
+}

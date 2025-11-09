@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "03fedb2d-d509-4155-970e-8662d35f74c5",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/美股，第一理财账户.html",
+    "collected_at": "2025-11-09T20:01:39.624603Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "058b6b0ee202b71b506b8ccd15d8039157b50eb36b5bfcd224ca77bf860e8a5c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "3d31d664-a7e8-442e-913a-00598b8cb8f3",
+    "ingest_source_id": "03fedb2d-d509-4155-970e-8662d35f74c5",
+    "canonical_title": "美股，第一理财账户",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.624607Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "美股，第一理财账户.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d712ae9d-245b-4545-bd25-f04c1d54d128",
+      "note_id": "3d31d664-a7e8-442e-913a-00598b8cb8f3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.624609Z",
+      "content": "---\ntitle: 美股，第一理财账户\nupdated: 2014-02-25 07:16:29Z\ncreated: 2014-02-25 05:28:37Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\ntangyongfeng 密码 B*******d 安全码8**1&nbsp;\n<div>神秘问题，答案都是消息没有空格</div><div><br/></div><div>账户代码是 638-34380</div><div><br/></div><div>Firstrade Securities Inc. 133-25 37th Avenue Flushing, NY 11354</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "058b6b0ee202b71b506b8ccd15d8039157b50eb36b5bfcd224ca77bf860e8a5c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/美股，第一理财账户.html"
+      }
+    },
+    {
+      "id": "0efe89d0-949e-4c21-bec1-9d0b16fc4ecd",
+      "note_id": "3d31d664-a7e8-442e-913a-00598b8cb8f3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.624612Z",
+      "content": "---\ntitle: 美股，第一理财账户\nupdated: 2014-02-25 07:16:29Z\ncreated: 2014-02-25 05:28:37Z\n---\n\ntangyongfeng 密码 B*******d 安全码8**1 \n\n神秘问题，答案都是消息没有空格\n账户代码是 638-34380\nFirstrade Securities Inc. 133-25 37th Avenue Flushing, NY 11354",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 217,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "74ce03ec-e841-4b13-aa01-71941e380c80",
+    "note_id": "3d31d664-a7e8-442e-913a-00598b8cb8f3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.624617Z",
+    "finished_at": "2025-11-09T20:01:39.624617Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f9196bf8-a6f1-460c-a4a8-a24e6f34e107",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/美股，第一理财账户.html",
+      "checksum": "058b6b0ee202b71b506b8ccd15d8039157b50eb36b5bfcd224ca77bf860e8a5c"
+    },
+    "output_ref": {
+      "ingest_source": "03fedb2d-d509-4155-970e-8662d35f74c5",
+      "note": "3d31d664-a7e8-442e-913a-00598b8cb8f3",
+      "variants": [
+        "d712ae9d-245b-4545-bd25-f04c1d54d128",
+        "0efe89d0-949e-4c21-bec1-9d0b16fc4ecd"
+      ]
+    },
+    "error_detail": null
+  }
+}

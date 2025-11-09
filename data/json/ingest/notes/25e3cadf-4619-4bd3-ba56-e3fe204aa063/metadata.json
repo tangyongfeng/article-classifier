@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7f7d578c-f594-454d-90a2-f05a284107af",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/WTCF进阶沟通会.html",
+    "collected_at": "2025-11-09T20:05:16.887957Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "8b52225a5cad5cc554f5a92535f3607b73bac7eedee262895530eb57d8e4c912",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "25e3cadf-4619-4bd3-ba56-e3fe204aa063",
+    "ingest_source_id": "7f7d578c-f594-454d-90a2-f05a284107af",
+    "canonical_title": "WTCF进阶沟通会",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.887960Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "WTCF进阶沟通会.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a1998332-c8a3-49e6-b0a1-b32ec7c291bc",
+      "note_id": "25e3cadf-4619-4bd3-ba56-e3fe204aa063",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.887963Z",
+      "content": "---\ntitle: WTCF进阶沟通会\nupdated: 2013-07-05 03:53:55Z\ncreated: 2013-07-05 01:59:34Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nDB2灾备\n<div>purescale的备份每次的备份都是全备份，目前没有提供差异备份，为了补充，提供了备份tablespace的功能。</div><div>wtcf在建立的时候，可以将不同的cabinet，放在不同的tablespace上</div><div>db2的备份恢复需要在相同架构，但是在现在的版本上，已经解决了这个问题。</div><div>双活灾备10公里的倍数。</div><div>wtcf不同cabinet保存在不同的表中，会自动给不同的flode分配不同的行号，这样在双活异地的灾备系统中，就有可能出现冲突。如果使用db2的自动灾备，就不存在这个问题，因为db2是透明的备份，如果通过应用来实现异地的<u>双活</u>灾备解决方法是在双活的不同地域分别建立不同的表对应不同的cabinet。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8b52225a5cad5cc554f5a92535f3607b73bac7eedee262895530eb57d8e4c912",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/WTCF进阶沟通会.html"
+      }
+    },
+    {
+      "id": "5e613c58-4b44-474a-afea-46e613a74496",
+      "note_id": "25e3cadf-4619-4bd3-ba56-e3fe204aa063",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.887966Z",
+      "content": "---\ntitle: WTCF进阶沟通会\nupdated: 2013-07-05 03:53:55Z\ncreated: 2013-07-05 01:59:34Z\n---\n\nDB2灾备\n\npurescale的备份每次的备份都是全备份，目前没有提供差异备份，为了补充，提供了备份tablespace的功能。\nwtcf在建立的时候，可以将不同的cabinet，放在不同的tablespace上\ndb2的备份恢复需要在相同架构，但是在现在的版本上，已经解决了这个问题。\n双活灾备10公里的倍数。\nwtcf不同cabinet保存在不同的表中，会自动给不同的flode分配不同的行号，这样在双活异地的灾备系统中，就有可能出现冲突。如果使用db2的自动灾备，就不存在这个问题，因为db2是透明的备份，如果通过应用来实现异地的\n双活\n灾备解决方法是在双活的不同地域分别建立不同的表对应不同的cabinet。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 395,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "72c8a7a1-eb17-4c1c-84ef-9dc959238d6b",
+    "note_id": "25e3cadf-4619-4bd3-ba56-e3fe204aa063",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.887970Z",
+    "finished_at": "2025-11-09T20:05:16.887971Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cff27009-dc11-4953-9292-0a2725b83e23",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/WTCF进阶沟通会.html",
+      "checksum": "8b52225a5cad5cc554f5a92535f3607b73bac7eedee262895530eb57d8e4c912"
+    },
+    "output_ref": {
+      "ingest_source": "7f7d578c-f594-454d-90a2-f05a284107af",
+      "note": "25e3cadf-4619-4bd3-ba56-e3fe204aa063",
+      "variants": [
+        "a1998332-c8a3-49e6-b0a1-b32ec7c291bc",
+        "5e613c58-4b44-474a-afea-46e613a74496"
+      ]
+    },
+    "error_detail": null
+  }
+}

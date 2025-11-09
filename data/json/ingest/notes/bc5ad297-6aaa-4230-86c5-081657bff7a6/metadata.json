@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1b09486d-bcad-4c51-a8ee-93895ed5f02a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/垃圾袋。小米 大米 挂钩.html",
+    "collected_at": "2025-11-09T20:01:36.938044Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d135062e7e3b73ef4d4f0c234ca91b8d811b6ff4a72c900374e96c25012a09f4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "bc5ad297-6aaa-4230-86c5-081657bff7a6",
+    "ingest_source_id": "1b09486d-bcad-4c51-a8ee-93895ed5f02a",
+    "canonical_title": "垃圾袋。小米 大米 挂钩",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.938048Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "垃圾袋。小米 大米 挂钩.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a9019dc7-aa61-46a7-907f-d86dc01b7a6f",
+      "note_id": "bc5ad297-6aaa-4230-86c5-081657bff7a6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.938050Z",
+      "content": "---\ntitle: 垃圾袋。小米 大米 挂钩\nupdated: 2013-07-20 00:10:18Z\ncreated: 2013-07-20 00:08:58Z\n---\n\n\n\n<en-note></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d135062e7e3b73ef4d4f0c234ca91b8d811b6ff4a72c900374e96c25012a09f4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/垃圾袋。小米 大米 挂钩.html"
+      }
+    },
+    {
+      "id": "21166918-354d-4359-887d-780fa05f109e",
+      "note_id": "bc5ad297-6aaa-4230-86c5-081657bff7a6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.938053Z",
+      "content": "---\ntitle: 垃圾袋。小米 大米 挂钩\nupdated: 2013-07-20 00:10:18Z\ncreated: 2013-07-20 00:08:58Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 87,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "38868f0f-083d-435e-afe8-bb281bef1864",
+    "note_id": "bc5ad297-6aaa-4230-86c5-081657bff7a6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.938058Z",
+    "finished_at": "2025-11-09T20:01:36.938058Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4fe0133d-3b88-4a2b-9bda-486ddb146ffa",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/垃圾袋。小米 大米 挂钩.html",
+      "checksum": "d135062e7e3b73ef4d4f0c234ca91b8d811b6ff4a72c900374e96c25012a09f4"
+    },
+    "output_ref": {
+      "ingest_source": "1b09486d-bcad-4c51-a8ee-93895ed5f02a",
+      "note": "bc5ad297-6aaa-4230-86c5-081657bff7a6",
+      "variants": [
+        "a9019dc7-aa61-46a7-907f-d86dc01b7a6f",
+        "21166918-354d-4359-887d-780fa05f109e"
+      ]
+    },
+    "error_detail": null
+  }
+}

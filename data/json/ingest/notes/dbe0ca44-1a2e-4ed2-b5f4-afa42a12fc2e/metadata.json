@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "5419af57-e765-49c6-8596-473c3c47be98",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/达美常旅客.html",
+    "collected_at": "2025-11-09T20:05:19.150356Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ede7b19e2f1dc7638e3d745cfc5b92e569ff454e5d96eb87828aab3f971ea58c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "dbe0ca44-1a2e-4ed2-b5f4-afa42a12fc2e",
+    "ingest_source_id": "5419af57-e765-49c6-8596-473c3c47be98",
+    "canonical_title": "达美常旅客",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:19.150360Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "达美常旅客.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4dd5a30a-c09b-456b-ae41-7ba95290b6ce",
+      "note_id": "dbe0ca44-1a2e-4ed2-b5f4-afa42a12fc2e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.150363Z",
+      "content": "---\ntitle: 达美常旅客\nupdated: 2013-01-31 08:33:38Z\ncreated: 2012-10-25 03:09:34Z\nsource: https://zh.delta.com/skymilesenrollment/enroll.action\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\">Yongfeng Tang</span><br STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\"/><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\">SM# 9259868611</span><div><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\"><br/></span></div><div><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\"><a HREF=\"mailto:tangyongfeng@gmail.com\">tangyongfeng@gmail.com</a>&nbsp;</span></div><div><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\"><br/></span></div><div><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\">9999</span></div><div><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\"><br/></span></div><div><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\">Be1******d</span></div><div><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\"><br/></span></div><div><span STYLE=\"font-family: Tahoma, Arial, sans-serif; font-weight: bold; text-align: left;\"><br/></span></div><div><span STYLE=\"font-family: sans-serif; font-size: 11.818181991577148px;\">li&nbsp;jia</span></div><div><br STYLE=\"font-family: sans-serif; font-size: 11.818181991577148px;\"/><span STYLE=\"font-family: sans-serif; font-size: 11.818181991577148px;\">#9360533377</span></div><div><span STYLE=\"font-family: sans-serif; font-size: 11.818181991577148px;\">evalijia@gmail.com</span>&nbsp; &nbsp; &nbsp;</div><div><br/></div><div>ll*****7 &nbsp;大写</div><div><br/></div><div>YOURAN TANG</div><div><font FACE=\"Verdana, Arial\" STYLE=\"font-size:11px;color:#333333\"><strong>9260526513</strong></font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ede7b19e2f1dc7638e3d745cfc5b92e569ff454e5d96eb87828aab3f971ea58c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/达美常旅客.html"
+      }
+    },
+    {
+      "id": "bf69b9df-a70a-4b50-8bb2-1fecdda023e8",
+      "note_id": "dbe0ca44-1a2e-4ed2-b5f4-afa42a12fc2e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.150365Z",
+      "content": "---\ntitle: 达美常旅客\nupdated: 2013-01-31 08:33:38Z\ncreated: 2012-10-25 03:09:34Z\nsource: https://zh.delta.com/skymilesenrollment/enroll.action\n---\n\nYongfeng Tang\nSM# 9259868611\ntangyongfeng@gmail.com\n \n9999\nBe1******d\nli jia\n\nevalijia@gmail.com\n     \nll*****7  大写\nYOURAN TANG\n9260526513",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 282,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "social_handles",
+            "description": "Drop standalone social handles and hashtags",
+            "note": "removed social handle only lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "bc8396ab-9972-4e64-8bd4-2c55d2fa92eb",
+    "note_id": "dbe0ca44-1a2e-4ed2-b5f4-afa42a12fc2e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:19.150370Z",
+    "finished_at": "2025-11-09T20:05:19.150370Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "849cec85-226d-4529-bad0-295a6efde885",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/达美常旅客.html",
+      "checksum": "ede7b19e2f1dc7638e3d745cfc5b92e569ff454e5d96eb87828aab3f971ea58c"
+    },
+    "output_ref": {
+      "ingest_source": "5419af57-e765-49c6-8596-473c3c47be98",
+      "note": "dbe0ca44-1a2e-4ed2-b5f4-afa42a12fc2e",
+      "variants": [
+        "4dd5a30a-c09b-456b-ae41-7ba95290b6ce",
+        "bf69b9df-a70a-4b50-8bb2-1fecdda023e8"
+      ]
+    },
+    "error_detail": null
+  }
+}

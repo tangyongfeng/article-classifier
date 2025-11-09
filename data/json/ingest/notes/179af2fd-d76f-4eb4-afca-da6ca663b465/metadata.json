@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "38b70563-a30b-4629-a2f2-24f358a89be0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/广告营销的三层策略.html",
+    "collected_at": "2025-11-09T20:05:14.889009Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "7fa5663ced1fa8ead8aa479a4de684b063fb3e8742b5587eb8fffff81b768e68",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "179af2fd-d76f-4eb4-afca-da6ca663b465",
+    "ingest_source_id": "38b70563-a30b-4629-a2f2-24f358a89be0",
+    "canonical_title": "广告营销的三层策略",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:14.889013Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "广告营销的三层策略.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3606d4cb-9812-4a21-8cf2-6648a765fbf4",
+      "note_id": "179af2fd-d76f-4eb4-afca-da6ca663b465",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.889015Z",
+      "content": "---\ntitle: 广告营销的三层策略\nupdated: 2016-12-14 08:16:40Z\ncreated: 2016-12-14 07:33:40Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 网络营销课程\n---\n\n\n\n\n<en-note><div>未见过你</div><div>见过你</div><div>认识你</div><div>信任你 = 买你的产品服务</div><div><br/></div><div><br/></div><div>按照不同的阶段，投放不同的广告</div><div><br/></div><div><br/></div><div>未见过你：冷广告，介绍自己最突出的地方，有趣，有价值的教育性文章。要吸引眼球，寻求link或share，最重要的指标是CTR，点击数。冷广告不要推荐产品，最多提到即可，没人喜欢分享广告。冷广告一般客户只看几秒。</div><div>见过你-认识你：暖广告，和对手不同之处，比较用家见证/奖项。可以相对深入的讲解产品。目标客户是上一层的用户。指标：订阅率、询问。</div><div>热广告：追踪广告，不公开发送，只给成功接受热广告的客户。比较好的策略是给优惠，只是通过热广告的。进入第三层的广告人非常少，非常容易动摇，所以最好通过优惠来促成成交。</div><div><br/></div><div>一层广告成本规划：60%</div><div>二层： &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;30%</div><div>三层： &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;10%</div><div><br/></div><div>普通产品投放两层即可，高利润产品可以投放三层。</div><div><br/></div><div>冷广告的目的是让客户点击《关于我们》，冷广告最好</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7fa5663ced1fa8ead8aa479a4de684b063fb3e8742b5587eb8fffff81b768e68",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/广告营销的三层策略.html"
+      }
+    },
+    {
+      "id": "3cb423d6-c271-4d61-93cb-8c40d5a6529b",
+      "note_id": "179af2fd-d76f-4eb4-afca-da6ca663b465",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.889018Z",
+      "content": "---\ntitle: 广告营销的三层策略\nupdated: 2016-12-14 08:16:40Z\ncreated: 2016-12-14 07:33:40Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 网络营销课程\n---\n\n未见过你\n见过你\n认识你\n信任你 = 买你的产品服务\n按照不同的阶段，投放不同的广告\n未见过你：冷广告，介绍自己最突出的地方，有趣，有价值的教育性文章。要吸引眼球，寻求link或share，最重要的指标是CTR，点击数。冷广告不要推荐产品，最多提到即可，没人喜欢分享广告。冷广告一般客户只看几秒。\n见过你-认识你：暖广告，和对手不同之处，比较用家见证/奖项。可以相对深入的讲解产品。目标客户是上一层的用户。指标：订阅率、询问。\n热广告：追踪广告，不公开发送，只给成功接受热广告的客户。比较好的策略是给优惠，只是通过热广告的。进入第三层的广告人非常少，非常容易动摇，所以最好通过优惠来促成成交。\n一层广告成本规划：60%\n二层：                    30%\n三层：                    10%\n普通产品投放两层即可，高利润产品可以投放三层。\n冷广告的目的是让客户点击《关于我们》，冷广告最好",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 546,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0007906f-cc88-4629-a2ba-9c6b15c8560d",
+    "note_id": "179af2fd-d76f-4eb4-afca-da6ca663b465",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.889022Z",
+    "finished_at": "2025-11-09T20:05:14.889023Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "610573d4-3b07-43d9-9fda-98fcd5e7d51e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/广告营销的三层策略.html",
+      "checksum": "7fa5663ced1fa8ead8aa479a4de684b063fb3e8742b5587eb8fffff81b768e68"
+    },
+    "output_ref": {
+      "ingest_source": "38b70563-a30b-4629-a2f2-24f358a89be0",
+      "note": "179af2fd-d76f-4eb4-afca-da6ca663b465",
+      "variants": [
+        "3606d4cb-9812-4a21-8cf2-6648a765fbf4",
+        "3cb423d6-c271-4d61-93cb-8c40d5a6529b"
+      ]
+    },
+    "error_detail": null
+  }
+}

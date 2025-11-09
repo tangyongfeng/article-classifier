@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5f178620-6e31-4bd1-a04d-fad7c18c54e3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/维格转债.html",
+    "collected_at": "2025-11-09T20:01:39.622827Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "87ce6ce9a6adc5e92af28274d3cb6fafca227e1fba6efb914ea49c672f548abc",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "314bc068-1788-420d-91bc-e42521b72c9f",
+    "ingest_source_id": "5f178620-6e31-4bd1-a04d-fad7c18c54e3",
+    "canonical_title": "维格转债",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.622831Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "维格转债.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "aee8d4af-6f81-49f1-ad54-3859ad3ac5c1",
+      "note_id": "314bc068-1788-420d-91bc-e42521b72c9f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.622833Z",
+      "content": "---\ntitle: 维格转债\nupdated: 2020-07-27 02:31:58Z\ncreated: 2020-07-27 02:31:37Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>资不抵债，有违约风险</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "87ce6ce9a6adc5e92af28274d3cb6fafca227e1fba6efb914ea49c672f548abc",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/维格转债.html"
+      }
+    },
+    {
+      "id": "5c2fcc94-c758-4a6e-a060-cdda8e16b3ae",
+      "note_id": "314bc068-1788-420d-91bc-e42521b72c9f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.622836Z",
+      "content": "---\ntitle: 维格转债\nupdated: 2020-07-27 02:31:58Z\ncreated: 2020-07-27 02:31:37Z\nauthor: tangyongfeng@gmail.com\n---\n\n资不抵债，有违约风险",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 122,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fdd4dddc-e09c-4faa-98fe-23fd750cda08",
+    "note_id": "314bc068-1788-420d-91bc-e42521b72c9f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.622841Z",
+    "finished_at": "2025-11-09T20:01:39.622841Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dd800513-ad3c-4d39-aa2f-a86a21f8c1a6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/维格转债.html",
+      "checksum": "87ce6ce9a6adc5e92af28274d3cb6fafca227e1fba6efb914ea49c672f548abc"
+    },
+    "output_ref": {
+      "ingest_source": "5f178620-6e31-4bd1-a04d-fad7c18c54e3",
+      "note": "314bc068-1788-420d-91bc-e42521b72c9f",
+      "variants": [
+        "aee8d4af-6f81-49f1-ad54-3859ad3ac5c1",
+        "5c2fcc94-c758-4a6e-a060-cdda8e16b3ae"
+      ]
+    },
+    "error_detail": null
+  }
+}

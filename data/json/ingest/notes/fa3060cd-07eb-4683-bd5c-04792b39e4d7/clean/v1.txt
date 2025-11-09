@@ -1,0 +1,19 @@
+---
+title: scale out 测试记录 大压力测试记录
+updated: 2013-04-12 18:36:30Z
+created: 2013-04-12 18:23:01Z
+---
+
+1
+
+CF1 
+server 1
+server2
+server3
+cpu
+4chip*4process
+8chip*4process
+12chip*process
+memory
+100G
+开始的是有主要的工作是从磁盘上loading数据到内存里，所以开始的时候系统主要的负担是iowait.

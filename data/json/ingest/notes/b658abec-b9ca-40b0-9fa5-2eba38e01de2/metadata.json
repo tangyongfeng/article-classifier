@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "dfcee2c8-bb6c-49e5-a3b2-177f1572d0fa",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/转股规则.html",
+    "collected_at": "2025-11-09T20:01:39.653600Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "d185f9bd571a485ed90d00d85ff1c3cf54c6902df208d0b238e57024b6a44aca",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b658abec-b9ca-40b0-9fa5-2eba38e01de2",
+    "ingest_source_id": "dfcee2c8-bb6c-49e5-a3b2-177f1572d0fa",
+    "canonical_title": "转股规则",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:01:39.653607Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "转股规则.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "adcff46c-7fb8-4fde-98e7-d304449626c5",
+      "note_id": "b658abec-b9ca-40b0-9fa5-2eba38e01de2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.653611Z",
+      "content": "---\ntitle: 转股规则\nupdated: 2021-07-05 17:56:58Z\ncreated: 2021-07-05 16:01:25Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>尚未转股： &nbsp;当前时间 &lt; 开始时间 &lt; 结束时间</div><div>开始转股： 开始时间 &lt; 当前时间 &lt; 结束时间</div><div>结束转股: &nbsp; &nbsp;开始时间&lt;结束时间&lt; 当前时间</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d185f9bd571a485ed90d00d85ff1c3cf54c6902df208d0b238e57024b6a44aca",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/转股规则.html"
+      }
+    },
+    {
+      "id": "efb52860-269b-448a-97f3-ec05f71c3f98",
+      "note_id": "b658abec-b9ca-40b0-9fa5-2eba38e01de2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.653615Z",
+      "content": "---\ntitle: 转股规则\nupdated: 2021-07-05 17:56:58Z\ncreated: 2021-07-05 16:01:25Z\nauthor: tangyongfeng@gmail.com\n---\n\n尚未转股：  当前时间 < 开始时间 < 结束时间\n开始转股： 开始时间 < 当前时间 < 结束时间\n结束转股:    开始时间<结束时间< 当前时间",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 187,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d25d0dbf-5789-41ef-917a-b250e2808c02",
+    "note_id": "b658abec-b9ca-40b0-9fa5-2eba38e01de2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.653621Z",
+    "finished_at": "2025-11-09T20:01:39.653621Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "23410060-d241-414c-bd9a-84bb667a4410",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/转股规则.html",
+      "checksum": "d185f9bd571a485ed90d00d85ff1c3cf54c6902df208d0b238e57024b6a44aca"
+    },
+    "output_ref": {
+      "ingest_source": "dfcee2c8-bb6c-49e5-a3b2-177f1572d0fa",
+      "note": "b658abec-b9ca-40b0-9fa5-2eba38e01de2",
+      "variants": [
+        "adcff46c-7fb8-4fde-98e7-d304449626c5",
+        "efb52860-269b-448a-97f3-ec05f71c3f98"
+      ]
+    },
+    "error_detail": null
+  }
+}

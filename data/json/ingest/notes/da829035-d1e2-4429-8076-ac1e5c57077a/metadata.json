@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5436cd4b-f983-49fe-a6b5-e879d9a7d092",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/雅化集团.html",
+    "collected_at": "2025-11-09T20:01:39.726556Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "14d9634c1355c2fa99ef3b13d07db362b8e89ebeaa7129f3916501f967b9d5e6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "da829035-d1e2-4429-8076-ac1e5c57077a",
+    "ingest_source_id": "5436cd4b-f983-49fe-a6b5-e879d9a7d092",
+    "canonical_title": "雅化集团",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.726559Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "雅化集团.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3aa704da-44ef-4af4-bb61-9cfdd501944b",
+      "note_id": "da829035-d1e2-4429-8076-ac1e5c57077a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.726562Z",
+      "content": "---\ntitle: 雅化集团\nupdated: 2013-09-26 14:47:36Z\ncreated: 2013-09-26 09:32:47Z\ntags:\n  - 盈利率0\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n2013年9月26日。现在正在进行拉锯战，正在把上方的筹码逐渐磨掉。近期不会有结果。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "14d9634c1355c2fa99ef3b13d07db362b8e89ebeaa7129f3916501f967b9d5e6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/雅化集团.html"
+      }
+    },
+    {
+      "id": "d07d46f0-446b-4337-bd65-ef47c59ad678",
+      "note_id": "da829035-d1e2-4429-8076-ac1e5c57077a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.726565Z",
+      "content": "---\ntitle: 雅化集团\nupdated: 2013-09-26 14:47:36Z\ncreated: 2013-09-26 09:32:47Z\ntags:\n  - 盈利率0\n---\n\n2013年9月26日。现在正在进行拉锯战，正在把上方的筹码逐渐磨掉。近期不会有结果。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 138,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e80bbf15-7640-46de-8514-b03f2bfbc035",
+    "note_id": "da829035-d1e2-4429-8076-ac1e5c57077a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.726570Z",
+    "finished_at": "2025-11-09T20:01:39.726570Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "43435f73-c3dd-48d0-96df-06e58227d623",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/雅化集团.html",
+      "checksum": "14d9634c1355c2fa99ef3b13d07db362b8e89ebeaa7129f3916501f967b9d5e6"
+    },
+    "output_ref": {
+      "ingest_source": "5436cd4b-f983-49fe-a6b5-e879d9a7d092",
+      "note": "da829035-d1e2-4429-8076-ac1e5c57077a",
+      "variants": [
+        "3aa704da-44ef-4af4-bb61-9cfdd501944b",
+        "d07d46f0-446b-4337-bd65-ef47c59ad678"
+      ]
+    },
+    "error_detail": null
+  }
+}

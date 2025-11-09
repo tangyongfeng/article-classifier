@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "aef5c855-d303-427a-bac0-06c328563f46",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/互联网系统需求总结.html",
+    "collected_at": "2025-11-09T20:05:16.950506Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "66bc03f85f6b5731cfe237147b68ce4848184041e042d9f611649e0a2061a61b",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8720e8c5-a3a8-44cc-97fa-28050f0805d4",
+    "ingest_source_id": "aef5c855-d303-427a-bac0-06c328563f46",
+    "canonical_title": "互联网系统需求总结",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.950510Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "互联网系统需求总结.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e1ca5cb4-6e66-46a0-803e-7c388a97c13c",
+      "note_id": "8720e8c5-a3a8-44cc-97fa-28050f0805d4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.950513Z",
+      "content": "---\ntitle: 互联网系统需求总结\nupdated: 2013-04-12 03:07:10Z\ncreated: 2013-04-11 19:44:48Z\n---\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; \">\n功能特性：\n\n&Tab;<div>1、移动设备</div>\n&Tab;<div>2、和互联网结合新游戏</div>\n&Tab;<div>3、第三方销售</div>\n&Tab;<div>4、防沉溺</div>\n&Tab;<div>性能特性：</div>\n&Tab;<div>1、人数上的压力</div>\n&Tab;<div>2、网民行为受到社交媒体影响的考虑</div>\n&Tab;<div>3、连接不确定性对系统的影响</div>\n&Tab;<div><br/></div>\n&Tab;<div>互联网DNA</div>\n&Tab;<div>1、时间碎片化</div>\n&Tab;<div>2、炫耀、分享</div><div>3、轻量化</div>\n&Tab;<div><br/></div>\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "66bc03f85f6b5731cfe237147b68ce4848184041e042d9f611649e0a2061a61b",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/互联网系统需求总结.html"
+      }
+    },
+    {
+      "id": "5d00ffee-9fcd-48f0-a1ae-711b305fea0a",
+      "note_id": "8720e8c5-a3a8-44cc-97fa-28050f0805d4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.950516Z",
+      "content": "---\ntitle: 互联网系统需求总结\nupdated: 2013-04-12 03:07:10Z\ncreated: 2013-04-11 19:44:48Z\n---\n\n功能特性：\n\n1、移动设备\n\n2、和互联网结合新游戏\n\n3、第三方销售\n\n4、防沉溺\n\n性能特性：\n\n1、人数上的压力\n\n2、网民行为受到社交媒体影响的考虑\n\n3、连接不确定性对系统的影响\n\n互联网DNA\n\n1、时间碎片化\n\n2、炫耀、分享\n3、轻量化",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 212,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0342f49f-9a52-4d4d-b4e8-87d5b3b0b785",
+    "note_id": "8720e8c5-a3a8-44cc-97fa-28050f0805d4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.950522Z",
+    "finished_at": "2025-11-09T20:05:16.950522Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "36be8b5b-865b-4972-92c4-701b71bfe511",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/互联网系统需求总结.html",
+      "checksum": "66bc03f85f6b5731cfe237147b68ce4848184041e042d9f611649e0a2061a61b"
+    },
+    "output_ref": {
+      "ingest_source": "aef5c855-d303-427a-bac0-06c328563f46",
+      "note": "8720e8c5-a3a8-44cc-97fa-28050f0805d4",
+      "variants": [
+        "e1ca5cb4-6e66-46a0-803e-7c388a97c13c",
+        "5d00ffee-9fcd-48f0-a1ae-711b305fea0a"
+      ]
+    },
+    "error_detail": null
+  }
+}

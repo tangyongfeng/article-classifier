@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "af27a930-6df5-41dc-b038-3cc19bfb29d2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Leoschule 🌟.html",
+    "collected_at": "2025-11-09T20:01:38.634652Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6d4123103596eb53c8681b6c7a7a4d4ecec6697c363d87cfc411fbafa3c18355",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ec87453f-119a-43f0-baa4-8604af99b14a",
+    "ingest_source_id": "af27a930-6df5-41dc-b038-3cc19bfb29d2",
+    "canonical_title": "Leoschule 🌟",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.634656Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Leoschule 🌟.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "76d436c8-7bf9-4f66-a09e-d0e7724908d0",
+      "note_id": "ec87453f-119a-43f0-baa4-8604af99b14a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.634659Z",
+      "content": "---\ntitle: Leoschule 🌟\nupdated: 2019-03-09 19:51:51Z\ncreated: 2019-03-09 19:31:05Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\n\n<en-note><h1 STYLE=\"border: 0px; outline: 0px; padding: 0px 0px 5px; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"><span STYLE=\"color: rgb(34, 34, 34); font-variant-caps: normal; font-variant-ligatures: normal; line-height: 36px; font-family: Courier; font-size: 14px; font-weight: normal;\">Leoschule 是一所城市天主教小学; 酒店位于Furth北部的Neuss区，紧邻Neuss Nordpark，乘坐公共交通工具即可轻松抵达。我们学校是一所两到三门课程的小学。目前，有240名学生在九个班级中生活，学习和工作。作为天主教忏悔学校，我们属于教区基督君王和圣灵。</span></h1><div><span STYLE=\"color: rgb(34, 34, 34); font-variant-caps: normal; font-variant-ligatures: normal; line-height: 36px; font-family: Courier; font-size: 14px; font-weight: normal;\">5/42</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6d4123103596eb53c8681b6c7a7a4d4ecec6697c363d87cfc411fbafa3c18355",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Leoschule 🌟.html"
+      }
+    },
+    {
+      "id": "8e54f1c6-57f8-4085-a5ee-6fbfd868840b",
+      "note_id": "ec87453f-119a-43f0-baa4-8604af99b14a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.634661Z",
+      "content": "---\ntitle: Leoschule 🌟\nupdated: 2019-03-09 19:51:51Z\ncreated: 2019-03-09 19:31:05Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\nLeoschule 是一所城市天主教小学; 酒店位于Furth北部的Neuss区，紧邻Neuss Nordpark，乘坐公共交通工具即可轻松抵达。我们学校是一所两到三门课程的小学。目前，有240名学生在九个班级中生活，学习和工作。作为天主教忏悔学校，我们属于教区基督君王和圣灵。\n5/42",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 276,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "eddb86f2-fdfa-456e-a261-ac200052bd1b",
+    "note_id": "ec87453f-119a-43f0-baa4-8604af99b14a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.634666Z",
+    "finished_at": "2025-11-09T20:01:38.634666Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "506bc729-78f4-4473-a400-117b9345da4e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Leoschule 🌟.html",
+      "checksum": "6d4123103596eb53c8681b6c7a7a4d4ecec6697c363d87cfc411fbafa3c18355"
+    },
+    "output_ref": {
+      "ingest_source": "af27a930-6df5-41dc-b038-3cc19bfb29d2",
+      "note": "ec87453f-119a-43f0-baa4-8604af99b14a",
+      "variants": [
+        "76d436c8-7bf9-4f66-a09e-d0e7724908d0",
+        "8e54f1c6-57f8-4085-a5ee-6fbfd868840b"
+      ]
+    },
+    "error_detail": null
+  }
+}

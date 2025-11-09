@@ -1,0 +1,89 @@
+---
+title: Openedx 快捷粘贴
+updated: 2021-01-15 14:23:05Z
+created: 2021-01-15 14:22:25Z
+author: tangyongfeng@gmail.com
+tags:
+  - openedx
+---
+
+Open edx版本：koa.1 on Ubuntu 20.04
+服务器IP ： 47.242.171.241
+LMS ：
+http://online.tuxrman.cn/
+CMS ：
+http://online.tuxrman.cn:18010
+ADMIN :
+http://online.tuxrman.cn/admin
+
+超级管理员    :     oraman/abc123
+教师    :    
+xueym@email.com
+ / abc123
+### 更换宣传图片
+###
+SHOW_FOOTER_LANGUAGE_SELECTOR: false
+SHOW_HEADER_LANGUAGE_SELECTOR: true
+### 添加链接和二级域名
+ <div class="mobile-nav-item hidden-mobile nav-item">
+       <a class="register-btn btn" href="
+http://www.bitzh.edu.cn/
+">${_(“”北理珠)}</a>
+ <div class="mobile-nav-item hidden-mobile nav-item">
+       <a class="register-btn btn" href="
+https://www.baidu.com/
+">${_(“”)}</a>
+#### 更新主题  ####
+version :  open edx Koa.1
+target  :  apply stanford-style theme
+1. 修改/edx/etc/下的lms.yml和studio.yml
+ENABLE_COMPREHENSIVE_THEMING: true
+COMPREHENSIVE_THEME_DIRS:
+- "/edx/app/edxapp/edx-platform/themes"
+sudo su edxapp -s /bin/bash
+cd
+source edxapp_env
+cd /edx/app/edxapp/edx-platform/
+paver update_assets lms --settings=production
+paver update_assets cms --settings=production
+#### 1. 后台命令行创建超级管理员
+sudo su edxapp -s /bin/bash
+cd
+source edxapp_env
+cd /edx/app/edxapp/edx-platform/
+# 1.1 创建超级用户oraman
+./manage.py lms manage_user oraman
+oraman@email.com
+ --staff --superuser --settings=production
+./manage.py lms manage_user oraman
+tangyf@email.com
+ --staff --settings=production
+./manage.py lms manage_user stud01
+stud01@email.com
+  --settings=production
+./manage.py lms manage_user stud02
+stud02@email.com
+  --settings=production
+./manage.py lms manage_user stud03
+stud03@email.com
+  --settings=production
+./manage.py lms manage_user stud04
+stud04@email.com
+  --settings=production
+./manage.py lms manage_user stud05
+stud05@email.com
+  --settings=production
+# 1.2 修改超级用户oraman密码
+./manage.py lms  --settings production changepassword oraman
+./manage.py lms  --settings production changepassword stud03
+# 1.3 ADMIN后台添加普通用户
+oraman用户登录LMS管理后台
+http://online.tuxrman.cn/admin
+
+选择 Authentication and Authorization › Users ›
+根据提示填写信息，添加新用户
+勾选“is active”
+保存后跳转，“权限”列表勾选“Staff status”，赋予创建课程权限, 学生等普通用户无需勾选。
+<img src="${static.url("images/heade01.png")}" class="welcom1"/>
+<img src="${static.url("images/head02.png")}" class="head02" >
+completion.enable_completion_tracking

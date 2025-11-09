@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b277ca6c-3115-4b6f-99df-6c3cdcd44fdd",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Sharing link-1.html",
+    "collected_at": "2025-11-09T20:05:13.638333Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c438802d81b3ea4bcc521d37c6a27ce3f7f16aab6b362fcf5fb3b5770a1633af",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "046f1005-aa39-4e10-89a2-fd97ad205ed4",
+    "ingest_source_id": "b277ca6c-3115-4b6f-99df-6c3cdcd44fdd",
+    "canonical_title": "Sharing link-1",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.638337Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Sharing link-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "192c41d9-499c-4c3a-9897-64cfd5797379",
+      "note_id": "046f1005-aa39-4e10-89a2-fd97ad205ed4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.638340Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2018-08-17 09:37:14Z\ncreated: 2018-08-17 09:37:14Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><span>Sharing link</span></div>\n<div><br/></div>\n<div><span>http://www.moe.gov.cn/srcsite/A17/moe_938/s3273/201707/t20170717_309457.html</span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c438802d81b3ea4bcc521d37c6a27ce3f7f16aab6b362fcf5fb3b5770a1633af",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Sharing link-1.html"
+      }
+    },
+    {
+      "id": "e4301392-5639-42f7-92c0-be5149b34bf7",
+      "note_id": "046f1005-aa39-4e10-89a2-fd97ad205ed4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.638343Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2018-08-17 09:37:14Z\ncreated: 2018-08-17 09:37:14Z\nauthor: tangyongfeng@gmail.com\n---\n\nSharing link\n\nhttp://www.moe.gov.cn/srcsite/A17/moe_938/s3273/201707/t20170717_309457.html",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 210,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0fa9c9d1-dbba-463b-a463-ef5762352c42",
+    "note_id": "046f1005-aa39-4e10-89a2-fd97ad205ed4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.638348Z",
+    "finished_at": "2025-11-09T20:05:13.638348Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5cfb13a6-2ab0-4f4f-a5e3-46808217dd0f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Sharing link-1.html",
+      "checksum": "c438802d81b3ea4bcc521d37c6a27ce3f7f16aab6b362fcf5fb3b5770a1633af"
+    },
+    "output_ref": {
+      "ingest_source": "b277ca6c-3115-4b6f-99df-6c3cdcd44fdd",
+      "note": "046f1005-aa39-4e10-89a2-fd97ad205ed4",
+      "variants": [
+        "192c41d9-499c-4c3a-9897-64cfd5797379",
+        "e4301392-5639-42f7-92c0-be5149b34bf7"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "processing_summary": {
+    "total_articles": 1343,
+    "classified_articles": 932,
+    "unclassified_articles": 411,
+    "completion_rate": "69.40%"
+  },
+  "category_statistics": {
+    "total_unique_categories": 11,
+    "top_20_categories": [
+      {
+        "category": "技术",
+        "count": 381
+      },
+      {
+        "category": "教育",
+        "count": 152
+      },
+      {
+        "category": "金融",
+        "count": 128
+      },
+      {
+        "category": "商务",
+        "count": 91
+      },
+      {
+        "category": "旅行",
+        "count": 62
+      },
+      {
+        "category": "社会",
+        "count": 53
+      },
+      {
+        "category": "交通",
+        "count": 22
+      },
+      {
+        "category": "历史",
+        "count": 20
+      },
+      {
+        "category": "多媒体",
+        "count": 16
+      },
+      {
+        "category": "个人发展",
+        "count": 6
+      },
+      {
+        "category": "国家与地区",
+        "count": 1
+      }
+    ]
+  },
+  "sample_classified_articles": [
+    {
+      "id": 886,
+      "title": "如何在12个月内创办一家资产数百万美元的公司？_36氪",
+      "category": "商务",
+      "confidence": 0.9
+    },
+    {
+      "id": 903,
+      "title": "OSMOCOMBB新手指南 - Note Pad",
+      "category": "技术",
+      "confidence": 0.92
+    },
+    {
+      "id": 368,
+      "title": "Python爬虫学习系列教程 | 静觅",
+      "category": "技术",
+      "confidence": 0.92
+    },
+    {
+      "id": 606,
+      "title": "汽车钥匙频率",
+      "category": "技术",
+      "confidence": 0.6
+    },
+    {
+      "id": 362,
+      "title": "无标题笔记",
+      "category": "技术",
+      "confidence": 0.85
+    },
+    {
+      "id": 552,
+      "title": "如何用不足百元的电视棒接收气象卫星云图 - 极客头条 - CSDN.NET",
+      "category": "技术",
+      "confidence": 0.78
+    },
+    {
+      "id": 1315,
+      "title": "我是如何编译osmocomBB的 | sqzr's blog",
+      "category": "技术",
+      "confidence": 0.82
+    },
+    {
+      "id": 396,
+      "title": "Sharing link",
+      "category": "技术",
+      "confidence": 0.6
+    },
+    {
+      "id": 457,
+      "title": "中国福彩 某系统权限登录#涉及报表信息、彩民管理、短信发送等-QTVA-2016-393707- 补天 - - 全球最大的漏洞响应平台，帮助企业建立SRC",
+      "category": "技术",
+      "confidence": 0.92
+    },
+    {
+      "id": 1335,
+      "title": "如何在12个月内创办一家资产数百万美元的公司？_36氪",
+      "category": "商务",
+      "confidence": 0.92
+    }
+  ]
+}

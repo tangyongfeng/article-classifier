@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f45cde77-a68f-4b86-b247-6edfad3879c0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/WTCF测试记录.html",
+    "collected_at": "2025-11-09T20:01:37.760566Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "73372ab3a6fa065287d1fc7043cb2e3cac6f03ec1cbe6b31f39a57062c7939a1",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d0317375-da19-4022-a82e-46c2e9a04bba",
+    "ingest_source_id": "f45cde77-a68f-4b86-b247-6edfad3879c0",
+    "canonical_title": "WTCF测试记录",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.760570Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "WTCF测试记录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0c4d66f2-557f-4f3b-a89d-5d2f5833e59c",
+      "note_id": "d0317375-da19-4022-a82e-46c2e9a04bba",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.760572Z",
+      "content": "---\ntitle: WTCF测试记录\nupdated: 2013-04-08 19:16:01Z\ncreated: 2013-04-08 15:26:21Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n15707072 X4K buff pool size\n<div>RDMA over converged ethernet - ROCE&nbsp;</div><div><br/></div><div>每次测试的输出文件</div><div><br/></div><div>1、logfile :case08_s50_n1.log 每一个case每一个比率每一个节点一个文档 。5个比率x9个节点，每一个case45个文档</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加载setup.txt</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;每十万个个请求一个二进制文档</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;之后每一分钟一个summery statice&nbsp;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;120个线程，</div><div><br/></div><div>2、csv文件，每分钟一次，cat all</div><div>每一个交叉比率一个节点一个文档，每一个case 45个文档</div><div><br/></div><div>3、db2 sunmary 不分节点，完整集群，文件</div><div><br/></div><div>4、过程bin文件，需要用工具读</div><div><br/></div><div>5、nmon文件</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "73372ab3a6fa065287d1fc7043cb2e3cac6f03ec1cbe6b31f39a57062c7939a1",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/WTCF测试记录.html"
+      }
+    },
+    {
+      "id": "d6f8cf3a-477d-4286-90d5-743fba1628a7",
+      "note_id": "d0317375-da19-4022-a82e-46c2e9a04bba",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.760575Z",
+      "content": "---\ntitle: WTCF测试记录\nupdated: 2013-04-08 19:16:01Z\ncreated: 2013-04-08 15:26:21Z\n---\n\n15707072 X4K buff pool size\n\nRDMA over converged ethernet - ROCE \n每次测试的输出文件\n1、logfile :case08_s50_n1.log 每一个case每一个比率每一个节点一个文档 。5个比率x9个节点，每一个case45个文档\n     加载setup.txt\n     每十万个个请求一个二进制文档\n     之后每一分钟一个summery statice \n     120个线程，\n2、csv文件，每分钟一次，cat all\n每一个交叉比率一个节点一个文档，每一个case 45个文档\n3、db2 sunmary 不分节点，完整集群，文件\n4、过程bin文件，需要用工具读\n5、nmon文件",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 420,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "638d743c-a9c1-4142-a922-a31423e1e647",
+    "note_id": "d0317375-da19-4022-a82e-46c2e9a04bba",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.760580Z",
+    "finished_at": "2025-11-09T20:01:37.760580Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "57cdf0c7-bfe2-449a-bbf6-f49700d79904",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/WTCF测试记录.html",
+      "checksum": "73372ab3a6fa065287d1fc7043cb2e3cac6f03ec1cbe6b31f39a57062c7939a1"
+    },
+    "output_ref": {
+      "ingest_source": "f45cde77-a68f-4b86-b247-6edfad3879c0",
+      "note": "d0317375-da19-4022-a82e-46c2e9a04bba",
+      "variants": [
+        "0c4d66f2-557f-4f3b-a89d-5d2f5833e59c",
+        "d6f8cf3a-477d-4286-90d5-743fba1628a7"
+      ]
+    },
+    "error_detail": null
+  }
+}

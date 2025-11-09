@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "918ae14c-7e93-4bd7-b7ec-7f85e1f1f1c7",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/京医通卡.html",
+    "collected_at": "2025-11-09T20:01:40.012993Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6910598cc25f9aa8d353ce145e13b738e0319c635683effb6d25bb71daa0d758",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "bca88761-967e-408b-b064-48b718e787fe",
+    "ingest_source_id": "918ae14c-7e93-4bd7-b7ec-7f85e1f1f1c7",
+    "canonical_title": "京医通卡",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:40.012997Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "京医通卡.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "aabe0210-d042-4273-9318-742281a19c3a",
+      "note_id": "bca88761-967e-408b-b064-48b718e787fe",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.013000Z",
+      "content": "---\ntitle: 京医通卡\nupdated: 2013-06-14 05:02:44Z\ncreated: 2013-06-14 05:01:58Z\n---\n\n\n\n<en-note>唐跃然98000001290911</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6910598cc25f9aa8d353ce145e13b738e0319c635683effb6d25bb71daa0d758",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/京医通卡.html"
+      }
+    },
+    {
+      "id": "8a134301-f8a1-4cd9-ba5b-e7e723988c18",
+      "note_id": "bca88761-967e-408b-b064-48b718e787fe",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.013003Z",
+      "content": "---\ntitle: 京医通卡\nupdated: 2013-06-14 05:02:44Z\ncreated: 2013-06-14 05:01:58Z\n---\n\n唐跃然98000001290911",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 98,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0b451a11-061f-4fd0-8f6f-636fca9da17c",
+    "note_id": "bca88761-967e-408b-b064-48b718e787fe",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.013008Z",
+    "finished_at": "2025-11-09T20:01:40.013008Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "df2457cd-5725-48b4-80ad-18a8f51bac6f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/京医通卡.html",
+      "checksum": "6910598cc25f9aa8d353ce145e13b738e0319c635683effb6d25bb71daa0d758"
+    },
+    "output_ref": {
+      "ingest_source": "918ae14c-7e93-4bd7-b7ec-7f85e1f1f1c7",
+      "note": "bca88761-967e-408b-b064-48b718e787fe",
+      "variants": [
+        "aabe0210-d042-4273-9318-742281a19c3a",
+        "8a134301-f8a1-4cd9-ba5b-e7e723988c18"
+      ]
+    },
+    "error_detail": null
+  }
+}

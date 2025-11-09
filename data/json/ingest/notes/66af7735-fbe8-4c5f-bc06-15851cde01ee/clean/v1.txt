@@ -1,0 +1,118 @@
+---
+title: figures  安装笔记
+updated: 2021-06-16 23:34:05Z
+created: 2021-06-14 20:15:24Z
+author: tangyongfeng@gmail.com
+tags:
+  - openedx
+---
+
+ubuntu 16.04  ironwood.master
+Enable virtual environment
+
+sudo -H -u edxapp bash
+cd
+source
+ edxapp_env
+Install Figures build-0.3.9
+
+clone figures on folder 
+~/venvs/edxapp/src/figures
+ , i use version build-0.3.9
+
+git
+ clone -b build-
+0
+.
+3
+.
+9
+
+https://github.com/appsembler/figures.git
+and then go to the frontend folder, build asset with yarn. First, run 
+yarn
+ to install dependecies and then 
+yarn build
+ to build asset of figures. Frontend assets will be available at 
+~/venvs/edxapp/src/figures/figures/static
+ . Copy generated frontend assets to staticfiles
+
+cp -r ~
+/venvs/edxapp
+/src/figures
+/figures/static
+/figures /edx
+/var/edxapp
+/staticfiles/
+install figures
+
+cd ~
+/venvs/
+edxapp/src/figures/
+pip install -e .
+Add Configuration Settings
+
+cd ~
+/edx-platform/
+Edit 
+lms/envs/production.py
+ and add configuration settings like below
+
+if
+
+'figures.apps.FiguresConfig'
+
+in
+ INSTALLED_APPS:
+   
+from
+ figures.settings.lms_production
+import
+ *
+    ENV_TOKENS.setdefault(
+'FIGURES'
+, {})
+    update_webpack_loader(WEBPACK_LOADER, ENV_TOKENS[
+'FIGURES'
+])
+    update_celerybeat_schedule(CELERYBEAT_SCHEDULE, ENV_TOKENS[
+'FIGURES'
+])
+    CELERY_IMPORTS += (
+'figures.tasks'
+, )
+Edit 
+lms/urls.py
+ and add configuration urls like below
+
+if
+
+'figures'
+
+in
+ settings.INSTALLED_APPS:
+        urlpatterns += [
+                url(
+r'^figures/'
+, include(
+'figures.urls'
+, namespace=
+'figures'
+)),
+        ]
+migrate database for figures
+
+~
+/edx-platform/m
+anage.py
+ lms migrate figures --settings=production
+Restart LMS
+
+exit user edxapp and then restart lms.
+
+sudo
+ /edx/bin/supervisorctl restart lms
+access figures with 
+https://yourlms.com/figures/
+
+I hope this helps

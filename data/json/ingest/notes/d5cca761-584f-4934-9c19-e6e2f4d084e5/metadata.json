@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5a85783e-3760-460e-a976-77b11b2daa56",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/华彩股份买卖.html",
+    "collected_at": "2025-11-09T20:01:37.873584Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "6ffd381ee7d463c4f9cdfea4e140ca95a1266047991738c304dc876586fa7fae",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d5cca761-584f-4934-9c19-e6e2f4d084e5",
+    "ingest_source_id": "5a85783e-3760-460e-a976-77b11b2daa56",
+    "canonical_title": "华彩股份买卖",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:37.873588Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "华彩股份买卖.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d6a82ec9-7dd0-4bd6-8821-ab07d95b19b9",
+      "note_id": "d5cca761-584f-4934-9c19-e6e2f4d084e5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.873591Z",
+      "content": "---\ntitle: 华彩股份买卖\nupdated: 2016-09-07 00:39:59Z\ncreated: 2016-09-07 00:39:38Z\n---\n\n\n\n<en-note><div>\n&Tab;<span STYLE=\"color: rgb(57, 57, 57); font-family: Helvetica, STHeiti, 'Droid Sans Fallback'; font-size: 18px; font-style: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: 100%; -webkit-text-stroke-width: 0px; background-color: rgb(250, 250, 250); display: inline !important; float: none;\">再来看看中彩在线利益输送事件的进展：5月27日，中彩在线董事熊杨武对多家媒体承认，天意公司设立时贺文是主要股东，现在仍是股东之一。贺文通过代理人卖天意公司50%股权获得的9.8亿港币元分为两部分，现金5亿元港币，另外是以2.4港元每股总计2亿股股票，后来该股票贺文以远高于2.4港元的价格出售；除了出售股权的巨额收益，自2006年起至今，贺文及其关联方从天意公司间接获得约3.9亿元人民币的分红。在该交易中，作为中彩在线国有股东的中国福利彩票发行管理中心并未获益，甚至是造成了巨额国有资产流失，对于此事，该中心副主任、中彩在线董事长王云戈未予回应。</span>\n<br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6ffd381ee7d463c4f9cdfea4e140ca95a1266047991738c304dc876586fa7fae",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/华彩股份买卖.html"
+      }
+    },
+    {
+      "id": "af6f9b4d-3cbf-4fbc-8e5f-6bf4f4540221",
+      "note_id": "d5cca761-584f-4934-9c19-e6e2f4d084e5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.873594Z",
+      "content": "---\ntitle: 华彩股份买卖\nupdated: 2016-09-07 00:39:59Z\ncreated: 2016-09-07 00:39:38Z\n---\n\n再来看看中彩在线利益输送事件的进展：5月27日，中彩在线董事熊杨武对多家媒体承认，天意公司设立时贺文是主要股东，现在仍是股东之一。贺文通过代理人卖天意公司50%股权获得的9.8亿港币元分为两部分，现金5亿元港币，另外是以2.4港元每股总计2亿股股票，后来该股票贺文以远高于2.4港元的价格出售；除了出售股权的巨额收益，自2006年起至今，贺文及其关联方从天意公司间接获得约3.9亿元人民币的分红。在该交易中，作为中彩在线国有股东的中国福利彩票发行管理中心并未获益，甚至是造成了巨额国有资产流失，对于此事，该中心副主任、中彩在线董事长王云戈未予回应。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 357,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b9c6347a-627e-486e-bd9f-0b0ed1b1241c",
+    "note_id": "d5cca761-584f-4934-9c19-e6e2f4d084e5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.873599Z",
+    "finished_at": "2025-11-09T20:01:37.873599Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "07a0c363-4e59-4b6c-8e90-01839e12c069",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/华彩股份买卖.html",
+      "checksum": "6ffd381ee7d463c4f9cdfea4e140ca95a1266047991738c304dc876586fa7fae"
+    },
+    "output_ref": {
+      "ingest_source": "5a85783e-3760-460e-a976-77b11b2daa56",
+      "note": "d5cca761-584f-4934-9c19-e6e2f4d084e5",
+      "variants": [
+        "d6a82ec9-7dd0-4bd6-8821-ab07d95b19b9",
+        "af6f9b4d-3cbf-4fbc-8e5f-6bf4f4540221"
+      ]
+    },
+    "error_detail": null
+  }
+}

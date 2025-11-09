@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7de8462c-31cf-425e-b28e-41f791316401",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/学校选择.html",
+    "collected_at": "2025-11-09T20:01:37.016726Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "9f48888333847a3cc4e3094d87f591a5aa085195cb421d36abeeb060cf4332bb",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b361e74a-159d-4102-b97d-0799480a6289",
+    "ingest_source_id": "7de8462c-31cf-425e-b28e-41f791316401",
+    "canonical_title": "学校选择",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.016730Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "学校选择.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dbb8e42b-88b5-48a5-a8c6-2af5c5503735",
+      "note_id": "b361e74a-159d-4102-b97d-0799480a6289",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.016732Z",
+      "content": "---\ntitle: 学校选择\nupdated: 2021-07-21 10:24:21Z\ncreated: 2021-07-21 10:22:48Z\n---\n\n\n<en-note><h1>华德福教育</h1><div><a HREF=\"https://mmge-meerbusch.de\">https://mmge-meerbusch.de</a> 蒙氏教育</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9f48888333847a3cc4e3094d87f591a5aa085195cb421d36abeeb060cf4332bb",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/学校选择.html"
+      }
+    },
+    {
+      "id": "c89fae22-f767-4c79-94be-f6624345e07c",
+      "note_id": "b361e74a-159d-4102-b97d-0799480a6289",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.016735Z",
+      "content": "---\ntitle: 学校选择\nupdated: 2021-07-21 10:24:21Z\ncreated: 2021-07-21 10:22:48Z\n---\n\n华德福教育\nhttps://mmge-meerbusch.de\n 蒙氏教育",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 118,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8eb352c1-d358-451c-b514-c920c3eaca35",
+    "note_id": "b361e74a-159d-4102-b97d-0799480a6289",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.016739Z",
+    "finished_at": "2025-11-09T20:01:37.016740Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "30b79944-fe60-4f71-b99e-eb6b62e39fd7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/学校选择.html",
+      "checksum": "9f48888333847a3cc4e3094d87f591a5aa085195cb421d36abeeb060cf4332bb"
+    },
+    "output_ref": {
+      "ingest_source": "7de8462c-31cf-425e-b28e-41f791316401",
+      "note": "b361e74a-159d-4102-b97d-0799480a6289",
+      "variants": [
+        "dbb8e42b-88b5-48a5-a8c6-2af5c5503735",
+        "c89fae22-f767-4c79-94be-f6624345e07c"
+      ]
+    },
+    "error_detail": null
+  }
+}

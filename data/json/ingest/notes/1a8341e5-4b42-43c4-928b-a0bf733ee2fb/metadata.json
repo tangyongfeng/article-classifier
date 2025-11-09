@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "79ca5014-090b-4d9d-8c75-9efc129aea55",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/大族激光.html",
+    "collected_at": "2025-11-09T20:05:18.615262Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "eb98d4466c0670aaf639675b96d37c8718318a0ab1460e6b7fb4dbe6d9a12ceb",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1a8341e5-4b42-43c4-928b-a0bf733ee2fb",
+    "ingest_source_id": "79ca5014-090b-4d9d-8c75-9efc129aea55",
+    "canonical_title": "大族激光",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.615265Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "大族激光.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "020b80ec-5c83-42df-b519-9f33f72cc238",
+      "note_id": "1a8341e5-4b42-43c4-928b-a0bf733ee2fb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.615268Z",
+      "content": "---\ntitle: 大族激光\nupdated: 2013-10-17 02:38:36Z\ncreated: 2013-10-17 02:34:43Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n生产激光加工设备的厂商，主要用于pcb电路板生产设备的生产。\n<div>生产激光雕刻机、激光焊接机、激光器及相关元件（不含限制项目）；国内商业、物资供销业（不含专营、专控、专卖商品）；兴办实业（具体项目另行申报）；进出口业务（具体按深贸进准字第[2001]0176号文办）；普通货运（《道路运输经营许可证》有效期至2014年12月29日）；物业管理；自有物业租赁；机械设备租赁及维修维护。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "eb98d4466c0670aaf639675b96d37c8718318a0ab1460e6b7fb4dbe6d9a12ceb",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/大族激光.html"
+      }
+    },
+    {
+      "id": "ae1054de-1793-4012-a0c5-d49252e1518e",
+      "note_id": "1a8341e5-4b42-43c4-928b-a0bf733ee2fb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.615270Z",
+      "content": "---\ntitle: 大族激光\nupdated: 2013-10-17 02:38:36Z\ncreated: 2013-10-17 02:34:43Z\n---\n\n生产激光加工设备的厂商，主要用于pcb电路板生产设备的生产。\n\n生产激光雕刻机、激光焊接机、激光器及相关元件（不含限制项目）；国内商业、物资供销业（不含专营、专控、专卖商品）；兴办实业（具体项目另行申报）；进出口业务（具体按深贸进准字第[2001]0176号文办）；普通货运（《道路运输经营许可证》有效期至2014年12月29日）；物业管理；自有物业租赁；机械设备租赁及维修维护。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 271,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0f7c4e88-eab5-4902-a189-107cbaf6ebf6",
+    "note_id": "1a8341e5-4b42-43c4-928b-a0bf733ee2fb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.615275Z",
+    "finished_at": "2025-11-09T20:05:18.615275Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b4a1226b-8793-4120-b39b-25f0a07eec78",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/大族激光.html",
+      "checksum": "eb98d4466c0670aaf639675b96d37c8718318a0ab1460e6b7fb4dbe6d9a12ceb"
+    },
+    "output_ref": {
+      "ingest_source": "79ca5014-090b-4d9d-8c75-9efc129aea55",
+      "note": "1a8341e5-4b42-43c4-928b-a0bf733ee2fb",
+      "variants": [
+        "020b80ec-5c83-42df-b519-9f33f72cc238",
+        "ae1054de-1793-4012-a0c5-d49252e1518e"
+      ]
+    },
+    "error_detail": null
+  }
+}

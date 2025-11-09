@@ -1,0 +1,23 @@
+{
+  "id": "b0e6f8d3-91df-4291-9c5a-3de6f1fe501a",
+  "note_id": "4dd0260a-c9ce-4561-86b8-bbc7336434d5",
+  "extractor": "llm_enhance:v0#deepseek-v3.1:671b-cloud",
+  "payload": {
+    "summary": "笔记强调企业管理原则：追求零库存以减少成本，快速反应市场变化，保持内外环境一致，重视人力资源和员工创造力，并认为库存是经营问题的根源。",
+    "keywords": [
+      "零库存",
+      "高速反应",
+      "人力资源",
+      "员工创造力",
+      "库存管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "deepseek-v3.1:671b-cloud"
+  },
+  "version": 3,
+  "created_at": "2025-11-09T19:36:43.855599Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.369
+}

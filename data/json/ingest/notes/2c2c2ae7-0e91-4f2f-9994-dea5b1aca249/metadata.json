@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "61815295-0bf6-4b9f-b38f-7c0c7b6521d9",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/第三次赴美.html",
+    "collected_at": "2025-11-09T20:01:40.097753Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d8ecb6a8e7c1a469b36b92ad0867615a3f7f645549e43749298a6b1738090d15",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "2c2c2ae7-0e91-4f2f-9994-dea5b1aca249",
+    "ingest_source_id": "61815295-0bf6-4b9f-b38f-7c0c7b6521d9",
+    "canonical_title": "第三次赴美",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:40.097756Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "第三次赴美.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "fae53435-730b-4534-acf8-58d03a15fe40",
+      "note_id": "2c2c2ae7-0e91-4f2f-9994-dea5b1aca249",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.097759Z",
+      "content": "---\ntitle: 第三次赴美\nupdated: 2013-04-03 03:15:19Z\ncreated: 2013-04-03 03:15:04Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nAir China record locator: MZTMQ7\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d8ecb6a8e7c1a469b36b92ad0867615a3f7f645549e43749298a6b1738090d15",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/第三次赴美.html"
+      }
+    },
+    {
+      "id": "953e0b7f-a3bb-430c-8f55-5b16ba4207d9",
+      "note_id": "2c2c2ae7-0e91-4f2f-9994-dea5b1aca249",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.097762Z",
+      "content": "---\ntitle: 第三次赴美\nupdated: 2013-04-03 03:15:19Z\ncreated: 2013-04-03 03:15:04Z\n---\n\nAir China record locator: MZTMQ7",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 114,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f30dd9da-77c1-489c-8862-1b9e754731cc",
+    "note_id": "2c2c2ae7-0e91-4f2f-9994-dea5b1aca249",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.097766Z",
+    "finished_at": "2025-11-09T20:01:40.097767Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ec20ac1e-9dba-4469-b32b-2c7012b2d0a9",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/第三次赴美.html",
+      "checksum": "d8ecb6a8e7c1a469b36b92ad0867615a3f7f645549e43749298a6b1738090d15"
+    },
+    "output_ref": {
+      "ingest_source": "61815295-0bf6-4b9f-b38f-7c0c7b6521d9",
+      "note": "2c2c2ae7-0e91-4f2f-9994-dea5b1aca249",
+      "variants": [
+        "fae53435-730b-4534-acf8-58d03a15fe40",
+        "953e0b7f-a3bb-430c-8f55-5b16ba4207d9"
+      ]
+    },
+    "error_detail": null
+  }
+}

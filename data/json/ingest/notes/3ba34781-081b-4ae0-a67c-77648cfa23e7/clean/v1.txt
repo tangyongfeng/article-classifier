@@ -1,0 +1,13 @@
+---
+title: yueran.de
+updated: 2021-04-09 20:40:33Z
+created: 2021-02-27 22:52:57Z
+author: tangyongfeng@gmail.com
+---
+
+./configure --enable-fpm --with-mysqli --with-curl --enable-exif --enable-gd --with-mhash --enable-mbstring --with-openssl
+--with-external-pcre --enable-sockets --with-zlib
+
+create user 'wordpress'@'localhost' IDENTIFIED BY 'F62u{bmf_dvkgqjK';
+
+web user KRUHJ5PF%oRkNzMPrI

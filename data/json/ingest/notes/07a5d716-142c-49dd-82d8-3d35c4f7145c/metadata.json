@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "bc51532f-2b41-4d0a-b861-dbcd084c37a2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/近期工作.html",
+    "collected_at": "2025-11-09T20:01:39.665305Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "7776fb8ebac9ca91f49782e72683a374653e9ea5337d48bfdb04615207fd04c4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "07a5d716-142c-49dd-82d8-3d35c4f7145c",
+    "ingest_source_id": "bc51532f-2b41-4d0a-b861-dbcd084c37a2",
+    "canonical_title": "近期工作",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.665311Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "近期工作.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f0790ea6-a493-4309-9eea-7adf0869d9a8",
+      "note_id": "07a5d716-142c-49dd-82d8-3d35c4f7145c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.665315Z",
+      "content": "---\ntitle: 近期工作\nupdated: 2021-07-13 20:25:42Z\ncreated: 2021-06-07 17:05:48Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><br/></div><div>拓展思路（2、3、4同步完成）</div><div>1、双低模型已经完成</div><div>2、迁移数据平台到远端云平台，调整完善直至可靠稳定</div><div>3、同步完成邮件通知和同步双低策略分发</div><div>4、学习海龟交易法</div><div>5、在本地机器实现，跳到2，迭代继续</div><div><br/></div><div><br/></div><ul><li><div><input type=\"checkbox\" onclick=\"return false;\" /></en-todo><input checked=\"checked\" type=\"checkbox\" onclick=\"return false;\" /></en-todo>理顺每日更新</div></li><li><div><input checked=\"checked\" type=\"checkbox\" onclick=\"return false;\" /></en-todo>整理公司信息，每一个公司对应的重要信息都在一张表里，包括股票信息和价格信息以及盈利信息</div></li><ul><li><div><input checked=\"checked\" type=\"checkbox\" onclick=\"return false;\" /></en-todo>公司信息</div></li></ul><li><div><input checked=\"checked\" type=\"checkbox\" onclick=\"return false;\" /></en-todo>完成可转债信息表</div></li><li><div><input checked=\"checked\" type=\"checkbox\" onclick=\"return false;\" /></en-todo>完成可转债开始转债后盈利模型的验证</div></li><li><div><input checked=\"checked\" type=\"checkbox\" onclick=\"return false;\" /></en-todo>完成短期快速分析模型的验证</div></li><li><div><input checked=\"checked\" type=\"checkbox\" onclick=\"return false;\" /></en-todo>可转债和股票上市公告的动态更新</div></li><li><div><input type=\"checkbox\" onclick=\"return false;\" /></en-todo>合并管理层持股和质押数据</div></li><li><div><input checked=\"checked\" type=\"checkbox\" onclick=\"return false;\" /></en-todo>可转债双低策略</div></li><li><div><input type=\"checkbox\" onclick=\"return false;\" /></en-todo>网格交易</div></li><li><div><input type=\"checkbox\" onclick=\"return false;\" /></en-todo>svm监督学习 股票价格 预测</div></li><li><div><input type=\"checkbox\" onclick=\"return false;\" /></en-todo>海龟交易法</div></li><li><div><input type=\"checkbox\" onclick=\"return false;\" /></en-todo>acd逻辑交易法</div></li></ul><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7776fb8ebac9ca91f49782e72683a374653e9ea5337d48bfdb04615207fd04c4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/近期工作.html"
+      }
+    },
+    {
+      "id": "cdb11f19-c9fc-410b-a50f-7332f0a7e46f",
+      "note_id": "07a5d716-142c-49dd-82d8-3d35c4f7145c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.665319Z",
+      "content": "---\ntitle: 近期工作\nupdated: 2021-07-13 20:25:42Z\ncreated: 2021-06-07 17:05:48Z\nauthor: tangyongfeng@gmail.com\n---\n\n拓展思路（2、3、4同步完成）\n1、双低模型已经完成\n2、迁移数据平台到远端云平台，调整完善直至可靠稳定\n3、同步完成邮件通知和同步双低策略分发\n4、学习海龟交易法\n5、在本地机器实现，跳到2，迭代继续\n理顺每日更新\n整理公司信息，每一个公司对应的重要信息都在一张表里，包括股票信息和价格信息以及盈利信息\n公司信息\n完成可转债信息表\n完成可转债开始转债后盈利模型的验证\n完成短期快速分析模型的验证\n可转债和股票上市公告的动态更新\n合并管理层持股和质押数据\n可转债双低策略\n网格交易\nsvm监督学习 股票价格 预测\n海龟交易法\nacd逻辑交易法",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 383,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5baa4f3e-6b12-450f-88c8-e7f75414ce7c",
+    "note_id": "07a5d716-142c-49dd-82d8-3d35c4f7145c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.665325Z",
+    "finished_at": "2025-11-09T20:01:39.665326Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e2a743a6-50a0-471c-ba05-abc69bbbfa42",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/近期工作.html",
+      "checksum": "7776fb8ebac9ca91f49782e72683a374653e9ea5337d48bfdb04615207fd04c4"
+    },
+    "output_ref": {
+      "ingest_source": "bc51532f-2b41-4d0a-b861-dbcd084c37a2",
+      "note": "07a5d716-142c-49dd-82d8-3d35c4f7145c",
+      "variants": [
+        "f0790ea6-a493-4309-9eea-7adf0869d9a8",
+        "cdb11f19-c9fc-410b-a50f-7332f0a7e46f"
+      ]
+    },
+    "error_detail": null
+  }
+}

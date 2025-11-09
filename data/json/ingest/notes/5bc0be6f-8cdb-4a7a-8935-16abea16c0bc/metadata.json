@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b9437cbb-5a39-4f4d-b36c-6d1d77f57d07",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/迁移MySQL 和手工安装.html",
+    "collected_at": "2025-11-09T20:01:36.369713Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6e0f521b39bc7d03a3d8a46cc3e1b207a151a4ffe02676ea4df59223116c100d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "5bc0be6f-8cdb-4a7a-8935-16abea16c0bc",
+    "ingest_source_id": "b9437cbb-5a39-4f4d-b36c-6d1d77f57d07",
+    "canonical_title": "迁移MySQL 和手工安装",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.369716Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "迁移MySQL 和手工安装.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6cab7ddc-d8a0-44cf-934f-2938a92e5986",
+      "note_id": "5bc0be6f-8cdb-4a7a-8935-16abea16c0bc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.369719Z",
+      "content": "---\ntitle: 迁移MySQL 和手工安装\nupdated: 2022-08-16 09:32:04Z\ncreated: 2022-08-16 09:19:00Z\nauthor: tangyongfeng\ntags:\n  - Windows\n  - mysql\n---\n\n\n\n<en-note><div>第一：停止MySQL服务</div><div>mysqladmin -u root -p shutdown</div><div>二：删除MySQL服务</div><div>使用as Adminstrator 启动shell或者CMD</div><div>sc stop mysqld</div><div><br CLEAR=\"none\"/></div><div>sc delete mysqld&nbsp;</div><div><br CLEAR=\"none\"/></div><div>三，拷贝文件到指定目录</div><div><br CLEAR=\"none\"/></div><div>四：安装</div><div>cd MySQL-install_dir\\bin\\</div><div><br CLEAR=\"none\"/></div><div>注意：下面的限定目录很重要:</div><div>./mysqld --install MySQL --defaults-file=&quot;V:\\mysql-winx64\\my.ini&quot;</div><div><br CLEAR=\"none\"/></div><div>五：检查</div><div><br CLEAR=\"none\"/></div><div>1、sc stop\\start\\query MySQL</div><div>2、打开系统服务，检查上面的启动参数是否正常</div><div>4、mysql -u root -p 登录</div><div>&nbsp; &nbsp; create database test；</div><div><strong><span STYLE=\"color: rgb(255, 102, 0);\">重点</span></strong>：检查库文件是否已经建立在新的文件夹中。</div><div><br CLEAR=\"none\"/></div><div>5、mysql -u tang&nbsp; -p 登录</div><div>6、其他需要的内容</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6e0f521b39bc7d03a3d8a46cc3e1b207a151a4ffe02676ea4df59223116c100d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/迁移MySQL 和手工安装.html"
+      }
+    },
+    {
+      "id": "649f7c41-0560-4f28-8399-7e45b887f5d6",
+      "note_id": "5bc0be6f-8cdb-4a7a-8935-16abea16c0bc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.369721Z",
+      "content": "---\ntitle: 迁移MySQL 和手工安装\nupdated: 2022-08-16 09:32:04Z\ncreated: 2022-08-16 09:19:00Z\nauthor: tangyongfeng\ntags:\n  - Windows\n  - mysql\n---\n\n第一：停止MySQL服务\nmysqladmin -u root -p shutdown\n二：删除MySQL服务\n使用as Adminstrator 启动shell或者CMD\nsc stop mysqld\nsc delete mysqld \n三，拷贝文件到指定目录\n四：安装\ncd MySQL-install_dir\\bin\\\n注意：下面的限定目录很重要:\n./mysqld --install MySQL --defaults-file=\"V:\\mysql-winx64\\my.ini\"\n五：检查\n1、sc stop\\start\\query MySQL\n2、打开系统服务，检查上面的启动参数是否正常\n4、mysql -u root -p 登录\n    create database test；\n重点\n：检查库文件是否已经建立在新的文件夹中。\n5、mysql -u tang  -p 登录\n6、其他需要的内容",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 543,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "01139f0f-c4a6-4077-9afe-136643305c2c",
+    "note_id": "5bc0be6f-8cdb-4a7a-8935-16abea16c0bc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.369726Z",
+    "finished_at": "2025-11-09T20:01:36.369726Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5fbcb306-720b-45e7-8dfd-5a121596f404",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/迁移MySQL 和手工安装.html",
+      "checksum": "6e0f521b39bc7d03a3d8a46cc3e1b207a151a4ffe02676ea4df59223116c100d"
+    },
+    "output_ref": {
+      "ingest_source": "b9437cbb-5a39-4f4d-b36c-6d1d77f57d07",
+      "note": "5bc0be6f-8cdb-4a7a-8935-16abea16c0bc",
+      "variants": [
+        "6cab7ddc-d8a0-44cf-934f-2938a92e5986",
+        "649f7c41-0560-4f28-8399-7e45b887f5d6"
+      ]
+    },
+    "error_detail": null
+  }
+}

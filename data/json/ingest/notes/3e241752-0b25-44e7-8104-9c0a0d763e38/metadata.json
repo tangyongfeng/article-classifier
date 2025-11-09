@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "74815e74-9555-49ae-b915-72422fe9fbda",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/freebsd 安装mysql.html",
+    "collected_at": "2025-11-09T20:01:34.717815Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6396aa3d69b7e809342d9b7eadb8c430c7368e3f474992ffc89a6278806f8afa",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "3e241752-0b25-44e7-8104-9c0a0d763e38",
+    "ingest_source_id": "74815e74-9555-49ae-b915-72422fe9fbda",
+    "canonical_title": "freebsd 安装mysql",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.717819Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "freebsd 安装mysql.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d183ba98-b593-4796-ac86-5d84a46314d6",
+      "note_id": "3e241752-0b25-44e7-8104-9c0a0d763e38",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.717821Z",
+      "content": "---\ntitle: freebsd 安装mysql\nupdated: 2021-05-26 10:10:00Z\ncreated: 2021-05-23 17:17:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><font FACE=\"Courier\">/usr/ports/databases/mysql80-server/</font></div><div><font FACE=\"Courier\">make install</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">sysrc mysql_enable=&bdquo;YES&quot;</font></div><div><font FACE=\"Courier\">service mysql-server start</font></div><div><font FACE=\"Courier\">service mysql-server status</font></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6396aa3d69b7e809342d9b7eadb8c430c7368e3f474992ffc89a6278806f8afa",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/freebsd 安装mysql.html"
+      }
+    },
+    {
+      "id": "55b90f5d-0920-4339-911c-cd6c1b12734a",
+      "note_id": "3e241752-0b25-44e7-8104-9c0a0d763e38",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.717824Z",
+      "content": "---\ntitle: freebsd 安装mysql\nupdated: 2021-05-26 10:10:00Z\ncreated: 2021-05-23 17:17:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n/usr/ports/databases/mysql80-server/\nmake install\nsysrc mysql_enable=„YES\"\nservice mysql-server start\nservice mysql-server status",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 252,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "de6db640-3774-4e2a-ac1c-29a1641f2079",
+    "note_id": "3e241752-0b25-44e7-8104-9c0a0d763e38",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.717829Z",
+    "finished_at": "2025-11-09T20:01:34.717829Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f6e33008-3b7d-46fc-b1ce-215430afcb3f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/freebsd 安装mysql.html",
+      "checksum": "6396aa3d69b7e809342d9b7eadb8c430c7368e3f474992ffc89a6278806f8afa"
+    },
+    "output_ref": {
+      "ingest_source": "74815e74-9555-49ae-b915-72422fe9fbda",
+      "note": "3e241752-0b25-44e7-8104-9c0a0d763e38",
+      "variants": [
+        "d183ba98-b593-4796-ac86-5d84a46314d6",
+        "55b90f5d-0920-4339-911c-cd6c1b12734a"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "712b286e-5271-45fc-b4a6-23ab7e83a1c3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Vorstellen.html",
+    "collected_at": "2025-11-09T20:01:36.581653Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "cf1ff9dfffe0fe5a4d675a3a9068fa710d0a5c43e5f4431d359c4edba054cba6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ea35f8e0-f272-4e4e-99e3-ab50dfd07d65",
+    "ingest_source_id": "712b286e-5271-45fc-b4a6-23ab7e83a1c3",
+    "canonical_title": "Vorstellen",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:36.581657Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Vorstellen.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a025d6a7-865c-47b9-aad1-2728f28802cd",
+      "note_id": "ea35f8e0-f272-4e4e-99e3-ab50dfd07d65",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.581660Z",
+      "content": "---\ntitle: Vorstellen\nupdated: 2020-10-02 21:43:59Z\ncreated: 2020-10-02 21:43:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Ich hei&szlig;e Yongfeng. Bevor 2 Jahr komme aus Beijing in China und mein Beruf ist Informatik. Diese Jahre bin ich 44 alt.</div><div>Meinen Familien wohne jetzt in Neuss. </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "cf1ff9dfffe0fe5a4d675a3a9068fa710d0a5c43e5f4431d359c4edba054cba6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Vorstellen.html"
+      }
+    },
+    {
+      "id": "0f85e23d-ee89-4388-be69-595337f88afa",
+      "note_id": "ea35f8e0-f272-4e4e-99e3-ab50dfd07d65",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.581662Z",
+      "content": "---\ntitle: Vorstellen\nupdated: 2020-10-02 21:43:59Z\ncreated: 2020-10-02 21:43:31Z\nauthor: tangyongfeng@gmail.com\n---\n\nIch heiße Yongfeng. Bevor 2 Jahr komme aus Beijing in China und mein Beruf ist Informatik. Diese Jahre bin ich 44 alt.\nMeinen Familien wohne jetzt in Neuss.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 274,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a0df0be2-ec74-47b5-839d-662940ac0ca4",
+    "note_id": "ea35f8e0-f272-4e4e-99e3-ab50dfd07d65",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.581667Z",
+    "finished_at": "2025-11-09T20:01:36.581668Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "262dab8f-edda-461d-b65a-ad5faf1fd4a1",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Vorstellen.html",
+      "checksum": "cf1ff9dfffe0fe5a4d675a3a9068fa710d0a5c43e5f4431d359c4edba054cba6"
+    },
+    "output_ref": {
+      "ingest_source": "712b286e-5271-45fc-b4a6-23ab7e83a1c3",
+      "note": "ea35f8e0-f272-4e4e-99e3-ab50dfd07d65",
+      "variants": [
+        "a025d6a7-865c-47b9-aad1-2728f28802cd",
+        "0f85e23d-ee89-4388-be69-595337f88afa"
+      ]
+    },
+    "error_detail": null
+  }
+}

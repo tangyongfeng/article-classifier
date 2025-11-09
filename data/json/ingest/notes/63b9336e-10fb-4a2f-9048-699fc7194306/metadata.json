@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "b50c8a8a-975c-42bb-8749-44bbe8671a62",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/扒谱ai.html",
+    "collected_at": "2025-11-09T20:01:37.064905Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f38530a662d869b8181210a85954b145f953d2e6a2f84127cecf23cbc550a642",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "63b9336e-10fb-4a2f-9048-699fc7194306",
+    "ingest_source_id": "b50c8a8a-975c-42bb-8749-44bbe8671a62",
+    "canonical_title": "扒谱ai",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.064908Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "扒谱ai.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "848bc478-2b41-4d4e-8e97-35b6b9869ba9",
+      "note_id": "63b9336e-10fb-4a2f-9048-699fc7194306",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.064911Z",
+      "content": "---\ntitle: 扒谱ai\nupdated: 2022-01-04 13:24:58Z\ncreated: 2022-01-04 13:24:38Z\n---\n\n\n<en-note><div>谷歌推出全能扒谱AI：只要听一遍歌曲 钢琴小提琴的乐谱全有了 </div><div><br/></div><div>以后再也不用自己扒谱子了吗？</div><div>论文地址：</div><div>arxiv.org/abs/2111.03017</div><div>源代码：</div><div>github.com/magenta/mt3</div><div>Demo 地址：</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f38530a662d869b8181210a85954b145f953d2e6a2f84127cecf23cbc550a642",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/扒谱ai.html"
+      }
+    },
+    {
+      "id": "b0c953dd-1dd1-43f5-a34f-dca8fc615f95",
+      "note_id": "63b9336e-10fb-4a2f-9048-699fc7194306",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.064913Z",
+      "content": "---\ntitle: 扒谱ai\nupdated: 2022-01-04 13:24:58Z\ncreated: 2022-01-04 13:24:38Z\n---\n\n谷歌推出全能扒谱AI：只要听一遍歌曲 钢琴小提琴的乐谱全有了\n以后再也不用自己扒谱子了吗？\n论文地址：\narxiv.org/abs/2111.03017\n源代码：\ngithub.com/magenta/mt3\nDemo 地址：",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 194,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b70a8006-9f0c-4338-a937-a6774fae884a",
+    "note_id": "63b9336e-10fb-4a2f-9048-699fc7194306",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.064918Z",
+    "finished_at": "2025-11-09T20:01:37.064918Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "824b2e97-c791-4acd-9b93-486f84f9c6ae",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/扒谱ai.html",
+      "checksum": "f38530a662d869b8181210a85954b145f953d2e6a2f84127cecf23cbc550a642"
+    },
+    "output_ref": {
+      "ingest_source": "b50c8a8a-975c-42bb-8749-44bbe8671a62",
+      "note": "63b9336e-10fb-4a2f-9048-699fc7194306",
+      "variants": [
+        "848bc478-2b41-4d4e-8e97-35b6b9869ba9",
+        "b0c953dd-1dd1-43f5-a34f-dca8fc615f95"
+      ]
+    },
+    "error_detail": null
+  }
+}

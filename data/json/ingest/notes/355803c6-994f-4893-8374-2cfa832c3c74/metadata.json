@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d572762b-3d9c-497c-9108-a1b79eeaf76e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/豫卦.html",
+    "collected_at": "2025-11-09T20:01:39.908249Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "a4c6e4a9945fdaab536585e7c039f329719485c1f0b73d730d580c2a9508a71d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "355803c6-994f-4893-8374-2cfa832c3c74",
+    "ingest_source_id": "d572762b-3d9c-497c-9108-a1b79eeaf76e",
+    "canonical_title": "豫卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.908254Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "豫卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "366e1fd0-caa6-4e73-a4dd-c807e9017d05",
+      "note_id": "355803c6-994f-4893-8374-2cfa832c3c74",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.908258Z",
+      "content": "---\ntitle: 豫卦\nupdated: 2018-11-15 14:00:56Z\ncreated: 2018-11-14 14:07:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>利建侯行师。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 462px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>上六</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">冥豫，成有渝，无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六五</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">贞疾，恒不死。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>九四（主爻）</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">由豫。大有得。勿疑，朋盍簪。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六三</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">盱豫，悔。迟有悔。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六二</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">介于石，不终日，贞吉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>初六</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">鸣豫，凶。</td></tr></tbody></table><div>&nbsp;</div><div>豫：1、愉悦。2、预备。 居安思危</div><div>依时而行</div><div><br/></div><div><img src=\"../_resources/傅佩荣详解易经64卦-豫卦18_2018年11月14日%20下午10.28.06.png\"  hash=\"c7744ed958d113a4a37e5acccb8ea089\" type=\"image/png\" alt=\"傅佩荣详解易经64卦-豫卦18_2018年11月14日 下午10.28.06.png\" /></en-media><br/></div><div>儒家和道家的各自出处。</div><div><br/></div><div><br/></div><div>初六，响应娱乐是不行的。（另，初六百姓无能力建侯行师）</div><div>六二的石来缘于六二六三九四的艮卦。</div><div>阴爻在刚位，德不配位，行动迟缓，懊恼。</div><div><br/></div><div>九四：六三九四六五构成互坎。</div><div>六五：</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a4c6e4a9945fdaab536585e7c039f329719485c1f0b73d730d580c2a9508a71d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/豫卦.html"
+      }
+    },
+    {
+      "id": "626e7825-7896-43d6-88d2-58e8b22051f5",
+      "note_id": "355803c6-994f-4893-8374-2cfa832c3c74",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.908261Z",
+      "content": "---\ntitle: 豫卦\nupdated: 2018-11-15 14:00:56Z\ncreated: 2018-11-14 14:07:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n利建侯行师。\n上六\n冥豫，成有渝，无咎。\n六五\n贞疾，恒不死。\n九四（主爻）\n由豫。大有得。勿疑，朋盍簪。\n六三\n盱豫，悔。迟有悔。\n六二\n介于石，不终日，贞吉。\n初六\n鸣豫，凶。\n \n豫：1、愉悦。2、预备。 居安思危\n依时而行\n儒家和道家的各自出处。\n初六，响应娱乐是不行的。（另，初六百姓无能力建侯行师）\n六二的石来缘于六二六三九四的艮卦。\n阴爻在刚位，德不配位，行动迟缓，懊恼。\n九四：六三九四六五构成互坎。\n六五：",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 322,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1d676cf0-0ad7-4d75-bff6-afe03ca38848",
+    "note_id": "355803c6-994f-4893-8374-2cfa832c3c74",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.908267Z",
+    "finished_at": "2025-11-09T20:01:39.908267Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2e5dc3c5-7de9-4d52-881c-59b2f0cd560d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/豫卦.html",
+      "checksum": "a4c6e4a9945fdaab536585e7c039f329719485c1f0b73d730d580c2a9508a71d"
+    },
+    "output_ref": {
+      "ingest_source": "d572762b-3d9c-497c-9108-a1b79eeaf76e",
+      "note": "355803c6-994f-4893-8374-2cfa832c3c74",
+      "variants": [
+        "366e1fd0-caa6-4e73-a4dd-c807e9017d05",
+        "626e7825-7896-43d6-88d2-58e8b22051f5"
+      ]
+    },
+    "error_detail": null
+  }
+}

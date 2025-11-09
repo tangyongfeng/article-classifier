@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1172d693-94b9-4a00-b056-fa07d9f4f8ea",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/for 总结.html",
+    "collected_at": "2025-11-09T20:05:13.820433Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "1a9603238fb63d7f91ded36aae621ed94d7cf6d5e5ac5c825d46308156a0f9d8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4764bfb3-7ff4-41f4-9a2d-8ccac31022f6",
+    "ingest_source_id": "1172d693-94b9-4a00-b056-fa07d9f4f8ea",
+    "canonical_title": "for 总结",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.820437Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "for 总结.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1f715cba-ab4c-41ac-b079-f996afe21973",
+      "note_id": "4764bfb3-7ff4-41f4-9a2d-8ccac31022f6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.820439Z",
+      "content": "---\ntitle: for 总结\nupdated: 2017-12-17 06:09:24Z\ncreated: 2017-12-15 08:39:18Z\nauthor: tangyongfeng\ntags:\n  - python\n  - 学习笔记\n---\n\n\n<en-note><div><br/></div><div>下几种：</div><div><p>一类是集合数据类型，如<code>list</code>、<code>tuple</code>、<code>dict</code>、<code>set</code>、<code>str</code>等；</p>\n<p>一类是<code>generator</code>，包括生成器和带<code>yield</code>的generator function。</p>\n<p>这些可以直接作用于<code>for</code>循环的对象统称为可迭代对象：<code>Iterable</code>。</p>\n<p>可以使用<code>isinstance()</code>判断一个对象是否是<span STYLE=\"font-size: 18px;\"><b><span STYLE=\"color: rgb(255, 0, 0);\"><code>Iterable</code>对象：</span></b></span></p></div><div><br/></div><div>而生成器不但可以作用于<code>for</code>循环，还可以被<code>next()</code>函数不断调用并返回下一个值，直到最后抛出<code>StopIteration</code>错误表示无法继续返回下一个值了。</div><div><p>可以被<code>next()</code>函数调用并不断返回下一个值的对象称为迭代器：<code>Iterator</code>。</p>\n<p>可以使用<code>isinstance()</code>判断一个对象是否是<code>Iterator</code>对象：</p></div><div><br/></div><div>生成器都是<code>Iterator</code>对象<span STYLE=\"font-size: 18px;\"><span STYLE=\"color: rgb(255, 0, 0);\">，但<code>list</code>、<code>dict</code>、<code>str</code>虽然是<code>Iterable</code>，却不是<code>Iterator</code>。</span></span></div><div><br/></div><div>把<code>list</code>、<code>dict</code>、<code>str</code>等<code>Iterable</code>变成<code>Iterator</code>可以使用<code>iter()</code>函数：</div><div>\n<p>为什么<code>list</code>、<code>dict</code>、<code>str</code>等数据类型不是<code>Iterator</code>？</p>\n<p>这是因为Python的<code>Iterator</code>对象表示的是一个数据流，Iterator对象可以被<code>next()</code>函数调用并不断返回下一个数据，直到没有数据时抛出<code>StopIteration</code>错误。可以把这个数据流看做是一个有序序列，但我们却不能提前知道序列的长度，只能不断通过<code>next()</code>函数实现按需计算下一个数据，所以<code>Iterator</code>的计算是惰性的，只有在需要返回下一个数据时它才会计算。</p>\n<p><code>Iterator</code>甚至可以表示一个无限大的数据流，例如全体自然数。而使用list是永远不可能存储全体自然数的。</p>\n<h3>小结</h3>\n<p>凡是可作用于<code>for</code>循环的对象都是<code>Iterable</code>类型；</p>\n<p>凡是可作用于<code>next()</code>函数的对象都是<code>Iterator</code>类型，它们表示一个惰性计算的序列；</p>\n</div><div><br/></div><div>集合数据类型如<code>list</code>、<code>dict</code>、<code>str</code>等是<code>Iterable</code>但不是<code>Iterator</code>，不过可以通过<code>iter()</code>函数获得一个<code>Iterator</code>对象。</div><div><br/></div><div>Python的<code>for</code>循环本质上就是通过不断调用<code>next()</code>函数实现的。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1a9603238fb63d7f91ded36aae621ed94d7cf6d5e5ac5c825d46308156a0f9d8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/for 总结.html"
+      }
+    },
+    {
+      "id": "81f70f1d-21c2-4deb-8e6b-a147e0c675e7",
+      "note_id": "4764bfb3-7ff4-41f4-9a2d-8ccac31022f6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.820442Z",
+      "content": "---\ntitle: for 总结\nupdated: 2017-12-17 06:09:24Z\ncreated: 2017-12-15 08:39:18Z\nauthor: tangyongfeng\ntags:\n  - python\n  - 学习笔记\n---\n\n下几种：\n一类是集合数据类型，如\nlist\n、\ntuple\n、\ndict\n、\nset\n、\nstr\n等；\n\n一类是\ngenerator\n，包括生成器和带\nyield\n的generator function。\n\n这些可以直接作用于\nfor\n循环的对象统称为可迭代对象：\nIterable\n。\n\n可以使用\nisinstance()\n判断一个对象是否是\nIterable\n对象：\n而生成器不但可以作用于\nfor\n循环，还可以被\nnext()\n函数不断调用并返回下一个值，直到最后抛出\nStopIteration\n错误表示无法继续返回下一个值了。\n可以被\nnext()\n函数调用并不断返回下一个值的对象称为迭代器：\nIterator\n。\n\n可以使用\nisinstance()\n判断一个对象是否是\nIterator\n对象：\n生成器都是\nIterator\n对象\n，但\nlist\n、\ndict\n、\nstr\n虽然是\nIterable\n，却不是\nIterator\n。\n把\nlist\n、\ndict\n、\nstr\n等\nIterable\n变成\nIterator\n可以使用\niter()\n函数：\n\n为什么\nlist\n、\ndict\n、\nstr\n等数据类型不是\nIterator\n？\n\n这是因为Python的\nIterator\n对象表示的是一个数据流，Iterator对象可以被\nnext()\n函数调用并不断返回下一个数据，直到没有数据时抛出\nStopIteration\n错误。可以把这个数据流看做是一个有序序列，但我们却不能提前知道序列的长度，只能不断通过\nnext()\n函数实现按需计算下一个数据，所以\nIterator\n的计算是惰性的，只有在需要返回下一个数据时它才会计算。\n\nIterator\n甚至可以表示一个无限大的数据流，例如全体自然数。而使用list是永远不可能存储全体自然数的。\n\n小结\n\n凡是可作用于\nfor\n循环的对象都是\nIterable\n类型；\n\n凡是可作用于\nnext()\n函数的对象都是\nIterator\n类型，它们表示一个惰性计算的序列；\n\n集合数据类型如\nlist\n、\ndict\n、\nstr\n等是\nIterable\n但不是\nIterator\n，不过可以通过\niter()\n函数获得一个\nIterator\n对象。\nPython的\nfor\n循环本质上就是通过不断调用\nnext()\n函数实现的。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1124,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7c88aa76-517f-422b-9c6d-00f337c66973",
+    "note_id": "4764bfb3-7ff4-41f4-9a2d-8ccac31022f6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.820446Z",
+    "finished_at": "2025-11-09T20:05:13.820447Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a03b0cc1-6ebe-4f32-b9dd-4505066fd973",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/for 总结.html",
+      "checksum": "1a9603238fb63d7f91ded36aae621ed94d7cf6d5e5ac5c825d46308156a0f9d8"
+    },
+    "output_ref": {
+      "ingest_source": "1172d693-94b9-4a00-b056-fa07d9f4f8ea",
+      "note": "4764bfb3-7ff4-41f4-9a2d-8ccac31022f6",
+      "variants": [
+        "1f715cba-ab4c-41ac-b079-f996afe21973",
+        "81f70f1d-21c2-4deb-8e6b-a147e0c675e7"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "829e57fe-b73a-4647-a901-f553fb06545d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Velocity技术笔记.html",
+    "collected_at": "2025-11-09T20:01:34.562333Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "vi",
+    "captured_at": null,
+    "checksum": "0f1a4cc57b1dfdfba4ab811ecd1f54d9596ae893855dc9ccbeca7363d4b4bd33",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "44bcad40-ca78-4d53-a5fe-30d8e069f076",
+    "ingest_source_id": "829e57fe-b73a-4647-a901-f553fb06545d",
+    "canonical_title": "Velocity技术笔记",
+    "language": "vi",
+    "ingested_at": "2025-11-09T20:01:34.562337Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Velocity技术笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6d73bf6a-b627-41f9-8eeb-0a29c828d099",
+      "note_id": "44bcad40-ca78-4d53-a5fe-30d8e069f076",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.562340Z",
+      "content": "---\ntitle: Velocity技术笔记\nupdated: 2012-12-13 02:21:12Z\ncreated: 2012-10-10 12:54:25Z\nsource: https://www.icloud.com/applications/notes/zh-cn/\nlatitude: 39.88889981\nlongitude: 116.63093548\naltitude: 37.0000\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n淘宝Tfs上五六十亿的图片，消重后，13p多的空间\n<div>Net scaler只能有6G的通过两</div><div>淘宝前台应用，使用Apache velocity引擎</div><div>衡量效率标准：每请求内存数=GC回收的内存数除以吞吐量</div><div>加大java heap，性能提高70%</div><div>淘宝第三代系统，并行rpc、并行搜索</div><div>mysql 主库是单点</div><div>chubby，google类似</div><div>加大 java heap 性能提高70%</div><div>淘宝第三代系统，并行rpc并行搜索</div><div>渲染有底线的向前端迁移</div><div>Mysql主库是单点</div><div>Chubby ,google的类似zookeeper 软件，不开源</div><div>MySQL数据不同步的两种可能1、master掉后slave启动的过程中的delta值，2、binlog传输过程中的缺失</div><div>主备切换的的原则是先启动，事后找delta.row模式j</div><div>预案很重要，记录更重要！</div><div>双十一证明，银行的峰值最多是每秒三千笔</div><div>双十一期间客服解决所有的问题，不转发问题给技术团队，预案也按照这个规则制定</div><div>jvm.taobao.com</div><div>用icc编译</div><div>用native实现极致的功能</div><div>JVM intrinsic 实现原生的功能</div><div>GCIH,把长生命的对象放在java堆外</div><div>异步，削峰填谷</div><div>微博中，Redis用来计数</div><div>淘宝已经完成同城和异地的灾备，灾备中，所有的机房都对外提供服务，GTM实现流量分配，通过dns引导外部流量和内部流量。</div><div>40公里以内的流量使用裸光纤</div><div>每个单独的机房都能承受所有的流量，本机房服务优先。</div><div>session使用tair集群，跨机房集群</div><div>数据库仅允许但机房主库写，灾难时手工强制切换</div><div>遇到危机情况，服务降级（非常重要！）</div><div>单机房保存所有的数据，最好减少机房间的流量</div><div>不断寻找切换过程中对交易的影响</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0f1a4cc57b1dfdfba4ab811ecd1f54d9596ae893855dc9ccbeca7363d4b4bd33",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Velocity技术笔记.html"
+      }
+    },
+    {
+      "id": "d45790e9-7a9e-4c29-8373-6a97c0404153",
+      "note_id": "44bcad40-ca78-4d53-a5fe-30d8e069f076",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.562342Z",
+      "content": "---\ntitle: Velocity技术笔记\nupdated: 2012-12-13 02:21:12Z\ncreated: 2012-10-10 12:54:25Z\nsource: https://www.icloud.com/applications/notes/zh-cn/\nlatitude: 39.88889981\nlongitude: 116.63093548\naltitude: 37.0000\n---\n\n淘宝Tfs上五六十亿的图片，消重后，13p多的空间\n\nNet scaler只能有6G的通过两\n淘宝前台应用，使用Apache velocity引擎\n衡量效率标准：每请求内存数=GC回收的内存数除以吞吐量\n加大java heap，性能提高70%\n淘宝第三代系统，并行rpc、并行搜索\nmysql 主库是单点\nchubby，google类似\n加大 java heap 性能提高70%\n淘宝第三代系统，并行rpc并行搜索\n渲染有底线的向前端迁移\nMysql主库是单点\nChubby ,google的类似zookeeper 软件，不开源\nMySQL数据不同步的两种可能1、master掉后slave启动的过程中的delta值，2、binlog传输过程中的缺失\n主备切换的的原则是先启动，事后找delta.row模式j\n预案很重要，记录更重要！\n双十一证明，银行的峰值最多是每秒三千笔\n双十一期间客服解决所有的问题，不转发问题给技术团队，预案也按照这个规则制定\njvm.taobao.com\n用icc编译\n用native实现极致的功能\nJVM intrinsic 实现原生的功能\nGCIH,把长生命的对象放在java堆外\n异步，削峰填谷\n微博中，Redis用来计数\n淘宝已经完成同城和异地的灾备，灾备中，所有的机房都对外提供服务，GTM实现流量分配，通过dns引导外部流量和内部流量。\n40公里以内的流量使用裸光纤\n每个单独的机房都能承受所有的流量，本机房服务优先。\nsession使用tair集群，跨机房集群\n数据库仅允许但机房主库写，灾难时手工强制切换\n遇到危机情况，服务降级（非常重要！）\n单机房保存所有的数据，最好减少机房间的流量\n不断寻找切换过程中对交易的影响",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "vi",
+        "length": 940,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "87c45eb4-d7b7-4f0a-bfed-fde55c8b2a68",
+    "note_id": "44bcad40-ca78-4d53-a5fe-30d8e069f076",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.562347Z",
+    "finished_at": "2025-11-09T20:01:34.562347Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1d6129dd-3ec7-4fc3-86be-577cfe845eee",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Velocity技术笔记.html",
+      "checksum": "0f1a4cc57b1dfdfba4ab811ecd1f54d9596ae893855dc9ccbeca7363d4b4bd33"
+    },
+    "output_ref": {
+      "ingest_source": "829e57fe-b73a-4647-a901-f553fb06545d",
+      "note": "44bcad40-ca78-4d53-a5fe-30d8e069f076",
+      "variants": [
+        "6d73bf6a-b627-41f9-8eeb-0a29c828d099",
+        "d45790e9-7a9e-4c29-8373-6a97c0404153"
+      ]
+    },
+    "error_detail": null
+  }
+}

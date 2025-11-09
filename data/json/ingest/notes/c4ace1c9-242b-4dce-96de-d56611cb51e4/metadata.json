@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "67c389bb-2931-4b93-aaf4-a8786b76bb69",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/名字.html",
+    "collected_at": "2025-11-09T20:05:19.072943Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f365985623eaade90afd602fd07c043c2ce2c315390bb19b782ad8d14aed9484",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c4ace1c9-242b-4dce-96de-d56611cb51e4",
+    "ingest_source_id": "67c389bb-2931-4b93-aaf4-a8786b76bb69",
+    "canonical_title": "名字",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:19.072946Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "名字.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "26f8542b-4f7f-43aa-bb09-0b6f855267cf",
+      "note_id": "c4ace1c9-242b-4dce-96de-d56611cb51e4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.072949Z",
+      "content": "---\ntitle: 名字\nupdated: 2013-01-18 11:20:30Z\ncreated: 2013-01-18 11:20:22Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n跃然\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f365985623eaade90afd602fd07c043c2ce2c315390bb19b782ad8d14aed9484",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/名字.html"
+      }
+    },
+    {
+      "id": "48b53e63-8533-4cae-a01d-aa9fa7710675",
+      "note_id": "c4ace1c9-242b-4dce-96de-d56611cb51e4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.072952Z",
+      "content": "---\ntitle: 名字\nupdated: 2013-01-18 11:20:30Z\ncreated: 2013-01-18 11:20:22Z\n---\n\n跃然",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 81,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "363abef1-f86a-4c95-aaf7-dcaa650d6311",
+    "note_id": "c4ace1c9-242b-4dce-96de-d56611cb51e4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:19.072956Z",
+    "finished_at": "2025-11-09T20:05:19.072956Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c9c3eba2-15f9-44e9-9dfa-45c396f4b3d3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/名字.html",
+      "checksum": "f365985623eaade90afd602fd07c043c2ce2c315390bb19b782ad8d14aed9484"
+    },
+    "output_ref": {
+      "ingest_source": "67c389bb-2931-4b93-aaf4-a8786b76bb69",
+      "note": "c4ace1c9-242b-4dce-96de-d56611cb51e4",
+      "variants": [
+        "26f8542b-4f7f-43aa-bb09-0b6f855267cf",
+        "48b53e63-8533-4cae-a01d-aa9fa7710675"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,44 @@
+---
+title: Velocity技术笔记
+updated: 2012-12-13 02:21:12Z
+created: 2012-10-10 12:54:25Z
+source: https://www.icloud.com/applications/notes/zh-cn/
+latitude: 39.88889981
+longitude: 116.63093548
+altitude: 37.0000
+---
+
+淘宝Tfs上五六十亿的图片，消重后，13p多的空间
+
+Net scaler只能有6G的通过两
+淘宝前台应用，使用Apache velocity引擎
+衡量效率标准：每请求内存数=GC回收的内存数除以吞吐量
+加大java heap，性能提高70%
+淘宝第三代系统，并行rpc、并行搜索
+mysql 主库是单点
+chubby，google类似
+加大 java heap 性能提高70%
+淘宝第三代系统，并行rpc并行搜索
+渲染有底线的向前端迁移
+Mysql主库是单点
+Chubby ,google的类似zookeeper 软件，不开源
+MySQL数据不同步的两种可能1、master掉后slave启动的过程中的delta值，2、binlog传输过程中的缺失
+主备切换的的原则是先启动，事后找delta.row模式j
+预案很重要，记录更重要！
+双十一证明，银行的峰值最多是每秒三千笔
+双十一期间客服解决所有的问题，不转发问题给技术团队，预案也按照这个规则制定
+jvm.taobao.com
+用icc编译
+用native实现极致的功能
+JVM intrinsic 实现原生的功能
+GCIH,把长生命的对象放在java堆外
+异步，削峰填谷
+微博中，Redis用来计数
+淘宝已经完成同城和异地的灾备，灾备中，所有的机房都对外提供服务，GTM实现流量分配，通过dns引导外部流量和内部流量。
+40公里以内的流量使用裸光纤
+每个单独的机房都能承受所有的流量，本机房服务优先。
+session使用tair集群，跨机房集群
+数据库仅允许但机房主库写，灾难时手工强制切换
+遇到危机情况，服务降级（非常重要！）
+单机房保存所有的数据，最好减少机房间的流量
+不断寻找切换过程中对交易的影响

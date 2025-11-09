@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5c2550b8-2748-4db1-aec1-6d938385b8e9",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/http___product.auto.163.com_compare_16164-2355.htm.html",
+    "collected_at": "2025-11-09T20:01:36.618639Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d029d08e796ea970f48ebebde80aef24935d9dda9006cdb6db53d5c05f147736",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "94a2c844-2a69-4ef5-abab-c59c033c47f0",
+    "ingest_source_id": "5c2550b8-2748-4db1-aec1-6d938385b8e9",
+    "canonical_title": "http___product.auto.163.com_compare_16164-2355.htm",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.618643Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "http___product.auto.163.com_compare_16164-2355.htm.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "15a8c02b-5236-4203-ba9b-79c467e43ade",
+      "note_id": "94a2c844-2a69-4ef5-abab-c59c033c47f0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.618645Z",
+      "content": "---\ntitle: http://product.auto.163.com/compare/16164-2355.html\nupdated: 2013-08-20 08:51:41Z\ncreated: 2013-08-20 08:51:41Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"http://product.auto.163.com/compare/16164-2355.html\">http://product.auto.163.com/compare/16164-2355.html</a></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d029d08e796ea970f48ebebde80aef24935d9dda9006cdb6db53d5c05f147736",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/http___product.auto.163.com_compare_16164-2355.htm.html"
+      }
+    },
+    {
+      "id": "8e4211cd-0d77-4789-bbbb-765e6e2ae90b",
+      "note_id": "94a2c844-2a69-4ef5-abab-c59c033c47f0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.618648Z",
+      "content": "---\ntitle: http://product.auto.163.com/compare/16164-2355.html\nupdated: 2013-08-20 08:51:41Z\ncreated: 2013-08-20 08:51:41Z\n---\n\nhttp://product.auto.163.com/compare/16164-2355.html",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 179,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a0fc633d-1548-47a7-a8c8-da96ec503404",
+    "note_id": "94a2c844-2a69-4ef5-abab-c59c033c47f0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.618652Z",
+    "finished_at": "2025-11-09T20:01:36.618653Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "be5a5b4d-46ef-4222-9ca8-d5e310340f0f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/http___product.auto.163.com_compare_16164-2355.htm.html",
+      "checksum": "d029d08e796ea970f48ebebde80aef24935d9dda9006cdb6db53d5c05f147736"
+    },
+    "output_ref": {
+      "ingest_source": "5c2550b8-2748-4db1-aec1-6d938385b8e9",
+      "note": "94a2c844-2a69-4ef5-abab-c59c033c47f0",
+      "variants": [
+        "15a8c02b-5236-4203-ba9b-79c467e43ade",
+        "8e4211cd-0d77-4789-bbbb-765e6e2ae90b"
+      ]
+    },
+    "error_detail": null
+  }
+}

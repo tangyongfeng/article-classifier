@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3546ca6c-6d5d-41a6-b45b-8c640a62e09f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/setup weblogic on freebsd diablo JDK.html",
+    "collected_at": "2025-11-09T20:01:35.118271Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "b87a372560d245b538e8f55a8ce3b6b7883966c3982300721dba810f3e104312",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "41d8a795-82cf-4966-9000-a0c34c298a8f",
+    "ingest_source_id": "3546ca6c-6d5d-41a6-b45b-8c640a62e09f",
+    "canonical_title": "setup weblogic on freebsd diablo JDK",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.118275Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "setup weblogic on freebsd diablo JDK.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "14be04de-5432-4d3f-a764-076d1a3fad6f",
+      "note_id": "41d8a795-82cf-4966-9000-a0c34c298a8f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.118277Z",
+      "content": "---\ntitle: setup weblogic on freebsd diablo JDK\nupdated: 2012-05-21 02:33:27Z\ncreated: 2012-05-21 02:31:04Z\ntags:\n  - java\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nmkdir -p /System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/1.6/jre/lib<br/>\ncd /System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/1.6/jre/lib<br/>\necho &quot;.&quot; &gt; rt.jar<br/>\necho &quot;.&quot; &gt; core.jar<br/><br/>\ncd to the directory where you have your wlsVersion_generic.jar<br/>\njava -d64 -Dos.name=unix -Xms1024m -Xmx1024m -jar /home/tang/wls1211_generic.jar<br/><br/><br/><br/>\nWeblogic on freebsd diablo JDK<br/>\nThere is only 1MB available at<br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b87a372560d245b538e8f55a8ce3b6b7883966c3982300721dba810f3e104312",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/setup weblogic on freebsd diablo JDK.html"
+      }
+    },
+    {
+      "id": "a6649a5f-209c-4f08-874f-42ab03c2b5ff",
+      "note_id": "41d8a795-82cf-4966-9000-a0c34c298a8f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.118280Z",
+      "content": "---\ntitle: setup weblogic on freebsd diablo JDK\nupdated: 2012-05-21 02:33:27Z\ncreated: 2012-05-21 02:31:04Z\ntags:\n  - java\n---\n\nmkdir -p /System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/1.6/jre/lib\n\ncd /System/Library/Frameworks/JavaVM.framework/Versions/1.6/Home/1.6/jre/lib\n\necho \".\" > rt.jar\n\necho \".\" > core.jar\n\ncd to the directory where you have your wlsVersion_generic.jar\n\njava -d64 -Dos.name=unix -Xms1024m -Xmx1024m -jar /home/tang/wls1211_generic.jar\n\nWeblogic on freebsd diablo JDK\n\nThere is only 1MB available at",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 538,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "600d6be5-52fb-4bf3-93df-67addc6aa95a",
+    "note_id": "41d8a795-82cf-4966-9000-a0c34c298a8f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.118285Z",
+    "finished_at": "2025-11-09T20:01:35.118285Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "019d677c-f6eb-4b99-a462-a4534233b0d4",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/setup weblogic on freebsd diablo JDK.html",
+      "checksum": "b87a372560d245b538e8f55a8ce3b6b7883966c3982300721dba810f3e104312"
+    },
+    "output_ref": {
+      "ingest_source": "3546ca6c-6d5d-41a6-b45b-8c640a62e09f",
+      "note": "41d8a795-82cf-4966-9000-a0c34c298a8f",
+      "variants": [
+        "14be04de-5432-4d3f-a764-076d1a3fad6f",
+        "a6649a5f-209c-4f08-874f-42ab03c2b5ff"
+      ]
+    },
+    "error_detail": null
+  }
+}

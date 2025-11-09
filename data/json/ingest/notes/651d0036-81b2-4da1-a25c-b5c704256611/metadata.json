@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d7ae9c9d-a24f-467d-9e57-1e112af2b5d6",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/手动设置TimeMachine到FAT分区.html",
+    "collected_at": "2025-11-09T20:05:14.938084Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "cf0ec93c137e98457d957d7da1f4f0fbbbd28ee8a0c6a21d3ed69603e658358e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "651d0036-81b2-4da1-a25c-b5c704256611",
+    "ingest_source_id": "d7ae9c9d-a24f-467d-9e57-1e112af2b5d6",
+    "canonical_title": "手动设置TimeMachine到FAT分区",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:14.938087Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "手动设置TimeMachine到FAT分区.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b8a12d88-2f04-43fd-834b-63bcf289e064",
+      "note_id": "651d0036-81b2-4da1-a25c-b5c704256611",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.938090Z",
+      "content": "---\ntitle: 手动设置TimeMachine到FAT分区\nupdated: 2019-05-29 13:23:19Z\ncreated: 2019-05-29 13:22:30Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">可能这个需求真的很奇怪，但它真的能实现。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">场景：我同时有一个WindowsPC（硬盘非常大），还有一个MAC（硬盘很小），然后MAC被我折腾的经常崩溃，所以我突发奇想，能否把MAC通过TimeMachine备份到我这个PC的大硬盘上呢，毕竟有那么大的硬盘空间，于是就有了以下教程。\n</span></div><h1>在WindowsPC上新建一个共享文件夹\n</h1><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">在你想要存放备份的地方，比如D盘根目录，建一个空文件夹，然后把这个文件夹共享出来，为了方便，添加上everyone这个用户，并赋予它读写权限。\n</span></div><div>点击&ldquo;共享&rdquo;\n</div><div>添加everyone这个用户，赋予读写权限。\n</div><h1>在MAC上新建一个磁盘镜像\n</h1><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">打开磁盘工具，然后点击文件，新建镜像，新建一个空白镜像，然后按照下图调整各种参数，注意，大小可以写大一点，这个数值只是上限，根据实际使用情况来占用空间。建立完成后，你会在桌面看到一个新的镜像文件TM.sparseimage\n</span></div><div>新建一个空白镜像\n</div><h1>连接刚才建好的共享文件夹，拷贝镜像过去\n</h1><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">打开finder，然后按下快捷键command+k，输入smb://你的PC的地址，连接之\n</span></div><div>连接服务器\n</div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">连好之后会出现一个新的分区，就是你的共享文件夹，然后把上一步创建好的镜像从桌面拷贝过去，注意，即便是一个空镜像也有600多兆，要拷贝一会儿。待拷贝完成后，双击这个镜像，挂载之。挂载之后，右键点击显示简介，查看它的挂载位置，例如本例中就是/Volumes/TMbackup，\n</span></div><div>右键 显示简介\n</div><div>查看挂载路径并记下\n</div><h1>最后一步，设置TimeMachine的备份磁盘为刚才挂载的映像\n</h1><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">打开terminal，输入以下命令sudo tmutil setdestination /Volumes/TMbackup，其中/Volumes/TMbackup这部分根据你实际的挂载路径来定\n</span></div><div>设定挂载路径\n</div><div>挂载成功\n</div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">至此我们就把TM备份的地址指向了PC上的共享文件夹了，然后你就可以开始TM备份了。\n</span></div><div><br/></div><div><br/></div><div>作者：曲景洋Jim</div><div>链接：<a HREF=\"https://www\">https://www</a>.<a HREF=\"http://jianshu.com/p/388998fada12\">jianshu.com/p/388998fada12</a></div><div>来源：简书</div><div>简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。\n</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "cf0ec93c137e98457d957d7da1f4f0fbbbd28ee8a0c6a21d3ed69603e658358e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/手动设置TimeMachine到FAT分区.html"
+      }
+    },
+    {
+      "id": "0bd25817-edcb-4105-bbfc-a7a8f6329210",
+      "note_id": "651d0036-81b2-4da1-a25c-b5c704256611",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.938092Z",
+      "content": "---\ntitle: 手动设置TimeMachine到FAT分区\nupdated: 2019-05-29 13:23:19Z\ncreated: 2019-05-29 13:22:30Z\nauthor: tangyongfeng@gmail.com\n---\n\n可能这个需求真的很奇怪，但它真的能实现。\n\n场景：我同时有一个WindowsPC（硬盘非常大），还有一个MAC（硬盘很小），然后MAC被我折腾的经常崩溃，所以我突发奇想，能否把MAC通过TimeMachine备份到我这个PC的大硬盘上呢，毕竟有那么大的硬盘空间，于是就有了以下教程。\n\n在WindowsPC上新建一个共享文件夹\n\n在你想要存放备份的地方，比如D盘根目录，建一个空文件夹，然后把这个文件夹共享出来，为了方便，添加上everyone这个用户，并赋予它读写权限。\n\n点击“共享”\n\n添加everyone这个用户，赋予读写权限。\n\n在MAC上新建一个磁盘镜像\n\n打开磁盘工具，然后点击文件，新建镜像，新建一个空白镜像，然后按照下图调整各种参数，注意，大小可以写大一点，这个数值只是上限，根据实际使用情况来占用空间。建立完成后，你会在桌面看到一个新的镜像文件TM.sparseimage\n\n新建一个空白镜像\n\n连接刚才建好的共享文件夹，拷贝镜像过去\n\n打开finder，然后按下快捷键command+k，输入smb://你的PC的地址，连接之\n\n连接服务器\n\n连好之后会出现一个新的分区，就是你的共享文件夹，然后把上一步创建好的镜像从桌面拷贝过去，注意，即便是一个空镜像也有600多兆，要拷贝一会儿。待拷贝完成后，双击这个镜像，挂载之。挂载之后，右键点击显示简介，查看它的挂载位置，例如本例中就是/Volumes/TMbackup，\n\n右键 显示简介\n\n查看挂载路径并记下\n\n最后一步，设置TimeMachine的备份磁盘为刚才挂载的映像\n\n打开terminal，输入以下命令sudo tmutil setdestination /Volumes/TMbackup，其中/Volumes/TMbackup这部分根据你实际的挂载路径来定\n\n设定挂载路径\n\n挂载成功\n\n至此我们就把TM备份的地址指向了PC上的共享文件夹了，然后你就可以开始TM备份了。\n\n作者：曲景洋Jim\n链接：\nhttps://www\n.\njianshu.com/p/388998fada12\n来源：简书\n简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 1053,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fd441ea5-4739-44ca-8ede-f6e10745efcc",
+    "note_id": "651d0036-81b2-4da1-a25c-b5c704256611",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.938097Z",
+    "finished_at": "2025-11-09T20:05:14.938097Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3603f54d-316f-4a62-acdb-15efcb402a5a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/手动设置TimeMachine到FAT分区.html",
+      "checksum": "cf0ec93c137e98457d957d7da1f4f0fbbbd28ee8a0c6a21d3ed69603e658358e"
+    },
+    "output_ref": {
+      "ingest_source": "d7ae9c9d-a24f-467d-9e57-1e112af2b5d6",
+      "note": "651d0036-81b2-4da1-a25c-b5c704256611",
+      "variants": [
+        "b8a12d88-2f04-43fd-834b-63bcf289e064",
+        "0bd25817-edcb-4105-bbfc-a7a8f6329210"
+      ]
+    },
+    "error_detail": null
+  }
+}

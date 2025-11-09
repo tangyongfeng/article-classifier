@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1381291f-5fdf-4382-a1b8-525dfe75b98a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/刺激经济.html",
+    "collected_at": "2025-11-09T20:05:15.969169Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "46c96dad9df2d62ee4baa941a1a350dae49b7255e5f8afc16199748d7e9dd918",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "2995cb50-a9c0-4555-867a-7adf7deb1574",
+    "ingest_source_id": "1381291f-5fdf-4382-a1b8-525dfe75b98a",
+    "canonical_title": "刺激经济",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:15.969172Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "刺激经济.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "45eba4d2-e4f8-477f-a849-6d0ecd1a5c0f",
+      "note_id": "2995cb50-a9c0-4555-867a-7adf7deb1574",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.969175Z",
+      "content": "---\ntitle: 刺激经济\nupdated: 2022-04-27 15:04:14Z\ncreated: 2022-04-27 15:03:58Z\n---\n\n\n<en-note><div>&ldquo;本来想宽松，突然发现没有了房地产，信用传导堵了。</div><div><br/></div><div>本来想降息，突然发现中美倒挂，资本流出，无法降息。</div><div><br/></div><div>本来想降准，突然发现企业都不开工，不需要资金。</div><div><br/></div><div>本来想鼓励投资，突然发现因为防范资本无序扩张，大家都不敢投资。</div><div><br/></div><div>本来想鼓励消费，突然发现老百姓都没钱，还欠着一屁股房贷信用贷&rdquo;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "46c96dad9df2d62ee4baa941a1a350dae49b7255e5f8afc16199748d7e9dd918",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/刺激经济.html"
+      }
+    },
+    {
+      "id": "e006a836-6ac3-49a8-b08d-1f98f73e441f",
+      "note_id": "2995cb50-a9c0-4555-867a-7adf7deb1574",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.969178Z",
+      "content": "---\ntitle: 刺激经济\nupdated: 2022-04-27 15:04:14Z\ncreated: 2022-04-27 15:03:58Z\n---\n\n“本来想宽松，突然发现没有了房地产，信用传导堵了。\n本来想降息，突然发现中美倒挂，资本流出，无法降息。\n本来想降准，突然发现企业都不开工，不需要资金。\n本来想鼓励投资，突然发现因为防范资本无序扩张，大家都不敢投资。\n本来想鼓励消费，突然发现老百姓都没钱，还欠着一屁股房贷信用贷”",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 220,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6ac1b30c-1699-4f26-ba42-0dd3b5d1d51e",
+    "note_id": "2995cb50-a9c0-4555-867a-7adf7deb1574",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.969182Z",
+    "finished_at": "2025-11-09T20:05:15.969183Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5a415558-1a40-471a-9112-90f6c2c4f72a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/刺激经济.html",
+      "checksum": "46c96dad9df2d62ee4baa941a1a350dae49b7255e5f8afc16199748d7e9dd918"
+    },
+    "output_ref": {
+      "ingest_source": "1381291f-5fdf-4382-a1b8-525dfe75b98a",
+      "note": "2995cb50-a9c0-4555-867a-7adf7deb1574",
+      "variants": [
+        "45eba4d2-e4f8-477f-a849-6d0ecd1a5c0f",
+        "e006a836-6ac3-49a8-b08d-1f98f73e441f"
+      ]
+    },
+    "error_detail": null
+  }
+}

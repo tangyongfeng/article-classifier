@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d180e0f9-920c-4e24-a8cc-f49c0a041c98",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Geulenstraße 9,41462,Neuss.html",
+    "collected_at": "2025-11-09T20:05:13.176075Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "46959fc21671cf2f554906bb83963acc97450c85e919a96274f69b408b6773ab",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "da58faf9-2c89-44a1-bb17-fc55fcc51b49",
+    "ingest_source_id": "d180e0f9-920c-4e24-a8cc-f49c0a041c98",
+    "canonical_title": "Geulenstraße 9,41462,Neuss",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:13.176079Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Geulenstraße 9,41462,Neuss.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ea7336ee-d2a6-415f-92f6-b130f3785ae7",
+      "note_id": "da58faf9-2c89-44a1-bb17-fc55fcc51b49",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.176082Z",
+      "content": "---\ntitle: Geulenstraße 9,41462,Neuss\nupdated: 2019-05-04 08:42:33Z\ncreated: 2019-05-04 08:42:33Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>Geulenstra&szlig;e 9,41462,Neuss</div>\n<div>We Nr4</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "46959fc21671cf2f554906bb83963acc97450c85e919a96274f69b408b6773ab",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Geulenstraße 9,41462,Neuss.html"
+      }
+    },
+    {
+      "id": "6bbb5fdf-84b1-4bac-a6d3-727d7c7ec3d2",
+      "note_id": "da58faf9-2c89-44a1-bb17-fc55fcc51b49",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.176085Z",
+      "content": "---\ntitle: Geulenstraße 9,41462,Neuss\nupdated: 2019-05-04 08:42:33Z\ncreated: 2019-05-04 08:42:33Z\nauthor: tangyongfeng@gmail.com\n---\n\nGeulenstraße 9,41462,Neuss\n\nWe Nr4",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 168,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f7c78f43-b617-4059-895b-c70676de08a5",
+    "note_id": "da58faf9-2c89-44a1-bb17-fc55fcc51b49",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.176090Z",
+    "finished_at": "2025-11-09T20:05:13.176090Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "eaa91648-848b-4f6e-a1bc-db52e98c7e20",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Geulenstraße 9,41462,Neuss.html",
+      "checksum": "46959fc21671cf2f554906bb83963acc97450c85e919a96274f69b408b6773ab"
+    },
+    "output_ref": {
+      "ingest_source": "d180e0f9-920c-4e24-a8cc-f49c0a041c98",
+      "note": "da58faf9-2c89-44a1-bb17-fc55fcc51b49",
+      "variants": [
+        "ea7336ee-d2a6-415f-92f6-b130f3785ae7",
+        "6bbb5fdf-84b1-4bac-a6d3-727d7c7ec3d2"
+      ]
+    },
+    "error_detail": null
+  }
+}

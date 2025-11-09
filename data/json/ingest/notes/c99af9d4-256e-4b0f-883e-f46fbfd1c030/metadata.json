@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "db29bd15-2250-467f-99fe-3402001fa03c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/安装MySQL Python库.html",
+    "collected_at": "2025-11-09T20:01:35.699535Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e18ed76fd020d0bcd55171e1e9a6162dc315039838beb3e821c7014c496cde3f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c99af9d4-256e-4b0f-883e-f46fbfd1c030",
+    "ingest_source_id": "db29bd15-2250-467f-99fe-3402001fa03c",
+    "canonical_title": "安装MySQL Python库",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.699539Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "安装MySQL Python库.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3f060c0d-6297-47f0-af50-5da9a0604677",
+      "note_id": "c99af9d4-256e-4b0f-883e-f46fbfd1c030",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.699541Z",
+      "content": "---\ntitle: 安装MySQL Python库\nupdated: 2022-09-07 08:39:30Z\ncreated: 2021-05-23 09:58:57Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - mysql\n  - python\n---\n\n\n<en-note><div>apt install libmysqlclient-dev&nbsp;</div><div>or</div><div>apt install libmariadbclient-dev</div><div><br/></div><div>done</div><div><br/></div><div STYLE=\"--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;\"><div>sudo apt-get install python3-dev</div></div><div><br/></div><div><span STYLE=\"font-family: Menlo;\"><span STYLE=\"font-size: 11px;\"><span STYLE=\"color:rgb(0, 0, 0);\">pip install mysqlclient</span></span></span></div><div><span STYLE=\"font-family: Menlo;\"><span STYLE=\"font-size: 11px;\"><span STYLE=\"color:rgb(0, 0, 0);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></span></span></div><div><span STYLE=\"font-family: Menlo;\"><span STYLE=\"font-size: 11px;\"><span STYLE=\"color:rgb(0, 0, 0);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></span></span></div><div><span STYLE=\"font-family: Menlo;\"><span STYLE=\"font-size: 18px;\"><span STYLE=\"color:rgb(24, 168, 65);\"> On Windows Planfrom</span></span></span></div><div><span STYLE=\"font-family: Menlo;\"><span STYLE=\"font-size: 11px;\"><span STYLE=\"color:rgb(0, 0, 0);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></span></span></div><div>python -m pip install mysqlclient</div><div>python -m pip install mysql-connector-python&nbsp; &nbsp;  # 根据评测，性能最佳</div><div>python -m pip install pymysql</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e18ed76fd020d0bcd55171e1e9a6162dc315039838beb3e821c7014c496cde3f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/安装MySQL Python库.html"
+      }
+    },
+    {
+      "id": "7700ad7c-5aa6-452a-a09e-3b59124ad4e1",
+      "note_id": "c99af9d4-256e-4b0f-883e-f46fbfd1c030",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.699544Z",
+      "content": "---\ntitle: 安装MySQL Python库\nupdated: 2022-09-07 08:39:30Z\ncreated: 2021-05-23 09:58:57Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - mysql\n  - python\n---\n\napt install libmysqlclient-dev \nor\napt install libmariadbclient-dev\ndone\nsudo apt-get install python3-dev\npip install mysqlclient\n On Windows Planfrom\npython -m pip install mysqlclient\npython -m pip install mysql-connector-python     # 根据评测，性能最佳\npython -m pip install pymysql",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 425,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5032fcd0-6ce3-420e-aee1-e811107cb743",
+    "note_id": "c99af9d4-256e-4b0f-883e-f46fbfd1c030",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.699549Z",
+    "finished_at": "2025-11-09T20:01:35.699549Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "444d0e62-e823-4557-b5c4-6093e069d92d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/安装MySQL Python库.html",
+      "checksum": "e18ed76fd020d0bcd55171e1e9a6162dc315039838beb3e821c7014c496cde3f"
+    },
+    "output_ref": {
+      "ingest_source": "db29bd15-2250-467f-99fe-3402001fa03c",
+      "note": "c99af9d4-256e-4b0f-883e-f46fbfd1c030",
+      "variants": [
+        "3f060c0d-6297-47f0-af50-5da9a0604677",
+        "7700ad7c-5aa6-452a-a09e-3b59124ad4e1"
+      ]
+    },
+    "error_detail": null
+  }
+}

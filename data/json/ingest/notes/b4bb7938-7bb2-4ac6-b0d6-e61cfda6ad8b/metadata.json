@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6c9f157d-e920-4b17-a42f-25dc0d649f8a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/笔记-4.html",
+    "collected_at": "2025-11-09T20:05:16.558784Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4f7ee2f6bce0baa6ce3af20bd85fb09c328e37bcbd92f7fb6ca8d461957c4749",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b4bb7938-7bb2-4ac6-b0d6-e61cfda6ad8b",
+    "ingest_source_id": "6c9f157d-e920-4b17-a42f-25dc0d649f8a",
+    "canonical_title": "笔记-4",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.558788Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-4.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e2b336ae-f6ec-4bd2-86c0-05bce13c68cb",
+      "note_id": "b4bb7938-7bb2-4ac6-b0d6-e61cfda6ad8b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.558791Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-02-10 03:28:43Z\ncreated: 2014-02-10 03:20:42Z\n---\n\n\n\n<en-note>lh。 &nbsp; 0505 登录<div>ll.JJ. &nbsp; 支付</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4f7ee2f6bce0baa6ce3af20bd85fb09c328e37bcbd92f7fb6ca8d461957c4749",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/笔记-4.html"
+      }
+    },
+    {
+      "id": "a4a6ba61-f8b3-47f2-8603-718ab0342957",
+      "note_id": "b4bb7938-7bb2-4ac6-b0d6-e61cfda6ad8b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.558794Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-02-10 03:28:43Z\ncreated: 2014-02-10 03:20:42Z\n---\n\nlh。   0505 登录\nll.JJ.   支付",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 104,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "64076a69-7ddb-420e-b61c-50adee8d49e5",
+    "note_id": "b4bb7938-7bb2-4ac6-b0d6-e61cfda6ad8b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.558799Z",
+    "finished_at": "2025-11-09T20:05:16.558799Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "08e0a6b8-15af-4a4d-9720-fbda3cb80ccb",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/笔记-4.html",
+      "checksum": "4f7ee2f6bce0baa6ce3af20bd85fb09c328e37bcbd92f7fb6ca8d461957c4749"
+    },
+    "output_ref": {
+      "ingest_source": "6c9f157d-e920-4b17-a42f-25dc0d649f8a",
+      "note": "b4bb7938-7bb2-4ac6-b0d6-e61cfda6ad8b",
+      "variants": [
+        "e2b336ae-f6ec-4bd2-86c0-05bce13c68cb",
+        "a4a6ba61-f8b3-47f2-8603-718ab0342957"
+      ]
+    },
+    "error_detail": null
+  }
+}

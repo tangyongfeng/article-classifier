@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "b10af2f0-3a89-4741-8d00-4d6e0dd608d2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/führerschein.html",
+    "collected_at": "2025-11-09T20:05:17.513341Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7eb2de396ca8b148beb3a6bc1c4295c7606254250a8663d922d939bbf1e2c39a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a8683df8-4cfa-46ba-af5d-67c3b88ff900",
+    "ingest_source_id": "b10af2f0-3a89-4741-8d00-4d6e0dd608d2",
+    "canonical_title": "führerschein",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:17.513344Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "führerschein.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dad6be3f-47c8-48e5-9dd6-ce5c66648955",
+      "note_id": "a8683df8-4cfa-46ba-af5d-67c3b88ff900",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.513347Z",
+      "content": "---\ntitle: führerschein\nupdated: 2021-04-23 21:08:43Z\ncreated: 2021-04-23 21:08:19Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>\n<span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">[Mac]~/Desktop/over$ ls *xml|wc -l</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp; 1137</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n[Mac]~/Desktop/over$ grep &quot;&gt;ohne&lt;&quot; *xml|wc -l</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp; 1682</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n[Mac]~/Desktop/over$ ls video/ |wc -l</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp; 122</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n[Mac]~/Desktop/over$ ls images/ |wc -l</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp;&nbsp; 470</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n[Mac]~/Desktop/over$ bc</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nbc 1.06</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nCopyright 1991-1994, 1997, 1998, 2000 Free Software Foundation, Inc.</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nThis is free software with ABSOLUTELY NO WARRANTY.</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nFor details type `warranty&apos;. </span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n470+122+1682</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n2274</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n2272/2</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n1136</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nquit</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7eb2de396ca8b148beb3a6bc1c4295c7606254250a8663d922d939bbf1e2c39a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/führerschein.html"
+      }
+    },
+    {
+      "id": "49663d1b-4a50-4ba8-aa22-0b4ff0fe6443",
+      "note_id": "a8683df8-4cfa-46ba-af5d-67c3b88ff900",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.513350Z",
+      "content": "---\ntitle: führerschein\nupdated: 2021-04-23 21:08:43Z\ncreated: 2021-04-23 21:08:19Z\nauthor: tangyongfeng@gmail.com\n---\n\n[Mac]~/Desktop/over$ ls *xml|wc -l\n    1137\n\n[Mac]~/Desktop/over$ grep \">ohne<\" *xml|wc -l\n    1682\n\n[Mac]~/Desktop/over$ ls video/ |wc -l\n     122\n\n[Mac]~/Desktop/over$ ls images/ |wc -l\n     470\n\n[Mac]~/Desktop/over$ bc\n\nbc 1.06\n\nCopyright 1991-1994, 1997, 1998, 2000 Free Software Foundation, Inc.\n\nThis is free software with ABSOLUTELY NO WARRANTY.\n\nFor details type `warranty'.\n\n470+122+1682\n\n2274\n\n2272/2\n\n1136\n\nquit",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 542,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "eeaed25b-23b0-45a5-9cd9-42cadb1ad9b2",
+    "note_id": "a8683df8-4cfa-46ba-af5d-67c3b88ff900",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.513354Z",
+    "finished_at": "2025-11-09T20:05:17.513355Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b016e665-1831-4ab4-b3b7-f9082bdb3e3b",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/führerschein.html",
+      "checksum": "7eb2de396ca8b148beb3a6bc1c4295c7606254250a8663d922d939bbf1e2c39a"
+    },
+    "output_ref": {
+      "ingest_source": "b10af2f0-3a89-4741-8d00-4d6e0dd608d2",
+      "note": "a8683df8-4cfa-46ba-af5d-67c3b88ff900",
+      "variants": [
+        "dad6be3f-47c8-48e5-9dd6-ce5c66648955",
+        "49663d1b-4a50-4ba8-aa22-0b4ff0fe6443"
+      ]
+    },
+    "error_detail": null
+  }
+}

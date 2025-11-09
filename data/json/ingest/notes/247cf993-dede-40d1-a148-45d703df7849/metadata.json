@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0f1fbc8e-e443-4534-99dd-5456178541b4",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/下奶方.html",
+    "collected_at": "2025-11-09T20:01:40.009114Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "315cc0ca1c12a773fd8d0cc6e6bd4db48f65ff438d226eab1c447f441f5bf917",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "247cf993-dede-40d1-a148-45d703df7849",
+    "ingest_source_id": "0f1fbc8e-e443-4534-99dd-5456178541b4",
+    "canonical_title": "下奶方",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:40.009118Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "下奶方.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "81d3ea3a-a5bd-427c-8524-be267a80e930",
+      "note_id": "247cf993-dede-40d1-a148-45d703df7849",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.009121Z",
+      "content": "---\ntitle: 下奶方\nupdated: 2013-11-14 04:35:39Z\ncreated: 2013-11-14 04:35:28Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n一付一天一次三天，炖猪蹄，第一次不带括号里那三个<br/><br/>\n黄芪&nbsp;&nbsp; 20<br/>\n当归&nbsp;&nbsp; 15<br/>\n穿山甲 10<br/>\n王不留行 15<br/>\n通草&nbsp;&nbsp; 7<br/>\n（党参&nbsp;&nbsp; 15<br/>\n丝瓜络 10<br/>\n路路通 7）\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "315cc0ca1c12a773fd8d0cc6e6bd4db48f65ff438d226eab1c447f441f5bf917",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/下奶方.html"
+      }
+    },
+    {
+      "id": "3fdedaa8-84e1-495e-bc9a-426fb68bf5d4",
+      "note_id": "247cf993-dede-40d1-a148-45d703df7849",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.009124Z",
+      "content": "---\ntitle: 下奶方\nupdated: 2013-11-14 04:35:39Z\ncreated: 2013-11-14 04:35:28Z\n---\n\n一付一天一次三天，炖猪蹄，第一次不带括号里那三个\n\n黄芪   20\n\n当归   15\n\n穿山甲 10\n\n王不留行 15\n\n通草   7\n\n（党参   15\n\n丝瓜络 10\n\n路路通 7）",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 173,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1a23f07d-8335-4e0e-90af-e2a805d87973",
+    "note_id": "247cf993-dede-40d1-a148-45d703df7849",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.009129Z",
+    "finished_at": "2025-11-09T20:01:40.009130Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fd4c699e-0430-4a47-8013-f57ff1910a67",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/下奶方.html",
+      "checksum": "315cc0ca1c12a773fd8d0cc6e6bd4db48f65ff438d226eab1c447f441f5bf917"
+    },
+    "output_ref": {
+      "ingest_source": "0f1fbc8e-e443-4534-99dd-5456178541b4",
+      "note": "247cf993-dede-40d1-a148-45d703df7849",
+      "variants": [
+        "81d3ea3a-a5bd-427c-8524-be267a80e930",
+        "3fdedaa8-84e1-495e-bc9a-426fb68bf5d4"
+      ]
+    },
+    "error_detail": null
+  }
+}

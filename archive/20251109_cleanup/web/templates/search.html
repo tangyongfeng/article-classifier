@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}搜索结果 - Article Classifier{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h2 class="mb-4"><i class="bi bi-search"></i> 搜索结果</h2>
+
+        <!-- 搜索信息 -->
+        {% if query %}
+            <p class="text-muted">
+                搜索关键词: <strong>"{{ query }}"</strong>
+                - 找到 {{ total }} 个结果
+            </p>
+        {% endif %}
+
+        <!-- 搜索结果列表 -->
+        {% if articles %}
+            <div class="list-group mb-4">
+                {% for article in articles %}
+                    <a href="{{ url_for('article_view', article_id=article.id) }}" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">{{ article.title }}</h5>
+                            <small class="text-muted">
+                                <span class="badge bg-info">{{ '%.2f' % article.confidence }}</span>
+                            </small>
+                        </div>
+                        <p class="mb-1 text-muted">{{ article.summary[:200] }}...</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small>
+                                {% for keyword in article.keywords %}
+                                    <span class="badge bg-secondary">{{ keyword }}</span>
+                                {% endfor %}
+                            </small>
+                            <small class="text-muted">
+                                {% if article.created_at %}
+                                    {{ article.created_at.strftime('%Y-%m-%d') }}
+                                {% endif %}
+                            </small>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+
+            <!-- 分页 -->
+            {% if total_pages > 1 %}
+                <nav aria-label="搜索结果分页">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item {% if page == 1 %}disabled{% endif %}">
+                            <a class="page-link" href="{{ url_for('search', q=query, page=page-1) }}">上一页</a>
+                        </li>
+                        {% for p in range(1, total_pages + 1) %}
+                            {% if p == page %}
+                                <li class="page-item active"><span class="page-link">{{ p }}</span></li>
+                            {% elif p <= 3 or p > total_pages - 3 or (p >= page - 1 and p <= page + 1) %}
+                                <li class="page-item"><a class="page-link" href="{{ url_for('search', q=query, page=p) }}">{{ p }}</a></li>
+                            {% elif p == 4 or p == total_pages - 3 %}
+                                <li class="page-item disabled"><span class="page-link">...</span></li>
+                            {% endif %}
+                        {% endfor %}
+                        <li class="page-item {% if page == total_pages %}disabled{% endif %}">
+                            <a class="page-link" href="{{ url_for('search', q=query, page=page+1) }}">下一页</a>
+                        </li>
+                    </ul>
+                </nav>
+            {% endif %}
+        {% elif query %}
+            <div class="alert alert-info">
+                <i class="bi bi-info-circle"></i> 未找到包含 "{{ query }}" 的文章
+            </div>
+        {% else %}
+            <div class="alert alert-warning">
+                <i class="bi bi-exclamation-triangle"></i> 请输入搜索关键词
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b278854d-0ce2-469d-9ddb-1f1cff0959a4",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/周末活动.html",
+    "collected_at": "2025-11-09T20:01:39.096918Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "05a23c6b4ec339c9ff7ab0db658bffd90b11a738e9f8db99f2ba5ab14e418429",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "67c332f7-15cf-4e44-adfe-3878a40d62e7",
+    "ingest_source_id": "b278854d-0ce2-469d-9ddb-1f1cff0959a4",
+    "canonical_title": "周末活动",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:39.096922Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "周末活动.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ea0570e6-9dcb-4674-9ada-fecf357c3c38",
+      "note_id": "67c332f7-15cf-4e44-adfe-3878a40d62e7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.096924Z",
+      "content": "---\ntitle: 周末活动\nupdated: 2020-10-05 21:27:35Z\ncreated: 2020-10-05 21:16:47Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Am Samstag habe ich das Fu&szlig;balltraining meines Sohnes ganzen Vormittag gesehen.</div><div>Am Sonntag habe ich das Haus ganz Vormittag&nbsp; aufger&auml;umt ,weil am Nachmittag G&auml;ste kamen.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "05a23c6b4ec339c9ff7ab0db658bffd90b11a738e9f8db99f2ba5ab14e418429",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/周末活动.html"
+      }
+    },
+    {
+      "id": "86096bf2-5628-4e82-b54a-48d8b8223705",
+      "note_id": "67c332f7-15cf-4e44-adfe-3878a40d62e7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.096927Z",
+      "content": "---\ntitle: 周末活动\nupdated: 2020-10-05 21:27:35Z\ncreated: 2020-10-05 21:16:47Z\nauthor: tangyongfeng@gmail.com\n---\n\nAm Samstag habe ich das Fußballtraining meines Sohnes ganzen Vormittag gesehen.\nAm Sonntag habe ich das Haus ganz Vormittag  aufgeräumt ,weil am Nachmittag Gäste kamen.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 280,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8ca436b0-c078-47a9-a463-014c572329c4",
+    "note_id": "67c332f7-15cf-4e44-adfe-3878a40d62e7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.096932Z",
+    "finished_at": "2025-11-09T20:01:39.096932Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8695428d-f4b2-43f2-aabf-174e03c74da3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/周末活动.html",
+      "checksum": "05a23c6b4ec339c9ff7ab0db658bffd90b11a738e9f8db99f2ba5ab14e418429"
+    },
+    "output_ref": {
+      "ingest_source": "b278854d-0ce2-469d-9ddb-1f1cff0959a4",
+      "note": "67c332f7-15cf-4e44-adfe-3878a40d62e7",
+      "variants": [
+        "ea0570e6-9dcb-4674-9ada-fecf357c3c38",
+        "86096bf2-5628-4e82-b54a-48d8b8223705"
+      ]
+    },
+    "error_detail": null
+  }
+}

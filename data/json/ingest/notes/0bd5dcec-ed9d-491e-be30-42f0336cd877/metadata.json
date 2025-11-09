@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e373f0a4-1e42-48a8-a97d-a9e5a4dd5250",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/下面就这些租房的选择做一个大致的比较.html",
+    "collected_at": "2025-11-09T20:01:40.011257Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "e214ec590f5535905c3206d531b6ab5509bbd3d832c7e27af6c7e7ba954362a6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0bd5dcec-ed9d-491e-be30-42f0336cd877",
+    "ingest_source_id": "e373f0a4-1e42-48a8-a97d-a9e5a4dd5250",
+    "canonical_title": "下面就这些租房的选择做一个大致的比较",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:40.011261Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "下面就这些租房的选择做一个大致的比较.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "63102b46-b2e1-4786-b878-eb74051c3dd3",
+      "note_id": "0bd5dcec-ed9d-491e-be30-42f0336cd877",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.011264Z",
+      "content": "---\ntitle: 下面就这些租房的选择做一个大致的比较\nupdated: 2012-11-27 11:55:49Z\ncreated: 2012-11-27 11:55:49Z\nsource: http://www.bornoverseas.com/forum.php?mod=viewthread&tid=443&extra=\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><table CELLPADDING=\"0\" CELLSPACING=\"0\" SUMMARY=\"pid1268\"><tbody><tr><td><div><table CELLPADDING=\"0\" CELLSPACING=\"0\"><tbody><tr><td>下面就这些租房的选择做一个大致的比较<br/>\n一、民宿：租金800~1200刀<br/>\n居住面积14~20平米，一个房间，可能带个卫生间，客厅、厨房与他人共用，可以包餐也可以不包，出行方面自由度一般。<br/>\n二、月子中心：租金2400~3000刀<br/>\n居住面积14~20平米，一个房间，可能带卫生间，客厅、厨房与他人共用，包餐但菜品、就餐时间无法自己决定，出行方面自由度比较低。<br/>\n三、自己租公寓：租金2000~3000刀<br/>\n居住面积40~70平米（有的可能更大），有卫生间、客厅、厨房等设施，全部独享，餐饮自己解决但菜品、口味和就餐时间都可以自己掌握，公寓社区内基本会有泳池、健身房和会所等，出行方面也要自己解决但自由度很大。<br/></td></tr></tbody></table></div></td></tr></tbody></table></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e214ec590f5535905c3206d531b6ab5509bbd3d832c7e27af6c7e7ba954362a6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/下面就这些租房的选择做一个大致的比较.html"
+      }
+    },
+    {
+      "id": "f2ac991b-08fa-4c73-8284-ce1804fef0fd",
+      "note_id": "0bd5dcec-ed9d-491e-be30-42f0336cd877",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.011267Z",
+      "content": "---\ntitle: 下面就这些租房的选择做一个大致的比较\nupdated: 2012-11-27 11:55:49Z\ncreated: 2012-11-27 11:55:49Z\nsource: http://www.bornoverseas.com/forum.php?mod=viewthread&tid=443&extra=\n---\n\n下面就这些租房的选择做一个大致的比较\n\n一、民宿：租金800~1200刀\n\n居住面积14~20平米，一个房间，可能带个卫生间，客厅、厨房与他人共用，可以包餐也可以不包，出行方面自由度一般。\n\n二、月子中心：租金2400~3000刀\n\n居住面积14~20平米，一个房间，可能带卫生间，客厅、厨房与他人共用，包餐但菜品、就餐时间无法自己决定，出行方面自由度比较低。\n\n三、自己租公寓：租金2000~3000刀\n\n居住面积40~70平米（有的可能更大），有卫生间、客厅、厨房等设施，全部独享，餐饮自己解决但菜品、口味和就餐时间都可以自己掌握，公寓社区内基本会有泳池、健身房和会所等，出行方面也要自己解决但自由度很大。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 476,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "173c8b19-4d51-492d-9f81-9774e723e1f6",
+    "note_id": "0bd5dcec-ed9d-491e-be30-42f0336cd877",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.011273Z",
+    "finished_at": "2025-11-09T20:01:40.011273Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0d19f1b5-0d6e-4d20-b39d-35eb7312bfd9",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/下面就这些租房的选择做一个大致的比较.html",
+      "checksum": "e214ec590f5535905c3206d531b6ab5509bbd3d832c7e27af6c7e7ba954362a6"
+    },
+    "output_ref": {
+      "ingest_source": "e373f0a4-1e42-48a8-a97d-a9e5a4dd5250",
+      "note": "0bd5dcec-ed9d-491e-be30-42f0336cd877",
+      "variants": [
+        "63102b46-b2e1-4786-b878-eb74051c3dd3",
+        "f2ac991b-08fa-4c73-8284-ce1804fef0fd"
+      ]
+    },
+    "error_detail": null
+  }
+}

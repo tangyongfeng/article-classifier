@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "659d7647-3043-4d23-9e85-4b0575a32b38",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/c_类.html",
+    "collected_at": "2025-11-09T20:01:34.656170Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "cc624a3ee9f50cce17fdf6db184d74c936aa2a85fe8ea7d53f0477b95cacf5e7",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a95ac807-5bdd-4454-a24c-2463b84424b4",
+    "ingest_source_id": "659d7647-3043-4d23-9e85-4b0575a32b38",
+    "canonical_title": "c_类",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.656174Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "c_类.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "279a3a76-aef4-42f6-9e93-c5ff295676a8",
+      "note_id": "a95ac807-5bdd-4454-a24c-2463b84424b4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.656177Z",
+      "content": "---\ntitle: c#类\nupdated: 2013-06-09 03:23:07Z\ncreated: 2013-06-09 03:22:59Z\nsource: http://www.cnblogs.com/wayfarer/archive/2006/04/19/379181.html\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">public Class A</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">{</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;private string m_text;</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;private int m_count;</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;public string Text</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;{</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;&nbsp;get {return m_text;}</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;&nbsp;protected set { m_text = value;}</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;}</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;internal int Count</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;{</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;&nbsp;private get {return 5;}</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">&nbsp;&nbsp;private set {m_count = value}</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">}</span><br STYLE=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: verdana, Arial, Helvetica, sans-serif; font-size: 14px; line-height: 25px; background-color: rgb(255, 255, 255);\">}</span></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "cc624a3ee9f50cce17fdf6db184d74c936aa2a85fe8ea7d53f0477b95cacf5e7",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/c_类.html"
+      }
+    },
+    {
+      "id": "c5add8e1-62e5-44bd-a867-efb6655d8474",
+      "note_id": "a95ac807-5bdd-4454-a24c-2463b84424b4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.656180Z",
+      "content": "---\ntitle: c#类\nupdated: 2013-06-09 03:23:07Z\ncreated: 2013-06-09 03:22:59Z\nsource: http://www.cnblogs.com/wayfarer/archive/2006/04/19/379181.html\n---\n\npublic Class A\n{\n private string m_text;\n private int m_count;\n public string Text\n {\n  get {return m_text;}\n  protected set { m_text = value;}\n }\n internal int Count\n {\n  private get {return 5;}\n  private set {m_count = value}\n}",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 380,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "72dc8f61-3bbd-4eff-a16c-a85ef8898313",
+    "note_id": "a95ac807-5bdd-4454-a24c-2463b84424b4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.656185Z",
+    "finished_at": "2025-11-09T20:01:34.656185Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5a95f5a1-c375-4aa1-a89e-c5f6d0c72924",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/c_类.html",
+      "checksum": "cc624a3ee9f50cce17fdf6db184d74c936aa2a85fe8ea7d53f0477b95cacf5e7"
+    },
+    "output_ref": {
+      "ingest_source": "659d7647-3043-4d23-9e85-4b0575a32b38",
+      "note": "a95ac807-5bdd-4454-a24c-2463b84424b4",
+      "variants": [
+        "279a3a76-aef4-42f6-9e93-c5ff295676a8",
+        "c5add8e1-62e5-44bd-a867-efb6655d8474"
+      ]
+    },
+    "error_detail": null
+  }
+}

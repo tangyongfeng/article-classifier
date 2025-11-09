@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3fc9efc0-cfe3-430a-a157-7cf63c08c0fe",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Foto.html",
+    "collected_at": "2025-11-09T20:05:18.125751Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "9981baf22f2edbc4058511f5e2199e2ba2c8da40ca4ff6b403889e6bdec5db71",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "eca60803-f9f8-4533-a681-56ec7bbfd114",
+    "ingest_source_id": "3fc9efc0-cfe3-430a-a157-7cf63c08c0fe",
+    "canonical_title": "Foto",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.125755Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Foto.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e76b90c2-ef74-4fd0-ad31-48cb8c95dd7c",
+      "note_id": "eca60803-f9f8-4533-a681-56ec7bbfd114",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.125757Z",
+      "content": "---\ntitle: Foto\nupdated: 2020-10-01 08:09:41Z\ncreated: 2020-10-01 07:40:19Z\n---\n\n\n\n<en-note><div>Nachdem der letzte chinesische Kaiser aus dem Palast vertrieben worden war, kaufte er ein Ticket, um den Palast als B&uuml;rgerlicher zu betreten.Er sagte dem Personal, dass das falsche Foto des letzten Kaisers verwendet worden sei.Die Mitarbeiter fragten ihn: &quot;Kennen Sie die Geschichte?Das ist unser Geschichtsprofessor, der an der Wand h&auml;ngt.Er sagte: &quot;Ich wei&szlig; nichts &uuml;ber Geschichte, aber ich wei&szlig;, dass es nicht mein Vater war.</div><div><br/></div><div>Nachdem der letzte chinesische K&ouml;nig hatte aus dem Palast vertrieben werden ,</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9981baf22f2edbc4058511f5e2199e2ba2c8da40ca4ff6b403889e6bdec5db71",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Foto.html"
+      }
+    },
+    {
+      "id": "9d2bdafc-6109-4504-882a-b682e6bf9b45",
+      "note_id": "eca60803-f9f8-4533-a681-56ec7bbfd114",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.125760Z",
+      "content": "---\ntitle: Foto\nupdated: 2020-10-01 08:09:41Z\ncreated: 2020-10-01 07:40:19Z\n---\n\nNachdem der letzte chinesische Kaiser aus dem Palast vertrieben worden war, kaufte er ein Ticket, um den Palast als Bürgerlicher zu betreten.Er sagte dem Personal, dass das falsche Foto des letzten Kaisers verwendet worden sei.Die Mitarbeiter fragten ihn: \"Kennen Sie die Geschichte?Das ist unser Geschichtsprofessor, der an der Wand hängt.Er sagte: \"Ich weiß nichts über Geschichte, aber ich weiß, dass es nicht mein Vater war.\nNachdem der letzte chinesische König hatte aus dem Palast vertrieben werden ,",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 587,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b85652d4-c674-414e-a563-3b0d817d1b08",
+    "note_id": "eca60803-f9f8-4533-a681-56ec7bbfd114",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.125765Z",
+    "finished_at": "2025-11-09T20:05:18.125765Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9210a743-5cc6-464b-912f-827c6993d1a6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Foto.html",
+      "checksum": "9981baf22f2edbc4058511f5e2199e2ba2c8da40ca4ff6b403889e6bdec5db71"
+    },
+    "output_ref": {
+      "ingest_source": "3fc9efc0-cfe3-430a-a157-7cf63c08c0fe",
+      "note": "eca60803-f9f8-4533-a681-56ec7bbfd114",
+      "variants": [
+        "e76b90c2-ef74-4fd0-ad31-48cb8c95dd7c",
+        "9d2bdafc-6109-4504-882a-b682e6bf9b45"
+      ]
+    },
+    "error_detail": null
+  }
+}

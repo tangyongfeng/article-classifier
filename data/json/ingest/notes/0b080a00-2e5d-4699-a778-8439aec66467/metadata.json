@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1d7f96c8-1132-4615-b9f2-c6b443bc7d45",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/delete.cs.html",
+    "collected_at": "2025-11-09T20:01:34.663451Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8d6251938837b046d1a6e2cb4bb98fb3184da6fc6db7e7265f1e6f07ed3b2b98",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0b080a00-2e5d-4699-a778-8439aec66467",
+    "ingest_source_id": "1d7f96c8-1132-4615-b9f2-c6b443bc7d45",
+    "canonical_title": "delete.cs",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.663455Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "delete.cs.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "112225f6-5822-4a7d-9666-0319222890bb",
+      "note_id": "0b080a00-2e5d-4699-a778-8439aec66467",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.663458Z",
+      "content": "---\ntitle: delete.cs\nupdated: 2013-06-08 07:58:01Z\ncreated: 2013-06-08 07:57:48Z\ntags:\n  - SQLite\n  - c#\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\ndb = new SQLiteDatabase();<br/>\nString recipeID = &quot;12&quot;;<br/>\ndb.Delete(&quot;RECIPE&quot;, String.Format(&quot;ID = {0}&quot;, recipeID));<br/>\ndb.Delete(&quot;HAS_INGREDIENT&quot;, String.Format(&quot;ID = {0}&quot;, recipeID));<br/><br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8d6251938837b046d1a6e2cb4bb98fb3184da6fc6db7e7265f1e6f07ed3b2b98",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/delete.cs.html"
+      }
+    },
+    {
+      "id": "173de1c0-69c2-4a52-9ef5-e0317860c7f8",
+      "note_id": "0b080a00-2e5d-4699-a778-8439aec66467",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.663461Z",
+      "content": "---\ntitle: delete.cs\nupdated: 2013-06-08 07:58:01Z\ncreated: 2013-06-08 07:57:48Z\ntags:\n  - SQLite\n  - c#\n---\n\ndb = new SQLiteDatabase();\n\nString recipeID = \"12\";\n\ndb.Delete(\"RECIPE\", String.Format(\"ID = {0}\", recipeID));\n\ndb.Delete(\"HAS_INGREDIENT\", String.Format(\"ID = {0}\", recipeID));",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 287,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "65aa63a2-a2b0-45bc-8092-d268a54384a3",
+    "note_id": "0b080a00-2e5d-4699-a778-8439aec66467",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.663466Z",
+    "finished_at": "2025-11-09T20:01:34.663467Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1f7bde8f-d92b-4bcc-8cd6-7b3e763535da",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/delete.cs.html",
+      "checksum": "8d6251938837b046d1a6e2cb4bb98fb3184da6fc6db7e7265f1e6f07ed3b2b98"
+    },
+    "output_ref": {
+      "ingest_source": "1d7f96c8-1132-4615-b9f2-c6b443bc7d45",
+      "note": "0b080a00-2e5d-4699-a778-8439aec66467",
+      "variants": [
+        "112225f6-5822-4a7d-9666-0319222890bb",
+        "173de1c0-69c2-4a52-9ef5-e0317860c7f8"
+      ]
+    },
+    "error_detail": null
+  }
+}

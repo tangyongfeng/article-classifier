@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c5b444bb-598a-4ce2-ae8c-ab997ad2c7c6",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/券商接口api.html",
+    "collected_at": "2025-11-09T20:01:39.483865Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "51e93eebf51665fd3a3ecf33c28d9be2a756d10cbb37bf18a7fa3e719427cf83",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "9c3ce8f0-ca96-4dec-90ac-7934e86d1fd8",
+    "ingest_source_id": "c5b444bb-598a-4ce2-ae8c-ab997ad2c7c6",
+    "canonical_title": "券商接口api",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.483869Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "券商接口api.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d233ff8d-668a-4bba-b803-c1b36cb70843",
+      "note_id": "9c3ce8f0-ca96-4dec-90ac-7934e86d1fd8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.483871Z",
+      "content": "---\ntitle: 券商接口api\nupdated: 2020-07-25 08:06:37Z\ncreated: 2020-07-25 08:06:23Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><a HREF=\"https://xtp.zts.com.cn/home\">https://xtp.zts.com.cn/home</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "51e93eebf51665fd3a3ecf33c28d9be2a756d10cbb37bf18a7fa3e719427cf83",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/券商接口api.html"
+      }
+    },
+    {
+      "id": "913176ae-70e1-4a19-93a9-10a448ec0161",
+      "note_id": "9c3ce8f0-ca96-4dec-90ac-7934e86d1fd8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.483874Z",
+      "content": "---\ntitle: 券商接口api\nupdated: 2020-07-25 08:06:37Z\ncreated: 2020-07-25 08:06:23Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttps://xtp.zts.com.cn/home",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 142,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "dc2e0a4e-fa2c-4826-9342-6fd1bcf836c9",
+    "note_id": "9c3ce8f0-ca96-4dec-90ac-7934e86d1fd8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.483879Z",
+    "finished_at": "2025-11-09T20:01:39.483879Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "de2a1276-4725-4a20-82f7-dc5309944e89",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/券商接口api.html",
+      "checksum": "51e93eebf51665fd3a3ecf33c28d9be2a756d10cbb37bf18a7fa3e719427cf83"
+    },
+    "output_ref": {
+      "ingest_source": "c5b444bb-598a-4ce2-ae8c-ab997ad2c7c6",
+      "note": "9c3ce8f0-ca96-4dec-90ac-7934e86d1fd8",
+      "variants": [
+        "d233ff8d-668a-4bba-b803-c1b36cb70843",
+        "913176ae-70e1-4a19-93a9-10a448ec0161"
+      ]
+    },
+    "error_detail": null
+  }
+}

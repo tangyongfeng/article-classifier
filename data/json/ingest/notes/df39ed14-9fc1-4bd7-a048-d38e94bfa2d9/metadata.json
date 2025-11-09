@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "03a14632-812f-45fe-ad7a-22f9aa180720",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国3/第一次赴德签证资料列表.html",
+    "collected_at": "2025-11-09T20:05:17.896969Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "e54297bcc72b0b2654165fa7e015a9ff6ac502920cc311d9edd1e21f6b80bc54",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "df39ed14-9fc1-4bd7-a048-d38e94bfa2d9",
+    "ingest_source_id": "03a14632-812f-45fe-ad7a-22f9aa180720",
+    "canonical_title": "第一次赴德签证资料列表",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.896972Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "第一次赴德签证资料列表.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "587321a2-60b8-4d79-97da-99c34ee8cca7",
+      "note_id": "df39ed14-9fc1-4bd7-a048-d38e94bfa2d9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.896975Z",
+      "content": "---\ntitle: 第一次赴德签证资料列表\nupdated: 2017-11-29 10:08:19Z\ncreated: 2017-11-25 02:52:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>本次行程时间：2018年1月10日至1月24日</div><div><br/></div><div>1、本次邀请函</div><div>2、本次邀请邮件</div><div>2、李佳简历</div><div><span STYLE=\"font-size: 9pt;\">3、商务旅行行程</span></div><div><span STYLE=\"font-size: 9pt;\">4、商务旅行行程细节表</span></div><div><span STYLE=\"font-size: 9pt;\">5、机票</span></div><div><span STYLE=\"font-size: 9pt;\">6、酒店订单</span></div><div><span STYLE=\"font-size: 9pt;\">7、保单</span></div><div>8、个人银行流水单</div><div>9、李佳单位证明</div><div>10、律师事务所账单</div><div>11、缴费凭证</div><div>12、上次申请旅行签证说明书</div><div>13、和律师往来邮件</div><div>14、上次邀请函</div><div>15、上次退票单据</div><div>16、房产证</div><div>17、车辆证明</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e54297bcc72b0b2654165fa7e015a9ff6ac502920cc311d9edd1e21f6b80bc54",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国3/第一次赴德签证资料列表.html"
+      }
+    },
+    {
+      "id": "b9cdef03-12b8-48e3-a568-e385402a3631",
+      "note_id": "df39ed14-9fc1-4bd7-a048-d38e94bfa2d9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.896978Z",
+      "content": "---\ntitle: 第一次赴德签证资料列表\nupdated: 2017-11-29 10:08:19Z\ncreated: 2017-11-25 02:52:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n本次行程时间：2018年1月10日至1月24日\n1、本次邀请函\n2、本次邀请邮件\n2、李佳简历\n3、商务旅行行程\n4、商务旅行行程细节表\n5、机票\n6、酒店订单\n7、保单\n8、个人银行流水单\n9、李佳单位证明\n10、律师事务所账单\n11、缴费凭证\n12、上次申请旅行签证说明书\n13、和律师往来邮件\n14、上次邀请函\n15、上次退票单据\n16、房产证\n17、车辆证明",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 302,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "625dfaa6-ccd7-41f8-8406-203fde4642e0",
+    "note_id": "df39ed14-9fc1-4bd7-a048-d38e94bfa2d9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.896982Z",
+    "finished_at": "2025-11-09T20:05:17.896983Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9b205dbe-0e67-4dd6-a4ba-97997a6e6d74",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国3/第一次赴德签证资料列表.html",
+      "checksum": "e54297bcc72b0b2654165fa7e015a9ff6ac502920cc311d9edd1e21f6b80bc54"
+    },
+    "output_ref": {
+      "ingest_source": "03a14632-812f-45fe-ad7a-22f9aa180720",
+      "note": "df39ed14-9fc1-4bd7-a048-d38e94bfa2d9",
+      "variants": [
+        "587321a2-60b8-4d79-97da-99c34ee8cca7",
+        "b9cdef03-12b8-48e3-a568-e385402a3631"
+      ]
+    },
+    "error_detail": null
+  }
+}

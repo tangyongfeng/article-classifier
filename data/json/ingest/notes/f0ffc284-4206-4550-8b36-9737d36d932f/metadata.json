@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "3384c1d3-b2e8-495a-ad5a-22e60f04ee2b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Frage 2.1.07-111_ Warum müssen Sie in dieser Situa.html",
+    "collected_at": "2025-11-09T20:05:17.905831Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "06303844776ad82d396b0a4bb0ac38daba00f3e452bdd73f4afdde112da20417",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f0ffc284-4206-4550-8b36-9737d36d932f",
+    "ingest_source_id": "3384c1d3-b2e8-495a-ad5a-22e60f04ee2b",
+    "canonical_title": "Frage 2.1.07-111_ Warum müssen Sie in dieser Situa",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:17.905836Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Frage 2.1.07-111_ Warum müssen Sie in dieser Situa.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dc65fffb-4e24-4457-b3ca-b9494f237432",
+      "note_id": "f0ffc284-4206-4550-8b36-9737d36d932f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.905839Z",
+      "content": "---\ntitle: 'Frage 2.1.07-111: Warum müssen Sie in dieser Situation bremsbereit sein?'\nupdated: 2021-10-14 08:52:10Z\ncreated: 2021-10-13 09:44:37Z\nsource: https://www.theorie24.de/\n---\n\n\n\n<en-note>\n<div><img src=\"../_resources/312B9FEF-67E3-4CB8-A6F9-14C6901A4463.jpg\"  hash=\"bab3ca7c0919125dc637fcca54de50a7\" type=\"image/jpeg\" alt=\"312B9FEF-67E3-4CB8-A6F9-14C6901A4463.jpg\" /></en-media></div>\n\n<div><a HREF=\"https://www.theorie24.de/\">https://www.theorie24.de/</a></div>\n\n<div>\n<p><span>Frage 2.1.07-111: Warum m&uuml;ssen Sie in dieser Situation bremsbereit sein? Hinweis: Diese Frage enth&auml;lt ein Video, das in der F&uuml;hrerschein Theorie App von theorie24 angesehen werden kann. <span>&nbsp; </span>[1] Weil der Stra&szlig;enverlauf dies erfordert [2] Weil das andere Fahrzeug weiterfahren k&ouml;nnte [3] Weil eine Geschwindigkeitsbegrenzung erkennbar ist</span></p>\n</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "06303844776ad82d396b0a4bb0ac38daba00f3e452bdd73f4afdde112da20417",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Frage 2.1.07-111_ Warum müssen Sie in dieser Situa.html"
+      }
+    },
+    {
+      "id": "62009a83-a448-415b-bb63-e0b4b1c1decf",
+      "note_id": "f0ffc284-4206-4550-8b36-9737d36d932f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.905842Z",
+      "content": "---\ntitle: 'Frage 2.1.07-111: Warum müssen Sie in dieser Situation bremsbereit sein?'\nupdated: 2021-10-14 08:52:10Z\ncreated: 2021-10-13 09:44:37Z\nsource: https://www.theorie24.de/\n---\n\nhttps://www.theorie24.de/\n\nFrage 2.1.07-111: Warum müssen Sie in dieser Situation bremsbereit sein? Hinweis: Diese Frage enthält ein Video, das in der Führerschein Theorie App von theorie24 angesehen werden kann.\n \n[1] Weil der Straßenverlauf dies erfordert [2] Weil das andere Fahrzeug weiterfahren könnte [3] Weil eine Geschwindigkeitsbegrenzung erkennbar ist",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 546,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fe1a138c-c02d-43f6-be73-221fb7438d39",
+    "note_id": "f0ffc284-4206-4550-8b36-9737d36d932f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.905847Z",
+    "finished_at": "2025-11-09T20:05:17.905848Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3171c3f9-9514-4ba2-9b19-c62d33464731",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Frage 2.1.07-111_ Warum müssen Sie in dieser Situa.html",
+      "checksum": "06303844776ad82d396b0a4bb0ac38daba00f3e452bdd73f4afdde112da20417"
+    },
+    "output_ref": {
+      "ingest_source": "3384c1d3-b2e8-495a-ad5a-22e60f04ee2b",
+      "note": "f0ffc284-4206-4550-8b36-9737d36d932f",
+      "variants": [
+        "dc65fffb-4e24-4457-b3ca-b9494f237432",
+        "62009a83-a448-415b-bb63-e0b4b1c1decf"
+      ]
+    },
+    "error_detail": null
+  }
+}

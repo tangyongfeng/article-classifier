@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "66c02e15-0062-46c1-9682-e2c6348bbf02",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/气球.html",
+    "collected_at": "2025-11-09T20:05:16.457421Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bfc4a1619a91f029bd62d91cb8506d9188b29a430758732d6cd86310e6cff7ab",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "688342a5-d618-4c3a-af14-d639899d0ebd",
+    "ingest_source_id": "66c02e15-0062-46c1-9682-e2c6348bbf02",
+    "canonical_title": "气球",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.457425Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "气球.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "19ab069f-a931-46c6-9015-decec66a4a15",
+      "note_id": "688342a5-d618-4c3a-af14-d639899d0ebd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.457427Z",
+      "content": "---\ntitle: 气球\nupdated: 2020-03-04 22:03:25Z\ncreated: 2020-03-04 22:03:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><a HREF=\"https://www.dandanzan.com/dianying/30941.html\">https://www.dandanzan.com/dianying/30941.html</a></div><div>40分</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bfc4a1619a91f029bd62d91cb8506d9188b29a430758732d6cd86310e6cff7ab",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/气球.html"
+      }
+    },
+    {
+      "id": "4239aec0-d954-4e01-a748-a8168bb2d86c",
+      "note_id": "688342a5-d618-4c3a-af14-d639899d0ebd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.457430Z",
+      "content": "---\ntitle: 气球\nupdated: 2020-03-04 22:03:25Z\ncreated: 2020-03-04 22:03:05Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttps://www.dandanzan.com/dianying/30941.html\n40分",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 159,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "bb6d07e1-89a5-41b3-9eed-d16aacd3163d",
+    "note_id": "688342a5-d618-4c3a-af14-d639899d0ebd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.457435Z",
+    "finished_at": "2025-11-09T20:05:16.457435Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "32e56711-c35d-40db-8d42-3628bfc9069f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/气球.html",
+      "checksum": "bfc4a1619a91f029bd62d91cb8506d9188b29a430758732d6cd86310e6cff7ab"
+    },
+    "output_ref": {
+      "ingest_source": "66c02e15-0062-46c1-9682-e2c6348bbf02",
+      "note": "688342a5-d618-4c3a-af14-d639899d0ebd",
+      "variants": [
+        "19ab069f-a931-46c6-9015-decec66a4a15",
+        "4239aec0-d954-4e01-a748-a8168bb2d86c"
+      ]
+    },
+    "error_detail": null
+  }
+}

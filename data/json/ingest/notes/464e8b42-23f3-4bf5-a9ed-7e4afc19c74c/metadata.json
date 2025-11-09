@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "7ab07c1d-43e0-4d18-8e01-3ff1d27d326f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/ScaleUp测试.html",
+    "collected_at": "2025-11-09T20:05:16.883832Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "2a816249d763284c6c6bb89d36ceae62b353fd0b07fcce37eba33e01c0298a99",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "464e8b42-23f3-4bf5-a9ed-7e4afc19c74c",
+    "ingest_source_id": "7ab07c1d-43e0-4d18-8e01-3ff1d27d326f",
+    "canonical_title": "ScaleUp测试",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.883835Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ScaleUp测试.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "934fec15-e804-4ffa-92cc-da0d3aa3bc1e",
+      "note_id": "464e8b42-23f3-4bf5-a9ed-7e4afc19c74c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.883838Z",
+      "content": "---\ntitle: ScaleUp测试\nupdated: 2013-04-18 21:29:32Z\ncreated: 2013-04-18 17:59:50Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n3个节点，cpu core数分别是4、8、12\n<div>4个节点的单机场景5效率大概为2493</div><div>8个节点的单机场景5效率大概4950</div><div>先按照场景五整体跑一遍。</div><div>然后根据最优数据模型：</div><div>login20k/sec</div><div>bet :300k/sec(1query+1update)</div><div>query:200K/sec(1query)</div><div><br/></div><div>[20klogin,300kquery+200kupdate,200kquery] 等比缩小后为[1login,25query,15update]，按照这个模型继续第二次压力，保持20-30分钟时间。</div><div>场景5，开日志跑一遍，不开日志再跑一遍</div><div><table BORDER=\"1\" CELLPADDING=\"2\" CELLSPACING=\"0\" WIDTH=\"100%\"><tbody><tr><td VALIGN=\"top\">场景</td><td VALIGN=\"top\">cpu number</td><td VALIGN=\"top\">4core &nbsp;</td><td VALIGN=\"top\">8core</td><td VALIGN=\"top\">12core&nbsp;</td></tr><tr><td VALIGN=\"top\">case5</td><td VALIGN=\"top\">memry</td><td VALIGN=\"top\">200G memory</td><td VALIGN=\"top\">200G memory</td><td VALIGN=\"top\">200G menory</td></tr><tr><td VALIGN=\"top\">with log</td><td VALIGN=\"top\">进程数</td><td VALIGN=\"top\">25process</td><td VALIGN=\"top\">50process&nbsp;</td><td VALIGN=\"top\">75process</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">每进程线程数</td><td VALIGN=\"top\">4threads &nbsp;</td><td VALIGN=\"top\">4threads</td><td VALIGN=\"top\">4threads</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">cpu使用率</td><td VALIGN=\"top\">49%utilization</td><td VALIGN=\"top\">51%</td><td VALIGN=\"top\">61%</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">交易笔数</td><td VALIGN=\"top\">3560ops/sec</td><td VALIGN=\"top\">7035 ops/sec&nbsp;</td><td VALIGN=\"top\">10578 ops/sec</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">扩展系数</td><td VALIGN=\"top\">power1</td><td VALIGN=\"top\">0.94</td><td VALIGN=\"top\">0.78</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">系统内线程总数</td><td VALIGN=\"top\">2014</td><td VALIGN=\"top\">2663</td><td VALIGN=\"top\">3798</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">是否带日志</td><td VALIGN=\"top\">yes</td><td VALIGN=\"top\">yes</td><td VALIGN=\"top\">yes</td></tr><tr><td VALIGN=\"top\">case8</td><td VALIGN=\"top\">cpu使用率</td><td VALIGN=\"top\">50%</td><td VALIGN=\"top\">53%</td><td VALIGN=\"top\">61%</td></tr><tr><td VALIGN=\"top\">with log</td><td VALIGN=\"top\">交易笔数</td><td VALIGN=\"top\">2460ops/sec</td><td VALIGN=\"top\">4900ops/sec</td><td VALIGN=\"top\">7385 ops/sec</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">扩展系数</td><td VALIGN=\"top\">power1</td><td VALIGN=\"top\">0.94</td><td VALIGN=\"top\">0.82</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">paging</td><td VALIGN=\"top\">30</td><td VALIGN=\"top\">50</td><td VALIGN=\"top\">100</td></tr><tr><td VALIGN=\"top\">case20</td><td VALIGN=\"top\">cpu使用率</td><td VALIGN=\"top\">45</td><td VALIGN=\"top\">50.7</td><td VALIGN=\"top\">58</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">交易笔数</td><td VALIGN=\"top\">3970ops/sec</td><td VALIGN=\"top\">7920 ops/sec</td><td VALIGN=\"top\">11815</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">扩展率</td><td VALIGN=\"top\">1</td><td VALIGN=\"top\">0.89</td><td VALIGN=\"top\">77</td></tr></tbody></table></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2a816249d763284c6c6bb89d36ceae62b353fd0b07fcce37eba33e01c0298a99",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/ScaleUp测试.html"
+      }
+    },
+    {
+      "id": "71087a3b-afd5-4b39-980a-0800ca4f488a",
+      "note_id": "464e8b42-23f3-4bf5-a9ed-7e4afc19c74c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.883841Z",
+      "content": "---\ntitle: ScaleUp测试\nupdated: 2013-04-18 21:29:32Z\ncreated: 2013-04-18 17:59:50Z\n---\n\n3个节点，cpu core数分别是4、8、12\n\n4个节点的单机场景5效率大概为2493\n8个节点的单机场景5效率大概4950\n先按照场景五整体跑一遍。\n然后根据最优数据模型：\nlogin20k/sec\nbet :300k/sec(1query+1update)\nquery:200K/sec(1query)\n[20klogin,300kquery+200kupdate,200kquery] 等比缩小后为[1login,25query,15update]，按照这个模型继续第二次压力，保持20-30分钟时间。\n场景5，开日志跑一遍，不开日志再跑一遍\n场景\ncpu number\n4core  \n8core\n12core \ncase5\nmemry\n200G memory\n200G menory\nwith log\n进程数\n25process\n50process \n75process\n每进程线程数\n4threads  \ncpu使用率\n49%utilization\n51%\n61%\n交易笔数\n3560ops/sec\n7035 ops/sec \n10578 ops/sec\n扩展系数\npower1\n0.94\n0.78\n系统内线程总数\n2014\n2663\n3798\n是否带日志\nyes\ncase8\ncpu使用率\n50%\n53%\n61%\nwith log\n交易笔数\n2460ops/sec\n4900ops/sec\n7385 ops/sec\n扩展系数\npower1\n0.94\n0.82\npaging\n30\n50\n100\ncase20\ncpu使用率\n45\n50.7\n58\n交易笔数\n3970ops/sec\n7920 ops/sec\n11815\n扩展率\n1\n0.89\n77",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 815,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a4b47ed8-d83a-42f1-aaa7-c76682f1c6cd",
+    "note_id": "464e8b42-23f3-4bf5-a9ed-7e4afc19c74c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.883845Z",
+    "finished_at": "2025-11-09T20:05:16.883846Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "67c8b580-d0bf-431d-879a-7b369caea53a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/ScaleUp测试.html",
+      "checksum": "2a816249d763284c6c6bb89d36ceae62b353fd0b07fcce37eba33e01c0298a99"
+    },
+    "output_ref": {
+      "ingest_source": "7ab07c1d-43e0-4d18-8e01-3ff1d27d326f",
+      "note": "464e8b42-23f3-4bf5-a9ed-7e4afc19c74c",
+      "variants": [
+        "934fec15-e804-4ffa-92cc-da0d3aa3bc1e",
+        "71087a3b-afd5-4b39-980a-0800ca4f488a"
+      ]
+    },
+    "error_detail": null
+  }
+}

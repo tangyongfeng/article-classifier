@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7ec089e9-dc6c-4444-9678-9e7fb6a84e6f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/小皮球香蕉梨.html",
+    "collected_at": "2025-11-09T20:05:14.856588Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "d5dd765193e89a7459f2e3978c2c6d0dae2cd81554fc00c934d37206ed8977e9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8c076f59-8f26-43bd-85c7-8821515185e0",
+    "ingest_source_id": "7ec089e9-dc6c-4444-9678-9e7fb6a84e6f",
+    "canonical_title": "小皮球香蕉梨",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:14.856592Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "小皮球香蕉梨.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e289bfbb-cd85-43fd-8d31-a310d95532aa",
+      "note_id": "8c076f59-8f26-43bd-85c7-8821515185e0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.856595Z",
+      "content": "---\ntitle: 小皮球香蕉梨\nupdated: 2019-08-23 19:29:33Z\ncreated: 2019-08-23 19:29:17Z\n---\n\n\n<en-note><div><span STYLE=\"font-size: 14px;\">小皮球香蕉梨，马兰开花二十一，二八二五六，二八二五七，二八二九三十一。三八三五六，三八三五七，三八三九四十一，四八四五六，四八四五七，四八四九五十一，五八五五六，五八五五七，五八五九六十一，六八六五六，六八六五七，六八六九七十一，七八七五六，七八七五七，七八七九八十一，八八八五六，八八八五七，八八八九九十一，九八九五六，九八九五七，九八九九一百零一。</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d5dd765193e89a7459f2e3978c2c6d0dae2cd81554fc00c934d37206ed8977e9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/小皮球香蕉梨.html"
+      }
+    },
+    {
+      "id": "33f0783f-7445-4743-8576-0c93993e09ca",
+      "note_id": "8c076f59-8f26-43bd-85c7-8821515185e0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.856598Z",
+      "content": "---\ntitle: 小皮球香蕉梨\nupdated: 2019-08-23 19:29:33Z\ncreated: 2019-08-23 19:29:17Z\n---\n\n小皮球香蕉梨，马兰开花二十一，二八二五六，二八二五七，二八二九三十一。三八三五六，三八三五七，三八三九四十一，四八四五六，四八四五七，四八四九五十一，五八五五六，五八五五七，五八五九六十一，六八六五六，六八六五七，六八六九七十一，七八七五六，七八七五七，七八七九八十一，八八八五六，八八八五七，八八八九九十一，九八九五六，九八九五七，九八九九一百零一。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 259,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "11244d71-d2b3-49de-b08d-8e09eb102c72",
+    "note_id": "8c076f59-8f26-43bd-85c7-8821515185e0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.856602Z",
+    "finished_at": "2025-11-09T20:05:14.856603Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "689aac8d-8683-456f-87db-921612742024",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/小皮球香蕉梨.html",
+      "checksum": "d5dd765193e89a7459f2e3978c2c6d0dae2cd81554fc00c934d37206ed8977e9"
+    },
+    "output_ref": {
+      "ingest_source": "7ec089e9-dc6c-4444-9678-9e7fb6a84e6f",
+      "note": "8c076f59-8f26-43bd-85c7-8821515185e0",
+      "variants": [
+        "e289bfbb-cd85-43fd-8d31-a310d95532aa",
+        "33f0783f-7445-4743-8576-0c93993e09ca"
+      ]
+    },
+    "error_detail": null
+  }
+}

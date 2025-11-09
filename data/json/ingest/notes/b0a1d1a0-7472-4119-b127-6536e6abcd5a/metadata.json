@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c99e5143-4a5a-4dcf-bd24-4f326fcdf360",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mysql lock.html",
+    "collected_at": "2025-11-09T20:01:34.976864Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ef94cf5e123344108c7cafe36844ca0fa43851f2eebef95ef2f4a15d02c1c787",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b0a1d1a0-7472-4119-b127-6536e6abcd5a",
+    "ingest_source_id": "c99e5143-4a5a-4dcf-bd24-4f326fcdf360",
+    "canonical_title": "mysql lock",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.976869Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "mysql lock.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ea3c6072-bbca-45f7-aba0-97bed10fa7aa",
+      "note_id": "b0a1d1a0-7472-4119-b127-6536e6abcd5a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.976872Z",
+      "content": "---\ntitle: mysql lock\nupdated: 2022-08-21 21:25:08Z\ncreated: 2022-08-21 21:24:37Z\ntags:\n  - mysql\n---\n\n\n<en-note><div>ERROR 1205 (HY000) at line 1: Lock wait timeout exceeded; try restarting transaction threadid=0</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ef94cf5e123344108c7cafe36844ca0fa43851f2eebef95ef2f4a15d02c1c787",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mysql lock.html"
+      }
+    },
+    {
+      "id": "2a9375a6-f94e-4878-82cb-45c23a34da89",
+      "note_id": "b0a1d1a0-7472-4119-b127-6536e6abcd5a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.976875Z",
+      "content": "---\ntitle: mysql lock\nupdated: 2022-08-21 21:25:08Z\ncreated: 2022-08-21 21:24:37Z\ntags:\n  - mysql\n---\n\nERROR 1205 (HY000) at line 1: Lock wait timeout exceeded; try restarting transaction threadid=0",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 198,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8ba3160d-c9f6-431d-9a64-d43b5eb83e97",
+    "note_id": "b0a1d1a0-7472-4119-b127-6536e6abcd5a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.976880Z",
+    "finished_at": "2025-11-09T20:01:34.976880Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6ffa4518-cc8d-449c-af2c-a57eb30d57fb",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/mysql lock.html",
+      "checksum": "ef94cf5e123344108c7cafe36844ca0fa43851f2eebef95ef2f4a15d02c1c787"
+    },
+    "output_ref": {
+      "ingest_source": "c99e5143-4a5a-4dcf-bd24-4f326fcdf360",
+      "note": "b0a1d1a0-7472-4119-b127-6536e6abcd5a",
+      "variants": [
+        "ea3c6072-bbca-45f7-aba0-97bed10fa7aa",
+        "2a9375a6-f94e-4878-82cb-45c23a34da89"
+      ]
+    },
+    "error_detail": null
+  }
+}

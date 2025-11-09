@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "746932cd-3935-4af2-93de-cba9c336ecb6",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/EqbL-FwVQAAfMhN 1,000×893像素.html",
+    "collected_at": "2025-11-09T20:01:38.798347Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "be5221fab05a7934194a999e926fb0724b04ef19aa47142b260d27653c573b75",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "58eec574-e142-4ef0-bb04-770f98f4a9bd",
+    "ingest_source_id": "746932cd-3935-4af2-93de-cba9c336ecb6",
+    "canonical_title": "EqbL-FwVQAAfMhN 1,000×893像素",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.798351Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "EqbL-FwVQAAfMhN 1,000×893像素.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b9fcd867-b550-4c28-9fe5-ad44cfda1bb2",
+      "note_id": "58eec574-e142-4ef0-bb04-770f98f4a9bd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.798353Z",
+      "content": "---\ntitle: EqbL-FwVQAAfMhN 1,000×893像素\nupdated: 2020-12-30 22:15:09Z\ncreated: 2020-12-30 02:14:46Z\nsource: https://pbs.twimg.com/media/EqbL-FwVQAAfMhN?format=jpg&name=medium\n---\n\n\n\n<en-note>\n<div STYLE=\"\"><img src=\"../_resources/92388a302e69036037dcc3a5650237ed.jpg\"  style=\"display: block; margin: auto; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);\" hash=\"92388a302e69036037dcc3a5650237ed\" type=\"image/jpeg\" alt=\"\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "be5221fab05a7934194a999e926fb0724b04ef19aa47142b260d27653c573b75",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/EqbL-FwVQAAfMhN 1,000×893像素.html"
+      }
+    },
+    {
+      "id": "7aaf674b-103e-4b81-afea-3820d50ea76c",
+      "note_id": "58eec574-e142-4ef0-bb04-770f98f4a9bd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.798356Z",
+      "content": "---\ntitle: EqbL-FwVQAAfMhN 1,000×893像素\nupdated: 2020-12-30 22:15:09Z\ncreated: 2020-12-30 02:14:46Z\nsource: https://pbs.twimg.com/media/EqbL-FwVQAAfMhN?format=jpg&name=medium\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 177,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9e6e2f73-8f64-4cc4-8cd5-d108cbf734fe",
+    "note_id": "58eec574-e142-4ef0-bb04-770f98f4a9bd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.798360Z",
+    "finished_at": "2025-11-09T20:01:38.798361Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b07db64b-d026-4664-9c3e-073a2358cc00",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/EqbL-FwVQAAfMhN 1,000×893像素.html",
+      "checksum": "be5221fab05a7934194a999e926fb0724b04ef19aa47142b260d27653c573b75"
+    },
+    "output_ref": {
+      "ingest_source": "746932cd-3935-4af2-93de-cba9c336ecb6",
+      "note": "58eec574-e142-4ef0-bb04-770f98f4a9bd",
+      "variants": [
+        "b9fcd867-b550-4c28-9fe5-ad44cfda1bb2",
+        "7aaf674b-103e-4b81-afea-3820d50ea76c"
+      ]
+    },
+    "error_detail": null
+  }
+}

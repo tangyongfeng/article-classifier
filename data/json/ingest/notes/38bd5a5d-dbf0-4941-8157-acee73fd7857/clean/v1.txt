@@ -1,0 +1,16 @@
+---
+title: mysql 改目录
+updated: 2021-05-26 17:46:16Z
+created: 2021-05-26 17:42:39Z
+author: tangyongfeng@gmail.com
+tags:
+  - mysql
+---
+
+停库
+修改/etc/mysql/my.cnf文件中的 /var/db/$$$$ 到对应的目录下
+拷贝或者移动/var/db/mysql  mysql_secure mysql_tmpdir  改到目标目录下
+修改目录归属到mysql用户下
+在/etc/mysql/my.cnf 中的mysql.sock文件需要有对应的位置
+修改service 对应的启动文件中的目录到目标文件夹下
+启动

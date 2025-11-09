@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "40185222-5d3d-4e83-b634-df08a7020548",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/制定自己的交易框架.html",
+    "collected_at": "2025-11-09T20:01:39.482285Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "28cffdf436c176ec9fd1ababfee1013999f455915ba7385618c82b2fc4e10bb2",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "685af144-634d-43e2-80a1-4e466c2335b0",
+    "ingest_source_id": "40185222-5d3d-4e83-b634-df08a7020548",
+    "canonical_title": "制定自己的交易框架",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.482290Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "制定自己的交易框架.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "eab73cb7-6105-43d3-98dc-1daf88790b47",
+      "note_id": "685af144-634d-43e2-80a1-4e466c2335b0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.482294Z",
+      "content": "---\ntitle: 制定自己的交易框架\nupdated: 2022-06-01 13:24:24Z\ncreated: 2022-06-01 13:13:11Z\n---\n\n\n<en-note><div>1.确定时间框架</div><div>短线交易者</div><div>波段交易者</div><div>你想将你的仓位留存多少时间</div><div><br/></div><div>2.确定趋势的指标</div><div>均线就是最多用来判断趋势的指标之一。用一快一慢两根均线，开始等待。直到较快的那条均线上穿或者下穿较慢的那条均线。</div><div><br/></div><div>3.找到钱确定这个趋势的指标</div><div>很多指标都能确定趋势，比如macd kdj isi</div><div>4.风险的控制</div><div>确定每笔交易能够接受的损失</div><div>5.确定入场和离场</div><div>指标确立进场和离场</div><div>坚守目标</div><div>6.遵循自己的规则</div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "28cffdf436c176ec9fd1ababfee1013999f455915ba7385618c82b2fc4e10bb2",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/制定自己的交易框架.html"
+      }
+    },
+    {
+      "id": "fc28fa92-85c0-49d4-ac2c-120c1631a080",
+      "note_id": "685af144-634d-43e2-80a1-4e466c2335b0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.482298Z",
+      "content": "---\ntitle: 制定自己的交易框架\nupdated: 2022-06-01 13:24:24Z\ncreated: 2022-06-01 13:13:11Z\n---\n\n1.确定时间框架\n短线交易者\n波段交易者\n你想将你的仓位留存多少时间\n2.确定趋势的指标\n均线就是最多用来判断趋势的指标之一。用一快一慢两根均线，开始等待。直到较快的那条均线上穿或者下穿较慢的那条均线。\n3.找到钱确定这个趋势的指标\n很多指标都能确定趋势，比如macd kdj isi\n4.风险的控制\n确定每笔交易能够接受的损失\n5.确定入场和离场\n指标确立进场和离场\n坚守目标\n6.遵循自己的规则",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 285,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "03441b01-fdd0-4568-ad65-dd2a94b004a6",
+    "note_id": "685af144-634d-43e2-80a1-4e466c2335b0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.482305Z",
+    "finished_at": "2025-11-09T20:01:39.482306Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1f48f1a2-381d-4d7f-a7bd-aef6e97e9b22",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/制定自己的交易框架.html",
+      "checksum": "28cffdf436c176ec9fd1ababfee1013999f455915ba7385618c82b2fc4e10bb2"
+    },
+    "output_ref": {
+      "ingest_source": "40185222-5d3d-4e83-b634-df08a7020548",
+      "note": "685af144-634d-43e2-80a1-4e466c2335b0",
+      "variants": [
+        "eab73cb7-6105-43d3-98dc-1daf88790b47",
+        "fc28fa92-85c0-49d4-ac2c-120c1631a080"
+      ]
+    },
+    "error_detail": null
+  }
+}

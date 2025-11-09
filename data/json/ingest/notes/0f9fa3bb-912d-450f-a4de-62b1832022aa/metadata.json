@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7149a8c2-a42c-4412-a93a-8fcf844b2e54",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/银行都注册在美国特拉华州.html",
+    "collected_at": "2025-11-09T20:01:37.671449Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "99ab699cde0b15e8035c20da69d628ecebbba945323a470004e0a3c3e0ae9c30",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0f9fa3bb-912d-450f-a4de-62b1832022aa",
+    "ingest_source_id": "7149a8c2-a42c-4412-a93a-8fcf844b2e54",
+    "canonical_title": "银行都注册在美国特拉华州",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:37.671453Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "银行都注册在美国特拉华州.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4be45d1f-94aa-4a7f-9c92-f370a54b42df",
+      "note_id": "0f9fa3bb-912d-450f-a4de-62b1832022aa",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.671456Z",
+      "content": "---\ntitle: 银行都注册在美国特拉华州\nupdated: 2018-08-23 12:55:51Z\ncreated: 2018-08-23 12:55:27Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><div>作者：豆子彩虹爸</div><div>链接：<a HREF=\"https://www\">https://www</a>.<a HREF=\"http://zhihu.com/question/46648204/answer/471723475\">zhihu.com/question/46648204/answer/471723475</a></div><div>来源：知乎</div><div>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</div><div><br/></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">在美国经常会收到很多让你申请信用卡的信，一般大家没兴趣就连打开都省了，直接扔垃圾桶。我就比较好奇宝宝，收到这种信一般都打开瞧瞧，研究一下福利，过过自己很有钱的瘾。看多了，被我发现一个问题。这种信一般都有一个写好回邮地址的信封，如果想申请信用卡，你就把个人信息填好，塞到信封里寄回去，而绝大多数信封上的回邮地址都是特拉华州威明顿市，其中一个地址超级频繁的出现：\n</span></div><div>1209 N Orange St, Wilmington DE 19801</div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">特拉华州威明顿市北橙子街1209号\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">我艹！这难道是诈骗？骗取个人资料？我要不要报警？赶紧联系FBI，DEA，CIA，KFC，UFO。。。这可是大件事啊！\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">后来又看看，不对。这些信看着都挺正经的，不像山寨货，应该就是那些银行寄来的。那么就只有一种可能，这些银行真的就注册在特拉华州。可是，why？\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">================================\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">上网搜索了一番，真是让人大开眼界。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">事实上，美国一半的上市公司，以及全世界500强的330家以上，都注册在特拉华州，包括大家耳熟能详的可口可乐，通用电气，谷歌，苹果，非死不可等等。金融机构更甚，全美最大的十家银行，除了PNC银行集团(注册地宾夕法尼亚州)，其他九家包括摩根大通，美国银行，富国银行，高盛，摩根斯坦利等等，全部注册在特拉华州。全美最大的五家信用卡发卡机构，除了美国运通(注册地纽约州)，其他四家，Visa，万事达，摩根大通，Capital One也全部注册在特拉华州。那个神秘的北橙子街1209号最神奇，一个地址注册了将近30万家公司。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">这就牵扯出了美国商业社会一个如雷贯耳的专有名词：Delaware Corporation，特拉华式公司。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">Delaware Corp是指在特拉华州注册(registered)和组成(incorporated)的公司，遵守特拉华州法律，特别是特拉华公司法(Delaware General Corporation Law)，接受特拉华法院仲裁，按照特拉华州税率纳税的公司。如果你有兴趣，可以用公司名+certificate of incorporation搜索，然后找到隶属于sec下的那个链接，一般第二条就会找到公司的注册地。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">那么，特拉华州究竟为什么那么受公司尤其是金融机构的欢迎呢？\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">首先，特拉华州没有高利贷法，而且允许本州注册的金融机构向外州收取利息，所以银行注册在这里，基本可以为所欲为的对贷款征收利息。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">第二，特拉华公司法基本是全美国最古老但最灵活的公司法。公司注册在特拉华州掣肘最少。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">第三，特拉华州有一个特别法庭，由法官而不是陪审团专门审理商业纠纷案件，效率奇高。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">第四，如果公司注册在特拉华州但在特拉华州没有业务，则对该公司免收公司所得税。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">第五，对金融机构实行倒置税，金融机构越大税率反而越低。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">第六，非特拉华居民免收个人所得税。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">第七，对州内注册公司位于州外的个人免税。\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">(第八，根据评论区补充，特拉华州有严密的保密制度，你想查个实际控制人什么的基本没戏。)\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">其他还有多如牛毛的各种优惠，据说学会计和法律的同学，除了本州和联邦的法律税制，都还要特别学习一门特拉华州的法律税制课程，有经历的可以来介绍一下。\n</span></div><div>特拉华州是美国面积第二小的州，人口不足一百万，但却是商业领域内最有存在感的州，这，也算是个有趣的冷知识吧？\n</div></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "99ab699cde0b15e8035c20da69d628ecebbba945323a470004e0a3c3e0ae9c30",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/银行都注册在美国特拉华州.html"
+      }
+    },
+    {
+      "id": "040d4c30-f31e-4e2f-9986-5eaf20dbfb8c",
+      "note_id": "0f9fa3bb-912d-450f-a4de-62b1832022aa",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.671459Z",
+      "content": "---\ntitle: 银行都注册在美国特拉华州\nupdated: 2018-08-23 12:55:51Z\ncreated: 2018-08-23 12:55:27Z\nauthor: tangyongfeng@gmail.com\n---\n\n作者：豆子彩虹爸\n链接：\nhttps://www\n.\nzhihu.com/question/46648204/answer/471723475\n来源：知乎\n著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。\n在美国经常会收到很多让你申请信用卡的信，一般大家没兴趣就连打开都省了，直接扔垃圾桶。我就比较好奇宝宝，收到这种信一般都打开瞧瞧，研究一下福利，过过自己很有钱的瘾。看多了，被我发现一个问题。这种信一般都有一个写好回邮地址的信封，如果想申请信用卡，你就把个人信息填好，塞到信封里寄回去，而绝大多数信封上的回邮地址都是特拉华州威明顿市，其中一个地址超级频繁的出现：\n\n1209 N Orange St, Wilmington DE 19801\n特拉华州威明顿市北橙子街1209号\n\n我艹！这难道是诈骗？骗取个人资料？我要不要报警？赶紧联系FBI，DEA，CIA，KFC，UFO。。。这可是大件事啊！\n\n后来又看看，不对。这些信看着都挺正经的，不像山寨货，应该就是那些银行寄来的。那么就只有一种可能，这些银行真的就注册在特拉华州。可是，why？\n\n================================\n\n上网搜索了一番，真是让人大开眼界。\n\n事实上，美国一半的上市公司，以及全世界500强的330家以上，都注册在特拉华州，包括大家耳熟能详的可口可乐，通用电气，谷歌，苹果，非死不可等等。金融机构更甚，全美最大的十家银行，除了PNC银行集团(注册地宾夕法尼亚州)，其他九家包括摩根大通，美国银行，富国银行，高盛，摩根斯坦利等等，全部注册在特拉华州。全美最大的五家信用卡发卡机构，除了美国运通(注册地纽约州)，其他四家，Visa，万事达，摩根大通，Capital One也全部注册在特拉华州。那个神秘的北橙子街1209号最神奇，一个地址注册了将近30万家公司。\n\n这就牵扯出了美国商业社会一个如雷贯耳的专有名词：Delaware Corporation，特拉华式公司。\n\nDelaware Corp是指在特拉华州注册(registered)和组成(incorporated)的公司，遵守特拉华州法律，特别是特拉华公司法(Delaware General Corporation Law)，接受特拉华法院仲裁，按照特拉华州税率纳税的公司。如果你有兴趣，可以用公司名+certificate of incorporation搜索，然后找到隶属于sec下的那个链接，一般第二条就会找到公司的注册地。\n\n那么，特拉华州究竟为什么那么受公司尤其是金融机构的欢迎呢？\n\n首先，特拉华州没有高利贷法，而且允许本州注册的金融机构向外州收取利息，所以银行注册在这里，基本可以为所欲为的对贷款征收利息。\n\n第二，特拉华公司法基本是全美国最古老但最灵活的公司法。公司注册在特拉华州掣肘最少。\n\n第三，特拉华州有一个特别法庭，由法官而不是陪审团专门审理商业纠纷案件，效率奇高。\n\n第四，如果公司注册在特拉华州但在特拉华州没有业务，则对该公司免收公司所得税。\n\n第五，对金融机构实行倒置税，金融机构越大税率反而越低。\n\n第六，非特拉华居民免收个人所得税。\n\n第七，对州内注册公司位于州外的个人免税。\n\n(第八，根据评论区补充，特拉华州有严密的保密制度，你想查个实际控制人什么的基本没戏。)\n\n其他还有多如牛毛的各种优惠，据说学会计和法律的同学，除了本州和联邦的法律税制，都还要特别学习一门特拉华州的法律税制课程，有经历的可以来介绍一下。\n\n特拉华州是美国面积第二小的州，人口不足一百万，但却是商业领域内最有存在感的州，这，也算是个有趣的冷知识吧？",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 1643,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9f3d934b-2d19-4bf8-b437-69d7cd000c80",
+    "note_id": "0f9fa3bb-912d-450f-a4de-62b1832022aa",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.671465Z",
+    "finished_at": "2025-11-09T20:01:37.671465Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3514fefd-f771-4cc4-b067-ed433d20e9b0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/银行都注册在美国特拉华州.html",
+      "checksum": "99ab699cde0b15e8035c20da69d628ecebbba945323a470004e0a3c3e0ae9c30"
+    },
+    "output_ref": {
+      "ingest_source": "7149a8c2-a42c-4412-a93a-8fcf844b2e54",
+      "note": "0f9fa3bb-912d-450f-a4de-62b1832022aa",
+      "variants": [
+        "4be45d1f-94aa-4a7f-9c92-f370a54b42df",
+        "040d4c30-f31e-4e2f-9986-5eaf20dbfb8c"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,46 @@
+---
+title: flask 学习笔记
+updated: 2022-10-30 21:12:10Z
+created: 2022-10-30 20:32:31Z
+---
+
+运行前
+设定环境变量
+Windows
+$env:FLASK_APP = "hello.py"
+$env:FLASK_DEBUG=1
+flask run
+linux mac
+export FLASK_APP='hello.py'
+注册和返回框架
+使用装饰器将自己的的路由注册在系统里
+返回值可以在对应的路由后注明
+@app.route('/')
+def index()：
+    return '<h1>hello</h1>',404
+#注意，上述函数将返回值定位404，在浏览器的页面中查看细节，可以发现收到了一个404错误，虽然页面正常显示.
+相应
+实现
+from flask import make_response
+Flask响应对象 属性或方法 说明
+ status_code HTTP 数字状态码
+headers 一个类似字典的对象，包含随响应发送的所有首部
+set_cookie() 为响应添加一个
+cookie delete_cookie() 删除一个 cookie
+content_length 响应主体的长度
+content_type 响应主体的媒体类型
+set_data() 使用字符串或字节值设定响应
+get_data() 获取响应主体
+redirect
+可以快速高效的将连接传递给指定的链接里
+@app.route('/redirect/')
+def redir():
+    return redirect('/page_come_here/')
+abort
+在条件出现后抛出异常
+@app.route('/find/<user_name>')
+def find(user_name):
+    if user_name=='tangyongfeng':
+        abort(404)
+    else:
+        return '<h1> hello {}</h1>'.format(user_name)

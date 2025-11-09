@@ -1,0 +1,58 @@
+---
+title: IMPACT 需要修改的要点
+updated: 2013-01-18 08:02:56Z
+created: 2012-12-13 03:16:09Z
+---
+
+https://www-950.ibm.com/events/tools/impact/impact2013ems/secure/apsIntro.do?method=start
+Hi,益民：
+
+     刚才非常惊讶的得知，这次参加IMPACT的DEMO区可能没有了，这和我们之前的准备完全不一样。
+
+     最早得知IMPACT是因为我们可以展示我们在WTCF上的共同工作成果，我逐级汇报，因为我们公司和IBM公司多年的合作，他们对贵公司一直都有好感，得到了公司各级领导的支持。为此我也协调了公司各个部门的同事，按照此次展示的时间调整了工作时间和工作计划。为此他们还安排了加班，甚至放弃了休假。我想贵公司的工程师也是如此。
+
+     这些天你也很幸苦，白天和我们讨论，晚上和美国总部开会，我知道这是你的敬业精神，但是也相信你也是为了我们能够更多更好的把共同的工作目标向前推动。
+
+     如果情况没有改变，我们恐怕需要重新评估这件事情的重要性，很难说会有什么影响。
+
+     希望能够解决这些问题，让我们重回快乐努力的工作状态。
+
+唐永峰
+clo在开发一个新的博彩平台，人们的购彩冲动被互联网和社交媒体传播以及再次放大，平台的高性能和伸缩性要求也更高了 
+Title: How China Lottery Online used of new Technology to improve Scalability and Performance
+
+Abstract:
+
+CLO在开发一个新的博彩平台，人们的购彩冲动被互联网和社交媒体传播以及再次放大，平台的高性能和高水平的伸缩性要求也更高了. CLO collaborated with IBM to implement ground breaking technology to reach new levels of scalability and performance necessary with 540 million user base. Come see how this technology has enabled China Lottery Online improve their applications and solve this challenge. A short demo of their solution will be provided as part of the session
+People's lottery impulse is the spread of the Internet and social media, and re-amplification platform for high-performance and high level of scalability requirements higher.
+
+1、是运营商Operators ，不是提供者
+provider
+2、明确400M是中国的网民数，可能成为我们的用户
+3、我们从现在的网络销售模式更进一步，变为面对移动互联网，而不是传统模式和移动互联网模式的改变
+4、我们在做预研，而不是已经准备开始互联网销售
+5、互联网交易的量级，几十万笔到超过百万笔，需要量化。
+Title
+Transforming from Traditional Architecture to Mobile Internet oriented Architecture based on WebSphere Transaction Cluster Facility
+Speaker
+ 
+Takao Inouye (IBM), Lan Shao (CLO), Cheng-Hui Luo (CLO)
+
+Abstract
+China's lottery market has expanded quickly. As lottery solution Operators
+
+provider,
+
+China Lottery Online company (CLO) is planning to transform their traditional architecture t
+  IMPACT.docx
+o mobile internet oriented architecture, since many lottery ticket buyers have the willingness to make the transaction via the mobile internet for convenience, which has huge business potential. As mobile continues to keep us more connected, CLO has seized the opportunity to take industry trends and turn this into innovation.
+In this joint session
+, CLO will describe how extending the enterprise to Mobile is imperative for their busines
+s.  To support mobile internet ticket sales, CLO is facing technical challenges based on their transitional architecture, e.g. extreme high volume players (
+400 million plays in total
+), extreme high performance and high availability requirements. Meanwhile, system scalability is becoming a very important factor since player volume will be extreme high at peak time via internet and social media. To respond to these challenges,
+
+CLO is building a new generation high volume transaction platform to solve these problems and support mobile internet lottery sales.
+As a new technology, IBM WebSphere Transaction Cluster Facility (WTCF) is built on DB2 shared data technology – DB2 pureScale, and optimized for mission critical application that requires a centralized and consistent database, providing object-oriented interface, easy to develop new applications and re-engineer existing application in C++ and WAS using Java, and effortlessly scaling from hundreds to thousands to millions of transaction per second. The session will introduce how CLO successfully optimized their applications for the mobile experience and ingeniously designed a high volume transaction architecture to reduce costs and increase revenue through mobile using WTCF
+ 
+while demonstrating high performance and scalability. For CLO, WTCF has  proved to be a key driver for greater business value and agility.

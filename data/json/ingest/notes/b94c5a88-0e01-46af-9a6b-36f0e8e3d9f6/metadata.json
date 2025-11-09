@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "818da138-6678-44ba-9913-a5b678d0ef46",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Hashmap遍历的两种方式.html",
+    "collected_at": "2025-11-09T20:05:13.199371Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5ab6be67319e678fdc95f6e05013e183cf2430979633add633925a1a4b88f1ab",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b94c5a88-0e01-46af-9a6b-36f0e8e3d9f6",
+    "ingest_source_id": "818da138-6678-44ba-9913-a5b678d0ef46",
+    "canonical_title": "Hashmap遍历的两种方式",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.199377Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Hashmap遍历的两种方式.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6734a83d-1e79-4941-afe7-a38c6e8bc8eb",
+      "note_id": "b94c5a88-0e01-46af-9a6b-36f0e8e3d9f6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.199381Z",
+      "content": "---\ntitle: Hashmap遍历的两种方式\nupdated: 2012-06-25 00:45:48Z\ncreated: 2012-06-25 00:45:05Z\nsource: http://ludaojuan21.iteye.com/blog/243475\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><span STYLE=\"color: red;\">第一种:</span><br/>\nMap map = new HashMap();<br/>\nIterator iter = map.entrySet().iterator();<br/>\nwhile (iter.hasNext()) {<br/>\nMap.Entry entry = (Map.Entry) iter.next();<br/>\nObject key = entry.getKey();<br/>\nObject val = entry.getValue();<br/>\n}<br/>\n效率高,以后一定要使用此种方式！<br/><span STYLE=\"color: red;\">第二种:</span><br/>\nMap map = new HashMap();<br/>\nIterator iter = map.keySet().iterator();<br/>\nwhile (iter.hasNext()) {<br/>\nObject key = iter.next();<br/>\nObject val = map.get(key);<br/>\n}<br/>\n效率低,以后尽量少使用！<br/><br/><span STYLE=\"color: red;\">例：</span><br/>\nHashMap的遍历有两种常用的方法，那就是使用keyset及entryset来进行遍历，但两者的遍历速度是有差别的，下面请看实例：<br/><br/>\npublic class HashMapTest {<br/>\npublic static void main(String[] args) ...{<br/>\nHashMap hashmap = new HashMap();<br/>\nfor (int i = 0; i &lt; 1000; i ) ...{<br/>\nhashmap.put(&quot;&quot; i, &quot;thanks&quot;);<br/>\n}<br/><br/>\nlong bs = Calendar.getInstance().getTimeInMillis();<br/>\nIterator iterator = hashmap.keySet().iterator();<br/>\nwhile (iterator.hasNext()) ...{<br/>\nSystem.out.print(hashmap.get(iterator.next()));<br/>\n}<br/>\nSystem.out.println();<br/>\nSystem.out.println(Calendar.getInstance().getTimeInMillis() - bs);<br/>\nlistHashMap();<br/>\n}<br/><br/>\npublic static void listHashMap() ...{<br/>\njava.util.HashMap hashmap = new java.util.HashMap();<br/>\nfor (int i = 0; i &lt; 1000; i ) ...{<br/>\nhashmap.put(&quot;&quot; i, &quot;thanks&quot;);<br/>\n}<br/>\nlong bs = Calendar.getInstance().getTimeInMillis();<br/>\njava.util.Iterator it = hashmap.entrySet().iterator();<br/>\nwhile (it.hasNext()) ...{<br/>\njava.util.Map.Entry entry = (java.util.Map.Entry) it.next();<br/>\n// entry.getKey() 返回与此项对应的键<br/>\n// entry.getValue() 返回与此项对应的值<br/>\nSystem.out.print(entry.getValue());<br/>\n}<br/>\nSystem.out.println();<br/>\nSystem.out.println(Calendar.getInstance().getTimeInMillis() - bs);<br/>\n}<br/>\n}<br/><br/>\n对于keySet其实是遍历了2次，一次是转为iterator，一次就从hashmap中取出key所对于的value。而entryset只是遍历了第一次，他把key和value都放到了entry中，所以就快了</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5ab6be67319e678fdc95f6e05013e183cf2430979633add633925a1a4b88f1ab",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Hashmap遍历的两种方式.html"
+      }
+    },
+    {
+      "id": "f3016f3b-30a4-4f0b-9004-fa3a0ef772fa",
+      "note_id": "b94c5a88-0e01-46af-9a6b-36f0e8e3d9f6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.199384Z",
+      "content": "---\ntitle: Hashmap遍历的两种方式\nupdated: 2012-06-25 00:45:48Z\ncreated: 2012-06-25 00:45:05Z\nsource: http://ludaojuan21.iteye.com/blog/243475\n---\n\n第一种:\n\nMap map = new HashMap();\n\nIterator iter = map.entrySet().iterator();\n\nwhile (iter.hasNext()) {\n\nMap.Entry entry = (Map.Entry) iter.next();\n\nObject key = entry.getKey();\n\nObject val = entry.getValue();\n\n}\n\n效率高,以后一定要使用此种方式！\n第二种:\n\nMap map = new HashMap();\n\nIterator iter = map.keySet().iterator();\n\nwhile (iter.hasNext()) {\n\nObject key = iter.next();\n\nObject val = map.get(key);\n\n}\n\n效率低,以后尽量少使用！\n例：\n\nHashMap的遍历有两种常用的方法，那就是使用keyset及entryset来进行遍历，但两者的遍历速度是有差别的，下面请看实例：\n\npublic class HashMapTest {\n\npublic static void main(String[] args) ...{\n\nHashMap hashmap = new HashMap();\n\nfor (int i = 0; i < 1000; i ) ...{\n\nhashmap.put(\"\" i, \"thanks\");\n\n}\n\nlong bs = Calendar.getInstance().getTimeInMillis();\n\nIterator iterator = hashmap.keySet().iterator();\n\nwhile (iterator.hasNext()) ...{\n\nSystem.out.print(hashmap.get(iterator.next()));\n\n}\n\nSystem.out.println();\n\nSystem.out.println(Calendar.getInstance().getTimeInMillis() - bs);\n\nlistHashMap();\n\n}\n\npublic static void listHashMap() ...{\n\njava.util.HashMap hashmap = new java.util.HashMap();\n\nfor (int i = 0; i < 1000; i ) ...{\n\nhashmap.put(\"\" i, \"thanks\");\n\n}\n\nlong bs = Calendar.getInstance().getTimeInMillis();\n\njava.util.Iterator it = hashmap.entrySet().iterator();\n\nwhile (it.hasNext()) ...{\n\njava.util.Map.Entry entry = (java.util.Map.Entry) it.next();\n\n// entry.getKey() 返回与此项对应的键\n\n// entry.getValue() 返回与此项对应的值\n\nSystem.out.print(entry.getValue());\n\n}\n\nSystem.out.println();\n\nSystem.out.println(Calendar.getInstance().getTimeInMillis() - bs);\n\n}\n\n}\n\n对于keySet其实是遍历了2次，一次是转为iterator，一次就从hashmap中取出key所对于的value。而entryset只是遍历了第一次，他把key和value都放到了entry中，所以就快了",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1745,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "137aa1df-ee53-489d-b690-c919c976057c",
+    "note_id": "b94c5a88-0e01-46af-9a6b-36f0e8e3d9f6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.199390Z",
+    "finished_at": "2025-11-09T20:05:13.199390Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7870614f-a7a2-483d-adf3-be4f3a688767",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Hashmap遍历的两种方式.html",
+      "checksum": "5ab6be67319e678fdc95f6e05013e183cf2430979633add633925a1a4b88f1ab"
+    },
+    "output_ref": {
+      "ingest_source": "818da138-6678-44ba-9913-a5b678d0ef46",
+      "note": "b94c5a88-0e01-46af-9a6b-36f0e8e3d9f6",
+      "variants": [
+        "6734a83d-1e79-4941-afe7-a38c6e8bc8eb",
+        "f3016f3b-30a4-4f0b-9004-fa3a0ef772fa"
+      ]
+    },
+    "error_detail": null
+  }
+}

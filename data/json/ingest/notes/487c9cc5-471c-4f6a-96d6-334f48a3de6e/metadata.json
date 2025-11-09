@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a9bd3761-266a-4410-87fa-52316af6290f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/光大证券。。。.html",
+    "collected_at": "2025-11-09T20:01:39.452651Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "b829747fa20942b2f4b28a8b20bcd0689bafa536419515bd38808a3f2c5f00ef",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "487c9cc5-471c-4f6a-96d6-334f48a3de6e",
+    "ingest_source_id": "a9bd3761-266a-4410-87fa-52316af6290f",
+    "canonical_title": "光大证券。。。",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.452656Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "光大证券。。。.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2000f821-0bbf-4aae-9094-1d72586ef95d",
+      "note_id": "487c9cc5-471c-4f6a-96d6-334f48a3de6e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.452659Z",
+      "content": "---\ntitle: 光大证券。。。\nupdated: 2013-09-11 08:49:16Z\ncreated: 2013-09-09 10:38:57Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n9/9 &nbsp; 今天按照9.16的价格出了一半，只能说让9.06的价格买入的部分没有亏损，但是10块的成本则是亏了。\n<div>今天最高到10块，没有赶上。</div><div><br/></div><div>9/11 今天涨到了10.57。关键是集体诉讼基本上尘埃落定。另外大盘站上2200，70亿的股票亏损变成盈利，我算了一个特别简单的账，</div><div>因为处罚，下跌市值超过20亿<br/>\n而罚款只罚5亿<br/>\n另外，买的股票并不是蒸发了，只是买高了<br/>\n最多高出10%<br/>\n而且胡乱估计，平均下来就是高7%<br/>\n这样，如果大盘上涨7%，这些股票不但不亏损，而且变成盈利了<br/>\n昨天大盘站上了2200<br/>\n这就到了<br/>\n两个亏损变成了两个盈利<br/>\n再加上，你看看成交量和成交的价格，9-10块的成交量极大，有大笔的筹码堵在这里等着<br/>\n唯一不确定的就是会不会有大批的集体诉讼<br/>\n这个问题有两个，第一，很难确定损失。你说追高亏损了，这个很难支持。<br/>\n第二，中国还没有这样的先例，大批的集体诉讼，对中国意味着不稳定。当年三鹿比这个恶心多了<br/>\n这个比三鹿如何？<br/>\n所以诉讼的可能性不大，这样来说，9块就是地板价了，4年里的最低价。</div><div><br/></div><div>9/11 10.52 沽空</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b829747fa20942b2f4b28a8b20bcd0689bafa536419515bd38808a3f2c5f00ef",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/光大证券。。。.html"
+      }
+    },
+    {
+      "id": "20b16809-a4ba-461f-a849-433f16bcfd1b",
+      "note_id": "487c9cc5-471c-4f6a-96d6-334f48a3de6e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.452662Z",
+      "content": "---\ntitle: 光大证券。。。\nupdated: 2013-09-11 08:49:16Z\ncreated: 2013-09-09 10:38:57Z\n---\n\n9/9   今天按照9.16的价格出了一半，只能说让9.06的价格买入的部分没有亏损，但是10块的成本则是亏了。\n\n今天最高到10块，没有赶上。\n9/11 今天涨到了10.57。关键是集体诉讼基本上尘埃落定。另外大盘站上2200，70亿的股票亏损变成盈利，我算了一个特别简单的账，\n因为处罚，下跌市值超过20亿\n\n而罚款只罚5亿\n\n另外，买的股票并不是蒸发了，只是买高了\n\n最多高出10%\n\n而且胡乱估计，平均下来就是高7%\n\n这样，如果大盘上涨7%，这些股票不但不亏损，而且变成盈利了\n\n昨天大盘站上了2200\n\n这就到了\n\n两个亏损变成了两个盈利\n\n再加上，你看看成交量和成交的价格，9-10块的成交量极大，有大笔的筹码堵在这里等着\n\n唯一不确定的就是会不会有大批的集体诉讼\n\n这个问题有两个，第一，很难确定损失。你说追高亏损了，这个很难支持。\n\n第二，中国还没有这样的先例，大批的集体诉讼，对中国意味着不稳定。当年三鹿比这个恶心多了\n\n这个比三鹿如何？\n\n所以诉讼的可能性不大，这样来说，9块就是地板价了，4年里的最低价。\n9/11 10.52 沽空",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 562,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "bc1a7ce2-d020-4850-825b-300454d1f1fb",
+    "note_id": "487c9cc5-471c-4f6a-96d6-334f48a3de6e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.452668Z",
+    "finished_at": "2025-11-09T20:01:39.452668Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cbcb73b9-f602-4194-9662-682b4098a888",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/光大证券。。。.html",
+      "checksum": "b829747fa20942b2f4b28a8b20bcd0689bafa536419515bd38808a3f2c5f00ef"
+    },
+    "output_ref": {
+      "ingest_source": "a9bd3761-266a-4410-87fa-52316af6290f",
+      "note": "487c9cc5-471c-4f6a-96d6-334f48a3de6e",
+      "variants": [
+        "2000f821-0bbf-4aae-9094-1d72586ef95d",
+        "20b16809-a4ba-461f-a849-433f16bcfd1b"
+      ]
+    },
+    "error_detail": null
+  }
+}

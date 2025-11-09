@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e984fa70-cd6f-4541-af60-5351085bedee",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/社保密码.html",
+    "collected_at": "2025-11-09T20:05:17.109226Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4018feb6b26db670ef19e971011a7b914bd9110051eeca694ecbf7f4dd872bd4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "9fbbe6b6-ccee-4507-96a1-e43116399944",
+    "ingest_source_id": "e984fa70-cd6f-4541-af60-5351085bedee",
+    "canonical_title": "社保密码",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:17.109230Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "社保密码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4ca49c3f-f064-44bf-83ae-c4f487bbb415",
+      "note_id": "9fbbe6b6-ccee-4507-96a1-e43116399944",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.109232Z",
+      "content": "---\ntitle: 社保密码\nupdated: 2019-01-15 13:34:20Z\ncreated: 2019-01-15 13:33:30Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>用户名:身份证号码</div><div>密码：Be1*****d</div><div>关联手机：13801306580</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4018feb6b26db670ef19e971011a7b914bd9110051eeca694ecbf7f4dd872bd4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/社保密码.html"
+      }
+    },
+    {
+      "id": "3c8979cb-8b3a-4f90-8c66-85b345eb34a4",
+      "note_id": "9fbbe6b6-ccee-4507-96a1-e43116399944",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.109235Z",
+      "content": "---\ntitle: 社保密码\nupdated: 2019-01-15 13:34:20Z\ncreated: 2019-01-15 13:33:30Z\nauthor: tangyongfeng@gmail.com\n---\n\n用户名:身份证号码\n密码：Be1*****d\n关联手机：13801306580",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 151,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a4f2a856-1569-4593-b9de-1e3b265ba268",
+    "note_id": "9fbbe6b6-ccee-4507-96a1-e43116399944",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.109239Z",
+    "finished_at": "2025-11-09T20:05:17.109240Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "99bbfc90-e107-4551-b4e0-e042e6ffa391",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/社保密码.html",
+      "checksum": "4018feb6b26db670ef19e971011a7b914bd9110051eeca694ecbf7f4dd872bd4"
+    },
+    "output_ref": {
+      "ingest_source": "e984fa70-cd6f-4541-af60-5351085bedee",
+      "note": "9fbbe6b6-ccee-4507-96a1-e43116399944",
+      "variants": [
+        "4ca49c3f-f064-44bf-83ae-c4f487bbb415",
+        "3c8979cb-8b3a-4f90-8c66-85b345eb34a4"
+      ]
+    },
+    "error_detail": null
+  }
+}

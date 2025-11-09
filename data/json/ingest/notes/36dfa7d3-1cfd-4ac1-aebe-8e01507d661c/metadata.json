@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3b02251a-5659-438f-826b-40474e493197",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/句式.html",
+    "collected_at": "2025-11-09T20:01:39.188751Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3bbec02efcd2cf08a7003301efe08143ffbb10f1db536a02ba46d46b6839d25b",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "36dfa7d3-1cfd-4ac1-aebe-8e01507d661c",
+    "ingest_source_id": "3b02251a-5659-438f-826b-40474e493197",
+    "canonical_title": "句式",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.188755Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "句式.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a9098e18-90f4-4dd7-a716-9942a3fe2112",
+      "note_id": "36dfa7d3-1cfd-4ac1-aebe-8e01507d661c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.188758Z",
+      "content": "---\ntitle: 句式\nupdated: 2020-03-05 19:29:19Z\ncreated: 2020-03-05 19:28:18Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>1、und 将句子分为两句，第二句的的主语沿用第一句的主语。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3bbec02efcd2cf08a7003301efe08143ffbb10f1db536a02ba46d46b6839d25b",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/句式.html"
+      }
+    },
+    {
+      "id": "ff1ed1b9-ea60-4257-979f-bdbb0337cf18",
+      "note_id": "36dfa7d3-1cfd-4ac1-aebe-8e01507d661c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.188760Z",
+      "content": "---\ntitle: 句式\nupdated: 2020-03-05 19:29:19Z\ncreated: 2020-03-05 19:28:18Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、und 将句子分为两句，第二句的的主语沿用第一句的主语。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 140,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0765e541-00c5-4964-9501-edd4b3561c2d",
+    "note_id": "36dfa7d3-1cfd-4ac1-aebe-8e01507d661c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.188765Z",
+    "finished_at": "2025-11-09T20:01:39.188765Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1396af09-d6be-472a-b9e4-6d958782e2ba",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/句式.html",
+      "checksum": "3bbec02efcd2cf08a7003301efe08143ffbb10f1db536a02ba46d46b6839d25b"
+    },
+    "output_ref": {
+      "ingest_source": "3b02251a-5659-438f-826b-40474e493197",
+      "note": "36dfa7d3-1cfd-4ac1-aebe-8e01507d661c",
+      "variants": [
+        "a9098e18-90f4-4dd7-a716-9942a3fe2112",
+        "ff1ed1b9-ea60-4257-979f-bdbb0337cf18"
+      ]
+    },
+    "error_detail": null
+  }
+}

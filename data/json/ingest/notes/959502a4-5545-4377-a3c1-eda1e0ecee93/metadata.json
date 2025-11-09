@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c191afb6-48ef-4236-9905-3d03333e533d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/移动机房.html",
+    "collected_at": "2025-11-09T20:01:36.196082Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c69aec65fa311c15fa71dfddc63166e06adf6a5e79a5d7e765492a451dfc5f88",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "959502a4-5545-4377-a3c1-eda1e0ecee93",
+    "ingest_source_id": "c191afb6-48ef-4236-9905-3d03333e533d",
+    "canonical_title": "移动机房",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.196085Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "移动机房.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c5d2ff86-b492-4176-b39d-bb9402aaba34",
+      "note_id": "959502a4-5545-4377-a3c1-eda1e0ecee93",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.196088Z",
+      "content": "---\ntitle: 移动机房\nupdated: 2019-01-25 08:28:01Z\ncreated: 2019-01-25 08:27:40Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>bsd 密码&nbsp;<span STYLE=\"font-size: 11pt; font-family: Arial; color: #000000; font-variant: normal; white-space: pre-wrap;\">84_+9T!gLUTQJtd+</span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c69aec65fa311c15fa71dfddc63166e06adf6a5e79a5d7e765492a451dfc5f88",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/移动机房.html"
+      }
+    },
+    {
+      "id": "1e2031bc-a939-4c6b-ae48-7d767fbfafb4",
+      "note_id": "959502a4-5545-4377-a3c1-eda1e0ecee93",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.196091Z",
+      "content": "---\ntitle: 移动机房\nupdated: 2019-01-25 08:28:01Z\ncreated: 2019-01-25 08:27:40Z\nauthor: tangyongfeng@gmail.com\n---\n\nbsd 密码 \n84_+9T!gLUTQJtd+",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 136,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "564e08dd-e80c-41db-a60c-c9eaf9506367",
+    "note_id": "959502a4-5545-4377-a3c1-eda1e0ecee93",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.196096Z",
+    "finished_at": "2025-11-09T20:01:36.196096Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ade5ddaf-9004-4b88-ba3f-fcfd37db3490",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/移动机房.html",
+      "checksum": "c69aec65fa311c15fa71dfddc63166e06adf6a5e79a5d7e765492a451dfc5f88"
+    },
+    "output_ref": {
+      "ingest_source": "c191afb6-48ef-4236-9905-3d03333e533d",
+      "note": "959502a4-5545-4377-a3c1-eda1e0ecee93",
+      "variants": [
+        "c5d2ff86-b492-4176-b39d-bb9402aaba34",
+        "1e2031bc-a939-4c6b-ae48-7d767fbfafb4"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6ac6ce08-bb08-4330-b5b7-79b6beb82d4d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Kreuzschule.html",
+    "collected_at": "2025-11-09T20:05:17.735584Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "6c981c93000dc7ebc93eb57f3fb272f9c93588335ea5624c3ab6505b0f1acb74",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4699a7a2-3468-4f98-844f-41b32d7bb80a",
+    "ingest_source_id": "6ac6ce08-bb08-4330-b5b7-79b6beb82d4d",
+    "canonical_title": "Kreuzschule",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.735588Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Kreuzschule.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5747552b-556a-42c6-9956-6b5bac8b9838",
+      "note_id": "4699a7a2-3468-4f98-844f-41b32d7bb80a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.735590Z",
+      "content": "---\ntitle: Kreuzschule\nupdated: 2019-03-09 20:01:26Z\ncreated: 2019-03-09 19:52:46Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\n\n<en-note><div><font FACE=\"Courier\">从1898年成立的旧小学出现于1968年的市立天主教小学。这已于2008年8月1日改为市立社区小学。作为一所社区小学，我们根据基督教的教育和文化价值观教育和教育学生。对基督教忏悔和其他宗教的开放对我们来说尤为重要。不同教派和不同国籍的儿童的同居和相互学习塑造了我们的学校生活。许多项目将参与学校生活的每个人联系起来，为他们创造一个幸福的地方。共同的仪式和规则给予安全。我们的目标是让儿童成为自力更生，自我负责的学习，团队合作和宽容。通过欣赏和鼓励，我们鼓励并保持学生的学习乐趣。</font></div><div><font FACE=\"Courier\">2010年10月，十字架学校，拥有国家&ldquo;运动快乐的学校。&rdquo; 每日的运动项目，暂停游戏，体育俱乐部，学校体育含游泳，参加Sportwettbe-宣传运动项目天，参与该项目的合作伙伴关系&ldquo;行动椎骨&rdquo;倡导运动，健康和我们的跨失学儿童的社会合作的喜悦。</font></div><div><font FACE=\"Courier\">有大约250名学生参加，他们分9个班级授课。目前的工作人员包括16名教师，实习教师，社会教育专家和学校社会工作者。</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">标签：</font></div><div><font FACE=\"Courier\">音乐，运动，国际象棋</font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6c981c93000dc7ebc93eb57f3fb272f9c93588335ea5624c3ab6505b0f1acb74",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Kreuzschule.html"
+      }
+    },
+    {
+      "id": "fe218328-60a7-4f57-9500-ff4893cfb7c9",
+      "note_id": "4699a7a2-3468-4f98-844f-41b32d7bb80a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.735593Z",
+      "content": "---\ntitle: Kreuzschule\nupdated: 2019-03-09 20:01:26Z\ncreated: 2019-03-09 19:52:46Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\n从1898年成立的旧小学出现于1968年的市立天主教小学。这已于2008年8月1日改为市立社区小学。作为一所社区小学，我们根据基督教的教育和文化价值观教育和教育学生。对基督教忏悔和其他宗教的开放对我们来说尤为重要。不同教派和不同国籍的儿童的同居和相互学习塑造了我们的学校生活。许多项目将参与学校生活的每个人联系起来，为他们创造一个幸福的地方。共同的仪式和规则给予安全。我们的目标是让儿童成为自力更生，自我负责的学习，团队合作和宽容。通过欣赏和鼓励，我们鼓励并保持学生的学习乐趣。\n2010年10月，十字架学校，拥有国家“运动快乐的学校。” 每日的运动项目，暂停游戏，体育俱乐部，学校体育含游泳，参加Sportwettbe-宣传运动项目天，参与该项目的合作伙伴关系“行动椎骨”倡导运动，健康和我们的跨失学儿童的社会合作的喜悦。\n有大约250名学生参加，他们分9个班级授课。目前的工作人员包括16名教师，实习教师，社会教育专家和学校社会工作者。\n标签：\n音乐，运动，国际象棋",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 567,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "487ce083-d490-4d51-aa4a-bf766df67ab3",
+    "note_id": "4699a7a2-3468-4f98-844f-41b32d7bb80a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.735598Z",
+    "finished_at": "2025-11-09T20:05:17.735598Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "badc7725-494c-4d59-a911-8c54f2a03a9c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Kreuzschule.html",
+      "checksum": "6c981c93000dc7ebc93eb57f3fb272f9c93588335ea5624c3ab6505b0f1acb74"
+    },
+    "output_ref": {
+      "ingest_source": "6ac6ce08-bb08-4330-b5b7-79b6beb82d4d",
+      "note": "4699a7a2-3468-4f98-844f-41b32d7bb80a",
+      "variants": [
+        "5747552b-556a-42c6-9956-6b5bac8b9838",
+        "fe218328-60a7-4f57-9500-ff4893cfb7c9"
+      ]
+    },
+    "error_detail": null
+  }
+}

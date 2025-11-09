@@ -1,0 +1,164 @@
+---
+title: DLIB增加CUDA支持
+updated: 2017-11-24 08:04:18Z
+created: 2017-11-23 09:00:06Z
+author: tangyongfeng
+---
+
+
+<en-note><div>
+<div>
+&Tab;&Tab;<h1>Ubuntu 16.04开启dlib对于AVX或者CUDA的支持</h1>&Tab;</div>
+
+&Tab;</div><div>
+&Tab;&Tab;<p>最近在使用
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">openface</span></span>来测试人脸识别，实际过程中发现识别速度非常缓慢，平均每帧的识别速度达到了秒级水平，这个是不可接受的。跟踪代码性能，发现是
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">dlib</span></span>部分非常缓慢。</p>
+<p>根据
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">dlib</span></span>的文档，默认使用</p>
+
+&Tab;&Tab;<div STYLE="margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; height: auto;">
+&Tab;&Tab;
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;">
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;"><div TITLE="切换是否显示行编号"><div></div></div><div TITLE="纯文本显示代码"><div></div></div><div TITLE="切换自动换行"><div></div></div><div TITLE="复制代码"><div></div></div><div TITLE="在新窗口中显示代码"><div></div></div>Shell</div></div>
+&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;<div><div STYLE="-moz-tab-size: 4; font-size: 12px !important; z-index: 0; opacity: 0; overflow: hidden;">$ sudo pip install dlib</div></div>
+&Tab;&Tab;&Tab;<div STYLE="position: relative; z-index: 1; overflow: hidden;">
+&Tab;&Tab;&Tab;&Tab;<table STYLE="width:100%;">
+&Tab;&Tab;&Tab;&Tab;&Tab;<tbody><tr>
+&Tab;&Tab;&Tab;&Tab;<td>
+&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;"><div>1</div></div>
+&Tab;&Tab;&Tab;&Tab;</td>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<td><div STYLE="font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div>$ sudo pip install dlib</div></div></td>
+&Tab;&Tab;&Tab;&Tab;&Tab;</tr>
+&Tab;&Tab;&Tab;&Tab;</tbody></table>
+&Tab;&Tab;&Tab;</div>
+&Tab;&Tab;</div>
+
+<p>安装的
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">dlib</span></span>库，由于对具体硬件的要求（
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">CPU</span></span>需要支持
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">AVX</span></span>指令集），是没有开启
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">AVX</span></span>指令加速的，另外由于显卡的要求，也是默认不开启
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">CUDA</span></span>的支持。</p>
+<p>如果想要开启这部分加速，需要手工编译安装才可以，具体操作如下：</p>
+
+&Tab;&Tab;<div STYLE="margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; height: auto;">
+&Tab;&Tab;
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;">
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;"><div TITLE="切换是否显示行编号"><div></div></div><div TITLE="纯文本显示代码"><div></div></div><div TITLE="切换自动换行"><div></div></div><div TITLE="复制代码"><div></div></div><div TITLE="在新窗口中显示代码"><div></div></div>Shell</div></div>
+&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;<div><div STYLE="-moz-tab-size: 4; font-size: 12px !important; z-index: 0; opacity: 0; overflow: hidden;">$ cd ~
+$ mkdir dlib
+$ sudo pip download dlib
+$ tar -zxvf tar -zxvf dlib-*.tar.gz
+$ cd dlib*
+
+#安装依赖的库
+$ sudo apt-get -y install libopenblas-dev
+
+#移除我们以前安装过的dlib
+$ sudo pip uninstall dlib
+
+#开启AVX指令集支持
+$ sudo python setup.py install --yes USE_AVX_INSTRUCTIONS</div></div>
+&Tab;&Tab;&Tab;<div STYLE="position: relative; z-index: 1; overflow: hidden;">
+&Tab;&Tab;&Tab;&Tab;<table STYLE="width:100%;">
+&Tab;&Tab;&Tab;&Tab;&Tab;<tbody><tr>
+&Tab;&Tab;&Tab;&Tab;<td>
+&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;"><div>1</div><div>2</div><div>3</div><div>4</div><div>5</div><div>6</div><div>7</div><div>8</div><div>9</div><div>10</div><div>11</div><div>12</div><div>13</div><div>14</div></div>
+&Tab;&Tab;&Tab;&Tab;</td>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<td><div STYLE="font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div>$ cd ~</div><div>$ mkdir dlib</div><div>$ sudo pip download dlib</div><div>$ tar -zxvf tar -zxvf dlib-*.tar.gz</div><div>$ cd dlib*</div><div>&nbsp;</div><div>#安装依赖的库</div><div>$ sudo apt-get -y install libopenblas-dev</div><div>&nbsp;</div><div>#移除我们以前安装过的dlib</div><div>$ sudo pip uninstall dlib</div><div>&nbsp;</div><div>#开启AVX指令集支持</div><div>$ sudo python setup.py install --yes USE_AVX_INSTRUCTIONS</div></div></td>
+&Tab;&Tab;&Tab;&Tab;&Tab;</tr>
+&Tab;&Tab;&Tab;&Tab;</tbody></table>
+&Tab;&Tab;&Tab;</div>
+&Tab;&Tab;</div>
+
+<p>上面的命令是使用
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">AVX</span></span>指令加速功能的，如果机器上安装了
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">CUDA</span></span>，则需要正确安装
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">cuDNN 5.0</span></span>以上的版本，否在编译的时候会报告</p>
+
+&Tab;&Tab;<div STYLE="margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; height: auto;">
+&Tab;&Tab;
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;">
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;"><div TITLE="切换是否显示行编号"><div></div></div><div TITLE="纯文本显示代码"><div></div></div><div TITLE="切换自动换行"><div></div></div><div TITLE="复制代码"><div></div></div><div TITLE="在新窗口中显示代码"><div></div></div>Shell</div></div>
+&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;<div><div STYLE="-moz-tab-size: 4; font-size: 12px !important; z-index: 0; opacity: 0; overflow: hidden;">-- Checking if you have the right version of cuDNN installed.
+-- *** Found cuDNN, but it looks like the wrong version so dlib will not use it. ***
+-- *** cuDNN V5.0 OR GREATER NOT FOUND.  DLIB WILL NOT USE CUDA. ***
+-- *** If you have cuDNN then set CMAKE_PREFIX_PATH to include cuDNN&apos;s folder.</div></div>
+&Tab;&Tab;&Tab;<div STYLE="position: relative; z-index: 1; overflow: hidden;">
+&Tab;&Tab;&Tab;&Tab;<table STYLE="width:100%;">
+&Tab;&Tab;&Tab;&Tab;&Tab;<tbody><tr>
+&Tab;&Tab;&Tab;&Tab;<td>
+&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;"><div>1</div><div>2</div><div>3</div><div>4</div></div>
+&Tab;&Tab;&Tab;&Tab;</td>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<td><div STYLE="font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div>-- Checking if you have the right version of cuDNN installed.</div><div>-- *** Found cuDNN, but it looks like the wrong version so dlib will not use it. ***</div><div>-- *** cuDNN V5.0 OR GREATER NOT FOUND.&nbsp;&nbsp;DLIB WILL NOT USE CUDA. ***</div><div>-- *** If you have cuDNN then set CMAKE_PREFIX_PATH to include cuDNN&apos;s folder.</div></div></td>
+&Tab;&Tab;&Tab;&Tab;&Tab;</tr>
+&Tab;&Tab;&Tab;&Tab;</tbody></table>
+&Tab;&Tab;&Tab;</div>
+&Tab;&Tab;</div>
+
+<p>对于使用</p>
+
+&Tab;&Tab;<div STYLE="margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; height: auto;">
+&Tab;&Tab;
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;">
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;"><div TITLE="切换是否显示行编号"><div></div></div><div TITLE="纯文本显示代码"><div></div></div><div TITLE="切换自动换行"><div></div></div><div TITLE="复制代码"><div></div></div><div TITLE="在新窗口中显示代码"><div></div></div>Shell</div></div>
+&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;<div><div STYLE="-moz-tab-size: 4; font-size: 12px !important; z-index: 0; opacity: 0; overflow: hidden;">$ sudo apt install nvidia-cuda-toolkit</div></div>
+&Tab;&Tab;&Tab;<div STYLE="position: relative; z-index: 1; overflow: hidden;">
+&Tab;&Tab;&Tab;&Tab;<table STYLE="width:100%;">
+&Tab;&Tab;&Tab;&Tab;&Tab;<tbody><tr>
+&Tab;&Tab;&Tab;&Tab;<td>
+&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;"><div>1</div></div>
+&Tab;&Tab;&Tab;&Tab;</td>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<td><div STYLE="font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div>$ sudo apt install nvidia-cuda-toolkit</div></div></td>
+&Tab;&Tab;&Tab;&Tab;&Tab;</tr>
+&Tab;&Tab;&Tab;&Tab;</tbody></table>
+&Tab;&Tab;&Tab;</div>
+&Tab;&Tab;</div>
+
+<p>安装的
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">CUDA-7.5</span></span>来说,可以从这里下载<a HREF="https://www.mobibrw.com/wp-content/uploads/2017/05/cudnn-7.5-linux-x64-v6.0.zip">cuDNN v6.0 (April 27, 2017), for CUDA 7.5</a>，下载完成后，整个目录中的
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">include</span></span>目录中的文件解压缩到
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">/usr/local/include/</span></span>目录下，
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">lib64</span></span>目录中的内容整个解压缩到
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">/usr/lib/</span></span>目录下,并且在
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">/usr/local/lib/</span></span>目录下建立
+&Tab;&Tab;&Tab;<span STYLE="font-size: 12px !important;font-size: 12px !important;"><span STYLE="font-size: 12px !important;font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;">libcudnn.so</span></span>的软链接</p>
+
+&Tab;&Tab;<div STYLE="margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; height: auto;">
+&Tab;&Tab;
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;">
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;"><div TITLE="切换是否显示行编号"><div></div></div><div TITLE="纯文本显示代码"><div></div></div><div TITLE="切换自动换行"><div></div></div><div TITLE="复制代码"><div></div></div><div TITLE="在新窗口中显示代码"><div></div></div>Shell</div></div>
+&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;<div><div STYLE="-moz-tab-size: 4; font-size: 12px !important; z-index: 0; opacity: 0; overflow: hidden;">$ sudo ln -s /usr/lib/libcudnn.so /usr/local/lib/libcudnn.so</div></div>
+&Tab;&Tab;&Tab;<div STYLE="position: relative; z-index: 1; overflow: hidden;">
+&Tab;&Tab;&Tab;&Tab;<table STYLE="width:100%;">
+&Tab;&Tab;&Tab;&Tab;&Tab;<tbody><tr>
+&Tab;&Tab;&Tab;&Tab;<td>
+&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;"><div>1</div></div>
+&Tab;&Tab;&Tab;&Tab;</td>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<td><div STYLE="font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div>$ sudo ln -s /usr/lib/libcudnn.so /usr/local/lib/libcudnn.so</div></div></td>
+&Tab;&Tab;&Tab;&Tab;&Tab;</tr>
+&Tab;&Tab;&Tab;&Tab;</tbody></table>
+&Tab;&Tab;&Tab;</div>
+&Tab;&Tab;</div>
+
+<p>都配置正确后，使用如下编译命令安装：</p>
+
+&Tab;&Tab;<div STYLE="margin-top: 12px; margin-bottom: 12px; font-size: 12px !important; height: auto;">
+&Tab;&Tab;
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;">
+&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;height: 18px !important;"><div TITLE="切换是否显示行编号"><div></div></div><div TITLE="纯文本显示代码"><div></div></div><div TITLE="切换自动换行"><div></div></div><div TITLE="复制代码"><div></div></div><div TITLE="在新窗口中显示代码"><div></div></div>Shell</div></div>
+&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;<div><div STYLE="-moz-tab-size: 4; font-size: 12px !important; z-index: 0; opacity: 0; overflow: hidden;">$ sudo python setup.py install --yes DLIB_USE_CUDA</div></div>
+&Tab;&Tab;&Tab;<div STYLE="position: relative; z-index: 1; overflow: hidden;">
+&Tab;&Tab;&Tab;&Tab;<table STYLE="width:100%;">
+&Tab;&Tab;&Tab;&Tab;&Tab;<tbody><tr>
+&Tab;&Tab;&Tab;&Tab;<td>
+&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE="font-size: 12px !important;"><div>1</div></div>
+&Tab;&Tab;&Tab;&Tab;</td>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<td><div STYLE="font-size: 12px !important; -moz-tab-size:4; -o-tab-size:4; -webkit-tab-size:4; tab-size:4;"><div>$ sudo python setup.py install --yes DLIB_USE_CUDA</div><div><br/></div><div><br/></div><div>CUDA_TOOLKIT_ROOT_DIR CUDA_NVCC_EXECUTABLE CUDA_INCLUDE_DIRS CUDA_CUDART_LIBRARY</div></div></td></tr></tbody></table></div></div></div></en-note>      

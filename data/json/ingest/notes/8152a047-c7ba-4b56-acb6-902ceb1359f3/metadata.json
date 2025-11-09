@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7bc646b6-4b3e-4830-9009-e61a221451ec",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个体户/slikpay.html",
+    "collected_at": "2025-11-09T20:01:37.701220Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d2f20e6f71ebbb322e76760f12e9fbc8c26e2f6e62a5bb990df7af295dee906f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8152a047-c7ba-4b56-acb6-902ceb1359f3",
+    "ingest_source_id": "7bc646b6-4b3e-4830-9009-e61a221451ec",
+    "canonical_title": "slikpay",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.701224Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "slikpay.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "99f2fe67-80d4-4099-87a1-4758ddc756eb",
+      "note_id": "8152a047-c7ba-4b56-acb6-902ceb1359f3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.701226Z",
+      "content": "---\ntitle: slikpay\nupdated: 2022-02-20 20:13:22Z\ncreated: 2022-02-20 20:13:14Z\n---\n\n\n<en-note><div><b>User Name:</b>&nbsp;<a HREF=\"mailto:evali@jlgmbh.de\">evali@jlgmbh.de</a>&nbsp;</div><div><b>Password:</b>&nbsp;JIALI2022&nbsp;</div><div><b>PIN Code:</b>&nbsp;6688&nbsp;</div><div><b>Web Site:</b>&nbsp;<a HREF=\"https://www.silkpay.eu/\" REV=\"en_rl_none\">https://www.silkpay.eu</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d2f20e6f71ebbb322e76760f12e9fbc8c26e2f6e62a5bb990df7af295dee906f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个体户/slikpay.html"
+      }
+    },
+    {
+      "id": "82b6a6ce-02fe-4890-8a6b-e509cf6e47fd",
+      "note_id": "8152a047-c7ba-4b56-acb6-902ceb1359f3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.701229Z",
+      "content": "---\ntitle: slikpay\nupdated: 2022-02-20 20:13:22Z\ncreated: 2022-02-20 20:13:14Z\n---\n\nUser Name:\n \nevali@jlgmbh.de\n \nPassword:\n JIALI2022 \nPIN Code:\n 6688 \nWeb Site:\n \nhttps://www.silkpay.eu",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 188,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "990a6afd-20c3-4356-9a0c-0c2fde76ad91",
+    "note_id": "8152a047-c7ba-4b56-acb6-902ceb1359f3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.701234Z",
+    "finished_at": "2025-11-09T20:01:37.701234Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2584e640-9fbe-4f50-a89a-2bb7f8dee013",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个体户/slikpay.html",
+      "checksum": "d2f20e6f71ebbb322e76760f12e9fbc8c26e2f6e62a5bb990df7af295dee906f"
+    },
+    "output_ref": {
+      "ingest_source": "7bc646b6-4b3e-4830-9009-e61a221451ec",
+      "note": "8152a047-c7ba-4b56-acb6-902ceb1359f3",
+      "variants": [
+        "99f2fe67-80d4-4099-87a1-4758ddc756eb",
+        "82b6a6ce-02fe-4890-8a6b-e509cf6e47fd"
+      ]
+    },
+    "error_detail": null
+  }
+}

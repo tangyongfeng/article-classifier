@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "855b6d70-4dfc-4f2d-8d5e-aaa92741519f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/上报方案提纲.html",
+    "collected_at": "2025-11-09T20:01:35.269826Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7a038242504cba9b669b5ce41f8fd1d423a7917b252ea70349725a1bdc3b74a0",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e859e93d-16dc-488e-acb6-3f646861e922",
+    "ingest_source_id": "855b6d70-4dfc-4f2d-8d5e-aaa92741519f",
+    "canonical_title": "上报方案提纲",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.269830Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "上报方案提纲.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8b43b220-42a1-4d6b-b7ae-ace823c2b0bb",
+      "note_id": "e859e93d-16dc-488e-acb6-3f646861e922",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.269833Z",
+      "content": "---\ntitle: 上报方案提纲\nupdated: 2015-04-25 08:49:51Z\ncreated: 2015-04-25 08:49:40Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、技术方案<br/>\n2、市场方案<br/>\n3、风险控制方案<br/>\n4、游戏和玩法<br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7a038242504cba9b669b5ce41f8fd1d423a7917b252ea70349725a1bdc3b74a0",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/上报方案提纲.html"
+      }
+    },
+    {
+      "id": "0577e8cf-ddd2-4aeb-91ef-ad4b582ac747",
+      "note_id": "e859e93d-16dc-488e-acb6-3f646861e922",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.269835Z",
+      "content": "---\ntitle: 上报方案提纲\nupdated: 2015-04-25 08:49:51Z\ncreated: 2015-04-25 08:49:40Z\n---\n\n1、技术方案\n\n2、市场方案\n\n3、风险控制方案\n\n4、游戏和玩法",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 116,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2fe81576-1da0-4033-982c-51ce1367bcce",
+    "note_id": "e859e93d-16dc-488e-acb6-3f646861e922",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.269840Z",
+    "finished_at": "2025-11-09T20:01:35.269840Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "16ec755c-6b18-4d39-aee5-0e1d5dd186c4",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/上报方案提纲.html",
+      "checksum": "7a038242504cba9b669b5ce41f8fd1d423a7917b252ea70349725a1bdc3b74a0"
+    },
+    "output_ref": {
+      "ingest_source": "855b6d70-4dfc-4f2d-8d5e-aaa92741519f",
+      "note": "e859e93d-16dc-488e-acb6-3f646861e922",
+      "variants": [
+        "8b43b220-42a1-4d6b-b7ae-ace823c2b0bb",
+        "0577e8cf-ddd2-4aeb-91ef-ad4b582ac747"
+      ]
+    },
+    "error_detail": null
+  }
+}

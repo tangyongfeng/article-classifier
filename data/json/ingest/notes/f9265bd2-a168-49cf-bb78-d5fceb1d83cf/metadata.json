@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5ec6a75f-e067-40ac-a7a6-5430464133b5",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/笔记-1.html",
+    "collected_at": "2025-11-09T20:01:38.285627Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "649fcca0dea327142eacb672a088e12ee1456a471d8abb965d22735a19cf573c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f9265bd2-a168-49cf-bb78-d5fceb1d83cf",
+    "ingest_source_id": "5ec6a75f-e067-40ac-a7a6-5430464133b5",
+    "canonical_title": "笔记-1",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.285631Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0d7c4a6e-5960-4284-a0c0-133ba655ea93",
+      "note_id": "f9265bd2-a168-49cf-bb78-d5fceb1d83cf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.285633Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-04-25 06:12:42Z\ncreated: 2014-04-25 04:56:48Z\n---\n\n\n\n<en-note>在青岛先建立一个医院合作\n\n<div>护理保险</div><div>中国老年医学科学院</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div>\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "649fcca0dea327142eacb672a088e12ee1456a471d8abb965d22735a19cf573c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/笔记-1.html"
+      }
+    },
+    {
+      "id": "7769cefb-2b58-4c07-a2d0-8c35bfd7693f",
+      "note_id": "f9265bd2-a168-49cf-bb78-d5fceb1d83cf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.285636Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-04-25 06:12:42Z\ncreated: 2014-04-25 04:56:48Z\n---\n\n在青岛先建立一个医院合作\n\n护理保险\n中国老年医学科学院",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 107,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "aca6e44a-37ed-4320-920e-7956f642c7dc",
+    "note_id": "f9265bd2-a168-49cf-bb78-d5fceb1d83cf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.285641Z",
+    "finished_at": "2025-11-09T20:01:38.285641Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d477e754-a490-42af-8613-fa92c464221e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/笔记-1.html",
+      "checksum": "649fcca0dea327142eacb672a088e12ee1456a471d8abb965d22735a19cf573c"
+    },
+    "output_ref": {
+      "ingest_source": "5ec6a75f-e067-40ac-a7a6-5430464133b5",
+      "note": "f9265bd2-a168-49cf-bb78-d5fceb1d83cf",
+      "variants": [
+        "0d7c4a6e-5960-4284-a0c0-133ba655ea93",
+        "7769cefb-2b58-4c07-a2d0-8c35bfd7693f"
+      ]
+    },
+    "error_detail": null
+  }
+}

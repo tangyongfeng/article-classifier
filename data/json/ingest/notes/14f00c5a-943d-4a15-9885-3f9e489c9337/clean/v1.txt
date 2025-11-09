@@ -1,0 +1,10 @@
+---
+title: 查询每天都有多少条
+updated: 2022-09-09 12:43:26Z
+created: 2022-09-09 12:43:11Z
+author: tangyongfeng
+tags:
+  - sql
+---
+
+set @tag='20220909'; select @tag,count(trade_date) from real_stock_cn_data where trade_date=@tag;

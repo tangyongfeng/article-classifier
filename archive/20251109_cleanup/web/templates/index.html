@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}首页 - Article Classifier{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <h1 class="mb-4"><i class="bi bi-folder-fill"></i> 文章分类浏览</h1>
+
+        <!-- 统计信息 -->
+        <div class="row mb-4">
+            <div class="col-md-6">
+                <div class="card bg-primary text-white">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-file-text"></i> 总文章数</h5>
+                        <h2 class="card-text">{{ stats.total_articles }}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card bg-success text-white">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="bi bi-folder"></i> 总分类数</h5>
+                        <h2 class="card-text">{{ stats.total_categories }}</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 分类树 -->
+        <div class="card">
+            <div class="card-header bg-light">
+                <h5 class="mb-0"><i class="bi bi-diagram-3"></i> 分类树</h5>
+            </div>
+            <div class="card-body">
+                {% if category_tree %}
+                    <div class="category-tree">
+                        {% for category in category_tree %}
+                            {% include 'partials/category_node.html' %}
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    <p class="text-muted">暂无分类</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

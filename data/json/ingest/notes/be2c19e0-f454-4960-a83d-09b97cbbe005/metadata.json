@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "23b7a031-d4d1-4509-8935-fab007ef2660",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/观卦.html",
+    "collected_at": "2025-11-09T20:01:39.900747Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "0cd13ad0757688697d0e204235500c35dd641a292e6736bcdebf6f56bf3857b2",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "be2c19e0-f454-4960-a83d-09b97cbbe005",
+    "ingest_source_id": "23b7a031-d4d1-4509-8935-fab007ef2660",
+    "canonical_title": "观卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.900750Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "观卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "98ce0123-3c99-47aa-a6ab-2a6ddc59f0d4",
+      "note_id": "be2c19e0-f454-4960-a83d-09b97cbbe005",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.900753Z",
+      "content": "---\ntitle: 观卦\nupdated: 2018-11-16 15:39:24Z\ncreated: 2018-11-16 15:05:16Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>盥而不荐。有孚颙<span STYLE=\"text-indent: 0px;-en-paragraph:true;\">y&oacute;ng </span>若</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 397px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">上九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">观其生，君子无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九五</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">观我生，君子无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六四</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">观国之光，利用宾于王。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">观我生，进退。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六二</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">窥观，利女贞。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" style=\"font-weight: bold;\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">初六</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">童观，小人无咎，君子吝。</td></tr></tbody></table><div></div><div><br/></div><div>观：祭祀。</div><div>盥：洗净双手。</div><div>子之所慎：齐（斋）、战、疾。</div><div>初六：缩小50%，就变成了艮，小孩子。</div><div>六三在坤和巽中间，巽本身就进退自如，所以六三进退。</div><div>宾：外交。（王请来的客人：做臣子）</div><div>生：民众。</div><div>九五：为什么无咎：身为国君，照顾百姓是基础工作，不能骄傲。so无咎。没有大吉大利。</div><div>上九：看自己身后人，自己一生。君子则没有灾难。</div><div><br/></div><div>八月：再往上一步就是剥卦。</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0cd13ad0757688697d0e204235500c35dd641a292e6736bcdebf6f56bf3857b2",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/观卦.html"
+      }
+    },
+    {
+      "id": "0acdb66c-d7e4-4035-9ec7-0f4baaa5839b",
+      "note_id": "be2c19e0-f454-4960-a83d-09b97cbbe005",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.900756Z",
+      "content": "---\ntitle: 观卦\nupdated: 2018-11-16 15:39:24Z\ncreated: 2018-11-16 15:05:16Z\nauthor: tangyongfeng@gmail.com\n---\n\n盥而不荐。有孚颙\nyóng\n若\n上九\n观其生，君子无咎。\n九五\n观我生，君子无咎。\n六四\n观国之光，利用宾于王。\n六三\n观我生，进退。\n六二\n窥观，利女贞。\n初六\n童观，小人无咎，君子吝。\n观：祭祀。\n盥：洗净双手。\n子之所慎：齐（斋）、战、疾。\n初六：缩小50%，就变成了艮，小孩子。\n六三在坤和巽中间，巽本身就进退自如，所以六三进退。\n宾：外交。（王请来的客人：做臣子）\n生：民众。\n九五：为什么无咎：身为国君，照顾百姓是基础工作，不能骄傲。so无咎。没有大吉大利。\n上九：看自己身后人，自己一生。君子则没有灾难。\n八月：再往上一步就是剥卦。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 383,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d0fb7cf4-56d9-4640-9644-7d67733ee051",
+    "note_id": "be2c19e0-f454-4960-a83d-09b97cbbe005",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.900761Z",
+    "finished_at": "2025-11-09T20:01:39.900761Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5580ca48-8119-4512-b01e-bc331ffa0a48",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/观卦.html",
+      "checksum": "0cd13ad0757688697d0e204235500c35dd641a292e6736bcdebf6f56bf3857b2"
+    },
+    "output_ref": {
+      "ingest_source": "23b7a031-d4d1-4509-8935-fab007ef2660",
+      "note": "be2c19e0-f454-4960-a83d-09b97cbbe005",
+      "variants": [
+        "98ce0123-3c99-47aa-a6ab-2a6ddc59f0d4",
+        "0acdb66c-d7e4-4035-9ec7-0f4baaa5839b"
+      ]
+    },
+    "error_detail": null
+  }
+}

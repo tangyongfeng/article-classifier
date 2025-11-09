@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0d08a55c-90f8-47f0-b7c2-356b6abeb1e2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/无标题笔记-12.html",
+    "collected_at": "2025-11-09T20:01:37.144990Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "34e55c430be6644f413d5a33acec9018730ad618e843219dbf716aba433829dc",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b7459b64-6777-419b-8bf0-f54e626d7417",
+    "ingest_source_id": "0d08a55c-90f8-47f0-b7c2-356b6abeb1e2",
+    "canonical_title": "无标题笔记-12",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:01:37.144994Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-12.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c50223cd-543d-43f3-94a6-54c32217a9b0",
+      "note_id": "b7459b64-6777-419b-8bf0-f54e626d7417",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.144997Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2020-07-28 01:13:10Z\ncreated: 2020-07-28 01:02:36Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>废森尤斯</div><div>高通</div><div>ffc/fms</div><div>freusnews</div><div>赛诺菲</div><div>sap</div><div>汉高</div><div>拜尔斯道夫</div><div>慕尼黑再保险公司</div><div>意昂集团</div><div>工业气体生产商林德公司</div><div>飞利浦</div><div>赛诺菲</div><div>isml</div><div><span STYLE=\"background-color: rgb(255, 250, 165);-evernote-highlight:true;\">易威尔德多啦</span></div><div><span STYLE=\"background-color: rgb(255, 250, 165);-evernote-highlight:true;\">维旺迪</span></div><div><br/></div><div>费森尤斯</div><div>能源/供水/烟草</div><div>丹麦/nove nodisk</div><div>法国/达能</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "34e55c430be6644f413d5a33acec9018730ad618e843219dbf716aba433829dc",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/无标题笔记-12.html"
+      }
+    },
+    {
+      "id": "8d8225a4-2e3e-4937-b93b-c768002a48e0",
+      "note_id": "b7459b64-6777-419b-8bf0-f54e626d7417",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.144999Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2020-07-28 01:13:10Z\ncreated: 2020-07-28 01:02:36Z\nauthor: tangyongfeng@gmail.com\n---\n\n废森尤斯\n高通\nffc/fms\nfreusnews\n赛诺菲\nsap\n汉高\n拜尔斯道夫\n慕尼黑再保险公司\n意昂集团\n工业气体生产商林德公司\n飞利浦\n赛诺菲\nisml\n易威尔德多啦\n维旺迪\n费森尤斯\n能源/供水/烟草\n丹麦/nove nodisk\n法国/达能",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 240,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f5721c37-6bed-4af1-84ad-92c907a1e09f",
+    "note_id": "b7459b64-6777-419b-8bf0-f54e626d7417",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.145005Z",
+    "finished_at": "2025-11-09T20:01:37.145005Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "72cdcb03-c271-4083-8d0f-a20b793424bb",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/无标题笔记-12.html",
+      "checksum": "34e55c430be6644f413d5a33acec9018730ad618e843219dbf716aba433829dc"
+    },
+    "output_ref": {
+      "ingest_source": "0d08a55c-90f8-47f0-b7c2-356b6abeb1e2",
+      "note": "b7459b64-6777-419b-8bf0-f54e626d7417",
+      "variants": [
+        "c50223cd-543d-43f3-94a6-54c32217a9b0",
+        "8d8225a4-2e3e-4937-b93b-c768002a48e0"
+      ]
+    },
+    "error_detail": null
+  }
+}

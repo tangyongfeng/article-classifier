@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e4de90d0-2052-4ee1-9d01-56af237e5823",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/09银基债   112014.html",
+    "collected_at": "2025-11-09T20:01:39.260062Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e519c30fbece9e754a57685d475e5c81bc618b87053cda03938cb7380a987d69",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8ff91740-1361-4593-b3c6-dea636afda8a",
+    "ingest_source_id": "e4de90d0-2052-4ee1-9d01-56af237e5823",
+    "canonical_title": "09银基债   112014",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.260066Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "09银基债   112014.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5117a903-7385-4db4-91d4-794314ec5fb9",
+      "note_id": "8ff91740-1361-4593-b3c6-dea636afda8a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.260068Z",
+      "content": "---\ntitle: 09银基债   112014\nupdated: 2013-09-18 02:17:54Z\ncreated: 2013-09-18 02:16:53Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n发行日期 &nbsp;2009/11/6\n<div>上市日期 &nbsp;2009/11/20</div><div>兑付日期 &nbsp;2015/11/6</div><div><br/></div><div><br/></div><div>票面利率 &nbsp;8%</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e519c30fbece9e754a57685d475e5c81bc618b87053cda03938cb7380a987d69",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/09银基债   112014.html"
+      }
+    },
+    {
+      "id": "70e34fe6-979f-4b46-b766-a838c7008e9c",
+      "note_id": "8ff91740-1361-4593-b3c6-dea636afda8a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.260071Z",
+      "content": "---\ntitle: 09银基债   112014\nupdated: 2013-09-18 02:17:54Z\ncreated: 2013-09-18 02:16:53Z\n---\n\n发行日期  2009/11/6\n\n上市日期  2009/11/20\n兑付日期  2015/11/6\n票面利率  8%",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 149,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1913842e-5fe3-4856-81a7-a57483698107",
+    "note_id": "8ff91740-1361-4593-b3c6-dea636afda8a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.260076Z",
+    "finished_at": "2025-11-09T20:01:39.260076Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a2ec4b39-1e74-4f95-b5b9-ca8ece417378",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/09银基债   112014.html",
+      "checksum": "e519c30fbece9e754a57685d475e5c81bc618b87053cda03938cb7380a987d69"
+    },
+    "output_ref": {
+      "ingest_source": "e4de90d0-2052-4ee1-9d01-56af237e5823",
+      "note": "8ff91740-1361-4593-b3c6-dea636afda8a",
+      "variants": [
+        "5117a903-7385-4db4-91d4-794314ec5fb9",
+        "70e34fe6-979f-4b46-b766-a838c7008e9c"
+      ]
+    },
+    "error_detail": null
+  }
+}

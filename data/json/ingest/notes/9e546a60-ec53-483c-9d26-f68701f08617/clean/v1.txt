@@ -1,0 +1,12 @@
+---
+title: software development of the OsmocomBB Open Source GSM BaseBand stack
+updated: 2016-04-02 16:17:50Z
+created: 2016-04-02 16:17:50Z
+source: http://comments.gmane.org/gmane.comp.mobile.osmocom.baseband.devel/2102
+---
+
+sudo ./osmocon -p /dev/ttyUSB0 -m c123xor ../../target/firmware/board/compal_e88/loader.compalram.bin
+
+sudo ./osmoload memload 0x820000 ../../target/firmware/board/compal_e88/monitor.highram.bin
+
+sudo ./osmoload jump 0x820000

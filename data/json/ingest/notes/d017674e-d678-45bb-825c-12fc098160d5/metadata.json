@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "455ec0a5-2790-4ac3-bcb4-46b7faa957c4",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Gespräch über ein Thema _Wohnen in der Großstadt_.html",
+    "collected_at": "2025-11-09T20:05:18.133253Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "c3d9cf652b6d25177907d0e4a988927d84421eb3053df1608cbb0d963574ae0e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d017674e-d678-45bb-825c-12fc098160d5",
+    "ingest_source_id": "455ec0a5-2790-4ac3-bcb4-46b7faa957c4",
+    "canonical_title": "Gespräch über ein Thema _Wohnen in der Großstadt_",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.133259Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Gespräch über ein Thema _Wohnen in der Großstadt_.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d495bab0-8492-4f1f-ba54-60924eab736d",
+      "note_id": "d017674e-d678-45bb-825c-12fc098160d5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.133262Z",
+      "content": "---\ntitle: Gespräch über ein Thema \"Wohnen in der Großstadt\"\nupdated: 2020-11-24 11:50:46Z\ncreated: 2020-11-24 11:23:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><br/></div><div>Uwe ,Er ist 36 Jahre alt und Beamter von Beruf.</div><div>Er is der Meinung, dass er gern auf dem Land wohnt und viel Zeit im Garten und der frischen Luft&nbsp;verbringt. Das Stadtleben ist mir &nbsp;zu laut und hektisch. Zum Ausgehen oder einkaufen fahre ich schon mal in die n&auml;chste Stadt. Danach ist er meistens froh, wenn &nbsp;er wieder zuhause sein kann.</div><div>Ich bin auch ihrer Meinung,&nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c3d9cf652b6d25177907d0e4a988927d84421eb3053df1608cbb0d963574ae0e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Gespräch über ein Thema _Wohnen in der Großstadt_.html"
+      }
+    },
+    {
+      "id": "4de94b17-9dab-45ef-8700-367309145c1c",
+      "note_id": "d017674e-d678-45bb-825c-12fc098160d5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.133266Z",
+      "content": "---\ntitle: Gespräch über ein Thema \"Wohnen in der Großstadt\"\nupdated: 2020-11-24 11:50:46Z\ncreated: 2020-11-24 11:23:05Z\nauthor: tangyongfeng@gmail.com\n---\n\nUwe ,Er ist 36 Jahre alt und Beamter von Beruf.\nEr is der Meinung, dass er gern auf dem Land wohnt und viel Zeit im Garten und der frischen Luft verbringt. Das Stadtleben ist mir  zu laut und hektisch. Zum Ausgehen oder einkaufen fahre ich schon mal in die nächste Stadt. Danach ist er meistens froh, wenn  er wieder zuhause sein kann.\nIch bin auch ihrer Meinung,",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 520,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4bb569f8-584f-4141-8678-afe247ded8a2",
+    "note_id": "d017674e-d678-45bb-825c-12fc098160d5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.133271Z",
+    "finished_at": "2025-11-09T20:05:18.133271Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d7829878-cc03-43be-ba50-ada531b29532",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Gespräch über ein Thema _Wohnen in der Großstadt_.html",
+      "checksum": "c3d9cf652b6d25177907d0e4a988927d84421eb3053df1608cbb0d963574ae0e"
+    },
+    "output_ref": {
+      "ingest_source": "455ec0a5-2790-4ac3-bcb4-46b7faa957c4",
+      "note": "d017674e-d678-45bb-825c-12fc098160d5",
+      "variants": [
+        "d495bab0-8492-4f1f-ba54-60924eab736d",
+        "4de94b17-9dab-45ef-8700-367309145c1c"
+      ]
+    },
+    "error_detail": null
+  }
+}

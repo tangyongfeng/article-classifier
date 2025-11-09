@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "23a6e6df-30ad-4dfe-a1d0-b2aa75eefbc2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/SELECT cnName.html",
+    "collected_at": "2025-11-09T20:05:13.583327Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ac5b41a8cd0f7430d29f4b7296736d2a6614a414f85960a0a41babc0af7cea46",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e5f5b844-2213-40bd-8396-973c0a06db5d",
+    "ingest_source_id": "23a6e6df-30ad-4dfe-a1d0-b2aa75eefbc2",
+    "canonical_title": "SELECT cnName",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.583330Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "SELECT cnName.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6281ce16-2169-4f65-9b53-b8cfc8785d94",
+      "note_id": "e5f5b844-2213-40bd-8396-973c0a06db5d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.583333Z",
+      "content": "---\ntitle: SELECT cnName\nupdated: 2013-06-18 07:21:28Z\ncreated: 2013-06-18 07:21:28Z\ntags:\n  - sql\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nSELECT&nbsp;&nbsp; cnName<br/>\nFROM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; category<br/>\nWHERE&nbsp;&nbsp; (supId =<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (SELECT&nbsp;&nbsp; supId<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FROM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; category AS category_1<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WHERE&nbsp;&nbsp; (cnName = &apos;抗微生物药物&apos;)))\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ac5b41a8cd0f7430d29f4b7296736d2a6614a414f85960a0a41babc0af7cea46",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/SELECT cnName.html"
+      }
+    },
+    {
+      "id": "7f1f983c-6f7c-416f-840c-4803ebcd3f34",
+      "note_id": "e5f5b844-2213-40bd-8396-973c0a06db5d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.583336Z",
+      "content": "---\ntitle: SELECT cnName\nupdated: 2013-06-18 07:21:28Z\ncreated: 2013-06-18 07:21:28Z\ntags:\n  - sql\n---\n\nSELECT   cnName\n\nFROM      category\n\nWHERE   (supId =\n\n                    (SELECT   supId\n\n                     FROM      category AS category_1\n\n                     WHERE   (cnName = '抗微生物药物')))",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 301,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "23238f9b-f158-4fd8-b066-b744175c9d30",
+    "note_id": "e5f5b844-2213-40bd-8396-973c0a06db5d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.583340Z",
+    "finished_at": "2025-11-09T20:05:13.583341Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4b47dabf-ce4a-4553-a25f-0c79fbbc058d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/SELECT cnName.html",
+      "checksum": "ac5b41a8cd0f7430d29f4b7296736d2a6614a414f85960a0a41babc0af7cea46"
+    },
+    "output_ref": {
+      "ingest_source": "23a6e6df-30ad-4dfe-a1d0-b2aa75eefbc2",
+      "note": "e5f5b844-2213-40bd-8396-973c0a06db5d",
+      "variants": [
+        "6281ce16-2169-4f65-9b53-b8cfc8785d94",
+        "7f1f983c-6f7c-416f-840c-4803ebcd3f34"
+      ]
+    },
+    "error_detail": null
+  }
+}

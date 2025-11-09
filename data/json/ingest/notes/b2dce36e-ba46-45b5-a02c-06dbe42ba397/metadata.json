@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ed249389-31cc-4bef-99fb-f51bfa97f81d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/海外华人谨记.html",
+    "collected_at": "2025-11-09T20:05:16.460740Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-tw",
+    "captured_at": null,
+    "checksum": "593af2f0a2f87855d0d10c23abd5e248477356773921d06851a9867089c1b68f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b2dce36e-ba46-45b5-a02c-06dbe42ba397",
+    "ingest_source_id": "ed249389-31cc-4bef-99fb-f51bfa97f81d",
+    "canonical_title": "海外华人谨记",
+    "language": "zh-tw",
+    "ingested_at": "2025-11-09T20:05:16.460743Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "海外华人谨记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9dba5c1e-a9d2-4c15-ba4b-ed7b85f2e307",
+      "note_id": "b2dce36e-ba46-45b5-a02c-06dbe42ba397",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.460746Z",
+      "content": "---\ntitle: 海外华人谨记\nupdated: 2022-03-05 09:50:47Z\ncreated: 2022-03-05 09:50:31Z\n---\n\n\n<en-note><div>海外華人有一點一定要記住：無論你在海外遇到任何困難，請記住，你背後有一個強大的祖國，永遠不要給祖國添麻煩，做好黨的銅牆鐵壁，你手裡的中國護照，可以在世界的任何地方把你帶回家，但在任何地方，你都找不到中共大使館，遇到事靠自己，黨在背後默默給你遞刀，當被問起時，記得說自己是日本人！</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "593af2f0a2f87855d0d10c23abd5e248477356773921d06851a9867089c1b68f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/海外华人谨记.html"
+      }
+    },
+    {
+      "id": "4a673cb2-c30e-49e7-b748-d85919052c22",
+      "note_id": "b2dce36e-ba46-45b5-a02c-06dbe42ba397",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.460749Z",
+      "content": "---\ntitle: 海外华人谨记\nupdated: 2022-03-05 09:50:47Z\ncreated: 2022-03-05 09:50:31Z\n---\n\n海外華人有一點一定要記住：無論你在海外遇到任何困難，請記住，你背後有一個強大的祖國，永遠不要給祖國添麻煩，做好黨的銅牆鐵壁，你手裡的中國護照，可以在世界的任何地方把你帶回家，但在任何地方，你都找不到中共大使館，遇到事靠自己，黨在背後默默給你遞刀，當被問起時，記得說自己是日本人！",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-tw",
+        "length": 222,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1c747c80-1236-4f44-a219-d0a86dc98612",
+    "note_id": "b2dce36e-ba46-45b5-a02c-06dbe42ba397",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.460753Z",
+    "finished_at": "2025-11-09T20:05:16.460754Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6ec6775a-7b10-49e4-bf15-ad90f7fd5abf",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/海外华人谨记.html",
+      "checksum": "593af2f0a2f87855d0d10c23abd5e248477356773921d06851a9867089c1b68f"
+    },
+    "output_ref": {
+      "ingest_source": "ed249389-31cc-4bef-99fb-f51bfa97f81d",
+      "note": "b2dce36e-ba46-45b5-a02c-06dbe42ba397",
+      "variants": [
+        "9dba5c1e-a9d2-4c15-ba4b-ed7b85f2e307",
+        "4a673cb2-c30e-49e7-b748-d85919052c22"
+      ]
+    },
+    "error_detail": null
+  }
+}

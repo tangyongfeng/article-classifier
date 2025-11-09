@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "aaa47db5-230b-4296-83f9-045d8fc20291",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/佳佳保险事宜.html",
+    "collected_at": "2025-11-09T20:01:40.031422Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "33f15951378cebb66eb009fcf96c1f44f619b2d3191d9992c728bf4ea429a72c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d1fe239a-a9ea-42dc-9fd8-9fbfd5e98c69",
+    "ingest_source_id": "aaa47db5-230b-4296-83f9-045d8fc20291",
+    "canonical_title": "佳佳保险事宜",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:40.031428Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "佳佳保险事宜.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "229821d2-9d10-420e-a9e0-4a0ca97428ed",
+      "note_id": "d1fe239a-a9ea-42dc-9fd8-9fbfd5e98c69",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.031431Z",
+      "content": "---\ntitle: 佳佳保险事宜\nupdated: 2013-03-27 02:35:01Z\ncreated: 2013-03-25 02:03:22Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n&ldquo;保费平均3.5w（按35岁计算）+服务费1w=1280w全球含美国门急诊+住院1年期保险，孕产没有等待期（怀孕时可上），包括所有疾病+医疗剖腹产+保胎+妊娠并发症，不包括既往史+产检+顺产+自愿剖腹产。美国数百家医疗机构直赔（长老、美以美、HOGA、圣盖博等），中国上百家私立直赔（和睦家等），正式保单非地下&rdquo;\n<div>举例1：<br/>\n24岁，孕4个月，二胎，第一胎剖腹产，已计划美国生产<br/><br/>\n分析：如果第一胎为非自愿剖腹产，在第二胎产检时和医生说明，医生记录，如果第二胎为剖腹产，则费用全部涵盖，24岁费率为2.7w，4个月上保险到生产前产检费用垫付，可回国后进行理赔，其他费用均可在拿到保险卡后在医疗机构进行直接赔付。<br/><br/>\n重点：该保险不涵盖自愿剖腹产，如果第一胎为自愿剖腹产，则第二胎也不报销，所有只认医生的病历记录和病史，大家请注意。<br/></div><div><br/></div><div><br/></div><div>问题整理：</div><div>1、第一胎是胎位不正所以决定剖腹产，第二胎剖腹产的可能性就很高，是否需要第一胎的资料。</div><div>2、是垫付方式报销方式。</div><div>3、是否保新生儿，例如新生儿抢救治疗和育婴箱</div><div>3、保险公司情况</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "33f15951378cebb66eb009fcf96c1f44f619b2d3191d9992c728bf4ea429a72c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/佳佳保险事宜.html"
+      }
+    },
+    {
+      "id": "9dc35728-a1db-488b-9681-f87b7bd81ea7",
+      "note_id": "d1fe239a-a9ea-42dc-9fd8-9fbfd5e98c69",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.031434Z",
+      "content": "---\ntitle: 佳佳保险事宜\nupdated: 2013-03-27 02:35:01Z\ncreated: 2013-03-25 02:03:22Z\n---\n\n“保费平均3.5w（按35岁计算）+服务费1w=1280w全球含美国门急诊+住院1年期保险，孕产没有等待期（怀孕时可上），包括所有疾病+医疗剖腹产+保胎+妊娠并发症，不包括既往史+产检+顺产+自愿剖腹产。美国数百家医疗机构直赔（长老、美以美、HOGA、圣盖博等），中国上百家私立直赔（和睦家等），正式保单非地下”\n\n举例1：\n\n24岁，孕4个月，二胎，第一胎剖腹产，已计划美国生产\n\n分析：如果第一胎为非自愿剖腹产，在第二胎产检时和医生说明，医生记录，如果第二胎为剖腹产，则费用全部涵盖，24岁费率为2.7w，4个月上保险到生产前产检费用垫付，可回国后进行理赔，其他费用均可在拿到保险卡后在医疗机构进行直接赔付。\n\n重点：该保险不涵盖自愿剖腹产，如果第一胎为自愿剖腹产，则第二胎也不报销，所有只认医生的病历记录和病史，大家请注意。\n问题整理：\n1、第一胎是胎位不正所以决定剖腹产，第二胎剖腹产的可能性就很高，是否需要第一胎的资料。\n2、是垫付方式报销方式。\n3、是否保新生儿，例如新生儿抢救治疗和育婴箱\n3、保险公司情况",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 543,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3c984a41-0826-4275-a0c7-e177536fcce4",
+    "note_id": "d1fe239a-a9ea-42dc-9fd8-9fbfd5e98c69",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.031439Z",
+    "finished_at": "2025-11-09T20:01:40.031440Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0404e0be-d9c8-408a-8a22-9f0a4674e14e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/佳佳保险事宜.html",
+      "checksum": "33f15951378cebb66eb009fcf96c1f44f619b2d3191d9992c728bf4ea429a72c"
+    },
+    "output_ref": {
+      "ingest_source": "aaa47db5-230b-4296-83f9-045d8fc20291",
+      "note": "d1fe239a-a9ea-42dc-9fd8-9fbfd5e98c69",
+      "variants": [
+        "229821d2-9d10-420e-a9e0-4a0ca97428ed",
+        "9dc35728-a1db-488b-9681-f87b7bd81ea7"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,123 @@
+---
+title: Open edX 学习、开发、运维相关链接整理 炉火纯青 2017-11-13 1836浏览量
+updated: 2021-06-12 20:58:01Z
+created: 2021-06-12 20:57:47Z
+author: tangyongfeng@gmail.com
+tags:
+  - openedx
+---
+
+所需知识：
+
+Linux Git Python (Django Mako coffeescript sass) (MongoDB Mysql) Ansible-playbook Gem
+
+项目介绍：
+
+http://code.edx.org
+http://iblstudios.com/wp-content/uploads/2014/08/IBL-Open-edX-Ebook-2014.pdf
+项目页：
+
+http://github.com/edx
+http://github.com/edx-solutions
+官方文档：
+
+http://docs.edx.org
+官方wiki:
+
+https://edx-wiki.atlassian.net/wiki/dashboard.action
+安装配置文档：
+
+http://edx.readthedocs.org/projects/edx-installing-configuring-and-running/en/latest/
+http://www.idefs.com/record-openedx-multinode-installation-attempts.html
+http://www.idefs.com/reprintedx-ubuntu-12-04-64-bit-installation.html
+http://www.idefs.com/record-openedx-sets-the-smtp-send-mail.html
+功能试用：
+
+官方sandbox:
+
+https://github.com/edx/edx-platform/wiki/Open-edx-sandbox-website
+我们小组制作的OVA(VMware)镜像：
+
+http://www.edustack.org/?page_id=8
+官方制作的vagrant
+
+https://raw.githubusercontent.com/edx/configuration/master/vagrant/release/devstack/Vagrantfile
+Mitx制作：
+
+https://people.csail.mit.edu/ichuang/edx/
+谁在用Open edX:
+
+https://github.com/edx/edx-platform/wiki/Sites-powered-by-Open-edX
+谁能提供Open edX技术服务：
+
+https://github.com/edx/edx-platform/wiki/List-of-Open-edX-service-providers
+作为课程制作者：
+
+http://edx.readthedocs.org/projects/edx-partner-course-staff/en/latest/
+作为开发者：
+
+开发者文档：
+
+http://edx.readthedocs.org/projects/userdocs/en/latest/
+xblock：
+
+http://edx.readthedocs.org/projects/xblock/en/latest/
+https://antoviaque.org/docs/edx/xblock/tutorial.html
+作为一个贡献者：
+
+1.签署个人贡献者协议
+
+http://code.edx.org/individual-contributor-agreement.pdf
+扫描件发送到jennifer@edx.org
+
+2.确认你的代码符合要求：
+
+pep8、pep257等确认质量100%
+https://github.com/edx/edx-platform/wiki/Python-Guidelines
+
+https://github.com/edx/edx-platform/wiki/i18n-Coding-Guidelines
+https://github.com/edx/edx-platform/wiki/Javascript-Guidelines
+写好测试，确认覆盖率100%
+http://edx.readthedocs.org/projects/userdocs/en/latest/testing/index.html
+
+3.提交第一个pr
+
+提交第一个pr
+更新AUTHORS文件，写入你的github email,和全名
+等待ci测试结果
+4.@ 项目所有者review
+
+https://github.com/edx/edx-platform/wiki/Code-Ownership
+作为运维：
+
+一些操作：
+
+https://github.com/edx/configuration/wiki/edX-Managing-the-Production-Stack
+一些配置：
+
+自己的主题：
+
+https://github.com/edx/edx-platform/wiki/Stanford-Theming
+自己的登录认证：
+
+https://github.com/edx/configuration/wiki/Setting-Up-External-Authentication
+一些命令：
+
+https://github.com/edx/edx-platform/wiki/Shell-commands
+一些工具：
+
+https://github.com/edx/edx-tools/wiki
+遇到问题：
+
+openedx-ops:运维相关问题
+
+https://groups.google.com/forum/#!forum/openedx-ops
+openedx-translation: edx翻译项目
+
+https://groups.google.com/forum/#!forum/openedx-translation
+openedx-analytics:
+
+https://groups.google.com/forum/#!forum/openedx-analytics
+edx-code: edx 功能、代码相关
+
+https://groups.google.com/forum/#!forum/edx-code

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b231f752-7cc7-49b2-bfea-103c37f24783",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/明夷卦.html",
+    "collected_at": "2025-11-09T20:01:39.871057Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "5d8c46cdf9cca1818b4863692738afac35992bf23681fd3145415686ffae2da9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "41c60ce8-0dd0-4ca3-9f4d-b8d341a53cc4",
+    "ingest_source_id": "b231f752-7cc7-49b2-bfea-103c37f24783",
+    "canonical_title": "明夷卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.871061Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "明夷卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "aa9cf092-3f56-422c-84a1-2a2cfdafe04e",
+      "note_id": "41c60ce8-0dd0-4ca3-9f4d-b8d341a53cc4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.871063Z",
+      "content": "---\ntitle: 明夷卦\nupdated: 2018-11-27 15:09:53Z\ncreated: 2018-11-10 08:50:13Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>利艰贞。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 364px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">上六</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 364px; padding: 8px;\">不明，晦，处登于天，后入于地。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六五</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 364px; padding: 8px;\">箕子之明夷，利贞。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六四</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 364px; padding: 8px;\">入于左腹，獲明夷之心，于出门庭。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 364px; padding: 8px;\">明夷于南狩，得其大首，不可疾，贞。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六二</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 364px; padding: 8px;\">明夷夷于左股，用拯马壮，吉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">初九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 364px; padding: 8px;\">明夷，于飞垂其翼。君子于行，三日不得食。有攸往，主人有言。</td></tr></tbody></table><div>黄宗羲《明夷待访录》</div><div>地火明夷</div><div>利艰贞，进必有所伤。用晦而明。</div><div>明夷：代词。</div><div>疾：通急切</div><div>初九：从小过卦的飞鸟而来，飞鸟垂下来翅膀。</div><div>六二：伤到左边的大腿，用来拯救的马很强壮。吉祥。</div><div>九三：去南方狩猎（或战争），获得大的收获，不可过于急切，要正固。上面是一个坤，为众，不可能接受一夕变天的事实，但是再往上已经没有障碍。</div><div><br/></div><div>下三卦为官吏和诸侯，上三卦进入宫廷。</div><div><br/></div><div>六四：私下出走</div><div>六五：光明不可熄灭。</div><div>上六：黑夜之极。上，初登于天，后入于地。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5d8c46cdf9cca1818b4863692738afac35992bf23681fd3145415686ffae2da9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/明夷卦.html"
+      }
+    },
+    {
+      "id": "789089b8-9a79-459b-9cb5-b4e03ce1b360",
+      "note_id": "41c60ce8-0dd0-4ca3-9f4d-b8d341a53cc4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.871066Z",
+      "content": "---\ntitle: 明夷卦\nupdated: 2018-11-27 15:09:53Z\ncreated: 2018-11-10 08:50:13Z\nauthor: tangyongfeng@gmail.com\n---\n\n利艰贞。\n上六\n不明，晦，处登于天，后入于地。\n六五\n箕子之明夷，利贞。\n六四\n入于左腹，獲明夷之心，于出门庭。\n九三\n明夷于南狩，得其大首，不可疾，贞。\n六二\n明夷夷于左股，用拯马壮，吉。\n初九\n明夷，于飞垂其翼。君子于行，三日不得食。有攸往，主人有言。\n黄宗羲《明夷待访录》\n地火明夷\n利艰贞，进必有所伤。用晦而明。\n明夷：代词。\n疾：通急切\n初九：从小过卦的飞鸟而来，飞鸟垂下来翅膀。\n六二：伤到左边的大腿，用来拯救的马很强壮。吉祥。\n九三：去南方狩猎（或战争），获得大的收获，不可过于急切，要正固。上面是一个坤，为众，不可能接受一夕变天的事实，但是再往上已经没有障碍。\n下三卦为官吏和诸侯，上三卦进入宫廷。\n六四：私下出走\n六五：光明不可熄灭。\n上六：黑夜之极。上，初登于天，后入于地。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 458,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6a0729af-e72d-4cb8-83dc-159720d18a2e",
+    "note_id": "41c60ce8-0dd0-4ca3-9f4d-b8d341a53cc4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.871071Z",
+    "finished_at": "2025-11-09T20:01:39.871071Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ca56c63f-7c69-4945-8199-819664df4e3d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/明夷卦.html",
+      "checksum": "5d8c46cdf9cca1818b4863692738afac35992bf23681fd3145415686ffae2da9"
+    },
+    "output_ref": {
+      "ingest_source": "b231f752-7cc7-49b2-bfea-103c37f24783",
+      "note": "41c60ce8-0dd0-4ca3-9f4d-b8d341a53cc4",
+      "variants": [
+        "aa9cf092-3f56-422c-84a1-2a2cfdafe04e",
+        "789089b8-9a79-459b-9cb5-b4e03ce1b360"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "8d112074-d046-4347-8515-c360fd91517b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/liegen - legen ,sitzen - setzen ,stehen - stellen .html",
+    "collected_at": "2025-11-09T20:05:17.945688Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "842203038aaa8efb32391d7bc551c3b35e3be1c4cd6a1ad159f10fd05d6cb77e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e42e1c98-e52d-4af7-ad43-f45c10e2d0a6",
+    "ingest_source_id": "8d112074-d046-4347-8515-c360fd91517b",
+    "canonical_title": "liegen - legen ,sitzen - setzen ,stehen - stellen ",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:17.945692Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "liegen - legen ,sitzen - setzen ,stehen - stellen .html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b699bfff-b583-4347-9e19-c42ee0874545",
+      "note_id": "e42e1c98-e52d-4af7-ad43-f45c10e2d0a6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.945695Z",
+      "content": "---\ntitle: liegen - legen ,sitzen - setzen ,stehen - stellen ,hängen,kleben\nupdated: 2021-02-21 23:04:43Z\ncreated: 2021-02-21 23:00:37Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"font-family: Courier;\">1. liegen oder legen ?</span></div><div><span STYLE=\"font-family: Courier;\">这两个词都有&ldquo;躺&rdquo;的意思，但是&ldquo;躺法&rdquo;不同。liegen是状态动词，表示&ldquo;已经躺在某个地方&rdquo;，故而介词后面使用第三格；而legen是反身动词，表示&ldquo;躺到某个地方去&rdquo;，因此介词后面使用第四格。例如：</span></div><div><span STYLE=\"font-family: Courier;\">Er liegtnoch im Bett. 他还躺在床上。 ( das Bett，床 )</span></div><div><span STYLE=\"font-family: Courier;\">Er hat sichins Bett gelegt. 他躺到床上去了。 ( 潜台词：原来不在床上 )</span></div><div><span STYLE=\"font-family: Courier;\">这里Johnson要提请大家特别注意的是：liegen是不规则动词，过去式和第二分词分别使lag和gelegen；而legen则是完全规则变化。</span></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">2. sitzen oder setzen ?</span></div><div><span STYLE=\"font-family: Courier;\">与上述如出一辙，sitzen表示状态，&ldquo;坐在某个地方&rdquo;；setzen则是反身动词，表示&ldquo;坐到某个地方去&rdquo;。例如：</span></div><div><span STYLE=\"font-family: Courier;\">Er sitzt vor seiner Frau. 他坐在他的妻子前面。</span></div><div><span STYLE=\"font-family: Courier;\">Er hat sich vor seine Frau gesetzt. 他坐到了他妻子前面去。 ( 潜台词：原来不在妻子前面 )</span></div><div><span STYLE=\"font-family: Courier;\">真是太相似：sitzen是不规则动词，过去式和第二分词分别是：sass和gesessen；而setzen则是规则变化。</span></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">3. stehen oder stellen ?</span></div><div><span STYLE=\"font-family: Courier;\">还是很似曾相识的感觉：stehen表示状态，&ldquo;站在某个地方&rdquo;；而stellen还是反身动词，表示&ldquo;站到某个地方去&rdquo;。例如：</span></div><div><span STYLE=\"font-family: Courier;\">Er steht vor seiner Frau. 他站在他妻子前面。</span></div><div><span STYLE=\"font-family: Courier;\">Er hat sich vor seine Frau gestellt. 他站到了他妻子前面去。</span></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">4. h&auml;ngen?</span></div><div><span STYLE=\"font-family: Courier;\">这个动词很特殊，与上述不同，它同时可以表示&ldquo;状态和方向&rdquo;；如果物作主语就是&ldquo;状态&rdquo;，表示&ldquo;悬挂在某个地方&rdquo;；如果人作主语就是方向，表示&ldquo;把某物悬挂到某个地方去&rdquo;。例如：</span></div><div><span STYLE=\"font-family: Courier;\">Die Landkarte h&auml;ngtan der Wand. 这幅地图挂在墙上。</span></div><div><span STYLE=\"font-family: Courier;\">Er hatdie Landkarte an die Wand geh&auml;ngt. 他把这幅地图挂到了墙上去。( 潜台词：原来地图不在墙上 )</span></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">5. kleben ?</span></div><div><span STYLE=\"font-family: Courier;\">与上述h&auml;ngen类似，kleben也是两者兼有的动词：如果物作主语，表示&ldquo;粘贴在某个地方&rdquo;；如果人作主语，就表示&ldquo;把某物粘贴到某个地方去&rdquo;。例如：</span></div><div><span STYLE=\"font-family: Courier;\">Ein Zettel klebt an der T&uuml;r. 有张便条粘在门上。( 注意介词用an )</span></div><div><span STYLE=\"font-family: Courier;\">Er hat einen Zettel an die T&uuml;r geklebt. 他把一张纸条粘贴到了门上去。</span></div><div><span STYLE=\"font-family: Courier;\">说到这里，不知道大家清楚了吗? Alles klar ? 下面Johnson用一张简明的表格来总结下今天的动词辨析：</span></div><div><br/></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">状态 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span STYLE=\"font-family: Courier;\">位移</span></div><div><span STYLE=\"font-family: Courier;\">liegen 躺在 &nbsp; &nbsp;&nbsp;</span><span STYLE=\"font-family: Courier;\">legen sich A 躺到</span></div><div><span STYLE=\"font-family: Courier;\">sitzen 坐在 &nbsp; &nbsp; </span><span STYLE=\"font-family: Courier;\">setzen sich A 坐到</span></div><div><span STYLE=\"font-family: Courier;\">stehen 站在 &nbsp; &nbsp;&nbsp;</span><span STYLE=\"font-family: Courier;\">stellen sich A 站到</span></div><div><span STYLE=\"font-family: Courier;\">h&auml;ngen 挂在；挂到( 看句子主语判断 )</span></div><div><span STYLE=\"font-family: Courier;\">kleben 粘在；粘到 ( 看句子主语判断 )</span></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">是不是有一种&ldquo;对称之美&rdquo;么 ?</span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "842203038aaa8efb32391d7bc551c3b35e3be1c4cd6a1ad159f10fd05d6cb77e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/liegen - legen ,sitzen - setzen ,stehen - stellen .html"
+      }
+    },
+    {
+      "id": "675294d8-7700-4e03-8563-421ae0c0664b",
+      "note_id": "e42e1c98-e52d-4af7-ad43-f45c10e2d0a6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.945698Z",
+      "content": "---\ntitle: liegen - legen ,sitzen - setzen ,stehen - stellen ,hängen,kleben\nupdated: 2021-02-21 23:04:43Z\ncreated: 2021-02-21 23:00:37Z\nauthor: tangyongfeng@gmail.com\n---\n\n1. liegen oder legen ?\n这两个词都有“躺”的意思，但是“躺法”不同。liegen是状态动词，表示“已经躺在某个地方”，故而介词后面使用第三格；而legen是反身动词，表示“躺到某个地方去”，因此介词后面使用第四格。例如：\nEr liegtnoch im Bett. 他还躺在床上。 ( das Bett，床 )\nEr hat sichins Bett gelegt. 他躺到床上去了。 ( 潜台词：原来不在床上 )\n这里Johnson要提请大家特别注意的是：liegen是不规则动词，过去式和第二分词分别使lag和gelegen；而legen则是完全规则变化。\n2. sitzen oder setzen ?\n与上述如出一辙，sitzen表示状态，“坐在某个地方”；setzen则是反身动词，表示“坐到某个地方去”。例如：\nEr sitzt vor seiner Frau. 他坐在他的妻子前面。\nEr hat sich vor seine Frau gesetzt. 他坐到了他妻子前面去。 ( 潜台词：原来不在妻子前面 )\n真是太相似：sitzen是不规则动词，过去式和第二分词分别是：sass和gesessen；而setzen则是规则变化。\n3. stehen oder stellen ?\n还是很似曾相识的感觉：stehen表示状态，“站在某个地方”；而stellen还是反身动词，表示“站到某个地方去”。例如：\nEr steht vor seiner Frau. 他站在他妻子前面。\nEr hat sich vor seine Frau gestellt. 他站到了他妻子前面去。\n4. hängen?\n这个动词很特殊，与上述不同，它同时可以表示“状态和方向”；如果物作主语就是“状态”，表示“悬挂在某个地方”；如果人作主语就是方向，表示“把某物悬挂到某个地方去”。例如：\nDie Landkarte hängtan der Wand. 这幅地图挂在墙上。\nEr hatdie Landkarte an die Wand gehängt. 他把这幅地图挂到了墙上去。( 潜台词：原来地图不在墙上 )\n5. kleben ?\n与上述hängen类似，kleben也是两者兼有的动词：如果物作主语，表示“粘贴在某个地方”；如果人作主语，就表示“把某物粘贴到某个地方去”。例如：\nEin Zettel klebt an der Tür. 有张便条粘在门上。( 注意介词用an )\nEr hat einen Zettel an die Tür geklebt. 他把一张纸条粘贴到了门上去。\n说到这里，不知道大家清楚了吗? Alles klar ? 下面Johnson用一张简明的表格来总结下今天的动词辨析：\n状态            \n位移\nliegen 躺在     \nlegen sich A 躺到\nsitzen 坐在    \nsetzen sich A 坐到\nstehen 站在     \nstellen sich A 站到\nhängen 挂在；挂到( 看句子主语判断 )\nkleben 粘在；粘到 ( 看句子主语判断 )\n是不是有一种“对称之美”么 ?",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1516,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "44a2df4a-def1-4f22-a680-f534ffb3db81",
+    "note_id": "e42e1c98-e52d-4af7-ad43-f45c10e2d0a6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.945703Z",
+    "finished_at": "2025-11-09T20:05:17.945704Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ff24648c-8946-4387-a4e1-3331588aeb9f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/liegen - legen ,sitzen - setzen ,stehen - stellen .html",
+      "checksum": "842203038aaa8efb32391d7bc551c3b35e3be1c4cd6a1ad159f10fd05d6cb77e"
+    },
+    "output_ref": {
+      "ingest_source": "8d112074-d046-4347-8515-c360fd91517b",
+      "note": "e42e1c98-e52d-4af7-ad43-f45c10e2d0a6",
+      "variants": [
+        "b699bfff-b583-4347-9e19-c42ee0874545",
+        "675294d8-7700-4e03-8563-421ae0c0664b"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f4cd718c-5700-4156-941e-ac137483380a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/小提琴选择.html",
+    "collected_at": "2025-11-09T20:05:16.162504Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "9caf85ec4e488f6187ca440ce2ca6c22fd79b3faa776bc182db740e61da2d2f6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e566b666-796d-40a2-b61c-e6eab15fe4e3",
+    "ingest_source_id": "f4cd718c-5700-4156-941e-ac137483380a",
+    "canonical_title": "小提琴选择",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.162508Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "小提琴选择.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "aea09cf8-25ae-4d3a-9bb6-bccf4338818d",
+      "note_id": "e566b666-796d-40a2-b61c-e6eab15fe4e3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.162510Z",
+      "content": "---\ntitle: 小提琴选择\nupdated: 2022-10-16 10:38:15Z\ncreated: 2022-10-16 10:38:01Z\n---\n\n\n<en-note><div><br/></div><img src=\"../_resources/Image%2020221016%20123804.png\"  style=\"--en-naturalWidth:333; --en-naturalHeight:151;\" hash=\"fd6ae3c2a6da5c9c29318ebd1fed243b\" type=\"image/png\" alt=\"Image 20221016 123804.png\" /></en-media><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9caf85ec4e488f6187ca440ce2ca6c22fd79b3faa776bc182db740e61da2d2f6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/小提琴选择.html"
+      }
+    },
+    {
+      "id": "eaa0058f-f214-4730-bb19-e9f92c3570d5",
+      "note_id": "e566b666-796d-40a2-b61c-e6eab15fe4e3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.162513Z",
+      "content": "---\ntitle: 小提琴选择\nupdated: 2022-10-16 10:38:15Z\ncreated: 2022-10-16 10:38:01Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 80,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "26511434-e72c-4c4c-9042-4c96fa2b9b85",
+    "note_id": "e566b666-796d-40a2-b61c-e6eab15fe4e3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.162517Z",
+    "finished_at": "2025-11-09T20:05:16.162518Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7d7ecd8a-cd97-4400-820e-3ebcf6ce53f0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/小提琴选择.html",
+      "checksum": "9caf85ec4e488f6187ca440ce2ca6c22fd79b3faa776bc182db740e61da2d2f6"
+    },
+    "output_ref": {
+      "ingest_source": "f4cd718c-5700-4156-941e-ac137483380a",
+      "note": "e566b666-796d-40a2-b61c-e6eab15fe4e3",
+      "variants": [
+        "aea09cf8-25ae-4d3a-9bb6-bccf4338818d",
+        "eaa0058f-f214-4730-bb19-e9f92c3570d5"
+      ]
+    },
+    "error_detail": null
+  }
+}

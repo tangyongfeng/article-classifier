@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "33d857f9-7723-4e7e-9583-72da9c49d27b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/蔡康永.html",
+    "collected_at": "2025-11-09T20:05:16.693937Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "2fc961ed190f492bc16c424ea209c93ddd70cc777eb5e167b23804142ba852b8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c86652bd-e449-4e3b-9bc1-4769e5147ed0",
+    "ingest_source_id": "33d857f9-7723-4e7e-9583-72da9c49d27b",
+    "canonical_title": "蔡康永",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.693941Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "蔡康永.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "27c6d892-8ce1-4e28-aa7e-2cf586333ff5",
+      "note_id": "c86652bd-e449-4e3b-9bc1-4769e5147ed0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.693944Z",
+      "content": "---\ntitle: 蔡康永\nupdated: 2022-01-20 16:22:43Z\ncreated: 2022-01-20 16:22:16Z\n---\n\n\n<en-note><div><br/></div><img src=\"../_resources/Image%2020220120%20172218.png\"  style=\"--en-naturalWidth:1130; --en-naturalHeight:1440;\" hash=\"18a5f9fb6d47a0d1a3f5ebe52f891119\" type=\"image/png\" alt=\"Image 20220120 172218.png\" /></en-media><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2fc961ed190f492bc16c424ea209c93ddd70cc777eb5e167b23804142ba852b8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/蔡康永.html"
+      }
+    },
+    {
+      "id": "7474cdcf-5589-4230-ad26-2c8ea5a6f9f9",
+      "note_id": "c86652bd-e449-4e3b-9bc1-4769e5147ed0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.693947Z",
+      "content": "---\ntitle: 蔡康永\nupdated: 2022-01-20 16:22:43Z\ncreated: 2022-01-20 16:22:16Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 78,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "98a749d6-fa08-46a4-b1a1-40519b82c9e3",
+    "note_id": "c86652bd-e449-4e3b-9bc1-4769e5147ed0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.693951Z",
+    "finished_at": "2025-11-09T20:05:16.693952Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2adb4a28-68bb-4b56-b11e-751849a82a58",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/蔡康永.html",
+      "checksum": "2fc961ed190f492bc16c424ea209c93ddd70cc777eb5e167b23804142ba852b8"
+    },
+    "output_ref": {
+      "ingest_source": "33d857f9-7723-4e7e-9583-72da9c49d27b",
+      "note": "c86652bd-e449-4e3b-9bc1-4769e5147ed0",
+      "variants": [
+        "27c6d892-8ce1-4e28-aa7e-2cf586333ff5",
+        "7474cdcf-5589-4230-ad26-2c8ea5a6f9f9"
+      ]
+    },
+    "error_detail": null
+  }
+}

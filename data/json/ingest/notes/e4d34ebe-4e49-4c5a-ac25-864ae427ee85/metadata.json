@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "cd6dd174-e0cf-4267-b315-6148365a048c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/发音课.html",
+    "collected_at": "2025-11-09T20:05:18.275708Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f9aa79a8c7c2c52c3e3db16cf9c9a3ff730f066256968e759ec6f649ccbc3a79",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e4d34ebe-4e49-4c5a-ac25-864ae427ee85",
+    "ingest_source_id": "cd6dd174-e0cf-4267-b315-6148365a048c",
+    "canonical_title": "发音课",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.275712Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "发音课.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1c2b49ca-f24f-4811-b3b0-478bbad4769b",
+      "note_id": "e4d34ebe-4e49-4c5a-ac25-864ae427ee85",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.275714Z",
+      "content": "---\ntitle: 发音课\nupdated: 2020-03-18 17:40:09Z\ncreated: 2020-03-18 16:22:33Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>A</div><div>a 永远发a，只是有的时候是长音有的时候发短音。</div><ol><li><div>长音,a后面只有一辅音，或者没有辅音。</div></li><li><div>长音，a后面有一个h</div></li><li><div>长音，双a重叠</div></li><li><div>短音，后面有两个辅音</div></li></ol><div>&Auml;</div><div>&auml;永远发&auml;</div><div>长音</div><ol><li><div>&auml;后面一只有一辅音，或者没有辅音。</div></li><li><div>&auml;后面有一个长音标志h</div></li><li><div><br/></div></li></ol><div>短音</div><ol><li><div>&auml;后面有两个或者以上的辅音</div></li></ol><div>O</div><div>长音和短音是不同的，</div><div>长音，本身音</div><ol><li><div>后面只有一个辅音或者没有辅音</div></li><li><div>有长音标志h</div></li><li><div>双oo重叠</div></li></ol><div>短音</div><ol><li><div>后面有两个或者两个以上辅音的时候</div></li></ol><div>&Ouml;&ouml;</div><div>长音</div><ol><li><div>&ouml; 后面只有一个辅音或者没有辅音</div></li><li><div>有长音标志</div></li></ol><div>短音</div><ol><li><div>有两个或者两个以上辅音的时候</div></li></ol><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f9aa79a8c7c2c52c3e3db16cf9c9a3ff730f066256968e759ec6f649ccbc3a79",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/发音课.html"
+      }
+    },
+    {
+      "id": "00ee9496-402e-4a24-bb9f-d2878162cdd8",
+      "note_id": "e4d34ebe-4e49-4c5a-ac25-864ae427ee85",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.275717Z",
+      "content": "---\ntitle: 发音课\nupdated: 2020-03-18 17:40:09Z\ncreated: 2020-03-18 16:22:33Z\nauthor: tangyongfeng@gmail.com\n---\n\nA\na 永远发a，只是有的时候是长音有的时候发短音。\n长音,a后面只有一辅音，或者没有辅音。\n长音，a后面有一个h\n长音，双a重叠\n短音，后面有两个辅音\nÄ\nä永远发ä\n长音\nä后面一只有一辅音，或者没有辅音。\nä后面有一个长音标志h\n短音\nä后面有两个或者以上的辅音\nO\n长音和短音是不同的，\n长音，本身音\n后面只有一个辅音或者没有辅音\n有长音标志h\n双oo重叠\n短音\n后面有两个或者两个以上辅音的时候\nÖö\n长音\nö 后面只有一个辅音或者没有辅音\n有长音标志\n短音\n有两个或者两个以上辅音的时候",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 360,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "236f671e-64eb-476e-9e8f-b3b0cacdbab8",
+    "note_id": "e4d34ebe-4e49-4c5a-ac25-864ae427ee85",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.275722Z",
+    "finished_at": "2025-11-09T20:05:18.275722Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "de510067-c9c3-4277-b5b9-74693bfa0fe9",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/发音课.html",
+      "checksum": "f9aa79a8c7c2c52c3e3db16cf9c9a3ff730f066256968e759ec6f649ccbc3a79"
+    },
+    "output_ref": {
+      "ingest_source": "cd6dd174-e0cf-4267-b315-6148365a048c",
+      "note": "e4d34ebe-4e49-4c5a-ac25-864ae427ee85",
+      "variants": [
+        "1c2b49ca-f24f-4811-b3b0-478bbad4769b",
+        "00ee9496-402e-4a24-bb9f-d2878162cdd8"
+      ]
+    },
+    "error_detail": null
+  }
+}

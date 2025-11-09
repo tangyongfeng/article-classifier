@@ -1,0 +1,338 @@
+---
+title: 编译GNUARM以及OsmocomBB环境 - 网络安全 - 红黑联盟
+updated: 2016-03-22 14:03:39Z
+created: 2016-03-22 14:03:39Z
+source: http://www.2cto.com/Article/201311/257701.html
+---
+
+以下所有操作基于Ubuntu Linux下，所以基于Ubuntu、Debian等Linux版本均可使用。
+
+一、以Root权限进行接下来的所有操作：
+
+ $ sudo -s
+
+二、安装编译osmocomBB所需的软件包：
+
+ $ aptitude install libtool shtool autoconf git-core pkg-config make gcc
+
+三、下载所需要的GnuARM ToolChain
+
+基于x86架构
+
+?
+1
+2
+3
+$ wget http:
+//gnuarm
+.com
+/bu-2
+.15_gcc-3.4.3-c-c++-java_nl-1.12.0_gi-6.1.
+tar
+.bz2 百度网盘
+$
+tar
+
+xf bu-2.15_gcc-3.4.3-c-c++-java_nl-1.12.0_gi-6.1.
+tar
+.bz2
+$
+mv
+
+gnuarm-* ~
+/gnuarm
+
+基于64位架构
+
+?
+1
+2
+3
+$ wget http:
+//www
+.gnuarm.com
+/bu-2
+.16.1_gcc-4.0.2-c-c++_nl-1.14.0_gi-6.4_x86-64.
+tar
+.bz2 百度网盘
+$
+tar
+
+xf bu-2.16.1_gcc-4.0.2-c-c++_nl-1.14.0_gi-6.4_x86-64.
+tar
+.bz2
+$
+mv
+
+gnuarm-* ~
+/gnuarm
+
+这样子就已经完成了关于OsmocomBB的交叉编译环境的搭建，剩下就是最关键的设置环境变量
+
+ $ export PATH=~/gnuarm/bin:$PATH
+
+建议是直接编辑~/.bashrc的内容，把上面的这个段话直接加到最后。
+
+四、编译libosmocore：
+
+?
+1
+2
+3
+4
+5
+6
+7
+8
+$ git clone git:
+//git
+.osmocom.org
+/libosmocore
+.git 
+$
+cd
+
+libosmocore/ 
+$ autoreconf -i 
+$ .
+/configure
+ 
+$
+make
+ 
+$
+make
+
+install
+ 
+$
+cd
+
+.. 
+$ ldconfig
+
+ldconfig命令一定不要忘记执行，否则osmocomBB编译后运行时会出现找不到libosmocore.so.4的错误。
+
+五、编译OsmocomBB：
+
+?
+1
+2
+3
+4
+5
+$ git clone git:
+//git
+.osmocom.org
+/osmocom-bb
+.git
+$
+cd
+
+osmocom-bb
+$ git checkout --track origin
+/luca/gsmmap
+$
+cd
+
+src
+$
+make
+
+基本上已经完成所有的编译操作了！Enjoy你的玩具吧！
+
+使用OsmocomBB
+
+首先我们需要在刷写固件之间完成以下几个手动操作，以便接下来的其他操作。因为摩托罗拉C118的数据连接线是用2.5mm音频接口的，所以连接方面大家要注意的是：
+
+连接线接口的小缺陷
+
+  红色框住的地方可能会导致大家在误以为接口已经完全和手机接口衔接了，但在刷机的时候没有任何反应。所以这个部分需要大家自己去削一下的。
+
+连接线与TTL的接法
+
+  黑/黄:GND 
+  红:TX
+  白:RX
+
+以上的接法是针对我们
+RadioWar淘宝店
+所出售的CP2102以及FT232rl，而基于淘宝其他的产品可能会在TX和RX部分需要反接，大家要记住。有些朋友会说为什么我们不建议PL2303，那是PL2303只有标准的波特率，所以无法进行任何调制，在真正功能固件上使用会出现很大的问题。所以我们
+不建议使用PL2303
+
+当我们处理完以上的操作之后，就在osmocomBB套件目录下进行相关固件刷写操作，请记住这个操作过程只是临时性的，固件只是以RAM TO ROM的途径下进行临时刷写，关机后原有的摩托罗拉
+系统
+依然会存在的。
+
+  cd ~/osmocom-bb/src/host/osmocon/
+
+启动osmocon刷写所需要的固件，通常大家都是直接刷写Layer1的固件。
+
+  ./osmocon -m c123xor -p /dev/ttyUSB0 ../../target/firmware/board/compal_e88/layer1.compalram.bin
+
+看清楚c123xor是基于C118的，非C118的手机请不要使用这个，并且记住C118的固件目录就是compal_e88，在输入以上命令之前，手机必须连接好连接线以及TTL，并且确保手机必须为
+关键状态
+。命令输入完成后，当前命令窗口会出现以下类似信息：
+
+ got 1 bytes from modem, data looks like: 2f  / 
+ got 1 bytes from modem, data looks like: 00  . 
+ got 1 bytes from modem, data looks like: 1b  . 
+ got 4 bytes from modem, data looks like: f6 02 00 41  ...A 
+ got 1 bytes from modem, data looks like: 01  . 
+ got 1 bytes from modem, data looks like: 40  @
+
+出现以上信息后，直接
+轻按
+手机的
+红色开机键
+，只需点亮机器而不需要进入手机的系统！！！这样子信息状态会显示类似以下的信息：
+
+?
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+Received PROMPT1 from phone, responding with CMD      
+ 
+read_file(../..
+/target/firmware/board/compal_e88/layer1
+.compalram.bin):file_size=56016,hdr_len=4,dnload_len=56023
+ 
+got 1 bytes from modem, data looks like: 1b  . 
+ 
+got 1 bytes from modem, data looks like: f6  . 
+ 
+got 1 bytes from modem, data looks like: 02  . 
+ 
+got 1 bytes from modem, data looks like: 00  . 
+ 
+got 1 bytes from modem, data looks like: 41  A 
+ 
+got 1 bytes from modem, data looks like: 02  . 
+ 
+got 1 bytes from modem, data looks like: 43  C 
+ 
+Received PROMPT2 from phone, starting download  handle_write(): 4096 bytes (4096
+/56023
+) 
+ 
+handle_write(): 4096 bytes (8192
+/56023
+) 
+ 
+handle_write(): 4096 bytes (12288
+/56023
+) 
+ 
+handle_write(): 4096 bytes (16384
+/56023
+) 
+ 
+handle_write(): 4096 bytes (20480
+/56023
+) 
+ 
+handle_write(): 4096 bytes (24576
+/56023
+) 
+ 
+handle_write(): 4096 bytes (28672
+/56023
+) 
+ 
+handle_write(): 4096 bytes (32768
+/56023
+) 
+ 
+handle_write(): 4096 bytes (36864
+/56023
+) 
+ 
+handle_write(): 4096 bytes (40960
+/56023
+) 
+ 
+handle_write(): 4096 bytes (45056
+/56023
+) 
+ 
+handle_write(): 4096 bytes (49152
+/56023
+) 
+ 
+handle_write(): 4096 bytes (53248
+/56023
+) 
+ 
+handle_write(): 2775 bytes (56023
+/56023
+) 
+ 
+handle_write(): finished 
+ 
+got 1 bytes from modem, data looks like: 1b  . 
+ 
+got 1 bytes from modem, data looks like: f6  . 
+ 
+got 1 bytes from modem, data looks like: 02  . 
+ 
+got 1 bytes from modem, data looks like: 00  . 
+ 
+got 1 bytes from modem, data looks like: 41  A 
+ 
+got 1 bytes from modem, data looks like: 03  . 
+ 
+got 1 bytes from modem, data looks like: 42  B 
+ 
+Received DOWNLOAD ACK from phone, your code is running now! 
+ 
+battery_compal_e88_init: starting up
+
+看到以上的信息就证明你的固件刷写操作已经成功了，下来的操作可以是扫描基站或者其他简单而快速的方法：
+
+扫描基站
+
+ ~/cell_logger/osmocom-bb/src/host/layer23/src/misc/cell_log -O
+
+扫描某一个基站，例如30
+
+ ~/cell_logger/osmocom-bb/src/host/layer23/src/misc/ccch_scan -i 127.0.0.1 -a 30
+
+将扫描基站的日志保存到本地
+
+ dumpcap -i lo -w ~/cell_logger/mobilelog/Cell.log
+
+打开WireShark实时读取相关的信息
+
+ sudo wireshark -k -i lo -f 'port 4729'
+
+本应真的不想说这么多，不是因为我们藏着捏着，而是没有任何一个文档可以比起osmocomBB的官方wiki来的更加详细，如果大家只是懂得以上几条命令的话，那和没有搞有什么分别？究竟是学习如何使用以上的命令还是利用osmocomBB这样子的开源项目去学习GSM安全呢？

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ad5e4ffb-a93a-41e4-a613-78758e79433a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/语音评测.html",
+    "collected_at": "2025-11-09T20:01:36.301262Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "6e6ee47a6c4447a6fbd229860e5f46050b6484f8aafc228b227e38a59ac7ab1a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "34c6150a-4e0b-4494-9185-36949dee5f5f",
+    "ingest_source_id": "ad5e4ffb-a93a-41e4-a613-78758e79433a",
+    "canonical_title": "语音评测",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:01:36.301266Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "语音评测.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "29fd1919-7a16-4d0c-825e-d0b1ac0b1da2",
+      "note_id": "34c6150a-4e0b-4494-9185-36949dee5f5f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.301268Z",
+      "content": "---\ntitle: 语音评测\nupdated: 2021-09-20 21:09:39Z\ncreated: 2021-09-20 20:24:54Z\n---\n\n\n<en-note><div><span STYLE=\"color:rgb(0, 0, 0);\">Speech Assessment 语音评测</span></div><div><span STYLE=\"color:rgb(0, 0, 0);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></div><div>学术界关于自动口语评分的算法的研究可以追溯到90年代初。目前工业界采用的主流的跟读口语评分方法主要是基于<a HREF=\"https://link.zhihu.com/?target=http%3A//zh.wikipedia.org/wiki/%25E9%259A%2590%25E9%25A9%25AC%25E5%25B0%2594%25E5%258F%25AF%25E5%25A4%25AB%25E6%25A8%25A1%25E5%259E%258B\" REL=\"nofollow noreferrer\" REV=\"en_rl_none\">隐马尔可夫模型</a> (Hidden Markov Model) 的语音识别引擎，利用其似然分数值 (likelihood score) 以及其他相关的信息做为评分依据。其中，最经典的GOP (Goodness of Pronunciation) 方法是由麻省理工大学的Silke Witt在他的博士论文中提出。之后的评分方法大都与GOP算法相似，或者是由它衍生出来。流利说使用的打分算法也正是以GOP算法为基础的。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6e6ee47a6c4447a6fbd229860e5f46050b6484f8aafc228b227e38a59ac7ab1a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/语音评测.html"
+      }
+    },
+    {
+      "id": "d7178f93-808a-4bef-b52d-ead491ad311d",
+      "note_id": "34c6150a-4e0b-4494-9185-36949dee5f5f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.301271Z",
+      "content": "---\ntitle: 语音评测\nupdated: 2021-09-20 21:09:39Z\ncreated: 2021-09-20 20:24:54Z\n---\n\nSpeech Assessment 语音评测\n学术界关于自动口语评分的算法的研究可以追溯到90年代初。目前工业界采用的主流的跟读口语评分方法主要是基于\n隐马尔可夫模型\n (Hidden Markov Model) 的语音识别引擎，利用其似然分数值 (likelihood score) 以及其他相关的信息做为评分依据。其中，最经典的GOP (Goodness of Pronunciation) 方法是由麻省理工大学的Silke Witt在他的博士论文中提出。之后的评分方法大都与GOP算法相似，或者是由它衍生出来。流利说使用的打分算法也正是以GOP算法为基础的。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 363,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "762a248f-4d27-4f06-a2c6-67780f7592ca",
+    "note_id": "34c6150a-4e0b-4494-9185-36949dee5f5f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.301276Z",
+    "finished_at": "2025-11-09T20:01:36.301276Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "61a28c73-ed0e-41d9-bba9-9fd711216b57",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/语音评测.html",
+      "checksum": "6e6ee47a6c4447a6fbd229860e5f46050b6484f8aafc228b227e38a59ac7ab1a"
+    },
+    "output_ref": {
+      "ingest_source": "ad5e4ffb-a93a-41e4-a613-78758e79433a",
+      "note": "34c6150a-4e0b-4494-9185-36949dee5f5f",
+      "variants": [
+        "29fd1919-7a16-4d0c-825e-d0b1ac0b1da2",
+        "d7178f93-808a-4bef-b52d-ead491ad311d"
+      ]
+    },
+    "error_detail": null
+  }
+}

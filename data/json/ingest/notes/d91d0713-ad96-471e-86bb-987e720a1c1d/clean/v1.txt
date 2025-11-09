@@ -1,0 +1,129 @@
+---
+title: bootstrap学习笔记
+updated: 2022-10-31 22:04:19Z
+created: 2022-10-31 21:02:03Z
+---
+
+基础
+文档类型，必须是h5文件
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap 5 实例</title>
+    <meta charset="utf-8">
+  </head>
+</html>
+移动设备优先
+<meta name="viewport" content="width=device-width, initial-scale=1">
+容器
+.container 响应式的固定宽度容器
+创建响应式、固定宽度的容器，他的宽度是固定的，会根据不同的屏幕法制选择不同的固定尺寸。
+Extra small
+<576px
+Small
+≥576px
+Medium
+≥768px
+Large
+≥992px
+Extra Large
+≥1200px
+XXL
+≥1400px
+max-width
+100%
+540px
+720px
+960px
+1140px
+1320px
+顶部填充 .pt-5
+<div class="container pt-5"></div>
+自定义颜色和样式
+<div class="container p-5 my-5 border"></div>
+<div class="container p-5 my-5 bg-dark text-white"></div>
+<div class="container p-5 my-5 bg-primary text-white"></div>
+响应式容器
+<div class="container-sm">.container-sm</div>
+<div class="container-md">.container-md</div>
+<div class="container-lg">.container-lg</div>
+<div class="container-xl">.container-xl</div>
+<div class="container-xxl">.container-xxl</div>
+类
+Extra small
+<576px
+Small
+≥576px
+Medium
+≥768px
+Large
+≥992px
+Extra large
+≥1200px
+XXL
+≥1400px
+.container-sm
+100%
+540px
+720px
+960px
+1140px
+1320px
+.container-md
+100%
+720px
+960px
+1140px
+1320px
+.container-lg
+100%
+960px
+1140px
+1320px
+.container-xl
+100%
+1140px
+1320px
+.container-xxl
+100%
+1320px
+.container-fluid 全矿容器，跨越窗口的整个宽度
+网格系统，bootstrap的网格系统使用flexbox构建，页面上最多允许12列。需要确保所有的col 小于等于12.
+类
+.col-
+ (超小型设备 - 屏幕宽度小于 576px)
+.col-sm-
+ (小型设备 - 屏幕宽度等于或大于 576px)
+.col-md-
+ (中型设备 - 屏幕宽度等于或大于 768 像素)
+.col-lg-
+ (大型设备 - 屏幕宽度等于或大于 992 像素)
+.col-xl-
+ (xlarge 设备 - 屏幕宽度等于或大于 1200px)
+.col-xxl-
+ (xxlarge 设备 - 屏幕宽度等于或大于 1400px)
+display 标题，
+bootstrap增加了更新的.display-1 到display-36的标题，样式更细，更醒目
+响应式图像
+将.img-fluid 添加到<img>标签中，图像可以自动的缩放到父元素中
+<img src="/i/photo/tiyugongyuan.jpg" class="img-fluid" alt="Park" width="2000" height="1085">     <!-其中的宽高是图片的最大宽高--->
+折叠（用得上）
+基础折叠 .collapse 类表示可折叠元素
+
+<body>
+
+<div class="container mt-3">
+
+  <h2>默认显示折叠的内容</h2>
+
+  <p>在 collapse 类旁边添加 show 类，可默认显示内容。</p>
+
+  <p>单击按钮可在显示和隐藏内容之间切换。</p>
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">春日</button> <!--这句话定义了一切-->
+  <div id="demo" class="collapse show">    <!---主动是展示，如果没有这个show ，则是默认隐藏>
+    <p> 需要隐藏或者折叠的内容 </p>
+  </div>
+</body>
+手风琴折叠
+比较复杂，用的时候再看

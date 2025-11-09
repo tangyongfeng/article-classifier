@@ -1,0 +1,150 @@
+/* 自定义样式 */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/* 分类树样式 */
+.category-tree {
+    padding: 10px 0;
+}
+
+.category-item {
+    margin-bottom: 5px;
+}
+
+.category-link {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #333;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.category-link:hover {
+    background-color: #f0f0f0;
+    color: #0d6efd;
+}
+
+.category-name {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.category-children {
+    margin-top: 5px;
+}
+
+/* 文章列表样式 */
+.list-group-item {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.list-group-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 文章内容样式 */
+.article-content {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.article-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.article-content pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+.article-content code {
+    background-color: #f5f5f5;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-family: 'Courier New', monospace;
+}
+
+/* 徽章样式 */
+.badge {
+    margin-right: 5px;
+}
+
+/* 面包屑样式 */
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+/* 卡片样式 */
+.card {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    font-weight: 600;
+}
+
+/* 页脚样式 */
+.footer {
+    margin-top: 3rem;
+    border-top: 1px solid #dee2e6;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+    .category-item {
+        margin-left: 0 !important;
+    }
+
+    .navbar-brand {
+        font-size: 1rem;
+    }
+}
+
+/* 加载动画 */
+.loading {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: #0d6efd;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* 统计卡片样式 */
+.card.bg-primary,
+.card.bg-success {
+    border: none;
+}
+
+.card.bg-primary .card-title,
+.card.bg-success .card-title {
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.card.bg-primary h2,
+.card.bg-success h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "44f49890-91a7-4172-b68b-bbc21d0da47c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/车牌号.html",
+    "collected_at": "2025-11-09T20:01:37.622433Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bf97e4c937fdf3b891fe0c8498ae2bba9ac122de5c23af4ca59e95df1de03504",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "fcacec03-fec2-4732-b1d1-e469fc1a31de",
+    "ingest_source_id": "44f49890-91a7-4172-b68b-bbc21d0da47c",
+    "canonical_title": "车牌号",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.622437Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "车牌号.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0bf64a6e-2034-4a17-a055-d94e237aa784",
+      "note_id": "fcacec03-fec2-4732-b1d1-e469fc1a31de",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.622440Z",
+      "content": "---\ntitle: 车牌号\nupdated: 2018-03-22 10:04:04Z\ncreated: 2018-03-22 10:03:33Z\n---\n\n\n<en-note><div>京NB2234</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bf97e4c937fdf3b891fe0c8498ae2bba9ac122de5c23af4ca59e95df1de03504",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/车牌号.html"
+      }
+    },
+    {
+      "id": "ef00c784-148e-4a7b-b881-31dc38cf048c",
+      "note_id": "fcacec03-fec2-4732-b1d1-e469fc1a31de",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.622442Z",
+      "content": "---\ntitle: 车牌号\nupdated: 2018-03-22 10:04:04Z\ncreated: 2018-03-22 10:03:33Z\n---\n\n京NB2234",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 87,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d388536e-4f09-4ea4-bf7c-13eba1e2a704",
+    "note_id": "fcacec03-fec2-4732-b1d1-e469fc1a31de",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.622447Z",
+    "finished_at": "2025-11-09T20:01:37.622447Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2f2c34ab-df40-4b88-83aa-9233577b9a92",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/车牌号.html",
+      "checksum": "bf97e4c937fdf3b891fe0c8498ae2bba9ac122de5c23af4ca59e95df1de03504"
+    },
+    "output_ref": {
+      "ingest_source": "44f49890-91a7-4172-b68b-bbc21d0da47c",
+      "note": "fcacec03-fec2-4732-b1d1-e469fc1a31de",
+      "variants": [
+        "0bf64a6e-2034-4a17-a055-d94e237aa784",
+        "ef00c784-148e-4a7b-b881-31dc38cf048c"
+      ]
+    },
+    "error_detail": null
+  }
+}

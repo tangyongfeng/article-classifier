@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "01450217-4470-4adf-8b58-e35733724073",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/彩超结果.html",
+    "collected_at": "2025-11-09T20:05:17.464836Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "e16867fb07392915f987c89a745ac24efd47dbc24ecc202de13006af079207a6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "2e972b28-4e39-486f-81de-1e78ed173855",
+    "ingest_source_id": "01450217-4470-4adf-8b58-e35733724073",
+    "canonical_title": "彩超结果",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.464839Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "彩超结果.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "36cfc801-1a3c-4aee-9e5a-96c3d2e330df",
+      "note_id": "2e972b28-4e39-486f-81de-1e78ed173855",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.464842Z",
+      "content": "---\ntitle: 彩超结果\nupdated: 2012-07-01 23:25:18Z\ncreated: 2012-07-01 23:25:18Z\nlatitude: 39.88870000\nlongitude: 116.63200000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>左室内径轻度增大，余房室内径未见明显增大。室间隔及左室后壁未见明显增厚，运幅正常。房室间隔回声连续完整。主肺动脉内径稍增宽，其分叉与降主动脉间可见一宽约3。1至4。6毫米的异常通道。各瓣摸形态及活动未见明星异常。主动脉弓降部未见明显异常。<br/>动脉水平可见坐向右分流信号</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e16867fb07392915f987c89a745ac24efd47dbc24ecc202de13006af079207a6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/彩超结果.html"
+      }
+    },
+    {
+      "id": "61858621-b096-4b1c-b133-e3733558a33b",
+      "note_id": "2e972b28-4e39-486f-81de-1e78ed173855",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.464845Z",
+      "content": "---\ntitle: 彩超结果\nupdated: 2012-07-01 23:25:18Z\ncreated: 2012-07-01 23:25:18Z\nlatitude: 39.88870000\nlongitude: 116.63200000\naltitude: 0.0000\n---\n\n左室内径轻度增大，余房室内径未见明显增大。室间隔及左室后壁未见明显增厚，运幅正常。房室间隔回声连续完整。主肺动脉内径稍增宽，其分叉与降主动脉间可见一宽约3。1至4。6毫米的异常通道。各瓣摸形态及活动未见明星异常。主动脉弓降部未见明显异常。\n动脉水平可见坐向右分流信号",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 277,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e2d02852-4849-40cd-ad04-76461dcc5e5c",
+    "note_id": "2e972b28-4e39-486f-81de-1e78ed173855",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.464850Z",
+    "finished_at": "2025-11-09T20:05:17.464850Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8fa699fc-4e4e-4bda-b2c7-e77f2f1feca3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/彩超结果.html",
+      "checksum": "e16867fb07392915f987c89a745ac24efd47dbc24ecc202de13006af079207a6"
+    },
+    "output_ref": {
+      "ingest_source": "01450217-4470-4adf-8b58-e35733724073",
+      "note": "2e972b28-4e39-486f-81de-1e78ed173855",
+      "variants": [
+        "36cfc801-1a3c-4aee-9e5a-96c3d2e330df",
+        "61858621-b096-4b1c-b133-e3733558a33b"
+      ]
+    },
+    "error_detail": null
+  }
+}

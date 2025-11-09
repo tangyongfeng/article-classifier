@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1fa2f237-7d87-41c3-b8ea-e1a944128a75",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/招生.html",
+    "collected_at": "2025-11-09T20:01:37.073156Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6dfc24f3b5c586fbe03f9b4f2e3181eee656683eb8f9f7e0a7d0f40e629c5ceb",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "33ac9efc-a6df-43ed-9b26-90d9886f42db",
+    "ingest_source_id": "1fa2f237-7d87-41c3-b8ea-e1a944128a75",
+    "canonical_title": "招生",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.073162Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "招生.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "92126180-0fce-4e81-9005-5b9c4f77ac77",
+      "note_id": "33ac9efc-a6df-43ed-9b26-90d9886f42db",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.073166Z",
+      "content": "---\ntitle: 招生\nupdated: 2013-03-18 04:06:17Z\ncreated: 2013-03-18 04:06:12Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>福州市仓山区金山生活区金山碧水3期上雁路冬馨宛1号楼305。林珊收电话13805050057<br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6dfc24f3b5c586fbe03f9b4f2e3181eee656683eb8f9f7e0a7d0f40e629c5ceb",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/招生.html"
+      }
+    },
+    {
+      "id": "ad39fc07-d1d2-452a-9e82-5604ae0900b4",
+      "note_id": "33ac9efc-a6df-43ed-9b26-90d9886f42db",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.073170Z",
+      "content": "---\ntitle: 招生\nupdated: 2013-03-18 04:06:17Z\ncreated: 2013-03-18 04:06:12Z\n---\n\n福州市仓山区金山生活区金山碧水3期上雁路冬馨宛1号楼305。林珊收电话13805050057",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 125,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6c525cba-4842-47a1-bcee-ab3451094a28",
+    "note_id": "33ac9efc-a6df-43ed-9b26-90d9886f42db",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.073176Z",
+    "finished_at": "2025-11-09T20:01:37.073176Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "94abb18f-a6df-427e-bcee-b22afdb2a1eb",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/招生.html",
+      "checksum": "6dfc24f3b5c586fbe03f9b4f2e3181eee656683eb8f9f7e0a7d0f40e629c5ceb"
+    },
+    "output_ref": {
+      "ingest_source": "1fa2f237-7d87-41c3-b8ea-e1a944128a75",
+      "note": "33ac9efc-a6df-43ed-9b26-90d9886f42db",
+      "variants": [
+        "92126180-0fce-4e81-9005-5b9c4f77ac77",
+        "ad39fc07-d1d2-452a-9e82-5604ae0900b4"
+      ]
+    },
+    "error_detail": null
+  }
+}

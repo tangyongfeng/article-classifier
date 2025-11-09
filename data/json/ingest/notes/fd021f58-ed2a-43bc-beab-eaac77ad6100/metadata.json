@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6a6456b7-9eef-4238-a9c3-35d4405c0574",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/补充知识点.html",
+    "collected_at": "2025-11-09T20:01:38.999507Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "a064689267e954e4350966ffef5395577900abff97666f49aa8667ee6e11599c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "fd021f58-ed2a-43bc-beab-eaac77ad6100",
+    "ingest_source_id": "6a6456b7-9eef-4238-a9c3-35d4405c0574",
+    "canonical_title": "补充知识点",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:38.999511Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "补充知识点.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "cbdbd6fb-ec9e-453f-95fc-b5d14d1c140d",
+      "note_id": "fd021f58-ed2a-43bc-beab-eaac77ad6100",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.999513Z",
+      "content": "---\ntitle: 补充知识点\nupdated: 2021-02-08 16:05:25Z\ncreated: 2021-02-08 08:40:49Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><ul><li><div>从句的标点，是以主句的类型所决定的。</div></li><ul><li><div>例如： ich nicht wei&szlig;,ob du kommst.</div></li></ul><li><div>我很高兴，只能跟dass。 ich freue mich , dass &hellip;.</div></li><li><div>两个ich 开头的句子，可以用und 连起来，共用主语</div></li><li><div>提到一个时间(不是说精确时间），例如说自己的生日，前面要加冠词，通常是den 。</div></li><li><div>最好少用直接语气，例如 Toll,改用 ich find Toll</div></li><li><div>gehen / kommen 可以 Infinitiv 组成框架结构，</div></li><ul><li><div>例如： ich gehe &nbsp;morgen arbeiten.</div></li></ul><li><div>sonst 在句首诗否则的意思，在句中，是除此以外</div></li><li><div>叙事顺序：zuerst, und dann , danach ,sp&auml;ter ,schlie&szlig;lich , zuletzt</div></li><li><div>在右上角写地点时间</div></li><li><div>sehr geehrte Frau &hellip;/ sehr geehrter Herr</div></li><li><div>Dank 是名词，如：Vielen Dank , danke是动词 如 ich danke dir.</div></li><li><div>in 时间 是三格 in dem Tag ,in der Woche , in dem Monat , in dem Jahr</div></li></ul><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a064689267e954e4350966ffef5395577900abff97666f49aa8667ee6e11599c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/补充知识点.html"
+      }
+    },
+    {
+      "id": "478114e3-8319-4965-aca5-b70c8a23e299",
+      "note_id": "fd021f58-ed2a-43bc-beab-eaac77ad6100",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.999516Z",
+      "content": "---\ntitle: 补充知识点\nupdated: 2021-02-08 16:05:25Z\ncreated: 2021-02-08 08:40:49Z\nauthor: tangyongfeng@gmail.com\n---\n\n从句的标点，是以主句的类型所决定的。\n例如： ich nicht weiß,ob du kommst.\n我很高兴，只能跟dass。 ich freue mich , dass ….\n两个ich 开头的句子，可以用und 连起来，共用主语\n提到一个时间(不是说精确时间），例如说自己的生日，前面要加冠词，通常是den 。\n最好少用直接语气，例如 Toll,改用 ich find Toll\ngehen / kommen 可以 Infinitiv 组成框架结构，\n例如： ich gehe  morgen arbeiten.\nsonst 在句首诗否则的意思，在句中，是除此以外\n叙事顺序：zuerst, und dann , danach ,später ,schließlich , zuletzt\n在右上角写地点时间\nsehr geehrte Frau …/ sehr geehrter Herr\nDank 是名词，如：Vielen Dank , danke是动词 如 ich danke dir.\nin 时间 是三格 in dem Tag ,in der Woche , in dem Monat , in dem Jahr",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 626,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "23c2133b-75cf-4e5e-ba11-d66ad03cfd4c",
+    "note_id": "fd021f58-ed2a-43bc-beab-eaac77ad6100",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.999521Z",
+    "finished_at": "2025-11-09T20:01:38.999521Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8eff43ea-a45f-40fd-8b6f-60998dc342e9",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/补充知识点.html",
+      "checksum": "a064689267e954e4350966ffef5395577900abff97666f49aa8667ee6e11599c"
+    },
+    "output_ref": {
+      "ingest_source": "6a6456b7-9eef-4238-a9c3-35d4405c0574",
+      "note": "fd021f58-ed2a-43bc-beab-eaac77ad6100",
+      "variants": [
+        "cbdbd6fb-ec9e-453f-95fc-b5d14d1c140d",
+        "478114e3-8319-4965-aca5-b70c8a23e299"
+      ]
+    },
+    "error_detail": null
+  }
+}

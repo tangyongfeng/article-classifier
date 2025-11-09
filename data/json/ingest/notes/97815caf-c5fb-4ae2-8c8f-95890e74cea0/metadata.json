@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "45d6e704-b9b1-4d64-a302-a1cfd23a1189",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Sharing link.html",
+    "collected_at": "2025-11-09T20:01:38.636344Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d65b2fee41950977f375eab44cd2c907574aad4069b1fc8723d0f47527719104",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "97815caf-c5fb-4ae2-8c8f-95890e74cea0",
+    "ingest_source_id": "45d6e704-b9b1-4d64-a302-a1cfd23a1189",
+    "canonical_title": "Sharing link",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.636348Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Sharing link.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d66ab7a4-b2e8-4b0e-8cb1-823398d28c37",
+      "note_id": "97815caf-c5fb-4ae2-8c8f-95890e74cea0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.636351Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2018-06-06 07:05:04Z\ncreated: 2018-06-06 07:05:04Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 新加坡化妆学校\n---\n\n\n\n<en-note>\n<div><span>Sharing link</span></div>\n<div><br/></div>\n<div><span>https://www.dryogadance.com/makeup</span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d65b2fee41950977f375eab44cd2c907574aad4069b1fc8723d0f47527719104",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Sharing link.html"
+      }
+    },
+    {
+      "id": "b890fdfe-4373-47b7-91d3-d744f87c0ba3",
+      "note_id": "97815caf-c5fb-4ae2-8c8f-95890e74cea0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.636353Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2018-06-06 07:05:04Z\ncreated: 2018-06-06 07:05:04Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 新加坡化妆学校\n---\n\nSharing link\n\nhttps://www.dryogadance.com/makeup",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 186,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8c04a4f4-3ab9-46ff-95bd-82e437ffa7a4",
+    "note_id": "97815caf-c5fb-4ae2-8c8f-95890e74cea0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.636358Z",
+    "finished_at": "2025-11-09T20:01:38.636358Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8b72ff37-acf9-4284-9411-6f9d58240547",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/Sharing link.html",
+      "checksum": "d65b2fee41950977f375eab44cd2c907574aad4069b1fc8723d0f47527719104"
+    },
+    "output_ref": {
+      "ingest_source": "45d6e704-b9b1-4d64-a302-a1cfd23a1189",
+      "note": "97815caf-c5fb-4ae2-8c8f-95890e74cea0",
+      "variants": [
+        "d66ab7a4-b2e8-4b0e-8cb1-823398d28c37",
+        "b890fdfe-4373-47b7-91d3-d744f87c0ba3"
+      ]
+    },
+    "error_detail": null
+  }
+}

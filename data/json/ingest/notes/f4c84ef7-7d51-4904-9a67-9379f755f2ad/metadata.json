@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "54ab2956-3b54-4056-9784-16bb47c049da",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/1初期.html",
+    "collected_at": "2025-11-09T20:01:37.727921Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fadfad1e831356c553c57647dfcb9f80f739f2b01692704654a2714748b27d30",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f4c84ef7-7d51-4904-9a67-9379f755f2ad",
+    "ingest_source_id": "54ab2956-3b54-4056-9784-16bb47c049da",
+    "canonical_title": "1初期",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.727924Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "1初期.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bd9c1203-2b38-4130-b818-8a50c75c5fa1",
+      "note_id": "f4c84ef7-7d51-4904-9a67-9379f755f2ad",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.727927Z",
+      "content": "---\ntitle: 1初期\nupdated: 2013-03-26 03:55:47Z\ncreated: 2013-03-26 03:10:15Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1初期\n<div>2稳定</div><div>3单业务高峰</div><div>&nbsp; &nbsp; 90， 100，80，&nbsp;</div><div>0，10</div><div><br/></div><div><br/></div><div>收集的数据</div><div>1、nmon</div><div>2、drivers session Log</div><div>3、driver log</div><div>4、 Metrics Summary Display</div><div>5、 wctf 导出？</div><div><br/></div><div>scale up 的测试内容</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fadfad1e831356c553c57647dfcb9f80f739f2b01692704654a2714748b27d30",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/1初期.html"
+      }
+    },
+    {
+      "id": "0e217805-255c-4fc2-825e-aa1e52282ac8",
+      "note_id": "f4c84ef7-7d51-4904-9a67-9379f755f2ad",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.727930Z",
+      "content": "---\ntitle: 1初期\nupdated: 2013-03-26 03:55:47Z\ncreated: 2013-03-26 03:10:15Z\n---\n\n1初期\n\n2稳定\n3单业务高峰\n    90， 100，80， \n0，10\n收集的数据\n1、nmon\n2、drivers session Log\n3、driver log\n4、 Metrics Summary Display\n5、 wctf 导出？\nscale up 的测试内容",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 219,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "161d64c9-88f2-4a80-891c-3839c451eaa7",
+    "note_id": "f4c84ef7-7d51-4904-9a67-9379f755f2ad",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.727935Z",
+    "finished_at": "2025-11-09T20:01:37.727935Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e4883ae1-4cce-4d7f-a1a0-93fcb949e729",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/1初期.html",
+      "checksum": "fadfad1e831356c553c57647dfcb9f80f739f2b01692704654a2714748b27d30"
+    },
+    "output_ref": {
+      "ingest_source": "54ab2956-3b54-4056-9784-16bb47c049da",
+      "note": "f4c84ef7-7d51-4904-9a67-9379f755f2ad",
+      "variants": [
+        "bd9c1203-2b38-4130-b818-8a50c75c5fa1",
+        "0e217805-255c-4fc2-825e-aa1e52282ac8"
+      ]
+    },
+    "error_detail": null
+  }
+}

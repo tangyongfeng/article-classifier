@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4c881302-c39e-4bbe-ba93-585eedf2e5a4",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/作业.html",
+    "collected_at": "2025-11-09T20:05:18.179272Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5a56d343861295375eb06f67fb675e933844c38f8ddaf9d67b5aeaaf6c0c84ab",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1293d4f6-3cc3-430c-a990-8e6158a98f9c",
+    "ingest_source_id": "4c881302-c39e-4bbe-ba93-585eedf2e5a4",
+    "canonical_title": "作业",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.179276Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "作业.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "538cae99-6ff6-4d70-bd0c-5ddb0737eafa",
+      "note_id": "1293d4f6-3cc3-430c-a990-8e6158a98f9c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.179278Z",
+      "content": "---\ntitle: 作业\nupdated: 2020-04-07 17:04:23Z\ncreated: 2020-04-07 17:03:46Z\n---\n\n\n\n<en-note><div>spielen</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5a56d343861295375eb06f67fb675e933844c38f8ddaf9d67b5aeaaf6c0c84ab",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/作业.html"
+      }
+    },
+    {
+      "id": "74cfcf40-5521-478b-9ca9-909c90dac7af",
+      "note_id": "1293d4f6-3cc3-430c-a990-8e6158a98f9c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.179281Z",
+      "content": "---\ntitle: 作业\nupdated: 2020-04-07 17:04:23Z\ncreated: 2020-04-07 17:03:46Z\n---\n\nspielen",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 86,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c3a66ebb-c5c5-4721-9159-e2ebd2a3390e",
+    "note_id": "1293d4f6-3cc3-430c-a990-8e6158a98f9c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.179286Z",
+    "finished_at": "2025-11-09T20:05:18.179286Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9685e1af-5603-4dc9-81ba-e98893c0b039",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/作业.html",
+      "checksum": "5a56d343861295375eb06f67fb675e933844c38f8ddaf9d67b5aeaaf6c0c84ab"
+    },
+    "output_ref": {
+      "ingest_source": "4c881302-c39e-4bbe-ba93-585eedf2e5a4",
+      "note": "1293d4f6-3cc3-430c-a990-8e6158a98f9c",
+      "variants": [
+        "538cae99-6ff6-4d70-bd0c-5ddb0737eafa",
+        "74cfcf40-5521-478b-9ca9-909c90dac7af"
+      ]
+    },
+    "error_detail": null
+  }
+}

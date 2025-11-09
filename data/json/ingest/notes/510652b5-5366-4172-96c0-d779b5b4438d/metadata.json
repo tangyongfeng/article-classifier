@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "bcdd5f71-f989-43df-b6f6-7942bf463622",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/笔记-3.html",
+    "collected_at": "2025-11-09T20:01:36.207480Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "5a09f9d9d94f1dce7e4ca4cd73db4cf58ec8de120b0216affdb122240b4ab29f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "510652b5-5366-4172-96c0-d779b5b4438d",
+    "ingest_source_id": "bcdd5f71-f989-43df-b6f6-7942bf463622",
+    "canonical_title": "笔记-3",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:36.207484Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-3.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d1bd6762-68cd-4f2d-b7cc-36089ce043bd",
+      "note_id": "510652b5-5366-4172-96c0-d779b5b4438d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.207486Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-12-18 10:57:34Z\ncreated: 2014-12-18 10:41:21Z\n---\n\n\n\n<en-note>移动设备就是要设计的为不专心服务，移动设备成功就是让人不专心\n\n<div>部落战争</div><div>养成类</div><div>消除类游戏彩票化</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5a09f9d9d94f1dce7e4ca4cd73db4cf58ec8de120b0216affdb122240b4ab29f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/笔记-3.html"
+      }
+    },
+    {
+      "id": "aa0e8ac6-a09e-4263-a7c0-62cafb8f28f4",
+      "note_id": "510652b5-5366-4172-96c0-d779b5b4438d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.207489Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-12-18 10:57:34Z\ncreated: 2014-12-18 10:41:21Z\n---\n\n移动设备就是要设计的为不专心服务，移动设备成功就是让人不专心\n\n部落战争\n养成类\n消除类游戏彩票化",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 128,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9b257527-22d8-43d4-b0b3-bb85f276b80c",
+    "note_id": "510652b5-5366-4172-96c0-d779b5b4438d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.207494Z",
+    "finished_at": "2025-11-09T20:01:36.207494Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3fd1955b-31ae-495e-9a51-ad190c3402fa",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/笔记-3.html",
+      "checksum": "5a09f9d9d94f1dce7e4ca4cd73db4cf58ec8de120b0216affdb122240b4ab29f"
+    },
+    "output_ref": {
+      "ingest_source": "bcdd5f71-f989-43df-b6f6-7942bf463622",
+      "note": "510652b5-5366-4172-96c0-d779b5b4438d",
+      "variants": [
+        "d1bd6762-68cd-4f2d-b7cc-36089ce043bd",
+        "aa0e8ac6-a09e-4263-a7c0-62cafb8f28f4"
+      ]
+    },
+    "error_detail": null
+  }
+}

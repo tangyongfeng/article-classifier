@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2cd83887-e3bb-400d-827f-56f864dc8e0e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/关于ESI的问题.html",
+    "collected_at": "2025-11-09T20:05:16.969325Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "29489b7b377c7e607bdae970e98b14edac2daa7f11c7a475628718a0370b5450",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7e920e48-fad1-4041-8fcd-02f09990f56a",
+    "ingest_source_id": "2cd83887-e3bb-400d-827f-56f864dc8e0e",
+    "canonical_title": "关于ESI的问题",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.969329Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "关于ESI的问题.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c94cae75-5b8e-465b-848d-a3420366b38f",
+      "note_id": "7e920e48-fad1-4041-8fcd-02f09990f56a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.969332Z",
+      "content": "---\ntitle: 关于ESI的问题\nupdated: 2013-06-04 01:26:26Z\ncreated: 2013-06-03 08:52:31Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nESI问题<br/>\n一、&nbsp;&nbsp;&nbsp;&nbsp; 商业模式类问题<br/>\n1.&nbsp;&nbsp;&nbsp;&nbsp; 保险公司和个人同为PBM服务商的客户，如果发生利益冲突，会倾向谁的利益。<br/><div>二、&nbsp;&nbsp;&nbsp;&nbsp; 处方类问题<br/>\n1.&nbsp;&nbsp;&nbsp;&nbsp; 能否通过计算机根据输入（输入过程中计算机会自动补充需要了解的问题）的个人情况自动的开具处方（需要人工审核通过）？<br/>\n2.&nbsp;&nbsp;&nbsp;&nbsp; 审核处方需要附带什么样的个人信息？（电子病历、本次问诊的病况）<br/>\n3.&nbsp;&nbsp;&nbsp;&nbsp; 如果能够根据个人情况自动开具处方，那么如果匹配不一致如何决断？如果不能自动开具处方，那审核的依据是什么？<br/>\n4.&nbsp;&nbsp;&nbsp;&nbsp; 开具处方或者审核处方的时候是否会把自己仓储的药物提高优先级。<br/>\n5.&nbsp;&nbsp;&nbsp;&nbsp; 在疗效和经济性上的矛盾，会倾斜哪一方？<br/>\n6.&nbsp;&nbsp;&nbsp;&nbsp; 如果处方审核不通过会怎样？<br/>\n7.&nbsp;&nbsp;&nbsp;&nbsp; 是否大部分疾病都有和常见病、慢性病类似的处方模板？<br/>\n8.&nbsp;&nbsp;&nbsp;&nbsp; 是否需要区分处方药、非处方药、自费药、报销药？<br/>\n三、&nbsp;&nbsp;&nbsp;&nbsp; 计算机自我学习和完善类问题<br/>\n1.&nbsp;&nbsp;&nbsp;&nbsp; 是否有计算机自我学习处方和病历，不断完善的功能？<br/>\n2.&nbsp;&nbsp;&nbsp;&nbsp; 有多少种角度来调校处方模板（年龄、性别、病史、病症、严重程度、地域、既往服药经历和反应、体质、流行病状况、合并症、匹配治疗手段、成本、库存）？<br/>\n3.&nbsp;&nbsp;&nbsp;&nbsp; 学习的主要途径是通过统计分析病历和处方的出现频率，再匹配上述内容进行学习么？如果不是或者需要补充，是什么呢？<br/>\n4.&nbsp;&nbsp;&nbsp;&nbsp; 是否能够通过检验结果自动判断疾病的种类和严重程度<br/>\n四、&nbsp;&nbsp;&nbsp;&nbsp; 后台系统问题<br/>\n1.&nbsp;&nbsp;&nbsp;&nbsp; 当前后台主要的业务类型都有哪些？<br/>\n2.&nbsp;&nbsp;&nbsp;&nbsp; 处方审核在后台业务中占多大的比率？<br/>\n3.&nbsp;&nbsp;&nbsp;&nbsp; 每秒处理多少笔处方审核业务？每秒处理多少笔其他业务。<br/></div><div>临床路径，成熟的软件和参考的。已经很普及了。全国三甲以上的都在使用临床路径。北大医院还是北大人民医院。医务处处长讲课。他们找人开发的，根据需要定制的软件。</div><div>有很多的书。</div><div>通过辅助检查疑症</div><div>规范医疗，必须检查，</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "29489b7b377c7e607bdae970e98b14edac2daa7f11c7a475628718a0370b5450",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/关于ESI的问题.html"
+      }
+    },
+    {
+      "id": "355a6060-3390-442d-9e35-878891baee95",
+      "note_id": "7e920e48-fad1-4041-8fcd-02f09990f56a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.969335Z",
+      "content": "---\ntitle: 关于ESI的问题\nupdated: 2013-06-04 01:26:26Z\ncreated: 2013-06-03 08:52:31Z\n---\n\nESI问题\n\n一、     商业模式类问题\n\n1.     保险公司和个人同为PBM服务商的客户，如果发生利益冲突，会倾向谁的利益。\n二、     处方类问题\n\n1.     能否通过计算机根据输入（输入过程中计算机会自动补充需要了解的问题）的个人情况自动的开具处方（需要人工审核通过）？\n\n2.     审核处方需要附带什么样的个人信息？（电子病历、本次问诊的病况）\n\n3.     如果能够根据个人情况自动开具处方，那么如果匹配不一致如何决断？如果不能自动开具处方，那审核的依据是什么？\n\n4.     开具处方或者审核处方的时候是否会把自己仓储的药物提高优先级。\n\n5.     在疗效和经济性上的矛盾，会倾斜哪一方？\n\n6.     如果处方审核不通过会怎样？\n\n7.     是否大部分疾病都有和常见病、慢性病类似的处方模板？\n\n8.     是否需要区分处方药、非处方药、自费药、报销药？\n\n三、     计算机自我学习和完善类问题\n\n1.     是否有计算机自我学习处方和病历，不断完善的功能？\n\n2.     有多少种角度来调校处方模板（年龄、性别、病史、病症、严重程度、地域、既往服药经历和反应、体质、流行病状况、合并症、匹配治疗手段、成本、库存）？\n\n3.     学习的主要途径是通过统计分析病历和处方的出现频率，再匹配上述内容进行学习么？如果不是或者需要补充，是什么呢？\n\n4.     是否能够通过检验结果自动判断疾病的种类和严重程度\n\n四、     后台系统问题\n\n1.     当前后台主要的业务类型都有哪些？\n\n2.     处方审核在后台业务中占多大的比率？\n\n3.     每秒处理多少笔处方审核业务？每秒处理多少笔其他业务。\n临床路径，成熟的软件和参考的。已经很普及了。全国三甲以上的都在使用临床路径。北大医院还是北大人民医院。医务处处长讲课。他们找人开发的，根据需要定制的软件。\n有很多的书。\n通过辅助检查疑症\n规范医疗，必须检查，",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 922,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7ac7628b-2234-4f19-a7ef-e83f00aa99b1",
+    "note_id": "7e920e48-fad1-4041-8fcd-02f09990f56a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.969340Z",
+    "finished_at": "2025-11-09T20:05:16.969340Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1d08f908-46d9-49f0-9ae1-17090cc34727",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/关于ESI的问题.html",
+      "checksum": "29489b7b377c7e607bdae970e98b14edac2daa7f11c7a475628718a0370b5450"
+    },
+    "output_ref": {
+      "ingest_source": "2cd83887-e3bb-400d-827f-56f864dc8e0e",
+      "note": "7e920e48-fad1-4041-8fcd-02f09990f56a",
+      "variants": [
+        "c94cae75-5b8e-465b-848d-a3420366b38f",
+        "355a6060-3390-442d-9e35-878891baee95"
+      ]
+    },
+    "error_detail": null
+  }
+}

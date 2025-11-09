@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b63918c8-3239-419a-9b6a-243fa759554e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/网站推广.html",
+    "collected_at": "2025-11-09T20:01:38.022499Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c2c2d68fbc71080460a04d747f695aac0f127560c7f05d04ac3fee72a3393818",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "753ad281-d7a4-469b-9514-d3ebe475d2cb",
+    "ingest_source_id": "b63918c8-3239-419a-9b6a-243fa759554e",
+    "canonical_title": "网站推广",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.022503Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "网站推广.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "432070cb-dd4c-4506-9764-c9130633e4ce",
+      "note_id": "753ad281-d7a4-469b-9514-d3ebe475d2cb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.022506Z",
+      "content": "---\ntitle: 网站推广\nupdated: 2014-12-02 00:02:14Z\ncreated: 2014-12-02 00:02:06Z\n---\n\n\n\n<en-note>红包</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c2c2d68fbc71080460a04d747f695aac0f127560c7f05d04ac3fee72a3393818",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/网站推广.html"
+      }
+    },
+    {
+      "id": "14821c6c-b416-44e2-858b-07f81150f294",
+      "note_id": "753ad281-d7a4-469b-9514-d3ebe475d2cb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.022509Z",
+      "content": "---\ntitle: 网站推广\nupdated: 2014-12-02 00:02:14Z\ncreated: 2014-12-02 00:02:06Z\n---\n\n红包",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 83,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "25287edc-5aa5-4ab6-9632-1842fdde6e2f",
+    "note_id": "753ad281-d7a4-469b-9514-d3ebe475d2cb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.022514Z",
+    "finished_at": "2025-11-09T20:01:38.022514Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e4028478-1e3e-4c71-9d29-d97f556e6676",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/网站推广.html",
+      "checksum": "c2c2d68fbc71080460a04d747f695aac0f127560c7f05d04ac3fee72a3393818"
+    },
+    "output_ref": {
+      "ingest_source": "b63918c8-3239-419a-9b6a-243fa759554e",
+      "note": "753ad281-d7a4-469b-9514-d3ebe475d2cb",
+      "variants": [
+        "432070cb-dd4c-4506-9764-c9130633e4ce",
+        "14821c6c-b416-44e2-858b-07f81150f294"
+      ]
+    },
+    "error_detail": null
+  }
+}

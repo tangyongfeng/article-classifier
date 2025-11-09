@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "83aeb730-e925-48f2-bb14-cb29b7a264a9",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/邮箱用户密码.html",
+    "collected_at": "2025-11-09T20:01:36.380130Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ecd5cf7693cbdc09491825c51c25ee7e566696280a2cd2ea82228812178e80b5",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a23164c7-9d6b-4c3d-969a-370412f41488",
+    "ingest_source_id": "83aeb730-e925-48f2-bb14-cb29b7a264a9",
+    "canonical_title": "邮箱用户密码",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.380134Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "邮箱用户密码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ed1b48e3-b72d-4ffe-b0c6-b0a74770d9d3",
+      "note_id": "a23164c7-9d6b-4c3d-969a-370412f41488",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.380136Z",
+      "content": "---\ntitle: 邮箱用户密码\nupdated: 2019-12-23 08:58:59Z\ncreated: 2019-10-11 07:28:25Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>邮箱用户密码</div><div><br/></div><div>annistudio.de@outlook.com</div><div>32KSd4KbSVlNO1LQ</div><div><br/></div><div><br/></div><div>wordpress用户密码</div><div>webadmin</div><div>pmj9O#jFjepH7NuzT(</div><div><br/></div><div>mysql用户密码</div><div><br/></div><div>mysql&nbsp;</div><div>[client]&nbsp;</div><div>host &nbsp; &nbsp; = localhost&nbsp;</div><div>user &nbsp; &nbsp; = debian-sys-maint&nbsp;</div><div>password = 49e3CuM0Pd5z9cLh&nbsp;</div><div>socket &nbsp; = /var/run/mysqld/mysqld.sock&nbsp;</div><div>[mysql_upgrade]&nbsp;</div><div>host &nbsp; &nbsp; = localhost&nbsp;</div><div>user &nbsp; &nbsp; = debian-sys-maint&nbsp;</div><div>password = 49e3CuM0Pd5z9cLh&nbsp;</div><div>socket &nbsp; = /var/run/mysqld/mysqld.sock&nbsp;</div><div><br/></div><div><br/></div><div>AWS</div><div>\n<a HREF=\"mailto:ubuntu@ec2-18-144-53-77.us-west-1.compute.amazonaws.com\" STYLE=\"font-size: 11px; color: rgb(0, 0, 0); font-family: Menlo; font-stretch: normal; font-style: normal; font-variant-caps: normal; font-variant-ligatures: no-common-ligatures; font-weight: normal; line-height: normal;\">ubuntu@ec2-18-144-53-77.us-west-1.compute.amazonaws.com</a></div><div><br/></div><div><br/></div><div><a HREF=\"http://oge.bgchina.com\">oge.bgchina.com</a></div><div><br/></div><div>mysql root&nbsp;wGVxPpb7lcD3Ywvp</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ecd5cf7693cbdc09491825c51c25ee7e566696280a2cd2ea82228812178e80b5",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/邮箱用户密码.html"
+      }
+    },
+    {
+      "id": "3d418800-2996-41e2-8e8e-4b8278bcef1d",
+      "note_id": "a23164c7-9d6b-4c3d-969a-370412f41488",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.380139Z",
+      "content": "---\ntitle: 邮箱用户密码\nupdated: 2019-12-23 08:58:59Z\ncreated: 2019-10-11 07:28:25Z\nauthor: tangyongfeng@gmail.com\n---\n\n邮箱用户密码\nannistudio.de@outlook.com\n32KSd4KbSVlNO1LQ\nwordpress用户密码\nwebadmin\npmj9O#jFjepH7NuzT(\nmysql用户密码\nmysql \n[client] \nhost     = localhost \nuser     = debian-sys-maint \npassword = 49e3CuM0Pd5z9cLh \nsocket   = /var/run/mysqld/mysqld.sock \n[mysql_upgrade] \nhost     = localhost \nuser     = debian-sys-maint \npassword = 49e3CuM0Pd5z9cLh \nsocket   = /var/run/mysqld/mysqld.sock \nAWS\n\nubuntu@ec2-18-144-53-77.us-west-1.compute.amazonaws.com\noge.bgchina.com\nmysql root wGVxPpb7lcD3Ywvp",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 594,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "712bd4dd-03c8-46a6-9815-e77986c76fd8",
+    "note_id": "a23164c7-9d6b-4c3d-969a-370412f41488",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.380144Z",
+    "finished_at": "2025-11-09T20:01:36.380144Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "671c22da-87b2-40fc-b63e-e2db298802e0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/邮箱用户密码.html",
+      "checksum": "ecd5cf7693cbdc09491825c51c25ee7e566696280a2cd2ea82228812178e80b5"
+    },
+    "output_ref": {
+      "ingest_source": "83aeb730-e925-48f2-bb14-cb29b7a264a9",
+      "note": "a23164c7-9d6b-4c3d-969a-370412f41488",
+      "variants": [
+        "ed1b48e3-b72d-4ffe-b0c6-b0a74770d9d3",
+        "3d418800-2996-41e2-8e8e-4b8278bcef1d"
+      ]
+    },
+    "error_detail": null
+  }
+}

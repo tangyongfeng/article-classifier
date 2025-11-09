@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "eb02fe76-b2cf-452b-8e1c-fdfb81ba3f66",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/python 访问 mysql 驱动程序速度.html",
+    "collected_at": "2025-11-09T20:01:36.648353Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "77ace307a53faacd1736959916965ed74d4d2001a50eec362fa4dc84ef814a86",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b05e35b2-8d23-40f1-89af-043db6625f79",
+    "ingest_source_id": "eb02fe76-b2cf-452b-8e1c-fdfb81ba3f66",
+    "canonical_title": "python 访问 mysql 驱动程序速度",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.648357Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "python 访问 mysql 驱动程序速度.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6014c390-744b-48df-8d9c-718bfa49669d",
+      "note_id": "b05e35b2-8d23-40f1-89af-043db6625f79",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.648360Z",
+      "content": "---\ntitle: python 访问 mysql 驱动程序速度\nupdated: 2021-07-13 09:35:15Z\ncreated: 2021-07-13 09:33:01Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>MySQLdb &nbsp;最快</div><div>\n<span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">[Mac]~/work/HamsterDaten$ time python3 </span><a HREF=\"http://Wagen.py\" STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">Wagen.py</a><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\"> </span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n7 ({&apos;BALANCE&apos;: 4761435.707000001, &apos;HOLDING_VALUE&apos;: 4777265.608999999}, {})</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nreal</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0); white-space: pre;\">&Tab;</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">1m17.242s</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nuser</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0); white-space: pre;\">&Tab;</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">0m1.580s</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nsys</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0); white-space: pre;\">&Tab;</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">0m0.428s</span></div><div><br/></div><div><font STYLE=\"color: rgb(255, 38, 0); --inversion-type-color: simple;\">mysql 最慢</font></div><div><br/></div><div>\n<span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">[Mac]~/work/HamsterDaten$ time python3 </span><a HREF=\"http://Wagen.py\" STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">Wagen.py</a><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\"> </span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n7 ({&apos;BALANCE&apos;: 4761435.7069999995, &apos;HOLDING_VALUE&apos;: 4777265.608999999}, {})</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nreal</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0); white-space: pre;\">&Tab;</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">2m0.590s</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nuser</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0); white-space: pre;\">&Tab;</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">0m3.045s</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nsys</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0); white-space: pre;\">&Tab;</span><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">0m0.938s</span></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "77ace307a53faacd1736959916965ed74d4d2001a50eec362fa4dc84ef814a86",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/python 访问 mysql 驱动程序速度.html"
+      }
+    },
+    {
+      "id": "c6ad498d-0762-4f8f-b3c6-d4daa34f08e6",
+      "note_id": "b05e35b2-8d23-40f1-89af-043db6625f79",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.648363Z",
+      "content": "---\ntitle: python 访问 mysql 驱动程序速度\nupdated: 2021-07-13 09:35:15Z\ncreated: 2021-07-13 09:33:01Z\nauthor: tangyongfeng@gmail.com\n---\n\nMySQLdb  最快\n\n[Mac]~/work/HamsterDaten$ time python3\nWagen.py\n\n7 ({'BALANCE': 4761435.707000001, 'HOLDING_VALUE': 4777265.608999999}, {})\n\nreal\n\n1m17.242s\n\nuser\n\n0m1.580s\n\nsys\n\n0m0.428s\nmysql 最慢\n\n[Mac]~/work/HamsterDaten$ time python3\nWagen.py\n\n7 ({'BALANCE': 4761435.7069999995, 'HOLDING_VALUE': 4777265.608999999}, {})\n\nreal\n\n2m0.590s\n\nuser\n\n0m3.045s\n\nsys\n\n0m0.938s",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 496,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ddebd153-0482-4c19-81ae-a940c1230dcf",
+    "note_id": "b05e35b2-8d23-40f1-89af-043db6625f79",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.648369Z",
+    "finished_at": "2025-11-09T20:01:36.648369Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7b6c1383-2692-4376-b980-0f91d472a70a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/python 访问 mysql 驱动程序速度.html",
+      "checksum": "77ace307a53faacd1736959916965ed74d4d2001a50eec362fa4dc84ef814a86"
+    },
+    "output_ref": {
+      "ingest_source": "eb02fe76-b2cf-452b-8e1c-fdfb81ba3f66",
+      "note": "b05e35b2-8d23-40f1-89af-043db6625f79",
+      "variants": [
+        "6014c390-744b-48df-8d9c-718bfa49669d",
+        "c6ad498d-0762-4f8f-b3c6-d4daa34f08e6"
+      ]
+    },
+    "error_detail": null
+  }
+}

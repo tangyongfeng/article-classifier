@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "49c13781-9959-4e73-a089-5db252188dc7",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Linux使用tcpdump抓获取WIFI包 _ 迟思堂工作室.html",
+    "collected_at": "2025-11-09T20:05:13.233842Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f012be0cccdf48543ce50ce67d8d039e3c868f2029e4c9c57d7c29398d78f215",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "cdf6b272-514b-4e81-a96b-e4c7dbbcbbbf",
+    "ingest_source_id": "49c13781-9959-4e73-a089-5db252188dc7",
+    "canonical_title": "Linux使用tcpdump抓获取WIFI包 _ 迟思堂工作室",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.233845Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Linux使用tcpdump抓获取WIFI包 _ 迟思堂工作室.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "abac6e1e-15ec-49e5-b7ab-6ad061a97228",
+      "note_id": "cdf6b272-514b-4e81-a96b-e4c7dbbcbbbf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.233848Z",
+      "content": "---\ntitle: Linux使用tcpdump抓获取WIFI包 | 迟思堂工作室\nupdated: 2018-11-07 01:26:19Z\ncreated: 2018-11-07 01:26:19Z\nsource: http://www.latelee.org/using-gnu-linux/capture-wifi-packet-using-tcpdump.html\n---\n\n\n<en-note>\n  <div>\n<div STYLE=\"font-size: 16px; display: inline-block;  min-width: 100%;position: relative;\"><div STYLE=\"font-size:100%;text-size-adjust:100%;\"><div STYLE=\"font-size:100%;font:14px/160% &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, Arial, &quot;Lucida Grande&quot;, Tahoma, sans-serif;color:rgb(85, 85, 85);background:rgb(255, 255, 255);\"><div STYLE=\"font-size:100%;\"><div STYLE=\"font-size:100%;\"><div STYLE=\"font-size:100%;\"><div STYLE=\"font-size:100%;background:rgb(255, 255, 255);border-radius:2px;\"><div STYLE=\"font-size:100%;\">\n&Tab;<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\"><span STYLE=\"margin:0px;padding:0px 3px;border:0px;font-size:100%;float:right;color:rgb(139, 139, 139);cursor:pointer;\">A-</span><span STYLE=\"margin:0px;padding:0px 3px;border:0px;font-size:100%;float:right;color:rgb(139, 139, 139);cursor:pointer;\">A+</span></div>\n&Tab;<div STYLE=\"margin:10px 0px 5px;padding:0px;border:0px;font-size:100%;\">\n&Tab;&Tab;<h1 STYLE=\"margin:0px;padding:0px;border:0px;font-size:16px;\">Linux使用tcpdump抓获取WIFI包</h1>\n&Tab;&Tab;<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);\">\n&Tab;&Tab;&Tab;<span STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\"><i STYLE=\"margin:0px 3px 0px 0px;padding:0px;border:0px;font-size:12px;font-family:ality;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;color:rgb(186, 186, 186);\"><span STYLE=\"font-size:12px;font-family:ality;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;color:rgb(186, 186, 186);\"></span></i>2016-10-28 23:31</span>\n&Tab;&Tab;&Tab;<span STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\"><i STYLE=\"margin:0px 3px 0px 0px;padding:0px;border:0px;font-size:12px;font-family:ality;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;color:rgb(186, 186, 186);\"><span STYLE=\"font-size:12px;font-family:ality;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;color:rgb(186, 186, 186);\"></span></i><a HREF=\"http://www.latelee.org/category/using-gnu-linux\" REL=\"category tag\" STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);text-decoration:none;-webkit-tap-highlight-color:rgba(255, 0, 0, 0);\">GNU/Linux系统</a>, <a HREF=\"http://www.latelee.org/category/wireless\" REL=\"category tag\" STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);text-decoration:none;-webkit-tap-highlight-color:rgba(255, 0, 0, 0);\">无线WIFI</a>, <a HREF=\"http://www.latelee.org/category/net-study\" REL=\"category tag\" STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);text-decoration:none;-webkit-tap-highlight-color:rgba(255, 0, 0, 0);\">网络方面</a></span>\n&Tab;&Tab;&Tab;<span STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\"><i STYLE=\"margin:0px 3px 0px 0px;padding:0px;border:0px;font-size:12px;font-family:ality;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;color:rgb(186, 186, 186);\"><span STYLE=\"font-size:12px;font-family:ality;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;color:rgb(186, 186, 186);\"></span></i><a HREF=\"http://www.latelee.org/using-gnu-linux/capture-wifi-packet-using-tcpdump.html#respond\" STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);text-decoration:none;-webkit-tap-highlight-color:rgba(255, 0, 0, 0);\">暂无评论</a></span>\n&Tab;&Tab;&Tab;<span STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\"><i STYLE=\"margin:0px 3px 0px 0px;padding:0px;border:0px;font-size:12px;font-family:ality;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;color:rgb(186, 186, 186);\"><span STYLE=\"font-size:12px;font-family:ality;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;color:rgb(186, 186, 186);\"></span></i>阅读 3,186 次</span>&Tab;&Tab;&Tab;&Tab;&Tab;</div>\n&Tab;&Tab;\n&Tab;</div>\n&Tab;\n\n&Tab;&Tab;\n&Tab;&Tab;\n&Tab;<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">\n&Tab;&Tab;<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;line-height:1.6;\">\n&Tab;&Tab;&Tab;<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">Linux上常用的抓包工具有tcpdump，还有大名鼎鼎的wireshark(图形界面)。它们都可以抓无线网络WIFI包。本文介绍用两者如何在Linux系统中抓包，假设系统已经正确安装无线网卡驱动，并能识别到wlan0设备。<span STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\"></span></p>\n<h1 STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">一、802.11数据包</h1>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">802.11帧有三种，管理帧、控制帧，数据帧。当我们的手机扫瞄周边WIFI热点时，会发现probe请求，它是管理帧的一种。其中包含了手机的MAC地址。更多802.11帧格式，请自行搜索，本文不涉及。</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">在使用无线上网时，用wireshark抓包发现其格式与802.3是完全一样的，一度怀疑自己看错，因为明明是使用无线网络，应该是802.11格式的才对。经过研究跟踪内核源码，发现在内核ieee80211驱动会将数据包转换成802.3，然后才上传到网络协议栈，但是，当无线网卡为monitor模式时，不会做转换。有兴趣可参阅内核源码文件net/mac80211/rx.c的ieee80211_rx函数。这方面涉及太多知识，本文只略提一下&mdash;&mdash;其实主要是自己还没研究透，无法写出来。</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">因此，如果要抓的包有probe等类型时，必须将网卡设置为monitor模式。</p>\n<h1 STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">二、设置无线网卡工作模式</h1>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">设置无线网卡模式使用iwconfig命令，如下命令设置为monitor模式：</p>\n<pre STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;\">iwconfig wlan0 mode monitor</pre>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">也可以使用iw命令，下面是设置为managed模式(作为AP或STA时处于该模式)：</p>\n<pre STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;\"> iw wlan0 set type managed</pre>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">注意，在无线网卡已经启用的情况下，可能无法设置模式，就需要先禁止再设置，最后再启用，示例如下：</div>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">\n<pre STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;\"># iwconfig wlan0 mode monitor\nError for wireless request &quot;Set Mode&quot; (8B06) :\n    SET failed on device wlan0 ; Device or resource busy</pre>\n</div>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">-上述提示无法设置，设备正忙，所以要先禁止wlan0：</div>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">\n<pre STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;\"># ifconfig wlan0 down</pre>\n</div>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">再设置模式：</div>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">\n<pre STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;\"># iwconfig wlan0 mode monitor</pre>\n</div>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">使用iwconfig查看模式：</div>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">\n<pre STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;\"># iwconfig wlan0\nwlan0     IEEE 802.11abgn  Mode:Monitor  Tx-Power=20 dBm   \n          Retry short limit:7   RTS thr:off   Fragment thr:off\n          Power Management:on</pre>\n</div>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">看到Mode:Monitor表明已修改成功。然后再启用：</div>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">\n<pre STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;\"># ifconfig wlan0 up</pre>\n</div>\n</div>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">但是，一般地，不直接使用wlan0作为monitor模式，而是新建立一个别名：</p>\n<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">\n<pre STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;\"># iw wlan0 interface add mon0 type monitor  // 添加一个别名mon0，monitor模式\n# ifconfig mon0 up // 启用mon0，默认不启用</pre>\n</div>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">默认情况下，系统启动后，wlan0是managed模式，另建一个mon0作为抓包使用比较方便，不与原有网卡冲突，当使用wlan0抓包时，为802.3格式；而使用mon0则为802.11。</p>\n<h1 STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;\">三、抓包操作步骤示例</h1>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">使用tcpdump抓包命令：</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\"># tcpdump -i wlan0</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\"># tcpdump -i mon0</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">如果需要将抓的包用wireshark分析，可以使用-w foo.cap保存成文件，然后用wireshark打开查看。</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">另外，wireshark工具有Linux版本，在ubuntu输入：</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">sudo&nbsp;apt-get install wireshark</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">即可安装，其使用与Windows系统下无差异。在wireshark下使用wlan.fc.type_subtype == 0x04过滤得到probe包，就可以知道有哪些手机或电脑发现probe帧了，知道了MAC的OUI，自然知道手机厂商，就可以知道周边的人使用Apple多些还是Android多点。这或许是传说中的&ldquo;WIFI探宝&rdquo;，据说有些商场就使用类似的应用，定位客户，查看流量，等等。</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">注：本文仅是热身，下面将使用代码方式对无线网卡进行抓包。而802.11 netlink编码正在打算中。</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">李迟 2016.10.28 周五深夜</p>\n<p STYLE=\"margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;\">&nbsp;</p>\n&Tab;&Tab;</div>\n&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE=\"margin:0px;padding:0px;border:0px;font-size:100%;clear:both;\"></div>\n&Tab;</div>\n&Tab;\n</div></div></div></div></div></div></div></div>\n</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f012be0cccdf48543ce50ce67d8d039e3c868f2029e4c9c57d7c29398d78f215",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Linux使用tcpdump抓获取WIFI包 _ 迟思堂工作室.html"
+      }
+    },
+    {
+      "id": "7e6a8761-62ef-4472-ac93-f4b7122023f8",
+      "note_id": "cdf6b272-514b-4e81-a96b-e4c7dbbcbbbf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.233851Z",
+      "content": "---\ntitle: Linux使用tcpdump抓获取WIFI包 | 迟思堂工作室\nupdated: 2018-11-07 01:26:19Z\ncreated: 2018-11-07 01:26:19Z\nsource: http://www.latelee.org/using-gnu-linux/capture-wifi-packet-using-tcpdump.html\n---\n\nA-\nA+\n\nLinux使用tcpdump抓获取WIFI包\n\n\n2016-10-28 23:31\n\n\nGNU/Linux系统\n,\n无线WIFI\n,\n网络方面\n\n\n暂无评论\n\n\n阅读 3,186 次\n\nLinux上常用的抓包工具有tcpdump，还有大名鼎鼎的wireshark(图形界面)。它们都可以抓无线网络WIFI包。本文介绍用两者如何在Linux系统中抓包，假设系统已经正确安装无线网卡驱动，并能识别到wlan0设备。\n\n一、802.11数据包\n\n802.11帧有三种，管理帧、控制帧，数据帧。当我们的手机扫瞄周边WIFI热点时，会发现probe请求，它是管理帧的一种。其中包含了手机的MAC地址。更多802.11帧格式，请自行搜索，本文不涉及。\n\n在使用无线上网时，用wireshark抓包发现其格式与802.3是完全一样的，一度怀疑自己看错，因为明明是使用无线网络，应该是802.11格式的才对。经过研究跟踪内核源码，发现在内核ieee80211驱动会将数据包转换成802.3，然后才上传到网络协议栈，但是，当无线网卡为monitor模式时，不会做转换。有兴趣可参阅内核源码文件net/mac80211/rx.c的ieee80211_rx函数。这方面涉及太多知识，本文只略提一下——其实主要是自己还没研究透，无法写出来。\n\n因此，如果要抓的包有probe等类型时，必须将网卡设置为monitor模式。\n\n二、设置无线网卡工作模式\n\n设置无线网卡模式使用iwconfig命令，如下命令设置为monitor模式：\n\niwconfig wlan0 mode monitor\n\n也可以使用iw命令，下面是设置为managed模式(作为AP或STA时处于该模式)：\n\n iw wlan0 set type managed\n\n注意，在无线网卡已经启用的情况下，可能无法设置模式，就需要先禁止再设置，最后再启用，示例如下：\n\n# iwconfig wlan0 mode monitor\nError for wireless request \"Set Mode\" (8B06) :\n    SET failed on device wlan0 ; Device or resource busy\n\n-上述提示无法设置，设备正忙，所以要先禁止wlan0：\n\n# ifconfig wlan0 down\n\n再设置模式：\n\n# iwconfig wlan0 mode monitor\n\n使用iwconfig查看模式：\n\n# iwconfig wlan0\nwlan0     IEEE 802.11abgn  Mode:Monitor  Tx-Power=20 dBm  \n          Retry short limit:7   RTS thr:off   Fragment thr:off\n          Power Management:on\n\n看到Mode:Monitor表明已修改成功。然后再启用：\n\n# ifconfig wlan0 up\n\n但是，一般地，不直接使用wlan0作为monitor模式，而是新建立一个别名：\n\n# iw wlan0 interface add mon0 type monitor  // 添加一个别名mon0，monitor模式\n# ifconfig mon0 up // 启用mon0，默认不启用\n\n默认情况下，系统启动后，wlan0是managed模式，另建一个mon0作为抓包使用比较方便，不与原有网卡冲突，当使用wlan0抓包时，为802.3格式；而使用mon0则为802.11。\n\n三、抓包操作步骤示例\n\n使用tcpdump抓包命令：\n\n# tcpdump -i wlan0\n\n# tcpdump -i mon0\n\n如果需要将抓的包用wireshark分析，可以使用-w foo.cap保存成文件，然后用wireshark打开查看。\n\n另外，wireshark工具有Linux版本，在ubuntu输入：\n\nsudo apt-get install wireshark\n\n即可安装，其使用与Windows系统下无差异。在wireshark下使用wlan.fc.type_subtype == 0x04过滤得到probe包，就可以知道有哪些手机或电脑发现probe帧了，知道了MAC的OUI，自然知道手机厂商，就可以知道周边的人使用Apple多些还是Android多点。这或许是传说中的“WIFI探宝”，据说有些商场就使用类似的应用，定位客户，查看流量，等等。\n\n注：本文仅是热身，下面将使用代码方式对无线网卡进行抓包。而802.11 netlink编码正在打算中。\n\n李迟 2016.10.28 周五深夜",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 2173,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "faa708b1-903a-49c3-bace-144a61f0fcb1",
+    "note_id": "cdf6b272-514b-4e81-a96b-e4c7dbbcbbbf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.233856Z",
+    "finished_at": "2025-11-09T20:05:13.233856Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "875a91cd-7f59-4a68-ae27-77e53de484a2",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Linux使用tcpdump抓获取WIFI包 _ 迟思堂工作室.html",
+      "checksum": "f012be0cccdf48543ce50ce67d8d039e3c868f2029e4c9c57d7c29398d78f215"
+    },
+    "output_ref": {
+      "ingest_source": "49c13781-9959-4e73-a089-5db252188dc7",
+      "note": "cdf6b272-514b-4e81-a96b-e4c7dbbcbbbf",
+      "variants": [
+        "abac6e1e-15ec-49e5-b7ab-6ad061a97228",
+        "7e6a8761-62ef-4472-ac93-f4b7122023f8"
+      ]
+    },
+    "error_detail": null
+  }
+}

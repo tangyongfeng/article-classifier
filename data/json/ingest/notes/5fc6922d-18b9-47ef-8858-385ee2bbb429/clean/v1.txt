@@ -1,0 +1,46 @@
+---
+title: mysql 用户
+updated: 2018-12-23 02:36:04Z
+created: 2018-12-23 02:35:53Z
+author: tangyongfeng@gmail.com
+---
+
+create
+
+user
+
+zhangsan
+
+identified
+
+by
+
+'zhangsan'
+;
+
+grant
+
+all
+
+privileges
+
+on
+
+zhangsanDb.*
+
+to
+
+zhangsan@
+'%'
+
+identified
+
+by
+
+'zhangsan'
+;
+
+flush
+
+privileges
+;

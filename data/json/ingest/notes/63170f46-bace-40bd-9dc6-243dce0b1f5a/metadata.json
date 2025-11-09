@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f9af3f46-a469-4aec-bede-bf81f2ede72a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/印度药.html",
+    "collected_at": "2025-11-09T20:01:36.863102Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "818d1ea406367fa0e309e9e10248d84508cdd02e951afd1ab3ffa4fd1fd4d9f4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "63170f46-bace-40bd-9dc6-243dce0b1f5a",
+    "ingest_source_id": "f9af3f46-a469-4aec-bede-bf81f2ede72a",
+    "canonical_title": "印度药",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.863105Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "印度药.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "fb6ef276-f01a-4b7e-b29d-71e36c104833",
+      "note_id": "63170f46-bace-40bd-9dc6-243dce0b1f5a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.863108Z",
+      "content": "---\ntitle: 印度药\nupdated: 2018-05-21 15:09:29Z\ncreated: 2018-05-21 15:09:29Z\n---\n\n\n<en-note><div><img src=\"../_resources/Screenshot_20180521-230759.jpg\"  type=\"image/jpeg\" hash=\"9c8c6efcaca1ee300c13aa77a1048dd5\" alt=\"Screenshot_20180521-230759.jpg\" /></en-media></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "818d1ea406367fa0e309e9e10248d84508cdd02e951afd1ab3ffa4fd1fd4d9f4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/印度药.html"
+      }
+    },
+    {
+      "id": "071e6599-a51d-424b-8d2b-50cd47feba04",
+      "note_id": "63170f46-bace-40bd-9dc6-243dce0b1f5a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.863111Z",
+      "content": "---\ntitle: 印度药\nupdated: 2018-05-21 15:09:29Z\ncreated: 2018-05-21 15:09:29Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 78,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c9b25583-0f38-4957-a5c0-7f3235a8e1c7",
+    "note_id": "63170f46-bace-40bd-9dc6-243dce0b1f5a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.863115Z",
+    "finished_at": "2025-11-09T20:01:36.863116Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "eac24361-142b-4e2e-bd93-83dd279c23ce",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/印度药.html",
+      "checksum": "818d1ea406367fa0e309e9e10248d84508cdd02e951afd1ab3ffa4fd1fd4d9f4"
+    },
+    "output_ref": {
+      "ingest_source": "f9af3f46-a469-4aec-bede-bf81f2ede72a",
+      "note": "63170f46-bace-40bd-9dc6-243dce0b1f5a",
+      "variants": [
+        "fb6ef276-f01a-4b7e-b29d-71e36c104833",
+        "071e6599-a51d-424b-8d2b-50cd47feba04"
+      ]
+    },
+    "error_detail": null
+  }
+}

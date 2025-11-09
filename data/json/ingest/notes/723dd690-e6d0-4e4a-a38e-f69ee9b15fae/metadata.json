@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c012e467-8ed7-4b01-9801-f8f882a5ad6b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/沧州明珠.html",
+    "collected_at": "2025-11-09T20:05:18.644631Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "93ee45eafefc1b0eaea14ead19232bfc43fb1e54f2fa5f040373f9dc670cc901",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "723dd690-e6d0-4e4a-a38e-f69ee9b15fae",
+    "ingest_source_id": "c012e467-8ed7-4b01-9801-f8f882a5ad6b",
+    "canonical_title": "沧州明珠",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.644634Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "沧州明珠.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d56bff26-3356-4043-941a-a865a48f2400",
+      "note_id": "723dd690-e6d0-4e4a-a38e-f69ee9b15fae",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.644637Z",
+      "content": "---\ntitle: 沧州明珠\nupdated: 2013-09-17 01:22:59Z\ncreated: 2013-09-09 10:41:20Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n9/9 &nbsp; 还得再跌一段时间，现在已经有不少散户套牢在9-10块的高价位里了。\n<div>9/17 选择临近，向下概率大<br/>\n&nbsp;\n<div><br/></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "93ee45eafefc1b0eaea14ead19232bfc43fb1e54f2fa5f040373f9dc670cc901",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/沧州明珠.html"
+      }
+    },
+    {
+      "id": "ce099484-52f6-4429-b1c7-1024af7e58a5",
+      "note_id": "723dd690-e6d0-4e4a-a38e-f69ee9b15fae",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.644640Z",
+      "content": "---\ntitle: 沧州明珠\nupdated: 2013-09-17 01:22:59Z\ncreated: 2013-09-09 10:41:20Z\n---\n\n9/9   还得再跌一段时间，现在已经有不少散户套牢在9-10块的高价位里了。\n\n9/17 选择临近，向下概率大",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 137,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b1fa3070-58be-4b53-9aef-551c63e9d72c",
+    "note_id": "723dd690-e6d0-4e4a-a38e-f69ee9b15fae",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.644644Z",
+    "finished_at": "2025-11-09T20:05:18.644645Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "da5ba79c-4951-49f8-8e05-566b1e87a34f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/沧州明珠.html",
+      "checksum": "93ee45eafefc1b0eaea14ead19232bfc43fb1e54f2fa5f040373f9dc670cc901"
+    },
+    "output_ref": {
+      "ingest_source": "c012e467-8ed7-4b01-9801-f8f882a5ad6b",
+      "note": "723dd690-e6d0-4e4a-a38e-f69ee9b15fae",
+      "variants": [
+        "d56bff26-3356-4043-941a-a865a48f2400",
+        "ce099484-52f6-4429-b1c7-1024af7e58a5"
+      ]
+    },
+    "error_detail": null
+  }
+}

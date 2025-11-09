@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "ff29f837-0165-459d-8036-f74cead44778",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Führerschein – Figma.html",
+    "collected_at": "2025-11-09T20:05:13.146577Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "0d816a11e30d67493cfa41d3baec108bbe73d6df79b666386dea9ccfe27faa06",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "3994be16-6cce-41d3-a484-8e5263cc72fa",
+    "ingest_source_id": "ff29f837-0165-459d-8036-f74cead44778",
+    "canonical_title": "Führerschein – Figma",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:13.146581Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Führerschein – Figma.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "16e0a86a-ff3b-4f96-89a7-6faea53af9eb",
+      "note_id": "3994be16-6cce-41d3-a484-8e5263cc72fa",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.146583Z",
+      "content": "---\ntitle: Führerschein – Figma\nupdated: 2022-10-31 10:57:48Z\ncreated: 2022-10-31 10:57:19Z\n---\n\n\n<en-note><div><a HREF=\"https://www.figma.com/community/file/1168865589265387900\" REV=\"en_rl_none\">F&uuml;hrerschein &ndash; Figma</a></div><div><br/></div><div><a HREF=\"https://www.figma.com/community/file/1168865589265387900\" REV=\"en_rl_none\">F&uuml;hrerschein &ndash; Figma</a> <a HREF=\"https://www.figma.com/community/file/1168865589265387900\">https://www.figma.com/community/file/1168865589265387900</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0d816a11e30d67493cfa41d3baec108bbe73d6df79b666386dea9ccfe27faa06",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Führerschein – Figma.html"
+      }
+    },
+    {
+      "id": "524d7a78-607a-4ed0-b560-bfe089433b9f",
+      "note_id": "3994be16-6cce-41d3-a484-8e5263cc72fa",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.146586Z",
+      "content": "---\ntitle: Führerschein – Figma\nupdated: 2022-10-31 10:57:48Z\ncreated: 2022-10-31 10:57:19Z\n---\n\nFührerschein – Figma\n\nhttps://www.figma.com/community/file/1168865589265387900",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 175,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "adb63f99-0ade-4466-8e43-f33963c07776",
+    "note_id": "3994be16-6cce-41d3-a484-8e5263cc72fa",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.146591Z",
+    "finished_at": "2025-11-09T20:05:13.146591Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a5dafcc6-cd0e-4159-be15-4215359fc7b2",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Führerschein – Figma.html",
+      "checksum": "0d816a11e30d67493cfa41d3baec108bbe73d6df79b666386dea9ccfe27faa06"
+    },
+    "output_ref": {
+      "ingest_source": "ff29f837-0165-459d-8036-f74cead44778",
+      "note": "3994be16-6cce-41d3-a484-8e5263cc72fa",
+      "variants": [
+        "16e0a86a-ff3b-4f96-89a7-6faea53af9eb",
+        "524d7a78-607a-4ed0-b560-bfe089433b9f"
+      ]
+    },
+    "error_detail": null
+  }
+}

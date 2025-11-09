@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0cc13a95-b20b-4c9a-99cd-7d302f8aa6ae",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/强化学习.html",
+    "collected_at": "2025-11-09T20:01:35.775536Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f2560e66b43d9eafa38be26ed85fba3e62b76acf29ec845a8ecac757e3dd7efd",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ce60b9f7-cb2a-44b0-b37e-5275b2ab404d",
+    "ingest_source_id": "0cc13a95-b20b-4c9a-99cd-7d302f8aa6ae",
+    "canonical_title": "强化学习",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:35.775541Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "强化学习.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "68e97b3d-bc31-43ff-8b81-76171a81fadc",
+      "note_id": "ce60b9f7-cb2a-44b0-b37e-5275b2ab404d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.775544Z",
+      "content": "---\ntitle: 强化学习\nupdated: 2017-12-20 06:06:59Z\ncreated: 2017-12-20 05:55:36Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - ai\n  - 机器学习\n---\n\n\n<en-note><div>强化学习是机器学习中的一个领域，强调如何基于环境而行动，以取得最大化的预期利益。其灵感来源于心理学中的行为主义理论，即有机体如何在环境给予的奖励或者惩罚的刺激下，逐步形成对刺激的预期，产生能获得最大利益的习惯性行为。这个方法具有普适性，因此在其他许多领域都有研究，例如：博弈论、控制论、运筹学、信息论、仿真优化、多主体系统学习、群体智能、统计学以及遗传算法。在运筹学和控制理论研究的语境下，强化学习被称为&ldquo;近似动态规划&rdquo;（approximate dynamic programming,ADP)。在最优控制理论中，也有研究这个问题，虽然大部分的研究是关于最优解的存在和特性，并非是学习或者近似方面。在经济学和博弈论中，强化学习被用来解释在有限理性的条件下如何出现平衡。</div><div>在机器学习问题中，环境通常被规范为马可夫决策过程（mdp），所以许多强化学习算法在这种情况下使用动态规划技巧。传统的技术和强化学习算法的主要区别是，后者不需要关于mdp的只是，而且针对无法找到确切方法的大规模mdp。</div><div>强化学习和标准的监督式学习之间的区别在于，它并不雪瑶正确的输入、输出 对，也不需要精准矫正次优化的行为。强化学习更加专注在于在线规划，需要在探索（在未知的领域）和遵从（现有知识）之间找到平衡。强化学习中的&ldquo;探索-遵从&rdquo;的交换，在多臂老虎机问题和有限mdp中研究的最多。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f2560e66b43d9eafa38be26ed85fba3e62b76acf29ec845a8ecac757e3dd7efd",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/强化学习.html"
+      }
+    },
+    {
+      "id": "798f4b2a-39cb-404b-b2b0-754f686cf0f4",
+      "note_id": "ce60b9f7-cb2a-44b0-b37e-5275b2ab404d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.775547Z",
+      "content": "---\ntitle: 强化学习\nupdated: 2017-12-20 06:06:59Z\ncreated: 2017-12-20 05:55:36Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - ai\n  - 机器学习\n---\n\n强化学习是机器学习中的一个领域，强调如何基于环境而行动，以取得最大化的预期利益。其灵感来源于心理学中的行为主义理论，即有机体如何在环境给予的奖励或者惩罚的刺激下，逐步形成对刺激的预期，产生能获得最大利益的习惯性行为。这个方法具有普适性，因此在其他许多领域都有研究，例如：博弈论、控制论、运筹学、信息论、仿真优化、多主体系统学习、群体智能、统计学以及遗传算法。在运筹学和控制理论研究的语境下，强化学习被称为“近似动态规划”（approximate dynamic programming,ADP)。在最优控制理论中，也有研究这个问题，虽然大部分的研究是关于最优解的存在和特性，并非是学习或者近似方面。在经济学和博弈论中，强化学习被用来解释在有限理性的条件下如何出现平衡。\n在机器学习问题中，环境通常被规范为马可夫决策过程（mdp），所以许多强化学习算法在这种情况下使用动态规划技巧。传统的技术和强化学习算法的主要区别是，后者不需要关于mdp的只是，而且针对无法找到确切方法的大规模mdp。\n强化学习和标准的监督式学习之间的区别在于，它并不雪瑶正确的输入、输出 对，也不需要精准矫正次优化的行为。强化学习更加专注在于在线规划，需要在探索（在未知的领域）和遵从（现有知识）之间找到平衡。强化学习中的“探索-遵从”的交换，在多臂老虎机问题和有限mdp中研究的最多。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 712,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "669772a2-f677-404d-a3e5-bc36c2f5d79c",
+    "note_id": "ce60b9f7-cb2a-44b0-b37e-5275b2ab404d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.775554Z",
+    "finished_at": "2025-11-09T20:01:35.775554Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7c2b733c-e4a5-4dd2-bd57-ef8601c4efa0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/强化学习.html",
+      "checksum": "f2560e66b43d9eafa38be26ed85fba3e62b76acf29ec845a8ecac757e3dd7efd"
+    },
+    "output_ref": {
+      "ingest_source": "0cc13a95-b20b-4c9a-99cd-7d302f8aa6ae",
+      "note": "ce60b9f7-cb2a-44b0-b37e-5275b2ab404d",
+      "variants": [
+        "68e97b3d-bc31-43ff-8b81-76171a81fadc",
+        "798f4b2a-39cb-404b-b2b0-754f686cf0f4"
+      ]
+    },
+    "error_detail": null
+  }
+}

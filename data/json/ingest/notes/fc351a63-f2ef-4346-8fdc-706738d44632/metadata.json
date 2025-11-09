@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "01cdae6f-4626-4639-8fbb-92c56a7bfa92",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/open mp4 video without opencv.html",
+    "collected_at": "2025-11-09T20:05:14.126420Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "225c2a18fccd52a57a60d50d733521eeb1ca2f59ba5c10ebd51ae8dacfd13673",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "fc351a63-f2ef-4346-8fdc-706738d44632",
+    "ingest_source_id": "01cdae6f-4626-4639-8fbb-92c56a7bfa92",
+    "canonical_title": "open mp4 video without opencv",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:14.126425Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "open mp4 video without opencv.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "072101d7-e81e-4c11-8504-1d833c9150f7",
+      "note_id": "fc351a63-f2ef-4346-8fdc-706738d44632",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.126429Z",
+      "content": "---\ntitle: open mp4 video without opencv\nupdated: 2017-11-24 10:41:01Z\ncreated: 2017-11-24 10:34:30Z\nauthor: tangyongfeng\ntags:\n  - python\n---\n\n\n<en-note><div><code>import&nbsp;os<br/>import&nbsp;sys<br/>import&nbsp;Tkinter&nbsp;as&nbsp;tkinter<br/><br/>import&nbsp;gobject<br/>import&nbsp;gst<br/><br/>def&nbsp;on_sync_message(bus,&nbsp;message,&nbsp;window_id):<br/>&nbsp; &nbsp; &nbsp; &nbsp; if&nbsp;not&nbsp;message.structure&nbsp;is&nbsp;None:<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if&nbsp;message.structure.get_name()&nbsp;==&nbsp;&apos;prepare-xwindow-id&apos;:<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; image_sink&nbsp;=&nbsp;message.src<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; image_sink.set_property(&apos;force-aspect-ratio&apos;,&nbsp;True)<br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; image_sink.set_xwindow_id(window_id)<br/><br/>gobject.threads_init()<br/><br/>window&nbsp;=&nbsp;tkinter.Tk()<br/>window.geometry(&apos;500x400&apos;)<br/><br/>video&nbsp;=&nbsp;tkinter.Frame(window,&nbsp;bg=&apos;#000000&apos;)<br/>video.pack(side=tkinter.BOTTOM,anchor=tkinter.S,expand=tkinter.YES,fill=tkinter.BOTH)<br/><br/>window_id&nbsp;=&nbsp;video.winfo_id()<br/><br/>player&nbsp;=&nbsp;gst.element_factory_make(&apos;playbin2&apos;,&nbsp;&apos;player&apos;)<br/>player.set_property(&apos;video-sink&apos;,&nbsp;None)<br/>player.set_property(&apos;uri&apos;,&nbsp;&apos;file://%s&apos;&nbsp;%&nbsp;(os.path.abspath(sys.argv[1])))<br/>player.set_state(gst.STATE_PLAYING)<br/><br/>bus&nbsp;=&nbsp;player.get_bus()<br/>bus.add_signal_watch()<br/>bus.enable_sync_message_emission()<br/>bus.connect(&apos;sync-message::element&apos;,&nbsp;on_sync_message,&nbsp;window_id)<br/><br/></code></div><div>window.mainloop()</div><div><br/></div><div><br/></div><div><br/></div><div>and&nbsp;</div><div><a HREF=\"http://zulko.github.io/blog/2013/09/27/read-and-write-video-frames-in-python-using-ffmpeg/\">http://zulko.github.io/blog/2013/09/27/read-and-write-video-frames-in-python-using-ffmpeg/</a></div><div><br/></div><div>and</div><div><a HREF=\"http://scikit-image.org/docs/dev/user_guide/video.html\">http://scikit-image.org/docs/dev/user_guide/video.html</a></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "225c2a18fccd52a57a60d50d733521eeb1ca2f59ba5c10ebd51ae8dacfd13673",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/open mp4 video without opencv.html"
+      }
+    },
+    {
+      "id": "7825ab15-635a-4231-ab42-a5d4c294f5ba",
+      "note_id": "fc351a63-f2ef-4346-8fdc-706738d44632",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.126432Z",
+      "content": "---\ntitle: open mp4 video without opencv\nupdated: 2017-11-24 10:41:01Z\ncreated: 2017-11-24 10:34:30Z\nauthor: tangyongfeng\ntags:\n  - python\n---\n\nimport os\nimport sys\nimport Tkinter as tkinter\nimport gobject\nimport gst\ndef on_sync_message(bus, message, window_id):\n        if not message.structure is None:\n            if message.structure.get_name() == 'prepare-xwindow-id':\n                image_sink = message.src\n                image_sink.set_property('force-aspect-ratio', True)\n                image_sink.set_xwindow_id(window_id)\ngobject.threads_init()\nwindow = tkinter.Tk()\nwindow.geometry('500x400')\nvideo = tkinter.Frame(window, bg='#000000')\nvideo.pack(side=tkinter.BOTTOM,anchor=tkinter.S,expand=tkinter.YES,fill=tkinter.BOTH)\nwindow_id = video.winfo_id()\nplayer = gst.element_factory_make('playbin2', 'player')\nplayer.set_property('video-sink', None)\nplayer.set_property('uri', 'file://%s' % (os.path.abspath(sys.argv[1])))\nplayer.set_state(gst.STATE_PLAYING)\nbus = player.get_bus()\nbus.add_signal_watch()\nbus.enable_sync_message_emission()\nbus.connect('sync-message::element', on_sync_message, window_id)\nwindow.mainloop()\nand \nhttp://zulko.github.io/blog/2013/09/27/read-and-write-video-frames-in-python-using-ffmpeg/\nand\nhttp://scikit-image.org/docs/dev/user_guide/video.html",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1290,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c06fcccd-af93-4ffc-bf6d-eb95272bb211",
+    "note_id": "fc351a63-f2ef-4346-8fdc-706738d44632",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.126438Z",
+    "finished_at": "2025-11-09T20:05:14.126438Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2623b2f5-53ba-4cd5-8996-7c4c712f2e89",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/open mp4 video without opencv.html",
+      "checksum": "225c2a18fccd52a57a60d50d733521eeb1ca2f59ba5c10ebd51ae8dacfd13673"
+    },
+    "output_ref": {
+      "ingest_source": "01cdae6f-4626-4639-8fbb-92c56a7bfa92",
+      "note": "fc351a63-f2ef-4346-8fdc-706738d44632",
+      "variants": [
+        "072101d7-e81e-4c11-8504-1d833c9150f7",
+        "7825ab15-635a-4231-ab42-a5d4c294f5ba"
+      ]
+    },
+    "error_detail": null
+  }
+}

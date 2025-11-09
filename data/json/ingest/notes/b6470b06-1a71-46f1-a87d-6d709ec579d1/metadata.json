@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "6bd5bcf9-cc2c-4899-a50e-96e27442e6bf",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/利用爬虫技术能做到哪些很酷很有趣很有用的事情？.html",
+    "collected_at": "2025-11-09T20:01:35.422528Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "447d390c556476b2de5905e2617ac2e7d854a594bfc6e7f8253de9353322f615",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b6470b06-1a71-46f1-a87d-6d709ec579d1",
+    "ingest_source_id": "6bd5bcf9-cc2c-4899-a50e-96e27442e6bf",
+    "canonical_title": "利用爬虫技术能做到哪些很酷很有趣很有用的事情？",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.422533Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "利用爬虫技术能做到哪些很酷很有趣很有用的事情？.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d148a65f-bddc-4d97-832b-3f4e617a003d",
+      "note_id": "b6470b06-1a71-46f1-a87d-6d709ec579d1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.422537Z",
+      "content": "---\ntitle: 利用爬虫技术能做到哪些很酷很有趣很有用的事情？\nupdated: 2017-02-22 15:52:59Z\ncreated: 2017-02-22 15:52:59Z\ntags:\n  - 知乎收藏\n---\n\n\n\n<en-note><p>爬图片，你懂的=。=，比如这个网站：<a HREF=\"http://link.zhihu.com/?target=http%3A//mm36d.com\"><span>http://</span><span>mm36d.com</span><span></span><i></i></a></p><p>环境：</p><p>Python 2.7，request、BeautifulSoup三方库</p><p>见代码：</p><div><blockquote><code># -*- coding: utf8 -*-\n\nimport requests\nfrom bs4 import BeautifulSoup\nimport os\n\n\ndef main():\n    result_root_path = &apos;mm36d所有图片/&apos;  # 图片保存目录\n    request_root_url = &apos;http://mm36d.com/belle/1/1/&apos;  # 根URL\n    request_param_1 = 0  # 参数1\n    total_image_count = 0  # 图片递增总数\n\n    # 创建文件夹\n    if not os.path.exists(result_root_path):\n        os.makedirs(result_root_path)\n\n    while True:\n        request_param_1 += 1  # 参数1加1\n        request_param_2 = 0  # 参数2\n\n        # 请求头\n        headers = {\n            &apos;User-Agent&apos;: &apos;Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1) Gecko/20090624 Firefox/3.5 &apos;,\n            &apos;Accept&apos;: &apos;text/plain&apos;,\n            &apos;Connection&apos;: &apos;close&apos;\n        }\n\n        while True:\n            request_param_2 += 1  # 参数2加1\n            request_url = request_root_url + str(request_param_1) + &apos;/&apos; + str(request_param_2)  # 拼接URL\n\n            print(&apos;Page: &apos; + request_url)\n\n            requests.session().keep_alive = False\n\n            try:\n                # 获取页面内容\n                response = requests.get(request_url, headers=headers, allow_redirects=False)\n\n                # 请求成功\n                if response.status_code == 200:\n                    soup = BeautifulSoup(response.text, &apos;html.parser&apos;)  # BeautifulSoup解析\n                    response.close()  # 关闭请求\n                    image_url = soup.find(&apos;img&apos;, {&apos;class&apos;: &apos;lazy&apos;})[&apos;data-original&apos;]  # 提取图片URL\n\n                    response = requests.get(image_url)  # 下载图片\n                    image_file = open(result_root_path + str(total_image_count) + &apos;.jpg&apos;, &apos;wb&apos;)  # 创建图片文件\n                    image_file.write(response.content)  # 写图片\n                    image_file.close()  # 关闭文件\n                    response.close()  # 关闭请求\n\n                    total_image_count += 1  # 计数增加\n                    print(image_url + &apos; done. Current: &apos; + str(total_image_count))\n                else:\n                    print(&apos;Next page&apos;)\n                    break\n            except Exception as e:\n                print(&apos;Error: &apos; + e.__doc__)\n\n\nif __name__ == &apos;__main__&apos;:\n    main()\n</code></blockquote></div><p>更多详情: <a HREF=\"http://www.zhihu.com/question/27621722/answer/146022005\">http://www.zhihu.com/question/27621722/answer/146022005</a></p></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "447d390c556476b2de5905e2617ac2e7d854a594bfc6e7f8253de9353322f615",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/利用爬虫技术能做到哪些很酷很有趣很有用的事情？.html"
+      }
+    },
+    {
+      "id": "85179224-33d1-4404-9245-4784f0e4817c",
+      "note_id": "b6470b06-1a71-46f1-a87d-6d709ec579d1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.422540Z",
+      "content": "---\ntitle: 利用爬虫技术能做到哪些很酷很有趣很有用的事情？\nupdated: 2017-02-22 15:52:59Z\ncreated: 2017-02-22 15:52:59Z\ntags:\n  - 知乎收藏\n---\n\n爬图片，你懂的=。=，比如这个网站：\nhttp://\nmm36d.com\n环境：\nPython 2.7，request、BeautifulSoup三方库\n见代码：\n# -*- coding: utf8 -*-\n\nimport requests\nfrom bs4 import BeautifulSoup\nimport os\n\ndef main():\n    result_root_path = 'mm36d所有图片/'  # 图片保存目录\n    request_root_url = 'http://mm36d.com/belle/1/1/'  # 根URL\n    request_param_1 = 0  # 参数1\n    total_image_count = 0  # 图片递增总数\n\n    # 创建文件夹\n    if not os.path.exists(result_root_path):\n        os.makedirs(result_root_path)\n\n    while True:\n        request_param_1 += 1  # 参数1加1\n        request_param_2 = 0  # 参数2\n\n        # 请求头\n        headers = {\n            'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.1) Gecko/20090624 Firefox/3.5 ',\n            'Accept': 'text/plain',\n            'Connection': 'close'\n        }\n\n        while True:\n            request_param_2 += 1  # 参数2加1\n            request_url = request_root_url + str(request_param_1) + '/' + str(request_param_2)  # 拼接URL\n\n            print('Page: ' + request_url)\n\n            requests.session().keep_alive = False\n\n            try:\n                # 获取页面内容\n                response = requests.get(request_url, headers=headers, allow_redirects=False)\n\n                # 请求成功\n                if response.status_code == 200:\n                    soup = BeautifulSoup(response.text, 'html.parser')  # BeautifulSoup解析\n                    response.close()  # 关闭请求\n                    image_url = soup.find('img', {'class': 'lazy'})['data-original']  # 提取图片URL\n\n                    response = requests.get(image_url)  # 下载图片\n                    image_file = open(result_root_path + str(total_image_count) + '.jpg', 'wb')  # 创建图片文件\n                    image_file.write(response.content)  # 写图片\n                    image_file.close()  # 关闭文件\n                    response.close()  # 关闭请求\n\n                    total_image_count += 1  # 计数增加\n                    print(image_url + ' done. Current: ' + str(total_image_count))\n                else:\n                    print('Next page')\n                    break\n            except Exception as e:\n                print('Error: ' + e.__doc__)\n\nif __name__ == '__main__':\n    main()\n\n更多详情:\nhttp://www.zhihu.com/question/27621722/answer/146022005",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 2307,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7f5abd73-fdd8-4827-b148-39581d680e5d",
+    "note_id": "b6470b06-1a71-46f1-a87d-6d709ec579d1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.422545Z",
+    "finished_at": "2025-11-09T20:01:35.422546Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1742cf27-9d80-4625-ac86-82e016dd1887",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/利用爬虫技术能做到哪些很酷很有趣很有用的事情？.html",
+      "checksum": "447d390c556476b2de5905e2617ac2e7d854a594bfc6e7f8253de9353322f615"
+    },
+    "output_ref": {
+      "ingest_source": "6bd5bcf9-cc2c-4899-a50e-96e27442e6bf",
+      "note": "b6470b06-1a71-46f1-a87d-6d709ec579d1",
+      "variants": [
+        "d148a65f-bddc-4d97-832b-3f4e617a003d",
+        "85179224-33d1-4404-9245-4784f0e4817c"
+      ]
+    },
+    "error_detail": null
+  }
+}

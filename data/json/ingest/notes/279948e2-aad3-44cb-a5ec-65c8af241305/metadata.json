@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4457432b-9dd2-4db9-9efc-ed13f185b0d1",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/小米的财务.html",
+    "collected_at": "2025-11-09T20:01:37.032283Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "28c239471b75f6261d0b467fe9bee95028bcb7f649d62f73b1142c90dbe9bfd1",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "279948e2-aad3-44cb-a5ec-65c8af241305",
+    "ingest_source_id": "4457432b-9dd2-4db9-9efc-ed13f185b0d1",
+    "canonical_title": "小米的财务",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:37.032287Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "小米的财务.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8d7711d3-e36d-403e-908a-bfd34ebdf5a8",
+      "note_id": "279948e2-aad3-44cb-a5ec-65c8af241305",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.032290Z",
+      "content": "---\ntitle: 小米的财务\nupdated: 2014-12-16 19:05:35Z\ncreated: 2014-12-16 19:05:17Z\n---\n\n\n\n<en-note>\n&Tab;<div STYLE=\"padding: 0px 10px 6px; font-size: 17px; background-color: white; color: rgb(51, 51, 51); font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; -webkit-text-size-adjust: none;\">\n&Tab;&Tab;\n&Tab;&Tab;<h3 STYLE=\"padding: 4px 0px; margin: 0px; font-size: 17px;\">小米的财务状况极端危险</h3>\n&Tab;&Tab;\n&Tab;&Tab;<div>美的集团公告中还披露了小米科技2013年度的部分财务情况。数据显示，小米科技去年营业收入为265.8亿元，营业利润为4.8577亿元，净利润为3.4747亿元。<br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/>___________________________<br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/>刚看到这个数字我还是很震惊，营业利润不到2%，净利润不到1.5%，这是一个极端危险的数字，危险到，随时都要倒闭。<br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/><br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/>当年黄宏生没有出事的时候，我曾经参加过一次创维的高层论坛，黄宏生说了一句话我一直记忆犹新，那就是制造业，纯利润不能低于5%，为什么5%这个红线呢，因为低于5%，这个企业就会出问题，制造业从生到死可能只有3个月，一个100亿销售额的企业，至少要备货10亿，这还是周转快的，很多企业备货超过30亿，那么如果你只有5%的纯利，你每年只有5亿的新增现金，相当于你在用6倍的杠杆在做这个企业，只要一个产品不那么畅销，你的资金就转不动了，你的资金稍微慢一点，供应商就开始催款了，而你的经销商一旦看到问题，你的货可能就开始串了，员工该收的款也不收了，问题往往3个月之内就可能导致一个企业死亡。当时的背景是长虹降价，垄断显像管。当时长虹的纯利润降低到约3%。结果长虹怎么样，就不多说了，好在它有国企的背景。<br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/><br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/>制造业是一个非常原始的行业，有自己的规律，一个品牌商，上游可能是经销商，或者是直接客户，或者是行业渠道商等等，下游是加工厂，原材料供应商等等。小米这样的企业，下游的比如纸盒，塑料件等供应商议价能力不强，一般可以压款1-3个月，但芯片这些不光是不能压款，甚至是预定。因此小米如果有1000万的销售额，原材料备货绝对不能低于100亿（10%已经是很低），否则就转不起来，而如果小米只有不到1.5%的纯利，那么小米这样的企业，相当于是在玩一个7倍的杠杆。用这么高的杠杆在玩一个现金要求极高的行业，要知道，小米还没有代理商，它没有代理商帮助他承担压款，它的杠杆可能更高。<br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/><br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/>一个有7倍杠杆的制造企业，你千万不要犯一丁点错误，甚至你都无法小批量测试新品，你无法投入资金再次研发，你甚至要控制每一个批次可能出现的任何一丁点错误。但很遗憾的是，你品质控制的好，你的质量成本也是增加。<br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/><br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/>这是一个死局，好在当前只有200多亿的销售额，一旦小米销售额到1000亿，我奉劝所有的供应商都要减少账款时间，代工厂一定要一单一单结款，否则，这笔钱你真可能要不回来。<br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/><br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/>企业不可能不犯错，可如果连犯错的缓冲都没有的话，那这个企业麻烦就大了。<br STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); line-height: 4px;\"/></div>\n&Tab;\n&Tab;</div><br/>\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "28c239471b75f6261d0b467fe9bee95028bcb7f649d62f73b1142c90dbe9bfd1",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/小米的财务.html"
+      }
+    },
+    {
+      "id": "80385439-d7fa-4016-8a15-61e6e694cafa",
+      "note_id": "279948e2-aad3-44cb-a5ec-65c8af241305",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.032292Z",
+      "content": "---\ntitle: 小米的财务\nupdated: 2014-12-16 19:05:35Z\ncreated: 2014-12-16 19:05:17Z\n---\n\n小米的财务状况极端危险\n\n美的集团公告中还披露了小米科技2013年度的部分财务情况。数据显示，小米科技去年营业收入为265.8亿元，营业利润为4.8577亿元，净利润为3.4747亿元。\n___________________________\n刚看到这个数字我还是很震惊，营业利润不到2%，净利润不到1.5%，这是一个极端危险的数字，危险到，随时都要倒闭。\n当年黄宏生没有出事的时候，我曾经参加过一次创维的高层论坛，黄宏生说了一句话我一直记忆犹新，那就是制造业，纯利润不能低于5%，为什么5%这个红线呢，因为低于5%，这个企业就会出问题，制造业从生到死可能只有3个月，一个100亿销售额的企业，至少要备货10亿，这还是周转快的，很多企业备货超过30亿，那么如果你只有5%的纯利，你每年只有5亿的新增现金，相当于你在用6倍的杠杆在做这个企业，只要一个产品不那么畅销，你的资金就转不动了，你的资金稍微慢一点，供应商就开始催款了，而你的经销商一旦看到问题，你的货可能就开始串了，员工该收的款也不收了，问题往往3个月之内就可能导致一个企业死亡。当时的背景是长虹降价，垄断显像管。当时长虹的纯利润降低到约3%。结果长虹怎么样，就不多说了，好在它有国企的背景。\n制造业是一个非常原始的行业，有自己的规律，一个品牌商，上游可能是经销商，或者是直接客户，或者是行业渠道商等等，下游是加工厂，原材料供应商等等。小米这样的企业，下游的比如纸盒，塑料件等供应商议价能力不强，一般可以压款1-3个月，但芯片这些不光是不能压款，甚至是预定。因此小米如果有1000万的销售额，原材料备货绝对不能低于100亿（10%已经是很低），否则就转不起来，而如果小米只有不到1.5%的纯利，那么小米这样的企业，相当于是在玩一个7倍的杠杆。用这么高的杠杆在玩一个现金要求极高的行业，要知道，小米还没有代理商，它没有代理商帮助他承担压款，它的杠杆可能更高。\n一个有7倍杠杆的制造企业，你千万不要犯一丁点错误，甚至你都无法小批量测试新品，你无法投入资金再次研发，你甚至要控制每一个批次可能出现的任何一丁点错误。但很遗憾的是，你品质控制的好，你的质量成本也是增加。\n这是一个死局，好在当前只有200多亿的销售额，一旦小米销售额到1000亿，我奉劝所有的供应商都要减少账款时间，代工厂一定要一单一单结款，否则，这笔钱你真可能要不回来。\n企业不可能不犯错，可如果连犯错的缓冲都没有的话，那这个企业麻烦就大了。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 1110,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "90b54032-faad-4360-9cbb-2cf6bba742fa",
+    "note_id": "279948e2-aad3-44cb-a5ec-65c8af241305",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.032297Z",
+    "finished_at": "2025-11-09T20:01:37.032297Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "aed2d9c9-643b-493f-9e42-a7f1acc7722d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/小米的财务.html",
+      "checksum": "28c239471b75f6261d0b467fe9bee95028bcb7f649d62f73b1142c90dbe9bfd1"
+    },
+    "output_ref": {
+      "ingest_source": "4457432b-9dd2-4db9-9efc-ed13f185b0d1",
+      "note": "279948e2-aad3-44cb-a5ec-65c8af241305",
+      "variants": [
+        "8d7711d3-e36d-403e-908a-bfd34ebdf5a8",
+        "80385439-d7fa-4016-8a15-61e6e694cafa"
+      ]
+    },
+    "error_detail": null
+  }
+}

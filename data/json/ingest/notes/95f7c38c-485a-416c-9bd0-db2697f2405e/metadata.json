@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "f37c26a3-0ce6-4a8a-bcf9-3d7eb3c0d98d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/aws日志.html",
+    "collected_at": "2025-11-09T20:01:34.614878Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c5902f6d00af3c2324a77a05bc53cdaedc95256d862a02f973a4262e8f69efc4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "95f7c38c-485a-416c-9bd0-db2697f2405e",
+    "ingest_source_id": "f37c26a3-0ce6-4a8a-bcf9-3d7eb3c0d98d",
+    "canonical_title": "aws日志",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.614882Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "aws日志.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bf39f453-7279-4bc4-8cae-b1544dfaf2fe",
+      "note_id": "95f7c38c-485a-416c-9bd0-db2697f2405e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.614884Z",
+      "content": "---\ntitle: aws日志\nupdated: 2020-10-18 11:36:25Z\ncreated: 2019-08-23 14:25:07Z\n---\n\n\n<en-note><div>2019年8月23日 注销bgchina@hotmail.com</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 开通yongfeng.tang@qq.com</div><div><br/></div><div><br/></div><div>2020年10月18日</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 注销 <a HREF=\"mailto:yongfeng.tang@qq.com\">yongfeng.tang@qq.com</a></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a HREF=\"http://annistudio.com\">annistudio.com</a>&nbsp;数据放入dubox</div><div><br/></div><div><br/></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c5902f6d00af3c2324a77a05bc53cdaedc95256d862a02f973a4262e8f69efc4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/aws日志.html"
+      }
+    },
+    {
+      "id": "677b2dd5-6976-4648-a507-55af0245499f",
+      "note_id": "95f7c38c-485a-416c-9bd0-db2697f2405e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.614887Z",
+      "content": "---\ntitle: aws日志\nupdated: 2020-10-18 11:36:25Z\ncreated: 2019-08-23 14:25:07Z\n---\n\n2019年8月23日 注销bgchina@hotmail.com\n                          开通yongfeng.tang@qq.com\n2020年10月18日\n                      注销\nyongfeng.tang@qq.com\n                     \nannistudio.com\n 数据放入dubox",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 269,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1d2384cf-5b90-4049-a0a5-ed0d0cc45f21",
+    "note_id": "95f7c38c-485a-416c-9bd0-db2697f2405e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.614892Z",
+    "finished_at": "2025-11-09T20:01:34.614892Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "51881e84-8dcc-4db6-ac47-f8c792ecfcd1",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/aws日志.html",
+      "checksum": "c5902f6d00af3c2324a77a05bc53cdaedc95256d862a02f973a4262e8f69efc4"
+    },
+    "output_ref": {
+      "ingest_source": "f37c26a3-0ce6-4a8a-bcf9-3d7eb3c0d98d",
+      "note": "95f7c38c-485a-416c-9bd0-db2697f2405e",
+      "variants": [
+        "bf39f453-7279-4bc4-8cae-b1544dfaf2fe",
+        "677b2dd5-6976-4648-a507-55af0245499f"
+      ]
+    },
+    "error_detail": null
+  }
+}

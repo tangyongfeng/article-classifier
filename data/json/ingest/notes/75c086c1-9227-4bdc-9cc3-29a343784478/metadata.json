@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "66be0b4e-a304-4865-88b2-bd4c7d6a9dea",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/北京新起点物业管理有限公司.html",
+    "collected_at": "2025-11-09T20:05:15.987931Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "746d1102c8b198e7a1a23c54cceccca18a145f8efa31c9c50ac0a4753c3dc459",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "75c086c1-9227-4bdc-9cc3-29a343784478",
+    "ingest_source_id": "66be0b4e-a304-4865-88b2-bd4c7d6a9dea",
+    "canonical_title": "北京新起点物业管理有限公司",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:05:15.987935Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "北京新起点物业管理有限公司.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4ee9737d-10d0-4fcf-a471-cdb28b519921",
+      "note_id": "75c086c1-9227-4bdc-9cc3-29a343784478",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.987937Z",
+      "content": "---\ntitle: 北京新起点物业管理有限公司\nupdated: 2013-12-05 07:47:16Z\ncreated: 2013-03-13 09:09:27Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n北京新起点物业管理有限公司\n<div>开户行：工行马连道茶城支行</div><div>账号：0200092109040004116</div><div><br/></div><div>1193.42</div><div>1216.76</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "746d1102c8b198e7a1a23c54cceccca18a145f8efa31c9c50ac0a4753c3dc459",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/北京新起点物业管理有限公司.html"
+      }
+    },
+    {
+      "id": "f59f0bba-7264-4f4c-bb1b-ce649b82ff10",
+      "note_id": "75c086c1-9227-4bdc-9cc3-29a343784478",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.987940Z",
+      "content": "---\ntitle: 北京新起点物业管理有限公司\nupdated: 2013-12-05 07:47:16Z\ncreated: 2013-03-13 09:09:27Z\n---\n\n北京新起点物业管理有限公司\n\n开户行：工行马连道茶城支行\n账号：0200092109040004116\n1193.42\n1216.76",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 157,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e48518c5-6ce0-4f1e-944c-03328d51c0a5",
+    "note_id": "75c086c1-9227-4bdc-9cc3-29a343784478",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.987944Z",
+    "finished_at": "2025-11-09T20:05:15.987945Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "389f0032-aa94-48c3-9cfc-e628d1a7ae22",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/北京新起点物业管理有限公司.html",
+      "checksum": "746d1102c8b198e7a1a23c54cceccca18a145f8efa31c9c50ac0a4753c3dc459"
+    },
+    "output_ref": {
+      "ingest_source": "66be0b4e-a304-4865-88b2-bd4c7d6a9dea",
+      "note": "75c086c1-9227-4bdc-9cc3-29a343784478",
+      "variants": [
+        "4ee9737d-10d0-4fcf-a471-cdb28b519921",
+        "f59f0bba-7264-4f4c-bb1b-ce649b82ff10"
+      ]
+    },
+    "error_detail": null
+  }
+}

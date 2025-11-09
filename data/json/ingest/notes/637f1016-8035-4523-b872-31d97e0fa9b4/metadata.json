@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "edc731a1-0358-48a9-881a-768ce1d09a79",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/特殊动词变位.html",
+    "collected_at": "2025-11-09T20:05:18.317615Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "1b4b805113e82134ec7e027a2ac860b39fbccd3ef33d079d9cf04c8e96fa0a8f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "637f1016-8035-4523-b872-31d97e0fa9b4",
+    "ingest_source_id": "edc731a1-0358-48a9-881a-768ce1d09a79",
+    "canonical_title": "特殊动词变位",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.317619Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "特殊动词变位.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5a91bdcf-a850-4a90-a04d-40d0a1f299f3",
+      "note_id": "637f1016-8035-4523-b872-31d97e0fa9b4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.317622Z",
+      "content": "---\ntitle: 特殊动词变位\nupdated: 2020-02-24 22:24:16Z\ncreated: 2020-02-24 22:22:50Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>wechseln</div><div>reisen</div><div>hei&szlig;en</div><div>platzen</div><div>leben</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1b4b805113e82134ec7e027a2ac860b39fbccd3ef33d079d9cf04c8e96fa0a8f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/特殊动词变位.html"
+      }
+    },
+    {
+      "id": "ff78da2a-cf78-4f7a-9980-2db68eeddbca",
+      "note_id": "637f1016-8035-4523-b872-31d97e0fa9b4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.317624Z",
+      "content": "---\ntitle: 特殊动词变位\nupdated: 2020-02-24 22:24:16Z\ncreated: 2020-02-24 22:22:50Z\nauthor: tangyongfeng@gmail.com\n---\n\nwechseln\nreisen\nheißen\nplatzen\nleben",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 150,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c5f0af67-df88-4d3b-89d3-fd3ec53c73d9",
+    "note_id": "637f1016-8035-4523-b872-31d97e0fa9b4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.317629Z",
+    "finished_at": "2025-11-09T20:05:18.317629Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "763e9e4e-10d2-447d-9ac8-e5d99fef19d0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/特殊动词变位.html",
+      "checksum": "1b4b805113e82134ec7e027a2ac860b39fbccd3ef33d079d9cf04c8e96fa0a8f"
+    },
+    "output_ref": {
+      "ingest_source": "edc731a1-0358-48a9-881a-768ce1d09a79",
+      "note": "637f1016-8035-4523-b872-31d97e0fa9b4",
+      "variants": [
+        "5a91bdcf-a850-4a90-a04d-40d0a1f299f3",
+        "ff78da2a-cf78-4f7a-9980-2db68eeddbca"
+      ]
+    },
+    "error_detail": null
+  }
+}

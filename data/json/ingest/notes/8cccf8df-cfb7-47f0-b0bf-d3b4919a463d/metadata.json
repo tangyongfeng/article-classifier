@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "00236d40-6bd7-4055-a498-bf2eb52fa39a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/医疗信息系统的标准.html",
+    "collected_at": "2025-11-09T20:01:38.235921Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "vi",
+    "captured_at": null,
+    "checksum": "e67d75a084c70cd2f3c88f6ea234dcf812278bfc2cd250b4133c03aed13f73b7",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8cccf8df-cfb7-47f0-b0bf-d3b4919a463d",
+    "ingest_source_id": "00236d40-6bd7-4055-a498-bf2eb52fa39a",
+    "canonical_title": "医疗信息系统的标准",
+    "language": "vi",
+    "ingested_at": "2025-11-09T20:01:38.235924Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "医疗信息系统的标准.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "83cbe53c-9931-4c31-800e-a5dee8d4d200",
+      "note_id": "8cccf8df-cfb7-47f0-b0bf-d3b4919a463d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.235927Z",
+      "content": "---\ntitle: 医疗信息系统的标准\nupdated: 2013-07-10 01:54:21Z\ncreated: 2013-07-10 01:53:42Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\"><br/></span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">国际上存在多种电子病历相关标</span></font><span STYLE=\"font-size: 10pt; color: rgb(1, 1, 1); font-family: 宋体;\">准，这些标准可以分为以下六类：</span></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">数据交换／消息标准(如HL7</span></font> <font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"1\"><span STYLE=\"font-size:9pt\">V3，DICOM)、</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">术语标准(如ICD．9，SNOMED)、</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">文档标准(如HL7 CDA)、</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">概念标准(如HL7</span></font><span STYLE=\"font-size: 10pt; color: rgb(1, 1, 1); font-family: 宋体;\">RIM)、</span></div><div ALIGN=\"left\"><span STYLE=\"font-size: 10pt; color: rgb(1, 1, 1); font-family: 宋体;\">应用标准(如CCOW)</span></div><div ALIGN=\"left\"><span STYLE=\"font-size: 10pt; color: rgb(1, 1, 1); font-family: 宋体;\">结构标准(如PHIN)</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e67d75a084c70cd2f3c88f6ea234dcf812278bfc2cd250b4133c03aed13f73b7",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/医疗信息系统的标准.html"
+      }
+    },
+    {
+      "id": "76b9e4d5-cc71-4ce2-aca8-77728e60426d",
+      "note_id": "8cccf8df-cfb7-47f0-b0bf-d3b4919a463d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.235930Z",
+      "content": "---\ntitle: 医疗信息系统的标准\nupdated: 2013-07-10 01:54:21Z\ncreated: 2013-07-10 01:53:42Z\n---\n\n国际上存在多种电子病历相关标\n准，这些标准可以分为以下六类：\n数据交换／消息标准(如HL7\n\nV3，DICOM)、\n术语标准(如ICD．9，SNOMED)、\n文档标准(如HL7 CDA)、\n概念标准(如HL7\nRIM)、\n应用标准(如CCOW)\n结构标准(如PHIN)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "vi",
+        "length": 220,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "33b8fe2a-15b6-491b-823b-8b1379eb9821",
+    "note_id": "8cccf8df-cfb7-47f0-b0bf-d3b4919a463d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.235934Z",
+    "finished_at": "2025-11-09T20:01:38.235934Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6c56ee6b-ccd2-4551-a907-54da5f1a3750",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/医疗信息系统的标准.html",
+      "checksum": "e67d75a084c70cd2f3c88f6ea234dcf812278bfc2cd250b4133c03aed13f73b7"
+    },
+    "output_ref": {
+      "ingest_source": "00236d40-6bd7-4055-a498-bf2eb52fa39a",
+      "note": "8cccf8df-cfb7-47f0-b0bf-d3b4919a463d",
+      "variants": [
+        "83cbe53c-9931-4c31-800e-a5dee8d4d200",
+        "76b9e4d5-cc71-4ce2-aca8-77728e60426d"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "58aaeec6-ad2f-446f-b184-b3a742118b58",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/EqUo-iKUUAA2K7I 327×1,280像素.html",
+    "collected_at": "2025-11-09T20:01:36.489582Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a0c7d017be641b21b6b9da58aea4599fdac265899d2b56ea54b14b1101db6735",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "60b6b3a0-b3a1-45d6-8ca0-cf8f34d66dce",
+    "ingest_source_id": "58aaeec6-ad2f-446f-b184-b3a742118b58",
+    "canonical_title": "EqUo-iKUUAA2K7I 327×1,280像素",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.489585Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "EqUo-iKUUAA2K7I 327×1,280像素.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6264ac27-31e7-41ed-9d7b-9b41b81dea6f",
+      "note_id": "60b6b3a0-b3a1-45d6-8ca0-cf8f34d66dce",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.489588Z",
+      "content": "---\ntitle: EqUo-iKUUAA2K7I 327×1,280像素\nupdated: 2020-12-29 23:51:02Z\ncreated: 2020-12-28 22:49:17Z\nsource: https://pbs.twimg.com/media/EqUo-iKUUAA2K7I?format=jpg&name=large\n---\n\n\n\n<en-note>\n<div STYLE=\"\"><img src=\"../_resources/5956ca04a54ad7f25cf363e1b06a22e2.jpg\"  style=\"display: block; margin: auto; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);\" hash=\"5956ca04a54ad7f25cf363e1b06a22e2\" type=\"image/jpeg\" alt=\"\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a0c7d017be641b21b6b9da58aea4599fdac265899d2b56ea54b14b1101db6735",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/EqUo-iKUUAA2K7I 327×1,280像素.html"
+      }
+    },
+    {
+      "id": "f1d25b22-3dc9-42e0-9ebe-80fa5198eedd",
+      "note_id": "60b6b3a0-b3a1-45d6-8ca0-cf8f34d66dce",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.489590Z",
+      "content": "---\ntitle: EqUo-iKUUAA2K7I 327×1,280像素\nupdated: 2020-12-29 23:51:02Z\ncreated: 2020-12-28 22:49:17Z\nsource: https://pbs.twimg.com/media/EqUo-iKUUAA2K7I?format=jpg&name=large\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 176,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "15ab5a24-f298-4872-aabb-814fcb9501dc",
+    "note_id": "60b6b3a0-b3a1-45d6-8ca0-cf8f34d66dce",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.489595Z",
+    "finished_at": "2025-11-09T20:01:36.489595Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "74398fbc-0e49-4c70-9167-3a84d608dc0c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/EqUo-iKUUAA2K7I 327×1,280像素.html",
+      "checksum": "a0c7d017be641b21b6b9da58aea4599fdac265899d2b56ea54b14b1101db6735"
+    },
+    "output_ref": {
+      "ingest_source": "58aaeec6-ad2f-446f-b184-b3a742118b58",
+      "note": "60b6b3a0-b3a1-45d6-8ca0-cf8f34d66dce",
+      "variants": [
+        "6264ac27-31e7-41ed-9d7b-9b41b81dea6f",
+        "f1d25b22-3dc9-42e0-9ebe-80fa5198eedd"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "90bdae18-a4b6-4f99-8f31-a08a2b7ee6da",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-18.html",
+    "collected_at": "2025-11-09T20:01:35.955688Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "899977ab07b73c3ae81e0caffb252fb9dfcd2a3fa3940effe12f96309f0f176a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "2f372109-0348-45ed-b922-085fa6ce4fa5",
+    "ingest_source_id": "90bdae18-a4b6-4f99-8f31-a08a2b7ee6da",
+    "canonical_title": "无标题笔记-18",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.955692Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-18.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "89bd6f4f-b7a0-4ea0-aed5-2d6fc7dd7b7f",
+      "note_id": "2f372109-0348-45ed-b922-085fa6ce4fa5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.955695Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2014-03-09 03:22:40Z\ncreated: 2014-03-09 03:22:24Z\n---\n\n\n\n<en-note>知己健康</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "899977ab07b73c3ae81e0caffb252fb9dfcd2a3fa3940effe12f96309f0f176a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-18.html"
+      }
+    },
+    {
+      "id": "7483f09b-c8c3-4d94-9dce-b81800561d71",
+      "note_id": "2f372109-0348-45ed-b922-085fa6ce4fa5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.955698Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2014-03-09 03:22:40Z\ncreated: 2014-03-09 03:22:24Z\n---\n\n知己健康",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 86,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "acc0feaf-19a8-48b2-9bf6-5a0e0f78a98c",
+    "note_id": "2f372109-0348-45ed-b922-085fa6ce4fa5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.955702Z",
+    "finished_at": "2025-11-09T20:01:35.955702Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e4898392-b2a7-48aa-a06f-24ce02dff2ff",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-18.html",
+      "checksum": "899977ab07b73c3ae81e0caffb252fb9dfcd2a3fa3940effe12f96309f0f176a"
+    },
+    "output_ref": {
+      "ingest_source": "90bdae18-a4b6-4f99-8f31-a08a2b7ee6da",
+      "note": "2f372109-0348-45ed-b922-085fa6ce4fa5",
+      "variants": [
+        "89bd6f4f-b7a0-4ea0-aed5-2d6fc7dd7b7f",
+        "7483f09b-c8c3-4d94-9dce-b81800561d71"
+      ]
+    },
+    "error_detail": null
+  }
+}

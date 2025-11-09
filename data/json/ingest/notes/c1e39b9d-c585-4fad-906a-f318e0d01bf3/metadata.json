@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f60f327d-c6bd-4b05-8527-5b029bdaab8a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/孩子短语.html",
+    "collected_at": "2025-11-09T20:05:18.196216Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "2e401fad30f2ac3bdf1b76c80d69b8d7c7dbe15e73477467a7765f98e97d785e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c1e39b9d-c585-4fad-906a-f318e0d01bf3",
+    "ingest_source_id": "f60f327d-c6bd-4b05-8527-5b029bdaab8a",
+    "canonical_title": "孩子短语",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.196219Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "孩子短语.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8cc88f82-40fd-42c7-a182-c3eee321281d",
+      "note_id": "c1e39b9d-c585-4fad-906a-f318e0d01bf3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.196222Z",
+      "content": "---\ntitle: 孩子短语\nupdated: 2020-03-25 20:25:21Z\ncreated: 2020-03-25 20:13:15Z\n---\n\n\n<en-note><div><font STYLE=\"font-size: 64px;\">Yuchan Hausaufgabe: die B&auml;cherei, das Brot, das Br&ouml;tchen, die Brote, die Br&ouml;tchen, Die Mama ist mit den Kindern in der B&auml;ckerei. Die Verk&auml;uferin. Die&nbsp;&nbsp;Verk&auml;uferin verkauft das Brot. Der Junge m&ouml;chte gerne Br&ouml;tchen kaufen. /nett /Die Verk&auml;uferin ist nett </font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2e401fad30f2ac3bdf1b76c80d69b8d7c7dbe15e73477467a7765f98e97d785e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/孩子短语.html"
+      }
+    },
+    {
+      "id": "aa7af6d3-4dd9-4286-8af7-ebf302dc8455",
+      "note_id": "c1e39b9d-c585-4fad-906a-f318e0d01bf3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.196225Z",
+      "content": "---\ntitle: 孩子短语\nupdated: 2020-03-25 20:25:21Z\ncreated: 2020-03-25 20:13:15Z\n---\n\nYuchan Hausaufgabe: die Bächerei, das Brot, das Brötchen, die Brote, die Brötchen, Die Mama ist mit den Kindern in der Bäckerei. Die Verkäuferin. Die  Verkäuferin verkauft das Brot. Der Junge möchte gerne Brötchen kaufen. /nett /Die Verkäuferin ist nett",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 334,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "57e068d6-3924-4a68-96be-492afab51847",
+    "note_id": "c1e39b9d-c585-4fad-906a-f318e0d01bf3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.196229Z",
+    "finished_at": "2025-11-09T20:05:18.196230Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9cf2d895-91aa-4845-9daa-a0f0bc825d09",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/孩子短语.html",
+      "checksum": "2e401fad30f2ac3bdf1b76c80d69b8d7c7dbe15e73477467a7765f98e97d785e"
+    },
+    "output_ref": {
+      "ingest_source": "f60f327d-c6bd-4b05-8527-5b029bdaab8a",
+      "note": "c1e39b9d-c585-4fad-906a-f318e0d01bf3",
+      "variants": [
+        "8cc88f82-40fd-42c7-a182-c3eee321281d",
+        "aa7af6d3-4dd9-4286-8af7-ebf302dc8455"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5e95dd6e-b22a-4d08-8c99-52b297f966e3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/日期.html",
+    "collected_at": "2025-11-09T20:01:39.210206Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "19fe73b8989f72ec707cfe3f03f3d1539843779f9c67de9937ebead3d10fedfe",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d7d8228b-f52b-4d1f-94c2-084c28993a6d",
+    "ingest_source_id": "5e95dd6e-b22a-4d08-8c99-52b297f966e3",
+    "canonical_title": "日期",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.210212Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "日期.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ac767ba4-c337-4873-9ded-aebd0cefcffe",
+      "note_id": "d7d8228b-f52b-4d1f-94c2-084c28993a6d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.210215Z",
+      "content": "---\ntitle: 日期\nupdated: 2020-03-05 10:43:09Z\ncreated: 2020-03-05 10:41:28Z\n---\n\n\n\n<en-note><div>der Tag</div><div>die Woche</div><div>der Monat</div><div>das Jahr</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "19fe73b8989f72ec707cfe3f03f3d1539843779f9c67de9937ebead3d10fedfe",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/日期.html"
+      }
+    },
+    {
+      "id": "b10ad2c2-b6f3-4e91-be14-061277c67d6f",
+      "note_id": "d7d8228b-f52b-4d1f-94c2-084c28993a6d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.210219Z",
+      "content": "---\ntitle: 日期\nupdated: 2020-03-05 10:43:09Z\ncreated: 2020-03-05 10:41:28Z\n---\n\nder Tag\ndie Woche\nder Monat\ndas Jahr",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 115,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b30c9077-0af2-42f6-afcd-3b4a93ce8b92",
+    "note_id": "d7d8228b-f52b-4d1f-94c2-084c28993a6d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.210225Z",
+    "finished_at": "2025-11-09T20:01:39.210225Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d1d9ac77-56d9-4e0a-8188-177bfabbeff0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/日期.html",
+      "checksum": "19fe73b8989f72ec707cfe3f03f3d1539843779f9c67de9937ebead3d10fedfe"
+    },
+    "output_ref": {
+      "ingest_source": "5e95dd6e-b22a-4d08-8c99-52b297f966e3",
+      "note": "d7d8228b-f52b-4d1f-94c2-084c28993a6d",
+      "variants": [
+        "ac767ba4-c337-4873-9ded-aebd0cefcffe",
+        "b10ad2c2-b6f3-4e91-be14-061277c67d6f"
+      ]
+    },
+    "error_detail": null
+  }
+}

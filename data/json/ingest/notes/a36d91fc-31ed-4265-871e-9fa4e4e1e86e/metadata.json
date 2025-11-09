@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a6f7f1ff-a0ff-4e55-908f-5de3d13ef346",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/解决没有my.ini文件，和关掉binlog.html",
+    "collected_at": "2025-11-09T20:01:36.274323Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "a330b0839c24e17d782ac1a020ae3fc1e60156069233052ef57379439f069de1",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a36d91fc-31ed-4265-871e-9fa4e4e1e86e",
+    "ingest_source_id": "a6f7f1ff-a0ff-4e55-908f-5de3d13ef346",
+    "canonical_title": "解决没有my.ini文件，和关掉binlog",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:01:36.274328Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "解决没有my.ini文件，和关掉binlog.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8d487b37-188c-4b87-9027-a879b16499a9",
+      "note_id": "a36d91fc-31ed-4265-871e-9fa4e4e1e86e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.274331Z",
+      "content": "---\ntitle: 解决没有my.ini文件，和关掉binlog\nupdated: 2022-08-21 19:08:24Z\ncreated: 2022-08-16 09:02:51Z\nauthor: tangyongfeng\ntags:\n  - mysql\n---\n\n\n\n<en-note><div><strong><span STYLE=\"color: #339966;\">第一步：</span></strong></div><div>自己建一个，例如</div><div><br CLEAR=\"none\"/></div><div><br CLEAR=\"none\"/></div><div>[mysqld]<br CLEAR=\"none\"/>disable_log_bin<br CLEAR=\"none\"/></div><div><br CLEAR=\"none\"/></div><div><strong><span STYLE=\"color: #008000;\">第二步：</span></strong></div><div><br CLEAR=\"none\"/></div><div>mysql\\bin\\mysqld --verbose --help &gt;&gt; myqld.txt</div><div><br CLEAR=\"none\"/></div><div>生成的文件就会告诉你my.ini的搜索路径，把生成文件考到他的默认搜索目录里完成</div><div STYLE=\"position: absolute; left: -55px; top: 61.2917px;\"><div></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a330b0839c24e17d782ac1a020ae3fc1e60156069233052ef57379439f069de1",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/解决没有my.ini文件，和关掉binlog.html"
+      }
+    },
+    {
+      "id": "5b905122-1049-482a-a88a-8ac67cabe4ef",
+      "note_id": "a36d91fc-31ed-4265-871e-9fa4e4e1e86e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.274335Z",
+      "content": "---\ntitle: 解决没有my.ini文件，和关掉binlog\nupdated: 2022-08-21 19:08:24Z\ncreated: 2022-08-16 09:02:51Z\nauthor: tangyongfeng\ntags:\n  - mysql\n---\n\n第一步：\n自己建一个，例如\n[mysqld]\ndisable_log_bin\n第二步：\nmysql\\bin\\mysqld --verbose --help >> myqld.txt\n生成的文件就会告诉你my.ini的搜索路径，把生成文件考到他的默认搜索目录里完成",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 267,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8f9e06b5-3189-4bbf-b111-ac583bd72a1f",
+    "note_id": "a36d91fc-31ed-4265-871e-9fa4e4e1e86e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.274341Z",
+    "finished_at": "2025-11-09T20:01:36.274341Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "695da530-e12b-4ffd-968d-ac21996bb29b",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/解决没有my.ini文件，和关掉binlog.html",
+      "checksum": "a330b0839c24e17d782ac1a020ae3fc1e60156069233052ef57379439f069de1"
+    },
+    "output_ref": {
+      "ingest_source": "a6f7f1ff-a0ff-4e55-908f-5de3d13ef346",
+      "note": "a36d91fc-31ed-4265-871e-9fa4e4e1e86e",
+      "variants": [
+        "8d487b37-188c-4b87-9027-a879b16499a9",
+        "5b905122-1049-482a-a88a-8ac67cabe4ef"
+      ]
+    },
+    "error_detail": null
+  }
+}

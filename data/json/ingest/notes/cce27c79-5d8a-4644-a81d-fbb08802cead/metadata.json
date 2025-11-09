@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ca8f8bdd-102b-4ea3-826c-2ccb46fd8bc1",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/评分.html",
+    "collected_at": "2025-11-09T20:05:17.665518Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "f426d81e8570af892f737dbee78e3f02b744e2e05ee8f93ae98070df2ea344fc",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "cce27c79-5d8a-4644-a81d-fbb08802cead",
+    "ingest_source_id": "ca8f8bdd-102b-4ea3-826c-2ccb46fd8bc1",
+    "canonical_title": "评分",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:17.665522Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "评分.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "30974fe7-2f08-46f6-97f2-1ba72f548371",
+      "note_id": "cce27c79-5d8a-4644-a81d-fbb08802cead",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.665524Z",
+      "content": "---\ntitle: 评分\nupdated: 2022-01-28 14:50:47Z\ncreated: 2022-01-28 14:50:25Z\n---\n\n\n<en-note><div><span STYLE=\"color:rgb(51, 51, 51);\">Sehr gut&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;优秀</span></div><div><br/></div><div><span STYLE=\"color:rgb(51, 51, 51);\">Gut&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;良好</span></div><div><br/></div><div><span STYLE=\"color:rgb(51, 51, 51);\">Befriedigend&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;中等</span></div><div><br/></div><div><span STYLE=\"color:rgb(51, 51, 51);\">Ausreichend&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 及格</span></div><div><br/></div><div><span STYLE=\"color:rgb(51, 51, 51);\">Nicht ausreichend&nbsp; &nbsp; 不及格</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f426d81e8570af892f737dbee78e3f02b744e2e05ee8f93ae98070df2ea344fc",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/评分.html"
+      }
+    },
+    {
+      "id": "d2856bb2-d51f-436b-9db0-8439a8647730",
+      "note_id": "cce27c79-5d8a-4644-a81d-fbb08802cead",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.665527Z",
+      "content": "---\ntitle: 评分\nupdated: 2022-01-28 14:50:47Z\ncreated: 2022-01-28 14:50:25Z\n---\n\nSehr gut                  优秀\nGut                          良好\nBefriedigend            中等\nAusreichend             及格\nNicht ausreichend    不及格",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 218,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "db39dc2d-2bcc-4bb4-a569-ab93c7f57126",
+    "note_id": "cce27c79-5d8a-4644-a81d-fbb08802cead",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.665531Z",
+    "finished_at": "2025-11-09T20:05:17.665532Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d2323342-972a-4f0d-ae99-590e697f59ea",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/评分.html",
+      "checksum": "f426d81e8570af892f737dbee78e3f02b744e2e05ee8f93ae98070df2ea344fc"
+    },
+    "output_ref": {
+      "ingest_source": "ca8f8bdd-102b-4ea3-826c-2ccb46fd8bc1",
+      "note": "cce27c79-5d8a-4644-a81d-fbb08802cead",
+      "variants": [
+        "30974fe7-2f08-46f6-97f2-1ba72f548371",
+        "d2856bb2-d51f-436b-9db0-8439a8647730"
+      ]
+    },
+    "error_detail": null
+  }
+}

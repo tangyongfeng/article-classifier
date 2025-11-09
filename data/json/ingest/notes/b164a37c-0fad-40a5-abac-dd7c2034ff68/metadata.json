@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "bac09384-4c4e-45cd-b607-8c39504c5885",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-14.html",
+    "collected_at": "2025-11-09T20:01:35.941705Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ca",
+    "captured_at": null,
+    "checksum": "9c85e51ae427736fdeb705ec9ca6d539a64cebf87e61c9c730d8d0ecfb8512d9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b164a37c-0fad-40a5-abac-dd7c2034ff68",
+    "ingest_source_id": "bac09384-4c4e-45cd-b607-8c39504c5885",
+    "canonical_title": "无标题笔记-14",
+    "language": "ca",
+    "ingested_at": "2025-11-09T20:01:35.941708Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-14.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "74f45256-6cd9-4d33-8c0e-64bf554cf0bb",
+      "note_id": "b164a37c-0fad-40a5-abac-dd7c2034ff68",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.941711Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2017-01-17 09:24:13Z\ncreated: 2017-01-17 09:24:13Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n\n<en-note><div>&nbsp;前端接口<br/>\n登录：<br/><img SRC=\"file:///C:/Users/Yongfeng/AppData/Roaming/Tencent/QQ/Temp/%W@GJ$ACOF(TYDYECOKVDYB.png\" STYLE=\"cursor: default;\"/>http://api.lottery.com.cn/fb/blackjack/login?uid=123&amp;appId=456<br/>\n{&quot;state&quot;:&nbsp;&quot;true&quot;,&nbsp;&quot;totalCoins&quot;:&nbsp;0}<br/><br/><br/>\n开始一局游戏（投100筹码）<br/><img SRC=\"file:///C:/Users/Yongfeng/AppData/Roaming/Tencent/QQ/Temp/%W@GJ$ACOF(TYDYECOKVDYB.png\" STYLE=\"cursor: default;\"/>http://api.lottery.com.cn/fb/blackjack/rebegin?betConis=100<br/>\n{&quot;msg&quot;:&nbsp;&quot;账户金额不足&quot;,&nbsp;&quot;state&quot;:&nbsp;&quot;false&quot;}{&quot;state&quot;:&nbsp;&quot;true&quot;,&nbsp;&quot;cansplit&quot;:&nbsp;&quot;false&quot;,&nbsp;&quot;player&quot;:&nbsp;[{&quot;id&quot;:&nbsp;45,&nbsp;&quot;value&quot;:&nbsp;7},&nbsp;{&quot;id&quot;:&nbsp;7,&nbsp;&quot;value&quot;:&nbsp;8}],&nbsp;&quot;step&quot;:&nbsp;&quot;step1&quot;,&nbsp;&quot;blackjack&quot;:&nbsp;&quot;false&quot;,&nbsp;&quot;msg&quot;:&nbsp;&quot;账户金额不足&quot;,&nbsp;&quot;dealer&quot;:&nbsp;[{&quot;id&quot;:&nbsp;14,&nbsp;&quot;value&quot;:&nbsp;2}]}<br/><br/>\n要牌<br/><img SRC=\"file:///C:/Users/Yongfeng/AppData/Roaming/Tencent/QQ/Temp/%W@GJ$ACOF(TYDYECOKVDYB.png\" STYLE=\"cursor: default;\"/>http://api.lottery.com.cn/fb/blackjack/getpokers<br/>\n{&quot;player&quot;:&nbsp;[{&quot;id&quot;:&nbsp;45,&nbsp;&quot;value&quot;:&nbsp;7},&nbsp;{&quot;id&quot;:&nbsp;7,&nbsp;&quot;value&quot;:&nbsp;8},&nbsp;{&quot;id&quot;:&nbsp;40,&nbsp;&quot;value&quot;:&nbsp;2}],&nbsp;&quot;state&quot;:&nbsp;&quot;true&quot;,&nbsp;&quot;step&quot;:&nbsp;&quot;step2&quot;}<br/><br/>\n双倍<br/><img SRC=\"file:///C:/Users/Yongfeng/AppData/Roaming/Tencent/QQ/Temp/%W@GJ$ACOF(TYDYECOKVDYB.png\" STYLE=\"cursor: default;\"/>http://api.lottery.com.cn/fb/blackjack/betdouble<br/><br/>\n分牌&nbsp;（你用的时候应该不会用到这个，最佳玩法里应该没有，没有的直接忽略）<br/><img SRC=\"file:///C:/Users/Yongfeng/AppData/Roaming/Tencent/QQ/Temp/%W@GJ$ACOF(TYDYECOKVDYB.png\" STYLE=\"cursor: default;\"/>http://api.lottery.com.cn/fb/blackjack/split<br/><br/>\n停牌<br/><img SRC=\"file:///C:/Users/Yongfeng/AppData/Roaming/Tencent/QQ/Temp/%W@GJ$ACOF(TYDYECOKVDYB.png\" STYLE=\"cursor: default;\"/>http://api.lottery.com.cn/fb/blackjack/stoppokers<br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9c85e51ae427736fdeb705ec9ca6d539a64cebf87e61c9c730d8d0ecfb8512d9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-14.html"
+      }
+    },
+    {
+      "id": "c0f90385-fad4-4fe9-81bb-cc81e2b089ec",
+      "note_id": "b164a37c-0fad-40a5-abac-dd7c2034ff68",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.941714Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2017-01-17 09:24:13Z\ncreated: 2017-01-17 09:24:13Z\nauthor: tangyongfeng@gmail.com\n---\n\n 前端接口\n\n登录：\nhttp://api.lottery.com.cn/fb/blackjack/login?uid=123&appId=456\n\n{\"state\": \"true\", \"totalCoins\": 0}\n\n开始一局游戏（投100筹码）\nhttp://api.lottery.com.cn/fb/blackjack/rebegin?betConis=100\n\n{\"msg\": \"账户金额不足\", \"state\": \"false\"}{\"state\": \"true\", \"cansplit\": \"false\", \"player\": [{\"id\": 45, \"value\": 7}, {\"id\": 7, \"value\": 8}], \"step\": \"step1\", \"blackjack\": \"false\", \"msg\": \"账户金额不足\", \"dealer\": [{\"id\": 14, \"value\": 2}]}\n\n要牌\nhttp://api.lottery.com.cn/fb/blackjack/getpokers\n\n{\"player\": [{\"id\": 45, \"value\": 7}, {\"id\": 7, \"value\": 8}, {\"id\": 40, \"value\": 2}], \"state\": \"true\", \"step\": \"step2\"}\n\n双倍\nhttp://api.lottery.com.cn/fb/blackjack/betdouble\n\n分牌 （你用的时候应该不会用到这个，最佳玩法里应该没有，没有的直接忽略）\nhttp://api.lottery.com.cn/fb/blackjack/split\n\n停牌\nhttp://api.lottery.com.cn/fb/blackjack/stoppokers",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ca",
+        "length": 886,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4caa8c5a-65bf-4f3d-a2a8-02bd85f2d720",
+    "note_id": "b164a37c-0fad-40a5-abac-dd7c2034ff68",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.941718Z",
+    "finished_at": "2025-11-09T20:01:35.941719Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a4fdb085-40d6-4991-a060-ca2cce16f6d9",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-14.html",
+      "checksum": "9c85e51ae427736fdeb705ec9ca6d539a64cebf87e61c9c730d8d0ecfb8512d9"
+    },
+    "output_ref": {
+      "ingest_source": "bac09384-4c4e-45cd-b607-8c39504c5885",
+      "note": "b164a37c-0fad-40a5-abac-dd7c2034ff68",
+      "variants": [
+        "74f45256-6cd9-4d33-8c0e-64bf554cf0bb",
+        "c0f90385-fad4-4fe9-81bb-cc81e2b089ec"
+      ]
+    },
+    "error_detail": null
+  }
+}

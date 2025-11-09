@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a1902e64-1461-40a5-bbd8-b5dba6737dbe",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/汪京晶.html",
+    "collected_at": "2025-11-09T20:05:17.394804Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "baeedc0e1fdb92890e86af77e0af423bfe1f098a8003d146b5cf97f9e6c8bfaf",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "fdaddf19-ceb9-4573-99f0-fdac29626c65",
+    "ingest_source_id": "a1902e64-1461-40a5-bbd8-b5dba6737dbe",
+    "canonical_title": "汪京晶",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.394808Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "汪京晶.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c2457148-3cfe-44fe-bb60-5d8ba78f953d",
+      "note_id": "fdaddf19-ceb9-4573-99f0-fdac29626c65",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.394810Z",
+      "content": "---\ntitle: 汪京晶\nupdated: 2014-05-16 11:11:00Z\ncreated: 2014-05-16 11:10:44Z\n---\n\n\n\n<en-note>今天（3月8日）中午12时20分，汪京晶与王岚的爱之结晶较预产期提前20余天面世，男孩，5斤4两，母子平安，特此报喜，感谢您一直以来的关心！\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "baeedc0e1fdb92890e86af77e0af423bfe1f098a8003d146b5cf97f9e6c8bfaf",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/汪京晶.html"
+      }
+    },
+    {
+      "id": "fbc521c8-2e8a-4d8a-ad9f-971fad6d11a5",
+      "note_id": "fdaddf19-ceb9-4573-99f0-fdac29626c65",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.394813Z",
+      "content": "---\ntitle: 汪京晶\nupdated: 2014-05-16 11:11:00Z\ncreated: 2014-05-16 11:10:44Z\n---\n\n今天（3月8日）中午12时20分，汪京晶与王岚的爱之结晶较预产期提前20余天面世，男孩，5斤4两，母子平安，特此报喜，感谢您一直以来的关心！",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 150,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "70fda382-3c32-4a67-b302-9422532885eb",
+    "note_id": "fdaddf19-ceb9-4573-99f0-fdac29626c65",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.394817Z",
+    "finished_at": "2025-11-09T20:05:17.394818Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3f30cf27-f7ca-4862-bc22-c64b21ddec44",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/汪京晶.html",
+      "checksum": "baeedc0e1fdb92890e86af77e0af423bfe1f098a8003d146b5cf97f9e6c8bfaf"
+    },
+    "output_ref": {
+      "ingest_source": "a1902e64-1461-40a5-bbd8-b5dba6737dbe",
+      "note": "fdaddf19-ceb9-4573-99f0-fdac29626c65",
+      "variants": [
+        "c2457148-3cfe-44fe-bb60-5d8ba78f953d",
+        "fbc521c8-2e8a-4d8a-ad9f-971fad6d11a5"
+      ]
+    },
+    "error_detail": null
+  }
+}

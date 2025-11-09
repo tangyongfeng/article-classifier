@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "66311e3d-c11b-4a75-baf5-e38a4fc7b7a5",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/习坎卦.html",
+    "collected_at": "2025-11-09T20:05:18.852211Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "b9e0ab73ef114c7d5775db8ab012c6d4023fcb7cfaca918cdf8305746f8bf1f5",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "5a560b54-3afa-4646-8839-b1209dec5c61",
+    "ingest_source_id": "66311e3d-c11b-4a75-baf5-e38a4fc7b7a5",
+    "canonical_title": "习坎卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.852215Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "习坎卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6268f820-f858-4d92-9a8a-61fab08a73ee",
+      "note_id": "5a560b54-3afa-4646-8839-b1209dec5c61",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.852217Z",
+      "content": "---\ntitle: 习坎卦\nupdated: 2018-11-21 15:47:03Z\ncreated: 2018-11-21 14:45:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>有孚维心，亨。行有尚。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 397px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>上六</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\"><div>系用徽纆m&ograve;，窴ti&aacute;n于丛棘， 三岁不得，凶。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>九五（主爻）</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">坎不盈，衹既平，无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六四</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">樽酒簋贰用缶，纳约自牖（<span STYLE=\"font-weight: bold;\">yǒu）</span>，终无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">来之坎，坎险且枕，入于坎，窞，勿用。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>九二</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">坎有险，求小得。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>初六</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">习坎，入于坎，窞<span STYLE=\"font-family: Courier;\">d&agrave;n，凶。</span></td></tr></tbody></table><div><br/></div><div>险中有险。</div><div>重复卦，和上面的爻是不相应的，一定是敌而不应。</div><div><span STYLE=\"font-family: Courier;\"> </span>洊：（ji&agrave;n）古同&ldquo;荐 &rdquo;，再；屡次，接连。</div><div>水洊至：水连续不断的流过来。</div><div>牖：窗户</div><div>纳约自牖：<span STYLE=\"text-indent: 0px;-en-paragraph:true;\">古代未出嫁的女性，晚上在独自为什么事情祷告。</span></div><div>徽纆：三股为徽，两股为纆。绳子。</div><div>初六，双坑，入坑</div><div>九二：求小得。</div><div>六三：上下都是坑，上面还有一个艮。下面在震三上。最苦。</div><div>六四：一樽酒，两盘贡品用瓦盆盛着。这些简约的祭品从窗户送进来。虔诚的相信，虔诚的祷告。终究可以化解。</div><div>九五：终于快要解除。</div><div>上六：失道。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b9e0ab73ef114c7d5775db8ab012c6d4023fcb7cfaca918cdf8305746f8bf1f5",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/习坎卦.html"
+      }
+    },
+    {
+      "id": "176ab150-bb1e-491c-a9a1-b4b1b5115f78",
+      "note_id": "5a560b54-3afa-4646-8839-b1209dec5c61",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.852220Z",
+      "content": "---\ntitle: 习坎卦\nupdated: 2018-11-21 15:47:03Z\ncreated: 2018-11-21 14:45:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n有孚维心，亨。行有尚。\n上六\n系用徽纆mò，窴tián于丛棘， 三岁不得，凶。\n九五（主爻）\n坎不盈，衹既平，无咎。\n六四\n樽酒簋贰用缶，纳约自牖（\nyǒu）\n，终无咎。\n六三\n来之坎，坎险且枕，入于坎，窞，勿用。\n九二\n坎有险，求小得。\n初六\n习坎，入于坎，窞\ndàn，凶。\n险中有险。\n重复卦，和上面的爻是不相应的，一定是敌而不应。\n\n洊：（jiàn）古同“荐 ”，再；屡次，接连。\n水洊至：水连续不断的流过来。\n牖：窗户\n纳约自牖：\n古代未出嫁的女性，晚上在独自为什么事情祷告。\n徽纆：三股为徽，两股为纆。绳子。\n初六，双坑，入坑\n九二：求小得。\n六三：上下都是坑，上面还有一个艮。下面在震三上。最苦。\n六四：一樽酒，两盘贡品用瓦盆盛着。这些简约的祭品从窗户送进来。虔诚的相信，虔诚的祷告。终究可以化解。\n九五：终于快要解除。\n上六：失道。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 484,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a4c9b760-bf18-416b-80a9-be1a817d78ee",
+    "note_id": "5a560b54-3afa-4646-8839-b1209dec5c61",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.852225Z",
+    "finished_at": "2025-11-09T20:05:18.852225Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "abb3d5d4-4e92-4409-9c20-cf355cbdeedb",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/习坎卦.html",
+      "checksum": "b9e0ab73ef114c7d5775db8ab012c6d4023fcb7cfaca918cdf8305746f8bf1f5"
+    },
+    "output_ref": {
+      "ingest_source": "66311e3d-c11b-4a75-baf5-e38a4fc7b7a5",
+      "note": "5a560b54-3afa-4646-8839-b1209dec5c61",
+      "variants": [
+        "6268f820-f858-4d92-9a8a-61fab08a73ee",
+        "176ab150-bb1e-491c-a9a1-b4b1b5115f78"
+      ]
+    },
+    "error_detail": null
+  }
+}

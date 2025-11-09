@@ -1,0 +1,10 @@
+---
+title: Java 大内存尴尬
+updated: 2012-11-29 06:50:01Z
+created: 2012-11-29 06:24:57Z
+---
+
+32个CPU,32g内存，java 一次full gc需要60秒左右
+
+移动
+400k/sec

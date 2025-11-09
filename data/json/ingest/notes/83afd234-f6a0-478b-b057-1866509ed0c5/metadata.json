@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "224a9f00-2ec9-44c5-a8ed-24ec34fd0c2f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/“强奸”全球43款杀软的木马是怎样的存在？（附网友神评论）.html",
+    "collected_at": "2025-11-09T20:01:35.197239Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "e175af7e37def999018fe352a7f11bad5d816f6cef5c2134a8e0a2d0cdac3748",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "83afd234-f6a0-478b-b057-1866509ed0c5",
+    "ingest_source_id": "224a9f00-2ec9-44c5-a8ed-24ec34fd0c2f",
+    "canonical_title": "“强奸”全球43款杀软的木马是怎样的存在？（附网友神评论）",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:35.197242Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "“强奸”全球43款杀软的木马是怎样的存在？（附网友神评论）.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "fab0048e-c7b5-452a-95df-edbe8ba3a65a",
+      "note_id": "83afd234-f6a0-478b-b057-1866509ed0c5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.197246Z",
+      "content": "---\ntitle: “强奸”全球43款杀软的木马是怎样的存在？（附网友神评论）\nupdated: 2016-04-17 06:33:43Z\ncreated: 2016-04-17 06:33:43Z\nsource: >-\n  http://mp.weixin.qq.com/s?__biz=MjM5NjA0NjgyMA==&mid=503577128&idx=1&sn=eb58c63faa95a983590a20d9da415ac5#rd\n---\n\n\n<en-note><div STYLE=\"-evernote-webclip:true\"><br/><div><div><div><div><h1> &ldquo;强奸&rdquo;全球43款杀软的木马是怎样的存在？（附网友神评论） </h1><div><div></div></div></div>\n                    <div>\n                        &Tab;&Tab;&Tab;&Tab;&Tab;&Tab;                        <em>2016-04-14</em>\n\n                                                <em>腾讯电脑管家</em>\n                                                <a HREF=\"#\" TARGET=\"_blank\">黑客与极客</a>\n                        \n\n                        \n                    </div>\n                    \n                    \n                    \n                    \n                                                            \n                                        <div>\n                        \n                                                <div><a href='../_resources/640-2.webp'  type=\"image/webp\" hash=\"3b1ac8b8c27a8d1bc452b420ddc9e1c5\" width=\"576\" height=\"320\" alt=\"640.webp\">  640.webp</a></en-media></div>\n                                            </div>\n                                        \n                    \n                    \n                        \n                        <div><div><h2><br/><br/><strong>背景</strong></h2></div><br/><br/></div><p><strong>只要插上网线或连上WIFI，无需任何操作，不一会儿电脑就被木马感染了，这可能吗？近期，腾讯反病毒实验室拦截到一个&ldquo;黑暗幽灵&rdquo;木马的新变种，该木马功能强大，行为诡异，本文将对其进行详细分析，以下是该木马的主要特点：</strong></p><div><div><div><div><p>木马功能强大，主要以信息情报收集为主，能够监控监听大量的聊天软件，收集网络访问记录、监控Gmail、截取屏幕、监控麦克风和摄像头等；</p></div></div></div></div><div><div><div><div><p>木马对抗性强，能够绕过几乎全部的安全软件主动防御，重点对抗国内安全软件，能够调用安全软件自身的接口将木马加入白名单，作者投入了大量的精力逆向研究安全软件；</p></div></div></div></div><div><div><div><div><p>木马感染方式特别，通过网络劫持进行感染，主要劫持主流软件的自动更新程序，当这些软件联网下载更新程序时在网络上用木马替换，导致用户无感中毒；</p></div></div></div></div><div><div><div><div><p>木马通讯方式特别，木马将数据封装成固定包头的DNS协议包，发送到大型网站来实现数据传输，此方法可以绕过几乎全部的防火墙，但是黑客要截取这些数据，必须在数据包的必经之路上进行嗅探拦截，结合木马的感染方式，可以推测出在受害者网络链路上存在劫持;</p></div></div></div></div><div><div><div><div><p>木马攻击范围较小，针对性强，且持续时间长达数年，符合APT攻击的特性。</p></div></div></div><div><div><h2>木马行为概述</h2></div><br/><br/></div><div><div><div><div>来源与传播途径</div></div></div><p>经过对大量受感染用户的分析，我们发现该木马来源于不安全的网络，无任何系统漏洞的机器只要连接到这些网络后，在一段时间后会感染木马，经分析发现木马主要通过在网络上劫持替换大量软件的自动更新程序进而感染电脑。当安装在电脑上的软件进行自动更新时，更新包被替换成木马，导致电脑被入侵。木马传播示意图如图1所示。</p></div></div><p></p><div><a href='../_resources/640-5.webp'  type=\"image/webp\" hash=\"921afa6f6c8aa6730383510af3d1c37c\" width=\"576\" height=\"602\" alt=\"640.webp\">  640.webp</a></en-media></div><p></p><p>图1.木马主要传播途径示意图</p><div><div><div><div><h3>木马安装流程</h3></div></div></div><p>木马运行后会判断本机安装的安全软件，会检测多达43款安全相关软件，当检测到不同的安全软件后，执行不同的安装方式，以实现绕过安全软件的检测和拦截。经分析发现该木马主要有三种不同的安装方式，木马最终安装启动的方式为将核心dll释放到explorer同目录下，对其进行dll劫持启动。如图2中三种颜色分别代表三种不同的安装方式，经测试该木马能够绕过当前绝大部分安全软件的防御和拦截最终成功安装。</p></div><p></p><div><a href='../_resources/640.webp'  type=\"image/webp\" hash=\"1e10cb167f2019ed162c049b2d358274\" width=\"462\" height=\"491\" alt=\"640.webp\">  640.webp</a></en-media></div><p></p><p>图2.木马安装流程示意图</p><div><div><div><div><h3>木马功能分解</h3></div></div></div><p>该木马主要功能是窃取计算机各种信息，通过插件监控监听各种常用聊天软件的语音文字聊天信息，接受指令进行简单的远程操控，将自动化收集到的各种信息文件打包发送。如图3所示为木马功能一览。</p></div><p></p><div><a href='../_resources/640-6.webp'  type=\"image/webp\" hash=\"d8b6c535e4386f6724794124b8ddb84d\" width=\"576\" height=\"744\" alt=\"640.webp\">  640.webp</a></en-media></div><p></p><p>图3.木马功能一览</p><div><div><div><div><h3>木马网络通信</h3></div></div></div><p>该木马的网络通信方式与木马的传播方式相呼应，木马将收集到的各种信息打包成文件，随后将其加密并封装成DNS请求包，并将这些数据包发送到国内几大知名网站服务器。</p><p>这样的通讯方式可以绕过几乎所有的防火墙、入侵检测产品，然而黑客如何取得这些数据包从而获得窃取的数据呢？</p><p>经分析发现其封装的DNS数据包都有着相同且固定的数据包头，因此我们推测黑客会在数据包必经之路上对数据包进行拦截转发到黑客服务器，从而获得收集到的信息，如图4所示为推测出的木马通讯数据包投递流程。</p></div><p></p><div><img src=\"../_resources/e071ee4a97b1429823eeccd2eb96f972.png\"  type=\"image/png\" hash=\"e071ee4a97b1429823eeccd2eb96f972\" width=\"1\" height=\"1\" alt=\"\" /></en-media></div><p></p><p>图4.木马网络通讯方式推测</p><div><div><h2>木马详细分析</h2></div><br/><br/><div><br/><br/><div><div><div><p><strong>母体结构</strong></p></div><div><div><p>该木马的母体程序为一个exe可执行文件，通过网络劫持正常软件的更新程序而被下载执行，该文件中包含5个资源文件，均为简单加密的PE文件，其中141为x86版核心dll、142为lsp劫持dll、146为x64版核心dll、150为白加黑黑文件，151为白加黑白文件，以下将详细分析。</p></div></div></div><br/><br/></div></div></div><div><div><div><div><div><div><p><strong>适应多种系统，不同系统不同行为</strong></p><p>判断操作系统版本，设置全局变量，随后将根据该全局变了进行大量的不同操作。</p></div></div></div></div></div></div><div><div><div><div><div><p><strong>利用系统漏洞提权</strong></p><p>判断当前系统是否为vista、win7等，如果是则检测当前进程是否具有管理员权限，如果没有该木马会尝试通过CVE-2011-1249将自身提升为管理员权限。该漏洞影响xp、vista、win7等多种版本操作系统。</p></div></div></div></div></div><br/><br/><div><div><div><div><p><strong>对explorer进行dll劫持</strong></p><p>通过注册表检测本机安装的安全软件，当目标系统没有安装安全软件时，木马将根据操作系统释放劫持dll到%windir%目录下对explorer进行劫持启动，在xp等系统下木马释放ntshrui.dll、在win7等系统释放msls32.dll，在win8等系统释放AduioSes.dll。随后启动一个新的explorer进程加载核心dll开始工作，此为第一种安装方式。</p></div></div></div><div><div><div><div>对抗安全软件</div></div></div></div></div><div><div><div><div><strong>&nbsp; 暂存核心文件</strong></div><div><p>如果检测到趋势等国际安全软件而又未检测到国内主流安全软件时，木马会将核心dll释放到%CommonProgramfiles%的一个子目录下，暂时存放。</p></div></div></div><br/><br/></div><div><div><div><p><strong>释放dll并安装lsp</strong></p><p>同时释放lsp劫持dll，并添加lsp，通过lsp，该dll可以注入到所有具有网络连接的进程中。在注入的进程中进行dll文件的移动，从而绕过安全软件，此为第二种安装方式。</p></div></div><br/><br/></div><div><div><div><p><strong>释放白加黑</strong></p></div><div><div><p>&nbsp;<strong>释放白加黑对抗杀软</strong></p><p>当存在国内主流安全软件时，木马为了绕过针对lsp安装的拦截使用了白加黑技术。</p></div></div></div><br/><br/></div><div><div><div><div><div>&nbsp;通过白加黑安装lsp过主防</div></div><div><p>木马通过白加黑技术，并加以一系列复杂技巧绕过主动防御实现安装lsp，经测试大部分安全软件的主动防御均被绕过。</p></div></div></div><br/><br/></div><div><div><div><div><p><strong>绕过杀软对explorer进行dll劫持</strong></p><p>安装lsp后，相关dll便以lsp劫持的方式插入到所有联网进程中，包括svchost、浏览器、聊天软件、安全软件等。Dll加载后首先判断当前进程，符合条件则将之前备份的核心dll移动到%windir%目录进行劫持（重启后移动）。此为第三种安装方式。</p></div></div></div></div><div><div><div><div><div><p><strong>加载核心dll</strong></p><p>随后木马判断自身是否位于ie、svchost、杀软等进程，以进行不同的行为，同时尝试直接加载核心dll（如果没加载，劫持需要等系统重启后核心dll才会被加载）。</p></div></div></div></div></div><div><div><div><div><div><div><p><strong>恶意操作杀软白名单，免杀</strong></p><p>木马判断自身是否位于各种安全软件进程中，如果是则调用安全软件自身接口进行白名单添加，会将所有木马文件路径添加到杀软白名单中。经测试，涉及到的安全软件均能正常添加白名单。</p></div></div></div></div></div><br/><br/></div><div><div><div><div><div><p><strong>lsp阻止安全软件联网，阻断云查</strong></p><p>通过lsp过滤函数对WSPSend、WSPSendTo函数进行过滤，当判断发包者是安全软件进程则直接关闭连接，阻止联网，阻断云查。</p></div></div></div></div><br/><br/></div><div><div><div><div><p><strong>收集网卡信息</strong></p><p>收集的网卡信息包括网卡型号、网卡mac、网关ip、网关mac等。</p><p><strong>收集系统安装的软件列表</strong></p><p>木马通过注册表Uninstall获取计算机安装的软件列表信息，将获取的信息异或0x87后写入到C:\\WINDOWS\\Temp\\{E53B9A13-F4C6-4d78-9755-65C029E88F02}\\soft.prog文件中，以下获取的信息无特殊说明都位于该目录下。</p><p>获取当前屏幕快照，zip压缩后保存为time().v文件。</p><p><strong>收集磁盘文件目录</strong></p><p>获取磁盘驱动器信息，包括全盘所有文件路径，获取后zip压缩到drive.d文件中。</p><p><strong>收集IE历史记录</strong></p><p>通过com获取浏览器历史记录信息，存储到ie.his</p><p><strong>收集设备信息</strong></p><p>遍历系统设备，判断是否有笔记本电源适配器、摄像头、麦克风三种设备，将结果加密写入到time().hd文件中。</p><p><strong>针对浏览器进行键盘记录</strong></p><p>安装WH_GETMESSAGE全局钩子，安装后理论上所有具有消息循环的进程均会加载此dll，并调用钩子函数，在钩子回调中，判断当前进程是否是 Iexplorer.exe、360se.exe、SogouExplorer.exe三种浏览器进程，如果是则进行键盘记录，记录的包括按键信息、窗口 标题，通过imm32.dll该方法还可以记录中文输入，记录到的信息存为（日期+时间）.k文件。</p><p><strong>收集gmail信息</strong></p><p>在记录键盘时，当判断以上浏览器窗口中含有Gmail字符时，会启动一个线程专门收集Gmail信息，会加载相关插件，尝试通过Imap协议下载服务器上的所有文件。</p><p><strong>加载插件收集各种IM相关信息</strong></p><p>通过进程名判断skype.exe、cc.exe、raidcall.exe、yy.exe、aliim.exe等即时聊天、语音聊天软件，加载相关插件对此类聊天软件进行监听监控。</p></div></div><br/><br/></div><div><div><div><div><p>此木马最诡异的地方是通讯方式，该木马没有C&amp;C服务器，所有的数据均伪装成DNS包发送到www.baidu.com、www.sina.com、www.163.com域名所在服务器的53端口或者8000端口。黑客要想获取这些数据包，必须在数据包从本地计算机到这些网站服务器的必经之路上进行劫持嗅探。</p><p><strong>自动上传收集到的文件</strong></p><p>所有木马自动收集的文件，木马插件生成的文件都会被定时打包编号并发送出去。</p><p>木马还会绑定本地一个udp端口，并不断尝试收取指令，进行远程控制，主要的远程控制功能包括cmdshell、文件管理、插件管理等。</p></div></div><br/><br/></div></div></div><div><div><h2><strong>木马信息</strong></h2></div><br/><br/></div><div><div><div><div><strong>4.1安全软件&nbsp;&nbsp;</strong></div><div><p>木马检测到多达43款安全软件，涵盖了国内全部的安全产品及国外较有名的安全产品，从安全软件来看，该木马主要针对国内用户。</p></div></div></div><br/><br/></div><p></p><div><a href='../_resources/640-4.webp'  type=\"image/webp\" hash=\"74a7e5b757bffa2becd9d89f321aae95\" width=\"576\" height=\"598\" alt=\"640.webp\">  640.webp</a></en-media></div><p></p><div><div><div><div><strong>4.2 其它信息&nbsp;&nbsp;</strong></div><div><p>从木马的互斥体、调试信息等可看出DCM应该是该木马的代号，但是什么的缩写的？这个还真猜不出来。</p></div></div></div><br/><br/></div><br/><br/><div><div><h2><strong>安全建议</strong></h2></div><br/><br/></div><p>软件厂商：下载更新程序尽量使用https等安全加密的通讯协议，对下载回来的文件在加载运行前一定要做签名校验。</p><p>用户：尽量不要使用安全性未知的网络上网，如公共WIFI、酒店网络等，如果怀疑自己的网络有问题，及时与运营商反映。此外安装安全软件可在一定程度上防御此类攻击，目前管家已率先查杀该木马及其变种。</p><div><div><h2><strong>网友神评论</strong></h2></div><br/><br/></div><br/><br/><div><div><div><div><a href='../_resources/640-3.webp'  type=\"image/webp\" hash=\"56fe3c18c698013058044908a7e4c54a\" width=\"110\" height=\"110\" alt=\"640.webp\">  640.webp</a></en-media><p>mahuateng</p></div><div><p>咋这没眼力劲儿啊。。。。。眼瞎没办法 。没法教。PR这回彻底懵逼了。。。。 毁了麻花疼一世英名啊</p></div></div></div><br/><br/></div><br/><br/><div><div><div><div><img src=\"../_resources/mmbizgif-2.gif\"  type=\"image/gif\" hash=\"d7bf816f8cc33e5c3b015c09104efd23\" width=\"410\" height=\"150\" alt=\"mmbizgif.gif\" /></en-media><p>hahaha</p></div><div><p>怎么感觉是G 0v的马。</p></div></div></div><br/><br/></div><div><div><div><div><img src=\"../_resources/mmbizgif.gif\"  type=\"image/gif\" hash=\"21428f78e472eed4e54d75588ee744cb\" width=\"128\" height=\"128\" alt=\"mmbizgif.gif\" /></en-media></div><div><p>D国的木马都敢拆，是不是不想混了。</p></div></div></div><br/><br/></div><div><div><div><div><img src=\"../_resources/mmbizgif-1.gif\"  type=\"image/gif\" hash=\"6bc2c6b0303c33b91f6fdafe2eccbd5f\" width=\"120\" height=\"97\" alt=\"mmbizgif.gif\" /></en-media><p>expsky</p></div><div><p>第一个想问的问题就是，谁中了这个马？没有点背景的人是不会中招这样的马的。这个木马必然属于APT性质的木马，涉及到了从ARP，漏洞利用，主流木马技术，各种杀软的深入分析等等，功能丰富并且能稳定运行，这必然开发者和中招的人都不是普通人。单就是里面的DNS通讯方式，就可以看出，一般人能把劫持设备放到你小区网关，公司网关？就这项就不是只靠技术能解决的问题。算了不能再想了，就到这里吧&hellip;.</p></div></div></div><br/><br/></div><div><div><div><div><img src=\"../_resources/mmbizgif.gif\"  type=\"image/gif\" hash=\"21428f78e472eed4e54d75588ee744cb\" width=\"128\" height=\"128\" alt=\"mmbizgif.gif\" /></en-media></div><div><p>有点水坑攻击的意味，未来的趋势基本是物理攻击为主了，可以想象下，接线 无人机空投&ldquo;设备&rdquo; 真是防不胜防.</p></div></div></div><br/><br/></div><p>*投稿：腾讯安全管家（企业账号），转载请注明来自FreeBuf黑客与极客（FreeBuf.COM）</p><p></p><div><a href='../_resources/640-1.webp'  type=\"image/webp\" hash=\"314c5defed32a5624e58763bb52e790a\" width=\"576\" height=\"337\" alt=\"640.webp\">  640.webp</a></en-media></div><p></p>\n                    </div></div></div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e175af7e37def999018fe352a7f11bad5d816f6cef5c2134a8e0a2d0cdac3748",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/“强奸”全球43款杀软的木马是怎样的存在？（附网友神评论）.html"
+      }
+    },
+    {
+      "id": "d26479e5-15f2-4d91-9381-a289502dfb69",
+      "note_id": "83afd234-f6a0-478b-b057-1866509ed0c5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.197248Z",
+      "content": "---\ntitle: “强奸”全球43款杀软的木马是怎样的存在？（附网友神评论）\nupdated: 2016-04-17 06:33:43Z\ncreated: 2016-04-17 06:33:43Z\nsource: >-\n  http://mp.weixin.qq.com/s?__biz=MjM5NjA0NjgyMA==∣=503577128&idx=1&sn=eb58c63faa95a983590a20d9da415ac5#rd\n---\n\n “强奸”全球43款杀软的木马是怎样的存在？（附网友神评论）\n\n2016-04-14\n\n腾讯电脑管家\n\n黑客与极客\n\n  640.webp\n\n背景\n只要插上网线或连上WIFI，无需任何操作，不一会儿电脑就被木马感染了，这可能吗？近期，腾讯反病毒实验室拦截到一个“黑暗幽灵”木马的新变种，该木马功能强大，行为诡异，本文将对其进行详细分析，以下是该木马的主要特点：\n木马功能强大，主要以信息情报收集为主，能够监控监听大量的聊天软件，收集网络访问记录、监控Gmail、截取屏幕、监控麦克风和摄像头等；\n木马对抗性强，能够绕过几乎全部的安全软件主动防御，重点对抗国内安全软件，能够调用安全软件自身的接口将木马加入白名单，作者投入了大量的精力逆向研究安全软件；\n木马感染方式特别，通过网络劫持进行感染，主要劫持主流软件的自动更新程序，当这些软件联网下载更新程序时在网络上用木马替换，导致用户无感中毒；\n木马通讯方式特别，木马将数据封装成固定包头的DNS协议包，发送到大型网站来实现数据传输，此方法可以绕过几乎全部的防火墙，但是黑客要截取这些数据，必须在数据包的必经之路上进行嗅探拦截，结合木马的感染方式，可以推测出在受害者网络链路上存在劫持;\n木马攻击范围较小，针对性强，且持续时间长达数年，符合APT攻击的特性。\n木马行为概述\n来源与传播途径\n经过对大量受感染用户的分析，我们发现该木马来源于不安全的网络，无任何系统漏洞的机器只要连接到这些网络后，在一段时间后会感染木马，经分析发现木马主要通过在网络上劫持替换大量软件的自动更新程序进而感染电脑。当安装在电脑上的软件进行自动更新时，更新包被替换成木马，导致电脑被入侵。木马传播示意图如图1所示。\n  640.webp\n图1.木马主要传播途径示意图\n木马安装流程\n木马运行后会判断本机安装的安全软件，会检测多达43款安全相关软件，当检测到不同的安全软件后，执行不同的安装方式，以实现绕过安全软件的检测和拦截。经分析发现该木马主要有三种不同的安装方式，木马最终安装启动的方式为将核心dll释放到explorer同目录下，对其进行dll劫持启动。如图2中三种颜色分别代表三种不同的安装方式，经测试该木马能够绕过当前绝大部分安全软件的防御和拦截最终成功安装。\n  640.webp\n图2.木马安装流程示意图\n木马功能分解\n该木马主要功能是窃取计算机各种信息，通过插件监控监听各种常用聊天软件的语音文字聊天信息，接受指令进行简单的远程操控，将自动化收集到的各种信息文件打包发送。如图3所示为木马功能一览。\n  640.webp\n图3.木马功能一览\n木马网络通信\n该木马的网络通信方式与木马的传播方式相呼应，木马将收集到的各种信息打包成文件，随后将其加密并封装成DNS请求包，并将这些数据包发送到国内几大知名网站服务器。\n这样的通讯方式可以绕过几乎所有的防火墙、入侵检测产品，然而黑客如何取得这些数据包从而获得窃取的数据呢？\n经分析发现其封装的DNS数据包都有着相同且固定的数据包头，因此我们推测黑客会在数据包必经之路上对数据包进行拦截转发到黑客服务器，从而获得收集到的信息，如图4所示为推测出的木马通讯数据包投递流程。\n图4.木马网络通讯方式推测\n木马详细分析\n母体结构\n该木马的母体程序为一个exe可执行文件，通过网络劫持正常软件的更新程序而被下载执行，该文件中包含5个资源文件，均为简单加密的PE文件，其中141为x86版核心dll、142为lsp劫持dll、146为x64版核心dll、150为白加黑黑文件，151为白加黑白文件，以下将详细分析。\n适应多种系统，不同系统不同行为\n判断操作系统版本，设置全局变量，随后将根据该全局变了进行大量的不同操作。\n利用系统漏洞提权\n判断当前系统是否为vista、win7等，如果是则检测当前进程是否具有管理员权限，如果没有该木马会尝试通过CVE-2011-1249将自身提升为管理员权限。该漏洞影响xp、vista、win7等多种版本操作系统。\n对explorer进行dll劫持\n通过注册表检测本机安装的安全软件，当目标系统没有安装安全软件时，木马将根据操作系统释放劫持dll到%windir%目录下对explorer进行劫持启动，在xp等系统下木马释放ntshrui.dll、在win7等系统释放msls32.dll，在win8等系统释放AduioSes.dll。随后启动一个新的explorer进程加载核心dll开始工作，此为第一种安装方式。\n对抗安全软件\n  暂存核心文件\n如果检测到趋势等国际安全软件而又未检测到国内主流安全软件时，木马会将核心dll释放到%CommonProgramfiles%的一个子目录下，暂时存放。\n释放dll并安装lsp\n同时释放lsp劫持dll，并添加lsp，通过lsp，该dll可以注入到所有具有网络连接的进程中。在注入的进程中进行dll文件的移动，从而绕过安全软件，此为第二种安装方式。\n释放白加黑\n \n释放白加黑对抗杀软\n当存在国内主流安全软件时，木马为了绕过针对lsp安装的拦截使用了白加黑技术。\n 通过白加黑安装lsp过主防\n木马通过白加黑技术，并加以一系列复杂技巧绕过主动防御实现安装lsp，经测试大部分安全软件的主动防御均被绕过。\n绕过杀软对explorer进行dll劫持\n安装lsp后，相关dll便以lsp劫持的方式插入到所有联网进程中，包括svchost、浏览器、聊天软件、安全软件等。Dll加载后首先判断当前进程，符合条件则将之前备份的核心dll移动到%windir%目录进行劫持（重启后移动）。此为第三种安装方式。\n加载核心dll\n随后木马判断自身是否位于ie、svchost、杀软等进程，以进行不同的行为，同时尝试直接加载核心dll（如果没加载，劫持需要等系统重启后核心dll才会被加载）。\n恶意操作杀软白名单，免杀\n木马判断自身是否位于各种安全软件进程中，如果是则调用安全软件自身接口进行白名单添加，会将所有木马文件路径添加到杀软白名单中。经测试，涉及到的安全软件均能正常添加白名单。\nlsp阻止安全软件联网，阻断云查\n通过lsp过滤函数对WSPSend、WSPSendTo函数进行过滤，当判断发包者是安全软件进程则直接关闭连接，阻止联网，阻断云查。\n收集网卡信息\n收集的网卡信息包括网卡型号、网卡mac、网关ip、网关mac等。\n收集系统安装的软件列表\n木马通过注册表Uninstall获取计算机安装的软件列表信息，将获取的信息异或0x87后写入到C:\\WINDOWS\\Temp\\{E53B9A13-F4C6-4d78-9755-65C029E88F02}\\soft.prog文件中，以下获取的信息无特殊说明都位于该目录下。\n获取当前屏幕快照，zip压缩后保存为time().v文件。\n收集磁盘文件目录\n获取磁盘驱动器信息，包括全盘所有文件路径，获取后zip压缩到drive.d文件中。\n收集IE历史记录\n通过com获取浏览器历史记录信息，存储到ie.his\n收集设备信息\n遍历系统设备，判断是否有笔记本电源适配器、摄像头、麦克风三种设备，将结果加密写入到time().hd文件中。\n针对浏览器进行键盘记录\n安装WH_GETMESSAGE全局钩子，安装后理论上所有具有消息循环的进程均会加载此dll，并调用钩子函数，在钩子回调中，判断当前进程是否是 Iexplorer.exe、360se.exe、SogouExplorer.exe三种浏览器进程，如果是则进行键盘记录，记录的包括按键信息、窗口 标题，通过imm32.dll该方法还可以记录中文输入，记录到的信息存为（日期+时间）.k文件。\n收集gmail信息\n在记录键盘时，当判断以上浏览器窗口中含有Gmail字符时，会启动一个线程专门收集Gmail信息，会加载相关插件，尝试通过Imap协议下载服务器上的所有文件。\n加载插件收集各种IM相关信息\n通过进程名判断skype.exe、cc.exe、raidcall.exe、yy.exe、aliim.exe等即时聊天、语音聊天软件，加载相关插件对此类聊天软件进行监听监控。\n此木马最诡异的地方是通讯方式，该木马没有C&C服务器，所有的数据均伪装成DNS包发送到www.baidu.com、www.sina.com、www.163.com域名所在服务器的53端口或者8000端口。黑客要想获取这些数据包，必须在数据包从本地计算机到这些网站服务器的必经之路上进行劫持嗅探。\n自动上传收集到的文件\n所有木马自动收集的文件，木马插件生成的文件都会被定时打包编号并发送出去。\n木马还会绑定本地一个udp端口，并不断尝试收取指令，进行远程控制，主要的远程控制功能包括cmdshell、文件管理、插件管理等。\n木马信息\n4.1安全软件  \n木马检测到多达43款安全软件，涵盖了国内全部的安全产品及国外较有名的安全产品，从安全软件来看，该木马主要针对国内用户。\n  640.webp\n4.2 其它信息  \n从木马的互斥体、调试信息等可看出DCM应该是该木马的代号，但是什么的缩写的？这个还真猜不出来。\n安全建议\n软件厂商：下载更新程序尽量使用https等安全加密的通讯协议，对下载回来的文件在加载运行前一定要做签名校验。\n用户：尽量不要使用安全性未知的网络上网，如公共WIFI、酒店网络等，如果怀疑自己的网络有问题，及时与运营商反映。此外安装安全软件可在一定程度上防御此类攻击，目前管家已率先查杀该木马及其变种。\n网友神评论\n  640.webp\nmahuateng\n咋这没眼力劲儿啊。。。。。眼瞎没办法 。没法教。PR这回彻底懵逼了。。。。 毁了麻花疼一世英名啊\nhahaha\n怎么感觉是G 0v的马。\nD国的木马都敢拆，是不是不想混了。\nexpsky\n第一个想问的问题就是，谁中了这个马？没有点背景的人是不会中招这样的马的。这个木马必然属于APT性质的木马，涉及到了从ARP，漏洞利用，主流木马技术，各种杀软的深入分析等等，功能丰富并且能稳定运行，这必然开发者和中招的人都不是普通人。单就是里面的DNS通讯方式，就可以看出，一般人能把劫持设备放到你小区网关，公司网关？就这项就不是只靠技术能解决的问题。算了不能再想了，就到这里吧….\n有点水坑攻击的意味，未来的趋势基本是物理攻击为主了，可以想象下，接线 无人机空投“设备” 真是防不胜防.\n*投稿：腾讯安全管家（企业账号），转载请注明来自FreeBuf黑客与极客（FreeBuf.COM）\n  640.webp",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 4569,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6ebd40bd-fca8-4599-8f35-31cfa95bc06d",
+    "note_id": "83afd234-f6a0-478b-b057-1866509ed0c5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.197253Z",
+    "finished_at": "2025-11-09T20:01:35.197253Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f82b50fe-679d-46c9-b531-b3f4c69bf076",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/“强奸”全球43款杀软的木马是怎样的存在？（附网友神评论）.html",
+      "checksum": "e175af7e37def999018fe352a7f11bad5d816f6cef5c2134a8e0a2d0cdac3748"
+    },
+    "output_ref": {
+      "ingest_source": "224a9f00-2ec9-44c5-a8ed-24ec34fd0c2f",
+      "note": "83afd234-f6a0-478b-b057-1866509ed0c5",
+      "variants": [
+        "fab0048e-c7b5-452a-95df-edbe8ba3a65a",
+        "d26479e5-15f2-4d91-9381-a289502dfb69"
+      ]
+    },
+    "error_detail": null
+  }
+}

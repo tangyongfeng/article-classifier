@@ -1,0 +1,25 @@
+---
+title: int iPoint = 0;
+updated: 2013-06-16 08:15:51Z
+created: 2013-06-16 08:15:51Z
+tags:
+  - c#
+---
+
+int
+
+iPoint = 0;
+                          
+while
+(cBuf[0] !=
+
+';'
+)
+                            {
+                                cBuf[0] = (
+
+char
+)sr.ReadBlock(cBuf,iPoint,1);
+                                iPoint++;
+                                sqlBuilder.Append(cBuf[0]);
+                            }

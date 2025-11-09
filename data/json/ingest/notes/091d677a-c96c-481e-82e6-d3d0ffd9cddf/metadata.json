@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6fc66163-1b33-4c16-9123-a5b4cf1b5da7",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/自我介绍.html",
+    "collected_at": "2025-11-09T20:05:18.250100Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "01d29ae1fc9d0e36f7831336505d1b32fc2955618fe68a2fcaf7f0c95c92feff",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "091d677a-c96c-481e-82e6-d3d0ffd9cddf",
+    "ingest_source_id": "6fc66163-1b33-4c16-9123-a5b4cf1b5da7",
+    "canonical_title": "自我介绍",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.250104Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "自我介绍.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4cfe94d9-5733-4e12-9474-ed27209a92a3",
+      "note_id": "091d677a-c96c-481e-82e6-d3d0ffd9cddf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.250107Z",
+      "content": "---\ntitle: 自我介绍\nupdated: 2020-09-16 07:41:32Z\ncreated: 2020-09-16 00:08:18Z\n---\n\n\n\n<en-note>\n<div><img src=\"../_resources/BBE5D226-AFB2-424C-A614-06097EA5215D.jpg\"  hash=\"1a348f5fe3fb9f65248ca663a4f47856\" type=\"image/jpeg\" alt=\"BBE5D226-AFB2-424C-A614-06097EA5215D.jpg\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "01d29ae1fc9d0e36f7831336505d1b32fc2955618fe68a2fcaf7f0c95c92feff",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/自我介绍.html"
+      }
+    },
+    {
+      "id": "b872fb4d-b6a0-4b64-94a0-4f35348e386d",
+      "note_id": "091d677a-c96c-481e-82e6-d3d0ffd9cddf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.250109Z",
+      "content": "---\ntitle: 自我介绍\nupdated: 2020-09-16 07:41:32Z\ncreated: 2020-09-16 00:08:18Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 79,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0235de18-520f-4589-a9cc-e66bb0f155c8",
+    "note_id": "091d677a-c96c-481e-82e6-d3d0ffd9cddf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.250114Z",
+    "finished_at": "2025-11-09T20:05:18.250114Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "25d3bff0-ed71-4c00-89b5-3e49587c7cf8",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/自我介绍.html",
+      "checksum": "01d29ae1fc9d0e36f7831336505d1b32fc2955618fe68a2fcaf7f0c95c92feff"
+    },
+    "output_ref": {
+      "ingest_source": "6fc66163-1b33-4c16-9123-a5b4cf1b5da7",
+      "note": "091d677a-c96c-481e-82e6-d3d0ffd9cddf",
+      "variants": [
+        "4cfe94d9-5733-4e12-9474-ed27209a92a3",
+        "b872fb4d-b6a0-4b64-94a0-4f35348e386d"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7a1c03da-f65e-4705-b0b3-27c6a0f17989",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/形容词最全.html",
+    "collected_at": "2025-11-09T20:01:38.906259Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d2f73a631281918a389fb502e5a3161bfb107e442f008b885529a2d1dba7c194",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "851627a5-287a-45bc-b7a2-fc032a8f46fe",
+    "ingest_source_id": "7a1c03da-f65e-4705-b0b3-27c6a0f17989",
+    "canonical_title": "形容词最全",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.906262Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "形容词最全.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "04ddaf8d-0d5d-4d36-885e-a10f9b0d4a3a",
+      "note_id": "851627a5-287a-45bc-b7a2-fc032a8f46fe",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.906265Z",
+      "content": "---\ntitle: 形容词最全\nupdated: 2021-02-18 22:35:59Z\ncreated: 2021-02-18 22:35:00Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><img src=\"../_resources/saved_resource%282%29.jpeg\"  hash=\"e9c6838a9ce0dee377603b9f585e32d1\" type=\"image/jpeg\" alt=\"saved_resource(2).jpeg\" /></en-media></div><div><br/></div><div><img src=\"../_resources/i6.qiuzhi5.jpg\"  hash=\"22d7b6385407f54c3a7bd28e66100cd0\" type=\"image/jpeg\" alt=\"i6.qiuzhi5.jpg\" /></en-media><img src=\"../_resources/saved_resource%281%29.jpeg\"  hash=\"f6318a9eb93bcc86f72e32bca0d916d0\" type=\"image/jpeg\" alt=\"saved_resource(1).jpeg\" /></en-media></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d2f73a631281918a389fb502e5a3161bfb107e442f008b885529a2d1dba7c194",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/形容词最全.html"
+      }
+    },
+    {
+      "id": "5dbce856-4aaa-43ed-b274-2bfd33c0d433",
+      "note_id": "851627a5-287a-45bc-b7a2-fc032a8f46fe",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.906268Z",
+      "content": "---\ntitle: 形容词最全\nupdated: 2021-02-18 22:35:59Z\ncreated: 2021-02-18 22:35:00Z\nauthor: tangyongfeng@gmail.com\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 111,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f17266ce-5b02-4521-9bc3-ee969e481f21",
+    "note_id": "851627a5-287a-45bc-b7a2-fc032a8f46fe",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.906273Z",
+    "finished_at": "2025-11-09T20:01:38.906273Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0b121e20-12be-48bc-a490-6e0860ff36ea",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/形容词最全.html",
+      "checksum": "d2f73a631281918a389fb502e5a3161bfb107e442f008b885529a2d1dba7c194"
+    },
+    "output_ref": {
+      "ingest_source": "7a1c03da-f65e-4705-b0b3-27c6a0f17989",
+      "note": "851627a5-287a-45bc-b7a2-fc032a8f46fe",
+      "variants": [
+        "04ddaf8d-0d5d-4d36-885e-a10f9b0d4a3a",
+        "5dbce856-4aaa-43ed-b274-2bfd33c0d433"
+      ]
+    },
+    "error_detail": null
+  }
+}

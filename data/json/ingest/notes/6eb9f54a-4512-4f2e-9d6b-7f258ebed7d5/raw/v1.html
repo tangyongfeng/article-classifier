@@ -1,0 +1,8 @@
+---
+title: 优化表空间
+updated: 2022-09-03 20:11:04Z
+created: 2022-09-03 20:08:56Z
+---
+
+
+<en-note><div>一、删除表|清空数据表</div><div>当执行删除数据表或者清空数据表的全部数据操作时，都会释放掉相应的磁盘存储空间。</div><div><br/></div><div>drop table table_name;</div><div>truncate table table_name;</div><div>在MyISAM和InnoDB(innodb_file_per_table)存储引擎中，数据信息存在在单个文件中。删除表操作和清空数据表操作都会释放空间。</div><div><br/></div><div>二、删除表数据</div><div>delete from table_name [where xxx];</div><div>使用delete删除的时候，MySQL并没有把数据文件删除，而是将数据文件的标识位删除，没有整理文件，因此不会彻底释放空间。被删除的数据将会被保存在一个链接清单中，当有新数据写入的时候，MySQL会利用这些已删除的空间再写入。即，删除操作会带来一些数据碎片，正是这些碎片在占用硬盘空间。</div><div><br/></div><div>三、优化表空间</div><div>方法一：</div><div><br/></div><div>optimize table table_name ;</div><div>当表数据被大量删除后，释放占用的空间就变得很有必要了。会明显的提高查询速度。使用 optimize table。被删除的记录被保持在链接清单中，后续的 insert 操作会重新使用旧的记录位置。您可以使用 optimize table 来重新利用未使用的空间，并整理数据文件的碎片。optimize 适用于InnoDB和MyISAM存储引擎。</div><div><br/></div><div>查看表占用硬盘空间大小的SQL语句如下：（默认用M做展示单位）</div><div><br/></div><div>SELECT TABLE_NAME, (DATA_LENGTH+INDEX_LENGTH)/1048576 as size_Mb, TABLE_ROWS FROM information_schema.tables WHERE TABLE_SCHEMA=&apos;数据库名称&apos; AND TABLE_NAME=&apos;表名&apos;</div><div><br/></div><div><br/></div><div>方法二：</div><div><br/></div><div>alter table tab_name&nbsp; ENGINE = &apos;InnoDB&apos;;</div><div>注意：该操作执行的时候会把该表格先写入一个tmp临时表，所以磁盘剩余空间必须大于表空间，否则会执行失败。</div><div><br/></div><div>方法三：</div><div>先将整个表的结构和数据导出来，删除整个表，再创建表，最后导入数据。生产环境不建议用这个方法。</div></en-note>      

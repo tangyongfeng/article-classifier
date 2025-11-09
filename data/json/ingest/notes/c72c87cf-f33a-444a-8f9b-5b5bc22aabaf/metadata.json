@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b160593c-0ff5-46a1-9ed2-0596a7f3ccbb",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/EfvHfZ-UcAA-IRO 854×833像素.html",
+    "collected_at": "2025-11-09T20:05:15.628309Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "726f0c9cb7b00f640e740456f8609bf1dd9320419e49f5b1429ce41300921579",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c72c87cf-f33a-444a-8f9b-5b5bc22aabaf",
+    "ingest_source_id": "b160593c-0ff5-46a1-9ed2-0596a7f3ccbb",
+    "canonical_title": "EfvHfZ-UcAA-IRO 854×833像素",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.628313Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "EfvHfZ-UcAA-IRO 854×833像素.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f83aebca-2053-433e-98a6-f05929e2d180",
+      "note_id": "c72c87cf-f33a-444a-8f9b-5b5bc22aabaf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.628315Z",
+      "content": "---\ntitle: EfvHfZ-UcAA-IRO 854×833像素\nupdated: 2020-08-27 07:48:40Z\ncreated: 2020-08-19 23:02:29Z\nsource: https://pbs.twimg.com/media/EfvHfZ-UcAA-IRO?format=jpg&name=900x900\n---\n\n\n\n<en-note>\n<div STYLE=\"\"><img src=\"../_resources/10a1656e7d50cc0b09929b11ea9cb0c3.jpg\"  style=\"display: block; margin: auto; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);\" hash=\"10a1656e7d50cc0b09929b11ea9cb0c3\" type=\"image/jpeg\" alt=\"\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "726f0c9cb7b00f640e740456f8609bf1dd9320419e49f5b1429ce41300921579",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/EfvHfZ-UcAA-IRO 854×833像素.html"
+      }
+    },
+    {
+      "id": "b10c7b19-ffe5-47aa-bdbb-15f923a297f9",
+      "note_id": "c72c87cf-f33a-444a-8f9b-5b5bc22aabaf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.628318Z",
+      "content": "---\ntitle: EfvHfZ-UcAA-IRO 854×833像素\nupdated: 2020-08-27 07:48:40Z\ncreated: 2020-08-19 23:02:29Z\nsource: https://pbs.twimg.com/media/EfvHfZ-UcAA-IRO?format=jpg&name=900x900\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 176,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "49c03e75-88ba-4cd7-a532-38edde0fee65",
+    "note_id": "c72c87cf-f33a-444a-8f9b-5b5bc22aabaf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.628323Z",
+    "finished_at": "2025-11-09T20:05:15.628323Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "170cd432-ac19-4591-8cb5-969baee773cd",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/EfvHfZ-UcAA-IRO 854×833像素.html",
+      "checksum": "726f0c9cb7b00f640e740456f8609bf1dd9320419e49f5b1429ce41300921579"
+    },
+    "output_ref": {
+      "ingest_source": "b160593c-0ff5-46a1-9ed2-0596a7f3ccbb",
+      "note": "c72c87cf-f33a-444a-8f9b-5b5bc22aabaf",
+      "variants": [
+        "f83aebca-2053-433e-98a6-f05929e2d180",
+        "b10c7b19-ffe5-47aa-bdbb-15f923a297f9"
+      ]
+    },
+    "error_detail": null
+  }
+}

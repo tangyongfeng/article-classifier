@@ -1,0 +1,41 @@
+---
+title: 连接系统扩展测试准备会议
+updated: 2013-03-01 02:57:37Z
+created: 2013-02-25 01:57:39Z
+tags:
+  - IBM
+  - WTCF
+  - 会议记录
+---
+
+v时间：2013年2月25日10点
+
+地点：IBM上地办公室会议室
+参会人员：岳益民、王程民、李振亚、全仁山、张鹏、唐永峰
+内容：
+Mike下周五来
+议题：
+怎么测试
+impact展示内容
+当前的问题还是物理资源不够，网卡没有
+建议把每一个个字段的解析交给wtcf来做，通用性会有很多的好处。
+增加 Device ID 作为检索内容
+          deviceID    UID              sessionID
+             |             |                    |
+             V            V                    V
+           ---------------------------------
+                       traceInfo
+       User Record:UID,User Name ,etc
+      Device record:Device ID,Session ID
+      TraceInfo&VLTInfo
+大概分工：
+数据库结构：ibm
+数据访问模块：ibm
+模拟测试驱动：clo
+测试数据：clo
+共同工作：drvier 和数据访问层的接口，通过讨论。
+测试
+测试数据
+4亿uid
+8亿dev
+数据类型和内容

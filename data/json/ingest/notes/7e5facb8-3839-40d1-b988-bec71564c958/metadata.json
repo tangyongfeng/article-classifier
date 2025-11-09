@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "50861fed-857d-49b4-9959-412a6521c881",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/IFTTT key.html",
+    "collected_at": "2025-11-09T20:05:13.203497Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "738547c392c982a8bcf944fffe9f30aeb354bfe9eac31b0710c2cc7bbf60c153",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7e5facb8-3839-40d1-b988-bec71564c958",
+    "ingest_source_id": "50861fed-857d-49b4-9959-412a6521c881",
+    "canonical_title": "IFTTT key",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.203501Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "IFTTT key.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1e2b3bee-aff6-4071-9319-6dfa8fa6babf",
+      "note_id": "7e5facb8-3839-40d1-b988-bec71564c958",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.203504Z",
+      "content": "---\ntitle: IFTTT key\nupdated: 2022-04-30 20:54:59Z\ncreated: 2022-04-30 20:54:32Z\n---\n\n\n<en-note><h1 STYLE=\"text-align:start;\"><b><span STYLE=\"color:rgb(51, 51, 51);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></b></h1><div><b><span STYLE=\"color:rgb(51, 51, 51);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></b></div><div><b><span STYLE=\"color:rgb(51, 51, 51);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></b></div><div><a HREF=\"https://maker.ifttt.com/use/k8ghFuumhsy_30_b_dNxhG1HXy42Urjm0dqsF19Q-hz\">https://maker.ifttt.com/use/k8ghFuumhsy_30_b_dNxhG1HXy42Urjm0dqsF19Q-hz</a></div><div><br/></div><div><br/></div><h1 STYLE=\"text-align:start;\"><b><span STYLE=\"color:rgb(51, 51, 51);\">k8ghFuumhsy_30_b_dNxhG1HXy42Urjm0dqsF19Q-hz</span></b></h1></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "738547c392c982a8bcf944fffe9f30aeb354bfe9eac31b0710c2cc7bbf60c153",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/IFTTT key.html"
+      }
+    },
+    {
+      "id": "fd941865-117b-4d88-b0e9-05c3f062082b",
+      "note_id": "7e5facb8-3839-40d1-b988-bec71564c958",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.203507Z",
+      "content": "---\ntitle: IFTTT key\nupdated: 2022-04-30 20:54:59Z\ncreated: 2022-04-30 20:54:32Z\n---\n\nhttps://maker.ifttt.com/use/k8ghFuumhsy_30_b_dNxhG1HXy42Urjm0dqsF19Q-hz\nk8ghFuumhsy_30_b_dNxhG1HXy42Urjm0dqsF19Q-hz",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 201,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c24fd0c8-68e4-4f16-aa20-a2f16adeca7f",
+    "note_id": "7e5facb8-3839-40d1-b988-bec71564c958",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.203512Z",
+    "finished_at": "2025-11-09T20:05:13.203512Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fafdd04f-d9a6-4a62-9ef9-de92425e63d9",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/IFTTT key.html",
+      "checksum": "738547c392c982a8bcf944fffe9f30aeb354bfe9eac31b0710c2cc7bbf60c153"
+    },
+    "output_ref": {
+      "ingest_source": "50861fed-857d-49b4-9959-412a6521c881",
+      "note": "7e5facb8-3839-40d1-b988-bec71564c958",
+      "variants": [
+        "1e2b3bee-aff6-4071-9319-6dfa8fa6babf",
+        "fd941865-117b-4d88-b0e9-05c3f062082b"
+      ]
+    },
+    "error_detail": null
+  }
+}

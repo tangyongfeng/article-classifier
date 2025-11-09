@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c62ede86-cd02-419a-a54c-7d7dbc5c31f8",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/各省电话投注系统容量分析.html",
+    "collected_at": "2025-11-09T20:01:39.543681Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "d4c0428da89324e01542295f7bac53d31780dcc6a606e15512850b003dfbf8eb",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b4ec77ae-929d-4c69-bdb6-18034b58e16c",
+    "ingest_source_id": "c62ede86-cd02-419a-a54c-7d7dbc5c31f8",
+    "canonical_title": "各省电话投注系统容量分析",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.543687Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "各省电话投注系统容量分析.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "52dacfd4-940f-4af3-b0bc-342ad4866960",
+      "note_id": "b4ec77ae-929d-4c69-bdb6-18034b58e16c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.543691Z",
+      "content": "---\ntitle: 各省电话投注系统容量分析\nupdated: 2013-09-24 12:26:12Z\ncreated: 2013-09-24 12:26:12Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n各省电话投注系统容量分析<br/>\n一、&nbsp;&nbsp;&nbsp;&nbsp; 分析原则<br/>\n该系统是用于全国各省的电话投注系统账户资金管理。按照分省管理的原则，每个省有属于自己的独立系统，承担交易业务中的账户管理和资金管理职责，但是又准实时的将账户信息和资金信息同步至全国中心的中央系统中。<br/>\n所以在系统规划的初期，从宏观的角度上看，可以认为设计一套系统，复制为三十二个左右的子系统，这些子系统软件结构相同，硬件结构略有差异，对网络的依赖性较大。子系统通过网络与中央系统相连接。<br/>\n系统的主要功能是在各省的彩票交易系统前端，处理账户资金信息，所以系统容量，除了满足自身的业务<br/>\n二、&nbsp;&nbsp;&nbsp;&nbsp; 业务关联性分析<br/>\n三、&nbsp;&nbsp;&nbsp;&nbsp; 总体规模分析<br/>\n四、&nbsp;&nbsp;&nbsp;&nbsp; 系统容量分析<br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d4c0428da89324e01542295f7bac53d31780dcc6a606e15512850b003dfbf8eb",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/各省电话投注系统容量分析.html"
+      }
+    },
+    {
+      "id": "f29ce443-8aaa-445d-9fdd-41e23122d750",
+      "note_id": "b4ec77ae-929d-4c69-bdb6-18034b58e16c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.543696Z",
+      "content": "---\ntitle: 各省电话投注系统容量分析\nupdated: 2013-09-24 12:26:12Z\ncreated: 2013-09-24 12:26:12Z\n---\n\n各省电话投注系统容量分析\n\n一、     分析原则\n\n该系统是用于全国各省的电话投注系统账户资金管理。按照分省管理的原则，每个省有属于自己的独立系统，承担交易业务中的账户管理和资金管理职责，但是又准实时的将账户信息和资金信息同步至全国中心的中央系统中。\n\n所以在系统规划的初期，从宏观的角度上看，可以认为设计一套系统，复制为三十二个左右的子系统，这些子系统软件结构相同，硬件结构略有差异，对网络的依赖性较大。子系统通过网络与中央系统相连接。\n\n系统的主要功能是在各省的彩票交易系统前端，处理账户资金信息，所以系统容量，除了满足自身的业务\n\n二、     业务关联性分析\n\n三、     总体规模分析\n\n四、     系统容量分析",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 403,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4d9ee0bb-476c-4b59-b011-48904008f285",
+    "note_id": "b4ec77ae-929d-4c69-bdb6-18034b58e16c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.543703Z",
+    "finished_at": "2025-11-09T20:01:39.543703Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "85f05d72-1701-4272-ab25-82d5ff56a540",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/各省电话投注系统容量分析.html",
+      "checksum": "d4c0428da89324e01542295f7bac53d31780dcc6a606e15512850b003dfbf8eb"
+    },
+    "output_ref": {
+      "ingest_source": "c62ede86-cd02-419a-a54c-7d7dbc5c31f8",
+      "note": "b4ec77ae-929d-4c69-bdb6-18034b58e16c",
+      "variants": [
+        "52dacfd4-940f-4af3-b0bc-342ad4866960",
+        "f29ce443-8aaa-445d-9fdd-41e23122d750"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0feab44f-97d2-4ca8-a8e5-c29e0998cd82",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/brauchen 和 benötigen.html",
+    "collected_at": "2025-11-09T20:05:17.929632Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "90ce93b879a833957b42b6adedce655dd5eeb1e99e52a9e39a970510e95811c5",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e99b4949-ed8d-4e1d-aec5-b8fa4e6274b1",
+    "ingest_source_id": "0feab44f-97d2-4ca8-a8e5-c29e0998cd82",
+    "canonical_title": "brauchen 和 benötigen",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:05:17.929636Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "brauchen 和 benötigen.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e14a2885-5a29-44f6-aa94-69afdb3d489c",
+      "note_id": "e99b4949-ed8d-4e1d-aec5-b8fa4e6274b1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.929639Z",
+      "content": "---\ntitle: brauchen 和 benötigen\nupdated: 2021-09-29 20:56:06Z\ncreated: 2021-09-29 20:55:33Z\n---\n\n\n<en-note><div><br/></div><table WIDTH=\"380px\" CELLSPACING=\"0\" CELLPADDING=\"0\" STYLE=\"width:380px;border-collapse:collapse;\"><colgroup><col STYLE=\"width: 190px;\"/><col STYLE=\"width: 190px;\"/></colgroup><tbody><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><b>词义解析：</b></div><div>口语用词，指需要某人某物；</div><div>可以是主观的，也可以是客观的；</div><div>常常会和不定式连用，肯定句中常常有nur,blo&szlig;等限定词，还常常和nicht构成否定；</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><b>词义解析：</b></div><div>指为了某一实际用途而急需某人某物；</div><div>书面用语，语气重于brauchen；</div><div>往往强调客观的需要；</div><div>&nbsp;</div></td></tr></tbody></table><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "90ce93b879a833957b42b6adedce655dd5eeb1e99e52a9e39a970510e95811c5",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/brauchen 和 benötigen.html"
+      }
+    },
+    {
+      "id": "b66729b3-8d56-4781-937d-f53f34c39553",
+      "note_id": "e99b4949-ed8d-4e1d-aec5-b8fa4e6274b1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.929641Z",
+      "content": "---\ntitle: brauchen 和 benötigen\nupdated: 2021-09-29 20:56:06Z\ncreated: 2021-09-29 20:55:33Z\n---\n\n词义解析：\n口语用词，指需要某人某物；\n可以是主观的，也可以是客观的；\n常常会和不定式连用，肯定句中常常有nur,bloß等限定词，还常常和nicht构成否定；\n词义解析：\n指为了某一实际用途而急需某人某物；\n书面用语，语气重于brauchen；\n往往强调客观的需要；",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 231,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6fddd5d3-afd8-4e00-928d-5083dbd2a77e",
+    "note_id": "e99b4949-ed8d-4e1d-aec5-b8fa4e6274b1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.929646Z",
+    "finished_at": "2025-11-09T20:05:17.929646Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c0430544-9aba-424b-8892-7fb90950a7e2",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/brauchen 和 benötigen.html",
+      "checksum": "90ce93b879a833957b42b6adedce655dd5eeb1e99e52a9e39a970510e95811c5"
+    },
+    "output_ref": {
+      "ingest_source": "0feab44f-97d2-4ca8-a8e5-c29e0998cd82",
+      "note": "e99b4949-ed8d-4e1d-aec5-b8fa4e6274b1",
+      "variants": [
+        "e14a2885-5a29-44f6-aa94-69afdb3d489c",
+        "b66729b3-8d56-4781-937d-f53f34c39553"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a464f8cd-b793-4f40-9605-6e5b5f4e5ba0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/放.html",
+    "collected_at": "2025-11-09T20:01:39.142892Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "b92888ecef8728f5c2c832c6e88d8df097083caa86fd08fa3bd47d1829cfe0df",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "beb468da-7025-45b4-90e9-ed07e7bf5518",
+    "ingest_source_id": "a464f8cd-b793-4f40-9605-6e5b5f4e5ba0",
+    "canonical_title": "放",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:39.142896Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "放.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3cb9a186-ea67-439a-8ed2-a20b35b77357",
+      "note_id": "beb468da-7025-45b4-90e9-ed07e7bf5518",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.142899Z",
+      "content": "---\ntitle: 放\nupdated: 2020-10-04 21:10:37Z\ncreated: 2020-10-04 20:59:28Z\n---\n\n\n\n<en-note><div>stehen stand gestanden 站，竖放</div><div>stellen (sich) &nbsp;stellt gestellt （把自己）站，竖放</div><div>liegen lag gelegen 躺，平放</div><div>legen (sich) &nbsp;legte &nbsp; gelegt &nbsp;（把自己）躺，平放</div><div>sitzen sa&szlig; gesessen 坐，坐放</div><div>setzen （sich) &nbsp;setze gesetze&nbsp;<span STYLE=\"-webkit-text-size-adjust: 100%;\">（把自己）坐，坐放</span></div><div><span STYLE=\"-webkit-text-size-adjust: 100%;\"><br/></span></div><div><span STYLE=\"-webkit-text-size-adjust: 100%;\"><br/></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b92888ecef8728f5c2c832c6e88d8df097083caa86fd08fa3bd47d1829cfe0df",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/放.html"
+      }
+    },
+    {
+      "id": "313c2b8f-1329-480a-97ba-0f227e52dc08",
+      "note_id": "beb468da-7025-45b4-90e9-ed07e7bf5518",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.142901Z",
+      "content": "---\ntitle: 放\nupdated: 2020-10-04 21:10:37Z\ncreated: 2020-10-04 20:59:28Z\n---\n\nstehen stand gestanden 站，竖放\nstellen (sich)  stellt gestellt （把自己）站，竖放\nliegen lag gelegen 躺，平放\nlegen (sich)  legte   gelegt  （把自己）躺，平放\nsitzen saß gesessen 坐，坐放\nsetzen （sich)  setze gesetze \n（把自己）坐，坐放",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 276,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "641eee0f-ebfe-4640-bdd0-be8de82c024c",
+    "note_id": "beb468da-7025-45b4-90e9-ed07e7bf5518",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.142906Z",
+    "finished_at": "2025-11-09T20:01:39.142906Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8a37a86f-babb-4351-8925-4181bfff9622",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/放.html",
+      "checksum": "b92888ecef8728f5c2c832c6e88d8df097083caa86fd08fa3bd47d1829cfe0df"
+    },
+    "output_ref": {
+      "ingest_source": "a464f8cd-b793-4f40-9605-6e5b5f4e5ba0",
+      "note": "beb468da-7025-45b4-90e9-ed07e7bf5518",
+      "variants": [
+        "3cb9a186-ea67-439a-8ed2-a20b35b77357",
+        "313c2b8f-1329-480a-97ba-0f227e52dc08"
+      ]
+    },
+    "error_detail": null
+  }
+}

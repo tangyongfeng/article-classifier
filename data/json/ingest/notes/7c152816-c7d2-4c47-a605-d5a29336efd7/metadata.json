@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6f3a6ef1-944a-4c74-a342-e58a52277883",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/买机票.html",
+    "collected_at": "2025-11-09T20:05:15.908379Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c254b518e6194104cbb94f0c791994d1630ca38318da14f96cd8901ead070c79",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7c152816-c7d2-4c47-a605-d5a29336efd7",
+    "ingest_source_id": "6f3a6ef1-944a-4c74-a342-e58a52277883",
+    "canonical_title": "买机票",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.908383Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "买机票.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1c7af8ed-18f9-4592-b9f7-44ff9a43ca43",
+      "note_id": "7c152816-c7d2-4c47-a605-d5a29336efd7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.908386Z",
+      "content": "---\ntitle: 买机票\nupdated: 2019-10-27 08:47:59Z\ncreated: 2019-10-27 08:47:46Z\n---\n\n\n<en-note><div><a HREF=\"http://skiplagged.com/\" REV=\"en_rl_none\">http://skiplagged.com/</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c254b518e6194104cbb94f0c791994d1630ca38318da14f96cd8901ead070c79",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/买机票.html"
+      }
+    },
+    {
+      "id": "9fec52c4-7931-46d2-8795-0301c05c1627",
+      "note_id": "7c152816-c7d2-4c47-a605-d5a29336efd7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.908388Z",
+      "content": "---\ntitle: 买机票\nupdated: 2019-10-27 08:47:59Z\ncreated: 2019-10-27 08:47:46Z\n---\n\nhttp://skiplagged.com/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 102,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e9aedc15-fa21-4799-b074-8861143f6ff6",
+    "note_id": "7c152816-c7d2-4c47-a605-d5a29336efd7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.908393Z",
+    "finished_at": "2025-11-09T20:05:15.908394Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ac119a96-c437-4815-bae7-cf4372c504f4",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/买机票.html",
+      "checksum": "c254b518e6194104cbb94f0c791994d1630ca38318da14f96cd8901ead070c79"
+    },
+    "output_ref": {
+      "ingest_source": "6f3a6ef1-944a-4c74-a342-e58a52277883",
+      "note": "7c152816-c7d2-4c47-a605-d5a29336efd7",
+      "variants": [
+        "1c7af8ed-18f9-4592-b9f7-44ff9a43ca43",
+        "9fec52c4-7931-46d2-8795-0301c05c1627"
+      ]
+    },
+    "error_detail": null
+  }
+}

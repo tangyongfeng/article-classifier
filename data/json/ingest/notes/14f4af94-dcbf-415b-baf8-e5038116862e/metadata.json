@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "def4a5a8-50d8-40d4-95cc-cd15f316dddc",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/vPP_yq5pC!_Ut=T6.html",
+    "collected_at": "2025-11-09T20:01:40.003762Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fddc26f4d8d5a48d4468a976ee78dbdb9db7a78559118f475a80eee7fd0bd45d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "14f4af94-dcbf-415b-baf8-e5038116862e",
+    "ingest_source_id": "def4a5a8-50d8-40d4-95cc-cd15f316dddc",
+    "canonical_title": "vPP_yq5pC!_Ut=T6",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:40.003767Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "vPP_yq5pC!_Ut=T6.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "df9b78fc-fe6d-4e44-a1d7-27d2b31b389d",
+      "note_id": "14f4af94-dcbf-415b-baf8-e5038116862e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.003770Z",
+      "content": "---\ntitle: vPP?yq5pC!*Ut=T6\nupdated: 2019-06-16 17:41:12Z\ncreated: 2019-06-16 17:41:12Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>vPP?yq5pC!*Ut=T6</div>\n<div><br/></div>\n<div><br/></div>\n<div>minecraft.net</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fddc26f4d8d5a48d4468a976ee78dbdb9db7a78559118f475a80eee7fd0bd45d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/vPP_yq5pC!_Ut=T6.html"
+      }
+    },
+    {
+      "id": "f8ba388e-4e7d-4891-82a1-7c18d54bbf15",
+      "note_id": "14f4af94-dcbf-415b-baf8-e5038116862e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.003773Z",
+      "content": "---\ntitle: vPP?yq5pC!*Ut=T6\nupdated: 2019-06-16 17:41:12Z\ncreated: 2019-06-16 17:41:12Z\nauthor: tangyongfeng@gmail.com\n---\n\nvPP?yq5pC!*Ut=T6\n\nminecraft.net",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 155,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "088c980f-e07c-47df-9229-48910b19f24c",
+    "note_id": "14f4af94-dcbf-415b-baf8-e5038116862e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.003778Z",
+    "finished_at": "2025-11-09T20:01:40.003778Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c7bf206f-f83c-4bb0-99b0-5efde2b2cf42",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/vPP_yq5pC!_Ut=T6.html",
+      "checksum": "fddc26f4d8d5a48d4468a976ee78dbdb9db7a78559118f475a80eee7fd0bd45d"
+    },
+    "output_ref": {
+      "ingest_source": "def4a5a8-50d8-40d4-95cc-cd15f316dddc",
+      "note": "14f4af94-dcbf-415b-baf8-e5038116862e",
+      "variants": [
+        "df9b78fc-fe6d-4e44-a1d7-27d2b31b389d",
+        "f8ba388e-4e7d-4891-82a1-7c18d54bbf15"
+      ]
+    },
+    "error_detail": null
+  }
+}

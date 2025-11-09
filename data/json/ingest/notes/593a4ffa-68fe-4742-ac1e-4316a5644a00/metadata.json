@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "092f6615-c9e5-406f-ba84-757518b9dde1",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/内部控制系统简介 ICS.html",
+    "collected_at": "2025-11-09T20:01:37.848726Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "91978ccab3b5b7473cb130aaf29389ce8ffde4d24f213884f13f4435e383fdc2",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "593a4ffa-68fe-4742-ac1e-4316a5644a00",
+    "ingest_source_id": "092f6615-c9e5-406f-ba84-757518b9dde1",
+    "canonical_title": "内部控制系统简介 ICS",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.848730Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "内部控制系统简介 ICS.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "595da7ee-570c-404a-838f-a0d50f09fb7c",
+      "note_id": "593a4ffa-68fe-4742-ac1e-4316a5644a00",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.848732Z",
+      "content": "---\ntitle: 内部控制系统简介 ICS\nupdated: 2012-09-18 07:47:46Z\ncreated: 2012-09-18 07:47:33Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><p STYLE=\"language:zh-CN;margin-top:10.56pt;margin-bottom:0pt;margin-left:0in; text-indent:0in;text-align:center;direction:ltr;unicode-bidi:embed;vertical-align: baseline;mso-line-break-override:none;punctuation-wrap:hanging\"><span STYLE=\"font-size:44.0pt;font-family:黑体;mso-ascii-font-family:黑体;mso-fareast-font-family: 黑体;mso-bidi-font-family:+mn-cs;mso-bidi-theme-font:minor-bidi;color:#990000; language:zh-CN;text-combine:letters;font-weight:bold;mso-style-textfill-type: solid;mso-style-textfill-fill-color:#990000;mso-style-textfill-fill-alpha:100.0%\">内部控制系统简介</span></p><div><span STYLE=\"font-size:24.0pt;font-family:\">Internal Control System (ICS)</span></div><div><span STYLE=\"font-size:24.0pt;font-family:\"><br/></span></div><div><span STYLE=\"font-size:24.0pt;font-family:\"><br/></span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "91978ccab3b5b7473cb130aaf29389ce8ffde4d24f213884f13f4435e383fdc2",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/内部控制系统简介 ICS.html"
+      }
+    },
+    {
+      "id": "4311451f-6ab0-45f7-a4ff-1b91cf037753",
+      "note_id": "593a4ffa-68fe-4742-ac1e-4316a5644a00",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.848735Z",
+      "content": "---\ntitle: 内部控制系统简介 ICS\nupdated: 2012-09-18 07:47:46Z\ncreated: 2012-09-18 07:47:33Z\n---\n\n内部控制系统简介\nInternal Control System (ICS)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 127,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "baeda4f2-f61d-4d56-8dad-390fc8be504b",
+    "note_id": "593a4ffa-68fe-4742-ac1e-4316a5644a00",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.848740Z",
+    "finished_at": "2025-11-09T20:01:37.848740Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f3d894a2-0b30-4014-b354-d480e35335e8",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/内部控制系统简介 ICS.html",
+      "checksum": "91978ccab3b5b7473cb130aaf29389ce8ffde4d24f213884f13f4435e383fdc2"
+    },
+    "output_ref": {
+      "ingest_source": "092f6615-c9e5-406f-ba84-757518b9dde1",
+      "note": "593a4ffa-68fe-4742-ac1e-4316a5644a00",
+      "variants": [
+        "595da7ee-570c-404a-838f-a0d50f09fb7c",
+        "4311451f-6ab0-45f7-a4ff-1b91cf037753"
+      ]
+    },
+    "error_detail": null
+  }
+}

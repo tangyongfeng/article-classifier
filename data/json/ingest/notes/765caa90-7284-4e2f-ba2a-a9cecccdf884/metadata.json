@@ -1,0 +1,86 @@
+{
+  "ingest_source": {
+    "id": "19595677-d711-430c-99b2-a1209610bd79",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/1.追求零库存。。。.html",
+    "collected_at": "2025-11-09T13:48:11.890554Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "6f253aaeffa5c0a3b70ea1eb872eed3cb09192ee6ae1de47b6cba1e83d4fc8b8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "765caa90-7284-4e2f-ba2a-a9cecccdf884",
+    "ingest_source_id": "19595677-d711-430c-99b2-a1209610bd79",
+    "canonical_title": "1.追求零库存。。。",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T13:48:11.890570Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "1.追求零库存。。。.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a3e8bd45-ca21-463c-a9bc-0cfb7638188e",
+      "note_id": "765caa90-7284-4e2f-ba2a-a9cecccdf884",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T13:48:11.890576Z",
+      "content": "---\ntitle: 1.追求零库存。。。\nupdated: 2019-05-19 20:22:06Z\ncreated: 2019-05-19 20:22:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><span>1.</span>追求零库存。。。</div>\n<div><span>2.</span>追求高速反应，实际上是以最快的反应速度来应对市场的瞬息变化。。。</div>\n<div><span>3.</span>企业内外环境高度一致。。。</div>\n<div><span>4.</span>强调人力资源重要性，把员工的创造力视为企业最宝贵财富以及未来的原动力。。。</div>\n<div><span>5.</span>坚持库存是祸根的理念，认为不断挤压的库存会增加经营成本、会掩盖企业的实际经营状况。。。<span><br/></span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6f253aaeffa5c0a3b70ea1eb872eed3cb09192ee6ae1de47b6cba1e83d4fc8b8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/1.追求零库存。。。.html"
+      }
+    },
+    {
+      "id": "4dd971c4-700b-4855-84a0-4ecf8b49b2ba",
+      "note_id": "765caa90-7284-4e2f-ba2a-a9cecccdf884",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T13:48:11.890580Z",
+      "content": "---\ntitle: 1.追求零库存。。。\nupdated: 2019-05-19 20:22:06Z\ncreated: 2019-05-19 20:22:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n1.\n追求零库存。。。\n\n2.\n追求高速反应，实际上是以最快的反应速度来应对市场的瞬息变化。。。\n\n3.\n企业内外环境高度一致。。。\n\n4.\n强调人力资源重要性，把员工的创造力视为企业最宝贵财富以及未来的原动力。。。\n\n5.\n坚持库存是祸根的理念，认为不断挤压的库存会增加经营成本、会掩盖企业的实际经营状况。。。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 274
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d51c2dcb-cd1c-4082-81d1-04d7a6168f38",
+    "note_id": "765caa90-7284-4e2f-ba2a-a9cecccdf884",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T13:48:11.890591Z",
+    "finished_at": "2025-11-09T13:48:11.890592Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "519d9c19-a4a2-46e8-9549-4bd38d299e8e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/1.追求零库存。。。.html",
+      "checksum": "6f253aaeffa5c0a3b70ea1eb872eed3cb09192ee6ae1de47b6cba1e83d4fc8b8"
+    },
+    "output_ref": {
+      "ingest_source": "19595677-d711-430c-99b2-a1209610bd79",
+      "note": "765caa90-7284-4e2f-ba2a-a9cecccdf884",
+      "variants": [
+        "a3e8bd45-ca21-463c-a9bc-0cfb7638188e",
+        "4dd971c4-700b-4855-84a0-4ecf8b49b2ba"
+      ]
+    },
+    "error_detail": null
+  }
+}

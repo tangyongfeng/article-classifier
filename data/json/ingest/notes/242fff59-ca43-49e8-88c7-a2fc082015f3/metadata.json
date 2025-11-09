@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b03a837d-299b-40ce-8cd4-5365e5b4ef96",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/数词结尾.html",
+    "collected_at": "2025-11-09T20:05:18.292248Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "b360f55248698d2c04cd316fd67a32f6f9d695bb5d442c8be282a5d8710053be",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "242fff59-ca43-49e8-88c7-a2fc082015f3",
+    "ingest_source_id": "b03a837d-299b-40ce-8cd4-5365e5b4ef96",
+    "canonical_title": "数词结尾",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.292252Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "数词结尾.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f8a47c1b-bcd6-4ca3-838a-be0453ed3198",
+      "note_id": "242fff59-ca43-49e8-88c7-a2fc082015f3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.292254Z",
+      "content": "---\ntitle: 数词结尾\nupdated: 2020-02-17 20:29:58Z\ncreated: 2020-02-17 20:29:08Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><div><br/></div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/></colgroup><tbody><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>阳性</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>阴性</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>中性</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>eins</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>einen</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>eine</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>ein</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td></tr></tbody></table><div><br/></div></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b360f55248698d2c04cd316fd67a32f6f9d695bb5d442c8be282a5d8710053be",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/数词结尾.html"
+      }
+    },
+    {
+      "id": "4af9190f-df8a-4c9a-9041-0f6f2ecbf6c5",
+      "note_id": "242fff59-ca43-49e8-88c7-a2fc082015f3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.292257Z",
+      "content": "---\ntitle: 数词结尾\nupdated: 2020-02-17 20:29:58Z\ncreated: 2020-02-17 20:29:08Z\nauthor: tangyongfeng@gmail.com\n---\n\n阳性\n阴性\n中性\neins\neinen\neine\nein",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 140,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "dd27fadf-e361-4951-af4c-0baf759b67f4",
+    "note_id": "242fff59-ca43-49e8-88c7-a2fc082015f3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.292262Z",
+    "finished_at": "2025-11-09T20:05:18.292262Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dbaa1246-4bcf-45bf-a436-2846dd75f774",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/数词结尾.html",
+      "checksum": "b360f55248698d2c04cd316fd67a32f6f9d695bb5d442c8be282a5d8710053be"
+    },
+    "output_ref": {
+      "ingest_source": "b03a837d-299b-40ce-8cd4-5365e5b4ef96",
+      "note": "242fff59-ca43-49e8-88c7-a2fc082015f3",
+      "variants": [
+        "f8a47c1b-bcd6-4ca3-838a-be0453ed3198",
+        "4af9190f-df8a-4c9a-9041-0f6f2ecbf6c5"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ac1d7684-fc40-4ffd-8a02-2f43d810ba03",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/二年级上册词语表.html",
+    "collected_at": "2025-11-09T20:01:38.326915Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "8e0997f09295fb366c80e8c6f62991c8337a2e652c31444d5aaf34102d8b5ae3",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "adbebaf7-16a1-4aad-8285-814845d3a598",
+    "ingest_source_id": "ac1d7684-fc40-4ffd-8a02-2f43d810ba03",
+    "canonical_title": "二年级上册词语表",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.326919Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "二年级上册词语表.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c5b02400-3856-4dc3-9089-8f229a36f1db",
+      "note_id": "adbebaf7-16a1-4aad-8285-814845d3a598",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.326922Z",
+      "content": "---\ntitle: 二年级上册词语表\nupdated: 2018-12-12 08:50:59Z\ncreated: 2018-12-12 08:38:22Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>两条 哪里 眼睛 就是 头顶 肚皮 孩子 会变 极小 一片 傍晚 工作 坏事 带来 海洋 办法 如果 娃娃</div><div>皮毛 知识 花园 石桥 一群 铜号 队旗 杨树 桐树 枫树 壮大 松柏 木棉 水杉 化石 金桂 丛林 熊猫</div><div>朋友 四季 农事 归来 穿戴 辛苦 一年 称象 送给 柱子 到底 七岁 果然 评奖 时候 拿起 今天 台灯</div><div>电灯 写信 闭上 脸上 故事 头发 窗外 哄我 黄河 日照 南部 那些 巨石 每当 升起 天狗 中央 美丽</div><div>展现 披上 月份 山坡 枝叶 老乡 好客 城市 利用 井沿 回答 口渴 喝水 大话 前面 晴朗 枯草 将来</div><div>夜里 花谢 盯着 奇怪 洪水 灾难 知道 认为 同志 会师 红军 队伍 战士 泼水 花炮 身穿 危楼 不敢</div><div>惊动 阴山 四野 于是 无论 岸边 房屋 一切 不久 散步 唱歌 赶快 旁边 浑身 很轻 水汽 食物 爪子</div><div>野猪 开始 仔细 别急 公平 咬着 风车 转得 流汗 秧苗 广场 伤心 路边</div><div><br/></div><div>跳上来 红领巾 站出来 这幅画 来不及 一封信 依山尽 一层楼 挂前川 收下来 心里想 治一治 天苍苍&nbsp;</div><div>野茫茫 老天爷 吵什么 第一个 圆珠笔 一支笔</div><div><br/></div><div>一杆大称 金光闪闪 名胜古迹 坐井观天 无边无际 几阵秋风 大雪纷飞 自言自语 农业生产 一年一度 令人难忘 神气活现</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8e0997f09295fb366c80e8c6f62991c8337a2e652c31444d5aaf34102d8b5ae3",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/二年级上册词语表.html"
+      }
+    },
+    {
+      "id": "5f851bee-9305-4750-95af-975a72fbee6b",
+      "note_id": "adbebaf7-16a1-4aad-8285-814845d3a598",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.326925Z",
+      "content": "---\ntitle: 二年级上册词语表\nupdated: 2018-12-12 08:50:59Z\ncreated: 2018-12-12 08:38:22Z\nauthor: tangyongfeng@gmail.com\n---\n\n两条 哪里 眼睛 就是 头顶 肚皮 孩子 会变 极小 一片 傍晚 工作 坏事 带来 海洋 办法 如果 娃娃\n皮毛 知识 花园 石桥 一群 铜号 队旗 杨树 桐树 枫树 壮大 松柏 木棉 水杉 化石 金桂 丛林 熊猫\n朋友 四季 农事 归来 穿戴 辛苦 一年 称象 送给 柱子 到底 七岁 果然 评奖 时候 拿起 今天 台灯\n电灯 写信 闭上 脸上 故事 头发 窗外 哄我 黄河 日照 南部 那些 巨石 每当 升起 天狗 中央 美丽\n展现 披上 月份 山坡 枝叶 老乡 好客 城市 利用 井沿 回答 口渴 喝水 大话 前面 晴朗 枯草 将来\n夜里 花谢 盯着 奇怪 洪水 灾难 知道 认为 同志 会师 红军 队伍 战士 泼水 花炮 身穿 危楼 不敢\n惊动 阴山 四野 于是 无论 岸边 房屋 一切 不久 散步 唱歌 赶快 旁边 浑身 很轻 水汽 食物 爪子\n野猪 开始 仔细 别急 公平 咬着 风车 转得 流汗 秧苗 广场 伤心 路边\n跳上来 红领巾 站出来 这幅画 来不及 一封信 依山尽 一层楼 挂前川 收下来 心里想 治一治 天苍苍 \n野茫茫 老天爷 吵什么 第一个 圆珠笔 一支笔\n一杆大称 金光闪闪 名胜古迹 坐井观天 无边无际 几阵秋风 大雪纷飞 自言自语 农业生产 一年一度 令人难忘 神气活现",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 669,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "983570b3-d996-49e2-948e-5bfc48127035",
+    "note_id": "adbebaf7-16a1-4aad-8285-814845d3a598",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.326931Z",
+    "finished_at": "2025-11-09T20:01:38.326931Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "715c26dc-147c-46f7-b4aa-83c4d8f3d191",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/二年级上册词语表.html",
+      "checksum": "8e0997f09295fb366c80e8c6f62991c8337a2e652c31444d5aaf34102d8b5ae3"
+    },
+    "output_ref": {
+      "ingest_source": "ac1d7684-fc40-4ffd-8a02-2f43d810ba03",
+      "note": "adbebaf7-16a1-4aad-8285-814845d3a598",
+      "variants": [
+        "c5b02400-3856-4dc3-9089-8f229a36f1db",
+        "5f851bee-9305-4750-95af-975a72fbee6b"
+      ]
+    },
+    "error_detail": null
+  }
+}

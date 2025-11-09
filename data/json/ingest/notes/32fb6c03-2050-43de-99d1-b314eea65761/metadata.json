@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "aff8c6eb-9b5a-4706-9c4f-e71c8876c7fe",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/大族激光-1.html",
+    "collected_at": "2025-11-09T20:05:18.613935Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f6bd5125d95fc88808ce19393318448b97877363fa66c5d0d5aa7e63acd007c7",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "32fb6c03-2050-43de-99d1-b314eea65761",
+    "ingest_source_id": "aff8c6eb-9b5a-4706-9c4f-e71c8876c7fe",
+    "canonical_title": "大族激光-1",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.613940Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "大族激光-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b86186d4-2010-4c01-b964-2bc440902913",
+      "note_id": "32fb6c03-2050-43de-99d1-b314eea65761",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.613944Z",
+      "content": "---\ntitle: 大族激光\nupdated: 2013-09-26 09:30:59Z\ncreated: 2013-09-26 09:30:59Z\ntags:\n  - 盈利率0\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f6bd5125d95fc88808ce19393318448b97877363fa66c5d0d5aa7e63acd007c7",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/大族激光-1.html"
+      }
+    },
+    {
+      "id": "99a4337f-cebc-4385-b864-2ad549e1bca5",
+      "note_id": "32fb6c03-2050-43de-99d1-b314eea65761",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.613948Z",
+      "content": "---\ntitle: 大族激光\nupdated: 2013-09-26 09:30:59Z\ncreated: 2013-09-26 09:30:59Z\ntags:\n  - 盈利率0\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 94,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "eea72ff2-42e0-494b-a663-f114ab6d445d",
+    "note_id": "32fb6c03-2050-43de-99d1-b314eea65761",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.613954Z",
+    "finished_at": "2025-11-09T20:05:18.613955Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b5ec55f7-f3e0-4f44-9362-5b83c5497080",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/大族激光-1.html",
+      "checksum": "f6bd5125d95fc88808ce19393318448b97877363fa66c5d0d5aa7e63acd007c7"
+    },
+    "output_ref": {
+      "ingest_source": "aff8c6eb-9b5a-4706-9c4f-e71c8876c7fe",
+      "note": "32fb6c03-2050-43de-99d1-b314eea65761",
+      "variants": [
+        "b86186d4-2010-4c01-b964-2bc440902913",
+        "99a4337f-cebc-4385-b864-2ad549e1bca5"
+      ]
+    },
+    "error_detail": null
+  }
+}

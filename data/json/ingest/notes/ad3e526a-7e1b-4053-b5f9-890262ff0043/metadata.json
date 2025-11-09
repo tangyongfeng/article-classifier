@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c58363ed-0319-4863-9562-37ee013703a2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/第三方设备连进用户的WiFi.html",
+    "collected_at": "2025-11-09T20:01:36.216108Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "98d00123ad659e99976d07269d4e9c49a13363b803c06849221a3e0dd201c77a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ad3e526a-7e1b-4053-b5f9-890262ff0043",
+    "ingest_source_id": "c58363ed-0319-4863-9562-37ee013703a2",
+    "canonical_title": "第三方设备连进用户的WiFi",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:36.216112Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "第三方设备连进用户的WiFi.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "836da191-5df2-468d-9dcd-6f0bc49b6d7e",
+      "note_id": "ad3e526a-7e1b-4053-b5f9-890262ff0043",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.216114Z",
+      "content": "---\ntitle: 第三方设备连进用户的WiFi\nupdated: 2018-05-05 19:32:19Z\ncreated: 2018-05-05 19:32:19Z\n---\n\n\n<en-note><div>[cp]IoT 设备需要连进用户的 WiFi，但是设计上没有蓝牙模块，而自己做 AP 让用户连上来输密码的体验又太差，用户自己的 WiFi 又是加密的不可能直接广播出 SSID 和密码给设备来侦听到，怎么办呢？<br/><br/>今天学到一个骚操作：用户保持连接自己的正常 WiFi，设备的手机 app 将 WiFi SSID 和密码拼成一个字符串，然后依次取出这个字符串的每个字节作为一个 UDP 组播包的目标地址最低位，并发出这个组播。二层组播地址最低字节与三层一致，而 802.11 帧中 Receiver address 字段总是明文的，因此只要智能设备持续侦听有流量的信道，抓到全部这种组播帧，就可以把所有帧的最低字节组合起来得到用户输入的 SSID 和密码。这样一来，就可以实现用户不需要切换 WiFi、也不需要解除 WiFi 加密就能让智能设备联网的目标了。真的是太机智了！（当然，实际上不止用了最低那一字节）<br/><br/></div><div>之前了解到有些安防摄像头联网的方式是手机把 SSID 和密码做成一个二维码，然后把手机举到摄像头前给它扫。我觉得这种方式已经很骚了，没想到还有更骚的，开眼界了[跪了][/cp]</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "98d00123ad659e99976d07269d4e9c49a13363b803c06849221a3e0dd201c77a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/第三方设备连进用户的WiFi.html"
+      }
+    },
+    {
+      "id": "827e6edd-e358-4fb8-a49a-6d8355113a96",
+      "note_id": "ad3e526a-7e1b-4053-b5f9-890262ff0043",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.216117Z",
+      "content": "---\ntitle: 第三方设备连进用户的WiFi\nupdated: 2018-05-05 19:32:19Z\ncreated: 2018-05-05 19:32:19Z\n---\n\n[cp]IoT 设备需要连进用户的 WiFi，但是设计上没有蓝牙模块，而自己做 AP 让用户连上来输密码的体验又太差，用户自己的 WiFi 又是加密的不可能直接广播出 SSID 和密码给设备来侦听到，怎么办呢？\n今天学到一个骚操作：用户保持连接自己的正常 WiFi，设备的手机 app 将 WiFi SSID 和密码拼成一个字符串，然后依次取出这个字符串的每个字节作为一个 UDP 组播包的目标地址最低位，并发出这个组播。二层组播地址最低字节与三层一致，而 802.11 帧中 Receiver address 字段总是明文的，因此只要智能设备持续侦听有流量的信道，抓到全部这种组播帧，就可以把所有帧的最低字节组合起来得到用户输入的 SSID 和密码。这样一来，就可以实现用户不需要切换 WiFi、也不需要解除 WiFi 加密就能让智能设备联网的目标了。真的是太机智了！（当然，实际上不止用了最低那一字节）\n之前了解到有些安防摄像头联网的方式是手机把 SSID 和密码做成一个二维码，然后把手机举到摄像头前给它扫。我觉得这种方式已经很骚了，没想到还有更骚的，开眼界了[跪了][/cp]",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 583,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ce4945b3-19ed-477c-a62b-e938d1fb6211",
+    "note_id": "ad3e526a-7e1b-4053-b5f9-890262ff0043",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.216122Z",
+    "finished_at": "2025-11-09T20:01:36.216122Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b15c69a5-dd7f-47e9-9ed2-2dd103bcbcbb",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/第三方设备连进用户的WiFi.html",
+      "checksum": "98d00123ad659e99976d07269d4e9c49a13363b803c06849221a3e0dd201c77a"
+    },
+    "output_ref": {
+      "ingest_source": "c58363ed-0319-4863-9562-37ee013703a2",
+      "note": "ad3e526a-7e1b-4053-b5f9-890262ff0043",
+      "variants": [
+        "836da191-5df2-468d-9dcd-6f0bc49b6d7e",
+        "827e6edd-e358-4fb8-a49a-6d8355113a96"
+      ]
+    },
+    "error_detail": null
+  }
+}

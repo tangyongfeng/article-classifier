@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4dbd8855-264c-4cd6-9cb6-43d2d07c7a0a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/如何申请medical.html",
+    "collected_at": "2025-11-09T20:05:19.082409Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e7cca7c303fc3e739362afbfd5ea9679552d548d7931e77c0525932ef391d74f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "185c4962-64a8-4fc6-a71b-2540a4b182d2",
+    "ingest_source_id": "4dbd8855-264c-4cd6-9cb6-43d2d07c7a0a",
+    "canonical_title": "如何申请medical",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:19.082413Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "如何申请medical.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7d8d038a-6291-4386-9768-15633b5fab99",
+      "note_id": "185c4962-64a8-4fc6-a71b-2540a4b182d2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.082416Z",
+      "content": "---\ntitle: 如何申请medical\nupdated: 2012-10-09 08:20:31Z\ncreated: 2012-10-09 08:19:58Z\nsource: http://www.chineseinla.com/f/page_viewtopic/t_25940.html\ntags:\n  - 保险\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><p>之前我为如何申请medical的事情很烦恼</p><p>问了很多地方都不确定</p><p>最后由朋友那里知道地址 也都办理妥当 我想会对即将生产的妈妈有帮助或是想申请medical人有帮助</p><p>Department Of Public</p><p>Social Service</p><p>地址是 3352 Aerojet Ave El monte,CA 91732</p><p>电话是 626 569 3624</p><p>只要带上你的证件 像我带上我的护照 还有医生开的证明 其他的都是要在那填的表格。</p></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e7cca7c303fc3e739362afbfd5ea9679552d548d7931e77c0525932ef391d74f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/如何申请medical.html"
+      }
+    },
+    {
+      "id": "a50c6161-737f-4d50-b890-359337db76b7",
+      "note_id": "185c4962-64a8-4fc6-a71b-2540a4b182d2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.082418Z",
+      "content": "---\ntitle: 如何申请medical\nupdated: 2012-10-09 08:20:31Z\ncreated: 2012-10-09 08:19:58Z\nsource: http://www.chineseinla.com/f/page_viewtopic/t_25940.html\ntags:\n  - 保险\n---\n\n之前我为如何申请medical的事情很烦恼\n问了很多地方都不确定\n最后由朋友那里知道地址 也都办理妥当 我想会对即将生产的妈妈有帮助或是想申请medical人有帮助\nDepartment Of Public\nSocial Service\n地址是 3352 Aerojet Ave El monte,CA 91732\n电话是 626 569 3624\n只要带上你的证件 像我带上我的护照 还有医生开的证明 其他的都是要在那填的表格。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 381,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a9fe177f-a316-4544-96f1-2d303cee38ae",
+    "note_id": "185c4962-64a8-4fc6-a71b-2540a4b182d2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:19.082423Z",
+    "finished_at": "2025-11-09T20:05:19.082424Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "afb8ae0e-46c4-486d-8c37-5a8b78219a8d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/如何申请medical.html",
+      "checksum": "e7cca7c303fc3e739362afbfd5ea9679552d548d7931e77c0525932ef391d74f"
+    },
+    "output_ref": {
+      "ingest_source": "4dbd8855-264c-4cd6-9cb6-43d2d07c7a0a",
+      "note": "185c4962-64a8-4fc6-a71b-2540a4b182d2",
+      "variants": [
+        "7d8d038a-6291-4386-9768-15633b5fab99",
+        "a50c6161-737f-4d50-b890-359337db76b7"
+      ]
+    },
+    "error_detail": null
+  }
+}

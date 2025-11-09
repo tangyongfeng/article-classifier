@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ad76e9d7-2399-4c0a-8e1a-e261402d4e8c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/1、 余主任需要详细了解公司的系统情况，在九层建立环境。要看vlt和公司的相关储备。主要以展示为主，.html",
+    "collected_at": "2025-11-09T20:05:16.850131Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "609ebd11cc49b15d8c82a35d694a145695d34fee0456a99c0b2d8d04039e77e9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4e74b180-b6af-43c1-8d5c-1909b4277f3a",
+    "ingest_source_id": "ad76e9d7-2399-4c0a-8e1a-e261402d4e8c",
+    "canonical_title": "1、 余主任需要详细了解公司的系统情况，在九层建立环境。要看vlt和公司的相关储备。主要以展示为主，",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.850135Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "1、 余主任需要详细了解公司的系统情况，在九层建立环境。要看vlt和公司的相关储备。主要以展示为主，.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8717e2ef-0d9e-4cf1-a79c-4a08651465f8",
+      "note_id": "4e74b180-b6af-43c1-8d5c-1909b4277f3a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.850138Z",
+      "content": "---\ntitle: >-\n  1、\n  余主任需要详细了解公司的系统情况，在九层建立环境。要看vlt和公司的相关储备。主要以展示为主，测试部牵头，其他部门配合。机房监控，运营系统等。不连生产系统\nupdated: 2013-08-15 02:17:41Z\ncreated: 2013-08-15 02:08:39Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、&nbsp;&nbsp;&nbsp;&nbsp; 余主任需要详细了解公司的系统情况，在九层建立环境。要看vlt和公司的相关储备。主要以展示为主，测试部牵头，其他部门配合。机房监控，运营系统等。不连生产系统，演示。信息管理系统看真的。做一个ppt，除了演示功能的部分，还要演示性能的部分。<br/>\n2、 &nbsp; &nbsp;&nbsp;<br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "609ebd11cc49b15d8c82a35d694a145695d34fee0456a99c0b2d8d04039e77e9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/1、 余主任需要详细了解公司的系统情况，在九层建立环境。要看vlt和公司的相关储备。主要以展示为主，.html"
+      }
+    },
+    {
+      "id": "4aad30b4-8969-48d8-b54c-fa7053785933",
+      "note_id": "4e74b180-b6af-43c1-8d5c-1909b4277f3a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.850140Z",
+      "content": "---\ntitle: >-\n  1、\n  余主任需要详细了解公司的系统情况，在九层建立环境。要看vlt和公司的相关储备。主要以展示为主，测试部牵头，其他部门配合。机房监控，运营系统等。不连生产系统\nupdated: 2013-08-15 02:17:41Z\ncreated: 2013-08-15 02:08:39Z\n---\n\n1、     余主任需要详细了解公司的系统情况，在九层建立环境。要看vlt和公司的相关储备。主要以展示为主，测试部牵头，其他部门配合。机房监控，运营系统等。不连生产系统，演示。信息管理系统看真的。做一个ppt，除了演示功能的部分，还要演示性能的部分。\n\n2、",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 293,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "48fcd4cf-be47-4b44-9a6d-ced83338cfd8",
+    "note_id": "4e74b180-b6af-43c1-8d5c-1909b4277f3a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.850145Z",
+    "finished_at": "2025-11-09T20:05:16.850145Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5034c720-73a5-4fc6-b670-3aa825ac74ec",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/1、 余主任需要详细了解公司的系统情况，在九层建立环境。要看vlt和公司的相关储备。主要以展示为主，.html",
+      "checksum": "609ebd11cc49b15d8c82a35d694a145695d34fee0456a99c0b2d8d04039e77e9"
+    },
+    "output_ref": {
+      "ingest_source": "ad76e9d7-2399-4c0a-8e1a-e261402d4e8c",
+      "note": "4e74b180-b6af-43c1-8d5c-1909b4277f3a",
+      "variants": [
+        "8717e2ef-0d9e-4cf1-a79c-4a08651465f8",
+        "4aad30b4-8969-48d8-b54c-fa7053785933"
+      ]
+    },
+    "error_detail": null
+  }
+}

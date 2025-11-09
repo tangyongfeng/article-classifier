@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4f6c06e1-a28b-4bec-b0ce-b60e6ea59046",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/身份证号码.html",
+    "collected_at": "2025-11-09T20:05:19.148257Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "41db2900581f04c0742e5bc367f02de0c94517aa05d330dbfb09df0d0ec847c8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "81804d04-a2cc-4333-9929-79c5680f8b02",
+    "ingest_source_id": "4f6c06e1-a28b-4bec-b0ce-b60e6ea59046",
+    "canonical_title": "身份证号码",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:19.148260Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "身份证号码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2f42a5f7-777e-4f54-bf3a-629846f2f439",
+      "note_id": "81804d04-a2cc-4333-9929-79c5680f8b02",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.148263Z",
+      "content": "---\ntitle: 身份证号码\nupdated: 2016-04-15 14:20:37Z\ncreated: 2013-09-02 04:34:36Z\n---\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n<div>球球身份证</div>\n<div>唐跃然 &nbsp; &nbsp; 140882201305250036</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "41db2900581f04c0742e5bc367f02de0c94517aa05d330dbfb09df0d0ec847c8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/身份证号码.html"
+      }
+    },
+    {
+      "id": "147b80f2-2d04-44c3-b8ed-c099043da4ec",
+      "note_id": "81804d04-a2cc-4333-9929-79c5680f8b02",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.148266Z",
+      "content": "---\ntitle: 身份证号码\nupdated: 2016-04-15 14:20:37Z\ncreated: 2013-09-02 04:34:36Z\n---\n\n球球身份证\n\n唐跃然     140882201305250036",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 115,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "911a7ab6-39e6-40c7-a24a-8f1fa59c4e9f",
+    "note_id": "81804d04-a2cc-4333-9929-79c5680f8b02",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:19.148270Z",
+    "finished_at": "2025-11-09T20:05:19.148271Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f7557df5-f7ab-4d3d-bdcb-df13452e9890",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/身份证号码.html",
+      "checksum": "41db2900581f04c0742e5bc367f02de0c94517aa05d330dbfb09df0d0ec847c8"
+    },
+    "output_ref": {
+      "ingest_source": "4f6c06e1-a28b-4bec-b0ce-b60e6ea59046",
+      "note": "81804d04-a2cc-4333-9929-79c5680f8b02",
+      "variants": [
+        "2f42a5f7-777e-4f54-bf3a-629846f2f439",
+        "147b80f2-2d04-44c3-b8ed-c099043da4ec"
+      ]
+    },
+    "error_detail": null
+  }
+}

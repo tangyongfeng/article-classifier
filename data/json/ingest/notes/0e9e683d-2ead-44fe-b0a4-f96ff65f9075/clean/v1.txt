@@ -1,0 +1,56 @@
+---
+title: 通过openwrt查看连接手机设备的IP，MAC地址，设备名 - 三良的博客 - CSDN博客
+updated: 2018-11-02 04:44:34Z
+created: 2018-11-02 04:44:34Z
+source: https://blog.csdn.net/qq_17351077/article/details/77942897
+---
+
+通过openwrt查看连接手机设备的IP，MAC地址，设备名
+
+ 2017年09月12日 11:07:41
+
+我是三良
+
+ 阅读数：3237
+
+ 版权声明：讯客+是一个每天更新的带你薅羊毛的撸羊毛网站，欢迎访问(www.xunkejia.com)。 https://blog.csdn.net/qq_17351077/article/details/77942897
+
+查看连接上openwrt的设备IP信息，mac地址
+
+方式有两种：
+
+方式1：
+
+           cat /proc/net/arp
+
+结果：
+
+IP address       HW type     Flags       HW address            Mask     Device
+
+192.168.0.1      0x1         0x2         b0:95:8e:5c:c9:79     *        eth0.2
+
+192.168.1.242    0x1         0x2         98:6c:f5:77:4f:40     *        br-lan
+
+192.168.0.124    0x1         0x0         00:00:00:00:00:00     *        eth0.2
+
+192.168.1.198    0x1         0x2         40:8d:5c:5a:a0:3c     *        br-lan
+
+Flags标志可以表示是否在线状态，标志0x0表示不在线，离线，标志0X2表示在线
+
+方式2：
+
+           cat /tmp/dhcp.leases
+
+结果
+
+1505227895   98:6c:f5:77:4f:40   192.168.1.242   android-5734b930181b5156   *
+
+1505225907   40:8d:5c:5a:a0:3c   192.168.1.198   DESKTOP-AFGM9OL   01:40:8d:5c:5a:a0:3c
+
+可以看到mac地址，IP，设备名等信息
+
+方式3：
+
+ iw dev wlan0 station dump 
+
+Measure

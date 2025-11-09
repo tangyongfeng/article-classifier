@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "469dd9a9-a965-416f-ba7e-c5659eb854a8",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/二格介词.html",
+    "collected_at": "2025-11-09T20:05:18.176072Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "d110d00b2e3f11f2c210e15b2f97f550d23cc8cd5d89e8a86d377926abbabfbd",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e63d918b-3e4d-47eb-be2b-1cb4f45f89dd",
+    "ingest_source_id": "469dd9a9-a965-416f-ba7e-c5659eb854a8",
+    "canonical_title": "二格介词",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.176075Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "二格介词.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d350b003-2c41-4ad6-92d6-964840a20ee3",
+      "note_id": "e63d918b-3e4d-47eb-be2b-1cb4f45f89dd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.176078Z",
+      "content": "---\ntitle: 二格介词\nupdated: 2020-10-14 06:59:50Z\ncreated: 2020-10-14 06:14:32Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><br/></div><div>Gen</div><div><br/></div><div>Wegen</div><div><br/></div><div>Wegen des Regens bleiben wir zu Hause.</div><div>Wegen der Krankheit ich&nbsp;kann nicht zu Schule gehen.</div><div>Wegen der Krankheit ich kann nicht den Kurs besuchen.</div><div><br/></div><div>w&auml;hrend&nbsp;</div><div><br/></div><div>w&auml;hrend des H&ouml;rens &nbsp;machen Sie bitte Notiz.</div><div>w&auml;hrend des Studiums ist er viel gereist.</div><div>w&auml;hrend der Fahrt ist er eingeschlafen.</div><div>w&auml;hrend des Urlaub hast du Deutsch gelernt.</div><div><br/></div><div>statt</div><div><br/></div><div>statt des Deutschkurses besuche ich den Tanzkurs.</div><div>Ich kaufe statt der Flasche nur das Buch.</div><div><br/></div><div>Es ist anstrengend, um 6 Uhr aufzustehen.</div><div>Ich lege mich ins Bett ,statt dass ich aufstehe.</div><div>ich lege mich ins Bett , statt aufzustehen.</div><div>ich lerne zu Hause ,statt zur Schule zu gehen. &nbsp;</div><div>ich lerne selbst zu Haus ,statt zur Schule zu gehen.</div><div><br/></div><div>Ich esse &nbsp;Brot ,statt &nbsp;Nudeln zu essen.</div><div>Ich kaufe PC, statt &nbsp;von ihm eine Computer zu leihen.</div><div>ich kaufe PC ,statt von ihm einen &nbsp;zu leihen.</div><div><br/></div><div>Ich kaufe PC statt von ihm einen zu leihen.</div><div>kannst du mir bitte dein Auto morgen ausleihen?</div><div><br/></div><div>dank</div><div><br/></div><div>Dank deiner Hilfe habe ich die Aufgebe erledigt.</div><div>Dank der Unterst&uuml;tzung meiner Eltern habe ich das Haus gekauft.</div><div><br/></div><div>Trotz 尽管</div><div><br/></div><div>Trotz der Hilfe bin ich durchgefallen.</div><div>Trotz des Regen gehe ich zur Schule.</div><div>Trotz der Unterst&uuml;tzung&nbsp;</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d110d00b2e3f11f2c210e15b2f97f550d23cc8cd5d89e8a86d377926abbabfbd",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/二格介词.html"
+      }
+    },
+    {
+      "id": "d3c34a1d-f0c4-4b78-a688-17d128c5bfc1",
+      "note_id": "e63d918b-3e4d-47eb-be2b-1cb4f45f89dd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.176080Z",
+      "content": "---\ntitle: 二格介词\nupdated: 2020-10-14 06:59:50Z\ncreated: 2020-10-14 06:14:32Z\nauthor: tangyongfeng@gmail.com\n---\n\nGen\nWegen\nWegen des Regens bleiben wir zu Hause.\nWegen der Krankheit ich kann nicht zu Schule gehen.\nWegen der Krankheit ich kann nicht den Kurs besuchen.\nwährend \nwährend des Hörens  machen Sie bitte Notiz.\nwährend des Studiums ist er viel gereist.\nwährend der Fahrt ist er eingeschlafen.\nwährend des Urlaub hast du Deutsch gelernt.\nstatt\nstatt des Deutschkurses besuche ich den Tanzkurs.\nIch kaufe statt der Flasche nur das Buch.\nEs ist anstrengend, um 6 Uhr aufzustehen.\nIch lege mich ins Bett ,statt dass ich aufstehe.\nich lege mich ins Bett , statt aufzustehen.\nich lerne zu Hause ,statt zur Schule zu gehen.  \nich lerne selbst zu Haus ,statt zur Schule zu gehen.\nIch esse  Brot ,statt  Nudeln zu essen.\nIch kaufe PC, statt  von ihm eine Computer zu leihen.\nich kaufe PC ,statt von ihm einen  zu leihen.\nIch kaufe PC statt von ihm einen zu leihen.\nkannst du mir bitte dein Auto morgen ausleihen?\ndank\nDank deiner Hilfe habe ich die Aufgebe erledigt.\nDank der Unterstützung meiner Eltern habe ich das Haus gekauft.\nTrotz 尽管\nTrotz der Hilfe bin ich durchgefallen.\nTrotz des Regen gehe ich zur Schule.\nTrotz der Unterstützung",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1239,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a5ff2f3d-5223-4c50-b1e0-d62dd1ea0e1a",
+    "note_id": "e63d918b-3e4d-47eb-be2b-1cb4f45f89dd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.176085Z",
+    "finished_at": "2025-11-09T20:05:18.176085Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e9e3b488-f42c-499e-8a6d-8b7286dc6dd2",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/二格介词.html",
+      "checksum": "d110d00b2e3f11f2c210e15b2f97f550d23cc8cd5d89e8a86d377926abbabfbd"
+    },
+    "output_ref": {
+      "ingest_source": "469dd9a9-a965-416f-ba7e-c5659eb854a8",
+      "note": "e63d918b-3e4d-47eb-be2b-1cb4f45f89dd",
+      "variants": [
+        "d350b003-2c41-4ad6-92d6-964840a20ee3",
+        "d3c34a1d-f0c4-4b78-a688-17d128c5bfc1"
+      ]
+    },
+    "error_detail": null
+  }
+}

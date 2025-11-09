@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "48e75dda-e318-4fdf-b049-73de92610792",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/授权书邮寄id.html",
+    "collected_at": "2025-11-09T20:05:16.212295Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "2894d0662dc45b020d406d0a1e45724054c73cfcf44b987f9b57fd42ae95e97a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "44db2a93-de71-4a5f-8cbf-f9c9dda826e3",
+    "ingest_source_id": "48e75dda-e318-4fdf-b049-73de92610792",
+    "canonical_title": "授权书邮寄id",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.212299Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "授权书邮寄id.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "852de2cb-100d-408a-834d-b079929e8552",
+      "note_id": "44db2a93-de71-4a5f-8cbf-f9c9dda826e3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.212301Z",
+      "content": "---\ntitle: 授权书邮寄id\nupdated: 2020-12-01 14:55:28Z\ncreated: 2020-12-01 14:54:35Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>sendnungsnummer RR31059415DE</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2894d0662dc45b020d406d0a1e45724054c73cfcf44b987f9b57fd42ae95e97a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/授权书邮寄id.html"
+      }
+    },
+    {
+      "id": "2830431a-ee70-4736-b9ab-bd0653d366a6",
+      "note_id": "44db2a93-de71-4a5f-8cbf-f9c9dda826e3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.212304Z",
+      "content": "---\ntitle: 授权书邮寄id\nupdated: 2020-12-01 14:55:28Z\ncreated: 2020-12-01 14:54:35Z\nauthor: tangyongfeng@gmail.com\n---\n\nsendnungsnummer RR31059415DE",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 143,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "753a262d-e447-43f9-a472-32bef08ca42b",
+    "note_id": "44db2a93-de71-4a5f-8cbf-f9c9dda826e3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.212309Z",
+    "finished_at": "2025-11-09T20:05:16.212309Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ff8e1663-613c-43d6-b996-01a702d98ca0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/授权书邮寄id.html",
+      "checksum": "2894d0662dc45b020d406d0a1e45724054c73cfcf44b987f9b57fd42ae95e97a"
+    },
+    "output_ref": {
+      "ingest_source": "48e75dda-e318-4fdf-b049-73de92610792",
+      "note": "44db2a93-de71-4a5f-8cbf-f9c9dda826e3",
+      "variants": [
+        "852de2cb-100d-408a-834d-b079929e8552",
+        "2830431a-ee70-4736-b9ab-bd0653d366a6"
+      ]
+    },
+    "error_detail": null
+  }
+}

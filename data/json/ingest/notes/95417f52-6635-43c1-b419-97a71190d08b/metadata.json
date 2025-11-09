@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "752584d9-1c99-4c4f-8922-45fc5b275a80",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/select count(_) from czryk where id=_00_ and passw.html",
+    "collected_at": "2025-11-09T20:05:15.794426Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7166ae7782c35cc5397ea1754e8acdfa55a2b1d427261c89b7fd0f864cc59bf7",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "95417f52-6635-43c1-b419-97a71190d08b",
+    "ingest_source_id": "752584d9-1c99-4c4f-8922-45fc5b275a80",
+    "canonical_title": "select count(_) from czryk where id=_00_ and passw",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.794430Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "select count(_) from czryk where id=_00_ and passw.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4d8f9fdf-0bd4-473f-ab39-b0cc00d54d3d",
+      "note_id": "95417f52-6635-43c1-b419-97a71190d08b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.794432Z",
+      "content": "---\ntitle: >-\n  select count(*) from czryk where id=\"00\" and\n  passwd=char(66)+char(167)+char(152)\nupdated: 2013-12-18 08:35:27Z\ncreated: 2013-12-18 08:35:27Z\n---\n\n\n\n<en-note>select count(*) from czryk where id=&quot;00&quot; and passwd=char(66)+char(167)+char(152)+char(230)+char(72)+char(84)+char(8)+char(75)+char(0)</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7166ae7782c35cc5397ea1754e8acdfa55a2b1d427261c89b7fd0f864cc59bf7",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/select count(_) from czryk where id=_00_ and passw.html"
+      }
+    },
+    {
+      "id": "511fc588-f84c-427c-9aa3-5f1df57c049e",
+      "note_id": "95417f52-6635-43c1-b419-97a71190d08b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.794435Z",
+      "content": "---\ntitle: >-\n  select count(*) from czryk where id=\"00\" and\n  passwd=char(66)+char(167)+char(152)\nupdated: 2013-12-18 08:35:27Z\ncreated: 2013-12-18 08:35:27Z\n---\n\nselect count(*) from czryk where id=\"00\" and passwd=char(66)+char(167)+char(152)+char(230)+char(72)+char(84)+char(8)+char(75)+char(0)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 297,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d940ec1f-3b6a-45c7-a20f-0407e37b1841",
+    "note_id": "95417f52-6635-43c1-b419-97a71190d08b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.794439Z",
+    "finished_at": "2025-11-09T20:05:15.794440Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8cdd121a-3cfe-4554-bba8-e1464b646f45",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/select count(_) from czryk where id=_00_ and passw.html",
+      "checksum": "7166ae7782c35cc5397ea1754e8acdfa55a2b1d427261c89b7fd0f864cc59bf7"
+    },
+    "output_ref": {
+      "ingest_source": "752584d9-1c99-4c4f-8922-45fc5b275a80",
+      "note": "95417f52-6635-43c1-b419-97a71190d08b",
+      "variants": [
+        "4d8f9fdf-0bd4-473f-ab39-b0cc00d54d3d",
+        "511fc588-f84c-427c-9aa3-5f1df57c049e"
+      ]
+    },
+    "error_detail": null
+  }
+}

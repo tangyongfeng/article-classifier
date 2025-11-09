@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2f4f6053-0789-4f1d-bf40-408f5d304d51",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/开乐彩发行比例.html",
+    "collected_at": "2025-11-09T20:05:17.043695Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "cd45fbe20a8adca4be10c9f1a97f4a146ecb4f9688b2230aed3797370d0508e9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a1e0034d-68cc-45b0-8159-8bf98c061732",
+    "ingest_source_id": "2f4f6053-0789-4f1d-bf40-408f5d304d51",
+    "canonical_title": "开乐彩发行比例",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.043699Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "开乐彩发行比例.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "039b970b-e6f7-4360-b5c6-a1fe3413ab81",
+      "note_id": "a1e0034d-68cc-45b0-8159-8bf98c061732",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.043701Z",
+      "content": "---\ntitle: 开乐彩发行比例\nupdated: 2012-05-21 02:34:37Z\ncreated: 2012-05-21 02:34:30Z\ntags:\n  - IB\n  - KENO\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nl&nbsp;&nbsp;&nbsp;&nbsp; 当期奖金＝销售总额&times;49％；（49%的值，可根据需要在后台进行配置）<br/>\nl&nbsp;&nbsp;&nbsp;&nbsp; 调节基金＝销售总额&times;1％；（1%的值，可根据需要在后台进行配置）<br/>\nl&nbsp;&nbsp;&nbsp;&nbsp; 中彩中心发行经费＝销售总额&times;2.5％（还未出厅的省份为 2%）；（2.5%的值，可根据需要在后台进行配置）。 该列值对于人民币1分以下的中彩中心（五舍六入）。<br/>\nl&nbsp;&nbsp;&nbsp;&nbsp; 省级以下发行经费＝销售总额&times;12.5％ (还未出厅的省份为 13%)；（2.5%的值，可根据需要在后台进行配置）。该列值对于人民币1分以下的省级以下（四舍五入）。<br/>\nl&nbsp;&nbsp;&nbsp;&nbsp; 公益金＝销售总额&times;35％。（35%的值，可根据需要在后台进行配置）<br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "cd45fbe20a8adca4be10c9f1a97f4a146ecb4f9688b2230aed3797370d0508e9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/开乐彩发行比例.html"
+      }
+    },
+    {
+      "id": "43def08e-21ef-4629-a1ef-5cc85e31ebad",
+      "note_id": "a1e0034d-68cc-45b0-8159-8bf98c061732",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.043704Z",
+      "content": "---\ntitle: 开乐彩发行比例\nupdated: 2012-05-21 02:34:37Z\ncreated: 2012-05-21 02:34:30Z\ntags:\n  - IB\n  - KENO\n---\n\nl     当期奖金＝销售总额×49％；（49%的值，可根据需要在后台进行配置）\n\nl     调节基金＝销售总额×1％；（1%的值，可根据需要在后台进行配置）\n\nl     中彩中心发行经费＝销售总额×2.5％（还未出厅的省份为 2%）；（2.5%的值，可根据需要在后台进行配置）。 该列值对于人民币1分以下的中彩中心（五舍六入）。\n\nl     省级以下发行经费＝销售总额×12.5％ (还未出厅的省份为 13%)；（2.5%的值，可根据需要在后台进行配置）。该列值对于人民币1分以下的省级以下（四舍五入）。\n\nl     公益金＝销售总额×35％。（35%的值，可根据需要在后台进行配置）",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 403,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "66182e54-0f7d-43b4-99e5-21d843e3cb9e",
+    "note_id": "a1e0034d-68cc-45b0-8159-8bf98c061732",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.043709Z",
+    "finished_at": "2025-11-09T20:05:17.043709Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "22f733fe-0e54-4a33-882e-b74915f57e81",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/开乐彩发行比例.html",
+      "checksum": "cd45fbe20a8adca4be10c9f1a97f4a146ecb4f9688b2230aed3797370d0508e9"
+    },
+    "output_ref": {
+      "ingest_source": "2f4f6053-0789-4f1d-bf40-408f5d304d51",
+      "note": "a1e0034d-68cc-45b0-8159-8bf98c061732",
+      "variants": [
+        "039b970b-e6f7-4360-b5c6-a1fe3413ab81",
+        "43def08e-21ef-4629-a1ef-5cc85e31ebad"
+      ]
+    },
+    "error_detail": null
+  }
+}

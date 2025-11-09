@@ -1,0 +1,403 @@
+---
+title: 刷固件Layer1到手机FLASH(硬刷) - K1two2 - 博客园
+updated: 2016-04-02 16:48:56Z
+created: 2016-04-02 16:48:56Z
+source: >-
+  http://cncc.bingj.com/cache.aspx?q=Running+on+compal_e88+in+environment+compalramFound+flash+of+2097152+bytes+at+0x0+with+2+regions&d=4937225371715362&mkt=zh-CN&setlang=en-US&w=-fD7V2dqldTFMLTIUpOC8XTzqptTKFPE
+---
+
+开头：
+
+注意：本文章并不是做GSM 嗅探必须的，平时我们刷机叫软刷是刷到内存里面的，断电就消失了，这个是硬刷，刷到
+flash
+里面的，断电不消失，开机就运行的。
+
+本文章经过作者实测可行，这只是单个应用程序，官方还有多个应用程序菜单
+
+这篇教程解释了怎样把应用程序刷到C118手机里面。你一定要仔细的阅读每一个细节，否则你的手机可能会变砖。即使你遵循本教程,您可能也会变砖，如果你遇到电缆问题,弱电池或软件故障，目前firmare还不支持电池充电功能。
+
+总共需要三部分：
+
+原bootloader，第一次刷我就把这个清空了，直接成砖了
+
+osmocom loader,这个是osmocom的loader
+
+应用程序，这个可以是rssi，layer1 如果没有bootloader，手机就成砖了
+
+内存布局：
+
+0x000000-0x00ffff:
+Flash
+ page 0
+
+0x010000-0x01ffff:
+Flash
+ page 1
+
+… more
+Flash
+ pages …
+
+0x800000-0x83ffff: Ram
+
+osmocom
+flash
+ 布局：
+
+0x000000-0x001fff:
+Compal
+ loader
+
+0x002000-0x00ffff: OSMOCOM loader
+
+0x010000-……..: OSMOCOM application and storage
+
+注意:C118 bootloader和OSMOCOM loader将位于同一
+flash
+页面!
+
+准备工作
+
+解锁 Osmocom loader 的
+flash
+ write:
+
+$ cd src/target/firmware/
+
+$ edit Makefile
+
+开启下面的编译选项:
+
+CFLAGS += -
+DCONFIG_
+FLASH
+_WRITE
+CFLAGS
++= -DCONFIG_
+FLASH
+_WRITE_LOADER
+
+更改loader
+
+diff --git a/src/target/firmware/apps/loader/main.c b/src/target/firmware/apps/loader/
+main.c
+index 2ff6f9c..e488c98
+100644
+
+--- a/src/target/firmware/apps/loader/
+main.c
+
++++ b/src/target/firmware/apps/loader/
+main.c
+@@
+-
+438
+,
+6
+ +
+438
+,
+9
+ @@
+static
+
+void
+ key_handler(
+enum
+ key_codes code,
+enum
+ key_states state)
+         puts(
+"
+Resetting due to keypress.\n
+"
+);
+         device_reset();
+        
+break
+;
+
++   
+case
+ KEY_MENU:
+
++        device_jump((
+void
+ *)
+0x10000
+);
+
++       
+break
+;
+    
+default
+:
+        
+break
+;
+     }
+
+编译
+
+make
+
+安装
+
+引导手机到downloading 到RAM
+
+$ cd src
+$ host
+/osmocon/osmocon -p /dev/ttyUSB0 -m c123xor target/firmware/board/
+compal
+_
+e88
+/loader.compalram.bin
+
+你将看到类似以下输出:
+
+Received PROMPT1
+from
+ phone, responding with CMD
+read_file(target
+/firmware/board/
+compal
+_
+e88
+/loader.compalram.bin): file_size=
+18436
+, hdr_len=
+4
+, dnload_len=
+18443
+
+Received PROMPT2
+from
+ phone, starting download
+handle_write():
+4096
+
+bytes
+ (
+4096
+/
+18443
+)
+handle_write():
+4096
+
+bytes
+ (
+8192
+/
+18443
+)
+handle_write():
+4096
+
+bytes
+ (
+12288
+/
+18443
+)
+handle_write():
+4096
+
+bytes
+ (
+16384
+/
+18443
+)
+handle_write():
+2059
+
+bytes
+ (
+18443
+/
+18443
+)
+handle_write(): finished
+Received DOWNLOAD ACK
+from
+ phone, your code
+is
+
+running
+ now!
+
+Received DOWNLOAD ACK
+from
+ phone, your code
+is
+
+running
+ now!
+
+OSMOCOM Loader (revision osmocon_v0.
+0.0
+-
+1322
+-g43c588b-
+modified)
+
+======================================================================
+
+Running
+ on
+compal
+_
+e88
+
+in
+
+environment
+ compalram
+Found
+flash
+ of
+2097152
+
+bytes
+ at
+0x0
+ with
+2
+
+regions
+
+现在打开另一个终端
+
+装载loader
+
+备份loader
+
+$ cd src
+$ host
+/osmocon/osmoload memdump
+0x000000
+
+0x2000
+
+compal
+_loader.bin
+
+测试
+flash
+:
+
+首先我们将loader装载到错误的位置,如果失败,我们仍然还有原来的loader, 这样不会把手机搞成砖.
+
+$ host/osmocon/osmoload funlock
+0x010000
+
+0x10000
+
+$ host
+/osmocon/osmoload ferase
+0x010000
+
+0x10000
+
+$ host
+/osmocon/osmoload fprogram
+0
+
+0x010000
+
+compal
+_loader.bin
+$ host
+/osmocon/osmoload fprogram
+0
+
+0x012000
+ target/firmware/board/
+compal
+_
+e88
+/loader.e88loader.bin
+
+如果上面没有出现错误之类的,下面我们就开始动真格的了
+
+$ host/osmocon/osmoload funlock
+0x000000
+
+0x10000
+
+$ host
+/osmocon/osmoload ferase
+0x000000
+
+0x10000
+
+$ host
+/osmocon/osmoload fprogram
+0
+
+0x000000
+
+compal
+_loader.bin
+$ host
+/osmocon/osmoload fprogram
+0
+
+0x002000
+ target/firmware/board/
+compal
+_
+e88
+/loader.e88loader.bin
+
+装载应用程序
+
+注意:在你把应用程序刷到手机里面你是要看一下你刷的应用程序的大小的,有多少你就清空多大的
+flash
+空间,我这里清空了64KB
+
+$ host/osmocon/osmoload funlock
+0x010000
+
+0x20000
+
+$ host
+/osmocon/osmoload ferase
+0x010000
+
+0x20000
+
+$ host
+/osmocon/osmoload fprogram
+0
+
+0x010000
+ target/firmware/board/
+compal
+_
+e88
+/layer1.e88flash.bin
+
+测试
+
+关闭手机
+
+断开串口线
+
+打开手机,你会看见一个空白的蓝色屏幕,这时你可不要以为手机成砖了,我第一次以后我手机又牺牲了,吓死人了.
+
+按 Menu 按钮,开始应用程序,这时就出现了.关于Menu按钮,其实就是左右上面键中间的那个圆的.
+
+如何使用:
+
+让手机处于关于状态,连接后各个模块及线路,确保能误别出来,模块CP2102,如图所示:
+
+cd src
+host
+/osmocon/osmocon -p /dev/ttyUSB0
+
+然后开机,出现蓝色空白屏幕,接着按菜单键,就是那个圆点,出现如下图所示表示成功
+
+关于后面的步骤,就是其它的文章操作,一样了,就不多讲了.

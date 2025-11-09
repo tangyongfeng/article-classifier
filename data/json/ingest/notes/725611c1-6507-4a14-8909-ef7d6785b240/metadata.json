@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "17c7abe0-28d4-4b50-9cc2-4ae70477b6e0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/flask 学习笔记.html",
+    "collected_at": "2025-11-09T20:05:13.814783Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c46a207b528dc7fdc5508408750de0af4649d2a04e26774075460b56e382cdcb",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "725611c1-6507-4a14-8909-ef7d6785b240",
+    "ingest_source_id": "17c7abe0-28d4-4b50-9cc2-4ae70477b6e0",
+    "canonical_title": "flask 学习笔记",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.814787Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "flask 学习笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f236b344-063d-4fc3-904a-6e564252e083",
+      "note_id": "725611c1-6507-4a14-8909-ef7d6785b240",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.814790Z",
+      "content": "---\ntitle: flask 学习笔记\nupdated: 2022-10-30 21:12:10Z\ncreated: 2022-10-30 20:32:31Z\n---\n\n\n<en-note><ul><li><div>运行前</div></li><ul><li><div>设定环境变量</div></li><li><div>Windows</div></li></ul></ul><div STYLE=\"--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;\"><div>$env:FLASK_APP = &quot;hello.py&quot;</div><div>$env:FLASK_DEBUG=1</div><div>flask run</div></div><ul STYLE=\"--en-todo:true;\"><ul><li><div>linux mac </div></li></ul></ul><div STYLE=\"--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;\"><div>export FLASK_APP=&apos;hello.py&apos;</div></div><ul><li><div>注册和返回框架</div></li><ul><li><div>使用装饰器将自己的的路由注册在系统里</div></li><li><div>返回值可以在对应的路由后注明</div></li><li><div><br/></div></li></ul></ul><div STYLE=\"--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;\"><div>@app.route(&apos;/&apos;)</div><div>def index()：</div><div>&nbsp; &nbsp; return &apos;&lt;h1&gt;hello&lt;/h1&gt;&apos;,404</div><div><br/></div><div>#注意，上述函数将返回值定位404，在浏览器的页面中查看细节，可以发现收到了一个404错误，虽然页面正常显示.</div></div><ul><li><div>相应</div></li><ul><li><div>实现 </div></li></ul></ul><div STYLE=\"--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;\"><div>from flask import make_response</div></div><ul><ul><li><div>Flask响应对象 属性或方法 说明</div></li><ul><li><div> status_code HTTP 数字状态码 </div></li><li><div>headers 一个类似字典的对象，包含随响应发送的所有首部 </div></li><li><div>set_cookie() 为响应添加一个 </div></li><li><div>cookie delete_cookie() 删除一个 cookie </div></li><li><div>content_length 响应主体的长度 </div></li><li><div>content_type 响应主体的媒体类型 </div></li><li><div>set_data() 使用字符串或字节值设定响应 </div></li><li><div>get_data() 获取响应主体</div></li></ul><li><div>redirect</div></li><ul><li><div>可以快速高效的将连接传递给指定的链接里</div></li></ul></ul></ul><div STYLE=\"--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;\"><div>@app.route(&apos;/redirect/&apos;)</div><div>def redir():</div><div>&nbsp; &nbsp; return redirect(&apos;/page_come_here/&apos;)</div></div><ul><ul><li><div>abort</div></li><ul><li><div>在条件出现后抛出异常</div></li></ul></ul></ul><div STYLE=\"--en-codeblock:true;box-sizing: border-box; padding: 8px; font-family: Monaco, Menlo, Consolas, &quot;Courier New&quot;, monospace; font-size: 12px; color: rgb(51, 51, 51); border-top-left-radius: 4px; border-top-right-radius: 4px; border-bottom-right-radius: 4px; border-bottom-left-radius: 4px; background-color: rgb(251, 250, 248); border: 1px solid rgba(0, 0, 0, 0.14902); background-position: initial initial; background-repeat: initial initial;\"><div>@app.route(&apos;/find/&lt;user_name&gt;&apos;)</div><div>def find(user_name):</div><div>&nbsp; &nbsp; if user_name==&apos;tangyongfeng&apos;:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; abort(404)</div><div>&nbsp; &nbsp; else:</div><div>&nbsp; &nbsp; &nbsp; &nbsp; return &apos;&lt;h1&gt; hello {}&lt;/h1&gt;&apos;.format(user_name)</div></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c46a207b528dc7fdc5508408750de0af4649d2a04e26774075460b56e382cdcb",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/flask 学习笔记.html"
+      }
+    },
+    {
+      "id": "fd55761e-18c6-413b-b994-17b3c6721b98",
+      "note_id": "725611c1-6507-4a14-8909-ef7d6785b240",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.814792Z",
+      "content": "---\ntitle: flask 学习笔记\nupdated: 2022-10-30 21:12:10Z\ncreated: 2022-10-30 20:32:31Z\n---\n\n运行前\n设定环境变量\nWindows\n$env:FLASK_APP = \"hello.py\"\n$env:FLASK_DEBUG=1\nflask run\nlinux mac\nexport FLASK_APP='hello.py'\n注册和返回框架\n使用装饰器将自己的的路由注册在系统里\n返回值可以在对应的路由后注明\n@app.route('/')\ndef index()：\n    return '<h1>hello</h1>',404\n#注意，上述函数将返回值定位404，在浏览器的页面中查看细节，可以发现收到了一个404错误，虽然页面正常显示.\n相应\n实现\nfrom flask import make_response\nFlask响应对象 属性或方法 说明\n status_code HTTP 数字状态码\nheaders 一个类似字典的对象，包含随响应发送的所有首部\nset_cookie() 为响应添加一个\ncookie delete_cookie() 删除一个 cookie\ncontent_length 响应主体的长度\ncontent_type 响应主体的媒体类型\nset_data() 使用字符串或字节值设定响应\nget_data() 获取响应主体\nredirect\n可以快速高效的将连接传递给指定的链接里\n@app.route('/redirect/')\ndef redir():\n    return redirect('/page_come_here/')\nabort\n在条件出现后抛出异常\n@app.route('/find/<user_name>')\ndef find(user_name):\n    if user_name=='tangyongfeng':\n        abort(404)\n    else:\n        return '<h1> hello {}</h1>'.format(user_name)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 910,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9a77fdc0-f904-4608-a35e-8af55a43553d",
+    "note_id": "725611c1-6507-4a14-8909-ef7d6785b240",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.814797Z",
+    "finished_at": "2025-11-09T20:05:13.814797Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "566558bc-9f3e-45dc-99f0-7b5a5e834bd6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/flask 学习笔记.html",
+      "checksum": "c46a207b528dc7fdc5508408750de0af4649d2a04e26774075460b56e382cdcb"
+    },
+    "output_ref": {
+      "ingest_source": "17c7abe0-28d4-4b50-9cc2-4ae70477b6e0",
+      "note": "725611c1-6507-4a14-8909-ef7d6785b240",
+      "variants": [
+        "f236b344-063d-4fc3-904a-6e564252e083",
+        "fd55761e-18c6-413b-b994-17b3c6721b98"
+      ]
+    },
+    "error_detail": null
+  }
+}

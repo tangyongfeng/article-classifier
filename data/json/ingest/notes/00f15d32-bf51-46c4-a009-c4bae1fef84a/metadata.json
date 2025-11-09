@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "852d998e-e039-4233-8b31-cf15e76af8dc",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/医疗检查项目.html",
+    "collected_at": "2025-11-09T20:01:38.239117Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "b7b2170040316db0289827221bb1fd661bdd0e38762dbcd3218f7fb480431ae2",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "00f15d32-bf51-46c4-a009-c4bae1fef84a",
+    "ingest_source_id": "852d998e-e039-4233-8b31-cf15e76af8dc",
+    "canonical_title": "医疗检查项目",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.239121Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "医疗检查项目.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a7c18f8d-73f8-40ac-8a43-34de257e4052",
+      "note_id": "00f15d32-bf51-46c4-a009-c4bae1fef84a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.239124Z",
+      "content": "---\ntitle: 医疗检查项目\nupdated: 2013-06-25 01:48:12Z\ncreated: 2013-06-25 01:39:44Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nCT肺动脉造影\n<div>磁共振肺动脉造影</div><div>核素肺通气灌注扫描</div><div>选择性肺动脉造影</div><div>超声心动图</div><div>体温</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b7b2170040316db0289827221bb1fd661bdd0e38762dbcd3218f7fb480431ae2",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/医疗检查项目.html"
+      }
+    },
+    {
+      "id": "9cec9fa8-3010-41da-87df-33a1a19bc7b6",
+      "note_id": "00f15d32-bf51-46c4-a009-c4bae1fef84a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.239126Z",
+      "content": "---\ntitle: 医疗检查项目\nupdated: 2013-06-25 01:48:12Z\ncreated: 2013-06-25 01:39:44Z\n---\n\nCT肺动脉造影\n\n磁共振肺动脉造影\n核素肺通气灌注扫描\n选择性肺动脉造影\n超声心动图\n体温",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 128,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a5a75ada-0ccd-4add-88c2-d325fc98e5ab",
+    "note_id": "00f15d32-bf51-46c4-a009-c4bae1fef84a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.239131Z",
+    "finished_at": "2025-11-09T20:01:38.239131Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "189f5884-ee1a-4eb7-93ec-a53b6258e42e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/医疗检查项目.html",
+      "checksum": "b7b2170040316db0289827221bb1fd661bdd0e38762dbcd3218f7fb480431ae2"
+    },
+    "output_ref": {
+      "ingest_source": "852d998e-e039-4233-8b31-cf15e76af8dc",
+      "note": "00f15d32-bf51-46c4-a009-c4bae1fef84a",
+      "variants": [
+        "a7c18f8d-73f8-40ac-8a43-34de257e4052",
+        "9cec9fa8-3010-41da-87df-33a1a19bc7b6"
+      ]
+    },
+    "error_detail": null
+  }
+}

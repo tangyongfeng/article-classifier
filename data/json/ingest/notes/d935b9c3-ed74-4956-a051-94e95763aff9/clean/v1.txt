@@ -1,0 +1,36 @@
+---
+title: 无标题笔记
+updated: 2021-05-09 20:26:33Z
+created: 2021-04-22 21:03:20Z
+author: tangyongfeng@gmail.com
+---
+
+<problem display_name="101" markdown="Gewerkschaften sind Interessenverbände der …&#10;&#10;
+( ) Jugendlichen.&#10;&#10;
+(x) Arbeitnehmer und Arbeitnehmerinnen. &#10;&#10;
+( ) Rentner und Renterinnen.&#10;&#10;
+( ) Arbeitgeber und Arbeitgeberinnen.&#10;">
+  <multiplechoiceresponse>
+    <p>Gewerkschaften sind Interessenverbände der …</p>
+    <choicegroup type="MultipleChoice">
+      <choice correct="false">Jugendlichen.</choice>
+      <choice correct="true">Arbeitnehmer und Arbeitnehmerinnen.</choice>
+      <choice correct="false">Rentner und Renterinnen.</choice>
+      <choice correct="false">Arbeitgeber und Arbeitgeberinnen.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+</problem>
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<problem display_name="234234234" markdown="was ist das &amp;#10; &amp;#10;( ) Beth&amp;#10; &amp;#10;( ) Alice&amp;#10; &a
+
+mp;#10;( ) Cecil&amp;#10; &amp;#10;( ) tom" type="MultipleChoice">
+
+<multiplechoiceresponse answer="was ist das " type="ci">
+
+<textline size="20"/>
+
+</multiplechoiceresponse>
+
+</problem>

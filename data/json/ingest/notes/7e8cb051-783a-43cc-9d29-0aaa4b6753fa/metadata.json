@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "26eaa75d-664f-4f1a-9b18-191157922dbb",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/中工国际.html",
+    "collected_at": "2025-11-09T20:05:18.491637Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "cd18ed73c67357e42765cf307fbdc76c3a26192109b67fb243f94e838dbca548",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7e8cb051-783a-43cc-9d29-0aaa4b6753fa",
+    "ingest_source_id": "26eaa75d-664f-4f1a-9b18-191157922dbb",
+    "canonical_title": "中工国际",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.491640Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "中工国际.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "22d56b5f-baf2-4cea-a9b3-58f01c2173a6",
+      "note_id": "7e8cb051-783a-43cc-9d29-0aaa4b6753fa",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.491643Z",
+      "content": "---\ntitle: 中工国际\nupdated: 2013-09-26 09:31:27Z\ncreated: 2013-09-26 09:31:27Z\ntags:\n  - 盈利率0\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "cd18ed73c67357e42765cf307fbdc76c3a26192109b67fb243f94e838dbca548",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/中工国际.html"
+      }
+    },
+    {
+      "id": "a382400a-e897-4a29-a78f-60a00d224405",
+      "note_id": "7e8cb051-783a-43cc-9d29-0aaa4b6753fa",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.491646Z",
+      "content": "---\ntitle: 中工国际\nupdated: 2013-09-26 09:31:27Z\ncreated: 2013-09-26 09:31:27Z\ntags:\n  - 盈利率0\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 94,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "daa6fcb4-05c6-4e3b-8225-2607bba2cd95",
+    "note_id": "7e8cb051-783a-43cc-9d29-0aaa4b6753fa",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.491650Z",
+    "finished_at": "2025-11-09T20:05:18.491651Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "56e4507f-055f-43fe-9bd0-6fc9e7a70e33",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/中工国际.html",
+      "checksum": "cd18ed73c67357e42765cf307fbdc76c3a26192109b67fb243f94e838dbca548"
+    },
+    "output_ref": {
+      "ingest_source": "26eaa75d-664f-4f1a-9b18-191157922dbb",
+      "note": "7e8cb051-783a-43cc-9d29-0aaa4b6753fa",
+      "variants": [
+        "22d56b5f-baf2-4cea-a9b3-58f01c2173a6",
+        "a382400a-e897-4a29-a78f-60a00d224405"
+      ]
+    },
+    "error_detail": null
+  }
+}

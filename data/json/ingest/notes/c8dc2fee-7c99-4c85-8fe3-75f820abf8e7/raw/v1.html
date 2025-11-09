@@ -1,0 +1,36 @@
+---
+title: 列表生成器
+updated: 2017-12-15 08:35:25Z
+created: 2017-12-15 08:16:22Z
+author: tangyongfeng
+tags:
+  - python
+  - 学习笔记
+---
+
+
+<en-note><div><br/></div><div>通过列表生成式，我们可以直接创建一个列表。但是，受到内存限制，列表容量肯定是有限的。而且，创建一个包含100万个元素的列表，不仅占用很大的存储空间，如果我们仅仅需要访问前面几个元素，那后面绝大多数元素占用的空间都白白浪费了。</div><div><p>所以，如果列表元素可以按照某种算法推算出来，那我们是否可以在循环的过程中不断推算出后续的元素呢？这样就不必创建完整的list，从而节省大量的空间。在Python中，这种一边循环一边计算的机制，称为生成器：generator。</p>
+</div><div><br/></div><div>要创建一个generator，有很多种方法。第一种方法很简单，只要把一个列表生成式的<code>[]</code>改成<code>()</code>，就创建了一个generator：</div><div><br/></div><div>&gt;&gt;&gt;&nbsp;L&nbsp;=&nbsp;[x&nbsp;*&nbsp;x&nbsp;for&nbsp;x&nbsp;in&nbsp;range(10)]</div><div><code>&gt;&gt;&gt;&nbsp;L<br/>[0,&nbsp;1,&nbsp;4,&nbsp;9,&nbsp;16,&nbsp;25,&nbsp;36,&nbsp;49,&nbsp;64,&nbsp;81]<br/>&gt;&gt;&gt;&nbsp;g&nbsp;=&nbsp;(x&nbsp;*&nbsp;x&nbsp;for&nbsp;x&nbsp;in&nbsp;range(10))<br/>&gt;&gt;&gt;&nbsp;g<br/>&lt;generator&nbsp;object&nbsp;&lt;genexpr&gt;&nbsp;at&nbsp;0x1022ef630&gt;</code></div><div><br/></div><div>创建<code>L</code>和<code>g</code>的区别仅在于最外层的<code>[]</code>和<code>()</code>，<code>L</code>是一个list，而<code>g</code>是一个generator。</div><div>
+<p>我们可以直接打印出list的每一个元素，但我们怎么打印出generator的每一个元素呢？</p>
+<p>如果要一个一个打印出来，可以通过<code>next()</code>函数获得generator的下一个返回值：</p>
+</div><div><code>&gt;&gt;&gt;&nbsp;next(g)<br/>0<br/>&gt;&gt;&gt;&nbsp;next(g)<br/>1<br/>&gt;&gt;&gt;&nbsp;next(g)<br/>4<br/>&gt;&gt;&gt;&nbsp;next(g)</code></div><div>9</div><div>def aaa():
+</div><div>&nbsp;       return (x * x for x in range(10))
+</div><div>for i in aaa():
+</div><div>&nbsp;       print (i)
+</div><div><br/></div><div><br/></div><div>带有 <span STYLE="color: rgb(255, 0, 0);">yield </span>的函数不再是一个普通函数，而是一个生成器generator，可用于迭代，</div><div>yield 是一个类似 return 的关键字，迭代一次遇到yield时就返回yield后面(右边)的值。重点是：下一次迭代时，从上一次迭代遇到的yield后面的代码(下一行)开始执行。</div><div>简要理解：yield就是 return 返回一个值，并且记住这个返回的位置，下次迭代就从这个位置后(下一行)开始。
+
+</div><div>def aaa():
+</div><div>&nbsp;       yield 1
+</div><div>&nbsp;       yield 2
+</div><div>&nbsp;       yield 3
+</div><div>&nbsp;       yield 4
+</div><div>&nbsp;       yield 5
+</div><div>&nbsp;       yield 6
+</div><div>&nbsp;       yield 7
+</div><div>&nbsp;       yield 8
+</div><div>&nbsp;       yield 9
+</div><div>&nbsp;       yield 10
+</div><div>&nbsp;       yield 11
+</div><div><br/></div><div>for i in aaa():
+</div><div>&nbsp;       print (i)
+</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      

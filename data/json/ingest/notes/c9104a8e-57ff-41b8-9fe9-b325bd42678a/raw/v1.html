@@ -1,0 +1,284 @@
+---
+title: MySQL最常用分组聚合函数
+updated: 2022-09-09 12:26:51Z
+created: 2022-08-21 15:17:51Z
+author: tangyongfeng
+tags:
+  - mysql
+---
+
+
+
+<en-note><div><p ALIGN="left"><span>一、</span><span><span>聚合函数</span>（<span>aggregation function</span>）<span>---也就是组函数</span></span></p><p ALIGN="left"><span>　　<span>在一个行的集合（一组行）上进行操作，对每个组给一个结果。</span></span></p><p ALIGN="left"><span>常用的组函数：</span></p><div><table BORDER="1" CELLSPACING="0" CELLPADDING="0"><tr><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><a SHAPE="rect" HREF="https://www.cnblogs.com/geaozhang/p/6745147.html#sum-avg" TARGET="_blank" REL="noopener"><span>AVG([<span>distinct</span>] expr)</span></a></p></td><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><span>求平均值</span></p></td></tr><tr><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><a SHAPE="rect" HREF="https://www.cnblogs.com/geaozhang/p/6745147.html#count" TARGET="_blank" REL="noopener"><span>COUNT({*|[<span>distinct</span>] } expr)</span></a></p></td><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><span>统计行的数量</span></p></td></tr><tr><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><a SHAPE="rect" HREF="https://www.cnblogs.com/geaozhang/p/6745147.html#max-min" TARGET="_blank" REL="noopener"><span>MAX([<span>distinct</span>] expr)</span></a></p></td><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><span>求最大值</span></p></td></tr><tr><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><a SHAPE="rect" HREF="https://www.cnblogs.com/geaozhang/p/6745147.html#max-min" TARGET="_blank" REL="noopener"><span>MIN([<span>distinct</span>] expr)</span></a></p></td><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><span>求最小值</span></p></td></tr><tr><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><a SHAPE="rect" HREF="https://www.cnblogs.com/geaozhang/p/6745147.html#sum-avg" TARGET="_blank" REL="noopener"><span>SUM([<span>distinct</span>] expr)</span></a></p></td><td COLSPAN="1" ROWSPAN="1" VALIGN="top"><p ALIGN="left"><span>求累加和</span></p></td></tr></table></div><p ALIGN="left"><span>　　①每个组函数接收一个参数</span></p><p ALIGN="left"><span>　　②默认情况下，<span>组函数<span>忽略列值为null的行</span>，不参与计算</span></span></p><p ALIGN="left"><span>　　③有时，会使用关键字distinct剔除字段值重复的条数</span></p><p ALIGN="left"><span>注意：</span></p><p ALIGN="left"><span>　　1）当使用组函数的select语句中没有group by子句时，中间结果集中的所有行自动形成一组，然后计算组函数；</span></p><p ALIGN="left"><span>　　2）组函数<span>不允许嵌套</span>，例如：count(max(&hellip;))；</span></p><p ALIGN="left"><span>　　3）组函数的参数可以是<span>列或是函数表达式</span>；</span></p><p ALIGN="left"><span>　　4）一个SELECT子句中可出现多个聚集函数。</span></p><p ALIGN="left">&nbsp;</p><p ALIGN="left"><span>实验演示用表：</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; select * from salary_tab;
++--------+---------+
+| userid | salary  |
++--------+---------+
+|      1 | 1000.00 |
+|      2 | 2000.00 |
+|      3 | 3000.00 |
+|      4 |    NULL |
+|      5 | 1000.00 |
++--------+---------+
+5 rows in set (0.00 sec)</span><span>&nbsp;</span></pre></div><div><pre XML:SPACE="preserve"><span>mysql&gt; use TENNIS</span><br CLEAR="none"/><span>mysql&gt;<span> show tables;
+</span>+-------------------+
+| Tables_in_TENNIS  |
++-------------------+
+| COMMITTEE_MEMBERS |
+| MATCHES           |
+| PENALTIES         |
+| PLAYERS           |
+| TEAMS             |
++-------------------+
+<span>5</span> rows <span>in</span> <span>set</span> (<span>0.00</span> sec)</span></pre></div><p ALIGN="left">&nbsp;</p><p ALIGN="left"><span><a SHAPE="rect" REL="noopener" NAME="count"></a>1、count函数</span></p><p ALIGN="left"><span>①count(*)：返回表中满足where条件的行的数量</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> count(*) <span>from</span> salary_tab <span>where</span> salary=<span>&apos;</span><span>1000</span><span>&apos;</span><span>;
+</span>+----------+
+| count(*) |
++----------+
+|        <span>2</span> |
++----------+<span>
+
+mysql</span>&gt; <span>select</span> count(*) <span>from</span><span> salary_tab;　　<span>#没有条件，默认统计表数据行数
+</span></span>+----------+
+| count(*) |
++----------+
+|        <span>5</span> |
++----------+</span></pre></div><p ALIGN="left"><span>②<span>count(列)：</span>返回列值非空的行的数量</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> count(salary) <span>from</span><span> salary_tab;
+</span>+---------------+
+| count(salary) |
++---------------+
+|             <span>4</span> |
++---------------+</span></pre></div><p ALIGN="left"><span>③<span>count(<span>distinct</span> 列)：</span>返回列值非空的、并且列值不重复的行的数量</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> count(<span>distinct</span> salary) <span>from</span><span> salary_tab;
+</span>+------------------------+
+| count(<span>distinct</span> salary) |
++------------------------+
+|                      <span>3</span> |
++------------------------+</span></pre></div><p><span>④<span>count(expr)</span>：根据表达式统计数据</span></p><div><pre XML:SPACE="preserve"><span>mysql<span>&gt;</span> <span>select</span> <span>*</span> <span>from</span><span> TT;
+</span><span>+</span><span>--</span><span>----+------------+</span>
+<span>|</span> UNIT <span>|</span> DATE       <span>|</span>
+<span>+</span><span>--</span><span>----+------------+</span>
+<span>|</span> a    <span>|</span> <span>2018</span><span>-</span><span>04</span><span>-</span><span>03</span> <span>|</span>
+<span>|</span> a    <span>|</span> <span>2017</span><span>-</span><span>12</span><span>-</span><span>12</span> <span>|</span>
+<span>|</span> b    <span>|</span> <span>2018</span><span>-</span><span>01</span><span>-</span><span>01</span> <span>|</span>
+<span>|</span> b    <span>|</span> <span>2018</span><span>-</span><span>04</span><span>-</span><span>03</span> <span>|</span>
+<span>|</span> c    <span>|</span> <span>2016</span><span>-</span><span>06</span><span>-</span><span>06</span> <span>|</span>
+<span>|</span> d    <span>|</span> <span>2018</span><span>-</span><span>03</span><span>-</span><span>03</span> <span>|</span>
+<span>+</span><span>--</span><span>----+------------+</span>
+<span>6</span> rows <span>in</span> <span>set</span> (<span>0.00</span><span> sec)
+
+mysql</span><span>&gt;</span> <span>select</span> UNIT <span>as</span> <span>&apos;</span><span>单位</span><span>&apos;</span><span>,
+    </span><span>-&gt;</span>     <span>COUNT</span>(TO_DAYS(DATE)<span>=</span>TO_DAYS(NOW()) <span>or</span> <span>null</span>) <span>as</span> <span>&apos;</span><span>今日统计</span><span>&apos;</span><span>,
+    </span><span>-&gt;</span>     <span>COUNT</span>(<span>YEAR</span>(DATE)<span>=</span><span>YEAR</span>(NOW()) <span>or</span> <span>null</span>) <span>as</span> <span>&apos;</span><span>今年统计</span><span>&apos;</span>
+    <span>-&gt;</span> <span>from</span><span> v_jjd
+    </span><span>-&gt;</span> <span>group</span> <span>by</span><span> JJDW;
+</span><span>+</span><span>--</span><span>----+----------+----------+</span>
+<span>|</span> 单位  <span>|</span> 今日统计  <span>|</span> 今年统计  <span>|</span>
+<span>+</span><span>--</span><span>----+----------+----------+</span>
+<span>|</span> a    <span>|</span>        <span>1</span> <span>|</span>        <span>1</span> <span>|</span>
+<span>|</span> b    <span>|</span>        <span>1</span> <span>|</span>        <span>2</span> <span>|</span>
+<span>|</span> c    <span>|</span>        <span>0</span> <span>|</span>        <span>0</span> <span>|</span>
+<span>|</span> d    <span>|</span>        <span>0</span> <span>|</span>        <span>1</span> <span>|</span>
+<span>+</span><span>--</span><span>----+----------+----------+</span>
+<span>4</span> rows <span>in</span> <span>set</span> (<span>0.00</span> sec)</span></pre></div><p>&nbsp;</p><p ALIGN="left"><span><span><a SHAPE="rect" REL="noopener" NAME="max-min"></a>2、max和min函数</span>---统计列中的最大最小值</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> max(salary) <span>from</span><span> salary_tab;
+</span>+-------------+
+| max(salary) |
++-------------+
+|     <span>3000.00</span> |
++-------------+<span>
+
+mysql</span>&gt; <span>select</span> min(salary) <span>from</span><span> salary_tab;
+</span>+-------------+
+| min(salary) |
++-------------+
+|     <span>1000.00</span> |
++-------------+</span></pre></div><p ALIGN="left"><span><span>注意：</span>如果统计的列中只有NULL值，那么MAX和MIN就返回NULL</span></p><p ALIGN="left"><span>&nbsp;</span></p><p ALIGN="left"><span><span><a SHAPE="rect" REL="noopener" NAME="sum-avg"></a>3、sum和avg函数</span>---求和与求平均</span></p><p ALIGN="left"><span>！！表中列值为null的行不参与计算</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> sum(salary) <span>from</span><span> salary_tab;
+</span>+-------------+
+| sum(salary) |
++-------------+
+|     <span>7000.00</span> |
++-------------+<span>
+
+mysql</span>&gt; <span>select</span> avg(salary) <span>from</span><span> salary_tab;
+</span>+-------------+
+| avg(salary) |
++-------------+
+| <span>1750.000000</span> |
++-------------+<span>
+
+mysql</span>&gt; <span>select</span> avg(ifnull(salary,<span>0</span>)) <span>from</span><span> salary_tab;
+</span>+-----------------------+
+| avg(ifnull(salary,<span>0</span>)) |
++-----------------------+
+|           <span>1400.000000</span> |
++-----------------------+</span></pre></div><p ALIGN="left"><span><span>注意：</span>要想列值为NULL的行也参与组函数的计算，必须使用<span>IFNULL函数对NULL值做转换</span>。</span></p><p ALIGN="left"><span>&nbsp;</span></p><p ALIGN="left"><span>&nbsp;</span></p><p ALIGN="left"><span>二、分组SELECT</span></p><div><pre XML:SPACE="preserve"><span><span>SELECT select_expr [, select_expr ...]
+
+    [FROM table_references
+
+      [PARTITION partition_list]
+
+    [WHERE where_condition]
+
+    [GROUP BY {col_name </span>| expr |<span> position}
+
+      [ASC </span>|<span> DESC], ... [WITH ROLLUP]]
+
+    [HAVING where_condition]
+
+    [ORDER BY {col_name </span>| expr |<span> position}
+
+      [ASC </span>|<span> DESC], ...]
+
+[LIMIT {[offset,] row_count </span>| row_count OFFSET offset}]</span></pre></div><p ALIGN="left"><span>分组SELECT的<span>基本格式：</span></span></p><p ALIGN="left"><span>　　select<span>&nbsp;</span><span>[聚合函数]</span><span>&nbsp;</span><span>字段名</span><span>&nbsp;</span>from 表名</span></p><p ALIGN="left"><span>　　　　[where 查询条件]</span></p><p ALIGN="left"><span>　　　　[group by<span>&nbsp;</span><span>字段名</span>]</span></p><p ALIGN="left"><span>　　　　<span>[having 过滤条件]</span></span></p><p ALIGN="left"><span>1、group by子句</span></p><p ALIGN="left"><span>　　根据给定列或者表达式的每一个不同的值将表中的行分成不同的组，使用组函数返回每一组的统计信息</span></p><p ALIGN="left"><span>规则：</span></p><p ALIGN="left"><span>　　①<span>出现在SELECT子句中的单独的列，必须出现在GROUP BY子句中作为分组列</span></span></p><p ALIGN="left"><span>　　②<span>分组列可以不出现在SELECT子句中</span></span></p><p ALIGN="left"><span>　　③分组列可出现在SELECT子句中的一个复合表达式中</span></p><p ALIGN="left"><span>　　④如果GROUP BY后面是一个复合表达式，那么在SELECT子句中，它必须整体作为一个表达式的一部分才能使用。</span></p><p ALIGN="left"><span>1）指定<span>一个列</span>进行分组</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> salary,count(*) <span>from</span><span> salary_tab
+    </span>-&gt; <span>where</span> salary&gt;=<span>2000</span>
+    -&gt;<span> group by salary;   &lt;---------重点是这句
+</span>+---------+----------+
+| salary  | count(*) |
++---------+----------+
+| <span>2000.00</span> |        <span>1</span> |
+| <span>3000.00</span> |        <span>1</span> |
++---------+----------+</span></pre></div><p ALIGN="left"><span>2）指定<span>多个分组列</span>，&lsquo;大组中再分小组&rsquo;</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> userid,count(salary) <span>from</span><span> salary_tab
+    </span>-&gt; <span>where</span> salary&gt;=<span>2000</span>
+    -&gt;<span> group by salary,userid;   
+</span>+--------+---------------+
+| userid | count(salary) |
++--------+---------------+
+|      <span>2</span> |             <span>1</span> |
+|      <span>3</span> |             <span>1</span> |
++--------+---------------+</span></pre></div><p ALIGN="left"><span>3）根据<span>表达式</span>分组</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> year(payment_date),count(*<span>)
+    </span>-&gt; <span>from</span><span> PENALTIES
+    </span>-&gt;<span> group by year(payment_date);
+</span>+--------------------+----------+
+| year(payment_date) | count(*) |
++--------------------+----------+
+|               <span>1980</span> |        <span>3</span> |
+|               <span>1981</span> |        <span>1</span> |
+|               <span>1982</span> |        <span>1</span> |
+|               <span>1983</span> |        <span>1</span> |
+|               <span>1984</span> |        <span>2</span> |
++--------------------+----------+
+<span>5</span> rows <span>in</span> <span>set</span> (<span>0.00</span> sec)</span></pre></div><p ALIGN="left"><span>4）带有<span>排序的分组</span>：如果分组列和排序列相同，则可以合并group by和order by子句</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> teamno,count(*<span>)
+    </span>-&gt; <span>from</span><span> MATCHES
+    </span>-&gt;<span> group by teamno
+    </span>-&gt;<span> order by teamno desc;
+</span>+--------+----------+
+| teamno | count(*) |
++--------+----------+
+|      <span>2</span> |        <span>5</span> |
+|      <span>1</span> |        <span>8</span> |
++--------+----------+
+<span>2</span> rows <span>in</span> <span>set</span> (<span>0.00</span><span> sec)
+
+mysql</span>&gt; <span>select</span> teamno,count(*<span>)
+    </span>-&gt; <span>from</span><span> MATCHES
+    </span>-&gt;<span> group by teamno desc;　　<span>#可以把desc(或者asc)包含到group by子句中简化
+</span></span>+--------+----------+
+| teamno | count(*) |
++--------+----------+
+|      <span>2</span> |        <span>5</span> |
+|      <span>1</span> |        <span>8</span> |
++--------+----------+
+<span>2</span> rows <span>in</span> <span>set</span> (<span>0.00</span> sec)</span></pre></div><p><span><span>对于分组聚合</span><span>注意</span>：</span></p><p><span>　　通过select在返回集字段中，这些字段<span>要么就要包含在group by语句后面<span>，作为分组的依据</span></span>，<span>要么就要被包含在聚合函数中</span>。我们可以将group by操作想象成如下的一个过程：首先系统根据select语句得到一个结果集，然后根据分组字段，将具有相同分组字段的记录归并成了一条记录。这个时候剩下的那些不存在与group by语句后面作为分组依据的字段就很有可能出现多个值，但是目前一种分组情况只有一条记录，一个数据格是无法放入多个数值的，所以这个时候就需要通过一定的处理将这些多值的列转化成单值，然后将其放在对应的数据格中，那么完成这个步骤的就是前面讲到的聚合函数，这也就是为什么这些函数叫聚合函数了。</span></p><p ALIGN="left">&nbsp;</p><p ALIGN="left"><span>2、GROUP_CONCAT()函数</span></p><p ALIGN="left"><span>　　函数的值等于属于一个组的指定列的所有值，<span>以逗号隔开</span>，并且以字符串表示。</span></p><p ALIGN="left"><span>例1：对于每个球队，得到其编号和所有球员的编号</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span><span> teamno,group_concat(playerno)
+    </span>-&gt; <span>from</span><span> MATCHES
+    </span>-&gt;<span> group by teamno;
+</span>+--------+------------------------+
+| teamno | group_concat(playerno) |
++--------+------------------------+
+|      <span>1</span> | <span>6</span>,<span>6</span>,<span>6</span>,<span>44</span>,<span>83</span>,<span>2</span>,<span>57</span>,<span>8</span>     |
+|      <span>2</span> | <span>27</span>,<span>104</span>,<span>112</span>,<span>112</span>,<span>8</span>       |
++--------+------------------------+
+<span>2</span> rows <span>in</span> <span>set</span> (<span>0.01</span> sec)</span></pre></div><p ALIGN="left"><span><span>如果没有group by子句，group_concat返回一列的所有值</span></span></p><p ALIGN="left"><span>例2：得到所有的罚款编号列表</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span><span> group_concat(paymentno)
+    </span>-&gt; <span>from</span><span> PENALTIES;
+</span>+-------------------------+
+| group_concat(paymentno) |
++-------------------------+
+| <span>1</span>,<span>2</span>,<span>3</span>,<span>4</span>,<span>5</span>,<span>6</span>,<span>7</span>,<span>8</span>         |
++-------------------------+
+<span>1</span> row <span>in</span> <span>set</span> (<span>0.00</span> sec)</span></pre></div><p>&nbsp;</p><p ALIGN="left"><span><span>3、with rollup子句：</span>用来要求在一条group by子句中<span>进行多个不同的分组</span></span></p><p ALIGN="left"><span><span>用的比较少点</span>，但是有时可以根据具体的需求使用</span></p><p ALIGN="left"><span>　　如果有子句GROUP BY E1,E2,E3,E4 WITH ROLLUP</span></p><p ALIGN="left"><span>　　那么将分别执行以下分组：<span>[E1,E2,E3,E4]、[E1,E2,E3]、[E1,E2]、[E1]、[]</span></span></p><p ALIGN="left"><span><span>注意：</span>[ ]表示所有行都分在一组中</span></p><p ALIGN="left"><span>示例：按照球员的性别和居住城市，统计球员的总数；统计每个性别球员的总数；统计所有球员的总数</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> sex,town,count(*<span>)
+    </span>-&gt; <span>from</span><span> PLAYERS
+    </span>-&gt;<span> group by sex,town with rollup;
+</span>+-----+-----------+----------+
+| sex | town      | count(*) |
++-----+-----------+----------+
+| F   | Eltham    |        <span>2</span> |
+| F   | Inglewood |        <span>1</span> |
+| F   | Midhurst  |        <span>1</span> |
+| F   | Plymouth  |        <span>1</span> |
+| F   | NULL      |        <span>5</span> |
+| M   | Douglas   |        <span>1</span> |
+| M   | Inglewood |        <span>1</span> |
+| M   | Stratford |        <span>7</span> |
+| M   | NULL      |        <span>9</span> |
+| NULL | NULL      |       <span>14</span> |
++-----+-----------+----------+
+<span>10</span> rows <span>in</span> <span>set</span> (<span>0.00</span> sec)</span></pre></div><p>&nbsp;</p><p ALIGN="left"><span><span>4、HAVING子句</span>：</span><span>对分组结果进行过滤</span></p><p ALIGN="left"><span>注意：</span></p><p ALIGN="left"><span>　　不能使用WHERE子句对分组后的结果进行过滤</span></p><p ALIGN="left"><span>　　不能在WHERE子句中使用组函数，仅用于过滤行</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span><span> playerno
+    </span>-&gt; <span>from</span><span> PENALTIES
+    </span>-&gt; <span>where</span> count(*)&gt;<span>1</span>
+    -&gt;<span> group by playerno;
+ERROR </span><span>1111</span> (HY000): Invalid use of group function</span></pre></div><p ALIGN="left"><span>因为<span>WHERE子句比GROUP BY<span>先执行</span></span>，而组函数<span>必须在分完组之后</span>才执行，且<span>分完组后</span><span>必须使用having子句</span>进行结果集的过滤。</span></p><p ALIGN="left"><span>基本语法：</span></p><div><pre XML:SPACE="preserve"><span><span>SELECT   select_expr [, select_expr ...]
+
+   FROM  table_name
+
+   [WHERE where_condition]
+
+   [GROUP BY {col_name </span>| expr} [ASC |<span> DESC], ... [WITH ROLLUP]]
+
+[HAVING where_condition]</span></span></pre></div><p ALIGN="left"><span>！！！having子语句与where子语句区别：</span></p><p ALIGN="left"><span>　　where子句在<span>分组前</span>对记录进行过滤；</span></p><p ALIGN="left"><span>　　having子句在<span>分组后</span>对记录进行过滤</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> salary,count(*) <span>from</span><span> salary_tab
+    </span>-&gt; <span>where</span> salary&gt;=<span>2000</span>
+    -&gt;<span> group by salary
+    </span>-&gt; having count(*)&gt;=<span>0</span><span>;
+</span>+---------+----------+
+| salary  | count(*) |
++---------+----------+
+| <span>2000.00</span> |        <span>1</span> |
+| <span>3000.00</span> |        <span>1</span> |
++---------+----------+</span></pre></div><p ALIGN="left"><span>1）HAVING可以单独使用而不和GROUP BY配合,如果只有HAVING子句而没有GROUP BY，表中所有的行分为一组</span></p><p ALIGN="left"><span>2）HAVING子句中可以使用组函数</span></p><p ALIGN="left"><span>3）<span>HAVING子句中的列，要么出现在一个组函数中，要么出现在GROUP BY子句中(否则出错)</span></span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> town,count(*<span>)
+    </span>-&gt; <span>from</span><span> PLAYERS
+    </span>-&gt;<span> group by town
+    </span>-&gt; having birth_date&gt;<span>&apos;</span><span>1970-01-01</span><span>&apos;</span><span>;
+ERROR </span><span>1054</span> (42S22): Unknown column <span>&apos;</span><span>birth_date</span><span>&apos;</span> <span>in</span> <span>&apos;</span><span>having clause</span><span>&apos;</span><span>
+mysql</span>&gt; <span>select</span> town,count(*<span>)
+    </span>-&gt; <span>from</span><span> PLAYERS
+    </span>-&gt;<span> group by town
+    </span>-&gt; having town <span>in</span> (<span>&apos;</span><span>Eltham</span><span>&apos;</span>,<span>&apos;</span><span>Midhurst</span><span>&apos;</span><span>);
+</span>+----------+----------+
+| town     | count(*) |
++----------+----------+
+| Eltham   |        <span>2</span> |
+| Midhurst |        <span>1</span> |
++----------+----------+
+<span>2</span> rows <span>in</span> <span>set</span> (<span>0.00</span> sec)</span></pre></div><p>&nbsp;</p><p ALIGN="left"><span>&nbsp;</span></p><p ALIGN="left"><span>三、集合查询操作</span></p><p ALIGN="left"><span>　　union用于把两个或者多个select查询的结果集合并成一个</span></p><div><pre XML:SPACE="preserve"><span><span>SELECT ...
+
+UNION [ALL </span>|<span> <span>DISTINCT</span>]
+
+SELECT ...
+
+[UNION [ALL </span>|<span> <span>DISTINCT</span>]
+
+SELECT ...]</span></span></pre></div><p ALIGN="left"><span>默认情况下，<span>UNION = UNION <span>DISTINCT</span></span></span></p><p ALIGN="left"><span>　　①进行合并的两个查询，其SELECT列表必须在数量和对应列的数据类型上保持一致；</span></p><p ALIGN="left"><span>　　②默认会去掉两个查询结果集中的重复行；默认结果集不排序；</span></p><p ALIGN="left"><span>　　③最终结果集的列名来自于第一个查询的SELECT列表</span></p><p ALIGN="left"><span><span>UNION&nbsp; ALL</span>不去掉结果集中重复的行</span></p><p ALIGN="left"><span><span>注：</span>联合查询结果使用第一个select语句中的字段名</span></p><div><pre XML:SPACE="preserve"><span>mysql&gt; <span>select</span> * <span>from</span><span> t1;
+</span>+------+------+
+| num  | addr |
++------+------+
+|  <span>123</span> | abc  |
+|  <span>321</span> | cba  |
++------+------+
+<span>2</span> rows <span>in</span> <span>set</span> (<span>0.00</span><span> sec)
+
+mysql</span>&gt; <span>select</span> * <span>from</span><span> t2;
+</span>+------+------+
+| id   | name |
++------+------+
+|    <span>1</span> | a    |
+|    <span>2</span> | A    |
++------+------+
+<span>2</span> rows <span>in</span> <span>set</span> (<span>0.00</span><span> sec)
+
+mysql</span>&gt; <span>select</span> * <span>from</span><span> t1
+    </span>-&gt;<span> union
+    </span>-&gt; <span>select</span> * <span>from</span><span> t2;
+</span>+------+------+
+| num  | addr |
++------+------+
+|  <span>123</span> | abc  |
+|  <span>321</span> | cba  |
+|    <span>1</span> | a    |
+|    <span>2</span> | A    |
++------+------+
+<span>4</span> rows <span>in</span> <span>set</span> (<span>0.00</span> sec)</span></pre></div><p ALIGN="left"><span>如果要对合并后的整个结果集进行排序，<span>ORDER BY子句只能出现在最后面的查询中</span></span></p><p ALIGN="left"><span>注意：</span></p><p ALIGN="left"><span>　　<span>在去重操作时</span>，如果列值中包含<span>NULL值</span>，认为它们是<span>相等的</span></span></p><br CLEAR="none"/></div></en-note>      

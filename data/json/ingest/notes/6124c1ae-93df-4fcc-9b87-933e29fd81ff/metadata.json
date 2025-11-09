@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "83cf56e2-59eb-4e6d-821f-9909f32d1b40",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/iPhone屏幕.html",
+    "collected_at": "2025-11-09T20:01:34.875377Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "0c1feaef00be2e26c9abb790bd80b9786dcd167cdb651a3dc8657966cc5a6c3a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6124c1ae-93df-4fcc-9b87-933e29fd81ff",
+    "ingest_source_id": "83cf56e2-59eb-4e6d-821f-9909f32d1b40",
+    "canonical_title": "iPhone屏幕",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.875382Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "iPhone屏幕.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e2c698f1-3faa-4342-9414-3f38c48ef919",
+      "note_id": "6124c1ae-93df-4fcc-9b87-933e29fd81ff",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.875385Z",
+      "content": "---\ntitle: iPhone屏幕\nupdated: 2022-10-25 20:28:36Z\ncreated: 2022-10-25 20:26:29Z\n---\n\n\n<en-note><div><br/></div><table WIDTH=\"1316px\" STYLE=\"border-collapse:collapse;width:1316px;\"><colgroup><col STYLE=\"width: 188px;\"/><col STYLE=\"width: 188px;\"/><col STYLE=\"width: 188px;\"/><col STYLE=\"width: 188px;\"/><col STYLE=\"width: 188px;\"/><col STYLE=\"width: 188px;\"/><col STYLE=\"width: 188px;\"/></colgroup><tbody><tr><th STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>手机型号</div></th><th STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>屏幕尺寸</div></th><th STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>屏幕密度</div></th><th STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>屏幕宽高(pt)</div></th><th STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>屏幕分辨率(px)</div></th><th STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>倍图</div></th><th STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>屏幕比例</div></th></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>4/4s</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>3.5inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>326 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>320*480pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>640*960px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@2x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>3:2</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>5/5c/5s/se(第一代)</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>4.0inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>326 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>320*568pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>640*1136px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@2x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>16:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>6/6s/7/8/se(第二代)</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>4.7inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>326 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>375*667pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>750*1334px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@2x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>16:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>6+/6s+/7+/8+</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>5.5inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>401 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>414*736pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>1242&hairsp;*&hairsp;2208px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@3x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>16:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>X/XS/11Pro</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>5.8inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>458 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>375*812pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>1125*&hairsp;2436px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@3x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>19.5:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>XR/11</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>6.1inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>326 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>414*896pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>828*&hairsp;1792px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@2x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>19.5:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>Xs Max/11Pro Max</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>6.5inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>458 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>414*896pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>1242*&hairsp;2688px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@3x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>19.5:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>iPhone12 mini/13 mini</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>5.4inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>476 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>360*780pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>1080*&hairsp;2340px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@3x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>19.5:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>iPhone12/12Pro/13/13Pro/14</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>6.1inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>460 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>390*844pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>1170*&hairsp;2532px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@3x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>19.5:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>iPhone 12 Pro Max /13 Pro Max/14 Plus</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>6.7inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>458 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>428*926pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>1284*&hairsp;2778px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@3x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>19.5:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>iPhone14 Pro</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>6.1inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>460 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>393*852pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>1179*&hairsp;2556</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@3x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>19.5:9</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>iPhone14Pro Max</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>6.7inch</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>460 ppi</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>430*932pt</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>1290*&hairsp;2796px</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>@3x</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>19.5:9</div></td></tr></tbody></table><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0c1feaef00be2e26c9abb790bd80b9786dcd167cdb651a3dc8657966cc5a6c3a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/iPhone屏幕.html"
+      }
+    },
+    {
+      "id": "d2a00286-bea7-4368-b9bc-501f7c0221ee",
+      "note_id": "6124c1ae-93df-4fcc-9b87-933e29fd81ff",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.875389Z",
+      "content": "---\ntitle: iPhone屏幕\nupdated: 2022-10-25 20:28:36Z\ncreated: 2022-10-25 20:26:29Z\n---\n\n手机型号\n屏幕尺寸\n屏幕密度\n屏幕宽高(pt)\n屏幕分辨率(px)\n倍图\n屏幕比例\n4/4s\n3.5inch\n326 ppi\n320*480pt\n640*960px\n\n3:2\n5/5c/5s/se(第一代)\n4.0inch\n326 ppi\n320*568pt\n640*1136px\n\n16:9\n6/6s/7/8/se(第二代)\n4.7inch\n326 ppi\n375*667pt\n750*1334px\n\n16:9\n6+/6s+/7+/8+\n5.5inch\n401 ppi\n414*736pt\n1242 * 2208px\n\n16:9\nX/XS/11Pro\n5.8inch\n458 ppi\n375*812pt\n1125* 2436px\n\n19.5:9\nXR/11\n6.1inch\n326 ppi\n414*896pt\n828* 1792px\n\n19.5:9\nXs Max/11Pro Max\n6.5inch\n458 ppi\n414*896pt\n1242* 2688px\n\n19.5:9\niPhone12 mini/13 mini\n5.4inch\n476 ppi\n360*780pt\n1080* 2340px\n\n19.5:9\niPhone12/12Pro/13/13Pro/14\n6.1inch\n460 ppi\n390*844pt\n1170* 2532px\n\n19.5:9\niPhone 12 Pro Max /13 Pro Max/14 Plus\n6.7inch\n458 ppi\n428*926pt\n1284* 2778px\n\n19.5:9\niPhone14 Pro\n6.1inch\n460 ppi\n393*852pt\n1179* 2556\n\n19.5:9\niPhone14Pro Max\n6.7inch\n460 ppi\n430*932pt\n1290* 2796px\n\n19.5:9",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 873,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "social_handles",
+            "description": "Drop standalone social handles and hashtags",
+            "note": "removed social handle only lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4599ab05-680e-476f-9b50-bd2c57ec1ef6",
+    "note_id": "6124c1ae-93df-4fcc-9b87-933e29fd81ff",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.875394Z",
+    "finished_at": "2025-11-09T20:01:34.875395Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cb156600-74e9-4bc1-8ad8-81c4981d3da0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/iPhone屏幕.html",
+      "checksum": "0c1feaef00be2e26c9abb790bd80b9786dcd167cdb651a3dc8657966cc5a6c3a"
+    },
+    "output_ref": {
+      "ingest_source": "83cf56e2-59eb-4e6d-821f-9909f32d1b40",
+      "note": "6124c1ae-93df-4fcc-9b87-933e29fd81ff",
+      "variants": [
+        "e2c698f1-3faa-4342-9414-3f38c48ef919",
+        "d2a00286-bea7-4368-b9bc-501f7c0221ee"
+      ]
+    },
+    "error_detail": null
+  }
+}

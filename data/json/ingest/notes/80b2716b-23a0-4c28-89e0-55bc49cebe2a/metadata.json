@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0c3ef910-c85e-4f71-bbcc-ace58819bf79",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/组织者：websphere.html",
+    "collected_at": "2025-11-09T20:05:17.139263Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "7dcf3c3124ab06ea1d9d9fb941afd2fd3d078715a0b3869cb416974414d14530",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "80b2716b-23a0-4c28-89e0-55bc49cebe2a",
+    "ingest_source_id": "0c3ef910-c85e-4f71-bbcc-ace58819bf79",
+    "canonical_title": "组织者：websphere",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:05:17.139266Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "组织者：websphere.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "82ac38e4-2900-4a9a-8436-08b4745cabc1",
+      "note_id": "80b2716b-23a0-4c28-89e0-55bc49cebe2a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.139269Z",
+      "content": "---\ntitle: 组织者：websphere\nupdated: 2013-03-06 08:59:19Z\ncreated: 2013-03-06 08:43:57Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n组织者：websphere\n<div>主要speeker</div><div><br/></div><div><br/></div><div><br/></div><div>天津正兴</div><div>青岛银行</div><div>广东移动</div><div>联想</div><div>华为</div><div>农信银资金清算中心</div><div>南瑞 银行系统提供商</div><div>国航</div><div>广东粤贴电子</div><div>福建烟草</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7dcf3c3124ab06ea1d9d9fb941afd2fd3d078715a0b3869cb416974414d14530",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/组织者：websphere.html"
+      }
+    },
+    {
+      "id": "d66131ac-5d08-491a-a5cb-3590f3966901",
+      "note_id": "80b2716b-23a0-4c28-89e0-55bc49cebe2a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.139271Z",
+      "content": "---\ntitle: 组织者：websphere\nupdated: 2013-03-06 08:59:19Z\ncreated: 2013-03-06 08:43:57Z\n---\n\n组织者：websphere\n\n主要speeker\n天津正兴\n青岛银行\n广东移动\n联想\n华为\n农信银资金清算中心\n南瑞 银行系统提供商\n国航\n广东粤贴电子\n福建烟草",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 171,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "969f6c89-18f8-46fe-9cb7-092bd6b9b104",
+    "note_id": "80b2716b-23a0-4c28-89e0-55bc49cebe2a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.139276Z",
+    "finished_at": "2025-11-09T20:05:17.139276Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "54ceff6a-236d-4961-96f0-df9d886c84ba",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/组织者：websphere.html",
+      "checksum": "7dcf3c3124ab06ea1d9d9fb941afd2fd3d078715a0b3869cb416974414d14530"
+    },
+    "output_ref": {
+      "ingest_source": "0c3ef910-c85e-4f71-bbcc-ace58819bf79",
+      "note": "80b2716b-23a0-4c28-89e0-55bc49cebe2a",
+      "variants": [
+        "82ac38e4-2900-4a9a-8436-08b4745cabc1",
+        "d66131ac-5d08-491a-a5cb-3590f3966901"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "18d250e9-6803-4f97-9a62-1dec9b8a6546",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ZH1003.html",
+    "collected_at": "2025-11-09T20:05:13.715445Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "19e6c2c334fea352d988989a71d0bc26abe088cab92781bda99dd03a9d302870",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0073af92-a23e-48b7-8b8b-7c1385087baf",
+    "ingest_source_id": "18d250e9-6803-4f97-9a62-1dec9b8a6546",
+    "canonical_title": "ZH1003",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.715449Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ZH1003.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e9042426-9f7e-4a57-9f74-8b531dee8274",
+      "note_id": "0073af92-a23e-48b7-8b8b-7c1385087baf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.715452Z",
+      "content": "---\ntitle: ZH1003\nupdated: 2018-10-30 01:02:56Z\ncreated: 2018-10-30 01:02:45Z\n---\n\n\n<en-note><div>BSS 50:bd:5f:1a:4b:c9(on wlan1)</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TSF: 1897979289523 usec (21d, 23:12:59)</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;freq: 2412</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;beacon interval: 100 TUs</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;capability: ESS (0x0431)</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;signal: -45.00 dBm</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;last seen: 760 ms ago</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Information elements from Probe Response frame:</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SSID: ZH1003</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HT capabilities:</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Capabilities: 0x11ef</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RX LDPC</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HT20/HT40</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SM Power Save disabled</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RX HT20 SGI</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RX HT40 SGI</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TX STBC</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RX STBC 1-stream</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Max AMSDU length: 3839 bytes</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DSSS/CCK HT40</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maximum RX AMPDU length 65535 bytes (exponent: 0x003)</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Minimum RX AMPDU time spacing: No restriction (0x00)</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HT TX/RX MCS rate indexes supported: 0-15</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HT operation:</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* primary channel: 1</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* secondary channel offset: above</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* STA channel width: any</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;RSN:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Version: 1</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Group cipher: CCMP</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Pairwise ciphers: CCMP</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Authentication suites: PSK</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;* Capabilities: 1-PTKSA-RC 1-GTKSA-RC (0x0000)</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "19e6c2c334fea352d988989a71d0bc26abe088cab92781bda99dd03a9d302870",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ZH1003.html"
+      }
+    },
+    {
+      "id": "3a74d2c0-3495-4e48-8e0f-4b7dc10403c9",
+      "note_id": "0073af92-a23e-48b7-8b8b-7c1385087baf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.715454Z",
+      "content": "---\ntitle: ZH1003\nupdated: 2018-10-30 01:02:56Z\ncreated: 2018-10-30 01:02:45Z\n---\n\nBSS 50:bd:5f:1a:4b:c9(on wlan1)\n        TSF: 1897979289523 usec (21d, 23:12:59)\n        freq: 2412\n        beacon interval: 100 TUs\n        capability: ESS (0x0431)\n        signal: -45.00 dBm\n        last seen: 760 ms ago\n        Information elements from Probe Response frame:\n        SSID: ZH1003\n        HT capabilities:\n                Capabilities: 0x11ef\n                        RX LDPC\n                        HT20/HT40\n                        SM Power Save disabled\n                        RX HT20 SGI\n                        RX HT40 SGI\n                        TX STBC\n                        RX STBC 1-stream\n                        Max AMSDU length: 3839 bytes\n                        DSSS/CCK HT40\n                Maximum RX AMPDU length 65535 bytes (exponent: 0x003)\n                Minimum RX AMPDU time spacing: No restriction (0x00)\n                HT TX/RX MCS rate indexes supported: 0-15\n        HT operation:\n                 * primary channel: 1\n                 * secondary channel offset: above\n                 * STA channel width: any\n        RSN:     * Version: 1\n                 * Group cipher: CCMP\n                 * Pairwise ciphers: CCMP\n                 * Authentication suites: PSK\n                 * Capabilities: 1-PTKSA-RC 1-GTKSA-RC (0x0000)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1362,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "36d27dad-e55c-4824-a3a5-dd41f4777406",
+    "note_id": "0073af92-a23e-48b7-8b8b-7c1385087baf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.715459Z",
+    "finished_at": "2025-11-09T20:05:13.715460Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e74bd00b-ae64-48e7-9dac-021cdf79c29c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ZH1003.html",
+      "checksum": "19e6c2c334fea352d988989a71d0bc26abe088cab92781bda99dd03a9d302870"
+    },
+    "output_ref": {
+      "ingest_source": "18d250e9-6803-4f97-9a62-1dec9b8a6546",
+      "note": "0073af92-a23e-48b7-8b8b-7c1385087baf",
+      "variants": [
+        "e9042426-9f7e-4a57-9f74-8b531dee8274",
+        "3a74d2c0-3495-4e48-8e0f-4b7dc10403c9"
+      ]
+    },
+    "error_detail": null
+  }
+}

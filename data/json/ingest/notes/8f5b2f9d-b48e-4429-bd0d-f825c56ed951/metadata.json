@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f0ea1901-8eca-481a-b968-bf49f3ecf018",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/godaddy.com.html",
+    "collected_at": "2025-11-09T20:05:13.846911Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7b8321939f665839bde0ec802f6b95991aff37bded89f4e734553e349e660efa",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8f5b2f9d-b48e-4429-bd0d-f825c56ed951",
+    "ingest_source_id": "f0ea1901-8eca-481a-b968-bf49f3ecf018",
+    "canonical_title": "godaddy.com",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.846914Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "godaddy.com.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a071fb41-9b7b-41a4-8288-a9bdbdadd268",
+      "note_id": "8f5b2f9d-b48e-4429-bd0d-f825c56ed951",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.846917Z",
+      "content": "---\ntitle: godaddy.com\nupdated: 2020-12-13 22:29:43Z\ncreated: 2020-12-13 22:25:44Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Kundennummer: 326531906</div><div><br/></div><div>使用google 辅助登陆</div><div><br/></div><div>域名 :</div><div>yueran.de</div><div STYLE=\"orphans: 2; widows: 2; \">&nbsp;到期日期2021.9.12</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7b8321939f665839bde0ec802f6b95991aff37bded89f4e734553e349e660efa",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/godaddy.com.html"
+      }
+    },
+    {
+      "id": "d6392a05-600d-45d4-b9e9-a548170806f5",
+      "note_id": "8f5b2f9d-b48e-4429-bd0d-f825c56ed951",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.846920Z",
+      "content": "---\ntitle: godaddy.com\nupdated: 2020-12-13 22:29:43Z\ncreated: 2020-12-13 22:25:44Z\nauthor: tangyongfeng@gmail.com\n---\n\nKundennummer: 326531906\n使用google 辅助登陆\n域名 :\nyueran.de\n 到期日期2021.9.12",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 186,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0504aaa6-077b-40a4-a244-ea6928eef3e5",
+    "note_id": "8f5b2f9d-b48e-4429-bd0d-f825c56ed951",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.846924Z",
+    "finished_at": "2025-11-09T20:05:13.846925Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f4ca70ee-e56d-4e99-b86d-69a546e91db2",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/godaddy.com.html",
+      "checksum": "7b8321939f665839bde0ec802f6b95991aff37bded89f4e734553e349e660efa"
+    },
+    "output_ref": {
+      "ingest_source": "f0ea1901-8eca-481a-b968-bf49f3ecf018",
+      "note": "8f5b2f9d-b48e-4429-bd0d-f825c56ed951",
+      "variants": [
+        "a071fb41-9b7b-41a4-8288-a9bdbdadd268",
+        "d6392a05-600d-45d4-b9e9-a548170806f5"
+      ]
+    },
+    "error_detail": null
+  }
+}

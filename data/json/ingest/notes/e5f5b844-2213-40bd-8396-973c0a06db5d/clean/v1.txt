@@ -1,0 +1,19 @@
+---
+title: SELECT cnName
+updated: 2013-06-18 07:21:28Z
+created: 2013-06-18 07:21:28Z
+tags:
+  - sql
+---
+
+SELECT   cnName
+
+FROM      category
+
+WHERE   (supId =
+
+                    (SELECT   supId
+
+                     FROM      category AS category_1
+
+                     WHERE   (cnName = '抗微生物药物')))

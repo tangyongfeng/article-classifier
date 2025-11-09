@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b3d47e7e-8858-49a8-b3af-5893bb86d650",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/母螃蟹：55元_斤，公螃蟹：35元_斤.html",
+    "collected_at": "2025-11-09T20:05:16.434440Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "41026070a4436b18e5734fc396ba92da03c3febc6a35774c44e81a771d07a742",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b13493ea-8aeb-40c6-a694-6b69090922e1",
+    "ingest_source_id": "b3d47e7e-8858-49a8-b3af-5893bb86d650",
+    "canonical_title": "母螃蟹：55元_斤，公螃蟹：35元_斤",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.434444Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "母螃蟹：55元_斤，公螃蟹：35元_斤.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ac1598c0-6410-488d-bf78-af3d1f8e9b68",
+      "note_id": "b13493ea-8aeb-40c6-a694-6b69090922e1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.434447Z",
+      "content": "---\ntitle: 母螃蟹：55元/斤，公螃蟹：35元/斤\nupdated: 2012-09-11 13:24:13Z\ncreated: 2012-09-11 02:00:34Z\n---\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; \">\n&Tab;<div>母螃蟹：55元/斤，公螃蟹：35元/斤<br/></div>\n&Tab;<div>4斤母螃蟹，2斤公螃蟹 x7</div><div><br/></div>\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "41026070a4436b18e5734fc396ba92da03c3febc6a35774c44e81a771d07a742",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/母螃蟹：55元_斤，公螃蟹：35元_斤.html"
+      }
+    },
+    {
+      "id": "41ea2979-a1b5-47b9-bde3-729447ce3ca8",
+      "note_id": "b13493ea-8aeb-40c6-a694-6b69090922e1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.434449Z",
+      "content": "---\ntitle: 母螃蟹：55元/斤，公螃蟹：35元/斤\nupdated: 2012-09-11 13:24:13Z\ncreated: 2012-09-11 02:00:34Z\n---\n\n母螃蟹：55元/斤，公螃蟹：35元/斤\n\n4斤母螃蟹，2斤公螃蟹 x7",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 131,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "cf1d07b0-32a7-4a4d-b590-e55b91ddcbd8",
+    "note_id": "b13493ea-8aeb-40c6-a694-6b69090922e1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.434454Z",
+    "finished_at": "2025-11-09T20:05:16.434454Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ca8a7292-d28e-4395-9d52-42a70cf6564a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/母螃蟹：55元_斤，公螃蟹：35元_斤.html",
+      "checksum": "41026070a4436b18e5734fc396ba92da03c3febc6a35774c44e81a771d07a742"
+    },
+    "output_ref": {
+      "ingest_source": "b3d47e7e-8858-49a8-b3af-5893bb86d650",
+      "note": "b13493ea-8aeb-40c6-a694-6b69090922e1",
+      "variants": [
+        "ac1598c0-6410-488d-bf78-af3d1f8e9b68",
+        "41ea2979-a1b5-47b9-bde3-729447ce3ca8"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "caa94fe8-c1d5-4341-940d-cc7885206ed6",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Frau Marmann gebothtag.html",
+    "collected_at": "2025-11-09T20:05:15.632238Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "dab488580b661d3c1fe1bd7d9b1b5cfb69d73a435d68d4b7052386039d54cb6f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "81774027-2377-403b-a7bf-01149c62cfeb",
+    "ingest_source_id": "caa94fe8-c1d5-4341-940d-cc7885206ed6",
+    "canonical_title": "Frau Marmann gebothtag",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.632241Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Frau Marmann gebothtag.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6ec5e1db-64c1-4768-bab9-d6532eadde19",
+      "note_id": "81774027-2377-403b-a7bf-01149c62cfeb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.632244Z",
+      "content": "---\ntitle: Frau Marmann gebothtag\nupdated: 2022-10-24 11:45:02Z\ncreated: 2022-10-24 11:41:51Z\n---\n\n\n<en-note><ul><li><div>10月31日60岁生日</div></li><li><div>10月24日（今天）会得到一个盒子。孩子们可以填写这个盒子的内容，然后带回学校。</div></li><li><div><br/></div></li></ul></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dab488580b661d3c1fe1bd7d9b1b5cfb69d73a435d68d4b7052386039d54cb6f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Frau Marmann gebothtag.html"
+      }
+    },
+    {
+      "id": "8db72129-cb14-4870-b8f3-1b00a06979cf",
+      "note_id": "81774027-2377-403b-a7bf-01149c62cfeb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.632247Z",
+      "content": "---\ntitle: Frau Marmann gebothtag\nupdated: 2022-10-24 11:45:02Z\ncreated: 2022-10-24 11:41:51Z\n---\n\n10月31日60岁生日\n10月24日（今天）会得到一个盒子。孩子们可以填写这个盒子的内容，然后带回学校。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 151,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e15c3fe5-d055-47f7-9287-afd5193182f5",
+    "note_id": "81774027-2377-403b-a7bf-01149c62cfeb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.632251Z",
+    "finished_at": "2025-11-09T20:05:15.632252Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a701626b-1e60-4b3c-b942-ef14e62bf233",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Frau Marmann gebothtag.html",
+      "checksum": "dab488580b661d3c1fe1bd7d9b1b5cfb69d73a435d68d4b7052386039d54cb6f"
+    },
+    "output_ref": {
+      "ingest_source": "caa94fe8-c1d5-4341-940d-cc7885206ed6",
+      "note": "81774027-2377-403b-a7bf-01149c62cfeb",
+      "variants": [
+        "6ec5e1db-64c1-4768-bab9-d6532eadde19",
+        "8db72129-cb14-4870-b8f3-1b00a06979cf"
+      ]
+    },
+    "error_detail": null
+  }
+}

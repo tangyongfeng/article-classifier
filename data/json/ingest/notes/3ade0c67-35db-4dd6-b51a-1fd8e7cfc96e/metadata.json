@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "88312909-7de4-4208-aa2b-d6e4021e2a29",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/德语语法树.html",
+    "collected_at": "2025-11-09T20:05:16.181003Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "0bd4cf485bdcc6e0ca60838d5c2ed145f4b9ec31f0acac982bc60c8704c48da6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "3ade0c67-35db-4dd6-b51a-1fd8e7cfc96e",
+    "ingest_source_id": "88312909-7de4-4208-aa2b-d6e4021e2a29",
+    "canonical_title": "德语语法树",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.181008Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "德语语法树.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2c5f0783-5064-4bfe-8248-56fa8299d1f0",
+      "note_id": "3ade0c67-35db-4dd6-b51a-1fd8e7cfc96e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.181011Z",
+      "content": "---\ntitle: 德语语法树\nupdated: 2020-06-15 22:17:13Z\ncreated: 2020-06-15 22:16:38Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>A2级别</div><div><br/></div><div><a HREF=\"https://www.godic.net/Courses/index/?appkey=\">https://www.godic.net/Courses/index/?appkey=</a>{appkey}&amp;userid={userid}&amp;courseId=c93ea69e-7825-48a6-9c92-aab6a60a4f3b&amp;needlogin=true&amp;purchaseactivity=jingting</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0bd4cf485bdcc6e0ca60838d5c2ed145f4b9ec31f0acac982bc60c8704c48da6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/德语语法树.html"
+      }
+    },
+    {
+      "id": "2db8e86f-a8ac-48d3-91fa-8c24420ad20c",
+      "note_id": "3ade0c67-35db-4dd6-b51a-1fd8e7cfc96e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.181014Z",
+      "content": "---\ntitle: 德语语法树\nupdated: 2020-06-15 22:17:13Z\ncreated: 2020-06-15 22:16:38Z\nauthor: tangyongfeng@gmail.com\n---\n\nA2级别\nhttps://www.godic.net/Courses/index/?appkey=\n{appkey}&userid={userid}&courseId=c93ea69e-7825-48a6-9c92-aab6a60a4f3b&needlogin=true&purchaseactivity=jingting",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 274,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1d895828-f31d-4b91-8f7d-f84539229040",
+    "note_id": "3ade0c67-35db-4dd6-b51a-1fd8e7cfc96e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.181020Z",
+    "finished_at": "2025-11-09T20:05:16.181021Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "bf1c8ebb-b58f-4ab4-a74e-176b78e11390",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/德语语法树.html",
+      "checksum": "0bd4cf485bdcc6e0ca60838d5c2ed145f4b9ec31f0acac982bc60c8704c48da6"
+    },
+    "output_ref": {
+      "ingest_source": "88312909-7de4-4208-aa2b-d6e4021e2a29",
+      "note": "3ade0c67-35db-4dd6-b51a-1fd8e7cfc96e",
+      "variants": [
+        "2c5f0783-5064-4bfe-8248-56fa8299d1f0",
+        "2db8e86f-a8ac-48d3-91fa-8c24420ad20c"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,16 @@
+---
+title: update 自己
+updated: 2021-07-04 15:03:42Z
+created: 2021-07-04 14:57:40Z
+author: tangyongfeng@gmail.com
+tags:
+  - mysql
+---
+
+将 2020-10-02 00:00:00 全部更新为 2020-10-02
+update index_history_ex set `Trade_date`= substring_index(Trade_date,' ',1);
+ 其中：
+substring_index(目标字符串，’标志位’，count)
+当 count 为正数，取第 n 个分隔符之前的所有字符； 当 count 为负数，取倒数第 n 个分隔符之后的所有字符。
+将 2020-10-02 全部更新为 20201002
+update index_history_ex set `Trade_date`= replace(Trade_date,'-','');

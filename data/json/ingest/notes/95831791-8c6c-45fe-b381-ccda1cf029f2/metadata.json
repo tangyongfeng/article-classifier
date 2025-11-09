@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "90c8312e-b46a-4139-8e2b-74284674a215",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/犯罪记录查询.html",
+    "collected_at": "2025-11-09T20:05:15.272283Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "399b281f05e037fb560ec13200b012d34ee3d15a378b9dbdb44f8f017827677e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "95831791-8c6c-45fe-b381-ccda1cf029f2",
+    "ingest_source_id": "90c8312e-b46a-4139-8e2b-74284674a215",
+    "canonical_title": "犯罪记录查询",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.272286Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "犯罪记录查询.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "873fa8a6-fed0-4d2f-9e64-8644c01ceb31",
+      "note_id": "95831791-8c6c-45fe-b381-ccda1cf029f2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.272289Z",
+      "content": "---\ntitle: 犯罪记录查询\nupdated: 2018-05-15 08:48:50Z\ncreated: 2018-05-15 08:48:16Z\nauthor: tangyongfeng\n---\n\n\n\n<en-note><div>美国</div><div><a SHAPE=\"rect\" HREF=\"https://www.instantcheckmate.com/\">https://www.instantcheckmate.com/</a><br CLEAR=\"none\"/></div><div>中国</div><div><a SHAPE=\"rect\" HREF=\"http://zhixing.court.gov.cn/search/\">http://zhixing.court.gov.cn/search/</a><br CLEAR=\"none\"/></div><div><br CLEAR=\"none\"/></div><div><br CLEAR=\"none\"/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "399b281f05e037fb560ec13200b012d34ee3d15a378b9dbdb44f8f017827677e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/犯罪记录查询.html"
+      }
+    },
+    {
+      "id": "68c7ae2e-73db-49fd-af49-7b4a9d32dcc1",
+      "note_id": "95831791-8c6c-45fe-b381-ccda1cf029f2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.272292Z",
+      "content": "---\ntitle: 犯罪记录查询\nupdated: 2018-05-15 08:48:50Z\ncreated: 2018-05-15 08:48:16Z\nauthor: tangyongfeng\n---\n\n美国\nhttps://www.instantcheckmate.com/\n中国\nhttp://zhixing.court.gov.cn/search/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 179,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "93099fb0-4a31-44ec-96da-f98da9f83207",
+    "note_id": "95831791-8c6c-45fe-b381-ccda1cf029f2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.272296Z",
+    "finished_at": "2025-11-09T20:05:15.272297Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3d1299d2-01c3-46a4-a560-462d3d6da9cc",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/犯罪记录查询.html",
+      "checksum": "399b281f05e037fb560ec13200b012d34ee3d15a378b9dbdb44f8f017827677e"
+    },
+    "output_ref": {
+      "ingest_source": "90c8312e-b46a-4139-8e2b-74284674a215",
+      "note": "95831791-8c6c-45fe-b381-ccda1cf029f2",
+      "variants": [
+        "873fa8a6-fed0-4d2f-9e64-8644c01ceb31",
+        "68c7ae2e-73db-49fd-af49-7b4a9d32dcc1"
+      ]
+    },
+    "error_detail": null
+  }
+}

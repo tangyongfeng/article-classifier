@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8fdaac76-dc95-4a93-b45f-e18e3e5bd09f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/复卦.html",
+    "collected_at": "2025-11-09T20:01:39.834671Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "77bfe3fa553f15fe9af64735034f7627459b629cc54b5fc53a925a3f924fa9b6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6d7a6e6e-f11d-468c-8bcf-7ad91606170b",
+    "ingest_source_id": "8fdaac76-dc95-4a93-b45f-e18e3e5bd09f",
+    "canonical_title": "复卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.834675Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "复卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a79850cb-4426-4491-81d2-41a0d6ba40c0",
+      "note_id": "6d7a6e6e-f11d-468c-8bcf-7ad91606170b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.834677Z",
+      "content": "---\ntitle: 复卦\nupdated: 2018-11-19 15:33:46Z\ncreated: 2018-11-19 15:08:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>亨。出入无疾。朋来无咎。反复其道，七日来复，利有攸往。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 397px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>上六</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">迷复，凶，有灾眚。用行师，终有大败。以其国君凶，至于十年不可征。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六五</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">敦复，无悔。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六四</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">中行独复。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六三</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">频复，厉，无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六二</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">休复，吉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>初九</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">不远复，无祉悔，元吉。</td></tr></tbody></table><div></div><div>地下有雷。</div><div>祉：福分</div><div>眚（<span STYLE=\"text-decoration: underline;\">sh&ecaron;ng）</span>眼球上长白翳。过失。</div><div>剥极则复。带着阳爻往上走。农历十一月。最冷的一个月，雷已经在地下发动了。</div><div>初九：走的不远就返回，没有到懊恼的程度。（错的事情只做了一个开头，发现是错的，就立刻停止，不再继续。）</div><div>元吉：上上大吉。</div><div>震卦的第三变化的最厉害。不过没问题。</div><div>六四参考剥卦的六三，是阴爻最中间的位置，即中且正。独来独往，但是阴爻，动力似乎不够。</div><div>六五，敦厚自省。</div><div>上六，迷惑中返回。</div><div>灾眚：灾，由外而来，眚，由内而发。一起出现一般表示天灾人祸。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "77bfe3fa553f15fe9af64735034f7627459b629cc54b5fc53a925a3f924fa9b6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/复卦.html"
+      }
+    },
+    {
+      "id": "c74212e6-f3e9-4639-a986-b3879031a833",
+      "note_id": "6d7a6e6e-f11d-468c-8bcf-7ad91606170b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.834680Z",
+      "content": "---\ntitle: 复卦\nupdated: 2018-11-19 15:33:46Z\ncreated: 2018-11-19 15:08:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n亨。出入无疾。朋来无咎。反复其道，七日来复，利有攸往。\n上六\n迷复，凶，有灾眚。用行师，终有大败。以其国君凶，至于十年不可征。\n六五\n敦复，无悔。\n六四\n中行独复。\n六三\n频复，厉，无咎。\n六二\n休复，吉。\n初九\n不远复，无祉悔，元吉。\n地下有雷。\n祉：福分\n眚（\nshěng）\n眼球上长白翳。过失。\n剥极则复。带着阳爻往上走。农历十一月。最冷的一个月，雷已经在地下发动了。\n初九：走的不远就返回，没有到懊恼的程度。（错的事情只做了一个开头，发现是错的，就立刻停止，不再继续。）\n元吉：上上大吉。\n震卦的第三变化的最厉害。不过没问题。\n六四参考剥卦的六三，是阴爻最中间的位置，即中且正。独来独往，但是阴爻，动力似乎不够。\n六五，敦厚自省。\n上六，迷惑中返回。\n灾眚：灾，由外而来，眚，由内而发。一起出现一般表示天灾人祸。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 470,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0d3e3060-2f43-46c7-ae96-c4c7165e187b",
+    "note_id": "6d7a6e6e-f11d-468c-8bcf-7ad91606170b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.834685Z",
+    "finished_at": "2025-11-09T20:01:39.834685Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c898512c-024e-4c39-9112-1722c350a684",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/复卦.html",
+      "checksum": "77bfe3fa553f15fe9af64735034f7627459b629cc54b5fc53a925a3f924fa9b6"
+    },
+    "output_ref": {
+      "ingest_source": "8fdaac76-dc95-4a93-b45f-e18e3e5bd09f",
+      "note": "6d7a6e6e-f11d-468c-8bcf-7ad91606170b",
+      "variants": [
+        "a79850cb-4426-4491-81d2-41a0d6ba40c0",
+        "c74212e6-f3e9-4639-a986-b3879031a833"
+      ]
+    },
+    "error_detail": null
+  }
+}

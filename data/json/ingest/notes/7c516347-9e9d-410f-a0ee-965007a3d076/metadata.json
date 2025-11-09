@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c0176de4-602c-4ea9-8de4-b6bae2e661fa",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/U自动化测试的原生支持： Chrome DevTools Recorder.html",
+    "collected_at": "2025-11-09T20:05:13.675944Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f3a237bb540e84ef508531614a0d210538dab62448b9fa0ac59904ad720fb9db",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7c516347-9e9d-410f-a0ee-965007a3d076",
+    "ingest_source_id": "c0176de4-602c-4ea9-8de4-b6bae2e661fa",
+    "canonical_title": "U自动化测试的原生支持： Chrome DevTools Recorder",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:13.675949Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "U自动化测试的原生支持： Chrome DevTools Recorder.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b941311f-8d32-45c0-b235-8a8f70f37896",
+      "note_id": "7c516347-9e9d-410f-a0ee-965007a3d076",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.675952Z",
+      "content": "---\ntitle: U自动化测试的原生支持： Chrome DevTools Recorder\nupdated: 2021-11-11 19:45:24Z\ncreated: 2021-11-11 19:44:21Z\n---\n\n\n<en-note><div>Chrome97在ChromeDevTools即将推出一个新的</div><div>Panel，叫做Recorder，它允许录制、回放用户在网页上的操作，并根据录制过程数据判断网页性能。录制的时候会生成一份类似yaml的配置文件，记录了用户点击的元素、鼠标的位置、产生的事件等元数据。</div><div>R d</div><div>&bull; coffee checkout</div><div>Replav settinas&raquo;</div><div>OM</div><div>很多富交互的业务经常会利用PhantomJs、Puppeteer</div><div>等headless的测试工具和框架模拟真人对网页进行自</div><div>动化测试。这里最繁琐的点就是需要编写自动化测试用</div><div>491, ##* .login().waitForElement().click().expect().#]</div><div>代码编写起来也很费功夫，在复杂业务下往往需要编写</div><div>几十上百个测试用例。</div><div>而Recorder可以帮忙我们解决这个场景下的问题，在</div><div>人工测试网页功能时开启Recorder，就会实时记录</div><div>UserFlow的各种数据，后续再通过自动化测试框架，</div><div>对数据进行矫正和容错，可以提升自动化测试稳定性</div><div>理想状态下完全可以做到释放测试生产力。当然，这里</div><div>也存在一些问题，我们拿到的测试数据，比如光标的位</div><div>置、元素的选择方式等，会因为浏览器窗口的大小或者</div><div>DOM结构的改变等导致测试用例不够稳定，但这些都</div><div>是次要问题了。</div><div>貌似看到过有浏览器插件己经可以辅助我们做这些工作</div><div>了，ChromeDevtools研发团队真是一个充满了朝气和</div><div>激情的团队，多少年了，一如既往地给社区带来惊喜和</div><div>优质体验</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f3a237bb540e84ef508531614a0d210538dab62448b9fa0ac59904ad720fb9db",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/U自动化测试的原生支持： Chrome DevTools Recorder.html"
+      }
+    },
+    {
+      "id": "a8376e5f-b4e7-439f-b4e0-61c578996555",
+      "note_id": "7c516347-9e9d-410f-a0ee-965007a3d076",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.675955Z",
+      "content": "---\ntitle: U自动化测试的原生支持： Chrome DevTools Recorder\nupdated: 2021-11-11 19:45:24Z\ncreated: 2021-11-11 19:44:21Z\n---\n\nChrome97在ChromeDevTools即将推出一个新的\nPanel，叫做Recorder，它允许录制、回放用户在网页上的操作，并根据录制过程数据判断网页性能。录制的时候会生成一份类似yaml的配置文件，记录了用户点击的元素、鼠标的位置、产生的事件等元数据。\nR d\n• coffee checkout\nReplav settinas»\nOM\n很多富交互的业务经常会利用PhantomJs、Puppeteer\n等headless的测试工具和框架模拟真人对网页进行自\n动化测试。这里最繁琐的点就是需要编写自动化测试用\n491, ##* .login().waitForElement().click().expect().#]\n代码编写起来也很费功夫，在复杂业务下往往需要编写\n几十上百个测试用例。\n而Recorder可以帮忙我们解决这个场景下的问题，在\n人工测试网页功能时开启Recorder，就会实时记录\nUserFlow的各种数据，后续再通过自动化测试框架，\n对数据进行矫正和容错，可以提升自动化测试稳定性\n理想状态下完全可以做到释放测试生产力。当然，这里\n也存在一些问题，我们拿到的测试数据，比如光标的位\n置、元素的选择方式等，会因为浏览器窗口的大小或者\nDOM结构的改变等导致测试用例不够稳定，但这些都\n是次要问题了。\n貌似看到过有浏览器插件己经可以辅助我们做这些工作\n了，ChromeDevtools研发团队真是一个充满了朝气和\n激情的团队，多少年了，一如既往地给社区带来惊喜和\n优质体验",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 766,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "79cb9fc8-3d14-470b-be08-2e7f6c385ce9",
+    "note_id": "7c516347-9e9d-410f-a0ee-965007a3d076",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.675960Z",
+    "finished_at": "2025-11-09T20:05:13.675961Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d941cedd-9e98-4e25-8517-0a29cbfc554f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/U自动化测试的原生支持： Chrome DevTools Recorder.html",
+      "checksum": "f3a237bb540e84ef508531614a0d210538dab62448b9fa0ac59904ad720fb9db"
+    },
+    "output_ref": {
+      "ingest_source": "c0176de4-602c-4ea9-8de4-b6bae2e661fa",
+      "note": "7c516347-9e9d-410f-a0ee-965007a3d076",
+      "variants": [
+        "b941311f-8d32-45c0-b235-8a8f70f37896",
+        "a8376e5f-b4e7-439f-b4e0-61c578996555"
+      ]
+    },
+    "error_detail": null
+  }
+}

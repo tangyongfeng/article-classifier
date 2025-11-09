@@ -1,0 +1,16 @@
+---
+title: 解决没有my.ini文件，和关掉binlog
+updated: 2022-08-21 19:08:24Z
+created: 2022-08-16 09:02:51Z
+author: tangyongfeng
+tags:
+  - mysql
+---
+
+第一步：
+自己建一个，例如
+[mysqld]
+disable_log_bin
+第二步：
+mysql\bin\mysqld --verbose --help >> myqld.txt
+生成的文件就会告诉你my.ini的搜索路径，把生成文件考到他的默认搜索目录里完成

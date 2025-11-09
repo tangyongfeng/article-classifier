@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a5e8a08f-4c21-4a99-8663-e29b49e6da88",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/中国朝代儿歌.html",
+    "collected_at": "2025-11-09T20:05:15.880267Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f24070bc57dd6fddcc1a258489c6fd647e601cd3d3e12d46661cdfe67eda2c36",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "73fda0ef-2f41-40a3-b468-828ae20efda0",
+    "ingest_source_id": "a5e8a08f-4c21-4a99-8663-e29b49e6da88",
+    "canonical_title": "中国朝代儿歌",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:15.880271Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "中国朝代儿歌.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7423b551-9d67-47d2-ba01-c5701d618645",
+      "note_id": "73fda0ef-2f41-40a3-b468-828ae20efda0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.880274Z",
+      "content": "---\ntitle: 中国朝代儿歌\nupdated: 2020-02-13 07:58:37Z\ncreated: 2020-02-13 07:58:13Z\n---\n\n\n\n<en-note><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">第一首</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">炎黄虞夏商，周到战国亡，秦朝并六国，嬴政称始皇。</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">楚汉鸿沟界，最后属刘邦，</span><a STYLE=\"color: rgb(56, 151, 240); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px;\" HREF=\"https://m.baidu.com/s?word=%E8%A5%BF%E6%B1%89&from=1018914a&lqsource=-1&dmaseid=dmaseid80097&qid=00000000c55bdf8d&sa=gh_wise_zhidao\">西汉</a><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">孕新莽，东汉迁洛阳。</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">末年黄巾出，三国各称王，西晋变</span><a STYLE=\"color: rgb(56, 151, 240); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px;\" HREF=\"https://m.baidu.com/s?word=%E4%B8%9C%E6%99%8B&from=1018914a&lqsource=-1&dmaseid=dmaseid80097&qid=00000000c55bdf8d&sa=gh_wise_zhidao\">东晋</a><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">，迁都到建康，</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">拓跋入中原，国分南北方，北朝十六国，南朝宋齐梁，</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">南陈被隋灭，杨广输李唐，大唐曾改周，武后则天皇，</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">残皇有五代，伶官舞后庄，华歆分十国，北宋火南唐，</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">金国俘二帝，南宋到苏杭，蒙主称大汗，最后被明亡，</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">明到崇帧帝，大顺立闯王，金田</span><a STYLE=\"color: rgb(56, 151, 240); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px;\" HREF=\"https://m.baidu.com/s?word=%E5%A4%AA%E5%B9%B3%E5%9B%BD&from=1018914a&lqsource=-1&dmaseid=dmaseid80097&qid=00000000c55bdf8d&sa=gh_wise_zhidao\">太平国</a><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">，时适清道光，</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">九传至光绪，维新有康梁，换位至宣统，民国废末皇，</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: none; -webkit-text-stroke-width: 0px;\">五四风雨骤，建国存新纲，抗日反内战，五星红旗扬。</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f24070bc57dd6fddcc1a258489c6fd647e601cd3d3e12d46661cdfe67eda2c36",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/中国朝代儿歌.html"
+      }
+    },
+    {
+      "id": "ae798a28-d48a-4631-b0c5-6a2d950bff2f",
+      "note_id": "73fda0ef-2f41-40a3-b468-828ae20efda0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.880276Z",
+      "content": "---\ntitle: 中国朝代儿歌\nupdated: 2020-02-13 07:58:37Z\ncreated: 2020-02-13 07:58:13Z\n---\n\n第一首\n炎黄虞夏商，周到战国亡，秦朝并六国，嬴政称始皇。\n楚汉鸿沟界，最后属刘邦，\n西汉\n孕新莽，东汉迁洛阳。\n末年黄巾出，三国各称王，西晋变\n东晋\n，迁都到建康，\n拓跋入中原，国分南北方，北朝十六国，南朝宋齐梁，\n南陈被隋灭，杨广输李唐，大唐曾改周，武后则天皇，\n残皇有五代，伶官舞后庄，华歆分十国，北宋火南唐，\n金国俘二帝，南宋到苏杭，蒙主称大汗，最后被明亡，\n明到崇帧帝，大顺立闯王，金田\n太平国\n，时适清道光，\n九传至光绪，维新有康梁，换位至宣统，民国废末皇，\n五四风雨骤，建国存新纲，抗日反内战，五星红旗扬。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 342,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "97953d9d-9bbc-4d33-a9a3-e9f3d0e4f62c",
+    "note_id": "73fda0ef-2f41-40a3-b468-828ae20efda0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.880281Z",
+    "finished_at": "2025-11-09T20:05:15.880281Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "be572eeb-a8f8-4305-8420-8283303bebc7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/中国朝代儿歌.html",
+      "checksum": "f24070bc57dd6fddcc1a258489c6fd647e601cd3d3e12d46661cdfe67eda2c36"
+    },
+    "output_ref": {
+      "ingest_source": "a5e8a08f-4c21-4a99-8663-e29b49e6da88",
+      "note": "73fda0ef-2f41-40a3-b468-828ae20efda0",
+      "variants": [
+        "7423b551-9d67-47d2-ba01-c5701d618645",
+        "ae798a28-d48a-4631-b0c5-6a2d950bff2f"
+      ]
+    },
+    "error_detail": null
+  }
+}

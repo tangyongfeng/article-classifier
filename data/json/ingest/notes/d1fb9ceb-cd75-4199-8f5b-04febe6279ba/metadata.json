@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5b59ca18-b4af-44e2-bb53-c5118bbd7b9d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/汇报.html",
+    "collected_at": "2025-11-09T20:01:37.327704Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "901b40eb7fdd7142bbb3dc1af4bf7cbe5671a507428bb3cac0a003d7d97522d3",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d1fb9ceb-cd75-4199-8f5b-04febe6279ba",
+    "ingest_source_id": "5b59ca18-b4af-44e2-bb53-c5118bbd7b9d",
+    "canonical_title": "汇报",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.327708Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "汇报.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "00fa1dcc-e53a-41b4-b7dc-50b26e92f726",
+      "note_id": "d1fb9ceb-cd75-4199-8f5b-04febe6279ba",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.327711Z",
+      "content": "---\ntitle: 汇报\nupdated: 2012-07-03 08:27:19Z\ncreated: 2012-07-03 08:27:14Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n中国电信的事情\n<div>ibm的事情</div><div>oracle的事情</div><div>罗的事情</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "901b40eb7fdd7142bbb3dc1af4bf7cbe5671a507428bb3cac0a003d7d97522d3",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/汇报.html"
+      }
+    },
+    {
+      "id": "78947f89-4d78-49ed-9ee6-58a6db437cde",
+      "note_id": "d1fb9ceb-cd75-4199-8f5b-04febe6279ba",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.327713Z",
+      "content": "---\ntitle: 汇报\nupdated: 2012-07-03 08:27:19Z\ncreated: 2012-07-03 08:27:14Z\n---\n\n中国电信的事情\n\nibm的事情\noracle的事情\n罗的事情",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 109,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3bd925c2-b71c-4c6b-ad95-efea1ab4adc1",
+    "note_id": "d1fb9ceb-cd75-4199-8f5b-04febe6279ba",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.327718Z",
+    "finished_at": "2025-11-09T20:01:37.327719Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "49845bdf-d515-41b0-9970-d3d56a992d34",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/汇报.html",
+      "checksum": "901b40eb7fdd7142bbb3dc1af4bf7cbe5671a507428bb3cac0a003d7d97522d3"
+    },
+    "output_ref": {
+      "ingest_source": "5b59ca18-b4af-44e2-bb53-c5118bbd7b9d",
+      "note": "d1fb9ceb-cd75-4199-8f5b-04febe6279ba",
+      "variants": [
+        "00fa1dcc-e53a-41b4-b7dc-50b26e92f726",
+        "78947f89-4d78-49ed-9ee6-58a6db437cde"
+      ]
+    },
+    "error_detail": null
+  }
+}

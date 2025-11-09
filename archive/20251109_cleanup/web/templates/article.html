@@ -1,0 +1,291 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} - Article Classifier{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-9">
+        <!-- 文章标题 -->
+        <h1 class="mb-3">{{ article.title }}</h1>
+
+        <!-- 文章元数据 -->
+        <div class="card mb-4">
+            <div class="card-header bg-light">
+                <h5 class="mb-0"><i class="bi bi-info-circle"></i> 文章信息</h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p><strong>分类:</strong></p>
+                        {% for path in category_paths %}
+                            <p class="mb-1">
+                                {% for cat in path %}
+                                    <a href="{{ url_for('category_view', category_id=cat.id) }}">{{ cat.name }}</a>
+                                    {% if not loop.last %} > {% endif %}
+                                {% endfor %}
+                            </p>
+                        {% endfor %}
+                    </div>
+                    <div class="col-md-6">
+                        <p><strong>置信度:</strong> <span class="badge bg-info">{{ '%.2f' % article.confidence }}</span></p>
+                        <p><strong>创建时间:</strong> {{ article.created_at.strftime('%Y-%m-%d %H:%M') if article.created_at else 'N/A' }}</p>
+                        <p><strong>文件格式:</strong> {{ article.file_format }}</p>
+                    </div>
+                </div>
+                <p><strong>关键词:</strong>
+                    {% for kw in article.keywords %}
+                        <span class="badge bg-secondary">{{ kw.keyword }}</span>
+                    {% endfor %}
+                </p>
+                <p><strong>摘要:</strong> {{ article.summary }}</p>
+            </div>
+        </div>
+
+        <!-- 编辑按钮 -->
+        <div class="mb-3">
+            <a href="{{ url_for('article_edit', article_id=article.id) }}" class="btn btn-warning">
+                <i class="bi bi-pencil"></i> 编辑文章
+            </a>
+            <button id="reformatBtn" class="btn btn-info">
+                <i class="bi bi-magic"></i> 重新排版
+            </button>
+        </div>
+
+        <!-- 消息提示 -->
+        <div id="message" class="alert" style="display: none;"></div>
+
+        <!-- 排版进度提示 -->
+        <div id="reformatProgress" class="card border-info mb-3" style="display: none;">
+            <div class="card-body">
+                <div class="d-flex align-items-center mb-2">
+                    <div class="spinner-border spinner-border-sm text-info me-2" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <strong>正在排版，请稍候...</strong>
+                </div>
+                <p class="small text-muted mb-2">
+                    <i class="bi bi-info-circle"></i>
+                    LLM 正在处理您的文章，这可能需要 1-3 分钟时间。
+                    <br>文章越长，处理时间越久。
+                </p>
+                <div class="progress" style="height: 8px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info"
+                         role="progressbar" style="width: 100%"></div>
+                </div>
+                <div class="mt-2">
+                    <button id="cancelReformat" class="btn btn-sm btn-outline-secondary">
+                        <i class="bi bi-x-circle"></i> 取消
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 文章内容 -->
+        <div class="card">
+            <div class="card-header bg-light d-flex justify-content-between align-items-center">
+                <h5 class="mb-0"><i class="bi bi-file-text"></i> 文章内容</h5>
+            </div>
+            <div class="card-body article-content" id="articleContent">
+                {{ article.content | safe }}
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-3">
+        <!-- 侧边栏 - 文件信息 -->
+        <div class="card mb-3">
+            <div class="card-header bg-light">
+                <h6 class="mb-0"><i class="bi bi-file-earmark"></i> 文件信息</h6>
+            </div>
+            <div class="card-body">
+                <p class="small mb-1"><strong>路径:</strong></p>
+                <p class="small text-muted text-break">{{ article.file_path }}</p>
+                <p class="small mb-0"><strong>大小:</strong> {{ (article.file_size / 1024) | round(2) }} KB</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+.article-content {
+    line-height: 1.8;
+    font-size: 16px;
+}
+.article-content p {
+    margin-bottom: 1em;
+}
+.article-content h1, .article-content h2, .article-content h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+$(document).ready(function() {
+    let originalContent = $('#articleContent').html();
+    let currentXhr = null; // 用于取消请求
+
+    // 重新排版按钮点击事件
+    $('#reformatBtn').on('click', function() {
+        const btn = $(this);
+        const content = $('#articleContent').text(); // 获取纯文本内容
+        const title = '{{ article.title }}';
+
+        // 估算处理时间（粗略）
+        const estimatedTime = Math.min(Math.ceil(content.length / 1000), 5);
+
+        // 禁用按钮，显示进度提示
+        btn.prop('disabled', true);
+        $('#reformatProgress').show();
+        $('#message').hide();
+
+        // 记录开始时间
+        const startTime = Date.now();
+
+        // 发送排版请求
+        currentXhr = $.ajax({
+            url: '/api/article/{{ article.id }}/reformat',
+            method: 'POST',
+            contentType: 'application/json',
+            timeout: 360000, // 前端超时设为 6 分钟
+            data: JSON.stringify({
+                content: content,
+                title: title
+            }),
+            success: function(response) {
+                const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+
+                if (response.success) {
+                    // 将 Markdown 转换为 HTML（简单处理）
+                    const formattedHtml = markdownToHtml(response.formatted_content);
+
+                    // 更新页面内容
+                    $('#articleContent').html(formattedHtml);
+
+                    // 显示成功消息
+                    $('#message')
+                        .removeClass('alert-danger')
+                        .addClass('alert-success')
+                        .html(`<strong>排版成功！</strong> (耗时 ${elapsed} 秒) <br>` +
+                              response.changes.join('，'))
+                        .show();
+
+                    // 添加撤销按钮
+                    if ($('#undoBtn').length === 0) {
+                        btn.after(
+                            '<button id="undoBtn" class="btn btn-secondary ms-2">' +
+                            '<i class="bi bi-arrow-counterclockwise"></i> 撤销排版</button>'
+                        );
+                    }
+
+                    // 保存排版后的内容到数据库
+                    saveFormattedContent(response.formatted_content);
+                } else {
+                    showError(response.message || '排版失败');
+                }
+            },
+            error: function(xhr, status, error) {
+                if (status === 'abort') {
+                    $('#message')
+                        .removeClass('alert-danger')
+                        .addClass('alert-warning')
+                        .text('排版已取消')
+                        .show();
+                } else if (status === 'timeout') {
+                    showError('排版超时（超过 6 分钟），文章可能过长，请联系管理员');
+                } else {
+                    const msg = xhr.responseJSON?.message || '服务器错误';
+                    showError(msg);
+                }
+            },
+            complete: function() {
+                btn.prop('disabled', false);
+                $('#reformatProgress').hide();
+                currentXhr = null;
+            }
+        });
+    });
+
+    // 取消排版
+    $('#cancelReformat').on('click', function() {
+        if (currentXhr) {
+            currentXhr.abort();
+            currentXhr = null;
+        }
+    });
+
+    // 撤销排版
+    $(document).on('click', '#undoBtn', function() {
+        $('#articleContent').html(originalContent);
+        $(this).remove();
+        $('#message')
+            .removeClass('alert-danger')
+            .addClass('alert-info')
+            .text('已恢复原始内容')
+            .show();
+    });
+
+    // 简单的 Markdown 转 HTML
+    function markdownToHtml(markdown) {
+        let html = markdown;
+
+        // 标题
+        html = html.replace(/^### (.*$)/gim, '<h3>$1</h3>');
+        html = html.replace(/^## (.*$)/gim, '<h2>$1</h2>');
+        html = html.replace(/^# (.*$)/gim, '<h1>$1</h1>');
+
+        // 粗体
+        html = html.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+        html = html.replace(/__(.*?)__/g, '<strong>$1</strong>');
+
+        // 斜体
+        html = html.replace(/\*(.*?)\*/g, '<em>$1</em>');
+        html = html.replace(/_(.*?)_/g, '<em>$1</em>');
+
+        // 列表
+        html = html.replace(/^\* (.*$)/gim, '<li>$1</li>');
+        html = html.replace(/^- (.*$)/gim, '<li>$1</li>');
+        html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
+
+        // 段落
+        html = html.replace(/\n\n/g, '</p><p>');
+        html = '<p>' + html + '</p>';
+
+        // 换行
+        html = html.replace(/\n/g, '<br>');
+
+        return html;
+    }
+
+    // 保存排版后的内容
+    function saveFormattedContent(content) {
+        $.ajax({
+            url: '{{ url_for("article_edit", article_id=article.id) }}',
+            method: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify({
+                content: content
+            }),
+            success: function(response) {
+                console.log('排版内容已保存');
+            },
+            error: function() {
+                console.warn('保存排版内容失败（但排版已完成）');
+            }
+        });
+    }
+
+    function showError(message) {
+        $('#message')
+            .removeClass('alert-success')
+            .addClass('alert-danger')
+            .text('排版失败: ' + message)
+            .show();
+    }
+});
+</script>
+{% endblock %}

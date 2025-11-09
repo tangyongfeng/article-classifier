@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "92495013-9f0b-451c-b892-6442fd18a15e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/阿拉斯加航空公司常客.html",
+    "collected_at": "2025-11-09T20:01:40.128111Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "40a2e8d08d9af41bbd73597c69cf0c25079b13a51413635d27a2da32ffbfbd23",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f70c2c4e-8f15-4837-a8f7-cb9bbaba004a",
+    "ingest_source_id": "92495013-9f0b-451c-b892-6442fd18a15e",
+    "canonical_title": "阿拉斯加航空公司常客",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:40.128114Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "阿拉斯加航空公司常客.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e607dfc0-e4aa-4158-af67-9386c0b79b4a",
+      "note_id": "f70c2c4e-8f15-4837-a8f7-cb9bbaba004a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.128117Z",
+      "content": "---\ntitle: 阿拉斯加航空公司常客\nupdated: 2012-12-18 10:11:36Z\ncreated: 2012-10-26 08:41:44Z\nsource: https://mail.google.com/mail/u/0/?shva=1#inbox/13a97281603916c3\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><table BORDER=\"0\" CELLPADDING=\"0\" CELLSPACING=\"0\" STYLE=\"color: rgb(51, 51, 51); font-family: arial, sans-serif; font-size: 12px; background-color: rgb(255, 255, 255);\" WIDTH=\"200\"><tbody><tr><td ALIGN=\"left\" STYLE=\"font-family: arial, helvetica, sans-serif; margin: 0px;\"><b>139555872</b></td></tr><tr><td ALIGN=\"left\" STYLE=\"font-family: arial, helvetica, sans-serif; margin: 0px;\">Yongfeng Tang</td></tr><tr><td ALIGN=\"left\" STYLE=\"font-family: arial, helvetica, sans-serif; margin: 0px;\">Member Since 10/25/2012<br/><br/>\npassword:we*****e</td></tr></tbody></table></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "40a2e8d08d9af41bbd73597c69cf0c25079b13a51413635d27a2da32ffbfbd23",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/阿拉斯加航空公司常客.html"
+      }
+    },
+    {
+      "id": "fc4f9ce2-c9fd-454c-a4da-8b446ac08e26",
+      "note_id": "f70c2c4e-8f15-4837-a8f7-cb9bbaba004a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.128119Z",
+      "content": "---\ntitle: 阿拉斯加航空公司常客\nupdated: 2012-12-18 10:11:36Z\ncreated: 2012-10-26 08:41:44Z\nsource: https://mail.google.com/mail/u/0/?shva=1#inbox/13a97281603916c3\n---\n\n139555872\nYongfeng Tang\nMember Since 10/25/2012\n\npassword:we*****e",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 225,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "309e1457-bf19-4a32-8dca-715f806892fa",
+    "note_id": "f70c2c4e-8f15-4837-a8f7-cb9bbaba004a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.128124Z",
+    "finished_at": "2025-11-09T20:01:40.128124Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "88d7c6a4-8b5e-4a7b-88d5-91d6836a182e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/阿拉斯加航空公司常客.html",
+      "checksum": "40a2e8d08d9af41bbd73597c69cf0c25079b13a51413635d27a2da32ffbfbd23"
+    },
+    "output_ref": {
+      "ingest_source": "92495013-9f0b-451c-b892-6442fd18a15e",
+      "note": "f70c2c4e-8f15-4837-a8f7-cb9bbaba004a",
+      "variants": [
+        "e607dfc0-e4aa-4158-af67-9386c0b79b4a",
+        "fc4f9ce2-c9fd-454c-a4da-8b446ac08e26"
+      ]
+    },
+    "error_detail": null
+  }
+}

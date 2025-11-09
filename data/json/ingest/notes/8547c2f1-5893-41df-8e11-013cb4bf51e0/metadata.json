@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "abd13063-66c4-4348-a5b6-b87ddc8717f0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Windows 下只列出文件名.html",
+    "collected_at": "2025-11-09T20:05:13.699634Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bd1d68f516354e5a244c57926f03923bb5ef48fe7bc52e9b06c35adbbd121a71",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8547c2f1-5893-41df-8e11-013cb4bf51e0",
+    "ingest_source_id": "abd13063-66c4-4348-a5b6-b87ddc8717f0",
+    "canonical_title": "Windows 下只列出文件名",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.699638Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Windows 下只列出文件名.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ace62df6-aa94-4046-a835-06f1e34afc9f",
+      "note_id": "8547c2f1-5893-41df-8e11-013cb4bf51e0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.699640Z",
+      "content": "---\ntitle: Windows 下只列出文件名\nupdated: 2022-09-01 10:09:20Z\ncreated: 2022-08-16 11:28:36Z\nauthor: tangyongfeng\ntags:\n  - Powershell\n  - Windows\n---\n\n\n\n<en-note><div><span>Get-ChildItem</span><span> -Path c:\\*.*&nbsp; -Name</span><br CLEAR=\"none\"/></div><div STYLE=\"position: absolute; left: -12px; top: 21px;\"><div></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bd1d68f516354e5a244c57926f03923bb5ef48fe7bc52e9b06c35adbbd121a71",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Windows 下只列出文件名.html"
+      }
+    },
+    {
+      "id": "6486f7cb-dd4f-4d8d-b63b-67648dfe9247",
+      "note_id": "8547c2f1-5893-41df-8e11-013cb4bf51e0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.699643Z",
+      "content": "---\ntitle: Windows 下只列出文件名\nupdated: 2022-09-01 10:09:20Z\ncreated: 2022-08-16 11:28:36Z\nauthor: tangyongfeng\ntags:\n  - Powershell\n  - Windows\n---\n\nGet-ChildItem\n -Path c:\\*.*  -Name",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 180,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "08c3c536-c230-4660-8eb9-457c604edd6f",
+    "note_id": "8547c2f1-5893-41df-8e11-013cb4bf51e0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.699647Z",
+    "finished_at": "2025-11-09T20:05:13.699648Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "faa10bcc-2b66-454a-a0ef-546978088f29",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Windows 下只列出文件名.html",
+      "checksum": "bd1d68f516354e5a244c57926f03923bb5ef48fe7bc52e9b06c35adbbd121a71"
+    },
+    "output_ref": {
+      "ingest_source": "abd13063-66c4-4348-a5b6-b87ddc8717f0",
+      "note": "8547c2f1-5893-41df-8e11-013cb4bf51e0",
+      "variants": [
+        "ace62df6-aa94-4046-a835-06f1e34afc9f",
+        "6486f7cb-dd4f-4d8d-b63b-67648dfe9247"
+      ]
+    },
+    "error_detail": null
+  }
+}

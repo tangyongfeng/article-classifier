@@ -1,0 +1,405 @@
+---
+title: OsmocomBB SMS Sniffer - 游侠安全网
+updated: 2016-04-03 13:12:46Z
+created: 2016-04-03 13:12:46Z
+source: http://www.youxia.org/osmocombb-sms-sniffer.html
+---
+
+
+
+<en-note><div STYLE="position:relative;"><div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+ 
+ 
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">OsmocomBB(Open source mobile communication Baseband)是国外一个开源项目，是GSM协议栈(Protocols stack)的开源实现。其目的是要实现手机端从物理层(layer1)到layer3的三层实现，主要进行2G网短信嗅探。本文详细地介绍了实现方法，以供安全爱好者学习和参考。</p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">目前来看，真正的物理层(physical layer)并没有真正的开源实现，暂时也没看到实施计划。只有物理层控制。因为真正的物理层是运行在baseband processor的DSP core上,涉及到许多信号处理算法的实现，而且还要牵扯很多硬件RF的东西。这项技术至少在2010年，技术已经成熟，2011年就有开源实现了。得益于OsmocomBB 的开源项目，使得我们用一台笔记本和很简单的硬件就能完成GSM sms嗅探。</p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-19955" HREF="http://7jppdy.com1.z0.glb.clouddn.com/wp-content/uploads/2016/01/OsmocomBB.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/7fcc038bdd92d0d81ae55f506a676e30.png"  height="621" width="862" alt="OsmocomBB" hash="7fcc038bdd92d0d81ae55f506a676e30" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a> OsmocomBB</p>
+<h2 STYLE="font-size:22px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;color:rgb(34, 34, 34);text-align:left;border-bottom-color:rgb(34, 34, 34);border-top-color:rgb(34, 34, 34);">0x01 原理分析</h2>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">关于加密</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">GSM加密采用A5算法。A5算法1989年由法国人开发，是一种序列密码，它是欧洲GSM标准中规定的加密算法，专用于数字蜂窝移动电话的加密，用于对从电话到基站连接的加密。A5的特点是效率高，适合硬件上高效实现。<div></div>
+A5发展至今，有A5/1、A5/2、A5/3、A5/4、A5/5、A5/6、A5/7等7个版本，目前GSM终端一般都支持A5/1和A5/3，A5/4以上基本不涉及。值得注意的是，A5/2是被『故意弱化强度』的版本，专用于『出口』给『友邦』，2006年后被强制叫停，终端不允许支持A5/2。</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">工作流程</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">手机开机时的位置更新流程：</p>
+<ol STYLE="list-style-type:none;margin-block-start:;margin-block-end:;padding-inline-start:;margin-top:10px;margin-bottom:10px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">MS（手机）向系统请求分配信令信道（SDCCH）；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">MSC收到手机发来的IMSI可及消息；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">MSC将IMSI可及信息再发送给VLR，VLR将IMSI不可及标记更新为IMSI可及；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">VLR反馈MSC可及信息信号；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">MSC再将反馈信号发给手机；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">MS倾向信号强的BTS，使用哪种算法由基站决定，这也导致了可以用伪基站进行攻击。</li>
+</ol>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">关于GSM网络相关知识</h3>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2929" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/Singnaling-parotocols.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/1a0c2693d214abfa87388c80410d9f13.png"  height="174" width="300" alt="Singnaling parotocols" hash="1a0c2693d214abfa87388c80410d9f13" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">Singnaling parotocols</p>
+</div>
+<h2 STYLE="font-size:22px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;color:rgb(34, 34, 34);text-align:left;border-bottom-color:rgb(34, 34, 34);border-top-color:rgb(34, 34, 34);">0x02 所需硬件</h2>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">支持的手机</p>
+<ul STYLE="list-style-type:none;margin-block-start:;margin-block-end:;padding-inline-start:;margin-top:10px;margin-bottom:10px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MotorolaC123/C121/C118 (E88) &mdash; our primary target</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MotorolaC140/C139 (E86)</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MotorolaC155 (E99) &mdash; our secondary target</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MotorolaV171 (E68/E69)</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">SonyEricssonJ100i</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">Pirelli DP-L10</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">Neo 1973 (GTA01)</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">OpenMoko &ndash; Neo Freerunner (GTA02)</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">SciphoneDreamG2 (MT6235 based)</li>
+</ul>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">我们选择Moto C118，因为官方支持的最好、硬件成本低，￥35/台（手机+电池+充电器）</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2930" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/Moto-C118.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/6c3a0edf93eb3a63b2b46bd667e84dbe.png"  height="280" width="300" alt="Moto C118" hash="6c3a0edf93eb3a63b2b46bd667e84dbe" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">Moto C118</p>
+</div>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">USB转串口模块</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">推荐带TX/RX LED的 FT232模块,当然其他模块也可以,比如CP2102、CP2303等模块,不过使用前要先调好比特率。FT232模块，我买的是￥35的，第一个嘛，为了求稳定。后面做多个手机联合嗅探的时候可以尝试买一些便宜的。</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2931" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/TX-RX-LED.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/7ee8a79dcbdc122510eac4840ea753e5.png"  height="190" width="300" alt="TX/RX LED" hash="7ee8a79dcbdc122510eac4840ea753e5" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">TX/RX LED</p>
+</div>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">C118数据线</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">这个数据线就是2.5mm耳机头转杜邦线，注意一头是2.5mm耳机孔的，另一边是杜邦线连接串口模块。手边有2.5mm耳机插头的可以自己做一个。当然网上现在也有现成的了，不过成本稍微高一点。￥15左右一条</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2932" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/C118%E6%95%B0%E6%8D%AE%E7%BA%BF.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/3500a8b0a09cadb84541492e1894f6ca.png"  height="101" width="300" alt="C118数据线" hash="3500a8b0a09cadb84541492e1894f6ca" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">C118数据线</p>
+</div>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">MiniUSB链接线</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">这个线应该都有，以前的mp3、手机啥的都是这个线，马云家卖￥10,如果你用了Pl2303那类的USB转换板，就可以不用这根线了，那个板子上自带U口。</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2933" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/MiniUSB.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/3c417414cd0f24f8d1f768b67e6b4ceb.png"  height="248" width="300" alt="MiniUSB" hash="3c417414cd0f24f8d1f768b67e6b4ceb" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">MiniUSB</p>
+</div>
+<h2 STYLE="font-size:22px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;color:rgb(34, 34, 34);text-align:left;border-bottom-color:rgb(34, 34, 34);border-top-color:rgb(34, 34, 34);">0x03 编译OsmocomBB</h2>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">基础环境</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">MacOs 10.10.5 + VMworkstation + Ubuntu 12.04 x64<div></div>
+我的实验用的是这样的环境，网上很多教程都说X64的虚拟机不能正常编译，但是我确实是成功了。也可以尝试使用别的环境试试，毕竟我的实验环境仅供参考。<div></div>
+网路环境要求能够正常访问github，实验环境周围存在GSM信号。<div></div>
+C118手机有足够的电量，支持实验。</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">准备所需目录以及文件</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">具体项目目录结构和所需文件如下图：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2934" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/874001b8cfdcb3ff5f13d82356fa0a35.png"  height="77" width="300" alt="目录结构" hash="874001b8cfdcb3ff5f13d82356fa0a35" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">目录结构</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">准备好之后的目录如下图：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2935" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/source.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/d2e447885366cdad890b13b9b0f0f951.png"  height="136" width="300" alt="source" hash="d2e447885366cdad890b13b9b0f0f951" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">source</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">我是把整个source目录放在了用户文件夹下，仅做参考。只需要按照上面文字格式的结构图准备就好，图片中未出现部分后面会写如何出现&hellip;</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">编译环境准备</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">编译前安装所需的依赖库文件：<div></div>
+sudo apt-get install build-essential libgmp3-dev libmpfr-dev libx11-6 libx11-dev texinfo flex bison libncurses5 libncurses5-dbg libncurses5-dev libncursesw5 libncursesw5-dbg libncursesw5-dev zlibc zlib1g-dev libmpfr4 libmpc-dev</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2936" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/%E4%BE%9D%E8%B5%96%E5%BA%93%E6%96%87%E4%BB%B6.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/5fe00feb48d990116153d4cf00d9f20e.png"  height="50" width="300" alt="依赖库文件" hash="5fe00feb48d990116153d4cf00d9f20e" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">依赖库文件</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">在arm根目录执行build.sh文件进行build操作:<div></div>
+chmod +x gnu-arm-build.2.sh ./ gnu-arm-build.2.sh</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2937" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/build.sh_.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/0dc9c746fa34c1ceefea90a64c8e49e5.png"  height="139" width="300" alt="build.sh" hash="0dc9c746fa34c1ceefea90a64c8e49e5" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">build.sh</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">完成后arm/install/目录结构如图所示：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2938" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/install.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/c7c1826cad19314486eeb429ed57e581.png"  height="135" width="300" alt="install" hash="c7c1826cad19314486eeb429ed57e581" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">install</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">因为编译需要，把arm/install/bin路径加入到环境变量中，我这里是加入到用户的环境变量中。使用pwd命令获取绝对路径：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2939" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/bin%E8%B7%AF%E5%BE%84.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/328fc10053ae6b8af46c2333f2999d7a.png"  height="40" width="300" alt="bin路径" hash="328fc10053ae6b8af46c2333f2999d7a" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">bin路径</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">修改~/.bashrc文件，最后一行加入：<div></div>
+export PATH=$PATH:/home/wooyaa/source/arm/install/bin</p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">执行source命令让配置文件即时生效：<div></div>
+source ~/.bashrc</p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">在终端中输入arm然后按tab键，如果出现如下图所示就说明编译环境搞定了：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2940" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/%E7%BC%96%E8%AF%91%E7%8E%AF%E5%A2%83.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/bfd9e8da2188b5c7ef25eaff3c96ab06.png"  height="53" width="300" alt="编译环境" hash="bfd9e8da2188b5c7ef25eaff3c96ab06" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">编译环境</p>
+</div>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">编译OsmocomBB</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">把osmocom项目gitclone到source目录下：<div></div>
+git clone git://git.osmocom.org/osmocom-bb.git git clone git://git.osmocom.org/libosmocore.git</p>
+<ol STYLE="list-style-type:none;margin-block-start:;margin-block-end:;padding-inline-start:;margin-top:10px;margin-bottom:10px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">在libosmocore/目录中编译osmocom核心库文件<div></div>
+cd /home/wooyaa/source/libosmocore/ autoreconf -i ./configure make sudo make install</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">编译OsmocomBB：<div></div>
+cd /home/wooyaa/source/osmocom-bb/src/ git checkout &ndash;track origin/luca/gsmmap //选择分支 make //交叉编译</li>
+</ol>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">如果没什么问题，软件环境和固件就都编译好了。<div></div>
+Ununtu 12.04自带FT232R驱动，所以直接连接就能使用，不需要再装驱动。</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">常见错误</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">常见报错有可能是autoconf、libtool、libpcsclite-dev等文件的缺失，只要装好就行了。具体版本请使用apt-cache search xxx在你自己电脑中的apt-get的list中查找。</p>
+<h2 STYLE="font-size:22px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;color:rgb(34, 34, 34);text-align:left;border-bottom-color:rgb(34, 34, 34);border-top-color:rgb(34, 34, 34);">0x04 使用方法</h2>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">连接硬件</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">在终端中输入lsusb,会显示当前usb连接的信息：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2941" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/%E8%BE%93%E5%85%A5lsusb.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/f1d5f844c04700c525981ab8fb77eddd.png"  height="81" width="300" alt="输入lsusb" hash="f1d5f844c04700c525981ab8fb77eddd" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">输入lsusb</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">如果驱动正常，插上MiniUSB线后就能看到usb-serial:</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2942" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/usb-serial.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/edb63d5b1e181de6d2e8642a42372199.png"  height="73" width="300" alt="usb-serial" hash="edb63d5b1e181de6d2e8642a42372199" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">usb-serial</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">网上的教程大多都误认为是将firmware刷入手机，实际上这里只是把固件加载到手机RAW中执行。</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">加载Firmware到手机raw中</h3>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<table STYLE="font-size:12px;">
+<tbody>
+<tr>
+<td STYLE="padding-top:0px;padding-bottom:0px;font-size:12px;">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">1</div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">2</div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">3</div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">4</div>
+</div>
+</td>
+<td STYLE="padding-top:0px;padding-bottom:0px;font-size:12px;">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">cd</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">home</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">wooyaa</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">source</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">osmocom</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">&ndash;</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">bb</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">src</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">host</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">osmocon</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span></div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">.</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">osmocon</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">&ndash;</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">m</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">c123</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">&ndash;</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">p</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">dev</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">ttyUSB0</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">.</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">.</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">.</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">.</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">target</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">firmware</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">board</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">compal_e88</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span></div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">layer1</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">.</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">compalram</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">.</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">bin</span></div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);"></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">1 其中 &ndash;m c123跟c123xor的区别就是是否检测数据总和<div></div>
+2 上面命令需要在关机下执行，然后短按开机键<div></div>
+终端上会显示&rdquo;starting up&rdquo;字样，如下：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2943" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/starting-up.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/a6eb4751c4b896cbfe17d684135e29cd.png"  height="90" width="300" alt="starting up" hash="a6eb4751c4b896cbfe17d684135e29cd" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">starting up</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">手机屏幕显示Layer 1 osmocom-bb 字样就表示成功了：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2944" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/xianshi.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/c0b0768a3dfd9e9c7bd2a33ddc86b275.png"  height="223" width="300" alt="xianshi" hash="c0b0768a3dfd9e9c7bd2a33ddc86b275" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">xianshi</p>
+</div>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">扫描基站</h3>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<table STYLE="font-size:12px;">
+<tbody>
+<tr>
+<td STYLE="padding-top:0px;padding-bottom:0px;font-size:12px;">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">1</div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">2</div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">3</div>
+</div>
+</td>
+<td STYLE="padding-top:0px;padding-bottom:0px;font-size:12px;">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">cd</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">home</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">wooyaa</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">source</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">osmocom</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">&ndash;</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">bb</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">src</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">host</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">layer23</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">src</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">misc</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span></div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">sudo</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">.</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">/</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">cell</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">_</span>log &ndash;<span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">O</span></div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);"></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">其中cell_log的参数是字母O，具体作用是只检查ARFCN是否可用，不进行其它操作，可以用./cell_log &ndash;help参看说明。<div></div>
+终端中会输出日志信息，其中会包含能够收到的基站的相关信息，格式类似这样：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<table STYLE="font-size:12px;">
+<tbody>
+<tr>
+<td STYLE="padding-top:0px;padding-bottom:0px;font-size:12px;">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">1</div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">2</div>
+</div>
+</td>
+<td STYLE="padding-top:0px;padding-bottom:0px;font-size:12px;">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">cell_log</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">.</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">c</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">:</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">248</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">Cell</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">:</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">ARFCN</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">=</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">40</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">PWR</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">=</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">&ndash;</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">61dB</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MCC</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">=</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">460</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MNC</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">=</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">00</span> <span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">(</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">China</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">,</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">China </span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">Mobile</span><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">)</span></div>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);"></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">ARFCN后面的编号可以代表基站信道号，还包含了运营商信息。</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2946" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/ARFCN.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/f9f4438d96ac4bb48366f2ef8a18529f.png"  height="70" width="300" alt="ARFCN" hash="f9f4438d96ac4bb48366f2ef8a18529f" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">ARFCN</p>
+</div>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">关于嗅探</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">因为我们买的便宜货，每个手机只能嗅探一个信道，具体一些的，可以参考下面的图（我们现在只能抓Downlink的数据包）：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2947" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/Downlink.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/161f0c9123a7080e935074b09c12b0c5.png"  height="168" width="300" alt="Downlink" hash="161f0c9123a7080e935074b09c12b0c5" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">Downlink</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">因为想要Sniffer Uplink的包，要修改硬件，C118主板上的RX filters要换掉，换成我们需要的HHM1625&amp;&amp;HHM1623C1滤波器组件，才能抓Uplink的数据包。</p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">有关信道号ARFCN的问题，可以参考下面的图：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2948" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/ARFCN1.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/6d06346350dd79201da090577fa3c062.png"  height="66" width="300" alt="ARFCN" hash="6d06346350dd79201da090577fa3c062" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">ARFCN</p>
+</div>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">开始嗅探</h3>
+<ol STYLE="list-style-type:none;margin-block-start:;margin-block-end:;padding-inline-start:;margin-top:10px;margin-bottom:10px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">选择想要监听的信道号并开始嗅探广播数据。<div></div>
+在目录/home/wooyaa/source/osmocom-bb/src/host/layer23/src/misc/下执行嗅探： ./ccch_scan -i 127.0.0.1 -a THE_ATFCN_ID</li>
+</ol>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">其中THE_ATFCN_ID就是扫描到的日志中参数ARFCN的值。<div></div>
+苹果手机可以执行：<em>3001#12345#</em> 进入工程模式后，选择GSM Cell Environment-&gt;GSM Cell Info-&gt;GSM Serving Cell,就可以看到目前手机连接的基站ARFCN值了，应该在第二步中，也能看到这个ID存在。<div></div>
+其他手机的命令<div></div>
+Samsung (Android): *#0011#</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2949" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/%E6%89%8B%E6%9C%BA%E5%91%BD%E4%BB%A4.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/142211e8c73315a3e92428249bcb7d61.png"  height="115" width="300" alt="手机命令" hash="142211e8c73315a3e92428249bcb7d61" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">手机命令</p>
+</div>
+<ol STYLE="list-style-type:none;margin-block-start:;margin-block-end:;padding-inline-start:;margin-top:10px;margin-bottom:10px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">使用wireshark抓取监听数据</li>
+</ol>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">因为osmocomBB执行之后默认会在本地开启4729端口，这时候的GSM协议已经被封装上了TCP-IP，可以在本地用wireshark抓到，所以我们使用wireshark去监听4729的端口<div></div>
+sudo wireshark -k -i lo -f &rsquo;port 4729&rsquo;</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2950" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/wireshark.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/4ea002bc329eab57b9303c7b9359b272.png"  height="42" width="300" alt="wireshark" hash="4ea002bc329eab57b9303c7b9359b272" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">wireshark</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">在wireshark中过滤gsm_sms协议数据，过滤之后得到的数据里面就包含短信的明文信息。 过滤后得到的明文短信信息</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2951" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/%E6%98%8E%E6%96%87%E7%9F%AD%E4%BF%A1.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/827cd769bd7cbdb2bccf32b1c58f6245.png"  height="116" width="300" alt="明文短信" hash="827cd769bd7cbdb2bccf32b1c58f6245" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">明文短信</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">SMS text就是短信的明文内容，其他git分支还支持把监听到的数据保存到cap包，然后通过脚本来过滤包内容，达到嗅探短信明文的目的。后面会有计划的去尝试。</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">配置OsmocomBB</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">layer23是用/home/wooyaa/source/osmocom-bb/src/host/layer23/src/mobile下的mobile程序实现,所以通过执行mobile文件可以进行自定义，配置一些关于osmocom-bb的信息。<div></div>
+cd /home/wooyaa/source/osmocom-bb/src/host/layer23/src/mobile<div></div>
+sudo ./mobile -i 127.0.0.1<div></div>
+执行mobile程序之后，会在本地开启4247端口，使用telnet连接，然后配置执行，随时使用？来查看help信息。</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2952" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/help%E4%BF%A1%E6%81%AF.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/ee5b536d896a34c4793cee6c4599a4b9.png"  height="112" width="300" alt="help信息" hash="ee5b536d896a34c4793cee6c4599a4b9" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">help信息</p>
+</div>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">关于嗅探内容</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">简单来讲，短信接受者的号码、IMEI等数据，只有在&rdquo;Location Update&rdquo;时才会在网络中出现，并且是以加密形式传输的。当接收短信时，基站根据之前位置更新时注册的信息，判断接收者的位置。所以，想要拿到接受者的号码，需要破解A5/1算法并还原出&rdquo;Location Update&rdquo;时的原文。<div></div>
+只不过需要价格昂贵的USRP2&hellip;<div></div>
+另外还看到个RTL-SDR的文章（就是以前传说中可以跟踪飞机的电视棒），也支持Airprobe：<div></div>
+http://www.rtl-sdr.com/rtl-sdr-tutor&hellip;and-wireshark/</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">Tips</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">1.记住所有操作在sudo -s root权限下操作。<div></div>
+2.开机键不是长按，而是短按，否则就进入原系统了。<div></div>
+3.现在2G短信越来越少了，多等等会有的。理论上话音一样能够被监听及解码，只是涉及技术更为复杂。<div></div>
+4. CP210x的接线，RX和TX有可能需要对调。运行cp210x-program需要先安装ibusb-dev，如果输出是&ldquo;No devices found&rdquo;或&ldquo;Unable to send request, 3709 result=-110&rdquo;，则有问题。</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">0x05 后期计划</h3>
+<h4 STYLE="font-size:14px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">捕获上行包</h4>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">因为想要嗅探Uplink的包，要修改硬件，C118主板上的RX filters要换掉，换成我们需要的HHM1625&amp;&amp;HHM1623C1滤波器组件，才能抓Uplink的数据包。修改方法如下：<div></div>
+要使手机能够成为『passive uplink sniffer』，必须动到电烙铁，替换掉RX filters。<div></div>
+替换前：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2954" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/%E6%9B%BF%E6%8D%A2%E5%89%8D.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/e1c86643e820d60279c52a02973bf142.png"  height="251" width="300" alt="替换前" hash="e1c86643e820d60279c52a02973bf142" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">替换前</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">摘掉后：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2955" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/%E6%91%98%E6%8E%89%E5%90%8E.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/edd7e06429ba3ea6556b4b1940592081.png"  height="191" width="300" alt="摘掉后" hash="edd7e06429ba3ea6556b4b1940592081" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">摘掉后</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">替换后：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2956" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/%E6%9B%BF%E6%8D%A2%E5%90%8E.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/3e5f86dd1e9f1d8bd35e7f613e580308.png"  height="174" width="300" alt="替换后" hash="3e5f86dd1e9f1d8bd35e7f613e580308" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">替换后</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">使用OsmocomBB RSSI monitor查看信号强弱：<div></div>
+./osmocom-bb/src/host/osmocon/osmocon -p /dev/ttyUSB0 -m c123xor -c ./osmocom-<div></div>
+bb/src/target/firmware/board/compal_e88/rssi.highram.bin ./osmocom-<div></div>
+bb/src/target/firmware/board/compal_e88/chainload.compalram.bin</p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">由于RSSI太大，不便于像OsmocomBB那样直接加载，所以要先用-C参数加载一个小的chainloader程序去加载我们真正的RSSI Payload程序：</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2957" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/RSSI-Payload.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/42c3c2d8d0bd71d8c130f2aeb7de2681.png"  height="98" width="300" alt="RSSI Payload" hash="42c3c2d8d0bd71d8c130f2aeb7de2681" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">RSSI Payload</p>
+</div>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">短信内容实时web页面展示</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">制作成绵羊墙，在线实时显示嗅探到的短信</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">多设备联合嗅探</h3>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">尝试多设备一起嗅探，增强嗅探范围和效果</p>
+<h2 STYLE="font-size:22px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;color:rgb(34, 34, 34);text-align:left;border-bottom-color:rgb(34, 34, 34);border-top-color:rgb(34, 34, 34);">0x06 附录</h2>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">DIY Moto C118数据链接线</h3>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2958" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/Moto-C118-1.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/18d44fc6880152a8dd259e865bea88a0.png"  height="133" width="300" alt="Moto C118" hash="18d44fc6880152a8dd259e865bea88a0" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">Moto C118</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">图中例子耳机为moto T191的耳机，右图中标注的颜色为耳机线拆开后里面线芯的颜色。耳机线拆开后里面会包含3根带有外皮的铜线。</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">GSM网络相关知识</h3>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2959" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/GSM%E7%BD%91%E7%BB%9C.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/b8fa50093ee2b5c57718f806a57c79e1.png"  height="172" width="300" alt=" GSM网络" hash="b8fa50093ee2b5c57718f806a57c79e1" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">GSM网络</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">从协议图中得知，移动设备(MS)和基站(BTS)间使用Um接口，最底层就是刷入手机的<strong>layer1物理传输层</strong>，之上分别是<strong>layer2数据链路层和layer3网络层</strong>。</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2960" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/LAPDm.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/40362199aae894cb74730f437fc0b101.png"  height="220" width="300" alt="LAPDm" hash="40362199aae894cb74730f437fc0b101" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">LAPDm</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">位于图中layer2的LAPDm，是一种保证数据传输不会出错的协议。一个LAPDm帧共有23个字节（184个比特），提供分片管理控制等功能。</p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">layer3的协议则可以分为RR/MM/CM三种，这里只列出嗅探相关的功能：<div></div>
+RR(Radio Resource Management)：channel, cell（控制等信息，可以忽略）<div></div>
+MM(Mobility Management)：Location updating（如果需要接收方号码，需要关注这个动作）<div></div>
+CM(Connection Management)：Call Control（语音通话时的控制信息，可以知道何时开始捕获TCH）, SMS（这里的重点）</p>
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-align:center;clear:both;">
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;"><a REL="attachment wp-att-2961" HREF="http://blog.nsfocus.net/wp-content/uploads/2016/01/layer3.jpg" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"><img src="../_resources/b92624ba898655a5b5973fcb80c3c74b.png"  height="181" width="300" alt="layer3" hash="b92624ba898655a5b5973fcb80c3c74b" type="image/png" style="margin-bottom:10px;border-top-color:rgb(0, 51, 102);border-bottom-color:rgb(0, 51, 102);max-width:600px;" /></en-media></a></p>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">layer3</p>
+</div>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">参考GSM的文档 TS 04.06 得知 LAPDm 的Address field字段中，定义了 3.3.3 Service access point identifier (SAPI)。SAPI=3就是我们要的Short message service。<div></div>
+使用tcpdump配合show_gsmtap_sms.py脚本在console列出短信明文。<div></div>
+tcpdump -l -ilo -nXs0 udp and port 4729 | python2 -u show_gsmtap_sms.py</p>
+<h3 STYLE="font-size:16px;margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:0px;">一些名词解释</h3>
+<ul STYLE="list-style-type:none;margin-block-start:;margin-block-end:;padding-inline-start:;margin-top:10px;margin-bottom:10px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MS：Mobile Station，移动终端；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">IMSI：International Mobile Subscriber Identity，国际移动用户标识号，是TD系统分给用户的唯一标识号，它存储在SIM卡、HLR/VLR中，最多由15个数字组成；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MCC：Mobile Country Code，是移动用户的国家号，中国是460；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MNC：Mobile Network Code ，是移动用户的所属PLMN网号，中国移动为00、02，中国联通为01；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MSIN：Mobile Subscriber Identification Number，是移动用户标识；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">NMSI：National Mobile Subscriber Identification，是在某一国家内MS唯一的识别码；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">BTS：Base Transceiver Station，基站收发器；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">BSC：Base Station Controller，基站控制器；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">MSC：Mobile Switching Center，移动交换中心。移动网络完成呼叫连接、过区切换控制、无线信道管理等功能的设备，同时也是移动网与公用电话交换网(PSTN)、综合业务数字网(ISDN)等固定网的接口设备；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">HLR：Home location register。保存用户的基本信息，如你的SIM的卡号、手机号码、签约信息等，和动态信息，如当前的位置、是否已经关机等；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">VLR：Visiting location register，保存的是用户的动态信息和状态信息，以及从HLR下载的用户的签约信息；</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">CCCH：Common Control CHannel，公共控制信道。是一种&ldquo;一点对多点&rdquo;的双向控制信道，其用途是在呼叫接续阶段，传输链路连接所需要的控制信令与信息。</li>
+</ul>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">参考文献</p>
+<ol STYLE="list-style-type:none;margin-block-start:;margin-block-end:;padding-inline-start:;margin-top:10px;margin-bottom:10px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">https://github.com/osmocom/osmocom-bb</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">http://bb.osmocom.org/trac/wiki/TitleIndex</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">http://wulujia.com/2013/11/10/OsmocomBB-Guide/</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">https://blog.hqcodeshop.fi/archives/253-iPhone-cell-Field-Test-mode.html</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">http://bbs.pediy.com/showthread.<a TITLE="php" TARGET="_blank" HREF="http://blog.nsfocus.net/tag/php/" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;">php</a>?t=182574</li>
+<li STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);list-style-type:decimal;">http://www.blogjava.net/baicker/archive/2013/11/13/406293.html</li>
+</ol>
+<p STYLE="margin-block-start:;margin-block-end:;margin-top:0px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);text-indent:24px;">如果您需要了解更多内容，可以加入QQ群：486207500</p>
+<div STYLE="margin-top:5px;margin-bottom:5px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);clear:both;"></div><div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);float:left;"> 
+<div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);">
+<span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);vertical-align:middle;font-family:&quot;Microsoft YaHei&quot;,arial,tahoma,宋体,sans-serif;float:left;font-size:12px;text-decoration-color:rgb(34, 34, 34);line-height:18px;display:block;">分享到：</span>
+<a TITLE="分享到微信" HREF="http://www.youxia.org/null"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);vertical-align:middle;font-family:&quot;Microsoft YaHei&quot;,arial,tahoma,宋体,sans-serif;text-align:left;overflow-x:hidden;overflow-y:hidden;display:block;height:16px;line-height:16px;background-image:url(&quot;http://v3.jiathis.com/code/images/jiathis_ico.png&quot;);background-repeat:no-repeat;background-position:0px -1809px;cursor:pointer;float:left;font-size:12px;text-decoration-color:rgb(34, 34, 34);">微信</span></a>
+<a TITLE="分享到新浪微博" HREF="http://www.youxia.org/null"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);vertical-align:middle;font-family:&quot;Microsoft YaHei&quot;,arial,tahoma,宋体,sans-serif;text-align:left;overflow-x:hidden;overflow-y:hidden;display:block;height:16px;line-height:16px;background-image:url(&quot;http://v3.jiathis.com/code/images/jiathis_ico.png&quot;);background-repeat:no-repeat;background-position:0px -96px;cursor:pointer;float:left;font-size:12px;text-decoration-color:rgb(34, 34, 34);">新浪微博</span></a>
+<a TITLE="分享到开心网" HREF="http://www.youxia.org/null"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);vertical-align:middle;font-family:&quot;Microsoft YaHei&quot;,arial,tahoma,宋体,sans-serif;text-align:left;overflow-x:hidden;overflow-y:hidden;display:block;height:16px;line-height:16px;background-image:url(&quot;http://v3.jiathis.com/code/images/jiathis_ico.png&quot;);background-repeat:no-repeat;background-position:0px -176px;cursor:pointer;float:left;font-size:12px;text-decoration-color:rgb(34, 34, 34);">开心网</span></a>
+<a TITLE="分享到人人网" HREF="http://www.youxia.org/null"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);vertical-align:middle;font-family:&quot;Microsoft YaHei&quot;,arial,tahoma,宋体,sans-serif;text-align:left;overflow-x:hidden;overflow-y:hidden;display:block;height:16px;line-height:16px;background-image:url(&quot;http://v3.jiathis.com/code/images/jiathis_ico.png&quot;);background-repeat:no-repeat;background-position:0px -160px;cursor:pointer;float:left;font-size:12px;text-decoration-color:rgb(34, 34, 34);">人人网</span></a>
+<a TITLE="分享到QQ空间" HREF="http://www.youxia.org/null"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);vertical-align:middle;font-family:&quot;Microsoft YaHei&quot;,arial,tahoma,宋体,sans-serif;text-align:left;overflow-x:hidden;overflow-y:hidden;display:block;height:16px;line-height:16px;background-image:url(&quot;http://v3.jiathis.com/code/images/jiathis_ico.png&quot;);background-repeat:no-repeat;background-position:0px -64px;cursor:pointer;float:left;font-size:12px;text-decoration-color:rgb(34, 34, 34);">QQ空间</span></a>
+<a TITLE="分享到QQ好友" HREF="http://www.youxia.org/null"><span STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);vertical-align:middle;font-family:&quot;Microsoft YaHei&quot;,arial,tahoma,宋体,sans-serif;text-align:left;overflow-x:hidden;overflow-y:hidden;display:block;height:16px;line-height:16px;background-image:url(&quot;http://v3.jiathis.com/code/images/jiathis_ico.png&quot;);background-repeat:no-repeat;background-position:0px -2017px;cursor:pointer;float:left;font-size:12px;text-decoration-color:rgb(34, 34, 34);">QQ好友</span></a>
+<a TARGET="_blank" HREF="http://www.jiathis.com/share?uid=91405" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;text-align:left;overflow-x:hidden;overflow-y:hidden;display:block;height:16px;line-height:16px;background-image:url(&quot;http://v3.jiathis.com/code/images/jiathis_ico.png&quot;);background-repeat:no-repeat;background-position:0px -1408px;float:left;font-size:12px;">更多</a>
+<a HREF="http://www.youxia.org/null"><span TITLE="累计分享0次" STYLE="border-top-color:rgb(86, 86, 86);border-bottom-color:rgb(86, 86, 86);vertical-align:middle;font-family:arial,helvetica,sans-serif;float:left;font-size:11px;font-weight:700;color:rgb(86, 86, 86);cursor:pointer;text-decoration-color:rgb(86, 86, 86);line-height:16px;display:block;text-align:center;background-image:url(&quot;http://v3.jiathis.com/code/images/counter.gif&quot;);background-repeat:no-repeat;background-position:0px -64px;height:16px;width:32px;">0</span></a>
+</div>
+
+
+ </div><div STYLE="margin-top:5px;margin-bottom:5px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);clear:both;"></div>
+ 
+<div STYLE="margin-top:15px;margin-bottom:15px;border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);vertical-align:top;text-align:center;">
+<a TARGET="blank" HREF="#" STYLE="color:rgb(0, 51, 102);text-decoration-color:rgb(0, 51, 102);text-decoration-line:none;"></a> <div STYLE="border-top-color:rgb(34, 34, 34);border-bottom-color:rgb(34, 34, 34);clear:both;font-size:1px;width:1px;height:0px;visibility:hidden;line-height:0px;"></div>
+</div>
+ 
+</div></div></en-note>      

@@ -1,0 +1,172 @@
+---
+title: Pandas DataFrame数据操作
+updated: 2022-10-07 11:11:53Z
+created: 2021-06-22 20:16:28Z
+author: tangyongfeng@gmail.com
+tags:
+  - pandas
+  - python
+---
+
+一、显示和数据获得
+   第一列  第二列  第三列
+ 0    1    7   12
+ 1    2    8   13
+ 2    3    9   14
+ 3    4    0   15
+ 4    5   10   16
+ 5    6   11   17
+1、获得整行 ,df[2:3]   注，[2:3]为行号
+2、获得整列,df[“第二列“]   注,列名
+3、获得具体数值，
+
+df.at[4
+,'第三列’]
+4、获得最后一行，df.
+iloc[-k:]
+5、获得最后一行的某个值
+a.loc[a.index[-1]]['第七列']
+6、显示所有的列名    
+df.columns.values.tolist()
+二、添加
+1、添加行
+df.loc[7]=[22,23,24]     注：其中7为索引，可以是任何值，但是不能宽度
+超过列数
+2、添加列
+df['第四列']=[25,26,27,28,29,30,31] 其中“第四列“ 是新加的列名，数据长度需要和行数相同
+3、追加数据表
+data={'a':[1,2,3],'b':[1,2,3],'c':[1,2,3],'d':[1,2,3]}
+ new_df=pd.DataFrame(data)
+result=df.append(new_df,ignore_index=True)
+注意：返回的结果才有意义，原数据df没有变化，和list不一样
+可以随意追加，有相同的列则合并相同的列，没有相同的列，就把不同的列单独放置，空白数据补NaN
+三、修改
+df.at[4,'第二列']=99   可以改变所在值的数据类型
+四、搜索
+1、搜索方法
+result=df.loc[
+result['c']>1,
+'d’]
+结果      原集     搜索条件            目标列
+   a  b  c  d
+ 0  1  1  1  1
+ 1  2  2  2  2
+ 2  3  3  3  3
+           a         b         d    c
+ 0  -1.506916 -1.607647 -1.570993  NaN
+ 1   0.112362 -0.953487 -0.471071  NaN
+ 2   0.594953 -0.420228 -0.548113  NaN
+ 3   1.344631 -0.300843  1.586554  NaN
+ 4  -0.697381 -1.376900 -1.431262  NaN
+ 5  -1.134424  0.213686  0.822630  NaN
+ 6   0.697541 -0.580436 -0.657448  NaN
+ 7  -0.501792  1.038440  0.558066  NaN
+ 8  -0.810737 -0.534607 -0.623260  NaN
+ 9   0.909491 -0.537751 -0.939393  NaN
+ 10  1.000000  1.000000  1.000000  1.0
+ 11  2.000000  2.000000  2.000000  2.0
+ 12  3.000000  3.000000  3.000000  3.0
+re=result.loc[result['c']>1,'d']
+ 11    2.0
+ 12    3.0
+ Name: d, dtype: float64
+re.tolist()
+2、搜索结果
+如果df.empty为true，则为空，反之False
+四、删除列
+result=result.drop(index=(result.shape[0]-1))
+删除最后一行，注意，返回的结果才是删除之后的内容，和list不同，被可以做成了所见非所得
+四、表合并
+data={
+        "第一列":[1,2,3,4,5,6],
+        "第五列":[32,33,34,35,36,37],
+        "第六列":[38,39,40,41,42,43],
+        "第七列":[44,45,46,47,48,49]
+ }
+ df1=pd.DataFrame(data)
+df= (pd.merge(df,df1,on='第一列‘))   
+on 为关联的那一个列
+五、存数据库
+pandas.read_sql(sql, con, index_col=None, coerce_float=True, params=None, parse_dates=None, columns=None, chunksize=None)
+DataFrame.to_sql(name, con, flavor=None, schema=None, if_exists='fail', index=True, index_label=None, chunksize=None, dtype=None)
+if_exists='replace'，如果存在指定表(name)，则替换。
+if_exists='append'，如果存在指定表(name)，则追加。
+if_exists='fail'，如果存在指定表(name)，则写入失败。
+chunksize，例如chunksize = 1000，每次处理1000条，避免数据量过大。
+cx = sqlite3.connect("E:/test.db")：建立与数据库的连接，如果数据库不存在则建立数据库
+con = sqlite3.connect(":memory:")：将数据库建在内存中
+commit()：事务提交。设置isolation_level=None，则为自动提交
+rollback()：事务回滚
+close()：关闭一个数据库连接
+cursor()：创建一个游标
+cu=cx.cursor()：获取游标。以下为游标方法：
+execute()：执行sql语句
+executemany：执行多条sql语句
+close()：关闭游标
+fetchone()：从结果中取一条记录，并将游标指向下一条记录
+fetchmany()：从结果中取多条记录
+fetchall()：从结果中取出所有记录
+scroll()：游标滚动
+六、读数据库
+import sqlite3
+import pandas as pd
+con = sqlite3.connect('./DataBase/weather_stations.db')
+cursor = con.execute('select * from station_data')
+rows = cursor.fetchall()
+df = pd.DataFrame(rows, columns=[x[0] for x in cursor.description])
+程序～～～～～～～～～～～～～～～
+import pandas as pd
+import sqlalchemy
+a=[1,2,3,4,5]
+myvar = pd.Series(a,index=['a','b','c','d','e'],name='test')
+print (myvar['a'])
+data=[{'a':1,'b':2},{'a':5,'b':10,'c':20}]
+df =pd.DataFrame(data)
+print (df)
+print ('----------')
+print (df.loc[0])
+print ('----------')
+print ('------显示----')
+data={
+    "第一列":[1,2,3,4,5,6],
+    "第二列":[7,8,9,0,10,11],
+    "第三列":[12,13,14,15,16,17]
+}
+df = pd.DataFrame(data,index=["第一行","第二行","第三行","第四行","第五行","第六行"])
+df = pd.DataFrame(data)
+print (df)
+print ('----------')
+print ('df["第二列"]')
+print (df["第二列"])
+print ('df[2:3]')
+print (df[2:3])
+print ('df.第三列')
+print (df.第三列)
+print ("df.at[4,'第三列']")
+print (df.at[4,'第三列'])
+print ('----添加------')
+df.loc[7]=[22,23,24]
+print (df)
+print ('----------')
+df['第四列']=[25,26,27,28,29,30,31]
+print (df)
+print ('---------更改----------')
+df.at[4,'第二列']=99
+print ("df.at[4,'第二列']=99")
+print (df)
+print ('---------表合并----------')
+data={
+    "第一列":[1,2,3,4,5,6],
+    "第五列":[32,33,34,35,36,37],
+    "第六列":[38,39,40,41,42,43],
+    "第七列":[44,45,46,47,48,49]
+}
+df1=pd.DataFrame(data)
+print (df1)
+df= (pd.merge(df,df1,on='第一列'))
+print (df)
+print ('---------to_sql----------')
+conn=sqlalchemy.create_engine("mysql+
+pymysql://tang:abcd1234@db/stock?charset=utf8
+")
+df.to_sql('test_table',con=conn,if_exists='replace',index=True)

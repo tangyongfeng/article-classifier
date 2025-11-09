@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c07254c3-5cb4-494e-be8a-e5db92a4f3e7",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/贲卦.html",
+    "collected_at": "2025-11-09T20:01:39.911833Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "3540d91f2d7cbb2dc88bc04c551b7f4f896d627de40f284b1e691562257a9fc4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d696e8ee-02cd-40a4-bd8e-6f65f43bf479",
+    "ingest_source_id": "c07254c3-5cb4-494e-be8a-e5db92a4f3e7",
+    "canonical_title": "贲卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.911838Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "贲卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "cb4098e4-59b6-4e65-ac19-516b130789a4",
+      "note_id": "d696e8ee-02cd-40a4-bd8e-6f65f43bf479",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.911841Z",
+      "content": "---\ntitle: 贲卦\nupdated: 2018-11-19 14:33:42Z\ncreated: 2018-11-19 14:08:52Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>亨。小利有攸<b><u>往</u></b>。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 397px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">上九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">白贲，无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六五</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">贲于丘园，束帛戋戋，吝，终吉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六四</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">贲如皤如，白马翰如。匪寇，婚媾。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">贲如，濡如，永贞吉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六二</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">贲其须。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">初九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">贲其趾，舍车而徒。</td></tr></tbody></table><div>这一卦的主要内容是装饰品。柔得纹饰刚的，刚的纹饰柔的。</div><div>传孔子40时，学问达到顶峰。犹豫是否要做官，占到此卦，知道自己如果做官只是装饰品，遂放弃仕途专心学问。</div><div>绘事后素：绘画的时候最后上白色。</div><div>礼后素：礼仪是白色的。真诚是彩色的。</div><div>文质彬彬以后君子。</div><div>皤：形容词（老人）头发（f&agrave;）白。</div><div>文化：观乎人文以化成天下。</div><div>六二九三六四是一个坎，遂初九徒步而行。</div><div>九三到上九是一个颐，六二是口下，胡须。</div><div>九三上下都是阴爻装饰，又是阳爻在刚位，上为艮为止，九三最高。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3540d91f2d7cbb2dc88bc04c551b7f4f896d627de40f284b1e691562257a9fc4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/贲卦.html"
+      }
+    },
+    {
+      "id": "83abf426-1774-48f2-8d54-2d3721b0581c",
+      "note_id": "d696e8ee-02cd-40a4-bd8e-6f65f43bf479",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.911844Z",
+      "content": "---\ntitle: 贲卦\nupdated: 2018-11-19 14:33:42Z\ncreated: 2018-11-19 14:08:52Z\nauthor: tangyongfeng@gmail.com\n---\n\n亨。小利有攸\n往\n。\n上九\n白贲，无咎。\n六五\n贲于丘园，束帛戋戋，吝，终吉。\n六四\n贲如皤如，白马翰如。匪寇，婚媾。\n九三\n贲如，濡如，永贞吉。\n六二\n贲其须。\n初九\n贲其趾，舍车而徒。\n这一卦的主要内容是装饰品。柔得纹饰刚的，刚的纹饰柔的。\n传孔子40时，学问达到顶峰。犹豫是否要做官，占到此卦，知道自己如果做官只是装饰品，遂放弃仕途专心学问。\n绘事后素：绘画的时候最后上白色。\n礼后素：礼仪是白色的。真诚是彩色的。\n文质彬彬以后君子。\n皤：形容词（老人）头发（fà）白。\n文化：观乎人文以化成天下。\n六二九三六四是一个坎，遂初九徒步而行。\n九三到上九是一个颐，六二是口下，胡须。\n九三上下都是阴爻装饰，又是阳爻在刚位，上为艮为止，九三最高。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 433,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "884f5d61-e0de-4e7d-b490-bda9d6930488",
+    "note_id": "d696e8ee-02cd-40a4-bd8e-6f65f43bf479",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.911849Z",
+    "finished_at": "2025-11-09T20:01:39.911849Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a379fb8c-1de4-4784-995d-f571b7775e58",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/贲卦.html",
+      "checksum": "3540d91f2d7cbb2dc88bc04c551b7f4f896d627de40f284b1e691562257a9fc4"
+    },
+    "output_ref": {
+      "ingest_source": "c07254c3-5cb4-494e-be8a-e5db92a4f3e7",
+      "note": "d696e8ee-02cd-40a4-bd8e-6f65f43bf479",
+      "variants": [
+        "cb4098e4-59b6-4e65-ac19-516b130789a4",
+        "83abf426-1774-48f2-8d54-2d3721b0581c"
+      ]
+    },
+    "error_detail": null
+  }
+}

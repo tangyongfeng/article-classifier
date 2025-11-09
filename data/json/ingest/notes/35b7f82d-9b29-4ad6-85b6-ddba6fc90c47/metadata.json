@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "90582394-889e-42a7-b7e9-9a57100a13fc",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/无标题笔记-3.html",
+    "collected_at": "2025-11-09T20:01:38.354922Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "2c64e73d690c1fefe0bbb8ebd07f0e2f5e0c8c0c60016270a680f1500c0eae99",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "35b7f82d-9b29-4ad6-85b6-ddba6fc90c47",
+    "ingest_source_id": "90582394-889e-42a7-b7e9-9a57100a13fc",
+    "canonical_title": "无标题笔记-3",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.354925Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-3.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b8c03e86-8643-4db9-acb3-4af9e3e77d75",
+      "note_id": "35b7f82d-9b29-4ad6-85b6-ddba6fc90c47",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.354928Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2018-02-22 12:23:11Z\ncreated: 2018-02-22 12:22:25Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2c64e73d690c1fefe0bbb8ebd07f0e2f5e0c8c0c60016270a680f1500c0eae99",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/无标题笔记-3.html"
+      }
+    },
+    {
+      "id": "8daaf24b-493e-4995-b186-794dfd6b3c85",
+      "note_id": "35b7f82d-9b29-4ad6-85b6-ddba6fc90c47",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.354931Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2018-02-22 12:23:11Z\ncreated: 2018-02-22 12:22:25Z\nauthor: tangyongfeng@gmail.com\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 111,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "71146861-4f9d-45e4-8477-bf2629e81b30",
+    "note_id": "35b7f82d-9b29-4ad6-85b6-ddba6fc90c47",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.354935Z",
+    "finished_at": "2025-11-09T20:01:38.354935Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3461ef95-ffd2-4c15-8f73-fea6ac2776c4",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/无标题笔记-3.html",
+      "checksum": "2c64e73d690c1fefe0bbb8ebd07f0e2f5e0c8c0c60016270a680f1500c0eae99"
+    },
+    "output_ref": {
+      "ingest_source": "90582394-889e-42a7-b7e9-9a57100a13fc",
+      "note": "35b7f82d-9b29-4ad6-85b6-ddba6fc90c47",
+      "variants": [
+        "b8c03e86-8643-4db9-acb3-4af9e3e77d75",
+        "8daaf24b-493e-4995-b186-794dfd6b3c85"
+      ]
+    },
+    "error_detail": null
+  }
+}

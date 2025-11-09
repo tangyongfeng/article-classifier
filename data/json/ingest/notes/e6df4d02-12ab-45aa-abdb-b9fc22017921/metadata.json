@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "56de3bb5-073a-4f92-9cbb-703d0a61017c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-11.html",
+    "collected_at": "2025-11-09T20:01:35.928727Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f1f67cf55c23e7e375c6fbed09afeb3c3f4e90a50c99d0c170bdb7e3d60a5fc4",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e6df4d02-12ab-45aa-abdb-b9fc22017921",
+    "ingest_source_id": "56de3bb5-073a-4f92-9cbb-703d0a61017c",
+    "canonical_title": "无标题笔记-11",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.928731Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-11.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1f9d73a2-232d-42c4-92e8-27050213f2d3",
+      "note_id": "e6df4d02-12ab-45aa-abdb-b9fc22017921",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.928734Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2018-10-14 04:36:12Z\ncreated: 2018-10-14 04:36:12Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f1f67cf55c23e7e375c6fbed09afeb3c3f4e90a50c99d0c170bdb7e3d60a5fc4",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-11.html"
+      }
+    },
+    {
+      "id": "2c3c36ee-bb0b-435d-9b90-938933dfcbb4",
+      "note_id": "e6df4d02-12ab-45aa-abdb-b9fc22017921",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.928737Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2018-10-14 04:36:12Z\ncreated: 2018-10-14 04:36:12Z\nauthor: tangyongfeng@gmail.com\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 111,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "70b692a8-6bf9-47e9-9d3f-7cca94ed7091",
+    "note_id": "e6df4d02-12ab-45aa-abdb-b9fc22017921",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.928741Z",
+    "finished_at": "2025-11-09T20:01:35.928742Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "33856897-d562-4f8e-a232-ae46df40f319",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-11.html",
+      "checksum": "f1f67cf55c23e7e375c6fbed09afeb3c3f4e90a50c99d0c170bdb7e3d60a5fc4"
+    },
+    "output_ref": {
+      "ingest_source": "56de3bb5-073a-4f92-9cbb-703d0a61017c",
+      "note": "e6df4d02-12ab-45aa-abdb-b9fc22017921",
+      "variants": [
+        "1f9d73a2-232d-42c4-92e8-27050213f2d3",
+        "2c3c36ee-bb0b-435d-9b90-938933dfcbb4"
+      ]
+    },
+    "error_detail": null
+  }
+}

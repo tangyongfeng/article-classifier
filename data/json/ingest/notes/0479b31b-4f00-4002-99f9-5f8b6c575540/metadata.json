@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b06ffe83-6a24-45be-902d-97f83e178c3d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/杨波电话.html",
+    "collected_at": "2025-11-09T20:01:37.966398Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d9f9412592e45aa6b62d07b774f379d1028a2836f71e1a2a12bc9138e3c9a57f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0479b31b-4f00-4002-99f9-5f8b6c575540",
+    "ingest_source_id": "b06ffe83-6a24-45be-902d-97f83e178c3d",
+    "canonical_title": "杨波电话",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.966401Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "杨波电话.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e342cb51-89b1-4df6-9e9c-a6d0f3bed3df",
+      "note_id": "0479b31b-4f00-4002-99f9-5f8b6c575540",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.966404Z",
+      "content": "---\ntitle: 杨波电话\nupdated: 2015-09-01 01:28:57Z\ncreated: 2015-09-01 01:28:42Z\n---\n\n\n\n<en-note>老唐，昨天忘跟你说了，你记下。我的电话你就打13810270545我随身携带，我爱人的电话13810081653（张菊）\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d9f9412592e45aa6b62d07b774f379d1028a2836f71e1a2a12bc9138e3c9a57f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/杨波电话.html"
+      }
+    },
+    {
+      "id": "1675288c-289b-47aa-bd0f-37e4f1ba9eba",
+      "note_id": "0479b31b-4f00-4002-99f9-5f8b6c575540",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.966406Z",
+      "content": "---\ntitle: 杨波电话\nupdated: 2015-09-01 01:28:57Z\ncreated: 2015-09-01 01:28:42Z\n---\n\n老唐，昨天忘跟你说了，你记下。我的电话你就打13810270545我随身携带，我爱人的电话13810081653（张菊）",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 141,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a44122b2-57d1-42cc-a1c4-b724a2fb3342",
+    "note_id": "0479b31b-4f00-4002-99f9-5f8b6c575540",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.966411Z",
+    "finished_at": "2025-11-09T20:01:37.966412Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c30e1216-1677-444b-a59d-a7b3d01f7b30",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/杨波电话.html",
+      "checksum": "d9f9412592e45aa6b62d07b774f379d1028a2836f71e1a2a12bc9138e3c9a57f"
+    },
+    "output_ref": {
+      "ingest_source": "b06ffe83-6a24-45be-902d-97f83e178c3d",
+      "note": "0479b31b-4f00-4002-99f9-5f8b6c575540",
+      "variants": [
+        "e342cb51-89b1-4df6-9e9c-a6d0f3bed3df",
+        "1675288c-289b-47aa-bd0f-37e4f1ba9eba"
+      ]
+    },
+    "error_detail": null
+  }
+}

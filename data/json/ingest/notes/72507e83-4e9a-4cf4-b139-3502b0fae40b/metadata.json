@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "176daed0-94ac-4995-896e-86afba51e6bf",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/办宽带问题.html",
+    "collected_at": "2025-11-09T20:01:38.440776Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "bbd0a15b1ad96c351d7771ae9bcd62e0215eda1d8faafd982f16e1667ff44493",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "72507e83-4e9a-4cf4-b139-3502b0fae40b",
+    "ingest_source_id": "176daed0-94ac-4995-896e-86afba51e6bf",
+    "canonical_title": "办宽带问题",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.440780Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "办宽带问题.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b639de1a-a26c-47c0-8373-1e2aba70508c",
+      "note_id": "72507e83-4e9a-4cf4-b139-3502b0fae40b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.440782Z",
+      "content": "---\ntitle: 办宽带问题\nupdated: 2019-03-30 18:06:20Z\ncreated: 2019-03-30 17:13:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>办宽带问题</div><div><br/></div><div>1、合同有效期多长？</div><div>2、强制使用期限是多久？</div><div>3、一次性费用都有哪些？</div><div>4、每月的费用是多少？持续多久的优惠时段。有的事三个月有的半年有的第一年，然后多久？</div><div>5、除了网络费用，还有什么费用？</div><div>6、路由器是租给我的还是卖给我的？</div><div>7、每个月的流量是无限制的还是固定范围内的？</div><div>8、如何关闭帐户？是否可以在线关闭？</div><div><br/></div><div>可以在线办！</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bbd0a15b1ad96c351d7771ae9bcd62e0215eda1d8faafd982f16e1667ff44493",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/办宽带问题.html"
+      }
+    },
+    {
+      "id": "a0b2ca00-1856-4d59-a02e-f38752e10e9b",
+      "note_id": "72507e83-4e9a-4cf4-b139-3502b0fae40b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.440785Z",
+      "content": "---\ntitle: 办宽带问题\nupdated: 2019-03-30 18:06:20Z\ncreated: 2019-03-30 17:13:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n办宽带问题\n1、合同有效期多长？\n2、强制使用期限是多久？\n3、一次性费用都有哪些？\n4、每月的费用是多少？持续多久的优惠时段。有的事三个月有的半年有的第一年，然后多久？\n5、除了网络费用，还有什么费用？\n6、路由器是租给我的还是卖给我的？\n7、每个月的流量是无限制的还是固定范围内的？\n8、如何关闭帐户？是否可以在线关闭？\n可以在线办！",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 282,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1d84240d-606a-4395-9e1f-990ed43853b9",
+    "note_id": "72507e83-4e9a-4cf4-b139-3502b0fae40b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.440790Z",
+    "finished_at": "2025-11-09T20:01:38.440790Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d06e094e-90f3-4287-86ac-ec7fe63ae77e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/办宽带问题.html",
+      "checksum": "bbd0a15b1ad96c351d7771ae9bcd62e0215eda1d8faafd982f16e1667ff44493"
+    },
+    "output_ref": {
+      "ingest_source": "176daed0-94ac-4995-896e-86afba51e6bf",
+      "note": "72507e83-4e9a-4cf4-b139-3502b0fae40b",
+      "variants": [
+        "b639de1a-a26c-47c0-8373-1e2aba70508c",
+        "a0b2ca00-1856-4d59-a02e-f38752e10e9b"
+      ]
+    },
+    "error_detail": null
+  }
+}

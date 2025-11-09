@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "fa1cfc20-e1b9-40e2-b1cc-90f56a85370c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/2GhlmcL1HblsqT.html",
+    "collected_at": "2025-11-09T20:01:36.478139Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f5421501473397e4b75d11e1bd04aeb66b36fb4bbcaa53a0767c6795e7db713a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4cc9c6f8-60a6-4b82-9732-bb48427a8999",
+    "ingest_source_id": "fa1cfc20-e1b9-40e2-b1cc-90f56a85370c",
+    "canonical_title": "2GhlmcL1HblsqT",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.478143Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "2GhlmcL1HblsqT.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6249d8a6-c829-42fc-ac9e-85fb2c989b8a",
+      "note_id": "4cc9c6f8-60a6-4b82-9732-bb48427a8999",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.478146Z",
+      "content": "---\ntitle: 2GhlmcL1HblsqT\nupdated: 2019-12-04 15:22:34Z\ncreated: 2019-12-04 15:22:34Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>2GhlmcL1HblsqT</div>\n<div><br/></div>\n<div>aws.amazon.com</div>\n<div>yongfeng.tang@me.com</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f5421501473397e4b75d11e1bd04aeb66b36fb4bbcaa53a0767c6795e7db713a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/2GhlmcL1HblsqT.html"
+      }
+    },
+    {
+      "id": "bd98bd1f-c338-4a2d-ba22-063da62764db",
+      "note_id": "4cc9c6f8-60a6-4b82-9732-bb48427a8999",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.478149Z",
+      "content": "---\ntitle: 2GhlmcL1HblsqT\nupdated: 2019-12-04 15:22:34Z\ncreated: 2019-12-04 15:22:34Z\nauthor: tangyongfeng@gmail.com\n---\n\n2GhlmcL1HblsqT\n\naws.amazon.com\n\nyongfeng.tang@me.com",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 174,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "27e97447-a1bb-4718-a42a-d22bd774d390",
+    "note_id": "4cc9c6f8-60a6-4b82-9732-bb48427a8999",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.478154Z",
+    "finished_at": "2025-11-09T20:01:36.478154Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "bc6b84a6-27a5-4572-aede-891defc10f6c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/2GhlmcL1HblsqT.html",
+      "checksum": "f5421501473397e4b75d11e1bd04aeb66b36fb4bbcaa53a0767c6795e7db713a"
+    },
+    "output_ref": {
+      "ingest_source": "fa1cfc20-e1b9-40e2-b1cc-90f56a85370c",
+      "note": "4cc9c6f8-60a6-4b82-9732-bb48427a8999",
+      "variants": [
+        "6249d8a6-c829-42fc-ac9e-85fb2c989b8a",
+        "bd98bd1f-c338-4a2d-ba22-063da62764db"
+      ]
+    },
+    "error_detail": null
+  }
+}

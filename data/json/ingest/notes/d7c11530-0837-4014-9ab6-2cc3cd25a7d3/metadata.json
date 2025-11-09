@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8ec500fb-f84d-4ac6-8cfa-1906fffe9b52",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/小畜卦.html",
+    "collected_at": "2025-11-09T20:05:18.896313Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "34282fee162bcf0b5d5e2d58e8e997c991049d9a88ae9d4d0d499195b6cb6e54",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d7c11530-0837-4014-9ab6-2cc3cd25a7d3",
+    "ingest_source_id": "8ec500fb-f84d-4ac6-8cfa-1906fffe9b52",
+    "canonical_title": "小畜卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.896317Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "小畜卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bf2a0e1c-f5e9-44ba-81c9-1fb2295e3e8d",
+      "note_id": "d7c11530-0837-4014-9ab6-2cc3cd25a7d3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.896320Z",
+      "content": "---\ntitle: 小畜卦\nupdated: 2018-11-08 01:55:02Z\ncreated: 2018-11-08 01:11:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>亨，密云不雨。自我西郊。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 410px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">上九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">既雨即处，尚德载。妇贞厉。月几望，君子征凶。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九五</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">有孚挛如，富以其邻。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六四（主爻）</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">有孚，血去、惕初，无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">舆说辐。夫妻反目。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九二</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">牵复，吉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">初九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">复自道，何其咎？吉</td></tr></tbody></table><div><br/></div><div>互卦：下乾上巽中上离中下兑</div><div><br/></div><div>后天八卦图，巽和乾对称，（西北往东南）风从西边吹过来但是不会下雨</div><div><br/></div><div>六四阴爻德位，二五得刚位有诚信可以推动。</div><div>初九阳爻居刚位，六四正应。</div><div>初九和九二连在一起，还好。</div><div>九三挨着主爻六四，阴在阳上。不是对手。</div><div>六四是本卦中最强爻，下应初九，上合九五，镇九三（龙在于野，其血玄黄）。赚钱。</div><div>上九，雨终于下下来了，妇女正固又会有危险。君子前往会有不好的结果。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "34282fee162bcf0b5d5e2d58e8e997c991049d9a88ae9d4d0d499195b6cb6e54",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/小畜卦.html"
+      }
+    },
+    {
+      "id": "ad7e346b-af29-4273-b77e-66893fa22e82",
+      "note_id": "d7c11530-0837-4014-9ab6-2cc3cd25a7d3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.896323Z",
+      "content": "---\ntitle: 小畜卦\nupdated: 2018-11-08 01:55:02Z\ncreated: 2018-11-08 01:11:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n亨，密云不雨。自我西郊。\n上九\n既雨即处，尚德载。妇贞厉。月几望，君子征凶。\n九五\n有孚挛如，富以其邻。\n六四（主爻）\n有孚，血去、惕初，无咎。\n九三\n舆说辐。夫妻反目。\n九二\n牵复，吉。\n初九\n复自道，何其咎？吉\n互卦：下乾上巽中上离中下兑\n后天八卦图，巽和乾对称，（西北往东南）风从西边吹过来但是不会下雨\n六四阴爻德位，二五得刚位有诚信可以推动。\n初九阳爻居刚位，六四正应。\n初九和九二连在一起，还好。\n九三挨着主爻六四，阴在阳上。不是对手。\n六四是本卦中最强爻，下应初九，上合九五，镇九三（龙在于野，其血玄黄）。赚钱。\n上九，雨终于下下来了，妇女正固又会有危险。君子前往会有不好的结果。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 407,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "97941c68-926b-4741-915d-659ae14f5c75",
+    "note_id": "d7c11530-0837-4014-9ab6-2cc3cd25a7d3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.896328Z",
+    "finished_at": "2025-11-09T20:05:18.896329Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "773e74b0-53be-439a-a5c1-a5805c163020",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/小畜卦.html",
+      "checksum": "34282fee162bcf0b5d5e2d58e8e997c991049d9a88ae9d4d0d499195b6cb6e54"
+    },
+    "output_ref": {
+      "ingest_source": "8ec500fb-f84d-4ac6-8cfa-1906fffe9b52",
+      "note": "d7c11530-0837-4014-9ab6-2cc3cd25a7d3",
+      "variants": [
+        "bf2a0e1c-f5e9-44ba-81c9-1fb2295e3e8d",
+        "ad7e346b-af29-4273-b77e-66893fa22e82"
+      ]
+    },
+    "error_detail": null
+  }
+}

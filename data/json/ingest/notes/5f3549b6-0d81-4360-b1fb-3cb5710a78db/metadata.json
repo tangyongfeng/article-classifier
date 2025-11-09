@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "216e8d7b-ceb8-4668-bbbb-f23e536897e0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/孔雀园一室一厅的房子短租（3个月）价格大概在1400多刀一个月。.html",
+    "collected_at": "2025-11-09T20:05:19.091318Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fc914eaa5454f4804097176188f5e651c6c5c595a79a179b0868aac2aa5f723d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "5f3549b6-0d81-4360-b1fb-3cb5710a78db",
+    "ingest_source_id": "216e8d7b-ceb8-4668-bbbb-f23e536897e0",
+    "canonical_title": "孔雀园一室一厅的房子短租（3个月）价格大概在1400多刀一个月。",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:19.091322Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "孔雀园一室一厅的房子短租（3个月）价格大概在1400多刀一个月。.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a8a24c62-0d62-45c6-beeb-b1378cdd394a",
+      "note_id": "5f3549b6-0d81-4360-b1fb-3cb5710a78db",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.091325Z",
+      "content": "---\ntitle: 孔雀园一室一厅的房子短租（3个月）价格大概在1400多刀一个月。\nupdated: 2012-11-27 10:19:16Z\ncreated: 2012-11-27 10:19:16Z\nsource: http://www.bornoverseas.com/forum.php?mod=viewthread&tid=151&extra=\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><table CELLPADDING=\"0\" CELLSPACING=\"0\" SUMMARY=\"pid1422\"><tbody><tr><td><div><table CELLPADDING=\"0\" CELLSPACING=\"0\"><tbody><tr><td>孔雀园一室一厅的房子短租（3个月）价格大概在1400多刀一个月。<br/>\n直接电话给孔雀园的租赁部的Yma就行，她似乎是个管事儿的。<br/>\n电话可以在网上查到：<a HREF=\"http://www.rentpheasantridge.com/\" TARGET=\"_blank\">www.rentpheasantridge.com</a><br/>\n或者上 <a HREF=\"http://www.arnel.com/\" TARGET=\"_blank\">www.arnel.com</a> 上找。Arnel是孔雀园的上级管理公司，网页上也有Pheasant Ridge公寓的链接。</td></tr></tbody></table></div></td></tr></tbody></table></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fc914eaa5454f4804097176188f5e651c6c5c595a79a179b0868aac2aa5f723d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/孔雀园一室一厅的房子短租（3个月）价格大概在1400多刀一个月。.html"
+      }
+    },
+    {
+      "id": "79d3fb09-b0b8-4aa0-9880-b1d262acd188",
+      "note_id": "5f3549b6-0d81-4360-b1fb-3cb5710a78db",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.091327Z",
+      "content": "---\ntitle: 孔雀园一室一厅的房子短租（3个月）价格大概在1400多刀一个月。\nupdated: 2012-11-27 10:19:16Z\ncreated: 2012-11-27 10:19:16Z\nsource: http://www.bornoverseas.com/forum.php?mod=viewthread&tid=151&extra=\n---\n\n孔雀园一室一厅的房子短租（3个月）价格大概在1400多刀一个月。\n\n直接电话给孔雀园的租赁部的Yma就行，她似乎是个管事儿的。\n\n电话可以在网上查到：\nwww.rentpheasantridge.com\n\n或者上\nwww.arnel.com\n 上找。Arnel是孔雀园的上级管理公司，网页上也有Pheasant Ridge公寓的链接。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 352,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a1015ed9-b735-4cff-8a96-36e176e898b5",
+    "note_id": "5f3549b6-0d81-4360-b1fb-3cb5710a78db",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:19.091332Z",
+    "finished_at": "2025-11-09T20:05:19.091332Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "df4d2eed-61b6-44b7-8717-6259039078b6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/孔雀园一室一厅的房子短租（3个月）价格大概在1400多刀一个月。.html",
+      "checksum": "fc914eaa5454f4804097176188f5e651c6c5c595a79a179b0868aac2aa5f723d"
+    },
+    "output_ref": {
+      "ingest_source": "216e8d7b-ceb8-4668-bbbb-f23e536897e0",
+      "note": "5f3549b6-0d81-4360-b1fb-3cb5710a78db",
+      "variants": [
+        "a8a24c62-0d62-45c6-beeb-b1378cdd394a",
+        "79d3fb09-b0b8-4aa0-9880-b1d262acd188"
+      ]
+    },
+    "error_detail": null
+  }
+}

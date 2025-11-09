@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ca9203f2-2da9-41a2-a4e4-5cd3554b7422",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/质证思路.html",
+    "collected_at": "2025-11-09T20:05:17.160490Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "20a33241f5d62373eccafdb385456c050133ed5b5dec9c9d8ceec0962c0c7219",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4d67d1bd-175a-4e11-9804-4a51d47104e2",
+    "ingest_source_id": "ca9203f2-2da9-41a2-a4e4-5cd3554b7422",
+    "canonical_title": "质证思路",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.160494Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "质证思路.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8ca3b2b6-745b-4c26-a5d6-cfc82dee6d31",
+      "note_id": "4d67d1bd-175a-4e11-9804-4a51d47104e2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.160496Z",
+      "content": "---\ntitle: 质证思路\nupdated: 2018-12-28 06:34:32Z\ncreated: 2018-12-28 06:21:47Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><br/></div><div>1、12月1日该发工资但未发，12月24日收到解除通知，同时发了部分扣除的12月1日该发的工资。</div><div>2、接触的时间点。单位解除意向时间</div><div>3、对方没有给补偿，并且没有给补偿的意向。</div><div>4、没有补偿，也没有达成补偿意向的时候，</div><div>出现了违法解除事实</div><div><br/></div><div><br/></div><div>需要发邮件：</div><div>只发送给hr，不抄送给其他人</div><div><br/></div><div>1、我查询了相关的法律，你们已经扣发我的工资，但是这个扣发的理由不成立。</div><div>2、我查询了相关的法律，你们解除劳动合同的理由不成立，我不接受。</div><div>3、我查询了相关的法律，你们降薪没有合法的理由，我不接受。</div><div>4、我查询了12月24日发的工资，与正常工资不符，我要求你们提供工资条。否则我就认为你们是无理克扣。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "20a33241f5d62373eccafdb385456c050133ed5b5dec9c9d8ceec0962c0c7219",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/质证思路.html"
+      }
+    },
+    {
+      "id": "eabe0b61-45a1-4bf9-bd2f-78e069e44bd3",
+      "note_id": "4d67d1bd-175a-4e11-9804-4a51d47104e2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.160499Z",
+      "content": "---\ntitle: 质证思路\nupdated: 2018-12-28 06:34:32Z\ncreated: 2018-12-28 06:21:47Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、12月1日该发工资但未发，12月24日收到解除通知，同时发了部分扣除的12月1日该发的工资。\n2、接触的时间点。单位解除意向时间\n3、对方没有给补偿，并且没有给补偿的意向。\n4、没有补偿，也没有达成补偿意向的时候，\n出现了违法解除事实\n需要发邮件：\n只发送给hr，不抄送给其他人\n1、我查询了相关的法律，你们已经扣发我的工资，但是这个扣发的理由不成立。\n2、我查询了相关的法律，你们解除劳动合同的理由不成立，我不接受。\n3、我查询了相关的法律，你们降薪没有合法的理由，我不接受。\n4、我查询了12月24日发的工资，与正常工资不符，我要求你们提供工资条。否则我就认为你们是无理克扣。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 404,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a8af3d44-a0ef-42e7-8510-e8cfa8249a06",
+    "note_id": "4d67d1bd-175a-4e11-9804-4a51d47104e2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.160504Z",
+    "finished_at": "2025-11-09T20:05:17.160504Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "529595bd-8b3b-4681-b08c-62df2c846845",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/质证思路.html",
+      "checksum": "20a33241f5d62373eccafdb385456c050133ed5b5dec9c9d8ceec0962c0c7219"
+    },
+    "output_ref": {
+      "ingest_source": "ca9203f2-2da9-41a2-a4e4-5cd3554b7422",
+      "note": "4d67d1bd-175a-4e11-9804-4a51d47104e2",
+      "variants": [
+        "8ca3b2b6-745b-4c26-a5d6-cfc82dee6d31",
+        "eabe0b61-45a1-4bf9-bd2f-78e069e44bd3"
+      ]
+    },
+    "error_detail": null
+  }
+}

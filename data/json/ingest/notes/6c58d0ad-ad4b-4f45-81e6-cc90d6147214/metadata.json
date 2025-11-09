@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "387672b7-3d40-4a92-8b6d-5adb44c2dcc2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/股票纪录.html",
+    "collected_at": "2025-11-09T20:05:18.686002Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "10ff9e913ab987087482b02a7ad4e55edb5b0049a72aa577bede824028fa710f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6c58d0ad-ad4b-4f45-81e6-cc90d6147214",
+    "ingest_source_id": "387672b7-3d40-4a92-8b6d-5adb44c2dcc2",
+    "canonical_title": "股票纪录",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.686006Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "股票纪录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "324bb90d-d80c-4773-9e23-185a4113dfe9",
+      "note_id": "6c58d0ad-ad4b-4f45-81e6-cc90d6147214",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.686008Z",
+      "content": "---\ntitle: 股票纪录\nupdated: 2013-09-24 06:09:40Z\ncreated: 2013-08-05 02:26:15Z\nsource: https://mail.google.com/mail/u/0/#search/%E7%89%9B%E5%8D%A1/12109647bdb2ed92\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><span STYLE=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">牛卡 &nbsp;07616390</span></div>\n金自天正 &nbsp; 1800 9.196\n<div>沧州明珠 &nbsp; 1800 &nbsp;9.042</div><div>8月2日 沧州明珠10.6沽空</div><hr/>\n对 2013年8月8日 14:21:39 的修改出现冲突：\n<hr/><div><span STYLE=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">牛卡 &nbsp;07616390</span></div>\n金自天正 &nbsp; 1800 9.196 &nbsp;\n<div>沧州明珠 &nbsp; 1800 &nbsp;9.042</div><div>20130806 沧州明珠 1800&nbsp;10.06 卖出</div><div>20130813 金自天正 1800 8.18 &nbsp; 卖出</div><div>20130813 姚记扑克 &nbsp;1000 16.951 买入</div><div>20130815 姚记扑克 &nbsp;1000 &nbsp;17.39 &nbsp;卖出</div><div>20130820 &nbsp;上海医药&nbsp; &nbsp; &nbsp;1500 11.3 买入</div><div>20130828 &nbsp;光大证券 &nbsp; &nbsp; 1700 &nbsp;9.97（10.01） 买入</div><div>20130830 &nbsp;上海医药 &nbsp; &nbsp; 1500 &nbsp;11.82 &nbsp;卖出</div><div>20130902 &nbsp;金证股份&nbsp; &nbsp; &nbsp;1300 &nbsp; 13.712 买入</div><div>20130903 &nbsp;金证股份&nbsp; &nbsp; &nbsp;1300 &nbsp; 14.3 卖出</div><div>20130903 &nbsp; 光大证券 &nbsp; &nbsp; 2000 &nbsp; 9.06 &nbsp; 买入</div><div>20130909 &nbsp; 光大证券 &nbsp; &nbsp;1800 &nbsp; 9.16 &nbsp;卖出</div><div>20190909 &nbsp; &nbsp;长城开发 &nbsp; &nbsp;2800 &nbsp; 6.06 &nbsp;买入</div><div>20130911&nbsp; &nbsp; 光大证券&nbsp; &nbsp; &nbsp;1900 &nbsp; 10.5卖出</div><div>20130911 &nbsp; <font COLOR=\"#FF0000\">&nbsp; 长城开发 &nbsp; &nbsp;2800 &nbsp; 5.93 卖</font>出</div><div>20130912&nbsp; &nbsp; &nbsp; 科大讯飞&nbsp; &nbsp; &nbsp;600&nbsp; &nbsp; &nbsp; 45.8 买入</div><div>20130912&nbsp; &nbsp; &nbsp; 中天科技&nbsp; &nbsp; &nbsp;5000&nbsp; &nbsp; &nbsp; 10.13 买入</div><div>20130916&nbsp; &nbsp; &nbsp; <font COLOR=\"#FF0000\">科大讯飞&nbsp; &nbsp; &nbsp;600&nbsp; &nbsp; &nbsp; 4</font>4.08 卖出</div><div>20190924&nbsp; &nbsp; &nbsp; 太阳纸业&nbsp; &nbsp; &nbsp;7000&nbsp; &nbsp; &nbsp; 5.10&nbsp; &nbsp; &nbsp; 买入</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "10ff9e913ab987087482b02a7ad4e55edb5b0049a72aa577bede824028fa710f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/股票纪录.html"
+      }
+    },
+    {
+      "id": "082000bb-b75c-4b2c-b08d-d6f3ded4f63e",
+      "note_id": "6c58d0ad-ad4b-4f45-81e6-cc90d6147214",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.686011Z",
+      "content": "---\ntitle: 股票纪录\nupdated: 2013-09-24 06:09:40Z\ncreated: 2013-08-05 02:26:15Z\nsource: https://mail.google.com/mail/u/0/#search/%E7%89%9B%E5%8D%A1/12109647bdb2ed92\n---\n\n牛卡  07616390\n\n金自天正   1800 9.196\n\n沧州明珠   1800  9.042\n8月2日 沧州明珠10.6沽空\n\n对 2013年8月8日 14:21:39 的修改出现冲突：\n\n牛卡  07616390\n\n金自天正   1800 9.196  \n\n沧州明珠   1800  9.042\n20130806 沧州明珠 1800 10.06 卖出\n20130813 金自天正 1800 8.18   卖出\n20130813 姚记扑克  1000 16.951 买入\n20130815 姚记扑克  1000  17.39  卖出\n20130820  上海医药     1500 11.3 买入\n20130828  光大证券     1700  9.97（10.01） 买入\n20130830  上海医药     1500  11.82  卖出\n20130902  金证股份     1300   13.712 买入\n20130903  金证股份     1300   14.3 卖出\n20130903   光大证券     2000   9.06   买入\n20130909   光大证券    1800   9.16  卖出\n20190909    长城开发    2800   6.06  买入\n20130911    光大证券     1900   10.5卖出\n20130911  \n  长城开发    2800   5.93 卖\n出\n20130912      科大讯飞     600      45.8 买入\n20130912      中天科技     5000      10.13 买入\n20130916     \n科大讯飞     600      4\n4.08 卖出\n20190924      太阳纸业     7000      5.10      买入",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 964,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a47ba603-703a-4474-8fda-16dc01eaf05c",
+    "note_id": "6c58d0ad-ad4b-4f45-81e6-cc90d6147214",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.686016Z",
+    "finished_at": "2025-11-09T20:05:18.686016Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "08ac46cc-ff11-4b3f-8661-acead5fda443",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/股票纪录.html",
+      "checksum": "10ff9e913ab987087482b02a7ad4e55edb5b0049a72aa577bede824028fa710f"
+    },
+    "output_ref": {
+      "ingest_source": "387672b7-3d40-4a92-8b6d-5adb44c2dcc2",
+      "note": "6c58d0ad-ad4b-4f45-81e6-cc90d6147214",
+      "variants": [
+        "324bb90d-d80c-4773-9e23-185a4113dfe9",
+        "082000bb-b75c-4b2c-b08d-d6f3ded4f63e"
+      ]
+    },
+    "error_detail": null
+  }
+}

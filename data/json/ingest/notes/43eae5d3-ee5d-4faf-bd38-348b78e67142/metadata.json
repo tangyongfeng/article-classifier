@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "23ab5cc0-9ef0-49d9-a776-c6ad865b6560",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/谭超 招商银行.html",
+    "collected_at": "2025-11-09T20:01:37.616944Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d71f99ff9188e4776f71236df8b793a363df12b7289573fc2a026d40b7486e6d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "43eae5d3-ee5d-4faf-bd38-348b78e67142",
+    "ingest_source_id": "23ab5cc0-9ef0-49d9-a776-c6ad865b6560",
+    "canonical_title": "谭超 招商银行",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.616949Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "谭超 招商银行.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ea458549-3ce4-436a-ac37-e6b8238e5071",
+      "note_id": "43eae5d3-ee5d-4faf-bd38-348b78e67142",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.616952Z",
+      "content": "---\ntitle: 谭超 招商银行\nupdated: 2013-01-04 07:36:55Z\ncreated: 2013-01-04 07:36:51Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n6225880124835308 谭超 招商银行\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d71f99ff9188e4776f71236df8b793a363df12b7289573fc2a026d40b7486e6d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/谭超 招商银行.html"
+      }
+    },
+    {
+      "id": "a0fd635d-902a-48f0-b5e6-311b5b2aff2e",
+      "note_id": "43eae5d3-ee5d-4faf-bd38-348b78e67142",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.616956Z",
+      "content": "---\ntitle: 谭超 招商银行\nupdated: 2013-01-04 07:36:55Z\ncreated: 2013-01-04 07:36:51Z\n---\n\n6225880124835308 谭超 招商银行",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 108,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ad7e3ff3-e536-47a0-b1bb-5fa2334fa5c7",
+    "note_id": "43eae5d3-ee5d-4faf-bd38-348b78e67142",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.616961Z",
+    "finished_at": "2025-11-09T20:01:37.616962Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "76d8a81b-cea0-4f8c-b808-b84a0c245dee",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/谭超 招商银行.html",
+      "checksum": "d71f99ff9188e4776f71236df8b793a363df12b7289573fc2a026d40b7486e6d"
+    },
+    "output_ref": {
+      "ingest_source": "23ab5cc0-9ef0-49d9-a776-c6ad865b6560",
+      "note": "43eae5d3-ee5d-4faf-bd38-348b78e67142",
+      "variants": [
+        "ea458549-3ce4-436a-ac37-e6b8238e5071",
+        "a0fd635d-902a-48f0-b5e6-311b5b2aff2e"
+      ]
+    },
+    "error_detail": null
+  }
+}

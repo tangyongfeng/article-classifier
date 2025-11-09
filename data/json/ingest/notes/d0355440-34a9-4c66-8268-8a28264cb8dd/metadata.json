@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a106e577-f249-43ea-9ff6-d67cab5a9040",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/批复解读.html",
+    "collected_at": "2025-11-09T20:01:37.932072Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "2654473ddf02ad2eb1f40f70b2d5aeb74ca7a77712253e17605e2cde0eae44ec",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d0355440-34a9-4c66-8268-8a28264cb8dd",
+    "ingest_source_id": "a106e577-f249-43ea-9ff6-d67cab5a9040",
+    "canonical_title": "批复解读",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:37.932076Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "批复解读.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b1b1167d-5596-4188-ae5f-dc905a01bd78",
+      "note_id": "d0355440-34a9-4c66-8268-8a28264cb8dd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.932079Z",
+      "content": "---\ntitle: 批复解读\nupdated: 2015-04-26 13:32:07Z\ncreated: 2015-04-26 09:21:02Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>关于同意在江苏省试点发行销售中国体育彩票手机即开游戏的通知</div><div><br/></div>\n1、六款游戏，分别是好运扑克、全明星大赛、金牌闯关、趣味台球、趣味弹珠台、魔力四射\n<div>2、游戏奖金、发行费、公益金分别是：65%、12%、23%</div><div>3、必须在8月25日前上市销售这六款游戏</div><div>4、上市前应当公告：销售日期、营销宣传计划、风险控制办法等。上市一个月后向财政部上报销售情况；</div><div>5、上述六款游戏只能在江苏通过手机客户端方式销售，禁止在实体销售网点销售</div><div>6、需要开设投注账户，单个投注账户单日投注限额400，每次不超过10元，持续投注2小时休息1小时；（没说实名，没说不能一人多个账户）</div><div>7、电话代销商不得委托他人代销，销售费用计提不得超过6%；</div><div>8、需要在系统中监控彩民行政区域划分，不得跨省销售；</div><div><br/></div><div>关于同意中国体育彩票江苏省手机即开游戏销售试点实施方案的通知</div><div>1、从2015年5月15日开始试点；</div><div>2、代销商为北京赛宝通科技发展有限公司；北京赛宝通科技发展有限公司1000万《-股东&nbsp;元方天合投资管理（北京）有限公司50万&lt;-股东陈舒婷陈毓雯</div><div>3、代销费不能高，并且实行累退机制（应该是卖的越多，代销费比例越少），严禁转包；</div><div>4、账户身份校验需要线上身份校验和线下身份核实结合的方法。（什么意思？线上校验了线下再核实一次）</div><div>5、禁止跨渠道，禁止为未成年人开设账户；</div><div>6、两年试点，体彩不再批别家了；</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2654473ddf02ad2eb1f40f70b2d5aeb74ca7a77712253e17605e2cde0eae44ec",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/批复解读.html"
+      }
+    },
+    {
+      "id": "0262c241-6c08-4946-929d-a322232faf7f",
+      "note_id": "d0355440-34a9-4c66-8268-8a28264cb8dd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.932081Z",
+      "content": "---\ntitle: 批复解读\nupdated: 2015-04-26 13:32:07Z\ncreated: 2015-04-26 09:21:02Z\n---\n\n关于同意在江苏省试点发行销售中国体育彩票手机即开游戏的通知\n\n1、六款游戏，分别是好运扑克、全明星大赛、金牌闯关、趣味台球、趣味弹珠台、魔力四射\n\n2、游戏奖金、发行费、公益金分别是：65%、12%、23%\n3、必须在8月25日前上市销售这六款游戏\n4、上市前应当公告：销售日期、营销宣传计划、风险控制办法等。上市一个月后向财政部上报销售情况；\n5、上述六款游戏只能在江苏通过手机客户端方式销售，禁止在实体销售网点销售\n6、需要开设投注账户，单个投注账户单日投注限额400，每次不超过10元，持续投注2小时休息1小时；（没说实名，没说不能一人多个账户）\n7、电话代销商不得委托他人代销，销售费用计提不得超过6%；\n8、需要在系统中监控彩民行政区域划分，不得跨省销售；\n关于同意中国体育彩票江苏省手机即开游戏销售试点实施方案的通知\n1、从2015年5月15日开始试点；\n2、代销商为北京赛宝通科技发展有限公司；北京赛宝通科技发展有限公司1000万《-股东 元方天合投资管理（北京）有限公司50万<-股东陈舒婷陈毓雯\n3、代销费不能高，并且实行累退机制（应该是卖的越多，代销费比例越少），严禁转包；\n4、账户身份校验需要线上身份校验和线下身份核实结合的方法。（什么意思？线上校验了线下再核实一次）\n5、禁止跨渠道，禁止为未成年人开设账户；\n6、两年试点，体彩不再批别家了；",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 665,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5521bba2-e52a-42d3-9170-e75dc51e7609",
+    "note_id": "d0355440-34a9-4c66-8268-8a28264cb8dd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.932086Z",
+    "finished_at": "2025-11-09T20:01:37.932086Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9bf7e83c-0dba-40bb-88d4-0f5331c69c59",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/批复解读.html",
+      "checksum": "2654473ddf02ad2eb1f40f70b2d5aeb74ca7a77712253e17605e2cde0eae44ec"
+    },
+    "output_ref": {
+      "ingest_source": "a106e577-f249-43ea-9ff6-d67cab5a9040",
+      "note": "d0355440-34a9-4c66-8268-8a28264cb8dd",
+      "variants": [
+        "b1b1167d-5596-4188-ae5f-dc905a01bd78",
+        "0262c241-6c08-4946-929d-a322232faf7f"
+      ]
+    },
+    "error_detail": null
+  }
+}

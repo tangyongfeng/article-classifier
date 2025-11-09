@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "958bda93-5486-4592-8905-d114779c425f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/中小盘二八轮动策略.html",
+    "collected_at": "2025-11-09T20:01:39.416874Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "09a63a93530f7969e8c5de1da7aaacd0c832a8255c9b84a78703e8bb7eb25043",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e5192da1-2b21-42c4-8274-b0c255a10cda",
+    "ingest_source_id": "958bda93-5486-4592-8905-d114779c425f",
+    "canonical_title": "中小盘二八轮动策略",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.416882Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "中小盘二八轮动策略.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3a9bb04c-15e4-427c-abf6-aa73b1b9e582",
+      "note_id": "e5192da1-2b21-42c4-8274-b0c255a10cda",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.416887Z",
+      "content": "---\ntitle: 中小盘二八轮动策略\nupdated: 2021-07-06 18:45:15Z\ncreated: 2021-07-06 18:44:15Z\n---\n\n\n\n<en-note><p STYLE=\"box-sizing: border-box; margin: 0px 0px 1.5em; padding: 0px; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: 微软雅黑, 宋体, &quot;Hiragino Sans GB&quot;, STHeiti, &quot;WenQuanYi Micro Hei&quot;, &quot;Droid Sans Fallback&quot;, SimSun, sans-serif; font-size: 16px; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"></p><div><br/></div><div><span STYLE=\"-en-paragraph:true;\">　　近期二八轮动策略很火，不少互联网平台相继推出了二八轮动策略组合。那么二八轮动策略本质是什么？如何操作？隐含的原理又是什么？策略最终实证效果如何？今天老罗就为大家一一揭秘二八轮动背后的秘密。</span></div><div>　　<span STYLE=\"font-weight: bold;\">何谓二八轮动策略？</span></div><div>　　通俗点讲就是大小盘轮动策略，&ldquo;二&rdquo;代表数量占比20%左右的大盘权重股，&ldquo;八&rdquo;代表数量占比80%左右的中小盘股票，二八轮动就是指在大盘股与小盘股中间不断切换，轮流持有。当前各平台的策略都增加了一个择时指标，在市场不好的时候，股票空仓，转入债券或者货币基金。</div><div>　　<span STYLE=\"font-weight: bold;\">二八轮动策略具体操作方法</span></div><div>　　按照趋势跟随策略编制，成分标的包含沪深300指数、中证500指数和国债指数。具体为：</div><div>　　(1)每日收盘后对比当日收盘数据与20个交易日前的收盘数据，选择沪深300指数和中证500指数中涨幅较大的一个，于下一个交易日收盘时切换为持有该指数；</div><div>　　(2)若两个指数均为下跌，则于下个交易日收盘时切换为持有国债指数。</div><div>　　说明白点就是：判断市场好的时候，在大、小盘股票上进行轮动，持有涨势较好的指数。判断市场不好的时候，就卖掉股票，转入风险较小的国债产品。</div><div>　　<span STYLE=\"font-weight: bold;\">二八轮动策略的原理</span></div><div>　　二八轮动策略实质是一种&ldquo;动量效应&rdquo;。动量效应(Momentum effect)又称&ldquo;惯性效应&rdquo;，由Jegadeesh和Titman(1993)提出的，是指股票的收益率有延续原来运动方向的趋势，即过去一段时间收益率较高的股票在未来收益率仍会高于过去收益率较低的股票。总得来说，二八轮动是根据动量效应设计的一种&ldquo;追涨杀跌&rdquo;的趋势投资方法，解决了投资者面临的&ldquo;买什么，什么时候买&rdquo;等一系列投资痛点。</div><div>　　<span STYLE=\"font-weight: bold;\">二八轮动策略在A股是否有效？</span></div><div>　　(一)A股市场大小盘轮动效应显著</div><div>　　从下图可知，A股市场历年大、小盘的收益率差异还是很大的，也就是大小盘轮动风格比较显著。因此，理论上基于A股市场的二八轮动策略应该是相对有效的。</div><div>　　图：A股历年沪深300(大盘)、中证500(小盘)指数收益率</div><div><img src=\"../_resources/f062c4b5295204152b916fac5c2d7ec7.jpg\"  hash=\"f062c4b5295204152b916fac5c2d7ec7\" title=\"Attachment\" width=\"640\" type=\"image/jpeg\" alt=\"\" /></en-media></div><div>　　注：2016年数据截止2016.10.26</div><div>　　<span STYLE=\"font-weight: bold;\">对二八轮动策略的整体评价：</span></div><div>　　(一) 轮动策略整体有效，但不能有过高期望。</div><div>　　实证数据表明二八轮动在A股近几年整体是有效的，能够取得比业绩基准更好的风险调整收益率，但超额收益并没有非常显著。目前网络上一些二八轮动策略以指数为标的，没有考虑交易费率以及指数产品本身的跟踪误差，测算出来的收益率高达数十倍，实际上有一定的误导。</div><div>　　(二) 轮动策略在波动大、趋势强的市场更有效</div><div>　　二八轮动在震荡市中的表现不如业绩基准，这也是二八轮动的特点：优势体现在大涨或者大跌的市场里，但在震荡市里优势并不明显，投资者得蛰伏等待这样的时刻到来，才会有比较丰厚的收益。</div><div>　　(三) 底层产品交易费率很重要，指数基金C类份额是最佳选择</div><div>　　二八轮动的平均调仓周期9天左右，如果底层资产的申购、赎回费率较高，将对策略的效果产生非常不利的影响，甚至导致策略失效。因此，选择合适的底层资产对于二八轮动是重中之重。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "09a63a93530f7969e8c5de1da7aaacd0c832a8255c9b84a78703e8bb7eb25043",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/中小盘二八轮动策略.html"
+      }
+    },
+    {
+      "id": "506999e1-4b45-4171-867d-7a6a9699cce3",
+      "note_id": "e5192da1-2b21-42c4-8274-b0c255a10cda",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.416893Z",
+      "content": "---\ntitle: 中小盘二八轮动策略\nupdated: 2021-07-06 18:45:15Z\ncreated: 2021-07-06 18:44:15Z\n---\n\n　　近期二八轮动策略很火，不少互联网平台相继推出了二八轮动策略组合。那么二八轮动策略本质是什么？如何操作？隐含的原理又是什么？策略最终实证效果如何？今天老罗就为大家一一揭秘二八轮动背后的秘密。\n　　\n何谓二八轮动策略？\n　　通俗点讲就是大小盘轮动策略，“二”代表数量占比20%左右的大盘权重股，“八”代表数量占比80%左右的中小盘股票，二八轮动就是指在大盘股与小盘股中间不断切换，轮流持有。当前各平台的策略都增加了一个择时指标，在市场不好的时候，股票空仓，转入债券或者货币基金。\n　　\n二八轮动策略具体操作方法\n　　按照趋势跟随策略编制，成分标的包含沪深300指数、中证500指数和国债指数。具体为：\n　　(1)每日收盘后对比当日收盘数据与20个交易日前的收盘数据，选择沪深300指数和中证500指数中涨幅较大的一个，于下一个交易日收盘时切换为持有该指数；\n　　(2)若两个指数均为下跌，则于下个交易日收盘时切换为持有国债指数。\n　　说明白点就是：判断市场好的时候，在大、小盘股票上进行轮动，持有涨势较好的指数。判断市场不好的时候，就卖掉股票，转入风险较小的国债产品。\n　　\n二八轮动策略的原理\n　　二八轮动策略实质是一种“动量效应”。动量效应(Momentum effect)又称“惯性效应”，由Jegadeesh和Titman(1993)提出的，是指股票的收益率有延续原来运动方向的趋势，即过去一段时间收益率较高的股票在未来收益率仍会高于过去收益率较低的股票。总得来说，二八轮动是根据动量效应设计的一种“追涨杀跌”的趋势投资方法，解决了投资者面临的“买什么，什么时候买”等一系列投资痛点。\n　　\n二八轮动策略在A股是否有效？\n　　(一)A股市场大小盘轮动效应显著\n　　从下图可知，A股市场历年大、小盘的收益率差异还是很大的，也就是大小盘轮动风格比较显著。因此，理论上基于A股市场的二八轮动策略应该是相对有效的。\n　　图：A股历年沪深300(大盘)、中证500(小盘)指数收益率\n　　注：2016年数据截止2016.10.26\n　　\n对二八轮动策略的整体评价：\n　　(一) 轮动策略整体有效，但不能有过高期望。\n　　实证数据表明二八轮动在A股近几年整体是有效的，能够取得比业绩基准更好的风险调整收益率，但超额收益并没有非常显著。目前网络上一些二八轮动策略以指数为标的，没有考虑交易费率以及指数产品本身的跟踪误差，测算出来的收益率高达数十倍，实际上有一定的误导。\n　　(二) 轮动策略在波动大、趋势强的市场更有效\n　　二八轮动在震荡市中的表现不如业绩基准，这也是二八轮动的特点：优势体现在大涨或者大跌的市场里，但在震荡市里优势并不明显，投资者得蛰伏等待这样的时刻到来，才会有比较丰厚的收益。\n　　(三) 底层产品交易费率很重要，指数基金C类份额是最佳选择\n　　二八轮动的平均调仓周期9天左右，如果底层资产的申购、赎回费率较高，将对策略的效果产生非常不利的影响，甚至导致策略失效。因此，选择合适的底层资产对于二八轮动是重中之重。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 1349,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1f402e82-8ce7-4c84-8f91-b86f8e08254b",
+    "note_id": "e5192da1-2b21-42c4-8274-b0c255a10cda",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.416900Z",
+    "finished_at": "2025-11-09T20:01:39.416900Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6ac7887a-60ae-427a-83a1-56185fb971a1",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/中小盘二八轮动策略.html",
+      "checksum": "09a63a93530f7969e8c5de1da7aaacd0c832a8255c9b84a78703e8bb7eb25043"
+    },
+    "output_ref": {
+      "ingest_source": "958bda93-5486-4592-8905-d114779c425f",
+      "note": "e5192da1-2b21-42c4-8274-b0c255a10cda",
+      "variants": [
+        "3a9bb04c-15e4-427c-abf6-aa73b1b9e582",
+        "506999e1-4b45-4171-867d-7a6a9699cce3"
+      ]
+    },
+    "error_detail": null
+  }
+}

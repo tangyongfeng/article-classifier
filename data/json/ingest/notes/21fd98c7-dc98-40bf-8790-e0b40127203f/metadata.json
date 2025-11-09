@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "4921604c-0772-4130-a9fb-60eb524de5e2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/德国填表.html",
+    "collected_at": "2025-11-09T20:01:38.494113Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "8ed4fcecbbb5b71daabe115c81b60879b66264a6b489d431082b82d8a1c07720",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "21fd98c7-dc98-40bf-8790-e0b40127203f",
+    "ingest_source_id": "4921604c-0772-4130-a9fb-60eb524de5e2",
+    "canonical_title": "德国填表",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:38.494118Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "德国填表.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "554193a0-6a07-4eaf-8d91-a089d027a35f",
+      "note_id": "21fd98c7-dc98-40bf-8790-e0b40127203f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.494121Z",
+      "content": "---\ntitle: 德国填表\nupdated: 2019-03-30 19:32:07Z\ncreated: 2019-03-30 19:15:11Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Nachname 姓</div><div>Name &nbsp; &nbsp; &nbsp; 名</div><div>Niang-Familienname (freiwillig) 娘家姓</div><div>Geburtsort&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 出生地</div><div>Bitte ausw&auml;hlen&nbsp; 请选择</div><div>ledig &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 未婚&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div><div>ledig, ehe&auml;hnliche Gemeinschaft&nbsp; 单身，但婚姻般的&nbsp;</div><div>verheiratet, steuerl. zus. veranlagt&nbsp; 结婚，纳税，另外评估&nbsp;</div><div>verheiratet, steuerl. getrennt veranlagt 结婚，纳税，单独评估&nbsp;</div><div>verheiratet, getrennt lebend &nbsp; 结婚，分居&nbsp;</div><div>geschieden 离婚</div><div>eingetragene Lebenspartnerschaft 注册民事伴侣关系</div><div>verwitwet&nbsp; 丧偶&nbsp;</div><div>keine Angabe &nbsp; 没有声明</div><div>\n<span STYLE=\"font-style: normal; font-weight: normal;\"> Angestellter &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 雇员</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nleitender Angestellter &nbsp; &nbsp; 高级员工</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nVorstand/Gesch&auml;ftsf&uuml;hrer &nbsp; &nbsp; 董事</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nArbeiter Facharbeiter &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;技术工人</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\"> Meister Beamter im einfachen Dienst &nbsp; 基层主管</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nBeamter im mittleren Dienst &nbsp; &nbsp; 中级主管</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nBeamter im h&ouml;heren Dienst &nbsp; &nbsp; &nbsp; 高级主管</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nBeamter im gehobenen Dienst &nbsp; &nbsp; &nbsp;公务员</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\"> Hausfrau/-mann &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span>家庭主妇/夫</div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nRentner/Pension&auml;r &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;退休</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nAuszubildender &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span> 实习生</div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nBundesfreiwilligendienstleistende &nbsp; &nbsp;&nbsp;</span>联邦志愿服务提供商</div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nSch&uuml;ler &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 小学生</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\"> Student &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 大学生</span></div><div><span STYLE=\"font-style: normal; font-weight: normal;\">\nohne Besch&auml;ftigung Position im Beruf &nbsp; &nbsp;失业</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8ed4fcecbbb5b71daabe115c81b60879b66264a6b489d431082b82d8a1c07720",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/德国填表.html"
+      }
+    },
+    {
+      "id": "c76871e5-4442-4d08-a493-4f741c594017",
+      "note_id": "21fd98c7-dc98-40bf-8790-e0b40127203f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.494124Z",
+      "content": "---\ntitle: 德国填表\nupdated: 2019-03-30 19:32:07Z\ncreated: 2019-03-30 19:15:11Z\nauthor: tangyongfeng@gmail.com\n---\n\nNachname 姓\nName       名\nNiang-Familienname (freiwillig) 娘家姓\nGeburtsort            出生地\nBitte auswählen  请选择\nledig                     未婚                   \nledig, eheähnliche Gemeinschaft  单身，但婚姻般的 \nverheiratet, steuerl. zus. veranlagt  结婚，纳税，另外评估 \nverheiratet, steuerl. getrennt veranlagt 结婚，纳税，单独评估 \nverheiratet, getrennt lebend   结婚，分居 \ngeschieden 离婚\neingetragene Lebenspartnerschaft 注册民事伴侣关系\nverwitwet  丧偶 \nkeine Angabe   没有声明\n\n Angestellter                 雇员\n\nleitender Angestellter     高级员工\n\nVorstand/Geschäftsführer     董事\n\nArbeiter Facharbeiter            技术工人\n Meister Beamter im einfachen Dienst   基层主管\n\nBeamter im mittleren Dienst     中级主管\n\nBeamter im höheren Dienst       高级主管\n\nBeamter im gehobenen Dienst      公务员\n Hausfrau/-mann                          \n家庭主妇/夫\n\nRentner/Pensionär                        退休\n\nAuszubildender                              \n 实习生\n\nBundesfreiwilligendienstleistende     \n联邦志愿服务提供商\n\nSchüler                                             小学生\n Student                                             大学生\n\nohne Beschäftigung Position im Beruf    失业",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1191,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7e0aabdc-d2d0-48bf-952a-16fd6fd29240",
+    "note_id": "21fd98c7-dc98-40bf-8790-e0b40127203f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.494129Z",
+    "finished_at": "2025-11-09T20:01:38.494130Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fa8ee999-a3c9-4cef-9677-22c31e227375",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/德国填表.html",
+      "checksum": "8ed4fcecbbb5b71daabe115c81b60879b66264a6b489d431082b82d8a1c07720"
+    },
+    "output_ref": {
+      "ingest_source": "4921604c-0772-4130-a9fb-60eb524de5e2",
+      "note": "21fd98c7-dc98-40bf-8790-e0b40127203f",
+      "variants": [
+        "554193a0-6a07-4eaf-8d91-a089d027a35f",
+        "c76871e5-4442-4d08-a493-4f741c594017"
+      ]
+    },
+    "error_detail": null
+  }
+}

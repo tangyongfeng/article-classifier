@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b415984c-a710-4386-8a9e-bcec4e20a2ac",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-5.html",
+    "collected_at": "2025-11-09T20:01:35.984238Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3552959084c836bb509d2ca2f57dcbc4f1ce128f6ab8fc546b604cf35b12219c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7a3a1cdc-6be3-49c1-b32a-74f3f3e73ae2",
+    "ingest_source_id": "b415984c-a710-4386-8a9e-bcec4e20a2ac",
+    "canonical_title": "无标题笔记-5",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.984242Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-5.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9c57910c-f3fd-49d3-8ed9-36b90ba597d0",
+      "note_id": "7a3a1cdc-6be3-49c1-b32a-74f3f3e73ae2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.984244Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-04-21 17:39:40Z\ncreated: 2019-04-21 17:39:27Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><font FACE=\"Courier\">SPIC AND SPAN.EXPERT</font></div><div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3552959084c836bb509d2ca2f57dcbc4f1ce128f6ab8fc546b604cf35b12219c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-5.html"
+      }
+    },
+    {
+      "id": "6c8154a5-6675-4922-9da6-d91100c4b1f6",
+      "note_id": "7a3a1cdc-6be3-49c1-b32a-74f3f3e73ae2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.984247Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-04-21 17:39:40Z\ncreated: 2019-04-21 17:39:27Z\nauthor: tangyongfeng@gmail.com\n---\n\nSPIC AND SPAN.EXPERT",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 133,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f27820a4-6d75-4c87-b1a6-cadb7e971a56",
+    "note_id": "7a3a1cdc-6be3-49c1-b32a-74f3f3e73ae2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.984252Z",
+    "finished_at": "2025-11-09T20:01:35.984252Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5a742fd0-17f1-4b39-bfb9-7a7fb1d8358f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-5.html",
+      "checksum": "3552959084c836bb509d2ca2f57dcbc4f1ce128f6ab8fc546b604cf35b12219c"
+    },
+    "output_ref": {
+      "ingest_source": "b415984c-a710-4386-8a9e-bcec4e20a2ac",
+      "note": "7a3a1cdc-6be3-49c1-b32a-74f3f3e73ae2",
+      "variants": [
+        "9c57910c-f3fd-49d3-8ed9-36b90ba597d0",
+        "6c8154a5-6675-4922-9da6-d91100c4b1f6"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "dc80b58f-0728-47c0-b539-021abf4b0764",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/大有卦.html",
+    "collected_at": "2025-11-09T20:01:39.839097Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f0586ef3cc5d115758d12c7c8830bec56ad33d6c19a4c29fd3c2248ea05000e6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7f83ce00-fb01-49e0-b115-b7d030dffc5c",
+    "ingest_source_id": "dc80b58f-0728-47c0-b539-021abf4b0764",
+    "canonical_title": "大有卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.839101Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "大有卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ce0b10c4-36ef-4a32-8078-0cf8f40afa39",
+      "note_id": "7f83ce00-fb01-49e0-b115-b7d030dffc5c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.839104Z",
+      "content": "---\ntitle: 大有卦\nupdated: 2018-11-12 15:08:44Z\ncreated: 2018-11-12 14:35:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>元亨。</div><div><br/></div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 462px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>上九</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">自天佑之，吉，无不利。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六五（主爻）</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">厥孚交如，咸如，吉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>九四</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">匪其彭，无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>九三</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">公用亨于天子，小人弗克。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九二</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">大车以载，有攸住，无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>初九</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">无交害匪咎。艰则无咎。</td></tr></tbody></table><div></div><div>顺天休命。</div><div>元亨只在下面四个卦中：</div><div>大有卦</div><div>蛊卦</div><div>升卦</div><div>鼎卦</div><div>元吉代表吉祥，元亨代表怎么都走得通。</div><div>顺：下对上。</div><div><br/></div><div>九五互兑，当虎。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f0586ef3cc5d115758d12c7c8830bec56ad33d6c19a4c29fd3c2248ea05000e6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/大有卦.html"
+      }
+    },
+    {
+      "id": "248ecc1d-e61b-4c4a-a5d4-e38199d6c4cf",
+      "note_id": "7f83ce00-fb01-49e0-b115-b7d030dffc5c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.839107Z",
+      "content": "---\ntitle: 大有卦\nupdated: 2018-11-12 15:08:44Z\ncreated: 2018-11-12 14:35:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n元亨。\n上九\n自天佑之，吉，无不利。\n六五（主爻）\n厥孚交如，咸如，吉。\n九四\n匪其彭，无咎。\n九三\n公用亨于天子，小人弗克。\n九二\n大车以载，有攸住，无咎。\n初九\n无交害匪咎。艰则无咎。\n顺天休命。\n元亨只在下面四个卦中：\n大有卦\n蛊卦\n升卦\n鼎卦\n元吉代表吉祥，元亨代表怎么都走得通。\n顺：下对上。\n九五互兑，当虎。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 271,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "83b7632a-c793-43e0-834e-f024d15b5ff3",
+    "note_id": "7f83ce00-fb01-49e0-b115-b7d030dffc5c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.839112Z",
+    "finished_at": "2025-11-09T20:01:39.839113Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "60293a86-b174-41b2-8579-fc86fa2f5d34",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/大有卦.html",
+      "checksum": "f0586ef3cc5d115758d12c7c8830bec56ad33d6c19a4c29fd3c2248ea05000e6"
+    },
+    "output_ref": {
+      "ingest_source": "dc80b58f-0728-47c0-b539-021abf4b0764",
+      "note": "7f83ce00-fb01-49e0-b115-b7d030dffc5c",
+      "variants": [
+        "ce0b10c4-36ef-4a32-8078-0cf8f40afa39",
+        "248ecc1d-e61b-4c4a-a5d4-e38199d6c4cf"
+      ]
+    },
+    "error_detail": null
+  }
+}

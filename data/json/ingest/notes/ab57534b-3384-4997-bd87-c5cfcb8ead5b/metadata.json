@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b33ab790-3535-4dc0-8846-1a6a0c3e005e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/RTL-SDR的安装和使用_丫丫爸_新浪博客.html",
+    "collected_at": "2025-11-09T20:05:13.578078Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d2dfefa8be16a1496a80871d5e8836f40c14125504d79bd7b2bd68fd395fadcc",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ab57534b-3384-4997-bd87-c5cfcb8ead5b",
+    "ingest_source_id": "b33ab790-3535-4dc0-8846-1a6a0c3e005e",
+    "canonical_title": "RTL-SDR的安装和使用_丫丫爸_新浪博客",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.578082Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "RTL-SDR的安装和使用_丫丫爸_新浪博客.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c9848844-10ce-4383-905e-73e63bec0b87",
+      "note_id": "ab57534b-3384-4997-bd87-c5cfcb8ead5b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.578085Z",
+      "content": "---\ntitle: RTL-SDR的安装和使用_丫丫爸_新浪博客\nupdated: 2016-03-11 17:25:43Z\ncreated: 2016-03-11 17:25:43Z\nsource: http://blog.sina.com.cn/s/blog_4b12446d0102vtzt.html\n---\n\n\n\n<en-note><div STYLE=\"position:relative;\"><div><span STYLE=\"line-height:21px;\">-M wbfm -s 200000 -r 48000 - | aplay -r 48k -f\nS16_LE</span></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d2dfefa8be16a1496a80871d5e8836f40c14125504d79bd7b2bd68fd395fadcc",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/RTL-SDR的安装和使用_丫丫爸_新浪博客.html"
+      }
+    },
+    {
+      "id": "58fef916-eef3-46d0-a71c-ed856221d98d",
+      "note_id": "ab57534b-3384-4997-bd87-c5cfcb8ead5b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.578088Z",
+      "content": "---\ntitle: RTL-SDR的安装和使用_丫丫爸_新浪博客\nupdated: 2016-03-11 17:25:43Z\ncreated: 2016-03-11 17:25:43Z\nsource: http://blog.sina.com.cn/s/blog_4b12446d0102vtzt.html\n---\n\n-M wbfm -s 200000 -r 48000 - | aplay -r 48k -f\nS16_LE",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 213,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "73c3d15c-4647-4c7d-b0b9-bb3a6a91d4e3",
+    "note_id": "ab57534b-3384-4997-bd87-c5cfcb8ead5b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.578092Z",
+    "finished_at": "2025-11-09T20:05:13.578093Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "edc19e5a-4fe6-4beb-893b-5a0c730f61fa",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/RTL-SDR的安装和使用_丫丫爸_新浪博客.html",
+      "checksum": "d2dfefa8be16a1496a80871d5e8836f40c14125504d79bd7b2bd68fd395fadcc"
+    },
+    "output_ref": {
+      "ingest_source": "b33ab790-3535-4dc0-8846-1a6a0c3e005e",
+      "note": "ab57534b-3384-4997-bd87-c5cfcb8ead5b",
+      "variants": [
+        "c9848844-10ce-4383-905e-73e63bec0b87",
+        "58fef916-eef3-46d0-a71c-ed856221d98d"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f606f1bb-faee-44ec-9bad-94c4487a1da5",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/visitor medical insurance.html",
+    "collected_at": "2025-11-09T20:01:40.007653Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "90e9f00517fa9fcd66ec95d0b470db758b2014c190cf48c163d6ab07bff7f391",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4813fa5c-a80f-4bf5-b26e-e8d3b390b762",
+    "ingest_source_id": "f606f1bb-faee-44ec-9bad-94c4487a1da5",
+    "canonical_title": "visitor medical insurance",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:40.007657Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "visitor medical insurance.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d2aa920e-e9b1-42c5-85b5-23a3261aeeef",
+      "note_id": "4813fa5c-a80f-4bf5-b26e-e8d3b390b762",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.007660Z",
+      "content": "---\ntitle: visitor medical insurance\nupdated: 2012-11-04 14:54:48Z\ncreated: 2012-11-04 14:54:48Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nvisitor medical insurance\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "90e9f00517fa9fcd66ec95d0b470db758b2014c190cf48c163d6ab07bff7f391",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/visitor medical insurance.html"
+      }
+    },
+    {
+      "id": "2123d4aa-c4da-4289-b01a-0d24c150e1be",
+      "note_id": "4813fa5c-a80f-4bf5-b26e-e8d3b390b762",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.007662Z",
+      "content": "---\ntitle: visitor medical insurance\nupdated: 2012-11-04 14:54:48Z\ncreated: 2012-11-04 14:54:48Z\n---\n\nvisitor medical insurance",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 127,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fc6f6426-8751-40ed-9302-0a65c1c5dd5a",
+    "note_id": "4813fa5c-a80f-4bf5-b26e-e8d3b390b762",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.007667Z",
+    "finished_at": "2025-11-09T20:01:40.007667Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7aa71dbe-9adc-417a-996c-f804a3a8eda7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/visitor medical insurance.html",
+      "checksum": "90e9f00517fa9fcd66ec95d0b470db758b2014c190cf48c163d6ab07bff7f391"
+    },
+    "output_ref": {
+      "ingest_source": "f606f1bb-faee-44ec-9bad-94c4487a1da5",
+      "note": "4813fa5c-a80f-4bf5-b26e-e8d3b390b762",
+      "variants": [
+        "d2aa920e-e9b1-42c5-85b5-23a3261aeeef",
+        "2123d4aa-c4da-4289-b01a-0d24c150e1be"
+      ]
+    },
+    "error_detail": null
+  }
+}

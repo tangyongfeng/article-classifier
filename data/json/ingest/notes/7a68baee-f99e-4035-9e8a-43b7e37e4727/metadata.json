@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "bd9c4793-343b-49bb-8756-60a7e730bf25",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/godaddy.html",
+    "collected_at": "2025-11-09T20:01:38.206860Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "18cdee1bbbdcb0756201e35eff8eeb4f3a19bdcfd99d1181d37bf7fabfd41a22",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7a68baee-f99e-4035-9e8a-43b7e37e4727",
+    "ingest_source_id": "bd9c4793-343b-49bb-8756-60a7e730bf25",
+    "canonical_title": "godaddy",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.206864Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "godaddy.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a3064d8e-32a8-4c76-b385-cab6f425e8e6",
+      "note_id": "7a68baee-f99e-4035-9e8a-43b7e37e4727",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.206867Z",
+      "content": "---\ntitle: godaddy\nupdated: 2014-07-02 10:33:27Z\ncreated: 2014-07-02 10:32:46Z\nsource: >-\n  https://cart.godaddy.com/OrderConfirmation/Order_Confirmation.aspx?pending=True\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(51, 51, 51); font-size: 14px; text-align: left; white-space: nowrap; background-color: rgb(232, 232, 232);\">85608886</span><div><span STYLE=\"color: rgb(51, 51, 51); font-size: 14px; text-align: left; white-space: nowrap; background-color: rgb(232, 232, 232);\"><br/></span></div><div STYLE=\"text-align: left;\"><font COLOR=\"#333333\"><span STYLE=\"font-size: 14px; white-space: nowrap;\">tangyongfeng</span></font></div><div STYLE=\"text-align: left;\"><font COLOR=\"#333333\"><span STYLE=\"font-size: 14px; white-space: nowrap;\"><br/></span></font></div><div><span STYLE=\"color: rgb(51, 51, 51); font-size: 14px; text-align: left; white-space: nowrap; background-color: rgb(232, 232, 232);\">B*1******</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "18cdee1bbbdcb0756201e35eff8eeb4f3a19bdcfd99d1181d37bf7fabfd41a22",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/godaddy.html"
+      }
+    },
+    {
+      "id": "8a2102fb-a5e8-42c2-a7b8-23c8518fca72",
+      "note_id": "7a68baee-f99e-4035-9e8a-43b7e37e4727",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.206869Z",
+      "content": "---\ntitle: godaddy\nupdated: 2014-07-02 10:33:27Z\ncreated: 2014-07-02 10:32:46Z\nsource: >-\n  https://cart.godaddy.com/OrderConfirmation/Order_Confirmation.aspx?pending=True\n---\n\n85608886\ntangyongfeng\nB*1******",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 208,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3e01a039-f8c4-4235-bcea-c0b4071238ca",
+    "note_id": "7a68baee-f99e-4035-9e8a-43b7e37e4727",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.206874Z",
+    "finished_at": "2025-11-09T20:01:38.206875Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e99f1124-5e97-4de6-969b-ba683d592cce",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/godaddy.html",
+      "checksum": "18cdee1bbbdcb0756201e35eff8eeb4f3a19bdcfd99d1181d37bf7fabfd41a22"
+    },
+    "output_ref": {
+      "ingest_source": "bd9c4793-343b-49bb-8756-60a7e730bf25",
+      "note": "7a68baee-f99e-4035-9e8a-43b7e37e4727",
+      "variants": [
+        "a3064d8e-32a8-4c76-b385-cab6f425e8e6",
+        "8a2102fb-a5e8-42c2-a7b8-23c8518fca72"
+      ]
+    },
+    "error_detail": null
+  }
+}

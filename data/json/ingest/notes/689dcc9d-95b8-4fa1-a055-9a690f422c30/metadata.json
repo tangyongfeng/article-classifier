@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "aed2de1b-eb6f-465f-9697-41f9d31edf4b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/开发环境.html",
+    "collected_at": "2025-11-09T20:01:35.773566Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "aa3a60203dfe620426ee7d08e03e602354b9a3cb5c8b45f37fff318cd7114b5e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "689dcc9d-95b8-4fa1-a055-9a690f422c30",
+    "ingest_source_id": "aed2de1b-eb6f-465f-9697-41f9d31edf4b",
+    "canonical_title": "开发环境",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.773571Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "开发环境.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "59b8a563-de21-4a8b-ab84-74a9e398c534",
+      "note_id": "689dcc9d-95b8-4fa1-a055-9a690f422c30",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.773574Z",
+      "content": "---\ntitle: 开发环境\nupdated: 2021-12-27 10:50:30Z\ncreated: 2021-12-27 10:50:09Z\n---\n\n\n<en-note><div>Vite + Vue 3 + Tailwind CSS + React Query 开发真的太舒服</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "aa3a60203dfe620426ee7d08e03e602354b9a3cb5c8b45f37fff318cd7114b5e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/开发环境.html"
+      }
+    },
+    {
+      "id": "e3b61aaf-df2e-41f3-8953-4901538b5822",
+      "note_id": "689dcc9d-95b8-4fa1-a055-9a690f422c30",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.773578Z",
+      "content": "---\ntitle: 开发环境\nupdated: 2021-12-27 10:50:30Z\ncreated: 2021-12-27 10:50:09Z\n---\n\nVite + Vue 3 + Tailwind CSS + React Query 开发真的太舒服",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 130,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4abaf817-51a2-420d-8f6c-9143b337a374",
+    "note_id": "689dcc9d-95b8-4fa1-a055-9a690f422c30",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.773583Z",
+    "finished_at": "2025-11-09T20:01:35.773583Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f034a210-b730-4073-98b7-6cefcf98ce82",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/开发环境.html",
+      "checksum": "aa3a60203dfe620426ee7d08e03e602354b9a3cb5c8b45f37fff318cd7114b5e"
+    },
+    "output_ref": {
+      "ingest_source": "aed2de1b-eb6f-465f-9697-41f9d31edf4b",
+      "note": "689dcc9d-95b8-4fa1-a055-9a690f422c30",
+      "variants": [
+        "59b8a563-de21-4a8b-ab84-74a9e398c534",
+        "e3b61aaf-df2e-41f3-8953-4901538b5822"
+      ]
+    },
+    "error_detail": null
+  }
+}

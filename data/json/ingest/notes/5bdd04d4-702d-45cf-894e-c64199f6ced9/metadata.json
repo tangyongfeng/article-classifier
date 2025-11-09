@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "6537dd57-a300-45f7-ae16-f12804edd3a1",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/饺子皮的做法.html",
+    "collected_at": "2025-11-09T20:05:16.808110Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f2bf44cf8785f3c71cd154d73736b64953dcc2c76e66f6bb777e92109295baf5",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "5bdd04d4-702d-45cf-894e-c64199f6ced9",
+    "ingest_source_id": "6537dd57-a300-45f7-ae16-f12804edd3a1",
+    "canonical_title": "饺子皮的做法",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.808114Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "饺子皮的做法.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f4cd4eca-e44e-436a-968b-07402d70cd79",
+      "note_id": "5bdd04d4-702d-45cf-894e-c64199f6ced9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.808117Z",
+      "content": "---\ntitle: 饺子皮的做法\nupdated: 2021-08-31 20:05:00Z\ncreated: 2021-08-31 20:04:29Z\n---\n\n\n\n<en-note><div><font FACE=\"Courier New\">1、用冷水和面，但在加水的时候要用筷子搅着加，这样水加的均匀，也容易把握住加水的量，一般搅到只剩一点干面就不要加水了，然后用手揉面揉成一团后密封放置十几分钟再揉一会。 </font></div><div><font FACE=\"Courier New\">2、饺子面一定要揉了在揉，揉一会，歇一会让它醒一下，一直揉越揉越好吃，一般3至4次，一次揉4遍，一遍5分钟即可。 </font></div><div><font FACE=\"Courier New\">3、然后再密封放置半小时以上，放置时间越长面和水越均匀，这样在做饺子皮时也不容易干面皮。 </font></div><div><font FACE=\"Courier New\">4、在案板上撒面面粉在擀饺子皮，这样不会粘，擀饺子皮要转圈擀。也可以洒上面粉，把每一个面团用手捏正，用靠手掌大拇指的那块大肌肉往下一压即可。</font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f2bf44cf8785f3c71cd154d73736b64953dcc2c76e66f6bb777e92109295baf5",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/饺子皮的做法.html"
+      }
+    },
+    {
+      "id": "c42b7d53-f3a1-4183-9216-7bfaf2434195",
+      "note_id": "5bdd04d4-702d-45cf-894e-c64199f6ced9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.808119Z",
+      "content": "---\ntitle: 饺子皮的做法\nupdated: 2021-08-31 20:05:00Z\ncreated: 2021-08-31 20:04:29Z\n---\n\n1、用冷水和面，但在加水的时候要用筷子搅着加，这样水加的均匀，也容易把握住加水的量，一般搅到只剩一点干面就不要加水了，然后用手揉面揉成一团后密封放置十几分钟再揉一会。\n2、饺子面一定要揉了在揉，揉一会，歇一会让它醒一下，一直揉越揉越好吃，一般3至4次，一次揉4遍，一遍5分钟即可。\n3、然后再密封放置半小时以上，放置时间越长面和水越均匀，这样在做饺子皮时也不容易干面皮。\n4、在案板上撒面面粉在擀饺子皮，这样不会粘，擀饺子皮要转圈擀。也可以洒上面粉，把每一个面团用手捏正，用靠手掌大拇指的那块大肌肉往下一压即可。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 339,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "03c87131-951d-4581-8520-b69286ef217a",
+    "note_id": "5bdd04d4-702d-45cf-894e-c64199f6ced9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.808124Z",
+    "finished_at": "2025-11-09T20:05:16.808124Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1fa16612-6670-4533-9b4c-7884f9e27968",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/饺子皮的做法.html",
+      "checksum": "f2bf44cf8785f3c71cd154d73736b64953dcc2c76e66f6bb777e92109295baf5"
+    },
+    "output_ref": {
+      "ingest_source": "6537dd57-a300-45f7-ae16-f12804edd3a1",
+      "note": "5bdd04d4-702d-45cf-894e-c64199f6ced9",
+      "variants": [
+        "f4cd4eca-e44e-436a-968b-07402d70cd79",
+        "c42b7d53-f3a1-4183-9216-7bfaf2434195"
+      ]
+    },
+    "error_detail": null
+  }
+}

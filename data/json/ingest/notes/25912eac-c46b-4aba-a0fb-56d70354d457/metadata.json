@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "72ebdea0-bbea-4134-9060-795dad761894",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/v16q.html",
+    "collected_at": "2025-11-09T20:05:16.907536Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7a01e65010602364cded42c2140df1a16669dcb6ba1c725545fcb9d9a683cc47",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "25912eac-c46b-4aba-a0fb-56d70354d457",
+    "ingest_source_id": "72ebdea0-bbea-4134-9060-795dad761894",
+    "canonical_title": "v16q",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.907540Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "v16q.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d29b8e51-c644-4e30-a1d4-684cd77dacd9",
+      "note_id": "25912eac-c46b-4aba-a0fb-56d70354d457",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.907542Z",
+      "content": "---\ntitle: v16q\nupdated: 2021-04-08 17:32:12Z\ncreated: 2021-04-08 17:31:10Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>\n<span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">ASK [edxapp : install python requirements] *******************************************************************************</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nskipping: [localhost] =&gt; (item={&apos;invocation&apos;: {&apos;module_args&apos;: {&apos;checksum_algorithm&apos;: &apos;sha1&apos;, &apos;get_mime&apos;: True, &apos;get_checksum&apos;: True, &apos;get_attributes&apos;: True, &apos;path&apos;: &apos;/edx/app/edxapp/edx-platform/requirements/edx/custom.txt&apos;, &apos;get_md5&apos;: None, &apos;follow&apos;: False}}, &apos;item&apos;: &apos;/edx/app/edxapp/edx-platform/requirements/edx/custom.txt&apos;, &apos;stat&apos;: {&apos;exists&apos;: False}, &apos;ansible_loop_var&apos;: &apos;item&apos;, &apos;failed&apos;: False, &apos;changed&apos;: False}) </span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\nchanged: [localhost] =&gt; (item={&apos;invocation&apos;: {&apos;module_args&apos;: {&apos;checksum_algorithm&apos;: &apos;sha1&apos;, &apos;get_mime&apos;: True, &apos;get_checksum&apos;: True, &apos;get_attributes&apos;: True, &apos;path&apos;: &apos;/edx/app/edxapp/edx-platform/requirements/edx/base.txt&apos;, &apos;get_md5&apos;: None, &apos;follow&apos;: False}}, &apos;item&apos;: &apos;/edx/app/edxapp/edx-platform/requirements/edx/base.txt&apos;, &apos;stat&apos;: {&apos;wgrp&apos;: False, &apos;blocks&apos;: 48, &apos;readable&apos;: True, &apos;gid&apos;: 1004, &apos;xoth&apos;: False, &apos;isreg&apos;: True, &apos;uid&apos;: 1003, &apos;xgrp&apos;: False, &apos;attributes&apos;: [&apos;extents&apos;], &apos;isdir&apos;: False, &apos;wusr&apos;: True, &apos;ischr&apos;: False, &apos;pw_name&apos;: &apos;edxapp&apos;, &apos;isfifo&apos;: False, &apos;woth&apos;: False, &apos;rusr&apos;: True, &apos;mimetype&apos;: &apos;text/plain&apos;, &apos;block_size&apos;: 4096, &apos;path&apos;: &apos;/edx/app/edxapp/edx-platform/requirements/edx/base.txt&apos;, &apos;charset&apos;: &apos;us-ascii&apos;, &apos;device_type&apos;: 0, &apos;attr_flags&apos;: &apos;e&apos;, &apos;issock&apos;: False, &apos;isblk&apos;: False, &apos;size&apos;: 22364, &apos;xusr&apos;: False, &apos;executable&apos;: False, &apos;writeable&apos;: True, &apos;mode&apos;: &apos;0644&apos;, &apos;exists&apos;: True, &apos;ctime&apos;: 1617902945.5452666, &apos;roth&apos;: True, &apos;dev&apos;: 2065, &apos;mtime&apos;: 1617902945.5452666, &apos;isuid&apos;: False, &apos;nlink&apos;: 1, &apos;gr_name&apos;: &apos;edxapp&apos;, &apos;isgid&apos;: False, &apos;version&apos;: &apos;18446744073486317729&apos;, &apos;islnk&apos;: False, &apos;inode&apos;: 2755460, &apos;checksum&apos;: &apos;b9d3001a393bc2fd8e5000ec2585c59af4f039b5&apos;, &apos;rgrp&apos;: True, &apos;atime&apos;: 1617902945.5452666}, &apos;ansible_loop_var&apos;: &apos;item&apos;, &apos;failed&apos;: False, &apos;changed&apos;: False})</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7a01e65010602364cded42c2140df1a16669dcb6ba1c725545fcb9d9a683cc47",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/v16q.html"
+      }
+    },
+    {
+      "id": "3799c736-e431-4581-a154-e22810c5a800",
+      "note_id": "25912eac-c46b-4aba-a0fb-56d70354d457",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.907545Z",
+      "content": "---\ntitle: v16q\nupdated: 2021-04-08 17:32:12Z\ncreated: 2021-04-08 17:31:10Z\nauthor: tangyongfeng@gmail.com\n---\n\nASK [edxapp : install python requirements] *******************************************************************************\n\nskipping: [localhost] => (item={'invocation': {'module_args': {'checksum_algorithm': 'sha1', 'get_mime': True, 'get_checksum': True, 'get_attributes': True, 'path': '/edx/app/edxapp/edx-platform/requirements/edx/custom.txt', 'get_md5': None, 'follow': False}}, 'item': '/edx/app/edxapp/edx-platform/requirements/edx/custom.txt', 'stat': {'exists': False}, 'ansible_loop_var': 'item', 'failed': False, 'changed': False})\n\nchanged: [localhost] => (item={'invocation': {'module_args': {'checksum_algorithm': 'sha1', 'get_mime': True, 'get_checksum': True, 'get_attributes': True, 'path': '/edx/app/edxapp/edx-platform/requirements/edx/base.txt', 'get_md5': None, 'follow': False}}, 'item': '/edx/app/edxapp/edx-platform/requirements/edx/base.txt', 'stat': {'wgrp': False, 'blocks': 48, 'readable': True, 'gid': 1004, 'xoth': False, 'isreg': True, 'uid': 1003, 'xgrp': False, 'attributes': ['extents'], 'isdir': False, 'wusr': True, 'ischr': False, 'pw_name': 'edxapp', 'isfifo': False, 'woth': False, 'rusr': True, 'mimetype': 'text/plain', 'block_size': 4096, 'path': '/edx/app/edxapp/edx-platform/requirements/edx/base.txt', 'charset': 'us-ascii', 'device_type': 0, 'attr_flags': 'e', 'issock': False, 'isblk': False, 'size': 22364, 'xusr': False, 'executable': False, 'writeable': True, 'mode': '0644', 'exists': True, 'ctime': 1617902945.5452666, 'roth': True, 'dev': 2065, 'mtime': 1617902945.5452666, 'isuid': False, 'nlink': 1, 'gr_name': 'edxapp', 'isgid': False, 'version': '18446744073486317729', 'islnk': False, 'inode': 2755460, 'checksum': 'b9d3001a393bc2fd8e5000ec2585c59af4f039b5', 'rgrp': True, 'atime': 1617902945.5452666}, 'ansible_loop_var': 'item', 'failed': False, 'changed': False})",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1937,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "440222be-d340-459f-ba62-21b1caacb15f",
+    "note_id": "25912eac-c46b-4aba-a0fb-56d70354d457",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.907550Z",
+    "finished_at": "2025-11-09T20:05:16.907550Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5607bad7-3bde-4176-ac0e-475cf6d72ebe",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/v16q.html",
+      "checksum": "7a01e65010602364cded42c2140df1a16669dcb6ba1c725545fcb9d9a683cc47"
+    },
+    "output_ref": {
+      "ingest_source": "72ebdea0-bbea-4134-9060-795dad761894",
+      "note": "25912eac-c46b-4aba-a0fb-56d70354d457",
+      "variants": [
+        "d29b8e51-c644-4e30-a1d4-684cd77dacd9",
+        "3799c736-e431-4581-a154-e22810c5a800"
+      ]
+    },
+    "error_detail": null
+  }
+}

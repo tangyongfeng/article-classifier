@@ -1,0 +1,30 @@
+---
+title: 迁移MySQL 和手工安装
+updated: 2022-08-16 09:32:04Z
+created: 2022-08-16 09:19:00Z
+author: tangyongfeng
+tags:
+  - Windows
+  - mysql
+---
+
+第一：停止MySQL服务
+mysqladmin -u root -p shutdown
+二：删除MySQL服务
+使用as Adminstrator 启动shell或者CMD
+sc stop mysqld
+sc delete mysqld 
+三，拷贝文件到指定目录
+四：安装
+cd MySQL-install_dir\bin\
+注意：下面的限定目录很重要:
+./mysqld --install MySQL --defaults-file="V:\mysql-winx64\my.ini"
+五：检查
+1、sc stop\start\query MySQL
+2、打开系统服务，检查上面的启动参数是否正常
+4、mysql -u root -p 登录
+    create database test；
+重点
+：检查库文件是否已经建立在新的文件夹中。
+5、mysql -u tang  -p 登录
+6、其他需要的内容

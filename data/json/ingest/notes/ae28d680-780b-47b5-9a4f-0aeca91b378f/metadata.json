@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "352427c1-3abc-49df-bc02-9d89b7933064",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/给牛律师的文件清单.html",
+    "collected_at": "2025-11-09T20:05:16.574001Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "19ed7255e6689ce76242710bcfa9f0bda90f37c3672593e4f5465ae489d8208f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ae28d680-780b-47b5-9a4f-0aeca91b378f",
+    "ingest_source_id": "352427c1-3abc-49df-bc02-9d89b7933064",
+    "canonical_title": "给牛律师的文件清单",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.574004Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "给牛律师的文件清单.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1a696ed7-5a4a-4eab-8271-793d16c28241",
+      "note_id": "ae28d680-780b-47b5-9a4f-0aeca91b378f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.574007Z",
+      "content": "---\ntitle: 给牛律师的文件清单\nupdated: 2019-11-13 12:56:45Z\ncreated: 2019-11-13 12:39:45Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>已发送邮件</div><div><br/></div><div>1、2017年10月17日，翻译稿</div><div>2、2017年9月5日，中文定稿</div><div>3、2017年3月23日，报价单</div><div>4、2017年7月15日，</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "19ed7255e6689ce76242710bcfa9f0bda90f37c3672593e4f5465ae489d8208f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/给牛律师的文件清单.html"
+      }
+    },
+    {
+      "id": "e6f6a157-685f-4f24-b80d-371a0f1ece43",
+      "note_id": "ae28d680-780b-47b5-9a4f-0aeca91b378f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.574009Z",
+      "content": "---\ntitle: 给牛律师的文件清单\nupdated: 2019-11-13 12:56:45Z\ncreated: 2019-11-13 12:39:45Z\nauthor: tangyongfeng@gmail.com\n---\n\n已发送邮件\n1、2017年10月17日，翻译稿\n2、2017年9月5日，中文定稿\n3、2017年3月23日，报价单\n4、2017年7月15日，",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 188,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "763836d0-9985-4313-a36d-3ac62e90d903",
+    "note_id": "ae28d680-780b-47b5-9a4f-0aeca91b378f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.574014Z",
+    "finished_at": "2025-11-09T20:05:16.574014Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2f610d27-d3f4-4639-b476-20ac96fbf232",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/给牛律师的文件清单.html",
+      "checksum": "19ed7255e6689ce76242710bcfa9f0bda90f37c3672593e4f5465ae489d8208f"
+    },
+    "output_ref": {
+      "ingest_source": "352427c1-3abc-49df-bc02-9d89b7933064",
+      "note": "ae28d680-780b-47b5-9a4f-0aeca91b378f",
+      "variants": [
+        "1a696ed7-5a4a-4eab-8271-793d16c28241",
+        "e6f6a157-685f-4f24-b80d-371a0f1ece43"
+      ]
+    },
+    "error_detail": null
+  }
+}

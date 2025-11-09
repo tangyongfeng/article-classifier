@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "47701ff9-8127-4505-a457-5def91ac7014",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/edx 报表所需数据库表.html",
+    "collected_at": "2025-11-09T20:05:13.792517Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "10dd39fa23b85b7ab80c41afd2a8ba7ecf98edc4ad544ace8f720447ebcb743d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "913185a2-da4b-40a6-9d77-7f7fdd172e60",
+    "ingest_source_id": "47701ff9-8127-4505-a457-5def91ac7014",
+    "canonical_title": "edx 报表所需数据库表",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.792521Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "edx 报表所需数据库表.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "13f1b4a4-46d9-4556-9392-dc3775a826e8",
+      "note_id": "913185a2-da4b-40a6-9d77-7f7fdd172e60",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.792524Z",
+      "content": "---\ntitle: edx 报表所需数据库表\nupdated: 2021-08-09 21:27:03Z\ncreated: 2021-08-09 21:20:41Z\n---\n\n\n<en-note><div>1、课程成绩表</div><div><b>grades_persistentsubsectiongrade</b></div><div><br/></div><div>2、课程数据表</div><h3><b>courseware_studentmodule</b></h3></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "10dd39fa23b85b7ab80c41afd2a8ba7ecf98edc4ad544ace8f720447ebcb743d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/edx 报表所需数据库表.html"
+      }
+    },
+    {
+      "id": "6458c01f-f039-4e26-91e3-f31e5dc7c369",
+      "note_id": "913185a2-da4b-40a6-9d77-7f7fdd172e60",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.792527Z",
+      "content": "---\ntitle: edx 报表所需数据库表\nupdated: 2021-08-09 21:27:03Z\ncreated: 2021-08-09 21:20:41Z\n---\n\n1、课程成绩表\ngrades_persistentsubsectiongrade\n2、课程数据表\ncourseware_studentmodule",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 162,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "31e25fbd-33cf-4319-966c-7efa294e9bf5",
+    "note_id": "913185a2-da4b-40a6-9d77-7f7fdd172e60",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.792531Z",
+    "finished_at": "2025-11-09T20:05:13.792532Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "24311e8e-f87c-4323-b487-ec1e1c3d5888",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/edx 报表所需数据库表.html",
+      "checksum": "10dd39fa23b85b7ab80c41afd2a8ba7ecf98edc4ad544ace8f720447ebcb743d"
+    },
+    "output_ref": {
+      "ingest_source": "47701ff9-8127-4505-a457-5def91ac7014",
+      "note": "913185a2-da4b-40a6-9d77-7f7fdd172e60",
+      "variants": [
+        "13f1b4a4-46d9-4556-9392-dc3775a826e8",
+        "6458c01f-f039-4e26-91e3-f31e5dc7c369"
+      ]
+    },
+    "error_detail": null
+  }
+}

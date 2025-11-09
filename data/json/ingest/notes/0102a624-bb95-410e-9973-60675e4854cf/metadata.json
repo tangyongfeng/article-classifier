@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "986ec7da-0aa9-4df4-977a-12ebf25687ee",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Ubuntu US CA.html",
+    "collected_at": "2025-11-09T20:01:34.552432Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d79a312cbc1dca6f1b08fb7ef0877ed62821027979d61b7489dacd8aab097a08",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0102a624-bb95-410e-9973-60675e4854cf",
+    "ingest_source_id": "986ec7da-0aa9-4df4-977a-12ebf25687ee",
+    "canonical_title": "Ubuntu US CA",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.552436Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Ubuntu US CA.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "96d26d45-5518-4075-a541-729186508076",
+      "note_id": "0102a624-bb95-410e-9973-60675e4854cf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.552438Z",
+      "content": "---\ntitle: Ubuntu US CA\nupdated: 2019-10-11 05:21:02Z\ncreated: 2019-10-11 05:21:02Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>Ubuntu US CA</div>\n<div><br/></div>\n<div>ubuntu@ip-172-31-20-191</div>\n<div><br/></div>\n<div>mysql</div>\n<div>[client]</div>\n<div>host <span>&nbsp; &nbsp;</span> = localhost</div>\n<div>user <span>&nbsp; &nbsp;</span> = debian-sys-maint</div>\n<div>password = 49e3CuM0Pd5z9cLh</div>\n<div>socket <span>&nbsp;</span> = /var/run/mysqld/mysqld.sock</div>\n<div>[mysql_upgrade]</div>\n<div>host <span>&nbsp; &nbsp;</span> = localhost</div>\n<div>user <span>&nbsp; &nbsp;</span> = debian-sys-maint</div>\n<div>password = 49e3CuM0Pd5z9cLh</div>\n<div>socket <span>&nbsp;</span> = /var/run/mysqld/mysqld.sock</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d79a312cbc1dca6f1b08fb7ef0877ed62821027979d61b7489dacd8aab097a08",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Ubuntu US CA.html"
+      }
+    },
+    {
+      "id": "47944bc1-ad3c-47c7-81c6-3bdc256e1479",
+      "note_id": "0102a624-bb95-410e-9973-60675e4854cf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.552441Z",
+      "content": "---\ntitle: Ubuntu US CA\nupdated: 2019-10-11 05:21:02Z\ncreated: 2019-10-11 05:21:02Z\nauthor: tangyongfeng@gmail.com\n---\n\nUbuntu US CA\n\nubuntu@ip-172-31-20-191\n\nmysql\n\n[client]\n\nhost\n   \n = localhost\n\nuser\n   \n = debian-sys-maint\n\npassword = 49e3CuM0Pd5z9cLh\n\nsocket\n \n = /var/run/mysqld/mysqld.sock\n\n[mysql_upgrade]\n\nhost\n   \n = localhost\n\nuser\n   \n = debian-sys-maint\n\npassword = 49e3CuM0Pd5z9cLh\n\nsocket\n \n = /var/run/mysqld/mysqld.sock",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 437,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "05c76839-2726-4f44-b795-79a83a48b1b5",
+    "note_id": "0102a624-bb95-410e-9973-60675e4854cf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.552446Z",
+    "finished_at": "2025-11-09T20:01:34.552446Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "60ad49e9-b97c-4d14-812c-374d622d25ff",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Ubuntu US CA.html",
+      "checksum": "d79a312cbc1dca6f1b08fb7ef0877ed62821027979d61b7489dacd8aab097a08"
+    },
+    "output_ref": {
+      "ingest_source": "986ec7da-0aa9-4df4-977a-12ebf25687ee",
+      "note": "0102a624-bb95-410e-9973-60675e4854cf",
+      "variants": [
+        "96d26d45-5518-4075-a541-729186508076",
+        "47944bc1-ad3c-47c7-81c6-3bdc256e1479"
+      ]
+    },
+    "error_detail": null
+  }
+}

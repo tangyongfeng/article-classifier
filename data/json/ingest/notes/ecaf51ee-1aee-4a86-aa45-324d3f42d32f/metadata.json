@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "02cb8aec-5101-441f-90d4-d50627662d83",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/闪铁/无标题笔记.html",
+    "collected_at": "2025-11-09T20:01:40.139663Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "cde5bf238df201e643372c19d35e5e97ce638a6ad78ab617f69dbba221d63a58",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ecaf51ee-1aee-4a86-aa45-324d3f42d32f",
+    "ingest_source_id": "02cb8aec-5101-441f-90d4-d50627662d83",
+    "canonical_title": "无标题笔记",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:40.139666Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b1fdad79-95f1-4f58-ad5e-0b58a547039a",
+      "note_id": "ecaf51ee-1aee-4a86-aa45-324d3f42d32f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.139669Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-11-29 06:25:52Z\ncreated: 2019-11-29 06:25:48Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 10px; line-height: normal; font-family: &quot;PingFang SC&quot;; -webkit-font-kerning: none; font-variant-ligatures: common-ligatures; color: rgb(0, 0, 0);-en-paragraph:true;\">直接还原和熔炉还原和普通方法有什么区别</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "cde5bf238df201e643372c19d35e5e97ce638a6ad78ab617f69dbba221d63a58",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/闪铁/无标题笔记.html"
+      }
+    },
+    {
+      "id": "865a4d0f-80bb-4995-9614-037549549f8f",
+      "note_id": "ecaf51ee-1aee-4a86-aa45-324d3f42d32f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.139672Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-11-29 06:25:52Z\ncreated: 2019-11-29 06:25:48Z\nauthor: tangyongfeng@gmail.com\n---\n\n直接还原和熔炉还原和普通方法有什么区别",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 132,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "67a49a14-8ffc-4a62-a4ac-68b8d3d1f9e7",
+    "note_id": "ecaf51ee-1aee-4a86-aa45-324d3f42d32f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.139676Z",
+    "finished_at": "2025-11-09T20:01:40.139677Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0222f1f8-065f-4ec7-8a2a-56b253a7e087",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/闪铁/无标题笔记.html",
+      "checksum": "cde5bf238df201e643372c19d35e5e97ce638a6ad78ab617f69dbba221d63a58"
+    },
+    "output_ref": {
+      "ingest_source": "02cb8aec-5101-441f-90d4-d50627662d83",
+      "note": "ecaf51ee-1aee-4a86-aa45-324d3f42d32f",
+      "variants": [
+        "b1fdad79-95f1-4f58-ad5e-0b58a547039a",
+        "865a4d0f-80bb-4995-9614-037549549f8f"
+      ]
+    },
+    "error_detail": null
+  }
+}

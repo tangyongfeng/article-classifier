@@ -1,0 +1,104 @@
+{
+  "ingest_source": {
+    "id": "a0421c72-807d-4aa5-b462-cf5a1f73322f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/驾照笔记.html",
+    "collected_at": "2025-11-09T20:05:17.703993Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "a42bb4c8c20511c047785463150e2db5d7799cc3f03747d2a74c16ed4e6613c9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "22cd0f90-dbe2-463d-82c8-88a2e5734798",
+    "ingest_source_id": "a0421c72-807d-4aa5-b462-cf5a1f73322f",
+    "canonical_title": "驾照笔记",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:17.703996Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "驾照笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "938735b3-e215-47af-8b58-225f8a10e36c",
+      "note_id": "22cd0f90-dbe2-463d-82c8-88a2e5734798",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.703999Z",
+      "content": "---\ntitle: 驾照笔记\nupdated: 2021-10-15 11:28:48Z\ncreated: 2021-08-11 21:04:58Z\n---\n\n\n\n<en-note><div>1、雾天限速50</div><div>2、郊外公路限速100</div><div>3、村庄内部限速50</div><div>4、超越公交车，以步行速度 </div><div>5、转弯时，转过来后最终方向遵循reich vor links 准则</div><div>6、immer \\ ausweichen&nbsp; 全都是错的</div><div>7、自己非优先路段，让左转或者右转车辆时，依照对方现在的（转弯前）方向遵循 reich vor links 原则</div><div>8、停车启动掰出来前需要打灯</div><div>#40</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a42bb4c8c20511c047785463150e2db5d7799cc3f03747d2a74c16ed4e6613c9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/驾照笔记.html"
+      }
+    },
+    {
+      "id": "6144f93e-80e6-4dc7-9a05-411c75e99fe4",
+      "note_id": "22cd0f90-dbe2-463d-82c8-88a2e5734798",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.704002Z",
+      "content": "---\ntitle: 驾照笔记\nupdated: 2021-10-15 11:28:48Z\ncreated: 2021-08-11 21:04:58Z\n---\n\n1、雾天限速50\n2、郊外公路限速100\n3、村庄内部限速50\n4、超越公交车，以步行速度\n5、转弯时，转过来后最终方向遵循reich vor links 准则\n6、immer \\ ausweichen  全都是错的\n7、自己非优先路段，让左转或者右转车辆时，依照对方现在的（转弯前）方向遵循 reich vor links 原则\n8、停车启动掰出来前需要打灯",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 261,
+        "rule_count": 3,
+        "applied_rules": [
+          {
+            "rule_id": "social_handles",
+            "description": "Drop standalone social handles and hashtags",
+            "note": "removed social handle only lines"
+          },
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "bea86d84-a594-406f-bbe4-f85ffe39655f",
+    "note_id": "22cd0f90-dbe2-463d-82c8-88a2e5734798",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.704007Z",
+    "finished_at": "2025-11-09T20:05:17.704007Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "491395ff-f4bf-4a9c-b672-588e6bb59a3b",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/驾照笔记.html",
+      "checksum": "a42bb4c8c20511c047785463150e2db5d7799cc3f03747d2a74c16ed4e6613c9"
+    },
+    "output_ref": {
+      "ingest_source": "a0421c72-807d-4aa5-b462-cf5a1f73322f",
+      "note": "22cd0f90-dbe2-463d-82c8-88a2e5734798",
+      "variants": [
+        "938735b3-e215-47af-8b58-225f8a10e36c",
+        "6144f93e-80e6-4dc7-9a05-411c75e99fe4"
+      ]
+    },
+    "error_detail": null
+  }
+}

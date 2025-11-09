@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1e3fe11c-ba70-40b0-a305-50551ab3ccbf",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/wochenende.html",
+    "collected_at": "2025-11-09T20:05:18.160739Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "ee8882dfe3401b9f2f04e332df42d2c31f9aea8f36713b9dada48c4190ca5f22",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "65408212-a49e-4697-90fe-0846c0ae6330",
+    "ingest_source_id": "1e3fe11c-ba70-40b0-a305-50551ab3ccbf",
+    "canonical_title": "wochenende",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.160742Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "wochenende.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2073a7a3-2e96-416f-8aa2-acf1eacaed5b",
+      "note_id": "65408212-a49e-4697-90fe-0846c0ae6330",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.160745Z",
+      "content": "---\ntitle: wochenende\nupdated: 2020-09-30 08:03:57Z\ncreated: 2020-09-30 07:47:16Z\n---\n\n\n\n<en-note><div>am samstag habe ich an einne Treffen teilgenommen. In dem Treffen stellte ich &nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ee8882dfe3401b9f2f04e332df42d2c31f9aea8f36713b9dada48c4190ca5f22",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/wochenende.html"
+      }
+    },
+    {
+      "id": "e09430e7-4caf-46a6-890c-01dde715a9f3",
+      "note_id": "65408212-a49e-4697-90fe-0846c0ae6330",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.160747Z",
+      "content": "---\ntitle: wochenende\nupdated: 2020-09-30 08:03:57Z\ncreated: 2020-09-30 07:47:16Z\n---\n\nam samstag habe ich an einne Treffen teilgenommen. In dem Treffen stellte ich",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 164,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b476147d-20a9-413c-b2cd-0dba97ff7308",
+    "note_id": "65408212-a49e-4697-90fe-0846c0ae6330",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.160752Z",
+    "finished_at": "2025-11-09T20:05:18.160752Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d02fedc8-5f8f-4e63-8ee6-9bfb1cdd8a59",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/wochenende.html",
+      "checksum": "ee8882dfe3401b9f2f04e332df42d2c31f9aea8f36713b9dada48c4190ca5f22"
+    },
+    "output_ref": {
+      "ingest_source": "1e3fe11c-ba70-40b0-a305-50551ab3ccbf",
+      "note": "65408212-a49e-4697-90fe-0846c0ae6330",
+      "variants": [
+        "2073a7a3-2e96-416f-8aa2-acf1eacaed5b",
+        "e09430e7-4caf-46a6-890c-01dde715a9f3"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "523b5a86-5c19-4a1f-bd22-208cfccf8bb1",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/古诗一首.html",
+    "collected_at": "2025-11-09T20:01:36.875959Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bcc6694d4f99240c40539b9316cdfe057b2669435dfcf7480e9f555df20a4c60",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ee2e704d-4502-444c-85b2-1c6cb403198a",
+    "ingest_source_id": "523b5a86-5c19-4a1f-bd22-208cfccf8bb1",
+    "canonical_title": "古诗一首",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.875963Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "古诗一首.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8480a9e6-8245-421b-8c0c-db02bf8e9b96",
+      "note_id": "ee2e704d-4502-444c-85b2-1c6cb403198a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.875966Z",
+      "content": "---\ntitle: 古诗一首\nupdated: 2020-07-06 16:29:52Z\ncreated: 2020-07-06 16:29:16Z\n---\n\n\n\n<en-note><div>须知少时凌云志，曾许人间第一流。哪晓岁月蹉跎过，依旧名利两无收。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bcc6694d4f99240c40539b9316cdfe057b2669435dfcf7480e9f555df20a4c60",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/古诗一首.html"
+      }
+    },
+    {
+      "id": "29cdb33f-3281-42b5-a118-583b4c5ccbcf",
+      "note_id": "ee2e704d-4502-444c-85b2-1c6cb403198a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.875968Z",
+      "content": "---\ntitle: 古诗一首\nupdated: 2020-07-06 16:29:52Z\ncreated: 2020-07-06 16:29:16Z\n---\n\n须知少时凌云志，曾许人间第一流。哪晓岁月蹉跎过，依旧名利两无收。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 113,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fea97aae-a625-4ff7-9adc-0d2ad61791ef",
+    "note_id": "ee2e704d-4502-444c-85b2-1c6cb403198a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.875973Z",
+    "finished_at": "2025-11-09T20:01:36.875974Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1c23a9b2-57a9-41d8-9879-fdb4dc2e4620",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/古诗一首.html",
+      "checksum": "bcc6694d4f99240c40539b9316cdfe057b2669435dfcf7480e9f555df20a4c60"
+    },
+    "output_ref": {
+      "ingest_source": "523b5a86-5c19-4a1f-bd22-208cfccf8bb1",
+      "note": "ee2e704d-4502-444c-85b2-1c6cb403198a",
+      "variants": [
+        "8480a9e6-8245-421b-8c0c-db02bf8e9b96",
+        "29cdb33f-3281-42b5-a118-583b4c5ccbcf"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f2f6cd47-36a8-4421-94f3-c94028890391",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/中国最早的即时通讯软件.html",
+    "collected_at": "2025-11-09T20:01:36.739943Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "76e405321418aa331aa90ca75b58b8d5f73cb4d79e7f74f2b14059061234c733",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "3189061a-fbe7-4850-b293-c91a107689ee",
+    "ingest_source_id": "f2f6cd47-36a8-4421-94f3-c94028890391",
+    "canonical_title": "中国最早的即时通讯软件",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.739948Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "中国最早的即时通讯软件.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "56e43dd2-ccbc-4f59-b4bd-3efd0116eab2",
+      "note_id": "3189061a-fbe7-4850-b293-c91a107689ee",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.739951Z",
+      "content": "---\ntitle: 中国最早的即时通讯软件\nupdated: 2021-12-21 12:57:31Z\ncreated: 2021-12-21 12:57:04Z\n---\n\n\n<en-note><div>5VLuer30MTxoMwTW</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "76e405321418aa331aa90ca75b58b8d5f73cb4d79e7f74f2b14059061234c733",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/中国最早的即时通讯软件.html"
+      }
+    },
+    {
+      "id": "2a66f858-9778-445b-b109-8720ef172f51",
+      "note_id": "3189061a-fbe7-4850-b293-c91a107689ee",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.739954Z",
+      "content": "---\ntitle: 中国最早的即时通讯软件\nupdated: 2021-12-21 12:57:31Z\ncreated: 2021-12-21 12:57:04Z\n---\n\n5VLuer30MTxoMwTW",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 104,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "efe1d1b8-5e60-452c-8e75-f3a4e0b8877e",
+    "note_id": "3189061a-fbe7-4850-b293-c91a107689ee",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.739960Z",
+    "finished_at": "2025-11-09T20:01:36.739960Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6796f7f4-0638-4c54-9962-4bab556033d7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/中国最早的即时通讯软件.html",
+      "checksum": "76e405321418aa331aa90ca75b58b8d5f73cb4d79e7f74f2b14059061234c733"
+    },
+    "output_ref": {
+      "ingest_source": "f2f6cd47-36a8-4421-94f3-c94028890391",
+      "note": "3189061a-fbe7-4850-b293-c91a107689ee",
+      "variants": [
+        "56e43dd2-ccbc-4f59-b4bd-3efd0116eab2",
+        "2a66f858-9778-445b-b109-8720ef172f51"
+      ]
+    },
+    "error_detail": null
+  }
+}

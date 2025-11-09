@@ -1,0 +1,38 @@
+---
+title: ZH1003
+updated: 2018-10-30 01:02:56Z
+created: 2018-10-30 01:02:45Z
+---
+
+BSS 50:bd:5f:1a:4b:c9(on wlan1)
+        TSF: 1897979289523 usec (21d, 23:12:59)
+        freq: 2412
+        beacon interval: 100 TUs
+        capability: ESS (0x0431)
+        signal: -45.00 dBm
+        last seen: 760 ms ago
+        Information elements from Probe Response frame:
+        SSID: ZH1003
+        HT capabilities:
+                Capabilities: 0x11ef
+                        RX LDPC
+                        HT20/HT40
+                        SM Power Save disabled
+                        RX HT20 SGI
+                        RX HT40 SGI
+                        TX STBC
+                        RX STBC 1-stream
+                        Max AMSDU length: 3839 bytes
+                        DSSS/CCK HT40
+                Maximum RX AMPDU length 65535 bytes (exponent: 0x003)
+                Minimum RX AMPDU time spacing: No restriction (0x00)
+                HT TX/RX MCS rate indexes supported: 0-15
+        HT operation:
+                 * primary channel: 1
+                 * secondary channel offset: above
+                 * STA channel width: any
+        RSN:     * Version: 1
+                 * Group cipher: CCMP
+                 * Pairwise ciphers: CCMP
+                 * Authentication suites: PSK
+                 * Capabilities: 1-PTKSA-RC 1-GTKSA-RC (0x0000)

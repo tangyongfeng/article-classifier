@@ -1,0 +1,18 @@
+---
+title: sudoers改坏后无法使用sudo的解决办法
+updated: 2021-01-10 21:20:00Z
+created: 2021-01-10 21:18:44Z
+author: tangyongfeng@gmail.com
+---
+
+
+<en-note><div><span STYLE="-en-paragraph:true;">练习安装odoo的时候，创建了一个odoo用户，想把它赋予sudo权限，然而，编辑的时候不留意，改坏了，导致sudo无法使用，无法编辑sudoers文件修改回来。
+</span></div><div><span STYLE="-en-paragraph:true;">提示如下信息：</span></div><div><span STYLE="-en-paragraph:true;">&gt;&gt;&gt; /etc/sudoers: syntax error near line 22 &lt;&lt;&lt;</span><span STYLE="-en-paragraph:true;">sudo: parse error in /etc/sudoers near line 22sudo: no valid sudoers sources found, quitting</span><span STYLE="-en-paragraph:true;">sudo: unable to initialize policy plugin</span></div><div><span STYLE="-en-paragraph:true;">任何涉及权限的操作的无法进行，编辑查看都不行。我不想重装系统了.</span></div><div><span STYLE="-en-paragraph:true;">各种搜索，找到说可以使用下面的命令来编辑sudoers文件</span></div><div>pkexec visudo</div><div><span STYLE="-en-paragraph:true;">然而，又出现了新的错误
+</span></div><div>==== AUTHENTICATING FOR org.freedesktop.policykit.exec ===Authentication is needed to run `/usr/sbin/visudo&apos; as the super userAuthenticating as: ubuntu,,, (ubuntu)Password:polkit-agent-helper-1: error response to PolicyKit daemon: GDBus.Error:org.freedesktop.PolicyKit1.Error.Failed: No session for cookie==== AUTHENTICATION FAILED ===Error executing command as another user: Not authorizedThis incident has been reported.</div><div><span STYLE="-en-paragraph:true;">然后终于找到一个神奇的方法：远程的话开两个ssh终端，能直接操作物理机的话使用ctrl+alt+F2 创建第二个终端窗口【</span><span STYLE="-en-paragraph:true;">使用ctrl+alt+F1=》tty1;ctrl+alt+F2=》tty2对窗口进行切换】，两个终端，都用ubuntu用户登录。</span><span STYLE="-en-paragraph:true;">
+</span></div><div><br/></div><div><span STYLE="-en-paragraph:true;">对tty1终端：输入 echo $$//获取pid
+</span></div><div><br/></div><div><span STYLE="-en-paragraph:true;">切换到tty2：输入</span></div><div><span STYLE="-en-paragraph:true;">pkttyagent --process 获取的pid值 ；此时该tty2终端会卡住</span></div><div><span STYLE="-en-paragraph:true;"> </span></div><div><span STYLE="-en-paragraph:true;"> 
+</span></div><div><span STYLE="-en-paragraph:true;">切到tty1：输入 pkexec visudo ；此时tty1也会卡住
+</span></div><div><br/></div><div><span STYLE="-en-paragraph:true;">切到tty2：会看到要求输入密码，对应输入
+</span></div><div><br/></div><div><span STYLE="-en-paragraph:true;">切回到tty1：发现已经进入了visudo编辑界面，修改出错的sudoers，保存
+</span></div><div><br/></div><div><span STYLE="-en-paragraph:true;">修改完成，按 CTRL + X 保存退出 发现就可以继续使用sudo命令了。</span></div><div><span STYLE="-en-paragraph:true;"> 
+</span></div><div><span STYLE="-en-paragraph:true;">PS:</span></div><div><span STYLE="-en-paragraph:true;">一般对/etc/sudoers文件进行操作,建议使用visudo命令. 注意:</span><span STYLE="-en-paragraph:true;">不要直接使用 vi,直接使用vi不会对文件新加的做相关验证,这可能导致该文件无法正确解析.最终导致sudo命令不能使用,也不能切换使用root用户等一系列问题..</span></div></en-note>      

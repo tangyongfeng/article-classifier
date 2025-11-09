@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "f01a3b38-7c7b-418a-b719-449e21378f32",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/LED亮灯状态.html",
+    "collected_at": "2025-11-09T20:01:34.087486Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "572b86f4a69041dbc707c0980b7b10dfbc1093dbff1a0b31bae9b22b69573758",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0fd2e83e-6faa-43f7-b108-5039b95e2eb4",
+    "ingest_source_id": "f01a3b38-7c7b-418a-b719-449e21378f32",
+    "canonical_title": "LED亮灯状态",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.087489Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "LED亮灯状态.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ff477369-34a0-4e3f-b75e-15962eab9f9e",
+      "note_id": "0fd2e83e-6faa-43f7-b108-5039b95e2eb4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.087492Z",
+      "content": "---\ntitle: LED亮灯状态\nupdated: 2019-05-30 20:40:25Z\ncreated: 2019-05-30 20:40:25Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><span>LED</span>亮灯状态</div>\n<div>LED</div>\n<div>颜色</div>\n<div>功能</div>\n<div>正常状态</div>\n<div>ACT</div>\n<div>绿色</div>\n<div>card status</div>\n<div>闪烁<span>:SD</span>卡正在活动（类似电脑的硬盘灯）</div>\n<div>PWR</div>\n<div>红色</div>\n<div>power</div>\n<div>不闪烁<span>:</span>正常</div>\n<div>FDX</div>\n<div>橙</div>\n<div>full duplex</div>\n<div>亮<span>:</span>全双工<span>/</span>不亮<span>:</span>半双工</div>\n<div>LNK</div>\n<div>橙</div>\n<div>link</div>\n<div>亮<span>:</span>网络连接成功</div>\n<div>100</div>\n<div>橙</div>\n<div>100 Mbps</div>\n<div><span>亮</span>:100 Mbps/<span>不亮</span>:10 Mbps</div>\n<div><br/></div>\n<div>常见亮灯状态：</div>\n<div>ACT</div>\n<div>PWR</div>\n<div>FDX</div>\n<div>LNK</div>\n<div>100</div>\n<div>状态解读</div>\n<div>解读<span>/</span>原因</div>\n<div>&cir;<span>●</span>&cir;</div>\n<div>●●●</div>\n<div>&cir;&cir;&cir;</div>\n<div>&cir;&cir;&cir;</div>\n<div>&cir;&cir;&cir;</div>\n<div>正常</div>\n<div>ACT<span>灯</span>:SD<span>卡正在活动</span></div>\n<div>&cir;&cir;&cir;</div>\n<div>●●●</div>\n<div>&cir;&cir;&cir;</div>\n<div>&cir;&cir;&cir;</div>\n<div>&cir;&cir;&cir;</div>\n<div>不正常</div>\n<div><span>SD</span>卡启动文件损坏或没有<span>SD</span>卡</div>\n<div>&cir;&cir;&cir;</div>\n<div>&cir;<span>●</span>&cir;</div>\n<div>&cir;&cir;&cir;</div>\n<div>&cir;&cir;&cir;</div>\n<div>&cir;&cir;&cir;</div>\n<div>不正常</div>\n<div>电源电压不正常</div>\n<div>●<span>&cir;</span>●</div>\n<div>●●●</div>\n<div>&cir;&cir;&cir;</div>\n<div>&cir;&cir;&cir;</div>\n<div>&cir;&cir;&cir;</div>\n<div>不正常</div>\n<div>看下文解释</div>\n<div>&cir;<span>●</span>&cir;</div>\n<div>●●●</div>\n<div>●●●</div>\n<div>●●●</div>\n<div>●●●</div>\n<div>正常</div>\n<div><span>全双工</span>/100 Mbps</div>\n<div>&cir;<span>●</span>&cir;</div>\n<div>●●●</div>\n<div>●●●</div>\n<div>●●●</div>\n<div>&cir;&cir;&cir;</div>\n<div>正常</div>\n<div><span>全双工</span>/10 Mbps</div>\n<div>&cir;<span>●</span>&cir;</div>\n<div>●●●</div>\n<div>&cir;&cir;&cir;</div>\n<div>●●●</div>\n<div>●●●</div>\n<div>正常</div>\n<div><span>半双工</span>/100 Mbps</div>\n<div>&cir;<span>●</span>&cir;</div>\n<div>●●●</div>\n<div>&cir;&cir;&cir;</div>\n<div>●●●</div>\n<div>&cir;&cir;&cir;</div>\n<div>正常</div>\n<div><span>半双工</span>/10 Mbps</div>\n<div><span>&cir;</span>●<span>&cir;</span>:<span>闪烁</span> ●●●:<span>常亮</span> <span>&cir;&cir;&cir;</span>:<span>不亮</span> ●<span>&cir;</span>●:<span>有规律闪烁</span></div>\n<div><span>●</span><span>&cir;</span><span>●:ACT</span>灯有规律闪烁的解读</div>\n<div><span>2012</span>年<span>10</span>月以后的固件：</div>\n<div>&bull; 3<span>闪烁：</span>start.elf<span>未找到</span></div>\n<div>&bull; 4<span>闪烁：</span>start.elf<span>没有启动</span></div>\n<div>&bull; 7<span>闪烁：</span>kernel.img<span>未找到</span></div>\n<div><span>2012</span>年<span>10</span>月以前的旧固件：</div>\n<div>&bull; 3<span>闪烁：</span>loader.bin<span>未找到</span></div>\n<div>&bull; 4<span>闪烁：</span>loader.bin<span>没有启动</span></div>\n<div>&bull; 5<span>闪烁：</span>start.elf<span>未找到</span></div>\n<div>&bull; 6<span>闪烁：</span>start.elf<span>没有推出</span></div>\n<div>&bull; 7<span>闪烁：</span>kernel.img<span>未找到</span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "572b86f4a69041dbc707c0980b7b10dfbc1093dbff1a0b31bae9b22b69573758",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/LED亮灯状态.html"
+      }
+    },
+    {
+      "id": "d5582ed8-8d76-4112-9bd6-a6bea6a98833",
+      "note_id": "0fd2e83e-6faa-43f7-b108-5039b95e2eb4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.087495Z",
+      "content": "---\ntitle: LED亮灯状态\nupdated: 2019-05-30 20:40:25Z\ncreated: 2019-05-30 20:40:25Z\nauthor: tangyongfeng@gmail.com\n---\n\nLED\n亮灯状态\n\nLED\n\n颜色\n\n功能\n\n正常状态\n\nACT\n\n绿色\n\ncard status\n\n闪烁\n:SD\n卡正在活动（类似电脑的硬盘灯）\n\nPWR\n\n红色\n\npower\n\n不闪烁\n:\n正常\n\nFDX\n\n橙\n\nfull duplex\n\n亮\n:\n全双工\n/\n不亮\n:\n半双工\n\nLNK\n\n橙\n\nlink\n\n亮\n:\n网络连接成功\n\n100\n\n橙\n\n100 Mbps\n\n亮\n:100 Mbps/\n不亮\n:10 Mbps\n\n常见亮灯状态：\n\nACT\n\nPWR\n\nFDX\n\nLNK\n\n100\n\n状态解读\n\n解读\n/\n原因\n\n○\n●\n○\n\n●●●\n\n○○○\n\n○○○\n\n○○○\n\n正常\n\nACT\n灯\n:SD\n卡正在活动\n\n○○○\n\n●●●\n\n○○○\n\n○○○\n\n○○○\n\n不正常\n\nSD\n卡启动文件损坏或没有\nSD\n卡\n\n○○○\n\n○\n●\n○\n\n○○○\n\n○○○\n\n○○○\n\n不正常\n\n电源电压不正常\n\n●\n○\n●\n\n●●●\n\n○○○\n\n○○○\n\n○○○\n\n不正常\n\n看下文解释\n\n○\n●\n○\n\n●●●\n\n●●●\n\n●●●\n\n●●●\n\n正常\n\n全双工\n/100 Mbps\n\n○\n●\n○\n\n●●●\n\n●●●\n\n●●●\n\n○○○\n\n正常\n\n全双工\n/10 Mbps\n\n○\n●\n○\n\n●●●\n\n○○○\n\n●●●\n\n●●●\n\n正常\n\n半双工\n/100 Mbps\n\n○\n●\n○\n\n●●●\n\n○○○\n\n●●●\n\n○○○\n\n正常\n\n半双工\n/10 Mbps\n\n○\n●\n○\n:\n闪烁\n ●●●:\n常亮\n\n○○○\n:\n不亮\n ●\n○\n●:\n有规律闪烁\n\n●\n○\n●:ACT\n灯有规律闪烁的解读\n\n2012\n年\n10\n月以后的固件：\n\n• 3\n闪烁：\nstart.elf\n未找到\n\n• 4\n闪烁：\nstart.elf\n没有启动\n\n• 7\n闪烁：\nkernel.img\n未找到\n\n2012\n年\n10\n月以前的旧固件：\n\n• 3\n闪烁：\nloader.bin\n未找到\n\n• 4\n闪烁：\nloader.bin\n没有启动\n\n• 5\n闪烁：\nstart.elf\n未找到\n\n• 6\n闪烁：\nstart.elf\n没有推出\n\n• 7\n闪烁：\nkernel.img\n未找到",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1030,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "86bc398a-e068-44af-be6c-7ac7bd7b4fdb",
+    "note_id": "0fd2e83e-6faa-43f7-b108-5039b95e2eb4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.087500Z",
+    "finished_at": "2025-11-09T20:01:34.087500Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3b62dc1e-8831-4931-9ce1-f8ffa18b55a0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/LED亮灯状态.html",
+      "checksum": "572b86f4a69041dbc707c0980b7b10dfbc1093dbff1a0b31bae9b22b69573758"
+    },
+    "output_ref": {
+      "ingest_source": "f01a3b38-7c7b-418a-b719-449e21378f32",
+      "note": "0fd2e83e-6faa-43f7-b108-5039b95e2eb4",
+      "variants": [
+        "ff477369-34a0-4e3f-b75e-15962eab9f9e",
+        "d5582ed8-8d76-4112-9bd6-a6bea6a98833"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4d35007c-1b33-4fde-b826-67d1d2b0abee",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/手机卡.html",
+    "collected_at": "2025-11-09T20:01:40.071183Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "db14875c2f91fea981ae0f208f1797423396c366bfd23f0439e4c6b58c8a07bf",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1d85b0f3-962b-464a-909e-a7eddf49f8a8",
+    "ingest_source_id": "4d35007c-1b33-4fde-b826-67d1d2b0abee",
+    "canonical_title": "手机卡",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:40.071187Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "手机卡.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ae910582-0f19-462b-8b16-20456b505b40",
+      "note_id": "1d85b0f3-962b-464a-909e-a7eddf49f8a8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.071189Z",
+      "content": "---\ntitle: 手机卡\nupdated: 2012-10-13 22:20:19Z\ncreated: 2012-10-13 22:19:38Z\nlatitude: 39.88837207\nlongitude: 116.63095690\naltitude: 35.2871\n---\n\n\n\n<en-note><span STYLE=\"border-collapse: separate; color: rgb(0, 0, 0); font-family: Times; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.300781); -webkit-composition-fill-color: rgba(175, 192, 227, 0.234375); -webkit-composition-frame-color: rgba(77, 128, 180, 0.234375); -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; \"><span STYLE=\"border-collapse: collapse; color: rgb(17, 17, 17); font-family: Tahoma, 'Microsoft Yahei', Simsun; font-size: 15px; line-height: 30px; \">\n&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div STYLE=\"word-wrap: break-word; \" ALIGN=\"center\"><font STYLE=\"word-wrap: break-word; font-size: 14px; \"><br STYLE=\"word-wrap: break-word; \"/>&nbsp; &nbsp; 很多准备移民英国的客户，会质疑中国的手机带到英国，是否可以继续使用。答案是：可以，只需要购买一张不签约的sim卡，也就是pay as you go 手机卡就可以了。</font></div>\n&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div STYLE=\"word-wrap: break-word; \" ALIGN=\"left\"></div>\n&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div STYLE=\"word-wrap: break-word; \" ALIGN=\"left\"><font STYLE=\"word-wrap: break-word; font-size: 14px; \">&nbsp; &nbsp;&nbsp; &nbsp; 英国各大手机运营公司，如沃达丰，O2，Orange等都有这样的 Pay as you go 手机卡。在各家店铺可以买得到，既不需要你提供任何个人信息也不需要和银行卡绑定。但各家公司的信号，资费都不同，需依据个人情况选择。</font></div>\n&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div STYLE=\"word-wrap: break-word; \" ALIGN=\"left\"></div>\n&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div STYLE=\"word-wrap: break-word; \" ALIGN=\"left\"><font STYLE=\"word-wrap: break-word; font-size: 14px; \">&nbsp; &nbsp;&nbsp; &nbsp; Pay as you go 手机卡的好处就是用户可以想什么时候用就什么时候充值，不用就扔在一边。想更换手机号码也挺简单，把手中这样pay as you go 手机卡停用，重买一张新的手机卡就可以了。</font></div>\n&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div STYLE=\"word-wrap: break-word; \" ALIGN=\"left\"></div>\n&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div STYLE=\"word-wrap: break-word; \" ALIGN=\"left\"><font STYLE=\"word-wrap: break-word; font-size: 14px; \">&nbsp; &nbsp;&nbsp; &nbsp; 总的来说，个人pay as you go是比较灵活方便的，对于每月通话不是特别多，特别固定的人来讲，是一个不错的选择。初到英国可以考虑pay as you go手机卡，因为刚到英国，能尽快有一个可以让人联系的电话号码还是很重要的。</font></div>\n&Tab;&Tab;\n&Tab;&Tab;</span>\n&Tab;\n&Tab;</span>\n\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "db14875c2f91fea981ae0f208f1797423396c366bfd23f0439e4c6b58c8a07bf",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/手机卡.html"
+      }
+    },
+    {
+      "id": "7f43106c-6af6-45d4-bc09-038940ff83c2",
+      "note_id": "1d85b0f3-962b-464a-909e-a7eddf49f8a8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:40.071192Z",
+      "content": "---\ntitle: 手机卡\nupdated: 2012-10-13 22:20:19Z\ncreated: 2012-10-13 22:19:38Z\nlatitude: 39.88837207\nlongitude: 116.63095690\naltitude: 35.2871\n---\n\n    很多准备移民英国的客户，会质疑中国的手机带到英国，是否可以继续使用。答案是：可以，只需要购买一张不签约的sim卡，也就是pay as you go 手机卡就可以了。\n\n       英国各大手机运营公司，如沃达丰，O2，Orange等都有这样的 Pay as you go 手机卡。在各家店铺可以买得到，既不需要你提供任何个人信息也不需要和银行卡绑定。但各家公司的信号，资费都不同，需依据个人情况选择。\n\n       Pay as you go 手机卡的好处就是用户可以想什么时候用就什么时候充值，不用就扔在一边。想更换手机号码也挺简单，把手中这样pay as you go 手机卡停用，重买一张新的手机卡就可以了。\n\n       总的来说，个人pay as you go是比较灵活方便的，对于每月通话不是特别多，特别固定的人来讲，是一个不错的选择。初到英国可以考虑pay as you go手机卡，因为刚到英国，能尽快有一个可以让人联系的电话号码还是很重要的。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 581,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0ab66665-fd64-4d0f-9b8a-a506c077442c",
+    "note_id": "1d85b0f3-962b-464a-909e-a7eddf49f8a8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:40.071196Z",
+    "finished_at": "2025-11-09T20:01:40.071197Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "909c5e2d-82ee-4336-8380-0a6e4f6bb38c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/手机卡.html",
+      "checksum": "db14875c2f91fea981ae0f208f1797423396c366bfd23f0439e4c6b58c8a07bf"
+    },
+    "output_ref": {
+      "ingest_source": "4d35007c-1b33-4fde-b826-67d1d2b0abee",
+      "note": "1d85b0f3-962b-464a-909e-a7eddf49f8a8",
+      "variants": [
+        "ae910582-0f19-462b-8b16-20456b505b40",
+        "7f43106c-6af6-45d4-bc09-038940ff83c2"
+      ]
+    },
+    "error_detail": null
+  }
+}

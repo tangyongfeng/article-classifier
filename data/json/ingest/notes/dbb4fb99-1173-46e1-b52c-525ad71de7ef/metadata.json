@@ -1,0 +1,104 @@
+{
+  "ingest_source": {
+    "id": "03d01608-b24b-4a91-a169-f1f45e193d8e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/配置LDAP.html",
+    "collected_at": "2025-11-09T20:05:15.522118Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "320357827d96dc85ef7f3a1d8ac8018080068112a0f401c40ba5c1d71c408432",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "dbb4fb99-1173-46e1-b52c-525ad71de7ef",
+    "ingest_source_id": "03d01608-b24b-4a91-a169-f1f45e193d8e",
+    "canonical_title": "配置LDAP",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.522122Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "配置LDAP.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c41b8112-445d-4c22-9559-6839241909e4",
+      "note_id": "dbb4fb99-1173-46e1-b52c-525ad71de7ef",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.522125Z",
+      "content": "---\ntitle: 配置LDAP\nupdated: 2019-05-28 08:34:51Z\ncreated: 2019-05-28 08:34:51Z\nauthor: Tang Yongfeng <bgchina@hotmail.com>\n---\n\n\n\n<en-note>Sent from my iPhone<br/><img src=\"../_resources/Image-1.png\"  hash=\"3c8855796cc826514605ea753d3b9a16\" type=\"image/png\" alt=\"Image-1.png\" /></en-media></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "320357827d96dc85ef7f3a1d8ac8018080068112a0f401c40ba5c1d71c408432",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/配置LDAP.html"
+      }
+    },
+    {
+      "id": "cc8c2447-15eb-40af-b591-295420c25471",
+      "note_id": "dbb4fb99-1173-46e1-b52c-525ad71de7ef",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.522128Z",
+      "content": "---\ntitle: 配置LDAP\nupdated: 2019-05-28 08:34:51Z\ncreated: 2019-05-28 08:34:51Z\nauthor: Tang Yongfeng\n\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 104,
+        "rule_count": 3,
+        "applied_rules": [
+          {
+            "rule_id": "signature",
+            "description": "Strip trailing signatures",
+            "note": "removed trailing signature"
+          },
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8e013d89-c6f8-4352-8816-07ca0d80aa6e",
+    "note_id": "dbb4fb99-1173-46e1-b52c-525ad71de7ef",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.522133Z",
+    "finished_at": "2025-11-09T20:05:15.522133Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7199f4c1-f45f-4f98-9bbf-7ebf1a0fdd17",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/配置LDAP.html",
+      "checksum": "320357827d96dc85ef7f3a1d8ac8018080068112a0f401c40ba5c1d71c408432"
+    },
+    "output_ref": {
+      "ingest_source": "03d01608-b24b-4a91-a169-f1f45e193d8e",
+      "note": "dbb4fb99-1173-46e1-b52c-525ad71de7ef",
+      "variants": [
+        "c41b8112-445d-4c22-9559-6839241909e4",
+        "cc8c2447-15eb-40af-b591-295420c25471"
+      ]
+    },
+    "error_detail": null
+  }
+}

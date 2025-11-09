@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "188d58e7-3e84-4d4c-9aae-dc9f99da9cdb",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-4.html",
+    "collected_at": "2025-11-09T20:05:15.119648Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ca",
+    "captured_at": null,
+    "checksum": "67d20b4b5596d7308a62e24e65e1d9a1afdccb2ae267580a1a9ad68b33fce66c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "df60ffe3-817c-46fd-839b-aa1f739a8c47",
+    "ingest_source_id": "188d58e7-3e84-4d4c-9aae-dc9f99da9cdb",
+    "canonical_title": "无标题笔记-4",
+    "language": "ca",
+    "ingested_at": "2025-11-09T20:05:15.119652Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-4.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4b8715ef-562b-4275-8d6f-1f8a18ff1545",
+      "note_id": "df60ffe3-817c-46fd-839b-aa1f739a8c47",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.119654Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2021-01-29 20:17:30Z\ncreated: 2021-01-29 20:16:47Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><h1><span STYLE=\"font-weight: bold;\">QEMU编译指南\n</span></h1><h2><span STYLE=\"font-weight: bold;\">一、下载\n</span></h2><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">从官网下载：</span></div><div><span STYLE=\"font-style: normal; font-weight: 400;\">wget</span> <a HREF=\"https://download.qemu.org/qemu-5.2.0.tar.xz\">https://download.qemu.org/qemu-5.2.0.tar.xz</a></div><div><span STYLE=\"font-style: normal; font-weight: 400;\">tar</span> xvJf qemu-5.2.0.tar.xz</div><div><span STYLE=\"font-style: normal; font-weight: 400;\">cd</span> qemu-5.2.0</div><div>1</div><div>2</div><div>3</div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">从GitHub上下载：</span></div><div><span STYLE=\"font-style: normal; font-weight: 400;\">git</span> clone <a HREF=\"https://git.qemu.org/git/qemu.git\">https://git.qemu.org/git/qemu.git</a></div><div><span STYLE=\"font-style: normal; font-weight: 400;\">cd</span> qemu</div><div><span STYLE=\"font-style: normal; font-weight: 400;\">git</span> submodule init</div><div><span STYLE=\"font-style: normal; font-weight: 400;\">git</span> submodule update --recursive</div><div>1</div><div>2</div><div>3</div><div>4</div><h2><span STYLE=\"font-weight: bold;\">二、安装ninja\n</span></h2><div><span STYLE=\"-en-paragraph:true;\">Ninja 是Google的一名程序员推出的注重速度的构建工具，一般在Unix/Linux上的程序通过make/makefile来构建编译，而Ninja通过将编译任务并行组织，大大提高了构建速度，而qemu现在采用的是基于ninja的构建系统，所以我们得先安装ninja\n</span></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">构造Ninja可使用CMake或python，需要先安装re2c：</span></div><div>apt <span STYLE=\"font-style: normal; font-weight: 400;\">install</span> re2c</div><div>1</div><div><span STYLE=\"-en-paragraph:true;\">re2c安装成功之后开始Ninja安装。\n</span></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">Ninja编译：</span></div><div><span STYLE=\"font-style: normal; font-weight: 400;\">git</span> clone <a HREF=\"git://github.com/ninja-build/ninja.git\">git://github.com/ninja-build/ninja.git</a> <span STYLE=\"font-style: normal; font-weight: 400;\">&amp;&amp;</span> <span STYLE=\"font-style: normal; font-weight: 400;\">cd</span> ninja</div><div>./configure.py --bootstrap</div><div><span STYLE=\"font-style: normal; font-weight: 400;\">cp</span> ninja /usr/bin/</div><div>1</div><div>2</div><div>3</div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">安装成功之后使用</span><span STYLE=\"font-weight: bold;-en-paragraph:true;\">ninja --version</span><span STYLE=\"font-weight: bold;-en-paragraph:true;\">可查看安装的版本：</span></div><div>ninja --version</div><div>1.9.0</div><div>1</div><div>2</div><h2><span STYLE=\"font-weight: bold;\">三、编译QEMU\n</span></h2><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">安装依赖：</span></div><div>apt install pkg-config libglib2.0-dev libmount-dev python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential autoconf automake libfreetype6-dev libtheora-dev libtool libvorbis-dev pkg-config texinfo zlib1g-dev unzip cmake yasm libx264-dev libmp3lame-dev libopus-dev libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev pkg-config texinfo wget zlib1g-dev libpixman-1-0-dev</div><div>1</div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">编译：</span></div><div>./configure</div><div><span STYLE=\"font-style: normal; font-weight: 400;\">make</span></div><div>1</div><div>2</div><h2><span STYLE=\"font-weight: bold;\">四、安装QEMU\n</span></h2><div><span STYLE=\"font-style: normal; font-weight: 400;\">make</span> <span STYLE=\"font-style: normal; font-weight: 400;\">install</span> </div><div>1</div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">查看安装版本：</span></div><div>root@60247decd218:~/qemu/qemu-5.2.0<span STYLE=\"font-style: italic; font-weight: 400;\"># qemu-arm --version</span></div><div>qemu-arm version 5.2.0 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div><div>1</div><div>2</div><h2><span STYLE=\"font-weight: bold;\">五、容易出现的错误\n</span></h2><h3><span STYLE=\"font-weight: bold;\">5.1 ERROR: pkg-config binary &lsquo;pkg-config&rsquo; not found\n</span></h3><div>apt <span STYLE=\"font-style: normal; font-weight: 400;\">install</span> pkg-config</div><div>1</div><h3><span STYLE=\"font-weight: bold;\">5.2 ERROR: glib-2.48 gthread-2.0 is required to compile QEMU\n</span></h3><div>apt-get install libglib2.0-dev</div><div>1</div><h3><span STYLE=\"font-weight: bold;\">5.3 ERROR: Dependency &ldquo;pixman-1&rdquo; not found, tried pkgconfig\n</span></h3><div>apt-get install libmount-dev</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "67d20b4b5596d7308a62e24e65e1d9a1afdccb2ae267580a1a9ad68b33fce66c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-4.html"
+      }
+    },
+    {
+      "id": "a1ad89e1-259c-4e65-bd31-0dd36e0ba0fc",
+      "note_id": "df60ffe3-817c-46fd-839b-aa1f739a8c47",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.119657Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2021-01-29 20:17:30Z\ncreated: 2021-01-29 20:16:47Z\nauthor: tangyongfeng@gmail.com\n---\n\nQEMU编译指南\n\n一、下载\n\n从官网下载：\nwget\n\nhttps://download.qemu.org/qemu-5.2.0.tar.xz\ntar\n xvJf qemu-5.2.0.tar.xz\ncd\n qemu-5.2.0\n1\n2\n3\n从GitHub上下载：\ngit\n clone\nhttps://git.qemu.org/git/qemu.git\ncd\n qemu\ngit\n submodule init\ngit\n submodule update --recursive\n1\n2\n3\n4\n二、安装ninja\n\nNinja 是Google的一名程序员推出的注重速度的构建工具，一般在Unix/Linux上的程序通过make/makefile来构建编译，而Ninja通过将编译任务并行组织，大大提高了构建速度，而qemu现在采用的是基于ninja的构建系统，所以我们得先安装ninja\n\n构造Ninja可使用CMake或python，需要先安装re2c：\napt\ninstall\n re2c\n1\nre2c安装成功之后开始Ninja安装。\n\nNinja编译：\ngit\n clone\ngit://github.com/ninja-build/ninja.git\n\n&&\n\ncd\n ninja\n./configure.py --bootstrap\ncp\n ninja /usr/bin/\n1\n2\n3\n安装成功之后使用\nninja --version\n可查看安装的版本：\nninja --version\n1.9.0\n1\n2\n三、编译QEMU\n\n安装依赖：\napt install pkg-config libglib2.0-dev libmount-dev python3 python3-pip python3-dev git libssl-dev libffi-dev build-essential autoconf automake libfreetype6-dev libtheora-dev libtool libvorbis-dev pkg-config texinfo zlib1g-dev unzip cmake yasm libx264-dev libmp3lame-dev libopus-dev libvorbis-dev libxcb1-dev libxcb-shm0-dev libxcb-xfixes0-dev pkg-config texinfo wget zlib1g-dev libpixman-1-0-dev\n1\n编译：\n./configure\nmake\n1\n2\n四、安装QEMU\n\nmake\n\ninstall\n\n1\n查看安装版本：\nroot@60247decd218:~/qemu/qemu-5.2.0\n# qemu-arm --version\nqemu-arm version 5.2.0                                \n1\n2\n五、容易出现的错误\n\n5.1 ERROR: pkg-config binary ‘pkg-config’ not found\n\napt\ninstall\n pkg-config\n1\n5.2 ERROR: glib-2.48 gthread-2.0 is required to compile QEMU\n\napt-get install libglib2.0-dev\n1\n5.3 ERROR: Dependency “pixman-1” not found, tried pkgconfig\n\napt-get install libmount-dev",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ca",
+        "length": 1639,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "05bb9332-f3ec-4ded-bfdf-4f98c5d830a0",
+    "note_id": "df60ffe3-817c-46fd-839b-aa1f739a8c47",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.119662Z",
+    "finished_at": "2025-11-09T20:05:15.119662Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d796a448-2aed-4343-bf9d-0ff827f968fb",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/无标题笔记-4.html",
+      "checksum": "67d20b4b5596d7308a62e24e65e1d9a1afdccb2ae267580a1a9ad68b33fce66c"
+    },
+    "output_ref": {
+      "ingest_source": "188d58e7-3e84-4d4c-9aae-dc9f99da9cdb",
+      "note": "df60ffe3-817c-46fd-839b-aa1f739a8c47",
+      "variants": [
+        "4b8715ef-562b-4275-8d6f-1f8a18ff1545",
+        "a1ad89e1-259c-4e65-bd31-0dd36e0ba0fc"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,18 @@
+---
+title: $ tar -zcvf - stuff|openssl des3 -salt -…
+updated: 2019-11-16 05:54:37Z
+created: 2019-11-16 05:54:37Z
+author: tangyongfeng@gmail.com
+---
+
+
+
+<en-note>
+<div><span>&nbsp;</span>$ tar -zcvf - stuff|openssl des3 -salt -k secretpassword | dd of=stuff.des3</div>
+<div>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; <span>将得到一个</span> stuff.des3<span>文件，用你的密码替换</span>secretpassword<span>，切勿搞忘了</span></div>
+<div>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<span>使用</span>tar<span>对加密文件解压</span></div>
+<div>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; $ dd if=stuff.des3 |openssl des3 -d -k secretpassword|tar zxf -</div>
+<div>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</div>
+<div>版权声明：本文为<span>CSDN</span>博主「<span>guolb57</span>」的原创文章，遵循 <span>CC 4.0 BY-SA</span> 版权协议，转载请附上原文出处链接及本声明。</div>
+<div><span>原文链接：</span>https://blog.csdn.net/guolb57/article/details/6697812</div>
+</en-note>      

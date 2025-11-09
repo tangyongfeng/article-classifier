@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block title %}{{ category.name }} - Article Classifier{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-12">
+        <!-- 面包屑导航 -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="{{ url_for('index') }}">首页</a></li>
+                {% for cat in category_path %}
+                    {% if loop.last %}
+                        <li class="breadcrumb-item active" aria-current="page">{{ cat.name }}</li>
+                    {% else %}
+                        <li class="breadcrumb-item"><a href="{{ url_for('category_view', category_id=cat.id) }}">{{ cat.name }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ol>
+        </nav>
+
+        <!-- 分类标题 -->
+        <div class="d-flex justify-content-between align-items-center mb-4">
+            <h2><i class="bi bi-folder-fill"></i> {{ category.name }}</h2>
+            <div>
+                <span class="text-muted">共 {{ total }} 篇文章</span>
+                <!-- 排序选项 -->
+                <div class="btn-group ms-3" role="group">
+                    <a href="{{ url_for('category_view', category_id=category.id, sort='created_at') }}"
+                       class="btn btn-sm {% if sort_by == 'created_at' %}btn-primary{% else %}btn-outline-primary{% endif %}">
+                        <i class="bi bi-calendar"></i> 时间
+                    </a>
+                    <a href="{{ url_for('category_view', category_id=category.id, sort='confidence') }}"
+                       class="btn btn-sm {% if sort_by == 'confidence' %}btn-primary{% else %}btn-outline-primary{% endif %}">
+                        <i class="bi bi-star"></i> 置信度
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- 文章列表 -->
+        {% if articles %}
+            <div class="list-group mb-4">
+                {% for article in articles %}
+                    <a href="{{ url_for('article_view', article_id=article.id) }}" class="list-group-item list-group-item-action">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">{{ article.title }}</h5>
+                            <small class="text-muted">
+                                <span class="badge bg-info">{{ '%.2f' % article.confidence }}</span>
+                            </small>
+                        </div>
+                        <p class="mb-1 text-muted">{{ article.summary[:200] }}...</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <small>
+                                {% for keyword in article.keywords %}
+                                    <span class="badge bg-secondary">{{ keyword }}</span>
+                                {% endfor %}
+                            </small>
+                            <small class="text-muted">
+                                {% if article.created_at %}
+                                    {{ article.created_at.strftime('%Y-%m-%d') }}
+                                {% endif %}
+                            </small>
+                        </div>
+                    </a>
+                {% endfor %}
+            </div>
+
+            <!-- 分页 -->
+            {% if total_pages > 1 %}
+                <nav aria-label="文章分页">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item {% if page == 1 %}disabled{% endif %}">
+                            <a class="page-link" href="{{ url_for('category_view', category_id=category.id, page=page-1, sort=sort_by) }}">上一页</a>
+                        </li>
+                        {% for p in range(1, total_pages + 1) %}
+                            {% if p == page %}
+                                <li class="page-item active"><span class="page-link">{{ p }}</span></li>
+                            {% elif p <= 3 or p > total_pages - 3 or (p >= page - 1 and p <= page + 1) %}
+                                <li class="page-item"><a class="page-link" href="{{ url_for('category_view', category_id=category.id, page=p, sort=sort_by) }}">{{ p }}</a></li>
+                            {% elif p == 4 or p == total_pages - 3 %}
+                                <li class="page-item disabled"><span class="page-link">...</span></li>
+                            {% endif %}
+                        {% endfor %}
+                        <li class="page-item {% if page == total_pages %}disabled{% endif %}">
+                            <a class="page-link" href="{{ url_for('category_view', category_id=category.id, page=page+1, sort=sort_by) }}">下一页</a>
+                        </li>
+                    </ul>
+                </nav>
+            {% endif %}
+        {% else %}
+            <div class="alert alert-info">
+                <i class="bi bi-info-circle"></i> 该分类下暂无文章
+            </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

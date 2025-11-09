@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "8235d0bc-b77e-41d8-9943-412de55668de",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Delphi实现电脑端微信图片文件解密 - C++_Delphi - 吾八哥博客.html",
+    "collected_at": "2025-11-09T20:01:33.973666Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "801ba81df77ad134e9b35db99b14bc0172305c9a033a0ec79dec1d4b2a3c25a3",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e7cb1976-e6c1-44ec-830d-e946e5d15f7b",
+    "ingest_source_id": "8235d0bc-b77e-41d8-9943-412de55668de",
+    "canonical_title": "Delphi实现电脑端微信图片文件解密 - C++_Delphi - 吾八哥博客",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:33.973669Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Delphi实现电脑端微信图片文件解密 - C++_Delphi - 吾八哥博客.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d3c42648-9770-40ec-ab48-9ab50f466fb2",
+      "note_id": "e7cb1976-e6c1-44ec-830d-e946e5d15f7b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:33.973672Z",
+      "content": "---\ntitle: Delphi实现电脑端微信图片文件解密 - C++/Delphi - 吾八哥博客\nupdated: 2019-02-18 08:38:40Z\ncreated: 2019-02-18 08:38:40Z\nsource: http://www.5bug.wang/post/43.html\n---\n\n\n<en-note>\n  <div>\n<div><br/></div><div STYLE=\"font-size: 16px; display:block; min-width: 100%; \"> <div STYLE=\"background-color:transparent;font:inherit;vertical-align:baseline;\"><div STYLE=\"background-color:transparent;font:inherit;vertical-align:baseline;font-family:&quot;PT Serif&quot;;font-size:16px;line-height:1.5em;color:rgb(31, 9, 9);text-align:left;\"><div STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><div STYLE=\"z-index:200;padding-left:2em;padding-right:2em;margin-left:auto;margin-right:auto;position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:36em;\"><div STYLE=\"position:relative;margin-left:-25px;margin-right:25px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><div STYLE=\"position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;padding-top:4.5em;padding-bottom:9em;\"><div STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;\"><div STYLE=\"margin-bottom:0px;position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><div STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><div STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><h1 STYLE=\"padding:0px;margin:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:normal;font-size:35px;line-height:35px;margin-bottom:20px;font-family:&quot;PT Serif&quot;;text-align:left;\">Delphi实现电脑端微信图片文件解密</h1><div STYLE=\"margin-bottom:0px;position:relative;margin:0px;height:1em;line-height:1;text-align:center;padding:0px;border:0px;font:inherit;vertical-align:baseline;padding-top:1.5em;padding-bottom:1.5em;\"><div STYLE=\"margin-bottom:0px;position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;padding:0px;border:0px;font:inherit;vertical-align:baseline;background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);\"><span STYLE=\"font:inherit;position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);\"></span></div></div></div>\n&Tab;&Tab;\n&Tab;&Tab;\n&Tab;\n&Tab;<p STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;\">电脑端微信收到图片后是存在了&ldquo;C:\\Users\\www.5bug.wang\\Documents\\WeChat Files\\微信帐号\\Data&rdquo;目录下的，但文件不能直接使用图片浏览器打开的，因为做了一些加密，之前有个朋友问我这些文件怎么解密，就抽空研究了下。参考了一篇文章：http://share.iclient.ifeng.com/news/shareNews?forward=1&amp;aid=117431304&amp;from=timeline&amp;isappinstalled=1&amp;forward=1#backhead，文章里提到的是加密值：ox5，其实现在改了，是根据不同的图片格式采用不同的加密值了，今天这里使用Delphi来实现这个图片文件的解密，教你找到被撤回的微信图片或者存储被撤回的图片，哈哈。直接上代码吧！</p><div STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;\"><div STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\">Pascal</div></div><pre STYLE=\"width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;\"><code STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;\">uses\n  System.SysUtils, System.Classes, Winapi.Windows, System.Math, System.StrUtils;\n// 计算MagicCode以及图片类型\nfunction CalcMagicCode(const AHeadCode: Word; var AMagicCode: Word; var AFileExt: string): Boolean;\nconst\n  C_TypeCodeArr: array of Word = [$4D42, $D8FF, $4947, $5089];\n  C_TypeExtArr: array of string = [&apos;.bmp&apos;, &apos;.jpeg&apos;, &apos;.gif&apos;, &apos;.png&apos;];\nvar\n  I: Integer;\n  LByte1, LByte2: Byte;\n  LMagicCode: Word;\nbegin\n  Result := False;\n  LByte1 := Byte(AHeadCode);\n  LByte2 := HiByte(AHeadCode);\n  for I := Low(C_TypeCodeArr) to High(C_TypeCodeArr) do\n  begin\n    LMagicCode := Byte(C_TypeCodeArr[I]) xor LByte1;\n    if LMagicCode = (HiByte(C_TypeCodeArr[I]) xor LByte2) then\n    begin\n      AMagicCode := LMagicCode;\n      AFileExt := C_TypeExtArr[I];\n      Result := True;\n    end;\n  end;\nend;\nprocedure MakeFileList(const Path, FileExt: string; AFileList: TStrings);\nvar\n  sch: TSearchRec;\n  tmpPath: string;\nbegin\n  if RightStr(Trim(Path), 1) &lt;&gt; &apos;\\&apos; then\n    tmpPath := Trim(Path) + &apos;\\&apos;\n  else\n    tmpPath := Trim(Path);\n  if not DirectoryExists(tmpPath) then\n    Exit;\n  if FindFirst(tmpPath + &apos;*&apos;, faAnyFile, sch) = 0 then\n  begin\n    repeat\n      if ((sch.Name = &apos;.&apos;) or (sch.Name = &apos;..&apos;)) then\n        Continue;\n      if (UpperCase(ExtractFileExt(tmpPath + sch.Name)) = UpperCase(FileExt)) or (FileExt = &apos;.*&apos;) then\n        AFileList.Add(tmpPath + sch.Name);\n    until FindNext(sch) &lt;&gt; 0;\n    System.SysUtils.FindClose(sch);\n  end;\nend;\nprocedure DecryptWXImgFile(const ASrcFile, ASavePath: string);\nvar\n  LSrcStream: TMemoryStream;\n  LDesStream: TFileStream;\n  LFilesize, LPos: Integer;\n  LBuffer: Word;\n  LSrcByte, LDesByte: Byte;\n  LMagicCode: Word;\n  LFileExt, LFileName: string;\nbegin\n  LSrcStream := TMemoryStream.Create;\n  try\n    LSrcStream.LoadFromFile(ASrcFile);\n    LSrcStream.Position := 0;\n    LSrcStream.ReadBuffer(LBuffer, 2);\n    if CalcMagicCode(LBuffer, LMagicCode, LFileExt) then\n    begin\n      LFileName := ASavePath + ChangeFileExt(ExtractFileName(ASrcFile), LFileExt);\n      LDesStream := TFileStream.Create(LFileName, fmCreate);\n      try\n        LPos := 0;\n        LFilesize := LSrcStream.Size;\n        // 此处效率低，需要优化\n        while LPos &lt; LFilesize do\n        begin\n          LSrcStream.Position := LPos;\n          LSrcStream.ReadBuffer(LSrcByte, 1);\n          LDesByte := LSrcByte xor LMagicCode;\n          LDesStream.WriteBuffer(LDesByte, 1);\n          Inc(LPos);\n        end;\n      finally\n        LDesStream.Free;\n      end;\n    end;\n  finally\n    LSrcStream.Free;\n  end;\nend;</code></pre><p STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;\">调用方法：</p><div STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;\"><div STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\">Pascal</div></div><pre STYLE=\"width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;\"><code STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;\">DecryptWXImgFile(&lsquo;C:\\Users\\5bug.wang\\Documents\\WeChat Files\\Wubug5\\Data\\1383774871197177544.dat&rsquo;, &lsquo;C:\\Users\\5bug.wang\\Desktop\\test\\&rsquo;);</code></pre><p STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\">以上代码里有一处自行优化吧，否则效率非常低下！只要监控这个存储目录，就可以实现找到被撤回的微信图片或者存储被撤回的图片了，还可以实现一些小工具了，比如微信防撤回图片存储器，微信图片整理工具等了。</p>&Tab;</div></div></div><div STYLE=\"position:absolute;top:-1000px;left:-1000px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;\">Measure</div><div STYLE=\"margin-bottom:0px;position:absolute;top:-1000px;left:-1000px;line-height:1;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\">Measure</div></div></div></div></div></div></div></div>\n</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "801ba81df77ad134e9b35db99b14bc0172305c9a033a0ec79dec1d4b2a3c25a3",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Delphi实现电脑端微信图片文件解密 - C++_Delphi - 吾八哥博客.html"
+      }
+    },
+    {
+      "id": "1e3f4559-506d-4780-8913-a1882d73ce55",
+      "note_id": "e7cb1976-e6c1-44ec-830d-e946e5d15f7b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:33.973675Z",
+      "content": "---\ntitle: Delphi实现电脑端微信图片文件解密 - C++/Delphi - 吾八哥博客\nupdated: 2019-02-18 08:38:40Z\ncreated: 2019-02-18 08:38:40Z\nsource: http://www.5bug.wang/post/43.html\n---\n\nDelphi实现电脑端微信图片文件解密\n\n电脑端微信收到图片后是存在了“C:\\Users\\www.5bug.wang\\Documents\\WeChat Files\\微信帐号\\Data”目录下的，但文件不能直接使用图片浏览器打开的，因为做了一些加密，之前有个朋友问我这些文件怎么解密，就抽空研究了下。参考了一篇文章：http://share.iclient.ifeng.com/news/shareNews?forward=1&aid=117431304&from=timeline&isappinstalled=1&forward=1#backhead，文章里提到的是加密值：ox5，其实现在改了，是根据不同的图片格式采用不同的加密值了，今天这里使用Delphi来实现这个图片文件的解密，教你找到被撤回的微信图片或者存储被撤回的图片，哈哈。直接上代码吧！\nPascal\nuses\n  System.SysUtils, System.Classes, Winapi.Windows, System.Math, System.StrUtils;\n// 计算MagicCode以及图片类型\nfunction CalcMagicCode(const AHeadCode: Word; var AMagicCode: Word; var AFileExt: string): Boolean;\nconst\n  C_TypeCodeArr: array of Word = [$4D42, $D8FF, $4947, $5089];\n  C_TypeExtArr: array of string = ['.bmp', '.jpeg', '.gif', '.png'];\nvar\n  I: Integer;\n  LByte1, LByte2: Byte;\n  LMagicCode: Word;\nbegin\n  Result := False;\n  LByte1 := Byte(AHeadCode);\n  LByte2 := HiByte(AHeadCode);\n  for I := Low(C_TypeCodeArr) to High(C_TypeCodeArr) do\n  begin\n    LMagicCode := Byte(C_TypeCodeArr[I]) xor LByte1;\n    if LMagicCode = (HiByte(C_TypeCodeArr[I]) xor LByte2) then\n    begin\n      AMagicCode := LMagicCode;\n      AFileExt := C_TypeExtArr[I];\n      Result := True;\n    end;\nprocedure MakeFileList(const Path, FileExt: string; AFileList: TStrings);\nvar\n  sch: TSearchRec;\n  tmpPath: string;\nbegin\n  if RightStr(Trim(Path), 1) <> '\\' then\n    tmpPath := Trim(Path) + '\\'\n  else\n    tmpPath := Trim(Path);\n  if not DirectoryExists(tmpPath) then\n    Exit;\n  if FindFirst(tmpPath + '*', faAnyFile, sch) = 0 then\n  begin\n    repeat\n      if ((sch.Name = '.') or (sch.Name = '..')) then\n        Continue;\n      if (UpperCase(ExtractFileExt(tmpPath + sch.Name)) = UpperCase(FileExt)) or (FileExt = '.*') then\n        AFileList.Add(tmpPath + sch.Name);\n    until FindNext(sch) <> 0;\n    System.SysUtils.FindClose(sch);\n  end;\nprocedure DecryptWXImgFile(const ASrcFile, ASavePath: string);\nvar\n  LSrcStream: TMemoryStream;\n  LDesStream: TFileStream;\n  LFilesize, LPos: Integer;\n  LBuffer: Word;\n  LSrcByte, LDesByte: Byte;\n  LMagicCode: Word;\n  LFileExt, LFileName: string;\nbegin\n  LSrcStream := TMemoryStream.Create;\n  try\n    LSrcStream.LoadFromFile(ASrcFile);\n    LSrcStream.Position := 0;\n    LSrcStream.ReadBuffer(LBuffer, 2);\n    if CalcMagicCode(LBuffer, LMagicCode, LFileExt) then\n    begin\n      LFileName := ASavePath + ChangeFileExt(ExtractFileName(ASrcFile), LFileExt);\n      LDesStream := TFileStream.Create(LFileName, fmCreate);\n      try\n        LPos := 0;\n        LFilesize := LSrcStream.Size;\n        // 此处效率低，需要优化\n        while LPos < LFilesize do\n        begin\n          LSrcStream.Position := LPos;\n          LSrcStream.ReadBuffer(LSrcByte, 1);\n          LDesByte := LSrcByte xor LMagicCode;\n          LDesStream.WriteBuffer(LDesByte, 1);\n          Inc(LPos);\n        end;\n      finally\n        LDesStream.Free;\n      end;\n  finally\n    LSrcStream.Free;\n  end;\n调用方法：\nPascal\nDecryptWXImgFile(‘C:\\Users\\5bug.wang\\Documents\\WeChat Files\\Wubug5\\Data\\1383774871197177544.dat’, ‘C:\\Users\\5bug.wang\\Desktop\\test\\’);\n以上代码里有一处自行优化吧，否则效率非常低下！只要监控这个存储目录，就可以实现找到被撤回的微信图片或者存储被撤回的图片了，还可以实现一些小工具了，比如微信防撤回图片存储器，微信图片整理工具等了。\n\nMeasure",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 3275,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "acab5903-c809-43a5-9e4f-661f6427562f",
+    "note_id": "e7cb1976-e6c1-44ec-830d-e946e5d15f7b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:33.973680Z",
+    "finished_at": "2025-11-09T20:01:33.973680Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9940ad14-5758-47b7-af71-d93997e56b52",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Delphi实现电脑端微信图片文件解密 - C++_Delphi - 吾八哥博客.html",
+      "checksum": "801ba81df77ad134e9b35db99b14bc0172305c9a033a0ec79dec1d4b2a3c25a3"
+    },
+    "output_ref": {
+      "ingest_source": "8235d0bc-b77e-41d8-9943-412de55668de",
+      "note": "e7cb1976-e6c1-44ec-830d-e946e5d15f7b",
+      "variants": [
+        "d3c42648-9770-40ec-ab48-9ab50f466fb2",
+        "1e3f4559-506d-4780-8913-a1882d73ce55"
+      ]
+    },
+    "error_detail": null
+  }
+}

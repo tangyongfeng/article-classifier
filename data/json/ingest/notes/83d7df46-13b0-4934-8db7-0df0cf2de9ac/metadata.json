@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8194d4c8-3229-4655-b953-dcd8baa55e4f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/苏大夫.html",
+    "collected_at": "2025-11-09T20:01:37.535730Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "cb5819464c22ac7b7d432c33f647608123e0074d0756b4f521591e81a6ad5477",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "83d7df46-13b0-4934-8db7-0df0cf2de9ac",
+    "ingest_source_id": "8194d4c8-3229-4655-b953-dcd8baa55e4f",
+    "canonical_title": "苏大夫",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:37.535734Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "苏大夫.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9d814f2e-ce3a-48ce-be1f-3923f7fc9ea5",
+      "note_id": "83d7df46-13b0-4934-8db7-0df0cf2de9ac",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.535736Z",
+      "content": "---\ntitle: 苏大夫\nupdated: 2020-01-01 06:58:00Z\ncreated: 2020-01-01 06:56:42Z\n---\n\n\n\n<en-note><div><span STYLE=\"-en-paragraph:true;\">苏大夫，祝您新年快乐！祝您在新的一年里身体健康，万事如意！</span></div><div><span STYLE=\"-en-paragraph:true;\">非常抱歉，这一年都没有和您联系，这一年我发生了非常大的变化，先从中彩在线离职，后来来了德国，我现在也是从德国给您发来新年祝福，家人和孩子也都来了，我也和他们一起在万里之外祝您新年快乐🎉</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "cb5819464c22ac7b7d432c33f647608123e0074d0756b4f521591e81a6ad5477",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/苏大夫.html"
+      }
+    },
+    {
+      "id": "c4759c3a-341d-4965-9081-198da1c52e8b",
+      "note_id": "83d7df46-13b0-4934-8db7-0df0cf2de9ac",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.535739Z",
+      "content": "---\ntitle: 苏大夫\nupdated: 2020-01-01 06:58:00Z\ncreated: 2020-01-01 06:56:42Z\n---\n\n苏大夫，祝您新年快乐！祝您在新的一年里身体健康，万事如意！\n非常抱歉，这一年都没有和您联系，这一年我发生了非常大的变化，先从中彩在线离职，后来来了德国，我现在也是从德国给您发来新年祝福，家人和孩子也都来了，我也和他们一起在万里之外祝您新年快乐🎉",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 202,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "30755c95-7a5b-4886-82d2-63fb5fdf0691",
+    "note_id": "83d7df46-13b0-4934-8db7-0df0cf2de9ac",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.535744Z",
+    "finished_at": "2025-11-09T20:01:37.535744Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b6d7fe97-6195-49e7-9774-5fc1f10ad107",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/苏大夫.html",
+      "checksum": "cb5819464c22ac7b7d432c33f647608123e0074d0756b4f521591e81a6ad5477"
+    },
+    "output_ref": {
+      "ingest_source": "8194d4c8-3229-4655-b953-dcd8baa55e4f",
+      "note": "83d7df46-13b0-4934-8db7-0df0cf2de9ac",
+      "variants": [
+        "9d814f2e-ce3a-48ce-be1f-3923f7fc9ea5",
+        "c4759c3a-341d-4965-9081-198da1c52e8b"
+      ]
+    },
+    "error_detail": null
+  }
+}

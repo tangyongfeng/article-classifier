@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "915ad221-25d9-4d8c-be6b-c77cc04f10a3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Needless to say sorry, I hope we can maintain frie.html",
+    "collected_at": "2025-11-09T20:05:13.299039Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a393084441596fb351485bf44ebf89bfc63563e6c83b6f35a6358d07243a3b3c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c5650ed3-25fb-4e7f-89ba-fa2102cf978b",
+    "ingest_source_id": "915ad221-25d9-4d8c-be6b-c77cc04f10a3",
+    "canonical_title": "Needless to say sorry, I hope we can maintain frie",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.299043Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Needless to say sorry, I hope we can maintain frie.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a00ed9d0-09c0-41a1-ae2a-8a8aaf1631a3",
+      "note_id": "c5650ed3-25fb-4e7f-89ba-fa2102cf978b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.299045Z",
+      "content": "---\ntitle: Needless to say sorry, I hope we can maintain friendship.\nupdated: 2019-03-20 16:21:20Z\ncreated: 2019-03-20 16:20:20Z\n---\n\n\n\n<en-note><div>Needless to say sorry, I hope we can maintain friendship.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a393084441596fb351485bf44ebf89bfc63563e6c83b6f35a6358d07243a3b3c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Needless to say sorry, I hope we can maintain frie.html"
+      }
+    },
+    {
+      "id": "b955007d-9523-40d2-9825-0ab1dfac11be",
+      "note_id": "c5650ed3-25fb-4e7f-89ba-fa2102cf978b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.299048Z",
+      "content": "---\ntitle: Needless to say sorry, I hope we can maintain friendship.\nupdated: 2019-03-20 16:21:20Z\ncreated: 2019-03-20 16:20:20Z\n---\n\nNeedless to say sorry, I hope we can maintain friendship.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 191,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "060f2701-1880-469e-9e12-269b8a42ad23",
+    "note_id": "c5650ed3-25fb-4e7f-89ba-fa2102cf978b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.299053Z",
+    "finished_at": "2025-11-09T20:05:13.299053Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "30b2821b-f050-4fd3-bcec-433b06ce0fce",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Needless to say sorry, I hope we can maintain frie.html",
+      "checksum": "a393084441596fb351485bf44ebf89bfc63563e6c83b6f35a6358d07243a3b3c"
+    },
+    "output_ref": {
+      "ingest_source": "915ad221-25d9-4d8c-be6b-c77cc04f10a3",
+      "note": "c5650ed3-25fb-4e7f-89ba-fa2102cf978b",
+      "variants": [
+        "a00ed9d0-09c0-41a1-ae2a-8a8aaf1631a3",
+        "b955007d-9523-40d2-9825-0ab1dfac11be"
+      ]
+    },
+    "error_detail": null
+  }
+}

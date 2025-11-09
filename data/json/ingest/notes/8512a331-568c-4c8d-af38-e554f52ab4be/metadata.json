@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "25d23555-3977-4a60-8063-eae0a435c7bc",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/962060386 room 001.html",
+    "collected_at": "2025-11-09T20:01:36.486918Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c35c52ccfc5aafd09c4ecdae142e99049c6a043d9e93925e1b19140030e17cf1",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8512a331-568c-4c8d-af38-e554f52ab4be",
+    "ingest_source_id": "25d23555-3977-4a60-8063-eae0a435c7bc",
+    "canonical_title": "962060386 room 001",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.486922Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "962060386 room 001.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ee30298b-f2e5-45af-820c-0a591e5e56cd",
+      "note_id": "8512a331-568c-4c8d-af38-e554f52ab4be",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.486924Z",
+      "content": "---\ntitle: 962060386 room 001\nupdated: 2020-04-07 16:07:38Z\ncreated: 2020-03-26 16:55:03Z\n---\n\n\n\n<en-note><div>962060386 room 001</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c35c52ccfc5aafd09c4ecdae142e99049c6a043d9e93925e1b19140030e17cf1",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/962060386 room 001.html"
+      }
+    },
+    {
+      "id": "b17594b2-b91a-45eb-93e4-2f693a2ccfc7",
+      "note_id": "8512a331-568c-4c8d-af38-e554f52ab4be",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.486927Z",
+      "content": "---\ntitle: 962060386 room 001\nupdated: 2020-04-07 16:07:38Z\ncreated: 2020-03-26 16:55:03Z\n---\n\n962060386 room 001",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 113,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a1e86e59-0b74-4c46-a991-eb7edfe54e12",
+    "note_id": "8512a331-568c-4c8d-af38-e554f52ab4be",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.486932Z",
+    "finished_at": "2025-11-09T20:01:36.486932Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0305b8df-c0e7-4700-a6bb-dfd9a13be0a0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/962060386 room 001.html",
+      "checksum": "c35c52ccfc5aafd09c4ecdae142e99049c6a043d9e93925e1b19140030e17cf1"
+    },
+    "output_ref": {
+      "ingest_source": "25d23555-3977-4a60-8063-eae0a435c7bc",
+      "note": "8512a331-568c-4c8d-af38-e554f52ab4be",
+      "variants": [
+        "ee30298b-f2e5-45af-820c-0a591e5e56cd",
+        "b17594b2-b91a-45eb-93e4-2f693a2ccfc7"
+      ]
+    },
+    "error_detail": null
+  }
+}

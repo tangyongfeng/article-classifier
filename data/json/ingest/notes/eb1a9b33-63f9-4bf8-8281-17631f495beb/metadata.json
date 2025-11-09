@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "b665da49-2e74-4d2e-b469-04f4e24b8a4b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/https___noname134.monday.com_create_boar….html",
+    "collected_at": "2025-11-09T20:05:13.883592Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "0a628e62796de9d197ff3048e7df2f09dfaab2031a71ed3b3ddd65eb31f76ff2",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "eb1a9b33-63f9-4bf8-8281-17631f495beb",
+    "ingest_source_id": "b665da49-2e74-4d2e-b469-04f4e24b8a4b",
+    "canonical_title": "https___noname134.monday.com_create_boar…",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.883596Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "https___noname134.monday.com_create_boar….html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8ff79afe-111a-411e-91e1-8cdb9792aa10",
+      "note_id": "eb1a9b33-63f9-4bf8-8281-17631f495beb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.883599Z",
+      "content": "---\ntitle: https://noname134.monday.com/create_boar…\nupdated: 2019-04-11 18:26:02Z\ncreated: 2019-04-11 18:26:02Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>https://noname134.monday.com/create_board_from_template</div>\n<div><br/></div>\n<div><br/></div>\n<div>+8613800138000 welcome123 <span>&nbsp;</span> welcome</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0a628e62796de9d197ff3048e7df2f09dfaab2031a71ed3b3ddd65eb31f76ff2",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/https___noname134.monday.com_create_boar….html"
+      }
+    },
+    {
+      "id": "26d0d9dc-6641-4790-af4d-6a7da864706e",
+      "note_id": "eb1a9b33-63f9-4bf8-8281-17631f495beb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.883601Z",
+      "content": "---\ntitle: https://noname134.monday.com/create_boar…\nupdated: 2019-04-11 18:26:02Z\ncreated: 2019-04-11 18:26:02Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttps://noname134.monday.com/create_board_from_template\n\n+8613800138000 welcome123\n \n welcome",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 242,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "91bce590-4d6d-4c5e-a154-b520c7852563",
+    "note_id": "eb1a9b33-63f9-4bf8-8281-17631f495beb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.883606Z",
+    "finished_at": "2025-11-09T20:05:13.883607Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "12c30ea5-d2d0-43e7-b84d-239f270ce146",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/https___noname134.monday.com_create_boar….html",
+      "checksum": "0a628e62796de9d197ff3048e7df2f09dfaab2031a71ed3b3ddd65eb31f76ff2"
+    },
+    "output_ref": {
+      "ingest_source": "b665da49-2e74-4d2e-b469-04f4e24b8a4b",
+      "note": "eb1a9b33-63f9-4bf8-8281-17631f495beb",
+      "variants": [
+        "8ff79afe-111a-411e-91e1-8cdb9792aa10",
+        "26d0d9dc-6641-4790-af4d-6a7da864706e"
+      ]
+    },
+    "error_detail": null
+  }
+}

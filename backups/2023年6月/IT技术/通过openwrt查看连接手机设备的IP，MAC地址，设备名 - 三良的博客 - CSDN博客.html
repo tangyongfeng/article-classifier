@@ -1,0 +1,59 @@
+---
+title: 通过openwrt查看连接手机设备的IP，MAC地址，设备名 - 三良的博客 - CSDN博客
+updated: 2018-11-02 04:44:34Z
+created: 2018-11-02 04:44:34Z
+source: https://blog.csdn.net/qq_17351077/article/details/77942897
+---
+
+
+<en-note>
+  <div>
+<div STYLE="font-size: 16px; display: inline-block;  min-width: 100%;"><div STYLE="background-color:transparent;font:inherit;vertical-align:baseline;"><div STYLE="font-family:&quot;PT Serif&quot;;font-size:16px;line-height:1.5em;color:rgb(31, 9, 9);text-align:left;background-color:transparent;font:inherit;vertical-align:baseline;"><div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="width:36em;z-index:200;padding-left:2em;padding-right:2em;margin-left:auto;margin-right:auto;position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="position:relative;margin-left:-25px;margin-right:25px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="padding-top:4.5em;padding-bottom:9em;position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><div STYLE="margin-bottom:0px;position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><h1 STYLE="font-family:&quot;PT Serif&quot;;text-align:left;padding:0px;margin:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:normal;font-size:35px;line-height:35px;margin-bottom:20px;">通过openwrt查看连接手机设备的IP，MAC地址，设备名</h1><div STYLE="margin-bottom:0px;position:relative;margin:0px;height:1em;line-height:1;text-align:center;padding:0px;border:0px;font:inherit;vertical-align:baseline;padding-top:1.5em;padding-bottom:1.5em;"><div STYLE="background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);margin-bottom:0px;position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><span STYLE="font:inherit;background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;"></span></div></div></div>
+&Tab;&Tab;&Tab;<div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">
+&Tab;&Tab;&Tab;&Tab;<div STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;">
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;2017年09月12日 11:07:41
+&Tab;&Tab;&Tab;&Tab;&Tab;<a HREF="https://me.csdn.net/qq_17351077" TARGET="_blank" STYLE="color:rgb(6, 85, 136);margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;">我是三良</a>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;阅读数：3237
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;</div>
+&Tab;&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;</div>
+&Tab;&Tab;
+&Tab;
+&Tab;<div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;display:block;">
+&Tab;&Tab;<div STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;">
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">
+&Tab;&Tab;&Tab;&Tab;&Tab;版权声明：讯客+是一个每天更新的带你薅羊毛的撸羊毛网站，欢迎访问(www.xunkejia.com)。&Tab;&Tab;&Tab;&Tab;&Tab;https://blog.csdn.net/qq_17351077/article/details/77942897&Tab;&Tab;&Tab;&Tab;</div>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;            
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;">
+                
+
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">查看连接上openwrt的设备IP信息，mac地址<br/>
+方式有两种：</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">方式1：</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cat /proc/net/arp</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">结果：</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">IP address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HW type&nbsp;&nbsp;&nbsp;&nbsp; Flags&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; HW address&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mask&nbsp;&nbsp;&nbsp;&nbsp; Device<br/>
+192.168.0.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0x1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0x2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b0:95:8e:5c:c9:79&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eth0.2<br/>
+192.168.1.242&nbsp;&nbsp;&nbsp; 0x1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0x2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 98:6c:f5:77:4f:40&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; br-lan<br/>
+192.168.0.124&nbsp;&nbsp;&nbsp; 0x1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0x0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 00:00:00:00:00:00&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; eth0.2<br/>
+192.168.1.198&nbsp;&nbsp;&nbsp; 0x1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0x2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 40:8d:5c:5a:a0:3c&nbsp;&nbsp;&nbsp;&nbsp; *&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; br-lan</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">Flags标志可以表示是否在线状态，标志0x0表示不在线，离线，标志0X2表示在线</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">
+方式2：</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cat /tmp/dhcp.leases</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">结果</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">1505227895&nbsp;&nbsp; 98:6c:f5:77:4f:40&nbsp;&nbsp; 192.168.1.242&nbsp;&nbsp; android-5734b930181b5156&nbsp; &nbsp;*<br/>
+1505225907&nbsp; &nbsp;40:8d:5c:5a:a0:3c&nbsp;&nbsp; 192.168.1.198&nbsp;&nbsp; DESKTOP-AFGM9OL&nbsp;&nbsp; 01:40:8d:5c:5a:a0:3c</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">可以看到mac地址，IP，设备名等信息</p>
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">方式3：</p>
+<div STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;">&nbsp;iw&nbsp;dev&nbsp;wlan0&nbsp;station&nbsp;dump&nbsp;</div>
+</div>
+                </div>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;&Tab;&Tab;
+&Tab;&Tab;&Tab;&Tab;&Tab;</div>
+&Tab;
+</div></div></div><div STYLE="position:absolute;top:-1000px;left:-1000px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">Measure</div><div STYLE="margin-bottom:0px;position:absolute;top:-1000px;left:-1000px;line-height:1;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;">Measure</div></div></div></div></div></div></div></div>
+</div>
+</en-note>      

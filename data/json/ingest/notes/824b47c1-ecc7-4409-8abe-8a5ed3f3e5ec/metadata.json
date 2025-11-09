@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "72c4a35f-da3f-48d0-970a-4838b9d7234a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ice展会.html",
+    "collected_at": "2025-11-09T20:05:14.007009Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "326de69da52c21b4147a3119fab59180ba7fd98573466329418e909c7e1a3392",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "824b47c1-ecc7-4409-8abe-8a5ed3f3e5ec",
+    "ingest_source_id": "72c4a35f-da3f-48d0-970a-4838b9d7234a",
+    "canonical_title": "ice展会",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:05:14.007014Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ice展会.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "76ab88f8-beac-4999-a837-7c187ce1abbe",
+      "note_id": "824b47c1-ecc7-4409-8abe-8a5ed3f3e5ec",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.007018Z",
+      "content": "---\ntitle: ice展会\nupdated: 2015-01-26 06:00:08Z\ncreated: 2015-01-26 05:40:33Z\n---\n\n\n\n<en-note>关注厂商：\n&Tab;<div>GTech</div>\n&Tab;<div>将发布一款true 3d游戏</div>\n&Tab;<div>几台终端机共用一个jackpot</div>\n&Tab;<div>有九款终端机产品</div>\n&Tab;<div>iGaming手机平台</div>\n&Tab;<div>五号上午九点到十点有一个技术交流会</div>\n&Tab;<div>SG：</div>\n&Tab;<div>体彩使用SG</div>\n&Tab;<div>aegis 宙斯盾系统</div><div><br/></div><div>novomatse:奥地利公司</div><div>gli:第三方测试供应商</div><div>moker:高斯曼的子公司</div><div>bailing:很炫的游戏厂商</div><div>insbaire:</div><div>intranlot:keno</div><div>bewin:做互联网很牛的公司，互联网实时投注公司</div><div>威廉希尔：</div><div>力博：</div><div><br/></div><div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/>\n&Tab;&Tab;<div><br/></div>\n&Tab;</div>\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "326de69da52c21b4147a3119fab59180ba7fd98573466329418e909c7e1a3392",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ice展会.html"
+      }
+    },
+    {
+      "id": "7b8f462c-b45c-45a3-b1d5-aefbe3bef19d",
+      "note_id": "824b47c1-ecc7-4409-8abe-8a5ed3f3e5ec",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.007021Z",
+      "content": "---\ntitle: ice展会\nupdated: 2015-01-26 06:00:08Z\ncreated: 2015-01-26 05:40:33Z\n---\n\n关注厂商：\n\nGTech\n\n将发布一款true 3d游戏\n\n几台终端机共用一个jackpot\n\n有九款终端机产品\n\niGaming手机平台\n\n五号上午九点到十点有一个技术交流会\n\nSG：\n\n体彩使用SG\n\naegis 宙斯盾系统\nnovomatse:奥地利公司\ngli:第三方测试供应商\nmoker:高斯曼的子公司\nbailing:很炫的游戏厂商\ninsbaire:\nintranlot:keno\nbewin:做互联网很牛的公司，互联网实时投注公司\n威廉希尔：\n力博：",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 316,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b14a0a80-dbaf-4217-9738-c45336165d02",
+    "note_id": "824b47c1-ecc7-4409-8abe-8a5ed3f3e5ec",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.007027Z",
+    "finished_at": "2025-11-09T20:05:14.007027Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "197a845b-2e51-4d2c-9618-4dd9b93be693",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ice展会.html",
+      "checksum": "326de69da52c21b4147a3119fab59180ba7fd98573466329418e909c7e1a3392"
+    },
+    "output_ref": {
+      "ingest_source": "72c4a35f-da3f-48d0-970a-4838b9d7234a",
+      "note": "824b47c1-ecc7-4409-8abe-8a5ed3f3e5ec",
+      "variants": [
+        "76ab88f8-beac-4999-a837-7c187ce1abbe",
+        "7b8f462c-b45c-45a3-b1d5-aefbe3bef19d"
+      ]
+    },
+    "error_detail": null
+  }
+}

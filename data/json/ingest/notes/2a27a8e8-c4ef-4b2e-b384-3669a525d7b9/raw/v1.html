@@ -1,0 +1,575 @@
+---
+title: 我是如何不花一分钱把游戏服务器租用 SaaS 做到第一位的 - V2EX
+updated: 2022-05-16 09:06:15Z
+created: 2022-05-16 09:06:15Z
+source: https://www.v2ex.com/t/853057
+---
+
+
+<en-note><br/>
+  
+<div STYLE="--en-clipped-content:fullPage; --en-clipped-source-url:https://www.v2ex.com/t/853057; --en-clipped-source-title:%u6211%u662F%u5982%u4F55%u4E0D%u82B1%u4E00%u5206%u94B1%u628A%u6E38%u620F%u670D%u52A1%u5668%u79DF%u7528%20SaaS%20%u505A%u5230%u7B2C%u4E00%u4F4D%u7684%20-%20V2EX;">
+<div><br/></div><div STYLE="min-height: 100vh; font-size: 16px; display: block; min-width: 100%; position: relative;"> <div><div STYLE="font-family:&quot;Helvetica Neue&quot;, &quot;Luxi Sans&quot;, &quot;Segoe UI&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft Yahei&quot;, sans-serif, &quot;Apple Logo&quot;;-webkit-text-size-adjust:none;">
+<div STYLE="display:flex;align-items:center;box-sizing:border-box;width:100%;padding:env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left);height:40px;background-color:rgb(255, 255, 255);border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgba(0, 0, 0, 0.22);">
+<a HREF="https://www.v2ex.com/" TITLE="V2EX" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;margin-right:auto;display:block;width:100px;height:40px;"><div STYLE="width:100%;height:100%;background-image:url(https://www.v2ex.com/static/img/v2ex@2x.png);background-size:80px 25px;display:inline-block;background-position:center center;background-repeat:no-repeat no-repeat;"></div></a>
+<div STYLE="width:246px;height:24px;background-color:rgb(250, 250, 250);transition:all 0.15s ease 0s;border:1px solid rgb(250, 250, 250);border-radius:15px;position:relative;flex:0 0 100px;padding-left:26px;margin:0px 10px;"><span STYLE="position:absolute;left:0px;top:1px;width:26px;height:100%;transition:filter 0.15s ease 0s;background-image:url(https://www.v2ex.com/static/img/search_icon_light.png);background-color:transparent;background-size:17px 17px;filter:opacity(40%);background-position:center center;background-repeat:no-repeat no-repeat;"></span>
+
+
+</div>
+<div STYLE="height:38px;position:relative;padding-right:2px;">
+
+
+</div>
+</div>
+<div STYLE="padding:0 env(safe-area-inset-right) 0 env(safe-area-inset-left);text-align:center;background-color:rgb(226, 226, 226);background-image:url(https://www.v2ex.com/static/img/shadow_light.png), url(https://static.v2ex.com/grids/air.png);background-repeat:repeat-x, repeat;">
+<div STYLE="max-width:1100px;margin:0px auto;width:auto;padding:5px;min-width:300px;">
+<div STYLE="background-color:rgb(255, 255, 255);border-radius:3px;box-shadow:rgba(0, 0, 0, 0.1) 0px 2px 3px;border-bottom:1px solid rgb(205, 216, 255);border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(205, 216, 255);">
+<div STYLE="font-size:15px;line-height:120%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);overflow:auto;padding:5px;"><div STYLE="float:right;text-align:right;"><a HREF="https://www.v2ex.com/member/makerbi" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;"><img src="../_resources/264003_large.png"  type="image/png" hash="10f575604e1094f80fb0d80ee6a7249d" border="0" align="default" width="36" height="36" style="border-radius:4px;vertical-align:bottom;width:36px;max-height:36px;" alt="264003_large.png" /></en-media></a></div>
+<a HREF="https://www.v2ex.com/" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;">V2EX</a> <span STYLE="font-family:&quot;lucida grande&quot;;font-weight:500;">&nbsp;&rsaquo;&nbsp;</span> <a HREF="https://www.v2ex.com/go/create" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;">分享创造</a>
+<div STYLE="height:5px;"></div>
+<h1 STYLE="font-size:22px;font-weight:500;line-height:120%;margin:5px 0px 10px;padding:0px;">我是如何不花一分钱把游戏服务器租用 SaaS 做到第一位的</h1>
+<small STYLE="color:rgb(153, 153, 153);">By <a HREF="https://www.v2ex.com/member/makerbi" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;">makerbi</a> at 14 小时 15 分钟前 &centerdot; 1920 次点击</small>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:0px none rgb(0, 0, 0);word-break:break-word;padding:5px;border-bottom-style:none;border-bottom-left-radius:3px;border-bottom-right-radius:3px;">
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;"><div STYLE="margin-top:0px;margin-bottom:0px;"><p STYLE="margin-top:0px;">第一次在 V2EX 发长文，就絮絮叨叨给大家分享一下我从 2020 年初开始做的一个比较垂直领域的 SaaS 网站：MB 游戏服务器租用平台 <a HREF="http://mbsifu.com/" REL="nofollow" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;">mbsifu.com</a> （ PS: MB 就是 Maker 毕的意思）。如果不想看背景信息的朋友可以从后面介绍产品开始看。</p>
+<p>下面就聊一聊我是如何一个人从零开始不花一分钱做推广把这个 SaaS 平台做到全部搜索引擎包括百度、必应、360 、搜狗、Google 的相关关键词<strong>排名第一位</strong>，以及拥有一大批长期稳定的用户的。</p>
+<p><img src="../_resources/e8616cf93983443a8142d0531fdcee01.jpg"  type="image/jpeg" hash="1e4a1b6aa5a22c2cf137f7673b926250" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="e8616cf93983443a8142d0531fdcee01.jpg" /></en-media></p>
+<p>百度</p>
+<p><img src="../_resources/3f383febe1704a52b3fd670b196e26ad.jpg"  type="image/jpeg" hash="e86d5f5a05a998edbc41567fe8de2252" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="3f383febe1704a52b3fd670b196e26ad.jpg" /></en-media></p>
+<p>必应</p>
+<p><img src="../_resources/a0ffc40097d242e9b81cd0a5b70182ae.jpg"  type="image/jpeg" hash="a0c47e9b19f6fa2a350371de696fc15c" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="a0ffc40097d242e9b81cd0a5b70182ae.jpg" /></en-media></p>
+<p>360 搜索</p>
+<p><img src="../_resources/accf3e46f4034279b2e6fcaa1c0007be.jpg"  type="image/jpeg" hash="39d27df8c7fc9176bb9a7e18dcdae7ab" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="accf3e46f4034279b2e6fcaa1c0007be.jpg" /></en-media></p>
+<p>Google ，前几位是广告</p>
+<p><img src="../_resources/cc1f2eed8a154d6d839fff4372c6bc79.jpg"  type="image/jpeg" hash="53369930255f8d7524738bd5f1472962" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="cc1f2eed8a154d6d839fff4372c6bc79.jpg" /></en-media></p>
+<p>搜狗搜索</p>
+<hr STYLE="border:none;height:2px;color:rgb(226, 226, 226);background-color:rgb(226, 226, 226);margin-top:16px;margin-bottom:16px;"/>
+<h2 STYLE="font-size:18px;font-weight:600;line-height:1.25;margin:24px 0px 16px;padding-bottom:0.3em;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;"><strong>背景知识</strong></h2>
+<p>故事还要从 CS 这个游戏说起。CS 可能是很多 8090 后小时候的回忆，大部分人从这个游戏开始接触到了 FPS （第一人称射击）游戏，而我也不例外。从小学到现在，只有这一个游戏是让我能一直玩下来还玩不厌的，当然这中间游戏的版本也一直在更新，从 CS1.6 到现在的 CS:GO 。</p>
+<p><img src="../_resources/97d7acd1cba14357b0ec808307078560.jpg"  type="image/jpeg" hash="12b095b7634c37ae3c285a476b90e93a" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="97d7acd1cba14357b0ec808307078560.jpg" /></en-media></p>
+<p>CS1.6</p>
+<p><img src="../_resources/b4273cc9f4444c759d244fa8b9cbc27f.jpg"  type="image/jpeg" hash="10bcdcbf9dca61b5afb3455189101a03" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="b4273cc9f4444c759d244fa8b9cbc27f.jpg" /></en-media></p>
+<p>CS:GO</p>
+<p>给不了解 CS 游戏的朋友简单介绍一下，CS 这款游戏不管是早期 1.6 还是现在最流行的 CSGO 都是支持多人联机在线对战的。早期的 CS 并没有比较统一的由官方提供运营的对战房间，而如今的 CS:GO 由 Valve （即 V 社）运营，是有官方提供的各类模式的游戏匹配房间的。</p>
+<p><img src="../_resources/b4bb6e65595841d388a8e5705000cc51.jpg"  type="image/jpeg" hash="f5641cb122b16e1f889c82d02c640755" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="b4bb6e65595841d388a8e5705000cc51.jpg" /></en-media></p>
+<p>左上角可以看到默认进入官方匹配房间</p>
+<p>其实对于大部分的玩家而言，官方提供的房间完全足够日常的游玩了，并不需要再费劲找非官方的匹配房间。但是要知道 CS 作为一个能保持 20 多年热度的游戏，必然有一大批老玩家、骨灰级玩家想要更多官方没有提供的功能和玩法。</p>
+<p><img src="../_resources/751842abd5d840d984096e4beb4af9da.jpg"  type="image/jpeg" hash="5efbb2738bc8faeacbe5837c807e77a6" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="751842abd5d840d984096e4beb4af9da.jpg" /></en-media></p>
+<p>CS:GO 长期保持几十万在线玩家</p>
+<p>得益于 V 社的开放以及其游戏开发引擎：起源引擎（ Source Engine ）的完整繁荣的开发生态，想要在 CS:GO 的基础之上开发新的地图、新的皮肤乃至新的模式、新的玩法，都不是什么很难的事情，而事实上也确实有一大批具备开发能力的人做了非常多不一样玩法的插件。但是这些插件你是无法在 V 社提供的官方匹配房间中用到的，需要到那些第三方提供的社区服（ Community Server ）中才有可能玩到。你可以在这些社区服中玩到僵尸模式、滑翔模式、狼人杀模式、躲猫猫模式等等千奇百怪的玩法模式。</p>
+<p><img src="../_resources/7b0cee06dc654f608d2ceabb3a87cd3d.jpg"  type="image/jpeg" hash="d92f67e6525be78fb4c905e43fb1cb65" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="7b0cee06dc654f608d2ceabb3a87cd3d.jpg" /></en-media></p>
+<p>大量由玩家们自己提供的第三方社区服</p>
+<p>你可能会想：这些社区服房间和 V 社提供的官方匹配房间有什么区别？从技术角度来说并没有本质的区别，你可以把它们都理解成一个一个的服务器。官方匹配就相当于 V 社官方提供了一大批的服务器让玩家可以直接从游戏里连接进去游玩。</p>
+<p><img src="../_resources/7a09b04ddda646a4bd5d2fb6850b68fa.png"  type="image/png" hash="fd8f5892b1edae16b86caa0b4e6ed2b8" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="7a09b04ddda646a4bd5d2fb6850b68fa.png" /></en-media></p>
+<p>可以看到官方提供了二十多万组服务器</p>
+<p>而社区服则是第三方自己在服务器上搭建的游戏房间，玩家同样可以连接进去游玩。那么问题来了，假如我们自己有一个服务器，要如何搭建一个 CS:GO 的社区服呢？这件事情在有些游戏里是不可思议的，因为并不是所有的游戏开发商和运营商都允许你自己搭一个服务器让玩家进去玩。如果是相对封闭的开发商，为了把用户全部牢牢把握在自己手里，是不可能允许这样的&ldquo;私服&rdquo;存在的。典型如传奇私服，其实就是由于源代码泄露导致任何人都可以拿着源代码搭建一个私服来吸引玩家挣钱，这些钱当然就进不了官方的银行账户了。</p>
+<p>但是 V 社这样的&ldquo;奇葩&rdquo;不仅允许你在自己的服务器上搭建游戏房间，甚至还帮你写好说明文档，准备好所需的软件，就为了能让你方便快捷地搭建一个游戏房间做成社区服，只要是一个稍微有点开发经验的程序员，照着文档摸索着搭一个游戏房间应该不成问题。</p>
+<p><img src="../_resources/e5997fa1697b49b6b4f15361000a2370.png"  type="image/png" hash="3cc83505b2302522f4c4d03ec55c4906" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="e5997fa1697b49b6b4f15361000a2370.png" /></en-media></p>
+<p>V 社官方提供的搭建 Wiki</p>
+<p>而当你在自己的服务器上搭建了一个 CSGO 社区服以后，你就可以下载各种插件来配置专属于你的 CSGO 服务器房间了。</p>
+<p><img src="../_resources/70e50abda5ae4a65a4724f5272d2917c.png"  type="image/png" hash="01a13ceaf5e31390614d1e1f849406bc" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="70e50abda5ae4a65a4724f5272d2917c.png" /></en-media></p>
+<p>CS:GO 插件繁多</p>
+<p>说到这里，就快要轮到我的 <a HREF="http://mbsifu.com/" REL="nofollow" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;">mbsifu.com</a> 登场了。上面我们说了 V 社提供了详细的搭建文档教你如何搭建自己的 CSGO 服务器，但是对于绝大部分的非程序员玩家而言，这依然不是一件容易的事情。对于没用过 Linux 、不知道如何安装 Linux 软件、不知道如何上传文件、不知道如何配置防火墙和端口的小白来说，能够完整搭建一个 CSGO 服务器还能安装自己想要的插件达到理想的效果甚至修改插件，那无异于登天。要么硬着头皮自己一点点学一点点试，要么上淘宝花几百块钱请人来弄。</p>
+<p><img src="../_resources/e0f12ba60e774c7a80d6e9ba03219a7f.png"  type="image/png" hash="a7c4c093dcac282415c58ecdc7854a03" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="e0f12ba60e774c7a80d6e9ba03219a7f.png" /></en-media></p>
+<p>淘宝上提供定制 CSGO 服务器的商家</p>
+<p>不知道大家现在看出来其中的机会了么？上面说的搭建 CSGO 服务器这件事情，对于我们程序员来说并不是什么难事，只要照着 V 社的文档试一下很快就能搞定。如果要靠这个知识挣钱，一条路子就是像上面淘宝商家那样给人提供定制服务，收定制费用。但是我觉得这么做实在太累太费劲，本质还是出卖自己的时间。那么另一条路子就是把搭建 CSGO 服务器这件事情用代码实现全自动化，以 SaaS 平台的方式提供给小白用户使用，这样就可以真正实现躺着挣钱了。</p>
+<hr STYLE="border:none;height:2px;color:rgb(226, 226, 226);background-color:rgb(226, 226, 226);margin-top:16px;margin-bottom:16px;"/>
+<h2 STYLE="font-size:18px;font-weight:600;line-height:1.25;margin:24px 0px 16px;padding-bottom:0.3em;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;"><strong>我的 SaaS 产品</strong></h2>
+<p>说干就干，于是我在 2020 年初的时候开始着手搭建整个网站项目。由于我对前端不是那么熟悉（当时还没学 Vue ），我就在 themeforest 上买了一个基于 Bootstrap 的一套 Dashboard 前端直接用，后端依然是我自己熟悉的 Python 。</p>
+<p><img src="../_resources/40f86f2b29784e9ebfc348a4926616fb.jpg"  type="image/jpeg" hash="14dce8735bf2fe3e7c7fd96e9141bb16" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="40f86f2b29784e9ebfc348a4926616fb.jpg" /></en-media></p>
+<p>2020 年 3 月 31 日在 Github 上第一次 Commit</p>
+<p>3 月 31 日基本功能搭建完了以后在 4 月 1 日我在我的一个机器人 B 站账号上发了一条动态收集用户的建议，得到了不少 CSGO 相关用户的反馈，也帮我了解到更多我可以开发的功能。这个 B 站账号我是怎么做的现在先做一个伏笔，它会成为我一个重要的流量入口。</p>
+<p><img src="../_resources/3dfcf26527524d37ba84a27f00d9a258.jpg"  type="image/jpeg" hash="31d475f916ed52acb7af0e88d8bbc881" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="3dfcf26527524d37ba84a27f00d9a258.jpg" /></en-media></p>
+<p>2020 年 4 月 1 日在 B 站介绍网站并收集反馈</p>
+<p><img src="../_resources/34e965eaab75469ca626f2610231b656.jpg"  type="image/jpeg" hash="be14d09a329c1dba2ca10cf4c8a868a6" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="34e965eaab75469ca626f2610231b656.jpg" /></en-media></p>
+<p>用户的反馈建议</p>
+<p>这些用户他们对这种自建服务器了解比我更多，通过他们给的信息我知道了更多的插件功能，于是顺理成章地增加进我的 SaaS 中。紧接着我在 2020 年的 4 月 3 日发布了内测通知，邀请用户直接加入 QQ 群来试用并给我反馈。</p>
+<p><img src="../_resources/775e88da95894277b0ab891a4c63deae.jpg"  type="image/jpeg" hash="21227af4a31ed0d5245991587ed4bcd0" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="775e88da95894277b0ab891a4c63deae.jpg" /></en-media></p>
+<p>邀请用户内测</p>
+<p>这部分内测用户从使用的第一天开始就是在付费试用我的 SaaS 产品，同时也在积极地给我很多反馈意见。他们的付费和支持给了我很大的信心，让我觉得可以继续坚持做下去。我觉得对于个人开发的 SaaS 产品，应该尽可能地从一开始就获取用户的付费，这样才能尽快地知道用户的真实意愿。个人的资金和精力有限，不太可能在前期投入大量的资金和精力去教育市场，和公司的玩法还是有比较大的区别的。</p>
+<p>得益于第一批内测用户的帮助，我在接下来的一个月内又发现了许多新的问题需要修复，也开发了更多的新功能。完善得差不多以后我决定在 B 站专门发布一个视频来介绍我的这个产品。</p>
+<p><img src="../_resources/bcbd172024b847cf8da3d26e4de7b582.jpg"  type="image/jpeg" hash="268d1b505cc0c92f47d01ae3a0d0c1f3" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="bcbd172024b847cf8da3d26e4de7b582.jpg" /></en-media></p>
+<p>B 站视频介绍 SaaS 平台</p>
+<p>经过这个视频的正式推广，我的 MB 服务器平台就进入到正式的开放使用周期了。这里可以简单给大家说一下我的服务器目前的一些数据情况。</p>
+<ul STYLE="margin:15px 0px 15px 20px;padding:0px;">
+<li STYLE="padding:0px;margin:0px;">
+<p>每月的稳定付费用户数量：三位数</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>注册用户付费率：40%</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>付费用户复购率：75%</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>玩家租用服务器总时长（小时）：五位数</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>高峰月份：七八月暑假</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>低谷月份：九月及十二月</p>
+</li>
+</ul>
+<p><img src="../_resources/5a24fba83dc344d7aa6dcf5bf5b4feb8.jpg"  type="image/jpeg" hash="1a83b623a5ff5ef80b532f0e0caafd20" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="5a24fba83dc344d7aa6dcf5bf5b4feb8.jpg" /></en-media></p>
+<p>MB 服务器的配置界面</p>
+<p>对比一些同类的产品，我的 MB 服务器做到了以下的一些产品优势：</p>
+<ol STYLE="margin:1em 0px 1em 2em;padding:0px;">
+<li STYLE="padding:0px;margin:0px;">
+<p>租用时长灵活，最低只要 1.88 元就可以租一个小时，不用一次花上百元租一个月的服务器。</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>时间折算灵活，用户不满一个小时停止服务器的，剩余时间将自动折算为积分并可在下次租服务器的时候使用，不会让用户觉得亏钱。</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>全自动部署服务器，因此启动迅速，一般从付费完成到服务器开通可用只需要 3 分钟，远远快于人工部署服务器。</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>服务器配置界面简洁易懂，即便没有技术经验的用户也能参照说明很快配置出一个自己想要的 CSGO 服务器。</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>不断增加的可用插件，用户不需要自行下载安装，直接从配置中选择想要的插件就可加入到服务器中使用。</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>独家的数据分析功能，可以在用户完成一场比赛后分析比赛数据，了解更详细的玩家情况。</p>
+</li>
+<li STYLE="padding:0px;margin:0px;">
+<p>除了 CSGO 以外还有别的游戏服务器可以租用。</p>
+</li>
+</ol>
+<p>正是得益于这些优势，很多用户一旦用过以后都会成为我的忠实客户，甚至会帮忙口口相传介绍我们的平台。而我在后台也能看到越来越多的用户将我的 MB 服务器来用于各种方面，有的是宿舍内战、有的是队伍训练跑图、有的是周末好友娱乐、有的甚至直接用我的服务器来组织比赛。从名字上来看基本上全国大江南北的大学都有学生用过我的平台，港澳台的用户不必说当然有，我甚至还看到好些个北美和欧洲的高校名字出现在后台。</p>
+<hr STYLE="border:none;height:2px;color:rgb(226, 226, 226);background-color:rgb(226, 226, 226);margin-top:16px;margin-bottom:16px;"/>
+<h2 STYLE="font-size:18px;font-weight:600;line-height:1.25;margin:24px 0px 16px;padding-bottom:0.3em;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;"><strong>我是如何不花钱推广的</strong></h2>
+<p>回到这篇文章的标题，我是如何不花一分钱投广告做推广把我这个平台做到关键词在所有搜索引擎排名第一的呢？下面就让我给大家讲讲我所使用的各种方法。</p>
+<p>首先最重要的精准流量来源入口，就是我前面提到的我做的那个 B 站账号，这里就要好好说一下这个 B 站账号了。其实我在没有做 MB 服务器的想法之前，首先做了一个机器人，一直以来在孜孜不倦地帮我投稿和管理我的 B 站账号：Maker 毕的 CSGO 转载鸡。</p>
+<p><img src="../_resources/b892473358864b03b1626c92db46ea35.png"  type="image/png" hash="0a975a1c175de99b141a65dc468b2fd5" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="b892473358864b03b1626c92db46ea35.png" /></en-media></p>
+<p>Maker 毕的 CSGO 转载鸡</p>
+<p>我自己是从 2017 年年中开始玩 CS:GO 这个游戏，为了学习和提升游戏技巧时不时也会看看 YouTube 上的一些 CS:GO 视频。后来觉得独乐乐不如众乐乐，干脆下载这些海外的 CSGO 视频传到国内的 B 站，做一个账号专门发 CSGO 的视频，大家一起来看不是很开心？当然我不能全靠自己手动下载和上传，我自己用 Python 写了一段代码，帮我自动监测好几个 YouTube 账号，一旦发现有新视频就自动下载并且上传到我的 B 站机器人账号：Maker 毕的 CSGO 转载鸡。由于发布时选择的是转载类型，因此我不会获得任何的稿件收益，初衷也是为了我自己看视频方便同时也方便更多人。一个题外话：在我的这个机器人账号出来后半年到一年，B 站里陆陆续续也出现了很多个和我一样的自动转载机器人账号跟我抢活干，也是着实够卷的了哈哈哈。</p>
+<p><img src="../_resources/951fb356386848a29eba859b2f4541f1.png"  type="image/png" hash="13a0f577f48a18fcc857ee3bcd4c3ec8" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="951fb356386848a29eba859b2f4541f1.png" /></en-media></p>
+<p>已经自动投稿了快上万个稿件</p>
+<p>由于机器人任劳任怨 7*24 小时工作，我平时基本不用花什么时间在 B 站账号的管理上。甚至为了更方便我的 B 站账号管理，我给我的机器人做了一个网页管理界面，其实就是我自己一个人在用，目的就是再偷懒一点，再节约点日常的管理时间。</p>
+<p><img src="../_resources/c8b1488e883347a1a7a2528825e486f6.jpg"  type="image/jpeg" hash="d97063bfdb60e96943080d7e21574ce4" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="c8b1488e883347a1a7a2528825e486f6.jpg" /></en-media></p>
+<p>B 站机器人账号管理界面</p>
+<p>就这样我一直轻轻松松地做着机器人 B 站 Up 主，目前已经积累了 6.1 万的粉丝，超过 5000 万的视频播放了。这个账号积累了最精准最活跃的一批真人 CSGO 玩家，也正好就是我的潜在用户。</p>
+<p>那我是如何借助我的这个账号来推广我的 MB 服务器平台的呢？首先是我的个人空间简介中加上了介绍信息，然后每一个稿件的简介部分会直接出现我的 MB 服务器网址。而最关键的一点，我利用代码给机器人下载的每一个稿件开头加上一个简短的 4 秒钟片头，一方面介绍我这个账号是做什么的，另一方面给我的 MB 服务器打一个小小的广告。</p>
+<p><img src="../_resources/7d363a90c7314499a0986e448ef2bb3d.png"  type="image/png" hash="f807b60bacf87ccd51260d32bd463390" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="7d363a90c7314499a0986e448ef2bb3d.png" /></en-media></p>
+<p>程序自动添加的简短片头，广告也没有很显眼</p>
+<p>就这样，不知不觉中，我的程序帮我在 B 站免费打了几千万次广告了。每一个打开我视频看的用户，都会看到我的 MB 服务器广告，而感兴趣的玩家自然就会去到我的平台来尝试。同时，我设置了邀请赠送积分的机制，鼓励用户去自发地邀请更多用户来到 MB 服务器中。</p>
+<p>而关于搜索引擎优化方面，我针对 CSGO 这款游戏的大量指令内容在我的 MB 服务器网站中制作了一个 CS:GO 游戏资料指令查询界面，使得我的网站能在搜索引擎中被索引更多。</p>
+<p><img src="../_resources/9039dcb61065408cb2f052936ccd0331.png"  type="image/png" hash="80377ccee631bbc02631f41d8c1266c4" style="image-orientation:from-image;vertical-align:bottom;max-width:100%;" alt="9039dcb61065408cb2f052936ccd0331.png" /></en-media></p>
+<p>CS:GO 控制台指令查询页面</p>
+<p>另外我前面提到的比赛数据分析页面，我也专门设计成可扫码分享数据页面，进一步增加传播度。</p>
+<p>就这样，我不需要投入什么推广费用，也不需要费力去什么社交平台发帖宣传，一切都由我的程序代码来管理，基本实现了平台本身的运行及平台的推广全都是自动化的，我只需要时不时根据用户的需求反馈增加更多新的功能就好了。</p>
+<p>MB 服务器虽然没有给我带来多么巨大的收益，但也基本算是一个小小的稳定的收益来源（曾经有人邮件提出六位数想买我没答应）。这个平台给我带来的更多是实操经验的积累和一些有着同样游戏爱好的忠实玩家用户。现在我在 CS:GO 里玩的时候就经常会被同房间的玩家认出来加好友，也是很难得的体验了。</p>
+<p>最后多说一点，如果把 MB 服务器这个平台的功能抽象一点来说的话，其实就是将一个公开的、现成的、成熟的技术包装成了对一个小白用户非常友好的 SaaS 产品，让小白用户可以在完全不了解技术的情况之下也能完成一个以往需要一定技术经验才能完成的事情。如果发散来想，这样的机会肯定还有很多。有兴趣的可以思考一下还有哪些技术其实是公开的，对于技术人员来说并不难但是对于小白用户又有需求的呢？</p>
+<p>现在当我回过头来想这些年做的很多事情，本质上都是在降低技术的准入门槛，让更多的人可以轻松地使用技术、感受技术。</p>
+<p>从 2010 年接触到 Arduino ，发现了低门槛快速开发硬件的乐趣之后，在 2013 年成立清华创客空间协会，当时定下来的口号我至今仍然觉得非常正确：动手造万物，人人皆创客。当年我们虽然定位是一个技术类的社团，但是一直在坚持走群众路线：完全不设准入门槛，大量地举办各种教学活动、体验活动、比赛等等，就是希望更多的人不要害怕技术，尝试接触并学习技术，甚至结合技术和自己的知识来创造出更多更有趣的东西。</p>
+<p><img SRC="http://sapic.makerb.pro/static/upload/andersonby/c3fa3c64992949fcb4f66f009892362e.png" STYLE="image-orientation:from-image;vertical-align:bottom;max-width:100%;"/></p>
+<p>清华创客空间</p>
+<p>再后来做创客教育、编程教育，也是沿着当时做协会的惯性继续了下去，通过教育来降低编程的学习门槛。这期间我甚至做了另一个轻量级的学代码网站：倒带代码 <a HREF="http://rewindcode.com/" REL="nofollow" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;">rewindcode.com</a> ，也是为了让大家练习起来更轻松。</p>
+<p><img SRC="http://sapic.makerb.pro/static/upload/andersonby/84aee77b2df24304a0d21a933e678b12.png" STYLE="image-orientation:from-image;vertical-align:bottom;max-width:100%;"/></p>
+<p>倒带代码 <a HREF="http://rewindcode.com/" REL="nofollow" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;">rewindcode.com</a></p>
+<p>今年开始又走在了创业路上，虽然没想到今年的疫情这么严峻，不过还是要相信前方，继续保持创造，将创客精神延续下去。</p>
+<p STYLE="margin-bottom:0px;"><strong>动手造万物，人人皆创客</strong></p>
+</div></div>
+</div>
+</div>
+<div STYLE="height:5px;"></div>
+<div STYLE="background-color:rgb(255, 255, 255);border-radius:3px;box-shadow:rgba(0, 0, 0, 0.1) 0px 2px 3px;border-bottom:1px solid rgb(205, 216, 255);border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(205, 216, 255);">
+<div STYLE="font-size:14px;line-height:150%;text-align:left;word-break:break-word;padding:5px;"><i STYLE="color:rgb(204, 204, 204);display:inline-block;font-style:normal;font-variant-caps:normal;font-weight:normal;font-stretch:normal;line-height:1;font-family:FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;"><span STYLE="color:rgb(204, 204, 204);font-style:normal;font-weight:normal;line-height:1;font-family:FontAwesome;font-size:inherit;"></span></i> <a HREF="https://www.v2ex.com/tag/%E6%9C%8D%E5%8A%A1%E5%99%A8" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;padding:5px 10px;line-height:100%;background-color:rgb(240, 240, 240);border-radius:10px;margin:0px 5px;display:inline-block;">服务器</a><a HREF="https://www.v2ex.com/tag/csgo" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;padding:5px 10px;line-height:100%;background-color:rgb(240, 240, 240);border-radius:10px;margin:0px 5px;display:inline-block;">csgo</a><a HREF="https://www.v2ex.com/tag/%E5%9B%BE%E7%89%87" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;padding:5px 10px;line-height:100%;background-color:rgb(240, 240, 240);border-radius:10px;margin:0px 5px;display:inline-block;">图片</a><a HREF="https://www.v2ex.com/tag/SaaS" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;padding:5px 10px;line-height:100%;background-color:rgb(240, 240, 240);border-radius:10px;margin:0px 5px;display:inline-block;">SaaS</a></div>
+</div>
+<div STYLE="height:5px;"></div>
+<div STYLE="background-color:rgb(255, 255, 255);border-radius:3px;box-shadow:rgba(0, 0, 0, 0.1) 0px 2px 3px;border-bottom:1px solid rgb(205, 216, 255);border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(205, 216, 255);">
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;border-top-style:none;border-top-left-radius:3px;border-top-right-radius:3px;">
+<span STYLE="color:rgb(153, 153, 153);">24 条回复 &nbsp;<strong STYLE="color:rgb(226, 226, 226);">&bull;</strong> &nbsp;2022-05-16 15:53:58 +08:00</span>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/d107c04304dceffdbf9f03b128d2463d"  type="image/jpeg" hash="30bbefba8d25d2c21474850bc321989a" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="d107c04304dceffdbf9f03b128d2463d" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">1</span></div>
+<strong><a HREF="https://www.v2ex.com/member/huyujievip" STYLE="word-break:break-word;color:gray;text-decoration:none;">huyujievip</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">14 小时 5 分钟前 via iPhone</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">之前就用过，很好的一个产品</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/396512_normal.png"  type="image/png" hash="57c4f38e5f864c510523dd3c3c780550" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="396512_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">2</span></div>
+<strong><a HREF="https://www.v2ex.com/member/liyang5945" STYLE="word-break:break-word;color:gray;text-decoration:none;">liyang5945</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">13 小时 46 分钟前 via Android</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">大佬牛逼[破音]</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/b7f2436cc3043dfb954c293d7d68cefc"  type="image/png" hash="b9236b0bce28277b9f0c9d0846abccaa" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="b7f2436cc3043dfb954c293d7d68cefc" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">3</span></div>
+<strong><a HREF="https://www.v2ex.com/member/annmoore" STYLE="word-break:break-word;color:gray;text-decoration:none;">annmoore</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">13 小时 7 分钟前</span> &nbsp; <span STYLE="color:rgb(204, 204, 204);font-size:12px;"><img src="../_resources/heart_neue_red.png"  type="image/png" hash="16ec2dd0a880be6edda1e4a2e35754b3" width="14" align="absmiddle" height="14" alt="heart_neue_red.png" /></en-media> 3</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">本质就是不停的播种软文</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/540893_normal.png"  type="image/png" hash="a5a988871d271f0a11e29fe56571b3f4" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="540893_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">4</span></div>
+<strong><a HREF="https://www.v2ex.com/member/FirefoxChrome" STYLE="word-break:break-word;color:gray;text-decoration:none;">FirefoxChrome</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">11 小时 30 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">B 站是个引流的好地方</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/8011de463c82663bfa6089fa5c6ba0dd"  type="image/png" hash="33a31a118326f2d41debb173267a932d" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="8011de463c82663bfa6089fa5c6ba0dd" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">5</span></div>
+<strong><a HREF="https://www.v2ex.com/member/bapaws" STYLE="word-break:break-word;color:gray;text-decoration:none;">bapaws</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">8 小时 36 分钟前 via iPhone</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">虽然这是个广告，但是那么自然</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/145964_normal.png"  type="image/png" hash="f32548f812b7baed508498cddff72d32" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="145964_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">6</span></div>
+<strong><a HREF="https://www.v2ex.com/member/liyuhang" STYLE="word-break:break-word;color:gray;text-decoration:none;">liyuhang</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">8 小时 24 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">国内的网络限制养活了多少人。。</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/247628_normal.png"  type="image/png" hash="aaacce7ea8b2aaa65cc8c52fbc15bfea" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="247628_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">7</span></div>
+<strong><a HREF="https://www.v2ex.com/member/imdong" STYLE="word-break:break-word;color:gray;text-decoration:none;">imdong</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">8 小时 18 分钟前 via iPhone</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">但有一个问题，想问一下大佬：<br STYLE="margin-top:0px;"/><br/>是否有遇到同行的&ldquo;友情压测&rdquo;？<br STYLE="margin-bottom:0px;"/>如果有，是怎么处理的？</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/259023_normal.png"  type="image/png" hash="2e93cf3ef5764c8aca0cdbc2009275b9" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="259023_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">8</span></div>
+<strong><a HREF="https://www.v2ex.com/member/didididididi" STYLE="word-break:break-word;color:gray;text-decoration:none;">didididididi</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">8 小时 17 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">大佬图片挂了</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/3242348c6486932de689e098ec569d99"  type="image/png" hash="2ecbf6d54b21e9bc261fbca2da4bee79" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="3242348c6486932de689e098ec569d99" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">9</span></div>
+<strong><a HREF="https://www.v2ex.com/member/yq5537" STYLE="word-break:break-word;color:gray;text-decoration:none;">yq5537</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">8 小时 13 分钟前</span> &nbsp; <span STYLE="color:rgb(204, 204, 204);font-size:12px;"><img src="../_resources/heart_neue_red.png"  type="image/png" hash="16ec2dd0a880be6edda1e4a2e35754b3" width="14" align="absmiddle" height="14" alt="heart_neue_red.png" /></en-media> 1</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">太长不看</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/128233_normal.png"  type="image/png" hash="c52eb0e7eb61a557dfcdaa0678d92ce3" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="128233_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">10</span></div>
+<strong><a HREF="https://www.v2ex.com/member/lzs5240" STYLE="word-break:break-word;color:gray;text-decoration:none;">lzs5240</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">7 小时 52 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">原来是你 -.-.</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/4ea00101a8d9ebe191ce501811133dc9"  type="image/png" hash="0e82256a30950a0869254ab35eee41d7" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="4ea00101a8d9ebe191ce501811133dc9" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">11</span></div>
+<strong><a HREF="https://www.v2ex.com/member/Sixyuan" STYLE="word-break:break-word;color:gray;text-decoration:none;">Sixyuan</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">7 小时 40 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">虽然你 B 站视频类型是转载不是自制，但是你有取得原作者的授权吗？还是说只要是转载类型就可以随意转载上传他人的视频？我之前也想弄类似的，私信 YouTuber 无果就没弄了。</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/2b8be9a848df26ea40b32d7fcb676c68"  type="image/png" hash="eda29f67f32fbcf9ce35abc4644b7144" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="2b8be9a848df26ea40b32d7fcb676c68" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">12</span></div>
+<strong><a HREF="https://www.v2ex.com/member/orqzsf1" STYLE="word-break:break-word;color:gray;text-decoration:none;">orqzsf1</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">7 小时 32 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">感谢分享！！学到了</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/514937_normal.png"  type="image/png" hash="5b40d11434e2e713b196636cabb3f0ce" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="514937_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">13</span></div>
+<strong><a HREF="https://www.v2ex.com/member/LaGeNanRen" STYLE="word-break:break-word;color:gray;text-decoration:none;">LaGeNanRen</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">7 小时 20 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">Maker 毕的 CSGO 转载鸡这个搬运工原来就是 up 你啊，牛的牛的</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/217724_normal.png"  type="image/png" hash="63791b7a8f88e6063ff1a00c73790482" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="217724_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">14</span></div>
+<strong><a HREF="https://www.v2ex.com/member/gen900" STYLE="word-break:break-word;color:gray;text-decoration:none;">gen900</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">6 小时 58 分钟前 via iPhone</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">感谢分享，很棒的思路。我也信奉&ldquo;自动化&rdquo;的力量，能自动的绝不自己动手。</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/66eb73e4e4d8ec2ba1b69e5b7c178bcf"  type="image/png" hash="6dd3bba0d116486e6372ee2561d6168d" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="66eb73e4e4d8ec2ba1b69e5b7c178bcf" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">15</span></div>
+<strong><a HREF="https://www.v2ex.com/member/sorakylin" STYLE="word-break:break-word;color:gray;text-decoration:none;">sorakylin</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">6 小时 46 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">非常值得学习</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/76310_normal.png"  type="image/png" hash="c11733b4cda3dafb82924af733b545f4" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="76310_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">16</span></div>
+<strong><a HREF="https://www.v2ex.com/member/HXM" STYLE="word-break:break-word;color:gray;text-decoration:none;">HXM</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">6 小时 40 分钟前 via Android</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">当时也是在 b 站发现了 op ，进而发现了 op 的网站，此前一直是自己开服，当时 mbsifu 内测时还用了一阵子</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/481187_normal.png"  type="image/png" hash="b77dd8e26db6d706afac18505398c766" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="481187_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">17</span></div>
+<strong><a HREF="https://www.v2ex.com/member/ch2" STYLE="word-break:break-word;color:gray;text-decoration:none;">ch2</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">6 小时 39 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">之前在自己的服务器上搭过自己玩的 l4d2 服务器，然后被其它卖服务器的 ddos 了</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/2340_normal.png"  type="image/png" hash="9c42d49166d909f72b198b337cafd4cd" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="2340_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">18</span></div>
+<strong><a HREF="https://www.v2ex.com/member/alswl" STYLE="word-break:break-word;color:gray;text-decoration:none;">alswl</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">6 小时 36 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">&gt; 其实就是将一个公开的、现成的、成熟的技术包装成了对一个小白用户非常友好的 SaaS 产品，让小白用户可以在完全不了解技术的情况之下也能完成一个以往需要一定技术经验才能完成的事情。<br STYLE="margin-top:0px;"/><br STYLE="margin-bottom:0px;"/>这就是用技术创造了社会价值啊。赞。</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/e80130f0e891c74c0757e084e2854259"  type="image/png" hash="55de90836662cc2a51fd4d67d09e4bd6" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="e80130f0e891c74c0757e084e2854259" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">19</span></div>
+<strong><a HREF="https://www.v2ex.com/member/37Y37" STYLE="word-break:break-word;color:gray;text-decoration:none;">37Y37</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">6 小时 30 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">大佬太牛逼了！感谢分享！！学到了</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/14d30df94a76b223c564c5a0b2f8436c"  type="image/png" hash="b9653e78eedf7e48ee239d6bb7c4b340" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="14d30df94a76b223c564c5a0b2f8436c" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">20</span></div>
+<strong><a HREF="https://www.v2ex.com/member/sheeta" STYLE="word-break:break-word;color:gray;text-decoration:none;">sheeta</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">6 小时 30 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">@<a HREF="https://www.v2ex.com/member/Sixyuan" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;margin-top:0px;margin-bottom:0px;">Sixyuan</a> b 站一堆只贴转载地址没有授权的，b 站也不管的</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/4ea00101a8d9ebe191ce501811133dc9"  type="image/png" hash="0e82256a30950a0869254ab35eee41d7" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="4ea00101a8d9ebe191ce501811133dc9" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">21</span></div>
+<strong><a HREF="https://www.v2ex.com/member/Sixyuan" STYLE="word-break:break-word;color:gray;text-decoration:none;">Sixyuan</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">5 小时 48 分钟前</span>
+<div STYLE="height:5px;"></div>
+ <div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">@<a HREF="https://www.v2ex.com/member/sheeta" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;margin-top:0px;margin-bottom:0px;">sheeta</a> #20 B 站不管不等于可以这么做，现在文章都不能随意转载，更别说视频。我不是很了解版权相关法律规定，但是于我个人道德上有点过意不去，我也不希望某天发现，未经过我个人授权，我制作的视频被海外自动机器人加个推广片头传播。</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/226954_normal.png"  type="image/png" hash="ab6150c5c0d3474e1c034adfe89f3cbb" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="226954_normal.png" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">22</span></div>
+<strong><a HREF="https://www.v2ex.com/member/pkwenda" STYLE="word-break:break-word;color:gray;text-decoration:none;">pkwenda</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">5 小时 38 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">倒带代码 挺有意思，怎么做到的， 还是纯人肉做的还是分析视频？</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:1px solid rgb(226, 226, 226);word-break:break-word;padding:5px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/669014f32638ecb8cebf90cdece7b858"  type="image/png" hash="853035411ddbf8ccd4b2dcd11d233272" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="669014f32638ecb8cebf90cdece7b858" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">23</span></div>
+<strong><a HREF="https://www.v2ex.com/member/mzlzero" STYLE="word-break:break-word;color:gray;text-decoration:none;">mzlzero</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">5 小时 32 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">技术+商业变现都很棒的 op</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div STYLE="font-size:14px;line-height:150%;text-align:left;border-bottom:0px none rgb(0, 0, 0);word-break:break-word;padding:5px;border-bottom-style:none;border-bottom-left-radius:3px;border-bottom-right-radius:3px;">
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="100%" STYLE="table-layout:fixed;">
+<tbody><tr>
+<td WIDTH="24" VALIGN="top"><img src="../_resources/e5bb76f2b54aac7bc00c75dbf2d30d15"  type="image/png" hash="ce296c8438f2cc7018626130b5faea1f" border="0" align="default" width="24" height="24" style="border-radius:4px;vertical-align:bottom;width:24px;max-height:24px;" alt="e5bb76f2b54aac7bc00c75dbf2d30d15" /></en-media></td>
+<td WIDTH="10" VALIGN="top"></td>
+<td WIDTH="auto" VALIGN="top" ALIGN="left">
+<div STYLE="float:right;text-align:right;">
+&nbsp;&nbsp; <span STYLE="font-size:9px;line-height:9px;font-weight:500;border-radius:10px;display:inline-block;background-color:rgb(240, 240, 240);color:rgb(204, 204, 204);padding:2px 5px;cursor:pointer;">24</span></div>
+<strong><a HREF="https://www.v2ex.com/member/theusername" STYLE="word-break:break-word;color:gray;text-decoration:none;">theusername</a></strong> &nbsp; <div STYLE="display:inline-flex;cursor:default;"></div>&nbsp; &nbsp;<span STYLE="color:rgb(204, 204, 204);font-size:12px;">1 小时 11 分钟前</span>
+<div STYLE="height:5px;"></div>
+<div STYLE="font-size:14px;line-height:1.6;color:rgb(0, 0, 0);word-break:break-word;">哇大佬好厉害，我去年底也有这种想法，但是没有执行下去，羡慕大佬</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+<div STYLE="height:5px;"></div>
+<div STYLE="background-color:rgb(255, 255, 255);border-radius:3px;box-shadow:rgba(0, 0, 0, 0.1) 0px 2px 3px;border-bottom:1px solid rgb(205, 216, 255);border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:rgb(205, 216, 255);">
+<div STYLE="font-size:14px;line-height:150%;text-align:left;word-break:break-word;padding:5px;">
+<div>
+</div>
+爱意满满的作品展示区。
+
+</div>
+<div STYLE="background-color:rgb(242, 242, 242);padding:5px;font-size:10px;color:rgb(51, 51, 51);line-height:100%;"><a HREF="https://www.v2ex.com/advertise" TARGET="_blank" STYLE="color:rgb(119, 128, 135);text-decoration:none;word-break:break-word;">广告</a></div>
+</div>
+</div>
+</div>
+<div STYLE="border-top-width:1px;border-top-style:solid;border-top-color:rgba(0, 0, 0, 0.22);background-color:rgb(255, 255, 255);text-align:center;color:rgb(153, 153, 153);padding-top:0px;padding-right:5px;padding-bottom:env(safe-area-inset-bottom);padding-left:5px;">
+<div STYLE="max-width:1100px;margin:0px auto;width:auto;min-width:310px;">
+<div STYLE="font-size:14px;line-height:150%;text-align:left;word-break:break-word;padding:5px;">
+<div STYLE="float:right;text-align:right;"><strong><a HREF="https://www.v2ex.com/about" STYLE="word-break:break-word;color:gray;text-decoration:none;">关于</a> &nbsp;&centerdot;&nbsp; <a HREF="https://www.v2ex.com/select/language" TITLE="Select Language" STYLE="word-break:break-word;color:gray;text-decoration:none;">Language</a></strong></div>
+&copy; 2022 V2EX &centerdot; 23ms &centerdot; 3.9.8.5
+</div>
+</div>
+</div>
+<div STYLE="box-sizing:border-box;"><div STYLE="max-width:100%;padding-top:10px;margin-top:0px;text-align:left;background-color:var(--box-background-color);color:var(--box-foreground-color);"></div></div>
+
+
+
+
+</div></div></div>
+</div>
+
+<br/></en-media></en-note>      

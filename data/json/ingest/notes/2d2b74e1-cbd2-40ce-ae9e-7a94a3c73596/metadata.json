@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a2a85f89-cac0-4c58-8556-28b4d2527bb6",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/boost with clang.html",
+    "collected_at": "2025-11-09T20:05:13.761047Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "300766aa8a0c434729700183028c4b7cf03b1e87e87adcded8836101ca89dfd2",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "2d2b74e1-cbd2-40ce-ae9e-7a94a3c73596",
+    "ingest_source_id": "a2a85f89-cac0-4c58-8556-28b4d2527bb6",
+    "canonical_title": "boost with clang",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.761050Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "boost with clang.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "35ea0ced-e732-4b97-82e1-d69e7110069f",
+      "note_id": "2d2b74e1-cbd2-40ce-ae9e-7a94a3c73596",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.761053Z",
+      "content": "---\ntitle: boost with clang\nupdated: 2017-11-24 07:21:53Z\ncreated: 2017-11-24 07:21:42Z\nauthor: tangyongfeng\n---\n\n\n<en-note><div>\n<div>./bootstrap.sh --with-toolset=clang</div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "300766aa8a0c434729700183028c4b7cf03b1e87e87adcded8836101ca89dfd2",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/boost with clang.html"
+      }
+    },
+    {
+      "id": "dfe6570e-eb1b-4917-94d6-33ab44e9ae70",
+      "note_id": "2d2b74e1-cbd2-40ce-ae9e-7a94a3c73596",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.761056Z",
+      "content": "---\ntitle: boost with clang\nupdated: 2017-11-24 07:21:53Z\ncreated: 2017-11-24 07:21:42Z\nauthor: tangyongfeng\n---\n\n./bootstrap.sh --with-toolset=clang",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 149,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b1fadd9e-219a-4d88-a064-97cdbc097718",
+    "note_id": "2d2b74e1-cbd2-40ce-ae9e-7a94a3c73596",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.761061Z",
+    "finished_at": "2025-11-09T20:05:13.761062Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a0fa4b7e-56a6-490d-be9d-b50f3d8bce37",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/boost with clang.html",
+      "checksum": "300766aa8a0c434729700183028c4b7cf03b1e87e87adcded8836101ca89dfd2"
+    },
+    "output_ref": {
+      "ingest_source": "a2a85f89-cac0-4c58-8556-28b4d2527bb6",
+      "note": "2d2b74e1-cbd2-40ce-ae9e-7a94a3c73596",
+      "variants": [
+        "35ea0ced-e732-4b97-82e1-d69e7110069f",
+        "dfe6570e-eb1b-4917-94d6-33ab44e9ae70"
+      ]
+    },
+    "error_detail": null
+  }
+}

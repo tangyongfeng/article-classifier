@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "a5c4c22d-d01f-4572-8c70-a3182b0fdcaa",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/ihr 四大用法总结.html",
+    "collected_at": "2025-11-09T20:05:17.931716Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "bb6dd62cc3bcff65ebfb7b3ddd974829bf2bd10d29b43f814a3aa34e48d54b17",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "97d60f96-bc0d-420b-9f59-2f5ae85266f8",
+    "ingest_source_id": "a5c4c22d-d01f-4572-8c70-a3182b0fdcaa",
+    "canonical_title": "ihr 四大用法总结",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:17.931719Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ihr 四大用法总结.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6d719bf0-2c40-4f4f-a663-36ea6cc28f72",
+      "note_id": "97d60f96-bc0d-420b-9f59-2f5ae85266f8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.931722Z",
+      "content": "---\ntitle: ihr 四大用法总结\nupdated: 2021-10-07 10:29:08Z\ncreated: 2021-10-07 10:08:18Z\n---\n\n\n<en-note><div>1、ihr&nbsp; 你们，作主语第一格，ihr 的第三格和第四格都是euch </div><div>&nbsp; Koennt ihr mir helfen ?</div><div><br/></div><div>Wann fliegt ihr nach Berlin ?</div><div><br/></div><div>Schmeckt euch das Essen ? </div><div>ich libe euch .</div><div><br/></div><div>2、ihr 她的，仅限于女性。在第一格时，ihr 负责阳性和中性，ihre负责阴性和复数</div><div>例如：</div><div><br/></div><div>阳性</div><div><br/></div><div>Ihr Mann ist etwa 50 Jahre alt. （第一格）</div><div>Das ist das neue Farhrad ihres&nbsp; Vater (第二格)</div><div>Das rote Auto gehoert ihrem Sohn.&nbsp; (第三格）</div><div>ich liebe ihren juengeren Brunder (第四格）</div><div><br/></div><div>中性</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bb6dd62cc3bcff65ebfb7b3ddd974829bf2bd10d29b43f814a3aa34e48d54b17",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/ihr 四大用法总结.html"
+      }
+    },
+    {
+      "id": "90ac9aeb-bc5f-4bb1-b9c8-9cd72e79abd0",
+      "note_id": "97d60f96-bc0d-420b-9f59-2f5ae85266f8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.931724Z",
+      "content": "---\ntitle: ihr 四大用法总结\nupdated: 2021-10-07 10:29:08Z\ncreated: 2021-10-07 10:08:18Z\n---\n\n1、ihr  你们，作主语第一格，ihr 的第三格和第四格都是euch\n  Koennt ihr mir helfen ?\nWann fliegt ihr nach Berlin ?\nSchmeckt euch das Essen ?\nich libe euch .\n2、ihr 她的，仅限于女性。在第一格时，ihr 负责阳性和中性，ihre负责阴性和复数\n例如：\n阳性\nIhr Mann ist etwa 50 Jahre alt. （第一格）\nDas ist das neue Farhrad ihres  Vater (第二格)\nDas rote Auto gehoert ihrem Sohn.  (第三格）\nich liebe ihren juengeren Brunder (第四格）\n中性",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 438,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "74a8507c-b122-4b88-8768-3037e9a36449",
+    "note_id": "97d60f96-bc0d-420b-9f59-2f5ae85266f8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.931729Z",
+    "finished_at": "2025-11-09T20:05:17.931729Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "776d8de2-9ebf-4539-be61-951fa4c59f68",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/ihr 四大用法总结.html",
+      "checksum": "bb6dd62cc3bcff65ebfb7b3ddd974829bf2bd10d29b43f814a3aa34e48d54b17"
+    },
+    "output_ref": {
+      "ingest_source": "a5c4c22d-d01f-4572-8c70-a3182b0fdcaa",
+      "note": "97d60f96-bc0d-420b-9f59-2f5ae85266f8",
+      "variants": [
+        "6d719bf0-2c40-4f4f-a663-36ea6cc28f72",
+        "90ac9aeb-bc5f-4bb1-b9c8-9cd72e79abd0"
+      ]
+    },
+    "error_detail": null
+  }
+}

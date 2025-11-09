@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "422cd4fe-e676-42a8-aa38-ae9eb58b08c4",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/有问题的知识库.html",
+    "collected_at": "2025-11-09T20:01:37.237511Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a15a56480ba3b472f5589eb4de4127d294e2aecab428c4eec96d40b8a0208852",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7972ce28-4b81-4ddb-b43f-16e69358b352",
+    "ingest_source_id": "422cd4fe-e676-42a8-aa38-ae9eb58b08c4",
+    "canonical_title": "有问题的知识库",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.237516Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "有问题的知识库.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "35b79829-e5fe-4093-97b7-dcd936f8aaa5",
+      "note_id": "7972ce28-4b81-4ddb-b43f-16e69358b352",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.237519Z",
+      "content": "---\ntitle: 有问题的知识库\nupdated: 2021-04-15 17:10:53Z\ncreated: 2021-04-09 22:11:05Z\n---\n\n\n<en-note><div><br/></div><div>57</div><div>90</div><div>62</div><div>98</div><div>80</div><div>161</div><div>182</div><div>126</div><div>86</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a15a56480ba3b472f5589eb4de4127d294e2aecab428c4eec96d40b8a0208852",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/有问题的知识库.html"
+      }
+    },
+    {
+      "id": "4676482f-e1b7-437c-8002-f5d5d6a680f0",
+      "note_id": "7972ce28-4b81-4ddb-b43f-16e69358b352",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.237522Z",
+      "content": "---\ntitle: 有问题的知识库\nupdated: 2021-04-15 17:10:53Z\ncreated: 2021-04-09 22:11:05Z\n---\n\n57\n90\n62\n98\n80\n161\n182\n126\n86",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 113,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "aa4872ec-b171-45eb-9b86-b027447127b0",
+    "note_id": "7972ce28-4b81-4ddb-b43f-16e69358b352",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.237527Z",
+    "finished_at": "2025-11-09T20:01:37.237527Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e69bd381-954e-4774-9f57-fd1af72f4556",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/有问题的知识库.html",
+      "checksum": "a15a56480ba3b472f5589eb4de4127d294e2aecab428c4eec96d40b8a0208852"
+    },
+    "output_ref": {
+      "ingest_source": "422cd4fe-e676-42a8-aa38-ae9eb58b08c4",
+      "note": "7972ce28-4b81-4ddb-b43f-16e69358b352",
+      "variants": [
+        "35b79829-e5fe-4093-97b7-dcd936f8aaa5",
+        "4676482f-e1b7-437c-8002-f5d5d6a680f0"
+      ]
+    },
+    "error_detail": null
+  }
+}

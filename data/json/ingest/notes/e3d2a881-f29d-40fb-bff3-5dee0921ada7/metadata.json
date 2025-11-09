@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "d3ea6cb9-6102-4112-86b7-1331253d30e7",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/vodafone   宽带服务密码.html",
+    "collected_at": "2025-11-09T20:01:38.404989Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "179daeb77a5fcf3ad4edef826b209e4f51733ee4c8d714997587743f2ca1d1a7",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e3d2a881-f29d-40fb-bff3-5dee0921ada7",
+    "ingest_source_id": "d3ea6cb9-6102-4112-86b7-1331253d30e7",
+    "canonical_title": "vodafone   宽带服务密码",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.404993Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "vodafone   宽带服务密码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "334d544a-afea-4a2b-8d8c-ffd511d7e4c0",
+      "note_id": "e3d2a881-f29d-40fb-bff3-5dee0921ada7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.404996Z",
+      "content": "---\ntitle: vodafone   宽带服务密码\nupdated: 2019-05-04 08:10:35Z\ncreated: 2019-05-04 08:10:35Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>vodafone <span>&nbsp;</span> <span>宽带服务密码</span></div>\n<div>abcdE12345</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "179daeb77a5fcf3ad4edef826b209e4f51733ee4c8d714997587743f2ca1d1a7",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/vodafone   宽带服务密码.html"
+      }
+    },
+    {
+      "id": "4236a845-c572-4b7e-8a40-6455dde45c62",
+      "note_id": "e3d2a881-f29d-40fb-bff3-5dee0921ada7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.404999Z",
+      "content": "---\ntitle: vodafone   宽带服务密码\nupdated: 2019-05-04 08:10:35Z\ncreated: 2019-05-04 08:10:35Z\nauthor: tangyongfeng@gmail.com\n---\n\nvodafone\n \n宽带服务密码\n\nabcdE12345",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 154,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8576a0e0-3d0b-47c3-8f88-6be962aa0a13",
+    "note_id": "e3d2a881-f29d-40fb-bff3-5dee0921ada7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.405004Z",
+    "finished_at": "2025-11-09T20:01:38.405004Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fe8cc446-1f37-4a20-bd8b-5882a1f77cce",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/vodafone   宽带服务密码.html",
+      "checksum": "179daeb77a5fcf3ad4edef826b209e4f51733ee4c8d714997587743f2ca1d1a7"
+    },
+    "output_ref": {
+      "ingest_source": "d3ea6cb9-6102-4112-86b7-1331253d30e7",
+      "note": "e3d2a881-f29d-40fb-bff3-5dee0921ada7",
+      "variants": [
+        "334d544a-afea-4a2b-8d8c-ffd511d7e4c0",
+        "4236a845-c572-4b7e-8a40-6455dde45c62"
+      ]
+    },
+    "error_detail": null
+  }
+}

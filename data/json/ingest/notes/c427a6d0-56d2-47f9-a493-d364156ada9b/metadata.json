@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ccea50ed-4c64-4eee-aaac-ba90c65363d8",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/20行Python搞定可转债回测.html",
+    "collected_at": "2025-11-09T20:01:39.296484Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "10e0bc8db3a4f3674afe1653b91b06722729a49672c0874b33f6cc3ff3669c0a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c427a6d0-56d2-47f9-a493-d364156ada9b",
+    "ingest_source_id": "ccea50ed-4c64-4eee-aaac-ba90c65363d8",
+    "canonical_title": "20行Python搞定可转债回测",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.296488Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "20行Python搞定可转债回测.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9a3059c3-c2a7-445e-8a30-1fb9915c47ae",
+      "note_id": "c427a6d0-56d2-47f9-a493-d364156ada9b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.296490Z",
+      "content": "---\ntitle: 20行Python搞定可转债回测\nupdated: 2021-05-30 21:15:47Z\ncreated: 2021-05-30 21:14:54Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "10e0bc8db3a4f3674afe1653b91b06722729a49672c0874b33f6cc3ff3669c0a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/20行Python搞定可转债回测.html"
+      }
+    },
+    {
+      "id": "38761acc-c674-4289-94a7-bb53f8b2e5fd",
+      "note_id": "c427a6d0-56d2-47f9-a493-d364156ada9b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.296493Z",
+      "content": "---\ntitle: 20行Python搞定可转债回测\nupdated: 2021-05-30 21:15:47Z\ncreated: 2021-05-30 21:14:54Z\nauthor: tangyongfeng@gmail.com\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 122,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c2b7c4bc-8e10-4baf-9e84-5e56294232e1",
+    "note_id": "c427a6d0-56d2-47f9-a493-d364156ada9b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.296498Z",
+    "finished_at": "2025-11-09T20:01:39.296498Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "32f1c3e4-b3cf-4858-9f22-ddd022a04549",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/20行Python搞定可转债回测.html",
+      "checksum": "10e0bc8db3a4f3674afe1653b91b06722729a49672c0874b33f6cc3ff3669c0a"
+    },
+    "output_ref": {
+      "ingest_source": "ccea50ed-4c64-4eee-aaac-ba90c65363d8",
+      "note": "c427a6d0-56d2-47f9-a493-d364156ada9b",
+      "variants": [
+        "9a3059c3-c2a7-445e-8a30-1fb9915c47ae",
+        "38761acc-c674-4289-94a7-bb53f8b2e5fd"
+      ]
+    },
+    "error_detail": null
+  }
+}

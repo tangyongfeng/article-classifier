@@ -1,0 +1,28 @@
+---
+title: freebsd port安装
+updated: 2017-12-17 10:07:13Z
+created: 2017-12-17 10:06:56Z
+author: tangyongfeng
+---
+
+
+<en-note><div>FreeBSD::ports::make参数说明，哈哈，很多地方都用到哦<br/>
+<code>make fetch # 只抓取软件包<br/>
+make extract # 只解开软件包<br/>
+make patch # 解开软件包并补上官方的patch<br/>
+make install # 安装一个新port<br/>
+make clean # 清除中间生成的文件<br/>
+make package # 将安装完的软件做成package<br/>
+make distclean # 全部删除，包括/usr/ports/distfiles下的源码包<br/>
+make all-depends-list&nbsp; # 显示所有相关的依赖<br/>
+make pretty-print-build-depends-list&nbsp; # 显示编译期间所需要的依赖<br/>
+make pretty-print-run-depends-list&nbsp; # 显示执行时需要的依赖<br/>
+make deinstall # 删除软件<br/>
+make deinstall-depends # 连同依赖一起删除<br/>
+pkg_version -c # 列出所有可升级的ports<br/>
+make PREFIX=/usr/local/XXX # 指定一个安装路径<br/>
+make showconfig make rmconfig<br/>
+make search key=XXXX # 查找ports<br/>
+make index # 更新index<br/>
+make fetchindex # 更新index</code></div><div>
+make readmes # 网页的方式察看</div></en-note>      

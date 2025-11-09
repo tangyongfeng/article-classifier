@@ -1,0 +1,189 @@
+{
+  "ingest_source": {
+    "id": "a9bbb92b-1f63-49de-a7c4-4608b53ca3cd",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/1.追求零库存。。。.html",
+    "collected_at": "2025-11-09T13:45:25.890836Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "6f253aaeffa5c0a3b70ea1eb872eed3cb09192ee6ae1de47b6cba1e83d4fc8b8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4dd0260a-c9ce-4561-86b8-bbc7336434d5",
+    "ingest_source_id": "a9bbb92b-1f63-49de-a7c4-4608b53ca3cd",
+    "canonical_title": "1.追求零库存。。。",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T13:45:25.890853Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "1.追求零库存。。。.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e41f48fe-43a1-4171-acce-52c0df32a853",
+      "note_id": "4dd0260a-c9ce-4561-86b8-bbc7336434d5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T13:45:25.890859Z",
+      "content": "---\ntitle: 1.追求零库存。。。\nupdated: 2019-05-19 20:22:06Z\ncreated: 2019-05-19 20:22:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><span>1.</span>追求零库存。。。</div>\n<div><span>2.</span>追求高速反应，实际上是以最快的反应速度来应对市场的瞬息变化。。。</div>\n<div><span>3.</span>企业内外环境高度一致。。。</div>\n<div><span>4.</span>强调人力资源重要性，把员工的创造力视为企业最宝贵财富以及未来的原动力。。。</div>\n<div><span>5.</span>坚持库存是祸根的理念，认为不断挤压的库存会增加经营成本、会掩盖企业的实际经营状况。。。<span><br/></span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6f253aaeffa5c0a3b70ea1eb872eed3cb09192ee6ae1de47b6cba1e83d4fc8b8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/1.追求零库存。。。.html"
+      }
+    },
+    {
+      "id": "2d73356a-0ff0-4015-81ab-2e5551b4fe00",
+      "note_id": "4dd0260a-c9ce-4561-86b8-bbc7336434d5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T13:45:25.890864Z",
+      "content": "---\ntitle: 1.追求零库存。。。\nupdated: 2019-05-19 20:22:06Z\ncreated: 2019-05-19 20:22:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n1.\n追求零库存。。。\n\n2.\n追求高速反应，实际上是以最快的反应速度来应对市场的瞬息变化。。。\n\n3.\n企业内外环境高度一致。。。\n\n4.\n强调人力资源重要性，把员工的创造力视为企业最宝贵财富以及未来的原动力。。。\n\n5.\n坚持库存是祸根的理念，认为不断挤压的库存会增加经营成本、会掩盖企业的实际经营状况。。。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 274
+      }
+    }
+  ],
+  "extractions": [
+    {
+      "id": "38a5c6cb-9020-4503-8369-583a586fc2a0",
+      "note_id": "4dd0260a-c9ce-4561-86b8-bbc7336434d5",
+      "extractor": "llm_enhance:v0#deepseek-v3.1:671b-cloud",
+      "payload": {
+        "summary": "企业应追求零库存和高速反应以应对市场变化，注重内外环境一致，强调人力资源和员工创造力，并将库存视为祸根。",
+        "keywords": [
+          "零库存",
+          "高速反应",
+          "内外环境一致",
+          "人力资源",
+          "库存祸根"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "deepseek-v3.1:671b-cloud"
+      },
+      "version": 1,
+      "created_at": "2025-11-09T14:25:35.938576Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.9
+    },
+    {
+      "id": "a03844ce-0915-44cb-bbac-bb873b7794aa",
+      "note_id": "4dd0260a-c9ce-4561-86b8-bbc7336434d5",
+      "extractor": "llm_enhance:v0#deepseek-v3.1:671b-cloud",
+      "payload": {
+        "summary": "笔记讨论企业管理核心：追求零库存以减少浪费，快速响应市场变化，保持内外环境一致，重视人力资源和员工创造力，并视库存为增加成本和掩盖问题的祸根。",
+        "keywords": [
+          "零库存",
+          "高速反应",
+          "环境一致",
+          "人力资源",
+          "库存祸根"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "deepseek-v3.1:671b-cloud"
+      },
+      "version": 2,
+      "created_at": "2025-11-09T14:35:04.089724Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.376
+    },
+    {
+      "id": "b0e6f8d3-91df-4291-9c5a-3de6f1fe501a",
+      "note_id": "4dd0260a-c9ce-4561-86b8-bbc7336434d5",
+      "extractor": "llm_enhance:v0#deepseek-v3.1:671b-cloud",
+      "payload": {
+        "summary": "笔记强调企业管理原则：追求零库存以减少成本，快速反应市场变化，保持内外环境一致，重视人力资源和员工创造力，并认为库存是经营问题的根源。",
+        "keywords": [
+          "零库存",
+          "高速反应",
+          "人力资源",
+          "员工创造力",
+          "库存管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "deepseek-v3.1:671b-cloud"
+      },
+      "version": 3,
+      "created_at": "2025-11-09T19:36:43.855599Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.369
+    }
+  ],
+  "journal": {
+    "id": "6d225f9b-d36d-4920-b615-2aec2834d6a0",
+    "note_id": "4dd0260a-c9ce-4561-86b8-bbc7336434d5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T13:45:25.890876Z",
+    "finished_at": "2025-11-09T13:45:25.890877Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "bb379cdd-0025-4410-b0b4-2b04491836e4",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/1.追求零库存。。。.html",
+      "checksum": "6f253aaeffa5c0a3b70ea1eb872eed3cb09192ee6ae1de47b6cba1e83d4fc8b8"
+    },
+    "output_ref": {
+      "ingest_source": "a9bbb92b-1f63-49de-a7c4-4608b53ca3cd",
+      "note": "4dd0260a-c9ce-4561-86b8-bbc7336434d5",
+      "variants": [
+        "e41f48fe-43a1-4171-acce-52c0df32a853",
+        "2d73356a-0ff0-4015-81ab-2e5551b4fe00"
+      ]
+    },
+    "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "deepseek-v3.1:671b-cloud",
+    "updated_at": "2025-11-09T19:36:43.854631Z",
+    "latency_seconds": 12.47040350001771,
+    "summary": {
+      "summary": "笔记强调企业管理原则：追求零库存以减少成本，快速反应市场变化，保持内外环境一致，重视人力资源和员工创造力，并认为库存是经营问题的根源。",
+      "keywords": [
+        "零库存",
+        "高速反应",
+        "人力资源",
+        "员工创造力",
+        "库存管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "deepseek-v3.1:671b-cloud"
+    },
+    "quality": {
+      "score": 0.369,
+      "metrics": {
+        "input_chars": 274.0,
+        "input_lines": 16.0,
+        "summary_chars": 67.0,
+        "summary_coverage_ratio": 0.245,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.4
+      }
+    }
+  }
+}

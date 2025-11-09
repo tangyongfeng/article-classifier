@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2f9cfe8f-9587-4059-8354-4b61b584b421",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/出发到达.html",
+    "collected_at": "2025-11-09T20:05:18.264532Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "b0f8d6eed614c240d093d056ca2280e3dd9cd8d178d0bf7ea8a90f2013609452",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f2df510e-4ae5-43f6-8e3e-f1ec97f63b54",
+    "ingest_source_id": "2f9cfe8f-9587-4059-8354-4b61b584b421",
+    "canonical_title": "出发到达",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.264535Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "出发到达.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0b07d2ea-be25-4374-a3e3-f34b21cb6286",
+      "note_id": "f2df510e-4ae5-43f6-8e3e-f1ec97f63b54",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.264538Z",
+      "content": "---\ntitle: 出发到达\nupdated: 2020-03-06 12:52:04Z\ncreated: 2020-03-06 12:50:21Z\n---\n\n\n\n<en-note><div>an/kommen &nbsp; &nbsp; &nbsp;Ankunft&nbsp;</div><div>ab/fahren. &nbsp; &nbsp; &nbsp; &nbsp;abfahrt</div><div>ab/fliegen &nbsp; &nbsp; &nbsp; &nbsp; abflug</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b0f8d6eed614c240d093d056ca2280e3dd9cd8d178d0bf7ea8a90f2013609452",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/出发到达.html"
+      }
+    },
+    {
+      "id": "7292fbf1-6c0d-4659-9035-d60f617feca8",
+      "note_id": "f2df510e-4ae5-43f6-8e3e-f1ec97f63b54",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.264540Z",
+      "content": "---\ntitle: 出发到达\nupdated: 2020-03-06 12:52:04Z\ncreated: 2020-03-06 12:50:21Z\n---\n\nan/kommen      Ankunft \nab/fahren.        abfahrt\nab/fliegen         abflug",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 156,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "43c990e2-71c8-4965-8e25-cff7c34f9e98",
+    "note_id": "f2df510e-4ae5-43f6-8e3e-f1ec97f63b54",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.264545Z",
+    "finished_at": "2025-11-09T20:05:18.264546Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "181b8006-14bf-424a-b88e-10b09a598b2d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/出发到达.html",
+      "checksum": "b0f8d6eed614c240d093d056ca2280e3dd9cd8d178d0bf7ea8a90f2013609452"
+    },
+    "output_ref": {
+      "ingest_source": "2f9cfe8f-9587-4059-8354-4b61b584b421",
+      "note": "f2df510e-4ae5-43f6-8e3e-f1ec97f63b54",
+      "variants": [
+        "0b07d2ea-be25-4374-a3e3-f34b21cb6286",
+        "7292fbf1-6c0d-4659-9035-d60f617feca8"
+      ]
+    },
+    "error_detail": null
+  }
+}

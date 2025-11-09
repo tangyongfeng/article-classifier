@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "71f2c3e9-fdd7-4285-ab5f-5c26ff4752bc",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/会议记录整理.html",
+    "collected_at": "2025-11-09T20:01:38.229624Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "845c531db5e7c4724df910335e66c386bf15c3c602b966e5ecbd3c642208b348",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0b3cf737-84a9-4aaf-b4f6-a1284efd7a95",
+    "ingest_source_id": "71f2c3e9-fdd7-4285-ab5f-5c26ff4752bc",
+    "canonical_title": "会议记录整理",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.229628Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "会议记录整理.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "96d6adb1-ce7c-46db-b464-c20c0c6100ed",
+      "note_id": "0b3cf737-84a9-4aaf-b4f6-a1284efd7a95",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.229631Z",
+      "content": "---\ntitle: 会议记录整理\nupdated: 2013-07-18 08:15:09Z\ncreated: 2013-07-18 05:29:22Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、现在全国都在做审核，上海也是在做，上海医保没有能力，将审核下方到医院，由医院做一部分工作。\n<div>2、现在的审核就是按照红头文件的规则的内容进行审核。</div><div>3、人社部的要求，执行最积极的是各地的社保，因为花钱的是他们。</div><div>4、在线分析引擎靠：本体库、术语库、规则库、制度库。术语库本身很庞大，按照国际通行的snomed CT(国际系统医学术语集〔Coding with Systematized Nomenclature of Medicine-Clinical Terminology(SNOMED-CT)〕）已经到了46万条。</div><div>5、为什么之前我们这件事情做了很多很久，为什么现在还没有大的进展？</div><div>&nbsp; &nbsp; &nbsp;&nbsp; 1.业务部门提出了需求，技术部门实现不了。北京就是这样。it人员和业务人员的结合有问题。</div><div>&nbsp; &nbsp; &nbsp; &nbsp;2.社保对审核的内容也有政治上的考量。例如针对肾衰竭病人。</div><div>&nbsp; &nbsp; &nbsp; &nbsp;3.最好做面广量大的事情。</div><div>6、诊疗人群下沉10%，整体医疗卫生费用节省3%</div><div>7、PBM的难点：</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 1.条件过滤。 &nbsp;&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 2.工具化。 &nbsp;&nbsp;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 3.特殊事件的处理。</div><div>8、在我们这个系统中，把电子病历看的很简单，只是一个模块。我们现在电子病历的使用不多的。主要的数据采集就在门诊医师工作站、住院医生工作站、护士工作站。</div><div>9、医保的管理逻辑思路：医保给一个总额预算，是按照诊疗人次和均次费用组合起来的，医院需要做的就是把诊疗人次和均次费用细分到每个科室去。</div><div>10、</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "845c531db5e7c4724df910335e66c386bf15c3c602b966e5ecbd3c642208b348",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/会议记录整理.html"
+      }
+    },
+    {
+      "id": "c4c38224-751f-44f9-aadc-9718ef25dbf7",
+      "note_id": "0b3cf737-84a9-4aaf-b4f6-a1284efd7a95",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.229633Z",
+      "content": "---\ntitle: 会议记录整理\nupdated: 2013-07-18 08:15:09Z\ncreated: 2013-07-18 05:29:22Z\n---\n\n1、现在全国都在做审核，上海也是在做，上海医保没有能力，将审核下方到医院，由医院做一部分工作。\n\n2、现在的审核就是按照红头文件的规则的内容进行审核。\n3、人社部的要求，执行最积极的是各地的社保，因为花钱的是他们。\n4、在线分析引擎靠：本体库、术语库、规则库、制度库。术语库本身很庞大，按照国际通行的snomed CT(国际系统医学术语集〔Coding with Systematized Nomenclature of Medicine-Clinical Terminology(SNOMED-CT)〕）已经到了46万条。\n5、为什么之前我们这件事情做了很多很久，为什么现在还没有大的进展？\n       1.业务部门提出了需求，技术部门实现不了。北京就是这样。it人员和业务人员的结合有问题。\n       2.社保对审核的内容也有政治上的考量。例如针对肾衰竭病人。\n       3.最好做面广量大的事情。\n6、诊疗人群下沉10%，整体医疗卫生费用节省3%\n7、PBM的难点：\n          1.条件过滤。   \n          2.工具化。   \n          3.特殊事件的处理。\n8、在我们这个系统中，把电子病历看的很简单，只是一个模块。我们现在电子病历的使用不多的。主要的数据采集就在门诊医师工作站、住院医生工作站、护士工作站。\n9、医保的管理逻辑思路：医保给一个总额预算，是按照诊疗人次和均次费用组合起来的，医院需要做的就是把诊疗人次和均次费用细分到每个科室去。\n10、",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 734,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "05e7e1e0-1611-44a9-927b-599022f95758",
+    "note_id": "0b3cf737-84a9-4aaf-b4f6-a1284efd7a95",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.229638Z",
+    "finished_at": "2025-11-09T20:01:38.229638Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "21793e9f-0c4c-4f2a-b08a-cfffaeaae041",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/会议记录整理.html",
+      "checksum": "845c531db5e7c4724df910335e66c386bf15c3c602b966e5ecbd3c642208b348"
+    },
+    "output_ref": {
+      "ingest_source": "71f2c3e9-fdd7-4285-ab5f-5c26ff4752bc",
+      "note": "0b3cf737-84a9-4aaf-b4f6-a1284efd7a95",
+      "variants": [
+        "96d6adb1-ce7c-46db-b464-c20c0c6100ed",
+        "c4c38224-751f-44f9-aadc-9718ef25dbf7"
+      ]
+    },
+    "error_detail": null
+  }
+}

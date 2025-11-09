@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1881c9bf-fa6e-4665-967e-d25171c224c7",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/笔记-2.html",
+    "collected_at": "2025-11-09T20:05:15.344806Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5ebea0520cb76cdf81b693a64476b75fd5f0c59d3475d8e3d33aca0b460aa154",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c6ec0943-8a6c-4124-8027-7d890dd7d241",
+    "ingest_source_id": "1881c9bf-fa6e-4665-967e-d25171c224c7",
+    "canonical_title": "笔记-2",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.344810Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-2.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c8885bd5-a271-4da5-9d69-60637bfde884",
+      "note_id": "c6ec0943-8a6c-4124-8027-7d890dd7d241",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.344812Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-12-19 02:34:41Z\ncreated: 2014-12-19 02:32:28Z\n---\n\n\n\n<en-note>明影科漫科技有限公司\n\n<div>在湖南搞了一个手机即开票叫锦绣中华</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5ebea0520cb76cdf81b693a64476b75fd5f0c59d3475d8e3d33aca0b460aa154",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/笔记-2.html"
+      }
+    },
+    {
+      "id": "f3828832-ed91-4a13-96b5-d7624cb8a6fe",
+      "note_id": "c6ec0943-8a6c-4124-8027-7d890dd7d241",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.344815Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-12-19 02:34:41Z\ncreated: 2014-12-19 02:32:28Z\n---\n\n明影科漫科技有限公司\n\n在湖南搞了一个手机即开票叫锦绣中华",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 108,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b9320771-4e5e-4799-8e8d-fe5a6250893f",
+    "note_id": "c6ec0943-8a6c-4124-8027-7d890dd7d241",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.344820Z",
+    "finished_at": "2025-11-09T20:05:15.344820Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3914d88f-bd04-4936-afe1-a4a215db5d17",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/笔记-2.html",
+      "checksum": "5ebea0520cb76cdf81b693a64476b75fd5f0c59d3475d8e3d33aca0b460aa154"
+    },
+    "output_ref": {
+      "ingest_source": "1881c9bf-fa6e-4665-967e-d25171c224c7",
+      "note": "c6ec0943-8a6c-4124-8027-7d890dd7d241",
+      "variants": [
+        "c8885bd5-a271-4da5-9d69-60637bfde884",
+        "f3828832-ed91-4a13-96b5-d7624cb8a6fe"
+      ]
+    },
+    "error_detail": null
+  }
+}

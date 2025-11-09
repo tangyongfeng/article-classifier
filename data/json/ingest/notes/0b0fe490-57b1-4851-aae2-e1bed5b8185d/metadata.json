@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "acee935f-55b4-4907-bd25-9921a2ffb67f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/主要三个数据库.html",
+    "collected_at": "2025-11-09T20:01:38.221249Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bca54b7e68df40201c0f31c0b24d75307d18ec0749cf8f49357cc8a052089a2a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0b0fe490-57b1-4851-aae2-e1bed5b8185d",
+    "ingest_source_id": "acee935f-55b4-4907-bd25-9921a2ffb67f",
+    "canonical_title": "主要三个数据库",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.221253Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "主要三个数据库.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dde13f30-de58-4727-9f75-72ccb15bbfb2",
+      "note_id": "0b0fe490-57b1-4851-aae2-e1bed5b8185d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.221255Z",
+      "content": "---\ntitle: 主要三个数据库\nupdated: 2013-07-07 14:27:40Z\ncreated: 2013-07-07 14:27:36Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n健康档案基础资源数据库\n<div>电子病历基础资源数据库</div><div>综合管理数据库。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bca54b7e68df40201c0f31c0b24d75307d18ec0749cf8f49357cc8a052089a2a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/主要三个数据库.html"
+      }
+    },
+    {
+      "id": "ced46562-404a-48f7-ae20-bfe01f566501",
+      "note_id": "0b0fe490-57b1-4851-aae2-e1bed5b8185d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.221258Z",
+      "content": "---\ntitle: 主要三个数据库\nupdated: 2013-07-07 14:27:40Z\ncreated: 2013-07-07 14:27:36Z\n---\n\n健康档案基础资源数据库\n\n电子病历基础资源数据库\n综合管理数据库。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 117,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e5f4bf4c-56b9-4479-a0c2-064e9566d0a9",
+    "note_id": "0b0fe490-57b1-4851-aae2-e1bed5b8185d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.221263Z",
+    "finished_at": "2025-11-09T20:01:38.221263Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8c81dacf-f1a5-44f8-b483-db92960751b7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/主要三个数据库.html",
+      "checksum": "bca54b7e68df40201c0f31c0b24d75307d18ec0749cf8f49357cc8a052089a2a"
+    },
+    "output_ref": {
+      "ingest_source": "acee935f-55b4-4907-bd25-9921a2ffb67f",
+      "note": "0b0fe490-57b1-4851-aae2-e1bed5b8185d",
+      "variants": [
+        "dde13f30-de58-4727-9f75-72ccb15bbfb2",
+        "ced46562-404a-48f7-ae20-bfe01f566501"
+      ]
+    },
+    "error_detail": null
+  }
+}

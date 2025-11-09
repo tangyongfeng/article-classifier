@@ -1,0 +1,256 @@
+---
+title: Apache性能基准测试
+updated: 2012-05-21 02:33:06Z
+created: 2012-05-21 02:31:52Z
+tags:
+  - 性能
+---
+
+
+
+
+<en-note STYLE="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+&nbsp;&nbsp;[root@jboss1 tmp]# /usr/local/apache2/bin/ab -n 10000 -c 20 http://192.168.28.22:7001/hello/helloServer<br/>
+This is ApacheBench, Version 2.3 &lt;$Revision: 655654 $&gt;<br/>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/<br/>
+Licensed to The Apache Software Foundation, http://www.apache.org/<br/><br/>
+Benchmarking 192.168.28.22 (be patient)<br/>
+Completed 1000 requests<br/>
+Completed 2000 requests<br/>
+Completed 3000 requests<br/>
+Completed 4000 requests<br/>
+Completed 5000 requests<br/>
+Completed 6000 requests<br/>
+Completed 7000 requests<br/>
+Completed 8000 requests<br/>
+Completed 9000 requests<br/>
+Completed 10000 requests<br/>
+Finished 10000 requests<br/><br/><br/>
+Server Software:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+Server Hostname:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.28.22<br/>
+Server Port:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7001<br/><br/>
+Document Path:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /hello/helloServer<br/>
+Document Length:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 bytes<br/><br/>
+Concurrency Level:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20<br/>
+Time taken for tests:&nbsp;&nbsp; 1.653 seconds<br/>
+Complete requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10000<br/>
+Failed requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Write errors:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Total transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1340129 bytes<br/>
+HTML transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50000 bytes<br/>
+Requests per second:&nbsp;&nbsp;&nbsp; 6048.45 [#/sec] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.307 [ms] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.165 [ms] (mean, across all concurrent requests)<br/>
+Transfer rate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 791.57 [Kbytes/sec] received<br/><br/>
+Connection Times (ms)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; min&nbsp; mean[+/-sd] median&nbsp;&nbsp; max<br/>
+Connect:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp; 0.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3<br/>
+Processing:&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 2.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 34<br/>
+Waiting:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 1.8&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 34<br/>
+Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 2.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 34<br/><br/>
+Percentage of the requests served within a certain time (ms)<br/>
+&nbsp; 50%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3<br/>
+&nbsp; 66%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3<br/>
+&nbsp; 75%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3<br/>
+&nbsp; 80%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4<br/>
+&nbsp; 90%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4<br/>
+&nbsp; 95%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4<br/>
+&nbsp; 98%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6<br/>
+&nbsp; 99%&nbsp;&nbsp;&nbsp;&nbsp; 13<br/>
+100%&nbsp;&nbsp;&nbsp;&nbsp; 34 (longest request)<br/><br/><br/><br/>
+[root@jboss1 tmp]# /usr/local/apache2/bin/ab -n 10000 -c 60 http://192.168.28.22:7001/hello/helloServer<br/>
+This is ApacheBench, Version 2.3 &lt;$Revision: 655654 $&gt;<br/>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/<br/>
+Licensed to The Apache Software Foundation, http://www.apache.org/<br/><br/>
+Benchmarking 192.168.28.22 (be patient)<br/>
+Completed 1000 requests<br/>
+Completed 2000 requests<br/>
+Completed 3000 requests<br/>
+Completed 4000 requests<br/>
+Completed 5000 requests<br/>
+Completed 6000 requests<br/>
+Completed 7000 requests<br/>
+Completed 8000 requests<br/>
+Completed 9000 requests<br/>
+Completed 10000 requests<br/>
+Finished 10000 requests<br/><br/><br/>
+Server Software:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+Server Hostname:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.28.22<br/>
+Server Port:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7001<br/><br/>
+Document Path:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /hello/helloServer<br/>
+Document Length:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 bytes<br/><br/>
+Concurrency Level:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60<br/>
+Time taken for tests:&nbsp;&nbsp; 1.554 seconds<br/>
+Complete requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10000<br/>
+Failed requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Write errors:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Total transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1340000 bytes<br/>
+HTML transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50000 bytes<br/>
+Requests per second:&nbsp;&nbsp;&nbsp; 6433.99 [#/sec] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9.325 [ms] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.155 [ms] (mean, across all concurrent requests)<br/>
+Transfer rate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 841.95 [Kbytes/sec] received<br/><br/>
+Connection Times (ms)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; min&nbsp; mean[+/-sd] median&nbsp;&nbsp; max<br/>
+Connect:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 1.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6<br/>
+Processing:&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 7&nbsp; 11.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp; 148<br/>
+Waiting:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 6&nbsp; 11.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp;&nbsp;&nbsp; 147<br/>
+Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp; 9&nbsp; 11.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp;&nbsp;&nbsp; 149<br/>
+WARNING: The median and mean for the initial connection time are not within a normal deviation<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; These results are probably not that reliable.<br/><br/>
+Percentage of the requests served within a certain time (ms)<br/>
+&nbsp; 50%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 8<br/>
+&nbsp; 66%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9<br/>
+&nbsp; 75%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9<br/>
+&nbsp; 80%&nbsp;&nbsp;&nbsp;&nbsp; 10<br/>
+&nbsp; 90%&nbsp;&nbsp;&nbsp;&nbsp; 11<br/>
+&nbsp; 95%&nbsp;&nbsp;&nbsp;&nbsp; 14<br/>
+&nbsp; 98%&nbsp;&nbsp;&nbsp;&nbsp; 20<br/>
+&nbsp; 99%&nbsp;&nbsp;&nbsp;&nbsp; 29<br/>
+100%&nbsp;&nbsp;&nbsp; 149 (longest request)<br/>
+[root@jboss1 tmp]#<br/><br/>
+[root@jboss1 tmp]# /usr/local/apache2/bin/ab -n 10000 -c 80 http://192.168.28.22:7001/hello/helloServer<br/>
+This is ApacheBench, Version 2.3 &lt;$Revision: 655654 $&gt;<br/>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/<br/>
+Licensed to The Apache Software Foundation, http://www.apache.org/<br/><br/>
+Benchmarking 192.168.28.22 (be patient)<br/>
+Completed 1000 requests<br/>
+Completed 2000 requests<br/>
+Completed 3000 requests<br/>
+Completed 4000 requests<br/>
+Completed 5000 requests<br/>
+Completed 6000 requests<br/>
+Completed 7000 requests<br/>
+Completed 8000 requests<br/>
+Completed 9000 requests<br/>
+Completed 10000 requests<br/>
+Finished 10000 requests<br/><br/><br/>
+Server Software:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+Server Hostname:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.28.22<br/>
+Server Port:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7001<br/><br/>
+Document Path:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /hello/helloServer<br/>
+Document Length:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 bytes<br/><br/>
+Concurrency Level:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 80<br/>
+Time taken for tests:&nbsp;&nbsp; 1.474 seconds<br/>
+Complete requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10000<br/>
+Failed requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Write errors:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Total transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1340000 bytes<br/>
+HTML transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50000 bytes<br/>
+Requests per second:&nbsp;&nbsp;&nbsp; 6785.82 [#/sec] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11.789 [ms] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.147 [ms] (mean, across all concurrent requests)<br/>
+Transfer rate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 887.99 [Kbytes/sec] received<br/><br/>
+Connection Times (ms)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; min&nbsp; mean[+/-sd] median&nbsp;&nbsp; max<br/>
+Connect:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 1.6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9<br/>
+Processing:&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 8&nbsp; 16.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp; 328<br/>
+Waiting:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 7&nbsp; 15.9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp;&nbsp;&nbsp; 327<br/>
+Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp; 11&nbsp; 16.5&nbsp;&nbsp;&nbsp;&nbsp; 10&nbsp;&nbsp;&nbsp;&nbsp; 332<br/><br/>
+Percentage of the requests served within a certain time (ms)<br/>
+&nbsp; 50%&nbsp;&nbsp;&nbsp;&nbsp; 10<br/>
+&nbsp; 66%&nbsp;&nbsp;&nbsp;&nbsp; 11<br/>
+&nbsp; 75%&nbsp;&nbsp;&nbsp;&nbsp; 12<br/>
+&nbsp; 80%&nbsp;&nbsp;&nbsp;&nbsp; 12<br/>
+&nbsp; 90%&nbsp;&nbsp;&nbsp;&nbsp; 14<br/>
+&nbsp; 95%&nbsp;&nbsp;&nbsp;&nbsp; 17<br/>
+&nbsp; 98%&nbsp;&nbsp;&nbsp;&nbsp; 25<br/>
+&nbsp; 99%&nbsp;&nbsp;&nbsp;&nbsp; 68<br/>
+100%&nbsp;&nbsp;&nbsp; 332 (longest request)<br/><br/>
+[root@jboss1 tmp]# /usr/local/apache2/bin/ab -n 10000 -c 100 http://192.168.28.22:7001/hello/helloServer<br/>
+This is ApacheBench, Version 2.3 &lt;$Revision: 655654 $&gt;<br/>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/<br/>
+Licensed to The Apache Software Foundation, http://www.apache.org/<br/><br/>
+Benchmarking 192.168.28.22 (be patient)<br/>
+Completed 1000 requests<br/>
+Completed 2000 requests<br/>
+Completed 3000 requests<br/>
+Completed 4000 requests<br/>
+Completed 5000 requests<br/>
+Completed 6000 requests<br/>
+Completed 7000 requests<br/>
+Completed 8000 requests<br/>
+Completed 9000 requests<br/>
+Completed 10000 requests<br/>
+Finished 10000 requests<br/><br/><br/>
+Server Software:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+Server Hostname:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.28.22<br/>
+Server Port:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7001<br/><br/>
+Document Path:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /hello/helloServer<br/>
+Document Length:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 bytes<br/><br/>
+Concurrency Level:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100<br/>
+Time taken for tests:&nbsp;&nbsp; 1.350 seconds<br/>
+Complete requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10000<br/>
+Failed requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Write errors:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Total transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1340268 bytes<br/>
+HTML transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50010 bytes<br/>
+Requests per second:&nbsp;&nbsp;&nbsp; 7406.07 [#/sec] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 13.502 [ms] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.135 [ms] (mean, across all concurrent requests)<br/>
+Transfer rate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 969.35 [Kbytes/sec] received<br/><br/>
+Connection Times (ms)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; min&nbsp; mean[+/-sd] median&nbsp;&nbsp; max<br/>
+Connect:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0&nbsp;&nbsp;&nbsp; 5&nbsp;&nbsp; 2.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11<br/>
+Processing:&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp; 3.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 79<br/>
+Waiting:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 8&nbsp;&nbsp; 3.4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 79<br/>
+Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 13&nbsp;&nbsp; 3.4&nbsp;&nbsp;&nbsp;&nbsp; 13&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 81<br/><br/>
+Percentage of the requests served within a certain time (ms)<br/>
+&nbsp; 50%&nbsp;&nbsp;&nbsp;&nbsp; 13<br/>
+&nbsp; 66%&nbsp;&nbsp;&nbsp;&nbsp; 14<br/>
+&nbsp; 75%&nbsp;&nbsp;&nbsp;&nbsp; 15<br/>
+&nbsp; 80%&nbsp;&nbsp;&nbsp;&nbsp; 15<br/>
+&nbsp; 90%&nbsp;&nbsp;&nbsp;&nbsp; 17<br/>
+&nbsp; 95%&nbsp;&nbsp;&nbsp;&nbsp; 19<br/>
+&nbsp; 98%&nbsp;&nbsp;&nbsp;&nbsp; 23<br/>
+&nbsp; 99%&nbsp;&nbsp;&nbsp;&nbsp; 27<br/>
+100%&nbsp;&nbsp;&nbsp;&nbsp; 81 (longest request)<br/><br/>
+[root@jboss1 tmp]# /usr/local/apache2/bin/ab -n 10000 -c 120 http://192.168.28.22:7001/hello/helloServer<br/>
+This is ApacheBench, Version 2.3 &lt;$Revision: 655654 $&gt;<br/>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/<br/>
+Licensed to The Apache Software Foundation, http://www.apache.org/<br/><br/>
+Benchmarking 192.168.28.22 (be patient)<br/>
+Completed 1000 requests<br/>
+Completed 2000 requests<br/>
+Completed 3000 requests<br/>
+Completed 4000 requests<br/>
+Completed 5000 requests<br/>
+Completed 6000 requests<br/>
+Completed 7000 requests<br/>
+Completed 8000 requests<br/>
+Completed 9000 requests<br/>
+Completed 10000 requests<br/>
+Finished 10000 requests<br/><br/><br/>
+Server Software:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br/>
+Server Hostname:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 192.168.28.22<br/>
+Server Port:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 7001<br/><br/>
+Document Path:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /hello/helloServer<br/>
+Document Length:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 bytes<br/><br/>
+Concurrency Level:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 120<br/>
+Time taken for tests:&nbsp;&nbsp; 1.389 seconds<br/>
+Complete requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10000<br/>
+Failed requests:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Write errors:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0<br/>
+Total transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1340134 bytes<br/>
+HTML transferred:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50005 bytes<br/>
+Requests per second:&nbsp;&nbsp;&nbsp; 7201.02 [#/sec] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16.664 [ms] (mean)<br/>
+Time per request:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0.139 [ms] (mean, across all concurrent requests)<br/>
+Transfer rate:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 942.42 [Kbytes/sec] received<br/><br/>
+Connection Times (ms)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; min&nbsp; mean[+/-sd] median&nbsp;&nbsp; max<br/>
+Connect:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp; 4&nbsp;&nbsp; 2.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12<br/>
+Processing:&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 13&nbsp;&nbsp; 8.5&nbsp;&nbsp;&nbsp;&nbsp; 12&nbsp;&nbsp;&nbsp;&nbsp; 109<br/>
+Waiting:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2&nbsp;&nbsp; 12&nbsp;&nbsp; 8.5&nbsp;&nbsp;&nbsp;&nbsp; 11&nbsp;&nbsp;&nbsp;&nbsp; 108<br/>
+Total:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 6&nbsp;&nbsp; 17&nbsp;&nbsp; 8.1&nbsp;&nbsp;&nbsp;&nbsp; 15&nbsp;&nbsp;&nbsp;&nbsp; 110<br/><br/>
+Percentage of the requests served within a certain time (ms)<br/>
+&nbsp; 50%&nbsp;&nbsp;&nbsp;&nbsp; 15<br/>
+&nbsp; 66%&nbsp;&nbsp;&nbsp;&nbsp; 17<br/>
+&nbsp; 75%&nbsp;&nbsp;&nbsp;&nbsp; 17<br/>
+&nbsp; 80%&nbsp;&nbsp;&nbsp;&nbsp; 18<br/>
+&nbsp; 90%&nbsp;&nbsp;&nbsp;&nbsp; 20<br/>
+&nbsp; 95%&nbsp;&nbsp;&nbsp;&nbsp; 23<br/>
+&nbsp; 98%&nbsp;&nbsp;&nbsp;&nbsp; 31<br/>
+&nbsp; 99%&nbsp;&nbsp;&nbsp;&nbsp; 78<br/><br/>
+100%&nbsp;&nbsp;&nbsp; 110 (longest request)
+</en-note>      

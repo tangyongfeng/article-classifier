@@ -1,0 +1,590 @@
+---
+title: WiFi有毒：如何建立一个自动文件下载的网络接入点 - FreeBuf.COM | 关注黑客与极客
+updated: 2015-12-13 12:14:21Z
+created: 2015-12-13 12:14:21Z
+source: http://www.freebuf.com/tools/88132.html
+---
+
+Toggle navigation
+
+关注黑客与极客
+
+首页
+
+分类阅读
+
+黑客
+
+漏洞
+
+安全工具
+
+WEB安全
+
+系统安全
+
+网络安全
+
+无线安全
+
+设备/客户端安全
+
+数据库安全
+
+安全管理
+
+极客
+
+极客有意思
+
+周边
+
+特色
+
+专题
+人物志
+活动
+视频
+观点
+招聘
+
+活动
+
+FreeBuf互联网安全创新大会
+
+进行中
+
+2016-01-08
+
+作者问答送书
+
+已结束
+
+2015-08-19
+
+WitAwards互联网安全年度评选
+
+进行中
+
+2015-12-25
+
+查看全部
+
+小酒馆
+
+公开课
+
+商城
+
+漏洞盒子
+
+注册
+
+登录
+
+ WiFi有毒：如何建立一个自动文件下载的网络接入点
+
+SecDarker
+
+2015-12-04
+
++8
+
+共
+85965
+人围观，发现
+10
+个不明物体
+
+工具
+
+免责声明：本文旨在分享技术进行安全学习，禁止非法利用。
+
+本文中我将完整的阐述如何通过建立一个非常邪恶的网络接入点来使得用户进行自动文件下载。
+整个过程中我将使用 Nexus 9 来运行Kali NetHunter 2.0
+，并使用TP-LINK TLWN722N (150Mbps 版本)作为我的二级网络接口。
+
+工具（下载地址见文末）
+
+Mana – 恶意接入点工具包。它能够实现比Karma （Freebuf相关介绍：
+http://www.freebuf.com/articles/77055.html
+）攻击的更高级版本，相对而言最显著的变化就是Mana可以响应其他的AP广播，而不是像Karma这样只是探测设备，但其最终的目标仍然还是欺骗用户连接到自己设置的AP上。此外，它还有许多新奇的邪恶的AP欺骗技巧。
+
+（关于该工具的详细内容，建议可以看看Defcon 22 Talk 的内容，该工具就是在这里发布的。
+https://cyberarms.wordpress.com/2014/10/16/mana-tutorial-the-intelligent-rogue-wi-fi-router/
+）
+
+BackdoorFactory BDFProxy—— 被用于通过中间人攻击快速写入恶意payload。
+
+一个错误的开始
+
+这里由于我也希望可以向受害者提供互联网接入，从而可以在他们下载时部署我的后门，所以我还需要 Nexus 9的另一个wifi接口。权衡之后，我选择了低功耗并且能与kali兼容的TP-LINK TLWN722N（支持数据包注入）。
+
+打开kali的NetHunter工具，以下是其导航目录：
+
+Kali NetHunter 自带的Mana已经安装并准备好了，但是我并不能一键启动。
+
+这时我就想，我是不是做错了什么？
+
+而当我开始选择BDF选项时，甚至还出现了一个bdfproxy.cfg窗口。
+
+即使是在我从eth0 切换到了 wlan1 并且反复检查了配置文件中的dhcpd 设置后，它仍不能正常运行，而且无法在日志中找到任何有关Mana 或者BDFProxy的记录。
+
+于是我只好跑去玩了会游戏—。—
+
+配置
+
+接下来我进入了Mana的文件夹好好的摸索了一番：
+
+啊哈，start-nat-simple-bdf-lollipop.sh 貌似有点戏，打开看看：
+
+实际上，令人感到奇怪的是这文件的一切操作看起来都很简单。我永远都不知道在使用新工具的时候会发生什么事。这些操作是给设备分配一些变量，开启转发功能，启动一个接入点和DHCP，修改iptables的配置。
+
+这里有提到一些配置文件，必须确保它们没有任何问题。
+
+第一个是 /etc/mana-toolkit/hostapd-karma.confg：
+
+然后检查 /etc/mana-toolkit/dhcpd.conf:
+
+看起来我们正在使用谷歌的DNS，并且客户端的ip设置在10.0.0.0/24范围内。Cool beans（棒极了~）
+
+继续检查在 /etc/bdfproxy/bdfproxy.cfg 下的BDFProxy配置文件（以下截图是配置文件中的主要部分）：
+
+看起来这里很有问题，这里配置的IP是反向Shells (192.168.1.168 和192.168.1.16) 需要连接的目的地址。根据dhcpd.conf （DNS配置）的设置，我们当前的设置是不正确的，我们应该在dhcpd.conf中指定路由器的IP， 使得所有的客户机指向10.0.0.1
+
+可以使用SED命令来进行更换：
+
+看下修改配置前后两个文件的差别：
+
+可以看到所有的192.168.1.16都改成了10.0.0.1
+
+启动这台机器
+
+现在是时候启用Mana了：
+
+打开一个新的终端并启动BDFProxy：
+
+BDFProxy开启后，它就会创建一个 Metasploit源文件。一开始该文源件存在的地方并不明显—— 不在/etc/bdfproxy/，而是在
+
+/usr/share/bdfproxy/bdfproxy_msf_resource.rc
+
+该源文件将可以帮助我们处理反向Shells的链接，这时打开另一台终端，启动Metasploit工具：
+
+被Metasploit启动后，我们可以看到该源文件被加载了。
+
+这里我被卡了一下，虽然一切看起来都是正常的——Mana创建了一个AP，我可以连接并访问网络，通过Mana设置的 Iptables 可以正确的将我的流量从80端口转发到 BDFProxy正在监听的8080端口。但问题是BDFProxy是一个不透明的代理连接（mitmproxy下实际上是失败的），在我用笔记本电脑测试机连接到这个恶意AP时，我在所有的HTTP连接时都得到了这个错误：
+
+HttpError('Invalid HTTP request form (expected: absolute, got: relative)',)
+
+这时，我才发现我忘了修改bdfproxy.cfg的默认设置：
+
+需要将其改为：
+
+在此之后，bdfproxy.cfg将能够正常工作。我将我的笔记本连接到AP上，然后通过HTTP进行文件下载。我尝试下载了 Audacity、也测试下载了 Putty 和 PSFTP。
+
+在下载时，BDFProxy会hook这些下载请求，然后自动将恶意代码插入到这些下载的工具中。
+
+对于可执行文件的格式，它不仅适用于Windows EXE/ PE的，而且在Linux ELF和Mach-O下也可以（这意味着你可以使用OS X！） ，
+
+BDF Proxy 是怎样进行工作的，做了什么？
+
+在BDFProxy的配置文件/etc/bdfproxy/bdfproxy.cfg中你可以看到为了支持该可执行架构，其各个部分都包含了PATCH_TYPE和PATCH_METHOD：
+
+在让被注入了恶意代码的工具运行时我遇到了一些问题。这里我建议所有遇到该问题的人可以进行apt-get更新以及通过使用不同的 PATCH_TYPE 和PATCH_METHOD 选项。
+
+而在对这些选项进行深入时，必须要理解 BDFProxy 是怎样将我们的shellcode 增加到二进制文件的。这里我们还要先了解什么是二进制文件中的代码空区，SecureIdeas blog（链接：https://blog.secureideas.com/2015/05/patching-binaries-with-backdoor-factory.html）中利用BDF注入二进制文件的一篇文章对其进行了最简洁的解释：
+
+代码空区是代码编译的产物。在某些时间中，代码编译器不得不通过填充一系列的0×00字节来填充某些区域。因此BDF 可以重写恶意代码到这些代码空区，并且因为是利用的已存在的空间，所以在你使用BDF时，不会发现文件的大小有变化。
+
+补丁类型/修补方法
+
+在BDFProxy中我们已经可以了解到PATCH _TYPEs 和 PATCH_METHODs的不同：
+
+OnionDuke？
+
+我没有用过onionduke攻击方法，也没有理由/欲望去对Tor出口节点进行投毒。这就是说，onionduke并不仅仅是被用于作为攻击向量。如果你的投毒目标有提防在下载文件时被做手脚，并且会对下载文件进行检查，这时使用onionduke攻击就会是一个不错的选择！
+
+更多关于onionduke攻击的说明，请看2015黑帽大会上，BDF/BDFProxy 工具的作者的
+ppt
+！
+
+关于oninonduke攻击，Freebuf之前有过相关的报道也可进行参考：
+http://www.freebuf.com/news/52056.html
+
+看完文章，赶快自己动手体验一下那种biubiu的快感吧—。—
+
+工具地址：
+
+mana：
+https://github.com/sensepost/mana
+
+BackdoorFactory BDFProxy：
+https://github.com/secretsquirrel/BDFProxy
+
+* 原文地址：
+decidedlygray
+，
+decidedlygray
+，转载请注明来自FreeBuf黑客与极客（FreeBuf.COM）
+
+收藏该文
+
+SecDarker
+
+4
+篇文章
+等级：
+3
+级
+
+欢迎搜索关注微信公众号SecDarker，这是个神奇的公众号。
+
+个人主页
+
+发私信
+
+上一篇：
+CI工具一周课程Day 1：Jenkins
+
+下一篇：
+
+Wordbrutepress：针对WordPress XML-RPC的大型暴力破解测试工具
+
+这些评论亮了
+
+ xxoo
+
+回复
+
+ 中招原理呢？客户端下载显不显呢？
+
+)
+7
+(
+
+亮了
+
+ 九十年代-
+
+回复
+
+ 不明觉厉
+
+)
+7
+(
+
+亮了
+
+ egovt jobs adda
+
+回复
+
+ Awesome information and thanks..
+http://egovtjobs.in/
+<a href="http://egovtjobs.in/"> Latest govt Jobs </a>
+
+)
+7
+(
+
+亮了
+
+Simple4Wan
+
+(2级)
+
+回复
+
+ <code>整个过程中我将使用Kali NetHunter 2.0 来运行 Nexus 9，</code> 神翻译...
+
+)
+7
+(
+
+亮了
+
+SecDarker
+
+(3级)
+
+欢迎搜索关注微信公众号SecDarker，这是个神奇的公众号...
+
+回复
+
+ @ Simple4Wan  感谢指正
+
+)
+7
+(
+
+亮了
+
+发表评论
+
+已有
+10
+ 条评论
+     
+ 九十年代-
+
+ 2015-12-04
+
+回复
+
+1楼
+
+不明觉厉
+
+亮了
+(
+7
+)
+
+ egovt jobs adda
+
+ 2015-12-04
+
+回复
+
+2楼
+
+Awesome information and thanks..
+
+http://egovtjobs.in/
+
+<a href="http://egovtjobs.in/"> Latest govt Jobs </a>
+
+亮了
+(
+7
+)
+
+Simple4Wan 
+
+(2级)
+
+ 2015-12-04
+
+回复
+
+3楼
+
+<code>整个过程中我将使用Kali NetHunter 2.0 来运行 Nexus 9，</code> 神翻译…
+
+亮了
+(
+7
+)
+
+SecDarker 
+
+(3级)
+
+ 欢迎搜索关注微信公众号SecDarker，这是个神奇的公众号...
+
+ 2015-12-04
+
+回复
+
+@ Simple4Wan  感谢指正
+
+亮了
+(
+7
+)
+
+ xx
+
+ 2015-12-04
+
+回复
+
+4楼
+
+这种东西好多年前 国家队 就已经在用了 ，某开发同学还在他Blog 上提到过。
+
+亮了
+(
+7
+)
+
+ 我一般先看评论
+
+ 2015-12-05
+
+回复
+
+5楼
+
+我一般开着WiFi。不插网线。
+
+亮了
+(
+7
+)
+
+ 还把好吧
+
+ 2015-12-05
+
+回复
+
+6楼
+
+wife有毒
+
+亮了
+(
+7
+)
+
+ ooxx
+
+ 2015-12-05
+
+回复
+
+7楼
+
+又被。。。。
+
+亮了
+(
+7
+)
+
+ 1122
+
+ 2015-12-05
+
+回复
+
+8楼
+
+wife
+
+亮了
+(
+7
+)
+
+ xxoo
+
+ 2015-12-06
+
+回复
+
+9楼
+
+中招原理呢？客户端下载显不显呢？
+
+亮了
+(
+7
+)
+
+昵称
+
+必须
+您当前尚未登录。
+登陆？
+注册
+
+邮箱
+
+必须（保密）
+
+表情
+插图
+
+取消
+
+有人回复时邮件通知我
+
+Loading...
+
+SecDarker
+
+欢迎搜索关注微信公众号SecDarker，这是个神奇的公众号。
+
+4篇文章
+3条评论
+
+相关阅读
+
+批量Webshell管理工具QuasiBot之后门代码分析
+
+Fing：这款APP可以告诉你WiFi里都连着哪些设备
+
+[汉化并修复]渗透测试框架winAUTOPWN v3.2
+
+轻量级社工钓鱼框架SPF (SpeedPhish Framework)
+
+Android渗透测试神器新版dSploit v1.0.23b发布
+
+特别推荐
+
+关注我们  分享每日精选文章
+
+不容错过
+
+【微博直播】首届CSS峰会：关注企业信息安全，百位CTO闭门探讨“2016第一步”
+
+路由器
+
+2015-11-02
+
+大数据安全分析：我们从日志中得到的（二）
+
+linxinsnow
+
+2014-02-26
+
+“海莲花”APT报告：攻击中国政府海事机构的网络空间威胁
+
+360安全卫士
+
+2015-05-29
+
+【视频回播已更新】FreeBuf公开课（直播课程）：突破延时注入的时间限制
+
+banish
+
+2015-08-28
+
+FREEBUF
+
+免责声明
+
+关于我们
+
+加入我们
+
+捐助我们
+
+广告及服务
+
+寻求报道
+
+广告合作
+
+联系我们
+
+友情链接
+
+关注我们
+
+官方微信
+
+新浪微博
+
+腾讯微博
+
+Twitter
+
+赞助商
+
+Copyright © 2013 WWW.FREEBUF.COM All Rights Reserved 沪ICP备13033796号
+
+正在加载中...

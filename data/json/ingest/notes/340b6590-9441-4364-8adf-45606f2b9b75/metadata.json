@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4178a069-09c4-4ea0-95aa-97f2334eb53e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/东华科技.html",
+    "collected_at": "2025-11-09T20:05:18.483134Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "b847e2e15e1f0cd46cd8edaccca65c200d815ab45c18c7dfecd390e2e24bfe44",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "340b6590-9441-4364-8adf-45606f2b9b75",
+    "ingest_source_id": "4178a069-09c4-4ea0-95aa-97f2334eb53e",
+    "canonical_title": "东华科技",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.483138Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "东华科技.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5b3face8-0535-45e1-95af-4b3fe52f14f3",
+      "note_id": "340b6590-9441-4364-8adf-45606f2b9b75",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.483141Z",
+      "content": "---\ntitle: 东华科技\nupdated: 2013-09-26 09:28:55Z\ncreated: 2013-09-26 09:27:21Z\ntags:\n  - 盈利率0\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n9月26日 &nbsp; 跌至2012年最低点，下一最低点是19.81\n<div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;涉及到中石油窝案</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b847e2e15e1f0cd46cd8edaccca65c200d815ab45c18c7dfecd390e2e24bfe44",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/东华科技.html"
+      }
+    },
+    {
+      "id": "382edadf-c0fc-48e1-92a4-b9aff3159c66",
+      "note_id": "340b6590-9441-4364-8adf-45606f2b9b75",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.483143Z",
+      "content": "---\ntitle: 东华科技\nupdated: 2013-09-26 09:28:55Z\ncreated: 2013-09-26 09:27:21Z\ntags:\n  - 盈利率0\n---\n\n9月26日   跌至2012年最低点，下一最低点是19.81\n\n          涉及到中石油窝案",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 146,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "83e95960-45c9-421d-a0d9-5a415f5dc855",
+    "note_id": "340b6590-9441-4364-8adf-45606f2b9b75",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.483148Z",
+    "finished_at": "2025-11-09T20:05:18.483148Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "50e3c492-3b0c-4916-9df1-f1634654b13a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/东华科技.html",
+      "checksum": "b847e2e15e1f0cd46cd8edaccca65c200d815ab45c18c7dfecd390e2e24bfe44"
+    },
+    "output_ref": {
+      "ingest_source": "4178a069-09c4-4ea0-95aa-97f2334eb53e",
+      "note": "340b6590-9441-4364-8adf-45606f2b9b75",
+      "variants": [
+        "5b3face8-0535-45e1-95af-4b3fe52f14f3",
+        "382edadf-c0fc-48e1-92a4-b9aff3159c66"
+      ]
+    },
+    "error_detail": null
+  }
+}

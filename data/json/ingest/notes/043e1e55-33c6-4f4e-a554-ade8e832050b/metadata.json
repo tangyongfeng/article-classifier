@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "ec2a1af3-3d89-4a8b-b09d-6c7400859a98",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/海通证券账户.html",
+    "collected_at": "2025-11-09T20:05:18.669857Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "a7304c3341aae4c31e08d32048270a6d398cd16be9e0a5de2b59a57f6fb98973",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "043e1e55-33c6-4f4e-a554-ade8e832050b",
+    "ingest_source_id": "ec2a1af3-3d89-4a8b-b09d-6c7400859a98",
+    "canonical_title": "海通证券账户",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.669860Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "海通证券账户.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dae556e9-3fb5-4c8b-8a42-898c6bbb37fd",
+      "note_id": "043e1e55-33c6-4f4e-a554-ade8e832050b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.669863Z",
+      "content": "---\ntitle: 海通证券账户\nupdated: 2021-06-22 13:52:32Z\ncreated: 2021-06-21 16:13:09Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note><div>密码：852961</div><div><br/></div><div><br/></div><div>尊敬的客户，恭喜您开户成功，资金账号为：4920033838,一码通账号为:180047887222，您的风险测评等级为C4。即刻下载e海通财APP，进入&ldquo;理财&rdquo;专区领取您的新客专享福利吧！随行体验更快交易服务 <a HREF=\"http://t.cn/R7ziG6N\">http://t.cn/R7ziG6N</a>。您还可关注微信「haitongsec」，免费订阅新股申购中签提醒，如有疑问详询95553、02195553【海通证券】</div><div><br/></div><div>尊敬的客户，恭喜您开户成功，资金账号为：4920033838，沪A证券账户：A319704887，深A证券账户：0317942949，本次业务见证人员郭楠，您可以通过中国证券业协会网站、海通官网、客服热线（95553）核实见证人员身份及执业资格。您所选择的第三方存管银行为招商银行，首笔银证转账需要通过银行端发起，可使用该银行手机银行、网银等方式办理。即刻下载e海通财APP，进入&ldquo;理财&rdquo;专区领取您的新客专享福利吧！随行体验更快交易服务 <a HREF=\"http://t.cn/R7ziG6N\">http://t.cn/R7ziG6N</a>。您还可关注微信「haitongsec」，免费订阅新股申购中签提醒，如有疑问详询95553、02195553【海通证券】</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a7304c3341aae4c31e08d32048270a6d398cd16be9e0a5de2b59a57f6fb98973",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/海通证券账户.html"
+      }
+    },
+    {
+      "id": "78ff4058-5bd6-4142-8a6f-a66cb8a95f7a",
+      "note_id": "043e1e55-33c6-4f4e-a554-ade8e832050b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.669865Z",
+      "content": "---\ntitle: 海通证券账户\nupdated: 2021-06-22 13:52:32Z\ncreated: 2021-06-21 16:13:09Z\nauthor: tangyongfeng@gmail.com\n---\n\n密码：852961\n尊敬的客户，恭喜您开户成功，资金账号为：4920033838,一码通账号为:180047887222，您的风险测评等级为C4。即刻下载e海通财APP，进入“理财”专区领取您的新客专享福利吧！随行体验更快交易服务\nhttp://t.cn/R7ziG6N\n。您还可关注微信「haitongsec」，免费订阅新股申购中签提醒，如有疑问详询95553、02195553【海通证券】\n尊敬的客户，恭喜您开户成功，资金账号为：4920033838，沪A证券账户：A319704887，深A证券账户：0317942949，本次业务见证人员郭楠，您可以通过中国证券业协会网站、海通官网、客服热线（95553）核实见证人员身份及执业资格。您所选择的第三方存管银行为招商银行，首笔银证转账需要通过银行端发起，可使用该银行手机银行、网银等方式办理。即刻下载e海通财APP，进入“理财”专区领取您的新客专享福利吧！随行体验更快交易服务\nhttp://t.cn/R7ziG6N\n。您还可关注微信「haitongsec」，免费订阅新股申购中签提醒，如有疑问详询95553、02195553【海通证券】",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 610,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "dee93bdc-95f3-48f8-b61d-1caa07b7529f",
+    "note_id": "043e1e55-33c6-4f4e-a554-ade8e832050b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.669870Z",
+    "finished_at": "2025-11-09T20:05:18.669870Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fe540920-d08c-438b-af25-bf1d9e4eb4dd",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/海通证券账户.html",
+      "checksum": "a7304c3341aae4c31e08d32048270a6d398cd16be9e0a5de2b59a57f6fb98973"
+    },
+    "output_ref": {
+      "ingest_source": "ec2a1af3-3d89-4a8b-b09d-6c7400859a98",
+      "note": "043e1e55-33c6-4f4e-a554-ade8e832050b",
+      "variants": [
+        "dae556e9-3fb5-4c8b-8a42-898c6bbb37fd",
+        "78ff4058-5bd6-4142-8a6f-a66cb8a95f7a"
+      ]
+    },
+    "error_detail": null
+  }
+}

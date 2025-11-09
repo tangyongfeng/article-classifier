@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d94bf2d9-6102-49b4-840d-bda6e12d076b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/用户盛赞的口碑交易API接口清单.html",
+    "collected_at": "2025-11-09T20:01:39.615844Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c56dbda785ce109bfda8dfc4548d0cf69a514711f0e41c5d7befdbf0c775f7c3",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "22664a4b-6178-4efd-a448-4269765858fa",
+    "ingest_source_id": "d94bf2d9-6102-49b4-840d-bda6e12d076b",
+    "canonical_title": "用户盛赞的口碑交易API接口清单",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.615850Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "用户盛赞的口碑交易API接口清单.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "fc95e4e7-c508-4a24-96e4-760fe40c06d2",
+      "note_id": "22664a4b-6178-4efd-a448-4269765858fa",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.615853Z",
+      "content": "---\ntitle: 用户盛赞的口碑交易API接口清单\nupdated: 2022-09-16 09:01:08Z\ncreated: 2022-09-07 09:08:53Z\n---\n\n\n<en-note><div STYLE=\"text-align:start;margin-top:22px;\"><span STYLE=\"color:rgb(18, 18, 18);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></div><div><br/></div><div>让我们先看一组高质量的免费或高性价比的股票API接口服务商：</div><div><br/></div><div><br/></div><div>- Finnhub.io;</div><div>- IEX;</div><div>- Worldtradingdata;</div><div>- Quandl;</div><div>- Intrinio;</div><div>- Alpha vantage;</div><div>- EODhistoricaldata;</div><div>- Tiingo;</div><div>- Barchart On Demand</div><div><br/></div><div><br/></div><div>以下的交易API接口提供商则收费价格相对较高：</div><div><br/></div><div><br/></div><div>- Polygon.io;</div><div>- IQFeed;</div><div>- Active tick;</div><div>- Tickdata</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c56dbda785ce109bfda8dfc4548d0cf69a514711f0e41c5d7befdbf0c775f7c3",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/用户盛赞的口碑交易API接口清单.html"
+      }
+    },
+    {
+      "id": "8f6df000-6f79-4146-82dc-bc1e0357c82a",
+      "note_id": "22664a4b-6178-4efd-a448-4269765858fa",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.615857Z",
+      "content": "---\ntitle: 用户盛赞的口碑交易API接口清单\nupdated: 2022-09-16 09:01:08Z\ncreated: 2022-09-07 09:08:53Z\n---\n\n让我们先看一组高质量的免费或高性价比的股票API接口服务商：\n- Finnhub.io;\n- IEX;\n- Worldtradingdata;\n- Quandl;\n- Intrinio;\n- Alpha vantage;\n- EODhistoricaldata;\n- Tiingo;\n- Barchart On Demand\n以下的交易API接口提供商则收费价格相对较高：\n- Polygon.io;\n- IQFeed;\n- Active tick;\n- Tickdata",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 329,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3c7b95a8-aaa0-4ef1-a548-c70a90daa536",
+    "note_id": "22664a4b-6178-4efd-a448-4269765858fa",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.615863Z",
+    "finished_at": "2025-11-09T20:01:39.615863Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6072d0b5-5941-4b12-b0d8-7d20a42808d7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/用户盛赞的口碑交易API接口清单.html",
+      "checksum": "c56dbda785ce109bfda8dfc4548d0cf69a514711f0e41c5d7befdbf0c775f7c3"
+    },
+    "output_ref": {
+      "ingest_source": "d94bf2d9-6102-49b4-840d-bda6e12d076b",
+      "note": "22664a4b-6178-4efd-a448-4269765858fa",
+      "variants": [
+        "fc95e4e7-c508-4a24-96e4-760fe40c06d2",
+        "8f6df000-6f79-4146-82dc-bc1e0357c82a"
+      ]
+    },
+    "error_detail": null
+  }
+}

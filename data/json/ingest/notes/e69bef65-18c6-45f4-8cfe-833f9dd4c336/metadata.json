@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b5b6b9d0-c0f4-4cee-9cc6-0afcaf94cef8",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/需求讨论会.html",
+    "collected_at": "2025-11-09T20:05:17.435937Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c8158e11476bf3a5ba2fa7860d373f6f708ec82cea9dd66e41c4a4c98eb0d997",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e69bef65-18c6-45f4-8cfe-833f9dd4c336",
+    "ingest_source_id": "b5b6b9d0-c0f4-4cee-9cc6-0afcaf94cef8",
+    "canonical_title": "需求讨论会",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.435941Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "需求讨论会.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "697de6a1-e8d3-43af-abfa-2d92d9d74201",
+      "note_id": "e69bef65-18c6-45f4-8cfe-833f9dd4c336",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.435943Z",
+      "content": "---\ntitle: 需求讨论会\nupdated: 2013-07-10 03:34:36Z\ncreated: 2013-07-10 01:56:44Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n商业模式\n<div>五个阶段</div><div>软件 服务 门户 渠道 险种</div><div><br/></div><div>门户：</div><div>现在病人没有对应的网络服务。新闻可以去yahoo买东西可以去amazon。他们为什么不做，是因为他们不懂人不懂货.</div><div>esi做的成功就是因为他在处方药方面做得很成功。</div><div>我们希望做的就是面向老百姓的医药需求，无论他需要什么样的医疗需求，我们都能提供给他们。例如电子医疗设备的数据上传。在一定程度上代替家庭医生。几乎100%的家庭都有老慢病患者。</div><div>我们的目标人群是所有的人，覆盖到每一个推广或者试点城市的人群。</div><div><br/></div><div>门户转化渠道</div><div>十病百药==反复重复吃的药</div><div><b>真正的医药分家:</b></div><div>只分出去医院<u>不用紧密参与</u>的药品。只要开药的权利在医生手里，医生就是权利人。</div><div><br/></div><div><b>把三分之一的慢性病药品不用医生干预的药分离出去。。由计算机管理</b></div><div><br/></div><div>药品的流通不再需要经过医生了。建立一个独立的业务渠道。</div><div>第一次生成处方----〉持续更新</div><div>电商需要对患者信息的分析和未来购买倾向的掌握。</div><div><br/></div><div>药品精细管理：</div><div>有25%的药品都是浪费了，其中有很多的原因。促销、报销、不按时吃药。</div><div>开药-〉吃药-〉卖药 经过<b>精细管理</b>后，成本能降低60%</div><div>糖尿病、高血压 是最基本的</div><div><br/></div><div>软件盈利方式：东软、海虹</div><div>服务盈利方式：给我你的处方，我帮你完成。</div><div>门户：盈利来源各种广告和门户收益。</div><div>渠道盈利方式：精细管理的药品销售。</div><div>保险盈利方式：之前没有这样的保险是因为没有精细管理，如果有了精细管理，保险公司就可能对此设保。</div><div><br/></div><div>1、医保审核 &nbsp; &nbsp;CMS.ins-&gt;医保审核&lt;-医师评分系统（体现出来就是一个评分）</div><div>2、家庭健康管理：1）实时 2） 互动 3）专业 4）智能</div><div>3、c2b百药直销</div><div><br/></div><div><br/></div><div><br/></div><div>医保审核</div><div>1、CMS ins&nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c8158e11476bf3a5ba2fa7860d373f6f708ec82cea9dd66e41c4a4c98eb0d997",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/需求讨论会.html"
+      }
+    },
+    {
+      "id": "657cdc9c-b3a4-4de5-a498-34090ad46308",
+      "note_id": "e69bef65-18c6-45f4-8cfe-833f9dd4c336",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.435946Z",
+      "content": "---\ntitle: 需求讨论会\nupdated: 2013-07-10 03:34:36Z\ncreated: 2013-07-10 01:56:44Z\n---\n\n商业模式\n\n五个阶段\n软件 服务 门户 渠道 险种\n门户：\n现在病人没有对应的网络服务。新闻可以去yahoo买东西可以去amazon。他们为什么不做，是因为他们不懂人不懂货.\nesi做的成功就是因为他在处方药方面做得很成功。\n我们希望做的就是面向老百姓的医药需求，无论他需要什么样的医疗需求，我们都能提供给他们。例如电子医疗设备的数据上传。在一定程度上代替家庭医生。几乎100%的家庭都有老慢病患者。\n我们的目标人群是所有的人，覆盖到每一个推广或者试点城市的人群。\n门户转化渠道\n十病百药==反复重复吃的药\n真正的医药分家:\n只分出去医院\n不用紧密参与\n的药品。只要开药的权利在医生手里，医生就是权利人。\n把三分之一的慢性病药品不用医生干预的药分离出去。。由计算机管理\n药品的流通不再需要经过医生了。建立一个独立的业务渠道。\n第一次生成处方----〉持续更新\n电商需要对患者信息的分析和未来购买倾向的掌握。\n药品精细管理：\n有25%的药品都是浪费了，其中有很多的原因。促销、报销、不按时吃药。\n开药-〉吃药-〉卖药 经过\n精细管理\n后，成本能降低60%\n糖尿病、高血压 是最基本的\n软件盈利方式：东软、海虹\n服务盈利方式：给我你的处方，我帮你完成。\n门户：盈利来源各种广告和门户收益。\n渠道盈利方式：精细管理的药品销售。\n保险盈利方式：之前没有这样的保险是因为没有精细管理，如果有了精细管理，保险公司就可能对此设保。\n1、医保审核    CMS.ins->医保审核<-医师评分系统（体现出来就是一个评分）\n2、家庭健康管理：1）实时 2） 互动 3）专业 4）智能\n3、c2b百药直销\n医保审核\n1、CMS ins",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 789,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "07bbca0f-e7b0-4b0a-a7b5-794737ff0366",
+    "note_id": "e69bef65-18c6-45f4-8cfe-833f9dd4c336",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.435950Z",
+    "finished_at": "2025-11-09T20:05:17.435951Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d9e29e0a-4366-40fc-a2e9-c19e56191317",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/需求讨论会.html",
+      "checksum": "c8158e11476bf3a5ba2fa7860d373f6f708ec82cea9dd66e41c4a4c98eb0d997"
+    },
+    "output_ref": {
+      "ingest_source": "b5b6b9d0-c0f4-4cee-9cc6-0afcaf94cef8",
+      "note": "e69bef65-18c6-45f4-8cfe-833f9dd4c336",
+      "variants": [
+        "697de6a1-e8d3-43af-abfa-2d92d9d74201",
+        "657cdc9c-b3a4-4de5-a498-34090ad46308"
+      ]
+    },
+    "error_detail": null
+  }
+}

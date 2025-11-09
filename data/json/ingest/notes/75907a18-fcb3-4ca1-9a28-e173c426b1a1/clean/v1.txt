@@ -1,0 +1,7 @@
+---
+title: Windows 下 批量执行sql 脚本
+updated: 2022-09-01 10:11:15Z
+created: 2022-08-28 20:51:35Z
+---
+
+Get-Content stock.20220720.day.sql | mysql -u tang -pabcd1234 stock

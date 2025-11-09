@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "abea964b-807b-4267-b8aa-b42fe81b4dfc",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/screen命令在freebsd安装和使用.html",
+    "collected_at": "2025-11-09T20:05:14.248763Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bc4d1010a7257ae5a82488c99ae7febeb6cdfeebb7c386f12d9990e4ccdaf82d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1084a602-e2e7-4e09-a436-642d86ac2fc1",
+    "ingest_source_id": "abea964b-807b-4267-b8aa-b42fe81b4dfc",
+    "canonical_title": "screen命令在freebsd安装和使用",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:14.248766Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "screen命令在freebsd安装和使用.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "13199af4-b8cc-418e-b85d-9873bba171a8",
+      "note_id": "1084a602-e2e7-4e09-a436-642d86ac2fc1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.248769Z",
+      "content": "---\ntitle: screen命令在freebsd安装和使用\nupdated: 2021-06-01 23:32:42Z\ncreated: 2021-06-01 23:32:23Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><font FACE=\"Courier\">安装</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># cd /usr/ports/sysutils/screen</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># make install clean</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">使用</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># screen</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">//以下^A表示同按&ldquo;Ctrl + A&rdquo;键</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A c //Create，开出新的 window</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A n //Next，切换到下个 window</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A p //Previous，前一个 window</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A ^A //在两个 window 间切换</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A w //Windows，列出已开启的 windows 有那些</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A 0&hellip;9 //切换到第 0..9 个 window</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A t //Time，显示目前的时间，与系统的 load</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A K //kill window，强制关掉目前的 window</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A ? //Help，显示简单说明</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># ^A d //detach，将目前的 screen session (可能含有多个 windows) 丢到背景执行</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">当 按了 ^A d 把 screen session detach 掉后，会回到还没进 screen 时的状态，此时在 screen session ?每个 window 内跑的 process (无论是前景/背景)都在继续执行，即使 logout 也不影响。</font></div><div><font FACE=\"Courier\"># screen -ls //显示所有的 screen sessions</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"># screen -r [keyword] //选择一个 screen session 回来 (捡回来) , 恢复离线的screen作业, 单独输入 screen -r 也行的.</font></div><div><font FACE=\"Courier\"><br/></font></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bc4d1010a7257ae5a82488c99ae7febeb6cdfeebb7c386f12d9990e4ccdaf82d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/screen命令在freebsd安装和使用.html"
+      }
+    },
+    {
+      "id": "1433b5da-e85d-4236-9e6a-49126a6ddf1f",
+      "note_id": "1084a602-e2e7-4e09-a436-642d86ac2fc1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.248772Z",
+      "content": "---\ntitle: screen命令在freebsd安装和使用\nupdated: 2021-06-01 23:32:42Z\ncreated: 2021-06-01 23:32:23Z\nauthor: tangyongfeng@gmail.com\n---\n\n安装\n# cd /usr/ports/sysutils/screen\n# make install clean\n使用\n# screen\n//以下^A表示同按“Ctrl + A”键\n# ^A c //Create，开出新的 window\n# ^A n //Next，切换到下个 window\n# ^A p //Previous，前一个 window\n# ^A ^A //在两个 window 间切换\n# ^A w //Windows，列出已开启的 windows 有那些\n# ^A 0…9 //切换到第 0..9 个 window\n# ^A t //Time，显示目前的时间，与系统的 load\n# ^A K //kill window，强制关掉目前的 window\n# ^A ? //Help，显示简单说明\n# ^A d //detach，将目前的 screen session (可能含有多个 windows) 丢到背景执行\n当 按了 ^A d 把 screen session detach 掉后，会回到还没进 screen 时的状态，此时在 screen session ?每个 window 内跑的 process (无论是前景/背景)都在继续执行，即使 logout 也不影响。\n# screen -ls //显示所有的 screen sessions\n# screen -r [keyword] //选择一个 screen session 回来 (捡回来) , 恢复离线的screen作业, 单独输入 screen -r 也行的.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 800,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "75d8250d-287d-45dd-a9e6-a88f8d6184fc",
+    "note_id": "1084a602-e2e7-4e09-a436-642d86ac2fc1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.248777Z",
+    "finished_at": "2025-11-09T20:05:14.248777Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "33b1c5be-3350-46eb-a003-0bd20ab68ca8",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/screen命令在freebsd安装和使用.html",
+      "checksum": "bc4d1010a7257ae5a82488c99ae7febeb6cdfeebb7c386f12d9990e4ccdaf82d"
+    },
+    "output_ref": {
+      "ingest_source": "abea964b-807b-4267-b8aa-b42fe81b4dfc",
+      "note": "1084a602-e2e7-4e09-a436-642d86ac2fc1",
+      "variants": [
+        "13199af4-b8cc-418e-b85d-9873bba171a8",
+        "1433b5da-e85d-4236-9e6a-49126a6ddf1f"
+      ]
+    },
+    "error_detail": null
+  }
+}

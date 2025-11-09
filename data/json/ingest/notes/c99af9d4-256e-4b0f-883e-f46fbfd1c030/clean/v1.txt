@@ -1,0 +1,20 @@
+---
+title: 安装MySQL Python库
+updated: 2022-09-07 08:39:30Z
+created: 2021-05-23 09:58:57Z
+author: tangyongfeng@gmail.com
+tags:
+  - mysql
+  - python
+---
+
+apt install libmysqlclient-dev 
+or
+apt install libmariadbclient-dev
+done
+sudo apt-get install python3-dev
+pip install mysqlclient
+ On Windows Planfrom
+python -m pip install mysqlclient
+python -m pip install mysql-connector-python     # 根据评测，性能最佳
+python -m pip install pymysql

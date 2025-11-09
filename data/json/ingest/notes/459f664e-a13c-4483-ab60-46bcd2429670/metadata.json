@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d1731605-ff4c-4cba-8e95-9ba084e1a458",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/需公证内容.html",
+    "collected_at": "2025-11-09T20:01:38.100223Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "b1e5d6a3e31e280d62565049a2de4f8254d2e922a7cb1f72a8d0fa85f468671b",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "459f664e-a13c-4483-ab60-46bcd2429670",
+    "ingest_source_id": "d1731605-ff4c-4cba-8e95-9ba084e1a458",
+    "canonical_title": "需公证内容",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.100226Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "需公证内容.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bd905f36-ba3f-4b62-80d5-bc8cd8933373",
+      "note_id": "459f664e-a13c-4483-ab60-46bcd2429670",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.100229Z",
+      "content": "---\ntitle: 需公证内容\nupdated: 2019-01-11 08:53:16Z\ncreated: 2019-01-11 07:58:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>1、邮件</div><div><u>2018年11月23日&ldquo;<span STYLE=\"font-weight: bold;\">关于加强考勤管理工作的补充通知&rdquo;</span></u></div><div><span STYLE=\"font-weight: bold;\">2018年12月24日 &ldquo;<span STYLE=\"font-weight: bold;\">关于沟通劳动合同相关事宜的通知&ldquo;邮件。带附件</span></span></div><div><span STYLE=\"font-weight: bold;\">2018年12月27日，《<span STYLE=\"font-weight: bold;\">关于劳动合同变更事宜的通知》带附件</span></span></div><div><span STYLE=\"font-weight: bold;\">2018年12月29日，已发送邮件中，《<span STYLE=\"font-weight: bold;\">回复：关于沟通劳动合同相关事宜的通知》</span></span></div><div><span STYLE=\"font-weight: bold;\">2018年12月29日《索求工资条的要求》</span></div><div><span STYLE=\"font-weight: bold;\">2019年1月11日《关于未收到2018年12月工资的事宜》</span></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><span STYLE=\"font-weight: bold;\">工作流：</span></div><div><span STYLE=\"font-weight: bold;\"> &nbsp; &nbsp;WCSQ0000015604崔跃请假批准，工作流文件2018年9月26日</span></div><div><span STYLE=\"font-weight: bold;\"><br/></span></div><div><span STYLE=\"font-weight: bold;\"><br/></span></div><div><b>需要三份</b></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b1e5d6a3e31e280d62565049a2de4f8254d2e922a7cb1f72a8d0fa85f468671b",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/需公证内容.html"
+      }
+    },
+    {
+      "id": "b2defe4e-d444-4125-8114-8cce14f8ed02",
+      "note_id": "459f664e-a13c-4483-ab60-46bcd2429670",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.100232Z",
+      "content": "---\ntitle: 需公证内容\nupdated: 2019-01-11 08:53:16Z\ncreated: 2019-01-11 07:58:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、邮件\n2018年11月23日“\n关于加强考勤管理工作的补充通知”\n2018年12月24日 “\n关于沟通劳动合同相关事宜的通知“邮件。带附件\n2018年12月27日，《\n关于劳动合同变更事宜的通知》带附件\n2018年12月29日，已发送邮件中，《\n回复：关于沟通劳动合同相关事宜的通知》\n2018年12月29日《索求工资条的要求》\n2019年1月11日《关于未收到2018年12月工资的事宜》\n工作流：\n    WCSQ0000015604崔跃请假批准，工作流文件2018年9月26日\n需要三份",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 361,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8e86aa40-7a46-4ea4-93e6-26e91fd19bf6",
+    "note_id": "459f664e-a13c-4483-ab60-46bcd2429670",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.100237Z",
+    "finished_at": "2025-11-09T20:01:38.100237Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a362fd3d-b216-4e52-b410-73fb7dc9362a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/需公证内容.html",
+      "checksum": "b1e5d6a3e31e280d62565049a2de4f8254d2e922a7cb1f72a8d0fa85f468671b"
+    },
+    "output_ref": {
+      "ingest_source": "d1731605-ff4c-4cba-8e95-9ba084e1a458",
+      "note": "459f664e-a13c-4483-ab60-46bcd2429670",
+      "variants": [
+        "bd905f36-ba3f-4b62-80d5-bc8cd8933373",
+        "b2defe4e-d444-4125-8114-8cce14f8ed02"
+      ]
+    },
+    "error_detail": null
+  }
+}

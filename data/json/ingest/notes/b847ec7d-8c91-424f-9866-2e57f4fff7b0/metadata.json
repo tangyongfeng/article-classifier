@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1dd82fad-78f0-4ae1-9643-0498aa0e805e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/介词+格.html",
+    "collected_at": "2025-11-09T20:05:18.177346Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "f1396533e7d5aefe0fa7a07099cabdb7ad90ef7323da387f0dff50fdcfc157e3",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b847ec7d-8c91-424f-9866-2e57f4fff7b0",
+    "ingest_source_id": "1dd82fad-78f0-4ae1-9643-0498aa0e805e",
+    "canonical_title": "介词+格",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.177350Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "介词+格.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "61ee84af-1c65-473f-950b-a6c383d6f9d0",
+      "note_id": "b847ec7d-8c91-424f-9866-2e57f4fff7b0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.177352Z",
+      "content": "---\ntitle: 介词+格\nupdated: 2020-07-14 17:08:13Z\ncreated: 2020-07-14 17:07:56Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><br/></div><div><br/></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">只接三格：ab aus au&szlig;er bei mit zu nach von gegen&uuml;ber seit\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">只接四格：bis f&uuml;r gegen um ohne durch entlang\n</span></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">可三可四：an auf &uuml;ber unter hinter neben in vor zwischen\n</span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f1396533e7d5aefe0fa7a07099cabdb7ad90ef7323da387f0dff50fdcfc157e3",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/介词+格.html"
+      }
+    },
+    {
+      "id": "e26539d9-42b2-4554-b875-97670afccab0",
+      "note_id": "b847ec7d-8c91-424f-9866-2e57f4fff7b0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.177355Z",
+      "content": "---\ntitle: 介词+格\nupdated: 2020-07-14 17:08:13Z\ncreated: 2020-07-14 17:07:56Z\nauthor: tangyongfeng@gmail.com\n---\n\n只接三格：ab aus außer bei mit zu nach von gegenüber seit\n\n只接四格：bis für gegen um ohne durch entlang\n\n可三可四：an auf über unter hinter neben in vor zwischen",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 259,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4b8a651d-6301-4a5b-b28f-c4a92ecdb9ee",
+    "note_id": "b847ec7d-8c91-424f-9866-2e57f4fff7b0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.177360Z",
+    "finished_at": "2025-11-09T20:05:18.177360Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1cb2f6ca-7d59-4f66-8577-8ef3ba895825",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/介词+格.html",
+      "checksum": "f1396533e7d5aefe0fa7a07099cabdb7ad90ef7323da387f0dff50fdcfc157e3"
+    },
+    "output_ref": {
+      "ingest_source": "1dd82fad-78f0-4ae1-9643-0498aa0e805e",
+      "note": "b847ec7d-8c91-424f-9866-2e57f4fff7b0",
+      "variants": [
+        "61ee84af-1c65-473f-950b-a6c383d6f9d0",
+        "e26539d9-42b2-4554-b875-97670afccab0"
+      ]
+    },
+    "error_detail": null
+  }
+}

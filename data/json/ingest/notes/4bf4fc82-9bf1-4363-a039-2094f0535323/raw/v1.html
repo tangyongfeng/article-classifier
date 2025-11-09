@@ -1,0 +1,13 @@
+---
+title: mutliprocessing example code
+updated: 2017-12-12 15:27:52Z
+created: 2017-12-12 15:27:22Z
+author: tangyongfeng
+tags:
+  - face_recognition
+  - mutliprocess
+  - python
+---
+
+
+<en-note><div><div STYLE=""><code>import&nbsp;multiprocessing<br/>import&nbsp;logging<br/><br/>def&nbsp;g1(results,&nbsp;x):<br/>&nbsp; &nbsp; y&nbsp;=&nbsp;x*x<br/>&nbsp; &nbsp; print&nbsp;&quot;processing:&nbsp;y&nbsp;=&nbsp;%s&quot;&nbsp;%&nbsp;y<br/>&nbsp; &nbsp; results.append(y)<br/><br/>def&nbsp;f1():<br/>&nbsp; &nbsp; logger&nbsp;=&nbsp;multiprocessing.log_to_stderr()<br/>&nbsp; &nbsp; logger.setLevel(multiprocessing.SUBDEBUG)<br/>&nbsp; &nbsp; manager&nbsp;=&nbsp;multiprocessing.Manager()<br/>&nbsp; &nbsp; results&nbsp;=&nbsp;manager.list()<br/>&nbsp; &nbsp; pool&nbsp;=&nbsp;multiprocessing.Pool(processes=4)<br/>&nbsp; &nbsp; for&nbsp;(i)&nbsp;in&nbsp;range(0,15):<br/>&nbsp; &nbsp; &nbsp; &nbsp; pool.apply_async(g1,&nbsp;[results,&nbsp;i])<br/>&nbsp; &nbsp; pool.close()<br/>&nbsp; &nbsp; pool.join()<br/><br/><br/>def&nbsp;main():<br/>&nbsp; &nbsp; f1()<br/><br/>if&nbsp;__name__&nbsp;==&nbsp;&quot;__main__&quot;:<br/>&nbsp; &nbsp; main()</code></div></div></en-note>      

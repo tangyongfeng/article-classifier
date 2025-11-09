@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6fe05815-e461-4e42-aa4c-001836e7fb78",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/电话彩票外围工作.html",
+    "collected_at": "2025-11-09T20:01:37.986059Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ko",
+    "captured_at": null,
+    "checksum": "c62ab4768d0761a50b68f956307086ac7920a609bd46d1be2c5d9890cf756e2c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ff894c43-158f-425e-8ffd-4b4aa177c985",
+    "ingest_source_id": "6fe05815-e461-4e42-aa4c-001836e7fb78",
+    "canonical_title": "电话彩票外围工作",
+    "language": "ko",
+    "ingested_at": "2025-11-09T20:01:37.986063Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "电话彩票外围工作.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4bb21be6-aaf9-46d3-8e44-84e3ae607975",
+      "note_id": "ff894c43-158f-425e-8ffd-4b4aa177c985",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.986065Z",
+      "content": "---\ntitle: 电话彩票外围工作\nupdated: 2013-05-14 07:32:47Z\ncreated: 2013-05-14 07:32:17Z\n---\n\n\n\n<en-note><span STYLE=\"font-family: '.Helvetica NeueUI'; line-height: 24px; -webkit-composition-fill-color: rgba(130, 98, 83, 0.0898438); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-text-size-adjust: auto; font-size: inherit; \"><span>电话彩票外围工作</span><br/>\n&Tab;&Tab;<div><br/>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>代销商角度</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div><br/></div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>银联角度-张主任介绍</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>省中心角度</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>思乐穗彩角度</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>中心角度</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>语音和短信的接口是什么样的</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div><br/></div><br/>\n&Tab;&Tab;&Tab;\n&Tab;&Tab;</div>\n&Tab;&Tab;\n&Tab;</span>\n&Tab;\n\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c62ab4768d0761a50b68f956307086ac7920a609bd46d1be2c5d9890cf756e2c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/电话彩票外围工作.html"
+      }
+    },
+    {
+      "id": "a7b4a354-f680-443f-8605-1daeafaea319",
+      "note_id": "ff894c43-158f-425e-8ffd-4b4aa177c985",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.986068Z",
+      "content": "---\ntitle: 电话彩票外围工作\nupdated: 2013-05-14 07:32:47Z\ncreated: 2013-05-14 07:32:17Z\n---\n\n电话彩票外围工作\n\n代销商角度\n\n银联角度-张主任介绍\n\n省中心角度\n\n思乐穗彩角度\n\n中心角度\n\n语音和短信的接口是什么样的",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ko",
+        "length": 148,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5953ca25-4e97-46f9-a629-634c0920a56e",
+    "note_id": "ff894c43-158f-425e-8ffd-4b4aa177c985",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.986072Z",
+    "finished_at": "2025-11-09T20:01:37.986073Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8939c4b8-2fc6-46de-bd84-46b931e95d89",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/电话彩票外围工作.html",
+      "checksum": "c62ab4768d0761a50b68f956307086ac7920a609bd46d1be2c5d9890cf756e2c"
+    },
+    "output_ref": {
+      "ingest_source": "6fe05815-e461-4e42-aa4c-001836e7fb78",
+      "note": "ff894c43-158f-425e-8ffd-4b4aa177c985",
+      "variants": [
+        "4bb21be6-aaf9-46d3-8e44-84e3ae607975",
+        "a7b4a354-f680-443f-8605-1daeafaea319"
+      ]
+    },
+    "error_detail": null
+  }
+}

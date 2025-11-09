@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4ab4b76c-7be2-4a11-93a4-fc600e7648ee",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/可转债历史数据分析.html",
+    "collected_at": "2025-11-09T20:05:18.579878Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "e3bba354fbc3c7f566d6e2ef41eebc67714044ab622edd749f311b0ee8c71a3d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d90ffa66-5e51-4357-a9cb-be1bc81f38c5",
+    "ingest_source_id": "4ab4b76c-7be2-4a11-93a4-fc600e7648ee",
+    "canonical_title": "可转债历史数据分析",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.579882Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "可转债历史数据分析.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f5365d09-7a5a-400b-a287-509d3729d7b6",
+      "note_id": "d90ffa66-5e51-4357-a9cb-be1bc81f38c5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.579885Z",
+      "content": "---\ntitle: 可转债历史数据分析\nupdated: 2021-05-30 21:09:08Z\ncreated: 2021-05-30 21:08:39Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 可转债\n---\n\n\n<en-note><div><font FACE=\"Courier\">1、截至20210322共有578只可转债发行，其中226只已经退市，尚在交易的有339只；历史上有13只未能强赎（不含第一支）；历史强赎率为94.22%（212/225）；平均发行规模为18.572亿元；</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">2、平均上市交易开盘价为113.558元，平均退市收盘价为160.147元，平均盘中最高价为208.807元，平均盘中最低价为103.380元，平均发行期限为5.82年；平均交易周期为1.78年；</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">3、假设以面值100元申购，上市开盘价卖出计算出的平均开盘价收益率为13.56%，目前共有64只开盘破发，破发率为11.34%（64/564)；假设以面值100元申购，退市收盘价卖出计算出的平均收盘价收益率为60.15%；</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">4、假设以上市开盘价买入，退市收盘价卖出计算出的平均收益率为40.57%；（退市收盘价-上市开盘价）平均年化收益率（单利）为35.51%；</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">5、假设以盘中首次跌破100元时买入（价格按100元计算），以盘中首次突破130元卖出（价格按130元计算），平均收益率为30%，平均交易周期为1.28年，平均年化收益率（单利）为52.85%；</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">6、历史上已退市的共有91只出现低于面值100元的情况，占比为40.44%（91/225），且其中仅有4只在跌破100元以后未能向上突破130元，占比为（4/91）4.4%（分别是江南转债、辉丰转债、双良转债、博汇转债）；</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">7、普通色为已退市转债，黄色为尚未退市转债，蓝色为2015后发行已退市转债，浅绿色为尚未上市交易转债；红色字体名称的转债其强赎条款不是130%。</font></div><div><font FACE=\"Courier\"><br/></font></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e3bba354fbc3c7f566d6e2ef41eebc67714044ab622edd749f311b0ee8c71a3d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/可转债历史数据分析.html"
+      }
+    },
+    {
+      "id": "2a9ac3bd-ccee-4721-8282-c91adc2ea57e",
+      "note_id": "d90ffa66-5e51-4357-a9cb-be1bc81f38c5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.579887Z",
+      "content": "---\ntitle: 可转债历史数据分析\nupdated: 2021-05-30 21:09:08Z\ncreated: 2021-05-30 21:08:39Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 可转债\n---\n\n1、截至20210322共有578只可转债发行，其中226只已经退市，尚在交易的有339只；历史上有13只未能强赎（不含第一支）；历史强赎率为94.22%（212/225）；平均发行规模为18.572亿元；\n2、平均上市交易开盘价为113.558元，平均退市收盘价为160.147元，平均盘中最高价为208.807元，平均盘中最低价为103.380元，平均发行期限为5.82年；平均交易周期为1.78年；\n3、假设以面值100元申购，上市开盘价卖出计算出的平均开盘价收益率为13.56%，目前共有64只开盘破发，破发率为11.34%（64/564)；假设以面值100元申购，退市收盘价卖出计算出的平均收盘价收益率为60.15%；\n4、假设以上市开盘价买入，退市收盘价卖出计算出的平均收益率为40.57%；（退市收盘价-上市开盘价）平均年化收益率（单利）为35.51%；\n5、假设以盘中首次跌破100元时买入（价格按100元计算），以盘中首次突破130元卖出（价格按130元计算），平均收益率为30%，平均交易周期为1.28年，平均年化收益率（单利）为52.85%；\n6、历史上已退市的共有91只出现低于面值100元的情况，占比为40.44%（91/225），且其中仅有4只在跌破100元以后未能向上突破130元，占比为（4/91）4.4%（分别是江南转债、辉丰转债、双良转债、博汇转债）；\n7、普通色为已退市转债，黄色为尚未退市转债，蓝色为2015后发行已退市转债，浅绿色为尚未上市交易转债；红色字体名称的转债其强赎条款不是130%。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 798,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f0b21611-b0d6-4e0a-a3fc-9998209ee460",
+    "note_id": "d90ffa66-5e51-4357-a9cb-be1bc81f38c5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.579892Z",
+    "finished_at": "2025-11-09T20:05:18.579893Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "130a12f6-158e-4b07-8a62-0843d10213f0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/可转债历史数据分析.html",
+      "checksum": "e3bba354fbc3c7f566d6e2ef41eebc67714044ab622edd749f311b0ee8c71a3d"
+    },
+    "output_ref": {
+      "ingest_source": "4ab4b76c-7be2-4a11-93a4-fc600e7648ee",
+      "note": "d90ffa66-5e51-4357-a9cb-be1bc81f38c5",
+      "variants": [
+        "f5365d09-7a5a-400b-a287-509d3729d7b6",
+        "2a9ac3bd-ccee-4721-8282-c91adc2ea57e"
+      ]
+    },
+    "error_detail": null
+  }
+}

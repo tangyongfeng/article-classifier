@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "aedb45cd-d21e-4a12-87b5-71102a30666c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/无标题笔记-4.html",
+    "collected_at": "2025-11-09T20:01:38.356504Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "45d4bbf778ab10bfb12899642e221c0a2277063f62cac87af69895b8cf912a78",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "fb17f48f-687e-4893-ac4d-f17eac0ad733",
+    "ingest_source_id": "aedb45cd-d21e-4a12-87b5-71102a30666c",
+    "canonical_title": "无标题笔记-4",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.356508Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-4.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8475d66c-e7bc-4309-b0d7-26d0b1a38f16",
+      "note_id": "fb17f48f-687e-4893-ac4d-f17eac0ad733",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.356511Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2017-01-12 13:53:11Z\ncreated: 2017-01-12 13:51:30Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note><div>hamster 仓鼠</div><div>budgie 鹦鹉</div><div>guinea pig &nbsp;豚鼠</div><div>pony &nbsp;小型马</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "45d4bbf778ab10bfb12899642e221c0a2277063f62cac87af69895b8cf912a78",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/无标题笔记-4.html"
+      }
+    },
+    {
+      "id": "c7a7c954-cd7a-45f2-9599-dc6029343553",
+      "note_id": "fb17f48f-687e-4893-ac4d-f17eac0ad733",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.356513Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2017-01-12 13:53:11Z\ncreated: 2017-01-12 13:51:30Z\nauthor: tangyongfeng@gmail.com\n---\n\nhamster 仓鼠\nbudgie 鹦鹉\nguinea pig  豚鼠\npony  小型马",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 158,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5355ebc2-91c7-4ca9-95df-a44c7a46213c",
+    "note_id": "fb17f48f-687e-4893-ac4d-f17eac0ad733",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.356518Z",
+    "finished_at": "2025-11-09T20:01:38.356518Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "afd95c23-cd25-4d44-bcbd-1d04850d7767",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/无标题笔记-4.html",
+      "checksum": "45d4bbf778ab10bfb12899642e221c0a2277063f62cac87af69895b8cf912a78"
+    },
+    "output_ref": {
+      "ingest_source": "aedb45cd-d21e-4a12-87b5-71102a30666c",
+      "note": "fb17f48f-687e-4893-ac4d-f17eac0ad733",
+      "variants": [
+        "8475d66c-e7bc-4309-b0d7-26d0b1a38f16",
+        "c7a7c954-cd7a-45f2-9599-dc6029343553"
+      ]
+    },
+    "error_detail": null
+  }
+}

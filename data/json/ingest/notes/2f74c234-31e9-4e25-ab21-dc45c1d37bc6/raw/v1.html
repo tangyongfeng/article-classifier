@@ -1,0 +1,9 @@
+---
+title: SSH 登录时提示 Permission denied (publickey,gssapi-keyex,gssapi-with-mic).
+updated: 2019-10-11 03:35:58Z
+created: 2019-09-20 12:44:18Z
+author: tangyongfeng@gmail.com
+---
+
+
+<en-note><div><font FACE="Courier">注意：本地证书必须是400权限</font></div><div><span STYLE="font-family: Courier;"><br/></span></div><div><span STYLE="font-family: Courier;">在服务器上新建了一个用户，让用户可以使用 ssh key 的方式登录 ，所以我在用户主目录下新建了一个 .ssh 目录，又在这个目录下面添加了一个 authorized_keys 文件。然后把我本地的 ssh 公钥的内容放在了服务器上的 autorized_keys 文件里。</span></div><div><span STYLE="font-family: Courier;">在本地 SSH 登录服务器，使用新创建的用户，提示：</span></div><div><span STYLE="font-family: Courier;">Permission denied (publickey,gssapi-keyex,gssapi-with-mic).</span></div><div><br/></div><div><br/></div><div><span STYLE="font-family: Courier;">原因是用户主目录下的 .ssh 目录与它里面的 authorized_keys 文件的权限不能。</span></div><div><br/></div><div><br/></div><div><span STYLE="font-family: Courier;">.ssh 目录的权限应该是 700，authorized_keys 这个文件的权限应该设置成 600 。</span></div><div><br/></div><div><span STYLE="font-family: Courier;">注意 .ssh 目录与 authorized_keys 的拥有者都必须是你创建的那个用户。比如我创建了一个叫 wanghao 的用户，寻它应该是 .ssh 与 authorized_keys 的拥有者，并且必须要设置合适的权限：</span></div><div><span STYLE="font-family: Courier;">chmod 700 ~/.ssh</span></div><div><span STYLE="font-family: Courier;">chmod 600 ~/.ssh_authorized_keys</span></div><div><br/></div><div><br/></div></en-note>      

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "99cbf8af-8e99-4f91-8891-638e1de0ff7e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/600平大仓库2.8欧_平 转租，或寻找第三方仓储的合作伙伴.html",
+    "collected_at": "2025-11-09T20:05:17.500551Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "d3b506e2df42d9b8cf0ea4f3a43838a11787f3b079a0eb732ff0b588d765891e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a9c6857e-4027-4e29-af68-26986a3a714b",
+    "ingest_source_id": "99cbf8af-8e99-4f91-8891-638e1de0ff7e",
+    "canonical_title": "600平大仓库2.8欧_平 转租，或寻找第三方仓储的合作伙伴",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.500554Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "600平大仓库2.8欧_平 转租，或寻找第三方仓储的合作伙伴.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b488de08-a193-4c56-89bd-51cad53def69",
+      "note_id": "a9c6857e-4027-4e29-af68-26986a3a714b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.500557Z",
+      "content": "---\ntitle: 600平大仓库2.8欧/平 转租，或寻找第三方仓储的合作伙伴\nupdated: 2019-04-01 09:47:59Z\ncreated: 2019-04-01 09:47:33Z\n---\n\n\n\n<en-note><div><span STYLE=\"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -apple-system-font, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">本人有租赁仓库， 面积600平米（按需求可以扩面积到2000平）， 位置在Gelsenkirchen ，高速下道就到，举架最高处6m， 独门独院， 外院面积宽阔，适合装卸集装箱。本公司自用太大， 可以转租给有意向合作第三方海外仓的小伙伴。</span></div><div><span STYLE=\"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -apple-system-font, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">个人经营第三方仓储比较吃力， 求志同道合的合作伙伴， 或全部转租！</span></div><div><span STYLE=\"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -apple-system-font, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">请联系017622613250</span></div><div STYLE=\"word-wrap: break-word; margin: 30px 0px 0px; padding: 10px; zoom: 1; position: relative; background-color: rgb(255, 253, 239); border: 1px dashed rgb(231, 225, 205); caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: -apple-system-font, &quot;Helvetica Neue&quot;, sans-serif; font-size: 16px; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.301961); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; background-position: initial initial; background-repeat: initial initial;\"><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d3b506e2df42d9b8cf0ea4f3a43838a11787f3b079a0eb732ff0b588d765891e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/600平大仓库2.8欧_平 转租，或寻找第三方仓储的合作伙伴.html"
+      }
+    },
+    {
+      "id": "d179c1e2-62ef-477c-b122-3f2172217cbf",
+      "note_id": "a9c6857e-4027-4e29-af68-26986a3a714b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.500559Z",
+      "content": "---\ntitle: 600平大仓库2.8欧/平 转租，或寻找第三方仓储的合作伙伴\nupdated: 2019-04-01 09:47:59Z\ncreated: 2019-04-01 09:47:33Z\n---\n\n本人有租赁仓库， 面积600平米（按需求可以扩面积到2000平）， 位置在Gelsenkirchen ，高速下道就到，举架最高处6m， 独门独院， 外院面积宽阔，适合装卸集装箱。本公司自用太大， 可以转租给有意向合作第三方海外仓的小伙伴。\n个人经营第三方仓储比较吃力， 求志同道合的合作伙伴， 或全部转租！\n请联系017622613250",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 276,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "234bc846-f814-44b5-8d11-efa115534355",
+    "note_id": "a9c6857e-4027-4e29-af68-26986a3a714b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.500564Z",
+    "finished_at": "2025-11-09T20:05:17.500564Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8db272b8-098e-4485-83b3-fadf844406e3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/600平大仓库2.8欧_平 转租，或寻找第三方仓储的合作伙伴.html",
+      "checksum": "d3b506e2df42d9b8cf0ea4f3a43838a11787f3b079a0eb732ff0b588d765891e"
+    },
+    "output_ref": {
+      "ingest_source": "99cbf8af-8e99-4f91-8891-638e1de0ff7e",
+      "note": "a9c6857e-4027-4e29-af68-26986a3a714b",
+      "variants": [
+        "b488de08-a193-4c56-89bd-51cad53def69",
+        "d179c1e2-62ef-477c-b122-3f2172217cbf"
+      ]
+    },
+    "error_detail": null
+  }
+}

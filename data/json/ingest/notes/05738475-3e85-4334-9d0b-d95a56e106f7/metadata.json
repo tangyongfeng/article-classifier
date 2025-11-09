@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "584bfe60-4330-4bc8-af55-9dc8ffa4c2b0",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/yueran.de.html",
+    "collected_at": "2025-11-09T20:05:15.798407Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "9915ffe162c80ebc2342956c4aa6f45733e4096ef001e943f4433f64fb27a8cb",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "05738475-3e85-4334-9d0b-d95a56e106f7",
+    "ingest_source_id": "584bfe60-4330-4bc8-af55-9dc8ffa4c2b0",
+    "canonical_title": "yueran.de",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.798410Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "yueran.de.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "43785a38-1508-42e3-9a51-ce4e34619b54",
+      "note_id": "05738475-3e85-4334-9d0b-d95a56e106f7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.798413Z",
+      "content": "---\ntitle: yueran.de\nupdated: 2021-07-08 14:45:58Z\ncreated: 2021-07-08 14:45:43Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><a HREF=\"http://yueran.de/blog/wp-admin/\">http://yueran.de/blog/wp-admin/</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9915ffe162c80ebc2342956c4aa6f45733e4096ef001e943f4433f64fb27a8cb",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/yueran.de.html"
+      }
+    },
+    {
+      "id": "ce26ca8f-70e6-437b-af18-233ecfac5858",
+      "note_id": "05738475-3e85-4334-9d0b-d95a56e106f7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.798415Z",
+      "content": "---\ntitle: yueran.de\nupdated: 2021-07-08 14:45:58Z\ncreated: 2021-07-08 14:45:43Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttp://yueran.de/blog/wp-admin/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 148,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "29dc21ec-5647-4d5c-b607-bd2676692e87",
+    "note_id": "05738475-3e85-4334-9d0b-d95a56e106f7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.798420Z",
+    "finished_at": "2025-11-09T20:05:15.798420Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e81902f3-91d8-492a-ab3a-1eb1f4485caa",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/yueran.de.html",
+      "checksum": "9915ffe162c80ebc2342956c4aa6f45733e4096ef001e943f4433f64fb27a8cb"
+    },
+    "output_ref": {
+      "ingest_source": "584bfe60-4330-4bc8-af55-9dc8ffa4c2b0",
+      "note": "05738475-3e85-4334-9d0b-d95a56e106f7",
+      "variants": [
+        "43785a38-1508-42e3-9a51-ce4e34619b54",
+        "ce26ca8f-70e6-437b-af18-233ecfac5858"
+      ]
+    },
+    "error_detail": null
+  }
+}

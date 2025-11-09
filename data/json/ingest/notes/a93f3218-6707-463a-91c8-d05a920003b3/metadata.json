@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b34a9646-bd8e-4d3f-927f-f451de417702",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/DB2电话会议.html",
+    "collected_at": "2025-11-09T20:05:16.865417Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c049a41cb3254b8662e5166d4f86a27a8419ec555e456c41a2ef7b14cc6e956d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a93f3218-6707-463a-91c8-d05a920003b3",
+    "ingest_source_id": "b34a9646-bd8e-4d3f-927f-f451de417702",
+    "canonical_title": "DB2电话会议",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.865421Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "DB2电话会议.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7fd4801d-9b14-46f5-ab03-c8754a5a7933",
+      "note_id": "a93f3218-6707-463a-91c8-d05a920003b3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.865423Z",
+      "content": "---\ntitle: DB2电话会议\nupdated: 2013-04-16 14:28:52Z\ncreated: 2013-04-16 13:35:59Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、db2和oracle数据库的分区策略是怎样的\n<div>db2有分区策略，但是不是大型系统必须的，分区或者不分区都可以。都有哪些分区呢？<br/><div>2、如果把oracle数据库迁移到db2上需要做什么样的工作。</div><div>基本上可以直接迁移，如果为了照顾之前的oracle分区策略，可以按照分区将原来的机器分开。</div><div>3、我们现在的分区策略不光是为了性能，维护的时候也非常方便，以时间分区，一段时间摘掉一个分区，同时备份和卸下数据</div><div>db2有一个detach工具，可以根据pratetion key进行数据卸载，可以在部署之前将数据分开，需要的时候可以很容易的将数据卸下。</div><div>4、oracle 数据库通过commit和3秒这两个事件将数据库写在磁盘上，db2是怎样的。</div><div>db2也是这样的，但是因为db2是share nothing的模式，所以在一个节点挂掉的时候，其他节点也会去读取这个节点的trancationLog，保证racorve。</div><div>5、cf节点是db2的关键节点，配置cf 大小的时候，主要参考的是db2的个数还是交易性能？</div><div>有几个节点是主要因素，交易量也是主要的因素。6-12core =1cf core 多写是6多读是12</div><div>6、oracle使用redo日志的方式恢复数据，online模式，db2使用什么模式来保证恢复数据，我们不太相信自动恢复这件事情，请详细的讲讲是怎么做的。</div><div>使用tivole 的一个插件来检测节点是否正常工作，如有一个掉了，则系统会选择一个负载最轻的节点来恢复数据。</div><div>7、如果在恢复日志的过程中，那个失败的节点又恢复了呢？</div><div>在恢复日志的过程中，那个失败的节点会被保护，不允许别的节点访问。</div><div>8、是否有最大性能不保证安全或者最大安全不保证性能的调整选项</div><div>在db2的设计里面，没有用数据完整性来换性能呢，数据不丢失是最基本的要求。还是有一些调整的内容，例如提高恢复时间、或者提高在线相应时间。我们这次测试比较倾向在线响应时间。</div><div><br/></div><div><br/></div><div><br/></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c049a41cb3254b8662e5166d4f86a27a8419ec555e456c41a2ef7b14cc6e956d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/DB2电话会议.html"
+      }
+    },
+    {
+      "id": "8148b6bf-680a-4714-b241-82bec4edcf3f",
+      "note_id": "a93f3218-6707-463a-91c8-d05a920003b3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.865426Z",
+      "content": "---\ntitle: DB2电话会议\nupdated: 2013-04-16 14:28:52Z\ncreated: 2013-04-16 13:35:59Z\n---\n\n1、db2和oracle数据库的分区策略是怎样的\n\ndb2有分区策略，但是不是大型系统必须的，分区或者不分区都可以。都有哪些分区呢？\n2、如果把oracle数据库迁移到db2上需要做什么样的工作。\n基本上可以直接迁移，如果为了照顾之前的oracle分区策略，可以按照分区将原来的机器分开。\n3、我们现在的分区策略不光是为了性能，维护的时候也非常方便，以时间分区，一段时间摘掉一个分区，同时备份和卸下数据\ndb2有一个detach工具，可以根据pratetion key进行数据卸载，可以在部署之前将数据分开，需要的时候可以很容易的将数据卸下。\n4、oracle 数据库通过commit和3秒这两个事件将数据库写在磁盘上，db2是怎样的。\ndb2也是这样的，但是因为db2是share nothing的模式，所以在一个节点挂掉的时候，其他节点也会去读取这个节点的trancationLog，保证racorve。\n5、cf节点是db2的关键节点，配置cf 大小的时候，主要参考的是db2的个数还是交易性能？\n有几个节点是主要因素，交易量也是主要的因素。6-12core =1cf core 多写是6多读是12\n6、oracle使用redo日志的方式恢复数据，online模式，db2使用什么模式来保证恢复数据，我们不太相信自动恢复这件事情，请详细的讲讲是怎么做的。\n使用tivole 的一个插件来检测节点是否正常工作，如有一个掉了，则系统会选择一个负载最轻的节点来恢复数据。\n7、如果在恢复日志的过程中，那个失败的节点又恢复了呢？\n在恢复日志的过程中，那个失败的节点会被保护，不允许别的节点访问。\n8、是否有最大性能不保证安全或者最大安全不保证性能的调整选项\n在db2的设计里面，没有用数据完整性来换性能呢，数据不丢失是最基本的要求。还是有一些调整的内容，例如提高恢复时间、或者提高在线相应时间。我们这次测试比较倾向在线响应时间。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 897,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "59960a53-3314-4d7f-8118-8fdf2eafd6cb",
+    "note_id": "a93f3218-6707-463a-91c8-d05a920003b3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.865431Z",
+    "finished_at": "2025-11-09T20:05:16.865431Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0300cdb5-432c-4e5c-a821-7eb5209213c0",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/DB2电话会议.html",
+      "checksum": "c049a41cb3254b8662e5166d4f86a27a8419ec555e456c41a2ef7b14cc6e956d"
+    },
+    "output_ref": {
+      "ingest_source": "b34a9646-bd8e-4d3f-927f-f451de417702",
+      "note": "a93f3218-6707-463a-91c8-d05a920003b3",
+      "variants": [
+        "7fd4801d-9b14-46f5-ab03-c8754a5a7933",
+        "8148b6bf-680a-4714-b241-82bec4edcf3f"
+      ]
+    },
+    "error_detail": null
+  }
+}

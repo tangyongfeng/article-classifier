@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3b813e44-99a9-40c5-8029-eaa1e3c3a7bb",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/优化表空间.html",
+    "collected_at": "2025-11-09T20:05:14.501943Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "5b29d7363c0573eb7f27239b75ef2dbe90fcd02b115d4168fa759b217f53c874",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6eb9f54a-4512-4f2e-9d6b-7f258ebed7d5",
+    "ingest_source_id": "3b813e44-99a9-40c5-8029-eaa1e3c3a7bb",
+    "canonical_title": "优化表空间",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:05:14.501947Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "优化表空间.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c30a9b3c-bc0d-477d-a012-db463817500a",
+      "note_id": "6eb9f54a-4512-4f2e-9d6b-7f258ebed7d5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.501950Z",
+      "content": "---\ntitle: 优化表空间\nupdated: 2022-09-03 20:11:04Z\ncreated: 2022-09-03 20:08:56Z\n---\n\n\n<en-note><div>一、删除表|清空数据表</div><div>当执行删除数据表或者清空数据表的全部数据操作时，都会释放掉相应的磁盘存储空间。</div><div><br/></div><div>drop table table_name;</div><div>truncate table table_name;</div><div>在MyISAM和InnoDB(innodb_file_per_table)存储引擎中，数据信息存在在单个文件中。删除表操作和清空数据表操作都会释放空间。</div><div><br/></div><div>二、删除表数据</div><div>delete from table_name [where xxx];</div><div>使用delete删除的时候，MySQL并没有把数据文件删除，而是将数据文件的标识位删除，没有整理文件，因此不会彻底释放空间。被删除的数据将会被保存在一个链接清单中，当有新数据写入的时候，MySQL会利用这些已删除的空间再写入。即，删除操作会带来一些数据碎片，正是这些碎片在占用硬盘空间。</div><div><br/></div><div>三、优化表空间</div><div>方法一：</div><div><br/></div><div>optimize table table_name ;</div><div>当表数据被大量删除后，释放占用的空间就变得很有必要了。会明显的提高查询速度。使用 optimize table。被删除的记录被保持在链接清单中，后续的 insert 操作会重新使用旧的记录位置。您可以使用 optimize table 来重新利用未使用的空间，并整理数据文件的碎片。optimize 适用于InnoDB和MyISAM存储引擎。</div><div><br/></div><div>查看表占用硬盘空间大小的SQL语句如下：（默认用M做展示单位）</div><div><br/></div><div>SELECT TABLE_NAME, (DATA_LENGTH+INDEX_LENGTH)/1048576 as size_Mb, TABLE_ROWS FROM information_schema.tables WHERE TABLE_SCHEMA=&apos;数据库名称&apos; AND TABLE_NAME=&apos;表名&apos;</div><div><br/></div><div><br/></div><div>方法二：</div><div><br/></div><div>alter table tab_name&nbsp; ENGINE = &apos;InnoDB&apos;;</div><div>注意：该操作执行的时候会把该表格先写入一个tmp临时表，所以磁盘剩余空间必须大于表空间，否则会执行失败。</div><div><br/></div><div>方法三：</div><div>先将整个表的结构和数据导出来，删除整个表，再创建表，最后导入数据。生产环境不建议用这个方法。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5b29d7363c0573eb7f27239b75ef2dbe90fcd02b115d4168fa759b217f53c874",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/优化表空间.html"
+      }
+    },
+    {
+      "id": "c03a6ef8-0bf7-4bad-8285-94943ef331bf",
+      "note_id": "6eb9f54a-4512-4f2e-9d6b-7f258ebed7d5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.501953Z",
+      "content": "---\ntitle: 优化表空间\nupdated: 2022-09-03 20:11:04Z\ncreated: 2022-09-03 20:08:56Z\n---\n\n一、删除表|清空数据表\n当执行删除数据表或者清空数据表的全部数据操作时，都会释放掉相应的磁盘存储空间。\ndrop table table_name;\ntruncate table table_name;\n在MyISAM和InnoDB(innodb_file_per_table)存储引擎中，数据信息存在在单个文件中。删除表操作和清空数据表操作都会释放空间。\n二、删除表数据\ndelete from table_name [where xxx];\n使用delete删除的时候，MySQL并没有把数据文件删除，而是将数据文件的标识位删除，没有整理文件，因此不会彻底释放空间。被删除的数据将会被保存在一个链接清单中，当有新数据写入的时候，MySQL会利用这些已删除的空间再写入。即，删除操作会带来一些数据碎片，正是这些碎片在占用硬盘空间。\n三、优化表空间\n方法一：\noptimize table table_name ;\n当表数据被大量删除后，释放占用的空间就变得很有必要了。会明显的提高查询速度。使用 optimize table。被删除的记录被保持在链接清单中，后续的 insert 操作会重新使用旧的记录位置。您可以使用 optimize table 来重新利用未使用的空间，并整理数据文件的碎片。optimize 适用于InnoDB和MyISAM存储引擎。\n查看表占用硬盘空间大小的SQL语句如下：（默认用M做展示单位）\nSELECT TABLE_NAME, (DATA_LENGTH+INDEX_LENGTH)/1048576 as size_Mb, TABLE_ROWS FROM information_schema.tables WHERE TABLE_SCHEMA='数据库名称' AND TABLE_NAME='表名'\n方法二：\nalter table tab_name  ENGINE = 'InnoDB';\n注意：该操作执行的时候会把该表格先写入一个tmp临时表，所以磁盘剩余空间必须大于表空间，否则会执行失败。\n方法三：\n先将整个表的结构和数据导出来，删除整个表，再创建表，最后导入数据。生产环境不建议用这个方法。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 999,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7a228187-977e-402d-a8ea-6a535839707c",
+    "note_id": "6eb9f54a-4512-4f2e-9d6b-7f258ebed7d5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.501958Z",
+    "finished_at": "2025-11-09T20:05:14.501958Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1d826f6a-08e3-4220-9e2b-7d331ef5e7f9",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/优化表空间.html",
+      "checksum": "5b29d7363c0573eb7f27239b75ef2dbe90fcd02b115d4168fa759b217f53c874"
+    },
+    "output_ref": {
+      "ingest_source": "3b813e44-99a9-40c5-8029-eaa1e3c3a7bb",
+      "note": "6eb9f54a-4512-4f2e-9d6b-7f258ebed7d5",
+      "variants": [
+        "c30a9b3c-bc0d-477d-a012-db463817500a",
+        "c03a6ef8-0bf7-4bad-8285-94943ef331bf"
+      ]
+    },
+    "error_detail": null
+  }
+}

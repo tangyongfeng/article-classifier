@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "be864d4e-3ad1-4153-857b-a703c03629f5",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/炒作.html",
+    "collected_at": "2025-11-09T20:05:16.483949Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "29c35065d8e661511848c2aac122979b1b28248ae22987941b55f5ebbe342f39",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6a1dc1bc-0a47-4525-9c6f-3773fdd8dc00",
+    "ingest_source_id": "be864d4e-3ad1-4153-857b-a703c03629f5",
+    "canonical_title": "炒作",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.483952Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "炒作.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "86f27adf-a1a1-4c03-961b-2b5cd9680d26",
+      "note_id": "6a1dc1bc-0a47-4525-9c6f-3773fdd8dc00",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.483955Z",
+      "content": "---\ntitle: 炒作\nupdated: 2014-07-03 00:19:36Z\ncreated: 2014-07-03 00:19:29Z\n---\n\n\n\n<en-note>：老粉丝都知道我微博内容大概有以下几种：1）科普口腔保健常识，2）记录自己生活，3）不定时发飙，4）时常得瑟一下，5）推广自己淘宝专柜。如果有一天变成纯科普没有自我的话，就是说那已经不是我了，说不好也许是更年期阶段了。爱我就接受我的全部好不好？请忍受我的各种发飙，得瑟，自我推广。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "29c35065d8e661511848c2aac122979b1b28248ae22987941b55f5ebbe342f39",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/炒作.html"
+      }
+    },
+    {
+      "id": "12118ec3-3d48-4749-96c8-fe67d9b99ab7",
+      "note_id": "6a1dc1bc-0a47-4525-9c6f-3773fdd8dc00",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.483957Z",
+      "content": "---\ntitle: 炒作\nupdated: 2014-07-03 00:19:36Z\ncreated: 2014-07-03 00:19:29Z\n---\n\n：老粉丝都知道我微博内容大概有以下几种：1）科普口腔保健常识，2）记录自己生活，3）不定时发飙，4）时常得瑟一下，5）推广自己淘宝专柜。如果有一天变成纯科普没有自我的话，就是说那已经不是我了，说不好也许是更年期阶段了。爱我就接受我的全部好不好？请忍受我的各种发飙，得瑟，自我推广。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 219,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9a88c6dd-80a4-44e0-81d9-8711017ca4e8",
+    "note_id": "6a1dc1bc-0a47-4525-9c6f-3773fdd8dc00",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.483962Z",
+    "finished_at": "2025-11-09T20:05:16.483962Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9e4d2a06-19be-4919-be57-e73f78e0f88c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/炒作.html",
+      "checksum": "29c35065d8e661511848c2aac122979b1b28248ae22987941b55f5ebbe342f39"
+    },
+    "output_ref": {
+      "ingest_source": "be864d4e-3ad1-4153-857b-a703c03629f5",
+      "note": "6a1dc1bc-0a47-4525-9c6f-3773fdd8dc00",
+      "variants": [
+        "86f27adf-a1a1-4c03-961b-2b5cd9680d26",
+        "12118ec3-3d48-4749-96c8-fe67d9b99ab7"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "88b69017-30dc-4f2d-bbbd-ab49307405df",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/域名.html",
+    "collected_at": "2025-11-09T20:05:14.710670Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d745c75cec55b20372430756624e992c31f18992567e79ac5ab8837ae94c0255",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "12ed3b0b-b11f-4349-9308-aeb25d943473",
+    "ingest_source_id": "88b69017-30dc-4f2d-bbbd-ab49307405df",
+    "canonical_title": "域名",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:14.710675Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "域名.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4adde73d-0113-4de4-b8a4-0f4d3683f00b",
+      "note_id": "12ed3b0b-b11f-4349-9308-aeb25d943473",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.710678Z",
+      "content": "---\ntitle: 域名\nupdated: 2018-05-29 06:19:04Z\ncreated: 2018-05-29 06:15:39Z\nauthor: tangyongfeng\n---\n\n\n\n<en-note><div><span>meine22.com</span><br CLEAR=\"none\"/></div><div><span>my22.eu</span><br CLEAR=\"none\"/></div><div>meine22.de</div><div>chinaunddeutschland.com <br CLEAR=\"none\"/>chinaandgermany.com <br CLEAR=\"none\"/>makeup.run <br CLEAR=\"none\"/>mon22.fr<br CLEAR=\"none\"/><br CLEAR=\"none\"/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d745c75cec55b20372430756624e992c31f18992567e79ac5ab8837ae94c0255",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/域名.html"
+      }
+    },
+    {
+      "id": "9eaa2036-55cd-4f8d-b1f2-bb264e9b08e1",
+      "note_id": "12ed3b0b-b11f-4349-9308-aeb25d943473",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.710682Z",
+      "content": "---\ntitle: 域名\nupdated: 2018-05-29 06:19:04Z\ncreated: 2018-05-29 06:15:39Z\nauthor: tangyongfeng\n---\n\nmeine22.com\nmy22.eu\nmeine22.de\nchinaunddeutschland.com\nchinaandgermany.com\nmakeup.run\nmon22.fr",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 194,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1f89145a-96c4-416b-b8c5-8dd1a77b0d2f",
+    "note_id": "12ed3b0b-b11f-4349-9308-aeb25d943473",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.710688Z",
+    "finished_at": "2025-11-09T20:05:14.710688Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d66bcade-6d36-4e0e-9b7b-e982320b8d54",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/域名.html",
+      "checksum": "d745c75cec55b20372430756624e992c31f18992567e79ac5ab8837ae94c0255"
+    },
+    "output_ref": {
+      "ingest_source": "88b69017-30dc-4f2d-bbbd-ab49307405df",
+      "note": "12ed3b0b-b11f-4349-9308-aeb25d943473",
+      "variants": [
+        "4adde73d-0113-4de4-b8a4-0f4d3683f00b",
+        "9eaa2036-55cd-4f8d-b1f2-bb264e9b08e1"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "67bb27ae-e249-4cb0-b3c3-b3b5ac03982e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/中通快递.html",
+    "collected_at": "2025-11-09T20:01:36.765163Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c1402aa40658781eff6daac01b86cce1ed7794880d8dcb448025185e0c25cc18",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0ab431ce-5df0-4a17-b3a7-a592f628cd62",
+    "ingest_source_id": "67bb27ae-e249-4cb0-b3c3-b3b5ac03982e",
+    "canonical_title": "中通快递",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.765167Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "中通快递.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "012ca0a4-db28-4054-bad0-34e449023068",
+      "note_id": "0ab431ce-5df0-4a17-b3a7-a592f628cd62",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.765169Z",
+      "content": "---\ntitle: 中通快递\nupdated: 2020-06-29 19:47:39Z\ncreated: 2020-06-29 19:47:27Z\n---\n\n\n\n<en-note><div>75366191905971</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c1402aa40658781eff6daac01b86cce1ed7794880d8dcb448025185e0c25cc18",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/中通快递.html"
+      }
+    },
+    {
+      "id": "747a00cc-6001-4d4f-8ed5-0d93945d012f",
+      "note_id": "0ab431ce-5df0-4a17-b3a7-a592f628cd62",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.765172Z",
+      "content": "---\ntitle: 中通快递\nupdated: 2020-06-29 19:47:39Z\ncreated: 2020-06-29 19:47:27Z\n---\n\n75366191905971",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 95,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "59cb6f87-fcd8-47ad-9e80-086a771b7ce8",
+    "note_id": "0ab431ce-5df0-4a17-b3a7-a592f628cd62",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.765177Z",
+    "finished_at": "2025-11-09T20:01:36.765178Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4963d673-26d4-48d3-99d8-3684512fb7dd",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/中通快递.html",
+      "checksum": "c1402aa40658781eff6daac01b86cce1ed7794880d8dcb448025185e0c25cc18"
+    },
+    "output_ref": {
+      "ingest_source": "67bb27ae-e249-4cb0-b3c3-b3b5ac03982e",
+      "note": "0ab431ce-5df0-4a17-b3a7-a592f628cd62",
+      "variants": [
+        "012ca0a4-db28-4054-bad0-34e449023068",
+        "747a00cc-6001-4d4f-8ed5-0d93945d012f"
+      ]
+    },
+    "error_detail": null
+  }
+}

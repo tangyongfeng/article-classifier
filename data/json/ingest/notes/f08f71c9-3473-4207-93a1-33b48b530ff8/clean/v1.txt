@@ -1,0 +1,21 @@
+---
+title: 删除openedx课程
+updated: 2021-06-22 08:59:17Z
+created: 2021-06-22 08:59:07Z
+author: tangyongfeng@gmail.com
+tags:
+  - openedx
+---
+
+在 edx-platform 目录中：
+  - 
+cd /edx/app/edxapp/edx-platform
+运行以下 Django 管理命令：
+   -  
+sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp lms dump_course_ids --settings production
+在生成的课程 ID 列表中找到您要删除的课程 ID。
+将课程 ID 复制到以下命令中并运行它：
+  - 
+ sudo -u www-data /edx/bin/python.edxapp /edx/bin/manage.edxapp cms delete_course <COURSE_ID> --settings production
+  - 你会被问到以验证删除。
+要验证删除，请运行上述步骤 2 中的命令并确保课程 ID 不在列表中。

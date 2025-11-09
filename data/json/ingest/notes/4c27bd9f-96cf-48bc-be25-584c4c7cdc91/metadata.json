@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f98e6398-cbf3-4bb5-add6-37ca4191ced5",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/融资融券账户.html",
+    "collected_at": "2025-11-09T20:01:39.647228Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d9ba2eb206314af9f3fa8883903f5c50aa2b059e4a446acd6d2eb3d2ef9acaa8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4c27bd9f-96cf-48bc-be25-584c4c7cdc91",
+    "ingest_source_id": "f98e6398-cbf3-4bb5-add6-37ca4191ced5",
+    "canonical_title": "融资融券账户",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.647231Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "融资融券账户.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0da9a6c5-5b02-44a0-8cd1-3bfd99316514",
+      "note_id": "4c27bd9f-96cf-48bc-be25-584c4c7cdc91",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.647234Z",
+      "content": "---\ntitle: 融资融券账户\nupdated: 2020-07-28 03:07:12Z\ncreated: 2013-10-28 14:28:36Z\n---\n\n\n\n<en-note><div><a HREF=\"tel:9970070434\">9970070434</a></div><div>邮箱原始密码E219617</div><div>融资利息 万分之2.39天</div><div>融券利息 万分之2.94天</div><div><br/></div><div>牛卡号<a HREF=\"tel:07616390\">07616390</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d9ba2eb206314af9f3fa8883903f5c50aa2b059e4a446acd6d2eb3d2ef9acaa8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/融资融券账户.html"
+      }
+    },
+    {
+      "id": "fcda65f2-6ce7-4e7f-8609-f57fec16b9a8",
+      "note_id": "4c27bd9f-96cf-48bc-be25-584c4c7cdc91",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.647237Z",
+      "content": "---\ntitle: 融资融券账户\nupdated: 2020-07-28 03:07:12Z\ncreated: 2013-10-28 14:28:36Z\n---\n\n9970070434\n邮箱原始密码E219617\n融资利息 万分之2.39天\n融券利息 万分之2.94天\n牛卡号\n07616390",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 148,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "49d5bccb-876c-4962-920b-7bd3652247e8",
+    "note_id": "4c27bd9f-96cf-48bc-be25-584c4c7cdc91",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.647241Z",
+    "finished_at": "2025-11-09T20:01:39.647242Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "97b596d5-1b41-480d-8a67-f8bdeb8cf867",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/融资融券账户.html",
+      "checksum": "d9ba2eb206314af9f3fa8883903f5c50aa2b059e4a446acd6d2eb3d2ef9acaa8"
+    },
+    "output_ref": {
+      "ingest_source": "f98e6398-cbf3-4bb5-add6-37ca4191ced5",
+      "note": "4c27bd9f-96cf-48bc-be25-584c4c7cdc91",
+      "variants": [
+        "0da9a6c5-5b02-44a0-8cd1-3bfd99316514",
+        "fcda65f2-6ce7-4e7f-8609-f57fec16b9a8"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a45b283c-86a8-4b77-87a4-d4fe1c783b0e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/IBM ID.html",
+    "collected_at": "2025-11-09T20:05:15.645835Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d3e5d621c9146430d0a545c4977c190d5704a5b8842c3da62b12a3e1b394b7ea",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7eb59faa-5c9d-4a2d-8101-3082b6577285",
+    "ingest_source_id": "a45b283c-86a8-4b77-87a4-d4fe1c783b0e",
+    "canonical_title": "IBM ID",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.645839Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "IBM ID.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "17e28ce6-12bf-4ae8-b27a-b496c13cc187",
+      "note_id": "7eb59faa-5c9d-4a2d-8101-3082b6577285",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.645842Z",
+      "content": "---\ntitle: IBM ID\nupdated: 2013-03-19 02:41:51Z\ncreated: 2013-03-19 02:40:55Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"mailto:用户名：tangyf@clo.com.cn\">用户名： &nbsp;</a><div><a HREF=\"mailto:用户名：tangyf@clo.com.cn\">tangyf@clo.com.cn</a><div>&nbsp;密码 ：we*******3</div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d3e5d621c9146430d0a545c4977c190d5704a5b8842c3da62b12a3e1b394b7ea",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/IBM ID.html"
+      }
+    },
+    {
+      "id": "1e7ef547-eb82-4f95-9196-9bd84800f856",
+      "note_id": "7eb59faa-5c9d-4a2d-8101-3082b6577285",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.645844Z",
+      "content": "---\ntitle: IBM ID\nupdated: 2013-03-19 02:41:51Z\ncreated: 2013-03-19 02:40:55Z\n---\n\n用户名：  \ntangyf@clo.com.cn\n 密码 ：we*******3",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 123,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4ba6576c-5975-4ff2-bde7-d37d8d8f31fc",
+    "note_id": "7eb59faa-5c9d-4a2d-8101-3082b6577285",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.645849Z",
+    "finished_at": "2025-11-09T20:05:15.645849Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a4892ba7-6e70-438f-ac62-4b78f4758cff",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/IBM ID.html",
+      "checksum": "d3e5d621c9146430d0a545c4977c190d5704a5b8842c3da62b12a3e1b394b7ea"
+    },
+    "output_ref": {
+      "ingest_source": "a45b283c-86a8-4b77-87a4-d4fe1c783b0e",
+      "note": "7eb59faa-5c9d-4a2d-8101-3082b6577285",
+      "variants": [
+        "17e28ce6-12bf-4ae8-b27a-b496c13cc187",
+        "1e7ef547-eb82-4f95-9196-9bd84800f856"
+      ]
+    },
+    "error_detail": null
+  }
+}

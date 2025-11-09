@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f12dff9d-8001-4d3b-90cc-6a20bee0e9ee",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Great Free评价.html",
+    "collected_at": "2025-11-09T20:05:15.644276Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "ffd9942ea90b6404f98942bb5109b670e12c61b5566719a4208adc92a849cd2f",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d0b88823-a112-4e9b-abaa-0db70c3886f0",
+    "ingest_source_id": "f12dff9d-8001-4d3b-90cc-6a20bee0e9ee",
+    "canonical_title": "Great Free评价",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:15.644280Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Great Free评价.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f7df34f8-c995-486b-97a4-5e00bbbf4dc2",
+      "note_id": "d0b88823-a112-4e9b-abaa-0db70c3886f0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.644286Z",
+      "content": "---\ntitle: Great Free评价\nupdated: 2021-07-13 20:30:15Z\ncreated: 2021-07-13 19:39:00Z\n---\n\n\n<en-note><ol><li><div>一套Java SE功能库，实现了常用的大部分功能，包括网络、并发、同步、缓存、事件等。用java语言可以很容易的调用，并且有大量的例程可以借鉴，从而快速地实现希望的功能；</div></li><li><div>由于没有大量基于实际的应用，所以api的设计和理性和类库的质量未知（作者亦未做完整的高级别测试）；</div></li><li><div>源于Java，开发依然需要在Java环境里编程，所以应用环境受限于Java。</div></li><li><div>4.设计和完成度覆盖教学应用，涵盖了大学计算机专业网络技术的主要内容。程序大概60多万行，样例程序7万多行；</div></li><li><div>课程风格和大学本科教学类似，作者非常细致，内容不分巨细，从整体介绍到安装细节、包括开发工具配置都一一详细说明。</div></li></ol><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ffd9942ea90b6404f98942bb5109b670e12c61b5566719a4208adc92a849cd2f",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Great Free评价.html"
+      }
+    },
+    {
+      "id": "1f03d744-1010-4fd5-b3fa-ad9e9616a491",
+      "note_id": "d0b88823-a112-4e9b-abaa-0db70c3886f0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.644288Z",
+      "content": "---\ntitle: Great Free评价\nupdated: 2021-07-13 20:30:15Z\ncreated: 2021-07-13 19:39:00Z\n---\n\n一套Java SE功能库，实现了常用的大部分功能，包括网络、并发、同步、缓存、事件等。用java语言可以很容易的调用，并且有大量的例程可以借鉴，从而快速地实现希望的功能；\n由于没有大量基于实际的应用，所以api的设计和理性和类库的质量未知（作者亦未做完整的高级别测试）；\n源于Java，开发依然需要在Java环境里编程，所以应用环境受限于Java。\n4.设计和完成度覆盖教学应用，涵盖了大学计算机专业网络技术的主要内容。程序大概60多万行，样例程序7万多行；\n课程风格和大学本科教学类似，作者非常细致，内容不分巨细，从整体介绍到安装细节、包括开发工具配置都一一详细说明。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 374,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "68b4fa55-e49a-4d99-bdfb-41f6a3c41d4d",
+    "note_id": "d0b88823-a112-4e9b-abaa-0db70c3886f0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.644293Z",
+    "finished_at": "2025-11-09T20:05:15.644294Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4728a23b-94d4-4854-a88e-5e06955c553e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Great Free评价.html",
+      "checksum": "ffd9942ea90b6404f98942bb5109b670e12c61b5566719a4208adc92a849cd2f"
+    },
+    "output_ref": {
+      "ingest_source": "f12dff9d-8001-4d3b-90cc-6a20bee0e9ee",
+      "note": "d0b88823-a112-4e9b-abaa-0db70c3886f0",
+      "variants": [
+        "f7df34f8-c995-486b-97a4-5e00bbbf4dc2",
+        "1f03d744-1010-4fd5-b3fa-ad9e9616a491"
+      ]
+    },
+    "error_detail": null
+  }
+}

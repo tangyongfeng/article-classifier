@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "43a234e5-3dd1-45d7-88a7-f596b57938f2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/证券日报 - 电商巨头抢滩区块链商品溯源场景_BR__京东三季度技术大投入成亮点.html",
+    "collected_at": "2025-11-09T20:05:15.436657Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c64065ad55a54a928f138e36a851197be447d4d734e627e8d8634323468af8c8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c7c33ac8-f8f4-42b4-bb3a-897ef8980693",
+    "ingest_source_id": "43a234e5-3dd1-45d7-88a7-f596b57938f2",
+    "canonical_title": "证券日报 - 电商巨头抢滩区块链商品溯源场景_BR__京东三季度技术大投入成亮点",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:15.436661Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "证券日报 - 电商巨头抢滩区块链商品溯源场景_BR__京东三季度技术大投入成亮点.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2c20a0bc-78f2-474d-830c-dcf9aaf8be39",
+      "note_id": "c7c33ac8-f8f4-42b4-bb3a-897ef8980693",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.436663Z",
+      "content": "---\ntitle: 证券日报 - 电商巨头抢滩区块链商品溯源场景<BR/>京东三季度技术大投入成亮点\nupdated: 2018-11-23 12:40:26Z\ncreated: 2018-11-23 12:40:12Z\nsource: >-\n  http://m.epaper.zqrb.cn/html/2018-11/23/content_380093.htm?div=-1&from=timeline&isappinstalled=0\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div STYLE=\"font-size: 16px\"><div STYLE=\"font-size:16px;box-sizing:border-box;overflow:hidden;text-size-adjust:none;\"><div STYLE=\"font-size:16px;box-sizing:border-box;overflow:hidden;text-size-adjust:none;\"><div STYLE=\"font-size:16px;box-sizing:border-box;overflow:hidden;\"><div STYLE=\"font-size:16px;box-sizing:border-box;transition-property:transform;transform-origin:0px 0px 0px;transform:translate(0px, 0px) translateZ(0px);\"><div STYLE=\"font-size:1em;box-sizing:border-box;line-height:1.8em;\">\n      \n<table STYLE=\"font-size:16px;font-weight:inherit;font-style:inherit;font-variant:inherit;margin:0px;padding:0px;box-sizing:border-box;\"><tbody STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\"><tr STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\"><td STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\"><img src=\"../_resources/0f39b2da6684c6d3024f57acad618241.jpg\"  type=\"image/jpeg\" hash=\"ed7d66987630023ba6db26fb0291dad4\" alt=\"0f39b2da6684c6d3024f57acad618241.jpg\" /></en-media></td></tr>\n    <tr STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\"><td STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\"></td></tr></tbody></table>\n      \n<p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　■本报记者&nbsp;邢&nbsp;萌</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　日前，京东集团发布今年第三季度财报，大幅攀升的技术投入成为一大亮点。财报显示，三季度京东技术投入34亿元，同比大增96%。财报中特别提到了全链路数据平台&ldquo;祖冲之&rdquo;，助力零售店进行数据化和可视化精准运营。京东在今年8月份发布区块链服务平台&ldquo;智臻链&rdquo;，也是其技术驱动转型的重要一环，致力于解决商品防伪溯源问题。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　事实上，运用区块链技术解决商品防伪溯源问题已逐渐成为电商巨头共识。今年&ldquo;双11&rdquo;天猫1.5亿跨境商品配置区块链&ldquo;身份证&rdquo;，&ldquo;618&rdquo;苏宁易购门店启动区块链商品溯源系统，保障商品质量。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　多位区块链业内资深人士对《证券日报》记者表示，区块链数据透明、不可篡改、充分共享等特性适合商品防伪溯源场景，能够防止虚假信息，保障消费者权益，不过也面临着诸多挑战。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　京东、天猫、苏宁</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　发力区块链溯源场景</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　11月19日，京东集团披露2018年第三季度业绩，交出了一张靓丽的成绩单。京东集团实现营业收入1090亿元，同比增长25.%；实现净利润30亿元，同比增长200%。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　今年京东三季度技术投入34亿元，相较于去年同期的18亿元，增长了96%。可以看出，大笔的技术投入意味着京东正加快转型步伐，由业务驱动向技术驱动转型。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　值得注意的是，今年来大热的区块链技术也与京东联系紧密，京东在区块链领域布局已具一定成果。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　今年8月份，京东正式发布自主研发的区块链服务平台&mdash;&mdash;&ldquo;智臻链&rdquo;。据了解，京东的智臻链平台包括应用层、接口层、服务层、区块层和资源层，具备一键部署、开放兼容多种底层、可信身份链认证、企业动态组网、水平扩展、轻量级网关等能力。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　京东集团高级副总裁、京东商城技术委员会主席马松表示，此次产品正式发布，将进一步加快京东区块链服务平台的应用和实施，并降低行业用户使用区块链的门槛，携手合作伙伴共同为客户打造值得信赖的一站式区块链解决方案和技术支持，共同打造信任经济的大环境。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　据了解，&ldquo;智臻链&rdquo;是从&ldquo;京东区块链防伪追溯平台&rdquo;升级而来，&ldquo;京东区块链防伪追溯平台&rdquo;已接入超过400家品牌商，覆盖12000多款商品，上链超过10亿条商品追溯数据。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　不仅京东，天猫在今年&ldquo;双11&rdquo;中也将区块链技术应用到商品溯源场景中。据悉，&ldquo;双11&rdquo;期间在天猫国际商城，使用区块链溯源的商品会覆盖百余个国家和地区、商品数量达到1.5亿件。涉及的商品主要包括钻石、进口奶粉、进口保健品等跨境商品，另外五常大米、茅台等高端酒和平武蜂蜜也将采用区块链溯源。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　苏宁在今年&ldquo;618&rdquo;期间上线了区块链商品溯源系统。据了解，&ldquo;618&rdquo;期间苏宁易购自主研发的区块链商品溯源系统在苏宁易购线上和线下门店全面启用，双线保障商品质量，拒绝假货。苏宁应用商品防伪溯源区块链技术，对商品的生产、加工、运输、流通、零售等环节进行追踪记录，通过产业上下游的各方主体广泛参与来实现。苏宁易购用户在购买商品后，只要扫描产品上的溯源码，就可以&ldquo;一键&rdquo;查询产品信息。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　区块链技术</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　解决商品溯源痛点</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　为何电商巨头纷纷布局区块链溯源？对此，《证券日报》记者采访了多位区块链业内资深人士。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　共识数信董事长王毛路对《证券日报》记者表示，&ldquo;区块链技术适用于商品防伪溯源，尤为适合监管或产业闭环场景内。区块链数据不可篡改与交易可追溯两大特性相结合，可根除供应链内产品流转过程中的假冒伪劣问题，解决传统溯源中存在的信任问题，保障消费者权益。&rdquo;</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　工信部发布的《2018中国区块链产业白皮书》指出，区块链不可篡改、分布式存储等技术为溯源行业的信任缺失提供了解决方案，从算法层面为商品的信息流、物流和资金流提供透明机制。通过供应链上下游多方上链的记账方式，保证了即便存在单方账本伪造情况也难以找到全部链条节点来协作拟合其造假数据，使得造假成本大幅上升。&ldquo;此外，在商业的实际应用场景中使用区块链溯源技术能够为品牌背书，为企业带来额外收益，增强企业竞争力。&rdquo;</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　也有业内分析人士指出，区块链在防伪溯源场景处于前期阶段，所涉及的也多为跨境商品或其它高价值商品，距离普通人的生活依然较远，区块链溯源场景规模化商业落地面临一定的挑战。</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　区块链用于高端商品的溯源，主要是为了解决物流过程中的可信问题。&ldquo;电商平台逐步意识到高端商品消费者最关心商品的真伪即可信问题，而区块链自身所具有时间戳及共识机制恰恰天生存在溯源属性，将区块链用于高端商品的溯源系统可以满足消费者对此的需求。&rdquo;香颂资本执行董事沈萌对《证券日报》记者解释道，&ldquo;不过需要注意的是，区块链只能保证上链信息的不可篡改，而无法保证信息上链前的真实性。&rdquo;</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　目前区块链商品溯源场景存在两个问题，王毛路表示，&ldquo;一方面，区块链标识ID难以做到与商品物理信息一一对应；另一方面，目前商品上链的商业价值并未完全体现出来，消费者是否为上链溯源成本买单仍有待市场检验。&rdquo;</p><p STYLE=\"margin:0px;padding:0px;font-size:16px;box-sizing:border-box;\">　　区块链应用场景距离真正落地仍有一段距离，主要受技术及政策因素影响，沈萌表示，一方面，区块链本身在系统结构上还存在技术瓶颈，比如大规模并发处理负载、分布式存储的数据I/O以及共识机制的效率等，另一方面，行业监管政策仍未完善，这也在一定程度上束缚了区块链应用发展。&rdquo;</p>\n\n    </div></div></div></div></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c64065ad55a54a928f138e36a851197be447d4d734e627e8d8634323468af8c8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/证券日报 - 电商巨头抢滩区块链商品溯源场景_BR__京东三季度技术大投入成亮点.html"
+      }
+    },
+    {
+      "id": "dfaa6705-a920-40f5-9b74-7e7b54bb9b4c",
+      "note_id": "c7c33ac8-f8f4-42b4-bb3a-897ef8980693",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.436666Z",
+      "content": "---\ntitle: 证券日报 - 电商巨头抢滩区块链商品溯源场景\n京东三季度技术大投入成亮点\nupdated: 2018-11-23 12:40:26Z\ncreated: 2018-11-23 12:40:12Z\nsource: >-\n  http://m.epaper.zqrb.cn/html/2018-11/23/content_380093.htm?div=-1&from=timeline&isappinstalled=0\n---\n\n　　■本报记者 邢 萌\n　　\n　　日前，京东集团发布今年第三季度财报，大幅攀升的技术投入成为一大亮点。财报显示，三季度京东技术投入34亿元，同比大增96%。财报中特别提到了全链路数据平台“祖冲之”，助力零售店进行数据化和可视化精准运营。京东在今年8月份发布区块链服务平台“智臻链”，也是其技术驱动转型的重要一环，致力于解决商品防伪溯源问题。\n　　事实上，运用区块链技术解决商品防伪溯源问题已逐渐成为电商巨头共识。今年“双11”天猫1.5亿跨境商品配置区块链“身份证”，“618”苏宁易购门店启动区块链商品溯源系统，保障商品质量。\n　　多位区块链业内资深人士对《证券日报》记者表示，区块链数据透明、不可篡改、充分共享等特性适合商品防伪溯源场景，能够防止虚假信息，保障消费者权益，不过也面临着诸多挑战。\n　　京东、天猫、苏宁\n　　发力区块链溯源场景\n　　11月19日，京东集团披露2018年第三季度业绩，交出了一张靓丽的成绩单。京东集团实现营业收入1090亿元，同比增长25.%；实现净利润30亿元，同比增长200%。\n　　今年京东三季度技术投入34亿元，相较于去年同期的18亿元，增长了96%。可以看出，大笔的技术投入意味着京东正加快转型步伐，由业务驱动向技术驱动转型。\n　　值得注意的是，今年来大热的区块链技术也与京东联系紧密，京东在区块链领域布局已具一定成果。\n　　今年8月份，京东正式发布自主研发的区块链服务平台——“智臻链”。据了解，京东的智臻链平台包括应用层、接口层、服务层、区块层和资源层，具备一键部署、开放兼容多种底层、可信身份链认证、企业动态组网、水平扩展、轻量级网关等能力。\n　　京东集团高级副总裁、京东商城技术委员会主席马松表示，此次产品正式发布，将进一步加快京东区块链服务平台的应用和实施，并降低行业用户使用区块链的门槛，携手合作伙伴共同为客户打造值得信赖的一站式区块链解决方案和技术支持，共同打造信任经济的大环境。\n　　据了解，“智臻链”是从“京东区块链防伪追溯平台”升级而来，“京东区块链防伪追溯平台”已接入超过400家品牌商，覆盖12000多款商品，上链超过10亿条商品追溯数据。\n　　不仅京东，天猫在今年“双11”中也将区块链技术应用到商品溯源场景中。据悉，“双11”期间在天猫国际商城，使用区块链溯源的商品会覆盖百余个国家和地区、商品数量达到1.5亿件。涉及的商品主要包括钻石、进口奶粉、进口保健品等跨境商品，另外五常大米、茅台等高端酒和平武蜂蜜也将采用区块链溯源。\n　　苏宁在今年“618”期间上线了区块链商品溯源系统。据了解，“618”期间苏宁易购自主研发的区块链商品溯源系统在苏宁易购线上和线下门店全面启用，双线保障商品质量，拒绝假货。苏宁应用商品防伪溯源区块链技术，对商品的生产、加工、运输、流通、零售等环节进行追踪记录，通过产业上下游的各方主体广泛参与来实现。苏宁易购用户在购买商品后，只要扫描产品上的溯源码，就可以“一键”查询产品信息。\n　　区块链技术\n　　解决商品溯源痛点\n　　为何电商巨头纷纷布局区块链溯源？对此，《证券日报》记者采访了多位区块链业内资深人士。\n　　共识数信董事长王毛路对《证券日报》记者表示，“区块链技术适用于商品防伪溯源，尤为适合监管或产业闭环场景内。区块链数据不可篡改与交易可追溯两大特性相结合，可根除供应链内产品流转过程中的假冒伪劣问题，解决传统溯源中存在的信任问题，保障消费者权益。”\n　　工信部发布的《2018中国区块链产业白皮书》指出，区块链不可篡改、分布式存储等技术为溯源行业的信任缺失提供了解决方案，从算法层面为商品的信息流、物流和资金流提供透明机制。通过供应链上下游多方上链的记账方式，保证了即便存在单方账本伪造情况也难以找到全部链条节点来协作拟合其造假数据，使得造假成本大幅上升。“此外，在商业的实际应用场景中使用区块链溯源技术能够为品牌背书，为企业带来额外收益，增强企业竞争力。”\n　　也有业内分析人士指出，区块链在防伪溯源场景处于前期阶段，所涉及的也多为跨境商品或其它高价值商品，距离普通人的生活依然较远，区块链溯源场景规模化商业落地面临一定的挑战。\n　　区块链用于高端商品的溯源，主要是为了解决物流过程中的可信问题。“电商平台逐步意识到高端商品消费者最关心商品的真伪即可信问题，而区块链自身所具有时间戳及共识机制恰恰天生存在溯源属性，将区块链用于高端商品的溯源系统可以满足消费者对此的需求。”香颂资本执行董事沈萌对《证券日报》记者解释道，“不过需要注意的是，区块链只能保证上链信息的不可篡改，而无法保证信息上链前的真实性。”\n　　目前区块链商品溯源场景存在两个问题，王毛路表示，“一方面，区块链标识ID难以做到与商品物理信息一一对应；另一方面，目前商品上链的商业价值并未完全体现出来，消费者是否为上链溯源成本买单仍有待市场检验。”\n　　区块链应用场景距离真正落地仍有一段距离，主要受技术及政策因素影响，沈萌表示，一方面，区块链本身在系统结构上还存在技术瓶颈，比如大规模并发处理负载、分布式存储的数据I/O以及共识机制的效率等，另一方面，行业监管政策仍未完善，这也在一定程度上束缚了区块链应用发展。”",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 2367,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "41d870dd-5b4c-4ba0-b006-6b9694ebd422",
+    "note_id": "c7c33ac8-f8f4-42b4-bb3a-897ef8980693",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.436671Z",
+    "finished_at": "2025-11-09T20:05:15.436671Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4cf5acfd-3cbb-4993-ad06-8291b57a225b",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/证券日报 - 电商巨头抢滩区块链商品溯源场景_BR__京东三季度技术大投入成亮点.html",
+      "checksum": "c64065ad55a54a928f138e36a851197be447d4d734e627e8d8634323468af8c8"
+    },
+    "output_ref": {
+      "ingest_source": "43a234e5-3dd1-45d7-88a7-f596b57938f2",
+      "note": "c7c33ac8-f8f4-42b4-bb3a-897ef8980693",
+      "variants": [
+        "2c20a0bc-78f2-474d-830c-dcf9aaf8be39",
+        "dfaa6705-a920-40f5-9b74-7e7b54bb9b4c"
+      ]
+    },
+    "error_detail": null
+  }
+}

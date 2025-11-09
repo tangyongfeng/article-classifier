@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f36a4641-1317-4160-963e-2f8ee5a2e0f7",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/自我介绍-1.html",
+    "collected_at": "2025-11-09T20:01:39.157192Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "bd5b4e407e09bc43a043382ab2d7b82258cac96adb1f9cbf6084a3f23c9aa2c7",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0d705cc1-c575-4a90-a433-7b1c49725621",
+    "ingest_source_id": "f36a4641-1317-4160-963e-2f8ee5a2e0f7",
+    "canonical_title": "自我介绍-1",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:39.157196Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "自我介绍-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0d1b238e-2c56-48f1-b2e3-561dfd079e79",
+      "note_id": "0d705cc1-c575-4a90-a433-7b1c49725621",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.157198Z",
+      "content": "---\ntitle: 自我介绍\nupdated: 2020-06-02 21:11:30Z\ncreated: 2020-06-02 21:07:44Z\n---\n\n\n\n<en-note><div>hallo ,guten tag.</div><div>Ich bin Yongfeng.Tang</div><div>ich bin 42 jahr alter.</div><div>Ich komme aus China.</div><div>ich wohne in Neuss.</div><div>Ich sprache Chinesische.</div><div>Ich bin von Bruf Informatiker.</div><div>mein Hubby ist kochen.</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bd5b4e407e09bc43a043382ab2d7b82258cac96adb1f9cbf6084a3f23c9aa2c7",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/自我介绍-1.html"
+      }
+    },
+    {
+      "id": "f546a770-e45f-4e31-a63f-f9c676854e17",
+      "note_id": "0d705cc1-c575-4a90-a433-7b1c49725621",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.157201Z",
+      "content": "---\ntitle: 自我介绍\nupdated: 2020-06-02 21:11:30Z\ncreated: 2020-06-02 21:07:44Z\n---\n\nhallo ,guten tag.\nIch bin Yongfeng.Tang\nich bin 42 jahr alter.\nIch komme aus China.\nich wohne in Neuss.\nIch sprache Chinesische.\nIch bin von Bruf Informatiker.\nmein Hubby ist kochen.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 263,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3d54e604-c08e-4d13-b8e8-db8351b2fd9f",
+    "note_id": "0d705cc1-c575-4a90-a433-7b1c49725621",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.157206Z",
+    "finished_at": "2025-11-09T20:01:39.157206Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7a88959e-9433-48de-89e2-6859ea491720",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/自我介绍-1.html",
+      "checksum": "bd5b4e407e09bc43a043382ab2d7b82258cac96adb1f9cbf6084a3f23c9aa2c7"
+    },
+    "output_ref": {
+      "ingest_source": "f36a4641-1317-4160-963e-2f8ee5a2e0f7",
+      "note": "0d705cc1-c575-4a90-a433-7b1c49725621",
+      "variants": [
+        "0d1b238e-2c56-48f1-b2e3-561dfd079e79",
+        "f546a770-e45f-4e31-a63f-f9c676854e17"
+      ]
+    },
+    "error_detail": null
+  }
+}

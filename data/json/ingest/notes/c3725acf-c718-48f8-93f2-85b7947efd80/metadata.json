@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b1d8ff1e-e940-4116-bc77-9b5bd4a2653c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/茂硕电源.html",
+    "collected_at": "2025-11-09T20:01:39.637666Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "0db01afbc012c32712cc7dc4acccc96e2042d66780ef6c737298973779264323",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c3725acf-c718-48f8-93f2-85b7947efd80",
+    "ingest_source_id": "b1d8ff1e-e940-4116-bc77-9b5bd4a2653c",
+    "canonical_title": "茂硕电源",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.637669Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "茂硕电源.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7dcf0ec3-9cd1-4d64-8933-76dab1681d37",
+      "note_id": "c3725acf-c718-48f8-93f2-85b7947efd80",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.637672Z",
+      "content": "---\ntitle: 茂硕电源\nupdated: 2013-09-26 14:44:49Z\ncreated: 2013-09-26 09:33:28Z\ntags:\n  - 盈利率0\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n一家生产led驱动电源的公司，境内业务占59.9 境外业务占40.32\n<div>&nbsp;公司从上到下薪水都不高，法人靠股权激励。</div><div>高层除了财务在公司任职时间都不长。</div><div>2012年3月16日上市。公司现金流很紧张。净利润率大概8.6%</div><div><br/></div><div>2013/9/26 筹码获利盘仅为 0.2% &nbsp;年内最低价6.98元。估计会继续下跌。可关注。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0db01afbc012c32712cc7dc4acccc96e2042d66780ef6c737298973779264323",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/茂硕电源.html"
+      }
+    },
+    {
+      "id": "a5c699af-2289-4894-ba20-b0b9cbe08548",
+      "note_id": "c3725acf-c718-48f8-93f2-85b7947efd80",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.637674Z",
+      "content": "---\ntitle: 茂硕电源\nupdated: 2013-09-26 14:44:49Z\ncreated: 2013-09-26 09:33:28Z\ntags:\n  - 盈利率0\n---\n\n一家生产led驱动电源的公司，境内业务占59.9 境外业务占40.32\n\n 公司从上到下薪水都不高，法人靠股权激励。\n高层除了财务在公司任职时间都不长。\n2012年3月16日上市。公司现金流很紧张。净利润率大概8.6%\n2013/9/26 筹码获利盘仅为 0.2%  年内最低价6.98元。估计会继续下跌。可关注。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 253,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "cb6b5e1b-9745-44d0-8f4e-823c18e702cb",
+    "note_id": "c3725acf-c718-48f8-93f2-85b7947efd80",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.637679Z",
+    "finished_at": "2025-11-09T20:01:39.637679Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "126b371a-aba0-40e5-ba01-89db4bc44f02",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/茂硕电源.html",
+      "checksum": "0db01afbc012c32712cc7dc4acccc96e2042d66780ef6c737298973779264323"
+    },
+    "output_ref": {
+      "ingest_source": "b1d8ff1e-e940-4116-bc77-9b5bd4a2653c",
+      "note": "c3725acf-c718-48f8-93f2-85b7947efd80",
+      "variants": [
+        "7dcf0ec3-9cd1-4d64-8933-76dab1681d37",
+        "a5c699af-2289-4894-ba20-b0b9cbe08548"
+      ]
+    },
+    "error_detail": null
+  }
+}

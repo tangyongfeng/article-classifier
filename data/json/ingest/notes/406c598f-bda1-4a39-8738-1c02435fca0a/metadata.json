@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "5e4c1a6b-2bf4-4813-8697-f516a06b4c23",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Freebsd 下如何最有效率的安装软件.html",
+    "collected_at": "2025-11-09T20:05:13.145112Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e319833bef9ad50514b128028310a8fbcd1a11df165d8858cb71e7c048031f97",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "406c598f-bda1-4a39-8738-1c02435fca0a",
+    "ingest_source_id": "5e4c1a6b-2bf4-4813-8697-f516a06b4c23",
+    "canonical_title": "Freebsd 下如何最有效率的安装软件",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.145116Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Freebsd 下如何最有效率的安装软件.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2dfd323c-d215-40e7-9567-20acb2e6f974",
+      "note_id": "406c598f-bda1-4a39-8738-1c02435fca0a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.145119Z",
+      "content": "---\ntitle: Freebsd 下如何最有效率的安装软件\nupdated: 2021-05-22 13:54:47Z\ncreated: 2021-05-22 13:54:22Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - freebsd\n---\n\n\n<en-note><div><span STYLE=\"-en-paragraph:true;\">FreeBSD的默认下载工具是fetch，既慢又不好用。在FreeBSD下安装软件有一些很有效率的方式，下面就给大家介绍一下。\n</span></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">Ports机制</span></div><div><span STYLE=\"-en-paragraph:true;\">首先，FreeBSD下最有特色的软件安装和升级机制就是ports，既方便又高效。下面我们从ports套件的安装开始讲起，让你细致的了解有关ports的每一个细节\n</span></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">一、ports套件的安装</span></div><div><span STYLE=\"-en-paragraph:true;\">①我的FreeBSD 8.0-release是最小化安装，所以既没有ports，也没有/usr/ports目录。选择启用ports的话，需要在root下输入&quot;sysinstall&quot;来安装它：\n</span></div><div><span STYLE=\"-en-paragraph:true;\">输入sysinstall --&gt; 选择Configure --&gt; Distributions --&gt; ports，然后安装即可。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">②ports的默认路径是/usr/ports。这个ports的根目录下面有很多的文件夹及子文件夹，组成一个树状目录，包含大量ports下的软件。比如mail是邮件服务软件，games是游戏，www代表web服务软件，databases则是数据库软件。\n</span></div><div>[root@bsd01 /usr/ports]# cd www</div><div>[root@bsd01 /usr/ports/www]# ls -d apache*</div><div>apache-contrib apache13 apache13-modssl+ipv6</div><div>apache-forrest apache13+ipv6 apache13-ssl</div><div>apache-jserv apache13-modperl apache20</div><div>apache-mode.el apache13-modssl apache22</div><div><span STYLE=\"-en-paragraph:true;\">如果你需要安装什么软件，只要进入当前目录，然后&ldquo;make install clean&rdquo;即可。\n</span></div><div>[root@bsd01 ~]# cd /usr/ports/www/apache22</div><div>[root@bsd01 /usr/ports/www/apache22] make install clean</div><div><span STYLE=\"-en-paragraph:true;\">/usr/ports/distfiles是存放软件包的文件夹。ports会先检查/usr/ports/distfiles目录内有没有这个软件包，如果没有它就会自动从网上下载安装。\n</span></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">二、加速ports的升级速度</span></div><div><span STYLE=\"-en-paragraph:true;\">ports从网上下载软件包自动安装，那么从那里下载呢？首先，我们需要安装axel来取代默认的下载工具fetch，这样可以提高ports的安装速度：\n</span></div><div>cd /usr/ports/ftp/axel</div><div>make install</div><div><span STYLE=\"-en-paragraph:true;\">然后，我们需要一个源地址管理。跟ubuntu上的/etc/source.list文件一样，freebsd用的文件是/etc/make.conf，我们可以修改其文件，达到加速下载的目的。\n</span></div><div>#修改 /et/make.conf</div><div>vi /etc/make.conf</div><div>#加入以下内容</div><div>FETCH_CMD=axel</div><div>FETCH_BEFORE_ARGS= -n 10 -a</div><div>FETCH_AFTER_ARGS=</div><div>DISABLE_SIZE=yes</div><div>MASTER_SITE_OVERRIDE?=\\</div><div><a HREF=\"http://ports.hshh.org/$%7BDIST_SUBDIR%7D/%5C\">http://ports.hshh.org/${DIST_SUBDIR}/\\</a></div><div><a HREF=\"http://ports.cn.freebsd.org/$%7BDIST_SUBDIR%7D/%5C\">http://ports.cn.freebsd.org/${DIST_SUBDIR}/\\</a></div><div><a HREF=\"ftp://ftp.freebsdchina.org/pub/FreeBSD/ports/distfiles/$%7BDIST_SUBDIR%7D/\">ftp://ftp.freeBSDchina.org/pub/FreeBSD/ports/distfiles/${DIST_SUBDIR}/</a></div><div>MASTER_SITE_OVERRIDE?=${MASTER_SITE_BACKUP} &nbsp; &nbsp; &nbsp; </div><div><span STYLE=\"-en-paragraph:true;\">这样处理后，在公司的网络环境下，FreeBSD的下载速度明显提高了，有时居然能达到1M/s,这样升级及安装软件方便极了；呵呵，终于可以摆脱fetch的龟速了。\n</span></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">三、更新ports目录树</span></div><div><span STYLE=\"-en-paragraph:true;\">既然ports的树目录全部下载到本地，那么即使FreeBSD有新的软件包或者添置了新的软件，本地目录树也不会更新。所以，我们每隔一段时间需要更新本地目录树。我来介绍一种在FreeBSD中方便、快捷的更新ports的方法：使用portsnap来更新ports目录树。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">①配置portsnap：\n</span></div><div><span STYLE=\"-en-paragraph:true;\">我们使用portsnap，首先要设置一下它的配置文件，位于/etc/portsnap.conf:\n</span></div><div>[root@bsd01 /usr/ports]# vi /etc/portsnap.conf</div><div><span STYLE=\"-en-paragraph:true;\">把\n</span></div><div><span STYLE=\"-en-paragraph:true;\">SERVERNAME=portsnap.</span><a HREF=\"http://freebsd.org/\" STYLE=\"-en-paragraph:true;\">freebsd.org</a><span STYLE=\"-en-paragraph:true;\">\n</span></div><div><span STYLE=\"-en-paragraph:true;\">修改成：\n</span></div><div><span STYLE=\"-en-paragraph:true;\">SERVERNAME=portsnap.</span><a HREF=\"http://hshh.org/\" STYLE=\"-en-paragraph:true;\">hshh.org</a><span STYLE=\"-en-paragraph:true;\">\n</span></div><div><span STYLE=\"-en-paragraph:true;\">这个是他的更新服务器。另外还有几个国内比较快的portsnap服务器：\n</span></div><div><a HREF=\"http://portsnap.hshh.org/\" STYLE=\"-en-paragraph:true;\">portsnap.hshh.org</a><span STYLE=\"-en-paragraph:true;\">\n</span></div><div><a HREF=\"http://portsnap2.hshh.org/\" STYLE=\"-en-paragraph:true;\">portsnap2.hshh.org</a><span STYLE=\"-en-paragraph:true;\">\n</span></div><div><a HREF=\"http://portsnap3.hshh.org/\" STYLE=\"-en-paragraph:true;\">portsnap3.hshh.org</a><span STYLE=\"-en-paragraph:true;\"> (网通)\n</span></div><div><a HREF=\"http://portsnap4.hshh.org/\" STYLE=\"-en-paragraph:true;\">portsnap4.hshh.org</a><span STYLE=\"-en-paragraph:true;\">\n</span></div><div><span STYLE=\"-en-paragraph:true;\">②首次使用portsnap：\n</span></div><div><span STYLE=\"-en-paragraph:true;\">在你的FreeBSD首次使用portsnap必须执行下面2步：\n</span></div><div>[root@bsd01 ~]# portsnap fetch</div><div>[root@bsd01 ~]# portsnap extract</div><div><span STYLE=\"-en-paragraph:true;\">portsnap fecth是从网上获取portsnap快照的最新压缩包，听闻这个压缩包官方没小时更新一次。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">portsnap extract 则是把这个压缩包创立到/usr/ports。哪怕你以前已经手工安装了ports，他也会重新创立一次。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">（注：这2步可以合成使用，指令为 [root@bsd01 ~]# portsnap fetch extract）\n</span></div><div><span STYLE=\"-en-paragraph:true;\">③以后使用portsnap更新，只需要执行下面2步：\n</span></div><div>[root@bsd01 ~]# portsnap fetch</div><div>[root@bsd01 ~]# portsnap update</div><div><span STYLE=\"-en-paragraph:true;\">同样，这2步可以合成使用：[root@bsd01 ~]# portsnap fetch update\n</span></div><div><span STYLE=\"-en-paragraph:true;\">portsnap第一次运行extract命令时，可能需要一段时间，以后更新使用update的时候，速度就快很多了。\n</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e319833bef9ad50514b128028310a8fbcd1a11df165d8858cb71e7c048031f97",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Freebsd 下如何最有效率的安装软件.html"
+      }
+    },
+    {
+      "id": "17ff2483-8c11-4b44-922a-91377119648e",
+      "note_id": "406c598f-bda1-4a39-8738-1c02435fca0a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.145122Z",
+      "content": "---\ntitle: Freebsd 下如何最有效率的安装软件\nupdated: 2021-05-22 13:54:47Z\ncreated: 2021-05-22 13:54:22Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - freebsd\n---\n\nFreeBSD的默认下载工具是fetch，既慢又不好用。在FreeBSD下安装软件有一些很有效率的方式，下面就给大家介绍一下。\n\nPorts机制\n首先，FreeBSD下最有特色的软件安装和升级机制就是ports，既方便又高效。下面我们从ports套件的安装开始讲起，让你细致的了解有关ports的每一个细节\n\n一、ports套件的安装\n①我的FreeBSD 8.0-release是最小化安装，所以既没有ports，也没有/usr/ports目录。选择启用ports的话，需要在root下输入\"sysinstall\"来安装它：\n\n输入sysinstall --> 选择Configure --> Distributions --> ports，然后安装即可。\n\n②ports的默认路径是/usr/ports。这个ports的根目录下面有很多的文件夹及子文件夹，组成一个树状目录，包含大量ports下的软件。比如mail是邮件服务软件，games是游戏，www代表web服务软件，databases则是数据库软件。\n\n[root@bsd01 /usr/ports]# cd www\n[root@bsd01 /usr/ports/www]# ls -d apache*\napache-contrib apache13 apache13-modssl+ipv6\napache-forrest apache13+ipv6 apache13-ssl\napache-jserv apache13-modperl apache20\napache-mode.el apache13-modssl apache22\n如果你需要安装什么软件，只要进入当前目录，然后“make install clean”即可。\n\n[root@bsd01 ~]# cd /usr/ports/www/apache22\n[root@bsd01 /usr/ports/www/apache22] make install clean\n/usr/ports/distfiles是存放软件包的文件夹。ports会先检查/usr/ports/distfiles目录内有没有这个软件包，如果没有它就会自动从网上下载安装。\n\n二、加速ports的升级速度\nports从网上下载软件包自动安装，那么从那里下载呢？首先，我们需要安装axel来取代默认的下载工具fetch，这样可以提高ports的安装速度：\n\ncd /usr/ports/ftp/axel\nmake install\n然后，我们需要一个源地址管理。跟ubuntu上的/etc/source.list文件一样，freebsd用的文件是/etc/make.conf，我们可以修改其文件，达到加速下载的目的。\n\n#修改 /et/make.conf\nvi /etc/make.conf\n\nFETCH_CMD=axel\nFETCH_BEFORE_ARGS= -n 10 -a\nFETCH_AFTER_ARGS=\nDISABLE_SIZE=yes\nMASTER_SITE_OVERRIDE?=\\\nhttp://ports.hshh.org/${DIST_SUBDIR}/\\\nhttp://ports.cn.freebsd.org/${DIST_SUBDIR}/\\\nftp://ftp.freeBSDchina.org/pub/FreeBSD/ports/distfiles/${DIST_SUBDIR}/\nMASTER_SITE_OVERRIDE?=${MASTER_SITE_BACKUP}      \n这样处理后，在公司的网络环境下，FreeBSD的下载速度明显提高了，有时居然能达到1M/s,这样升级及安装软件方便极了；呵呵，终于可以摆脱fetch的龟速了。\n\n三、更新ports目录树\n既然ports的树目录全部下载到本地，那么即使FreeBSD有新的软件包或者添置了新的软件，本地目录树也不会更新。所以，我们每隔一段时间需要更新本地目录树。我来介绍一种在FreeBSD中方便、快捷的更新ports的方法：使用portsnap来更新ports目录树。\n\n①配置portsnap：\n\n我们使用portsnap，首先要设置一下它的配置文件，位于/etc/portsnap.conf:\n\n[root@bsd01 /usr/ports]# vi /etc/portsnap.conf\n把\n\nSERVERNAME=portsnap.\nfreebsd.org\n\n修改成：\n\nSERVERNAME=portsnap.\nhshh.org\n\n这个是他的更新服务器。另外还有几个国内比较快的portsnap服务器：\n\nportsnap.hshh.org\n\nportsnap2.hshh.org\n\nportsnap3.hshh.org\n (网通)\n\nportsnap4.hshh.org\n\n②首次使用portsnap：\n\n在你的FreeBSD首次使用portsnap必须执行下面2步：\n\n[root@bsd01 ~]# portsnap fetch\n[root@bsd01 ~]# portsnap extract\nportsnap fecth是从网上获取portsnap快照的最新压缩包，听闻这个压缩包官方没小时更新一次。\n\nportsnap extract 则是把这个压缩包创立到/usr/ports。哪怕你以前已经手工安装了ports，他也会重新创立一次。\n\n（注：这2步可以合成使用，指令为 [root@bsd01 ~]# portsnap fetch extract）\n\n③以后使用portsnap更新，只需要执行下面2步：\n\n[root@bsd01 ~]# portsnap fetch\n[root@bsd01 ~]# portsnap update\n同样，这2步可以合成使用：[root@bsd01 ~]# portsnap fetch update\n\nportsnap第一次运行extract命令时，可能需要一段时间，以后更新使用update的时候，速度就快很多了。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 2678,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "social_handles",
+            "description": "Drop standalone social handles and hashtags",
+            "note": "removed social handle only lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6d4b93c0-b481-4352-bbb5-f0d52614af3c",
+    "note_id": "406c598f-bda1-4a39-8738-1c02435fca0a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.145127Z",
+    "finished_at": "2025-11-09T20:05:13.145128Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e818c23f-f7e3-4e37-b766-a60a44508848",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Freebsd 下如何最有效率的安装软件.html",
+      "checksum": "e319833bef9ad50514b128028310a8fbcd1a11df165d8858cb71e7c048031f97"
+    },
+    "output_ref": {
+      "ingest_source": "5e4c1a6b-2bf4-4813-8697-f516a06b4c23",
+      "note": "406c598f-bda1-4a39-8738-1c02435fca0a",
+      "variants": [
+        "2dfd323c-d215-40e7-9567-20acb2e6f974",
+        "17ff2483-8c11-4b44-922a-91377119648e"
+      ]
+    },
+    "error_detail": null
+  }
+}

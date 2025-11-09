@@ -1,0 +1,43 @@
+---
+title: python 访问 mysql 驱动程序速度
+updated: 2021-07-13 09:35:15Z
+created: 2021-07-13 09:33:01Z
+author: tangyongfeng@gmail.com
+---
+
+MySQLdb  最快
+
+[Mac]~/work/HamsterDaten$ time python3
+Wagen.py
+
+7 ({'BALANCE': 4761435.707000001, 'HOLDING_VALUE': 4777265.608999999}, {})
+
+real
+
+1m17.242s
+
+user
+
+0m1.580s
+
+sys
+
+0m0.428s
+mysql 最慢
+
+[Mac]~/work/HamsterDaten$ time python3
+Wagen.py
+
+7 ({'BALANCE': 4761435.7069999995, 'HOLDING_VALUE': 4777265.608999999}, {})
+
+real
+
+2m0.590s
+
+user
+
+0m3.045s
+
+sys
+
+0m0.938s

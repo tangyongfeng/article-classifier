@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "4af7db1a-6dfd-4033-9e2e-0808c5addf45",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/条码就这一句.html",
+    "collected_at": "2025-11-09T20:05:15.185052Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "650ebac8ec4f49d5006b02f0254a73c0c90d5579fafbc088f1db65b2d4a0cbb3",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "98e7f049-8ede-4f4b-b5f0-9a93586f6bf5",
+    "ingest_source_id": "4af7db1a-6dfd-4033-9e2e-0808c5addf45",
+    "canonical_title": "条码就这一句",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.185056Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "条码就这一句.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5a19de2d-f333-401c-95c3-98b4dbe6596e",
+      "note_id": "98e7f049-8ede-4f4b-b5f0-9a93586f6bf5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.185059Z",
+      "content": "---\ntitle: 条码就这一句\nupdated: 2013-06-27 02:19:32Z\ncreated: 2013-06-27 01:46:45Z\ntags:\n  - c#\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">两排显示，上面显示数字，下面的显示条码， &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></font></div><div ALIGN=\"left\"><br/></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font>&nbsp;<font COLOR=\"#2B91AF\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">Font</span></font>&nbsp;<font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">ft2 =</span></font>&nbsp;<font COLOR=\"#0000FF\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">new</span></font>&nbsp;<font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">System.Drawing.</span></font>&nbsp;<font COLOR=\"#2B91AF\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">Font</span></font><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">(</span></font>&nbsp;<font COLOR=\"#A31515\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">&quot;Code 128&quot;</span></font><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">, 64,</span></font>&nbsp;<font COLOR=\"#2B91AF\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">FontStyle</span></font>&nbsp;<font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">.Regular,</span></font>&nbsp;<font COLOR=\"#2B91AF\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">GraphicsUnit</span></font><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size: 12pt;\">.World);</span></font></div><a href='../_resources/code128.ttf'  hash=\"8ffedc82f9b9a02f4016f502ab30117e\" style=\"cursor: default;\" type=\"application/octet-stream\" alt=\"code128.ttf\">  code128.ttf</a></en-media><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "650ebac8ec4f49d5006b02f0254a73c0c90d5579fafbc088f1db65b2d4a0cbb3",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/条码就这一句.html"
+      }
+    },
+    {
+      "id": "2d8eb845-8c4b-4ad3-9ca9-9b092c70bbf6",
+      "note_id": "98e7f049-8ede-4f4b-b5f0-9a93586f6bf5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.185062Z",
+      "content": "---\ntitle: 条码就这一句\nupdated: 2013-06-27 02:19:32Z\ncreated: 2013-06-27 01:46:45Z\ntags:\n  - c#\n---\n\n两排显示，上面显示数字，下面的显示条码，           \n           \nFont\n \nft2 =\n \nnew\n \nSystem.Drawing.\n \nFont\n(\n \n\"Code 128\"\n, 64,\n \nFontStyle\n \n.Regular,\n \nGraphicsUnit\n.World);\n  code128.ttf",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 266,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e39154e3-19d4-4228-b127-5d4e779d7ebd",
+    "note_id": "98e7f049-8ede-4f4b-b5f0-9a93586f6bf5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.185068Z",
+    "finished_at": "2025-11-09T20:05:15.185068Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3aef812b-e113-415a-8c56-501f0a5dbcee",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/条码就这一句.html",
+      "checksum": "650ebac8ec4f49d5006b02f0254a73c0c90d5579fafbc088f1db65b2d4a0cbb3"
+    },
+    "output_ref": {
+      "ingest_source": "4af7db1a-6dfd-4033-9e2e-0808c5addf45",
+      "note": "98e7f049-8ede-4f4b-b5f0-9a93586f6bf5",
+      "variants": [
+        "5a19de2d-f333-401c-95c3-98b4dbe6596e",
+        "2d8eb845-8c4b-4ad3-9ca9-9b092c70bbf6"
+      ]
+    },
+    "error_detail": null
+  }
+}

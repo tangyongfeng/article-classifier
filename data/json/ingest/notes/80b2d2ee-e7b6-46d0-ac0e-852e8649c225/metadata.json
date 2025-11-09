@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "23845ad1-365d-4063-8421-b7776127b557",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/无标题笔记-1.html",
+    "collected_at": "2025-11-09T20:05:17.387026Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "fea2577e16e697e8fcc0bfca43c874804dbe91b287e8a8d3a95f9fa51b1d49b8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "80b2d2ee-e7b6-46d0-ac0e-852e8649c225",
+    "ingest_source_id": "23845ad1-365d-4063-8421-b7776127b557",
+    "canonical_title": "无标题笔记-1",
+    "language": "no",
+    "ingested_at": "2025-11-09T20:05:17.387029Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5fd13ea3-abcd-465c-b291-8f66b21452a8",
+      "note_id": "80b2d2ee-e7b6-46d0-ac0e-852e8649c225",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.387032Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2014-07-15 09:09:49Z\ncreated: 2014-07-15 09:09:49Z\ntags:\n  - 知识库\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div ALIGN=\"justify\"><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">通过</span></font> <font COLOR=\"#010101\" FACE=\"Calibri\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">soap</span></font><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">判断的知识库</span></font></div><div ALIGN=\"justify\"><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">通过病判断治疗方法的知识库</span></font></div><div ALIGN=\"justify\"><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">通过治疗方法确定处方的知识库</span></font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fea2577e16e697e8fcc0bfca43c874804dbe91b287e8a8d3a95f9fa51b1d49b8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/无标题笔记-1.html"
+      }
+    },
+    {
+      "id": "3f5deec1-055f-4cd3-8892-975a1b420293",
+      "note_id": "80b2d2ee-e7b6-46d0-ac0e-852e8649c225",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.387034Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2014-07-15 09:09:49Z\ncreated: 2014-07-15 09:09:49Z\ntags:\n  - 知识库\n---\n\n通过\n\nsoap\n判断的知识库\n通过病判断治疗方法的知识库\n通过治疗方法确定处方的知识库",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 140,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6cbe3c96-5649-4460-9d83-8be972006101",
+    "note_id": "80b2d2ee-e7b6-46d0-ac0e-852e8649c225",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.387039Z",
+    "finished_at": "2025-11-09T20:05:17.387039Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9a08f69a-337b-4bb4-944d-99ef0a5b714e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/无标题笔记-1.html",
+      "checksum": "fea2577e16e697e8fcc0bfca43c874804dbe91b287e8a8d3a95f9fa51b1d49b8"
+    },
+    "output_ref": {
+      "ingest_source": "23845ad1-365d-4063-8421-b7776127b557",
+      "note": "80b2d2ee-e7b6-46d0-ac0e-852e8649c225",
+      "variants": [
+        "5fd13ea3-abcd-465c-b291-8f66b21452a8",
+        "3f5deec1-055f-4cd3-8892-975a1b420293"
+      ]
+    },
+    "error_detail": null
+  }
+}

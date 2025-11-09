@@ -1,0 +1,75 @@
+---
+title: wordpress 搭建全记录
+updated: 2020-01-27 22:22:12Z
+created: 2020-01-22 12:31:19Z
+author: tangyongfeng@gmail.com
+---
+
+Apache
+下载apache2 解压
+sudo apt-get install apache2-dev libapr1-dev libaprutil1-dev
+
+libpcre3 libpcre3-dev
+configure
+—
+prefix=/usr/local/httpd —enable-so  —with-mysql
+make
+sudo make install
+MySQL
+
+sudo apt install mysql-server-5.7
+
+sudo cat /etc/mysql/debian.cnf
+里面有默认的用户名和密码
+PHP
+sudo apt-get install libxml2-dev sqlite3
+
+libsqlite3-dev
+ libbz2-dev lib
+gd-dev 
+libssl-dev 
+
+libcurl4-openssl-dev 
+
+libonig-dev
+
+./configure
+--with-apxs2=/usr/local/httpd/bin/apxs
+
+--enable-gd
+
+--enable-exif
+
+--with-bz2
+
+--enable-bcmath
+ 
+--with-external-gd
+
+--with-webp
+
+--with-jpeg
+
+--with-xpm
+
+--with-freetype
+
+--with-mysqli
+
+--with-zlib 
+
+--with-openssl 
+
+--with-curl 
+
+--enable-
+mbstring
+cp php.ini-development /usr/local/lib/php.ini
+安装wordpress  
+切记，数据库路径写127.0.0.1  mysql 中 localhost 和127.0.0.1是两回事
+用户名webadmin  
+密码 MuDJKroxMxthlZEH
+把httpd 的用户名和组改为nobody:nogroup
+wordpress 打开debug
+define('WP_DEBUG', true);
+define('WP_DEBUG_DISPLAY', true);

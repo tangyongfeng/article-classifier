@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "189b6154-af82-4350-b798-45aee03a3157",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/卫宁软件 300253.html",
+    "collected_at": "2025-11-09T20:05:18.572777Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "78cf9c741a65cafee6e1f85684ad3a4ae973b5dc96dd642786757a97f3048823",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7a87ccce-831d-435f-b4e5-62370604eb73",
+    "ingest_source_id": "189b6154-af82-4350-b798-45aee03a3157",
+    "canonical_title": "卫宁软件 300253",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.572781Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "卫宁软件 300253.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1e80b66a-fb6b-4694-b988-fef4f02c5876",
+      "note_id": "7a87ccce-831d-435f-b4e5-62370604eb73",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.572783Z",
+      "content": "---\ntitle: 卫宁软件 300253\nupdated: 2013-09-12 01:42:21Z\ncreated: 2013-09-12 01:33:51Z\ntags:\n  - 金梓\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n全名金士达卫宁 总股本 1.07亿 &nbsp;a股5618万 限售5081万\n<div><br/></div><div>上海的his系统软件提供商，每股年受益0.5元，现在已经超过100倍市盈率，在这个领域里，根据证券研究员的看法，还属于起步阶段，之前费用增长大是因为开办各地分支机构。但是保证了公司以中小医院为主要盈利目标的基础得以拓展。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "78cf9c741a65cafee6e1f85684ad3a4ae973b5dc96dd642786757a97f3048823",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/卫宁软件 300253.html"
+      }
+    },
+    {
+      "id": "adcfbcc8-4d81-4dd5-ac51-7e2390fa176c",
+      "note_id": "7a87ccce-831d-435f-b4e5-62370604eb73",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.572786Z",
+      "content": "---\ntitle: 卫宁软件 300253\nupdated: 2013-09-12 01:42:21Z\ncreated: 2013-09-12 01:33:51Z\ntags:\n  - 金梓\n---\n\n全名金士达卫宁 总股本 1.07亿  a股5618万 限售5081万\n\n上海的his系统软件提供商，每股年受益0.5元，现在已经超过100倍市盈率，在这个领域里，根据证券研究员的看法，还属于起步阶段，之前费用增长大是因为开办各地分支机构。但是保证了公司以中小医院为主要盈利目标的基础得以拓展。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 247,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4a16cd64-d3ea-46fe-8a1f-3665b6b9e00f",
+    "note_id": "7a87ccce-831d-435f-b4e5-62370604eb73",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.572791Z",
+    "finished_at": "2025-11-09T20:05:18.572791Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f797686c-b3dc-42e2-b697-95c290a09e3e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/卫宁软件 300253.html",
+      "checksum": "78cf9c741a65cafee6e1f85684ad3a4ae973b5dc96dd642786757a97f3048823"
+    },
+    "output_ref": {
+      "ingest_source": "189b6154-af82-4350-b798-45aee03a3157",
+      "note": "7a87ccce-831d-435f-b4e5-62370604eb73",
+      "variants": [
+        "1e80b66a-fb6b-4694-b988-fef4f02c5876",
+        "adcfbcc8-4d81-4dd5-ac51-7e2390fa176c"
+      ]
+    },
+    "error_detail": null
+  }
+}

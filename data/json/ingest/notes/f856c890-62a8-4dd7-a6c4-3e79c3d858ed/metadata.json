@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "1fbab6ec-069e-4401-a2d9-54cd6c5c733f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/张鹏的公钥.html",
+    "collected_at": "2025-11-09T20:05:16.172442Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "335c9bb4ebf2495df652f08b6f50af1beda05f28447e1ae4d72369b3bca1265b",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f856c890-62a8-4dd7-a6c4-3e79c3d858ed",
+    "ingest_source_id": "1fbab6ec-069e-4401-a2d9-54cd6c5c733f",
+    "canonical_title": "张鹏的公钥",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.172445Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "张鹏的公钥.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4074b131-639e-44c7-b209-d37a78534490",
+      "note_id": "f856c890-62a8-4dd7-a6c4-3e79c3d858ed",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.172448Z",
+      "content": "---\ntitle: 张鹏的公钥\nupdated: 2021-02-25 07:41:23Z\ncreated: 2021-02-25 07:41:02Z\n---\n\n\n\n<en-note><div>ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC89DrqYN7jIMapqJvGBn+j2eQBVq0yH2O5vpy77J0u/4CEMTu8ci5ehmD5TDnSlS/stimXZ5kEH0mjF3pIqLwyJC1cVRxC3XsOBvaNVLD3koTR5jAIbMSvoXyU+OW/RzdAl5qfiW4/1ahncExZnsecrQrKlIp5zcp9ciByJmP3xRi7hcsfFkjdvJriGg4MCR8ohqR+xJFTuAgOXITvDFt671fajnBhFqkTo+FJUii02OIkb0+49ZoRDQNTqmLazYC+t6qScOJkb0SBxcJNXy7oD6+dS2RmseCYNieFEMwdZ7Bq3mEEJ3g1lGuTocarYKFHT65EqUDKdKM7M3qzT4lYUD5Uvcwnk/UyH6NL8xPyn9gAYOuySrPYR/6Hy7cb45FGKe6ZuXoBXgcWm5Wg+nni71xUNM4igE0b0zeUQwbysOoBkZTlucm0BqXPa+TNZR7Jvbx1rl9D1hf8tue4Rf2hOlig0qNGXT4v+KDqdevoOqwu4m8MzTwa6I7NQ0r86sE= <a HREF=\"mailto:zhangp@zhangpdeMacBook-Pro.local\">zhangp@zhangpdeMacBook-Pro.local</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "335c9bb4ebf2495df652f08b6f50af1beda05f28447e1ae4d72369b3bca1265b",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/张鹏的公钥.html"
+      }
+    },
+    {
+      "id": "24a05b93-efbd-4fae-bdea-52b352abae6e",
+      "note_id": "f856c890-62a8-4dd7-a6c4-3e79c3d858ed",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.172450Z",
+      "content": "---\ntitle: 张鹏的公钥\nupdated: 2021-02-25 07:41:23Z\ncreated: 2021-02-25 07:41:02Z\n---\n\nssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC89DrqYN7jIMapqJvGBn+j2eQBVq0yH2O5vpy77J0u/4CEMTu8ci5ehmD5TDnSlS/stimXZ5kEH0mjF3pIqLwyJC1cVRxC3XsOBvaNVLD3koTR5jAIbMSvoXyU+OW/RzdAl5qfiW4/1ahncExZnsecrQrKlIp5zcp9ciByJmP3xRi7hcsfFkjdvJriGg4MCR8ohqR+xJFTuAgOXITvDFt671fajnBhFqkTo+FJUii02OIkb0+49ZoRDQNTqmLazYC+t6qScOJkb0SBxcJNXy7oD6+dS2RmseCYNieFEMwdZ7Bq3mEEJ3g1lGuTocarYKFHT65EqUDKdKM7M3qzT4lYUD5Uvcwnk/UyH6NL8xPyn9gAYOuySrPYR/6Hy7cb45FGKe6ZuXoBXgcWm5Wg+nni71xUNM4igE0b0zeUQwbysOoBkZTlucm0BqXPa+TNZR7Jvbx1rl9D1hf8tue4Rf2hOlig0qNGXT4v+KDqdevoOqwu4m8MzTwa6I7NQ0r86sE=\nzhangp@zhangpdeMacBook-Pro.local",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 667,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "63700191-f7f0-4161-832f-263cb97264ae",
+    "note_id": "f856c890-62a8-4dd7-a6c4-3e79c3d858ed",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.172455Z",
+    "finished_at": "2025-11-09T20:05:16.172455Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "21fd359e-52c4-4e0a-96a2-5fd9f305f99f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/张鹏的公钥.html",
+      "checksum": "335c9bb4ebf2495df652f08b6f50af1beda05f28447e1ae4d72369b3bca1265b"
+    },
+    "output_ref": {
+      "ingest_source": "1fbab6ec-069e-4401-a2d9-54cd6c5c733f",
+      "note": "f856c890-62a8-4dd7-a6c4-3e79c3d858ed",
+      "variants": [
+        "4074b131-639e-44c7-b209-d37a78534490",
+        "24a05b93-efbd-4fae-bdea-52b352abae6e"
+      ]
+    },
+    "error_detail": null
+  }
+}

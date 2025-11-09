@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b51978bf-bf14-42cc-8845-40460f364d7f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/在什么时间.html",
+    "collected_at": "2025-11-09T20:01:39.098824Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "45629de88eec0e74f8ffbdfbb03fa1aec308a3e25b8fcc53409b99b2509d977a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b1cc7dec-343c-41e3-9c8b-de0881b46311",
+    "ingest_source_id": "b51978bf-bf14-42cc-8845-40460f364d7f",
+    "canonical_title": "在什么时间",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.098828Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "在什么时间.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d7fad852-d8f8-4a12-b22a-93223b2f50be",
+      "note_id": "b1cc7dec-343c-41e3-9c8b-de0881b46311",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.098831Z",
+      "content": "---\ntitle: 在什么时间\nupdated: 2020-10-15 06:13:00Z\ncreated: 2020-10-15 06:12:15Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>gestern 不加 am</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "45629de88eec0e74f8ffbdfbb03fa1aec308a3e25b8fcc53409b99b2509d977a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/在什么时间.html"
+      }
+    },
+    {
+      "id": "1f31a3a2-4c37-4c2f-a101-54b90aa6deb9",
+      "note_id": "b1cc7dec-343c-41e3-9c8b-de0881b46311",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.098835Z",
+      "content": "---\ntitle: 在什么时间\nupdated: 2020-10-15 06:13:00Z\ncreated: 2020-10-15 06:12:15Z\nauthor: tangyongfeng@gmail.com\n---\n\ngestern 不加 am",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 126,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8f15bca8-abd9-4f4b-85c5-46a9511c9ec2",
+    "note_id": "b1cc7dec-343c-41e3-9c8b-de0881b46311",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.098841Z",
+    "finished_at": "2025-11-09T20:01:39.098842Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "efdc588d-16fd-47e9-b9d8-08e31faa6015",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/在什么时间.html",
+      "checksum": "45629de88eec0e74f8ffbdfbb03fa1aec308a3e25b8fcc53409b99b2509d977a"
+    },
+    "output_ref": {
+      "ingest_source": "b51978bf-bf14-42cc-8845-40460f364d7f",
+      "note": "b1cc7dec-343c-41e3-9c8b-de0881b46311",
+      "variants": [
+        "d7fad852-d8f8-4a12-b22a-93223b2f50be",
+        "1f31a3a2-4c37-4c2f-a101-54b90aa6deb9"
+      ]
+    },
+    "error_detail": null
+  }
+}

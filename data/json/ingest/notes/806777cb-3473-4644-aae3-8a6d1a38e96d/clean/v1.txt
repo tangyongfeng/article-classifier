@@ -1,0 +1,890 @@
+---
+title: python3之requests - Py.qi - 博客园
+updated: 2019-01-25 11:58:54Z
+created: 2019-01-25 11:58:54Z
+source: https://www.cnblogs.com/zhangxinqi/p/9201594.html
+---
+
+ python3之requests
+
+回到顶部
+1、requests简介
+
+requests是通过urllib3实现自动发送HTTP/1.1请求，它能轻松的实现cookies，登陆验证，代理设置等操作。
+
+Python内置的urllib模块，用于访问网络资源。但是，它用起来比较麻烦，而且，缺少很多实用的高级功能。
+更好的方案是使用requests。它是一个Python第三方库，处理URL 资源特别方便
+
+requests实现内容：
+
+保持活力和连接池
+
+支持国际域名和网址
+
+会话与Cookie持久性
+
+浏览器式SSL验证
+
+自动内容解码
+
+基本/摘要式身份验证
+
+自动解压缩
+
+Unicode响应body
+
+HTTP(s)代理支持
+
+多部分文件上传
+
+流媒体下载
+
+连接超时
+
+分块的请求
+
+.netrc 支持
+
+回到顶部
+2、requests的安装
+
+(1)源码安装：
+
+git clone git: // github.com / requests / requests.git # 克隆公共存储库
+或者下载tarball
+curl - OL https: // github.com / requests / requests / tarball / master
+cd requests / requests
+pip install .
+
+(2)pip安装
+
+pip install requests
+
+(3)pipenv安装在虚拟环境下安装
+
+pipenv install requests
+
+request依赖包关系：
+
+requests==2.19.1
+  - certifi [required: >=2017.4.17, installed: 2018.4.16]  #CA认证模块
+  - chardet [required: <3.1.0,>=3.0.2, installed: 3.0.4]  #通用字符编码检测器模块
+  - idna [required: <2.8,>=2.5, installed: 2.7]  #国际化域名解析模块
+  - urllib3 [required: <1.24,>=1.21.1, installed: 1.23] #线程安全HTTP库
+
+回到顶部
+3、requests请求
+
+所有请求的功能可通过这7种方法访问，他们都返回response对象的一个实例。
+(1)requests.request(method,url,**kwargs):构造并发送一个request，返回一个response对象
+参数：
+
+method：　　request对象的方法(POST)
+
+url：　　request对象的URL
+
+params：可选的，要在查询字符串中发送的字典或字节request
+
+data：可选的，字典或元祖列表以表单编码，字节或类似文件的对象在主体中发送[(key,value)]
+
+json：可选的，一个json可序列化的python对象，在主体中发送request
+
+headers：可选的，用于编写http头信息
+
+cookies：可选，用dict或cookieJar对象发送Cookies
+
+file：可选，用于多部分编码上传的字典，可以是多元祖，其中是定义给定文件的内容类型的字符串，以及包含问文件添加的额外头文件的类字典对象
+
+auth：可选，身份验证元祖，自定义http身份验证
+
+timeout：可选，发送等待请求数据的超时时间(float/tuple),设置为元祖即为练级connect和read读取超时，如果设置为None即为永久等待
+
+allow_redirects：布尔值，可选，启用或禁用GET,OPTIONS,POST,PUT,PATCH,DELETE,HEAD重定向，默认为true
+
+proxies：可选，字典映射协议到代理的URL
+
+verify：可选，可以是布尔值，可以指定验证服务器的TLS证书路径，默认为true
+
+stream：可选，如果是False，响应内容将立即下载
+
+cert：可选，如果是string，则为ssl客户端证书文件路径，如果是元祖则('cert','key')指定证书和密钥
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/20 10:04
+# @Author  : Py.qi
+# @File    : req_reqst.py
+# @Software: PyCharm
+from requests import request
+header={
+'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36'
+}
+response=request('GET','https://api.github.com/events',headers=header) #定义头信息发送请求返回response对象
+print(response.url) #返回请求的URL
+print(response.status_code)  #返回状态码200
+print(response.encoding)  #返回编码
+print(response.text)  #返回响应的内容以unicode表示
+print(response.headers) #返回头信息
+print(response.cookies) #返回cookies CookieJar
+print(response.json()) #返回json数据
+
+(2)requests.head(url,**kwargs):发送head请求，url:网站URL地址，返回一个response对象
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/20 11:19
+# @Author  : Py.qi
+# @File    : req_head.py
+# @Software: PyCharm
+from requests import head
+header=head('https://github.com/get')
+print('text:',header.text) #不会返回内容信息
+print('headers:',header.headers) #返回头信息
+print(header.cookies.items()) #返回cookies元组列表
+
+(3)requests.get(url,params=None,**kwargs):发送GET请求，params:要在查询字符串中发送的字典或字节request，返回一个response对象
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/20 11:29
+# @Author  : Py.qi
+# @File    : req_get.py
+# @Software: PyCharm
+from requests import get
+response=get('http://httpbin.org/get',params={'name':'py.qi','age':22})#添加参数查询
+print(response.text) #返回结果包含args参数,headers头信息,URL和IP信息
+print(response.url) #返回组合的URL(http://httpbin.org/get?name=py.qi&age=22)
+print(response.json()) #如果返回网页是JSON格式，可以使用json()方法解析返回字典数据
+
+抓取网页：
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/20 11:46
+# @Author  : Py.qi
+# @File    : req_zhuaqu.py
+# @Software: PyCharm
+import requests
+import re
+url='http://www.runoob.com/python3/python3-reg-expressions.html'
+headers={
+    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36'
+}
+response=requests.get(url,headers=headers)
+response.encoding='UTF-8'
+#print(response.encoding)
+#print(response.text)
+pattern = re.compile('id="content">.*?<h1>(.*?)</h1>.*?<p>(.*?)</p><p>(.*?)</p>.*?<p>(.*?)</p>.*?<p>(.*?)</p>.*?<p>(.*?)</p>',re.S)
+text = re.search(pattern,response.text)
+
+for i in text.groups():
+    print(i)
+
+#
+Python3 正则表达式
+正则表达式是一个特殊的字符序列，它能帮助你方便的检查一个字符串是否与某种模式匹配。
+Python 自1.5版本起增加了re 模块，它提供 Perl 风格的正则表达式模式。
+re 模块使 Python 语言拥有全部的正则表达式功能。
+compile 函数根据一个模式字符串和可选的标志参数生成一个正则表达式对象。该对象拥有一系列方法用于正则表达式匹配和替换。
+re 模块也提供了与这些方法功能完全一致的函数，这些函数使用一个模式字符串做为它们的第一个参数。
+
+抓取二进制文件：图像，BytesIO创建内存对象存储数据，Image打开图像获得图像对象，也可以用上下问方式将图像直接写入文件，适合音频，视频等文件
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/20 14:10
+# @Author  : Py.qi
+# @File    : req_content.py
+# @Software: PyCharm
+import requests
+from io import BytesIO
+from PIL import Image
+
+url='http://docs.python-requests.org/en/master/_static/requests-sidebar.png'
+r=requests.get(url)
+i=Image.open(BytesIO(r.content)) #获得一个图像对象
+print(i.format,i.size,i.mode) #查看图像的来源，像素和像素类型（RGB）
+#print(i.show())  #显示图片
+i.save('requests_log.png')  #保存图像数据到文件
+
+(4)requests.post(url,data=None,json=None,**kwargs):发送POST请求，data:字典数据也可以是元组列表，将被表单编码，以字节或文件对象在数据主体中发送
+json:在json数据中发送正文，返回一个response对象
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/20 14:41
+# @Author  : Py.qi
+# @File    : req_post1.py
+# @Software: PyCharm
+import requests
+data={'k1':'v1','k2':'v2'}
+r = requests.post('http://httpbin.org/post',data=data) #以表单数据发送数据
+body=r.json()  #获得字典格式的返回数据
+print(body['form'])  #窃取表单编码数据
+
+上传文件：files参数指定上传文件，上传的文件在主体数据中
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/20 15:23
+# @Author  : Py.qi
+# @File    : req_post_file.py
+# @Software: PyCharm
+
+import requests
+url='http://httpbin.org/post'
+files={'file':open('network.csv','rb')}
+files1={'file':('filename.xls',open('fileanme.xls','rb'),'application/vnd.ms-excel',{'expires':'0'})} #设置文件名
+r=requests.post(url,files=files) #指定文件发送请求
+print(r.json()['files'])
+
+多个文件上传：
+
+import requests
+
+url='http://httpbin.org/post'
+
+multple_files=[
+    ('images1',('11.jpg',open('11.jpg','rb'),'image/jpg')),
+    ('images2',('22.jpg',open('22.jpg','rb'),'image/jpg')),
+]  #字段代表意思依次为：文件名，文件对象，文件类型
+r=requests.post(url,files=multple_files)
+print(r.text)
+
+在网站中PUT,PATCH,DELETE请求很少使用，不做介绍
+
+(5)requests.put(url,data=None,**kwargs):发送PUT请求参数同POST一样，将返回一个response对象
+
+(6)requests.patch(url,data=None,**kwargs):发送PATCH请求
+(7)requests.delete(url,**kwargs):发送DELETE请求
+
+回到顶部
+4、请求响应
+
+class response.Response
+ ：该Response对象包含服务器对HTTP请求的响应信息
+
+该对象包含的属性和方法：
+
+apparent_encodind：
+由chardet库提供的明显编码。
+
+close()：
+将连接释放回池中，即关闭连接，通常不需要调用
+
+content：
+响应的内容，以字节为单位。
+
+cookies
+=None ：
+服务器发回的Cookies CookieJar。
+
+elapsed
+=None ：
+发送请求和响应到达之间所经过的时间量（作为timedelta）。该属性具体测量发送请求的第一个字节和完成解析报头之间的时间。因此，它不受消费响应内容或
+stream
+关键字参数值的影响。
+
+encoding
+=None ：
+编码以在访问r.text时进行解码。
+
+headers
+=None ：
+不区分大小写的响应头字典。例如，
+headers['content-encoding']
+将返回
+'Content-Encoding'
+响应头的值。
+
+history
+=None ：
+Response
+请求历史记录中的对象列表。任何重定向响应都会在这里结束。该列表从最旧的到最近的请求进行排序。
+
+is_permanent_redirect：
+如果此响应为真，则为重定向的永久版本之一。
+
+is_redirect：
+如果此响应是可以自动处理的格式良好的HTTP重定向，则为真。
+
+iter_content
+（
+chunk_size = 1
+，
+decode_unicode = False 
+）：迭代响应数据。在请求中设置stream = True时，可以避免将内容一次性读入内存以获得较大的响应。块大小是它应该读入内存的字节数；chunk_size必须是int或None类型。stream = True将在数据以任何大小接收到的数据到达时读取数据。如果stream = False，则数据作为单个块返回；如果decode_unicode为True，则内容将使用基于响应的最佳可用编码进行解码。
+
+iter_lines(
+chunk_size = 512
+，
+decode_unicode = None
+，
+delimiter = None )：
+迭代响应数据，一次一行。在请求中设置stream = True时，可以避免将内容一次性读入内存以获得较大的响应。
+
+json
+（
+** kwargs 
+）：返回响应的json编码内容
+
+links：
+返回解析的响应头部链接
+
+next：
+返回重定向链中下一个请求的PreparedRequest
+
+ok：
+如果
+status_code
+小于400 则返回True，否则返回False
+
+reason
+=None：
+响应HTTP状态的文本原因，例如“未找到”或“确定”。
+
+request
+=None：
+一个响应的对象。
+
+status_code
+=None：
+整数响应HTTP状态的代码，例如404或200。
+
+text：
+响应的内容，以unicode表示。 
+
+url
+=None：
+响应的最终URL位置
+
+发送请求后，会得到响应信息，我们可以使用text和content获取相应的内容，此外还有很多属性和方法来获取其他信息，如状态码，响应头，Cookies等
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/20 15:51
+# @Author  : Py.qi
+# @File    : req_respon.py
+# @Software: PyCharm
+
+import requests
+headers={'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36'}
+r=requests.get('http://docs.python-requests.org/en/master/',headers=headers)
+print('chardet提供的编码:',r.apparent_encoding)
+print('响应字节内容:',r.content)
+print('响应cookies:',r.cookies.items())
+print('请求到响应之间的时间:',r.elapsed)
+print('响应编码:',r.encoding)
+print('响应头信息:',r.headers)
+print('头信息中的server:',r.headers['Server'])
+print('请求历史记录:',r.history)
+print('迭代响应数据:',r.iter_lines())
+#print('响应json编码数据:',r.json())
+print('返回解析的响应头链接:',r.links)
+print('返回状态码:',r.status_code)
+print('响应str内容:',r.text)
+print('响应URL:',r.url)
+print('返回发送的头参数:',r.request.headers)
+
+#
+chardet提供的编码: Windows-1254
+响应字节内容: b'\n<!DOCTYPE html PUBLIC...
+响应cookies: []
+请求到响应之间的时间: 0:00:00.844991
+响应编码: ISO-8859-1
+响应头信息: {'Server': 'nginx/1.10.3 (Ubuntu)', 'Date': 'Wed, 20 Jun 2018 08:10:26 GMT', 'Content-Type': 'text/html', 'Last-Modified': 'Thu, 14 Jun 2018 13:27:43 GMT', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'ETag': 'W/"5b226d4f-8438"', 'X-Cname-TryFiles': 'True', 'X-Served': 'Nginx', 'X-Deity': 'web05', 'Content-Encoding': 'gzip'}
+头信息中的server: nginx/1.10.3 (Ubuntu)
+请求历史记录: []
+迭代响应数据: <generator object Response.iter_lines at 0x0000005A4A6F3888>
+返回解析的响应头链接: {}
+返回状态码: 200
+响应str内容: <!DOCTYPE html PUBLIC.....
+响应URL: http://docs.python-requests.org/en/master/
+返回发送的头参数: {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.79 Safari/537.36', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive'}
+
+回到顶部
+5、requests异常处理
+
+exception requests.RequestException(*args, **kwargs)：发送一个模糊的异常
+exception requests.ConnectionError(*args, **kwargs)：发生连接错误时的异常
+exception requests.HTTPError(*args, **kwargs)：发生HTTP错误时的异常
+exception requests.URLRequired(*args, **kwargs)：URL错误时的异常
+exception requests.TooManyRedirects(*args, **kwargs)：太多的重定向
+exception requests.ConnectTimeout(*args, **kwargs)：连接服务器是请求超时
+exception requests.ReadTimeout(*args, **kwargs)：服务器没有在指定的时间内发送数据
+exception requests.Timeout(*args, **kwargs)：请求超时
+
+回到顶部
+6、cookies
+
+cookies包括下面四个类：
+
+requests.utils.dict_from_cookiejar(cj)：从CookieJar中返回一个键/值字典,cj为CookieJar对象，返回字典
+requests.utils.add_dict_to_cookiejar(cj, cookie_dict)：从键/值字典中返回CookieJar，cj指定CookieJar类型，cookie_dict，字典类型的JAR值，返回CookieJar
+requests.cookies.cookiejar_from_dict(cookie_dict, cookiejar=None, overwrite=True)：从键/值字典中返回CookieJar
+class requests.cookies.RequestsCookieJar(policy=None)：创建CookieJar，应用请求和未指定的请求和会话
+
+cookieJar对象方法与属性：
+
+add_cookie_header(request)：添加正确的Cookie到请求头
+
+clear(domain=None,path=None,name=None)：清除cookies
+
+clear_expired_cookies()：丢弃所有过期的cookies。
+
+clear_session_cookies()：丢弃所有会话cookie。
+
+copy()：返回这个RequestsCookieJar的副本。
+
+extract_cookies(response,request)：根据请求提取允许的响应中的cookie。
+
+get(name,default = None,domain = None,path = None)：类似于字典的get()，它还支持可选的域和路径参数，以解决在多个域中使用一个cookie jar造成的命名冲突。
+
+get_dict(domain=None,path=None)：以可选域和路径作为参数，并返回符合要求的名称 - 值对Cookie的普通旧Python字典。
+
+items()：类似Dict的项目()从jar中返回名称值元组的列表。
+
+iteritems()：类似于dict的iteritems()从jar中返回名称值元组的迭代器。
+
+iterkeys()：返回jar中cookie的名字的迭代器。
+
+itervalues()：返回jar中cookie值的迭代器。
+
+keys()：返回jar中的cookies的名字列表。
+
+list_domains()：实用程序方法列出jar中的所有域。
+
+list_paths()：实用程序方法列出jar中的所有路径。
+
+make_cookies(response,request)：从响应对象中提取的Cookie对象的返回序列。
+
+multiple_domains()：如果jar中有多个域，则返回True。否则返回False。
+
+pop(k[,d]) ：移除指定的键并返回相应的值。
+
+popitem() ：移除并返回（键，值）对
+
+set(name,value)：还支持可选的域和路径参数，以解决在多个域中使用一个cookie jar造成的命名冲突。
+
+set_cookie(cookie，* args，** kwargs)：设置一个cookie，不检查是否应该设置。
+
+set_cookie_if_ok(cookie,request)：判断设置cookies是否可行，返回OK
+
+update(other)：用另一个CookieJar或类似字典的cookie更新这个jar
+
+values()：返回jar中cookie的值列表。
+
+ 获取网站cookies：
+
+import requests
+r=requests.get('https://www.baidu.com')
+print(r.cookies)
+print(r.cookies.items())
+
+#
+<RequestsCookieJar[<Cookie BDORZ=27315 for .baidu.com/>]>   #RequestsCookieJar对象
+
+ [('BDORZ', '27315')]
+
+使用cookies维持登陆状态：
+
+import requests
+headers={
+    'Cookie':'www51cto=F7A5DB397E1897B2B12EEC15A74FB351kYaA; Cto_lvt_=1503809599; ......#登陆网站后将cookie信息拷贝到此处
+    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+}
+r=requests.get('http://blog.51cto.com/zhangxinqi',headers=headers)
+print(r.text)
+print(r.cookies.items())
+
+#显示结果是登陆后的信息，表明登陆成功
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="favicon" rel="shortcut icon" href="/favicon.ico" />
+        <title>80后小菜鸟-51CTO博客</title>
+    <meta name="keywords" content="80后小菜鸟,linux技术,windows技术,网络技术,zabbix监控,数据库,虚拟化,自动化运维,系统安全,集群架构,python,企业应用,51CTO博客">
+
+[('_identity', '574c0a6fbf29ac6f44f66068e5f02b0b438aed6840bf......')]
+
+创建RequestsCookieJar对象，使用cookies保持登陆：
+
+import requests
+from requests.cookies import RequestsCookieJar
+
+cookie='www51cto=F7A5DB397E1897B2B12EEC15A74FB351kYaA; ......'
+headers = {    'User-Agent':'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'
+}
+
+jar=RequestsCookieJar()  #创建Jar对象
+for i in cookie.split(';'):
+    key,value = i.split('=',1)
+    jar.set(key,value)  #设置cookies的键值
+#print(jar.items())
+r=requests.get('http://blog.51cto.com/zhangxinqi',cookies=jar,headers=headers) #传入cookies
+#print(r.text)
+print(r.headers['Set-Cookie']) 
+print(r.request.headers['Cookie']) #获取客户端设置的cookie
+
+回到顶部
+7、请求会话(Session)
+
+在requests中，如果直接利用get()和post()方法的确可以做到模拟网页的请求，但这实际上是相当于不同的会话，也就是说相当于使用了两个浏览器打开ileal不同的页面
+
+如果利用psot()请求登陆了网站，然后使用get()方法请求个人信息，将得到两个完全不同的会话，就不能获取到个人信息，实际上可以使用设置cookies一样请求会话得到个人信息，
+
+单方法显得很繁琐，可用使用更简单的方法，Session维持会话，利用它不需要设置cookies，它能帮助我们自动处理，下面先看下Session对象的API
+
+class requests.Session
+:请求会话，提供cookie持久性，连接池和配置
+
+方法与属性：
+
+auth=None 身份验证元祖
+
+cert=None SSL客户端证书路径，如果为元祖('cert','key')
+
+close() 关闭会话
+
+cookies=None 会话中设置的未处理的cookie的cookieJar，默认是一个RequestsCookieJar
+
+delete(url,**kwargs) 发送DELETE请求,返回一个response对象
+
+get(url) 发送GET请求，返回response对象
+
+get_adapter(url) 为给定的URL返回适当的连接适配器
+
+get_redirect_target(resp) 返回重定向URL或None
+
+head(url) 发送head请求，返回response对象
+
+headers=None 一个不区分大小写的字典，由字典发送Session
+
+hooks=None 事件处理
+
+max_redirects=None 允许最大重定向次数默认为30
+
+merge_environment_settings(url,proxies,stream,verify,cert) 检查环境并将参数设置合并，返回字典
+
+params=None 设置传递的参数
+
+post(url,data=None,json=None) 发送POST请求返回response对象
+
+prepare_request(request) 构造一个PreparedRequest并返回它，将生成一个请求的数据结构，通过Session发送
+
+proxies=None 代理URL
+
+request(method,url,params=None,data=None,headers=None,cookies=None,files=None,auth=None,timeout=None,allow_redirects=True,proxies=None,hooks=None,stream=None,verify=None,cert=None,json=None) 构建一个request,返回response对象
+
+send(request) 发送给定的PreparedRequest，返回Response对象
+
+stream=None 流响应的内容
+
+trust_env=None 代理设置的身份验证和信任环境设置
+
+verify=None SSL验证,设置为false则忽略SSL验证
+
+测试能否获取自己设置的cookies：
+
+import requests
+
+requests.get('http://httpbin.org/cookies/set/number/123456')
+r=requests.get('http://httpbin.org/cookies')
+print(r.text) #然后通过请求获取cookies，结果cookies显示为空
+
+#
+{"cookies":{}}
+
+然而并不能获取到设置的cookies，说明它们使用不同的浏览器访问了页面，即得到的cookies会不一样
+
+现在我们使用Seesion会话保持来设置请求看有什么变化
+
+import requests
+
+s=requests.Session()  #创建session对象
+s.get('http://httpbin.org/cookies/set/number/123456')
+r=s.get('http://httpbin.org/cookies') #通过session获取请求的cookies
+print(r.text) 
+
+{"cookies":{"number":"123456"}}
+
+利用session可以 做到模拟同一个会话而不用担心cookies的问题，它常用于模拟登陆成功后再进行下一步操作，可以模拟在同一个浏览器中打开同一个站点的不同页面
+
+实例：通过session会话登陆页面获取个人信息
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/21 9:12
+# @Author  : Py.qi
+# @File    : req_session.py
+# @Software: PyCharm
+import requests
+from requests.auth import HTTPBasicAuth
+
+url='http://192.168.146.140/admin/'
+s=requests.Session()
+response=s.get(url,auth=HTTPBasicAuth('admin','123'))
+print(response.text)
+print(response.headers)
+print(response.status_code)
+
+回到顶部
+8、SSL证书验证
+
+rerquests提供了证书验证的功能，当发送http请求时，它会检查SSL证书，可以通过verify参数来控制是否检查此证书，如果不设置默认为True会自动验证,我们使用https://www.12306.cn测试
+
+import requests
+
+r=requests.get('https://www.12306.cn')
+print(r.status_code)
+
+raise SSLError(e, request=request)
+
+将verify参数设置为false在看结果：
+
+import requests
+r=requests.get('https://www.12306.cn',verify=False)
+print(r.status_code)
+
+#能正常返回200，但有个警告信息
+D:\virtualenv-36\.venv\lib\site-packages\urllib3\connectionpool.py:857: InsecureRequestWarning: Unverified HTTPS request is being made. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  InsecureRequestWarning)
+200
+
+可以使用urllib3中的disable_warnings()忽略警告，也可以用logging日子模块将警告写入日志
+
+import requests
+import logging
+import urllib3
+urllib3.disable_warnings()  #忽略警告
+#logging.captureWarnings(True)  #也可以写入日志中
+r=requests.get('https://www.12306.cn',verify=False)
+print(r.status_code)
+
+#
+200
+
+除了以上的方法，我们如果有证书的话，可以cert参数指定证书路径，如果是单个文件包含密钥和证书，也可以设置两个文件路径的元祖分别指向证书和密钥
+
+import requests
+
+response = requests.get('https://www.12306.cn', cert=('/path/server.crt', '/path/key'))
+print(response.status_code)
+
+#注意，如果是本地私有证书的key必须是解密状态，加密状态的key是不支持的
+
+回到顶部
+9、代理设置
+
+对于某些网站，在测试的时候请求几次，能正常获取内容。但是一旦开始大规模爬取，对于大规模且频繁的请求，网站可能会弹出验证码，或者跳转到登录认证页面，更甚者可能会直接封禁客户端的IP，导致一定时间段内无法访问。
+
+那么，为了防止这种情况发生，我们需要设置代理来解决这个问题，这就需要用到
+proxies
+参数
+
+import requests
+
+proxies = {
+  "http": "http://10.10.1.10:3128",
+  "https": "http://10.10.1.10:1080",
+}
+
+requests.get("https://www.taobao.com", proxies=proxies)
+
+若代理需要使用HTTP Basic Auth，可以使用类似http://user:password@host:port这样的语法来设置代理
+
+import requests
+
+proxies = {
+    "http": "http://user:password@10.10.1.10:3128/",
+}
+requests.get("https://www.taobao.com", proxies=proxies)
+
+除了基本的HTTP代理外，requests还支持SOCKS协议的代理
+
+这是一个可选功能，需要在使用前安装额外的第三方库
+
+您可以从以下位置获取此功能的依赖关系
+
+$ pip install requests[socks]
+
+一旦你安装了这些依赖项，使用SOCKS代理就像使用HTTP代理一样简单:
+
+import requests
+
+proxies = {
+    'http': 'socks5://user:password@host:port',
+    'https': 'socks5://user:password@host:port'
+}
+requests.get("https://www.taobao.com", proxies=proxies)
+
+使用该方案
+socks5
+会导致DNS解析发生在客户端上，而不是在代理服务器上,它使用该方案来决定是否在客户端或代理上执行DNS解析。如果要解析代理服务器上的域，请使用
+socks5h
+该方案。
+
+回到顶部
+10、身份认证
+
+如果访问的网站需要身份认证的话，可以使用requests自带的身份认证功能，其中包括四个类：
+
+class requests.auth.AuthBase：所有auth实现派生自的基类
+
+class requests.auth.HTTPBasicAuth(username, password)：将HTTP基本认证附加到给定的请求对象
+
+class requests.auth.HTTPProxyAuth(username, password)：将HTTP代理身份验证附加到给定的请求对象
+
+class requests.auth.HTTPDigestAuth(username, password)：将HTTP摘要式身份验证附加到给定的请求对象
+
+ 基本认证：
+
+import requests
+from requests.auth import HTTPBasicAuth
+
+url='http://192.168.146.140/admin/'
+s=requests.Session()
+auth=HTTPBasicAuth('admin','123')  #创建密码认证对象
+response=s.get(url,auth=auth)  #附加认证信息
+print(response.text)
+
+代理身份验证：
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/21 10:36
+# @Author  : Py.qi
+# @File    : req_proxauth.py
+# @Software: PyCharm
+import requests
+from requests.auth import HTTPProxyAuth
+
+proauth=HTTPProxyAuth(username='admin',password='123')
+proxies={
+    'http':'10.0.0.10:3324'
+}
+s=requests.Session()  #创建session对象
+s.trust_env=proauth   #添加代理身份验证
+s.proxies=proxies   #添加代理URL
+response=s.get('https://www.facebook.com')
+print(response.text)
+
+回到顶部
+11、编码
+
+当您收到响应时，请求会在您访问
+Response.text
+属性时猜测用于解码响应的编码。请求将首先检查HTTP标头中的编码，如果不存在，将使用chardet通用字符编码检测器，来尝试猜测编码，如果没有明确的字符集是存在于HTTP头
+，
+并在
+Content-Type
+ 头中包含
+text
+。在这种情况下，RFC 2616指定默认字符集必须是
+ISO-8859-1
+。在这种情况下，请求遵循规范。如果你需要不同的编码，你可以手动设置
+Response.encoding
+ 属性，或者使用原始的
+Response.content
+。
+
+requests.utils.get_encodings_from_content(content)：从给定的内容字符串返回编码
+
+requests.utils.get_encoding_from_headers(headers)：从给定的HTTP标题字典返回编码,headers头文件字典，返回str
+
+requests.utils.get_unicode_from_response(r)：以unicode形式返回请求的内容，r是响应对象，返回str
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/21 11:46
+# @Author  : Py.qi
+# @File    : req_enconding.py
+# @Software: PyCharm
+import requests
+from requests.utils import get_encodings_from_content
+from requests.utils import get_encoding_from_headers
+from requests.utils import get_unicode_from_response
+r=requests.get('http://cnblogs.com')
+print(get_encodings_from_content(r.text)) #从内容中返回编码
+print(get_encoding_from_headers(r.headers)) #从头文件中返回编码
+print(get_unicode_from_response(r))  #unicode返回请求内容
+
+#
+['utf-8']
+utf-8
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="always" />
+    <title>博客园 - 开发者的网上家园</title>.............
+
+回到顶部
+12、其他说明
+
+(1)状态码
+
+requests.codes 该codes对象定义了从http状态中通过名称映射的数字代码的状态码，可以作为属性或字典访问
+
+import requests
+
+print(requests.codes['forbidden'])  #403
+print(requests.codes['ok'])  #200
+print(requests.codes['not_modified']) #304
+print(requests.codes['not_found'])  #404
+print(requests.codes['internal_server_error']) #500
+
+其他状态码查询...
+
+(2)超时设置
+
+如果服务器没有及时响应，大多数对外部服务器的请求应该附加一个超时值。默认情况下，除非显式设置超时值，否则请求不会超时。如果没有超时，您的代码可能会挂起几分钟或更长时间。
+
+一旦你的客户端连接到服务器并发送了HTTP请求， 读取超时就是客户端等待服务器发送响应的秒数
+
+为超时指定单个值，如下所示：
+
+r = requests.get('https://github.com', timeout=5)
+
+超时值将应用于 超时
+connect
+和
+read
+超时。如果您想单独设置值，请指定一个元组：
+
+r = requests.get('https://github.com', timeout=(3.05, 27))
+
+如果远程服务器速度非常慢，您可以通过将None作为超时值，让“请求”永久等待响应：
+
+r = requests.get('https://github.com', timeout=None)
+
+(3)流媒体请求
+
+可以使用iter_content方法迭代获取数据，或者使用iter_line()，但在构建请求是需要指定stream=True来返回流内容数据
+
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# @Time    : 2018/6/21 12:38
+# @Author  : Py.qi
+# @File    : req_block.py
+# @Software: PyCharm
+import requests
+import json
+r=requests.get('http://httpbin.org/stream/20',stream=True)
+for i in r.iter_content(chunk_size=1024,decode_unicode=True):
+    if i:
+        print(json.loads(i.decode()))
+
+抓取网页内容实例：
+
+View Code
+
+更多关于requests使用请查看
+官网
+
+ -----------------------------------------end
+Measure

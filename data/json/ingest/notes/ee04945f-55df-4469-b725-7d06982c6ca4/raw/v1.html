@@ -1,0 +1,88 @@
+---
+title: Linux使用tcpdump抓获取WIFI包 | 迟思堂工作室
+updated: 2018-11-07 01:26:19Z
+created: 2018-11-07 01:26:19Z
+source: http://www.latelee.org/using-gnu-linux/capture-wifi-packet-using-tcpdump.html
+---
+
+
+<en-note>
+  <div>
+<div STYLE="font-size: 16px; display: inline-block;  min-width: 100%;position: relative;"><div STYLE="font-size:100%;text-size-adjust:100%;"><div STYLE="font-size:100%;font:14px/160% &quot;Microsoft YaHei&quot;, 微软雅黑, Helvetica, Arial, &quot;Lucida Grande&quot;, Tahoma, sans-serif;color:rgb(85, 85, 85);background:rgb(255, 255, 255);"><div STYLE="font-size:100%;"><div STYLE="font-size:100%;"><div STYLE="font-size:100%;"><div STYLE="font-size:100%;background:rgb(255, 255, 255);border-radius:2px;"><div STYLE="font-size:100%;">
+&Tab;<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;"><span STYLE="margin:0px;padding:0px 3px;border:0px;font-size:100%;float:right;color:rgb(139, 139, 139);cursor:pointer;">A-</span><span STYLE="margin:0px;padding:0px 3px;border:0px;font-size:100%;float:right;color:rgb(139, 139, 139);cursor:pointer;">A+</span></div>
+&Tab;<div STYLE="margin:10px 0px 5px;padding:0px;border:0px;font-size:100%;">
+&Tab;&Tab;<h1 STYLE="margin:0px;padding:0px;border:0px;font-size:16px;">Linux使用tcpdump抓获取WIFI包</h1>
+&Tab;&Tab;<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);">
+&Tab;&Tab;&Tab;<span STYLE="margin:0px;padding:0px;border:0px;font-size:100%;"><i STYLE="margin:0px 3px 0px 0px;padding:0px;border:0px;font-size:12px;font-family:ality;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;color:rgb(186, 186, 186);"><span STYLE="font-size:12px;font-family:ality;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;color:rgb(186, 186, 186);"></span></i>2016-10-28 23:31</span>
+&Tab;&Tab;&Tab;<span STYLE="margin:0px;padding:0px;border:0px;font-size:100%;"><i STYLE="margin:0px 3px 0px 0px;padding:0px;border:0px;font-size:12px;font-family:ality;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;color:rgb(186, 186, 186);"><span STYLE="font-size:12px;font-family:ality;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;color:rgb(186, 186, 186);"></span></i><a HREF="http://www.latelee.org/category/using-gnu-linux" REL="category tag" STYLE="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);text-decoration:none;-webkit-tap-highlight-color:rgba(255, 0, 0, 0);">GNU/Linux系统</a>, <a HREF="http://www.latelee.org/category/wireless" REL="category tag" STYLE="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);text-decoration:none;-webkit-tap-highlight-color:rgba(255, 0, 0, 0);">无线WIFI</a>, <a HREF="http://www.latelee.org/category/net-study" REL="category tag" STYLE="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);text-decoration:none;-webkit-tap-highlight-color:rgba(255, 0, 0, 0);">网络方面</a></span>
+&Tab;&Tab;&Tab;<span STYLE="margin:0px;padding:0px;border:0px;font-size:100%;"><i STYLE="margin:0px 3px 0px 0px;padding:0px;border:0px;font-size:12px;font-family:ality;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;color:rgb(186, 186, 186);"><span STYLE="font-size:12px;font-family:ality;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;color:rgb(186, 186, 186);"></span></i><a HREF="http://www.latelee.org/using-gnu-linux/capture-wifi-packet-using-tcpdump.html#respond" STYLE="margin:0px;padding:0px;border:0px;font-size:100%;color:rgb(139, 139, 139);text-decoration:none;-webkit-tap-highlight-color:rgba(255, 0, 0, 0);">暂无评论</a></span>
+&Tab;&Tab;&Tab;<span STYLE="margin:0px;padding:0px;border:0px;font-size:100%;"><i STYLE="margin:0px 3px 0px 0px;padding:0px;border:0px;font-size:12px;font-family:ality;speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;color:rgb(186, 186, 186);"><span STYLE="font-size:12px;font-family:ality;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;color:rgb(186, 186, 186);"></span></i>阅读 3,186 次</span>&Tab;&Tab;&Tab;&Tab;&Tab;</div>
+&Tab;&Tab;
+&Tab;</div>
+&Tab;
+
+&Tab;&Tab;
+&Tab;&Tab;
+&Tab;<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">
+&Tab;&Tab;<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;line-height:1.6;">
+&Tab;&Tab;&Tab;<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">Linux上常用的抓包工具有tcpdump，还有大名鼎鼎的wireshark(图形界面)。它们都可以抓无线网络WIFI包。本文介绍用两者如何在Linux系统中抓包，假设系统已经正确安装无线网卡驱动，并能识别到wlan0设备。<span STYLE="margin:0px;padding:0px;border:0px;font-size:100%;"></span></p>
+<h1 STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">一、802.11数据包</h1>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">802.11帧有三种，管理帧、控制帧，数据帧。当我们的手机扫瞄周边WIFI热点时，会发现probe请求，它是管理帧的一种。其中包含了手机的MAC地址。更多802.11帧格式，请自行搜索，本文不涉及。</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">在使用无线上网时，用wireshark抓包发现其格式与802.3是完全一样的，一度怀疑自己看错，因为明明是使用无线网络，应该是802.11格式的才对。经过研究跟踪内核源码，发现在内核ieee80211驱动会将数据包转换成802.3，然后才上传到网络协议栈，但是，当无线网卡为monitor模式时，不会做转换。有兴趣可参阅内核源码文件net/mac80211/rx.c的ieee80211_rx函数。这方面涉及太多知识，本文只略提一下&mdash;&mdash;其实主要是自己还没研究透，无法写出来。</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">因此，如果要抓的包有probe等类型时，必须将网卡设置为monitor模式。</p>
+<h1 STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">二、设置无线网卡工作模式</h1>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">设置无线网卡模式使用iwconfig命令，如下命令设置为monitor模式：</p>
+<pre STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;">iwconfig wlan0 mode monitor</pre>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">也可以使用iw命令，下面是设置为managed模式(作为AP或STA时处于该模式)：</p>
+<pre STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;"> iw wlan0 set type managed</pre>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">注意，在无线网卡已经启用的情况下，可能无法设置模式，就需要先禁止再设置，最后再启用，示例如下：</div>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">
+<pre STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;"># iwconfig wlan0 mode monitor
+Error for wireless request &quot;Set Mode&quot; (8B06) :
+    SET failed on device wlan0 ; Device or resource busy</pre>
+</div>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">-上述提示无法设置，设备正忙，所以要先禁止wlan0：</div>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">
+<pre STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;"># ifconfig wlan0 down</pre>
+</div>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">再设置模式：</div>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">
+<pre STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;"># iwconfig wlan0 mode monitor</pre>
+</div>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">使用iwconfig查看模式：</div>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">
+<pre STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;"># iwconfig wlan0
+wlan0     IEEE 802.11abgn  Mode:Monitor  Tx-Power=20 dBm   
+          Retry short limit:7   RTS thr:off   Fragment thr:off
+          Power Management:on</pre>
+</div>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">看到Mode:Monitor表明已修改成功。然后再启用：</div>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">
+<pre STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;"># ifconfig wlan0 up</pre>
+</div>
+</div>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">但是，一般地，不直接使用wlan0作为monitor模式，而是新建立一个别名：</p>
+<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">
+<pre STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;"># iw wlan0 interface add mon0 type monitor  // 添加一个别名mon0，monitor模式
+# ifconfig mon0 up // 启用mon0，默认不启用</pre>
+</div>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">默认情况下，系统启动后，wlan0是managed模式，另建一个mon0作为抓包使用比较方便，不与原有网卡冲突，当使用wlan0抓包时，为802.3格式；而使用mon0则为802.11。</p>
+<h1 STYLE="margin:0px;padding:0px;border:0px;font-size:100%;">三、抓包操作步骤示例</h1>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">使用tcpdump抓包命令：</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;"># tcpdump -i wlan0</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;"># tcpdump -i mon0</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">如果需要将抓的包用wireshark分析，可以使用-w foo.cap保存成文件，然后用wireshark打开查看。</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">另外，wireshark工具有Linux版本，在ubuntu输入：</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">sudo&nbsp;apt-get install wireshark</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">即可安装，其使用与Windows系统下无差异。在wireshark下使用wlan.fc.type_subtype == 0x04过滤得到probe包，就可以知道有哪些手机或电脑发现probe帧了，知道了MAC的OUI，自然知道手机厂商，就可以知道周边的人使用Apple多些还是Android多点。这或许是传说中的&ldquo;WIFI探宝&rdquo;，据说有些商场就使用类似的应用，定位客户，查看流量，等等。</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">注：本文仅是热身，下面将使用代码方式对无线网卡进行抓包。而802.11 netlink编码正在打算中。</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">李迟 2016.10.28 周五深夜</p>
+<p STYLE="margin:0px 0px 5px;padding:0px;border:0px;font-size:100%;text-align:justify;overflow-wrap:break-word;word-break:break-all;text-indent:2em;">&nbsp;</p>
+&Tab;&Tab;</div>
+&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;&Tab;<div STYLE="margin:0px;padding:0px;border:0px;font-size:100%;clear:both;"></div>
+&Tab;</div>
+&Tab;
+</div></div></div></div></div></div></div></div>
+</div>
+</en-note>      

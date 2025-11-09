@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "16c66985-2206-4971-abef-0cb8cd9e59da",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/我们是个技术驱动的团队，最行业迷茫的时期，我们也从来没有停止脚步。我们的薪资水平并不高，但是我们的区.html",
+    "collected_at": "2025-11-09T20:05:17.048022Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "fc75d5cc17b4b06cfd48c6aa2b88c90f7480d16fb373981de87bb87b04050b9e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "91d97d97-3e2b-4476-b89c-77eb583e7138",
+    "ingest_source_id": "16c66985-2206-4971-abef-0cb8cd9e59da",
+    "canonical_title": "我们是个技术驱动的团队，最行业迷茫的时期，我们也从来没有停止脚步。我们的薪资水平并不高，但是我们的区",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.048026Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "我们是个技术驱动的团队，最行业迷茫的时期，我们也从来没有停止脚步。我们的薪资水平并不高，但是我们的区.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b1de1fe4-1460-4b8c-ad4b-87177618691b",
+      "note_id": "91d97d97-3e2b-4476-b89c-77eb583e7138",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.048030Z",
+      "content": "---\ntitle: >-\n  我们是个技术驱动的团队，最行业迷茫的时期，我们也从来没有停止脚步。我们的薪资水平并不高，但是我们的区块链核心团队在最艰难的时候，无一人离职，虽然外面一直有人翻几倍薪资在挖他们。\nupdated: 2019-10-31 02:04:22Z\ncreated: 2019-10-31 02:04:05Z\n---\n\n\n\n<en-note><div>我们是个技术驱动的团队，最行业迷茫的时期，我们也从来没有停止脚步。我们的薪资水平并不高，但是我们的区块链核心团队在最艰难的时候，无一人离职，虽然外面一直有人翻几倍薪资在挖他们。</div><div>因为在这里，他们可以永远奔跑在行业前面。</div><div>如果你希望加入我们，请发简历到 <a HREF=\"mailto:hr@d3j.io\">hr@d3j.io</a> </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fc75d5cc17b4b06cfd48c6aa2b88c90f7480d16fb373981de87bb87b04050b9e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/我们是个技术驱动的团队，最行业迷茫的时期，我们也从来没有停止脚步。我们的薪资水平并不高，但是我们的区.html"
+      }
+    },
+    {
+      "id": "56ddea45-9c42-4097-98e8-5c9d9185682c",
+      "note_id": "91d97d97-3e2b-4476-b89c-77eb583e7138",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.048033Z",
+      "content": "---\ntitle: >-\n  我们是个技术驱动的团队，最行业迷茫的时期，我们也从来没有停止脚步。我们的薪资水平并不高，但是我们的区块链核心团队在最艰难的时候，无一人离职，虽然外面一直有人翻几倍薪资在挖他们。\nupdated: 2019-10-31 02:04:22Z\ncreated: 2019-10-31 02:04:05Z\n---\n\n我们是个技术驱动的团队，最行业迷茫的时期，我们也从来没有停止脚步。我们的薪资水平并不高，但是我们的区块链核心团队在最艰难的时候，无一人离职，虽然外面一直有人翻几倍薪资在挖他们。\n因为在这里，他们可以永远奔跑在行业前面。\n如果你希望加入我们，请发简历到\nhr@d3j.io",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 305,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c8fd1f1d-e700-4f2a-801a-9b3e162edc65",
+    "note_id": "91d97d97-3e2b-4476-b89c-77eb583e7138",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.048038Z",
+    "finished_at": "2025-11-09T20:05:17.048039Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4ef1db3f-7187-4683-8af2-7999afeb4993",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/我们是个技术驱动的团队，最行业迷茫的时期，我们也从来没有停止脚步。我们的薪资水平并不高，但是我们的区.html",
+      "checksum": "fc75d5cc17b4b06cfd48c6aa2b88c90f7480d16fb373981de87bb87b04050b9e"
+    },
+    "output_ref": {
+      "ingest_source": "16c66985-2206-4971-abef-0cb8cd9e59da",
+      "note": "91d97d97-3e2b-4476-b89c-77eb583e7138",
+      "variants": [
+        "b1de1fe4-1460-4b8c-ad4b-87177618691b",
+        "56ddea45-9c42-4097-98e8-5c9d9185682c"
+      ]
+    },
+    "error_detail": null
+  }
+}

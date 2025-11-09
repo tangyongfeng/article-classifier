@@ -1,0 +1,15 @@
+<div class="category-item">
+    <a href="{{ url_for('category_view', category_id=category.id) }}" class="category-link">
+        <i class="bi {% if category.children %}bi-folder-fill{% else %}bi-file-earmark-text{% endif %}"></i>
+        <span class="category-name">{{ category.name }}</span>
+        <span class="badge bg-secondary">{{ category.article_count }}</span>
+    </a>
+    {% if category.children %}
+        <div class="category-children ms-3">
+            {% for child_category in category.children %}
+                {% set category = child_category %}
+                {% include 'partials/category_node.html' %}
+            {% endfor %}
+        </div>
+    {% endif %}
+</div>

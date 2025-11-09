@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2d1b92e6-9348-42d5-9cdb-f88bf967fa5c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/networksolutions.html",
+    "collected_at": "2025-11-09T20:01:36.641468Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e09e0694efffbea5fa39438406a2465d6e0232fe3688ba9f93ebf4068bb4dc42",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4c726242-fa4e-45c8-9325-335ba3376543",
+    "ingest_source_id": "2d1b92e6-9348-42d5-9cdb-f88bf967fa5c",
+    "canonical_title": "networksolutions",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:36.641472Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "networksolutions.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "661a6a29-144d-4a85-9d23-30e90a10c9de",
+      "note_id": "4c726242-fa4e-45c8-9325-335ba3376543",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.641474Z",
+      "content": "---\ntitle: networksolutions\nupdated: 2019-11-16 04:11:46Z\ncreated: 2019-11-16 04:11:14Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>networksolutions</div><div><a HREF=\"mailto:tangyongfeng@gmail.com\">tangyongfeng@gmail.com</a></div><div><br/></div><div>TRshgXgEAPu6j8Xo</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e09e0694efffbea5fa39438406a2465d6e0232fe3688ba9f93ebf4068bb4dc42",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/networksolutions.html"
+      }
+    },
+    {
+      "id": "3b95c95a-acb6-47f0-a88e-11bb22adb4f0",
+      "note_id": "4c726242-fa4e-45c8-9325-335ba3376543",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.641477Z",
+      "content": "---\ntitle: networksolutions\nupdated: 2019-11-16 04:11:46Z\ncreated: 2019-11-16 04:11:14Z\nauthor: tangyongfeng@gmail.com\n---\n\nnetworksolutions\ntangyongfeng@gmail.com\nTRshgXgEAPu6j8Xo",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 180,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0ad1a564-124e-4cd2-9003-7f3e5cea96eb",
+    "note_id": "4c726242-fa4e-45c8-9325-335ba3376543",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.641482Z",
+    "finished_at": "2025-11-09T20:01:36.641482Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8e84a4af-adf9-4805-9a4b-f5223e30b69f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/networksolutions.html",
+      "checksum": "e09e0694efffbea5fa39438406a2465d6e0232fe3688ba9f93ebf4068bb4dc42"
+    },
+    "output_ref": {
+      "ingest_source": "2d1b92e6-9348-42d5-9cdb-f88bf967fa5c",
+      "note": "4c726242-fa4e-45c8-9325-335ba3376543",
+      "variants": [
+        "661a6a29-144d-4a85-9d23-30e90a10c9de",
+        "3b95c95a-acb6-47f0-a88e-11bb22adb4f0"
+      ]
+    },
+    "error_detail": null
+  }
+}

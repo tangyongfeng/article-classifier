@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "51617506-c28e-4876-9695-b3dd98211e58",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/文字.html",
+    "collected_at": "2025-11-09T20:05:16.218619Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "dcd5658f844f13ebb66da76848785b4c0ac5116038f44e9d27080e6eb8494092",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "fa56ecc5-0737-4bec-a63f-b8ff171907ab",
+    "ingest_source_id": "51617506-c28e-4876-9695-b3dd98211e58",
+    "canonical_title": "文字",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.218623Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "文字.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b2c8f4dd-6a8f-4383-8787-05847101bd56",
+      "note_id": "fa56ecc5-0737-4bec-a63f-b8ff171907ab",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.218626Z",
+      "content": "---\ntitle: 文字\nupdated: 2022-06-09 19:14:19Z\ncreated: 2022-06-09 19:14:08Z\n---\n\n\n<en-note><div>{\\__/}</div><div>( &bull; . &bull;)</div><div>/ &gt;🍺 du willst eins?</div><div><br/></div><div>{\\__/}</div><div>( &bull; . &bull;)</div><div>🍺&lt;\\ dann folg uns erst.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dcd5658f844f13ebb66da76848785b4c0ac5116038f44e9d27080e6eb8494092",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/文字.html"
+      }
+    },
+    {
+      "id": "9f162a2a-c98d-44ed-b03b-20af1025418b",
+      "note_id": "fa56ecc5-0737-4bec-a63f-b8ff171907ab",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.218628Z",
+      "content": "---\ntitle: 文字\nupdated: 2022-06-09 19:14:19Z\ncreated: 2022-06-09 19:14:08Z\n---\n\n{\\__/}\n( • . •)\n/ >🍺 du willst eins?\n{\\__/}\n( • . •)\n🍺<\\ dann folg uns erst.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 155,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8f16ed0c-a519-475e-976b-3ca879312859",
+    "note_id": "fa56ecc5-0737-4bec-a63f-b8ff171907ab",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.218633Z",
+    "finished_at": "2025-11-09T20:05:16.218633Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1ffeaef0-330d-4b1f-9821-8c33a45920f2",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/文字.html",
+      "checksum": "dcd5658f844f13ebb66da76848785b4c0ac5116038f44e9d27080e6eb8494092"
+    },
+    "output_ref": {
+      "ingest_source": "51617506-c28e-4876-9695-b3dd98211e58",
+      "note": "fa56ecc5-0737-4bec-a63f-b8ff171907ab",
+      "variants": [
+        "b2c8f4dd-6a8f-4383-8787-05847101bd56",
+        "9f162a2a-c98d-44ed-b03b-20af1025418b"
+      ]
+    },
+    "error_detail": null
+  }
+}

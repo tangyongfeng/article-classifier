@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f4794d0c-ddc1-4a99-9fcf-e0a9d6dd604b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Zur Anmeldung für die Prüfung _Leben in Deutschlan.html",
+    "collected_at": "2025-11-09T20:01:38.823962Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "1748c41b5bde68eb00ff0247fe3b2e89dc3b8d523c2b1f7ba793370b224c759d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "5de8399b-9958-461a-aac7-16f9f893733a",
+    "ingest_source_id": "f4794d0c-ddc1-4a99-9fcf-e0a9d6dd604b",
+    "canonical_title": "Zur Anmeldung für die Prüfung _Leben in Deutschlan",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:38.823965Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Zur Anmeldung für die Prüfung _Leben in Deutschlan.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1d0524b2-68cc-4774-b23f-a3193d97f7e1",
+      "note_id": "5de8399b-9958-461a-aac7-16f9f893733a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.823968Z",
+      "content": "---\ntitle: Zur Anmeldung für die Prüfung \"Leben in Deutschland\".\nupdated: 2020-12-29 16:46:53Z\ncreated: 2020-12-29 16:03:44Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - lid\n---\n\n\n<en-note><div><span STYLE=\"font-family: Courier;\">Sehr geehrte Damen und Herren,</span></div><div><font FACE=\"Courier\">ich hei&szlig;e Yongfeng Tang ,letzt Monate habe ich B1 Pr&uuml;fung gemacht.&nbsp;N&auml;chst&nbsp;</font><span STYLE=\"font-family: Courier;\">m&ouml;chte ich die Pr&uuml;fung &quot;Leben in Deutschland&quot; ablegen. Ich kann die Lerninhalte online abschlie&szlig;en, aber ich m&ouml;chte nur die Pr&uuml;fung ablegen.</span></div><div><span STYLE=\"font-family: Courier;\">Wann ist Ihre letzte Testzeit? Kann ich mich jetzt daf&uuml;r anmelden?</span></div><div><span STYLE=\"font-family: Courier;\">Ich w&uuml;rde mich freuen, wenn Sie sich melden w&uuml;rden.</span></div><div><span STYLE=\"font-family: Courier;\"><br/></span></div><div><span STYLE=\"font-family: Courier;\"><br/></span></div><div><span STYLE=\"font-family: Courier;\">Ich w&uuml;nsche Ihnen alles sch&ouml;nen und viel Gl&uuml;ck im Jahr 2021.</span></div><div><span STYLE=\"font-family: Courier;\"><br/></span></div><div><span STYLE=\"font-family: Courier;\"><br/></span></div><div><span STYLE=\"font-family: Courier;\"><br/></span></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">Mit freundlich Gr&uuml;&szlig;e</span></div><div><span STYLE=\"font-family: Courier;\">Yongfeng Tang</span></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1748c41b5bde68eb00ff0247fe3b2e89dc3b8d523c2b1f7ba793370b224c759d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Zur Anmeldung für die Prüfung _Leben in Deutschlan.html"
+      }
+    },
+    {
+      "id": "3af2137a-91d0-4e1d-9eca-6c02b63e0f92",
+      "note_id": "5de8399b-9958-461a-aac7-16f9f893733a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.823971Z",
+      "content": "---\ntitle: Zur Anmeldung für die Prüfung \"Leben in Deutschland\".\nupdated: 2020-12-29 16:46:53Z\ncreated: 2020-12-29 16:03:44Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - lid\n---\n\nSehr geehrte Damen und Herren,\nich heiße Yongfeng Tang ,letzt Monate habe ich B1 Prüfung gemacht. Nächst \nmöchte ich die Prüfung \"Leben in Deutschland\" ablegen. Ich kann die Lerninhalte online abschließen, aber ich möchte nur die Prüfung ablegen.\nWann ist Ihre letzte Testzeit? Kann ich mich jetzt dafür anmelden?\nIch würde mich freuen, wenn Sie sich melden würden.\nIch wünsche Ihnen alles schönen und viel Glück im Jahr 2021.\nMit freundlich Grüße\nYongfeng Tang",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 636,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1981a669-9cc3-498f-94d7-29ba4b5643de",
+    "note_id": "5de8399b-9958-461a-aac7-16f9f893733a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.823976Z",
+    "finished_at": "2025-11-09T20:01:38.823976Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a68c6234-eb82-425d-a6a7-5174709262cf",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Zur Anmeldung für die Prüfung _Leben in Deutschlan.html",
+      "checksum": "1748c41b5bde68eb00ff0247fe3b2e89dc3b8d523c2b1f7ba793370b224c759d"
+    },
+    "output_ref": {
+      "ingest_source": "f4794d0c-ddc1-4a99-9fcf-e0a9d6dd604b",
+      "note": "5de8399b-9958-461a-aac7-16f9f893733a",
+      "variants": [
+        "1d0524b2-68cc-4774-b23f-a3193d97f7e1",
+        "3af2137a-91d0-4e1d-9eca-6c02b63e0f92"
+      ]
+    },
+    "error_detail": null
+  }
+}

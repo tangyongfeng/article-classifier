@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b5360e4c-73c7-4527-91df-f0daa7f01700",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/无标题笔记-1.html",
+    "collected_at": "2025-11-09T20:01:38.734657Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8b219408f8a0e085246a719544ac0c8459745fa8666912b6b57184f7c98991ba",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1904d15a-b5fe-4f2b-83e3-e34aa635c1d2",
+    "ingest_source_id": "b5360e4c-73c7-4527-91df-f0daa7f01700",
+    "canonical_title": "无标题笔记-1",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.734660Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c776a521-4e4f-4137-b075-4633e55dc680",
+      "note_id": "1904d15a-b5fe-4f2b-83e3-e34aa635c1d2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.734663Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-01-21 11:10:03Z\ncreated: 2019-01-21 11:08:46Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>我：我的申诉已经提交5周了</div><div>vo：非常抱歉，前段时间给耽误了。很快就会有结果</div><div>我：大概是什么时候呢？</div><div>vo：本周</div><div>我：谢谢</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8b219408f8a0e085246a719544ac0c8459745fa8666912b6b57184f7c98991ba",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/无标题笔记-1.html"
+      }
+    },
+    {
+      "id": "b7a49535-90a4-417c-b67f-7ef223515c5e",
+      "note_id": "1904d15a-b5fe-4f2b-83e3-e34aa635c1d2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.734665Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-01-21 11:10:03Z\ncreated: 2019-01-21 11:08:46Z\nauthor: tangyongfeng@gmail.com\n---\n\n我：我的申诉已经提交5周了\nvo：非常抱歉，前段时间给耽误了。很快就会有结果\n我：大概是什么时候呢？\nvo：本周\n我：谢谢",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 174,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "de4661b2-3542-4283-b371-6e522a74e478",
+    "note_id": "1904d15a-b5fe-4f2b-83e3-e34aa635c1d2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.734670Z",
+    "finished_at": "2025-11-09T20:01:38.734670Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9d426904-f837-47ec-a375-8d3432a6af73",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国2/无标题笔记-1.html",
+      "checksum": "8b219408f8a0e085246a719544ac0c8459745fa8666912b6b57184f7c98991ba"
+    },
+    "output_ref": {
+      "ingest_source": "b5360e4c-73c7-4527-91df-f0daa7f01700",
+      "note": "1904d15a-b5fe-4f2b-83e3-e34aa635c1d2",
+      "variants": [
+        "c776a521-4e4f-4137-b075-4633e55dc680",
+        "b7a49535-90a4-417c-b67f-7ef223515c5e"
+      ]
+    },
+    "error_detail": null
+  }
+}

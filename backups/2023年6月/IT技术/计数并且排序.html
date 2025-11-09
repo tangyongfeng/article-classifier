@@ -1,0 +1,13 @@
+---
+title: 计数并且排序
+updated: 2019-01-25 09:53:15Z
+created: 2019-01-25 09:52:50Z
+author: tangyongfeng@gmail.com
+tags:
+  - sql
+---
+
+
+<en-note><div></div><div>SELECT keyword, count( * ) AS count&nbsp;</div><div><br/></div><div>FROM article_keyword&nbsp;</div><div><br/></div><div>GROUP BY keyword&nbsp;</div><div><br/></div><div>ORDER BY count DESC&nbsp;</div><div><br/></div><div STYLE="margin-top: 1em; margin-bottom: 1em;"><span STYLE="-en-paragraph:true;">LIMIT 20
+</span></div><p></p><div><span STYLE="box-sizing: border-box; outline: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-size: 16px; color: rgb(79, 79, 79); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;-en-paragraph:true;">此段查询语句返回 article_keyword 表中 keyword 重复次数（count） 最多的20条记录。
+</span></div></en-note>      

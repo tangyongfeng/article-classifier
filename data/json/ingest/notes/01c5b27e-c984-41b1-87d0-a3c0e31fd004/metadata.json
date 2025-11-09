@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "97a4f38e-92c9-49e3-976b-af6c48cc2b67",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/fc.qingzhuang.com.html",
+    "collected_at": "2025-11-09T20:05:13.797860Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "357eed43765c85d4dd05702557982908ffaf97cfdcdf2f95875247ea4e70d132",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "01c5b27e-c984-41b1-87d0-a3c0e31fd004",
+    "ingest_source_id": "97a4f38e-92c9-49e3-976b-af6c48cc2b67",
+    "canonical_title": "fc.qingzhuang.com",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:13.797864Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "fc.qingzhuang.com.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a46807b4-9a39-4fed-9f69-7aac2f5ee6f6",
+      "note_id": "01c5b27e-c984-41b1-87d0-a3c0e31fd004",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.797866Z",
+      "content": "---\ntitle: fc.qingzhuang.com\nupdated: 2012-10-30 07:45:58Z\ncreated: 2012-09-20 08:31:13Z\nsource: https://staff.qingzhuang.com/viewthread.php?tid=7044&extra=page%3D4\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(51, 51, 51); font-family: Tahoma, Verdana; font-size: 12px; background-color: rgb(255, 255, 255);\">administrator&nbsp;</span><br STYLE=\"color: rgb(51, 51, 51); font-family: Tahoma, Verdana; font-size: 12px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: Tahoma, Verdana; font-size: 12px; background-color: rgb(255, 255, 255);\">X87W09i7785Sp</span><div><span STYLE=\"color: rgb(51, 51, 51); font-family: Tahoma, Verdana; font-size: 12px; background-color: rgb(255, 255, 255);\"><br/></span></div><div><span STYLE=\"color: rgb(51, 51, 51); font-family: Tahoma, Verdana; font-size: 12px; background-color: rgb(255, 255, 255);\"><a HREF=\"http://www.qingzhuang.com/\">www.qingzhuang.com</a></span></div><div><span STYLE=\"color: rgb(51, 51, 51); font-family: Tahoma, Verdana; font-size: 12px; background-color: rgb(255, 255, 255);\">EnK0B8mMSg11</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "357eed43765c85d4dd05702557982908ffaf97cfdcdf2f95875247ea4e70d132",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/fc.qingzhuang.com.html"
+      }
+    },
+    {
+      "id": "c80e43d9-4e76-455d-83a6-1af0b33f3a04",
+      "note_id": "01c5b27e-c984-41b1-87d0-a3c0e31fd004",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:13.797869Z",
+      "content": "---\ntitle: fc.qingzhuang.com\nupdated: 2012-10-30 07:45:58Z\ncreated: 2012-09-20 08:31:13Z\nsource: https://staff.qingzhuang.com/viewthread.php?tid=7044&extra=page%3D4\n---\n\nadministrator \nX87W09i7785Sp\nwww.qingzhuang.com\nEnK0B8mMSg11",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 230,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4a6a069c-f414-45f4-b63b-7c189499bcf2",
+    "note_id": "01c5b27e-c984-41b1-87d0-a3c0e31fd004",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:13.797874Z",
+    "finished_at": "2025-11-09T20:05:13.797874Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dcfeb6ea-7abb-44f2-8775-991383740d5a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/fc.qingzhuang.com.html",
+      "checksum": "357eed43765c85d4dd05702557982908ffaf97cfdcdf2f95875247ea4e70d132"
+    },
+    "output_ref": {
+      "ingest_source": "97a4f38e-92c9-49e3-976b-af6c48cc2b67",
+      "note": "01c5b27e-c984-41b1-87d0-a3c0e31fd004",
+      "variants": [
+        "a46807b4-9a39-4fed-9f69-7aac2f5ee6f6",
+        "c80e43d9-4e76-455d-83a6-1af0b33f3a04"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "aba7b291-14fa-4387-b66e-89b43f36abc6",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/Sharing link-1.html",
+    "collected_at": "2025-11-09T20:01:39.796165Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "14fc42c460e0ec6de9c39fd76de2f7c3b2b29cd05ef7c1c8f3cddff0f2c1312e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ea65b8aa-0a64-45d5-948b-1fa2072b3eb0",
+    "ingest_source_id": "aba7b291-14fa-4387-b66e-89b43f36abc6",
+    "canonical_title": "Sharing link-1",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.796168Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Sharing link-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "187dc66f-9d07-4499-88a8-8501040e2aa0",
+      "note_id": "ea65b8aa-0a64-45d5-948b-1fa2072b3eb0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.796171Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2018-11-11 16:07:26Z\ncreated: 2018-11-11 16:07:26Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><span>Sharing link</span></div>\n<div><br/></div>\n<div><span>http://zrld1046625433.blog.163.com/blog/static/1720880272013113035740534/</span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "14fc42c460e0ec6de9c39fd76de2f7c3b2b29cd05ef7c1c8f3cddff0f2c1312e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/Sharing link-1.html"
+      }
+    },
+    {
+      "id": "aa21f117-513d-43c1-91bd-e111372b42f9",
+      "note_id": "ea65b8aa-0a64-45d5-948b-1fa2072b3eb0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.796174Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2018-11-11 16:07:26Z\ncreated: 2018-11-11 16:07:26Z\nauthor: tangyongfeng@gmail.com\n---\n\nSharing link\n\nhttp://zrld1046625433.blog.163.com/blog/static/1720880272013113035740534/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 207,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f46491d6-4053-48a0-a7ae-ae25814417f4",
+    "note_id": "ea65b8aa-0a64-45d5-948b-1fa2072b3eb0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.796179Z",
+    "finished_at": "2025-11-09T20:01:39.796179Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "89aa1a0b-6a39-4757-bcdb-9a922e9fada5",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/易经/Sharing link-1.html",
+      "checksum": "14fc42c460e0ec6de9c39fd76de2f7c3b2b29cd05ef7c1c8f3cddff0f2c1312e"
+    },
+    "output_ref": {
+      "ingest_source": "aba7b291-14fa-4387-b66e-89b43f36abc6",
+      "note": "ea65b8aa-0a64-45d5-948b-1fa2072b3eb0",
+      "variants": [
+        "187dc66f-9d07-4499-88a8-8501040e2aa0",
+        "aa21f117-513d-43c1-91bd-e111372b42f9"
+      ]
+    },
+    "error_detail": null
+  }
+}

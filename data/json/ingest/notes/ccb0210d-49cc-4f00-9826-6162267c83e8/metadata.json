@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e637d59e-5045-4e07-8adb-c89729990ac9",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/底特律.html",
+    "collected_at": "2025-11-09T20:01:37.033983Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4c96d6fc1e669d7f160cab4b42de15e4431040f0dd2a772d54a351e2c2ed7d25",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ccb0210d-49cc-4f00-9826-6162267c83e8",
+    "ingest_source_id": "e637d59e-5045-4e07-8adb-c89729990ac9",
+    "canonical_title": "底特律",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.033987Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "底特律.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e4aa2571-ff7c-4578-afe3-8cf9c0113002",
+      "note_id": "ccb0210d-49cc-4f00-9826-6162267c83e8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.033989Z",
+      "content": "---\ntitle: 底特律\nupdated: 2013-03-17 08:01:16Z\ncreated: 2013-03-17 08:00:43Z\n---\n\n\n\n<en-note>http://www.meijialx.com/city-detail-content/info_id:21631\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4c96d6fc1e669d7f160cab4b42de15e4431040f0dd2a772d54a351e2c2ed7d25",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/底特律.html"
+      }
+    },
+    {
+      "id": "cc3f3cf4-5622-409a-b8ed-51f019cefe58",
+      "note_id": "ccb0210d-49cc-4f00-9826-6162267c83e8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.033992Z",
+      "content": "---\ntitle: 底特律\nupdated: 2013-03-17 08:01:16Z\ncreated: 2013-03-17 08:00:43Z\n---\n\nhttp://www.meijialx.com/city-detail-content/info_id:21631",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 137,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7c54e196-9418-4c2e-9579-ab374a64cf0f",
+    "note_id": "ccb0210d-49cc-4f00-9826-6162267c83e8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.033997Z",
+    "finished_at": "2025-11-09T20:01:37.033997Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "910942a8-1fed-4a53-9a3f-fc623cc11348",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/底特律.html",
+      "checksum": "4c96d6fc1e669d7f160cab4b42de15e4431040f0dd2a772d54a351e2c2ed7d25"
+    },
+    "output_ref": {
+      "ingest_source": "e637d59e-5045-4e07-8adb-c89729990ac9",
+      "note": "ccb0210d-49cc-4f00-9826-6162267c83e8",
+      "variants": [
+        "e4aa2571-ff7c-4578-afe3-8cf9c0113002",
+        "cc3f3cf4-5622-409a-b8ed-51f019cefe58"
+      ]
+    },
+    "error_detail": null
+  }
+}

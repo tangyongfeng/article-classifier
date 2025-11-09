@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "5268b6fd-d8b5-4200-9fd2-fb930aa96230",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/三格动词.html",
+    "collected_at": "2025-11-09T20:01:39.079114Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "b3bdd7e2b7191bd41ead8585ce13fcaf549fc4fad9ccd5ea52c6959c1f4a1715",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6fd1cb9c-f4d0-4f06-b11d-f3f85ee316a0",
+    "ingest_source_id": "5268b6fd-d8b5-4200-9fd2-fb930aa96230",
+    "canonical_title": "三格动词",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:39.079118Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "三格动词.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "74b6bf46-1254-45d9-9f00-ecbf87035b96",
+      "note_id": "6fd1cb9c-f4d0-4f06-b11d-f3f85ee316a0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.079121Z",
+      "content": "---\ntitle: 三格动词\nupdated: 2020-11-02 14:33:12Z\ncreated: 2020-11-02 14:32:46Z\n---\n\n\n\n<en-note><div>我们都很熟悉，在德语中存在一批所谓的&ldquo;跟第三格宾语&rdquo;的动词，简称&ldquo;三格动词&rdquo;。而往往在使用这些动词的时候，我们要打破传统思维：物作主语，即第一格，而&ldquo;人&rdquo;用第三格。这篇就把这些常用的高频的动词进行了一番总结，方便我们的写作和口语交流，为方便起见，下列第三格宾语都用mir，以此类推：</div><div> </div><div>( 1 ) &nbsp;fehlen &nbsp;缺少</div><div>句型： &nbsp;Mir fehlt ... &nbsp;我缺少</div><div>例句： &nbsp;Mir fehlt das Geld f&uuml;r eine Reise. &nbsp;我缺少一次旅行的钱。</div><div> </div><div>( 2 ) &nbsp;gefallen &nbsp;喜欢</div><div>句型： &nbsp;Mir gef&auml;llt ... &nbsp;我喜欢</div><div>例句： &nbsp;Mir gef&auml;llt das blaue Hemd. &nbsp;我喜欢这件蓝色的男式衬衫。</div><div> </div><div>( 3 ) &nbsp;missfallen &nbsp;不喜欢</div><div>句型： &nbsp;Mir missf&auml;llt ... &nbsp;我不喜欢</div><div>例句： &nbsp;Mir missf&auml;llt dieser gr&uuml;ne Hut. &nbsp;我不喜欢这顶绿色的帽子。</div><div>注意： &nbsp;gefallen和missfallen互为反义关系，并且用法类似。</div><div> </div><div>( 4 ) &nbsp;schmecken &nbsp;味道好</div><div>句型： Mir schmeckt ... &nbsp;我觉得...好吃</div><div>例句： Mir schmeckt der Kartoffelsalat. &nbsp;我觉得这土豆色拉味道不错。</div><div> </div><div>( 5 ) &nbsp;gelingen &nbsp;做成某事，成功</div><div>句型： &nbsp;Mir gelingt es, etw. zu tun &nbsp; 成功做某事</div><div>例句： &nbsp;Mir gelingt es, diese Pr&uuml;fung zu bestehen. &nbsp;我顺利地通过了考试。</div><div> </div><div>( 6 ) &nbsp;misslingen &nbsp;失败，没做成某事</div><div>句型： &nbsp;Mir misslingt es, etw. zu tun &nbsp;没做成某事</div><div>例句： &nbsp;Mir misslingt es, ihn davon zu &uuml;berzeugen. &nbsp;我没能说服他。</div><div>注意： &nbsp;gelinge和misslingen互为反义关系，并且用法类似。</div><div> </div><div>( 7 ) &nbsp;geh&ouml;ren &nbsp;属于</div><div>句型： &nbsp;Mir geh&ouml;rt ... &nbsp; 属于</div><div>例句： &nbsp;Mir geh&ouml;rt die neue Villa. &nbsp;这栋新的别墅是我的。</div><div> </div><div>( 8 ) &nbsp;weh/tun &nbsp;感到疼痛</div><div>句型： &nbsp;Mir tut ... weh. &nbsp; 我感到某部位疼痛。</div><div>例句： &nbsp;Mit tut der Kopf sehr weh. &nbsp;我头很痛。</div><div> </div><div>( 9 ) &nbsp;passen &nbsp;合身，合适</div><div>句型： &nbsp;Mir passt ... &nbsp;合身</div><div>例句： &nbsp;Mir passt der Mantel. &nbsp;这件大衣适合我。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b3bdd7e2b7191bd41ead8585ce13fcaf549fc4fad9ccd5ea52c6959c1f4a1715",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/三格动词.html"
+      }
+    },
+    {
+      "id": "8ccabb25-96c8-4e56-b39f-63d64159b954",
+      "note_id": "6fd1cb9c-f4d0-4f06-b11d-f3f85ee316a0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.079123Z",
+      "content": "---\ntitle: 三格动词\nupdated: 2020-11-02 14:33:12Z\ncreated: 2020-11-02 14:32:46Z\n---\n\n我们都很熟悉，在德语中存在一批所谓的“跟第三格宾语”的动词，简称“三格动词”。而往往在使用这些动词的时候，我们要打破传统思维：物作主语，即第一格，而“人”用第三格。这篇就把这些常用的高频的动词进行了一番总结，方便我们的写作和口语交流，为方便起见，下列第三格宾语都用mir，以此类推：\n\n( 1 )  fehlen  缺少\n句型：  Mir fehlt ...  我缺少\n例句：  Mir fehlt das Geld für eine Reise.  我缺少一次旅行的钱。\n\n( 2 )  gefallen  喜欢\n句型：  Mir gefällt ...  我喜欢\n例句：  Mir gefällt das blaue Hemd.  我喜欢这件蓝色的男式衬衫。\n\n( 3 )  missfallen  不喜欢\n句型：  Mir missfällt ...  我不喜欢\n例句：  Mir missfällt dieser grüne Hut.  我不喜欢这顶绿色的帽子。\n注意：  gefallen和missfallen互为反义关系，并且用法类似。\n\n( 4 )  schmecken  味道好\n句型： Mir schmeckt ...  我觉得...好吃\n例句： Mir schmeckt der Kartoffelsalat.  我觉得这土豆色拉味道不错。\n\n( 5 )  gelingen  做成某事，成功\n句型：  Mir gelingt es, etw. zu tun   成功做某事\n例句：  Mir gelingt es, diese Prüfung zu bestehen.  我顺利地通过了考试。\n\n( 6 )  misslingen  失败，没做成某事\n句型：  Mir misslingt es, etw. zu tun  没做成某事\n例句：  Mir misslingt es, ihn davon zu überzeugen.  我没能说服他。\n注意：  gelinge和misslingen互为反义关系，并且用法类似。\n\n( 7 )  gehören  属于\n句型：  Mir gehört ...   属于\n例句：  Mir gehört die neue Villa.  这栋新的别墅是我的。\n\n( 8 )  weh/tun  感到疼痛\n句型：  Mir tut ... weh.   我感到某部位疼痛。\n例句：  Mit tut der Kopf sehr weh.  我头很痛。\n\n( 9 )  passen  合身，合适\n句型：  Mir passt ...  合身\n例句：  Mir passt der Mantel.  这件大衣适合我。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1220,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "826dfd22-e1f6-4474-9993-f7028070eb3f",
+    "note_id": "6fd1cb9c-f4d0-4f06-b11d-f3f85ee316a0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.079128Z",
+    "finished_at": "2025-11-09T20:01:39.079128Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6d741c2f-6168-47db-b2ed-fb2774d16747",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/三格动词.html",
+      "checksum": "b3bdd7e2b7191bd41ead8585ce13fcaf549fc4fad9ccd5ea52c6959c1f4a1715"
+    },
+    "output_ref": {
+      "ingest_source": "5268b6fd-d8b5-4200-9fd2-fb930aa96230",
+      "note": "6fd1cb9c-f4d0-4f06-b11d-f3f85ee316a0",
+      "variants": [
+        "74b6bf46-1254-45d9-9f00-ecbf87035b96",
+        "8ccabb25-96c8-4e56-b39f-63d64159b954"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "23e74bc0-60c8-43cc-ad8e-386391907db3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/隔离目标和原则.html",
+    "collected_at": "2025-11-09T20:05:17.215454Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "337a737a72b26e32ee304d74f637cbaab64b0a1ae4cf5931841adefadfbc9b43",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a3463cbd-021b-4f53-9b8e-56fbc2479353",
+    "ingest_source_id": "23e74bc0-60c8-43cc-ad8e-386391907db3",
+    "canonical_title": "隔离目标和原则",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.215458Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "隔离目标和原则.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "710cd90a-f2a7-4b54-a223-3fcd4547453e",
+      "note_id": "a3463cbd-021b-4f53-9b8e-56fbc2479353",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.215460Z",
+      "content": "---\ntitle: 隔离目标和原则\nupdated: 2013-07-13 02:48:43Z\ncreated: 2013-07-13 02:15:16Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n隔离目标和原则\n<div>保证异常出现时影响范围可控</div><div>&nbsp; &nbsp; &nbsp;按主要介入方隔离</div><div>&nbsp; &nbsp; &nbsp;按业务隔离</div><div>&nbsp; &nbsp; &nbsp;按功能核心成都隔离</div><div>隔离方式</div><div>&nbsp; &nbsp; &nbsp;物理隔离&centerdot;逻辑隔离</div><div>&nbsp; &nbsp; &nbsp;读写隔离</div><div>保证SLA的措施</div><div>&nbsp; &nbsp; &nbsp;所有的地方加<b>超时。</b></div><div>&nbsp; &nbsp; &nbsp;谨慎的重试。异常情况下读重试可能将情况更加恶化，写情况下</div><div>&nbsp; &nbsp; &nbsp;容量规划</div><div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;每季度至少一次例行评估</div><div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;重大活动前容量评估</div><div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;监控系统黄色预警</div><div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;日常情况下30%冗余</div><div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;资源或者系统构架调整时需要重点关注</div><div>&nbsp; &nbsp; &nbsp;failover策略</div><div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;服务降级：保证核心功能</div><div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;快速失败：保证不卡死</div><div>&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;流量限制：保证正常请求</div><div>构建稳定的系统-容灾预案</div><div>&nbsp; &nbsp; &nbsp;IDC容灾</div><div>&nbsp; &nbsp; &nbsp;限流</div><div>&nbsp; &nbsp; &nbsp;降级&nbsp; &nbsp;&nbsp;</div><div>&nbsp; &nbsp; &nbsp;紧急快速扩容</div><div>线上异常演练</div><div>&nbsp; &nbsp; &nbsp;模拟各种异常的情况出现，我们曾经做过的failure design是否都是正常的，出现的各种异常都是有补救措施的。</div><div>新浪自有演练系统的介绍</div><div>&nbsp; &nbsp; &nbsp;引流线上真是流量</div><div>&nbsp; &nbsp; &nbsp;异常场景搭建和模拟</div><div>&nbsp; &nbsp; &nbsp;预案预演</div><div>&nbsp; &nbsp; &nbsp;验证系统</div><div>&nbsp; &nbsp; &nbsp;</div><div>&nbsp; &nbsp; &nbsp; 引流线上真实流量</div><div>&nbsp; &nbsp; &nbsp;通过tcpcopy引流到演练服务器。使用linux tc模拟依赖资源或者服务出现异常的场景。</div><div>&nbsp; &nbsp; &nbsp;箭扣字节码形式注入sleep代码模拟接口慢的场景。</div><div><br/></div><div>验证手段</div><div>&nbsp; &nbsp; &nbsp;页面中4xx 5xx的比例</div><div>&nbsp; &nbsp; &nbsp;响应时间是否在正常范围内</div><div>&nbsp; &nbsp; &nbsp;是否满足sla的要求</div><div>&nbsp; &nbsp; &nbsp;返回包的大小</div><div>&nbsp; &nbsp; &nbsp;日志分析</div><div>注意事项</div><div>&nbsp; &nbsp; &nbsp;避免copy上行接口流量导致写请求被多次处理</div><div>&nbsp; &nbsp; &nbsp;避免对后端造成很大压力</div><div>&nbsp; &nbsp; &nbsp;避免写花缓存数据</div><div>&nbsp; &nbsp; &nbsp;尽量选择在地方和工程师在场的时间段进行演练</div><div>&nbsp; &nbsp; &nbsp;完善的缉拿空报警机制</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "337a737a72b26e32ee304d74f637cbaab64b0a1ae4cf5931841adefadfbc9b43",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/隔离目标和原则.html"
+      }
+    },
+    {
+      "id": "c72ede32-48d2-40ce-86e4-feae1a07eca0",
+      "note_id": "a3463cbd-021b-4f53-9b8e-56fbc2479353",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.215463Z",
+      "content": "---\ntitle: 隔离目标和原则\nupdated: 2013-07-13 02:48:43Z\ncreated: 2013-07-13 02:15:16Z\n---\n\n隔离目标和原则\n\n保证异常出现时影响范围可控\n     按主要介入方隔离\n     按业务隔离\n     按功能核心成都隔离\n隔离方式\n     物理隔离·逻辑隔离\n     读写隔离\n保证SLA的措施\n     所有的地方加\n超时。\n     谨慎的重试。异常情况下读重试可能将情况更加恶化，写情况下\n     容量规划\n          每季度至少一次例行评估\n          重大活动前容量评估\n          监控系统黄色预警\n          日常情况下30%冗余\n          资源或者系统构架调整时需要重点关注\n     failover策略\n          服务降级：保证核心功能\n          快速失败：保证不卡死\n          流量限制：保证正常请求\n构建稳定的系统-容灾预案\n     IDC容灾\n     限流\n     降级    \n     紧急快速扩容\n线上异常演练\n     模拟各种异常的情况出现，我们曾经做过的failure design是否都是正常的，出现的各种异常都是有补救措施的。\n新浪自有演练系统的介绍\n     引流线上真是流量\n     异常场景搭建和模拟\n     预案预演\n     验证系统\n     \n      引流线上真实流量\n     通过tcpcopy引流到演练服务器。使用linux tc模拟依赖资源或者服务出现异常的场景。\n     箭扣字节码形式注入sleep代码模拟接口慢的场景。\n验证手段\n     页面中4xx 5xx的比例\n     响应时间是否在正常范围内\n     是否满足sla的要求\n     返回包的大小\n     日志分析\n注意事项\n     避免copy上行接口流量导致写请求被多次处理\n     避免对后端造成很大压力\n     避免写花缓存数据\n     尽量选择在地方和工程师在场的时间段进行演练\n     完善的缉拿空报警机制",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 914,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e89a71a6-f6ab-4ca6-b96a-3482c82621a2",
+    "note_id": "a3463cbd-021b-4f53-9b8e-56fbc2479353",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.215468Z",
+    "finished_at": "2025-11-09T20:05:17.215468Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d46299a2-555c-4887-8da9-d8d11a445536",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/隔离目标和原则.html",
+      "checksum": "337a737a72b26e32ee304d74f637cbaab64b0a1ae4cf5931841adefadfbc9b43"
+    },
+    "output_ref": {
+      "ingest_source": "23e74bc0-60c8-43cc-ad8e-386391907db3",
+      "note": "a3463cbd-021b-4f53-9b8e-56fbc2479353",
+      "variants": [
+        "710cd90a-f2a7-4b54-a223-3fcd4547453e",
+        "c72ede32-48d2-40ce-86e4-feae1a07eca0"
+      ]
+    },
+    "error_detail": null
+  }
+}

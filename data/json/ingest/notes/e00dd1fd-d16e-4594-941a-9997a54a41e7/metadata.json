@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7643d7ba-e89a-468d-adb4-97986eb3fbab",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/VEmjPX7P6aFkdIHC.html",
+    "collected_at": "2025-11-09T20:05:15.719556Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6d02deabb530defd44f7e931404cb1d29a005c71ae3acaa8fef02bf6ee55394c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e00dd1fd-d16e-4594-941a-9997a54a41e7",
+    "ingest_source_id": "7643d7ba-e89a-468d-adb4-97986eb3fbab",
+    "canonical_title": "VEmjPX7P6aFkdIHC",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.719561Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "VEmjPX7P6aFkdIHC.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f801cbdb-10ba-4fb5-82a0-398cba9a2ea6",
+      "note_id": "e00dd1fd-d16e-4594-941a-9997a54a41e7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.719563Z",
+      "content": "---\ntitle: VEmjPX7P6aFkdIHC\nupdated: 2020-01-15 09:50:13Z\ncreated: 2020-01-15 09:50:13Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>VEmjPX7P6aFkdIHC</div>\n<div><br/></div>\n<div><span>pi</span> 树莓派密码</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6d02deabb530defd44f7e931404cb1d29a005c71ae3acaa8fef02bf6ee55394c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/VEmjPX7P6aFkdIHC.html"
+      }
+    },
+    {
+      "id": "a7ecf817-90fe-4534-a353-db9f38e321f0",
+      "note_id": "e00dd1fd-d16e-4594-941a-9997a54a41e7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.719566Z",
+      "content": "---\ntitle: VEmjPX7P6aFkdIHC\nupdated: 2020-01-15 09:50:13Z\ncreated: 2020-01-15 09:50:13Z\nauthor: tangyongfeng@gmail.com\n---\n\nVEmjPX7P6aFkdIHC\n\npi\n 树莓派密码",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 151,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "bc77b7b1-f28a-4316-9428-c6327a1a3ac5",
+    "note_id": "e00dd1fd-d16e-4594-941a-9997a54a41e7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.719571Z",
+    "finished_at": "2025-11-09T20:05:15.719571Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2d1eab0a-3b44-47a8-a8db-45a5e3880a9c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/VEmjPX7P6aFkdIHC.html",
+      "checksum": "6d02deabb530defd44f7e931404cb1d29a005c71ae3acaa8fef02bf6ee55394c"
+    },
+    "output_ref": {
+      "ingest_source": "7643d7ba-e89a-468d-adb4-97986eb3fbab",
+      "note": "e00dd1fd-d16e-4594-941a-9997a54a41e7",
+      "variants": [
+        "f801cbdb-10ba-4fb5-82a0-398cba9a2ea6",
+        "a7ecf817-90fe-4534-a353-db9f38e321f0"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "21f2f1f6-3fdc-41b6-99d4-63872808b481",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/SanJose购物.html",
+    "collected_at": "2025-11-09T20:05:15.687791Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fe4fcd50c7735d9acbdfcc805659847a56f2895878809b264dc9a737763e34d0",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0bfa30f5-b6f6-449d-b0c0-125f8243315e",
+    "ingest_source_id": "21f2f1f6-3fdc-41b6-99d4-63872808b481",
+    "canonical_title": "SanJose购物",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.687795Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "SanJose购物.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "443f1873-98fd-4fff-ad8d-cc28a9275e4e",
+      "note_id": "0bfa30f5-b6f6-449d-b0c0-125f8243315e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.687798Z",
+      "content": "---\ntitle: SanJose购物\nupdated: 2012-12-27 08:12:03Z\ncreated: 2012-12-27 07:36:51Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>Macy&apos;s &nbsp; 2801 Stevens Creek Blvd,Santa Clara CA</div>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kiehl&apos;s &nbsp;\n<div>Nordstrom, Forest Avenue, San Jose, Santa Clara, CA, United States</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Long Champ</div><div>BestBuy</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Kindle</div><div><br/></div><div>681 Leavesley Road #175 Gilroy, CA 95020&nbsp;Gilroy Premium Outlets</div><div><br/></div><div>Coach, 234 Great Mall Drive, Milpitas, CA 95035</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fe4fcd50c7735d9acbdfcc805659847a56f2895878809b264dc9a737763e34d0",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/SanJose购物.html"
+      }
+    },
+    {
+      "id": "a949022d-bc3d-433a-ac90-780def5bcd01",
+      "note_id": "0bfa30f5-b6f6-449d-b0c0-125f8243315e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.687801Z",
+      "content": "---\ntitle: SanJose购物\nupdated: 2012-12-27 08:12:03Z\ncreated: 2012-12-27 07:36:51Z\n---\n\nMacy's   2801 Stevens Creek Blvd,Santa Clara CA\n\n              Kiehl's  \n\nNordstrom, Forest Avenue, San Jose, Santa Clara, CA, United States\n              Long Champ\nBestBuy\n            Kindle\n681 Leavesley Road #175 Gilroy, CA 95020 Gilroy Premium Outlets\nCoach, 234 Great Mall Drive, Milpitas, CA 95035",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 390,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d8deeaa3-9c1e-4ff3-aaa3-befbbdd561b9",
+    "note_id": "0bfa30f5-b6f6-449d-b0c0-125f8243315e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.687806Z",
+    "finished_at": "2025-11-09T20:05:15.687807Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "819ec873-b557-4b05-b5fd-7931db2b8f6f",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/SanJose购物.html",
+      "checksum": "fe4fcd50c7735d9acbdfcc805659847a56f2895878809b264dc9a737763e34d0"
+    },
+    "output_ref": {
+      "ingest_source": "21f2f1f6-3fdc-41b6-99d4-63872808b481",
+      "note": "0bfa30f5-b6f6-449d-b0c0-125f8243315e",
+      "variants": [
+        "443f1873-98fd-4fff-ad8d-cc28a9275e4e",
+        "a949022d-bc3d-433a-ac90-780def5bcd01"
+      ]
+    },
+    "error_detail": null
+  }
+}

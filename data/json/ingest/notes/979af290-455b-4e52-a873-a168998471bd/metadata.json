@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a3d7c007-a6b1-4246-84f9-e13347902886",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/驾照邮寄单号.html",
+    "collected_at": "2025-11-09T20:05:16.814928Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d3ecd73cf906a5c7020eb17cfc510e88decc14d5e66b13d8fa3ebb8045055976",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "979af290-455b-4e52-a873-a168998471bd",
+    "ingest_source_id": "a3d7c007-a6b1-4246-84f9-e13347902886",
+    "canonical_title": "驾照邮寄单号",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.814932Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "驾照邮寄单号.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "acf56f0b-4262-4e26-a0fc-cd768935c8b5",
+      "note_id": "979af290-455b-4e52-a873-a168998471bd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.814935Z",
+      "content": "---\ntitle: 驾照邮寄单号\nupdated: 2020-12-12 10:32:58Z\ncreated: 2020-12-12 10:32:27Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"color: rgb(50, 50, 50); font-family: Delivery, Verdana, sans-serif; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">9381668671</span></div><div><span STYLE=\"color: rgb(50, 50, 50); font-family: Delivery, Verdana, sans-serif; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"><br/></span></div><div><span STYLE=\"color: rgb(50, 50, 50); font-family: Delivery, Verdana, sans-serif; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"><br/></span></div><div><span STYLE=\"color: rgb(50, 50, 50); font-family: Delivery, Verdana, sans-serif; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"><br/></span></div><div STYLE=\"orphans: 2; widows: 2; \"><font FACE=\"Delivery, Verdana, sans-serif\" STYLE=\"color: rgb(8, 8, 8); --inversion-type-color: simple;\"><span STYLE=\"caret-color: rgb(247, 247, 247);\">收件人，李梅</span></font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d3ecd73cf906a5c7020eb17cfc510e88decc14d5e66b13d8fa3ebb8045055976",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/驾照邮寄单号.html"
+      }
+    },
+    {
+      "id": "4b37fda6-10bb-4ff9-a85d-eeac59ca0615",
+      "note_id": "979af290-455b-4e52-a873-a168998471bd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.814938Z",
+      "content": "---\ntitle: 驾照邮寄单号\nupdated: 2020-12-12 10:32:58Z\ncreated: 2020-12-12 10:32:27Z\nauthor: tangyongfeng@gmail.com\n---\n\n9381668671\n收件人，李梅",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 131,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8cad6e31-dd96-43c9-9046-ab32be301078",
+    "note_id": "979af290-455b-4e52-a873-a168998471bd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.814943Z",
+    "finished_at": "2025-11-09T20:05:16.814944Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "97457793-0737-402c-92b8-d17ca2f5afc7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/驾照邮寄单号.html",
+      "checksum": "d3ecd73cf906a5c7020eb17cfc510e88decc14d5e66b13d8fa3ebb8045055976"
+    },
+    "output_ref": {
+      "ingest_source": "a3d7c007-a6b1-4246-84f9-e13347902886",
+      "note": "979af290-455b-4e52-a873-a168998471bd",
+      "variants": [
+        "acf56f0b-4262-4e26-a0fc-cd768935c8b5",
+        "4b37fda6-10bb-4ff9-a85d-eeac59ca0615"
+      ]
+    },
+    "error_detail": null
+  }
+}

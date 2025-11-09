@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b199e297-541a-41ed-bedc-353628798a81",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/PBM知识点.html",
+    "collected_at": "2025-11-09T20:05:16.880467Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "ffd894399f2d5b3d7d2650e8fb6d9bb2b88f7f434733e94372790452a466f392",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "d1e869cd-d16f-4fc7-85ba-cd437e33400f",
+    "ingest_source_id": "b199e297-541a-41ed-bedc-353628798a81",
+    "canonical_title": "PBM知识点",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.880471Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "PBM知识点.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8148d28a-f2b3-49ea-918f-f463fc59ed84",
+      "note_id": "d1e869cd-d16f-4fc7-85ba-cd437e33400f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.880474Z",
+      "content": "---\ntitle: PBM知识点\nupdated: 2013-06-04 01:19:38Z\ncreated: 2013-06-04 01:05:10Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nwatson使用hadoop技术，没有很高的壁垒。\n<div>当前卫生部在全国大力推广临床路径诊疗方案，详细的内容就规定和固化了诊疗的手段和检查方式，根据不同的疾病将检查和处方的方向规范化下来。</div><div>路径框架完全可以为我们所用。可以使用hadoop不断的完善框架的内容。药典代码和疾病代码是主要匹配词。疾病代码卫生部有规范的代码，公开下载。</div><div>据说北大医院还是北大人民医院在这方面的做的非常好，他们根据自己的诊疗经验找外部的软件公司开发了对应的软件。很好的按照临床路径的方式对外诊疗。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ffd894399f2d5b3d7d2650e8fb6d9bb2b88f7f434733e94372790452a466f392",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/PBM知识点.html"
+      }
+    },
+    {
+      "id": "0d855873-af6e-43cd-9c62-ebb791907db7",
+      "note_id": "d1e869cd-d16f-4fc7-85ba-cd437e33400f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.880476Z",
+      "content": "---\ntitle: PBM知识点\nupdated: 2013-06-04 01:19:38Z\ncreated: 2013-06-04 01:05:10Z\n---\n\nwatson使用hadoop技术，没有很高的壁垒。\n\n当前卫生部在全国大力推广临床路径诊疗方案，详细的内容就规定和固化了诊疗的手段和检查方式，根据不同的疾病将检查和处方的方向规范化下来。\n路径框架完全可以为我们所用。可以使用hadoop不断的完善框架的内容。药典代码和疾病代码是主要匹配词。疾病代码卫生部有规范的代码，公开下载。\n据说北大医院还是北大人民医院在这方面的做的非常好，他们根据自己的诊疗经验找外部的软件公司开发了对应的软件。很好的按照临床路径的方式对外诊疗。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 318,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "41c6e07e-fc56-45f9-ba97-4e4e3b8f52ec",
+    "note_id": "d1e869cd-d16f-4fc7-85ba-cd437e33400f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.880481Z",
+    "finished_at": "2025-11-09T20:05:16.880481Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "11dc0cac-a69e-4bff-ac81-95a3a1d7454c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/PBM知识点.html",
+      "checksum": "ffd894399f2d5b3d7d2650e8fb6d9bb2b88f7f434733e94372790452a466f392"
+    },
+    "output_ref": {
+      "ingest_source": "b199e297-541a-41ed-bedc-353628798a81",
+      "note": "d1e869cd-d16f-4fc7-85ba-cd437e33400f",
+      "variants": [
+        "8148d28a-f2b3-49ea-918f-f463fc59ed84",
+        "0d855873-af6e-43cd-9c62-ebb791907db7"
+      ]
+    },
+    "error_detail": null
+  }
+}

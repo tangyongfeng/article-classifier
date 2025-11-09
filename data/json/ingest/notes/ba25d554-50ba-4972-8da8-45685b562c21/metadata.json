@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "aaceefd2-e6d4-4590-ae3e-1a72d11c451f",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/基于小波变换的方法预测未来6天的收盘价.html",
+    "collected_at": "2025-11-09T20:05:18.611356Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "59d76788696319753a4faa615713f674351357afd28ab3ac98e1c60bdf84456e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ba25d554-50ba-4972-8da8-45685b562c21",
+    "ingest_source_id": "aaceefd2-e6d4-4590-ae3e-1a72d11c451f",
+    "canonical_title": "基于小波变换的方法预测未来6天的收盘价",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.611360Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "基于小波变换的方法预测未来6天的收盘价.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "95c4bed0-881d-4d58-b666-dc24da30da2a",
+      "note_id": "ba25d554-50ba-4972-8da8-45685b562c21",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.611362Z",
+      "content": "---\ntitle: 基于小波变换的方法预测未来6天的收盘价\nupdated: 2021-07-06 19:30:18Z\ncreated: 2021-07-06 19:29:32Z\n---\n\n\n<en-note></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "59d76788696319753a4faa615713f674351357afd28ab3ac98e1c60bdf84456e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/基于小波变换的方法预测未来6天的收盘价.html"
+      }
+    },
+    {
+      "id": "579c9541-fa27-4cc2-bb0e-7aa44f5e42af",
+      "note_id": "ba25d554-50ba-4972-8da8-45685b562c21",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.611365Z",
+      "content": "---\ntitle: 基于小波变换的方法预测未来6天的收盘价\nupdated: 2021-07-06 19:30:18Z\ncreated: 2021-07-06 19:29:32Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 94,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "baae56a2-0ff7-476b-a86e-0c5f01df3067",
+    "note_id": "ba25d554-50ba-4972-8da8-45685b562c21",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.611370Z",
+    "finished_at": "2025-11-09T20:05:18.611370Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0a32f311-7a2c-4274-9ef4-f79d91b56bf5",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/基于小波变换的方法预测未来6天的收盘价.html",
+      "checksum": "59d76788696319753a4faa615713f674351357afd28ab3ac98e1c60bdf84456e"
+    },
+    "output_ref": {
+      "ingest_source": "aaceefd2-e6d4-4590-ae3e-1a72d11c451f",
+      "note": "ba25d554-50ba-4972-8da8-45685b562c21",
+      "variants": [
+        "95c4bed0-881d-4d58-b666-dc24da30da2a",
+        "579c9541-fa27-4cc2-bb0e-7aa44f5e42af"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "239a84d2-b656-4725-9189-22dd5321d08b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/乐视网.html",
+    "collected_at": "2025-11-09T20:05:18.494573Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "7dd6d23857fc7e1fa4803a93f91317bc19949240cf4a17a5d5564de4ce715bf5",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "810fc367-c6c9-4edb-97e5-a307547ba39f",
+    "ingest_source_id": "239a84d2-b656-4725-9189-22dd5321d08b",
+    "canonical_title": "乐视网",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:18.494578Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "乐视网.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9fb2e037-b277-427c-ae51-1d4da78e5bc9",
+      "note_id": "810fc367-c6c9-4edb-97e5-a307547ba39f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.494581Z",
+      "content": "---\ntitle: 乐视网\nupdated: 2013-09-11 04:53:33Z\ncreated: 2013-09-11 04:49:39Z\ntags:\n  - 金梓\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>8月26日是最后一个交易日。</div><div><br/></div>\n9/11 &nbsp;生产乐视盒子等机顶盒的公司。今天公司停牌，总股本7亿9846万。今日停牌的原因传说是因为要收购六间房。\n<div>&nbsp; &nbsp; &nbsp;乐视之前投资了《小时代》</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7dd6d23857fc7e1fa4803a93f91317bc19949240cf4a17a5d5564de4ce715bf5",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/乐视网.html"
+      }
+    },
+    {
+      "id": "9affed2f-847d-491f-b64c-d60110d52973",
+      "note_id": "810fc367-c6c9-4edb-97e5-a307547ba39f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.494584Z",
+      "content": "---\ntitle: 乐视网\nupdated: 2013-09-11 04:53:33Z\ncreated: 2013-09-11 04:49:39Z\ntags:\n  - 金梓\n---\n\n8月26日是最后一个交易日。\n\n9/11  生产乐视盒子等机顶盒的公司。今天公司停牌，总股本7亿9846万。今日停牌的原因传说是因为要收购六间房。\n\n     乐视之前投资了《小时代》",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 185,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0ca8f51e-7191-4266-87be-3dc898213745",
+    "note_id": "810fc367-c6c9-4edb-97e5-a307547ba39f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.494589Z",
+    "finished_at": "2025-11-09T20:05:18.494589Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7dd55627-7360-4332-afd1-23c4b870420c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/乐视网.html",
+      "checksum": "7dd6d23857fc7e1fa4803a93f91317bc19949240cf4a17a5d5564de4ce715bf5"
+    },
+    "output_ref": {
+      "ingest_source": "239a84d2-b656-4725-9189-22dd5321d08b",
+      "note": "810fc367-c6c9-4edb-97e5-a307547ba39f",
+      "variants": [
+        "9fb2e037-b277-427c-ae51-1d4da78e5bc9",
+        "9affed2f-847d-491f-b64c-d60110d52973"
+      ]
+    },
+    "error_detail": null
+  }
+}

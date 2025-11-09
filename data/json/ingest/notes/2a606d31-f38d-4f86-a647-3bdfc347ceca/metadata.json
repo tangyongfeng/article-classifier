@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "057dcdd4-67be-4f0d-91c1-05407cfa3f05",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/莱宝高科.html",
+    "collected_at": "2025-11-09T20:01:39.639251Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7d9c87734262f55f2053706038b703c95d7923dd3a5c5c3ada78660557739795",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "2a606d31-f38d-4f86-a647-3bdfc347ceca",
+    "ingest_source_id": "057dcdd4-67be-4f0d-91c1-05407cfa3f05",
+    "canonical_title": "莱宝高科",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.639255Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "莱宝高科.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8cd64609-809d-417b-a115-38720b497c70",
+      "note_id": "2a606d31-f38d-4f86-a647-3bdfc347ceca",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.639258Z",
+      "content": "---\ntitle: 莱宝高科\nupdated: 2013-09-26 09:31:44Z\ncreated: 2013-09-26 09:31:44Z\ntags:\n  - 盈利率0\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7d9c87734262f55f2053706038b703c95d7923dd3a5c5c3ada78660557739795",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/莱宝高科.html"
+      }
+    },
+    {
+      "id": "cde8ab54-f4fa-4806-be33-844415f8caea",
+      "note_id": "2a606d31-f38d-4f86-a647-3bdfc347ceca",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.639261Z",
+      "content": "---\ntitle: 莱宝高科\nupdated: 2013-09-26 09:31:44Z\ncreated: 2013-09-26 09:31:44Z\ntags:\n  - 盈利率0\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 94,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6eafb3fd-89ec-4cfd-912f-0f1567c94546",
+    "note_id": "2a606d31-f38d-4f86-a647-3bdfc347ceca",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.639266Z",
+    "finished_at": "2025-11-09T20:01:39.639266Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d3bab0f1-617f-4991-9edc-1330c34e2de1",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/莱宝高科.html",
+      "checksum": "7d9c87734262f55f2053706038b703c95d7923dd3a5c5c3ada78660557739795"
+    },
+    "output_ref": {
+      "ingest_source": "057dcdd4-67be-4f0d-91c1-05407cfa3f05",
+      "note": "2a606d31-f38d-4f86-a647-3bdfc347ceca",
+      "variants": [
+        "8cd64609-809d-417b-a115-38720b497c70",
+        "cde8ab54-f4fa-4806-be33-844415f8caea"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,46 @@
+---
+title: mac地址查询
+updated: 2018-11-10 04:07:58Z
+created: 2018-11-10 04:07:44Z
+author: tangyongfeng@gmail.com
+tags:
+  - Wi-Fi
+---
+
+什么是随机MAC地址
+手机厂商为完善手机安全机制，避免被追踪和泄露隐私，在未连接AP时，暴露出来的MAC地址非本机真实的MAC地址，而是随机发出的大量非真实MAC地址 。
+ 
+随机MAC地址样式
+大多数移动设备的伪MAC策略，将LocalBit位置成1；
+有部分苹果设备在没有连接到WiFi热点的时候，使用全Mac地址空间的任意地址来发射。
+ 
+哪些设备已经MAC随机化
+据不完全统计，苹果iOS9以上系统已经将MAC地址随机化，小部分安卓手机设备也实现随机化。
+MAC地址厂商查看工具
+请注意在输入MAC地址时，MAC地址没有字母O只有数字0
+。
+IEEE机构MAC网页查询
+网址：
+https://regauth
+.
+standards.ieee.org/standards-ra-web/pub/view.html#registries
+IEEE全部厂商列表
+网址：
+http://standards-oui
+.
+ieee.org/oui/oui.txt
+A
+TOOL在线工具
+网址：
+http://www
+.
+atool.org/mac.php
+MAC地址查询网址
+http://www.macdizhi.com/
+coffer
+http://www.coffer.com/mac_find/
+hwaddress
+https://hwaddress.com/
+macvendors
+https://macvendors.com/
+以上均为电脑网页版本，国内MAC查询的网站较少，有质量的网站不超过5家。外国MAC查询较多，可在百度输入关键词“MAC Address Lookup and Search”可找到大量查询网站。

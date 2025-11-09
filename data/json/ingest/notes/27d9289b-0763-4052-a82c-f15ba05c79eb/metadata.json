@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "57fdd21d-ea45-4474-ace7-460e0bee76fc",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/阅读笔记.html",
+    "collected_at": "2025-11-09T20:05:17.433386Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f36677679b96c5ffc0fe80c0ba62caf2b2b5df3b6847e1b4e05700953b5cf874",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "27d9289b-0763-4052-a82c-f15ba05c79eb",
+    "ingest_source_id": "57fdd21d-ea45-4474-ace7-460e0bee76fc",
+    "canonical_title": "阅读笔记",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.433390Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "阅读笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4780bfc7-d0ce-4110-98af-112262aa09dd",
+      "note_id": "27d9289b-0763-4052-a82c-f15ba05c79eb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.433393Z",
+      "content": "---\ntitle: 阅读笔记\nupdated: 2014-03-05 07:23:45Z\ncreated: 2014-03-05 07:11:25Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"http://www.bioon.com/industry/reviews/591686_3.shtml\">http://www.bioon.com/industry/reviews/591686_3.shtml</a>&nbsp;邵总推荐文章\n<div><br/></div><div>春雨医疗<br/><div>0.远程电子通信医疗咨询的风险非常大。</div><div>1.付费医疗咨询存在法律和制度的灰色地带，不可贸然尝试。</div><div>2.现在医患问题导致双方的信任度非常低，这在很长时间上会阻碍付费咨询</div><div>3.自诊、问诊、导诊 这三个模式都是深度介入医疗的，这会遇到巨大的医疗阻力。此逆势而为行为不可取，要么做不大，做大以后很有可能从根本上被釜底抽薪。</div></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f36677679b96c5ffc0fe80c0ba62caf2b2b5df3b6847e1b4e05700953b5cf874",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/阅读笔记.html"
+      }
+    },
+    {
+      "id": "9a2c3198-4024-4f7e-871e-610375e17f44",
+      "note_id": "27d9289b-0763-4052-a82c-f15ba05c79eb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.433396Z",
+      "content": "---\ntitle: 阅读笔记\nupdated: 2014-03-05 07:23:45Z\ncreated: 2014-03-05 07:11:25Z\n---\n\nhttp://www.bioon.com/industry/reviews/591686_3.shtml\n 邵总推荐文章\n\n春雨医疗\n0.远程电子通信医疗咨询的风险非常大。\n1.付费医疗咨询存在法律和制度的灰色地带，不可贸然尝试。\n2.现在医患问题导致双方的信任度非常低，这在很长时间上会阻碍付费咨询\n3.自诊、问诊、导诊 这三个模式都是深度介入医疗的，这会遇到巨大的医疗阻力。此逆势而为行为不可取，要么做不大，做大以后很有可能从根本上被釜底抽薪。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 305,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e171ce12-f55f-47c2-a789-39500895bb39",
+    "note_id": "27d9289b-0763-4052-a82c-f15ba05c79eb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.433401Z",
+    "finished_at": "2025-11-09T20:05:17.433402Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "32dd8396-be67-486e-826d-8568ada0afdd",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/阅读笔记.html",
+      "checksum": "f36677679b96c5ffc0fe80c0ba62caf2b2b5df3b6847e1b4e05700953b5cf874"
+    },
+    "output_ref": {
+      "ingest_source": "57fdd21d-ea45-4474-ace7-460e0bee76fc",
+      "note": "27d9289b-0763-4052-a82c-f15ba05c79eb",
+      "variants": [
+        "4780bfc7-d0ce-4110-98af-112262aa09dd",
+        "9a2c3198-4024-4f7e-871e-610375e17f44"
+      ]
+    },
+    "error_detail": null
+  }
+}

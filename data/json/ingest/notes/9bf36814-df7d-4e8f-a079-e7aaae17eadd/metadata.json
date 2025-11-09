@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "97373c18-43c5-493e-a2fd-568a73dc4475",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/衣服.html",
+    "collected_at": "2025-11-09T20:05:18.329213Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "91c5635701aeba401e859d4a78528393f8007db2b8aff330283a3dbee0330b93",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "9bf36814-df7d-4e8f-a079-e7aaae17eadd",
+    "ingest_source_id": "97373c18-43c5-493e-a2fd-568a73dc4475",
+    "canonical_title": "衣服",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.329217Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "衣服.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "663e0d8b-5bdb-43b8-8a24-8d98caecc3d1",
+      "note_id": "9bf36814-df7d-4e8f-a079-e7aaae17eadd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.329219Z",
+      "content": "---\ntitle: 衣服\nupdated: 2020-03-06 12:09:00Z\ncreated: 2020-03-06 12:06:42Z\n---\n\n\n\n<en-note><div>Pullover</div><div>bluse</div><div>hemd&nbsp;</div><div>mantel</div><div>jacke</div><div>rock</div><div>krawatte&nbsp;</div><div>schuhe</div><div>hut</div><div>m&uuml;tze</div><div>str&uuml;mpfe</div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "91c5635701aeba401e859d4a78528393f8007db2b8aff330283a3dbee0330b93",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/衣服.html"
+      }
+    },
+    {
+      "id": "c0349a17-d030-4448-b018-a107f0a54d4c",
+      "note_id": "9bf36814-df7d-4e8f-a079-e7aaae17eadd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.329222Z",
+      "content": "---\ntitle: 衣服\nupdated: 2020-03-06 12:09:00Z\ncreated: 2020-03-06 12:06:42Z\n---\n\nPullover\nbluse\nhemd \nmantel\njacke\nrock\nkrawatte \nschuhe\nhut\nmütze\nstrümpfe",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 153,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "42512324-b639-456f-aff4-79372349cc49",
+    "note_id": "9bf36814-df7d-4e8f-a079-e7aaae17eadd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.329226Z",
+    "finished_at": "2025-11-09T20:05:18.329227Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "07615683-f36f-4b12-a2f7-4c108fb5d381",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/衣服.html",
+      "checksum": "91c5635701aeba401e859d4a78528393f8007db2b8aff330283a3dbee0330b93"
+    },
+    "output_ref": {
+      "ingest_source": "97373c18-43c5-493e-a2fd-568a73dc4475",
+      "note": "9bf36814-df7d-4e8f-a079-e7aaae17eadd",
+      "variants": [
+        "663e0d8b-5bdb-43b8-8a24-8d98caecc3d1",
+        "c0349a17-d030-4448-b018-a107f0a54d4c"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "516b348b-fe31-4c26-9acf-29e063caab5a",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/诊疗.html",
+    "collected_at": "2025-11-09T20:05:17.427300Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "41d46a73dfec37fca5fe1734edee1ca90f756ecd74f8010c7f69046b39a8d280",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4edaa23d-0c6e-40ab-859a-699c43ea773d",
+    "ingest_source_id": "516b348b-fe31-4c26-9acf-29e063caab5a",
+    "canonical_title": "诊疗",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.427305Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "诊疗.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4aff35bd-5171-4ecc-b51d-1fc2b0dbfb97",
+      "note_id": "4edaa23d-0c6e-40ab-859a-699c43ea773d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.427308Z",
+      "content": "---\ntitle: 诊疗\nupdated: 2014-02-18 07:16:44Z\ncreated: 2014-02-18 07:04:17Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、开处方（附带药品名录计量时间价格）\n<div>2、静脉滴注治疗（药品名录、计量、时间、价格、组合），添加是否需要护理标记。</div><div>3、肌肉注射 （药品名录、计量、时间、价格、组合），添加是否需要护理标记。</div><div>4、器械治疗（器械名称，治疗方式），添加是否需要护理标记。</div><div>5、监测单据（血压、血糖、心脏、体温、脉搏、呼吸、血氧），添加是否需要护理标记。</div><div>6、检验单据（血、尿、大便等等）</div><div>7、观察单据 （等等）</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "41d46a73dfec37fca5fe1734edee1ca90f756ecd74f8010c7f69046b39a8d280",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/诊疗.html"
+      }
+    },
+    {
+      "id": "e9400c02-6c7e-4c8b-a628-912825a4e4d9",
+      "note_id": "4edaa23d-0c6e-40ab-859a-699c43ea773d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.427311Z",
+      "content": "---\ntitle: 诊疗\nupdated: 2014-02-18 07:16:44Z\ncreated: 2014-02-18 07:04:17Z\n---\n\n1、开处方（附带药品名录计量时间价格）\n\n2、静脉滴注治疗（药品名录、计量、时间、价格、组合），添加是否需要护理标记。\n3、肌肉注射 （药品名录、计量、时间、价格、组合），添加是否需要护理标记。\n4、器械治疗（器械名称，治疗方式），添加是否需要护理标记。\n5、监测单据（血压、血糖、心脏、体温、脉搏、呼吸、血氧），添加是否需要护理标记。\n6、检验单据（血、尿、大便等等）\n7、观察单据 （等等）",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 276,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "41aff42a-a854-4708-89eb-527cfa6e123d",
+    "note_id": "4edaa23d-0c6e-40ab-859a-699c43ea773d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.427316Z",
+    "finished_at": "2025-11-09T20:05:17.427316Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "84ceb11a-587c-45b2-902d-c03c225e52e7",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/诊疗.html",
+      "checksum": "41d46a73dfec37fca5fe1734edee1ca90f756ecd74f8010c7f69046b39a8d280"
+    },
+    "output_ref": {
+      "ingest_source": "516b348b-fe31-4c26-9acf-29e063caab5a",
+      "note": "4edaa23d-0c6e-40ab-859a-699c43ea773d",
+      "variants": [
+        "4aff35bd-5171-4ecc-b51d-1fc2b0dbfb97",
+        "e9400c02-6c7e-4c8b-a628-912825a4e4d9"
+      ]
+    },
+    "error_detail": null
+  }
+}

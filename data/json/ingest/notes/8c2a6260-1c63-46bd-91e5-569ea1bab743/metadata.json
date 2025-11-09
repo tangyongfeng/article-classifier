@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d676d07b-712f-447a-9e31-3b162aa63be4",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/小可儿书包笔记.html",
+    "collected_at": "2025-11-09T20:05:16.160985Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e79b70593d753dbd5dd92ace857a2016d939cc65b0e17a55ae69f94eb1a28e28",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8c2a6260-1c63-46bd-91e5-569ea1bab743",
+    "ingest_source_id": "d676d07b-712f-447a-9e31-3b162aa63be4",
+    "canonical_title": "小可儿书包笔记",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.160988Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "小可儿书包笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7de78635-6dfe-4419-bd8e-5807e80fcee2",
+      "note_id": "8c2a6260-1c63-46bd-91e5-569ea1bab743",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.160991Z",
+      "content": "---\ntitle: 小可儿书包笔记\nupdated: 2020-01-31 15:02:47Z\ncreated: 2020-01-31 14:44:57Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"font-size: 36px; letter-spacing: 0.3px; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); color: rgb(61, 61, 61); font-family: museo-sans-rounded, adelle, serif; font-variant-caps: normal; font-variant-ligatures: normal; font-weight: bold;\">ergobag cubo 6tlg</span></div><div><img src=\"../_resources/97A17A43-34BB-42A7-AC63-F29F7B61F4EC.tiff\"  hash=\"18aa19e30247cfb715035c91790f9ea2\" type=\"image/tiff\" alt=\"97A17A43-34BB-42A7-AC63-F29F7B61F4EC.tiff\" /></en-media><br/></div><div>亚马逊： 259.00</div><div><a HREF=\"https://www.amazon.de/Ergobag-Special-Schulranzen-Set-6-tlg-StrahleB%C3%A4r/dp/B07587K3Y9/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=ergobag+cubo&qid=1580481697&s=officeproduct&sr=1-9\">https://www.amazon.de/Ergobag-Special-Schulranzen-Set-6-tlg-StrahleB%C3%A4r/dp/B07587K3Y9/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;keywords=ergobag+cubo&amp;qid=1580481697&amp;s=officeproduct&amp;sr=1-9</a></div><div>官网：269.99</div><div><a HREF=\"https://www.ergobag.de/schulrucksaecke/ergobag-cubo/ergobag-cubo-strahlebaer/\">https://www.ergobag.de/schulrucksaecke/ergobag-cubo/ergobag-cubo-strahlebaer/</a></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e79b70593d753dbd5dd92ace857a2016d939cc65b0e17a55ae69f94eb1a28e28",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/小可儿书包笔记.html"
+      }
+    },
+    {
+      "id": "eda9fca6-01e2-455a-9f68-13c16bcea30c",
+      "note_id": "8c2a6260-1c63-46bd-91e5-569ea1bab743",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.160993Z",
+      "content": "---\ntitle: 小可儿书包笔记\nupdated: 2020-01-31 15:02:47Z\ncreated: 2020-01-31 14:44:57Z\nauthor: tangyongfeng@gmail.com\n---\n\nergobag cubo 6tlg\n亚马逊： 259.00\nhttps://www.amazon.de/Ergobag-Special-Schulranzen-Set-6-tlg-StrahleB%C3%A4r/dp/B07587K3Y9/ref=sr_1_9?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=ergobag+cubo&qid=1580481697&s=officeproduct&sr=1-9\n官网：269.99\nhttps://www.ergobag.de/schulrucksaecke/ergobag-cubo/ergobag-cubo-strahlebaer/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 436,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "444e2a2f-fcbd-4a9c-836f-8544be1e415b",
+    "note_id": "8c2a6260-1c63-46bd-91e5-569ea1bab743",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.160998Z",
+    "finished_at": "2025-11-09T20:05:16.160998Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c201a077-aeb3-449f-8f85-6f773527e0c2",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/小可儿书包笔记.html",
+      "checksum": "e79b70593d753dbd5dd92ace857a2016d939cc65b0e17a55ae69f94eb1a28e28"
+    },
+    "output_ref": {
+      "ingest_source": "d676d07b-712f-447a-9e31-3b162aa63be4",
+      "note": "8c2a6260-1c63-46bd-91e5-569ea1bab743",
+      "variants": [
+        "7de78635-6dfe-4419-bd8e-5807e80fcee2",
+        "eda9fca6-01e2-455a-9f68-13c16bcea30c"
+      ]
+    },
+    "error_detail": null
+  }
+}

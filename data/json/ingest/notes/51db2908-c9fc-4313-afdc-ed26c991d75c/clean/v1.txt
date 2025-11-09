@@ -1,0 +1,10 @@
+---
+title: freebsd 删除port make 配置
+updated: 2022-09-14 08:10:09Z
+created: 2017-12-17 10:05:33Z
+author: tangyongfeng
+tags:
+  - freebsd
+---
+
+使用make rmconfig 后再make install 就行了。

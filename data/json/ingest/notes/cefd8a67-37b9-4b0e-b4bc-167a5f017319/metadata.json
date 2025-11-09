@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "897e9e55-fd23-4191-9217-4ecd9a15f4b3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/高铁 加藤嘉一.html",
+    "collected_at": "2025-11-09T20:05:15.553506Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8123d2d692b7d0759864e4666d64fdbbd37e148f77338623d87b5af041e9919b",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "cefd8a67-37b9-4b0e-b4bc-167a5f017319",
+    "ingest_source_id": "897e9e55-fd23-4191-9217-4ecd9a15f4b3",
+    "canonical_title": "高铁 加藤嘉一",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:15.553509Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "高铁 加藤嘉一.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8c79a9b0-0a93-4762-a675-0c55fd157f41",
+      "note_id": "cefd8a67-37b9-4b0e-b4bc-167a5f017319",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.553512Z",
+      "content": "---\ntitle: 高铁 加藤嘉一\nupdated: 2019-01-06 01:37:42Z\ncreated: 2019-01-06 01:37:24Z\n---\n\n\n<en-note><div><a href='../_resources/中科荟智.pdf'  hash=\"4a71c6dbe3535ab0af78855ab7791cac\" type=\"application/pdf\" style=\"width: 320px; height: auto;width: 320px; height: auto;width: 320px; height: auto;\" alt=\"中科荟智.pdf\">  中科荟智.pdf</a></en-media></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8123d2d692b7d0759864e4666d64fdbbd37e148f77338623d87b5af041e9919b",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/高铁 加藤嘉一.html"
+      }
+    },
+    {
+      "id": "7b665379-9dc1-4d63-b820-94d455dd559f",
+      "note_id": "cefd8a67-37b9-4b0e-b4bc-167a5f017319",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.553514Z",
+      "content": "---\ntitle: 高铁 加藤嘉一\nupdated: 2019-01-06 01:37:42Z\ncreated: 2019-01-06 01:37:24Z\n---\n\n  中科荟智.pdf",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 94,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a23bdbce-d2b6-42b5-8070-fcca5daae841",
+    "note_id": "cefd8a67-37b9-4b0e-b4bc-167a5f017319",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.553519Z",
+    "finished_at": "2025-11-09T20:05:15.553519Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4bbce0e6-0053-4953-8663-a3063a585343",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/高铁 加藤嘉一.html",
+      "checksum": "8123d2d692b7d0759864e4666d64fdbbd37e148f77338623d87b5af041e9919b"
+    },
+    "output_ref": {
+      "ingest_source": "897e9e55-fd23-4191-9217-4ecd9a15f4b3",
+      "note": "cefd8a67-37b9-4b0e-b4bc-167a5f017319",
+      "variants": [
+        "8c79a9b0-0a93-4762-a675-0c55fd157f41",
+        "7b665379-9dc1-4d63-b820-94d455dd559f"
+      ]
+    },
+    "error_detail": null
+  }
+}

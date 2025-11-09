@@ -1,0 +1,28 @@
+---
+title: update.cs
+updated: 2013-06-08 07:57:30Z
+created: 2013-06-08 07:57:21Z
+tags:
+  - SQLite
+  - c#
+---
+
+
+
+
+<en-note STYLE="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+db = new SQLiteDatabase();<br/>
+Dictionary&lt;String, String&gt; data = new Dictionary&lt;String, String&gt;();<br/>
+DataTable rows;<br/>
+data.Add(&quot;NAME&quot;, nameTextBox.Text);<br/>
+data.Add(&quot;DESCRIPTION&quot;, descriptionTextBox.Text);<br/>
+data.Add(&quot;PREP_TIME&quot;, prepTimeTextBox.Text);<br/>
+data.Add(&quot;COOKING_TIME&quot;, cookingTimeTextBox.Text);<br/>
+try<br/>
+{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; db.Update(&quot;RECIPE&quot;, data, String.Format(&quot;RECIPE.ID = {0}&quot;, this.RecipeID));<br/>
+}<br/>
+catch(Exception crap)<br/>
+{<br/>
+&nbsp;&nbsp;&nbsp;&nbsp; MessageBox.Show(crap.Message);<br/>
+}<br/><br/></en-note>      

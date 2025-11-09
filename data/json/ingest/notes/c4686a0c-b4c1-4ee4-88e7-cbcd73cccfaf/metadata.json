@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "42374b6c-47af-4f86-94e8-a8aba72d286d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/Google涂鸦.html",
+    "collected_at": "2025-11-09T20:05:19.013298Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "adbf0814145ff95fcd8b8acfe47ba34efbf1d0cb2e9b6e973e9949351ee73071",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c4686a0c-b4c1-4ee4-88e7-cbcd73cccfaf",
+    "ingest_source_id": "42374b6c-47af-4f86-94e8-a8aba72d286d",
+    "canonical_title": "Google涂鸦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:19.013302Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Google涂鸦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "aee334af-51ce-4ceb-8a5d-0d67f39f508d",
+      "note_id": "c4686a0c-b4c1-4ee4-88e7-cbcd73cccfaf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.013304Z",
+      "content": "---\ntitle: Google涂鸦\nupdated: 2021-02-06 22:06:30Z\ncreated: 2021-02-06 22:06:13Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><h3 STYLE=\"color: rgb(0, 0, 0); font-family: Roboto, arial, sans-serif; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\"><span STYLE=\"color: rgb(0, 0, 0); font-family: Roboto, arial, sans-serif; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">Google 用户/公众如何才能提交涂鸦创意？\n</span></h3><div STYLE=\"font-size: 0.9em; line-height: 1.7em; color: rgb(0, 0, 0); font-family: Roboto, arial, sans-serif; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"font-size: 0.9em; line-height: 1.7em; color: rgb(0, 0, 0); font-family: Roboto, arial, sans-serif; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;-en-paragraph:true;\">涂鸦团队总是很乐于收到用户的创意，您可以通过电子邮件将自己的 Google 涂鸦创意发送到 <a HREF=\"mailto:doodleproposals@google.com\">doodleproposals@google.com</a>。该团队每天都会收到数以百计的此类邮件，因此无法一一回复，敬请谅解。不过请放心，我们会认真阅读每封邮件 :)\n</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "adbf0814145ff95fcd8b8acfe47ba34efbf1d0cb2e9b6e973e9949351ee73071",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/Google涂鸦.html"
+      }
+    },
+    {
+      "id": "c93fe32c-7145-4742-b9b0-1231f5fe62d6",
+      "note_id": "c4686a0c-b4c1-4ee4-88e7-cbcd73cccfaf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.013307Z",
+      "content": "---\ntitle: Google涂鸦\nupdated: 2021-02-06 22:06:30Z\ncreated: 2021-02-06 22:06:13Z\nauthor: tangyongfeng@gmail.com\n---\n\nGoogle 用户/公众如何才能提交涂鸦创意？\n\n涂鸦团队总是很乐于收到用户的创意，您可以通过电子邮件将自己的 Google 涂鸦创意发送到\ndoodleproposals@google.com\n。该团队每天都会收到数以百计的此类邮件，因此无法一一回复，敬请谅解。不过请放心，我们会认真阅读每封邮件 :)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 268,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2a4c9772-aa8b-4bc6-adc4-4e7f95508ccf",
+    "note_id": "c4686a0c-b4c1-4ee4-88e7-cbcd73cccfaf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:19.013312Z",
+    "finished_at": "2025-11-09T20:05:19.013312Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8fac7d76-5ef6-4bc6-b8af-b5cd0a2b7cc1",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/Google涂鸦.html",
+      "checksum": "adbf0814145ff95fcd8b8acfe47ba34efbf1d0cb2e9b6e973e9949351ee73071"
+    },
+    "output_ref": {
+      "ingest_source": "42374b6c-47af-4f86-94e8-a8aba72d286d",
+      "note": "c4686a0c-b4c1-4ee4-88e7-cbcd73cccfaf",
+      "variants": [
+        "aee334af-51ce-4ceb-8a5d-0d67f39f508d",
+        "c93fe32c-7145-4742-b9b0-1231f5fe62d6"
+      ]
+    },
+    "error_detail": null
+  }
+}

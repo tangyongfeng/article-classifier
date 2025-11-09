@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ea1b09e1-8e4c-4ee6-95b9-06fb6f877cce",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/红领巾.html",
+    "collected_at": "2025-11-09T20:01:37.438336Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "b88182902b0224bd1e720d59b347aea28315a3ea3622c15e322c69c5ce2614c9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "c183ed05-2158-4701-b2f8-d1f58b6fd6c2",
+    "ingest_source_id": "ea1b09e1-8e4c-4ee6-95b9-06fb6f877cce",
+    "canonical_title": "红领巾",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.438340Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "红领巾.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ac726101-bbd4-4928-b1a4-d1c201fd85b1",
+      "note_id": "c183ed05-2158-4701-b2f8-d1f58b6fd6c2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.438343Z",
+      "content": "---\ntitle: 红领巾\nupdated: 2020-08-27 09:39:00Z\ncreated: 2020-08-27 09:38:20Z\n---\n\n\n\n<en-note><div>des rote Halstuch&nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b88182902b0224bd1e720d59b347aea28315a3ea3622c15e322c69c5ce2614c9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/红领巾.html"
+      }
+    },
+    {
+      "id": "311008c5-bcbe-4202-8405-9eb6962ce44b",
+      "note_id": "c183ed05-2158-4701-b2f8-d1f58b6fd6c2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.438346Z",
+      "content": "---\ntitle: 红领巾\nupdated: 2020-08-27 09:39:00Z\ncreated: 2020-08-27 09:38:20Z\n---\n\ndes rote Halstuch",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 97,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c50168e1-ac8b-4d5a-ab45-8389d5c25e62",
+    "note_id": "c183ed05-2158-4701-b2f8-d1f58b6fd6c2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.438350Z",
+    "finished_at": "2025-11-09T20:01:37.438351Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "93322709-8cf7-43c0-a12b-a02d06695800",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/红领巾.html",
+      "checksum": "b88182902b0224bd1e720d59b347aea28315a3ea3622c15e322c69c5ce2614c9"
+    },
+    "output_ref": {
+      "ingest_source": "ea1b09e1-8e4c-4ee6-95b9-06fb6f877cce",
+      "note": "c183ed05-2158-4701-b2f8-d1f58b6fd6c2",
+      "variants": [
+        "ac726101-bbd4-4928-b1a4-d1c201fd85b1",
+        "311008c5-bcbe-4202-8405-9eb6962ce44b"
+      ]
+    },
+    "error_detail": null
+  }
+}

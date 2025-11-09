@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "580a0a1b-3e88-474f-9652-0286d18d2b85",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/妈妈 招商银行卡号 6225881011957916.html",
+    "collected_at": "2025-11-09T20:01:37.009592Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "98c006bfc9cd6e2b9cf9068afb5995e5fde6b0e14444e9646db81cb8f7b2f896",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "211de93b-8b67-42dc-89c0-74d6d7c4c981",
+    "ingest_source_id": "580a0a1b-3e88-474f-9652-0286d18d2b85",
+    "canonical_title": "妈妈 招商银行卡号 6225881011957916",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.009595Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "妈妈 招商银行卡号 6225881011957916.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "13984b4a-ed3a-4611-8fbf-07bfb2787c37",
+      "note_id": "211de93b-8b67-42dc-89c0-74d6d7c4c981",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.009598Z",
+      "content": "---\ntitle: 妈妈 招商银行卡号 6225881011957916\nupdated: 2013-09-13 02:38:07Z\ncreated: 2013-09-13 02:37:50Z\nsource: https://mail.google.com/mail/u/0/#search/%E5%A6%88%E5%A6%88/122628d8a15ea45e\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\">妈妈 招商银行卡号 6225881011957916</span></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "98c006bfc9cd6e2b9cf9068afb5995e5fde6b0e14444e9646db81cb8f7b2f896",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/妈妈 招商银行卡号 6225881011957916.html"
+      }
+    },
+    {
+      "id": "5a3964de-2e3d-468d-be27-6bcf5f19f67e",
+      "note_id": "211de93b-8b67-42dc-89c0-74d6d7c4c981",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.009601Z",
+      "content": "---\ntitle: 妈妈 招商银行卡号 6225881011957916\nupdated: 2013-09-13 02:38:07Z\ncreated: 2013-09-13 02:37:50Z\nsource: https://mail.google.com/mail/u/0/#search/%E5%A6%88%E5%A6%88/122628d8a15ea45e\n---\n\n妈妈 招商银行卡号 6225881011957916",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 214,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "37eb8fcf-1203-494f-b0b5-69d886ac29b3",
+    "note_id": "211de93b-8b67-42dc-89c0-74d6d7c4c981",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.009605Z",
+    "finished_at": "2025-11-09T20:01:37.009606Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "77400996-fc61-44c1-98ec-e4c31ff564f6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/妈妈 招商银行卡号 6225881011957916.html",
+      "checksum": "98c006bfc9cd6e2b9cf9068afb5995e5fde6b0e14444e9646db81cb8f7b2f896"
+    },
+    "output_ref": {
+      "ingest_source": "580a0a1b-3e88-474f-9652-0286d18d2b85",
+      "note": "211de93b-8b67-42dc-89c0-74d6d7c4c981",
+      "variants": [
+        "13984b4a-ed3a-4611-8fbf-07bfb2787c37",
+        "5a3964de-2e3d-468d-be27-6bcf5f19f67e"
+      ]
+    },
+    "error_detail": null
+  }
+}

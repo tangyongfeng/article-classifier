@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7ab2aef7-dc25-4fcd-9105-318610896953",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Brot ein kaufen.html",
+    "collected_at": "2025-11-09T20:05:18.122455Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "335e9b77f070b4f651e18577e46d00a0b9b1d0a52a813a7aeebaa6f07f89c422",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1b584b05-2a18-4147-af6f-5a90867c6c1c",
+    "ingest_source_id": "7ab2aef7-dc25-4fcd-9105-318610896953",
+    "canonical_title": "Brot ein kaufen",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.122458Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Brot ein kaufen.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "15b91168-56f3-4e1e-bd2d-f7c89e3f021a",
+      "note_id": "1b584b05-2a18-4147-af6f-5a90867c6c1c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.122461Z",
+      "content": "---\ntitle: Brot ein kaufen\nupdated: 2020-09-30 07:45:57Z\ncreated: 2020-09-29 20:25:17Z\n---\n\n\n\n<en-note><div>Die Frau von Programmerer l&auml;sst ihem Mann, Brot einkauft.</div><div>Bevor er ging,sie sagt:wenn Wassermelone seht ,kauft eine.&nbsp;</div><div>Nach eine halb Stunde der Programmerer kommt mit nur ein Brot nach Hause bringt .</div><div>Die Frau fragte ihn : Warum hast du nur ein Brot gekauft?&nbsp;</div><div>Der Programmierer antwortet:du sagst,wenn ich Wassermelone gesehen habe,kaufte eine. Ich habe ja sie gesehen,dann habe ich es nur ein gekauft.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "335e9b77f070b4f651e18577e46d00a0b9b1d0a52a813a7aeebaa6f07f89c422",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Brot ein kaufen.html"
+      }
+    },
+    {
+      "id": "d81f111a-2561-41cf-9d8d-ddeb9558cb3c",
+      "note_id": "1b584b05-2a18-4147-af6f-5a90867c6c1c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.122464Z",
+      "content": "---\ntitle: Brot ein kaufen\nupdated: 2020-09-30 07:45:57Z\ncreated: 2020-09-29 20:25:17Z\n---\n\nDie Frau von Programmerer lässt ihem Mann, Brot einkauft.\nBevor er ging,sie sagt:wenn Wassermelone seht ,kauft eine. \nNach eine halb Stunde der Programmerer kommt mit nur ein Brot nach Hause bringt .\nDie Frau fragte ihn : Warum hast du nur ein Brot gekauft? \nDer Programmierer antwortet:du sagst,wenn ich Wassermelone gesehen habe,kaufte eine. Ich habe ja sie gesehen,dann habe ich es nur ein gekauft.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 493,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ea0c4ccd-64d2-4e86-a83b-6dce05f5f84e",
+    "note_id": "1b584b05-2a18-4147-af6f-5a90867c6c1c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.122468Z",
+    "finished_at": "2025-11-09T20:05:18.122468Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0df05ff4-2cb1-4d02-ab19-e92de290e665",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Brot ein kaufen.html",
+      "checksum": "335e9b77f070b4f651e18577e46d00a0b9b1d0a52a813a7aeebaa6f07f89c422"
+    },
+    "output_ref": {
+      "ingest_source": "7ab2aef7-dc25-4fcd-9105-318610896953",
+      "note": "1b584b05-2a18-4147-af6f-5a90867c6c1c",
+      "variants": [
+        "15b91168-56f3-4e1e-bd2d-f7c89e3f021a",
+        "d81f111a-2561-41cf-9d8d-ddeb9558cb3c"
+      ]
+    },
+    "error_detail": null
+  }
+}

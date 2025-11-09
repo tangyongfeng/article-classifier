@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "48a2ddea-a5d7-438a-b9ca-e73dba14c83c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/update.cs.html",
+    "collected_at": "2025-11-09T20:01:35.151119Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c1d8e0d4ed2c8afafa242844d47500d3d4a80466f886e2bb80db8d4f31b980b6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e286cbeb-af96-4a09-9bc1-ae6bf6a17016",
+    "ingest_source_id": "48a2ddea-a5d7-438a-b9ca-e73dba14c83c",
+    "canonical_title": "update.cs",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.151122Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "update.cs.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a16d9b69-8bda-4c18-9928-2d5fea47677e",
+      "note_id": "e286cbeb-af96-4a09-9bc1-ae6bf6a17016",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.151125Z",
+      "content": "---\ntitle: update.cs\nupdated: 2013-06-08 07:57:30Z\ncreated: 2013-06-08 07:57:21Z\ntags:\n  - SQLite\n  - c#\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\ndb = new SQLiteDatabase();<br/>\nDictionary&lt;String, String&gt; data = new Dictionary&lt;String, String&gt;();<br/>\nDataTable rows;<br/>\ndata.Add(&quot;NAME&quot;, nameTextBox.Text);<br/>\ndata.Add(&quot;DESCRIPTION&quot;, descriptionTextBox.Text);<br/>\ndata.Add(&quot;PREP_TIME&quot;, prepTimeTextBox.Text);<br/>\ndata.Add(&quot;COOKING_TIME&quot;, cookingTimeTextBox.Text);<br/>\ntry<br/>\n{<br/>\n&nbsp;&nbsp;&nbsp;&nbsp; db.Update(&quot;RECIPE&quot;, data, String.Format(&quot;RECIPE.ID = {0}&quot;, this.RecipeID));<br/>\n}<br/>\ncatch(Exception crap)<br/>\n{<br/>\n&nbsp;&nbsp;&nbsp;&nbsp; MessageBox.Show(crap.Message);<br/>\n}<br/><br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c1d8e0d4ed2c8afafa242844d47500d3d4a80466f886e2bb80db8d4f31b980b6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/update.cs.html"
+      }
+    },
+    {
+      "id": "21d41670-a181-4c67-bb49-894b66dbae4f",
+      "note_id": "e286cbeb-af96-4a09-9bc1-ae6bf6a17016",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.151128Z",
+      "content": "---\ntitle: update.cs\nupdated: 2013-06-08 07:57:30Z\ncreated: 2013-06-08 07:57:21Z\ntags:\n  - SQLite\n  - c#\n---\n\ndb = new SQLiteDatabase();\n\nDictionary<String, String> data = new Dictionary<String, String>();\n\nDataTable rows;\n\ndata.Add(\"NAME\", nameTextBox.Text);\n\ndata.Add(\"DESCRIPTION\", descriptionTextBox.Text);\n\ndata.Add(\"PREP_TIME\", prepTimeTextBox.Text);\n\ndata.Add(\"COOKING_TIME\", cookingTimeTextBox.Text);\n\ntry\n\n{\n\n     db.Update(\"RECIPE\", data, String.Format(\"RECIPE.ID = {0}\", this.RecipeID));\n\n}\n\ncatch(Exception crap)\n\n{\n\n     MessageBox.Show(crap.Message);\n\n}",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 567,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3a401797-63e8-4b09-8af1-367057b22c01",
+    "note_id": "e286cbeb-af96-4a09-9bc1-ae6bf6a17016",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.151132Z",
+    "finished_at": "2025-11-09T20:01:35.151133Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2523263b-ca55-44a6-9314-6482a9f4f6c2",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/update.cs.html",
+      "checksum": "c1d8e0d4ed2c8afafa242844d47500d3d4a80466f886e2bb80db8d4f31b980b6"
+    },
+    "output_ref": {
+      "ingest_source": "48a2ddea-a5d7-438a-b9ca-e73dba14c83c",
+      "note": "e286cbeb-af96-4a09-9bc1-ae6bf6a17016",
+      "variants": [
+        "a16d9b69-8bda-4c18-9928-2d5fea47677e",
+        "21d41670-a181-4c67-bb49-894b66dbae4f"
+      ]
+    },
+    "error_detail": null
+  }
+}

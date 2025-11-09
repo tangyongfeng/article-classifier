@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "798dd25d-50be-4f84-a133-20462370e2d2",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/视频带宽计算公式(码流_分辨率_帧率)   (自己整理过的.).html",
+    "collected_at": "2025-11-09T20:05:15.398731Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "94e60c00b71dfdff05a182692f51a9d0d9e595dee7751c5a7498968180f51605",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0f60d4b7-8d41-4638-8c1c-d74c129786cb",
+    "ingest_source_id": "798dd25d-50be-4f84-a133-20462370e2d2",
+    "canonical_title": "视频带宽计算公式(码流_分辨率_帧率)   (自己整理过的.)",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:15.398734Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "视频带宽计算公式(码流_分辨率_帧率)   (自己整理过的.).html"
+    }
+  },
+  "variants": [
+    {
+      "id": "74964c49-5f54-49d0-847c-0e33b55d58ba",
+      "note_id": "0f60d4b7-8d41-4638-8c1c-d74c129786cb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.398737Z",
+      "content": "---\ntitle: \"视频带宽计算公式(码流_分辨率_帧率) \\_\\_(自己整理过的.)\"\nupdated: 2019-05-26 20:50:44Z\ncreated: 2019-05-26 20:50:44Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>视频带宽计算公式<span>(</span>码流<span>_</span>分辨率<span>_</span>帧率<span>) &nbsp;&nbsp;(</span>自己整理过的<span>.)</span></div>\n<div>码流<span>/</span>码率</div>\n<div>　　码流（<span>Data Rate</span>）是指视频文件在单位时间内使用的数据流量，也叫码率或码流率，是视频编码中画面质量控制中最重要的部分，一般我们用的单位是<span>Kb/s</span>或者<span>Mb/s</span>。一般来说同样分辨率下，视频文件的码流越大，压缩比就越小，画面质量就越高。码流越大，说明单位时间内取样率越大，数据流，精度就越高，处理出来的文件就越接近原始文件，图像质量越好，画质越清晰，要求播放设备的解码能力也越高。</div>\n<div>视频每秒钟的大小，例如<span>800Kbps</span>，就是一秒钟的视频大小<span>100KB</span>（<span>1</span>字节<span>=8</span>比特，所以要除以<span>8</span>），视频如果有<span>1000</span>秒，整个视频大小就是<span>100KB*1000</span>约等于<span>100MB</span>。当然有些视频的码率不是恒定的，会根据画面情况采用不同的码率，这样可以尽可能地缩小视频体积且保证质量。一般来讲视频码率越大质量越好（当然还得看视频压制技术，专业软件和入门软件压制出来的视频即使码率一样效果还是有很大差异）</div>\n<div><span>720P&nbsp;</span>大约就是百万像素 ，码流大约在<span>2</span>到<span>4</span>或者<span>5M</span>， <span>1080P</span> 大约在<span>4</span>到<span>8M</span> ， 这个要看他们厂家的码流控制的怎么样</div>\n<div>帧率</div>\n<div><span>&nbsp;&nbsp;&nbsp; &nbsp;</span>一帧就是一副静止的画面，连续的帧就形成动画，如电视图象等。我们通常说帧数，简单地说，就是在<span>1</span>秒钟时间里传输的图片的帧数，也可以理解为图形处理器每秒钟能够刷新几次，通常用<span>fps</span>（<span>Frames Per Second</span>）表示。每一帧都是静止的图象，快速连续地显示帧便形成了运动的假象。高的帧率可以得到更流畅、更逼真的动画。每秒钟帧数 <span>(fps)</span> 愈多，所显示的动作就会愈流畅。</div>\n<div><br/></div>\n<div>分辨率</div>\n<div>视频分辨率是指视频成像产品所成图像的大小或尺寸。常见的视像分辨率有<span>352&times;288</span>，<span>176&times;144</span>，<span>640&times;480</span>，<span>1024&times;768</span>。在成像的两组数字中，前者为图片长度，后者为图片的宽度，两者相乘得出的是图片的像素，长宽比一般为<span>4</span>：<span>3.</span> 　目前监控行业中主要使用<span>Qcif(176&times;144</span>）、<span>CIF(352&times;288</span>）、<span>HALF D1(704&times;288</span>）、<span>D1(704&times;576</span>）等几种分辨率。</div>\n<div><span>D1</span>是数字电视系统显示格式的标准，共分为以下<span>5</span>种规格：</div>\n<div>D1<span>：</span>480i<span>格式（</span>525i<span>）：</span>720&times;480<span>（水平</span>480<span>线，隔行扫描），和</span>NTSC<span>模拟电视清晰度相同，行频为</span>15.25kHz<span>，相当于我们所说的</span>4CIF(720&times;576)</div>\n<div>&nbsp;</div>\n<div><span>D2</span>：<span>480P</span>格式（<span>525p</span>）：<span>720&times;480</span>（水平<span>480</span>线，逐行扫描），较<span>D1</span>隔行扫描要清晰不少，和逐行扫描<span>DVD</span>规格相同，行频为<span>31.5kHz</span></div>\n<div>&nbsp;</div>\n<div>D3<span>：</span>1080i<span>格式（</span>1125i<span>）：</span>1920&times;1080<span>（水平</span>1080<span>线，隔行扫描），高清方式采用最多的一种分辨率，分辨率为</span>1920&times;1080i/60Hz<span>，行频为</span>33.75kHz</div>\n<div>&nbsp;</div>\n<div><span>D4</span>：<span>720p</span>格式（<span>750p</span>）：<span>1280&times;720</span>（水平<span>720</span>线，逐行扫描），虽然分辨率较<span>D3</span>要低，但是因为逐行扫描，市面上更多人感觉相对于<span>1080I</span>（实际逐次<span>540</span>线）视觉效果更加清晰。不过个人感觉来说，在最大分辨率达到<span>1920&times;1080</span>的情况下，<span>D3</span>要比<span>D4</span>感觉更加清晰，尤其是文字表现力上，分辨率为<span>1280&times;720p/60Hz</span>，行频为<span>45kHz</span></div>\n<div>&nbsp;</div>\n<div><span>　　</span>D5<span>：</span>1080p<span>格式（</span>1125p<span>）：</span>1920&times;1080<span>（水平</span>1080<span>线，逐行扫描），目前民用高清视频的最高标准，分辨率为</span>1920&times;1080P/60Hz<span>，行频为</span>67.5KHZ<span>。</span></div>\n<div>其中<span>D1</span> 和<span>D2</span>标准是我们一般模拟电视的最高标准，并不能称的上高清晰，<span>D3</span>的<span>1080i</span>标准是高清晰电视的基本标准，它可以兼容<span>720p</span>格式，而<span>D5</span>的<span>1080P</span>只是专业上的标准。</div>\n<div>&nbsp;</div>\n<div>&nbsp;</div>\n<div>帧率、码流与分辨率之间关系</div>\n<div><br/></div>\n<div>公式<span>:</span></div>\n<div><span>带宽</span> / (<span>码流</span> * 8) = <span>同时在线人数</span></div>\n<div>文件大小 <span>=&nbsp;</span>时间<span>&times;</span>码率<span>/8</span></div>\n<div>&nbsp;</div>\n<div>一个视频文件的大小为<span>5.86M,</span>播放时长为<span>3</span>分<span>7</span>秒<span>:</span></div>\n<div><span>1,</span>该文件对应的码流就是</div>\n<div>5.86 * 1024 * 1024 * 8 / (3 * 60 + 7) =262872.95657754bps</div>\n<div><span>2,10M</span>独享带宽能支撑的同时在线人数</div>\n<div>10* 1024 * 1024 / 262872.95657754 =39.889078498294</div>\n<div><span>3,</span>支撑<span>1000</span>人同时在线的系统最少需要的带宽数为</div>\n<div>262872* 1000 / (1024 * 1024) = 250.69427490234M</div>\n<div><br/></div>\n<div><br/></div>\n<div>相关文章</div>\n<div><span>1.&nbsp;</span>视频带宽计算公式<span>(</span>码流<span>_</span>分辨率<span>_</span>帧率<span>)</span></div>\n<div><span>2.&nbsp;</span>带宽<span>-</span>码率<span>-</span>帧率<span>-</span>分辨率</div>\n<div><span>3.&nbsp;</span>视频的码率、帧率、分辨率</div>\n<div><span>4.&nbsp;</span>分辨率带宽和视频带宽</div>\n<div><span>5.&nbsp;</span>视频分辨率、码率、帧率、采样率</div>\n<div>6.&nbsp;Android<span>在线视频</span>,RTMP,MediaCodec,MediaCamera(<span>码流</span>_<span>分辨率</span>_<span>帧率</span>)</div>\n<div><span>7.&nbsp;</span>帧率、分辨率、码流的关系</div>\n<div><span>8.&nbsp;</span>帧率、码流与分辨率</div>\n<div><span>9.&nbsp;</span>帧率、码流与分辨率（转）</div>\n<div><span>10.&nbsp;</span>视频码率<span>,</span>帧率和分辨率的联系与区别</div>\n<div><span></span>更多相关文章<span>...</span></div>\n<div><br/></div>\n<div><br/></div>\n<div><br/></div>\n<div>相关标签<span>/</span>搜索</div>\n<div><span></span>视频分辨率<span>&nbsp;</span>频率分辨率<span>&nbsp;</span>分辨率计算<span>&nbsp;Mediainfo</span> 码率 帧率 分辨率<span>&nbsp;</span>帧率码率<span>&nbsp;</span>超分辨率 分辨率<span>&nbsp;</span>视频码率<span>&nbsp;</span>频率计算<span>&nbsp;</span>码率与分辨率帧率 码率 <span>IBP</span>帧<span>&nbsp;</span>帧率<span>&nbsp;</span>分辨率<span>&nbsp;</span>分辨率<span>&nbsp;</span>超分辨率<span>&nbsp;</span>超分辨率<span>&nbsp;</span>分辨率<span>&nbsp;</span>分辨率<span>&nbsp;</span>频率<span>&nbsp;</span>屏幕分辨率<span>&nbsp;Android</span> 多分辨率<span>&nbsp;</span>帧率 分辨率 带宽<span>pjsip</span> 视频 码率 帧率<span>&nbsp;MIPI</span>频率计算公式<span>&nbsp;opensips</span> 视频分辨率<span>&nbsp;</span>码率帧率<span>&nbsp;stm32pwm</span>频率计算<span>&nbsp;kinect2</span> 分辨率<span>&nbsp;FFT</span> 分辨率<span>&nbsp;libjpeg</span> 分辨率<span>gmapping</span>分辨率</div>\n<div><br/></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "94e60c00b71dfdff05a182692f51a9d0d9e595dee7751c5a7498968180f51605",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/视频带宽计算公式(码流_分辨率_帧率)   (自己整理过的.).html"
+      }
+    },
+    {
+      "id": "1e3cc009-ee48-45bf-be7b-ee13f45c8dcb",
+      "note_id": "0f60d4b7-8d41-4638-8c1c-d74c129786cb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:15.398740Z",
+      "content": "---\ntitle: \"视频带宽计算公式(码流_分辨率_帧率) \\_\\_(自己整理过的.)\"\nupdated: 2019-05-26 20:50:44Z\ncreated: 2019-05-26 20:50:44Z\nauthor: tangyongfeng@gmail.com\n---\n\n视频带宽计算公式\n(\n码流\n_\n分辨率\n_\n帧率\n)   (\n自己整理过的\n.)\n\n码流\n/\n码率\n\n　　码流（\nData Rate\n）是指视频文件在单位时间内使用的数据流量，也叫码率或码流率，是视频编码中画面质量控制中最重要的部分，一般我们用的单位是\nKb/s\n或者\nMb/s\n。一般来说同样分辨率下，视频文件的码流越大，压缩比就越小，画面质量就越高。码流越大，说明单位时间内取样率越大，数据流，精度就越高，处理出来的文件就越接近原始文件，图像质量越好，画质越清晰，要求播放设备的解码能力也越高。\n\n视频每秒钟的大小，例如\n800Kbps\n，就是一秒钟的视频大小\n100KB\n（\n1\n字节\n=8\n比特，所以要除以\n8\n），视频如果有\n1000\n秒，整个视频大小就是\n100KB*1000\n约等于\n100MB\n。当然有些视频的码率不是恒定的，会根据画面情况采用不同的码率，这样可以尽可能地缩小视频体积且保证质量。一般来讲视频码率越大质量越好（当然还得看视频压制技术，专业软件和入门软件压制出来的视频即使码率一样效果还是有很大差异）\n\n720P \n大约就是百万像素 ，码流大约在\n2\n到\n4\n或者\n5M\n，\n1080P\n 大约在\n4\n到\n8M\n ， 这个要看他们厂家的码流控制的怎么样\n\n帧率\n\n一帧就是一副静止的画面，连续的帧就形成动画，如电视图象等。我们通常说帧数，简单地说，就是在\n1\n秒钟时间里传输的图片的帧数，也可以理解为图形处理器每秒钟能够刷新几次，通常用\nfps\n（\nFrames Per Second\n）表示。每一帧都是静止的图象，快速连续地显示帧便形成了运动的假象。高的帧率可以得到更流畅、更逼真的动画。每秒钟帧数\n(fps)\n 愈多，所显示的动作就会愈流畅。\n\n分辨率\n\n视频分辨率是指视频成像产品所成图像的大小或尺寸。常见的视像分辨率有\n352×288\n，\n176×144\n，\n640×480\n，\n1024×768\n。在成像的两组数字中，前者为图片长度，后者为图片的宽度，两者相乘得出的是图片的像素，长宽比一般为\n4\n：\n3.\n 　目前监控行业中主要使用\nQcif(176×144\n）、\nCIF(352×288\n）、\nHALF D1(704×288\n）、\nD1(704×576\n）等几种分辨率。\n\nD1\n是数字电视系统显示格式的标准，共分为以下\n5\n种规格：\n\nD1\n：\n480i\n格式（\n525i\n）：\n720×480\n（水平\n480\n线，隔行扫描），和\nNTSC\n模拟电视清晰度相同，行频为\n15.25kHz\n，相当于我们所说的\n4CIF(720×576)\n\nD2\n：\n480P\n格式（\n525p\n）：\n720×480\n（水平\n480\n线，逐行扫描），较\nD1\n隔行扫描要清晰不少，和逐行扫描\nDVD\n规格相同，行频为\n31.5kHz\n\nD3\n：\n1080i\n格式（\n1125i\n）：\n1920×1080\n（水平\n1080\n线，隔行扫描），高清方式采用最多的一种分辨率，分辨率为\n1920×1080i/60Hz\n，行频为\n33.75kHz\n\nD4\n：\n720p\n格式（\n750p\n）：\n1280×720\n（水平\n720\n线，逐行扫描），虽然分辨率较\nD3\n要低，但是因为逐行扫描，市面上更多人感觉相对于\n1080I\n（实际逐次\n540\n线）视觉效果更加清晰。不过个人感觉来说，在最大分辨率达到\n1920×1080\n的情况下，\nD3\n要比\nD4\n感觉更加清晰，尤其是文字表现力上，分辨率为\n1280×720p/60Hz\n，行频为\n45kHz\n\nD5\n：\n1080p\n格式（\n1125p\n）：\n1920×1080\n（水平\n1080\n线，逐行扫描），目前民用高清视频的最高标准，分辨率为\n1920×1080P/60Hz\n，行频为\n67.5KHZ\n。\n\n其中\nD1\n 和\nD2\n标准是我们一般模拟电视的最高标准，并不能称的上高清晰，\nD3\n的\n1080i\n标准是高清晰电视的基本标准，它可以兼容\n720p\n格式，而\nD5\n的\n1080P\n只是专业上的标准。\n\n帧率、码流与分辨率之间关系\n\n公式\n:\n\n带宽\n / (\n码流\n * 8) =\n同时在线人数\n\n文件大小\n= \n时间\n×\n码率\n/8\n\n一个视频文件的大小为\n5.86M,\n播放时长为\n3\n分\n7\n秒\n:\n\n1,\n该文件对应的码流就是\n\n5.86 * 1024 * 1024 * 8 / (3 * 60 + 7) =262872.95657754bps\n\n2,10M\n独享带宽能支撑的同时在线人数\n\n10* 1024 * 1024 / 262872.95657754 =39.889078498294\n\n3,\n支撑\n1000\n人同时在线的系统最少需要的带宽数为\n\n262872* 1000 / (1024 * 1024) = 250.69427490234M\n\n相关文章\n\n1. \n视频带宽计算公式\n(\n码流\n_\n分辨率\n_\n帧率\n)\n\n2. \n带宽\n-\n码率\n-\n帧率\n-\n分辨率\n\n3. \n视频的码率、帧率、分辨率\n\n4. \n分辨率带宽和视频带宽\n\n5. \n视频分辨率、码率、帧率、采样率\n\n6. Android\n在线视频\n,RTMP,MediaCodec,MediaCamera(\n码流\n_\n分辨率\n_\n帧率\n)\n\n7. \n帧率、分辨率、码流的关系\n\n8. \n帧率、码流与分辨率\n\n9. \n帧率、码流与分辨率（转）\n\n10. \n视频码率\n,\n帧率和分辨率的联系与区别\n\n更多相关文章\n...\n\n相关标签\n/\n搜索\n\n视频分辨率\n \n频率分辨率\n \n分辨率计算\n Mediainfo\n 码率 帧率 分辨率\n \n帧率码率\n \n超分辨率 分辨率\n \n视频码率\n \n频率计算\n \n码率与分辨率帧率 码率\nIBP\n帧\n \n帧率\n \n分辨率\n \n分辨率\n \n超分辨率\n \n超分辨率\n \n分辨率\n \n分辨率\n \n频率\n \n屏幕分辨率\n Android\n 多分辨率\n \n帧率 分辨率 带宽\npjsip\n 视频 码率 帧率\n MIPI\n频率计算公式\n opensips\n 视频分辨率\n \n码率帧率\n stm32pwm\n频率计算\n kinect2\n 分辨率\n FFT\n 分辨率\n libjpeg\n 分辨率\ngmapping\n分辨率",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 2738,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d4659eed-dfb4-48b3-9634-f1c2dd0d64c5",
+    "note_id": "0f60d4b7-8d41-4638-8c1c-d74c129786cb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:15.398745Z",
+    "finished_at": "2025-11-09T20:05:15.398745Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b1bd6822-86c7-4e63-a456-5b9744be8032",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/视频带宽计算公式(码流_分辨率_帧率)   (自己整理过的.).html",
+      "checksum": "94e60c00b71dfdff05a182692f51a9d0d9e595dee7751c5a7498968180f51605"
+    },
+    "output_ref": {
+      "ingest_source": "798dd25d-50be-4f84-a133-20462370e2d2",
+      "note": "0f60d4b7-8d41-4638-8c1c-d74c129786cb",
+      "variants": [
+        "74964c49-5f54-49d0-847c-0e33b55d58ba",
+        "1e3cc009-ee48-45bf-be7b-ee13f45c8dcb"
+      ]
+    },
+    "error_detail": null
+  }
+}

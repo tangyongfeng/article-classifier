@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d2fb4041-82c5-4cbd-9fc0-d6fb8a37a64e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/宇顺电子.html",
+    "collected_at": "2025-11-09T20:01:39.557568Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f1888b5e9f340db1f78139ed40231f32d307262aea931bf0322c3b89902a7bd0",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e800d1d3-6a6c-4691-b21c-df4b7aa7a5d5",
+    "ingest_source_id": "d2fb4041-82c5-4cbd-9fc0-d6fb8a37a64e",
+    "canonical_title": "宇顺电子",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:39.557571Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "宇顺电子.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8a274b2a-4c4e-443a-b72c-cc00f1dd4e41",
+      "note_id": "e800d1d3-6a6c-4691-b21c-df4b7aa7a5d5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.557574Z",
+      "content": "---\ntitle: 宇顺电子\nupdated: 2013-09-26 15:27:19Z\ncreated: 2013-09-26 09:32:17Z\ntags:\n  - 盈利率0\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n2013/9/26 筹码盈利率为0.1%\n<div>2012年12月3日出现过一次类似情况，制造了历史低价8.51 .</div><div>在深圳生产小尺寸液晶显示器的厂家。 股本总数仅1850万股。非常好控盘。</div><div>去年是亏损的，今年扭亏为盈。</div><div><br/></div><div>和欧菲光互为主要竞争对手。</div><div><br/></div><div>今天有一个重大资产重组提交到证监会。收购深圳雅视科技股份有限公司</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f1888b5e9f340db1f78139ed40231f32d307262aea931bf0322c3b89902a7bd0",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/宇顺电子.html"
+      }
+    },
+    {
+      "id": "cc9f3258-bc44-4427-98cb-ff06c283df23",
+      "note_id": "e800d1d3-6a6c-4691-b21c-df4b7aa7a5d5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.557577Z",
+      "content": "---\ntitle: 宇顺电子\nupdated: 2013-09-26 15:27:19Z\ncreated: 2013-09-26 09:32:17Z\ntags:\n  - 盈利率0\n---\n\n2013/9/26 筹码盈利率为0.1%\n\n2012年12月3日出现过一次类似情况，制造了历史低价8.51 .\n在深圳生产小尺寸液晶显示器的厂家。 股本总数仅1850万股。非常好控盘。\n去年是亏损的，今年扭亏为盈。\n和欧菲光互为主要竞争对手。\n今天有一个重大资产重组提交到证监会。收购深圳雅视科技股份有限公司",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 250,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0a34d058-c5df-4d68-9442-a6087bb160b3",
+    "note_id": "e800d1d3-6a6c-4691-b21c-df4b7aa7a5d5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.557581Z",
+    "finished_at": "2025-11-09T20:01:39.557581Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b3e8af37-a91d-4796-ae0e-77501535a025",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/宇顺电子.html",
+      "checksum": "f1888b5e9f340db1f78139ed40231f32d307262aea931bf0322c3b89902a7bd0"
+    },
+    "output_ref": {
+      "ingest_source": "d2fb4041-82c5-4cbd-9fc0-d6fb8a37a64e",
+      "note": "e800d1d3-6a6c-4691-b21c-df4b7aa7a5d5",
+      "variants": [
+        "8a274b2a-4c4e-443a-b72c-cc00f1dd4e41",
+        "cc9f3258-bc44-4427-98cb-ff06c283df23"
+      ]
+    },
+    "error_detail": null
+  }
+}

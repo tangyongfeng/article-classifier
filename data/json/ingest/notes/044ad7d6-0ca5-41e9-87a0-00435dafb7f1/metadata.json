@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d1db034a-5ba3-43c2-9d4b-c394854f62b3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Post Karte liste.html",
+    "collected_at": "2025-11-09T20:01:36.534293Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "ccf41dbffc2ef2ab54b711a411afd8f240328daa17ac99e95ff8c83f08230fff",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "044ad7d6-0ca5-41e9-87a0-00435dafb7f1",
+    "ingest_source_id": "d1db034a-5ba3-43c2-9d4b-c394854f62b3",
+    "canonical_title": "Post Karte liste",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:36.534297Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Post Karte liste.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2a045d9e-e325-47e8-b172-e696a5d6e603",
+      "note_id": "044ad7d6-0ca5-41e9-87a0-00435dafb7f1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.534300Z",
+      "content": "---\ntitle: Post Karte liste\nupdated: 2021-10-22 13:38:19Z\ncreated: 2021-10-22 12:41:51Z\n---\n\n\n\n<en-note><div>Frau Rieck</div><div>Frau Cleven</div><div>Frau Marmann</div><div>Familie Hitz</div><div>Familie Fussbahn</div><div>Frau Adler&nbsp;</div><div>Familie Ann-Marie</div><div><span STYLE=\"font-size: unset; -webkit-text-size-adjust: 100%; background-color: rgb(221, 223, 226); --inversion-type-background-color: simple;\">Dr Schum</span><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ccf41dbffc2ef2ab54b711a411afd8f240328daa17ac99e95ff8c83f08230fff",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Post Karte liste.html"
+      }
+    },
+    {
+      "id": "83cbdb41-6d26-4148-bb0d-18a76e8d54b7",
+      "note_id": "044ad7d6-0ca5-41e9-87a0-00435dafb7f1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.534302Z",
+      "content": "---\ntitle: Post Karte liste\nupdated: 2021-10-22 13:38:19Z\ncreated: 2021-10-22 12:41:51Z\n---\n\nFrau Rieck\nFrau Cleven\nFrau Marmann\nFamilie Hitz\nFamilie Fussbahn\nFrau Adler \nFamilie Ann-Marie\nDr Schum",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 197,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "324f7cc4-282e-430a-8cb2-5aa2b3955644",
+    "note_id": "044ad7d6-0ca5-41e9-87a0-00435dafb7f1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.534307Z",
+    "finished_at": "2025-11-09T20:01:36.534307Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c9d26a79-ea9d-4c65-ad1c-d523e595f1ec",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Post Karte liste.html",
+      "checksum": "ccf41dbffc2ef2ab54b711a411afd8f240328daa17ac99e95ff8c83f08230fff"
+    },
+    "output_ref": {
+      "ingest_source": "d1db034a-5ba3-43c2-9d4b-c394854f62b3",
+      "note": "044ad7d6-0ca5-41e9-87a0-00435dafb7f1",
+      "variants": [
+        "2a045d9e-e325-47e8-b172-e696a5d6e603",
+        "83cbdb41-6d26-4148-bb0d-18a76e8d54b7"
+      ]
+    },
+    "error_detail": null
+  }
+}

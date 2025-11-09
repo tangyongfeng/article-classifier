@@ -1,0 +1,11 @@
+---
+title: freebsd port 免打扰安装
+updated: 2019-04-17 22:23:40Z
+created: 2017-12-14 13:45:51Z
+author: tangyongfeng
+tags:
+  - freebsd
+---
+
+make -DBATCH install
+静默安装

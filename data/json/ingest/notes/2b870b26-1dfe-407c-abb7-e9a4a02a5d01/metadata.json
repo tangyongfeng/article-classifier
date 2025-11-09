@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "977ec9f4-fae0-495c-9470-aa96c9ed028b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/装宽带.html",
+    "collected_at": "2025-11-09T20:05:17.663757Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "2cad320278bded72eebddd5f865ae89d9f0b2f2e746fc79e3dbc04e5ae8854a9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "2b870b26-1dfe-407c-abb7-e9a4a02a5d01",
+    "ingest_source_id": "977ec9f4-fae0-495c-9470-aa96c9ed028b",
+    "canonical_title": "装宽带",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:17.663761Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "装宽带.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dff24281-b352-4e55-9775-5f799ca644e7",
+      "note_id": "2b870b26-1dfe-407c-abb7-e9a4a02a5d01",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.663763Z",
+      "content": "---\ntitle: 装宽带\nupdated: 2019-05-06 14:15:44Z\ncreated: 2019-05-06 14:15:19Z\n---\n\n\n\n<en-note>\n<div><img src=\"../_resources/EA0808D8-4D87-430D-9FF1-2CFFC01E6D6B.jpg\"  hash=\"3f9bdf5e51c55241af0ca974af09e11b\" type=\"image/jpeg\" alt=\"EA0808D8-4D87-430D-9FF1-2CFFC01E6D6B.jpg\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2cad320278bded72eebddd5f865ae89d9f0b2f2e746fc79e3dbc04e5ae8854a9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/装宽带.html"
+      }
+    },
+    {
+      "id": "8dc1937d-7b1a-439f-b360-260098dd79a1",
+      "note_id": "2b870b26-1dfe-407c-abb7-e9a4a02a5d01",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.663766Z",
+      "content": "---\ntitle: 装宽带\nupdated: 2019-05-06 14:15:44Z\ncreated: 2019-05-06 14:15:19Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 78,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "09fb6fff-ebde-4f9a-a435-650c959c80d1",
+    "note_id": "2b870b26-1dfe-407c-abb7-e9a4a02a5d01",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.663770Z",
+    "finished_at": "2025-11-09T20:05:17.663771Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f5ccfd87-188c-4681-832a-09628ada8185",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/装宽带.html",
+      "checksum": "2cad320278bded72eebddd5f865ae89d9f0b2f2e746fc79e3dbc04e5ae8854a9"
+    },
+    "output_ref": {
+      "ingest_source": "977ec9f4-fae0-495c-9470-aa96c9ed028b",
+      "note": "2b870b26-1dfe-407c-abb7-e9a4a02a5d01",
+      "variants": [
+        "dff24281-b352-4e55-9775-5f799ca644e7",
+        "8dc1937d-7b1a-439f-b360-260098dd79a1"
+      ]
+    },
+    "error_detail": null
+  }
+}

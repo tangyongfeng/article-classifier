@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "85f2d2e0-047e-4ec7-9c65-88af4d2ff4dd",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Python构架.html",
+    "collected_at": "2025-11-09T20:01:34.391839Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3423a83496cf4253a2fc3ec7228204fe2ca110ff335da1dbfb380d74aeb3042d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6e1f2f1d-80a6-4e7e-ae3c-8839eaffa3c7",
+    "ingest_source_id": "85f2d2e0-047e-4ec7-9c65-88af4d2ff4dd",
+    "canonical_title": "Python构架",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.391843Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Python构架.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "91f90a06-1e8e-4d2e-855b-c4628d222e7f",
+      "note_id": "6e1f2f1d-80a6-4e7e-ae3c-8839eaffa3c7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.391845Z",
+      "content": "---\ntitle: Python构架\nupdated: 2013-03-25 06:00:24Z\ncreated: 2013-03-25 06:00:13Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n最近看到的高性能大规模都是：<br/>\n事件驱动： epoll/kqueue/select<br/>\n缓存： redis/beansdb/memcached<br/>\n类Dynamo： hbase/beansdb/gfs...<br/>\n异步+并发： I/O异步，多线程/微线程<br/>\nPython应用加速化：<br/>\ngevent/ greenlet /( 这个看了源代码， 并发确实不错 )<br/>\nC 模块化， 编译后性能确实有大幅度提升， 最近在熟悉 Python 的源代码；\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3423a83496cf4253a2fc3ec7228204fe2ca110ff335da1dbfb380d74aeb3042d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Python构架.html"
+      }
+    },
+    {
+      "id": "7aaec1d3-15da-4505-a56a-508007fe99d4",
+      "note_id": "6e1f2f1d-80a6-4e7e-ae3c-8839eaffa3c7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.391848Z",
+      "content": "---\ntitle: Python构架\nupdated: 2013-03-25 06:00:24Z\ncreated: 2013-03-25 06:00:13Z\n---\n\n最近看到的高性能大规模都是：\n\n事件驱动： epoll/kqueue/select\n\n缓存： redis/beansdb/memcached\n\n类Dynamo： hbase/beansdb/gfs...\n\n异步+并发： I/O异步，多线程/微线程\n\nPython应用加速化：\n\ngevent/ greenlet /( 这个看了源代码， 并发确实不错 )\n\nC 模块化， 编译后性能确实有大幅度提升， 最近在熟悉 Python 的源代码；",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 303,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a95e9e93-5e7a-4e84-9cdd-a8b0b7bdf49d",
+    "note_id": "6e1f2f1d-80a6-4e7e-ae3c-8839eaffa3c7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.391852Z",
+    "finished_at": "2025-11-09T20:01:34.391853Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "75dac3fa-8f87-4d51-8b24-9987cdbbe89b",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/Python构架.html",
+      "checksum": "3423a83496cf4253a2fc3ec7228204fe2ca110ff335da1dbfb380d74aeb3042d"
+    },
+    "output_ref": {
+      "ingest_source": "85f2d2e0-047e-4ec7-9c65-88af4d2ff4dd",
+      "note": "6e1f2f1d-80a6-4e7e-ae3c-8839eaffa3c7",
+      "variants": [
+        "91f90a06-1e8e-4d2e-855b-c4628d222e7f",
+        "7aaec1d3-15da-4505-a56a-508007fe99d4"
+      ]
+    },
+    "error_detail": null
+  }
+}

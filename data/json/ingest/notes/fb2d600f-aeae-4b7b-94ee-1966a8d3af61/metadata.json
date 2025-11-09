@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "50b3acaf-c5aa-4e4a-9cfc-9ea356b2f3a7",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/popupzoo-1.html",
+    "collected_at": "2025-11-09T20:05:14.171021Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7e046b309afdf01f54a360c8c65a6f77d383f973e481931ddde136e997da348d",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "fb2d600f-aeae-4b7b-94ee-1966a8d3af61",
+    "ingest_source_id": "50b3acaf-c5aa-4e4a-9cfc-9ea356b2f3a7",
+    "canonical_title": "popupzoo-1",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:14.171025Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "popupzoo-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "68eb6657-6947-4656-8502-6472dca4599f",
+      "note_id": "fb2d600f-aeae-4b7b-94ee-1966a8d3af61",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.171028Z",
+      "content": "---\ntitle: popupzoo\nupdated: 2017-06-24 04:54:46Z\ncreated: 2017-06-24 04:54:46Z\n---\n\n\n\n<en-note>\n<div><a href='../_resources/popupzoo.pdf'  hash=\"882f4518dced96f06e100d4aef27fc52\" type=\"application/pdf\" alt=\"popupzoo.pdf\">  popupzoo.pdf</a></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7e046b309afdf01f54a360c8c65a6f77d383f973e481931ddde136e997da348d",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/popupzoo-1.html"
+      }
+    },
+    {
+      "id": "be9bece1-d7b7-4a90-962a-5bdd2c340f8d",
+      "note_id": "fb2d600f-aeae-4b7b-94ee-1966a8d3af61",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:14.171030Z",
+      "content": "---\ntitle: popupzoo\nupdated: 2017-06-24 04:54:46Z\ncreated: 2017-06-24 04:54:46Z\n---\n\n  popupzoo.pdf",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 99,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "781be290-388f-4da1-9bcc-6caf3863b587",
+    "note_id": "fb2d600f-aeae-4b7b-94ee-1966a8d3af61",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:14.171035Z",
+    "finished_at": "2025-11-09T20:05:14.171036Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b1f6d00b-6793-4bbb-842c-7204fd7e1d7e",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/popupzoo-1.html",
+      "checksum": "7e046b309afdf01f54a360c8c65a6f77d383f973e481931ddde136e997da348d"
+    },
+    "output_ref": {
+      "ingest_source": "50b3acaf-c5aa-4e4a-9cfc-9ea356b2f3a7",
+      "note": "fb2d600f-aeae-4b7b-94ee-1966a8d3af61",
+      "variants": [
+        "68eb6657-6947-4656-8502-6472dca4599f",
+        "be9bece1-d7b7-4a90-962a-5bdd2c340f8d"
+      ]
+    },
+    "error_detail": null
+  }
+}

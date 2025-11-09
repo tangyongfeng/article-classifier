@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d80d9988-8c95-459c-97df-df5dd3885887",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/挂号&建卡&收费.html",
+    "collected_at": "2025-11-09T20:01:38.264975Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "bc82e7e6ed238b7e304201f6ed7d161834372505dac629e27d4a6a8062a6a3ca",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "7b27810d-5e04-48a5-9c94-16c796cc4045",
+    "ingest_source_id": "d80d9988-8c95-459c-97df-df5dd3885887",
+    "canonical_title": "挂号&建卡&收费",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.264979Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "挂号&建卡&收费.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8c577009-a3c8-4c8c-8fc8-99d480f0c382",
+      "note_id": "7b27810d-5e04-48a5-9c94-16c796cc4045",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.264982Z",
+      "content": "---\ntitle: 挂号&建卡&收费\nupdated: 2014-02-18 07:23:30Z\ncreated: 2014-02-18 07:17:25Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>挂号</div>\n1、检索病人资料，没有则添加\n<div>2、查询科室医生挂号情况<br/><div>2、生成挂号单提交，提交挂号费收费单据。</div></div><div>建卡</div><div>1、提交用户病案首页资料单据</div><div><br/></div><div>收费</div><div>1、查询病人挂号信息</div><div>2、查询诊疗单据</div><div>3、收费员签字后提交</div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bc82e7e6ed238b7e304201f6ed7d161834372505dac629e27d4a6a8062a6a3ca",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/挂号&建卡&收费.html"
+      }
+    },
+    {
+      "id": "c045244a-0827-4ec1-bee0-1e548679642d",
+      "note_id": "7b27810d-5e04-48a5-9c94-16c796cc4045",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.264985Z",
+      "content": "---\ntitle: 挂号&建卡&收费\nupdated: 2014-02-18 07:23:30Z\ncreated: 2014-02-18 07:17:25Z\n---\n\n挂号\n\n1、检索病人资料，没有则添加\n\n2、查询科室医生挂号情况\n2、生成挂号单提交，提交挂号费收费单据。\n建卡\n1、提交用户病案首页资料单据\n收费\n1、查询病人挂号信息\n2、查询诊疗单据\n3、收费员签字后提交",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 190,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0bb41723-e5f3-42b9-ba65-a67f810b7ee2",
+    "note_id": "7b27810d-5e04-48a5-9c94-16c796cc4045",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.264991Z",
+    "finished_at": "2025-11-09T20:01:38.264991Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9e726a3b-30d8-4491-9f58-92f65f3ccb56",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/挂号&建卡&收费.html",
+      "checksum": "bc82e7e6ed238b7e304201f6ed7d161834372505dac629e27d4a6a8062a6a3ca"
+    },
+    "output_ref": {
+      "ingest_source": "d80d9988-8c95-459c-97df-df5dd3885887",
+      "note": "7b27810d-5e04-48a5-9c94-16c796cc4045",
+      "variants": [
+        "8c577009-a3c8-4c8c-8fc8-99d480f0c382",
+        "c045244a-0827-4ec1-bee0-1e548679642d"
+      ]
+    },
+    "error_detail": null
+  }
+}

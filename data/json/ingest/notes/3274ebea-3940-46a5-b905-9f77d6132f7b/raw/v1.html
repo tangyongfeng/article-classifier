@@ -1,0 +1,141 @@
+---
+title: PostgreSQL操作JSON数据
+updated: 2019-02-16 10:02:32Z
+created: 2019-02-16 10:02:32Z
+source: https://my.oschina.net/swingcoder/blog/489769
+---
+
+
+<en-note>
+  <div>
+<div><br/></div><div STYLE="font-size: 16px; display:block; min-width: 100%; "> <div STYLE="background-color:transparent;font:inherit;vertical-align:baseline;"><div STYLE="background-color:transparent;font:inherit;vertical-align:baseline;font-family:&quot;PT Serif&quot;;font-size:16px;line-height:1.5em;color:rgb(31, 9, 9);text-align:left;"><div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="z-index:200;padding-left:2em;padding-right:2em;margin-left:auto;margin-right:auto;position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:36em;"><div STYLE="position:relative;margin-left:-25px;margin-right:25px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;padding-top:4.5em;padding-bottom:9em;"><div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><div STYLE="margin-bottom:0px;position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><div STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><h1 STYLE="padding:0px;margin:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:normal;font-size:35px;line-height:35px;margin-bottom:20px;font-family:&quot;PT Serif&quot;;text-align:left;"> PostgreSQL是不是你的下一个JSON数据库？ 转 </h1><div STYLE="margin-bottom:0px;position:relative;margin:0px;height:1em;line-height:1;text-align:center;padding:0px;border:0px;font:inherit;vertical-align:baseline;padding-top:1.5em;padding-bottom:1.5em;"><div STYLE="margin-bottom:0px;position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;padding:0px;border:0px;font:inherit;vertical-align:baseline;background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);"><span STYLE="font:inherit;position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);"></span></div></div></div>
+                    <div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">
+                        <div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">
+                            
+                            发布于 2015/08/09 15:48</div>
+                        <div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">字数 1647</div>
+                        <div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">阅读 464</div>
+                        <div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">收藏 11</div>
+                        <div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;"><a TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);">点赞 0</a></div>
+                        <div STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;"><a HREF="https://my.oschina.net/swingcoder/blog/489769#comments" TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);"> 评论 0</a></div>
+                                            </div>
+                                                                        
+                                                                <div STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">
+                                                    
+                                                <p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">根据<a HREF="http://en.wikipedia.org/wiki/Betteridge%27s_law_of_headlines" TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);">Betteridge</a>定律（任何头条的设问句可以用一个词来回答：不是），除非你的JSON数据很少修改，并且查询很多。</p> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">最新版的PostgreSQL添加更多对JSON的支持，我们曾经问过PostgreSQL是否可以替换MongoDB作为JSON数据库，答案显而易见，但我们更希望的是，啊哈，这个问题由读者来问了。</p> 
+
+<h4 STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:20px;margin-top:30px;margin-bottom:1.5em;font-family:&quot;PT Serif&quot;;text-align:left;">&ldquo;PostgreSQL不是已经有一些json的支持了吗？&rdquo;</h4> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">是的，在PostgreSQL 9.4之前的版本也有JSON 数据类型了，你可以这样：</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">CREATE&nbsp;TABLE&nbsp;justjson&nbsp;(&nbsp;id&nbsp;INTEGER,&nbsp;doc&nbsp;JSON)
+&gt;INSERT&nbsp;INTO&nbsp;justjson&nbsp;VALUES&nbsp;(&nbsp;1,&nbsp;&apos;{
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;name&quot;:&quot;fred&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;address&quot;:{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;line1&quot;:&quot;52&nbsp;The&nbsp;Elms&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;line2&quot;:&quot;Elmstreet&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;postcode&quot;:&quot;ES1&nbsp;1ES&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;}&apos;);</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">保存了JSON的原始文本到数据库，包括空白行和键顺序及重新的键，我们来查看下保存的数据：</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">&gt;SELECT&nbsp;*&nbsp;FROM&nbsp;justjson;
+&nbsp;id&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;doc
+----+---------------------------------
+&nbsp;&nbsp;1&nbsp;|&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;name&quot;:&quot;fred&quot;,&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;address&quot;:{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;line1&quot;:&quot;52&nbsp;The&nbsp;Elms&quot;,&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;line2&quot;:&quot;Elmstreet&quot;,&nbsp;&nbsp;&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;postcode&quot;:&quot;ES1&nbsp;1ES&quot;&nbsp;&nbsp;&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+(1&nbsp;row)</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">跟保存之前的文本一模一样，但我们仍可以解析出具体的数据出来，PostgreSQL提供了一套JSON的操作方法进行查找，例如，我们只要查出address信息，如果做？</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">select&nbsp;doc-&gt;&gt;&apos;address&apos;&nbsp;FROM&nbsp;justjson;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;?column?
+---------------------------------
+&nbsp;{&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;line1&quot;:&quot;52&nbsp;The&nbsp;Elms&quot;,&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;line2&quot;:&quot;Elmstreet&quot;,&nbsp;&nbsp;&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;postcode&quot;:&quot;ES1&nbsp;1ES&quot;&nbsp;&nbsp;&nbsp;+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+(1&nbsp;row)</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">doc字段的 -&gt;&gt; 操作符是查询JSON对象的某个字段并返回文本，用数字也可以当作数组的索引，但仍返回文本。跟 -&gt;&gt; 类似的还有 -&gt; 操作符，返回不转文本的内容，可以用它来导航搜索JSON对象，如：</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">select&nbsp;doc-&gt;&apos;address&apos;-&gt;&gt;&apos;postcode&apos;&nbsp;FROM&nbsp;justjson;&nbsp;&nbsp;
+&nbsp;?column?
+----------
+&nbsp;ES1&nbsp;1ES
+(1&nbsp;row)</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">还有个更简短的写法来指定搜索路径，用 #&gt;&gt; 操作符，如梦：</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">select&nbsp;doc#&gt;&gt;&apos;{address,postcode}&apos;&nbsp;FROM&nbsp;justjson;&nbsp;&nbsp;
+&nbsp;?column?
+----------
+&nbsp;ES1&nbsp;1ES
+(1&nbsp;row)</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">通过保存完整的JSON数据类型可使其跟源数据完全一样并且不会丢失内容，但为保持完全一致也带来了成本，性能的缺失，而且不能索引...所有，尽管可以很方便的维持一致性和保持JSON文档，但仍有很大的提升空间，所以引入了JSONB。</p> 
+
+<h4 STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:20px;margin-top:30px;margin-bottom:1.5em;font-family:&quot;PT Serif&quot;;text-align:left;">&quot;JSONB有什么不同？&quot;</h4> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">JSONB可以将整个JSON文档转有层级的KEY/VALUE数据对，所有的空白字符删除了，重复键只保留最后一次，键也没有排序，而是用HASH来保存了，上面的例子中用JSONB的版本的话，看来起类似这样：</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">&gt;CREATE&nbsp;TABLE&nbsp;justjsonb&nbsp;(&nbsp;id&nbsp;INTEGER,&nbsp;doc&nbsp;JSONB)
+&gt;INSERT&nbsp;INTO&nbsp;justjsonb&nbsp;VALUES&nbsp;(&nbsp;1,&nbsp;&apos;{
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;name&quot;:&quot;fred&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&quot;address&quot;:{
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;line1&quot;:&quot;52&nbsp;The&nbsp;Elms&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;line2&quot;:&quot;Elmstreet&quot;,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;postcode&quot;:&quot;ES1&nbsp;1ES&quot;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}
+&nbsp;&nbsp;&nbsp;&nbsp;}&apos;);
+&gt;SELECT&nbsp;*&nbsp;FROM&nbsp;justjsonb;
+&nbsp;id&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;doc
+----+----------------------------------------------------------------------------------------------------
+&nbsp;&nbsp;1&nbsp;|&nbsp;{&quot;name&quot;:&nbsp;&quot;fred&quot;,&nbsp;&quot;address&quot;:&nbsp;{&quot;line1&quot;:&nbsp;&quot;52&nbsp;The&nbsp;Elms&quot;,&nbsp;&quot;line2&quot;:&nbsp;&quot;Elmstreet&quot;,&nbsp;&quot;postcode&quot;:&nbsp;&quot;ES1&nbsp;1ES&quot;}}
+(1&nbsp;row)</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">可以看到，所有非文本内容都消失了，替换成JSON文档需要的最少格式，这种压缩方式表示当数据插入时会自动格式化，这样可以减少之后访问数据分析处理的工作量。</p> 
+
+<h4 STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:20px;margin-top:30px;margin-bottom:1.5em;font-family:&quot;PT Serif&quot;;text-align:left;">&quot;PostgreSQL的这种数据有点像HSTORE&quot;</h4> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">看到键值对，JSONB还真有点像PostgreSQL的HSTORE扩展，它也可以保存键值对，但它是一个扩展，而，JSONB（以及JSON）是在PostgreSQL内核的，HSTORE只有一级层级，但PostgreSQL可以有嵌套的元素，并且，HSTORE只能存字符串，而JSONB还可以存JSON的所数字类型。</p> 
+
+<h4 STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:20px;margin-top:30px;margin-bottom:1.5em;font-family:&quot;PT Serif&quot;;text-align:left;">&ldquo;那JSONB到底带给我啥好处呢？&rdquo;</h4> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">索引，到处用上索引，你不能在PostgreSQL对JSON类型创建真正的索引，你可以创建表达式索引（expression indexes），但只限于你想索引的内容，例如：</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">create&nbsp;index&nbsp;justjson_postcode&nbsp;on&nbsp;justjson&nbsp;((doc-&gt;&apos;address&apos;-&gt;&gt;&apos;postcode&apos;));</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">只有邮编（postcode）索引了，其它都没有索引。</p> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">而JSONB，支持GIN索引，一种通用返转索引（<a HREF="http://www.postgresql.org/docs/9.4/static/gin-intro.html" TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);">Generalized Inverted Index</a>），PostgreSQL提供了<a HREF="http://www.postgresql.org/docs/9.4/static%20/functions-json.html#FUNCTIONS-JSONB-OP-TABLE" TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);">另外一套</a>索引操作符来支持，包括 @&gt; 包括JSON，&lt;@ 最包含，? 测试字符串是否存在，?| 任意字符串是否存在，?&amp; 所有存大的字符串。</p> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">有两类索引可用，默认叫 json_ops，它支持所有操作符（译者：指普通json操作符）和一个只支持&amp;&gt;操作符的jsonb_path_ops索引（译者：指索引操作符），默认索引给JSON中的每个键值都创建了索引，其实 jsonb_path_ops只创建了一个比默认复杂的更高压缩的hash表索引，但默认索引担任更多操作能力同时增加了空间成本。给表添加一些数据，我们再来看看某个邮编，如果我们创建了一个默认的GIN JSON索引然后查询：</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">explain&nbsp;select&nbsp;*&nbsp;from&nbsp;justjsonb&nbsp;where&nbsp;doc&nbsp;@&gt;&nbsp;&apos;{&nbsp;&quot;address&quot;:&nbsp;{&nbsp;&quot;postcode&quot;:&quot;HA36CC&quot;&nbsp;}&nbsp;}&apos;;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QUERY&nbsp;PLAN
+-----------------------------------------------------------------
+&nbsp;Seq&nbsp;Scan&nbsp;on&nbsp;justjsonb&nbsp;&nbsp;(cost=0.00..3171.14&nbsp;rows=100&nbsp;{&quot;address&quot;:&nbsp;{&quot;postcode&quot;:&nbsp;&quot;HA36CC&quot;}}&apos;::jsonb)
+(2&nbsp;rows)</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">可以看出来是顺序扫瞄表，如果我们加个默认的JSON GIN索引后再看看有什么不同？</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">&gt;&nbsp;create&nbsp;index&nbsp;justjsonb_gin&nbsp;on&nbsp;justjsonb&nbsp;using&nbsp;gin&nbsp;(doc);
+&gt;&nbsp;explain&nbsp;select&nbsp;*&nbsp;from&nbsp;justjsonb&nbsp;where&nbsp;doc&nbsp;@&gt;&nbsp;&apos;{&nbsp;&quot;address&quot;:&nbsp;{&nbsp;&quot;postcode&quot;:&quot;HA36CC&quot;&nbsp;}&nbsp;}&apos;;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QUERY&nbsp;PLAN
+-------------------------------------------------------------------------------
+&nbsp;Bitmap&nbsp;Heap&nbsp;Scan&nbsp;on&nbsp;justjsonb&nbsp;&nbsp;(cost=40.78..367.62&nbsp;rows=100&nbsp;{&quot;address&quot;:&nbsp;{&quot;postcode&quot;:&nbsp;&quot;HA36CC&quot;}}&apos;::jsonb)
+&nbsp;&nbsp;&nbsp;-&gt;&nbsp;&nbsp;Bitmap&nbsp;Index&nbsp;Scan&nbsp;on&nbsp;justjsonb_gin&nbsp;&nbsp;(cost=0.00..40.75&nbsp;rows=100&nbsp;{&quot;address&quot;:&nbsp;{&quot;postcode&quot;:&nbsp;&quot;HA36CC&quot;}}&apos;::jsonb)
+(4&nbsp;rows)</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">搜索性能提升很大，但隐藏了空间的耗费，例中是41%的数据大小，让我们删除索引重复执行jsonb_path_ops GIN索引。</p> 
+<pre STYLE="width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;"><code STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;">&gt;&nbsp;create&nbsp;index&nbsp;justjsonb_gin&nbsp;on&nbsp;justjsonb&nbsp;using&nbsp;gin&nbsp;(doc&nbsp;jsonb_path_ops);
+&gt;&nbsp;explain&nbsp;select&nbsp;*&nbsp;from&nbsp;justjsonb&nbsp;where&nbsp;doc&nbsp;@&gt;&nbsp;&apos;{&nbsp;&quot;address&quot;:&nbsp;{&nbsp;&quot;postcode&quot;:&quot;HA36CC&quot;&nbsp;}&nbsp;}&apos;;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QUERY&nbsp;PLAN
+-------------------------------------------------------------------------------
+&nbsp;Bitmap&nbsp;Heap&nbsp;Scan&nbsp;on&nbsp;justjsonb&nbsp;&nbsp;(cost=16.78..343.62&nbsp;rows=100&nbsp;{&quot;address&quot;:&nbsp;{&quot;postcode&quot;:&nbsp;&quot;HA36CC&quot;}}&apos;::jsonb)
+&nbsp;&nbsp;&nbsp;-&gt;&nbsp;&nbsp;Bitmap&nbsp;Index&nbsp;Scan&nbsp;on&nbsp;justjsonb_gin&nbsp;&nbsp;(cost=0.00..16.75&nbsp;rows=100&nbsp;{&quot;address&quot;:&nbsp;{&quot;postcode&quot;:&nbsp;&quot;HA36CC&quot;}}&apos;::jsonb)
+(4&nbsp;rows)</code></pre> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">总成本低了点，索引体积小了很多，这是典型的创建索引速度和空间平衡的方法，但比顺序扫瞄性能高很多。</p> 
+<h4 STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:bold;font-size:20px;margin-top:30px;margin-bottom:1.5em;font-family:&quot;PT Serif&quot;;text-align:left;">&ldquo;我应该用它作为我的JSON数据库吗？&rdquo;</h4> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">如果你经常更新你的JSON文档，回答是否定的，PostgreSQL最擅长的是存储和攻取JSON文档及他们的字段，但尽管如此你可以取出单个字段，你也不能更新单个字段；实际上你可以，将整个JSON解析出来，添加新的字段再写回，让JSON分析器处理重复，但你很明显不想依赖这个。</p> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">如果你的主要数据用关系数据库用得很好，JSON数据只是一群补充（静态数据），那么用PostgreSQL就可以了，而且用JSONB表示和索引能力将更高效。另外，如果你的数据模型是可变内容的集合，那么你可能会寻找一样主流工业级的json文档数据库如<a HREF="https://www.mongodb.org/" TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);">MongoDB</a>或<a HREF="http://rethinkdb.com/" TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);">RethinkDB</a>。</p> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">参考</p> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">PostgreSQL vs MongoDB&nbsp;<a HREF="http://my.oschina.net/Suregogo/blog/358277" TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);">http://my.oschina.net/Suregogo/blog/358277</a> </p> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">Query JSON in PostgreSQL <a HREF="http://schinckel.net/2014/05/25/querying-json-in-postgres/" TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);">http://schinckel.net/2014/05/25/querying-json-in-postgres/</a></p> 
+<p STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">原文：&nbsp;<a HREF="https://www.compose.io/articles/is-postgresql-your-next-json-database/" TARGET="_blank" STYLE="margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;text-decoration:none;color:rgb(6, 85, 136);">https://www.compose.io/articles/is-postgresql-your-next-json-database/</a></p> 
+<p STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;">&lt;译：朱淦 350050183@qq.com 2015.8.9&gt;</p>
+                                                    
+                                            </div>
+                    
+                    <p STYLE="margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;">
+                                                    本文转载自：https://www.compose.io/articles/is-postgresql-your-next-json-database/
+                                            </p>
+                </div></div></div><div STYLE="position:absolute;top:-1000px;left:-1000px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;">Measure</div><div STYLE="margin-bottom:0px;position:absolute;top:-1000px;left:-1000px;line-height:1;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;">Measure</div></div></div></div></div></div></div></div>
+</div>
+</en-note>      

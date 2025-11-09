@@ -1,0 +1,12 @@
+---
+title: WTCF进阶沟通会
+updated: 2013-07-05 03:53:55Z
+created: 2013-07-05 01:59:34Z
+---
+
+
+
+
+<en-note STYLE="word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;">
+DB2灾备
+<div>purescale的备份每次的备份都是全备份，目前没有提供差异备份，为了补充，提供了备份tablespace的功能。</div><div>wtcf在建立的时候，可以将不同的cabinet，放在不同的tablespace上</div><div>db2的备份恢复需要在相同架构，但是在现在的版本上，已经解决了这个问题。</div><div>双活灾备10公里的倍数。</div><div>wtcf不同cabinet保存在不同的表中，会自动给不同的flode分配不同的行号，这样在双活异地的灾备系统中，就有可能出现冲突。如果使用db2的自动灾备，就不存在这个问题，因为db2是透明的备份，如果通过应用来实现异地的<u>双活</u>灾备解决方法是在双活的不同地域分别建立不同的表对应不同的cabinet。</div><div><br/></div></en-note>      

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "afbf872b-4a7e-448c-b5ef-15896d059a86",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ruby gem 问题.html",
+    "collected_at": "2025-11-09T20:01:35.109457Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "152e91758d0f856ec52e947aac76884c24afd7137d39e086b92a4a0e2b3aba95",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "6dd6bcff-c3d5-4020-bb76-856aab7699a2",
+    "ingest_source_id": "afbf872b-4a7e-448c-b5ef-15896d059a86",
+    "canonical_title": "ruby gem 问题",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.109462Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ruby gem 问题.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bfc49720-5262-4952-83d6-8d6b70afab25",
+      "note_id": "6dd6bcff-c3d5-4020-bb76-856aab7699a2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.109465Z",
+      "content": "---\ntitle: ruby gem 问题\nupdated: 2021-06-20 21:04:33Z\ncreated: 2021-06-20 21:03:24Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - openedx\n---\n\n\n<en-note><div>\n<span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">gem update --system&nbsp;</span></div><div>\n<span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">ERROR:&nbsp; While executing gem ... (Gem::RemoteFetcher::UnknownHostError)</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">&nbsp;&nbsp;&nbsp; timed out (</span><a HREF=\"https://api.rubygems.org/specs.4.8.gz\" STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">https://api.rubygems.org/specs.4.8.gz</a><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">)</span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\"><br/></span></div><div><font FACE=\"Menlo\" STYLE=\"color: rgb(0, 0, 0); --inversion-type-color: simple;\"><span STYLE=\"caret-color: rgb(255, 255, 255); font-size: 11px;\">解决方法：</span></font></div><div><font FACE=\"Menlo\" STYLE=\"color: rgb(0, 0, 0); --inversion-type-color: simple;\"><span STYLE=\"caret-color: rgb(255, 255, 255); font-size: 11px;\">disable ipv6</span></font></div><div><font FACE=\"Menlo\" STYLE=\"color: rgb(0, 0, 0); --inversion-type-color: simple;\"><span STYLE=\"caret-color: rgb(255, 255, 255); font-size: 11px;\"><br/></span></font></div><div>net.ipv6.conf.all.disable_ipv6=1&nbsp;</div><div>net.ipv6.conf.default.disable_ipv6=1&nbsp;</div><div>net.ipv6.conf.lo.disable_ipv6=1</div><div><span STYLE=\"color: rgb(255, 255, 255); font-family: monospace, monospace; font-size: 18px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(0, 182, 186);\"><br/></span></div><div><span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">\n</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "152e91758d0f856ec52e947aac76884c24afd7137d39e086b92a4a0e2b3aba95",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ruby gem 问题.html"
+      }
+    },
+    {
+      "id": "77738ee7-22a2-4c09-bf0a-29c0e19f3b02",
+      "note_id": "6dd6bcff-c3d5-4020-bb76-856aab7699a2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.109469Z",
+      "content": "---\ntitle: ruby gem 问题\nupdated: 2021-06-20 21:04:33Z\ncreated: 2021-06-20 21:03:24Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - openedx\n---\n\ngem update --system \n\nERROR:  While executing gem ... (Gem::RemoteFetcher::UnknownHostError)\n    timed out (\nhttps://api.rubygems.org/specs.4.8.gz\n)\n解决方法：\ndisable ipv6\nnet.ipv6.conf.all.disable_ipv6=1 \nnet.ipv6.conf.default.disable_ipv6=1 \nnet.ipv6.conf.lo.disable_ipv6=1",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 408,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5329d6ad-6324-4692-9e67-a4eb979543fa",
+    "note_id": "6dd6bcff-c3d5-4020-bb76-856aab7699a2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.109474Z",
+    "finished_at": "2025-11-09T20:01:35.109474Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "38d63ccd-ada1-4e9f-b189-322d391353de",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ruby gem 问题.html",
+      "checksum": "152e91758d0f856ec52e947aac76884c24afd7137d39e086b92a4a0e2b3aba95"
+    },
+    "output_ref": {
+      "ingest_source": "afbf872b-4a7e-448c-b5ef-15896d059a86",
+      "note": "6dd6bcff-c3d5-4020-bb76-856aab7699a2",
+      "variants": [
+        "bfc49720-5262-4952-83d6-8d6b70afab25",
+        "77738ee7-22a2-4c09-bf0a-29c0e19f3b02"
+      ]
+    },
+    "error_detail": null
+  }
+}

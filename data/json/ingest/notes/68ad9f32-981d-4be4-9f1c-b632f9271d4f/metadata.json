@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5a55c844-3afc-4ef9-820c-91e591764f1e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/给数学李老师的信.html",
+    "collected_at": "2025-11-09T20:01:38.368374Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "85d4ba9861af91e0951cfc96651d60d96f98b82204f32ab01d9dd9cd8a98fdb6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "68ad9f32-981d-4be4-9f1c-b632f9271d4f",
+    "ingest_source_id": "5a55c844-3afc-4ef9-820c-91e591764f1e",
+    "canonical_title": "给数学李老师的信",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.368378Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "给数学李老师的信.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "46d4012b-db39-4ffd-8f5a-b961d5c2d99e",
+      "note_id": "68ad9f32-981d-4be4-9f1c-b632f9271d4f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.368380Z",
+      "content": "---\ntitle: 给数学李老师的信\nupdated: 2018-05-29 14:29:41Z\ncreated: 2018-05-29 14:16:28Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>李老师：</div><div>&nbsp; &nbsp; &nbsp; &nbsp;我女儿昨天回家后，我仔细观察没有什么大碍，晚上自己写完作业还出去玩了很久，回家洗澡睡觉一切都很好，没问题了，请您不必再担心。给您添麻烦了，希望不要给您带来困扰。</div><div>&nbsp; &nbsp; &nbsp; &nbsp;我女儿身体状况不好，性格敏感、怯懦，确实会让人操心，作为父母，我们也确实需要多分一些心思给她。虽然小学生中午都不再睡觉，但是只要有时间我和她妈妈都会尽量接她回家来睡一会儿，在学校的时候也非常感谢宋老师照顾她中午休息的时候能让她休息一下，保证下午有足够的精力学习。</div><div>&nbsp; &nbsp; &nbsp; &nbsp;我们照顾两个孩子都如此费力，能想象的出每天看着好几十个孩子的老师是多么的不容易，所以我们也要尽力配合学校的安排，真心希望不再给老师增加负担。</div><div>&nbsp; &nbsp; &nbsp; &nbsp;这一年来看着我女儿一点点长大，前几天还带上了红领巾，心里的感激真不知如何表达，正好借此机会向两位老师致谢，非常感动，非常感谢！我为我女儿有两位这样优秀的老师为她开蒙而高兴，希望未来的几年她能在二位老师的教导下茁壮成长，也祝二位老师身体健康，一切顺利。</div><div>&nbsp; &nbsp; &nbsp; &nbsp;此内容同时发给宋老师，感谢！</div><div><br/></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 此致</div><div><br/></div><div>&nbsp; &nbsp; &nbsp;敬礼</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "85d4ba9861af91e0951cfc96651d60d96f98b82204f32ab01d9dd9cd8a98fdb6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/给数学李老师的信.html"
+      }
+    },
+    {
+      "id": "397c52cc-878a-4a21-ae40-8c9e8bfce8a9",
+      "note_id": "68ad9f32-981d-4be4-9f1c-b632f9271d4f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.368383Z",
+      "content": "---\ntitle: 给数学李老师的信\nupdated: 2018-05-29 14:29:41Z\ncreated: 2018-05-29 14:16:28Z\nauthor: tangyongfeng@gmail.com\n---\n\n李老师：\n       我女儿昨天回家后，我仔细观察没有什么大碍，晚上自己写完作业还出去玩了很久，回家洗澡睡觉一切都很好，没问题了，请您不必再担心。给您添麻烦了，希望不要给您带来困扰。\n       我女儿身体状况不好，性格敏感、怯懦，确实会让人操心，作为父母，我们也确实需要多分一些心思给她。虽然小学生中午都不再睡觉，但是只要有时间我和她妈妈都会尽量接她回家来睡一会儿，在学校的时候也非常感谢宋老师照顾她中午休息的时候能让她休息一下，保证下午有足够的精力学习。\n       我们照顾两个孩子都如此费力，能想象的出每天看着好几十个孩子的老师是多么的不容易，所以我们也要尽力配合学校的安排，真心希望不再给老师增加负担。\n       这一年来看着我女儿一点点长大，前几天还带上了红领巾，心里的感激真不知如何表达，正好借此机会向两位老师致谢，非常感动，非常感谢！我为我女儿有两位这样优秀的老师为她开蒙而高兴，希望未来的几年她能在二位老师的教导下茁壮成长，也祝二位老师身体健康，一切顺利。\n       此内容同时发给宋老师，感谢！\n                        此致\n     敬礼",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 615,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4ef72fec-b1fb-4f74-966f-3872ebbd9ee7",
+    "note_id": "68ad9f32-981d-4be4-9f1c-b632f9271d4f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.368387Z",
+    "finished_at": "2025-11-09T20:01:38.368387Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2faca5bd-7069-42d3-8ca0-3af847aa22e6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/可儿/给数学李老师的信.html",
+      "checksum": "85d4ba9861af91e0951cfc96651d60d96f98b82204f32ab01d9dd9cd8a98fdb6"
+    },
+    "output_ref": {
+      "ingest_source": "5a55c844-3afc-4ef9-820c-91e591764f1e",
+      "note": "68ad9f32-981d-4be4-9f1c-b632f9271d4f",
+      "variants": [
+        "46d4012b-db39-4ffd-8f5a-b961d5c2d99e",
+        "397c52cc-878a-4a21-ae40-8c9e8bfce8a9"
+      ]
+    },
+    "error_detail": null
+  }
+}

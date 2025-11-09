@@ -1,0 +1,44 @@
+---
+title: Ubuntu US CA
+updated: 2019-10-11 05:21:02Z
+created: 2019-10-11 05:21:02Z
+author: tangyongfeng@gmail.com
+---
+
+Ubuntu US CA
+
+ubuntu@ip-172-31-20-191
+
+mysql
+
+[client]
+
+host
+   
+ = localhost
+
+user
+   
+ = debian-sys-maint
+
+password = 49e3CuM0Pd5z9cLh
+
+socket
+ 
+ = /var/run/mysqld/mysqld.sock
+
+[mysql_upgrade]
+
+host
+   
+ = localhost
+
+user
+   
+ = debian-sys-maint
+
+password = 49e3CuM0Pd5z9cLh
+
+socket
+ 
+ = /var/run/mysqld/mysqld.sock

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3c8d47df-067c-4a31-8dd7-8b800c1b66d3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/拣号（挂号叫号）.html",
+    "collected_at": "2025-11-09T20:01:38.263757Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "91501b5cbb730874b318db92991f9d471d5ff676a45c68b442ba3f6b3798ef2a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "66105c1c-cd54-4bd9-a170-83bd6e63de10",
+    "ingest_source_id": "3c8d47df-067c-4a31-8dd7-8b800c1b66d3",
+    "canonical_title": "拣号（挂号叫号）",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.263760Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "拣号（挂号叫号）.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "44b14e0b-b391-4c52-90c6-756b17bc9c7f",
+      "note_id": "66105c1c-cd54-4bd9-a170-83bd6e63de10",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.263763Z",
+      "content": "---\ntitle: 拣号（挂号叫号）\nupdated: 2014-02-18 06:33:02Z\ncreated: 2014-02-18 06:07:23Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、从服务端挂号查询服务查询本人有效时段（服务器查询需指定时间范围，由客户端决定是自然日还是手动时间范围）已经挂号未拣号的清单。\n<div>2、罗列未治疗（看病)的病人名称和相关信息</div><div>3、选择病人，并获取病历资料，和挂号单据。</div><div>4、诊疗开始后，提交已签字的挂号单据</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "91501b5cbb730874b318db92991f9d471d5ff676a45c68b442ba3f6b3798ef2a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/拣号（挂号叫号）.html"
+      }
+    },
+    {
+      "id": "17a363e0-4db2-432b-9d28-6a45cc8a92b4",
+      "note_id": "66105c1c-cd54-4bd9-a170-83bd6e63de10",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.263765Z",
+      "content": "---\ntitle: 拣号（挂号叫号）\nupdated: 2014-02-18 06:33:02Z\ncreated: 2014-02-18 06:07:23Z\n---\n\n1、从服务端挂号查询服务查询本人有效时段（服务器查询需指定时间范围，由客户端决定是自然日还是手动时间范围）已经挂号未拣号的清单。\n\n2、罗列未治疗（看病)的病人名称和相关信息\n3、选择病人，并获取病历资料，和挂号单据。\n4、诊疗开始后，提交已签字的挂号单据",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 213,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "37181b32-a05e-4f1e-975a-b67043e5f214",
+    "note_id": "66105c1c-cd54-4bd9-a170-83bd6e63de10",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.263770Z",
+    "finished_at": "2025-11-09T20:01:38.263770Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7e52f0d3-0af8-4563-aab9-f23bdc6a2f5d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/拣号（挂号叫号）.html",
+      "checksum": "91501b5cbb730874b318db92991f9d471d5ff676a45c68b442ba3f6b3798ef2a"
+    },
+    "output_ref": {
+      "ingest_source": "3c8d47df-067c-4a31-8dd7-8b800c1b66d3",
+      "note": "66105c1c-cd54-4bd9-a170-83bd6e63de10",
+      "variants": [
+        "44b14e0b-b391-4c52-90c6-756b17bc9c7f",
+        "17a363e0-4db2-432b-9d28-6a45cc8a92b4"
+      ]
+    },
+    "error_detail": null
+  }
+}

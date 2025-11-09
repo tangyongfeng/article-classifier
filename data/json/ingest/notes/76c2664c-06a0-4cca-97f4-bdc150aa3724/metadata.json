@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "80b6eee6-609d-489f-9dc6-4251c0c19681",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Schreiben Ihrnen der Ausflug besonders für Ihrnen .html",
+    "collected_at": "2025-11-09T20:05:18.139369Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "39322e20bdedfa74f9b21d109a85986748cbf09acd541c4dbaba1a56378f8f67",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "76c2664c-06a0-4cca-97f4-bdc150aa3724",
+    "ingest_source_id": "80b6eee6-609d-489f-9dc6-4251c0c19681",
+    "canonical_title": "Schreiben Ihrnen der Ausflug besonders für Ihrnen ",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.139373Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Schreiben Ihrnen der Ausflug besonders für Ihrnen .html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c24c0adf-4c3d-4bf1-b157-367c6720fb6e",
+      "note_id": "76c2664c-06a0-4cca-97f4-bdc150aa3724",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.139375Z",
+      "content": "---\ntitle: Schreiben Ihrnen der Ausflug besonders für Ihrnen Freund\nupdated: 2020-10-15 06:38:22Z\ncreated: 2020-10-14 18:30:01Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - B1\n  - schreiben\n---\n\n\n<en-note><div>Sie haben am vergangenen Wochenende einen Ausflug gemacht.</div><div>Ein Freund / eine Freundin konnte nicht mitkommen , weil er / sie zu viel f&uuml;r die Uni lernen musste.</div><div><br/></div><ul><li><div>Beschreiben Sie : Wo waren Sie und wie war der Ausflug ?</div></li><li><div>Begr&uuml;nden Sie : Warum hat Ihnen der Ausflug besonders gefallen ?</div></li><li><div>Schlagen Sie &nbsp;vor ,sich zu treffen.</div></li></ul><div><br/></div><div>Schreiben Sie eine E-mail ( ca. 80 W&ouml;rter)</div><div>Schreiben Sie etwas zu allen drei Punkten.</div><div>Achten Sie auf den Textaufbau ( Anrede ,Einleitung , Reihenfolge der Inhaltspunkte,Schluss)</div><div><br/></div><hr/><div>Lieber Nico ,</div><div>Es is schade ,dass du nicht mitkommen &nbsp;uns Ausflug gemacht ist.&nbsp;</div><div>Gestern sind wir von D&uuml;sseldorf zur&uuml;ckgekommen , nachdem wir f&uuml;r zwei Tage die Stadt besucht haben.</div><div>Am Samstag haben wir D&uuml;sseldorfs Japanische Stra&szlig;en besucht, weil es &nbsp;eine Ausstellung der Manga &nbsp;dort gibt.</div><div>Wir haben am n&auml;chsten Tag auf &nbsp;der &nbsp;K&ouml;nigstra&szlig;e eingekauft. ich haben einen &nbsp;Pullover f&uuml;r dich &nbsp;gekauft. Das Wetter wird k&auml;lter, hast du Pullover ?</div><div>Ich werde dich besuchen und dir den geben.<br/></div><div><br/></div><div>Viele Gr&uuml;&szlig;e</div><div><br/></div><div>Yongfeng&nbsp;</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "39322e20bdedfa74f9b21d109a85986748cbf09acd541c4dbaba1a56378f8f67",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Schreiben Ihrnen der Ausflug besonders für Ihrnen .html"
+      }
+    },
+    {
+      "id": "be9e2e52-c9c2-4608-9549-480d4b6df094",
+      "note_id": "76c2664c-06a0-4cca-97f4-bdc150aa3724",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.139378Z",
+      "content": "---\ntitle: Schreiben Ihrnen der Ausflug besonders für Ihrnen Freund\nupdated: 2020-10-15 06:38:22Z\ncreated: 2020-10-14 18:30:01Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - B1\n  - schreiben\n---\n\nSie haben am vergangenen Wochenende einen Ausflug gemacht.\nEin Freund / eine Freundin konnte nicht mitkommen , weil er / sie zu viel für die Uni lernen musste.\nBeschreiben Sie : Wo waren Sie und wie war der Ausflug ?\nBegründen Sie : Warum hat Ihnen der Ausflug besonders gefallen ?\nSchlagen Sie  vor ,sich zu treffen.\nSchreiben Sie eine E-mail ( ca. 80 Wörter)\nSchreiben Sie etwas zu allen drei Punkten.\nAchten Sie auf den Textaufbau ( Anrede ,Einleitung , Reihenfolge der Inhaltspunkte,Schluss)\nLieber Nico ,\nEs is schade ,dass du nicht mitkommen  uns Ausflug gemacht ist. \nGestern sind wir von Düsseldorf zurückgekommen , nachdem wir für zwei Tage die Stadt besucht haben.\nAm Samstag haben wir Düsseldorfs Japanische Straßen besucht, weil es  eine Ausstellung der Manga  dort gibt.\nWir haben am nächsten Tag auf  der  Königstraße eingekauft. ich haben einen  Pullover für dich  gekauft. Das Wetter wird kälter, hast du Pullover ?\nIch werde dich besuchen und dir den geben.\nViele Grüße\nYongfeng",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1186,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a5be2262-fe3f-4b8e-b03d-150c3ff83a9c",
+    "note_id": "76c2664c-06a0-4cca-97f4-bdc150aa3724",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.139383Z",
+    "finished_at": "2025-11-09T20:05:18.139383Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "deb82c8f-27aa-4fa6-9d0b-13ed55b93858",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语2/Schreiben Ihrnen der Ausflug besonders für Ihrnen .html",
+      "checksum": "39322e20bdedfa74f9b21d109a85986748cbf09acd541c4dbaba1a56378f8f67"
+    },
+    "output_ref": {
+      "ingest_source": "80b6eee6-609d-489f-9dc6-4251c0c19681",
+      "note": "76c2664c-06a0-4cca-97f4-bdc150aa3724",
+      "variants": [
+        "c24c0adf-4c3d-4bf1-b157-367c6720fb6e",
+        "be9e2e52-c9c2-4608-9549-480d4b6df094"
+      ]
+    },
+    "error_detail": null
+  }
+}

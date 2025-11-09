@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "fa9d7915-7bbc-4d6b-bdd1-d5eb8a22df3e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/妈妈酒泉信息.html",
+    "collected_at": "2025-11-09T20:01:37.014644Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "a4af2beadf0c5b7f5ebb136ba4fff6f11f665dc137014e9515eeb4aa67f8f3a7",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ca77aa5b-92bf-4cce-945b-43608a09c6e7",
+    "ingest_source_id": "fa9d7915-7bbc-4d6b-bdd1-d5eb8a22df3e",
+    "canonical_title": "妈妈酒泉信息",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:37.014649Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "妈妈酒泉信息.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9611cc59-802e-432c-8fac-06ebfed5b67f",
+      "note_id": "ca77aa5b-92bf-4cce-945b-43608a09c6e7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.014652Z",
+      "content": "---\ntitle: 妈妈酒泉信息\nupdated: 2019-02-06 07:50:43Z\ncreated: 2019-02-06 07:43:56Z\n---\n\n\n\n<en-note><div>酒泉黑湖 姑姑家。 姑父 翟家武 原来玉门炼油厂的大师傅 个子高 小眼睛</div><div><br/></div><div>龚佩云 妈妈父亲</div><div><br/></div><div>龚艳秀 妈妈原名</div><div><br/></div><div>爷爷是酒泉县县长 大概62年去世 原甘肃省政协委员</div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a4af2beadf0c5b7f5ebb136ba4fff6f11f665dc137014e9515eeb4aa67f8f3a7",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/妈妈酒泉信息.html"
+      }
+    },
+    {
+      "id": "ebca65ee-12f7-4fbf-958b-84493b2b277e",
+      "note_id": "ca77aa5b-92bf-4cce-945b-43608a09c6e7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.014655Z",
+      "content": "---\ntitle: 妈妈酒泉信息\nupdated: 2019-02-06 07:50:43Z\ncreated: 2019-02-06 07:43:56Z\n---\n\n酒泉黑湖 姑姑家。 姑父 翟家武 原来玉门炼油厂的大师傅 个子高 小眼睛\n龚佩云 妈妈父亲\n龚艳秀 妈妈原名\n爷爷是酒泉县县长 大概62年去世 原甘肃省政协委员",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 163,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7e66b871-7ab6-4af4-b17d-23e0944c59ed",
+    "note_id": "ca77aa5b-92bf-4cce-945b-43608a09c6e7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.014660Z",
+    "finished_at": "2025-11-09T20:01:37.014660Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8d5123f7-ba99-413a-97e4-a257e8c2c3e5",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/妈妈酒泉信息.html",
+      "checksum": "a4af2beadf0c5b7f5ebb136ba4fff6f11f665dc137014e9515eeb4aa67f8f3a7"
+    },
+    "output_ref": {
+      "ingest_source": "fa9d7915-7bbc-4d6b-bdd1-d5eb8a22df3e",
+      "note": "ca77aa5b-92bf-4cce-945b-43608a09c6e7",
+      "variants": [
+        "9611cc59-802e-432c-8fac-06ebfed5b67f",
+        "ebca65ee-12f7-4fbf-958b-84493b2b277e"
+      ]
+    },
+    "error_detail": null
+  }
+}

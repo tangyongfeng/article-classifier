@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4c58121c-5bc9-4429-8a85-bf964fdcc724",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/www.alphavantage.co 股市信息数据库.html",
+    "collected_at": "2025-11-09T20:01:39.323180Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f08428bdfa8b18377fa0b726efbf0c19693540be217bfa13cd11cc31f61612df",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0e3e2624-365d-4c91-9361-85f881b84c12",
+    "ingest_source_id": "4c58121c-5bc9-4429-8a85-bf964fdcc724",
+    "canonical_title": "www.alphavantage.co 股市信息数据库",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.323184Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "www.alphavantage.co 股市信息数据库.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d7761b94-88e1-4214-830a-bb302e2556e4",
+      "note_id": "0e3e2624-365d-4c91-9361-85f881b84c12",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.323186Z",
+      "content": "---\ntitle: www.alphavantage.co 股市信息数据库\nupdated: 2022-09-16 09:01:21Z\ncreated: 2022-09-07 09:00:48Z\n---\n\n\n<en-note><div><span STYLE=\"color:rgb(51, 51, 51);\">Welcome to Alpha Vantage! Here is your API key: DR5BJUQAQ12O3BIE. Please record this API key at a safe place for future data access.</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f08428bdfa8b18377fa0b726efbf0c19693540be217bfa13cd11cc31f61612df",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/www.alphavantage.co 股市信息数据库.html"
+      }
+    },
+    {
+      "id": "c7c3b35c-db38-461c-8b88-04e016d7ee89",
+      "note_id": "0e3e2624-365d-4c91-9361-85f881b84c12",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.323189Z",
+      "content": "---\ntitle: www.alphavantage.co 股市信息数据库\nupdated: 2022-09-16 09:01:21Z\ncreated: 2022-09-07 09:00:48Z\n---\n\nWelcome to Alpha Vantage! Here is your API key: DR5BJUQAQ12O3BIE. Please record this API key at a safe place for future data access.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 236,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "bea902f7-59fc-43ca-840e-b45a893518cf",
+    "note_id": "0e3e2624-365d-4c91-9361-85f881b84c12",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.323194Z",
+    "finished_at": "2025-11-09T20:01:39.323194Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1ff55598-3ec7-4cac-bf60-0bfcda7db4c6",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/www.alphavantage.co 股市信息数据库.html",
+      "checksum": "f08428bdfa8b18377fa0b726efbf0c19693540be217bfa13cd11cc31f61612df"
+    },
+    "output_ref": {
+      "ingest_source": "4c58121c-5bc9-4429-8a85-bf964fdcc724",
+      "note": "0e3e2624-365d-4c91-9361-85f881b84c12",
+      "variants": [
+        "d7761b94-88e1-4214-830a-bb302e2556e4",
+        "c7c3b35c-db38-461c-8b88-04e016d7ee89"
+      ]
+    },
+    "error_detail": null
+  }
+}

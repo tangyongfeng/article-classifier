@@ -1,0 +1,38 @@
+---
+title: insert.cs
+updated: 2013-06-08 07:57:00Z
+created: 2013-06-08 07:56:53Z
+tags:
+  - SQLite
+  - c#
+---
+
+db = new SQLiteDatabase();
+
+Dictionary<String, String> data = new Dictionary<String, String>();
+
+data.Add("NAME", nameTextBox.Text);
+
+data.Add("DESCRIPTION", descriptionTextBox.Text);
+
+data.Add("PREP_TIME", prepTimeTextBox.Text);
+
+data.Add("COOKING_TIME", cookingTimeTextBox.Text);
+
+data.Add("COOKING_DIRECTIONS", "Placeholder");
+
+try
+
+{
+
+          db.Insert("RECIPE", data);
+
+}
+
+catch(Exception crap)
+
+{
+
+     MessageBox.Show(crap.Message);
+
+}

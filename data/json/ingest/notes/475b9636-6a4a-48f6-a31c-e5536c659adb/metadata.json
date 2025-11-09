@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c9838e99-b722-48ec-b784-d90ed9d779db",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/录音主题.html",
+    "collected_at": "2025-11-09T20:01:37.925790Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c4ac6f77c255d78de64903d58829338a7543800fb2cc79b5eb66cdb2fbd737d6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "475b9636-6a4a-48f6-a31c-e5536c659adb",
+    "ingest_source_id": "c9838e99-b722-48ec-b784-d90ed9d779db",
+    "canonical_title": "录音主题",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:37.925794Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "录音主题.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "04406078-d6fd-44c3-8864-61377b04fbd7",
+      "note_id": "475b9636-6a4a-48f6-a31c-e5536c659adb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.925797Z",
+      "content": "---\ntitle: 录音主题\nupdated: 2019-12-03 08:24:51Z\ncreated: 2019-12-03 08:11:23Z\n---\n\n\n\n<en-note><div>1、李春生录音：没有协商，你来不来无所谓</div><div>2、朱志新录音：没有协商，只是流程，以知晓不能到场</div><div>3、</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c4ac6f77c255d78de64903d58829338a7543800fb2cc79b5eb66cdb2fbd737d6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/录音主题.html"
+      }
+    },
+    {
+      "id": "14e0dce8-51fa-4e87-b632-dc9956c96046",
+      "note_id": "475b9636-6a4a-48f6-a31c-e5536c659adb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.925800Z",
+      "content": "---\ntitle: 录音主题\nupdated: 2019-12-03 08:24:51Z\ncreated: 2019-12-03 08:11:23Z\n---\n\n1、李春生录音：没有协商，你来不来无所谓\n2、朱志新录音：没有协商，只是流程，以知晓不能到场\n3、",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 130,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "580d990a-87bb-4956-ba57-7a378dc2e5c5",
+    "note_id": "475b9636-6a4a-48f6-a31c-e5536c659adb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.925805Z",
+    "finished_at": "2025-11-09T20:01:37.925806Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "57eb1029-c74d-4abd-a8d7-765888ac2489",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/录音主题.html",
+      "checksum": "c4ac6f77c255d78de64903d58829338a7543800fb2cc79b5eb66cdb2fbd737d6"
+    },
+    "output_ref": {
+      "ingest_source": "c9838e99-b722-48ec-b784-d90ed9d779db",
+      "note": "475b9636-6a4a-48f6-a31c-e5536c659adb",
+      "variants": [
+        "04406078-d6fd-44c3-8864-61377b04fbd7",
+        "14e0dce8-51fa-4e87-b632-dc9956c96046"
+      ]
+    },
+    "error_detail": null
+  }
+}

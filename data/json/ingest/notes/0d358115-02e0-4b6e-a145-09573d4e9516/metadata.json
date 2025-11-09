@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a40c48aa-3e7a-4a83-8c34-51f43acebdf9",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/家DSL地址.html",
+    "collected_at": "2025-11-09T20:05:17.582454Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "lv",
+    "captured_at": null,
+    "checksum": "9715e6360dc994bfa3969a8df80a4cd277d9ec2214e8611f8212421b55d5a314",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "0d358115-02e0-4b6e-a145-09573d4e9516",
+    "ingest_source_id": "a40c48aa-3e7a-4a83-8c34-51f43acebdf9",
+    "canonical_title": "家DSL地址",
+    "language": "lv",
+    "ingested_at": "2025-11-09T20:05:17.582457Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "家DSL地址.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "00d14bf0-8eca-4c3a-9cf0-b61c017f9bab",
+      "note_id": "0d358115-02e0-4b6e-a145-09573d4e9516",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.582460Z",
+      "content": "---\ntitle: 家DSL地址\nupdated: 2019-08-20 14:22:08Z\ncreated: 2019-08-20 14:21:28Z\n---\n\n\n<en-note><div><span STYLE=\"font-size: 14px;\"> dslb-084-059-211-001.084.059.pools.vodafone-ip.de [84.59.211.1]</span></div><div><span STYLE=\"font-size: 14px;\">&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 ms&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 ms&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 ms&nbsp;&nbsp;88.79.20.234</span></div><div><span STYLE=\"font-size: 14px;\">&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8 ms&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6 ms&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;7 ms&nbsp;&nbsp;188.111.173.152</span></div><div><span STYLE=\"font-size: 14px;\">&nbsp;&nbsp;5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8 ms&nbsp;&nbsp;&nbsp;&nbsp;12 ms&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8 ms&nbsp;&nbsp;188.111.129.24</span></div><div><span STYLE=\"font-size: 14px;\">&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;13 ms&nbsp;&nbsp;&nbsp;&nbsp;13 ms&nbsp;&nbsp;&nbsp;&nbsp;13 ms&nbsp;&nbsp;145.254.2.205</span></div><div><span STYLE=\"font-size: 14px;\">&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;&nbsp;13 ms&nbsp;&nbsp;&nbsp;&nbsp;14 ms&nbsp;&nbsp;&nbsp;&nbsp;12 ms&nbsp;&nbsp;72.14.222.128</span></div><div><span STYLE=\"font-size: 14px;\">&nbsp;&nbsp;8&nbsp;&nbsp;&nbsp;&nbsp;15 ms&nbsp;&nbsp;&nbsp;&nbsp;14 ms&nbsp;&nbsp;&nbsp;&nbsp;15 ms&nbsp;&nbsp;108.170.241.236</span></div><div><span STYLE=\"font-size: 14px;\">&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;&nbsp;16 ms&nbsp;&nbsp;&nbsp;&nbsp;21 ms&nbsp;&nbsp;&nbsp;&nbsp;17 ms&nbsp;&nbsp;209.85.254.49</span></div><div><span STYLE=\"font-size: 14px;\"> 10&nbsp;&nbsp;&nbsp;&nbsp;17 ms&nbsp;&nbsp;&nbsp;&nbsp;16 ms&nbsp;&nbsp;&nbsp;&nbsp;16 ms&nbsp;&nbsp;108.170.236.121</span></div><div><span STYLE=\"font-size: 14px;\"> 11&nbsp;&nbsp;&nbsp;&nbsp;16 ms&nbsp;&nbsp;&nbsp;&nbsp;17 ms&nbsp;&nbsp;&nbsp;&nbsp;16 ms&nbsp;&nbsp;209.85.241.230</span></div><div><span STYLE=\"font-size: 14px;\"> 12&nbsp;&nbsp;&nbsp;&nbsp;16 ms&nbsp;&nbsp;&nbsp;&nbsp;15 ms&nbsp;&nbsp;&nbsp;&nbsp;15 ms&nbsp;&nbsp;108.170.251.193</span></div><div><span STYLE=\"font-size: 14px;\"> 13&nbsp;&nbsp;&nbsp;&nbsp;17 ms&nbsp;&nbsp;&nbsp;&nbsp;17 ms&nbsp;&nbsp;&nbsp;&nbsp;16 ms&nbsp;&nbsp;216.239.40.59</span></div><div><span STYLE=\"font-size: 14px;\"> 14&nbsp;&nbsp;&nbsp;&nbsp;16 ms&nbsp;&nbsp;&nbsp;&nbsp;16 ms&nbsp;&nbsp;&nbsp;&nbsp;15 ms&nbsp;&nbsp;<a HREF=\"http://fra16s08-in-f196.1e100.net\">fra16s08-in-f196.1e100.net</a> [172.217.16.196]</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9715e6360dc994bfa3969a8df80a4cd277d9ec2214e8611f8212421b55d5a314",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/家DSL地址.html"
+      }
+    },
+    {
+      "id": "1f9bd5fe-8df1-4bf2-8e1b-3a501916b993",
+      "note_id": "0d358115-02e0-4b6e-a145-09573d4e9516",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.582463Z",
+      "content": "---\ntitle: 家DSL地址\nupdated: 2019-08-20 14:22:08Z\ncreated: 2019-08-20 14:21:28Z\n---\n\n dslb-084-059-211-001.084.059.pools.vodafone-ip.de [84.59.211.1]\n  3     6 ms     6 ms     6 ms  88.79.20.234\n  4     8 ms     6 ms     7 ms  188.111.173.152\n  5     8 ms    12 ms     8 ms  188.111.129.24\n  6    13 ms    13 ms    13 ms  145.254.2.205\n  7    13 ms    14 ms    12 ms  72.14.222.128\n  8    15 ms    14 ms    15 ms  108.170.241.236\n  9    16 ms    21 ms    17 ms  209.85.254.49\n 10    17 ms    16 ms    16 ms  108.170.236.121\n 11    16 ms    17 ms    16 ms  209.85.241.230\n 12    16 ms    15 ms    15 ms  108.170.251.193\n 13    17 ms    17 ms    16 ms  216.239.40.59\n 14    16 ms    16 ms    15 ms  \nfra16s08-in-f196.1e100.net\n [172.217.16.196]",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "lv",
+        "length": 740,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "da50d38c-b9ed-4fb0-9a39-83b13f4bda0b",
+    "note_id": "0d358115-02e0-4b6e-a145-09573d4e9516",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.582468Z",
+    "finished_at": "2025-11-09T20:05:17.582468Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "01fe42a3-c486-460d-be58-4a7a8a2af717",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德国1/家DSL地址.html",
+      "checksum": "9715e6360dc994bfa3969a8df80a4cd277d9ec2214e8611f8212421b55d5a314"
+    },
+    "output_ref": {
+      "ingest_source": "a40c48aa-3e7a-4a83-8c34-51f43acebdf9",
+      "note": "0d358115-02e0-4b6e-a145-09573d4e9516",
+      "variants": [
+        "00d14bf0-8eca-4c3a-9cf0-b61c017f9bab",
+        "1f9bd5fe-8df1-4bf2-8e1b-3a501916b993"
+      ]
+    },
+    "error_detail": null
+  }
+}

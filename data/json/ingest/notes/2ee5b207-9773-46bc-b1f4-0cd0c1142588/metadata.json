@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "51634aae-43d5-4448-8c02-dde002f6ebdd",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/15911 kennard st. hacienda heights, ca 91745 电话 62.html",
+    "collected_at": "2025-11-09T20:05:19.000871Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5c34d79d381963eff874acd8ca83d25e55a63ec057994e090e0df57df18590ee",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "2ee5b207-9773-46bc-b1f4-0cd0c1142588",
+    "ingest_source_id": "51634aae-43d5-4448-8c02-dde002f6ebdd",
+    "canonical_title": "15911 kennard st. hacienda heights, ca 91745 电话 62",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:19.000875Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "15911 kennard st. hacienda heights, ca 91745 电话 62.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1edde307-27e6-4a7a-a3fb-d96b3d829468",
+      "note_id": "2ee5b207-9773-46bc-b1f4-0cd0c1142588",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.000877Z",
+      "content": "---\ntitle: 15911 kennard st. hacienda heights, ca 91745 电话 6264006616\nupdated: 2012-12-24 08:25:39Z\ncreated: 2012-12-24 08:25:39Z\nlatitude: 34.06190000\nlongitude: -118.12200000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>15911 kennard st. hacienda heights, ca 91745 电话 6264006616</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5c34d79d381963eff874acd8ca83d25e55a63ec057994e090e0df57df18590ee",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/15911 kennard st. hacienda heights, ca 91745 电话 62.html"
+      }
+    },
+    {
+      "id": "f826f05d-d6d1-486e-bf16-9bb5eb139b5a",
+      "note_id": "2ee5b207-9773-46bc-b1f4-0cd0c1142588",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:19.000880Z",
+      "content": "---\ntitle: 15911 kennard st. hacienda heights, ca 91745 电话 6264006616\nupdated: 2012-12-24 08:25:39Z\ncreated: 2012-12-24 08:25:39Z\nlatitude: 34.06190000\nlongitude: -118.12200000\naltitude: 0.0000\n---\n\n15911 kennard st. hacienda heights, ca 91745 电话 6264006616",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 257,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8c5eb760-3de5-4d8e-9fb0-f022e6b9a4ca",
+    "note_id": "2ee5b207-9773-46bc-b1f4-0cd0c1142588",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:19.000884Z",
+    "finished_at": "2025-11-09T20:05:19.000885Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "58dfd1c1-9329-4237-bb8e-68b56dd2ea75",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/跃儿/15911 kennard st. hacienda heights, ca 91745 电话 62.html",
+      "checksum": "5c34d79d381963eff874acd8ca83d25e55a63ec057994e090e0df57df18590ee"
+    },
+    "output_ref": {
+      "ingest_source": "51634aae-43d5-4448-8c02-dde002f6ebdd",
+      "note": "2ee5b207-9773-46bc-b1f4-0cd0c1142588",
+      "variants": [
+        "1edde307-27e6-4a7a-a3fb-d96b3d829468",
+        "f826f05d-d6d1-486e-bf16-9bb5eb139b5a"
+      ]
+    },
+    "error_detail": null
+  }
+}

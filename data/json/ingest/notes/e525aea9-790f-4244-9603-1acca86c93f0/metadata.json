@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f192aa56-6d21-4567-ade9-094f03ff11ae",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/这６家专门收治“非典”的医院.html",
+    "collected_at": "2025-11-09T20:05:16.765372Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "ec270f093132cf65dc06c12e07efc5a56726fb75f35dc01ea8bde15212bdb1a6",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "e525aea9-790f-4244-9603-1acca86c93f0",
+    "ingest_source_id": "f192aa56-6d21-4567-ade9-094f03ff11ae",
+    "canonical_title": "这６家专门收治“非典”的医院",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:16.765378Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "这６家专门收治“非典”的医院.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d9e575fa-a1f5-4bf4-85ac-40f809a0b663",
+      "note_id": "e525aea9-790f-4244-9603-1acca86c93f0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.765382Z",
+      "content": "---\ntitle: 这６家专门收治“非典”的医院\nupdated: 2012-06-04 09:33:32Z\ncreated: 2012-06-04 09:33:15Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n这６家专门收治&ldquo;非典&rdquo;的医院分别是：地坛医院（安定门外地坛公园３号）、佑安医院（右安门外西头条８号）、北京胸科医院（温泉路１１８号）、丰台长辛店医院（长辛店大街东山坡三里甲６０号）、４０２医院（玉泉路西侧）、协和医院西院（西城区大木仓胡同４１号）\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ec270f093132cf65dc06c12e07efc5a56726fb75f35dc01ea8bde15212bdb1a6",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/这６家专门收治“非典”的医院.html"
+      }
+    },
+    {
+      "id": "401e170d-903a-4b41-8ec4-7c727f6fa8d8",
+      "note_id": "e525aea9-790f-4244-9603-1acca86c93f0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.765387Z",
+      "content": "---\ntitle: 这６家专门收治“非典”的医院\nupdated: 2012-06-04 09:33:32Z\ncreated: 2012-06-04 09:33:15Z\n---\n\n这６家专门收治“非典”的医院分别是：地坛医院（安定门外地坛公园３号）、佑安医院（右安门外西头条８号）、北京胸科医院（温泉路１１８号）、丰台长辛店医院（长辛店大街东山坡三里甲６０号）、４０２医院（玉泉路西侧）、协和医院西院（西城区大木仓胡同４１号）",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 214,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "47855626-703b-4979-b305-30fa36c3b087",
+    "note_id": "e525aea9-790f-4244-9603-1acca86c93f0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.765394Z",
+    "finished_at": "2025-11-09T20:05:16.765395Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "83d02e60-d80c-4dbe-b222-51c611badff3",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/这６家专门收治“非典”的医院.html",
+      "checksum": "ec270f093132cf65dc06c12e07efc5a56726fb75f35dc01ea8bde15212bdb1a6"
+    },
+    "output_ref": {
+      "ingest_source": "f192aa56-6d21-4567-ade9-094f03ff11ae",
+      "note": "e525aea9-790f-4244-9603-1acca86c93f0",
+      "variants": [
+        "d9e575fa-a1f5-4bf4-85ac-40f809a0b663",
+        "401e170d-903a-4b41-8ec4-7c727f6fa8d8"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "335c9f86-03e4-4183-8a08-eff8f540351d",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Feund und freunde und freundin und freundinnen.html",
+    "collected_at": "2025-11-09T20:01:38.803319Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a28ddabd00c31520586b416a910a989040b5c341934ffa5e1698f0db37147674",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "a20438a5-4f1f-4aef-bdf6-62c47641afa8",
+    "ingest_source_id": "335c9f86-03e4-4183-8a08-eff8f540351d",
+    "canonical_title": "Feund und freunde und freundin und freundinnen",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.803322Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Feund und freunde und freundin und freundinnen.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "087e544f-c47c-428d-bda0-b9772aeced2c",
+      "note_id": "a20438a5-4f1f-4aef-bdf6-62c47641afa8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.803325Z",
+      "content": "---\ntitle: Feund und freunde und freundin und freundinnen\nupdated: 2021-02-11 08:39:41Z\ncreated: 2021-02-10 02:11:16Z\nsource: >-\n  https://forum.duolingo.com/comment/35975937/Freund-vs-Freunde-vs-Freundin-vs-Freundinnen\n---\n\n\n<en-note><div><br/><div><b><br/></b></div></div><div><div><h1 DIR=\"ltr\"><span STYLE=\"font-style: normal; font-weight: 700;\">Freund vs. Freunde vs. Freundin vs. Freundinnen</span></h1><div><b><br/></b></div></div><div><span STYLE=\"font-style: normal; font-weight: 500;\">Male friend vs. friends vs. female friend vs. female friends</span></div><div><div><br/></div><div><div><span STYLE=\"font-style: normal; font-weight: 500;\">That is accurate. Here&apos;s how it works:</span></div><table><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/></colgroup><tbody><tr><td STYLE=\"box-sizing: inherit; font-family: din-round, sans-serif; outline: none; line-height: 22px; padding: 8px 12px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(223, 226, 229);\"></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">Singular</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">Plural</span></td></tr><tr><td><span STYLE=\"font-style: normal; font-weight: 500;\">Nominativ</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">der Freund</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">die Freunde</span></td></tr><tr><td><span STYLE=\"font-style: normal; font-weight: 500;\">Genitiv</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">des Freund(e)s</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">der Freunde</span></td></tr><tr><td><span STYLE=\"font-style: normal; font-weight: 500;\">Dativ</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">dem Freund</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">den Freunden</span></td></tr><tr><td><span STYLE=\"font-style: normal; font-weight: 500;\">Akkusativ</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">den Freund</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">die Freunde</span></td></tr></tbody></table><table><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/></colgroup><tbody><tr><td STYLE=\"box-sizing: inherit; font-family: din-round, sans-serif; outline: none; line-height: 22px; padding: 8px 12px; border-bottom-width: 2px; border-bottom-style: solid; border-bottom-color: rgb(223, 226, 229);\"></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">Singular</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">Plural</span></td></tr><tr><td><span STYLE=\"font-style: normal; font-weight: 500;\">Nominativ</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">die Freundin</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">die Freundinnen</span></td></tr><tr><td><span STYLE=\"font-style: normal; font-weight: 500;\">Genitiv</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">der Freundin</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">der Freundinnen</span></td></tr><tr><td><span STYLE=\"font-style: normal; font-weight: 500;\">Dativ</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">der Freundin</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">den Freundinnen</span></td></tr><tr><td><span STYLE=\"font-style: normal; font-weight: 500;\">Akkusativ</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">die Freundin</span></td><td><span STYLE=\"font-style: normal; font-weight: 500;\">die Freundinnen</span></td></tr></tbody></table><ul><div><span STYLE=\"font-style: normal; font-weight: 500;\">\n</span></div><li><div><span STYLE=\"font-style: normal; font-weight: 500;\">Additional notes: for mixed-gender groups, use the male plural variants (that&apos;s called &quot;generic masculine&quot;) or say something along the lines </span><span STYLE=\"font-style: italic; font-weight: 500;\">Freunde und Freundinnen</span><span STYLE=\"font-style: normal; font-weight: 500;\"> to include female friends explicitly. The female plural variants refer to all-female groups only.</span></div></li><li><div><span STYLE=\"font-style: normal; font-weight: 500;\">Add the appropriate possessive determiner (</span><span STYLE=\"font-style: italic; font-weight: 500;\">mein, dein, ihr, sein</span><span STYLE=\"font-style: normal; font-weight: 500;\">) in order to indicate that this a &quot;friend-friend&quot; since Germans don&apos;t have separate word for </span><span STYLE=\"font-style: italic; font-weight: 500;\">girlfriend</span><span STYLE=\"font-style: normal; font-weight: 500;\"> or </span><span STYLE=\"font-style: italic; font-weight: 500;\">boyfriend</span><span STYLE=\"font-style: normal; font-weight: 500;\">. This is not unambiguous though. Sometimes </span><span STYLE=\"font-style: italic; font-weight: 500;\">mein Freund</span><span STYLE=\"font-style: normal; font-weight: 500;\"> is just a regular friend.</span></div></li></ul></div><div><b><br/></b></div></div></div><div></div><div STYLE=\"box-sizing: inherit; font-family: din-round, sans-serif; outline: none;\"></div><div STYLE=\"box-sizing: inherit; font-family: din-round, sans-serif; outline: none;\"></div><div STYLE=\"box-sizing: inherit; font-family: din-round, sans-serif; outline: none;\"></div><div STYLE=\"box-sizing: inherit; font-family: din-round, sans-serif; outline: none;\"></div><div STYLE=\"box-sizing: inherit; font-family: din-round, sans-serif; outline: none;\"></div><div STYLE=\"box-sizing: inherit; font-family: din-round, sans-serif; outline: none;\"></div><div STYLE=\"box-sizing: inherit; font-family: din-round, sans-serif; outline: none;\"></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a28ddabd00c31520586b416a910a989040b5c341934ffa5e1698f0db37147674",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Feund und freunde und freundin und freundinnen.html"
+      }
+    },
+    {
+      "id": "a56a7ae0-c49b-4b09-92ca-1e092fa3ac37",
+      "note_id": "a20438a5-4f1f-4aef-bdf6-62c47641afa8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.803327Z",
+      "content": "---\ntitle: Feund und freunde und freundin und freundinnen\nupdated: 2021-02-11 08:39:41Z\ncreated: 2021-02-10 02:11:16Z\nsource: >-\n  https://forum.duolingo.com/comment/35975937/Freund-vs-Freunde-vs-Freundin-vs-Freundinnen\n---\n\nFreund vs. Freunde vs. Freundin vs. Freundinnen\nMale friend vs. friends vs. female friend vs. female friends\nThat is accurate. Here's how it works:\nSingular\nPlural\nNominativ\nder Freund\ndie Freunde\nGenitiv\ndes Freund(e)s\nder Freunde\nDativ\ndem Freund\nden Freunden\nAkkusativ\nden Freund\ndie Freunde\nSingular\nPlural\nNominativ\ndie Freundin\ndie Freundinnen\nGenitiv\nder Freundin\nder Freundinnen\nDativ\nder Freundin\nden Freundinnen\nAkkusativ\ndie Freundin\ndie Freundinnen\n\nAdditional notes: for mixed-gender groups, use the male plural variants (that's called \"generic masculine\") or say something along the lines\nFreunde und Freundinnen\n to include female friends explicitly. The female plural variants refer to all-female groups only.\nAdd the appropriate possessive determiner (\nmein, dein, ihr, sein\n) in order to indicate that this a \"friend-friend\" since Germans don't have separate word for\ngirlfriend\n or\nboyfriend\n. This is not unambiguous though. Sometimes\nmein Freund\n is just a regular friend.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1218,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4e6bd15f-a023-4dd8-bfbe-4479c68dd386",
+    "note_id": "a20438a5-4f1f-4aef-bdf6-62c47641afa8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.803332Z",
+    "finished_at": "2025-11-09T20:01:38.803332Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ca16dae2-4a8a-4a6f-b8b8-617deff5a736",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语1/Feund und freunde und freundin und freundinnen.html",
+      "checksum": "a28ddabd00c31520586b416a910a989040b5c341934ffa5e1698f0db37147674"
+    },
+    "output_ref": {
+      "ingest_source": "335c9f86-03e4-4183-8a08-eff8f540351d",
+      "note": "a20438a5-4f1f-4aef-bdf6-62c47641afa8",
+      "variants": [
+        "087e544f-c47c-428d-bda0-b9772aeced2c",
+        "a56a7ae0-c49b-4b09-92ca-1e092fa3ac37"
+      ]
+    },
+    "error_detail": null
+  }
+}

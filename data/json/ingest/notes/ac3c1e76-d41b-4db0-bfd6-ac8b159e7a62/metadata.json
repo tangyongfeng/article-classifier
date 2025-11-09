@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "cb5e53cd-1270-4174-81e3-3d75baa3ce72",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/组织者：websphere-1.html",
+    "collected_at": "2025-11-09T20:01:38.017338Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d64207f8f991e86a360daa58a419958fd888c843da705a5a68b333cf4a661273",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ac3c1e76-d41b-4db0-bfd6-ac8b159e7a62",
+    "ingest_source_id": "cb5e53cd-1270-4174-81e3-3d75baa3ce72",
+    "canonical_title": "组织者：websphere-1",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:38.017342Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "组织者：websphere-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7fcba92c-6b1c-453f-ac83-be5fac2215f3",
+      "note_id": "ac3c1e76-d41b-4db0-bfd6-ac8b159e7a62",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.017344Z",
+      "content": "---\ntitle: 组织者：websphere\nupdated: 2013-03-06 08:44:27Z\ncreated: 2013-03-06 08:43:57Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n组织者：websphere\n<div>主要speeker ：都是ibm的客户和ibm自己的人</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d64207f8f991e86a360daa58a419958fd888c843da705a5a68b333cf4a661273",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/组织者：websphere-1.html"
+      }
+    },
+    {
+      "id": "2afef4c2-8f8c-4cf5-8e62-097de663eccc",
+      "note_id": "ac3c1e76-d41b-4db0-bfd6-ac8b159e7a62",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.017347Z",
+      "content": "---\ntitle: 组织者：websphere\nupdated: 2013-03-06 08:44:27Z\ncreated: 2013-03-06 08:43:57Z\n---\n\n组织者：websphere\n\n主要speeker ：都是ibm的客户和ibm自己的人",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 132,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4811b997-6080-4a75-a3ac-3744eef997e0",
+    "note_id": "ac3c1e76-d41b-4db0-bfd6-ac8b159e7a62",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.017351Z",
+    "finished_at": "2025-11-09T20:01:38.017351Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f0d88b6e-566f-46be-ad36-aa300038c7db",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/组织者：websphere-1.html",
+      "checksum": "d64207f8f991e86a360daa58a419958fd888c843da705a5a68b333cf4a661273"
+    },
+    "output_ref": {
+      "ingest_source": "cb5e53cd-1270-4174-81e3-3d75baa3ce72",
+      "note": "ac3c1e76-d41b-4db0-bfd6-ac8b159e7a62",
+      "variants": [
+        "7fcba92c-6b1c-453f-ac83-be5fac2215f3",
+        "2afef4c2-8f8c-4cf5-8e62-097de663eccc"
+      ]
+    },
+    "error_detail": null
+  }
+}

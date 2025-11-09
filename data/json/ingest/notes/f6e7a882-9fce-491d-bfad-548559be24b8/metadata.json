@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a7124639-ae2c-419a-bb71-1edea2e34774",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/本阶段服务端工作.html",
+    "collected_at": "2025-11-09T20:01:38.275064Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "b55363a81639e55836b152bc8b4101d82d9087477140a89abbef12b0d65acdae",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f6e7a882-9fce-491d-bfad-548559be24b8",
+    "ingest_source_id": "a7124639-ae2c-419a-bb71-1edea2e34774",
+    "canonical_title": "本阶段服务端工作",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.275069Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "本阶段服务端工作.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "635d817f-c46c-4a53-9aaf-2c2c3a9f8f26",
+      "note_id": "f6e7a882-9fce-491d-bfad-548559be24b8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.275073Z",
+      "content": "---\ntitle: 本阶段服务端工作\nupdated: 2014-02-18 07:48:27Z\ncreated: 2014-02-13 07:02:42Z\nauthor: tangyongfeng\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>系统功能</div><div>0、提交&nbsp;</div><div>1、查询&nbsp;</div><div><br/></div><div>服务列表</div><div>1、挂号查询接口</div><div>2、登录服务</div><div><strike>3、用户管理服务</strike></div><div>4、工作人员管理 &nbsp; &nbsp;1、登录 &nbsp; 2、校验</div><div>5、会话管理（每次操作均刷新session）1、颁发session 2、刷新session 3、注销session</div><div>6、</div><div><br/></div>\n功能单据\n<div>0、建档</div><div>1、医嘱</div><div>2、取药</div><div>3、执行单</div><div>4、挂号</div><div>5、病案</div><div>6、收费单</div><div><br/></div><div>检索功能 &nbsp;(返回一个list)</div><div>索引</div><div>1、病历号码（挂号号码）</div><div><strike>2、单据（病案）号码</strike></div><div>3、姓名</div><div>4、 &nbsp;用户id</div><div>5、年龄</div><div>6、性别</div><div>6、、相关人员&nbsp;</div><div>7、单据类型</div><div>8、单据大类</div><div>9 、建立时间</div><div>10、最后修改时间</div><div>11、单位（科室）</div><div>12、地域</div><div>13、执行状态</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b55363a81639e55836b152bc8b4101d82d9087477140a89abbef12b0d65acdae",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/本阶段服务端工作.html"
+      }
+    },
+    {
+      "id": "2a19634b-53c6-4e2b-9013-780db819ae19",
+      "note_id": "f6e7a882-9fce-491d-bfad-548559be24b8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.275077Z",
+      "content": "---\ntitle: 本阶段服务端工作\nupdated: 2014-02-18 07:48:27Z\ncreated: 2014-02-13 07:02:42Z\nauthor: tangyongfeng\n---\n\n系统功能\n0、提交 \n1、查询 \n服务列表\n1、挂号查询接口\n2、登录服务\n3、用户管理服务\n4、工作人员管理    1、登录   2、校验\n5、会话管理（每次操作均刷新session）1、颁发session 2、刷新session 3、注销session\n6、\n\n功能单据\n\n0、建档\n1、医嘱\n2、取药\n3、执行单\n4、挂号\n5、病案\n6、收费单\n检索功能  (返回一个list)\n索引\n1、病历号码（挂号号码）\n2、单据（病案）号码\n3、姓名\n4、  用户id\n5、年龄\n6、性别\n6、、相关人员 \n7、单据类型\n8、单据大类\n9 、建立时间\n10、最后修改时间\n11、单位（科室）\n12、地域\n13、执行状态",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 414,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a9e83473-3afe-410c-9277-0999c1875801",
+    "note_id": "f6e7a882-9fce-491d-bfad-548559be24b8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.275083Z",
+    "finished_at": "2025-11-09T20:01:38.275084Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d0fe93e6-ee6b-4162-ba43-25512b21e7b8",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/本阶段服务端工作.html",
+      "checksum": "b55363a81639e55836b152bc8b4101d82d9087477140a89abbef12b0d65acdae"
+    },
+    "output_ref": {
+      "ingest_source": "a7124639-ae2c-419a-bb71-1edea2e34774",
+      "note": "f6e7a882-9fce-491d-bfad-548559be24b8",
+      "variants": [
+        "635d817f-c46c-4a53-9aaf-2c2c3a9f8f26",
+        "2a19634b-53c6-4e2b-9013-780db819ae19"
+      ]
+    },
+    "error_detail": null
+  }
+}

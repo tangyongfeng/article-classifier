@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ce25b9e8-cc0f-403d-bb34-16cc896ff5bf",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/华安基金账户密码.html",
+    "collected_at": "2025-11-09T20:01:39.499448Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "14e54d93200243d3296a4493d07e4735f8bc4ff01469684146340973fc615360",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4896c034-2144-420e-818d-40312c564022",
+    "ingest_source_id": "ce25b9e8-cc0f-403d-bb34-16cc896ff5bf",
+    "canonical_title": "华安基金账户密码",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:39.499452Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "华安基金账户密码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "fd2e7c87-fae9-4140-8b5e-595a11e1456a",
+      "note_id": "4896c034-2144-420e-818d-40312c564022",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.499454Z",
+      "content": "---\ntitle: 华安基金账户密码\nupdated: 2013-09-22 14:25:04Z\ncreated: 2013-09-22 14:08:19Z\nsource: https://ec.huaan.com.cn/trade/PurchasePageIndex\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n99***2\n<div><br/></div><div>银行关联密码1*7904*8</div><div><br/></div><div><table BORDER=\"0\" CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"785\"><tbody><tr><td WIDTH=\"220\"><div STYLE=\"MARGIN-TOP: 3px; WIDTH: 7px; DISPLAY: inline; FLOAT: right; MARGIN-RIGHT: 10px\"><table CELLPADDING=\"0\" WIDTH=\"7\"><tbody><tr><td HEIGHT=\"7\"><span STYLE=\"DISPLAY: none; CURSOR: hand\"><img src=\"../_resources/fffffaf01520088aa1fb8544602714c4.gif\"  hash=\"fffffaf01520088aa1fb8544602714c4\" style=\"cursor: default;cursor: default;\" type=\"image/gif\" alt=\"\" /></en-media></span></td></tr><tr><td HEIGHT=\"4\"><span STYLE=\"DISPLAY: none; CURSOR: hand\"><img src=\"../_resources/32d2bec2d1c1df41d4a49fb9e8409e3f.gif\"  hash=\"32d2bec2d1c1df41d4a49fb9e8409e3f\" style=\"cursor: default;cursor: default;\" type=\"image/gif\" alt=\"\" /></en-media></span></td></tr></tbody></table></div>\n您的基金账号： 041310323735 1/1</td></tr></tbody></table></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "14e54d93200243d3296a4493d07e4735f8bc4ff01469684146340973fc615360",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/华安基金账户密码.html"
+      }
+    },
+    {
+      "id": "9186486a-7153-4f76-a3ad-55ea2ea48dce",
+      "note_id": "4896c034-2144-420e-818d-40312c564022",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.499457Z",
+      "content": "---\ntitle: 华安基金账户密码\nupdated: 2013-09-22 14:25:04Z\ncreated: 2013-09-22 14:08:19Z\nsource: https://ec.huaan.com.cn/trade/PurchasePageIndex\n---\n\n99***2\n\n银行关联密码1*7904*8\n\n您的基金账号： 041310323735 1/1",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 189,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "282b4ace-cf7a-479c-8945-2de4ef6eb6b4",
+    "note_id": "4896c034-2144-420e-818d-40312c564022",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.499462Z",
+    "finished_at": "2025-11-09T20:01:39.499462Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9747a0a2-dbe6-49d0-8098-e13c99d726d1",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/投资/华安基金账户密码.html",
+      "checksum": "14e54d93200243d3296a4493d07e4735f8bc4ff01469684146340973fc615360"
+    },
+    "output_ref": {
+      "ingest_source": "ce25b9e8-cc0f-403d-bb34-16cc896ff5bf",
+      "note": "4896c034-2144-420e-818d-40312c564022",
+      "variants": [
+        "fd2e7c87-fae9-4140-8b5e-595a11e1456a",
+        "9186486a-7153-4f76-a3ad-55ea2ea48dce"
+      ]
+    },
+    "error_detail": null
+  }
+}

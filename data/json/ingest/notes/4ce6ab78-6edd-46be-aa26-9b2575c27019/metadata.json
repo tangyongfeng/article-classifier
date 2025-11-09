@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ac5954bb-8552-4e82-8095-6f9142384970",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/面粉.html",
+    "collected_at": "2025-11-09T20:05:16.804933Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "29d24ff1e32fc2ba51e1b508b05f9625e41637f49b5d26f2134a0fc7f12a6655",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4ce6ab78-6edd-46be-aa26-9b2575c27019",
+    "ingest_source_id": "ac5954bb-8552-4e82-8095-6f9142384970",
+    "canonical_title": "面粉",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.804936Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "面粉.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "598727bc-0b92-4c5e-9aca-13a9f64c7f63",
+      "note_id": "4ce6ab78-6edd-46be-aa26-9b2575c27019",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.804939Z",
+      "content": "---\ntitle: 面粉\nupdated: 2021-10-06 14:28:48Z\ncreated: 2021-10-06 14:25:40Z\n---\n\n\n\n<en-note><div><span STYLE=\"font-family: &quot;Courier New&quot;;\">低筋是550</span></div><div><span STYLE=\"font-family: &quot;Courier New&quot;;\">中筋是405</span></div><div><span STYLE=\"font-family: &quot;Courier New&quot;;\">高筋是605</span></div><div><span STYLE=\"caret-color: rgb(51, 51, 51); font-size: 17px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"><br/></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "29d24ff1e32fc2ba51e1b508b05f9625e41637f49b5d26f2134a0fc7f12a6655",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/面粉.html"
+      }
+    },
+    {
+      "id": "9b9fbf57-a7ab-4f75-9a29-b744b461be5f",
+      "note_id": "4ce6ab78-6edd-46be-aa26-9b2575c27019",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.804942Z",
+      "content": "---\ntitle: 面粉\nupdated: 2021-10-06 14:28:48Z\ncreated: 2021-10-06 14:25:40Z\n---\n\n低筋是550\n中筋是405\n高筋是605",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 99,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4dad4e14-3ecd-4fcf-8f12-d5191fcd8cc8",
+    "note_id": "4ce6ab78-6edd-46be-aa26-9b2575c27019",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.804946Z",
+    "finished_at": "2025-11-09T20:05:16.804947Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d1f87d03-6057-4097-af3e-1409970e234d",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/面粉.html",
+      "checksum": "29d24ff1e32fc2ba51e1b508b05f9625e41637f49b5d26f2134a0fc7f12a6655"
+    },
+    "output_ref": {
+      "ingest_source": "ac5954bb-8552-4e82-8095-6f9142384970",
+      "note": "4ce6ab78-6edd-46be-aa26-9b2575c27019",
+      "variants": [
+        "598727bc-0b92-4c5e-9aca-13a9f64c7f63",
+        "9b9fbf57-a7ab-4f75-9a29-b744b461be5f"
+      ]
+    },
+    "error_detail": null
+  }
+}

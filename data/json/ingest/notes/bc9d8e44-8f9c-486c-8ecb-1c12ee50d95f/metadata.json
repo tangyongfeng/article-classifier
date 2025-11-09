@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "897280b2-4027-4654-95d2-975d12ad4e8c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/佛学/舌上有龙泉.html",
+    "collected_at": "2025-11-09T20:05:17.286713Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "7f32f67a38207e616d5385e77b07ab574372758d8947e6e04dbd15180b48029e",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "bc9d8e44-8f9c-486c-8ecb-1c12ee50d95f",
+    "ingest_source_id": "897280b2-4027-4654-95d2-975d12ad4e8c",
+    "canonical_title": "舌上有龙泉",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.286717Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "舌上有龙泉.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2a55969b-3324-4a59-af2f-9948ace28912",
+      "note_id": "bc9d8e44-8f9c-486c-8ecb-1c12ee50d95f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.286720Z",
+      "content": "---\ntitle: 舌上有龙泉\nupdated: 2015-08-03 10:50:25Z\ncreated: 2015-08-03 10:50:10Z\n---\n\n\n\n<en-note>&ldquo;唐太宗问许敬宗曰：&ldquo;朕观群臣之中，惟卿最贤，人有议其非者，何也？&rdquo;敬宗对曰：&ldquo;春雨如膏，滋生万物，农民喜其润泽，行人恶其泥泞；秋月如镜，普照四方，佳人喜其玩赏，盗贼恶其辉光，天地大尚不可满足人愿，何况臣乎？臣无肥羊美酒，难调众人之口，且是非不可听，听之不可信，君听臣遭戮，父听子遭诛，夫妇听之离，亲戚听之疏，乡邻听之绝，人生七尺躯，谨防三寸舌，舌上有龙泉，杀人不见血。谁人面前不说人？谁人背后无人说？&rdquo; 。太宗曰：&ldquo;卿言甚善，朕当识之&rdquo;。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7f32f67a38207e616d5385e77b07ab574372758d8947e6e04dbd15180b48029e",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/佛学/舌上有龙泉.html"
+      }
+    },
+    {
+      "id": "c6301733-b41a-4832-8c95-c581b4c82b0c",
+      "note_id": "bc9d8e44-8f9c-486c-8ecb-1c12ee50d95f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.286723Z",
+      "content": "---\ntitle: 舌上有龙泉\nupdated: 2015-08-03 10:50:25Z\ncreated: 2015-08-03 10:50:10Z\n---\n\n“唐太宗问许敬宗曰：“朕观群臣之中，惟卿最贤，人有议其非者，何也？”敬宗对曰：“春雨如膏，滋生万物，农民喜其润泽，行人恶其泥泞；秋月如镜，普照四方，佳人喜其玩赏，盗贼恶其辉光，天地大尚不可满足人愿，何况臣乎？臣无肥羊美酒，难调众人之口，且是非不可听，听之不可信，君听臣遭戮，父听子遭诛，夫妇听之离，亲戚听之疏，乡邻听之绝，人生七尺躯，谨防三寸舌，舌上有龙泉，杀人不见血。谁人面前不说人？谁人背后无人说？” 。太宗曰：“卿言甚善，朕当识之”。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 302,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7154426f-6d6b-4285-805b-1205a51fa7fa",
+    "note_id": "bc9d8e44-8f9c-486c-8ecb-1c12ee50d95f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.286729Z",
+    "finished_at": "2025-11-09T20:05:17.286729Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7ac6e465-ab5f-4a5a-9fe7-d955003fd0ff",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/佛学/舌上有龙泉.html",
+      "checksum": "7f32f67a38207e616d5385e77b07ab574372758d8947e6e04dbd15180b48029e"
+    },
+    "output_ref": {
+      "ingest_source": "897280b2-4027-4654-95d2-975d12ad4e8c",
+      "note": "bc9d8e44-8f9c-486c-8ecb-1c12ee50d95f",
+      "variants": [
+        "2a55969b-3324-4a59-af2f-9948ace28912",
+        "c6301733-b41a-4832-8c95-c581b4c82b0c"
+      ]
+    },
+    "error_detail": null
+  }
+}

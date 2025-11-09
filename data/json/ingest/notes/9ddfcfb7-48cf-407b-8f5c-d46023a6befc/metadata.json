@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "be496b5d-1cd6-4021-8934-2f79d362009c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/oracle.com 用户名.html",
+    "collected_at": "2025-11-09T20:01:35.016172Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a818cee49dcb2f0854043a23cd0fd9ab218dd7e6e3a4f1e17d51f278ec4d1a48",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "9ddfcfb7-48cf-407b-8f5c-d46023a6befc",
+    "ingest_source_id": "be496b5d-1cd6-4021-8934-2f79d362009c",
+    "canonical_title": "oracle.com 用户名",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:35.016176Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "oracle.com 用户名.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c0d33b59-7601-4e55-b266-fd118d179589",
+      "note_id": "9ddfcfb7-48cf-407b-8f5c-d46023a6befc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.016179Z",
+      "content": "---\ntitle: oracle.com 用户名\nupdated: 2013-12-05 09:24:41Z\ncreated: 2013-12-05 09:24:13Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"mailto:tangyf@clo.com.cn\">tangyf@clo.com.cn</a>&nbsp;\n<div>We*******3</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a818cee49dcb2f0854043a23cd0fd9ab218dd7e6e3a4f1e17d51f278ec4d1a48",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/oracle.com 用户名.html"
+      }
+    },
+    {
+      "id": "37e04269-b92e-414a-9d46-e51441318e5d",
+      "note_id": "9ddfcfb7-48cf-407b-8f5c-d46023a6befc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:35.016182Z",
+      "content": "---\ntitle: oracle.com 用户名\nupdated: 2013-12-05 09:24:41Z\ncreated: 2013-12-05 09:24:13Z\n---\n\ntangyf@clo.com.cn\n \nWe*******3",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 121,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ec1c1835-ce00-45bd-95c6-9bd27f1ca10d",
+    "note_id": "9ddfcfb7-48cf-407b-8f5c-d46023a6befc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:35.016187Z",
+    "finished_at": "2025-11-09T20:01:35.016187Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "07d4949f-d677-4cc3-ba9f-02c5a483b428",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/oracle.com 用户名.html",
+      "checksum": "a818cee49dcb2f0854043a23cd0fd9ab218dd7e6e3a4f1e17d51f278ec4d1a48"
+    },
+    "output_ref": {
+      "ingest_source": "be496b5d-1cd6-4021-8934-2f79d362009c",
+      "note": "9ddfcfb7-48cf-407b-8f5c-d46023a6befc",
+      "variants": [
+        "c0d33b59-7601-4e55-b266-fd118d179589",
+        "37e04269-b92e-414a-9d46-e51441318e5d"
+      ]
+    },
+    "error_detail": null
+  }
+}

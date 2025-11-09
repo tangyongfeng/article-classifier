@@ -1,0 +1,77 @@
+---
+title: Open edX官方提供5种方式扩展edx
+updated: 2021-01-16 23:19:05Z
+created: 2021-01-16 23:18:24Z
+author: tangyongfeng@gmail.com
+tags:
+  - openedx
+---
+
+github地址：
+https://github.com/edx/edx-platform/wiki/Five-ways-to-extend-edX
+
+jsinput -- 创建介绍js级别的组件并提供getState(), setState(), 和 getGrade()方法
+LTI -- edX 现在支持 LTI 1.1 , LTI 2.0 还是开发中
+custom grader -- Code can be run on an external server to do arbitrary work to grade problems. With our
+Database Class
+ we've had some success returning not just grades, but also an HTML block to be rendered with an answer. We return the query result, complete with HTML table formatting tags. See
+this screenshot
+ as an example: the contents of the blue box is what was returned by the grader.
+XBlock
+hack on core code
+
+JSinput
+LTI
+External Grader
+XBlock
+Hack The Core!
+开发成本
+Low
+Med
+High
+语言
+JS
+any
+Python
+开发环境
+no
+yes
+本地组件
+no
+yes
+no
+需要edx整合
+no
+yes
+基于iframe的ui
+yes
+no [1]
+yes
+移动端
+maybe
+yes
+服务端分级
+no [2]
+yes
+日志记录
+no [3]
+no
+limited
+yes (?)
+yes
+Studio里的约束
+no
+yes
+no
+隐私相关
+no
+possibly [4]
+no
+Notes:
+
+[1] Only LTI components delivered via https can be iframed in Many are served over http only. And even then they usually have their own look and feel. For example, Piazza can be iFramed in, but has its own navigation elements and their color scheme (see
+http://networking.class.stanford.edu/
+ for an example).
+[2] JSInput does have a small place where python could do server side grading, but doing it there would be pretty hacky and difficult to maintain.
+[3] JSInput really only exposes the getState, putState, getGrade methods. But is there any reason why we can’t also document / publish the tracking endpoint (/events/user_track I believe)
+[4] Privacy and secrecy issues are important in some areas of the world, and only becoming more important because of the news. If you have to self host OpenEdx because of that, this row indicates the guarantees that you can offer your students in that area. "Possibly" indicates that the guarantees will have to depend on the solution chosen for that particular use case. Note that both LTI and external graders allow for anonymization, but this might not be enough to allow for the use of some external tools within the constraints.

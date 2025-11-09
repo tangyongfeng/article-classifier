@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d068cae0-f82c-446c-936f-f46c7e693cbb",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/论坛密码.html",
+    "collected_at": "2025-11-09T20:05:17.422540Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "pl",
+    "captured_at": null,
+    "checksum": "73ef6f2bc7a65fe911b2ff89021e0029ffcaaca09e75971a7eda6ec9c8ba9af3",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "b4551b93-d452-4b0e-bd80-f4f37f83d3fb",
+    "ingest_source_id": "d068cae0-f82c-446c-936f-f46c7e693cbb",
+    "canonical_title": "论坛密码",
+    "language": "pl",
+    "ingested_at": "2025-11-09T20:05:17.422544Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "论坛密码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a4be6541-612e-4b64-96ea-ee24cddef426",
+      "note_id": "b4551b93-d452-4b0e-bd80-f4f37f83d3fb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.422546Z",
+      "content": "---\ntitle: 论坛密码\nupdated: 2014-03-20 09:20:57Z\ncreated: 2014-03-04 04:50:27Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nadmin&nbsp;\n<div>bbsadminadmin</div><div><br/></div><div>12018714pntw<br/>\nzczx101010<br/><a HREF=\"http://www.zhaopin.com/\">www.zhaopin.com</a></div><div><br/></div><div>www.51job.com<br/>\n用户名：北京中彩在线<br/>\n用户：zczxgs<br/>\n密码202020</div><div><br/></div><div>www.zhaopin.com<br/>\n用户名：12018714pntw<br/>\n密码：zczx101010<br/><br/>\nwww.51job.com<br/>\n用户名：北京中彩在线<br/>\n用户：zczxg<br/>\n密码：zczx101010</div><div><br/></div><div><br/></div><div>88414048-8010 姬小姐 新天地</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "73ef6f2bc7a65fe911b2ff89021e0029ffcaaca09e75971a7eda6ec9c8ba9af3",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/论坛密码.html"
+      }
+    },
+    {
+      "id": "16a3b8ff-f15b-4a82-b7cf-b348aeb6d803",
+      "note_id": "b4551b93-d452-4b0e-bd80-f4f37f83d3fb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.422549Z",
+      "content": "---\ntitle: 论坛密码\nupdated: 2014-03-20 09:20:57Z\ncreated: 2014-03-04 04:50:27Z\n---\n\nadmin \n\nbbsadminadmin\n12018714pntw\n\nzczx101010\nwww.zhaopin.com\nwww.51job.com\n\n用户名：北京中彩在线\n\n用户：zczxgs\n\n密码202020\nwww.zhaopin.com\n\n用户名：12018714pntw\n\n密码：zczx101010\n\nwww.51job.com\n\n用户名：北京中彩在线\n\n用户：zczxg\n\n密码：zczx101010\n88414048-8010 姬小姐 新天地",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "pl",
+        "length": 313,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f8782f28-44fb-4169-a717-fdae163599f2",
+    "note_id": "b4551b93-d452-4b0e-bd80-f4f37f83d3fb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.422554Z",
+    "finished_at": "2025-11-09T20:05:17.422554Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2bc5b33e-60f4-4af8-9859-c4825ff3a3d5",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/论坛密码.html",
+      "checksum": "73ef6f2bc7a65fe911b2ff89021e0029ffcaaca09e75971a7eda6ec9c8ba9af3"
+    },
+    "output_ref": {
+      "ingest_source": "d068cae0-f82c-446c-936f-f46c7e693cbb",
+      "note": "b4551b93-d452-4b0e-bd80-f4f37f83d3fb",
+      "variants": [
+        "a4be6541-612e-4b64-96ea-ee24cddef426",
+        "16a3b8ff-f15b-4a82-b7cf-b348aeb6d803"
+      ]
+    },
+    "error_detail": null
+  }
+}

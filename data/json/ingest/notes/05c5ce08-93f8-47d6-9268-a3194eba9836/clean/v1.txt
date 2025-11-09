@@ -1,0 +1,33 @@
+---
+title: 用户推测
+updated: 2013-06-08 05:52:02Z
+created: 2013-04-15 19:55:48Z
+---
+
+active user:5M
+
+login:20k/sec
+
+bet:300/sec（1 wtcf query,1 wtcf update)
+
+query:200k/sec (1 wtcf query)
+
+5亿用户，20%来玩，5%在线人数，5m
+
+查询来源，每1.5次投注1次查询，每次查询wtcf不更新，否则压力太大了
+
+bet :300K
+
+Query:200K
+
+Login:20K
+
+activeuser:5M
+
+50m/20k=250 sec 在线时间
+
+5m/（300k+200K)=10次/sec  每次操作的间隔
+
+ 250秒中有15次bet10次查询
+
+按照这次测试的推算1000bet 1个core

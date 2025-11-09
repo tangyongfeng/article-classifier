@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "49f6c7ff-02b6-4f07-9a96-59527805fcb3",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/序数词.html",
+    "collected_at": "2025-11-09T20:05:18.283541Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "14bf1f18c5bc9c636822a3547a898d800c04b2334427485818586e386e28539a",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "1a6a1cd0-194d-4828-b92d-559d5c74dd30",
+    "ingest_source_id": "49f6c7ff-02b6-4f07-9a96-59527805fcb3",
+    "canonical_title": "序数词",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:05:18.283545Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "序数词.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "68d1c531-672a-422f-b311-21e7addbc067",
+      "note_id": "1a6a1cd0-194d-4828-b92d-559d5c74dd30",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.283547Z",
+      "content": "---\ntitle: 序数词\nupdated: 2020-03-08 12:50:11Z\ncreated: 2020-03-08 12:49:51Z\n---\n\n\n\n<en-note><div><br/></div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/></colgroup><tbody><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>1：第一</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der &nbsp;erste</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>11：第十一</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der &nbsp; elfte</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>2：第二</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>der &nbsp;zweite</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>12：第十二</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>der &nbsp;zw&ouml;lfte</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>3：第三</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>der &nbsp;dritte</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>13：第十三</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>der &nbsp;dreizehnte</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>4：第四</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>der &nbsp;vierte</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>14：第十四</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>der &nbsp;vierzehnte</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>5：第五</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der&nbsp; f&uuml;nfte</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>15：第十五</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der&nbsp; f&uuml;nfzehnte</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>6：第六</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der &nbsp;sechste</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>16：第十六</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der &nbsp;sechzehnte</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>7：第七</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der  siebte</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>17：第十七</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der &nbsp;siebzehnte</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>8：第八</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der &nbsp;achte</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>18：第十八</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der &nbsp;achtzehnte</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>9：第九</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der &nbsp;neunte</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>19：第十九</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"22\"><div>der &nbsp;neunzehnte</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>10：第十</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\" HEIGHT=\"24\"><div>der&nbsp; zehnte</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><br/></div></td></tr></tbody></table><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "14bf1f18c5bc9c636822a3547a898d800c04b2334427485818586e386e28539a",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/序数词.html"
+      }
+    },
+    {
+      "id": "3ccc4b62-2207-48ab-9704-403245bf606d",
+      "note_id": "1a6a1cd0-194d-4828-b92d-559d5c74dd30",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.283550Z",
+      "content": "---\ntitle: 序数词\nupdated: 2020-03-08 12:50:11Z\ncreated: 2020-03-08 12:49:51Z\n---\n\n1：第一\nder  erste\n11：第十一\nder   elfte\n2：第二\nder  zweite\n12：第十二\nder  zwölfte\n3：第三\nder  dritte\n13：第十三\nder  dreizehnte\n4：第四\nder  vierte\n14：第十四\nder  vierzehnte\n5：第五\nder  fünfte\n15：第十五\nder  fünfzehnte\n6：第六\nder  sechste\n16：第十六\nder  sechzehnte\n7：第七\nder  siebte\n17：第十七\nder  siebzehnte\n8：第八\nder  achte\n18：第十八\nder  achtzehnte\n9：第九\nder  neunte\n19：第十九\nder  neunzehnte\n10：第十\nder  zehnte",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 449,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e5ab009a-f06b-4c7d-b2e6-f2176cbbf4fc",
+    "note_id": "1a6a1cd0-194d-4828-b92d-559d5c74dd30",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.283554Z",
+    "finished_at": "2025-11-09T20:05:18.283554Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "383ca873-2a9e-4f42-be7f-df4d04d05e36",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/序数词.html",
+      "checksum": "14bf1f18c5bc9c636822a3547a898d800c04b2334427485818586e386e28539a"
+    },
+    "output_ref": {
+      "ingest_source": "49f6c7ff-02b6-4f07-9a96-59527805fcb3",
+      "note": "1a6a1cd0-194d-4828-b92d-559d5c74dd30",
+      "variants": [
+        "68d1c531-672a-422f-b311-21e7addbc067",
+        "3ccc4b62-2207-48ab-9704-403245bf606d"
+      ]
+    },
+    "error_detail": null
+  }
+}

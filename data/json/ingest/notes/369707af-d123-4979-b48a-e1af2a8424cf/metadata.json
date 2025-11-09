@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "a6bec769-975e-4601-9902-2d59af508102",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ZeroTier 初阶教程 - 天涼好個秋.html",
+    "collected_at": "2025-11-09T20:01:34.600470Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d77245c0bc303f76700e6bf02428a6435b52b54011dbfb9cc98810a253023b33",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "369707af-d123-4979-b48a-e1af2a8424cf",
+    "ingest_source_id": "a6bec769-975e-4601-9902-2d59af508102",
+    "canonical_title": "ZeroTier 初阶教程 - 天涼好個秋",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.600474Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ZeroTier 初阶教程 - 天涼好個秋.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "38a67cb8-ac26-46af-8b7e-7fb216e0069c",
+      "note_id": "369707af-d123-4979-b48a-e1af2a8424cf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.600477Z",
+      "content": "---\ntitle: ZeroTier 初阶教程 - 天涼好個秋.\nupdated: 2018-02-20 17:18:58Z\ncreated: 2018-02-20 16:32:24Z\nsource: https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div STYLE=\"font-size: 16px\"><div><div><div>&nbsp; &nbsp;&nbsp;&nbsp; ZeroTier 初阶教程&nbsp; </div>&nbsp; &nbsp;&nbsp;&nbsp; 2018.02.03432 阅<a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#disqus_thread\">4 评</a>&nbsp;&nbsp;&nbsp; <a SHAPE=\"rect\" HREF=\"https://stray.love/category/%E6%95%99%E7%A8%8B\">教程</a>&nbsp; </div>&nbsp; <a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#toc_0\">什么是 ZeroTier</a><a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#toc_1\">ZeroTier 的优势是什么</a><a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#toc_2\">初阶教程 点对点链接</a><a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#toc_3\">注册 ZeroTier 账号</a><a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#toc_4\">创建 Network</a><a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#toc_5\">设置 Network</a><a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#toc_6\">客户端使用</a><a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#toc_7\">连通性测试</a><a SHAPE=\"rect\" HREF=\"https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng#toc_8\">其他</a></div>什么是 ZeroTier&nbsp;&nbsp;&nbsp; <img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/zerotier.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/>&nbsp;&nbsp;&nbsp; ZeroTier delivers the capabilities of VPNs, SDN, and SD-WAN with a single system. Manage all your connected resources across both local and wide area networks as if the whole world is a single data center.&nbsp;&nbsp;&nbsp; 简单来说，ZeroTier 是一款简单易用的，在任何有网络的地方，都可以连回家里、公司、学校，而无需公网 IP 和复杂端口转发配置，基于 p2p 技术的内网穿透工具。&nbsp;&nbsp;&nbsp; 更形象一点的说法是，ZeroTier 就像虚拟的交换机，所有 ZeroTier 的客户端节点都可以互访互通。ZeroTier 的优势是什么<li>跨平台。客户端涵盖主流的设备： Windows、MacOS、Linux、iOS、Android、QNAP NAS、Synology NAS、Western Digital MyCloud NAS、Openwrt</li><li>控制端（ZeroTier 官网）功能足够强大。可以下发路由表、设备准入控制、IP 分配、流量规则等，ZeroTier 会自动下发配置，只需启动客户端即可。</li><li>客户端配置简单。ZeroTier 会自动下发配置，所以只需填入 Network ID 启动 ZeroTier 就可以了，这对于很多智能设备、嵌入式设备很友好。</li><li>可以建立中转服务器（Moon 服务器）。在网络高峰期，或者某些众所周知（qiang）的原因会导致 ZeroTier 官方服务器链接困难，此时可以自己建立 Moon 服务器，从而实现更好的链接效果。</li><li>接近于免费。个人用户最多可以接入 100 节点设备，完全能满足一般人的需求，而在路由表配置得当的情况下，两个节点就可以使两个内网完全互联（异地组网），这样就远不止100 设备那么少了。</li><li>客户端开源。这就意味着在官方不提供客户端的设备上，你完全可以自己编译。</li>初阶教程 点对点链接注册 ZeroTier 账号<li>访问 ZeroTier 官网 <a SHAPE=\"rect\" HREF=\"https://my.zerotier.com/login\" TARGET=\"_blank\">传送门</a></li><li>推荐使用 Google 账户快速登陆</li><li>使用其他注册方式的略过吧，相信你能搞定</li>创建 Network<li>登陆后点击 Networks 选项卡</li>&nbsp;&nbsp;&nbsp; <img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/creat_network_id.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/><li>点击 Creat 创建 Networks</li>&nbsp;&nbsp;&nbsp; <img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/creat_network_id_1.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/><li>点击新创建出的 Networks 进行设置</li>&nbsp;&nbsp;&nbsp; <img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/created_network_id.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/>设置 Network&nbsp;&nbsp;&nbsp; 创建好了 Network 后，一般情况下无需设置就可以使用了。着急上手的朋友可以跳过设置这一节，下面介绍一些设置的说明。&nbsp;&nbsp;&nbsp; 设置项分四大类，常用其中两项 Settings 和 Members。&nbsp;&nbsp;&nbsp; <img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/network_setting.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/><li>Settings 常用设置项的解释<li>Network ID: 网络 ID ，客户端使用此 ID 加入到网络中</li><li>Name &amp; Description: 设定 Network 的名称和描述，可任意修改</li><li>Access Control: 设定 Network 的类型，其中 Certificate (Private Network) 是私有网络，节点的加入需要审核。None (Public Network) 加入不需要任何审核。推荐选择私有网络</li><li>Multicast Recipient Limit 不用管系列</li><li>Managed Routes: 路由表设置，初阶教程中不需要修改</li><li>IPv4 Auto-Assign: 节点 IPv4 自动分配，这里只要保证自动分配的网段和节点的 IP 不冲突即可</li><li>IPv6 Auto-Assign: 节点 IPv6 自动分配，可以忽略</li></li><li>Members 顾名思义，就是节点状态查看和管理，包括在线状态、准入、拉黑、改名、添加描述、设置静态 IP。</li>&nbsp;&nbsp;&nbsp; 嗯~！除了注意分配的 IPv4 不和节点 IP 冲突，基本没有其他的注意项目了。客户端使用&nbsp;&nbsp;&nbsp; 这里以 Windows 和 Android 为例，期待的结果是两者可以互相访问。&nbsp;&nbsp;&nbsp; 客户端下载 <a SHAPE=\"rect\" HREF=\"https://www.zerotier.com/download.shtml\" TARGET=\"_blank\">传送门</a><li>Windows <li>下载安装，运行 Windows 客户端之后，点击右下角区域的 ZeroTier 图标，选择join network<img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/Windows_join.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/></li><li>输入 Network ID ,然后点击 join<br CLEAR=\"none\"/><img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/Windows_network_id.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/></li><li>点击右下角的 ZeroTier 图标，选择 show networks<br CLEAR=\"none\"/><img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/deauth_network.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/></li><li>status 显示为 ACCESS_DENIED，这说明设备没有被准入，去查看 Members 选项，确认设备确实是当前设备后，点击的箭头处准许设备连入。</li><li>稍等一分钟左右，状态如下图，表示加入成功，此时记住节点的 IP 为 192.168.192.88<br CLEAR=\"none\"/><img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/auth_ok.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/></li></li><li>Android 注意状态栏，手机全程使用 4G，方便后面测试连通性<br CLEAR=\"none\"/><li>下载安装，点开 Android APP，点击右下角的 connect，等待状态显示为 ONLINE 后，点击 右上角加号<br CLEAR=\"none\"/><img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/app_connected.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/></li><li>输入 Network ID ,然后点击 join<br CLEAR=\"none\"/><img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/app_join.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/></li><li>和 Windows 客户端一样， Members 选项，确认设备确实是当前设备后，准入</li><li>等待 status 变成ok，记录下 IP 192.168.192.231<br CLEAR=\"none\"/><img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/app_ok.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/></li></li>连通性测试<li>从 Windows Ping Android 的 IP，延迟有点高，但还是连通的</li>&nbsp;&nbsp;&nbsp; <img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/windows_ping.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/><li>从 Android 访问 Windows 的 IP，可以看到了 Windows 的资源使用情况，说明是连通的<br CLEAR=\"none\"/></li>&nbsp;&nbsp;&nbsp; <img SRC=\"https://oartlm8rs.qnssl.com/jiao-cheng/zerotier-chu-jie-jiao-cheng/app_test_connect.png\" ALT=\"\" TITLE=\"\" WIDTH=\"0\" HEIGHT=\"0\"/>其他<li>你可能会好奇，在网页中显示 PC 资源占用是怎么做到的，emmm 是用 AIDA64 实现的，用废旧手机做资源监视器，是不是很炫酷</li><li>关注博客的朋友应该知道，每次发一些新奇东西的教程，就代表着接下来会出插件了。嗯~！是的， ZeroTier 的极路由插件不远了</li><li>看过初阶教程后，你可能会疑问，每一个设备都必须安装 ZeroTier 才能实现互通？然而这也太麻烦了。嗯 所以叫初阶教程啊，好戏还在后头</li></div>&nbsp; <span>EOF</span>&nbsp; &nbsp; <p>评论框君很顽皮，需要科学上网才能看到哦！~</p><p>关注微信公众号（MarIxs）也能联系到我哦！</p>&nbsp; 已是最新一篇<a SHAPE=\"rect\" HREF=\"https://stray.love/wen-ti-jie-jue-fang-an/shi-yong-gong-yao-deng-lu-openwrt\">使用公钥登陆OpenWrt</a>&nbsp; &nbsp; <div><div><div TITLE=\"Disqus\" STYLE=\"width:1px !important;min-width:100% !important;border:none !important;overflow:hidden !important;height:1151px !important;\"></div></div>&nbsp; &nbsp; </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d77245c0bc303f76700e6bf02428a6435b52b54011dbfb9cc98810a253023b33",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ZeroTier 初阶教程 - 天涼好個秋.html"
+      }
+    },
+    {
+      "id": "0a8bf70a-f0ac-44f5-b91c-481de40d62dc",
+      "note_id": "369707af-d123-4979-b48a-e1af2a8424cf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.600480Z",
+      "content": "---\ntitle: ZeroTier 初阶教程 - 天涼好個秋.\nupdated: 2018-02-20 17:18:58Z\ncreated: 2018-02-20 16:32:24Z\nsource: https://stray.love/jiao-cheng/zerotier-chu-jie-jiao-cheng\n---\n\n      ZeroTier 初阶教程 \n      2018.02.03432 阅\n4 评\n   \n教程\n \n什么是 ZeroTier\nZeroTier 的优势是什么\n初阶教程 点对点链接\n注册 ZeroTier 账号\n创建 Network\n设置 Network\n客户端使用\n连通性测试\n其他\n什么是 ZeroTier   \n    ZeroTier delivers the capabilities of VPNs, SDN, and SD-WAN with a single system. Manage all your connected resources across both local and wide area networks as if the whole world is a single data center.    简单来说，ZeroTier 是一款简单易用的，在任何有网络的地方，都可以连回家里、公司、学校，而无需公网 IP 和复杂端口转发配置，基于 p2p 技术的内网穿透工具。    更形象一点的说法是，ZeroTier 就像虚拟的交换机，所有 ZeroTier 的客户端节点都可以互访互通。ZeroTier 的优势是什么\n跨平台。客户端涵盖主流的设备： Windows、MacOS、Linux、iOS、Android、QNAP NAS、Synology NAS、Western Digital MyCloud NAS、Openwrt\n控制端（ZeroTier 官网）功能足够强大。可以下发路由表、设备准入控制、IP 分配、流量规则等，ZeroTier 会自动下发配置，只需启动客户端即可。\n客户端配置简单。ZeroTier 会自动下发配置，所以只需填入 Network ID 启动 ZeroTier 就可以了，这对于很多智能设备、嵌入式设备很友好。\n可以建立中转服务器（Moon 服务器）。在网络高峰期，或者某些众所周知（qiang）的原因会导致 ZeroTier 官方服务器链接困难，此时可以自己建立 Moon 服务器，从而实现更好的链接效果。\n接近于免费。个人用户最多可以接入 100 节点设备，完全能满足一般人的需求，而在路由表配置得当的情况下，两个节点就可以使两个内网完全互联（异地组网），这样就远不止100 设备那么少了。\n客户端开源。这就意味着在官方不提供客户端的设备上，你完全可以自己编译。\n初阶教程 点对点链接注册 ZeroTier 账号\n访问 ZeroTier 官网\n传送门\n推荐使用 Google 账户快速登陆\n使用其他注册方式的略过吧，相信你能搞定\n创建 Network\n登陆后点击 Networks 选项卡\n   \n点击 Creat 创建 Networks\n   \n点击新创建出的 Networks 进行设置\n   \n设置 Network    创建好了 Network 后，一般情况下无需设置就可以使用了。着急上手的朋友可以跳过设置这一节，下面介绍一些设置的说明。    设置项分四大类，常用其中两项 Settings 和 Members。   \nSettings 常用设置项的解释\nNetwork ID: 网络 ID ，客户端使用此 ID 加入到网络中\nName & Description: 设定 Network 的名称和描述，可任意修改\nAccess Control: 设定 Network 的类型，其中 Certificate (Private Network) 是私有网络，节点的加入需要审核。None (Public Network) 加入不需要任何审核。推荐选择私有网络\nMulticast Recipient Limit 不用管系列\nManaged Routes: 路由表设置，初阶教程中不需要修改\nIPv4 Auto-Assign: 节点 IPv4 自动分配，这里只要保证自动分配的网段和节点的 IP 不冲突即可\nIPv6 Auto-Assign: 节点 IPv6 自动分配，可以忽略\nMembers 顾名思义，就是节点状态查看和管理，包括在线状态、准入、拉黑、改名、添加描述、设置静态 IP。\n    嗯~！除了注意分配的 IPv4 不和节点 IP 冲突，基本没有其他的注意项目了。客户端使用    这里以 Windows 和 Android 为例，期待的结果是两者可以互相访问。    客户端下载\n传送门\nWindows\n下载安装，运行 Windows 客户端之后，点击右下角区域的 ZeroTier 图标，选择join network\n输入 Network ID ,然后点击 join\n点击右下角的 ZeroTier 图标，选择 show networks\nstatus 显示为 ACCESS_DENIED，这说明设备没有被准入，去查看 Members 选项，确认设备确实是当前设备后，点击的箭头处准许设备连入。\n稍等一分钟左右，状态如下图，表示加入成功，此时记住节点的 IP 为 192.168.192.88\nAndroid 注意状态栏，手机全程使用 4G，方便后面测试连通性\n下载安装，点开 Android APP，点击右下角的 connect，等待状态显示为 ONLINE 后，点击 右上角加号\n输入 Network ID ,然后点击 join\n和 Windows 客户端一样， Members 选项，确认设备确实是当前设备后，准入\n等待 status 变成ok，记录下 IP 192.168.192.231\n连通性测试\n从 Windows Ping Android 的 IP，延迟有点高，但还是连通的\n   \n从 Android 访问 Windows 的 IP，可以看到了 Windows 的资源使用情况，说明是连通的\n   \n其他\n你可能会好奇，在网页中显示 PC 资源占用是怎么做到的，emmm 是用 AIDA64 实现的，用废旧手机做资源监视器，是不是很炫酷\n关注博客的朋友应该知道，每次发一些新奇东西的教程，就代表着接下来会出插件了。嗯~！是的， ZeroTier 的极路由插件不远了\n看过初阶教程后，你可能会疑问，每一个设备都必须安装 ZeroTier 才能实现互通？然而这也太麻烦了。嗯 所以叫初阶教程啊，好戏还在后头\n \nEOF\n   \n评论框君很顽皮，需要科学上网才能看到哦！~\n关注微信公众号（MarIxs）也能联系到我哦！\n  已是最新一篇\n使用公钥登陆OpenWrt",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 2861,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9fd3be14-93f0-4621-a378-8e92cdd77931",
+    "note_id": "369707af-d123-4979-b48a-e1af2a8424cf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.600485Z",
+    "finished_at": "2025-11-09T20:01:34.600485Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5aaf73ef-9141-443e-ac70-bbd5e012e251",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/ZeroTier 初阶教程 - 天涼好個秋.html",
+      "checksum": "d77245c0bc303f76700e6bf02428a6435b52b54011dbfb9cc98810a253023b33"
+    },
+    "output_ref": {
+      "ingest_source": "a6bec769-975e-4601-9902-2d59af508102",
+      "note": "369707af-d123-4979-b48a-e1af2a8424cf",
+      "variants": [
+        "38a67cb8-ac26-46af-8b7e-7fb216e0069c",
+        "0a8bf70a-f0ac-44f5-b91c-481de40d62dc"
+      ]
+    },
+    "error_detail": null
+  }
+}

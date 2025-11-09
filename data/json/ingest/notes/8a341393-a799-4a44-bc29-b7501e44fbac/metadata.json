@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5aa8c482-1e56-4132-a7e5-138635fdad89",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/在美地址IBM.html",
+    "collected_at": "2025-11-09T20:01:37.911498Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3c5933085e6f9d23feaf3cd55670faf86fe6b915fea5c28ca0849295e3bd8c10",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8a341393-a799-4a44-bc29-b7501e44fbac",
+    "ingest_source_id": "5aa8c482-1e56-4132-a7e5-138635fdad89",
+    "canonical_title": "在美地址IBM",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.911502Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "在美地址IBM.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "859ed9ad-517f-421b-a0d0-362f95e851dd",
+      "note_id": "8a341393-a799-4a44-bc29-b7501e44fbac",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.911505Z",
+      "content": "---\ntitle: 在美地址IBM\nupdated: 2013-03-27 02:30:01Z\ncreated: 2013-03-27 02:29:53Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nName: Donna L. Strand<br/><br/>\nTitle: WTCF Product Development Senior Engineer Manager, Application Integration and Middleware, IBM Software Group<br/><br/>\nAddress: 2455 South Rd, Poughkeepsie, NY 12601<br/><br/>\nPhone: 1-845-435-6467\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3c5933085e6f9d23feaf3cd55670faf86fe6b915fea5c28ca0849295e3bd8c10",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/在美地址IBM.html"
+      }
+    },
+    {
+      "id": "fb0280d5-0139-4356-84f2-79b1f0ccc1e1",
+      "note_id": "8a341393-a799-4a44-bc29-b7501e44fbac",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.911507Z",
+      "content": "---\ntitle: 在美地址IBM\nupdated: 2013-03-27 02:30:01Z\ncreated: 2013-03-27 02:29:53Z\n---\n\nName: Donna L. Strand\n\nTitle: WTCF Product Development Senior Engineer Manager, Application Integration and Middleware, IBM Software Group\n\nAddress: 2455 South Rd, Poughkeepsie, NY 12601\n\nPhone: 1-845-435-6467",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 293,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "12b65eef-f327-42d4-9791-6c0aefcef504",
+    "note_id": "8a341393-a799-4a44-bc29-b7501e44fbac",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.911512Z",
+    "finished_at": "2025-11-09T20:01:37.911512Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ac0f94d6-11d5-441b-bbee-da880cd74697",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/在美地址IBM.html",
+      "checksum": "3c5933085e6f9d23feaf3cd55670faf86fe6b915fea5c28ca0849295e3bd8c10"
+    },
+    "output_ref": {
+      "ingest_source": "5aa8c482-1e56-4132-a7e5-138635fdad89",
+      "note": "8a341393-a799-4a44-bc29-b7501e44fbac",
+      "variants": [
+        "859ed9ad-517f-421b-a0d0-362f95e851dd",
+        "fb0280d5-0139-4356-84f2-79b1f0ccc1e1"
+      ]
+    },
+    "error_detail": null
+  }
+}

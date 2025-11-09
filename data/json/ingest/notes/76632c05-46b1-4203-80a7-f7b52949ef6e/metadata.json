@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0222811f-67f4-4902-ab3a-ee21d460bb92",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/语句结构.html",
+    "collected_at": "2025-11-09T20:05:18.334392Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d1c995510083caa6b756f65506a245d6e5e72ec3e4fb0a8ea360d7c3f9c69288",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "76632c05-46b1-4203-80a7-f7b52949ef6e",
+    "ingest_source_id": "0222811f-67f4-4902-ab3a-ee21d460bb92",
+    "canonical_title": "语句结构",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:18.334396Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "语句结构.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4da0ca2d-38b9-4e70-b740-3272a8efef3d",
+      "note_id": "76632c05-46b1-4203-80a7-f7b52949ef6e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.334398Z",
+      "content": "---\ntitle: 语句结构\nupdated: 2020-02-18 11:38:34Z\ncreated: 2020-02-18 11:34:27Z\n---\n\n\n\n<en-note><div>陈述句</div><div>动词+主语</div><div>倒装句</div><div>被强调部分（非主语/非动词/非主语）+动词+主语</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d1c995510083caa6b756f65506a245d6e5e72ec3e4fb0a8ea360d7c3f9c69288",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/语句结构.html"
+      }
+    },
+    {
+      "id": "1f7dfdfd-9465-4212-a43a-dba34a286a40",
+      "note_id": "76632c05-46b1-4203-80a7-f7b52949ef6e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:18.334401Z",
+      "content": "---\ntitle: 语句结构\nupdated: 2020-02-18 11:38:34Z\ncreated: 2020-02-18 11:34:27Z\n---\n\n陈述句\n动词+主语\n倒装句\n被强调部分（非主语/非动词/非主语）+动词+主语",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 119,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e6296a54-fb0a-42f9-9973-535e570f9974",
+    "note_id": "76632c05-46b1-4203-80a7-f7b52949ef6e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:18.334406Z",
+    "finished_at": "2025-11-09T20:05:18.334406Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ad3ec1bc-2e07-4a0c-a66b-25e0fbfa4f42",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/语句结构.html",
+      "checksum": "d1c995510083caa6b756f65506a245d6e5e72ec3e4fb0a8ea360d7c3f9c69288"
+    },
+    "output_ref": {
+      "ingest_source": "0222811f-67f4-4902-ab3a-ee21d460bb92",
+      "note": "76632c05-46b1-4203-80a7-f7b52949ef6e",
+      "variants": [
+        "4da0ca2d-38b9-4e70-b740-3272a8efef3d",
+        "1f7dfdfd-9465-4212-a43a-dba34a286a40"
+      ]
+    },
+    "error_detail": null
+  }
+}

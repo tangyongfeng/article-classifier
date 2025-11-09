@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a0d586c7-bdf4-4afb-b97a-1f2cfc1fd445",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/3521工程.html",
+    "collected_at": "2025-11-09T20:01:38.196470Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c4d4579afeeffc46b6945111ed709356776ffc1c3ece7e435af32961ff9e77af",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "f3b29e1e-13ef-4928-b0da-a628cdd571b3",
+    "ingest_source_id": "a0d586c7-bdf4-4afb-b97a-1f2cfc1fd445",
+    "canonical_title": "3521工程",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:38.196474Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "3521工程.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b4552f78-54c5-46bf-873b-5f18488e5b86",
+      "note_id": "f3b29e1e-13ef-4928-b0da-a628cdd571b3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.196476Z",
+      "content": "---\ntitle: 3521工程\nupdated: 2014-04-14 07:45:53Z\ncreated: 2014-04-14 05:03:20Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n3521工程\n<div>三级平台</div><div>五项业务</div><div>两个数据库</div><div>一个专用网络</div><div><br/></div><div>46312</div><div>四级平台 增加县级卫生信息平台</div><div>六，增加了计划生育</div><div>三，增加一个人口库</div><div>二、信息安全标准、标准信息化</div><div>phr专项健康档案</div><div>his 门诊系统</div><div>cis 临床系统</div><div>lis 检验系统</div><div>pacs 图像检验系统</div><div><br/></div><div><br/></div><div>大型医院一般不做公共卫生服务</div><div>科室维护：可能有的科室135上班，有的科室246上班。所以需要对科室的在班资源进行维护</div><div>挂号有挂号还有退号的问题。转挂号。</div><div>诊前签到的还有一个好处是让医生提前知道病人的情况</div><div>城市中心药房是否有政策或者法规上的限制</div><div>入径、执行、变异、出径</div><div>入径的时候要确定入径时间，有可能病人已经住院，并没有在路径中，经过几天的观察，确定入径，这时候的入径时间可以从之前的某一天开始。</div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c4d4579afeeffc46b6945111ed709356776ffc1c3ece7e435af32961ff9e77af",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/3521工程.html"
+      }
+    },
+    {
+      "id": "cf922b23-8f75-4ff2-ae7c-df44eabfee25",
+      "note_id": "f3b29e1e-13ef-4928-b0da-a628cdd571b3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:38.196479Z",
+      "content": "---\ntitle: 3521工程\nupdated: 2014-04-14 07:45:53Z\ncreated: 2014-04-14 05:03:20Z\n---\n\n3521工程\n\n三级平台\n五项业务\n两个数据库\n一个专用网络\n46312\n四级平台 增加县级卫生信息平台\n六，增加了计划生育\n三，增加一个人口库\n二、信息安全标准、标准信息化\nphr专项健康档案\nhis 门诊系统\ncis 临床系统\nlis 检验系统\npacs 图像检验系统\n大型医院一般不做公共卫生服务\n科室维护：可能有的科室135上班，有的科室246上班。所以需要对科室的在班资源进行维护\n挂号有挂号还有退号的问题。转挂号。\n诊前签到的还有一个好处是让医生提前知道病人的情况\n城市中心药房是否有政策或者法规上的限制\n入径、执行、变异、出径\n入径的时候要确定入径时间，有可能病人已经住院，并没有在路径中，经过几天的观察，确定入径，这时候的入径时间可以从之前的某一天开始。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 418,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "83d12d29-ebc2-4afe-a9a0-9d70450b795c",
+    "note_id": "f3b29e1e-13ef-4928-b0da-a628cdd571b3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:38.196484Z",
+    "finished_at": "2025-11-09T20:01:38.196484Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b9b90a31-5e7e-4cfe-be63-c6164350c54c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/3521工程.html",
+      "checksum": "c4d4579afeeffc46b6945111ed709356776ffc1c3ece7e435af32961ff9e77af"
+    },
+    "output_ref": {
+      "ingest_source": "a0d586c7-bdf4-4afb-b97a-1f2cfc1fd445",
+      "note": "f3b29e1e-13ef-4928-b0da-a628cdd571b3",
+      "variants": [
+        "b4552f78-54c5-46bf-873b-5f18488e5b86",
+        "cf922b23-8f75-4ff2-ae7c-df44eabfee25"
+      ]
+    },
+    "error_detail": null
+  }
+}

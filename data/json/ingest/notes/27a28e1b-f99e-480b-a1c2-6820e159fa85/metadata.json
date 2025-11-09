@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "33b4af83-4829-48b8-af77-c3f0962beee1",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/bgchina.com.html",
+    "collected_at": "2025-11-09T20:01:34.616533Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "414b1b14f58c71fd3003fa08b32b683088fc310cd4917fffb68ab8d68b312938",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "27a28e1b-f99e-480b-a1c2-6820e159fa85",
+    "ingest_source_id": "33b4af83-4829-48b8-af77-c3f0962beee1",
+    "canonical_title": "bgchina.com",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:34.616538Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "bgchina.com.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f9913803-a64c-4d4e-a86d-2f3ec80fe01a",
+      "note_id": "27a28e1b-f99e-480b-a1c2-6820e159fa85",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.616541Z",
+      "content": "---\ntitle: bgchina.com\nupdated: 2019-09-20 07:35:56Z\ncreated: 2019-09-17 12:33:37Z\n---\n\n\n<en-note><div>万网用户名<a HREF=\"mailto:hi10681310@aliyun.com\" STYLE=\"color: rgb(102, 102, 102); font-family: 微软雅黑, &quot;Microsoft Yahei&quot;, &quot;Hiragino Sans GB&quot;, tahoma, arial, 宋体; font-size: 12px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">hi10681310@aliyun.com</a></div><div><br/></div><div>密码Be1*******</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "414b1b14f58c71fd3003fa08b32b683088fc310cd4917fffb68ab8d68b312938",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/bgchina.com.html"
+      }
+    },
+    {
+      "id": "e58ae9b6-36fa-418c-bd1a-f7a8e2104e3a",
+      "note_id": "27a28e1b-f99e-480b-a1c2-6820e159fa85",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:34.616544Z",
+      "content": "---\ntitle: bgchina.com\nupdated: 2019-09-20 07:35:56Z\ncreated: 2019-09-17 12:33:37Z\n---\n\n万网用户名\nhi10681310@aliyun.com\n密码Be1*******",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 128,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4c673b39-f203-404f-b170-39f6eb9bb793",
+    "note_id": "27a28e1b-f99e-480b-a1c2-6820e159fa85",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:34.616550Z",
+    "finished_at": "2025-11-09T20:01:34.616551Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f73860df-e9ad-4723-a7a5-6e0b6078c75c",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/IT技术/bgchina.com.html",
+      "checksum": "414b1b14f58c71fd3003fa08b32b683088fc310cd4917fffb68ab8d68b312938"
+    },
+    "output_ref": {
+      "ingest_source": "33b4af83-4829-48b8-af77-c3f0962beee1",
+      "note": "27a28e1b-f99e-480b-a1c2-6820e159fa85",
+      "variants": [
+        "f9913803-a64c-4d4e-a86d-2f3ec80fe01a",
+        "e58ae9b6-36fa-418c-bd1a-f7a8e2104e3a"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "03984b82-83de-4621-bee8-0a3d8df44aba",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/口令.html",
+    "collected_at": "2025-11-09T20:01:37.901392Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4c8109a3477a680530d905e787b7b596867c4a2c18ef9cf0771973a31e104ef7",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "61a7dd4b-1823-4e35-b6f2-e3529a7edec2",
+    "ingest_source_id": "03984b82-83de-4621-bee8-0a3d8df44aba",
+    "canonical_title": "口令",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.901396Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "口令.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d920fa53-38f6-4b43-945f-e4f20e3806c9",
+      "note_id": "61a7dd4b-1823-4e35-b6f2-e3529a7edec2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.901399Z",
+      "content": "---\ntitle: 口令\nupdated: 2014-12-11 08:54:55Z\ncreated: 2014-12-11 08:54:54Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>oracle:w0o5b3j8a1m4<br/>\nroot:v0ocq7k9l1a2z6</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4c8109a3477a680530d905e787b7b596867c4a2c18ef9cf0771973a31e104ef7",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/口令.html"
+      }
+    },
+    {
+      "id": "b675d7b4-fb3b-4b01-9d2e-5db2476e7a48",
+      "note_id": "61a7dd4b-1823-4e35-b6f2-e3529a7edec2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.901402Z",
+      "content": "---\ntitle: 口令\nupdated: 2014-12-11 08:54:55Z\ncreated: 2014-12-11 08:54:54Z\n---\n\noracle:w0o5b3j8a1m4\n\nroot:v0ocq7k9l1a2z6",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 119,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8525d0e8-5cc1-4c03-934c-624d5c62d8c1",
+    "note_id": "61a7dd4b-1823-4e35-b6f2-e3529a7edec2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.901407Z",
+    "finished_at": "2025-11-09T20:01:37.901407Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0bb43c9d-95c7-48dc-8998-9a8c9ae75825",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/口令.html",
+      "checksum": "4c8109a3477a680530d905e787b7b596867c4a2c18ef9cf0771973a31e104ef7"
+    },
+    "output_ref": {
+      "ingest_source": "03984b82-83de-4621-bee8-0a3d8df44aba",
+      "note": "61a7dd4b-1823-4e35-b6f2-e3529a7edec2",
+      "variants": [
+        "d920fa53-38f6-4b43-945f-e4f20e3806c9",
+        "b675d7b4-fb3b-4b01-9d2e-5db2476e7a48"
+      ]
+    },
+    "error_detail": null
+  }
+}

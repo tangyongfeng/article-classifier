@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d7e015c9-04ba-4448-a3da-f2c8434bd63e",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/合作诉求.html",
+    "collected_at": "2025-11-09T20:01:37.904358Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6b6fdc9250c4ca2b149b90ac42b31be46bc9b9a579a1915c4b681ea1f95e31e8",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "ab72287b-700a-424e-b8a2-7255a75d29de",
+    "ingest_source_id": "d7e015c9-04ba-4448-a3da-f2c8434bd63e",
+    "canonical_title": "合作诉求",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:01:37.904363Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "合作诉求.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "853b973f-3112-42db-988d-a3077c8a57e3",
+      "note_id": "ab72287b-700a-424e-b8a2-7255a75d29de",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.904366Z",
+      "content": "---\ntitle: 合作诉求\nupdated: 2019-10-20 08:53:51Z\ncreated: 2019-10-20 08:53:18Z\n---\n\n\n\n<en-note><div>优势</div><div>诉求</div><div>合作方式</div><div><br/></div><div>当前自己的情况和介绍</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6b6fdc9250c4ca2b149b90ac42b31be46bc9b9a579a1915c4b681ea1f95e31e8",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/合作诉求.html"
+      }
+    },
+    {
+      "id": "49d7f2c7-adf5-4a31-9830-e091f9c5a5e2",
+      "note_id": "ab72287b-700a-424e-b8a2-7255a75d29de",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:37.904369Z",
+      "content": "---\ntitle: 合作诉求\nupdated: 2019-10-20 08:53:51Z\ncreated: 2019-10-20 08:53:18Z\n---\n\n优势\n诉求\n合作方式\n当前自己的情况和介绍",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 102,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "274def32-f345-4278-98eb-1fc87c3da9d3",
+    "note_id": "ab72287b-700a-424e-b8a2-7255a75d29de",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:37.904374Z",
+    "finished_at": "2025-11-09T20:01:37.904374Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dd5da372-5c52-478a-b13f-3c8219a660ec",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/中彩相关/合作诉求.html",
+      "checksum": "6b6fdc9250c4ca2b149b90ac42b31be46bc9b9a579a1915c4b681ea1f95e31e8"
+    },
+    "output_ref": {
+      "ingest_source": "d7e015c9-04ba-4448-a3da-f2c8434bd63e",
+      "note": "ab72287b-700a-424e-b8a2-7255a75d29de",
+      "variants": [
+        "853b973f-3112-42db-988d-a3077c8a57e3",
+        "49d7f2c7-adf5-4a31-9830-e091f9c5a5e2"
+      ]
+    },
+    "error_detail": null
+  }
+}

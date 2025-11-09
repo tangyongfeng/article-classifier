@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2556a3bb-29dc-45cf-9f44-155b3eb2bfd6",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/笔记-2.html",
+    "collected_at": "2025-11-09T20:05:16.555536Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8f05bfffbfe68f08b49c01a44579234ee94738d697342499bf5b5cd92b12bb5c",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "cc0c9c2b-2772-4dbb-aa59-f7a5565f815f",
+    "ingest_source_id": "2556a3bb-29dc-45cf-9f44-155b3eb2bfd6",
+    "canonical_title": "笔记-2",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.555540Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-2.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "05eb2393-bc38-4e95-9b93-07b4e18e19c8",
+      "note_id": "cc0c9c2b-2772-4dbb-aa59-f7a5565f815f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.555543Z",
+      "content": "---\ntitle: 笔记\nupdated: 2019-02-18 03:09:21Z\ncreated: 2019-02-18 03:08:20Z\n---\n\n\n\n<en-note><div>6232510011320046 后会有期（北京）文化传播有限公司</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8f05bfffbfe68f08b49c01a44579234ee94738d697342499bf5b5cd92b12bb5c",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/笔记-2.html"
+      }
+    },
+    {
+      "id": "69b1159f-cba5-49d0-bd74-75fc0dd6ca55",
+      "note_id": "cc0c9c2b-2772-4dbb-aa59-f7a5565f815f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.555546Z",
+      "content": "---\ntitle: 笔记\nupdated: 2019-02-18 03:09:21Z\ncreated: 2019-02-18 03:08:20Z\n---\n\n6232510011320046 后会有期（北京）文化传播有限公司",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 112,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6c0ac9e6-193b-47f5-bfa1-bb333ad84fe0",
+    "note_id": "cc0c9c2b-2772-4dbb-aa59-f7a5565f815f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.555550Z",
+    "finished_at": "2025-11-09T20:05:16.555551Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2a3d3999-4f38-4f59-8530-c140e7b247c4",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/笔记-2.html",
+      "checksum": "8f05bfffbfe68f08b49c01a44579234ee94738d697342499bf5b5cd92b12bb5c"
+    },
+    "output_ref": {
+      "ingest_source": "2556a3bb-29dc-45cf-9f44-155b3eb2bfd6",
+      "note": "cc0c9c2b-2772-4dbb-aa59-f7a5565f815f",
+      "variants": [
+        "05eb2393-bc38-4e95-9b93-07b4e18e19c8",
+        "69b1159f-cba5-49d0-bd74-75fc0dd6ca55"
+      ]
+    },
+    "error_detail": null
+  }
+}

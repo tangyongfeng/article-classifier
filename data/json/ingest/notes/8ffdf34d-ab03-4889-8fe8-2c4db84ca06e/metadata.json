@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "29fed687-5da4-4ead-90b7-fefc13ceaf6c",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/好用的键盘.html",
+    "collected_at": "2025-11-09T20:05:16.117423Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "eb1a12ce98f067fa57e738b9b48979d0ef57e1b9b09ac7691a8fa38c41b63808",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "8ffdf34d-ab03-4889-8fe8-2c4db84ca06e",
+    "ingest_source_id": "29fed687-5da4-4ead-90b7-fefc13ceaf6c",
+    "canonical_title": "好用的键盘",
+    "language": "en",
+    "ingested_at": "2025-11-09T20:05:16.117427Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "好用的键盘.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ba3d02e0-5431-479a-844d-732b865a5b49",
+      "note_id": "8ffdf34d-ab03-4889-8fe8-2c4db84ca06e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.117429Z",
+      "content": "---\ntitle: 好用的键盘\nupdated: 2021-05-29 20:25:02Z\ncreated: 2021-05-29 20:24:50Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Dell SK 8115</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "eb1a12ce98f067fa57e738b9b48979d0ef57e1b9b09ac7691a8fa38c41b63808",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/好用的键盘.html"
+      }
+    },
+    {
+      "id": "d3e8b844-08f6-4451-b068-6961056b4f18",
+      "note_id": "8ffdf34d-ab03-4889-8fe8-2c4db84ca06e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:16.117432Z",
+      "content": "---\ntitle: 好用的键盘\nupdated: 2021-05-29 20:25:02Z\ncreated: 2021-05-29 20:24:50Z\nauthor: tangyongfeng@gmail.com\n---\n\nDell SK 8115",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 125,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "41d1916a-8665-48fc-915f-d7022b1b623a",
+    "note_id": "8ffdf34d-ab03-4889-8fe8-2c4db84ca06e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:16.117437Z",
+    "finished_at": "2025-11-09T20:05:16.117437Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9454899c-d310-4f0c-a0c4-1379de91b281",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/好用的键盘.html",
+      "checksum": "eb1a12ce98f067fa57e738b9b48979d0ef57e1b9b09ac7691a8fa38c41b63808"
+    },
+    "output_ref": {
+      "ingest_source": "29fed687-5da4-4ead-90b7-fefc13ceaf6c",
+      "note": "8ffdf34d-ab03-4889-8fe8-2c4db84ca06e",
+      "variants": [
+        "ba3d02e0-5431-479a-844d-732b865a5b49",
+        "d3e8b844-08f6-4451-b068-6961056b4f18"
+      ]
+    },
+    "error_detail": null
+  }
+}

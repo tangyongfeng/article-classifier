@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "272136a1-b930-4e2c-96cf-8253431a829b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Oliver Berger 先生：.html",
+    "collected_at": "2025-11-09T20:01:36.526703Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "0a26a166194628dd83cabb37c5f75c05c1ffb9be4effaa22d41184222d466113",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "384070e2-1a70-4f48-b3f5-86e44f86898e",
+    "ingest_source_id": "272136a1-b930-4e2c-96cf-8253431a829b",
+    "canonical_title": "Oliver Berger 先生：",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:01:36.526707Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Oliver Berger 先生：.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "56dc640b-f450-46c5-8baa-4ec7a2510cc7",
+      "note_id": "384070e2-1a70-4f48-b3f5-86e44f86898e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.526710Z",
+      "content": "---\ntitle: Oliver Berger 先生：\nupdated: 2019-12-23 18:26:36Z\ncreated: 2019-12-23 18:20:15Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Oliver Berger 先生：</div><div><br/></div><div><br/></div><div>您好，正是我们把装家具的纸箱扔在了蓝色垃圾桶里，引起了邻居的不满。</div><div><br/></div><div>我今天下午专门去租了一辆车，准备明天把纸箱运到垃圾站。刚才回家，发现蓝色垃圾箱已经被清空。</div><div>我猜是你们帮助我完成的，而时间恰好在我租来车之前，为此我非常感谢，我希望能单独支付此次运输垃圾的费用。</div><div>请给我账单，我愿意支付。</div><div><br/></div><div><br/></div><div><br/></div><div><span></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0a26a166194628dd83cabb37c5f75c05c1ffb9be4effaa22d41184222d466113",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Oliver Berger 先生：.html"
+      }
+    },
+    {
+      "id": "2596389e-526d-4e5a-92c8-1d045a881524",
+      "note_id": "384070e2-1a70-4f48-b3f5-86e44f86898e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:36.526713Z",
+      "content": "---\ntitle: Oliver Berger 先生：\nupdated: 2019-12-23 18:26:36Z\ncreated: 2019-12-23 18:20:15Z\nauthor: tangyongfeng@gmail.com\n---\n\nOliver Berger 先生：\n您好，正是我们把装家具的纸箱扔在了蓝色垃圾桶里，引起了邻居的不满。\n我今天下午专门去租了一辆车，准备明天把纸箱运到垃圾站。刚才回家，发现蓝色垃圾箱已经被清空。\n我猜是你们帮助我完成的，而时间恰好在我租来车之前，为此我非常感谢，我希望能单独支付此次运输垃圾的费用。\n请给我账单，我愿意支付。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 287,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b829c71d-552b-425a-a4d2-cc40941892ae",
+    "note_id": "384070e2-1a70-4f48-b3f5-86e44f86898e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:36.526717Z",
+    "finished_at": "2025-11-09T20:01:36.526718Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7137c9d6-61e5-43a3-b3fb-3fca09ac1f2a",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/个人的乱78糟/Oliver Berger 先生：.html",
+      "checksum": "0a26a166194628dd83cabb37c5f75c05c1ffb9be4effaa22d41184222d466113"
+    },
+    "output_ref": {
+      "ingest_source": "272136a1-b930-4e2c-96cf-8253431a829b",
+      "note": "384070e2-1a70-4f48-b3f5-86e44f86898e",
+      "variants": [
+        "56dc640b-f450-46c5-8baa-4ec7a2510cc7",
+        "2596389e-526d-4e5a-92c8-1d045a881524"
+      ]
+    },
+    "error_detail": null
+  }
+}

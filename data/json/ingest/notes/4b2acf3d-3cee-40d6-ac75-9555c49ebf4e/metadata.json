@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1fca461b-e07e-46cf-9175-76001566a169",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/会议记录-1.html",
+    "collected_at": "2025-11-09T20:05:17.343653Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "e0dc4a698e04f89a7f26353074fd3484989035bbcefe84545cf79b9271db2413",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "4b2acf3d-3cee-40d6-ac75-9555c49ebf4e",
+    "ingest_source_id": "1fca461b-e07e-46cf-9175-76001566a169",
+    "canonical_title": "会议记录-1",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-09T20:05:17.343656Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "会议记录-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2780e145-f0b7-4094-a343-9d022afbdce1",
+      "note_id": "4b2acf3d-3cee-40d6-ac75-9555c49ebf4e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.343659Z",
+      "content": "---\ntitle: 会议记录\nupdated: 2014-03-25 07:02:25Z\ncreated: 2014-03-25 06:11:35Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>宋政平</div>\n1、挂号编号，根据地域编码，医院编码、科室、医生，日期、班次、每日唯一\n<div>2、环境迁移</div><div>3、单据执行状态，执行中、执行完成</div><div>4、查询用户详情，一次查询几多个用户，每一条结果都增加返回状况。有一个整个的查询结果。增加分页功能，不限查询个数。</div><div>崔跃</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e0dc4a698e04f89a7f26353074fd3484989035bbcefe84545cf79b9271db2413",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/会议记录-1.html"
+      }
+    },
+    {
+      "id": "8e4fd435-9692-4c5b-82e9-039764401fc2",
+      "note_id": "4b2acf3d-3cee-40d6-ac75-9555c49ebf4e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:05:17.343661Z",
+      "content": "---\ntitle: 会议记录\nupdated: 2014-03-25 07:02:25Z\ncreated: 2014-03-25 06:11:35Z\n---\n\n宋政平\n\n1、挂号编号，根据地域编码，医院编码、科室、医生，日期、班次、每日唯一\n\n2、环境迁移\n3、单据执行状态，执行中、执行完成\n4、查询用户详情，一次查询几多个用户，每一条结果都增加返回状况。有一个整个的查询结果。增加分页功能，不限查询个数。\n崔跃",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 208,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fd8dbdce-8470-46e5-b0fd-e66e8b13860f",
+    "note_id": "4b2acf3d-3cee-40d6-ac75-9555c49ebf4e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:05:17.343666Z",
+    "finished_at": "2025-11-09T20:05:17.343666Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c83b0454-a078-40cc-bd79-077e54bb9b84",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/医疗/会议记录-1.html",
+      "checksum": "e0dc4a698e04f89a7f26353074fd3484989035bbcefe84545cf79b9271db2413"
+    },
+    "output_ref": {
+      "ingest_source": "1fca461b-e07e-46cf-9175-76001566a169",
+      "note": "4b2acf3d-3cee-40d6-ac75-9555c49ebf4e",
+      "variants": [
+        "2780e145-f0b7-4094-a343-9d022afbdce1",
+        "8e4fd435-9692-4c5b-82e9-039764401fc2"
+      ]
+    },
+    "error_detail": null
+  }
+}

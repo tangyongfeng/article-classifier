@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3eb74d1f-4d3a-4b99-8b4e-f9c304420c7b",
+    "source_type": "evernote_html",
+    "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/der die das.html",
+    "collected_at": "2025-11-09T20:01:39.162458Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "73832f0948e2911e5ad235a7c70cc0b4158d51e592207be409383b38c478d5d9",
+    "status": "pending",
+    "notes": {
+      "batch_id": null
+    }
+  },
+  "note": {
+    "id": "405ec085-4f5f-4e2b-a64e-e901bd9e9e8d",
+    "ingest_source_id": "3eb74d1f-4d3a-4b99-8b4e-f9c304420c7b",
+    "canonical_title": "der die das",
+    "language": "de",
+    "ingested_at": "2025-11-09T20:01:39.162461Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "der die das.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5ea630ee-4f42-4849-ae8c-d86ae2af4e65",
+      "note_id": "405ec085-4f5f-4e2b-a64e-e901bd9e9e8d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.162464Z",
+      "content": "---\ntitle: der die das\nupdated: 2020-03-02 11:48:57Z\ncreated: 2020-02-13 10:34:54Z\n---\n\n\n\n<en-note><div>这个der. &nbsp; &nbsp; die. &nbsp; das &nbsp; &nbsp;die</div><div><br/></div><div>一个 ein. &nbsp; &nbsp; eine. &nbsp;ein. &nbsp; &nbsp; &nbsp;-</div><div><br/></div><div><br/></div><div><br/></div><ol START=\"3\"><li><div>e结尾的大部分都是die，阴性</div></li><li><div>ung结尾的都是die</div></li><li><div>rei. &nbsp;作坊 全都是die</div></li></ol><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "73832f0948e2911e5ad235a7c70cc0b4158d51e592207be409383b38c478d5d9",
+        "path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/der die das.html"
+      }
+    },
+    {
+      "id": "b0eb9510-cd92-46c4-a83f-d7f60e0e683b",
+      "note_id": "405ec085-4f5f-4e2b-a64e-e901bd9e9e8d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-09T20:01:39.162466Z",
+      "content": "---\ntitle: der die das\nupdated: 2020-03-02 11:48:57Z\ncreated: 2020-02-13 10:34:54Z\n---\n\n这个der.     die.   das    die\n一个 ein.     eine.  ein.      -\ne结尾的大部分都是die，阴性\nung结尾的都是die\nrei.  作坊 全都是die",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 191,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1da97810-51d2-4ce2-875a-101bcccfeabd",
+    "note_id": "405ec085-4f5f-4e2b-a64e-e901bd9e9e8d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-09T20:01:39.162471Z",
+    "finished_at": "2025-11-09T20:01:39.162471Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "30416b92-5167-4121-ade1-d3bcd71d6d89",
+      "source_path": "/Users/tang/workbench/article-classifier/backups/2023年6月/德语3/der die das.html",
+      "checksum": "73832f0948e2911e5ad235a7c70cc0b4158d51e592207be409383b38c478d5d9"
+    },
+    "output_ref": {
+      "ingest_source": "3eb74d1f-4d3a-4b99-8b4e-f9c304420c7b",
+      "note": "405ec085-4f5f-4e2b-a64e-e901bd9e9e8d",
+      "variants": [
+        "5ea630ee-4f42-4849-ae8c-d86ae2af4e65",
+        "b0eb9510-cd92-46c4-a83f-d7f60e0e683b"
+      ]
+    },
+    "error_detail": null
+  }
+}
