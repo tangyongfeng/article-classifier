@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "053cc134-473b-4ef5-b4a4-8cb6b70633ef",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/易经/师卦.html",
+    "collected_at": "2025-11-10T15:43:36.834582Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "fb0097f8e8afc516187313a2910504070d17c41832fea4b41af301daa1885363",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "637af76f-a38c-4e2d-8872-b8669bc6ba4b",
+    "ingest_source_id": "053cc134-473b-4ef5-b4a4-8cb6b70633ef",
+    "canonical_title": "师卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.834585Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "师卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f5dddab2-46c0-4c0a-9be8-0ae2682644f6",
+      "note_id": "637af76f-a38c-4e2d-8872-b8669bc6ba4b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.834588Z",
+      "content": "---\ntitle: 师卦\nupdated: 2018-11-07 15:37:15Z\ncreated: 2018-11-07 14:10:15Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>贞丈人吉，无咎。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 410px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">上六</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">大君有命，开国承家，小人勿用。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六五</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">田有禽，利执言，无咎。长子帅师，弟子盂尸，贞凶。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六四</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">师左次，无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">师或舆尸，凶</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九二（主爻）</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">在师中吉，无咎，王三锡命。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">初六</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\">师出以律，否臧凶。</td></tr></tbody></table><div>234震，345坤，卦里有两个坤（万国)。123坎</div><div>九二，军中领导。锡=赐，三命：一命受职再命受服，三命受位。&mdash;《周礼》</div><div>六四当位，以左为退。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fb0097f8e8afc516187313a2910504070d17c41832fea4b41af301daa1885363",
+        "path": "backups/2023年6月/易经/师卦.html"
+      }
+    },
+    {
+      "id": "ed8f560a-c5da-4349-91ae-fee4d03ced75",
+      "note_id": "637af76f-a38c-4e2d-8872-b8669bc6ba4b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.834591Z",
+      "content": "---\ntitle: 师卦\nupdated: 2018-11-07 15:37:15Z\ncreated: 2018-11-07 14:10:15Z\nauthor: tangyongfeng@gmail.com\n---\n\n贞丈人吉，无咎。\n上六\n大君有命，开国承家，小人勿用。\n六五\n田有禽，利执言，无咎。长子帅师，弟子盂尸，贞凶。\n六四\n师左次，无咎。\n六三\n师或舆尸，凶\n九二（主爻）\n在师中吉，无咎，王三锡命。\n初六\n师出以律，否臧凶。\n234震，345坤，卦里有两个坤（万国)。123坎\n九二，军中领导。锡=赐，三命：一命受职再命受服，三命受位。—《周礼》\n六四当位，以左为退。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 292,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "543d0e30-6634-489d-b40b-9002bc76023d",
+    "note_id": "637af76f-a38c-4e2d-8872-b8669bc6ba4b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.834596Z",
+    "finished_at": "2025-11-10T15:43:36.834596Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "02df1f49-677b-431f-b9be-0f97fe740201",
+      "source_path": "backups/2023年6月/易经/师卦.html",
+      "checksum": "fb0097f8e8afc516187313a2910504070d17c41832fea4b41af301daa1885363"
+    },
+    "output_ref": {
+      "ingest_source": "053cc134-473b-4ef5-b4a4-8cb6b70633ef",
+      "note": "637af76f-a38c-4e2d-8872-b8669bc6ba4b",
+      "variants": [
+        "f5dddab2-46c0-4c0a-9be8-0ae2682644f6",
+        "ed8f560a-c5da-4349-91ae-fee4d03ced75"
+      ]
+    },
+    "error_detail": null
+  }
+}

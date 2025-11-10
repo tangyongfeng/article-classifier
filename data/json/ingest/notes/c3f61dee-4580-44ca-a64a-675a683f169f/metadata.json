@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "63c877b3-8557-49d3-b6a6-ecfad17efcfe",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/win10.html",
+    "collected_at": "2025-11-10T15:43:33.542273Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7b5d5904749842e17728f6bb8b639da52bbd8968f9f7c1a84a90fd9303587c78",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c3f61dee-4580-44ca-a64a-675a683f169f",
+    "ingest_source_id": "63c877b3-8557-49d3-b6a6-ecfad17efcfe",
+    "canonical_title": "win10",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.542277Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "win10.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c517fc67-73db-4c58-8102-b6a099c2d26a",
+      "note_id": "c3f61dee-4580-44ca-a64a-675a683f169f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.542280Z",
+      "content": "---\ntitle: win10\nupdated: 2020-09-22 23:46:09Z\ncreated: 2020-09-22 23:45:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><a HREF=\"https://item.taobao.com/item.htm?spm=a230r.1.14.81.5d1a4699NLSATP&id=614484792175&ns=1&abbucket=18#detail\">https://item.taobao.com/item.htm?spm=a230r.1.14.81.5d1a4699NLSATP&amp;id=614484792175&amp;ns=1&amp;abbucket=18#detail</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7b5d5904749842e17728f6bb8b639da52bbd8968f9f7c1a84a90fd9303587c78",
+        "path": "backups/2023年6月/个人的乱78糟/win10.html"
+      }
+    },
+    {
+      "id": "db0445df-b429-4189-aac6-ded73f6d0cb8",
+      "note_id": "c3f61dee-4580-44ca-a64a-675a683f169f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.542283Z",
+      "content": "---\ntitle: win10\nupdated: 2020-09-22 23:46:09Z\ncreated: 2020-09-22 23:45:59Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttps://item.taobao.com/item.htm?spm=a230r.1.14.81.5d1a4699NLSATP&id=614484792175&ns=1&abbucket=18#detail",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 218,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c66f1781-b364-4d9c-9001-321359330be7",
+    "note_id": "c3f61dee-4580-44ca-a64a-675a683f169f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.542288Z",
+    "finished_at": "2025-11-10T15:43:33.542288Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a7d6c5b4-1ba5-46c3-8f5d-fc1c6a462e13",
+      "source_path": "backups/2023年6月/个人的乱78糟/win10.html",
+      "checksum": "7b5d5904749842e17728f6bb8b639da52bbd8968f9f7c1a84a90fd9303587c78"
+    },
+    "output_ref": {
+      "ingest_source": "63c877b3-8557-49d3-b6a6-ecfad17efcfe",
+      "note": "c3f61dee-4580-44ca-a64a-675a683f169f",
+      "variants": [
+        "c517fc67-73db-4c58-8102-b6a099c2d26a",
+        "db0445df-b429-4189-aac6-ded73f6d0cb8"
+      ]
+    },
+    "error_detail": null
+  }
+}

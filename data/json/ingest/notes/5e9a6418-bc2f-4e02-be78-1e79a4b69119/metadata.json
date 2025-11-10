@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1e092dc1-9b08-466e-a41c-a30a442ab74e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/文字.html",
+    "collected_at": "2025-11-10T15:43:33.982314Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "dcd5658f844f13ebb66da76848785b4c0ac5116038f44e9d27080e6eb8494092",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "5e9a6418-bc2f-4e02-be78-1e79a4b69119",
+    "ingest_source_id": "1e092dc1-9b08-466e-a41c-a30a442ab74e",
+    "canonical_title": "文字",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.982318Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "文字.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "718c29e1-7551-4511-97de-87633e392870",
+      "note_id": "5e9a6418-bc2f-4e02-be78-1e79a4b69119",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.982321Z",
+      "content": "---\ntitle: 文字\nupdated: 2022-06-09 19:14:19Z\ncreated: 2022-06-09 19:14:08Z\n---\n\n\n<en-note><div>{\\__/}</div><div>( &bull; . &bull;)</div><div>/ &gt;🍺 du willst eins?</div><div><br/></div><div>{\\__/}</div><div>( &bull; . &bull;)</div><div>🍺&lt;\\ dann folg uns erst.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dcd5658f844f13ebb66da76848785b4c0ac5116038f44e9d27080e6eb8494092",
+        "path": "backups/2023年6月/个人的乱78糟/文字.html"
+      }
+    },
+    {
+      "id": "2e86313e-7724-4ced-bdd2-8a3b41df8c6a",
+      "note_id": "5e9a6418-bc2f-4e02-be78-1e79a4b69119",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.982324Z",
+      "content": "---\ntitle: 文字\nupdated: 2022-06-09 19:14:19Z\ncreated: 2022-06-09 19:14:08Z\n---\n\n{\\__/}\n( • . •)\n/ >🍺 du willst eins?\n{\\__/}\n( • . •)\n🍺<\\ dann folg uns erst.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 155,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7e8ad043-b67a-4864-97f3-811950b23d5f",
+    "note_id": "5e9a6418-bc2f-4e02-be78-1e79a4b69119",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.982329Z",
+    "finished_at": "2025-11-10T15:43:33.982329Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "eed0b0b1-e09a-4cda-a6bf-fc6d1f478fef",
+      "source_path": "backups/2023年6月/个人的乱78糟/文字.html",
+      "checksum": "dcd5658f844f13ebb66da76848785b4c0ac5116038f44e9d27080e6eb8494092"
+    },
+    "output_ref": {
+      "ingest_source": "1e092dc1-9b08-466e-a41c-a30a442ab74e",
+      "note": "5e9a6418-bc2f-4e02-be78-1e79a4b69119",
+      "variants": [
+        "718c29e1-7551-4511-97de-87633e392870",
+        "2e86313e-7724-4ced-bdd2-8a3b41df8c6a"
+      ]
+    },
+    "error_detail": null
+  }
+}

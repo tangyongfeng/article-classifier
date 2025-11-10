@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "32fc7d3d-8226-43df-ace1-ba1e1644358f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/搬家自我介绍.html",
+    "collected_at": "2025-11-10T15:43:35.685907Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "231dfbc0dbbcd83a581b19075e0bf60ad624a9095fb74e94cbc943ab96a468b8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e06bfd95-9b94-4809-b44d-0275e3e2eb77",
+    "ingest_source_id": "32fc7d3d-8226-43df-ace1-ba1e1644358f",
+    "canonical_title": "搬家自我介绍",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.685910Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "搬家自我介绍.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "85078a84-4623-4ef8-bc97-5499e6a9e5b0",
+      "note_id": "e06bfd95-9b94-4809-b44d-0275e3e2eb77",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.685913Z",
+      "content": "---\ntitle: 搬家自我介绍\nupdated: 2019-03-20 16:34:51Z\ncreated: 2019-03-20 16:34:37Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>I am Chinese. I have just come to Germany and speak English, but German is still learning. I am an IT manager with a very generous salary. I am still living in AirBnB&apos;s apartment. I hope I can move in after I find the house, and then I will move my family to Germany immediately. My wife speaks German, has a son and a daughter, and they are all in Beijing now.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "231dfbc0dbbcd83a581b19075e0bf60ad624a9095fb74e94cbc943ab96a468b8",
+        "path": "backups/2023年6月/德国2/搬家自我介绍.html"
+      }
+    },
+    {
+      "id": "d0f95139-3502-4607-9800-df9960938f75",
+      "note_id": "e06bfd95-9b94-4809-b44d-0275e3e2eb77",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.685916Z",
+      "content": "---\ntitle: 搬家自我介绍\nupdated: 2019-03-20 16:34:51Z\ncreated: 2019-03-20 16:34:37Z\nauthor: tangyongfeng@gmail.com\n---\n\nI am Chinese. I have just come to Germany and speak English, but German is still learning. I am an IT manager with a very generous salary. I am still living in AirBnB's apartment. I hope I can move in after I find the house, and then I will move my family to Germany immediately. My wife speaks German, has a son and a daughter, and they are all in Beijing now.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 475,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0791ec2f-ee2d-4c0f-a1cb-eba18cbaa3ae",
+    "note_id": "e06bfd95-9b94-4809-b44d-0275e3e2eb77",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.685920Z",
+    "finished_at": "2025-11-10T15:43:35.685920Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f5c5b753-e1c9-4a14-b618-915d3c912601",
+      "source_path": "backups/2023年6月/德国2/搬家自我介绍.html",
+      "checksum": "231dfbc0dbbcd83a581b19075e0bf60ad624a9095fb74e94cbc943ab96a468b8"
+    },
+    "output_ref": {
+      "ingest_source": "32fc7d3d-8226-43df-ace1-ba1e1644358f",
+      "note": "e06bfd95-9b94-4809-b44d-0275e3e2eb77",
+      "variants": [
+        "85078a84-4623-4ef8-bc97-5499e6a9e5b0",
+        "d0f95139-3502-4607-9800-df9960938f75"
+      ]
+    },
+    "error_detail": null
+  }
+}

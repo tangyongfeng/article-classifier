@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d49ae924-840e-4069-b428-1076ff5eea8e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/授权书邮寄id.html",
+    "collected_at": "2025-11-10T15:43:33.975556Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "2894d0662dc45b020d406d0a1e45724054c73cfcf44b987f9b57fd42ae95e97a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d1d190ae-a4cc-4e65-93a1-3b2dde3fe156",
+    "ingest_source_id": "d49ae924-840e-4069-b428-1076ff5eea8e",
+    "canonical_title": "授权书邮寄id",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.975560Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "授权书邮寄id.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "754242d9-647f-4305-afcc-f20167db6987",
+      "note_id": "d1d190ae-a4cc-4e65-93a1-3b2dde3fe156",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.975563Z",
+      "content": "---\ntitle: 授权书邮寄id\nupdated: 2020-12-01 14:55:28Z\ncreated: 2020-12-01 14:54:35Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>sendnungsnummer RR31059415DE</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2894d0662dc45b020d406d0a1e45724054c73cfcf44b987f9b57fd42ae95e97a",
+        "path": "backups/2023年6月/个人的乱78糟/授权书邮寄id.html"
+      }
+    },
+    {
+      "id": "80cc2f8a-6155-43ed-b1d0-267390fbef4d",
+      "note_id": "d1d190ae-a4cc-4e65-93a1-3b2dde3fe156",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.975566Z",
+      "content": "---\ntitle: 授权书邮寄id\nupdated: 2020-12-01 14:55:28Z\ncreated: 2020-12-01 14:54:35Z\nauthor: tangyongfeng@gmail.com\n---\n\nsendnungsnummer RR31059415DE",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 143,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3747462d-d043-4690-9fe2-f81ea1fa3687",
+    "note_id": "d1d190ae-a4cc-4e65-93a1-3b2dde3fe156",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.975572Z",
+    "finished_at": "2025-11-10T15:43:33.975572Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "89c967c6-1f47-4d11-8211-78f37e176d67",
+      "source_path": "backups/2023年6月/个人的乱78糟/授权书邮寄id.html",
+      "checksum": "2894d0662dc45b020d406d0a1e45724054c73cfcf44b987f9b57fd42ae95e97a"
+    },
+    "output_ref": {
+      "ingest_source": "d49ae924-840e-4069-b428-1076ff5eea8e",
+      "note": "d1d190ae-a4cc-4e65-93a1-3b2dde3fe156",
+      "variants": [
+        "754242d9-647f-4305-afcc-f20167db6987",
+        "80cc2f8a-6155-43ed-b1d0-267390fbef4d"
+      ]
+    },
+    "error_detail": null
+  }
+}

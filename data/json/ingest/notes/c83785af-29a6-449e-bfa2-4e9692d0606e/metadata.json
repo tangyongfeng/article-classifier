@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a53c0021-9fc8-4d18-8a50-57dc28cf32f2",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/红领巾.html",
+    "collected_at": "2025-11-10T15:43:34.352590Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "b88182902b0224bd1e720d59b347aea28315a3ea3622c15e322c69c5ce2614c9",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c83785af-29a6-449e-bfa2-4e9692d0606e",
+    "ingest_source_id": "a53c0021-9fc8-4d18-8a50-57dc28cf32f2",
+    "canonical_title": "红领巾",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.352594Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "红领巾.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f6bbae86-442c-4191-bdb3-b8cca5f946d7",
+      "note_id": "c83785af-29a6-449e-bfa2-4e9692d0606e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.352596Z",
+      "content": "---\ntitle: 红领巾\nupdated: 2020-08-27 09:39:00Z\ncreated: 2020-08-27 09:38:20Z\n---\n\n\n\n<en-note><div>des rote Halstuch&nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b88182902b0224bd1e720d59b347aea28315a3ea3622c15e322c69c5ce2614c9",
+        "path": "backups/2023年6月/个人的乱78糟/红领巾.html"
+      }
+    },
+    {
+      "id": "5e156465-d5ee-4ee2-99d9-b23cb5da10cb",
+      "note_id": "c83785af-29a6-449e-bfa2-4e9692d0606e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.352599Z",
+      "content": "---\ntitle: 红领巾\nupdated: 2020-08-27 09:39:00Z\ncreated: 2020-08-27 09:38:20Z\n---\n\ndes rote Halstuch",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 97,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1785dfa3-6650-4e7d-8fa1-173085ac6307",
+    "note_id": "c83785af-29a6-449e-bfa2-4e9692d0606e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.352604Z",
+    "finished_at": "2025-11-10T15:43:34.352604Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f375e6e1-5afb-45d4-b187-b944321973cf",
+      "source_path": "backups/2023年6月/个人的乱78糟/红领巾.html",
+      "checksum": "b88182902b0224bd1e720d59b347aea28315a3ea3622c15e322c69c5ce2614c9"
+    },
+    "output_ref": {
+      "ingest_source": "a53c0021-9fc8-4d18-8a50-57dc28cf32f2",
+      "note": "c83785af-29a6-449e-bfa2-4e9692d0606e",
+      "variants": [
+        "f6bbae86-442c-4191-bdb3-b8cca5f946d7",
+        "5e156465-d5ee-4ee2-99d9-b23cb5da10cb"
+      ]
+    },
+    "error_detail": null
+  }
+}

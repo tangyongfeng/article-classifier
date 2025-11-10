@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f2202545-dfd6-4118-8029-176124af1dc8",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/双色球中奖面6.7%-8.48-9%%.html",
+    "collected_at": "2025-11-10T15:43:34.828844Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "87413e184c44550f25adadf6beccacb8bffb399a5095c0f1dba451c82aaf5f65",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "562d2341-ece6-4010-9228-1218228effea",
+    "ingest_source_id": "f2202545-dfd6-4118-8029-176124af1dc8",
+    "canonical_title": "双色球中奖面6.7%-8.48-9%%",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.828848Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "双色球中奖面6.7%-8.48-9%%.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ab420597-74c8-440a-9de3-bfe6c08c0480",
+      "note_id": "562d2341-ece6-4010-9228-1218228effea",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.828851Z",
+      "content": "---\ntitle: 双色球中奖面6.7%-8.48-9%%\nupdated: 2012-09-05 04:31:10Z\ncreated: 2012-09-05 03:34:33Z\ntags:\n  - 3D\n  - 中奖面\n  - 双色球\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n双色球中奖面6.7%-8.48-9%%\n<div>3D&nbsp;<span STYLE=\"font-size: 10pt; font-family: 宋体; text-indent: 0mm;\">普通1/1000，组三3/1000，组六6/1000</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "87413e184c44550f25adadf6beccacb8bffb399a5095c0f1dba451c82aaf5f65",
+        "path": "backups/2023年6月/中彩相关/双色球中奖面6.7%-8.48-9%%.html"
+      }
+    },
+    {
+      "id": "bd95f4b3-b1d3-49a3-88de-d474a7840a81",
+      "note_id": "562d2341-ece6-4010-9228-1218228effea",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.828854Z",
+      "content": "---\ntitle: 双色球中奖面6.7%-8.48-9%%\nupdated: 2012-09-05 04:31:10Z\ncreated: 2012-09-05 03:34:33Z\ntags:\n  - 3D\n  - 中奖面\n  - 双色球\n---\n\n双色球中奖面6.7%-8.48-9%%\n\n3D \n普通1/1000，组三3/1000，组六6/1000",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 176,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "05487a75-b05b-4eac-a28b-42cda02514e8",
+    "note_id": "562d2341-ece6-4010-9228-1218228effea",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.828860Z",
+    "finished_at": "2025-11-10T15:43:34.828860Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "62ae5e4c-20da-4fc7-9d50-db7a1c199c44",
+      "source_path": "backups/2023年6月/中彩相关/双色球中奖面6.7%-8.48-9%%.html",
+      "checksum": "87413e184c44550f25adadf6beccacb8bffb399a5095c0f1dba451c82aaf5f65"
+    },
+    "output_ref": {
+      "ingest_source": "f2202545-dfd6-4118-8029-176124af1dc8",
+      "note": "562d2341-ece6-4010-9228-1218228effea",
+      "variants": [
+        "ab420597-74c8-440a-9de3-bfe6c08c0480",
+        "bd95f4b3-b1d3-49a3-88de-d474a7840a81"
+      ]
+    },
+    "error_detail": null
+  }
+}

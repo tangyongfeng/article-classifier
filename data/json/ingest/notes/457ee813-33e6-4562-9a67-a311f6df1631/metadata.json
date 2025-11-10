@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "202fe03c-4b77-4082-a939-8d3747baf9d2",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/Lieber Postbote.html",
+    "collected_at": "2025-11-10T15:43:33.392688Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "e91916440ebb4c73ed0f640152401b963d7a9bfd6547bcb5a83bfa82fe99a37d",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "457ee813-33e6-4562-9a67-a311f6df1631",
+    "ingest_source_id": "202fe03c-4b77-4082-a939-8d3747baf9d2",
+    "canonical_title": "Lieber Postbote",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:33.392692Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Lieber Postbote.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f7aaf080-5375-40da-a03c-b8d9f953e059",
+      "note_id": "457ee813-33e6-4562-9a67-a311f6df1631",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.392695Z",
+      "content": "---\ntitle: Lieber Postbote\nupdated: 2022-08-24 21:46:08Z\ncreated: 2022-08-24 21:27:34Z\nauthor: tangyongfeng\n---\n\n\n<en-note><div><span STYLE=\"font-size: 24px;\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></div><div><span STYLE=\"font-size: 24px;\">Ich bin nicht zu Hause, bitte legen Sie mein Paket unten an der Treppe ab.</span></div><div><span STYLE=\"font-size: 24px;\">Vielen Dank und noch einen sch&ouml;nen Tag.</span></div><div><br/></div><div><span STYLE=\"font-size: 24px;\">Vielen Gr&uuml;&szlig;en</span></div><div><br/></div><div><span STYLE=\"font-size: 24px;\">Yongfeng Tang</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e91916440ebb4c73ed0f640152401b963d7a9bfd6547bcb5a83bfa82fe99a37d",
+        "path": "backups/2023年6月/个人的乱78糟/Lieber Postbote.html"
+      }
+    },
+    {
+      "id": "c9973224-318d-4e25-b450-96840cc8cab2",
+      "note_id": "457ee813-33e6-4562-9a67-a311f6df1631",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.392699Z",
+      "content": "---\ntitle: Lieber Postbote\nupdated: 2022-08-24 21:46:08Z\ncreated: 2022-08-24 21:27:34Z\nauthor: tangyongfeng\n---\n\nIch bin nicht zu Hause, bitte legen Sie mein Paket unten an der Treppe ab.\nVielen Dank und noch einen schönen Tag.\nVielen Grüßen\nYongfeng Tang",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 255,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b7cb28c0-0bd9-4171-b028-0fbf03407da6",
+    "note_id": "457ee813-33e6-4562-9a67-a311f6df1631",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.392704Z",
+    "finished_at": "2025-11-10T15:43:33.392704Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a6186215-0187-4eb9-b9ed-d285eff84204",
+      "source_path": "backups/2023年6月/个人的乱78糟/Lieber Postbote.html",
+      "checksum": "e91916440ebb4c73ed0f640152401b963d7a9bfd6547bcb5a83bfa82fe99a37d"
+    },
+    "output_ref": {
+      "ingest_source": "202fe03c-4b77-4082-a939-8d3747baf9d2",
+      "note": "457ee813-33e6-4562-9a67-a311f6df1631",
+      "variants": [
+        "f7aaf080-5375-40da-a03c-b8d9f953e059",
+        "c9973224-318d-4e25-b450-96840cc8cab2"
+      ]
+    },
+    "error_detail": null
+  }
+}

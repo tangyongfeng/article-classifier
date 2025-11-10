@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d6d35b7e-b626-42dd-8976-af3590786a8c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/二战前夕.html",
+    "collected_at": "2025-11-10T15:43:33.659885Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "74d2d2237feb215d8e8a45035d2725af7cf53445ac12c2cd9005dafe16dc9a06",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "5b9630a0-0629-435b-9bca-371b8f98f04b",
+    "ingest_source_id": "d6d35b7e-b626-42dd-8976-af3590786a8c",
+    "canonical_title": "二战前夕",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:33.659888Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "二战前夕.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4d46dd86-2e7a-435e-a3ca-fa09ff7758df",
+      "note_id": "5b9630a0-0629-435b-9bca-371b8f98f04b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.659891Z",
+      "content": "---\ntitle: 二战前夕\nupdated: 2022-04-23 14:14:46Z\ncreated: 2022-04-23 14:14:36Z\n---\n\n\n<en-note><div>日本发动太平洋战争前夕，预估了全部可能结果</div><div>并进行了全国总动员预演：</div><div>切断主要沿海交通网络，主动与对外贸易脱钩，</div><div>检验经济制裁国家承受力。</div><div>封闭金融贸易中心，实行战时管制，检验全社会</div><div>承受力。</div><div>制造超大规模全境恐慌，实行断水断电断粮，检</div><div>验宫僚体系的承受力。</div><div>实行一至二个月极限施压，检验整个国家总体战</div><div>争能力的承受力。</div><div>军方接管舆论宣传机器，踢开地方民事管制，拑</div><div>制任何不同声音。</div><div>切断全境物流，切换至战时经济管制，实行配给</div><div>制供应，检验军事集体主义生活方式承受力。</div><div>实行全境防空袭演习，检验战争状态下承受力。</div><div>实施民转军的战时生产管制，检验军事后勤供给</div><div>承受力。</div><div>故意制造大规模的人道主义危机，检验军事医疗</div><div>体系承受力。</div><div>针对内阁的总动员，由天皇给出严词切责，试探</div><div>上层建筑战争承受力。</div><div>当把日本全境折腾到死去活来，欲仙欲死之时，</div><div>对珍珠港实施突然袭击，使全民演习一夜之间变成</div><div>现实。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "74d2d2237feb215d8e8a45035d2725af7cf53445ac12c2cd9005dafe16dc9a06",
+        "path": "backups/2023年6月/个人的乱78糟/二战前夕.html"
+      }
+    },
+    {
+      "id": "ae9c199a-dbdf-4623-92af-3f4de9f189f3",
+      "note_id": "5b9630a0-0629-435b-9bca-371b8f98f04b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.659894Z",
+      "content": "---\ntitle: 二战前夕\nupdated: 2022-04-23 14:14:46Z\ncreated: 2022-04-23 14:14:36Z\n---\n\n日本发动太平洋战争前夕，预估了全部可能结果\n并进行了全国总动员预演：\n切断主要沿海交通网络，主动与对外贸易脱钩，\n检验经济制裁国家承受力。\n封闭金融贸易中心，实行战时管制，检验全社会\n承受力。\n制造超大规模全境恐慌，实行断水断电断粮，检\n验宫僚体系的承受力。\n实行一至二个月极限施压，检验整个国家总体战\n争能力的承受力。\n军方接管舆论宣传机器，踢开地方民事管制，拑\n制任何不同声音。\n切断全境物流，切换至战时经济管制，实行配给\n制供应，检验军事集体主义生活方式承受力。\n实行全境防空袭演习，检验战争状态下承受力。\n实施民转军的战时生产管制，检验军事后勤供给\n承受力。\n故意制造大规模的人道主义危机，检验军事医疗\n体系承受力。\n针对内阁的总动员，由天皇给出严词切责，试探\n上层建筑战争承受力。\n当把日本全境折腾到死去活来，欲仙欲死之时，\n对珍珠港实施突然袭击，使全民演习一夜之间变成\n现实。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 475,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "df1eaa88-e40f-47a0-b4b2-733fec4cfd13",
+    "note_id": "5b9630a0-0629-435b-9bca-371b8f98f04b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.659898Z",
+    "finished_at": "2025-11-10T15:43:33.659899Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "890c2a74-169c-403b-b9b0-624a08096f55",
+      "source_path": "backups/2023年6月/个人的乱78糟/二战前夕.html",
+      "checksum": "74d2d2237feb215d8e8a45035d2725af7cf53445ac12c2cd9005dafe16dc9a06"
+    },
+    "output_ref": {
+      "ingest_source": "d6d35b7e-b626-42dd-8976-af3590786a8c",
+      "note": "5b9630a0-0629-435b-9bca-371b8f98f04b",
+      "variants": [
+        "4d46dd86-2e7a-435e-a3ca-fa09ff7758df",
+        "ae9c199a-dbdf-4623-92af-3f4de9f189f3"
+      ]
+    },
+    "error_detail": null
+  }
+}

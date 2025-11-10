@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "f8ea6a54-3130-44e8-9963-ee841702f71b",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/域名.html",
+    "collected_at": "2025-11-10T15:43:32.403809Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d745c75cec55b20372430756624e992c31f18992567e79ac5ab8837ae94c0255",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "81d87114-c951-4954-81bb-4fe9c9b7a32a",
+    "ingest_source_id": "f8ea6a54-3130-44e8-9963-ee841702f71b",
+    "canonical_title": "域名",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.403813Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "域名.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ab6b7172-82c9-45ec-be79-2288082cd7cf",
+      "note_id": "81d87114-c951-4954-81bb-4fe9c9b7a32a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.403815Z",
+      "content": "---\ntitle: 域名\nupdated: 2018-05-29 06:19:04Z\ncreated: 2018-05-29 06:15:39Z\nauthor: tangyongfeng\n---\n\n\n\n<en-note><div><span>meine22.com</span><br CLEAR=\"none\"/></div><div><span>my22.eu</span><br CLEAR=\"none\"/></div><div>meine22.de</div><div>chinaunddeutschland.com <br CLEAR=\"none\"/>chinaandgermany.com <br CLEAR=\"none\"/>makeup.run <br CLEAR=\"none\"/>mon22.fr<br CLEAR=\"none\"/><br CLEAR=\"none\"/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d745c75cec55b20372430756624e992c31f18992567e79ac5ab8837ae94c0255",
+        "path": "backups/2023年6月/IT技术/域名.html"
+      }
+    },
+    {
+      "id": "fb5da867-2221-407c-90a5-1506ce5131db",
+      "note_id": "81d87114-c951-4954-81bb-4fe9c9b7a32a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.403818Z",
+      "content": "---\ntitle: 域名\nupdated: 2018-05-29 06:19:04Z\ncreated: 2018-05-29 06:15:39Z\nauthor: tangyongfeng\n---\n\nmeine22.com\nmy22.eu\nmeine22.de\nchinaunddeutschland.com\nchinaandgermany.com\nmakeup.run\nmon22.fr",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 194,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9be998c2-b6d1-4618-a185-353744e2133e",
+    "note_id": "81d87114-c951-4954-81bb-4fe9c9b7a32a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.403823Z",
+    "finished_at": "2025-11-10T15:43:32.403823Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9cd16da1-cf72-4ecb-b7fb-61737b72dc9e",
+      "source_path": "backups/2023年6月/IT技术/域名.html",
+      "checksum": "d745c75cec55b20372430756624e992c31f18992567e79ac5ab8837ae94c0255"
+    },
+    "output_ref": {
+      "ingest_source": "f8ea6a54-3130-44e8-9963-ee841702f71b",
+      "note": "81d87114-c951-4954-81bb-4fe9c9b7a32a",
+      "variants": [
+        "ab6b7172-82c9-45ec-be79-2288082cd7cf",
+        "fb5da867-2221-407c-90a5-1506ce5131db"
+      ]
+    },
+    "error_detail": null
+  }
+}

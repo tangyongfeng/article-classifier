@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3b57a16b-13f6-46f7-93f8-511b4db92867",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/JLGMBH.html",
+    "collected_at": "2025-11-10T15:43:30.837718Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "25f8d02efa0a94eed7c26a9ecf416df6ba504824a742b05887cac9501001dc04",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9ef7b239-163d-45b7-8dea-b08baef5d817",
+    "ingest_source_id": "3b57a16b-13f6-46f7-93f8-511b4db92867",
+    "canonical_title": "JLGMBH",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:30.837722Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "JLGMBH.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "47dbb50c-10a1-431d-8d73-45d169468b48",
+      "note_id": "9ef7b239-163d-45b7-8dea-b08baef5d817",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.837724Z",
+      "content": "---\ntitle: JLGMBH\nupdated: 2019-10-12 10:35:30Z\ncreated: 2019-10-12 09:43:29Z\n---\n\n\n<en-note><div>IP:</div><div>35.158.57.81</div><div><br/></div><a href='../_resources/Ubuntu_de_fran.pem'  style=\"--en-viewerProps:{};\" type=\"application/octet-stream\" hash=\"0fcff7d38222e91e4f966db7ba09160d\" alt=\"Ubuntu_de_fran.pem\">  Ubuntu_de_fran.pem</a></en-media><div><br/></div><div><br/></div><div>[client]</div><div>host&nbsp; &nbsp;&nbsp; = localhost</div><div>user&nbsp; &nbsp;&nbsp; = debian-sys-maint</div><div>password = UtorB0LfGt37yohF</div><div>socket&nbsp;&nbsp; = /var/run/mysqld/mysqld.sock</div><div>[mysql_upgrade]</div><div>host&nbsp; &nbsp;&nbsp; = localhost</div><div>user&nbsp; &nbsp;&nbsp; = debian-sys-maint</div><div>password = UtorB0LfGt37yohF</div><div>socket&nbsp;&nbsp; = /var/run/mysqld/mysqld.sock</div><div><br/></div><div><br/></div><div>grant all privileges on wordpress.* to webadmin@&apos;127.0.0.1&apos; identified by &apos;XAtG37dteDErJXVb&apos;;</div><div><br/></div><div><br/></div><div>wordpress:</div><div><br/></div><div>JiaLi</div><div>S54Z^eHDmz8pOxId&amp;Q</div><div><a HREF=\"mailto:yongfeng.tang@me.com\">yongfeng.tang@me.com</a></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "25f8d02efa0a94eed7c26a9ecf416df6ba504824a742b05887cac9501001dc04",
+        "path": "backups/2023年6月/IT技术/JLGMBH.html"
+      }
+    },
+    {
+      "id": "9cbaef3a-8310-442e-8056-18d9d9883c90",
+      "note_id": "9ef7b239-163d-45b7-8dea-b08baef5d817",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.837727Z",
+      "content": "---\ntitle: JLGMBH\nupdated: 2019-10-12 10:35:30Z\ncreated: 2019-10-12 09:43:29Z\n---\n\nIP:\n35.158.57.81\n  Ubuntu_de_fran.pem\n[client]\nhost     = localhost\nuser     = debian-sys-maint\npassword = UtorB0LfGt37yohF\nsocket   = /var/run/mysqld/mysqld.sock\n[mysql_upgrade]\nhost     = localhost\nuser     = debian-sys-maint\npassword = UtorB0LfGt37yohF\nsocket   = /var/run/mysqld/mysqld.sock\ngrant all privileges on wordpress.* to webadmin@'127.0.0.1' identified by 'XAtG37dteDErJXVb';\nwordpress:\nJiaLi\nS54Z^eHDmz8pOxId&Q\nyongfeng.tang@me.com",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 528,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "516d659a-df9c-41d1-88a3-c9c4ac89f1c8",
+    "note_id": "9ef7b239-163d-45b7-8dea-b08baef5d817",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.837732Z",
+    "finished_at": "2025-11-10T15:43:30.837732Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2c2e321e-3390-40e8-8528-17877f6a0cd9",
+      "source_path": "backups/2023年6月/IT技术/JLGMBH.html",
+      "checksum": "25f8d02efa0a94eed7c26a9ecf416df6ba504824a742b05887cac9501001dc04"
+    },
+    "output_ref": {
+      "ingest_source": "3b57a16b-13f6-46f7-93f8-511b4db92867",
+      "note": "9ef7b239-163d-45b7-8dea-b08baef5d817",
+      "variants": [
+        "47dbb50c-10a1-431d-8d73-45d169468b48",
+        "9cbaef3a-8310-442e-8056-18d9d9883c90"
+      ]
+    },
+    "error_detail": null
+  }
+}

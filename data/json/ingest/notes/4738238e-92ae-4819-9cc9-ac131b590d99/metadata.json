@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4b58f47e-9c86-4d7f-aa0c-bacc01927f48",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/可儿/喉炎雾化治疗.html",
+    "collected_at": "2025-11-10T15:43:35.289411Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3a956dbdc02f95ea24d687727809d5780a43c7c8f7fd4bb7be6c6180e207bf41",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4738238e-92ae-4819-9cc9-ac131b590d99",
+    "ingest_source_id": "4b58f47e-9c86-4d7f-aa0c-bacc01927f48",
+    "canonical_title": "喉炎雾化治疗",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.289415Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "喉炎雾化治疗.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "11373f15-5788-4e3a-bb63-33098b8656af",
+      "note_id": "4738238e-92ae-4819-9cc9-ac131b590d99",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.289418Z",
+      "content": "---\ntitle: 喉炎雾化治疗\nupdated: 2012-09-05 09:18:34Z\ncreated: 2012-09-05 09:15:36Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n病毒唑注射液，生理盐水，地塞米松糜蛋白酶\n<div>20毫升生理盐水各一支</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3a956dbdc02f95ea24d687727809d5780a43c7c8f7fd4bb7be6c6180e207bf41",
+        "path": "backups/2023年6月/可儿/喉炎雾化治疗.html"
+      }
+    },
+    {
+      "id": "15509e3d-4f27-4d8c-8fc9-aa5edd60a93f",
+      "note_id": "4738238e-92ae-4819-9cc9-ac131b590d99",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.289421Z",
+      "content": "---\ntitle: 喉炎雾化治疗\nupdated: 2012-09-05 09:18:34Z\ncreated: 2012-09-05 09:15:36Z\n---\n\n病毒唑注射液，生理盐水，地塞米松糜蛋白酶\n\n20毫升生理盐水各一支",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 116,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "26226fb4-ed86-42fd-a0fc-35157ef1d2df",
+    "note_id": "4738238e-92ae-4819-9cc9-ac131b590d99",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.289426Z",
+    "finished_at": "2025-11-10T15:43:35.289426Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a63d4d7f-aee9-40e5-8cc0-d2afa634ea43",
+      "source_path": "backups/2023年6月/可儿/喉炎雾化治疗.html",
+      "checksum": "3a956dbdc02f95ea24d687727809d5780a43c7c8f7fd4bb7be6c6180e207bf41"
+    },
+    "output_ref": {
+      "ingest_source": "4b58f47e-9c86-4d7f-aa0c-bacc01927f48",
+      "note": "4738238e-92ae-4819-9cc9-ac131b590d99",
+      "variants": [
+        "11373f15-5788-4e3a-bb63-33098b8656af",
+        "15509e3d-4f27-4d8c-8fc9-aa5edd60a93f"
+      ]
+    },
+    "error_detail": null
+  }
+}

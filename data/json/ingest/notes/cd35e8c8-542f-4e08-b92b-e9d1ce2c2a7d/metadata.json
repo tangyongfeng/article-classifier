@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "bd58ce38-1932-4dfc-b759-c41da4332679",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/视频下载.html",
+    "collected_at": "2025-11-10T15:43:34.515727Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bee65f47ea781db6cfc38ad9f8788f56eeb4c426f3c11ccb2ade549449cc00cb",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "cd35e8c8-542f-4e08-b92b-e9d1ce2c2a7d",
+    "ingest_source_id": "bd58ce38-1932-4dfc-b759-c41da4332679",
+    "canonical_title": "视频下载",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.515731Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "视频下载.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "95598996-d0e5-4d70-b1d0-6039e5855edd",
+      "note_id": "cd35e8c8-542f-4e08-b92b-e9d1ce2c2a7d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.515734Z",
+      "content": "---\ntitle: 视频下载\nupdated: 2020-12-29 23:51:16Z\ncreated: 2020-12-29 23:51:01Z\n---\n\n\n\n<en-note><div><a HREF=\"http://weibointl.api.weibo.com/share/192847533.html?weibo_id=4543566716600984\">http://weibointl.api.weibo.com/share/192847533.html?weibo_id=4543566716600984</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bee65f47ea781db6cfc38ad9f8788f56eeb4c426f3c11ccb2ade549449cc00cb",
+        "path": "backups/2023年6月/个人的乱78糟/视频下载.html"
+      }
+    },
+    {
+      "id": "b1051c6e-d253-4e4e-ba5d-2f63d7eaaae4",
+      "note_id": "cd35e8c8-542f-4e08-b92b-e9d1ce2c2a7d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.515736Z",
+      "content": "---\ntitle: 视频下载\nupdated: 2020-12-29 23:51:16Z\ncreated: 2020-12-29 23:51:01Z\n---\n\nhttp://weibointl.api.weibo.com/share/192847533.html?weibo_id=4543566716600984",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 158,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2f02771c-5b96-4dee-803f-65be33287f96",
+    "note_id": "cd35e8c8-542f-4e08-b92b-e9d1ce2c2a7d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.515741Z",
+    "finished_at": "2025-11-10T15:43:34.515741Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "01b4bfb3-37ac-4aed-8bad-9a67f3e65cec",
+      "source_path": "backups/2023年6月/个人的乱78糟/视频下载.html",
+      "checksum": "bee65f47ea781db6cfc38ad9f8788f56eeb4c426f3c11ccb2ade549449cc00cb"
+    },
+    "output_ref": {
+      "ingest_source": "bd58ce38-1932-4dfc-b759-c41da4332679",
+      "note": "cd35e8c8-542f-4e08-b92b-e9d1ce2c2a7d",
+      "variants": [
+        "95598996-d0e5-4d70-b1d0-6039e5855edd",
+        "b1051c6e-d253-4e4e-ba5d-2f63d7eaaae4"
+      ]
+    },
+    "error_detail": null
+  }
+}

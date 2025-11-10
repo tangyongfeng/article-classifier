@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a458fb43-035e-412b-9f34-0beb2fa9c18a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/可儿/炎黄健康.html",
+    "collected_at": "2025-11-10T15:43:35.311763Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "ff6dca9da8367231af488cf81c8df9df479ebce8840f4a555be222742335c753",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "205c6ee6-d961-44f4-b575-ecde5c95fb23",
+    "ingest_source_id": "a458fb43-035e-412b-9f34-0beb2fa9c18a",
+    "canonical_title": "炎黄健康",
+    "language": "ro",
+    "ingested_at": "2025-11-10T15:43:35.311767Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "炎黄健康.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "efb15895-2367-4691-9737-316ee4acd1f4",
+      "note_id": "205c6ee6-d961-44f4-b575-ecde5c95fb23",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.311769Z",
+      "content": "---\ntitle: 炎黄健康\nupdated: 2012-07-02 02:34:33Z\ncreated: 2012-07-02 02:34:33Z\nlatitude: 39.88870000\nlongitude: 116.63200000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ff6dca9da8367231af488cf81c8df9df479ebce8840f4a555be222742335c753",
+        "path": "backups/2023年6月/可儿/炎黄健康.html"
+      }
+    },
+    {
+      "id": "25e2dd4e-a063-451d-8d61-e8993e6bd78d",
+      "note_id": "205c6ee6-d961-44f4-b575-ecde5c95fb23",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.311772Z",
+      "content": "---\ntitle: 炎黄健康\nupdated: 2012-07-02 02:34:33Z\ncreated: 2012-07-02 02:34:33Z\nlatitude: 39.88870000\nlongitude: 116.63200000\naltitude: 0.0000\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 142,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0337bc39-674f-4139-8bb5-f65d1d0201a4",
+    "note_id": "205c6ee6-d961-44f4-b575-ecde5c95fb23",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.311777Z",
+    "finished_at": "2025-11-10T15:43:35.311777Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4ddd5055-cbba-4cc5-ae17-f6cfafd98200",
+      "source_path": "backups/2023年6月/可儿/炎黄健康.html",
+      "checksum": "ff6dca9da8367231af488cf81c8df9df479ebce8840f4a555be222742335c753"
+    },
+    "output_ref": {
+      "ingest_source": "a458fb43-035e-412b-9f34-0beb2fa9c18a",
+      "note": "205c6ee6-d961-44f4-b575-ecde5c95fb23",
+      "variants": [
+        "efb15895-2367-4691-9737-316ee4acd1f4",
+        "25e2dd4e-a063-451d-8d61-e8993e6bd78d"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1e05f010-0b3b-424e-a4aa-388fc02a9a3a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/马自达5常见问题.html",
+    "collected_at": "2025-11-10T15:43:34.611111Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "8fee779d6455df835097cf384c5450e12c87cb1dca4460b4a8f669b72cb9c147",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e4064645-22a2-4b02-bcda-e865ffa81cfa",
+    "ingest_source_id": "1e05f010-0b3b-424e-a4aa-388fc02a9a3a",
+    "canonical_title": "马自达5常见问题",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.611115Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "马自达5常见问题.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e4669a45-5ac9-446c-ba20-4702c6ba6ea5",
+      "note_id": "e4064645-22a2-4b02-bcda-e865ffa81cfa",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.611117Z",
+      "content": "---\ntitle: 马自达5常见问题\nupdated: 2018-09-03 02:05:58Z\ncreated: 2018-09-03 02:05:49Z\nauthor: tangyongfeng\n---\n\n\n\n<en-note><div>你即将要买二手马5或你家里的马5出现以下情况，请不要惊慌，更不要骂街：<br CLEAR=\"none\"/><br CLEAR=\"none\"/><br CLEAR=\"none\"/>    转向机渗漏油，发动机气门室盖渗漏油。避震异响，避震胶垫老化，渗漏油，换新。中门异响，缠胶带抹黄油，B柱异响，车门内部卡扣不严。空调异响，检测空调压缩机。<br CLEAR=\"none\"/><br CLEAR=\"none\"/><br CLEAR=\"none\"/><br CLEAR=\"none\"/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8fee779d6455df835097cf384c5450e12c87cb1dca4460b4a8f669b72cb9c147",
+        "path": "backups/2023年6月/个人的乱78糟/马自达5常见问题.html"
+      }
+    },
+    {
+      "id": "0e469d6f-ad0a-4927-9a56-87b2e9937337",
+      "note_id": "e4064645-22a2-4b02-bcda-e865ffa81cfa",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.611120Z",
+      "content": "---\ntitle: 马自达5常见问题\nupdated: 2018-09-03 02:05:58Z\ncreated: 2018-09-03 02:05:49Z\nauthor: tangyongfeng\n---\n\n你即将要买二手马5或你家里的马5出现以下情况，请不要惊慌，更不要骂街：\n    转向机渗漏油，发动机气门室盖渗漏油。避震异响，避震胶垫老化，渗漏油，换新。中门异响，缠胶带抹黄油，B柱异响，车门内部卡扣不严。空调异响，检测空调压缩机。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 222,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "da12c23c-e486-4fa8-9c31-f2fce6a1a254",
+    "note_id": "e4064645-22a2-4b02-bcda-e865ffa81cfa",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.611125Z",
+    "finished_at": "2025-11-10T15:43:34.611125Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c003c40f-2583-4cbf-967e-cf7ecae9410f",
+      "source_path": "backups/2023年6月/个人的乱78糟/马自达5常见问题.html",
+      "checksum": "8fee779d6455df835097cf384c5450e12c87cb1dca4460b4a8f669b72cb9c147"
+    },
+    "output_ref": {
+      "ingest_source": "1e05f010-0b3b-424e-a4aa-388fc02a9a3a",
+      "note": "e4064645-22a2-4b02-bcda-e865ffa81cfa",
+      "variants": [
+        "e4669a45-5ac9-446c-ba20-4702c6ba6ea5",
+        "0e469d6f-ad0a-4927-9a56-87b2e9937337"
+      ]
+    },
+    "error_detail": null
+  }
+}

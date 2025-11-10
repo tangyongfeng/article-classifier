@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "c4b8686c-634f-414b-94a8-d177260c5d1f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/利弗莫尔 买入法：.html",
+    "collected_at": "2025-11-10T15:43:36.452587Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "3d59abb7eec5af1d0efb4808216aac1a88b8e2f8041adedaff416da1f64cb0eb",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e2177d19-f9db-400f-add8-2becd9d8990e",
+    "ingest_source_id": "c4b8686c-634f-414b-94a8-d177260c5d1f",
+    "canonical_title": "利弗莫尔 买入法：",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.452591Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "利弗莫尔 买入法：.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f65658d5-a6fe-4121-82fa-f6b7f95cb067",
+      "note_id": "e2177d19-f9db-400f-add8-2becd9d8990e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.452593Z",
+      "content": "---\ntitle: 利弗莫尔 买入法：\nupdated: 2021-03-15 23:33:23Z\ncreated: 2021-03-15 23:28:45Z\n---\n\n\n\n<en-note><div><font FACE=\"Courier New\">利弗莫尔，</font></div><div><font FACE=\"Courier New\">即不用&ldquo;牛市&rdquo;和&ldquo;熊市&rdquo;划分资本市场。</font></div><div><font FACE=\"Courier New\"><br/></font></div><div><font FACE=\"Courier New\"><br/></font></div><div><font FACE=\"Courier New\">1、</font></div><div><font FACE=\"Courier New\">先买入20%；</font></div><div><font FACE=\"Courier New\"><br/></font></div><div><font FACE=\"Courier New\">2、</font></div><div><font FACE=\"Courier New\">下跌10%立即止损，损失2%；</font></div><div><font FACE=\"Courier New\"><br/></font></div><div><font FACE=\"Courier New\">3、</font></div><div><font FACE=\"Courier New\">上涨10%立即加仓20%，</font></div><div><font FACE=\"Courier New\">再上涨10%再加20%......</font></div><div><font FACE=\"Courier New\">最后一次直接加40%。</font></div><div><font FACE=\"Courier New\"><br/></font></div><div><font FACE=\"Courier New\">然后只要没跌破10%就持有，</font></div><div><font FACE=\"Courier New\">一旦跌10%立即全部卖出。</font></div><div><font FACE=\"Courier New\"><br/></font></div><div><font FACE=\"Courier New\"><br/></font></div><div><font FACE=\"Courier New\">原始的利弗莫尔买入法：</font></div><div><font FACE=\"Courier New\">先买入总资金的20%</font></div><div><font FACE=\"Courier New\">假设买错了：下跌10%立即止损，损失金额为总仓位的2%，Game over。 </font></div><div><font FACE=\"Courier New\">假设买对了：</font></div><div><font FACE=\"Courier New\">上涨10%立即加仓20%的总资金</font></div><div><font FACE=\"Courier New\">再上涨10%再加20%</font></div><div><font FACE=\"Courier New\">再涨10%，直接加40%</font></div><div><font FACE=\"Courier New\">将胜利成果扩大</font></div><div><font FACE=\"Courier New\">然后只要未跌破10%就一直持有，一旦从高位回撤10%立即无条件清仓。</font></div><div><font FACE=\"Courier New\">这个方法的牛逼之处就在于，假如你抓住了 $同花顺(SZ300033)$ 这种一个月翻倍，三个月三倍的股票，那你的收益会无限的最大化。</font></div><div><font FACE=\"Courier New\">可是这两天，我采取这个方法，做了一只股票叫 $聚灿光电(SZ300708)$</font></div><div><font FACE=\"Courier New\">虽然最终是正收益，但是收益不高，于是重新思考了一下，发现利福摩尔买入法还是有可以修正的地方。</font></div><div><font FACE=\"Courier New\">假设按照10万建基础仓，然后每涨10%分别按照10万 10万 20万加仓</font></div><div><font FACE=\"Courier New\">假设第1个涨停加仓10万后，回撤10%清仓，则累计盈亏为负收益~6.07%</font></div><div><font FACE=\"Courier New\">假设第2个涨停加10万后，回撤10%清仓，则累计盈亏为负收益~1.31%</font></div><div><font FACE=\"Courier New\">假设第3个涨停加10万后，回撤10%清仓，则累计盈亏为正收益3.78%</font></div><div><font FACE=\"Courier New\">假设第3个涨停加20万，直接回撤10%，则累计盈亏为正收益0.91%</font></div><div><font FACE=\"Courier New\">从上面可以看出，原始的利福摩尔买入法，必须要第3个涨停之后才是正收益，可是从年初到现在，又有多少股票可以连续三个涨停，还给你机会加仓的呢，并没有。</font></div><div><font FACE=\"Courier New\">所以这个方法并不实用，要么就是一个涨停后直接跌停，要么就是两个涨停后直接跌停，那样的话我们的风险非常大。</font></div><div><font FACE=\"Courier New\">所以我修正了一下，修正以后的话买入法从第2个涨停开始就正收益，所以我们要冒的风险就是第1个涨停之后不要跌停，如果你连一个涨停都看不见，那只能说你不适合用这种方法做短线。 </font></div><div><font FACE=\"Courier New\">修正后的方法很简单，如下：</font></div><div><font FACE=\"Courier New\">假如初级仓位10万，以后每个涨停加仓为前者半仓的话。</font></div><div><font FACE=\"Courier New\">一个涨停，加仓5万，回撤10%清仓，负收益-4.58%</font></div><div><font FACE=\"Courier New\">两个涨停，加仓2.50万，回撤10%清仓，正收益+2.75%</font></div><div><font FACE=\"Courier New\">三个涨停，加仓1.25万，回撤10%清仓，正收益+11.47%</font></div><div><font FACE=\"Courier New\">从上文可以看出，我们只需要冒一个涨停的风险，第2个涨停之后就开始正收益了，这个时候无论是翻倍的股票还是说三个涨停就出货的股票，我觉得都安然无恙，如果一只股票从底部开始，连50%都不想拉上去，那说明这个主力也太菜了，只能说我们看走眼了，换换换。</font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3d59abb7eec5af1d0efb4808216aac1a88b8e2f8041adedaff416da1f64cb0eb",
+        "path": "backups/2023年6月/投资/利弗莫尔 买入法：.html"
+      }
+    },
+    {
+      "id": "d2489dd9-ea27-4e45-8d22-6e04a025fdd4",
+      "note_id": "e2177d19-f9db-400f-add8-2becd9d8990e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.452596Z",
+      "content": "---\ntitle: 利弗莫尔 买入法：\nupdated: 2021-03-15 23:33:23Z\ncreated: 2021-03-15 23:28:45Z\n---\n\n利弗莫尔，\n即不用“牛市”和“熊市”划分资本市场。\n1、\n先买入20%；\n2、\n下跌10%立即止损，损失2%；\n3、\n上涨10%立即加仓20%，\n再上涨10%再加20%......\n最后一次直接加40%。\n然后只要没跌破10%就持有，\n一旦跌10%立即全部卖出。\n原始的利弗莫尔买入法：\n先买入总资金的20%\n假设买错了：下跌10%立即止损，损失金额为总仓位的2%，Game over。\n假设买对了：\n上涨10%立即加仓20%的总资金\n再上涨10%再加20%\n再涨10%，直接加40%\n将胜利成果扩大\n然后只要未跌破10%就一直持有，一旦从高位回撤10%立即无条件清仓。\n这个方法的牛逼之处就在于，假如你抓住了 $同花顺(SZ300033)$ 这种一个月翻倍，三个月三倍的股票，那你的收益会无限的最大化。\n可是这两天，我采取这个方法，做了一只股票叫 $聚灿光电(SZ300708)$\n虽然最终是正收益，但是收益不高，于是重新思考了一下，发现利福摩尔买入法还是有可以修正的地方。\n假设按照10万建基础仓，然后每涨10%分别按照10万 10万 20万加仓\n假设第1个涨停加仓10万后，回撤10%清仓，则累计盈亏为负收益~6.07%\n假设第2个涨停加10万后，回撤10%清仓，则累计盈亏为负收益~1.31%\n假设第3个涨停加10万后，回撤10%清仓，则累计盈亏为正收益3.78%\n假设第3个涨停加20万，直接回撤10%，则累计盈亏为正收益0.91%\n从上面可以看出，原始的利福摩尔买入法，必须要第3个涨停之后才是正收益，可是从年初到现在，又有多少股票可以连续三个涨停，还给你机会加仓的呢，并没有。\n所以这个方法并不实用，要么就是一个涨停后直接跌停，要么就是两个涨停后直接跌停，那样的话我们的风险非常大。\n所以我修正了一下，修正以后的话买入法从第2个涨停开始就正收益，所以我们要冒的风险就是第1个涨停之后不要跌停，如果你连一个涨停都看不见，那只能说你不适合用这种方法做短线。\n修正后的方法很简单，如下：\n假如初级仓位10万，以后每个涨停加仓为前者半仓的话。\n一个涨停，加仓5万，回撤10%清仓，负收益-4.58%\n两个涨停，加仓2.50万，回撤10%清仓，正收益+2.75%\n三个涨停，加仓1.25万，回撤10%清仓，正收益+11.47%\n从上文可以看出，我们只需要冒一个涨停的风险，第2个涨停之后就开始正收益了，这个时候无论是翻倍的股票还是说三个涨停就出货的股票，我觉得都安然无恙，如果一只股票从底部开始，连50%都不想拉上去，那说明这个主力也太菜了，只能说我们看走眼了，换换换。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 1173,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c07a49d1-0c65-442d-ac2d-49ad06022aae",
+    "note_id": "e2177d19-f9db-400f-add8-2becd9d8990e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.452601Z",
+    "finished_at": "2025-11-10T15:43:36.452601Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cd038c55-be41-4306-848f-4f327ee04cf8",
+      "source_path": "backups/2023年6月/投资/利弗莫尔 买入法：.html",
+      "checksum": "3d59abb7eec5af1d0efb4808216aac1a88b8e2f8041adedaff416da1f64cb0eb"
+    },
+    "output_ref": {
+      "ingest_source": "c4b8686c-634f-414b-94a8-d177260c5d1f",
+      "note": "e2177d19-f9db-400f-add8-2becd9d8990e",
+      "variants": [
+        "f65658d5-a6fe-4121-82fa-f6b7f95cb067",
+        "d2489dd9-ea27-4e45-8d22-6e04a025fdd4"
+      ]
+    },
+    "error_detail": null
+  }
+}

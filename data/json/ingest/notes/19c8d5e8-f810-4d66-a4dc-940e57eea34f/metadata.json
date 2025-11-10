@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2fac43f7-7db0-4c47-ba45-34f96b72924f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语3/发音规则.html",
+    "collected_at": "2025-11-10T15:43:36.165870Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7f47243803a9f20ee310c02c5ab4d285bdf6c9707e3cca10322e87982ac2b32b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "19c8d5e8-f810-4d66-a4dc-940e57eea34f",
+    "ingest_source_id": "2fac43f7-7db0-4c47-ba45-34f96b72924f",
+    "canonical_title": "发音规则",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.165874Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "发音规则.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9d14618b-de2d-4035-a106-0e2a5e27b4f3",
+      "note_id": "19c8d5e8-f810-4d66-a4dc-940e57eea34f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.165876Z",
+      "content": "---\ntitle: 发音规则\nupdated: 2020-03-16 14:27:17Z\ncreated: 2020-02-12 10:15:08Z\n---\n\n\n<en-note><div>1.元音后面跟两个辅音，发短音，没有辅音或者只有一个辅音，发长音</div><div><br/></div><div>2.f&uuml;nf [ao]</div><div>3.au后面ch发[h]</div><div>4.ch 发[k]</div><div>5,bl&uuml;che &nbsp;发 [sh]</div><div>6,sp 发 [shi]</div><div>7、a后面跟一个h的时候，发长音</div><div>音素</div><ol><li><div>&Ouml;</div></li><li><div>&Uuml;</div></li><li><div>&Auml;</div></li><li><div>sch</div></li><li><div>sp</div></li><li><div>ei &nbsp;(ai)</div></li><li><div>ie (i)</div></li><li><div>ch&nbsp;</div></li><li><div>h</div></li><li><div>ph</div></li><li><div>eu</div></li></ol><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7f47243803a9f20ee310c02c5ab4d285bdf6c9707e3cca10322e87982ac2b32b",
+        "path": "backups/2023年6月/德语3/发音规则.html"
+      }
+    },
+    {
+      "id": "4925c56d-5f69-46aa-a4ec-efe177574e04",
+      "note_id": "19c8d5e8-f810-4d66-a4dc-940e57eea34f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.165879Z",
+      "content": "---\ntitle: 发音规则\nupdated: 2020-03-16 14:27:17Z\ncreated: 2020-02-12 10:15:08Z\n---\n\n1.元音后面跟两个辅音，发短音，没有辅音或者只有一个辅音，发长音\n2.fünf [ao]\n3.au后面ch发[h]\n4.ch 发[k]\n5,blüche  发 [sh]\n6,sp 发 [shi]\n7、a后面跟一个h的时候，发长音\n音素\nÖ\nÜ\nÄ\nsch\nsp\nei  (ai)\nie (i)\nch \nh\nph\neu",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 239,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ab98f897-5ae0-42bc-81b0-8e51495561de",
+    "note_id": "19c8d5e8-f810-4d66-a4dc-940e57eea34f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.165884Z",
+    "finished_at": "2025-11-10T15:43:36.165884Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "00ad8603-8e6d-4ae2-acd3-4173c7e9ca74",
+      "source_path": "backups/2023年6月/德语3/发音规则.html",
+      "checksum": "7f47243803a9f20ee310c02c5ab4d285bdf6c9707e3cca10322e87982ac2b32b"
+    },
+    "output_ref": {
+      "ingest_source": "2fac43f7-7db0-4c47-ba45-34f96b72924f",
+      "note": "19c8d5e8-f810-4d66-a4dc-940e57eea34f",
+      "variants": [
+        "9d14618b-de2d-4035-a106-0e2a5e27b4f3",
+        "4925c56d-5f69-46aa-a4ec-efe177574e04"
+      ]
+    },
+    "error_detail": null
+  }
+}

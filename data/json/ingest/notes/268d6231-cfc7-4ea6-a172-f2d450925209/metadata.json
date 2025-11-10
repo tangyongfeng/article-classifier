@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "3906c1a0-0f60-4752-b97e-b095200961ca",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/列表生成器.html",
+    "collected_at": "2025-11-10T15:43:32.241326Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "f08dd7eed6d9fdcfc92d62dd2024c716a10f9f4def6a27ed56ed8de33e808daa",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "268d6231-cfc7-4ea6-a172-f2d450925209",
+    "ingest_source_id": "3906c1a0-0f60-4752-b97e-b095200961ca",
+    "canonical_title": "列表生成器",
+    "language": "no",
+    "ingested_at": "2025-11-10T15:43:32.241331Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "列表生成器.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "cbb69bbc-3edb-457f-979a-20d6f8517e7d",
+      "note_id": "268d6231-cfc7-4ea6-a172-f2d450925209",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.241334Z",
+      "content": "---\ntitle: 列表生成器\nupdated: 2017-12-15 08:35:25Z\ncreated: 2017-12-15 08:16:22Z\nauthor: tangyongfeng\ntags:\n  - python\n  - 学习笔记\n---\n\n\n<en-note><div><br/></div><div>通过列表生成式，我们可以直接创建一个列表。但是，受到内存限制，列表容量肯定是有限的。而且，创建一个包含100万个元素的列表，不仅占用很大的存储空间，如果我们仅仅需要访问前面几个元素，那后面绝大多数元素占用的空间都白白浪费了。</div><div><p>所以，如果列表元素可以按照某种算法推算出来，那我们是否可以在循环的过程中不断推算出后续的元素呢？这样就不必创建完整的list，从而节省大量的空间。在Python中，这种一边循环一边计算的机制，称为生成器：generator。</p>\n</div><div><br/></div><div>要创建一个generator，有很多种方法。第一种方法很简单，只要把一个列表生成式的<code>[]</code>改成<code>()</code>，就创建了一个generator：</div><div><br/></div><div>&gt;&gt;&gt;&nbsp;L&nbsp;=&nbsp;[x&nbsp;*&nbsp;x&nbsp;for&nbsp;x&nbsp;in&nbsp;range(10)]</div><div><code>&gt;&gt;&gt;&nbsp;L<br/>[0,&nbsp;1,&nbsp;4,&nbsp;9,&nbsp;16,&nbsp;25,&nbsp;36,&nbsp;49,&nbsp;64,&nbsp;81]<br/>&gt;&gt;&gt;&nbsp;g&nbsp;=&nbsp;(x&nbsp;*&nbsp;x&nbsp;for&nbsp;x&nbsp;in&nbsp;range(10))<br/>&gt;&gt;&gt;&nbsp;g<br/>&lt;generator&nbsp;object&nbsp;&lt;genexpr&gt;&nbsp;at&nbsp;0x1022ef630&gt;</code></div><div><br/></div><div>创建<code>L</code>和<code>g</code>的区别仅在于最外层的<code>[]</code>和<code>()</code>，<code>L</code>是一个list，而<code>g</code>是一个generator。</div><div>\n<p>我们可以直接打印出list的每一个元素，但我们怎么打印出generator的每一个元素呢？</p>\n<p>如果要一个一个打印出来，可以通过<code>next()</code>函数获得generator的下一个返回值：</p>\n</div><div><code>&gt;&gt;&gt;&nbsp;next(g)<br/>0<br/>&gt;&gt;&gt;&nbsp;next(g)<br/>1<br/>&gt;&gt;&gt;&nbsp;next(g)<br/>4<br/>&gt;&gt;&gt;&nbsp;next(g)</code></div><div>9</div><div>def aaa():\n</div><div>&nbsp;       return (x * x for x in range(10))\n</div><div>for i in aaa():\n</div><div>&nbsp;       print (i)\n</div><div><br/></div><div><br/></div><div>带有 <span STYLE=\"color: rgb(255, 0, 0);\">yield </span>的函数不再是一个普通函数，而是一个生成器generator，可用于迭代，</div><div>yield 是一个类似 return 的关键字，迭代一次遇到yield时就返回yield后面(右边)的值。重点是：下一次迭代时，从上一次迭代遇到的yield后面的代码(下一行)开始执行。</div><div>简要理解：yield就是 return 返回一个值，并且记住这个返回的位置，下次迭代就从这个位置后(下一行)开始。\n\n</div><div>def aaa():\n</div><div>&nbsp;       yield 1\n</div><div>&nbsp;       yield 2\n</div><div>&nbsp;       yield 3\n</div><div>&nbsp;       yield 4\n</div><div>&nbsp;       yield 5\n</div><div>&nbsp;       yield 6\n</div><div>&nbsp;       yield 7\n</div><div>&nbsp;       yield 8\n</div><div>&nbsp;       yield 9\n</div><div>&nbsp;       yield 10\n</div><div>&nbsp;       yield 11\n</div><div><br/></div><div>for i in aaa():\n</div><div>&nbsp;       print (i)\n</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f08dd7eed6d9fdcfc92d62dd2024c716a10f9f4def6a27ed56ed8de33e808daa",
+        "path": "backups/2023年6月/IT技术/列表生成器.html"
+      }
+    },
+    {
+      "id": "fd58d8c0-27b8-4e7e-af7a-04512930becb",
+      "note_id": "268d6231-cfc7-4ea6-a172-f2d450925209",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.241337Z",
+      "content": "---\ntitle: 列表生成器\nupdated: 2017-12-15 08:35:25Z\ncreated: 2017-12-15 08:16:22Z\nauthor: tangyongfeng\ntags:\n  - python\n  - 学习笔记\n---\n\n通过列表生成式，我们可以直接创建一个列表。但是，受到内存限制，列表容量肯定是有限的。而且，创建一个包含100万个元素的列表，不仅占用很大的存储空间，如果我们仅仅需要访问前面几个元素，那后面绝大多数元素占用的空间都白白浪费了。\n所以，如果列表元素可以按照某种算法推算出来，那我们是否可以在循环的过程中不断推算出后续的元素呢？这样就不必创建完整的list，从而节省大量的空间。在Python中，这种一边循环一边计算的机制，称为生成器：generator。\n\n要创建一个generator，有很多种方法。第一种方法很简单，只要把一个列表生成式的\n[]\n改成\n()\n，就创建了一个generator：\n>>> L = [x * x for x in range(10)]\n>>> L\n[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]\n>>> g = (x * x for x in range(10))\n>>> g\n<generator object <genexpr> at 0x1022ef630>\n创建\nL\n和\ng\n的区别仅在于最外层的\n[]\n和\n()\n，\nL\n是一个list，而\ng\n是一个generator。\n\n我们可以直接打印出list的每一个元素，但我们怎么打印出generator的每一个元素呢？\n\n如果要一个一个打印出来，可以通过\nnext()\n函数获得generator的下一个返回值：\n\n>>> next(g)\n0\n>>> next(g)\n1\n>>> next(g)\n4\n>>> next(g)\n9\ndef aaa():\n\n        return (x * x for x in range(10))\n\nfor i in aaa():\n\n        print (i)\n\n带有\nyield\n的函数不再是一个普通函数，而是一个生成器generator，可用于迭代，\nyield 是一个类似 return 的关键字，迭代一次遇到yield时就返回yield后面(右边)的值。重点是：下一次迭代时，从上一次迭代遇到的yield后面的代码(下一行)开始执行。\n简要理解：yield就是 return 返回一个值，并且记住这个返回的位置，下次迭代就从这个位置后(下一行)开始。\n\ndef aaa():\n\n        yield 1\n\n        yield 2\n\n        yield 3\n\n        yield 4\n\n        yield 5\n\n        yield 6\n\n        yield 7\n\n        yield 8\n\n        yield 9\n\n        yield 10\n\n        yield 11\n\nfor i in aaa():\n\n        print (i)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 1323,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "33afe88d-4f9b-4910-97c7-255a95fd586a",
+    "note_id": "268d6231-cfc7-4ea6-a172-f2d450925209",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.241343Z",
+    "finished_at": "2025-11-10T15:43:32.241343Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "bd6207db-7a1c-4fa4-b947-070c2c25c857",
+      "source_path": "backups/2023年6月/IT技术/列表生成器.html",
+      "checksum": "f08dd7eed6d9fdcfc92d62dd2024c716a10f9f4def6a27ed56ed8de33e808daa"
+    },
+    "output_ref": {
+      "ingest_source": "3906c1a0-0f60-4752-b97e-b095200961ca",
+      "note": "268d6231-cfc7-4ea6-a172-f2d450925209",
+      "variants": [
+        "cbb69bbc-3edb-457f-979a-20d6f8517e7d",
+        "fd58d8c0-27b8-4e7e-af7a-04512930becb"
+      ]
+    },
+    "error_detail": null
+  }
+}

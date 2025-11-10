@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "714a3aea-2557-4755-8d01-8de61325191a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/linux压缩、解压、管道重定向及相关命令.html",
+    "collected_at": "2025-11-10T15:43:31.767112Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4ce8552b58c48ef88ca57f46a7bd4307f0a0c59c00513e206951cc2f5fb612a8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d667d661-bfbd-49f2-a9a0-a9bb7caa2a10",
+    "ingest_source_id": "714a3aea-2557-4755-8d01-8de61325191a",
+    "canonical_title": "linux压缩、解压、管道重定向及相关命令",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.767117Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "linux压缩、解压、管道重定向及相关命令.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6fc61a84-12c3-4132-b8fc-a5b3c4ecf80a",
+      "note_id": "d667d661-bfbd-49f2-a9a0-a9bb7caa2a10",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.767121Z",
+      "content": "---\ntitle: linux压缩、解压、管道重定向及相关命令\nupdated: 2022-09-08 11:43:27Z\ncreated: 2022-09-08 11:43:04Z\nauthor: tangyongfeng\ntags:\n  - linux\n  - 基础知识\n---\n\n\n\n<en-note><div>一、 环境准备<br CLEAR=\"none\"/>开启CentOS虚拟机<br CLEAR=\"none\"/><br CLEAR=\"none\"/>二、 归档及压缩<br CLEAR=\"none\"/>作用：1.将零散的数据进行归档 2.减少占用磁盘空间的大小<br CLEAR=\"none\"/>归档的含义<br CLEAR=\"none\"/>&ndash; 将许多零散的文件整理为一个文件<br CLEAR=\"none\"/>&ndash; 文件总的大小基本不变<br CLEAR=\"none\"/>压缩的含义<br CLEAR=\"none\"/>&ndash; 按某种算法减小文件所占用空间的大小<br CLEAR=\"none\"/>&ndash; 恢复时按对应的逆向算法解压<br CLEAR=\"none\"/>Linux常见的压缩格式<br CLEAR=\"none\"/>.gz gzip #压缩速度快<br CLEAR=\"none\"/>.bz2 bzip2<br CLEAR=\"none\"/>.xz xz #压缩比例最高<br CLEAR=\"none\"/><br CLEAR=\"none\"/>tar 集成备份工具<br CLEAR=\"none\"/>&ndash; -c：创建归档<br CLEAR=\"none\"/>&ndash; -x：释放归档<br CLEAR=\"none\"/>&ndash; -f：指定归档文件名称，必须放在所有选项的最后<br CLEAR=\"none\"/>&ndash; -z、-j、-J：调用 .gz、.bz2、.xz 格式的工具进行处理<br CLEAR=\"none\"/>&ndash; -t：显示归档中的文件清单<br CLEAR=\"none\"/>&ndash; -C：指定释放路径<br CLEAR=\"none\"/>tar 打包格式<br CLEAR=\"none\"/>tar 选项 /路径/压缩包名字 /路径/被归档压缩的数据&hellip;&hellip;<br CLEAR=\"none\"/>-c:创建归档 -f:指定压缩包名字<br CLEAR=\"none\"/>-z、-j、-J：调用 .gz、.bz2、.xz 格式的工具进行处理<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# tar -zcf /opt/dc.tar.gz /home /etc/passwd<br CLEAR=\"none\"/>tar: 从成员名中删除开头的&ldquo;/&rdquo;<br CLEAR=\"none\"/>]# ls /opt/<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# tar -jcf /opt/file.tar.bz2 /home/ /etc/passwd<br CLEAR=\"none\"/>]# ls /opt/<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# tar -Jcf /opt/abc.tar.xz /home/ /etc/passwd<br CLEAR=\"none\"/>]# ls /opt/<br CLEAR=\"none\"/><br CLEAR=\"none\"/>&ndash; -t：显示归档中的文件清单<br CLEAR=\"none\"/>[root@localhost ~]# tar -tf /opt/dc.tar.gz<br CLEAR=\"none\"/>[root@localhost ~]# tar -tf /opt/file.tar.gz<br CLEAR=\"none\"/>[root@localhost ~]# tar -tf /opt/abc.tar.gz<br CLEAR=\"none\"/><br CLEAR=\"none\"/>tar 解包格式<br CLEAR=\"none\"/>tar 选项 /路径/压缩包的名字 -C(大写) /路径/释放位置<br CLEAR=\"none\"/>]# mkdir /stu01 /stu02 /stu03<br CLEAR=\"none\"/>]# tar -xf /opt/dc.tar.gz -C /stu01/<br CLEAR=\"none\"/>]# ls /stu01/<br CLEAR=\"none\"/>]# ls /stu01/etc/<br CLEAR=\"none\"/>]# ls /stu01/home/<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# tar -xf /opt/file.tar.bz2 -C /stu02/<br CLEAR=\"none\"/>]# ls /stu02/<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# tar -xf /opt/abc.tar.xz -C /stu03/<br CLEAR=\"none\"/>]# ls /stu03/<br CLEAR=\"none\"/><br CLEAR=\"none\"/>三、 重定向与管道操作<br CLEAR=\"none\"/>重定向：将命令输出重新定向，写入文本文件中<br CLEAR=\"none\"/><br CLEAR=\"none\"/>&quot;&gt;&quot;覆盖重定向<br CLEAR=\"none\"/>&quot;&gt;&gt;&quot;追加重定向<br CLEAR=\"none\"/>[root@localhost ~]# cat --help &gt; /opt/test.txt<br CLEAR=\"none\"/>[root@localhost ~]# cat /opt/test.txt<br CLEAR=\"none\"/><br CLEAR=\"none\"/>[root@localhost ~]# hostname<br CLEAR=\"none\"/>[root@localhost ~]# hostname &gt; /opt/test.txt<br CLEAR=\"none\"/>[root@localhost ~]# cat /opt/test.txt<br CLEAR=\"none\"/><br CLEAR=\"none\"/>[root@localhost ~]# ifconfig &gt;&gt; /opt/test.txt<br CLEAR=\"none\"/>[root@localhost ~]# less /opt/test.txt<br CLEAR=\"none\"/><br CLEAR=\"none\"/>[root@localhost ~]# echo 123456 &gt; /opt/5.txt<br CLEAR=\"none\"/>[root@localhost ~]# cat /opt/5.txt<br CLEAR=\"none\"/><br CLEAR=\"none\"/>[root@localhost ~]# echo hello &gt;&gt; /opt/5.txt<br CLEAR=\"none\"/>[root@localhost ~]# cat /opt/5.txt<br CLEAR=\"none\"/><br CLEAR=\"none\"/>[root@localhost ~]# echo hahaixixi &gt;&gt; /opt/5.txt<br CLEAR=\"none\"/>[root@localhost ~]# cat /opt/5.txt<br CLEAR=\"none\"/><br CLEAR=\"none\"/>管道 | ：将前面命令输出，传递给后面命令，作为后面命令的参数<br CLEAR=\"none\"/><br CLEAR=\"none\"/>显示/etc/passwd文件内容的8到12内容<br CLEAR=\"none\"/>]# head -12 /etc/passwd | tail -5<br CLEAR=\"none\"/>]# head -12 /etc/passwd | tail -5 | cat -n<br CLEAR=\"none\"/>]# cat -n /etc/passwd | head -12 | tail -5<br CLEAR=\"none\"/><br CLEAR=\"none\"/>显示/etc/passwd文件内容的第10行内容<br CLEAR=\"none\"/>]# head -10 /etc/passwd | tail -1<br CLEAR=\"none\"/>]# cat -n /etc/passwd | head -10 | tail -1<br CLEAR=\"none\"/>]# ifconfig | less<br CLEAR=\"none\"/>]# ifconfig | head -2<br CLEAR=\"none\"/><br CLEAR=\"none\"/>四、 find基本使用<br CLEAR=\"none\"/>根据预设的条件递归查找对应的文件<br CLEAR=\"none\"/>find [查找目录] [条件]<br CLEAR=\"none\"/>常用条件表示：<br CLEAR=\"none\"/>-type 类型（f、d、l）<br CLEAR=\"none\"/>-name &ldquo;文档名称&rdquo;<br CLEAR=\"none\"/>-size +|-文件大小（k、M、G）<br CLEAR=\"none\"/>-user 用户名<br CLEAR=\"none\"/>-mtime 修改时间<br CLEAR=\"none\"/><br CLEAR=\"none\"/>-type 类型（f文件、d目录、l快捷方式）<br CLEAR=\"none\"/>[root@localhost ~]# find /root -type f #查找是文件<br CLEAR=\"none\"/>[root@localhost ~]# find /root -type d #查找是目录<br CLEAR=\"none\"/>[root@localhost ~]# find /boot -type d<br CLEAR=\"none\"/>[root@localhost ~]# find /etc -type l<br CLEAR=\"none\"/><br CLEAR=\"none\"/>-name &quot;文档名称&quot;<br CLEAR=\"none\"/>]# find /etc/ -name &ldquo;passwd&rdquo;<br CLEAR=\"none\"/>]# find /etc/ -name &ldquo;tab&quot;<br CLEAR=\"none\"/>]# find /etc/ -name &quot;.conf&rdquo;<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# mkdir /root/nsd2007<br CLEAR=\"none\"/>]# touch /root/nsd05.txt<br CLEAR=\"none\"/>]# touch /root/nsd06.txt<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# find /root -name &ldquo;nsd*&rdquo;<br CLEAR=\"none\"/>]# find /root -name &ldquo;nsd*&rdquo; -type d #以nsd开头必须是目录<br CLEAR=\"none\"/>]# find /root -name &ldquo;nsd*&rdquo; -type f #以nsd开头必须是文件<br CLEAR=\"none\"/><br CLEAR=\"none\"/>-size +或-文件大小（k、M、G）<br CLEAR=\"none\"/>]# find /boot/ -size +300k<br CLEAR=\"none\"/>]# find /boot/ -size +10M<br CLEAR=\"none\"/>]# find /boot/ -size -1024M<br CLEAR=\"none\"/><br CLEAR=\"none\"/>-user 用户名（按照数据的所有者用户）<br CLEAR=\"none\"/>]# useradd student<br CLEAR=\"none\"/>]# find /home -user student<br CLEAR=\"none\"/>]# find / -user student #在整个系统中进行查找<br CLEAR=\"none\"/>/proc：不占用磁盘空间，反映内存的数据<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# find / -user student -type d<br CLEAR=\"none\"/><br CLEAR=\"none\"/>-mtime 按照修改时间 #都是过去时间<br CLEAR=\"none\"/>-mtime +10 #10天之前的数据<br CLEAR=\"none\"/>-mtime -10 #最近10天之内的数据<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# find /root/ -mtime -1<br CLEAR=\"none\"/>]# find /root/ -mtime +1000<br CLEAR=\"none\"/><br CLEAR=\"none\"/>五、 find高级使用<br CLEAR=\"none\"/>处理查找的内容<br CLEAR=\"none\"/>&ndash; find [范围] [条件] -exec 处理命令 {} ;<br CLEAR=\"none\"/>&ndash; -exec：额外操作的开始，传递参数一次传递一个<br CLEAR=\"none\"/>&ndash; {}：代表find查询的每一个结果<br CLEAR=\"none\"/>&ndash; ; : 额外操作的结束<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# rm -rf /opt/*<br CLEAR=\"none\"/>]# ls /opt/<br CLEAR=\"none\"/>]# find /boot/ -size +10M<br CLEAR=\"none\"/><br CLEAR=\"none\"/>]# find /boot/ -size +10M -exec cp {} /opt ;<br CLEAR=\"none\"/>]# ls /opt/<br CLEAR=\"none\"/><br CLEAR=\"none\"/><br CLEAR=\"none\"/>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;<br CLEAR=\"none\"/>版权声明：本文为CSDN博主「-王宇鹏-」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。<br CLEAR=\"none\"/>原文链接：https://blog.csdn.net/weixin_47191983/article/details/108331535<br CLEAR=\"none\"/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4ce8552b58c48ef88ca57f46a7bd4307f0a0c59c00513e206951cc2f5fb612a8",
+        "path": "backups/2023年6月/IT技术/linux压缩、解压、管道重定向及相关命令.html"
+      }
+    },
+    {
+      "id": "09034236-57b7-47c4-ae40-d5684c05c8e3",
+      "note_id": "d667d661-bfbd-49f2-a9a0-a9bb7caa2a10",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.767124Z",
+      "content": "---\ntitle: linux压缩、解压、管道重定向及相关命令\nupdated: 2022-09-08 11:43:27Z\ncreated: 2022-09-08 11:43:04Z\nauthor: tangyongfeng\ntags:\n  - linux\n  - 基础知识\n---\n\n一、 环境准备\n开启CentOS虚拟机\n二、 归档及压缩\n作用：1.将零散的数据进行归档 2.减少占用磁盘空间的大小\n归档的含义\n– 将许多零散的文件整理为一个文件\n– 文件总的大小基本不变\n压缩的含义\n– 按某种算法减小文件所占用空间的大小\n– 恢复时按对应的逆向算法解压\nLinux常见的压缩格式\n.gz gzip #压缩速度快\n.bz2 bzip2\n.xz xz #压缩比例最高\ntar 集成备份工具\n– -c：创建归档\n– -x：释放归档\n– -f：指定归档文件名称，必须放在所有选项的最后\n– -z、-j、-J：调用 .gz、.bz2、.xz 格式的工具进行处理\n– -t：显示归档中的文件清单\n– -C：指定释放路径\ntar 打包格式\ntar 选项 /路径/压缩包名字 /路径/被归档压缩的数据……\n-c:创建归档 -f:指定压缩包名字\n-z、-j、-J：调用 .gz、.bz2、.xz 格式的工具进行处理\n]# tar -zcf /opt/dc.tar.gz /home /etc/passwd\ntar: 从成员名中删除开头的“/”\n]# ls /opt/\n]# tar -jcf /opt/file.tar.bz2 /home/ /etc/passwd\n]# ls /opt/\n]# tar -Jcf /opt/abc.tar.xz /home/ /etc/passwd\n]# ls /opt/\n– -t：显示归档中的文件清单\n[root@localhost ~]# tar -tf /opt/dc.tar.gz\n[root@localhost ~]# tar -tf /opt/file.tar.gz\n[root@localhost ~]# tar -tf /opt/abc.tar.gz\ntar 解包格式\ntar 选项 /路径/压缩包的名字 -C(大写) /路径/释放位置\n]# mkdir /stu01 /stu02 /stu03\n]# tar -xf /opt/dc.tar.gz -C /stu01/\n]# ls /stu01/\n]# ls /stu01/etc/\n]# ls /stu01/home/\n]# tar -xf /opt/file.tar.bz2 -C /stu02/\n]# ls /stu02/\n]# tar -xf /opt/abc.tar.xz -C /stu03/\n]# ls /stu03/\n三、 重定向与管道操作\n重定向：将命令输出重新定向，写入文本文件中\n\">\"覆盖重定向\n\">>\"追加重定向\n[root@localhost ~]# cat --help > /opt/test.txt\n[root@localhost ~]# cat /opt/test.txt\n[root@localhost ~]# hostname\n[root@localhost ~]# hostname > /opt/test.txt\n[root@localhost ~]# cat /opt/test.txt\n[root@localhost ~]# ifconfig >> /opt/test.txt\n[root@localhost ~]# less /opt/test.txt\n[root@localhost ~]# echo 123456 > /opt/5.txt\n[root@localhost ~]# cat /opt/5.txt\n[root@localhost ~]# echo hello >> /opt/5.txt\n[root@localhost ~]# cat /opt/5.txt\n[root@localhost ~]# echo hahaixixi >> /opt/5.txt\n[root@localhost ~]# cat /opt/5.txt\n管道 | ：将前面命令输出，传递给后面命令，作为后面命令的参数\n显示/etc/passwd文件内容的8到12内容\n]# head -12 /etc/passwd | tail -5\n]# head -12 /etc/passwd | tail -5 | cat -n\n]# cat -n /etc/passwd | head -12 | tail -5\n显示/etc/passwd文件内容的第10行内容\n]# head -10 /etc/passwd | tail -1\n]# cat -n /etc/passwd | head -10 | tail -1\n]# ifconfig | less\n]# ifconfig | head -2\n四、 find基本使用\n根据预设的条件递归查找对应的文件\nfind [查找目录] [条件]\n常用条件表示：\n-type 类型（f、d、l）\n-name “文档名称”\n-size +|-文件大小（k、M、G）\n-user 用户名\n-mtime 修改时间\n-type 类型（f文件、d目录、l快捷方式）\n[root@localhost ~]# find /root -type f #查找是文件\n[root@localhost ~]# find /root -type d #查找是目录\n[root@localhost ~]# find /boot -type d\n[root@localhost ~]# find /etc -type l\n-name \"文档名称\"\n]# find /etc/ -name “passwd”\n]# find /etc/ -name “tab\"\n]# find /etc/ -name \".conf”\n]# mkdir /root/nsd2007\n]# touch /root/nsd05.txt\n]# touch /root/nsd06.txt\n]# find /root -name “nsd*”\n]# find /root -name “nsd*” -type d #以nsd开头必须是目录\n]# find /root -name “nsd*” -type f #以nsd开头必须是文件\n-size +或-文件大小（k、M、G）\n]# find /boot/ -size +300k\n]# find /boot/ -size +10M\n]# find /boot/ -size -1024M\n-user 用户名（按照数据的所有者用户）\n]# useradd student\n]# find /home -user student\n]# find / -user student #在整个系统中进行查找\n/proc：不占用磁盘空间，反映内存的数据\n]# find / -user student -type d\n-mtime 按照修改时间 #都是过去时间\n-mtime +10 #10天之前的数据\n-mtime -10 #最近10天之内的数据\n]# find /root/ -mtime -1\n]# find /root/ -mtime +1000\n五、 find高级使用\n处理查找的内容\n– find [范围] [条件] -exec 处理命令 {} ;\n– -exec：额外操作的开始，传递参数一次传递一个\n– {}：代表find查询的每一个结果\n– ; : 额外操作的结束\n]# rm -rf /opt/*\n]# ls /opt/\n]# find /boot/ -size +10M\n]# find /boot/ -size +10M -exec cp {} /opt ;\n]# ls /opt/\n————————————————\n版权声明：本文为CSDN博主「-王宇鹏-」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。\n原文链接：https://blog.csdn.net/weixin_47191983/article/details/108331535",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 3429,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4e089e56-bdc9-4384-b130-de01ebee173c",
+    "note_id": "d667d661-bfbd-49f2-a9a0-a9bb7caa2a10",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.767130Z",
+    "finished_at": "2025-11-10T15:43:31.767130Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b7e4df9a-16bb-427a-9ee1-2f8d0a0c0951",
+      "source_path": "backups/2023年6月/IT技术/linux压缩、解压、管道重定向及相关命令.html",
+      "checksum": "4ce8552b58c48ef88ca57f46a7bd4307f0a0c59c00513e206951cc2f5fb612a8"
+    },
+    "output_ref": {
+      "ingest_source": "714a3aea-2557-4755-8d01-8de61325191a",
+      "note": "d667d661-bfbd-49f2-a9a0-a9bb7caa2a10",
+      "variants": [
+        "6fc61a84-12c3-4132-b8fc-a5b3c4ecf80a",
+        "09034236-57b7-47c4-ae40-d5684c05c8e3"
+      ]
+    },
+    "error_detail": null
+  }
+}

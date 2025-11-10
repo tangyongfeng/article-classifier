@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "150adf75-06ad-471d-85a9-d5e38e15fd9f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/www目录的权限规划.html",
+    "collected_at": "2025-11-10T15:43:31.989695Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "644f520cf46c13c32b98076315c3f0fe7ccd24d316c102a89f30c2707ebd70bc",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d1428a86-74aa-4d3b-aac4-ba655190d658",
+    "ingest_source_id": "150adf75-06ad-471d-85a9-d5e38e15fd9f",
+    "canonical_title": "www目录的权限规划",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.989699Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "www目录的权限规划.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6959138c-0783-47e0-8ad6-848fc7e3e797",
+      "note_id": "d1428a86-74aa-4d3b-aac4-ba655190d658",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.989702Z",
+      "content": "---\ntitle: www目录的权限规划\nupdated: 2019-10-11 09:23:13Z\ncreated: 2019-10-11 09:22:52Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"-en-paragraph:true;\">我们首先设定网站目录和文件的所有者和所有组为centos，www，如下命令：\n</span></div><div><span STYLE=\"-en-paragraph:true;\">chown -R centos:www /home/centos/web\n</span></div><div><br/></div><div><span STYLE=\"-en-paragraph:true;\">设置网站目录权限为750，750是centos用户对目录拥有读写执行的权限，这样centos用户可以在任何目录下创建文件，用户组有有读执行权限，这样才能进入目录，其它用户没有任何权限。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">find -type d -exec chmod 750 {} \\;\n</span></div><div><br/></div><div>3\n</div><div><span STYLE=\"-en-paragraph:true;\">设置网站文件权限为640，640指只有centos用户对网站文件有更改的权限，http服务器只有读取文件的权限，无法更改文件，其它用户无任何权限。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">find -not -type d -exec chmod 640 {} \\;\n</span></div><div><br/></div><div>4\n</div><div><span STYLE=\"-en-paragraph:true;\">针对个别目录设置可写权限。比如网站的一些缓存目录就需要给http服务有写入权限。例如discuz x2的/data/目录就必须要写入权限。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">find data -type d -exec chmod 770 {} \\;\n</span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "644f520cf46c13c32b98076315c3f0fe7ccd24d316c102a89f30c2707ebd70bc",
+        "path": "backups/2023年6月/IT技术/www目录的权限规划.html"
+      }
+    },
+    {
+      "id": "b0199338-acef-42e4-a4e8-0111bc636ed5",
+      "note_id": "d1428a86-74aa-4d3b-aac4-ba655190d658",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.989704Z",
+      "content": "---\ntitle: www目录的权限规划\nupdated: 2019-10-11 09:23:13Z\ncreated: 2019-10-11 09:22:52Z\nauthor: tangyongfeng@gmail.com\n---\n\n我们首先设定网站目录和文件的所有者和所有组为centos，www，如下命令：\n\nchown -R centos:www /home/centos/web\n\n设置网站目录权限为750，750是centos用户对目录拥有读写执行的权限，这样centos用户可以在任何目录下创建文件，用户组有有读执行权限，这样才能进入目录，其它用户没有任何权限。\n\nfind -type d -exec chmod 750 {} \\;\n\n3\n\n设置网站文件权限为640，640指只有centos用户对网站文件有更改的权限，http服务器只有读取文件的权限，无法更改文件，其它用户无任何权限。\n\nfind -not -type d -exec chmod 640 {} \\;\n\n4\n\n针对个别目录设置可写权限。比如网站的一些缓存目录就需要给http服务有写入权限。例如discuz x2的/data/目录就必须要写入权限。\n\nfind data -type d -exec chmod 770 {} \\;",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 558,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "25592c66-78b1-4174-92b8-2fd658b8ce02",
+    "note_id": "d1428a86-74aa-4d3b-aac4-ba655190d658",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.989709Z",
+    "finished_at": "2025-11-10T15:43:31.989709Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1b7306ba-353e-455a-9ee0-b6a51d19b9d1",
+      "source_path": "backups/2023年6月/IT技术/www目录的权限规划.html",
+      "checksum": "644f520cf46c13c32b98076315c3f0fe7ccd24d316c102a89f30c2707ebd70bc"
+    },
+    "output_ref": {
+      "ingest_source": "150adf75-06ad-471d-85a9-d5e38e15fd9f",
+      "note": "d1428a86-74aa-4d3b-aac4-ba655190d658",
+      "variants": [
+        "6959138c-0783-47e0-8ad6-848fc7e3e797",
+        "b0199338-acef-42e4-a4e8-0111bc636ed5"
+      ]
+    },
+    "error_detail": null
+  }
+}

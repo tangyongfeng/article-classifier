@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9efe3ae8-deca-402f-9713-2271cb1d8505",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/vggv6zwqe@t.odmail.cn.html",
+    "collected_at": "2025-11-10T15:43:31.969406Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "76ef55a0db47ccd04d5ff6de92c40c97cf76b4935dfc6ab33c4d964dc14c6c84",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "8bf620d1-fee0-4771-8236-10d4b376408e",
+    "ingest_source_id": "9efe3ae8-deca-402f-9713-2271cb1d8505",
+    "canonical_title": "vggv6zwqe@t.odmail.cn",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.969409Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "vggv6zwqe@t.odmail.cn.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "677151c5-6652-4595-b16e-7270426a5892",
+      "note_id": "8bf620d1-fee0-4771-8236-10d4b376408e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.969412Z",
+      "content": "---\ntitle: vggv6zwqe@t.odmail.cn\nupdated: 2019-05-30 07:27:14Z\ncreated: 2019-05-30 07:27:14Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>vggv6zwqe@t.odmail.cn</div>\n<div>welcome123</div>\n<div>office 365</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "76ef55a0db47ccd04d5ff6de92c40c97cf76b4935dfc6ab33c4d964dc14c6c84",
+        "path": "backups/2023年6月/IT技术/vggv6zwqe@t.odmail.cn.html"
+      }
+    },
+    {
+      "id": "ce31463e-f656-4874-b285-a66b8a126f09",
+      "note_id": "8bf620d1-fee0-4771-8236-10d4b376408e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.969414Z",
+      "content": "---\ntitle: vggv6zwqe@t.odmail.cn\nupdated: 2019-05-30 07:27:14Z\ncreated: 2019-05-30 07:27:14Z\nauthor: tangyongfeng@gmail.com\n---\n\nvggv6zwqe@t.odmail.cn\n\nwelcome123\n\noffice 365",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 174,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f7aaec9d-d0fd-45f0-bace-f88add7caee3",
+    "note_id": "8bf620d1-fee0-4771-8236-10d4b376408e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.969419Z",
+    "finished_at": "2025-11-10T15:43:31.969419Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6ca864a6-fca4-4569-8c00-5ef1b8d58c51",
+      "source_path": "backups/2023年6月/IT技术/vggv6zwqe@t.odmail.cn.html",
+      "checksum": "76ef55a0db47ccd04d5ff6de92c40c97cf76b4935dfc6ab33c4d964dc14c6c84"
+    },
+    "output_ref": {
+      "ingest_source": "9efe3ae8-deca-402f-9713-2271cb1d8505",
+      "note": "8bf620d1-fee0-4771-8236-10d4b376408e",
+      "variants": [
+        "677151c5-6652-4595-b16e-7270426a5892",
+        "ce31463e-f656-4874-b285-a66b8a126f09"
+      ]
+    },
+    "error_detail": null
+  }
+}

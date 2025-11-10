@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c5bb2a6d-c0a5-4967-9163-d834950edd5a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/Herzlichen Glückwünschen zur Hochzeit deiner Schwe.html",
+    "collected_at": "2025-11-10T15:43:35.775187Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "89182f8ff867c488d3a01d86c6374905c5b83acbad57630e6835cb0320eaff3b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0766f885-a059-4616-9f07-cdd3fff2468b",
+    "ingest_source_id": "c5bb2a6d-c0a5-4967-9163-d834950edd5a",
+    "canonical_title": "Herzlichen Glückwünschen zur Hochzeit deiner Schwe",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.775191Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Herzlichen Glückwünschen zur Hochzeit deiner Schwe.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "058a77de-5a99-4493-9193-c4f2d19ee6ba",
+      "note_id": "0766f885-a059-4616-9f07-cdd3fff2468b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.775194Z",
+      "content": "---\ntitle: Herzlichen Glückwünschen zur Hochzeit deiner Schwester\nupdated: 2021-02-23 15:03:21Z\ncreated: 2021-02-23 15:02:36Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "89182f8ff867c488d3a01d86c6374905c5b83acbad57630e6835cb0320eaff3b",
+        "path": "backups/2023年6月/德语1/Herzlichen Glückwünschen zur Hochzeit deiner Schwe.html"
+      }
+    },
+    {
+      "id": "df5e3577-2fec-451b-b21c-f4d62f37dd98",
+      "note_id": "0766f885-a059-4616-9f07-cdd3fff2468b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.775196Z",
+      "content": "---\ntitle: Herzlichen Glückwünschen zur Hochzeit deiner Schwester\nupdated: 2021-02-23 15:03:21Z\ncreated: 2021-02-23 15:02:36Z\nauthor: tangyongfeng@gmail.com\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 160,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9d5c937d-a81c-4966-bb59-15abefec0e6d",
+    "note_id": "0766f885-a059-4616-9f07-cdd3fff2468b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.775202Z",
+    "finished_at": "2025-11-10T15:43:35.775202Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6f924aaa-f95e-4dfa-b0fc-338c86ccbdbd",
+      "source_path": "backups/2023年6月/德语1/Herzlichen Glückwünschen zur Hochzeit deiner Schwe.html",
+      "checksum": "89182f8ff867c488d3a01d86c6374905c5b83acbad57630e6835cb0320eaff3b"
+    },
+    "output_ref": {
+      "ingest_source": "c5bb2a6d-c0a5-4967-9163-d834950edd5a",
+      "note": "0766f885-a059-4616-9f07-cdd3fff2468b",
+      "variants": [
+        "058a77de-5a99-4493-9193-c4f2d19ee6ba",
+        "df5e3577-2fec-451b-b21c-f4d62f37dd98"
+      ]
+    },
+    "error_detail": null
+  }
+}

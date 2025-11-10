@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "98b182d1-d4ed-4017-ad92-05b5f081ec08",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/张鹏 护照号.html",
+    "collected_at": "2025-11-10T15:43:34.854243Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ca077c80069c9430ee052ba92b44556796c690fb9f4f7ebcf3b71c8fa9fce0f4",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "5591c2fb-2241-4fd9-986e-169bfad85de7",
+    "ingest_source_id": "98b182d1-d4ed-4017-ad92-05b5f081ec08",
+    "canonical_title": "张鹏 护照号",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.854246Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "张鹏 护照号.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dc2fba93-3b1e-47bd-adde-8a68641c86dc",
+      "note_id": "5591c2fb-2241-4fd9-986e-169bfad85de7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.854249Z",
+      "content": "---\ntitle: 张鹏 护照号\nupdated: 2013-02-19 07:59:06Z\ncreated: 2013-02-19 07:58:22Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><p STYLE=\"margin-left:1mm; margin-right:0mm; text-indent:0mm; margin-top:1.32mm; margin-bottom:0.35mm;\"><font FACE=\"Times New Roman\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">张鹏 护照号 G42804493</span></font></p></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ca077c80069c9430ee052ba92b44556796c690fb9f4f7ebcf3b71c8fa9fce0f4",
+        "path": "backups/2023年6月/中彩相关/张鹏 护照号.html"
+      }
+    },
+    {
+      "id": "3d7d0b89-8fab-4a27-a048-e6a130c10f52",
+      "note_id": "5591c2fb-2241-4fd9-986e-169bfad85de7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.854252Z",
+      "content": "---\ntitle: 张鹏 护照号\nupdated: 2013-02-19 07:59:06Z\ncreated: 2013-02-19 07:58:22Z\n---\n\n张鹏 护照号 G42804493",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 99,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5d587267-28fc-4988-8656-c54e316196ed",
+    "note_id": "5591c2fb-2241-4fd9-986e-169bfad85de7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.854256Z",
+    "finished_at": "2025-11-10T15:43:34.854257Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c412a5a0-a8de-4b5e-a93c-365ee4e33bd8",
+      "source_path": "backups/2023年6月/中彩相关/张鹏 护照号.html",
+      "checksum": "ca077c80069c9430ee052ba92b44556796c690fb9f4f7ebcf3b71c8fa9fce0f4"
+    },
+    "output_ref": {
+      "ingest_source": "98b182d1-d4ed-4017-ad92-05b5f081ec08",
+      "note": "5591c2fb-2241-4fd9-986e-169bfad85de7",
+      "variants": [
+        "dc2fba93-3b1e-47bd-adde-8a68641c86dc",
+        "3d7d0b89-8fab-4a27-a048-e6a130c10f52"
+      ]
+    },
+    "error_detail": null
+  }
+}

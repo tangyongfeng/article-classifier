@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f007d3fb-c612-4d8d-a9ed-6d0c98654cde",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/金自天正 600560.html",
+    "collected_at": "2025-11-10T15:43:36.686088Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "661391e096b6d43302de607284a5b48f49ba56e6d45446a7456b30d8a26e693e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "28f41c12-424e-4b20-ab48-4a1be31f9389",
+    "ingest_source_id": "f007d3fb-c612-4d8d-a9ed-6d0c98654cde",
+    "canonical_title": "金自天正 600560",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.686092Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "金自天正 600560.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ba2a746a-46f6-4b75-8cd5-e7442c87dc66",
+      "note_id": "28f41c12-424e-4b20-ab48-4a1be31f9389",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.686095Z",
+      "content": "---\ntitle: 金自天正 600560\nupdated: 2013-09-17 01:23:43Z\ncreated: 2013-09-17 01:23:28Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n9/17 &nbsp; 选择临近，向下概率大\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "661391e096b6d43302de607284a5b48f49ba56e6d45446a7456b30d8a26e693e",
+        "path": "backups/2023年6月/投资/金自天正 600560.html"
+      }
+    },
+    {
+      "id": "a87b6d6a-4162-4e8c-a782-6550132f9eb2",
+      "note_id": "28f41c12-424e-4b20-ab48-4a1be31f9389",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.686098Z",
+      "content": "---\ntitle: 金自天正 600560\nupdated: 2013-09-17 01:23:43Z\ncreated: 2013-09-17 01:23:28Z\n---\n\n9/17   选择临近，向下概率大",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 105,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "89fad891-4ac4-4acc-8176-2a72d9b24f5b",
+    "note_id": "28f41c12-424e-4b20-ab48-4a1be31f9389",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.686103Z",
+    "finished_at": "2025-11-10T15:43:36.686103Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f4f35ebb-34df-4dfc-bdfd-bde652e38f22",
+      "source_path": "backups/2023年6月/投资/金自天正 600560.html",
+      "checksum": "661391e096b6d43302de607284a5b48f49ba56e6d45446a7456b30d8a26e693e"
+    },
+    "output_ref": {
+      "ingest_source": "f007d3fb-c612-4d8d-a9ed-6d0c98654cde",
+      "note": "28f41c12-424e-4b20-ab48-4a1be31f9389",
+      "variants": [
+        "ba2a746a-46f6-4b75-8cd5-e7442c87dc66",
+        "a87b6d6a-4162-4e8c-a782-6550132f9eb2"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a2477ac9-70b1-4ebd-999b-7680e42fdd9a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/无标题笔记-7.html",
+    "collected_at": "2025-11-10T15:43:32.855644Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ec908abcc8e0e7764be20e3f8e324b06dc8642134a598deed42a6700cb3742e8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6ee018ea-0423-4a4d-a04b-b9da477b6b76",
+    "ingest_source_id": "a2477ac9-70b1-4ebd-999b-7680e42fdd9a",
+    "canonical_title": "无标题笔记-7",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.855648Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-7.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "889790ee-2299-4394-b00c-0973140d20cc",
+      "note_id": "6ee018ea-0423-4a4d-a04b-b9da477b6b76",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.855650Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-01-20 12:48:34Z\ncreated: 2019-01-20 12:48:29Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Please keep in mind that the default location for my.cnf will be changed</div><div>from &quot;/var/db/mysql/my.cnf&quot; to &quot;/usr/local/etc/mysql/my.cnf&quot; in the near</div><div>future.&nbsp;&nbsp;If you do not want to move your my.cnf to the new location then</div><div>you must set &quot;mysql_optfile&quot; in /etc/rc.conf to &quot;/var/db/mysql/my.cnf&quot;.</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ec908abcc8e0e7764be20e3f8e324b06dc8642134a598deed42a6700cb3742e8",
+        "path": "backups/2023年6月/IT技术/无标题笔记-7.html"
+      }
+    },
+    {
+      "id": "8f768053-5b9f-45ab-bfd3-6d7e1a89eb96",
+      "note_id": "6ee018ea-0423-4a4d-a04b-b9da477b6b76",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.855653Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-01-20 12:48:34Z\ncreated: 2019-01-20 12:48:29Z\nauthor: tangyongfeng@gmail.com\n---\n\nPlease keep in mind that the default location for my.cnf will be changed\nfrom \"/var/db/mysql/my.cnf\" to \"/usr/local/etc/mysql/my.cnf\" in the near\nfuture.  If you do not want to move your my.cnf to the new location then\nyou must set \"mysql_optfile\" in /etc/rc.conf to \"/var/db/mysql/my.cnf\".",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 403,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7b5048d6-bcb9-4ef3-832f-6e6b22258d29",
+    "note_id": "6ee018ea-0423-4a4d-a04b-b9da477b6b76",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.855657Z",
+    "finished_at": "2025-11-10T15:43:32.855658Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7e32c62e-e410-4108-b1d3-f4baa887418a",
+      "source_path": "backups/2023年6月/IT技术/无标题笔记-7.html",
+      "checksum": "ec908abcc8e0e7764be20e3f8e324b06dc8642134a598deed42a6700cb3742e8"
+    },
+    "output_ref": {
+      "ingest_source": "a2477ac9-70b1-4ebd-999b-7680e42fdd9a",
+      "note": "6ee018ea-0423-4a4d-a04b-b9da477b6b76",
+      "variants": [
+        "889790ee-2299-4394-b00c-0973140d20cc",
+        "8f768053-5b9f-45ab-bfd3-6d7e1a89eb96"
+      ]
+    },
+    "error_detail": null
+  }
+}

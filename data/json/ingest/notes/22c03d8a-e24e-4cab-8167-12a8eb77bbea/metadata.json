@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a0bbedae-4ecf-43c0-9a67-8d41726d55b0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/便笺本 - 3月4日 上午10_08.html",
+    "collected_at": "2025-11-10T15:43:33.696973Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7cb41c874b8d38679998424baaf76cbb32ca032d732cfcb94b158d5de04864d5",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "22c03d8a-e24e-4cab-8167-12a8eb77bbea",
+    "ingest_source_id": "a0bbedae-4ecf-43c0-9a67-8d41726d55b0",
+    "canonical_title": "便笺本 - 3月4日 上午10_08",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.696977Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "便笺本 - 3月4日 上午10_08.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6db94ff4-db2a-4107-a15d-1c6012c20810",
+      "note_id": "22c03d8a-e24e-4cab-8167-12a8eb77bbea",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.696979Z",
+      "content": "---\ntitle: 便笺本 - 3月4日 上午10:08\nupdated: 2022-03-04 09:08:37Z\ncreated: 2022-03-04 09:08:37Z\n---\n\n\n<en-note><div>新浪邮箱授权码</div><div>用户名 hamsterdaten</div><div>授权码：29edbf56529cbb0a</div><div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7cb41c874b8d38679998424baaf76cbb32ca032d732cfcb94b158d5de04864d5",
+        "path": "backups/2023年6月/个人的乱78糟/便笺本 - 3月4日 上午10_08.html"
+      }
+    },
+    {
+      "id": "8d8e425e-dd1f-4cbd-bddf-3250694d0b8c",
+      "note_id": "22c03d8a-e24e-4cab-8167-12a8eb77bbea",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.696982Z",
+      "content": "---\ntitle: 便笺本 - 3月4日 上午10:08\nupdated: 2022-03-04 09:08:37Z\ncreated: 2022-03-04 09:08:37Z\n---\n\n新浪邮箱授权码\n用户名 hamsterdaten\n授权码：29edbf56529cbb0a",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 140,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8f540b76-5e83-4802-bb44-26c0c337752f",
+    "note_id": "22c03d8a-e24e-4cab-8167-12a8eb77bbea",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.696987Z",
+    "finished_at": "2025-11-10T15:43:33.696987Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "68e32491-783f-4c59-b0cf-2d8ffba1a97b",
+      "source_path": "backups/2023年6月/个人的乱78糟/便笺本 - 3月4日 上午10_08.html",
+      "checksum": "7cb41c874b8d38679998424baaf76cbb32ca032d732cfcb94b158d5de04864d5"
+    },
+    "output_ref": {
+      "ingest_source": "a0bbedae-4ecf-43c0-9a67-8d41726d55b0",
+      "note": "22c03d8a-e24e-4cab-8167-12a8eb77bbea",
+      "variants": [
+        "6db94ff4-db2a-4107-a15d-1c6012c20810",
+        "8d8e425e-dd1f-4cbd-bddf-3250694d0b8c"
+      ]
+    },
+    "error_detail": null
+  }
+}

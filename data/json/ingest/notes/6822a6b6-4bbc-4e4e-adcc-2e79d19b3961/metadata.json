@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "49221271-0487-4ecb-ab77-b9b473712ffd",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/妈妈身份证号码.html",
+    "collected_at": "2025-11-10T15:43:33.905057Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c1af34b204d8763047bf5894a648c6a47816a4c622189f0d75082dd8c0920ef7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6822a6b6-4bbc-4e4e-adcc-2e79d19b3961",
+    "ingest_source_id": "49221271-0487-4ecb-ab77-b9b473712ffd",
+    "canonical_title": "妈妈身份证号码",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.905061Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "妈妈身份证号码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dbe59cf4-7469-4ef8-be71-9852e5b87451",
+      "note_id": "6822a6b6-4bbc-4e4e-adcc-2e79d19b3961",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.905064Z",
+      "content": "---\ntitle: 妈妈身份证号码\nupdated: 2013-07-07 12:45:14Z\ncreated: 2013-07-07 12:32:49Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n410928195302209622 妈妈身份证号码\n<div>605020104203717028</div><div>13681130163</div><div>15083217346</div><div>13683646184</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c1af34b204d8763047bf5894a648c6a47816a4c622189f0d75082dd8c0920ef7",
+        "path": "backups/2023年6月/个人的乱78糟/妈妈身份证号码.html"
+      }
+    },
+    {
+      "id": "9d270ad7-f00c-4213-ae21-2c434b3ecdc0",
+      "note_id": "6822a6b6-4bbc-4e4e-adcc-2e79d19b3961",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.905067Z",
+      "content": "---\ntitle: 妈妈身份证号码\nupdated: 2013-07-07 12:45:14Z\ncreated: 2013-07-07 12:32:49Z\n---\n\n410928195302209622 妈妈身份证号码\n\n605020104203717028\n13681130163\n15083217346\n13683646184",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 166,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "30a93700-7688-4a56-9d7e-68e90c25e05c",
+    "note_id": "6822a6b6-4bbc-4e4e-adcc-2e79d19b3961",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.905072Z",
+    "finished_at": "2025-11-10T15:43:33.905072Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1cdb7cc5-e857-4205-b890-390636837763",
+      "source_path": "backups/2023年6月/个人的乱78糟/妈妈身份证号码.html",
+      "checksum": "c1af34b204d8763047bf5894a648c6a47816a4c622189f0d75082dd8c0920ef7"
+    },
+    "output_ref": {
+      "ingest_source": "49221271-0487-4ecb-ab77-b9b473712ffd",
+      "note": "6822a6b6-4bbc-4e4e-adcc-2e79d19b3961",
+      "variants": [
+        "dbe59cf4-7469-4ef8-be71-9852e5b87451",
+        "9d270ad7-f00c-4213-ae21-2c434b3ecdc0"
+      ]
+    },
+    "error_detail": null
+  }
+}

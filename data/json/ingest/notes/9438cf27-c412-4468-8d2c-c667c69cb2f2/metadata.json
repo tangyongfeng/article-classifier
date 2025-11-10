@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9ac75180-18ac-497b-89f0-e56aba0048e6",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/跃儿/vPP_yq5pC!_Ut=T6.html",
+    "collected_at": "2025-11-10T15:43:36.978851Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fddc26f4d8d5a48d4468a976ee78dbdb9db7a78559118f475a80eee7fd0bd45d",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9438cf27-c412-4468-8d2c-c667c69cb2f2",
+    "ingest_source_id": "9ac75180-18ac-497b-89f0-e56aba0048e6",
+    "canonical_title": "vPP_yq5pC!_Ut=T6",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.978855Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "vPP_yq5pC!_Ut=T6.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "af11f052-7cf3-48de-ba88-c3b858919625",
+      "note_id": "9438cf27-c412-4468-8d2c-c667c69cb2f2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.978858Z",
+      "content": "---\ntitle: vPP?yq5pC!*Ut=T6\nupdated: 2019-06-16 17:41:12Z\ncreated: 2019-06-16 17:41:12Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>vPP?yq5pC!*Ut=T6</div>\n<div><br/></div>\n<div><br/></div>\n<div>minecraft.net</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fddc26f4d8d5a48d4468a976ee78dbdb9db7a78559118f475a80eee7fd0bd45d",
+        "path": "backups/2023年6月/跃儿/vPP_yq5pC!_Ut=T6.html"
+      }
+    },
+    {
+      "id": "f9305d35-04fc-485b-b07a-5e4a8290d56f",
+      "note_id": "9438cf27-c412-4468-8d2c-c667c69cb2f2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.978861Z",
+      "content": "---\ntitle: vPP?yq5pC!*Ut=T6\nupdated: 2019-06-16 17:41:12Z\ncreated: 2019-06-16 17:41:12Z\nauthor: tangyongfeng@gmail.com\n---\n\nvPP?yq5pC!*Ut=T6\n\nminecraft.net",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 155,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ae1458af-bf70-4823-a7be-7ef56f4f090a",
+    "note_id": "9438cf27-c412-4468-8d2c-c667c69cb2f2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.978866Z",
+    "finished_at": "2025-11-10T15:43:36.978866Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ba02faea-97c7-4ae7-b2c7-9cab6d9adc05",
+      "source_path": "backups/2023年6月/跃儿/vPP_yq5pC!_Ut=T6.html",
+      "checksum": "fddc26f4d8d5a48d4468a976ee78dbdb9db7a78559118f475a80eee7fd0bd45d"
+    },
+    "output_ref": {
+      "ingest_source": "9ac75180-18ac-497b-89f0-e56aba0048e6",
+      "note": "9438cf27-c412-4468-8d2c-c667c69cb2f2",
+      "variants": [
+        "af11f052-7cf3-48de-ba88-c3b858919625",
+        "f9305d35-04fc-485b-b07a-5e4a8290d56f"
+      ]
+    },
+    "error_detail": null
+  }
+}

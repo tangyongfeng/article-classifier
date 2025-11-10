@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "dd40b633-d6ef-475d-8b3c-16e8d01c9d02",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/佛学/笔记.html",
+    "collected_at": "2025-11-10T15:43:35.106341Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "1c24476e2c44b3a29c2910b4f0179985f894b24a2fce4ed3607d1cfdcfe3fb3b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0a531949-daf4-4b8b-82ef-f4bbdbc227d6",
+    "ingest_source_id": "dd40b633-d6ef-475d-8b3c-16e8d01c9d02",
+    "canonical_title": "笔记",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.106346Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b03f6aac-a257-4f66-b60f-67954e913f03",
+      "note_id": "0a531949-daf4-4b8b-82ef-f4bbdbc227d6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.106349Z",
+      "content": "---\ntitle: 笔记\nupdated: 2013-06-25 14:26:10Z\ncreated: 2013-06-25 14:25:56Z\n---\n\n\n\n<en-note>因为群体会夸大自己的感情，所以要想打动它就只有用极端感情。任何一名想要成功地感动群体的演说家，必须在演说中出言不逊、信誓旦旦、夸大其辞、言之凿凿、不断重复，并绝对不能以说理的方式来证明任何事情&mdash;&mdash;这些都是演说家们在公众集会上惯用的论说技巧。\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1c24476e2c44b3a29c2910b4f0179985f894b24a2fce4ed3607d1cfdcfe3fb3b",
+        "path": "backups/2023年6月/佛学/笔记.html"
+      }
+    },
+    {
+      "id": "cfacacb3-5b44-4f01-ad1b-ab5d3b4bc8d0",
+      "note_id": "0a531949-daf4-4b8b-82ef-f4bbdbc227d6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.106352Z",
+      "content": "---\ntitle: 笔记\nupdated: 2013-06-25 14:26:10Z\ncreated: 2013-06-25 14:25:56Z\n---\n\n因为群体会夸大自己的感情，所以要想打动它就只有用极端感情。任何一名想要成功地感动群体的演说家，必须在演说中出言不逊、信誓旦旦、夸大其辞、言之凿凿、不断重复，并绝对不能以说理的方式来证明任何事情——这些都是演说家们在公众集会上惯用的论说技巧。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 199,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "49831e3f-c313-48d4-9b50-a207431cbfa9",
+    "note_id": "0a531949-daf4-4b8b-82ef-f4bbdbc227d6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.106357Z",
+    "finished_at": "2025-11-10T15:43:35.106358Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "51451095-c23d-429d-b0ec-acdf6763450b",
+      "source_path": "backups/2023年6月/佛学/笔记.html",
+      "checksum": "1c24476e2c44b3a29c2910b4f0179985f894b24a2fce4ed3607d1cfdcfe3fb3b"
+    },
+    "output_ref": {
+      "ingest_source": "dd40b633-d6ef-475d-8b3c-16e8d01c9d02",
+      "note": "0a531949-daf4-4b8b-82ef-f4bbdbc227d6",
+      "variants": [
+        "b03f6aac-a257-4f66-b60f-67954e913f03",
+        "cfacacb3-5b44-4f01-ad1b-ab5d3b4bc8d0"
+      ]
+    },
+    "error_detail": null
+  }
+}

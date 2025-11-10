@@ -1,8 +1,0 @@
----
-title: mysqldump 按条件导出
-updated: 2021-07-09 09:52:58Z
-created: 2021-07-09 09:52:23Z
-author: tangyongfeng@gmail.com
----
-
-mysqldump stock real_stock_cn_data --where="trade_date='20210709'" --no-create-info --set-gtid-purged=OFF >20210709.real_stock_cn_data.sql

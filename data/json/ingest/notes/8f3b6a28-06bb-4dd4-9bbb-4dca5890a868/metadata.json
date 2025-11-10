@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "90dfaae3-0999-497c-8d0b-462840aca510",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/flashcache.html",
+    "collected_at": "2025-11-10T15:43:31.483201Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "343362c7c6e2487775b5e1bcedbc3a3f5656625c5298a1a942d620a854ed0595",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "8f3b6a28-06bb-4dd4-9bbb-4dca5890a868",
+    "ingest_source_id": "90dfaae3-0999-497c-8d0b-462840aca510",
+    "canonical_title": "flashcache",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.483207Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "flashcache.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6821e12c-ee5d-4e9a-b140-c7ad57b348e5",
+      "note_id": "8f3b6a28-06bb-4dd4-9bbb-4dca5890a868",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.483211Z",
+      "content": "---\ntitle: flashcache\nupdated: 2013-03-06 02:40:41Z\ncreated: 2013-03-06 02:36:58Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nflashcache 是一个facebook开发的ssd和和磁盘公用的软件，用于将写入的数据先保存在ssd上，即可返回，然后通过同步机制将数据写到磁盘上，初步测试，能将磁盘的综合性能提高10%，但是可以通过增大ssd的空间和调整读写比例增加写的内容来提高性能。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "343362c7c6e2487775b5e1bcedbc3a3f5656625c5298a1a942d620a854ed0595",
+        "path": "backups/2023年6月/IT技术/flashcache.html"
+      }
+    },
+    {
+      "id": "bc5bb021-dcbf-44fd-942d-213e91a5cfac",
+      "note_id": "8f3b6a28-06bb-4dd4-9bbb-4dca5890a868",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.483215Z",
+      "content": "---\ntitle: flashcache\nupdated: 2013-03-06 02:40:41Z\ncreated: 2013-03-06 02:36:58Z\n---\n\nflashcache 是一个facebook开发的ssd和和磁盘公用的软件，用于将写入的数据先保存在ssd上，即可返回，然后通过同步机制将数据写到磁盘上，初步测试，能将磁盘的综合性能提高10%，但是可以通过增大ssd的空间和调整读写比例增加写的内容来提高性能。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 217,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "90b4b2c2-e9a0-45ce-8862-c27a9bab49cc",
+    "note_id": "8f3b6a28-06bb-4dd4-9bbb-4dca5890a868",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.483221Z",
+    "finished_at": "2025-11-10T15:43:31.483222Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "85784466-e3b6-45de-bd50-f6428343cfbc",
+      "source_path": "backups/2023年6月/IT技术/flashcache.html",
+      "checksum": "343362c7c6e2487775b5e1bcedbc3a3f5656625c5298a1a942d620a854ed0595"
+    },
+    "output_ref": {
+      "ingest_source": "90dfaae3-0999-497c-8d0b-462840aca510",
+      "note": "8f3b6a28-06bb-4dd4-9bbb-4dca5890a868",
+      "variants": [
+        "6821e12c-ee5d-4e9a-b140-c7ad57b348e5",
+        "bc5bb021-dcbf-44fd-942d-213e91a5cfac"
+      ]
+    },
+    "error_detail": null
+  }
+}

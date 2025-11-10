@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4a84e52d-b605-4c1f-b1fd-1214ecb00040",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/virtualenv.html",
+    "collected_at": "2025-11-10T15:43:31.978772Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3ac090a0ab66821ba05a2b4ef0bd36a8ad1155d405d8736cbd08cc9d4e600c44",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6fb2d39b-9f3b-4778-aa0d-78916743ad53",
+    "ingest_source_id": "4a84e52d-b605-4c1f-b1fd-1214ecb00040",
+    "canonical_title": "virtualenv",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.978775Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "virtualenv.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7c426b58-203c-4aa9-a4ce-d5f37c233d63",
+      "note_id": "6fb2d39b-9f3b-4778-aa0d-78916743ad53",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.978778Z",
+      "content": "---\ntitle: virtualenv\nupdated: 2017-12-31 06:00:50Z\ncreated: 2017-12-31 05:55:42Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - python\n---\n\n\n<en-note><div>mkdir djangogril&nbsp;</div><div>cd djangogril&nbsp;</div><div>python -m venv myvenv &nbsp; &nbsp; &nbsp;</div><div>. myvenv/bin/activatie</div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3ac090a0ab66821ba05a2b4ef0bd36a8ad1155d405d8736cbd08cc9d4e600c44",
+        "path": "backups/2023年6月/IT技术/virtualenv.html"
+      }
+    },
+    {
+      "id": "00e2a117-f427-4ff8-a6cf-c03cfd5e6dd5",
+      "note_id": "6fb2d39b-9f3b-4778-aa0d-78916743ad53",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.978781Z",
+      "content": "---\ntitle: virtualenv\nupdated: 2017-12-31 06:00:50Z\ncreated: 2017-12-31 05:55:42Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - python\n---\n\nmkdir djangogril \ncd djangogril \npython -m venv myvenv      \n. myvenv/bin/activatie",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 218,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "eb64f4c8-df4f-4717-a830-99a2049aa926",
+    "note_id": "6fb2d39b-9f3b-4778-aa0d-78916743ad53",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.978785Z",
+    "finished_at": "2025-11-10T15:43:31.978786Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cb0f75d8-8ecb-4ce8-99b8-fa6f9f47d132",
+      "source_path": "backups/2023年6月/IT技术/virtualenv.html",
+      "checksum": "3ac090a0ab66821ba05a2b4ef0bd36a8ad1155d405d8736cbd08cc9d4e600c44"
+    },
+    "output_ref": {
+      "ingest_source": "4a84e52d-b605-4c1f-b1fd-1214ecb00040",
+      "note": "6fb2d39b-9f3b-4778-aa0d-78916743ad53",
+      "variants": [
+        "7c426b58-203c-4aa9-a4ce-d5f37c233d63",
+        "00e2a117-f427-4ff8-a6cf-c03cfd5e6dd5"
+      ]
+    },
+    "error_detail": null
+  }
+}

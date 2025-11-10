@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1f6d57c6-2a6a-4db3-88f2-8001f2ee9a03",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个体户/知识类网站.html",
+    "collected_at": "2025-11-10T15:43:34.643419Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a548375142c957768f665333baca3be6dff7ca66b8b5772e47cb507e1313958b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4717c431-3ac1-43bc-9f20-f6cba48e7bcd",
+    "ingest_source_id": "1f6d57c6-2a6a-4db3-88f2-8001f2ee9a03",
+    "canonical_title": "知识类网站",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.643422Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "知识类网站.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "46c83dd9-6154-4e23-b3c1-1990a3931cae",
+      "note_id": "4717c431-3ac1-43bc-9f20-f6cba48e7bcd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.643425Z",
+      "content": "---\ntitle: 知识类网站\nupdated: 2022-10-16 12:02:04Z\ncreated: 2022-10-09 11:39:35Z\n---\n\n\n<en-note><div><a HREF=\"https://www.aoetc.com/\" REV=\"en_rl_none\">https://www.aoetc.com/</a></div><div>英文缩写词</div><div><br/></div><div><a HREF=\"https://nootriment.com/\">https://nootriment.com/</a></div><div><a HREF=\"https://nootriment.com/zh\">https://nootriment.com/zh</a></div><div>健康词条</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a548375142c957768f665333baca3be6dff7ca66b8b5772e47cb507e1313958b",
+        "path": "backups/2023年6月/个体户/知识类网站.html"
+      }
+    },
+    {
+      "id": "ad39aebf-c1d5-44a3-9337-4711c3a4627a",
+      "note_id": "4717c431-3ac1-43bc-9f20-f6cba48e7bcd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.643428Z",
+      "content": "---\ntitle: 知识类网站\nupdated: 2022-10-16 12:02:04Z\ncreated: 2022-10-09 11:39:35Z\n---\n\nhttps://www.aoetc.com/\n英文缩写词\nhttps://nootriment.com/\nhttps://nootriment.com/zh\n健康词条",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 165,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f786b754-06a0-47ca-9bdb-19ed7c1e1ca2",
+    "note_id": "4717c431-3ac1-43bc-9f20-f6cba48e7bcd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.643432Z",
+    "finished_at": "2025-11-10T15:43:34.643433Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "62170863-d94a-4077-bcad-456bcda7261d",
+      "source_path": "backups/2023年6月/个体户/知识类网站.html",
+      "checksum": "a548375142c957768f665333baca3be6dff7ca66b8b5772e47cb507e1313958b"
+    },
+    "output_ref": {
+      "ingest_source": "1f6d57c6-2a6a-4db3-88f2-8001f2ee9a03",
+      "note": "4717c431-3ac1-43bc-9f20-f6cba48e7bcd",
+      "variants": [
+        "46c83dd9-6154-4e23-b3c1-1990a3931cae",
+        "ad39aebf-c1d5-44a3-9337-4711c3a4627a"
+      ]
+    },
+    "error_detail": null
+  }
+}

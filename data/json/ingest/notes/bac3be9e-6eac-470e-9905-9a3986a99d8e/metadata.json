@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "40fbe7c6-3364-46ad-9e54-40c5a5a221bc",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/schufa.html",
+    "collected_at": "2025-11-10T15:43:35.351660Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "24ea000bdd80f84c57a51a0477bed234445e7539313d0ff1a79fedb1626dfe94",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "bac3be9e-6eac-470e-9905-9a3986a99d8e",
+    "ingest_source_id": "40fbe7c6-3364-46ad-9e54-40c5a5a221bc",
+    "canonical_title": "schufa",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.351664Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "schufa.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8e7669b9-9f6e-4b8e-907f-de4070e08374",
+      "note_id": "bac3be9e-6eac-470e-9905-9a3986a99d8e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.351666Z",
+      "content": "---\ntitle: schufa\nupdated: 2021-02-10 22:58:16Z\ncreated: 2021-02-10 22:54:20Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>用户名 yongfengtang</div><div>邮箱 &nbsp;tangyongfeng@gmail.com</div><div><br/></div><div>密码 TM!sb3t@-dtP7pU-</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "24ea000bdd80f84c57a51a0477bed234445e7539313d0ff1a79fedb1626dfe94",
+        "path": "backups/2023年6月/德国1/schufa.html"
+      }
+    },
+    {
+      "id": "1f677463-334d-4416-8441-151d8a711b82",
+      "note_id": "bac3be9e-6eac-470e-9905-9a3986a99d8e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.351669Z",
+      "content": "---\ntitle: schufa\nupdated: 2021-02-10 22:58:16Z\ncreated: 2021-02-10 22:54:20Z\nauthor: tangyongfeng@gmail.com\n---\n\n用户名 yongfengtang\n邮箱  tangyongfeng@gmail.com\n密码 TM!sb3t@-dtP7pU-",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 177,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1f4cfa3a-f2bb-4fc0-9666-0d548bc38cec",
+    "note_id": "bac3be9e-6eac-470e-9905-9a3986a99d8e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.351673Z",
+    "finished_at": "2025-11-10T15:43:35.351674Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2d79b5d5-fc62-41dd-b4f9-d51007e95fd2",
+      "source_path": "backups/2023年6月/德国1/schufa.html",
+      "checksum": "24ea000bdd80f84c57a51a0477bed234445e7539313d0ff1a79fedb1626dfe94"
+    },
+    "output_ref": {
+      "ingest_source": "40fbe7c6-3364-46ad-9e54-40c5a5a221bc",
+      "note": "bac3be9e-6eac-470e-9905-9a3986a99d8e",
+      "variants": [
+        "8e7669b9-9f6e-4b8e-907f-de4070e08374",
+        "1f677463-334d-4416-8441-151d8a711b82"
+      ]
+    },
+    "error_detail": null
+  }
+}

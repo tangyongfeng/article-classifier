@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "64dc4ff9-d4c9-4707-bc34-9702a7d8d1a9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Vertica Analytics Platform.html",
+    "collected_at": "2025-11-10T15:43:31.353122Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5877fa628664f0805a7df9574356b1d0dfa6d9f488fe3d9075699c4c138af3a5",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ef9dd11f-8c59-45e0-a4db-80ba1e68b659",
+    "ingest_source_id": "64dc4ff9-d4c9-4707-bc34-9702a7d8d1a9",
+    "canonical_title": "Vertica Analytics Platform",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.353125Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Vertica Analytics Platform.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f0e79e65-cd49-4dfb-8a71-f6819baf9e6f",
+      "note_id": "ef9dd11f-8c59-45e0-a4db-80ba1e68b659",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.353128Z",
+      "content": "---\ntitle: Vertica Analytics Platform\nupdated: 2012-09-01 03:38:21Z\ncreated: 2012-08-31 06:53:55Z\nsource: https://mail.google.com/mail/u/0/?ui=2&view=bsp&ver=ohhl4rw8mbn4\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><ul STYLE=\"color: rgb(34, 34, 34); font-family: arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);\"><li STYLE=\"margin-left: 15px; font-family: Arial, sans-serif; color: rgb(80, 80, 80); font-size: 12px;\">New Login:&nbsp;<a HREF=\"http://my.vertica.com/\" STYLE=\"color: rgb(0, 172, 238);\" TARGET=\"_blank\">http://my.vertica.com</a></li><li STYLE=\"margin-left: 15px; font-family: Arial, sans-serif; color: rgb(80, 80, 80); font-size: 12px;\">username:&nbsp;<strong><a HREF=\"mailto:tangyongfeng@gmail.com\" STYLE=\"color: rgb(17, 85, 204);\" TARGET=\"_blank\">tangyongfeng@gmail.com</a></strong></li><li STYLE=\"margin-left: 15px; font-family: Arial, sans-serif; color: rgb(80, 80, 80); font-size: 12px;\">password:&nbsp;<strong>HJ^SFJ^*K*Ts</strong></li></ul></div><div><br/></div><div>问题：</div><div>1、如何实现按列存储，如何在搜索的时候在另外一个存储空间找到对应的数据</div><div>2、效率优势的重点在哪里</div><div>3、具体使用</div><div><br/></div><div>学习：</div><div>安装</div><div>1、社区版只能在三个节点上安装，数据不能超过1t</div><div>2、2G 以上的swap空间</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5877fa628664f0805a7df9574356b1d0dfa6d9f488fe3d9075699c4c138af3a5",
+        "path": "backups/2023年6月/IT技术/Vertica Analytics Platform.html"
+      }
+    },
+    {
+      "id": "bae05b9c-9e62-422b-85f5-1876e66ba1b3",
+      "note_id": "ef9dd11f-8c59-45e0-a4db-80ba1e68b659",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.353130Z",
+      "content": "---\ntitle: Vertica Analytics Platform\nupdated: 2012-09-01 03:38:21Z\ncreated: 2012-08-31 06:53:55Z\nsource: https://mail.google.com/mail/u/0/?ui=2&view=bsp&ver=ohhl4rw8mbn4\n---\n\nNew Login: \nhttp://my.vertica.com\nusername: \ntangyongfeng@gmail.com\npassword: \nHJ^SFJ^*K*Ts\n问题：\n1、如何实现按列存储，如何在搜索的时候在另外一个存储空间找到对应的数据\n2、效率优势的重点在哪里\n3、具体使用\n学习：\n安装\n1、社区版只能在三个节点上安装，数据不能超过1t\n2、2G 以上的swap空间",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 374,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fa867f52-28ad-46fe-8ef2-34366dca8d90",
+    "note_id": "ef9dd11f-8c59-45e0-a4db-80ba1e68b659",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.353135Z",
+    "finished_at": "2025-11-10T15:43:31.353135Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fcf71b18-8879-4deb-ad8a-6745ee41abac",
+      "source_path": "backups/2023年6月/IT技术/Vertica Analytics Platform.html",
+      "checksum": "5877fa628664f0805a7df9574356b1d0dfa6d9f488fe3d9075699c4c138af3a5"
+    },
+    "output_ref": {
+      "ingest_source": "64dc4ff9-d4c9-4707-bc34-9702a7d8d1a9",
+      "note": "ef9dd11f-8c59-45e0-a4db-80ba1e68b659",
+      "variants": [
+        "f0e79e65-cd49-4dfb-8a71-f6819baf9e6f",
+        "bae05b9c-9e62-422b-85f5-1876e66ba1b3"
+      ]
+    },
+    "error_detail": null
+  }
+}

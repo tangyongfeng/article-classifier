@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "cf7c1b05-7bb9-4e2d-b28a-5664ba10078f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/需要更新的内容.html",
+    "collected_at": "2025-11-10T15:43:35.039228Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "1d86dbfbce21adab5240da514066de1542eb9827c4e7a3e321b3a1b50fdf663e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "95ea42d1-a26a-4908-b724-675d6cd804d4",
+    "ingest_source_id": "cf7c1b05-7bb9-4e2d-b28a-5664ba10078f",
+    "canonical_title": "需要更新的内容",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.039232Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "需要更新的内容.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "853ae96d-9d21-45c4-aeeb-a1a243e9b569",
+      "note_id": "95ea42d1-a26a-4908-b724-675d6cd804d4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.039235Z",
+      "content": "---\ntitle: 需要更新的内容\nupdated: 2012-09-21 01:19:03Z\ncreated: 2012-09-14 01:28:49Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、本系统的特点和主要功能\n<div>2、支持第三方审计</div><div>3、防沉溺的功能需要进一步细化和升级</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1d86dbfbce21adab5240da514066de1542eb9827c4e7a3e321b3a1b50fdf663e",
+        "path": "backups/2023年6月/中彩相关/需要更新的内容.html"
+      }
+    },
+    {
+      "id": "037ea72b-dd9d-470d-b397-078e58781a42",
+      "note_id": "95ea42d1-a26a-4908-b724-675d6cd804d4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.039237Z",
+      "content": "---\ntitle: 需要更新的内容\nupdated: 2012-09-21 01:19:03Z\ncreated: 2012-09-14 01:28:49Z\n---\n\n1、本系统的特点和主要功能\n\n2、支持第三方审计\n3、防沉溺的功能需要进一步细化和升级",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 127,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "65aeb9dc-f0ea-4db9-a4d4-b15a025bc479",
+    "note_id": "95ea42d1-a26a-4908-b724-675d6cd804d4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.039242Z",
+    "finished_at": "2025-11-10T15:43:35.039242Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "728a3aae-a1d5-418c-8922-a96168dd5dfc",
+      "source_path": "backups/2023年6月/中彩相关/需要更新的内容.html",
+      "checksum": "1d86dbfbce21adab5240da514066de1542eb9827c4e7a3e321b3a1b50fdf663e"
+    },
+    "output_ref": {
+      "ingest_source": "cf7c1b05-7bb9-4e2d-b28a-5664ba10078f",
+      "note": "95ea42d1-a26a-4908-b724-675d6cd804d4",
+      "variants": [
+        "853ae96d-9d21-45c4-aeeb-a1a243e9b569",
+        "037ea72b-dd9d-470d-b397-078e58781a42"
+      ]
+    },
+    "error_detail": null
+  }
+}

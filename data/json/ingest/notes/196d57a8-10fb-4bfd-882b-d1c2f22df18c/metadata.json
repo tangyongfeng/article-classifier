@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ec4ce3d7-1754-4df7-8159-d991484c2149",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/圆觉经.html",
+    "collected_at": "2025-11-10T15:43:33.822198Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "5869222eec0f14f79dd74677f274c5ddb90253ec536e92359053d0449aec04ac",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "196d57a8-10fb-4bfd-882b-d1c2f22df18c",
+    "ingest_source_id": "ec4ce3d7-1754-4df7-8159-d991484c2149",
+    "canonical_title": "圆觉经",
+    "language": "ro",
+    "ingested_at": "2025-11-10T15:43:33.822203Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "圆觉经.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bfa8b766-1ca5-49df-a806-18f53f185512",
+      "note_id": "196d57a8-10fb-4bfd-882b-d1c2f22df18c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.822206Z",
+      "content": "---\ntitle: 圆觉经\nupdated: 2012-06-05 13:41:34Z\ncreated: 2012-06-05 13:41:05Z\nlatitude: 39.88846644\nlongitude: 116.63090348\naltitude: 38.2945\n---\n\n\n\n<en-note>&nbsp;<span>&nbsp;</span></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5869222eec0f14f79dd74677f274c5ddb90253ec536e92359053d0449aec04ac",
+        "path": "backups/2023年6月/个人的乱78糟/圆觉经.html"
+      }
+    },
+    {
+      "id": "20f80e11-8dfd-4fba-a2fa-4591c17bd374",
+      "note_id": "196d57a8-10fb-4bfd-882b-d1c2f22df18c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.822209Z",
+      "content": "---\ntitle: 圆觉经\nupdated: 2012-06-05 13:41:34Z\ncreated: 2012-06-05 13:41:05Z\nlatitude: 39.88846644\nlongitude: 116.63090348\naltitude: 38.2945\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 142,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a08fe7d1-7699-4290-922f-273c3f102b19",
+    "note_id": "196d57a8-10fb-4bfd-882b-d1c2f22df18c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.822215Z",
+    "finished_at": "2025-11-10T15:43:33.822215Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cecb40d9-4f38-4d01-b859-e317d6ba68f8",
+      "source_path": "backups/2023年6月/个人的乱78糟/圆觉经.html",
+      "checksum": "5869222eec0f14f79dd74677f274c5ddb90253ec536e92359053d0449aec04ac"
+    },
+    "output_ref": {
+      "ingest_source": "ec4ce3d7-1754-4df7-8159-d991484c2149",
+      "note": "196d57a8-10fb-4bfd-882b-d1c2f22df18c",
+      "variants": [
+        "bfa8b766-1ca5-49df-a806-18f53f185512",
+        "20f80e11-8dfd-4fba-a2fa-4591c17bd374"
+      ]
+    },
+    "error_detail": null
+  }
+}

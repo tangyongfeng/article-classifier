@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2ba9801a-1d7c-40aa-a354-d53ad407ed32",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/内部控制系统简介 ICS.html",
+    "collected_at": "2025-11-10T15:43:34.778194Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "91978ccab3b5b7473cb130aaf29389ce8ffde4d24f213884f13f4435e383fdc2",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "35e9463f-c6dc-4723-8db5-c355ba5ecb07",
+    "ingest_source_id": "2ba9801a-1d7c-40aa-a354-d53ad407ed32",
+    "canonical_title": "内部控制系统简介 ICS",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.778199Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "内部控制系统简介 ICS.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6f68b4f3-ec86-43f5-a018-f3340534cd8c",
+      "note_id": "35e9463f-c6dc-4723-8db5-c355ba5ecb07",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.778202Z",
+      "content": "---\ntitle: 内部控制系统简介 ICS\nupdated: 2012-09-18 07:47:46Z\ncreated: 2012-09-18 07:47:33Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><p STYLE=\"language:zh-CN;margin-top:10.56pt;margin-bottom:0pt;margin-left:0in; text-indent:0in;text-align:center;direction:ltr;unicode-bidi:embed;vertical-align: baseline;mso-line-break-override:none;punctuation-wrap:hanging\"><span STYLE=\"font-size:44.0pt;font-family:黑体;mso-ascii-font-family:黑体;mso-fareast-font-family: 黑体;mso-bidi-font-family:+mn-cs;mso-bidi-theme-font:minor-bidi;color:#990000; language:zh-CN;text-combine:letters;font-weight:bold;mso-style-textfill-type: solid;mso-style-textfill-fill-color:#990000;mso-style-textfill-fill-alpha:100.0%\">内部控制系统简介</span></p><div><span STYLE=\"font-size:24.0pt;font-family:\">Internal Control System (ICS)</span></div><div><span STYLE=\"font-size:24.0pt;font-family:\"><br/></span></div><div><span STYLE=\"font-size:24.0pt;font-family:\"><br/></span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "91978ccab3b5b7473cb130aaf29389ce8ffde4d24f213884f13f4435e383fdc2",
+        "path": "backups/2023年6月/中彩相关/内部控制系统简介 ICS.html"
+      }
+    },
+    {
+      "id": "17b52933-e5a4-4a25-a336-58455a7f90c8",
+      "note_id": "35e9463f-c6dc-4723-8db5-c355ba5ecb07",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.778205Z",
+      "content": "---\ntitle: 内部控制系统简介 ICS\nupdated: 2012-09-18 07:47:46Z\ncreated: 2012-09-18 07:47:33Z\n---\n\n内部控制系统简介\nInternal Control System (ICS)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 127,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "78789b58-fee7-48b1-afd6-4febd5d0b9e9",
+    "note_id": "35e9463f-c6dc-4723-8db5-c355ba5ecb07",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.778211Z",
+    "finished_at": "2025-11-10T15:43:34.778212Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "39215aa3-7976-404c-9389-8dc3606e2c8a",
+      "source_path": "backups/2023年6月/中彩相关/内部控制系统简介 ICS.html",
+      "checksum": "91978ccab3b5b7473cb130aaf29389ce8ffde4d24f213884f13f4435e383fdc2"
+    },
+    "output_ref": {
+      "ingest_source": "2ba9801a-1d7c-40aa-a354-d53ad407ed32",
+      "note": "35e9463f-c6dc-4723-8db5-c355ba5ecb07",
+      "variants": [
+        "6f68b4f3-ec86-43f5-a018-f3340534cd8c",
+        "17b52933-e5a4-4a25-a336-58455a7f90c8"
+      ]
+    },
+    "error_detail": null
+  }
+}

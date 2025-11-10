@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1a0d6460-6012-45ed-8a86-9869f1cd86ba",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/suiteCRM.html",
+    "collected_at": "2025-11-10T15:43:31.947631Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "dff1540599273930daa1a7f0aa7ac46e831d4bb60199c80976a6d5826aa88ea8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "11cf70a5-b5ee-464f-9b43-3130b8d318de",
+    "ingest_source_id": "1a0d6460-6012-45ed-8a86-9869f1cd86ba",
+    "canonical_title": "suiteCRM",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.947634Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "suiteCRM.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "085ec342-362a-4755-9a6c-4d3642ea272a",
+      "note_id": "11cf70a5-b5ee-464f-9b43-3130b8d318de",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.947637Z",
+      "content": "---\ntitle: suiteCRM\nupdated: 2019-04-11 18:49:21Z\ncreated: 2019-04-11 18:17:58Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>suiteCRM&nbsp;</div><div>administrator&nbsp; &nbsp; abcd1234</div><div><br/></div><div>yongfeng<span>&nbsp; &nbsp; welcome123</span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dff1540599273930daa1a7f0aa7ac46e831d4bb60199c80976a6d5826aa88ea8",
+        "path": "backups/2023年6月/IT技术/suiteCRM.html"
+      }
+    },
+    {
+      "id": "c8eccda8-cd7a-4b74-9b0b-eaa95dc91023",
+      "note_id": "11cf70a5-b5ee-464f-9b43-3130b8d318de",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.947640Z",
+      "content": "---\ntitle: suiteCRM\nupdated: 2019-04-11 18:49:21Z\ncreated: 2019-04-11 18:17:58Z\nauthor: tangyongfeng@gmail.com\n---\n\nsuiteCRM \nadministrator    abcd1234\nyongfeng\n    welcome123",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 175,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e59a17cd-18b0-4f88-a695-f013e2ab0cc1",
+    "note_id": "11cf70a5-b5ee-464f-9b43-3130b8d318de",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.947644Z",
+    "finished_at": "2025-11-10T15:43:31.947645Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5ea4cdc5-2ebd-4481-ad6e-e6e60131fd7a",
+      "source_path": "backups/2023年6月/IT技术/suiteCRM.html",
+      "checksum": "dff1540599273930daa1a7f0aa7ac46e831d4bb60199c80976a6d5826aa88ea8"
+    },
+    "output_ref": {
+      "ingest_source": "1a0d6460-6012-45ed-8a86-9869f1cd86ba",
+      "note": "11cf70a5-b5ee-464f-9b43-3130b8d318de",
+      "variants": [
+        "085ec342-362a-4755-9a6c-4d3642ea272a",
+        "c8eccda8-cd7a-4b74-9b0b-eaa95dc91023"
+      ]
+    },
+    "error_detail": null
+  }
+}

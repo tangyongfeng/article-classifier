@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "59a0a8ab-23d1-41df-abc6-dfde841a5f06",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/医院主要有三个库.html",
+    "collected_at": "2025-11-10T15:43:35.182578Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "32f29bd7411a68670c04d58a281ddd38abd30d22fa5ad35f9d4973dc21562914",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "1d948833-309a-40d1-97ac-519b756d917a",
+    "ingest_source_id": "59a0a8ab-23d1-41df-abc6-dfde841a5f06",
+    "canonical_title": "医院主要有三个库",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.182581Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "医院主要有三个库.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2410c1ba-f411-400c-8608-6982122ae34b",
+      "note_id": "1d948833-309a-40d1-97ac-519b756d917a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.182584Z",
+      "content": "---\ntitle: 医院主要有三个库\nupdated: 2013-12-20 06:51:55Z\ncreated: 2013-12-20 06:48:51Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n药房\n<div>医疗器械和维修库</div><div>1、医疗器械</div><div>2、一次性消耗品</div><div>&nbsp; &nbsp; &nbsp;a、口罩</div><div>&nbsp; &nbsp; &nbsp;b、手套</div><div>3、大型仪器</div><div>4、维修用品</div><div>5、器械耗材</div><div>6、口罩、</div><div>总务</div><div>1、食材</div><div>2、工服</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "32f29bd7411a68670c04d58a281ddd38abd30d22fa5ad35f9d4973dc21562914",
+        "path": "backups/2023年6月/医疗/医院主要有三个库.html"
+      }
+    },
+    {
+      "id": "03d08369-578b-49a3-beb9-e802f50f3817",
+      "note_id": "1d948833-309a-40d1-97ac-519b756d917a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.182586Z",
+      "content": "---\ntitle: 医院主要有三个库\nupdated: 2013-12-20 06:51:55Z\ncreated: 2013-12-20 06:48:51Z\n---\n\n药房\n\n医疗器械和维修库\n1、医疗器械\n2、一次性消耗品\n     a、口罩\n     b、手套\n3、大型仪器\n4、维修用品\n5、器械耗材\n6、口罩、\n总务\n1、食材\n2、工服",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 173,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "59c9367f-8895-4f6e-a5a9-68825a3ec136",
+    "note_id": "1d948833-309a-40d1-97ac-519b756d917a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.182591Z",
+    "finished_at": "2025-11-10T15:43:35.182591Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "62aa81b7-2ac4-4c85-8f84-208c2b7d167c",
+      "source_path": "backups/2023年6月/医疗/医院主要有三个库.html",
+      "checksum": "32f29bd7411a68670c04d58a281ddd38abd30d22fa5ad35f9d4973dc21562914"
+    },
+    "output_ref": {
+      "ingest_source": "59a0a8ab-23d1-41df-abc6-dfde841a5f06",
+      "note": "1d948833-309a-40d1-97ac-519b756d917a",
+      "variants": [
+        "2410c1ba-f411-400c-8608-6982122ae34b",
+        "03d08369-578b-49a3-beb9-e802f50f3817"
+      ]
+    },
+    "error_detail": null
+  }
+}

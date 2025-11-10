@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0f3f34c4-f15f-4421-a953-99e275d7e9e9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/tensorflow学习笔记.html",
+    "collected_at": "2025-11-10T15:43:31.951216Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3a1e2a69f7b33e4f786a6c7d2a2830e862f120c4697428573ea4ca263c533ca0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "2a717182-0089-41bf-9768-4fca25c01571",
+    "ingest_source_id": "0f3f34c4-f15f-4421-a953-99e275d7e9e9",
+    "canonical_title": "tensorflow学习笔记",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.951219Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "tensorflow学习笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8fde846c-2946-4ad9-af4f-ccb1baff9a79",
+      "note_id": "2a717182-0089-41bf-9768-4fca25c01571",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.951222Z",
+      "content": "---\ntitle: tensorflow学习笔记\nupdated: 2017-11-23 15:37:29Z\ncreated: 2017-11-23 15:36:24Z\nsource: >-\n  https://github.com/MorvanZhou/tutorials/blob/master/tensorflowTUT/tensorflow12_plut_result.py\nauthor: tangyongfeng@gmail.com\ntags:\n  - python\n  - tensorflow\n---\n\n\n\n\n<en-note><div><span STYLE=\"font-size: 9pt;\">matplotli &nbsp;数据输出可视化控件</span></div><div><span STYLE=\"font-size: 9pt;\"><br/></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3a1e2a69f7b33e4f786a6c7d2a2830e862f120c4697428573ea4ca263c533ca0",
+        "path": "backups/2023年6月/IT技术/tensorflow学习笔记.html"
+      }
+    },
+    {
+      "id": "6481f7bb-e3bd-4e07-9879-6a8a57445f66",
+      "note_id": "2a717182-0089-41bf-9768-4fca25c01571",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.951224Z",
+      "content": "---\ntitle: tensorflow学习笔记\nupdated: 2017-11-23 15:37:29Z\ncreated: 2017-11-23 15:36:24Z\nsource: >-\n  https://github.com/MorvanZhou/tutorials/blob/master/tensorflowTUT/tensorflow12_plut_result.py\nauthor: tangyongfeng@gmail.com\ntags:\n  - python\n  - tensorflow\n---\n\nmatplotli  数据输出可视化控件",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 281,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "55fa24ae-547d-4b6b-a780-d861b91689b2",
+    "note_id": "2a717182-0089-41bf-9768-4fca25c01571",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.951229Z",
+    "finished_at": "2025-11-10T15:43:31.951229Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f5dbf292-e9f0-4a62-8159-b4b3d42c79c1",
+      "source_path": "backups/2023年6月/IT技术/tensorflow学习笔记.html",
+      "checksum": "3a1e2a69f7b33e4f786a6c7d2a2830e862f120c4697428573ea4ca263c533ca0"
+    },
+    "output_ref": {
+      "ingest_source": "0f3f34c4-f15f-4421-a953-99e275d7e9e9",
+      "note": "2a717182-0089-41bf-9768-4fca25c01571",
+      "variants": [
+        "8fde846c-2946-4ad9-af4f-ccb1baff9a79",
+        "6481f7bb-e3bd-4e07-9879-6a8a57445f66"
+      ]
+    },
+    "error_detail": null
+  }
+}

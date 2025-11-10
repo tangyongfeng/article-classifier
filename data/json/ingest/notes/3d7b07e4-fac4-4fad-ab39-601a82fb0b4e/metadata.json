@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "da3e1147-871b-4b15-ba4f-40806d7949e3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/http___product.auto.163.com_compare_16164-2355.htm.html",
+    "collected_at": "2025-11-10T15:43:33.503566Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d029d08e796ea970f48ebebde80aef24935d9dda9006cdb6db53d5c05f147736",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3d7b07e4-fac4-4fad-ab39-601a82fb0b4e",
+    "ingest_source_id": "da3e1147-871b-4b15-ba4f-40806d7949e3",
+    "canonical_title": "http___product.auto.163.com_compare_16164-2355.htm",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.503570Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "http___product.auto.163.com_compare_16164-2355.htm.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "00e196a4-2517-4f2f-9891-c21965efe338",
+      "note_id": "3d7b07e4-fac4-4fad-ab39-601a82fb0b4e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.503572Z",
+      "content": "---\ntitle: http://product.auto.163.com/compare/16164-2355.html\nupdated: 2013-08-20 08:51:41Z\ncreated: 2013-08-20 08:51:41Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"http://product.auto.163.com/compare/16164-2355.html\">http://product.auto.163.com/compare/16164-2355.html</a></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d029d08e796ea970f48ebebde80aef24935d9dda9006cdb6db53d5c05f147736",
+        "path": "backups/2023年6月/个人的乱78糟/http___product.auto.163.com_compare_16164-2355.htm.html"
+      }
+    },
+    {
+      "id": "bed755a5-d5d2-4cb1-ad20-29c2ec3f8faa",
+      "note_id": "3d7b07e4-fac4-4fad-ab39-601a82fb0b4e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.503575Z",
+      "content": "---\ntitle: http://product.auto.163.com/compare/16164-2355.html\nupdated: 2013-08-20 08:51:41Z\ncreated: 2013-08-20 08:51:41Z\n---\n\nhttp://product.auto.163.com/compare/16164-2355.html",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 179,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "706bff69-dd21-4185-b38d-f004225d7c09",
+    "note_id": "3d7b07e4-fac4-4fad-ab39-601a82fb0b4e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.503580Z",
+    "finished_at": "2025-11-10T15:43:33.503580Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e87f7974-ef89-4434-abea-b7f9e4903578",
+      "source_path": "backups/2023年6月/个人的乱78糟/http___product.auto.163.com_compare_16164-2355.htm.html",
+      "checksum": "d029d08e796ea970f48ebebde80aef24935d9dda9006cdb6db53d5c05f147736"
+    },
+    "output_ref": {
+      "ingest_source": "da3e1147-871b-4b15-ba4f-40806d7949e3",
+      "note": "3d7b07e4-fac4-4fad-ab39-601a82fb0b4e",
+      "variants": [
+        "00e196a4-2517-4f2f-9891-c21965efe338",
+        "bed755a5-d5d2-4cb1-ad20-29c2ec3f8faa"
+      ]
+    },
+    "error_detail": null
+  }
+}

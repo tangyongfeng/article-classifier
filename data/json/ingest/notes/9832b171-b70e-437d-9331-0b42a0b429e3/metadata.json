@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1a6260f8-5234-41ed-9d9f-b24dd7ef5670",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Nassauer Land Mineralwasser medium.html",
+    "collected_at": "2025-11-10T15:43:30.933507Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "052f903f80fc19dfd2ae9ef91405392a095ed9e72cf97e2907280ab5c8334444",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9832b171-b70e-437d-9331-0b42a0b429e3",
+    "ingest_source_id": "1a6260f8-5234-41ed-9d9f-b24dd7ef5670",
+    "canonical_title": "Nassauer Land Mineralwasser medium",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:30.933511Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Nassauer Land Mineralwasser medium.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d1a7812b-99ff-444b-9c92-0056d3eea6fd",
+      "note_id": "9832b171-b70e-437d-9331-0b42a0b429e3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.933514Z",
+      "content": "---\ntitle: Nassauer Land Mineralwasser medium\nupdated: 2019-09-28 17:45:17Z\ncreated: 2019-09-28 17:44:08Z\n---\n\n\n<en-note><h1 STYLE=\"text-align:start;\"><i><span STYLE=\"color: rgb(255, 255, 255);\">Nassauer Land Mineralwasser medium</span></i></h1><img src=\"../_resources/csm_produktgalerie_174_NA_medium_glas_075l_348x348_efdac4173f.jpg\"  style=\"--en-viewerProps:{};\" hash=\"53ecb903a0c39666b5166f7bcd93a49e\" type=\"image/jpeg\" alt=\"csm_produktgalerie_174_NA_medium_glas_075l_348x348_efdac4173f.jpg\" /></en-media><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "052f903f80fc19dfd2ae9ef91405392a095ed9e72cf97e2907280ab5c8334444",
+        "path": "backups/2023年6月/IT技术/Nassauer Land Mineralwasser medium.html"
+      }
+    },
+    {
+      "id": "6716141a-75d0-4b77-a91b-b621c6f094b6",
+      "note_id": "9832b171-b70e-437d-9331-0b42a0b429e3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.933517Z",
+      "content": "---\ntitle: Nassauer Land Mineralwasser medium\nupdated: 2019-09-28 17:45:17Z\ncreated: 2019-09-28 17:44:08Z\n---\n\nNassauer Land Mineralwasser medium",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 145,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6eba0a9d-6c44-41f1-8af8-dac6dcf31334",
+    "note_id": "9832b171-b70e-437d-9331-0b42a0b429e3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.933522Z",
+    "finished_at": "2025-11-10T15:43:30.933523Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0ae90e9e-b1ab-4421-95ed-3fa490015037",
+      "source_path": "backups/2023年6月/IT技术/Nassauer Land Mineralwasser medium.html",
+      "checksum": "052f903f80fc19dfd2ae9ef91405392a095ed9e72cf97e2907280ab5c8334444"
+    },
+    "output_ref": {
+      "ingest_source": "1a6260f8-5234-41ed-9d9f-b24dd7ef5670",
+      "note": "9832b171-b70e-437d-9331-0b42a0b429e3",
+      "variants": [
+        "d1a7812b-99ff-444b-9c92-0056d3eea6fd",
+        "6716141a-75d0-4b77-a91b-b621c6f094b6"
+      ]
+    },
+    "error_detail": null
+  }
+}

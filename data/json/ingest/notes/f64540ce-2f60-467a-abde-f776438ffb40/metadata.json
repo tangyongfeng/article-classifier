@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "71635435-04b2-4205-93e2-3678b0e0e06c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/关于 Java 对象序列化您不知道的 5 件事.html",
+    "collected_at": "2025-11-10T15:43:32.226392Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "et",
+    "captured_at": null,
+    "checksum": "541020382069b84d9e69af6f00897473ed380a3b30d42d5d8bedeba3af95185b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "f64540ce-2f60-467a-abde-f776438ffb40",
+    "ingest_source_id": "71635435-04b2-4205-93e2-3678b0e0e06c",
+    "canonical_title": "关于 Java 对象序列化您不知道的 5 件事",
+    "language": "et",
+    "ingested_at": "2025-11-10T15:43:32.226398Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "关于 Java 对象序列化您不知道的 5 件事.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e2b63c32-7d1a-4ddd-9f1b-075750a33747",
+      "note_id": "f64540ce-2f60-467a-abde-f776438ffb40",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.226401Z",
+      "content": "---\ntitle: 关于 Java 对象序列化您不知道的 5 件事\nupdated: 2014-03-21 18:38:37Z\ncreated: 2012-06-25 00:47:45Z\ntags:\n  - java\n---\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nhttp://www.ibm.com/developerworks/cn/java/j-5things1/index.html?ca=drs-cn-0504k</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "541020382069b84d9e69af6f00897473ed380a3b30d42d5d8bedeba3af95185b",
+        "path": "backups/2023年6月/IT技术/关于 Java 对象序列化您不知道的 5 件事.html"
+      }
+    },
+    {
+      "id": "849efa81-24df-49c7-9a02-9bbb0632e4eb",
+      "note_id": "f64540ce-2f60-467a-abde-f776438ffb40",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.226405Z",
+      "content": "---\ntitle: 关于 Java 对象序列化您不知道的 5 件事\nupdated: 2014-03-21 18:38:37Z\ncreated: 2012-06-25 00:47:45Z\ntags:\n  - java\n---\n\nhttp://www.ibm.com/developerworks/cn/java/j-5things1/index.html?ca=drs-cn-0504k",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "et",
+        "length": 194,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2bd17ed0-ec3c-400f-becf-25ea1d39dfa6",
+    "note_id": "f64540ce-2f60-467a-abde-f776438ffb40",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.226411Z",
+    "finished_at": "2025-11-10T15:43:32.226412Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "85f1a210-e5b0-4983-9d55-53b48ed4e564",
+      "source_path": "backups/2023年6月/IT技术/关于 Java 对象序列化您不知道的 5 件事.html",
+      "checksum": "541020382069b84d9e69af6f00897473ed380a3b30d42d5d8bedeba3af95185b"
+    },
+    "output_ref": {
+      "ingest_source": "71635435-04b2-4205-93e2-3678b0e0e06c",
+      "note": "f64540ce-2f60-467a-abde-f776438ffb40",
+      "variants": [
+        "e2b63c32-7d1a-4ddd-9f1b-075750a33747",
+        "849efa81-24df-49c7-9a02-9bbb0632e4eb"
+      ]
+    },
+    "error_detail": null
+  }
+}

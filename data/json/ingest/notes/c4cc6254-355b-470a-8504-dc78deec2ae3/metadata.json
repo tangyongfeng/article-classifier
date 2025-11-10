@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b9ec770c-72bf-4cb4-ab67-06ad3c9848c4",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/驾照知识点积累.html",
+    "collected_at": "2025-11-10T15:43:35.988030Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "5ce5904d0b5b68ea2909f861821fc43b3953912a7aca40248e34c1a546c00e06",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c4cc6254-355b-470a-8504-dc78deec2ae3",
+    "ingest_source_id": "b9ec770c-72bf-4cb4-ab67-06ad3c9848c4",
+    "canonical_title": "驾照知识点积累",
+    "language": "no",
+    "ingested_at": "2025-11-10T15:43:35.988034Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "驾照知识点积累.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7e2bf1ca-d273-48ed-a4fd-2a3baae8b05c",
+      "note_id": "c4cc6254-355b-470a-8504-dc78deec2ae3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.988037Z",
+      "content": "---\ntitle: 驾照知识点积累\nupdated: 2021-11-17 13:30:09Z\ncreated: 2021-11-17 11:27:12Z\n---\n\n\n<en-note><div>1、可以以步行速度超过在公交车站停车的公交车</div><div>2、在没有标记的情况下，货物不能超过车长的1米。</div><div>3、实线不能超车</div><div>4、灯光汇总</div><ul><ul><li><div>Abblendlicht&nbsp; &nbsp; 近光灯</div></li><li><div>Fernlicht 远光灯</div></li><li><div>Nebelscheinwefer 雾灯</div></li><li><div>Pannenblinker 双闪、警告灯</div></li><li><div>Blinker 转向灯</div></li></ul></ul><div>5、过弯导致打滑的原因有：</div><div STYLE=\"padding-left:40px;\">胎压过低或者两边胎压不一致</div><div STYLE=\"padding-left:40px;\">减震器坏了</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5ce5904d0b5b68ea2909f861821fc43b3953912a7aca40248e34c1a546c00e06",
+        "path": "backups/2023年6月/德语1/驾照知识点积累.html"
+      }
+    },
+    {
+      "id": "fbac10f5-0e8c-4520-a3ff-af1d49a4ed2d",
+      "note_id": "c4cc6254-355b-470a-8504-dc78deec2ae3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.988040Z",
+      "content": "---\ntitle: 驾照知识点积累\nupdated: 2021-11-17 13:30:09Z\ncreated: 2021-11-17 11:27:12Z\n---\n\n1、可以以步行速度超过在公交车站停车的公交车\n2、在没有标记的情况下，货物不能超过车长的1米。\n3、实线不能超车\n4、灯光汇总\nAbblendlicht    近光灯\nFernlicht 远光灯\nNebelscheinwefer 雾灯\nPannenblinker 双闪、警告灯\nBlinker 转向灯\n5、过弯导致打滑的原因有：\n胎压过低或者两边胎压不一致\n减震器坏了",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 268,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "304a878d-48e2-47cd-967a-ff9cdf6a0df6",
+    "note_id": "c4cc6254-355b-470a-8504-dc78deec2ae3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.988045Z",
+    "finished_at": "2025-11-10T15:43:35.988046Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "86a01d7d-1f9d-494f-bea9-481ffb9c3519",
+      "source_path": "backups/2023年6月/德语1/驾照知识点积累.html",
+      "checksum": "5ce5904d0b5b68ea2909f861821fc43b3953912a7aca40248e34c1a546c00e06"
+    },
+    "output_ref": {
+      "ingest_source": "b9ec770c-72bf-4cb4-ab67-06ad3c9848c4",
+      "note": "c4cc6254-355b-470a-8504-dc78deec2ae3",
+      "variants": [
+        "7e2bf1ca-d273-48ed-a4fd-2a3baae8b05c",
+        "fbac10f5-0e8c-4520-a3ff-af1d49a4ed2d"
+      ]
+    },
+    "error_detail": null
+  }
+}

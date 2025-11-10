@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c1c34f1d-8756-41ef-a9c8-4b2c83c23e1d",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/godaddy.html",
+    "collected_at": "2025-11-10T15:43:35.147061Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "18cdee1bbbdcb0756201e35eff8eeb4f3a19bdcfd99d1181d37bf7fabfd41a22",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3ca80320-e311-485e-b77c-39e2a18e167d",
+    "ingest_source_id": "c1c34f1d-8756-41ef-a9c8-4b2c83c23e1d",
+    "canonical_title": "godaddy",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.147065Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "godaddy.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f076664a-f9ba-415a-8fe7-b7669130be6e",
+      "note_id": "3ca80320-e311-485e-b77c-39e2a18e167d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.147068Z",
+      "content": "---\ntitle: godaddy\nupdated: 2014-07-02 10:33:27Z\ncreated: 2014-07-02 10:32:46Z\nsource: >-\n  https://cart.godaddy.com/OrderConfirmation/Order_Confirmation.aspx?pending=True\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(51, 51, 51); font-size: 14px; text-align: left; white-space: nowrap; background-color: rgb(232, 232, 232);\">85608886</span><div><span STYLE=\"color: rgb(51, 51, 51); font-size: 14px; text-align: left; white-space: nowrap; background-color: rgb(232, 232, 232);\"><br/></span></div><div STYLE=\"text-align: left;\"><font COLOR=\"#333333\"><span STYLE=\"font-size: 14px; white-space: nowrap;\">tangyongfeng</span></font></div><div STYLE=\"text-align: left;\"><font COLOR=\"#333333\"><span STYLE=\"font-size: 14px; white-space: nowrap;\"><br/></span></font></div><div><span STYLE=\"color: rgb(51, 51, 51); font-size: 14px; text-align: left; white-space: nowrap; background-color: rgb(232, 232, 232);\">B*1******</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "18cdee1bbbdcb0756201e35eff8eeb4f3a19bdcfd99d1181d37bf7fabfd41a22",
+        "path": "backups/2023年6月/医疗/godaddy.html"
+      }
+    },
+    {
+      "id": "728a77fc-cab4-4b26-8831-0aebb6f8c820",
+      "note_id": "3ca80320-e311-485e-b77c-39e2a18e167d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.147071Z",
+      "content": "---\ntitle: godaddy\nupdated: 2014-07-02 10:33:27Z\ncreated: 2014-07-02 10:32:46Z\nsource: >-\n  https://cart.godaddy.com/OrderConfirmation/Order_Confirmation.aspx?pending=True\n---\n\n85608886\ntangyongfeng\nB*1******",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 208,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1fc0895b-a0fb-485d-9d84-2927763ee60d",
+    "note_id": "3ca80320-e311-485e-b77c-39e2a18e167d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.147076Z",
+    "finished_at": "2025-11-10T15:43:35.147076Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "002e756c-6238-4a40-bec6-0d0e97d7c444",
+      "source_path": "backups/2023年6月/医疗/godaddy.html",
+      "checksum": "18cdee1bbbdcb0756201e35eff8eeb4f3a19bdcfd99d1181d37bf7fabfd41a22"
+    },
+    "output_ref": {
+      "ingest_source": "c1c34f1d-8756-41ef-a9c8-4b2c83c23e1d",
+      "note": "3ca80320-e311-485e-b77c-39e2a18e167d",
+      "variants": [
+        "f076664a-f9ba-415a-8fe7-b7669130be6e",
+        "728a77fc-cab4-4b26-8831-0aebb6f8c820"
+      ]
+    },
+    "error_detail": null
+  }
+}

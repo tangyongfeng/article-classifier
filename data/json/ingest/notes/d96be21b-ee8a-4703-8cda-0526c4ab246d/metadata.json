@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7cded232-7c4b-4ca7-b279-f0e10a00138e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/自动化.html",
+    "collected_at": "2025-11-10T15:43:34.447068Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "vi",
+    "captured_at": null,
+    "checksum": "0a405b0a389666889fdb7e9a22ee0b89986b3e98801d0f86740ce48ed275f850",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d96be21b-ee8a-4703-8cda-0526c4ab246d",
+    "ingest_source_id": "7cded232-7c4b-4ca7-b279-f0e10a00138e",
+    "canonical_title": "自动化",
+    "language": "vi",
+    "ingested_at": "2025-11-10T15:43:34.447073Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "自动化.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9c3f33eb-ad72-45cd-8937-c7dc81c0d43a",
+      "note_id": "d96be21b-ee8a-4703-8cda-0526c4ab246d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.447077Z",
+      "content": "---\ntitle: 自动化\nupdated: 2021-04-06 06:56:07Z\ncreated: 2021-04-06 06:55:56Z\n---\n\n\n\n<en-note><div>最近在搞移民公司的业务流程自动化。QuickBooks Online (财务)，Lawmatics (CRM+Marketing)，Lawpay (收款)。这些SaaS软件都具备开放平台，很容易同其他系统集成，争取四月份把这些流程打通，实现移民业务的自动化信息采集、签合同、出发票、收款等。唯一美中不足的，是这些系统基本上都被墙了 。。。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0a405b0a389666889fdb7e9a22ee0b89986b3e98801d0f86740ce48ed275f850",
+        "path": "backups/2023年6月/个人的乱78糟/自动化.html"
+      }
+    },
+    {
+      "id": "d865b61c-a9cf-443e-9acb-0d4af766230a",
+      "note_id": "d96be21b-ee8a-4703-8cda-0526c4ab246d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.447080Z",
+      "content": "---\ntitle: 自动化\nupdated: 2021-04-06 06:56:07Z\ncreated: 2021-04-06 06:55:56Z\n---\n\n最近在搞移民公司的业务流程自动化。QuickBooks Online (财务)，Lawmatics (CRM+Marketing)，Lawpay (收款)。这些SaaS软件都具备开放平台，很容易同其他系统集成，争取四月份把这些流程打通，实现移民业务的自动化信息采集、签合同、出发票、收款等。唯一美中不足的，是这些系统基本上都被墙了 。。。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "vi",
+        "length": 249,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7cdb4937-9098-43ba-a896-db8d1a66eb00",
+    "note_id": "d96be21b-ee8a-4703-8cda-0526c4ab246d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.447086Z",
+    "finished_at": "2025-11-10T15:43:34.447086Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f38404ea-8c62-4601-9f86-7ce0a6af004b",
+      "source_path": "backups/2023年6月/个人的乱78糟/自动化.html",
+      "checksum": "0a405b0a389666889fdb7e9a22ee0b89986b3e98801d0f86740ce48ed275f850"
+    },
+    "output_ref": {
+      "ingest_source": "7cded232-7c4b-4ca7-b279-f0e10a00138e",
+      "note": "d96be21b-ee8a-4703-8cda-0526c4ab246d",
+      "variants": [
+        "9c3f33eb-ad72-45cd-8937-c7dc81c0d43a",
+        "d865b61c-a9cf-443e-9acb-0d4af766230a"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "e0049b8f-e656-450b-a99d-972d5209e6fe",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/ueU&,o.html",
+    "collected_at": "2025-11-10T15:43:31.960044Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "48fe134ffaa5342bc4948ac584f011c7771fc8c335e5543ced3ea98ef0c3022d",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ca535920-4539-430d-a9ba-a0d4c34e68cf",
+    "ingest_source_id": "e0049b8f-e656-450b-a99d-972d5209e6fe",
+    "canonical_title": "ueU&,o",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.960048Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ueU&,o.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "62239255-f2d2-4870-951b-b7b08010fab0",
+      "note_id": "ca535920-4539-430d-a9ba-a0d4c34e68cf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.960051Z",
+      "content": "---\ntitle: ueU&,o\nupdated: 2019-04-09 12:53:07Z\ncreated: 2019-04-09 12:53:07Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>ueU&amp;,o</div>\n<div><br/></div>\n<div>Yongfeng.Tang <span>帐户</span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "48fe134ffaa5342bc4948ac584f011c7771fc8c335e5543ced3ea98ef0c3022d",
+        "path": "backups/2023年6月/IT技术/ueU&,o.html"
+      }
+    },
+    {
+      "id": "ace4cd62-9da2-41e6-90ab-e835d17d012d",
+      "note_id": "ca535920-4539-430d-a9ba-a0d4c34e68cf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.960054Z",
+      "content": "---\ntitle: ueU&,o\nupdated: 2019-04-09 12:53:07Z\ncreated: 2019-04-09 12:53:07Z\nauthor: tangyongfeng@gmail.com\n---\n\nueU&,o\n\nYongfeng.Tang\n帐户",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 138,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "95e0898a-b5a9-4bc3-9299-60a0e50b1021",
+    "note_id": "ca535920-4539-430d-a9ba-a0d4c34e68cf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.960058Z",
+    "finished_at": "2025-11-10T15:43:31.960059Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8aff4313-916a-4dc7-9ae5-482df59bb300",
+      "source_path": "backups/2023年6月/IT技术/ueU&,o.html",
+      "checksum": "48fe134ffaa5342bc4948ac584f011c7771fc8c335e5543ced3ea98ef0c3022d"
+    },
+    "output_ref": {
+      "ingest_source": "e0049b8f-e656-450b-a99d-972d5209e6fe",
+      "note": "ca535920-4539-430d-a9ba-a0d4c34e68cf",
+      "variants": [
+        "62239255-f2d2-4870-951b-b7b08010fab0",
+        "ace4cd62-9da2-41e6-90ab-e835d17d012d"
+      ]
+    },
+    "error_detail": null
+  }
+}

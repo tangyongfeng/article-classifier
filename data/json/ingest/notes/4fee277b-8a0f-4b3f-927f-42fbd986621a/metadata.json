@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0d7a9fe3-15d2-47c1-ab95-c38c3632cbb5",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/8月4日.html",
+    "collected_at": "2025-11-10T15:43:35.999339Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "b1c3d549fa07248e32e11f7a4ffb851b3911162b39df72c662b6ee128768504d",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4fee277b-8a0f-4b3f-927f-42fbd986621a",
+    "ingest_source_id": "0d7a9fe3-15d2-47c1-ab95-c38c3632cbb5",
+    "canonical_title": "8月4日",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.999343Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "8月4日.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9a836b59-b159-4f46-a322-39e34ef4d15a",
+      "note_id": "4fee277b-8a0f-4b3f-927f-42fbd986621a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.999346Z",
+      "content": "---\ntitle: 8月4日\nupdated: 2020-08-04 14:38:26Z\ncreated: 2020-08-04 14:37:36Z\n---\n\n\n\n<en-note><div>1）Ich habe ihr die Situation erkl&auml;rt.</div><div>2) Sie hat mir ein paar Sicherheitsfragen gestellt.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b1c3d549fa07248e32e11f7a4ffb851b3911162b39df72c662b6ee128768504d",
+        "path": "backups/2023年6月/德语2/8月4日.html"
+      }
+    },
+    {
+      "id": "a46acffb-7716-418d-b9d4-bb66a6472eb0",
+      "note_id": "4fee277b-8a0f-4b3f-927f-42fbd986621a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.999349Z",
+      "content": "---\ntitle: 8月4日\nupdated: 2020-08-04 14:38:26Z\ncreated: 2020-08-04 14:37:36Z\n---\n\n1）Ich habe ihr die Situation erklärt.\n2) Sie hat mir ein paar Sicherheitsfragen gestellt.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 170,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2c4a1560-75b0-4508-ad67-9a9084cc67d2",
+    "note_id": "4fee277b-8a0f-4b3f-927f-42fbd986621a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.999354Z",
+    "finished_at": "2025-11-10T15:43:35.999354Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "94a24f51-c4b2-4e86-b015-e5874f988aca",
+      "source_path": "backups/2023年6月/德语2/8月4日.html",
+      "checksum": "b1c3d549fa07248e32e11f7a4ffb851b3911162b39df72c662b6ee128768504d"
+    },
+    "output_ref": {
+      "ingest_source": "0d7a9fe3-15d2-47c1-ab95-c38c3632cbb5",
+      "note": "4fee277b-8a0f-4b3f-927f-42fbd986621a",
+      "variants": [
+        "9a836b59-b159-4f46-a322-39e34ef4d15a",
+        "a46acffb-7716-418d-b9d4-bb66a6472eb0"
+      ]
+    },
+    "error_detail": null
+  }
+}

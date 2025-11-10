@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b661b095-a72c-40e3-8edb-a35f01bb4dfa",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/机器学习 学习大纲.html",
+    "collected_at": "2025-11-10T15:43:32.909837Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ede188b347972b1fa21753bae90fe4335f8e3270d40f1e3e061e4c9e9bc66595",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "16ced83d-7df7-460b-88df-d5a48147f7e6",
+    "ingest_source_id": "b661b095-a72c-40e3-8edb-a35f01bb4dfa",
+    "canonical_title": "机器学习 学习大纲",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.909841Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "机器学习 学习大纲.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "860d1f98-b7a8-4b19-88fe-2414df5db11a",
+      "note_id": "16ced83d-7df7-460b-88df-d5a48147f7e6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.909844Z",
+      "content": "---\ntitle: 机器学习 学习大纲\nupdated: 2017-11-19 13:52:00Z\ncreated: 2017-11-19 13:51:38Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n\n<en-note><div><img src=\"../_resources/机器学习常见蒜贩.PNG\"  hash=\"91954021157f6d8f0d1d6174b447822b\" style=\"font-size: 9pt;\" type=\"image/png\" alt=\"机器学习常见蒜贩.PNG\" /></en-media><img src=\"../_resources/ml_guide.svg\"  hash=\"b7a6c3168fd0882846bd05dcafe549df\" style=\"font-size: 9pt;\" type=\"image/svg+xml\" alt=\"ml_guide.svg\" /></en-media></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ede188b347972b1fa21753bae90fe4335f8e3270d40f1e3e061e4c9e9bc66595",
+        "path": "backups/2023年6月/IT技术/机器学习 学习大纲.html"
+      }
+    },
+    {
+      "id": "c5772adf-2c85-448f-90fc-2888a62e9902",
+      "note_id": "16ced83d-7df7-460b-88df-d5a48147f7e6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.909847Z",
+      "content": "---\ntitle: 机器学习 学习大纲\nupdated: 2017-11-19 13:52:00Z\ncreated: 2017-11-19 13:51:38Z\nauthor: tangyongfeng@gmail.com\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 115,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "154c69e9-cb49-41a5-b898-63c5d2f20e1b",
+    "note_id": "16ced83d-7df7-460b-88df-d5a48147f7e6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.909852Z",
+    "finished_at": "2025-11-10T15:43:32.909852Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e23f2cee-6908-4d4b-8886-34e6663df86c",
+      "source_path": "backups/2023年6月/IT技术/机器学习 学习大纲.html",
+      "checksum": "ede188b347972b1fa21753bae90fe4335f8e3270d40f1e3e061e4c9e9bc66595"
+    },
+    "output_ref": {
+      "ingest_source": "b661b095-a72c-40e3-8edb-a35f01bb4dfa",
+      "note": "16ced83d-7df7-460b-88df-d5a48147f7e6",
+      "variants": [
+        "860d1f98-b7a8-4b19-88fe-2414df5db11a",
+        "c5772adf-2c85-448f-90fc-2888a62e9902"
+      ]
+    },
+    "error_detail": null
+  }
+}

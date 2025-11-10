@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "be07adc4-376d-4871-9a5f-229d9dbab43a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/药品目录.html",
+    "collected_at": "2025-11-10T15:43:33.121931Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "02a5a8ff7a63de8c17ce1125e5dc98e6e55df4a776f8d9051e19c95536b852a7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9893157f-2df2-4d71-a464-79d74caa713f",
+    "ingest_source_id": "be07adc4-376d-4871-9a5f-229d9dbab43a",
+    "canonical_title": "药品目录",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.121934Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "药品目录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "518d9898-1594-42cf-9d43-bc7a406cd7e7",
+      "note_id": "9893157f-2df2-4d71-a464-79d74caa713f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.121937Z",
+      "content": "---\ntitle: 药品目录\nupdated: 2013-07-10 01:33:48Z\ncreated: 2013-07-10 01:29:54Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n药品目录\n<div>治疗目录</div><div>设备目录</div><div><br/></div><div>设施目录</div><div>服务</div><div>哪类人什么药品 什么设施 什么服务</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "02a5a8ff7a63de8c17ce1125e5dc98e6e55df4a776f8d9051e19c95536b852a7",
+        "path": "backups/2023年6月/IT技术/药品目录.html"
+      }
+    },
+    {
+      "id": "17699721-069a-4884-a1a6-30f1dcf99032",
+      "note_id": "9893157f-2df2-4d71-a464-79d74caa713f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.121939Z",
+      "content": "---\ntitle: 药品目录\nupdated: 2013-07-10 01:33:48Z\ncreated: 2013-07-10 01:29:54Z\n---\n\n药品目录\n\n治疗目录\n设备目录\n设施目录\n服务\n哪类人什么药品 什么设施 什么服务",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 122,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "154e633b-8fb2-4f19-8a1c-ae2904bc93ea",
+    "note_id": "9893157f-2df2-4d71-a464-79d74caa713f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.121944Z",
+    "finished_at": "2025-11-10T15:43:33.121945Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8f01bf96-bd87-44e3-814a-775b878c6b2b",
+      "source_path": "backups/2023年6月/IT技术/药品目录.html",
+      "checksum": "02a5a8ff7a63de8c17ce1125e5dc98e6e55df4a776f8d9051e19c95536b852a7"
+    },
+    "output_ref": {
+      "ingest_source": "be07adc4-376d-4871-9a5f-229d9dbab43a",
+      "note": "9893157f-2df2-4d71-a464-79d74caa713f",
+      "variants": [
+        "518d9898-1594-42cf-9d43-bc7a406cd7e7",
+        "17699721-069a-4884-a1a6-30f1dcf99032"
+      ]
+    },
+    "error_detail": null
+  }
+}

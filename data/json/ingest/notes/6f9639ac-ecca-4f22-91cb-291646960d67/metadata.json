@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9355967e-de2e-4088-a9a7-e0cce39d6895",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/Viel Spaß还是Vielen Dank.html",
+    "collected_at": "2025-11-10T15:43:35.782039Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "cbab1fd5418e406897a8aeaeb1da82b958a4263753512871f1b923b055de667b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6f9639ac-ecca-4f22-91cb-291646960d67",
+    "ingest_source_id": "9355967e-de2e-4088-a9a7-e0cce39d6895",
+    "canonical_title": "Viel Spaß还是Vielen Dank",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.782044Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Viel Spaß还是Vielen Dank.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ddea7ab5-fb27-4455-9270-0124a1af989e",
+      "note_id": "6f9639ac-ecca-4f22-91cb-291646960d67",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.782047Z",
+      "content": "---\ntitle: Viel Spaß还是Vielen Dank\nupdated: 2021-02-10 01:54:44Z\ncreated: 2021-02-10 01:54:02Z\n---\n\n\n\n<en-note><div STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; min-height: 28px; line-height: 26px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;SF Pro Display&quot;, &quot;SF UI Text&quot;, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans&quot;, sans-serif; font-size: 15px; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"><span STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); min-height: 28px; line-height: 26px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;SF Pro Display&quot;, &quot;SF UI Text&quot;, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans&quot;, sans-serif; font-size: 15px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\">我们平时习惯说&ldquo;Viel Spa&szlig;!&rdquo;或者&ldquo;Viel Erfolg!&rdquo;，但在表示感谢的时候，却说&ldquo;Vielen Dank!&rdquo;。名词同为第四格，viel的形式却不同，不定代词viel的词尾到底要怎么变呢？</span></div><div STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; min-height: 28px; line-height: 26px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;SF Pro Display&quot;, &quot;SF UI Text&quot;, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans&quot;, sans-serif; font-size: 15px; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"><span STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); min-height: 28px; line-height: 26px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;SF Pro Display&quot;, &quot;SF UI Text&quot;, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans&quot;, sans-serif; font-size: 15px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\">1. 修饰复数名词时，viel-需要根据名词的格添加词尾，词尾按定冠词变。比如：</span></div><div STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding-left: 15px; position: relative; margin-bottom: 8px;\"><span STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;\">Am Hang wachsen viele Blumen. viel修饰名词复数Blumen，第一格</span></div><div STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding-left: 15px; position: relative;\"><span STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;\">Er hat es uns mit vielen Worten erz&auml;hlt. viel修饰名词复数Worte（话、言语），第三格</span></div><div STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; min-height: 28px; line-height: 26px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;SF Pro Display&quot;, &quot;SF UI Text&quot;, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans&quot;, sans-serif; font-size: 15px; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"><span STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); min-height: 28px; line-height: 26px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;SF Pro Display&quot;, &quot;SF UI Text&quot;, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans&quot;, sans-serif; font-size: 15px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\">2. 修饰名词单数时，viel不变格，这时viel所修饰的名词往往只用单数，或是不可数名词。比如：</span></div><div STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding-left: 15px; position: relative; margin-bottom: 8px;\"><span STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;\">Ich w&uuml;nsche Ihnen viel Erfolg und viel Spa&szlig; beim Studium in Deutschland. 修饰名词Erfolg和Spa&szlig;的单数形式，不变格</span></div><div STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding-left: 15px; position: relative;\"><span STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); position: relative;\">Im letzten Winter hatten wir sehr viel Schnee. 修饰名词Schnee的单数形式，不变格</span></div><div STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); margin: 0px; min-height: 28px; line-height: 26px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;SF Pro Display&quot;, &quot;SF UI Text&quot;, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans&quot;, sans-serif; font-size: 15px; font-variant-caps: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\"><span STYLE=\"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); min-height: 28px; line-height: 26px; caret-color: rgb(51, 51, 51); color: rgb(51, 51, 51); font-family: &quot;SF Pro Display&quot;, &quot;SF UI Text&quot;, &quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans&quot;, sans-serif; font-size: 15px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px;\">3. 在惯用表达中，以使用习惯为准。比如，我们平时常说的&ldquo;Vielen Dank!&rdquo;，完整的表达是&ldquo;Haben Sie vielen Dank!&rdquo;。在这个句子里，名词Dank是单数，按照第2条用法，viel本不应添加词尾。但是，语法的作用是归纳在表达中出现的语言现象，而不是限制语言的表达，所以，如果约定俗成的用法与语法规则发生冲突时，依然要以人们长时间以来的表达习惯为准。</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "cbab1fd5418e406897a8aeaeb1da82b958a4263753512871f1b923b055de667b",
+        "path": "backups/2023年6月/德语1/Viel Spaß还是Vielen Dank.html"
+      }
+    },
+    {
+      "id": "d4821afa-618e-47fe-b4ef-8e4e0ad9d5c6",
+      "note_id": "6f9639ac-ecca-4f22-91cb-291646960d67",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.782051Z",
+      "content": "---\ntitle: Viel Spaß还是Vielen Dank\nupdated: 2021-02-10 01:54:44Z\ncreated: 2021-02-10 01:54:02Z\n---\n\n我们平时习惯说“Viel Spaß!”或者“Viel Erfolg!”，但在表示感谢的时候，却说“Vielen Dank!”。名词同为第四格，viel的形式却不同，不定代词viel的词尾到底要怎么变呢？\n1. 修饰复数名词时，viel-需要根据名词的格添加词尾，词尾按定冠词变。比如：\nAm Hang wachsen viele Blumen. viel修饰名词复数Blumen，第一格\nEr hat es uns mit vielen Worten erzählt. viel修饰名词复数Worte（话、言语），第三格\n2. 修饰名词单数时，viel不变格，这时viel所修饰的名词往往只用单数，或是不可数名词。比如：\nIch wünsche Ihnen viel Erfolg und viel Spaß beim Studium in Deutschland. 修饰名词Erfolg和Spaß的单数形式，不变格\nIm letzten Winter hatten wir sehr viel Schnee. 修饰名词Schnee的单数形式，不变格\n3. 在惯用表达中，以使用习惯为准。比如，我们平时常说的“Vielen Dank!”，完整的表达是“Haben Sie vielen Dank!”。在这个句子里，名词Dank是单数，按照第2条用法，viel本不应添加词尾。但是，语法的作用是归纳在表达中出现的语言现象，而不是限制语言的表达，所以，如果约定俗成的用法与语法规则发生冲突时，依然要以人们长时间以来的表达习惯为准。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 762,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "90f1f7d2-242d-4369-b2cf-bde9b9d248c0",
+    "note_id": "6f9639ac-ecca-4f22-91cb-291646960d67",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.782057Z",
+    "finished_at": "2025-11-10T15:43:35.782057Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fa40324f-70ab-4bf6-828d-602c3fdbcc0e",
+      "source_path": "backups/2023年6月/德语1/Viel Spaß还是Vielen Dank.html",
+      "checksum": "cbab1fd5418e406897a8aeaeb1da82b958a4263753512871f1b923b055de667b"
+    },
+    "output_ref": {
+      "ingest_source": "9355967e-de2e-4088-a9a7-e0cce39d6895",
+      "note": "6f9639ac-ecca-4f22-91cb-291646960d67",
+      "variants": [
+        "ddea7ab5-fb27-4455-9270-0124a1af989e",
+        "d4821afa-618e-47fe-b4ef-8e4e0ad9d5c6"
+      ]
+    },
+    "error_detail": null
+  }
+}

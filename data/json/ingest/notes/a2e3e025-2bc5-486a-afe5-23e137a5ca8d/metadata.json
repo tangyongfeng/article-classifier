@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2ce02754-9907-4cbc-b633-d4419eaa25ab",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/不再卖房的未来-墙外楼.html",
+    "collected_at": "2025-11-10T15:43:32.091889Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5a08a0aa937745d3bd469391b6412873573dd61d699c8c3f92b09db73d250c7b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a2e3e025-2bc5-486a-afe5-23e137a5ca8d",
+    "ingest_source_id": "2ce02754-9907-4cbc-b633-d4419eaa25ab",
+    "canonical_title": "不再卖房的未来-墙外楼",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.091892Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "不再卖房的未来-墙外楼.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d9b7234c-2a7c-4bf1-8b0f-33a57a3df764",
+      "note_id": "a2e3e025-2bc5-486a-afe5-23e137a5ca8d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.091895Z",
+      "content": "---\ntitle: 不再卖房的未来-墙外楼\nupdated: 2018-03-21 00:37:09Z\ncreated: 2018-03-09 06:03:59Z\nsource: https://m.letscorp.net/archives/129291\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div STYLE=\"text-align:center;\"><img src=\"../_resources/be8efab7c2ca4dc56707722b45badd25.png\"  type=\"image/png\" hash=\"be8efab7c2ca4dc56707722b45badd25\" width=\"161\" height=\"140\" alt=\"\" /></en-media><br/><br/><font COLOR=\"#808080\">剪藏失败。</font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5a08a0aa937745d3bd469391b6412873573dd61d699c8c3f92b09db73d250c7b",
+        "path": "backups/2023年6月/IT技术/不再卖房的未来-墙外楼.html"
+      }
+    },
+    {
+      "id": "394e4f6a-bf83-405e-8323-68c628b8b0ac",
+      "note_id": "a2e3e025-2bc5-486a-afe5-23e137a5ca8d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.091898Z",
+      "content": "---\ntitle: 不再卖房的未来-墙外楼\nupdated: 2018-03-21 00:37:09Z\ncreated: 2018-03-09 06:03:59Z\nsource: https://m.letscorp.net/archives/129291\n---\n\n剪藏失败。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 140,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "182eecd3-4b92-43af-b261-2e6bec0b175b",
+    "note_id": "a2e3e025-2bc5-486a-afe5-23e137a5ca8d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.091902Z",
+    "finished_at": "2025-11-10T15:43:32.091903Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a742df87-00e2-44b0-8c30-efc0d341118e",
+      "source_path": "backups/2023年6月/IT技术/不再卖房的未来-墙外楼.html",
+      "checksum": "5a08a0aa937745d3bd469391b6412873573dd61d699c8c3f92b09db73d250c7b"
+    },
+    "output_ref": {
+      "ingest_source": "2ce02754-9907-4cbc-b633-d4419eaa25ab",
+      "note": "a2e3e025-2bc5-486a-afe5-23e137a5ca8d",
+      "variants": [
+        "d9b7234c-2a7c-4bf1-8b0f-33a57a3df764",
+        "394e4f6a-bf83-405e-8323-68c628b8b0ac"
+      ]
+    },
+    "error_detail": null
+  }
+}

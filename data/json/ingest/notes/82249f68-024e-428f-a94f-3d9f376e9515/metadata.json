@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "59515f75-4ca5-4c1b-9fd2-3d916eac84a3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/渣打香港.html",
+    "collected_at": "2025-11-10T15:43:34.254450Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "1a7edc4f56f846bb05adcfbe6f9b97af4fe5ff6c905d75a459a1a63e7c9d134c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "82249f68-024e-428f-a94f-3d9f376e9515",
+    "ingest_source_id": "59515f75-4ca5-4c1b-9fd2-3d916eac84a3",
+    "canonical_title": "渣打香港",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.254454Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "渣打香港.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2bbba2e5-a340-4c54-bb15-0ad1a5a52359",
+      "note_id": "82249f68-024e-428f-a94f-3d9f376e9515",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.254457Z",
+      "content": "---\ntitle: 渣打香港\nupdated: 2022-07-29 06:50:16Z\ncreated: 2022-07-29 06:48:44Z\n---\n\n\n<en-note><div>网站</div><div><a HREF=\"https://retail.sc.com/hk/nfs/login.htm?lang=zh_CN\" REV=\"en_rl_none\">https://retail.sc.com/hk/nfs/login.htm?lang=zh_CN</a></div><div><br/></div><div>用户名: tangyongfeng</div><div>密码:&nbsp; wtq3nt2Jd4bAs6tv</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1a7edc4f56f846bb05adcfbe6f9b97af4fe5ff6c905d75a459a1a63e7c9d134c",
+        "path": "backups/2023年6月/个人的乱78糟/渣打香港.html"
+      }
+    },
+    {
+      "id": "d16ab3a4-a7d1-43af-b710-3ad70370f4f4",
+      "note_id": "82249f68-024e-428f-a94f-3d9f376e9515",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.254459Z",
+      "content": "---\ntitle: 渣打香港\nupdated: 2022-07-29 06:50:16Z\ncreated: 2022-07-29 06:48:44Z\n---\n\n网站\nhttps://retail.sc.com/hk/nfs/login.htm?lang=zh_CN\n用户名: tangyongfeng\n密码:  wtq3nt2Jd4bAs6tv",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 173,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7844f78e-51f5-430e-bc62-791c771484bb",
+    "note_id": "82249f68-024e-428f-a94f-3d9f376e9515",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.254464Z",
+    "finished_at": "2025-11-10T15:43:34.254465Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "85b48c53-766e-49f5-89ea-4a5168ca47d6",
+      "source_path": "backups/2023年6月/个人的乱78糟/渣打香港.html",
+      "checksum": "1a7edc4f56f846bb05adcfbe6f9b97af4fe5ff6c905d75a459a1a63e7c9d134c"
+    },
+    "output_ref": {
+      "ingest_source": "59515f75-4ca5-4c1b-9fd2-3d916eac84a3",
+      "note": "82249f68-024e-428f-a94f-3d9f376e9515",
+      "variants": [
+        "2bbba2e5-a340-4c54-bb15-0ad1a5a52359",
+        "d16ab3a4-a7d1-43af-b710-3ad70370f4f4"
+      ]
+    },
+    "error_detail": null
+  }
+}

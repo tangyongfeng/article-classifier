@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9ce90650-0c72-4296-b474-c2524581f6fc",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/无标题笔记-9.html",
+    "collected_at": "2025-11-10T15:43:32.858882Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8662f9e2f88786c138bd8381309386bcff91df0011ef7ff1c6d2b86471746b2a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "978e8535-c473-47fb-9fc4-4035d27c416e",
+    "ingest_source_id": "9ce90650-0c72-4296-b474-c2524581f6fc",
+    "canonical_title": "无标题笔记-9",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.858885Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-9.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7c964196-8c0c-4174-bcac-c6a73b7c84ca",
+      "note_id": "978e8535-c473-47fb-9fc4-4035d27c416e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.858888Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-01-03 02:34:27Z\ncreated: 2019-01-03 02:33:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>北京市海淀区阜成路67号 银都大厦9层 13791120306 孙峥</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8662f9e2f88786c138bd8381309386bcff91df0011ef7ff1c6d2b86471746b2a",
+        "path": "backups/2023年6月/IT技术/无标题笔记-9.html"
+      }
+    },
+    {
+      "id": "dfc4de50-b24a-4e09-a164-008141ca9b03",
+      "note_id": "978e8535-c473-47fb-9fc4-4035d27c416e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.858891Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-01-03 02:34:27Z\ncreated: 2019-01-03 02:33:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n北京市海淀区阜成路67号 银都大厦9层 13791120306 孙峥",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 147,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e01ba38a-db76-4f9a-9d5c-e4d39ff02074",
+    "note_id": "978e8535-c473-47fb-9fc4-4035d27c416e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.858895Z",
+    "finished_at": "2025-11-10T15:43:32.858896Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5611b544-4e48-4b56-96f4-fa8fbf464f84",
+      "source_path": "backups/2023年6月/IT技术/无标题笔记-9.html",
+      "checksum": "8662f9e2f88786c138bd8381309386bcff91df0011ef7ff1c6d2b86471746b2a"
+    },
+    "output_ref": {
+      "ingest_source": "9ce90650-0c72-4296-b474-c2524581f6fc",
+      "note": "978e8535-c473-47fb-9fc4-4035d27c416e",
+      "variants": [
+        "7c964196-8c0c-4174-bcac-c6a73b7c84ca",
+        "dfc4de50-b24a-4e09-a164-008141ca9b03"
+      ]
+    },
+    "error_detail": null
+  }
+}

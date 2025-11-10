@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "d6484966-1d40-456a-ac0f-cb2109a7af86",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/业务规划会议.html",
+    "collected_at": "2025-11-10T15:43:34.720272Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "07381f922df334b3f86f30e2d9b835987dd9e6134daf94b8d9db4c2019e85964",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "18575b58-749c-4c11-83aa-c105790a130c",
+    "ingest_source_id": "d6484966-1d40-456a-ac0f-cb2109a7af86",
+    "canonical_title": "业务规划会议",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.720275Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "业务规划会议.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c8fee918-0078-4e34-be09-db44872861f7",
+      "note_id": "18575b58-749c-4c11-83aa-c105790a130c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.720278Z",
+      "content": "---\ntitle: 业务规划会议\nupdated: 2014-11-27 03:22:53Z\ncreated: 2014-11-27 03:04:52Z\n---\n\n\n\n<en-note>占工作：<div>一年六个游戏\n&Tab;<div>一个月一个游戏开发能力</div>\n&Tab;<div>为互联网同步游戏，界面工作有可能突破</div><div>更新换代的节奏会很快</div><div>重新思考孙提交的内容</div><div>可以为公司提一个目标</div><div>超额可以给激励</div><div>郑宇：</div><div>开乐彩线下也要做</div><div>唐永峰：</div><div>福彩网站</div><div>公司网站</div><div>应用大厅</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div>\n&Tab;<div><br/></div>\n\n\n</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "07381f922df334b3f86f30e2d9b835987dd9e6134daf94b8d9db4c2019e85964",
+        "path": "backups/2023年6月/中彩相关/业务规划会议.html"
+      }
+    },
+    {
+      "id": "12adec14-45e0-4747-aa99-da38d786169e",
+      "note_id": "18575b58-749c-4c11-83aa-c105790a130c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.720281Z",
+      "content": "---\ntitle: 业务规划会议\nupdated: 2014-11-27 03:22:53Z\ncreated: 2014-11-27 03:04:52Z\n---\n\n占工作：\n一年六个游戏\n\n一个月一个游戏开发能力\n\n为互联网同步游戏，界面工作有可能突破\n更新换代的节奏会很快\n重新思考孙提交的内容\n可以为公司提一个目标\n超额可以给激励\n郑宇：\n开乐彩线下也要做\n唐永峰：\n福彩网站\n公司网站\n应用大厅",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 201,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "13df2d17-b653-48e1-82f9-2e681119c234",
+    "note_id": "18575b58-749c-4c11-83aa-c105790a130c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.720286Z",
+    "finished_at": "2025-11-10T15:43:34.720286Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0cb93613-46b3-4709-8b3a-53c92951cea2",
+      "source_path": "backups/2023年6月/中彩相关/业务规划会议.html",
+      "checksum": "07381f922df334b3f86f30e2d9b835987dd9e6134daf94b8d9db4c2019e85964"
+    },
+    "output_ref": {
+      "ingest_source": "d6484966-1d40-456a-ac0f-cb2109a7af86",
+      "note": "18575b58-749c-4c11-83aa-c105790a130c",
+      "variants": [
+        "c8fee918-0078-4e34-be09-db44872861f7",
+        "12adec14-45e0-4747-aa99-da38d786169e"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "50c084fe-05c1-48b7-a42a-a56320ae34a3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/华闻传媒--2B公司.html",
+    "collected_at": "2025-11-10T15:43:36.479736Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "b22009b2cabc95785337ff09bdd33d392ba81f52e4766140d2bcfe97a6a9c244",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "2bc58a67-3154-443f-a9ee-739521b557e5",
+    "ingest_source_id": "50c084fe-05c1-48b7-a42a-a56320ae34a3",
+    "canonical_title": "华闻传媒--2B公司",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.479740Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "华闻传媒--2B公司.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c8d48ad2-4ffb-4308-90f1-81ff48cc014a",
+      "note_id": "2bc58a67-3154-443f-a9ee-739521b557e5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.479743Z",
+      "content": "---\ntitle: 华闻传媒--2B公司\nupdated: 2013-09-11 05:59:02Z\ncreated: 2013-09-11 05:42:47Z\ntags:\n  - 2b公司\n  - 金梓\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n9/11 &nbsp; 总股本13亿6千万，全部上市流通，其中76万股限售。<br/><div>&nbsp; &nbsp; &nbsp;一家超级不靠谱的2B公司，自家买卖自家的股票，尽然能买错了，而且自己没发现。超级2B ，还被证监会发现处罚，3笔短线交易。</div><div>&nbsp; &nbsp; &nbsp;还他妈的虚假陈述，被证监会查处，还上诉。简直2B到极致，<font COLOR=\"#FF0000\" STYLE=\"font-size: 32px;\">绝对不用考虑</font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b22009b2cabc95785337ff09bdd33d392ba81f52e4766140d2bcfe97a6a9c244",
+        "path": "backups/2023年6月/投资/华闻传媒--2B公司.html"
+      }
+    },
+    {
+      "id": "4a410cf7-3d11-4249-b8e9-845d7513dae1",
+      "note_id": "2bc58a67-3154-443f-a9ee-739521b557e5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.479746Z",
+      "content": "---\ntitle: 华闻传媒--2B公司\nupdated: 2013-09-11 05:59:02Z\ncreated: 2013-09-11 05:42:47Z\ntags:\n  - 2b公司\n  - 金梓\n---\n\n9/11   总股本13亿6千万，全部上市流通，其中76万股限售。\n     一家超级不靠谱的2B公司，自家买卖自家的股票，尽然能买错了，而且自己没发现。超级2B ，还被证监会发现处罚，3笔短线交易。\n     还他妈的虚假陈述，被证监会查处，还上诉。简直2B到极致，\n绝对不用考虑",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 250,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e153682b-beb1-4bd5-83df-0375a2e5256b",
+    "note_id": "2bc58a67-3154-443f-a9ee-739521b557e5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.479751Z",
+    "finished_at": "2025-11-10T15:43:36.479751Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fb1ca9be-6e5f-467f-9d7b-2e3573b28bae",
+      "source_path": "backups/2023年6月/投资/华闻传媒--2B公司.html",
+      "checksum": "b22009b2cabc95785337ff09bdd33d392ba81f52e4766140d2bcfe97a6a9c244"
+    },
+    "output_ref": {
+      "ingest_source": "50c084fe-05c1-48b7-a42a-a56320ae34a3",
+      "note": "2bc58a67-3154-443f-a9ee-739521b557e5",
+      "variants": [
+        "c8d48ad2-4ffb-4308-90f1-81ff48cc014a",
+        "4a410cf7-3d11-4249-b8e9-845d7513dae1"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "37b5af22-5fc2-4a18-895b-18b0021cb61f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/药监局路径.html",
+    "collected_at": "2025-11-10T15:43:35.251948Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7685dd6b6f166cc96a6c054178207e5f82b03436a412f86e02b417c5f1c77c1d",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3b116ebd-0afc-4cf7-82c1-16da1e0a16f1",
+    "ingest_source_id": "37b5af22-5fc2-4a18-895b-18b0021cb61f",
+    "canonical_title": "药监局路径",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.251954Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "药监局路径.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3c52e077-61bf-4382-981e-fb182b8e5408",
+      "note_id": "3b116ebd-0afc-4cf7-82c1-16da1e0a16f1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.251957Z",
+      "content": "---\ntitle: 药监局路径\nupdated: 2013-07-11 08:26:35Z\ncreated: 2013-07-11 04:07:31Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"http://app1.sfda.gov.cn/datasearch/face4/base.jsp?tableId=25&amp;tableName=TABLE25&amp;title=&amp;bcId=\">http://app1.sfda.gov.cn/datasearch/face4/base.jsp?tableId=25&amp;tableName=TABLE25&amp;title=&amp;bcId=</a><div><br/></div><div><a HREF=\"http://app1.sfda.gov.cn/datasearch/face4/content.jsp?tableId=25&amp;tableName=TABLE25&amp;tableView=&amp;Id=64963\">http://app1.sfda.gov.cn/datasearch/face4/content.jsp?tableId=25&amp;tableName=TABLE25&amp;tableView=&amp;Id=64963</a></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7685dd6b6f166cc96a6c054178207e5f82b03436a412f86e02b417c5f1c77c1d",
+        "path": "backups/2023年6月/医疗/药监局路径.html"
+      }
+    },
+    {
+      "id": "e6db77a0-68cb-443b-8a11-6e223aa31159",
+      "note_id": "3b116ebd-0afc-4cf7-82c1-16da1e0a16f1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.251960Z",
+      "content": "---\ntitle: 药监局路径\nupdated: 2013-07-11 08:26:35Z\ncreated: 2013-07-11 04:07:31Z\n---\n\nhttp://app1.sfda.gov.cn/datasearch/face4/base.jsp?tableId=25&tableName=TABLE25&title=&bcId=\nhttp://app1.sfda.gov.cn/datasearch/face4/content.jsp?tableId=25&tableName=TABLE25&tableView=&Id=64963",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 275,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ec620728-1c30-4c63-9ba2-57ab7a9164e9",
+    "note_id": "3b116ebd-0afc-4cf7-82c1-16da1e0a16f1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.251966Z",
+    "finished_at": "2025-11-10T15:43:35.251966Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "947abf64-f95b-4b54-a3f6-490b1efcb58b",
+      "source_path": "backups/2023年6月/医疗/药监局路径.html",
+      "checksum": "7685dd6b6f166cc96a6c054178207e5f82b03436a412f86e02b417c5f1c77c1d"
+    },
+    "output_ref": {
+      "ingest_source": "37b5af22-5fc2-4a18-895b-18b0021cb61f",
+      "note": "3b116ebd-0afc-4cf7-82c1-16da1e0a16f1",
+      "variants": [
+        "3c52e077-61bf-4382-981e-fb182b8e5408",
+        "e6db77a0-68cb-443b-8a11-6e223aa31159"
+      ]
+    },
+    "error_detail": null
+  }
+}

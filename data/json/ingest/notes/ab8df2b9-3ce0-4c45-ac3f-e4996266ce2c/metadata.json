@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "dc21be06-4364-41ef-9f48-497174688424",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/买袜子的.html",
+    "collected_at": "2025-11-10T15:43:33.657851Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ccaec31ab6160d9d06b0777a762d96fac03f77b6ecca220daee70107b374f69e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ab8df2b9-3ce0-4c45-ac3f-e4996266ce2c",
+    "ingest_source_id": "dc21be06-4364-41ef-9f48-497174688424",
+    "canonical_title": "买袜子的",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.657855Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "买袜子的.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0a71a50a-bf0c-4827-8b51-84e274c991af",
+      "note_id": "ab8df2b9-3ce0-4c45-ac3f-e4996266ce2c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.657857Z",
+      "content": "---\ntitle: 买袜子的\nupdated: 2022-06-09 19:14:03Z\ncreated: 2022-06-07 14:38:49Z\n---\n\n\n<en-note><div>Jack Hausmilano </div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ccaec31ab6160d9d06b0777a762d96fac03f77b6ecca220daee70107b374f69e",
+        "path": "backups/2023年6月/个人的乱78糟/买袜子的.html"
+      }
+    },
+    {
+      "id": "2a4717e8-2968-41ca-9e5b-712b0b398c99",
+      "note_id": "ab8df2b9-3ce0-4c45-ac3f-e4996266ce2c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.657860Z",
+      "content": "---\ntitle: 买袜子的\nupdated: 2022-06-09 19:14:03Z\ncreated: 2022-06-07 14:38:49Z\n---\n\nJack Hausmilano",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 96,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2cff8865-d6bd-4b2d-bcf6-9e02611469b3",
+    "note_id": "ab8df2b9-3ce0-4c45-ac3f-e4996266ce2c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.657865Z",
+    "finished_at": "2025-11-10T15:43:33.657865Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "bd5a84d5-59d9-463b-977f-344e5bd9a8c2",
+      "source_path": "backups/2023年6月/个人的乱78糟/买袜子的.html",
+      "checksum": "ccaec31ab6160d9d06b0777a762d96fac03f77b6ecca220daee70107b374f69e"
+    },
+    "output_ref": {
+      "ingest_source": "dc21be06-4364-41ef-9f48-497174688424",
+      "note": "ab8df2b9-3ce0-4c45-ac3f-e4996266ce2c",
+      "variants": [
+        "0a71a50a-bf0c-4827-8b51-84e274c991af",
+        "2a4717e8-2968-41ca-9e5b-712b0b398c99"
+      ]
+    },
+    "error_detail": null
+  }
+}

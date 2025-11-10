@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a7af1f44-730a-4058-ab99-37a774b02d8d",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/笔记-2.html",
+    "collected_at": "2025-11-10T15:43:33.075736Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5ebea0520cb76cdf81b693a64476b75fd5f0c59d3475d8e3d33aca0b460aa154",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b43fd0af-929c-48d8-b19f-8209904fbd92",
+    "ingest_source_id": "a7af1f44-730a-4058-ab99-37a774b02d8d",
+    "canonical_title": "笔记-2",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.075740Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-2.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9f34a39b-c37c-40fc-bf9f-15ea31387f75",
+      "note_id": "b43fd0af-929c-48d8-b19f-8209904fbd92",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.075743Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-12-19 02:34:41Z\ncreated: 2014-12-19 02:32:28Z\n---\n\n\n\n<en-note>明影科漫科技有限公司\n\n<div>在湖南搞了一个手机即开票叫锦绣中华</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5ebea0520cb76cdf81b693a64476b75fd5f0c59d3475d8e3d33aca0b460aa154",
+        "path": "backups/2023年6月/IT技术/笔记-2.html"
+      }
+    },
+    {
+      "id": "139bb6c5-c4df-4a6f-bb3d-ded3c6e2e773",
+      "note_id": "b43fd0af-929c-48d8-b19f-8209904fbd92",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.075746Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-12-19 02:34:41Z\ncreated: 2014-12-19 02:32:28Z\n---\n\n明影科漫科技有限公司\n\n在湖南搞了一个手机即开票叫锦绣中华",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 108,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "cad8e9da-3d71-4319-9b2f-69b385b02955",
+    "note_id": "b43fd0af-929c-48d8-b19f-8209904fbd92",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.075750Z",
+    "finished_at": "2025-11-10T15:43:33.075751Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5bd645a1-3c6d-47e8-9de5-7ff6a53b2735",
+      "source_path": "backups/2023年6月/IT技术/笔记-2.html",
+      "checksum": "5ebea0520cb76cdf81b693a64476b75fd5f0c59d3475d8e3d33aca0b460aa154"
+    },
+    "output_ref": {
+      "ingest_source": "a7af1f44-730a-4058-ab99-37a774b02d8d",
+      "note": "b43fd0af-929c-48d8-b19f-8209904fbd92",
+      "variants": [
+        "9f34a39b-c37c-40fc-bf9f-15ea31387f75",
+        "139bb6c5-c4df-4a6f-bb3d-ded3c6e2e773"
+      ]
+    },
+    "error_detail": null
+  }
+}

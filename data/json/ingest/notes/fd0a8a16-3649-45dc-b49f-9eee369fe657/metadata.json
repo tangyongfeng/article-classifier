@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c541fe02-22cf-472d-a738-73bae6338c31",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/人名记录.html",
+    "collected_at": "2025-11-10T15:43:35.166247Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "55144f48a86c3752a5049ef8d5bab1db0c16e47d7b1ef73cf6a45c8347123473",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "fd0a8a16-3649-45dc-b49f-9eee369fe657",
+    "ingest_source_id": "c541fe02-22cf-472d-a738-73bae6338c31",
+    "canonical_title": "人名记录",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.166251Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "人名记录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8da89f9c-0cf3-4ff4-a233-d6f44950cbde",
+      "note_id": "fd0a8a16-3649-45dc-b49f-9eee369fe657",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.166253Z",
+      "content": "---\ntitle: 人名记录\nupdated: 2014-04-10 07:51:28Z\ncreated: 2014-04-10 07:51:08Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n301医院张明群 老慢病健康分析\n<div>&nbsp; &nbsp; &nbsp; 金欣</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "55144f48a86c3752a5049ef8d5bab1db0c16e47d7b1ef73cf6a45c8347123473",
+        "path": "backups/2023年6月/医疗/人名记录.html"
+      }
+    },
+    {
+      "id": "45058106-5a37-4e6b-b1b1-93f95c47b292",
+      "note_id": "fd0a8a16-3649-45dc-b49f-9eee369fe657",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.166256Z",
+      "content": "---\ntitle: 人名记录\nupdated: 2014-04-10 07:51:28Z\ncreated: 2014-04-10 07:51:08Z\n---\n\n301医院张明群 老慢病健康分析\n\n      金欣",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 107,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f2ee81de-5142-4a9c-88fb-e59bafa526cf",
+    "note_id": "fd0a8a16-3649-45dc-b49f-9eee369fe657",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.166260Z",
+    "finished_at": "2025-11-10T15:43:35.166261Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "efa551a5-da8a-4436-ae6c-a83b1b2ee420",
+      "source_path": "backups/2023年6月/医疗/人名记录.html",
+      "checksum": "55144f48a86c3752a5049ef8d5bab1db0c16e47d7b1ef73cf6a45c8347123473"
+    },
+    "output_ref": {
+      "ingest_source": "c541fe02-22cf-472d-a738-73bae6338c31",
+      "note": "fd0a8a16-3649-45dc-b49f-9eee369fe657",
+      "variants": [
+        "8da89f9c-0cf3-4ff4-a233-d6f44950cbde",
+        "45058106-5a37-4e6b-b1b1-93f95c47b292"
+      ]
+    },
+    "error_detail": null
+  }
+}

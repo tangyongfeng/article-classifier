@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c86e2237-df25-4a4c-8fa2-cb558386fed9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/freebsd port 免打扰安装.html",
+    "collected_at": "2025-11-10T15:43:31.499863Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6061030d8fcdbf27637a991d53f6ee5c79b14d441637acd962c85aec714b0d5b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6053cde4-6bbb-46a6-8828-d9a04221aa73",
+    "ingest_source_id": "c86e2237-df25-4a4c-8fa2-cb558386fed9",
+    "canonical_title": "freebsd port 免打扰安装",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.499868Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "freebsd port 免打扰安装.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5a0d0a3c-21ec-4f8d-a178-22979bec1bcb",
+      "note_id": "6053cde4-6bbb-46a6-8828-d9a04221aa73",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.499871Z",
+      "content": "---\ntitle: freebsd port 免打扰安装\nupdated: 2019-04-17 22:23:40Z\ncreated: 2017-12-14 13:45:51Z\nauthor: tangyongfeng\ntags:\n  - freebsd\n---\n\n\n<en-note><div><span STYLE=\"color: rgb(35, 31, 32);\">make -DBATCH install</span></div><div><span STYLE=\"color: rgb(35, 31, 32);\"><br/></span></div><div><font STYLE=\"color: rgb(4, 3, 3); --inversion-type-color: simple;\"><span STYLE=\"caret-color: rgb(252, 251, 251);\">静默安装</span></font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6061030d8fcdbf27637a991d53f6ee5c79b14d441637acd962c85aec714b0d5b",
+        "path": "backups/2023年6月/IT技术/freebsd port 免打扰安装.html"
+      }
+    },
+    {
+      "id": "d64a389c-35c1-4f28-b9c4-69520bf50fa0",
+      "note_id": "6053cde4-6bbb-46a6-8828-d9a04221aa73",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.499874Z",
+      "content": "---\ntitle: freebsd port 免打扰安装\nupdated: 2019-04-17 22:23:40Z\ncreated: 2017-12-14 13:45:51Z\nauthor: tangyongfeng\ntags:\n  - freebsd\n---\n\nmake -DBATCH install\n静默安装",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 159,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a655c044-ad5e-42df-911f-8f18caeb1cfa",
+    "note_id": "6053cde4-6bbb-46a6-8828-d9a04221aa73",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.499880Z",
+    "finished_at": "2025-11-10T15:43:31.499880Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1a1bb1de-9ccd-47ae-a224-de2cdec27b5d",
+      "source_path": "backups/2023年6月/IT技术/freebsd port 免打扰安装.html",
+      "checksum": "6061030d8fcdbf27637a991d53f6ee5c79b14d441637acd962c85aec714b0d5b"
+    },
+    "output_ref": {
+      "ingest_source": "c86e2237-df25-4a4c-8fa2-cb558386fed9",
+      "note": "6053cde4-6bbb-46a6-8828-d9a04221aa73",
+      "variants": [
+        "5a0d0a3c-21ec-4f8d-a178-22979bec1bcb",
+        "d64a389c-35c1-4f28-b9c4-69520bf50fa0"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "badd37b4-214d-477f-ab1f-187404dc4951",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/商周秦汉商周秦汉.html",
+    "collected_at": "2025-11-10T15:43:33.796514Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f1bfc4c472332e0c1849d2eb7b4bc25cd7c7e1ebeb1e33767149b6f0c075c6d0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "8d9ccc5d-fc50-4447-92c5-8b5f2cb6008b",
+    "ingest_source_id": "badd37b4-214d-477f-ab1f-187404dc4951",
+    "canonical_title": "商周秦汉商周秦汉",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.796518Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "商周秦汉商周秦汉.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "04ba61e2-24a6-4da8-bf0d-b16b20371cd0",
+      "note_id": "8d9ccc5d-fc50-4447-92c5-8b5f2cb6008b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.796520Z",
+      "content": "---\ntitle: 商周秦汉商周秦汉\nupdated: 2020-02-15 14:02:01Z\ncreated: 2020-02-15 14:00:04Z\n---\n\n\n\n<en-note><div>商周秦汉商周秦汉</div><div>隋唐宋隋唐宋</div><div>元明清 &nbsp; republic</div><div>元明清 republic</div><div>毛泽东</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f1bfc4c472332e0c1849d2eb7b4bc25cd7c7e1ebeb1e33767149b6f0c075c6d0",
+        "path": "backups/2023年6月/个人的乱78糟/商周秦汉商周秦汉.html"
+      }
+    },
+    {
+      "id": "a0313bc9-eea3-4037-8e04-26d58e9550f6",
+      "note_id": "8d9ccc5d-fc50-4447-92c5-8b5f2cb6008b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.796523Z",
+      "content": "---\ntitle: 商周秦汉商周秦汉\nupdated: 2020-02-15 14:02:01Z\ncreated: 2020-02-15 14:00:04Z\n---\n\n商周秦汉商周秦汉\n隋唐宋隋唐宋\n元明清   republic\n元明清 republic\n毛泽东",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 132,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ba0ba53d-917e-4236-9095-4bd50c772787",
+    "note_id": "8d9ccc5d-fc50-4447-92c5-8b5f2cb6008b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.796527Z",
+    "finished_at": "2025-11-10T15:43:33.796528Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fb0b64eb-1086-4b9d-a1dc-77bede3e5098",
+      "source_path": "backups/2023年6月/个人的乱78糟/商周秦汉商周秦汉.html",
+      "checksum": "f1bfc4c472332e0c1849d2eb7b4bc25cd7c7e1ebeb1e33767149b6f0c075c6d0"
+    },
+    "output_ref": {
+      "ingest_source": "badd37b4-214d-477f-ab1f-187404dc4951",
+      "note": "8d9ccc5d-fc50-4447-92c5-8b5f2cb6008b",
+      "variants": [
+        "04ba61e2-24a6-4da8-bf0d-b16b20371cd0",
+        "a0313bc9-eea3-4037-8e04-26d58e9550f6"
+      ]
+    },
+    "error_detail": null
+  }
+}

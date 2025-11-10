@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "e169c6f9-c968-4b2a-9651-04be5d5a997d",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/硬伤.html",
+    "collected_at": "2025-11-10T15:43:34.317554Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "et",
+    "captured_at": null,
+    "checksum": "bdf4ae886815d5fd9a3cbd08880830258072d6b0da9878769c0168920e7e541e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "699b03d7-1ef2-4ba0-bd19-59cb00a664f3",
+    "ingest_source_id": "e169c6f9-c968-4b2a-9651-04be5d5a997d",
+    "canonical_title": "硬伤",
+    "language": "et",
+    "ingested_at": "2025-11-10T15:43:34.317557Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "硬伤.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8003aa7f-d95b-4eed-a4af-73026cc552a4",
+      "note_id": "699b03d7-1ef2-4ba0-bd19-59cb00a664f3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.317560Z",
+      "content": "---\ntitle: 硬伤\nupdated: 2012-05-21 00:37:07Z\ncreated: 2012-05-19 11:22:41Z\nlatitude: 39.88890000\nlongitude: 116.63100000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div> <br/>1.没有it项目的经验<br/>2.新的设计中并没有融入之前的工作成果。<br/>3.既然你不是来写文档的，那为什么写好之前没人看过，也没同任何人商量？<br/> 4.机房问题</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bdf4ae886815d5fd9a3cbd08880830258072d6b0da9878769c0168920e7e541e",
+        "path": "backups/2023年6月/个人的乱78糟/硬伤.html"
+      }
+    },
+    {
+      "id": "ea32fbc4-b053-484c-99ca-45a47c21d8c2",
+      "note_id": "699b03d7-1ef2-4ba0-bd19-59cb00a664f3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.317563Z",
+      "content": "---\ntitle: 硬伤\nupdated: 2012-05-21 00:37:07Z\ncreated: 2012-05-19 11:22:41Z\nlatitude: 39.88890000\nlongitude: 116.63100000\naltitude: 0.0000\n---\n\n1.没有it项目的经验\n2.新的设计中并没有融入之前的工作成果。\n3.既然你不是来写文档的，那为什么写好之前没人看过，也没同任何人商量？\n 4.机房问题",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "et",
+        "length": 218,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "abc61843-28c6-41dc-8d43-958d35afa9a4",
+    "note_id": "699b03d7-1ef2-4ba0-bd19-59cb00a664f3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.317567Z",
+    "finished_at": "2025-11-10T15:43:34.317568Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1bfe60aa-63f6-4cf5-b85f-1da14fb790de",
+      "source_path": "backups/2023年6月/个人的乱78糟/硬伤.html",
+      "checksum": "bdf4ae886815d5fd9a3cbd08880830258072d6b0da9878769c0168920e7e541e"
+    },
+    "output_ref": {
+      "ingest_source": "e169c6f9-c968-4b2a-9651-04be5d5a997d",
+      "note": "699b03d7-1ef2-4ba0-bd19-59cb00a664f3",
+      "variants": [
+        "8003aa7f-d95b-4eed-a4af-73026cc552a4",
+        "ea32fbc4-b053-484c-99ca-45a47c21d8c2"
+      ]
+    },
+    "error_detail": null
+  }
+}

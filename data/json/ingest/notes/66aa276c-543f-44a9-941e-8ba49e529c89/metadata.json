@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "dd6cc722-2396-4486-b6b9-7a95e0cbd195",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/小市值选股策略.html",
+    "collected_at": "2025-11-10T15:43:36.538362Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "da02a3394eecec902d2fc66230434f44e8730e3d1e69bc0bbcb2c3b9921aa5a7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "66aa276c-543f-44a9-941e-8ba49e529c89",
+    "ingest_source_id": "dd6cc722-2396-4486-b6b9-7a95e0cbd195",
+    "canonical_title": "小市值选股策略",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.538366Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "小市值选股策略.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "602bf72c-c0d8-41b0-9c5e-2bdc9e3d8939",
+      "note_id": "66aa276c-543f-44a9-941e-8ba49e529c89",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.538369Z",
+      "content": "---\ntitle: 小市值选股策略\nupdated: 2022-07-27 16:32:47Z\ncreated: 2022-07-27 16:32:20Z\n---\n\n\n<en-note><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "da02a3394eecec902d2fc66230434f44e8730e3d1e69bc0bbcb2c3b9921aa5a7",
+        "path": "backups/2023年6月/投资/小市值选股策略.html"
+      }
+    },
+    {
+      "id": "bcbe07ac-f9ac-42c1-bd28-b951bb2b423f",
+      "note_id": "66aa276c-543f-44a9-941e-8ba49e529c89",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.538371Z",
+      "content": "---\ntitle: 小市值选股策略\nupdated: 2022-07-27 16:32:47Z\ncreated: 2022-07-27 16:32:20Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 82,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ab7bbfb3-6ae8-476f-9e48-8e66346a523b",
+    "note_id": "66aa276c-543f-44a9-941e-8ba49e529c89",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.538376Z",
+    "finished_at": "2025-11-10T15:43:36.538377Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d2ea9af7-3e6a-43e8-ba51-ed7d616cf413",
+      "source_path": "backups/2023年6月/投资/小市值选股策略.html",
+      "checksum": "da02a3394eecec902d2fc66230434f44e8730e3d1e69bc0bbcb2c3b9921aa5a7"
+    },
+    "output_ref": {
+      "ingest_source": "dd6cc722-2396-4486-b6b9-7a95e0cbd195",
+      "note": "66aa276c-543f-44a9-941e-8ba49e529c89",
+      "variants": [
+        "602bf72c-c0d8-41b0-9c5e-2bdc9e3d8939",
+        "bcbe07ac-f9ac-42c1-bd28-b951bb2b423f"
+      ]
+    },
+    "error_detail": null
+  }
+}

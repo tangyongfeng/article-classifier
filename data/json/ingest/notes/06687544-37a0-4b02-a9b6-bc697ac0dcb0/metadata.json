@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8d34dcde-2869-4e38-8943-a833dbd07ccc",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/IBM硅谷实验室.html",
+    "collected_at": "2025-11-10T15:43:34.673752Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f1770954e60b4637f252d476d0f65ff4f18d9b7dd40ae5204107df71ead5cfec",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "06687544-37a0-4b02-a9b6-bc697ac0dcb0",
+    "ingest_source_id": "8d34dcde-2869-4e38-8943-a833dbd07ccc",
+    "canonical_title": "IBM硅谷实验室",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.673756Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "IBM硅谷实验室.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "385b55ad-8341-4db3-ba54-b9782c21f4d7",
+      "note_id": "06687544-37a0-4b02-a9b6-bc697ac0dcb0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.673758Z",
+      "content": "---\ntitle: IBM硅谷实验室\nupdated: 2013-03-21 01:25:10Z\ncreated: 2013-03-14 07:39:25Z\nsource: >-\n  http://www.marriott.com/hotels/maps/travel/POURI?vsretype=c&vsresect=rd&vsrelink=mtr&vsrebrand=RI&vsremarsha=POURI\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>555&nbsp;Bailey&nbsp;Ave&nbsp;San&nbsp;Jose,&nbsp;CA&nbsp;95141</div><div STYLE=\"height: 126px;\"><h4>Residence Inn Poughkeepsie</h4><ul><li>2525 South Rd</li><li>Poughkeepsie, New York 12601 USA</li></ul></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f1770954e60b4637f252d476d0f65ff4f18d9b7dd40ae5204107df71ead5cfec",
+        "path": "backups/2023年6月/中彩相关/IBM硅谷实验室.html"
+      }
+    },
+    {
+      "id": "5d65b3ed-50a2-485a-8d91-be507f25c586",
+      "note_id": "06687544-37a0-4b02-a9b6-bc697ac0dcb0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.673761Z",
+      "content": "---\ntitle: IBM硅谷实验室\nupdated: 2013-03-21 01:25:10Z\ncreated: 2013-03-14 07:39:25Z\nsource: >-\n  http://www.marriott.com/hotels/maps/travel/POURI?vsretype=c&vsresect=rd&vsrelink=mtr&vsrebrand=RI&vsremarsha=POURI\n---\n\n555 Bailey Ave San Jose, CA 95141\nResidence Inn Poughkeepsie\n2525 South Rd\nPoughkeepsie, New York 12601 USA",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 320,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1997e95b-2d60-448b-bb04-b87e22670953",
+    "note_id": "06687544-37a0-4b02-a9b6-bc697ac0dcb0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.673766Z",
+    "finished_at": "2025-11-10T15:43:34.673766Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7270e662-acbd-4f13-981a-00c42f229b7a",
+      "source_path": "backups/2023年6月/中彩相关/IBM硅谷实验室.html",
+      "checksum": "f1770954e60b4637f252d476d0f65ff4f18d9b7dd40ae5204107df71ead5cfec"
+    },
+    "output_ref": {
+      "ingest_source": "8d34dcde-2869-4e38-8943-a833dbd07ccc",
+      "note": "06687544-37a0-4b02-a9b6-bc697ac0dcb0",
+      "variants": [
+        "385b55ad-8341-4db3-ba54-b9782c21f4d7",
+        "5d65b3ed-50a2-485a-8d91-be507f25c586"
+      ]
+    },
+    "error_detail": null
+  }
+}

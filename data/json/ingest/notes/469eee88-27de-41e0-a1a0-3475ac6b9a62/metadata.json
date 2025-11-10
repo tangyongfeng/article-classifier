@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3a65318a-adf7-48ed-b730-56aca517955b",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/古诗一首.html",
+    "collected_at": "2025-11-10T15:43:33.762813Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bcc6694d4f99240c40539b9316cdfe057b2669435dfcf7480e9f555df20a4c60",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "469eee88-27de-41e0-a1a0-3475ac6b9a62",
+    "ingest_source_id": "3a65318a-adf7-48ed-b730-56aca517955b",
+    "canonical_title": "古诗一首",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.762817Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "古诗一首.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9b4e2474-a535-449e-a849-4054d116e716",
+      "note_id": "469eee88-27de-41e0-a1a0-3475ac6b9a62",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.762820Z",
+      "content": "---\ntitle: 古诗一首\nupdated: 2020-07-06 16:29:52Z\ncreated: 2020-07-06 16:29:16Z\n---\n\n\n\n<en-note><div>须知少时凌云志，曾许人间第一流。哪晓岁月蹉跎过，依旧名利两无收。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bcc6694d4f99240c40539b9316cdfe057b2669435dfcf7480e9f555df20a4c60",
+        "path": "backups/2023年6月/个人的乱78糟/古诗一首.html"
+      }
+    },
+    {
+      "id": "b2ca28c6-4204-4b1d-ab5c-6a4cfb0d4c12",
+      "note_id": "469eee88-27de-41e0-a1a0-3475ac6b9a62",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.762823Z",
+      "content": "---\ntitle: 古诗一首\nupdated: 2020-07-06 16:29:52Z\ncreated: 2020-07-06 16:29:16Z\n---\n\n须知少时凌云志，曾许人间第一流。哪晓岁月蹉跎过，依旧名利两无收。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 113,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "97828b00-7498-4215-afa5-74c8f28cce13",
+    "note_id": "469eee88-27de-41e0-a1a0-3475ac6b9a62",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.762828Z",
+    "finished_at": "2025-11-10T15:43:33.762828Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8565aef5-ad7d-4571-b861-f01ac8d05622",
+      "source_path": "backups/2023年6月/个人的乱78糟/古诗一首.html",
+      "checksum": "bcc6694d4f99240c40539b9316cdfe057b2669435dfcf7480e9f555df20a4c60"
+    },
+    "output_ref": {
+      "ingest_source": "3a65318a-adf7-48ed-b730-56aca517955b",
+      "note": "469eee88-27de-41e0-a1a0-3475ac6b9a62",
+      "variants": [
+        "9b4e2474-a535-449e-a849-4054d116e716",
+        "b2ca28c6-4204-4b1d-ab5c-6a4cfb0d4c12"
+      ]
+    },
+    "error_detail": null
+  }
+}

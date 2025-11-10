@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c7291c58-8b0c-4714-969f-b1be10fed4fa",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/Woocommerce.html",
+    "collected_at": "2025-11-10T15:43:33.488889Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c442a110620961203efa0cf6bd711552f701cff0e2b2e890db461fc80f6fb8c3",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "f3275ac7-b809-4484-9b37-b64ccdf740be",
+    "ingest_source_id": "c7291c58-8b0c-4714-969f-b1be10fed4fa",
+    "canonical_title": "Woocommerce",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.488893Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Woocommerce.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f76d2233-ab03-41d4-a4ff-8896021171ba",
+      "note_id": "f3275ac7-b809-4484-9b37-b64ccdf740be",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.488896Z",
+      "content": "---\ntitle: Woocommerce\nupdated: 2020-01-27 21:16:15Z\ncreated: 2020-01-27 21:15:51Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>username : sales</div><div><br/></div><div>M@36Z*@V$YQ*hYKam#</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c442a110620961203efa0cf6bd711552f701cff0e2b2e890db461fc80f6fb8c3",
+        "path": "backups/2023年6月/个人的乱78糟/Woocommerce.html"
+      }
+    },
+    {
+      "id": "d6f81304-69f0-4336-b74b-48e7aaca81e3",
+      "note_id": "f3275ac7-b809-4484-9b37-b64ccdf740be",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.488899Z",
+      "content": "---\ntitle: Woocommerce\nupdated: 2020-01-27 21:16:15Z\ncreated: 2020-01-27 21:15:51Z\nauthor: tangyongfeng@gmail.com\n---\n\nusername : sales\nM@36Z*@V$YQ*hYKam#",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 154,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9f5d1ec7-5b21-407b-93c6-f7afee08aec3",
+    "note_id": "f3275ac7-b809-4484-9b37-b64ccdf740be",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.488904Z",
+    "finished_at": "2025-11-10T15:43:33.488904Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ec5747b6-66b9-47ad-9c04-b11ccfb063f9",
+      "source_path": "backups/2023年6月/个人的乱78糟/Woocommerce.html",
+      "checksum": "c442a110620961203efa0cf6bd711552f701cff0e2b2e890db461fc80f6fb8c3"
+    },
+    "output_ref": {
+      "ingest_source": "c7291c58-8b0c-4714-969f-b1be10fed4fa",
+      "note": "f3275ac7-b809-4484-9b37-b64ccdf740be",
+      "variants": [
+        "f76d2233-ab03-41d4-a4ff-8896021171ba",
+        "d6f81304-69f0-4336-b74b-48e7aaca81e3"
+      ]
+    },
+    "error_detail": null
+  }
+}

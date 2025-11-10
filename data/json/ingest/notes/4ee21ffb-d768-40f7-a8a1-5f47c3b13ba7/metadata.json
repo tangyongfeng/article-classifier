@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "1c66a093-b7c7-4d44-bb0b-322d3d848fc8",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/汇报内容.html",
+    "collected_at": "2025-11-10T15:43:32.968547Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "35cc7ff083b1d1a725ec276b6f112fbe445448537760fa89911b7c769c7de032",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4ee21ffb-d768-40f7-a8a1-5f47c3b13ba7",
+    "ingest_source_id": "1c66a093-b7c7-4d44-bb0b-322d3d848fc8",
+    "canonical_title": "汇报内容",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.968551Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "汇报内容.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "45faef2c-ba9a-4f1a-854e-47b95a789037",
+      "note_id": "4ee21ffb-d768-40f7-a8a1-5f47c3b13ba7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.968554Z",
+      "content": "---\ntitle: 汇报内容\nupdated: 2014-02-24 06:47:48Z\ncreated: 2014-02-24 03:56:51Z\n---\n\n\n\n<en-note>搬家问题\n&Tab;\n&Tab;<div>护理实习问题</div>\n&Tab;<div>特批买电脑</div>\n&Tab;<div>人员调动问题</div><div><br/></div>\n&Tab;\n&Tab;<div><br/></div>\n\n\n\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "35cc7ff083b1d1a725ec276b6f112fbe445448537760fa89911b7c769c7de032",
+        "path": "backups/2023年6月/IT技术/汇报内容.html"
+      }
+    },
+    {
+      "id": "9b786cee-bd29-44af-98fe-f0e46ac6becf",
+      "note_id": "4ee21ffb-d768-40f7-a8a1-5f47c3b13ba7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.968557Z",
+      "content": "---\ntitle: 汇报内容\nupdated: 2014-02-24 06:47:48Z\ncreated: 2014-02-24 03:56:51Z\n---\n\n搬家问题\n\n护理实习问题\n\n特批买电脑\n\n人员调动问题",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 108,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "41ff9072-28d5-40d7-8ea5-84ba089de5b8",
+    "note_id": "4ee21ffb-d768-40f7-a8a1-5f47c3b13ba7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.968561Z",
+    "finished_at": "2025-11-10T15:43:32.968562Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1911ad89-70d0-4319-aafb-a951f8fa5388",
+      "source_path": "backups/2023年6月/IT技术/汇报内容.html",
+      "checksum": "35cc7ff083b1d1a725ec276b6f112fbe445448537760fa89911b7c769c7de032"
+    },
+    "output_ref": {
+      "ingest_source": "1c66a093-b7c7-4d44-bb0b-322d3d848fc8",
+      "note": "4ee21ffb-d768-40f7-a8a1-5f47c3b13ba7",
+      "variants": [
+        "45faef2c-ba9a-4f1a-854e-47b95a789037",
+        "9b786cee-bd29-44af-98fe-f0e46ac6becf"
+      ]
+    },
+    "error_detail": null
+  }
+}

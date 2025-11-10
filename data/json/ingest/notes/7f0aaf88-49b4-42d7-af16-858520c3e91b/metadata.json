@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8d93cf3a-97c1-4aef-978f-a4e9a743ae64",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/DRGs相关知识问答.html",
+    "collected_at": "2025-11-10T15:43:35.139023Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "72cdf20011be614034e3a6d0ca59ce20526bbf472f996d816a78a691cc2dbc6e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7f0aaf88-49b4-42d7-af16-858520c3e91b",
+    "ingest_source_id": "8d93cf3a-97c1-4aef-978f-a4e9a743ae64",
+    "canonical_title": "DRGs相关知识问答",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.139026Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "DRGs相关知识问答.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "943839c0-f3f7-4a18-9bfd-b2b153ac7f83",
+      "note_id": "7f0aaf88-49b4-42d7-af16-858520c3e91b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.139029Z",
+      "content": "---\ntitle: DRGs相关知识问答\nupdated: 2013-06-25 09:01:43Z\ncreated: 2013-06-25 09:01:27Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1&nbsp;&nbsp; 何谓DRGs？<br/>\n答：DRGs即诊断相关分组（Diagnosis Related Group System）。DRGs是以病人诊断为基础一种分类方案；它把医院对病人的治疗和所发生的费用联系起来，从而为付费标准的制定尤其是预付费的实施提供了基础。<br/>\n2&nbsp;&nbsp; 何谓DRGs-PPS？<br/>\n答：DRGs-PPS即按诊断相关分组预付费（Prospective Payment System based on DRGs），是指在DRGs分组的基础上, 通过科学的测算制定出每一个组别的付费标准，并以此标准对医疗机构进行预先支付的一种方法。<br/>\n3&nbsp;&nbsp; DRGs 的方法有何功效？<br/>\n答：建立在疾病分类和手术分类的基础上，根据主要诊断、次要诊断，是否有手术和操作，将病例分组(大约600组)；制定每个DRGs 的最高限额；按DRGs付费。<br/>\n4&nbsp; DRGs 的作用是什么？<br/>\n答：控制医疗服务中的不合理消费，限制过度医疗；指导医院和医务人员合理利用医疗卫生资源，并通过控制平均住院日和住院费用，达到促使医院挖掘潜力，提高医院的医疗质量，增加医疗效率和效益，减少卫生资源的浪费。<br/>\n5&nbsp;&nbsp; 何谓ICD&ndash;10？何谓ICD-9-CM-3? 二者与DRGs关系如何？<br/>\n答：ICD-10是国际疾病分类( International Classification of Diseases )第十次修订的<br/>\n简称，它是用编码的方法, 根据疾病的某些特征，按照一定的规则对疾病分门别类, 以实现<br/>\n对医院疾病统计分析、科研、检索、综合利用、医疗管理的目的。<br/>\nICD-9-CM-3即美国国际疾病分类临床修订本第三卷。上世纪80年代我国卫生部决定，在我国使用美国国际疾病分类临床修订本第3卷即手术操作分类。<br/>\nICD-10和ICD-9-CM-3是制定DRGs的基础，也是决定支付DRGs组别费用的依据。<br/>\n6&nbsp; DRGs 对病案有什么要求？<br/>\n答：主要诊断要明确，伴随疾病和合并症要详尽，主要手术、操作和特殊检查要明确、详细，疾病编码和手术操作编码要准确。<br/>\n7&nbsp;&nbsp; 单病种付费与DRGs付费有何异同？<br/>\n答：单病种付费与DRGs 同属于按病种付费的范畴，都是以疾病诊断为基础的患者分类方案。<br/>\nDRGs 为具有同一主诊断且耗用资源相似的一个病例组合，是具有相似病情的一组患者的集合，其组内的同质性和组间的差异性明显；单病种付费仅考虑疾病诊断，病种间费用的统计学特征表现并不突出。<br/>\n8&nbsp;&nbsp; 在我国实施DRGs需要那些技术条件？<br/>\n答：统一完善的信息系统；制定合理的支付标准；建立临床诊疗规范；培养专门的技术人才。<br/>\n9&nbsp; DRGs 的分组原则是什么？<br/>\n答：具有相同的临床特点；消耗相同或相近的医疗资源、医疗费用；具有相同或相近的住院天数；从病人病情的严重度、疾病预后、治疗难度、治疗的必要性以及医疗资源消耗强度等五个方面考虑。<br/>\n10&nbsp; DRGs 与诊断的关系是怎样的？<br/>\n答：DRGs 主要考虑了反映病例特征的一些因素，如病人的主要诊断；次要诊断；主要手术；重要的伴随病和合并症；年龄；新生儿体重；昏迷时间；是否死亡等。并根据病情的严重程度和医疗服务的强度对每个DRGs 分别指定价格，病人在诊疗全过程中一次性向医院支付该指定价格的费用。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "72cdf20011be614034e3a6d0ca59ce20526bbf472f996d816a78a691cc2dbc6e",
+        "path": "backups/2023年6月/医疗/DRGs相关知识问答.html"
+      }
+    },
+    {
+      "id": "4a7027c1-837a-4ddc-8212-39afabcae7b4",
+      "note_id": "7f0aaf88-49b4-42d7-af16-858520c3e91b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.139032Z",
+      "content": "---\ntitle: DRGs相关知识问答\nupdated: 2013-06-25 09:01:43Z\ncreated: 2013-06-25 09:01:27Z\n---\n\n1   何谓DRGs？\n\n答：DRGs即诊断相关分组（Diagnosis Related Group System）。DRGs是以病人诊断为基础一种分类方案；它把医院对病人的治疗和所发生的费用联系起来，从而为付费标准的制定尤其是预付费的实施提供了基础。\n\n2   何谓DRGs-PPS？\n\n答：DRGs-PPS即按诊断相关分组预付费（Prospective Payment System based on DRGs），是指在DRGs分组的基础上, 通过科学的测算制定出每一个组别的付费标准，并以此标准对医疗机构进行预先支付的一种方法。\n\n3   DRGs 的方法有何功效？\n\n答：建立在疾病分类和手术分类的基础上，根据主要诊断、次要诊断，是否有手术和操作，将病例分组(大约600组)；制定每个DRGs 的最高限额；按DRGs付费。\n\n4  DRGs 的作用是什么？\n\n答：控制医疗服务中的不合理消费，限制过度医疗；指导医院和医务人员合理利用医疗卫生资源，并通过控制平均住院日和住院费用，达到促使医院挖掘潜力，提高医院的医疗质量，增加医疗效率和效益，减少卫生资源的浪费。\n\n5   何谓ICD–10？何谓ICD-9-CM-3? 二者与DRGs关系如何？\n\n答：ICD-10是国际疾病分类( International Classification of Diseases )第十次修订的\n\n简称，它是用编码的方法, 根据疾病的某些特征，按照一定的规则对疾病分门别类, 以实现\n\n对医院疾病统计分析、科研、检索、综合利用、医疗管理的目的。\n\nICD-9-CM-3即美国国际疾病分类临床修订本第三卷。上世纪80年代我国卫生部决定，在我国使用美国国际疾病分类临床修订本第3卷即手术操作分类。\n\nICD-10和ICD-9-CM-3是制定DRGs的基础，也是决定支付DRGs组别费用的依据。\n\n6  DRGs 对病案有什么要求？\n\n答：主要诊断要明确，伴随疾病和合并症要详尽，主要手术、操作和特殊检查要明确、详细，疾病编码和手术操作编码要准确。\n\n7   单病种付费与DRGs付费有何异同？\n\n答：单病种付费与DRGs 同属于按病种付费的范畴，都是以疾病诊断为基础的患者分类方案。\n\nDRGs 为具有同一主诊断且耗用资源相似的一个病例组合，是具有相似病情的一组患者的集合，其组内的同质性和组间的差异性明显；单病种付费仅考虑疾病诊断，病种间费用的统计学特征表现并不突出。\n\n8   在我国实施DRGs需要那些技术条件？\n\n答：统一完善的信息系统；制定合理的支付标准；建立临床诊疗规范；培养专门的技术人才。\n\n9  DRGs 的分组原则是什么？\n\n答：具有相同的临床特点；消耗相同或相近的医疗资源、医疗费用；具有相同或相近的住院天数；从病人病情的严重度、疾病预后、治疗难度、治疗的必要性以及医疗资源消耗强度等五个方面考虑。\n\n10  DRGs 与诊断的关系是怎样的？\n\n答：DRGs 主要考虑了反映病例特征的一些因素，如病人的主要诊断；次要诊断；主要手术；重要的伴随病和合并症；年龄；新生儿体重；昏迷时间；是否死亡等。并根据病情的严重程度和医疗服务的强度对每个DRGs 分别指定价格，病人在诊疗全过程中一次性向医院支付该指定价格的费用。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 1447,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b08bfabf-55d8-4147-be2c-804fe3460619",
+    "note_id": "7f0aaf88-49b4-42d7-af16-858520c3e91b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.139037Z",
+    "finished_at": "2025-11-10T15:43:35.139037Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0c84aae1-e3da-4300-b033-3109cbd2e9fe",
+      "source_path": "backups/2023年6月/医疗/DRGs相关知识问答.html",
+      "checksum": "72cdf20011be614034e3a6d0ca59ce20526bbf472f996d816a78a691cc2dbc6e"
+    },
+    "output_ref": {
+      "ingest_source": "8d93cf3a-97c1-4aef-978f-a4e9a743ae64",
+      "note": "7f0aaf88-49b4-42d7-af16-858520c3e91b",
+      "variants": [
+        "943839c0-f3f7-4a18-9bfd-b2b153ac7f83",
+        "4a7027c1-837a-4ddc-8212-39afabcae7b4"
+      ]
+    },
+    "error_detail": null
+  }
+}

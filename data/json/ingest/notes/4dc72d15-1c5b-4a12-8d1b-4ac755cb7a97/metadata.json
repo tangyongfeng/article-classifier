@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e9de1fbe-a0a9-4204-a13a-a3697f48ebdb",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/用户留存.html",
+    "collected_at": "2025-11-10T15:43:33.029058Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "20e2e22568d7d8d39f2e4a9babd1cbf00086654b03cbc1ee2f47c2eac6cf5e9f",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4dc72d15-1c5b-4a12-8d1b-4ac755cb7a97",
+    "ingest_source_id": "e9de1fbe-a0a9-4204-a13a-a3697f48ebdb",
+    "canonical_title": "用户留存",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:33.029063Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "用户留存.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "491d6b60-ef44-4416-9ae4-cc311700ba28",
+      "note_id": "4dc72d15-1c5b-4a12-8d1b-4ac755cb7a97",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.029067Z",
+      "content": "---\ntitle: 用户留存\nupdated: 2017-02-28 06:29:19Z\ncreated: 2017-02-28 06:23:27Z\nsource: http://www.gamelook.com.cn/2016/03/245274\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n\n<en-note><div>提高用户留存的基本功能：</div><div>1、社交功能</div><div>2、竞争系统</div><div>3、成就感</div><div><br/></div><div><br/></div><div>用户流失的原因：</div><div><br/></div><div><span STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;\">1、重大的挫败感，比如出了新手保护后被熟练玩家狂虐，大量库存物资或建筑被摧毁。</span><br STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;\">2、较高的难度障碍，在某个关卡或某个任务Boss前多次尝试失败，其实也是挫败感的一种。</span><br STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;\">3、失去目标，达成阶段目标后突然失去下一步的目标，或者下一步目标过于遥远短期失去动力。个别的也存在无法理解游戏的引导，不知道下一步的目标该如何实现。</span><br STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;\">4、缺乏成就，缺乏让自己能产生愉悦的目标达成和头衔，荣誉。</span><br STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;\">5、疲劳，反复从事重复性的任务，消耗时间和精力但失去了游戏的乐趣。</span><br STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;\">6、遭到侮辱，在游戏中遭到人身攻击，谩骂，以及其他玩家羞辱。</span><br STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;\">7、跟随，游戏中的好友或者队友撤出，跟随撤出游戏。</span></div><div><span STYLE=\"color: rgb(51, 51, 51); font-family: Arial, serif; font-size: 13px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none;\">8、吃亏，在游戏中和其他玩家对抗显著吃亏，无法达到平衡。一些活动设计不合理，或者营销设计不合理，也会造成玩家的吃亏感。</span></div><div><span STYLE=\"font-family: Arial, serif;\"><span STYLE=\"background-color: rgb(255, 255, 255);\"><span STYLE=\"color: rgb(51, 51, 51);\"><br/></span></span></span></div><div><span STYLE=\"font-family: Arial, serif;\"><span STYLE=\"background-color: rgb(255, 255, 255);\"><span STYLE=\"color: rgb(51, 51, 51);\"><br/></span></span></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "20e2e22568d7d8d39f2e4a9babd1cbf00086654b03cbc1ee2f47c2eac6cf5e9f",
+        "path": "backups/2023年6月/IT技术/用户留存.html"
+      }
+    },
+    {
+      "id": "024c2b82-52f7-422a-8e25-a862ac9a8388",
+      "note_id": "4dc72d15-1c5b-4a12-8d1b-4ac755cb7a97",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.029070Z",
+      "content": "---\ntitle: 用户留存\nupdated: 2017-02-28 06:29:19Z\ncreated: 2017-02-28 06:23:27Z\nsource: http://www.gamelook.com.cn/2016/03/245274\nauthor: tangyongfeng@gmail.com\n---\n\n提高用户留存的基本功能：\n1、社交功能\n2、竞争系统\n3、成就感\n用户流失的原因：\n1、重大的挫败感，比如出了新手保护后被熟练玩家狂虐，大量库存物资或建筑被摧毁。\n2、较高的难度障碍，在某个关卡或某个任务Boss前多次尝试失败，其实也是挫败感的一种。\n3、失去目标，达成阶段目标后突然失去下一步的目标，或者下一步目标过于遥远短期失去动力。个别的也存在无法理解游戏的引导，不知道下一步的目标该如何实现。\n4、缺乏成就，缺乏让自己能产生愉悦的目标达成和头衔，荣誉。\n5、疲劳，反复从事重复性的任务，消耗时间和精力但失去了游戏的乐趣。\n6、遭到侮辱，在游戏中遭到人身攻击，谩骂，以及其他玩家羞辱。\n7、跟随，游戏中的好友或者队友撤出，跟随撤出游戏。\n8、吃亏，在游戏中和其他玩家对抗显著吃亏，无法达到平衡。一些活动设计不合理，或者营销设计不合理，也会造成玩家的吃亏感。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 543,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "11bf2478-98b7-4798-a9ae-a9d12547f902",
+    "note_id": "4dc72d15-1c5b-4a12-8d1b-4ac755cb7a97",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.029076Z",
+    "finished_at": "2025-11-10T15:43:33.029076Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "183ede01-1f4e-4c10-a8f2-2ce6ce164294",
+      "source_path": "backups/2023年6月/IT技术/用户留存.html",
+      "checksum": "20e2e22568d7d8d39f2e4a9babd1cbf00086654b03cbc1ee2f47c2eac6cf5e9f"
+    },
+    "output_ref": {
+      "ingest_source": "e9de1fbe-a0a9-4204-a13a-a3697f48ebdb",
+      "note": "4dc72d15-1c5b-4a12-8d1b-4ac755cb7a97",
+      "variants": [
+        "491d6b60-ef44-4416-9ae4-cc311700ba28",
+        "024c2b82-52f7-422a-8e25-a862ac9a8388"
+      ]
+    },
+    "error_detail": null
+  }
+}

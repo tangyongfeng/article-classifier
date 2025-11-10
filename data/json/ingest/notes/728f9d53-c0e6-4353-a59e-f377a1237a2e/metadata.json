@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f97539e4-cbf7-47c0-a182-5b44e500b19c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/http___192.168.2.126_5000_web_index.html.html",
+    "collected_at": "2025-11-10T15:43:31.558744Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4b219bf8204e1e5071a49c182414ea06ba974a03986a46970925999fde3cdf30",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "728f9d53-c0e6-4353-a59e-f377a1237a2e",
+    "ingest_source_id": "f97539e4-cbf7-47c0-a182-5b44e500b19c",
+    "canonical_title": "http___192.168.2.126_5000_web_index.html",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.558749Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "http___192.168.2.126_5000_web_index.html.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e0d96860-1df6-422b-aa35-962dcfd4d0bc",
+      "note_id": "728f9d53-c0e6-4353-a59e-f377a1237a2e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.558753Z",
+      "content": "---\ntitle: http://192.168.2.126:5000/web_index.html\nupdated: 2019-04-09 13:45:38Z\ncreated: 2019-04-09 11:25:08Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>http://192.168.2.126:5000/web_index.html</div><div><br/></div><div>NCBC NAS IP&nbsp;</div><div><br/></div><div><br/></div><div>密码:abcd1234</div><div><br/></div><div><br/></div><div>\n<font FACE=\"Courier\"><span>storyservice@</span><span>ncbc-germany.de</span></font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4b219bf8204e1e5071a49c182414ea06ba974a03986a46970925999fde3cdf30",
+        "path": "backups/2023年6月/IT技术/http___192.168.2.126_5000_web_index.html.html"
+      }
+    },
+    {
+      "id": "ca6c84df-9626-4cd1-9904-03549bc104bb",
+      "note_id": "728f9d53-c0e6-4353-a59e-f377a1237a2e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.558756Z",
+      "content": "---\ntitle: http://192.168.2.126:5000/web_index.html\nupdated: 2019-04-09 13:45:38Z\ncreated: 2019-04-09 11:25:08Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttp://192.168.2.126:5000/web_index.html\nNCBC NAS IP \n密码:abcd1234\n\nstoryservice@\nncbc-germany.de",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 244,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "88fe89e2-514e-4d99-8614-69fb52997f71",
+    "note_id": "728f9d53-c0e6-4353-a59e-f377a1237a2e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.558762Z",
+    "finished_at": "2025-11-10T15:43:31.558762Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6a39d7dc-6f84-4f89-9af2-9d41728e4a9f",
+      "source_path": "backups/2023年6月/IT技术/http___192.168.2.126_5000_web_index.html.html",
+      "checksum": "4b219bf8204e1e5071a49c182414ea06ba974a03986a46970925999fde3cdf30"
+    },
+    "output_ref": {
+      "ingest_source": "f97539e4-cbf7-47c0-a182-5b44e500b19c",
+      "note": "728f9d53-c0e6-4353-a59e-f377a1237a2e",
+      "variants": [
+        "e0d96860-1df6-422b-aa35-962dcfd4d0bc",
+        "ca6c84df-9626-4cd1-9904-03549bc104bb"
+      ]
+    },
+    "error_detail": null
+  }
+}

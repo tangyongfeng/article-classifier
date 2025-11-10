@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9f17dcca-367c-4bb5-8d4a-ccae9a777985",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个体户/ncbc nas notes.html",
+    "collected_at": "2025-11-10T15:43:34.623916Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "9ae7423bf36a4816dcea60d901e8cfd129a30f3180cb49d240c8cff2b3bee22e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "803b7866-df13-4b72-affe-8e0129ca4734",
+    "ingest_source_id": "9f17dcca-367c-4bb5-8d4a-ccae9a777985",
+    "canonical_title": "ncbc nas notes",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.623920Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ncbc nas notes.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "22240062-3f7c-4862-b6fd-e796d49c7f76",
+      "note_id": "803b7866-df13-4b72-affe-8e0129ca4734",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.623922Z",
+      "content": "---\ntitle: ncbc nas notes\nupdated: 2022-06-24 07:15:45Z\ncreated: 2022-06-23 13:11:48Z\n---\n\n\n<en-note><div>l2tp</div><div><br/></div><div>ncbcipsec</div><div><br/></div><div><br/></div><div>admin密码1pgcwrsyc45j</div><div>yuxin密码ncbc_20220623_network_start</div><div>niululu密码poiuy09876</div><div><br/></div><div>tangyongfeng密码 8:SPcsD;t&amp;Z]5%~u</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9ae7423bf36a4816dcea60d901e8cfd129a30f3180cb49d240c8cff2b3bee22e",
+        "path": "backups/2023年6月/个体户/ncbc nas notes.html"
+      }
+    },
+    {
+      "id": "38fa8eab-1e77-452f-baed-066d53d87246",
+      "note_id": "803b7866-df13-4b72-affe-8e0129ca4734",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.623925Z",
+      "content": "---\ntitle: ncbc nas notes\nupdated: 2022-06-24 07:15:45Z\ncreated: 2022-06-23 13:11:48Z\n---\n\nl2tp\nncbcipsec\nadmin密码1pgcwrsyc45j\nyuxin密码ncbc_20220623_network_start\nniululu密码poiuy09876\ntangyongfeng密码 8:SPcsD;t&Z]5%~u",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 212,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1b7d5320-73f5-4901-ba80-33d4f60cb347",
+    "note_id": "803b7866-df13-4b72-affe-8e0129ca4734",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.623930Z",
+    "finished_at": "2025-11-10T15:43:34.623930Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fcdf7096-a9d8-4a54-b303-5866c4bac099",
+      "source_path": "backups/2023年6月/个体户/ncbc nas notes.html",
+      "checksum": "9ae7423bf36a4816dcea60d901e8cfd129a30f3180cb49d240c8cff2b3bee22e"
+    },
+    "output_ref": {
+      "ingest_source": "9f17dcca-367c-4bb5-8d4a-ccae9a777985",
+      "note": "803b7866-df13-4b72-affe-8e0129ca4734",
+      "variants": [
+        "22240062-3f7c-4862-b6fd-e796d49c7f76",
+        "38fa8eab-1e77-452f-baed-066d53d87246"
+      ]
+    },
+    "error_detail": null
+  }
+}

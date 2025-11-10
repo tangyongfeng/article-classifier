@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d98cb327-b6f0-4d28-9512-00ba1165dada",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/Unterhalten Sie sich mit Ihrer Parnerin bzw . Ihre.html",
+    "collected_at": "2025-11-10T15:43:36.030277Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "d51ebe01f3c99d9afeb5d1470d6809eba1a5614a29da4b288f148ac29095cff5",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "09928839-9274-4fc0-b2e3-4e570e71c423",
+    "ingest_source_id": "d98cb327-b6f0-4d28-9512-00ba1165dada",
+    "canonical_title": "Unterhalten Sie sich mit Ihrer Parnerin bzw . Ihre",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:36.030281Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Unterhalten Sie sich mit Ihrer Parnerin bzw . Ihre.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6490cadb-1e7f-4f0d-a98f-8fd8d97560a0",
+      "note_id": "09928839-9274-4fc0-b2e3-4e570e71c423",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.030284Z",
+      "content": "---\ntitle: >-\n  Unterhalten Sie sich mit Ihrer Parnerin bzw . Ihrem Partnet über folgende\n  Themen:\nupdated: 2020-11-23 13:47:47Z\ncreated: 2020-11-16 22:44:09Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note><ul><li><div>Name&nbsp;</div></li><li><div>woher sie oder er kommt</div></li><li><div>Familie</div></li><li><div>wo sie order er Deutsch gelernt hat</div></li><li><div>was sie order er macht ( Schule, Studium , Beruf &hellip;)</div></li><li><div>Sprachen ( welche ? wie lang ? warum ?)</div></li></ul><div><br/></div><div>Die Pr&uuml;fenden k&ouml;nnen au&szlig;erdem noch weitere Fragen stellen.</div><div><br/></div><hr/><ul><li><div>Guten Tage,</div></li><li><div>Guten tage.</div></li><li><div>mein Name ist Yongfeng Tang .Ich bin 44 Jahre alte. Ich komme aus Beijing ,Beijing ist die Hauptstadt von China, es ist eine sch&ouml;ne und gr&uuml;&szlig;e Stadt. Letzt Jahr bin ich mit meiner Familiy nach Deutschland ungezogen. und du ?</div></li><li><div>mein Name ist Zhiguo, ich bin 22.Ich komme aus Liaoning, Liaoning ist eine Norden &hellip; in China.&nbsp;&hellip;&hellip;&hellip;&hellip;</div></li><li><div>Liaoning leigt in der n&auml;he von Beijing, von Beijing nach Liaoning kann man etwa 4Stunden mit dem Zug fahren &nbsp;. Als ich habe in China gearbeitet,habe ich vielmals nach Liaoning besuchen.</div></li><li><div>also ,&hellip;&hellip;&hellip;.. Was du von Beruf ?&nbsp;</div></li><li><div>Jetzt ich arbeite in eine Deutsche Firma und &nbsp;bin ich Informatiker von Beruf . und du ? Du bist so jung . ob du noch studierst ?</div></li><li><div>Ja, Ich will die Universit&auml;t&nbsp;wieder gehen.&nbsp;&hellip;&hellip;&hellip; &nbsp;ich&nbsp;wohne in Essen, wo wohnst &nbsp;du ?</div></li><li><div>Ich wohne in Neuss. Ich lebe mit meine Frau und zwei Kindern in Neuss. Bist du alleine in Essen ?</div></li><li><div>Nein ,Ich lebe mit meine Mutter zusammen in Essen. Ich habe sch&ouml;ne Wohnung &hellip;&hellip;&hellip;&hellip; Du hast Kinder in deine Familie und sie spielen gerne im Garten ,order ?</div></li><li><div>Ja , meine Kinder spielen gerne in den Garten &nbsp;. Dein Deutsch ist sehr gut , wo hast du Deutsch gelernt?</div></li><li><div>Ich habe &nbsp;Deutsch in D&uuml;sseldorf Ludwig sprachen Schule gelernt. Sie haben perfekt Lerner und Lernerin &hellip;&hellip;. und du ?</div></li><li><div>Genau , ich habe auch Deutsch am Ludwig-Institut gelernt.und wie viele Sparen kannst du jetzt sprechen?</div></li><li><div>Ich kann &nbsp;Niederl&auml;ndisch und Englisch und Chinese sprechen, und habe ich Deutsch nicht sehr perfekt. &hellip;.. und du?</div></li><li><div>Jetzt kann ich Chinese und Englisch sprechen und lernen ich schon Deutsch.</div></li><li><div>wie lange lernst du schon Deutsch?</div></li><li><div>Ich lerne &nbsp;Deutsche &nbsp;etwa 7 Monate, Weil ich in eine Deutsche Firma arbeitet ,deshalb lerne ich Deutsch. und du ?</div></li><li><div>&hellip;&hellip;&hellip;&hellip;.</div></li><li><div>ich freue &nbsp;mich dich kennenzulernen.</div></li><li><div>ich auch.</div></li></ul><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d51ebe01f3c99d9afeb5d1470d6809eba1a5614a29da4b288f148ac29095cff5",
+        "path": "backups/2023年6月/德语2/Unterhalten Sie sich mit Ihrer Parnerin bzw . Ihre.html"
+      }
+    },
+    {
+      "id": "48edc024-fff9-4d46-b554-2652e648a644",
+      "note_id": "09928839-9274-4fc0-b2e3-4e570e71c423",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.030286Z",
+      "content": "---\ntitle: >-\n  Unterhalten Sie sich mit Ihrer Parnerin bzw . Ihrem Partnet über folgende\n  Themen:\nupdated: 2020-11-23 13:47:47Z\ncreated: 2020-11-16 22:44:09Z\nauthor: tangyongfeng@gmail.com\n---\n\nName \nwoher sie oder er kommt\nFamilie\nwo sie order er Deutsch gelernt hat\nwas sie order er macht ( Schule, Studium , Beruf …)\nSprachen ( welche ? wie lang ? warum ?)\nDie Prüfenden können außerdem noch weitere Fragen stellen.\nGuten Tage,\nGuten tage.\nmein Name ist Yongfeng Tang .Ich bin 44 Jahre alte. Ich komme aus Beijing ,Beijing ist die Hauptstadt von China, es ist eine schöne und grüße Stadt. Letzt Jahr bin ich mit meiner Familiy nach Deutschland ungezogen. und du ?\nmein Name ist Zhiguo, ich bin 22.Ich komme aus Liaoning, Liaoning ist eine Norden … in China. …………\nLiaoning leigt in der nähe von Beijing, von Beijing nach Liaoning kann man etwa 4Stunden mit dem Zug fahren  . Als ich habe in China gearbeitet,habe ich vielmals nach Liaoning besuchen.\nalso ,……….. Was du von Beruf ? \nJetzt ich arbeite in eine Deutsche Firma und  bin ich Informatiker von Beruf . und du ? Du bist so jung . ob du noch studierst ?\nJa, Ich will die Universität wieder gehen. ………  ich wohne in Essen, wo wohnst  du ?\nIch wohne in Neuss. Ich lebe mit meine Frau und zwei Kindern in Neuss. Bist du alleine in Essen ?\nNein ,Ich lebe mit meine Mutter zusammen in Essen. Ich habe schöne Wohnung ………… Du hast Kinder in deine Familie und sie spielen gerne im Garten ,order ?\nJa , meine Kinder spielen gerne in den Garten  . Dein Deutsch ist sehr gut , wo hast du Deutsch gelernt?\nIch habe  Deutsch in Düsseldorf Ludwig sprachen Schule gelernt. Sie haben perfekt Lerner und Lernerin ……. und du ?\nGenau , ich habe auch Deutsch am Ludwig-Institut gelernt.und wie viele Sparen kannst du jetzt sprechen?\nIch kann  Niederländisch und Englisch und Chinese sprechen, und habe ich Deutsch nicht sehr perfekt. ….. und du?\nJetzt kann ich Chinese und Englisch sprechen und lernen ich schon Deutsch.\nwie lange lernst du schon Deutsch?\nIch lerne  Deutsche  etwa 7 Monate, Weil ich in eine Deutsche Firma arbeitet ,deshalb lerne ich Deutsch. und du ?\n………….\nich freue  mich dich kennenzulernen.\nich auch.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 2163,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "488db8d3-ae81-4ad3-9721-2748098d6616",
+    "note_id": "09928839-9274-4fc0-b2e3-4e570e71c423",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.030291Z",
+    "finished_at": "2025-11-10T15:43:36.030291Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a767b3b7-8388-49d5-b1ae-2f02f3cc27d8",
+      "source_path": "backups/2023年6月/德语2/Unterhalten Sie sich mit Ihrer Parnerin bzw . Ihre.html",
+      "checksum": "d51ebe01f3c99d9afeb5d1470d6809eba1a5614a29da4b288f148ac29095cff5"
+    },
+    "output_ref": {
+      "ingest_source": "d98cb327-b6f0-4d28-9512-00ba1165dada",
+      "note": "09928839-9274-4fc0-b2e3-4e570e71c423",
+      "variants": [
+        "6490cadb-1e7f-4f0d-a98f-8fd8d97560a0",
+        "48edc024-fff9-4d46-b554-2652e648a644"
+      ]
+    },
+    "error_detail": null
+  }
+}

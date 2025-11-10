@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9d9709fb-b38f-4972-92db-7b48e62d2be0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/家庭医生.html",
+    "collected_at": "2025-11-10T15:43:32.549816Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "936910aa7089f405f333b84e7226888a36bf178b829306e4d13c25d4f1defee0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4ebd1806-10e2-4374-94da-f963157c47b0",
+    "ingest_source_id": "9d9709fb-b38f-4972-92db-7b48e62d2be0",
+    "canonical_title": "家庭医生",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:32.549820Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "家庭医生.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5bc3d5ed-6944-4140-bd17-b3b30892dffd",
+      "note_id": "4ebd1806-10e2-4374-94da-f963157c47b0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.549824Z",
+      "content": "---\ntitle: 家庭医生\nupdated: 2019-04-30 13:45:01Z\ncreated: 2019-04-10 20:25:38Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>一般没有大灾大病，只要去家庭医生就好（一般是一个小诊所，里面的医生什么都能看）。<span><br/></span>进去看病后，如果你像我这样是强制的公立保险，那么你只需要让前台刷一下你的医保卡就好。<span><br/></span>然后接下来，如果病情不紧急，然后今天医生的预约又已经满了的话，一般会安排你第二天，或者第三天的某个时间来医院看病。<span><br/></span>如果情况非常紧急（比如有一次我得了花粉过敏引发的哮喘，整个人生不如死），前台也会安排你当天治疗，这时候，你就可以到旁边的等待室里等待了（我当时等待了<span>45</span>分钟左右）。<span><br/></span>到你之后，你进房间，和医生聊一下你的病情，然后医生会安排你进行一些检测（当时做了一个呼吸的检测）。检测结束后医生会给你打一张处方单子，如果这张单子是绿的，那么说明开的这些药是非处方药，此时你要负担全部的药费，如果开的是红色的单子，那么说明这是处方药，此时你只需要最多支付<span>5</span>欧元药费。</div>\n<div><br/></div>\n<div><br/></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "936910aa7089f405f333b84e7226888a36bf178b829306e4d13c25d4f1defee0",
+        "path": "backups/2023年6月/IT技术/家庭医生.html"
+      }
+    },
+    {
+      "id": "85e971e3-c9d0-4f09-9b60-2972ad56f9d9",
+      "note_id": "4ebd1806-10e2-4374-94da-f963157c47b0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.549827Z",
+      "content": "---\ntitle: 家庭医生\nupdated: 2019-04-30 13:45:01Z\ncreated: 2019-04-10 20:25:38Z\nauthor: tangyongfeng@gmail.com\n---\n\n一般没有大灾大病，只要去家庭医生就好（一般是一个小诊所，里面的医生什么都能看）。\n进去看病后，如果你像我这样是强制的公立保险，那么你只需要让前台刷一下你的医保卡就好。\n然后接下来，如果病情不紧急，然后今天医生的预约又已经满了的话，一般会安排你第二天，或者第三天的某个时间来医院看病。\n如果情况非常紧急（比如有一次我得了花粉过敏引发的哮喘，整个人生不如死），前台也会安排你当天治疗，这时候，你就可以到旁边的等待室里等待了（我当时等待了\n45\n分钟左右）。\n到你之后，你进房间，和医生聊一下你的病情，然后医生会安排你进行一些检测（当时做了一个呼吸的检测）。检测结束后医生会给你打一张处方单子，如果这张单子是绿的，那么说明开的这些药是非处方药，此时你要负担全部的药费，如果开的是红色的单子，那么说明这是处方药，此时你只需要最多支付\n5\n欧元药费。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 482,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ec388cc5-ca22-4bc2-98d5-4feefe055785",
+    "note_id": "4ebd1806-10e2-4374-94da-f963157c47b0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.549832Z",
+    "finished_at": "2025-11-10T15:43:32.549833Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cbbbea94-04a4-4b9a-baf1-da1b3c057d7b",
+      "source_path": "backups/2023年6月/IT技术/家庭医生.html",
+      "checksum": "936910aa7089f405f333b84e7226888a36bf178b829306e4d13c25d4f1defee0"
+    },
+    "output_ref": {
+      "ingest_source": "9d9709fb-b38f-4972-92db-7b48e62d2be0",
+      "note": "4ebd1806-10e2-4374-94da-f963157c47b0",
+      "variants": [
+        "5bc3d5ed-6944-4140-bd17-b3b30892dffd",
+        "85e971e3-c9d0-4f09-9b60-2972ad56f9d9"
+      ]
+    },
+    "error_detail": null
+  }
+}

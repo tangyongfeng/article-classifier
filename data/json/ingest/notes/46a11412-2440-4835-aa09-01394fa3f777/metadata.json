@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "91a72865-0456-4f7b-ba91-9fd7dd6741e7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/wining erp.html",
+    "collected_at": "2025-11-10T15:43:35.148664Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "95888705e1923257c99274df186a6d017b4ceca667ccc05313fc89069a110500",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "46a11412-2440-4835-aa09-01394fa3f777",
+    "ingest_source_id": "91a72865-0456-4f7b-ba91-9fd7dd6741e7",
+    "canonical_title": "wining erp",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.148667Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "wining erp.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9b9d797c-212e-4917-966a-5bbf79d6f145",
+      "note_id": "46a11412-2440-4835-aa09-01394fa3f777",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.148670Z",
+      "content": "---\ntitle: wining erp\nupdated: 2013-12-17 00:20:38Z\ncreated: 2013-12-17 00:20:33Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"http://erp.winning.com.cn:1618/Erp/\">http://erp.winning.com.cn:1618/Erp/</a></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "95888705e1923257c99274df186a6d017b4ceca667ccc05313fc89069a110500",
+        "path": "backups/2023年6月/医疗/wining erp.html"
+      }
+    },
+    {
+      "id": "a4c1ba47-6a84-43d4-981a-14bc455fef6b",
+      "note_id": "46a11412-2440-4835-aa09-01394fa3f777",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.148672Z",
+      "content": "---\ntitle: wining erp\nupdated: 2013-12-17 00:20:38Z\ncreated: 2013-12-17 00:20:33Z\n---\n\nhttp://erp.winning.com.cn:1618/Erp/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 122,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ef507826-a007-48d9-802f-3feabb91765c",
+    "note_id": "46a11412-2440-4835-aa09-01394fa3f777",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.148677Z",
+    "finished_at": "2025-11-10T15:43:35.148677Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "65fc4877-50ff-4bb5-8896-78fdd62593e2",
+      "source_path": "backups/2023年6月/医疗/wining erp.html",
+      "checksum": "95888705e1923257c99274df186a6d017b4ceca667ccc05313fc89069a110500"
+    },
+    "output_ref": {
+      "ingest_source": "91a72865-0456-4f7b-ba91-9fd7dd6741e7",
+      "note": "46a11412-2440-4835-aa09-01394fa3f777",
+      "variants": [
+        "9b9d797c-212e-4917-966a-5bbf79d6f145",
+        "a4c1ba47-6a84-43d4-981a-14bc455fef6b"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8892ea9e-8a87-4dc0-8716-d807cf488725",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/云主机连不上.html",
+    "collected_at": "2025-11-10T15:43:33.661737Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "57ddd28d68e84941020bc5404c80813385228dabc63cc7071687ecf9f0445927",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "99ca63b9-4707-4dde-8a4e-f21260b2a68f",
+    "ingest_source_id": "8892ea9e-8a87-4dc0-8716-d807cf488725",
+    "canonical_title": "云主机连不上",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.661741Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "云主机连不上.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "86e82d4f-bcaf-449a-b806-4b9ebb1d8e8a",
+      "note_id": "99ca63b9-4707-4dde-8a4e-f21260b2a68f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.661744Z",
+      "content": "---\ntitle: 云主机连不上\nupdated: 2022-11-03 21:26:40Z\ncreated: 2022-11-03 21:25:00Z\nauthor: tangyongfeng\n---\n\n\n\n<en-note><div>因为他们用了nat，所以绑定的地址需要是0.0.0.0.而不能是localhost或者127.0.01</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "57ddd28d68e84941020bc5404c80813385228dabc63cc7071687ecf9f0445927",
+        "path": "backups/2023年6月/个人的乱78糟/云主机连不上.html"
+      }
+    },
+    {
+      "id": "f2f06a10-7e01-4d65-977f-093a25c2bcbb",
+      "note_id": "99ca63b9-4707-4dde-8a4e-f21260b2a68f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.661747Z",
+      "content": "---\ntitle: 云主机连不上\nupdated: 2022-11-03 21:26:40Z\ncreated: 2022-11-03 21:25:00Z\nauthor: tangyongfeng\n---\n\n因为他们用了nat，所以绑定的地址需要是0.0.0.0.而不能是localhost或者127.0.01",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 155,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b445b4c0-f2a7-4dee-be0a-cc9c03f05ad6",
+    "note_id": "99ca63b9-4707-4dde-8a4e-f21260b2a68f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.661753Z",
+    "finished_at": "2025-11-10T15:43:33.661753Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1c96df5f-5731-4e55-bbf4-8db41d03c55c",
+      "source_path": "backups/2023年6月/个人的乱78糟/云主机连不上.html",
+      "checksum": "57ddd28d68e84941020bc5404c80813385228dabc63cc7071687ecf9f0445927"
+    },
+    "output_ref": {
+      "ingest_source": "8892ea9e-8a87-4dc0-8716-d807cf488725",
+      "note": "99ca63b9-4707-4dde-8a4e-f21260b2a68f",
+      "variants": [
+        "86e82d4f-bcaf-449a-b806-4b9ebb1d8e8a",
+        "f2f06a10-7e01-4d65-977f-093a25c2bcbb"
+      ]
+    },
+    "error_detail": null
+  }
+}

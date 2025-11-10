@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8d4c45c8-a33f-403d-9cb0-378d8657820f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/易经/需卦.html",
+    "collected_at": "2025-11-10T15:43:36.893776Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "9d9d1bec36edbb9cbb1a883cc89843f6881b85f9de855e14f9cf598dfbfcfe7d",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9e288e1a-c807-4a25-a835-99bb07162fe8",
+    "ingest_source_id": "8d4c45c8-a33f-403d-9cb0-378d8657820f",
+    "canonical_title": "需卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.893783Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "需卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4c20dd8c-4588-42f3-bfde-59864aa66ea0",
+      "note_id": "9e288e1a-c807-4a25-a835-99bb07162fe8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.893787Z",
+      "content": "---\ntitle: 需卦\nupdated: 2018-11-06 15:03:42Z\ncreated: 2018-11-06 03:19:38Z\n---\n\n\n<en-note><div>有孚，光亨，贞吉。利涉大川。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 410px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>上六</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>入于穴，有不速之客三人来，敬之终吉。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>九五（主爻）</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>需于酒食，贞吉。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六四</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>需于血，出自穴。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>九三</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>需于泥，致寇至。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>九二</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>需于沙，小有言，终吉。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>初九</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>需于郊，利用恒，无咎。</div></td></tr></tbody></table><div>需：需要，等待</div><div>初九阳爻在刚位，但是要等待</div><div>9293964构成互兑，有口舌，但是在上下阳爻中间，没问题。</div><div>上6为什么要进入洞穴呢？因为已经无路可走。</div><div>本卦里最重要的提示是敬，谨慎。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9d9d1bec36edbb9cbb1a883cc89843f6881b85f9de855e14f9cf598dfbfcfe7d",
+        "path": "backups/2023年6月/易经/需卦.html"
+      }
+    },
+    {
+      "id": "1956a8ae-1d4b-4a26-a451-e0852117dfab",
+      "note_id": "9e288e1a-c807-4a25-a835-99bb07162fe8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.893791Z",
+      "content": "---\ntitle: 需卦\nupdated: 2018-11-06 15:03:42Z\ncreated: 2018-11-06 03:19:38Z\n---\n\n有孚，光亨，贞吉。利涉大川。\n上六\n入于穴，有不速之客三人来，敬之终吉。\n九五（主爻）\n需于酒食，贞吉。\n六四\n需于血，出自穴。\n九三\n需于泥，致寇至。\n九二\n需于沙，小有言，终吉。\n初九\n需于郊，利用恒，无咎。\n需：需要，等待\n初九阳爻在刚位，但是要等待\n9293964构成互兑，有口舌，但是在上下阳爻中间，没问题。\n上6为什么要进入洞穴呢？因为已经无路可走。\n本卦里最重要的提示是敬，谨慎。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 276,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3a4c26f5-feef-436f-b3f1-208528e18aa3",
+    "note_id": "9e288e1a-c807-4a25-a835-99bb07162fe8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.893797Z",
+    "finished_at": "2025-11-10T15:43:36.893798Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2170dc22-be26-438f-b882-d39e3209b4d2",
+      "source_path": "backups/2023年6月/易经/需卦.html",
+      "checksum": "9d9d1bec36edbb9cbb1a883cc89843f6881b85f9de855e14f9cf598dfbfcfe7d"
+    },
+    "output_ref": {
+      "ingest_source": "8d4c45c8-a33f-403d-9cb0-378d8657820f",
+      "note": "9e288e1a-c807-4a25-a835-99bb07162fe8",
+      "variants": [
+        "4c20dd8c-4588-42f3-bfde-59864aa66ea0",
+        "1956a8ae-1d4b-4a26-a451-e0852117dfab"
+      ]
+    },
+    "error_detail": null
+  }
+}

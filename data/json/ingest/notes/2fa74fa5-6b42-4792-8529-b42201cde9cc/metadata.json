@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "20bfffc1-2115-4c50-a7b5-a45699fa8363",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/小白上楼梯.html",
+    "collected_at": "2025-11-10T15:43:32.553218Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "203a595db4ca426aaf402903e205c20e8aa530ddee414ee286d46abca801baf7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "2fa74fa5-6b42-4792-8529-b42201cde9cc",
+    "ingest_source_id": "20bfffc1-2115-4c50-a7b5-a45699fa8363",
+    "canonical_title": "小白上楼梯",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:32.553222Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "小白上楼梯.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a17b97fd-8cee-4535-b1ed-1f7db0e760b9",
+      "note_id": "2fa74fa5-6b42-4792-8529-b42201cde9cc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.553226Z",
+      "content": "---\ntitle: 小白上楼梯\nupdated: 2019-08-24 08:53:01Z\ncreated: 2019-08-24 08:52:48Z\n---\n\n\n<en-note><div><span STYLE=\"font-size: 14px;\">小白小白上楼梯，去看电视机，电视不好看，关掉电视机，小白小白下楼梯，去吃肯德基，薯条啊薯条，可乐啊可乐，鸡翅啊鸡翅，汉堡啊汉堡</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "203a595db4ca426aaf402903e205c20e8aa530ddee414ee286d46abca801baf7",
+        "path": "backups/2023年6月/IT技术/小白上楼梯.html"
+      }
+    },
+    {
+      "id": "de96bbab-ce51-410e-8ff9-9b710d2d9c14",
+      "note_id": "2fa74fa5-6b42-4792-8529-b42201cde9cc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.553229Z",
+      "content": "---\ntitle: 小白上楼梯\nupdated: 2019-08-24 08:53:01Z\ncreated: 2019-08-24 08:52:48Z\n---\n\n小白小白上楼梯，去看电视机，电视不好看，关掉电视机，小白小白下楼梯，去吃肯德基，薯条啊薯条，可乐啊可乐，鸡翅啊鸡翅，汉堡啊汉堡",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 145,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "15d1bdf6-1909-4087-9030-6f09c1b1638a",
+    "note_id": "2fa74fa5-6b42-4792-8529-b42201cde9cc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.553235Z",
+    "finished_at": "2025-11-10T15:43:32.553236Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "53ce1f6f-111a-4305-9510-6d6a76488d16",
+      "source_path": "backups/2023年6月/IT技术/小白上楼梯.html",
+      "checksum": "203a595db4ca426aaf402903e205c20e8aa530ddee414ee286d46abca801baf7"
+    },
+    "output_ref": {
+      "ingest_source": "20bfffc1-2115-4c50-a7b5-a45699fa8363",
+      "note": "2fa74fa5-6b42-4792-8529-b42201cde9cc",
+      "variants": [
+        "a17b97fd-8cee-4535-b1ed-1f7db0e760b9",
+        "de96bbab-ce51-410e-8ff9-9b710d2d9c14"
+      ]
+    },
+    "error_detail": null
+  }
+}

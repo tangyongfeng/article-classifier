@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e6da7a5e-07db-46b7-8fa9-181a685c069a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/以太坊白皮书.html",
+    "collected_at": "2025-11-10T15:43:32.153592Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f6ff5d9bc29bcd6ef9ad34f14026a67ee82d0e0a386db7b779c9d1267541f6f6",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "27fe5119-4142-42dc-8d4d-192a9cd071d6",
+    "ingest_source_id": "e6da7a5e-07db-46b7-8fa9-181a685c069a",
+    "canonical_title": "以太坊白皮书",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:32.153597Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "以太坊白皮书.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c8080c4a-8f22-42bc-911c-3fba440295ce",
+      "note_id": "27fe5119-4142-42dc-8d4d-192a9cd071d6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.153600Z",
+      "content": "---\ntitle: 以太坊白皮书\nupdated: 2018-01-21 15:15:23Z\ncreated: 2018-01-21 15:13:15Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 以太坊\n  - 区块链\n---\n\n\n<en-note><div>中本聪的两个贡献：</div><div><span>&nbsp; &nbsp; 1、去中心化的点对点的网上货币</span><br/></div><div><span><span>&nbsp; &nbsp; 2、基于工作量证明的区块链概念，是的人们可以就交易顺序达成共识。</span><br/></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f6ff5d9bc29bcd6ef9ad34f14026a67ee82d0e0a386db7b779c9d1267541f6f6",
+        "path": "backups/2023年6月/IT技术/以太坊白皮书.html"
+      }
+    },
+    {
+      "id": "56e57e85-e2e9-4c49-862c-a4ab3aee3581",
+      "note_id": "27fe5119-4142-42dc-8d4d-192a9cd071d6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.153603Z",
+      "content": "---\ntitle: 以太坊白皮书\nupdated: 2018-01-21 15:15:23Z\ncreated: 2018-01-21 15:13:15Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 以太坊\n  - 区块链\n---\n\n中本聪的两个贡献：\n    1、去中心化的点对点的网上货币\n    2、基于工作量证明的区块链概念，是的人们可以就交易顺序达成共识。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 202,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8b5440b1-b160-40a3-a18b-83271d2f02dc",
+    "note_id": "27fe5119-4142-42dc-8d4d-192a9cd071d6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.153608Z",
+    "finished_at": "2025-11-10T15:43:32.153609Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b86eab92-bb2c-4133-8695-1a54a2e1c2e2",
+      "source_path": "backups/2023年6月/IT技术/以太坊白皮书.html",
+      "checksum": "f6ff5d9bc29bcd6ef9ad34f14026a67ee82d0e0a386db7b779c9d1267541f6f6"
+    },
+    "output_ref": {
+      "ingest_source": "e6da7a5e-07db-46b7-8fa9-181a685c069a",
+      "note": "27fe5119-4142-42dc-8d4d-192a9cd071d6",
+      "variants": [
+        "c8080c4a-8f22-42bc-911c-3fba440295ce",
+        "56e57e85-e2e9-4c49-862c-a4ab3aee3581"
+      ]
+    },
+    "error_detail": null
+  }
+}

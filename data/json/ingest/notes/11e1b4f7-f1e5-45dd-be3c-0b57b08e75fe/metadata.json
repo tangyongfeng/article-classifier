@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d37b0512-6c16-499e-b348-c43053a8ce96",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/笔记-5.html",
+    "collected_at": "2025-11-10T15:43:33.081695Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a8f526cd52ea90041b476cca7dbcdcf32fe49bd78aa4c5f09ed83a3c1d30e71a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "11e1b4f7-f1e5-45dd-be3c-0b57b08e75fe",
+    "ingest_source_id": "d37b0512-6c16-499e-b348-c43053a8ce96",
+    "canonical_title": "笔记-5",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.081698Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-5.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4676bff0-e9bc-4ac4-a9ec-02a502ad7803",
+      "note_id": "11e1b4f7-f1e5-45dd-be3c-0b57b08e75fe",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.081701Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-03-02 05:46:30Z\ncreated: 2014-03-02 05:46:05Z\n---\n\n\n\n<en-note>qingzhuang<div>erzi13801306580</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a8f526cd52ea90041b476cca7dbcdcf32fe49bd78aa4c5f09ed83a3c1d30e71a",
+        "path": "backups/2023年6月/IT技术/笔记-5.html"
+      }
+    },
+    {
+      "id": "fd22cb9f-77c5-4ad3-9cc7-0ebebcdaca33",
+      "note_id": "11e1b4f7-f1e5-45dd-be3c-0b57b08e75fe",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.081704Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-03-02 05:46:30Z\ncreated: 2014-03-02 05:46:05Z\n---\n\nqingzhuang\nerzi13801306580",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 105,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fd3f10d8-6e98-427b-bc41-e0fcb6a73978",
+    "note_id": "11e1b4f7-f1e5-45dd-be3c-0b57b08e75fe",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.081708Z",
+    "finished_at": "2025-11-10T15:43:33.081708Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2ee1369a-dd1f-44b5-bc62-31e411a1ad0f",
+      "source_path": "backups/2023年6月/IT技术/笔记-5.html",
+      "checksum": "a8f526cd52ea90041b476cca7dbcdcf32fe49bd78aa4c5f09ed83a3c1d30e71a"
+    },
+    "output_ref": {
+      "ingest_source": "d37b0512-6c16-499e-b348-c43053a8ce96",
+      "note": "11e1b4f7-f1e5-45dd-be3c-0b57b08e75fe",
+      "variants": [
+        "4676bff0-e9bc-4ac4-a9ec-02a502ad7803",
+        "fd22cb9f-77c5-4ad3-9cc7-0ebebcdaca33"
+      ]
+    },
+    "error_detail": null
+  }
+}

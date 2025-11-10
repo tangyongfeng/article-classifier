@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "09bced42-dc49-4797-a9f9-9b96a86933db",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/可儿/无标题笔记.html",
+    "collected_at": "2025-11-10T15:43:35.308246Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "1894d8f448b017d87f0cc708b8cd3da32500981f20a216420a00ad2f52b5cc87",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "04ff0538-898a-4a23-9f09-1f0f87099845",
+    "ingest_source_id": "09bced42-dc49-4797-a9f9-9b96a86933db",
+    "canonical_title": "无标题笔记",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.308250Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "58a70ea7-f8cb-46c4-9f90-0f2a0b041385",
+      "note_id": "04ff0538-898a-4a23-9f09-1f0f87099845",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.308252Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2021-10-06 14:25:42Z\ncreated: 2021-10-05 10:38:34Z\n---\n\n\n\n<en-note>\n<div><img src=\"../_resources/C949417C-D842-406F-9742-182B1FEAD51E.jpg\"  hash=\"3ec094279e6e736fe8a901e72268c8a9\" type=\"image/jpeg\" alt=\"C949417C-D842-406F-9742-182B1FEAD51E.jpg\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1894d8f448b017d87f0cc708b8cd3da32500981f20a216420a00ad2f52b5cc87",
+        "path": "backups/2023年6月/可儿/无标题笔记.html"
+      }
+    },
+    {
+      "id": "93cd5394-c2ea-4c37-ba84-cb1f7a52d5a8",
+      "note_id": "04ff0538-898a-4a23-9f09-1f0f87099845",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.308255Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2021-10-06 14:25:42Z\ncreated: 2021-10-05 10:38:34Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 80,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9c856175-571e-4fb4-bc9f-dd4d99a787a6",
+    "note_id": "04ff0538-898a-4a23-9f09-1f0f87099845",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.308260Z",
+    "finished_at": "2025-11-10T15:43:35.308260Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "375dce99-29ab-4922-b0cf-09b3ecf2bd00",
+      "source_path": "backups/2023年6月/可儿/无标题笔记.html",
+      "checksum": "1894d8f448b017d87f0cc708b8cd3da32500981f20a216420a00ad2f52b5cc87"
+    },
+    "output_ref": {
+      "ingest_source": "09bced42-dc49-4797-a9f9-9b96a86933db",
+      "note": "04ff0538-898a-4a23-9f09-1f0f87099845",
+      "variants": [
+        "58a70ea7-f8cb-46c4-9f90-0f2a0b041385",
+        "93cd5394-c2ea-4c37-ba84-cb1f7a52d5a8"
+      ]
+    },
+    "error_detail": null
+  }
+}

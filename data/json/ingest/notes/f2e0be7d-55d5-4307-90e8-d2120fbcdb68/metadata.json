@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e21c582d-539c-4185-870b-ffe52b516a7f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/下一阶段问题.html",
+    "collected_at": "2025-11-10T15:43:34.719004Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "bf0b85506caa0617dcdc91e05252bd68c1267cea74ae4308e25a30602b35ff5c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "f2e0be7d-55d5-4307-90e8-d2120fbcdb68",
+    "ingest_source_id": "e21c582d-539c-4185-870b-ffe52b516a7f",
+    "canonical_title": "下一阶段问题",
+    "language": "no",
+    "ingested_at": "2025-11-10T15:43:34.719008Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "下一阶段问题.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2d4351d5-e75d-4bfc-9a46-288deade8bf6",
+      "note_id": "f2e0be7d-55d5-4307-90e8-d2120fbcdb68",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.719011Z",
+      "content": "---\ntitle: 下一阶段问题\nupdated: 2018-04-23 07:44:21Z\ncreated: 2018-04-23 07:39:24Z\nauthor: tangyongfeng\n---\n\n\n\n<en-note><div>市场方向：</div><div>1、我们认真研究了Betfair的年报，发现没有重点提及马耳他牌照的贡献率，那么问题来了，我们可以获得哪些公司的公开资料用来分析马耳他牌照在经营方面发挥的作用呢？</div><div><br CLEAR=\"none\"/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bf0b85506caa0617dcdc91e05252bd68c1267cea74ae4308e25a30602b35ff5c",
+        "path": "backups/2023年6月/中彩相关/下一阶段问题.html"
+      }
+    },
+    {
+      "id": "7fc0d396-c076-49ff-8cfa-77152cce5a05",
+      "note_id": "f2e0be7d-55d5-4307-90e8-d2120fbcdb68",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.719014Z",
+      "content": "---\ntitle: 下一阶段问题\nupdated: 2018-04-23 07:44:21Z\ncreated: 2018-04-23 07:39:24Z\nauthor: tangyongfeng\n---\n\n市场方向：\n1、我们认真研究了Betfair的年报，发现没有重点提及马耳他牌照的贡献率，那么问题来了，我们可以获得哪些公司的公开资料用来分析马耳他牌照在经营方面发挥的作用呢？",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 191,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e19eae6c-9679-4252-aeb2-b59901ca6a60",
+    "note_id": "f2e0be7d-55d5-4307-90e8-d2120fbcdb68",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.719018Z",
+    "finished_at": "2025-11-10T15:43:34.719018Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ffe7a076-3cfa-4220-817c-bb175f82e02c",
+      "source_path": "backups/2023年6月/中彩相关/下一阶段问题.html",
+      "checksum": "bf0b85506caa0617dcdc91e05252bd68c1267cea74ae4308e25a30602b35ff5c"
+    },
+    "output_ref": {
+      "ingest_source": "e21c582d-539c-4185-870b-ffe52b516a7f",
+      "note": "f2e0be7d-55d5-4307-90e8-d2120fbcdb68",
+      "variants": [
+        "2d4351d5-e75d-4bfc-9a46-288deade8bf6",
+        "7fc0d396-c076-49ff-8cfa-77152cce5a05"
+      ]
+    },
+    "error_detail": null
+  }
+}

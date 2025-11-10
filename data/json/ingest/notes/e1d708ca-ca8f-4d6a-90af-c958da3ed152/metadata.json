@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "0d2e6da8-0e7c-4526-886a-0945bc926dc8",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/aws日志.html",
+    "collected_at": "2025-11-10T15:43:31.406772Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c5902f6d00af3c2324a77a05bc53cdaedc95256d862a02f973a4262e8f69efc4",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e1d708ca-ca8f-4d6a-90af-c958da3ed152",
+    "ingest_source_id": "0d2e6da8-0e7c-4526-886a-0945bc926dc8",
+    "canonical_title": "aws日志",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.406776Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "aws日志.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "47af1b3e-049b-40fa-a6ca-35405fcb4e15",
+      "note_id": "e1d708ca-ca8f-4d6a-90af-c958da3ed152",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.406778Z",
+      "content": "---\ntitle: aws日志\nupdated: 2020-10-18 11:36:25Z\ncreated: 2019-08-23 14:25:07Z\n---\n\n\n<en-note><div>2019年8月23日 注销bgchina@hotmail.com</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 开通yongfeng.tang@qq.com</div><div><br/></div><div><br/></div><div>2020年10月18日</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 注销 <a HREF=\"mailto:yongfeng.tang@qq.com\">yongfeng.tang@qq.com</a></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a HREF=\"http://annistudio.com\">annistudio.com</a>&nbsp;数据放入dubox</div><div><br/></div><div><br/></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c5902f6d00af3c2324a77a05bc53cdaedc95256d862a02f973a4262e8f69efc4",
+        "path": "backups/2023年6月/IT技术/aws日志.html"
+      }
+    },
+    {
+      "id": "6bfbc965-89b3-45e5-aea1-e853935524d7",
+      "note_id": "e1d708ca-ca8f-4d6a-90af-c958da3ed152",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.406781Z",
+      "content": "---\ntitle: aws日志\nupdated: 2020-10-18 11:36:25Z\ncreated: 2019-08-23 14:25:07Z\n---\n\n2019年8月23日 注销bgchina@hotmail.com\n                          开通yongfeng.tang@qq.com\n2020年10月18日\n                      注销\nyongfeng.tang@qq.com\n                     \nannistudio.com\n 数据放入dubox",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 269,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b28b6034-7dea-48a4-944a-ee7cfdaa4100",
+    "note_id": "e1d708ca-ca8f-4d6a-90af-c958da3ed152",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.406786Z",
+    "finished_at": "2025-11-10T15:43:31.406786Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c62e4dcd-f7a4-4562-a55e-9cc07c93d41b",
+      "source_path": "backups/2023年6月/IT技术/aws日志.html",
+      "checksum": "c5902f6d00af3c2324a77a05bc53cdaedc95256d862a02f973a4262e8f69efc4"
+    },
+    "output_ref": {
+      "ingest_source": "0d2e6da8-0e7c-4526-886a-0945bc926dc8",
+      "note": "e1d708ca-ca8f-4d6a-90af-c958da3ed152",
+      "variants": [
+        "47af1b3e-049b-40fa-a6ca-35405fcb4e15",
+        "6bfbc965-89b3-45e5-aea1-e853935524d7"
+      ]
+    },
+    "error_detail": null
+  }
+}

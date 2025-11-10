@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4097028b-79f7-42a6-b69a-55b2aae443db",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/圣歌活动.html",
+    "collected_at": "2025-11-10T15:43:35.413705Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "28ca685103e4c9cb2faedf07355270173b3c479ed28ccfe63c63870f7903f6d0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d3067efb-f89c-4412-a589-d7ca3d09f419",
+    "ingest_source_id": "4097028b-79f7-42a6-b69a-55b2aae443db",
+    "canonical_title": "圣歌活动",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.413708Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "圣歌活动.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4d7e3f5e-0bb2-4b89-848c-0baaf1b349a3",
+      "note_id": "d3067efb-f89c-4412-a589-d7ca3d09f419",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.413711Z",
+      "content": "---\ntitle: 圣歌活动\nupdated: 2021-12-31 14:49:25Z\ncreated: 2021-12-31 14:10:01Z\n---\n\n\n<en-note><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">Sehr geehrte Frau Lidolt,</span></div><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">vielen dank f&uuml;r Ihre Nachricht. Ich freue mich sehr , dass die Kinder zur Sternsingeraktion 2022 teilnehmen k&ouml;nnen.</span></div><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">Weil ich nicht teilgenommen habe, wei&szlig; ich sehr wenig dar&uuml;ber. Ich habe etwas Fragen. Bitte verzeihen Sie meine Unwissenheit.</span></div><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">Sind die Kinder in der St. Josef Kirche oder St. Thomas Kirche? Ich erinnere mich, dass ich mich f&uuml;r sie in der St. Josef Kirche angemeldet hatte.</span></div><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">Die Namen der Kinder sind Youran Tang und Yueran Tang. 10 und 8 Jahre alt.</span></div><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">Kinder k&ouml;nnen Deutsch sprechen. Aber ich wei&szlig; nicht, welche Lieder sie singen, also m&uuml;ssen sie das vorher lernen?</span></div><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">Was muss ich am 2. Januar 2022 vorbereiten, bevor wir in die St Thomas Kirche gehen, um Kleidung abzuholen?</span></div><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">K&ouml;nnen wir am 7. Januar p&uuml;nktlich um 15:00 Uhr in der St.-Josef-Kirche ankommen? M&uuml;ssen wir noch etwas tun?</span></div><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">Welche Hosen und Schuhe m&uuml;ssen sie tragen, wenn sie am 7. Januar am Sternsingeraktion teilnehmen?</span></div><div STYLE=\"padding-left:40px;\"><br/></div><div STYLE=\"padding-left:40px;\"><span STYLE=\"color:rgb(0, 0, 0);\">Mit herzlichen Gr&uuml;&szlig;en</span></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "28ca685103e4c9cb2faedf07355270173b3c479ed28ccfe63c63870f7903f6d0",
+        "path": "backups/2023年6月/德国1/圣歌活动.html"
+      }
+    },
+    {
+      "id": "a35d1ff6-ebf3-43e8-ad1f-cb9dd731b56d",
+      "note_id": "d3067efb-f89c-4412-a589-d7ca3d09f419",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.413713Z",
+      "content": "---\ntitle: 圣歌活动\nupdated: 2021-12-31 14:49:25Z\ncreated: 2021-12-31 14:10:01Z\n---\n\nSehr geehrte Frau Lidolt,\nvielen dank für Ihre Nachricht. Ich freue mich sehr , dass die Kinder zur Sternsingeraktion 2022 teilnehmen können.\nWeil ich nicht teilgenommen habe, weiß ich sehr wenig darüber. Ich habe etwas Fragen. Bitte verzeihen Sie meine Unwissenheit.\nSind die Kinder in der St. Josef Kirche oder St. Thomas Kirche? Ich erinnere mich, dass ich mich für sie in der St. Josef Kirche angemeldet hatte.\nDie Namen der Kinder sind Youran Tang und Yueran Tang. 10 und 8 Jahre alt.\nKinder können Deutsch sprechen. Aber ich weiß nicht, welche Lieder sie singen, also müssen sie das vorher lernen?\nWas muss ich am 2. Januar 2022 vorbereiten, bevor wir in die St Thomas Kirche gehen, um Kleidung abzuholen?\nKönnen wir am 7. Januar pünktlich um 15:00 Uhr in der St.-Josef-Kirche ankommen? Müssen wir noch etwas tun?\nWelche Hosen und Schuhe müssen sie tragen, wenn sie am 7. Januar am Sternsingeraktion teilnehmen?\nMit herzlichen Grüßen",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1020,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b6e0b7b3-cc7f-42b1-9fb6-0d40f50ba3ce",
+    "note_id": "d3067efb-f89c-4412-a589-d7ca3d09f419",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.413718Z",
+    "finished_at": "2025-11-10T15:43:35.413718Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b7654231-159a-41d2-a7b5-192ce220dce2",
+      "source_path": "backups/2023年6月/德国1/圣歌活动.html",
+      "checksum": "28ca685103e4c9cb2faedf07355270173b3c479ed28ccfe63c63870f7903f6d0"
+    },
+    "output_ref": {
+      "ingest_source": "4097028b-79f7-42a6-b69a-55b2aae443db",
+      "note": "d3067efb-f89c-4412-a589-d7ca3d09f419",
+      "variants": [
+        "4d7e3f5e-0bb2-4b89-848c-0baaf1b349a3",
+        "a35d1ff6-ebf3-43e8-ad1f-cb9dd731b56d"
+      ]
+    },
+    "error_detail": null
+  }
+}

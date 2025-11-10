@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "84ac9f6b-e847-4a6d-ab1e-9a9181d6465d",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/快乐激素.html",
+    "collected_at": "2025-11-10T15:43:33.947027Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6db7d2cdfeb79d96b4a07c415bf030d32608f312dea79e8c03393c6c97d8dbfa",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "dfe9a83c-5527-4337-a9c9-81e739470512",
+    "ingest_source_id": "84ac9f6b-e847-4a6d-ab1e-9a9181d6465d",
+    "canonical_title": "快乐激素",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.947031Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "快乐激素.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c9ec33ea-9046-4645-b3f8-f1347dec4ed5",
+      "note_id": "dfe9a83c-5527-4337-a9c9-81e739470512",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.947033Z",
+      "content": "---\ntitle: 快乐激素\nupdated: 2022-01-20 06:57:56Z\ncreated: 2022-01-20 06:57:43Z\n---\n\n\n<en-note><div><br/></div><img src=\"../_resources/Image%2020220120%20075746.png\"  hash=\"997cd842ab18a5068983425a2cd80ba1\" type=\"image/png\" alt=\"Image 20220120 075746.png\" /></en-media><img src=\"../_resources/Image%2020220120%20075746.png\"  hash=\"997cd842ab18a5068983425a2cd80ba1\" type=\"image/png\" alt=\"Image 20220120 075746.png\" /></en-media><img src=\"../_resources/Image%2020220120%20075746.jpeg\"  hash=\"1b3aa46219ef3d17163737f056f500bd\" type=\"image/jpeg\" alt=\"Image 20220120 075746.jpeg\" /></en-media><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6db7d2cdfeb79d96b4a07c415bf030d32608f312dea79e8c03393c6c97d8dbfa",
+        "path": "backups/2023年6月/个人的乱78糟/快乐激素.html"
+      }
+    },
+    {
+      "id": "abda8514-887c-4148-9102-ca88e6af5c33",
+      "note_id": "dfe9a83c-5527-4337-a9c9-81e739470512",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.947036Z",
+      "content": "---\ntitle: 快乐激素\nupdated: 2022-01-20 06:57:56Z\ncreated: 2022-01-20 06:57:43Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 79,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "01410dd5-17a3-4e55-ad34-7324d41a95b3",
+    "note_id": "dfe9a83c-5527-4337-a9c9-81e739470512",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.947041Z",
+    "finished_at": "2025-11-10T15:43:33.947041Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2d7c5c86-a261-411c-8454-4552d501720f",
+      "source_path": "backups/2023年6月/个人的乱78糟/快乐激素.html",
+      "checksum": "6db7d2cdfeb79d96b4a07c415bf030d32608f312dea79e8c03393c6c97d8dbfa"
+    },
+    "output_ref": {
+      "ingest_source": "84ac9f6b-e847-4a6d-ab1e-9a9181d6465d",
+      "note": "dfe9a83c-5527-4337-a9c9-81e739470512",
+      "variants": [
+        "c9ec33ea-9046-4645-b3f8-f1347dec4ed5",
+        "abda8514-887c-4148-9102-ca88e6af5c33"
+      ]
+    },
+    "error_detail": null
+  }
+}

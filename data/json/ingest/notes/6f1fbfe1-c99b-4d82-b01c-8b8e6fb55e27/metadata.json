@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "75c5dfe3-1b09-4495-9bae-ebd39a908bce",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/febb.html",
+    "collected_at": "2025-11-10T15:43:33.493455Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "44159a284da998e517dcf3a44c92a46c35c5d4f0829f73151bf2d3f580ab57da",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6f1fbfe1-c99b-4d82-b01c-8b8e6fb55e27",
+    "ingest_source_id": "75c5dfe3-1b09-4495-9bae-ebd39a908bce",
+    "canonical_title": "febb",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.493458Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "febb.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "df151298-62d0-480a-a035-014d3b397384",
+      "note_id": "6f1fbfe1-c99b-4d82-b01c-8b8e6fb55e27",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.493461Z",
+      "content": "---\ntitle: febb\nupdated: 2014-02-05 20:49:49Z\ncreated: 2014-02-05 20:49:40Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nhttp://v.youku.com/v_show/id_XNDE4NzQzNzY=.html\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "44159a284da998e517dcf3a44c92a46c35c5d4f0829f73151bf2d3f580ab57da",
+        "path": "backups/2023年6月/个人的乱78糟/febb.html"
+      }
+    },
+    {
+      "id": "e63fd928-9316-4e88-a19e-54bf59e1b5ef",
+      "note_id": "6f1fbfe1-c99b-4d82-b01c-8b8e6fb55e27",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.493463Z",
+      "content": "---\ntitle: febb\nupdated: 2014-02-05 20:49:49Z\ncreated: 2014-02-05 20:49:40Z\n---\n\nhttp://v.youku.com/v_show/id_XNDE4NzQzNzY=.html",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 128,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0c787527-22a8-42fa-b556-e20b5013f64c",
+    "note_id": "6f1fbfe1-c99b-4d82-b01c-8b8e6fb55e27",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.493468Z",
+    "finished_at": "2025-11-10T15:43:33.493468Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dad288fd-1d9e-4353-b7fd-5e9ab554fd46",
+      "source_path": "backups/2023年6月/个人的乱78糟/febb.html",
+      "checksum": "44159a284da998e517dcf3a44c92a46c35c5d4f0829f73151bf2d3f580ab57da"
+    },
+    "output_ref": {
+      "ingest_source": "75c5dfe3-1b09-4495-9bae-ebd39a908bce",
+      "note": "6f1fbfe1-c99b-4d82-b01c-8b8e6fb55e27",
+      "variants": [
+        "df151298-62d0-480a-a035-014d3b397384",
+        "e63fd928-9316-4e88-a19e-54bf59e1b5ef"
+      ]
+    },
+    "error_detail": null
+  }
+}

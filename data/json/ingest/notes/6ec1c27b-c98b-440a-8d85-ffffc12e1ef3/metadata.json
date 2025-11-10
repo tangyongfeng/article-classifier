@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6218be59-477c-4fdb-83da-baf8d613aa96",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/易经/蛊卦.html",
+    "collected_at": "2025-11-10T15:43:36.871351Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "438bb0ec297b8e6e3d662b568eb9b3cb86d2add45d23c190dfd0e9a37e58f6a9",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6ec1c27b-c98b-440a-8d85-ffffc12e1ef3",
+    "ingest_source_id": "6218be59-477c-4fdb-83da-baf8d613aa96",
+    "canonical_title": "蛊卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.871355Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "蛊卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6761951b-0ea0-43b2-b71a-1c9a9ef1309a",
+      "note_id": "6ec1c27b-c98b-440a-8d85-ffffc12e1ef3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.871357Z",
+      "content": "---\ntitle: 蛊卦\nupdated: 2018-11-15 15:04:40Z\ncreated: 2018-11-15 14:26:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>元亨。利涉大川，先甲三日，后甲三日。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 397px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">上九（主爻）</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">不事王侯，高尚其事。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六五</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\"><div>幹父之蛊，用誉。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六四</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">裕父之蛊，往见吝。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">幹父之蛊，小有悔，无大咎。<br/></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九二</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\"><div>幹母之蛊，不可贞。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">初六</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">幹父之蛊，有子，考无咎。厉，终吉。<br/></td></tr></tbody></table><div></div><div><br/></div><div>山风蛊，风不流通。</div><div><br/></div><div>蛊卦主要是说继承父辈。</div><div><br/></div><div><br/></div><div>&rdquo;先甲三日，后甲三日&ldquo;终则有始。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "438bb0ec297b8e6e3d662b568eb9b3cb86d2add45d23c190dfd0e9a37e58f6a9",
+        "path": "backups/2023年6月/易经/蛊卦.html"
+      }
+    },
+    {
+      "id": "0570a450-f799-4e4d-859e-b56a10b579f1",
+      "note_id": "6ec1c27b-c98b-440a-8d85-ffffc12e1ef3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.871360Z",
+      "content": "---\ntitle: 蛊卦\nupdated: 2018-11-15 15:04:40Z\ncreated: 2018-11-15 14:26:59Z\nauthor: tangyongfeng@gmail.com\n---\n\n元亨。利涉大川，先甲三日，后甲三日。\n上九（主爻）\n不事王侯，高尚其事。\n六五\n幹父之蛊，用誉。\n六四\n裕父之蛊，往见吝。\n九三\n幹父之蛊，小有悔，无大咎。\n九二\n幹母之蛊，不可贞。\n初六\n幹父之蛊，有子，考无咎。厉，终吉。\n山风蛊，风不流通。\n蛊卦主要是说继承父辈。\n”先甲三日，后甲三日“终则有始。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 261,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3c253ffd-e76f-426b-a825-299318a4d698",
+    "note_id": "6ec1c27b-c98b-440a-8d85-ffffc12e1ef3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.871365Z",
+    "finished_at": "2025-11-10T15:43:36.871366Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ed60a34b-c966-4d77-9078-5d10388ecb38",
+      "source_path": "backups/2023年6月/易经/蛊卦.html",
+      "checksum": "438bb0ec297b8e6e3d662b568eb9b3cb86d2add45d23c190dfd0e9a37e58f6a9"
+    },
+    "output_ref": {
+      "ingest_source": "6218be59-477c-4fdb-83da-baf8d613aa96",
+      "note": "6ec1c27b-c98b-440a-8d85-ffffc12e1ef3",
+      "variants": [
+        "6761951b-0ea0-43b2-b71a-1c9a9ef1309a",
+        "0570a450-f799-4e4d-859e-b56a10b579f1"
+      ]
+    },
+    "error_detail": null
+  }
+}

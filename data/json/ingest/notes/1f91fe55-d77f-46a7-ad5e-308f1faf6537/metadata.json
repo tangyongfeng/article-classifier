@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7401ca94-c3aa-43c8-b9b4-19ee861e1f53",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语3/人称和物主代词.html",
+    "collected_at": "2025-11-10T15:43:36.149043Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "85f5aaed9bde2b6ae61a45e46fc041cbb6c8f44ea832d9b690e7c7eecc2b995d",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "1f91fe55-d77f-46a7-ad5e-308f1faf6537",
+    "ingest_source_id": "7401ca94-c3aa-43c8-b9b4-19ee861e1f53",
+    "canonical_title": "人称和物主代词",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:36.149047Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "人称和物主代词.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "601af02e-6106-40d2-a6ca-9f268dde01c0",
+      "note_id": "1f91fe55-d77f-46a7-ad5e-308f1faf6537",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.149050Z",
+      "content": "---\ntitle: 人称和物主代词\nupdated: 2020-02-16 18:13:18Z\ncreated: 2020-02-16 17:52:11Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><div><br/></div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/></colgroup><tbody><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>人称</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>阳性/中性&nbsp;物主</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>阴性/复数 物主</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>Ich</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>mein</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>meine</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>du</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>dein</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>deine</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>er/es</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>sein</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>seine</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>sie</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>ihr</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>ihre</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>wir</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>unser</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>unsere</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>ihr</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>euer</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>eurer</div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>sie/Sie</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>ihr</div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div>ihre</div></td></tr></tbody></table><div><br/></div></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "85f5aaed9bde2b6ae61a45e46fc041cbb6c8f44ea832d9b690e7c7eecc2b995d",
+        "path": "backups/2023年6月/德语3/人称和物主代词.html"
+      }
+    },
+    {
+      "id": "92df3c52-78d7-4682-bdf8-f9e5e2e89a2c",
+      "note_id": "1f91fe55-d77f-46a7-ad5e-308f1faf6537",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.149053Z",
+      "content": "---\ntitle: 人称和物主代词\nupdated: 2020-02-16 18:13:18Z\ncreated: 2020-02-16 17:52:11Z\nauthor: tangyongfeng@gmail.com\n---\n\n人称\n阳性/中性 物主\n阴性/复数 物主\nIch\nmein\nmeine\ndu\ndein\ndeine\ner/es\nsein\nseine\nsie\nihr\nihre\nwir\nunser\nunsere\nihr\neuer\neurer\nsie/Sie\nihr\nihre",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 243,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a0391aed-cd70-43a7-8adc-58a050bbef5d",
+    "note_id": "1f91fe55-d77f-46a7-ad5e-308f1faf6537",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.149058Z",
+    "finished_at": "2025-11-10T15:43:36.149058Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cac92de4-3522-4243-a041-323fbbc61293",
+      "source_path": "backups/2023年6月/德语3/人称和物主代词.html",
+      "checksum": "85f5aaed9bde2b6ae61a45e46fc041cbb6c8f44ea832d9b690e7c7eecc2b995d"
+    },
+    "output_ref": {
+      "ingest_source": "7401ca94-c3aa-43c8-b9b4-19ee861e1f53",
+      "note": "1f91fe55-d77f-46a7-ad5e-308f1faf6537",
+      "variants": [
+        "601af02e-6106-40d2-a6ca-9f268dde01c0",
+        "92df3c52-78d7-4682-bdf8-f9e5e2e89a2c"
+      ]
+    },
+    "error_detail": null
+  }
+}

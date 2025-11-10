@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4d95b4c9-7d00-42c9-abf7-75b63f8ed4b0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/海南笔记.html",
+    "collected_at": "2025-11-10T15:43:34.905878Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "4ab8ff333d4a9b329e88115d07d692d6a8f8f3574a3d1ea75a6fdf6abeffc615",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "bf5283d5-8da8-41fa-932a-73a919490a57",
+    "ingest_source_id": "4d95b4c9-7d00-42c9-abf7-75b63f8ed4b0",
+    "canonical_title": "海南笔记",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.905881Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "海南笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e2acbe9f-fb13-4897-af4b-2d0a6751d7e6",
+      "note_id": "bf5283d5-8da8-41fa-932a-73a919490a57",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.905884Z",
+      "content": "---\ntitle: 海南笔记\nupdated: 2019-10-13 04:41:39Z\ncreated: 2019-08-27 21:30:37Z\n---\n\n\n<en-note><div>一、长城拼图</div><div><br/></div><ol><li><div>消去类slot</div></li><li><div><span STYLE=\"font-size: 14px;\">4行6列24个位置，拼出吉祥图案则为中奖</span></div></li><li><div><span STYLE=\"font-size: 14px;\">0.5、1、2、5、10元价位</span></div></li><li><div><span STYLE=\"font-size: 14px;\">每注结束后可退出游戏</span></div></li><li><div><span STYLE=\"font-size: 14px;\">二次开奖</span></div></li><li><div>第一次开奖</div></li><ol><li><div>24个拼图反转后拼成一个图案</div></li><li><div><span STYLE=\"font-size: 14px;\">两个或者两个以上红灯笼：获得碰运气机会，选择其中一个红灯笼，获得隐藏奖金</span></div></li><li><div><span STYLE=\"font-size: 14px;\">一个铜钱：再来一次，从第一环节再来一次</span></div></li><li><div><span STYLE=\"font-size: 14px;\">两个或者两个以上福字：进入长城之旅</span></div></li></ol><li><div><span STYLE=\"font-size: 14px;\">长城之旅</span></div></li><ol><li><div>转轮转出数字，根据数字步进奖金级别，如果超过或者穷尽，则获得最大奖金</div></li><li><div>多少步？</div></li></ol><li><div>75%奖金，10%发行费，15%公益金</div></li><li><div><span STYLE=\"font-size: 14px;\">14个奖级</span></div></li><li><div><span STYLE=\"font-size: 14px;\">第一环节中，拼出的图案可以中得14个奖级，第二环节中通过碰运气和长城之旅都可以中得前面的14个奖级。（三层获奖，毫无意义，为什么？）</span></div></li><li><div><span STYLE=\"font-size: 14px;\">一万元以下自动兑奖到投注卡里</span></div></li></ol><div><span STYLE=\"font-size: 14px;\">二、海南珍宝</span></div><div><span STYLE=\"font-size: 14px;\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></div><ol><li><div>消去类slot</div></li><li><div>3行3列9个位置，每次<span STYLE=\"--en-highlight:yellow;background-color: #ffef9e;\">转动10个图案</span>，形成5组规定的组合（5条中奖线），3个相同为中奖，每转动一次为1注。</div></li><li><div><span STYLE=\"font-size: 14px;\">0.5、1、1.5、2、3、4、5、10元八个价格，彩民根据需要自愿选择投注价格</span></div></li><li><div><span STYLE=\"font-size: 14px;\">每次投注结束可退出游戏；</span></div></li><li><div>二次开奖，第一次开奖中奖可以进入第二次的环节</div></li><li><div><span STYLE=\"font-size: 14px;\">中出海南珍宝，可以获得10次奖投；</span></div></li><li><div>第一次开奖，有十个奖等（包含奖投），&ldquo;海南珍宝&rdquo;标记作为百搭可替代其他图案中出。</div></li><li><div><span STYLE=\"font-size: 14px;\">二次开奖，扑克猜大小翻倍奖金，超过5万自动结束，最多不可以超过10万</span></div></li><li><div><span STYLE=\"font-size: 14px;\">奖金、公益金、发行费比例同上</span></div></li><li><div><span STYLE=\"font-size: 14px;\">二次开奖可在每次选择后退出</span></div></li></ol><div>三、足球三猜</div><ol><li><div>第一环节</div></li><ol><li><div>转动三个足球上的号码（0~3四个号码），共12种组合</div></li><li><div>12个押注空间（候选项），0.1元一注。模仿百家乐。</div></li><li><div><span STYLE=\"font-size: 14px;\">开奖后三个数字相同为中奖</span></div></li><li><div><span STYLE=\"font-size: 14px;\">三个数字之和命中之前的押注空间即为中奖。</span></div></li><li><div>同时中奖，兼中兼得。</div></li><li><div><span STYLE=\"font-size: 14px;\">中奖后进入二次开奖环节</span></div></li></ol><li><div>第二环节</div></li><ol><li><div>选择射门的左右，选中则翻倍。比照比大小翻倍。</div></li><li><div><span STYLE=\"font-size: 14px;\">猜射门左右，猜中翻倍，最多进行6轮，每次猜前可结束退出</span></div></li></ol><li><div><span STYLE=\"font-size: 11pt;\">奖金、公益金、发行费比例同上</span></div></li></ol><div><span STYLE=\"font-size: 11pt;\">四、赛马</span></div><ol><li><div><span STYLE=\"font-size: 11pt;\">7个赛马位置，选择一个或者两个位置进行投注；可倍投，最少0.1元，最多10元。</span></div></li><li><div>四种投注方式</div></li><ol><li><div>第一名</div></li><li><div>选中一匹进入前二的马</div></li><li><div>选中前两名（定位）</div></li><li><div>选中前两名（不定位）</div></li></ol><li><div>不能兼中兼得</div></li><li><div>可单独购买奖金翻倍奖项</div></li><li><div>奖金、公益金、发行费比例同上</div></li></ol><div>公共部分</div><ol><li><div>&nbsp; &nbsp; 75%返奖</div></li><li><div>10000元奖金直接打卡</div></li><li><div>投注卡</div></li><li><div>触摸屏</div></li></ol><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4ab8ff333d4a9b329e88115d07d692d6a8f8f3574a3d1ea75a6fdf6abeffc615",
+        "path": "backups/2023年6月/中彩相关/海南笔记.html"
+      }
+    },
+    {
+      "id": "d162bbe9-fcfe-4e1b-a7ac-2869d8b7e5c4",
+      "note_id": "bf5283d5-8da8-41fa-932a-73a919490a57",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.905887Z",
+      "content": "---\ntitle: 海南笔记\nupdated: 2019-10-13 04:41:39Z\ncreated: 2019-08-27 21:30:37Z\n---\n\n一、长城拼图\n消去类slot\n4行6列24个位置，拼出吉祥图案则为中奖\n0.5、1、2、5、10元价位\n每注结束后可退出游戏\n二次开奖\n第一次开奖\n24个拼图反转后拼成一个图案\n两个或者两个以上红灯笼：获得碰运气机会，选择其中一个红灯笼，获得隐藏奖金\n一个铜钱：再来一次，从第一环节再来一次\n两个或者两个以上福字：进入长城之旅\n长城之旅\n转轮转出数字，根据数字步进奖金级别，如果超过或者穷尽，则获得最大奖金\n多少步？\n75%奖金，10%发行费，15%公益金\n14个奖级\n第一环节中，拼出的图案可以中得14个奖级，第二环节中通过碰运气和长城之旅都可以中得前面的14个奖级。（三层获奖，毫无意义，为什么？）\n一万元以下自动兑奖到投注卡里\n二、海南珍宝\n消去类slot\n3行3列9个位置，每次\n转动10个图案\n，形成5组规定的组合（5条中奖线），3个相同为中奖，每转动一次为1注。\n0.5、1、1.5、2、3、4、5、10元八个价格，彩民根据需要自愿选择投注价格\n每次投注结束可退出游戏；\n二次开奖，第一次开奖中奖可以进入第二次的环节\n中出海南珍宝，可以获得10次奖投；\n第一次开奖，有十个奖等（包含奖投），“海南珍宝”标记作为百搭可替代其他图案中出。\n二次开奖，扑克猜大小翻倍奖金，超过5万自动结束，最多不可以超过10万\n奖金、公益金、发行费比例同上\n二次开奖可在每次选择后退出\n三、足球三猜\n第一环节\n转动三个足球上的号码（0~3四个号码），共12种组合\n12个押注空间（候选项），0.1元一注。模仿百家乐。\n开奖后三个数字相同为中奖\n三个数字之和命中之前的押注空间即为中奖。\n同时中奖，兼中兼得。\n中奖后进入二次开奖环节\n第二环节\n选择射门的左右，选中则翻倍。比照比大小翻倍。\n猜射门左右，猜中翻倍，最多进行6轮，每次猜前可结束退出\n奖金、公益金、发行费比例同上\n四、赛马\n7个赛马位置，选择一个或者两个位置进行投注；可倍投，最少0.1元，最多10元。\n四种投注方式\n第一名\n选中一匹进入前二的马\n选中前两名（定位）\n选中前两名（不定位）\n不能兼中兼得\n可单独购买奖金翻倍奖项\n奖金、公益金、发行费比例同上\n公共部分\n    75%返奖\n10000元奖金直接打卡\n投注卡\n触摸屏",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 1020,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5127f776-a5c7-4e43-b53b-b61fe2d50d56",
+    "note_id": "bf5283d5-8da8-41fa-932a-73a919490a57",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.905891Z",
+    "finished_at": "2025-11-10T15:43:34.905892Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5fdc0040-4f4f-4eff-96ca-34b07bec83d4",
+      "source_path": "backups/2023年6月/中彩相关/海南笔记.html",
+      "checksum": "4ab8ff333d4a9b329e88115d07d692d6a8f8f3574a3d1ea75a6fdf6abeffc615"
+    },
+    "output_ref": {
+      "ingest_source": "4d95b4c9-7d00-42c9-abf7-75b63f8ed4b0",
+      "note": "bf5283d5-8da8-41fa-932a-73a919490a57",
+      "variants": [
+        "e2acbe9f-fb13-4897-af4b-2d0a6751d7e6",
+        "d162bbe9-fcfe-4e1b-a7ac-2869d8b7e5c4"
+      ]
+    },
+    "error_detail": null
+  }
+}

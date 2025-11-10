@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7dff6967-0e00-42fb-b430-9b0073fcbb01",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/互联网概念.html",
+    "collected_at": "2025-11-10T15:43:32.132225Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a4864f8912b83e015fad8067e051dd54a49cc1a5e929d33c7e18569bc0a031b0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a79414b1-79fb-4ada-9e34-ee83e23769c9",
+    "ingest_source_id": "7dff6967-0e00-42fb-b430-9b0073fcbb01",
+    "canonical_title": "互联网概念",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.132229Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "互联网概念.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2ec9d2f0-12b5-488f-8c26-e8217a022368",
+      "note_id": "a79414b1-79fb-4ada-9e34-ee83e23769c9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.132232Z",
+      "content": "---\ntitle: 互联网概念\nupdated: 2019-10-20 08:24:35Z\ncreated: 2019-10-20 08:24:07Z\n---\n\n\n\n<en-note><div>共享</div><div>开放</div><div>标准化</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a4864f8912b83e015fad8067e051dd54a49cc1a5e929d33c7e18569bc0a031b0",
+        "path": "backups/2023年6月/IT技术/互联网概念.html"
+      }
+    },
+    {
+      "id": "55fb85ec-ba63-4065-84a3-253748667012",
+      "note_id": "a79414b1-79fb-4ada-9e34-ee83e23769c9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.132234Z",
+      "content": "---\ntitle: 互联网概念\nupdated: 2019-10-20 08:24:35Z\ncreated: 2019-10-20 08:24:07Z\n---\n\n共享\n开放\n标准化",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 91,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5ec804f3-4323-4fb1-b66c-b55df60c9def",
+    "note_id": "a79414b1-79fb-4ada-9e34-ee83e23769c9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.132239Z",
+    "finished_at": "2025-11-10T15:43:32.132239Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3d53638d-85be-4d2b-8f6d-b5a0570cd268",
+      "source_path": "backups/2023年6月/IT技术/互联网概念.html",
+      "checksum": "a4864f8912b83e015fad8067e051dd54a49cc1a5e929d33c7e18569bc0a031b0"
+    },
+    "output_ref": {
+      "ingest_source": "7dff6967-0e00-42fb-b430-9b0073fcbb01",
+      "note": "a79414b1-79fb-4ada-9e34-ee83e23769c9",
+      "variants": [
+        "2ec9d2f0-12b5-488f-8c26-e8217a022368",
+        "55fb85ec-ba63-4065-84a3-253748667012"
+      ]
+    },
+    "error_detail": null
+  }
+}

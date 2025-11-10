@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a004e773-15b7-4dd5-9064-8c3c06cdfe49",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-8.html",
+    "collected_at": "2025-11-10T15:43:34.075501Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "0e5a7005a1df1fad320e83ead0ec9b4f468aa411145303e0a7a7ecc46ccb0ee4",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "921404cc-1300-48c3-a4ad-e1f2541fcf8c",
+    "ingest_source_id": "a004e773-15b7-4dd5-9064-8c3c06cdfe49",
+    "canonical_title": "无标题笔记-8",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.075506Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-8.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5feb135c-10b9-42e3-9d26-0a1f51d97062",
+      "note_id": "921404cc-1300-48c3-a4ad-e1f2541fcf8c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.075509Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2021-05-08 21:51:32Z\ncreated: 2021-05-07 07:34:48Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>43,44,45,46,47,48,49,51,53,54,56,57,58,59,60,62,64,66,69,70,71,72,73,75,76,<span STYLE=\"background-color: rgb(255, 250, 165);-evernote-highlight:true;\">77</span>,78,79,80,81,82,83,84,85,86,87,88,90,91,93,94,95,96,111,116,118,120,133,168,1<span STYLE=\"color: rgb(255, 251, 0); --inversion-type-color: simple;\">90</span></div><div><span STYLE=\"color: rgb(255, 251, 0); --inversion-type-color: simple;\"><br/></span></div><div><span STYLE=\"color: rgb(255, 251, 0); --inversion-type-color: simple;\">66</span></div><div><span STYLE=\"color: rgb(255, 251, 0); --inversion-type-color: simple;\">85</span></div><div><span STYLE=\"color: rgb(255, 251, 0); --inversion-type-color: simple;\"><br/></span></div><div><span STYLE=\"color: rgb(255, 251, 0); --inversion-type-color: simple;\"><br/></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0e5a7005a1df1fad320e83ead0ec9b4f468aa411145303e0a7a7ecc46ccb0ee4",
+        "path": "backups/2023年6月/个人的乱78糟/无标题笔记-8.html"
+      }
+    },
+    {
+      "id": "a5f9f7cc-3d5e-43ce-b007-e0e75a3c6209",
+      "note_id": "921404cc-1300-48c3-a4ad-e1f2541fcf8c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.075512Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2021-05-08 21:51:32Z\ncreated: 2021-05-07 07:34:48Z\nauthor: tangyongfeng@gmail.com\n---\n\n43,44,45,46,47,48,49,51,53,54,56,57,58,59,60,62,64,66,69,70,71,72,73,75,76,\n77\n,78,79,80,81,82,83,84,85,86,87,88,90,91,93,94,95,96,111,116,118,120,133,168,1\n90\n66\n85",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 278,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8d58b3cd-4866-4317-b53a-a9d98873a971",
+    "note_id": "921404cc-1300-48c3-a4ad-e1f2541fcf8c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.075517Z",
+    "finished_at": "2025-11-10T15:43:34.075517Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "630bd4ac-ef29-4ed0-b04f-b3d36111fff7",
+      "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-8.html",
+      "checksum": "0e5a7005a1df1fad320e83ead0ec9b4f468aa411145303e0a7a7ecc46ccb0ee4"
+    },
+    "output_ref": {
+      "ingest_source": "a004e773-15b7-4dd5-9064-8c3c06cdfe49",
+      "note": "921404cc-1300-48c3-a4ad-e1f2541fcf8c",
+      "variants": [
+        "5feb135c-10b9-42e3-9d26-0a1f51d97062",
+        "a5f9f7cc-3d5e-43ce-b007-e0e75a3c6209"
+      ]
+    },
+    "error_detail": null
+  }
+}

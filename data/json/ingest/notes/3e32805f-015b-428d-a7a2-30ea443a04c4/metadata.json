@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0f48894f-f493-4de4-8904-af6c734f19b1",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/否定词nicht_kein_nichts.html",
+    "collected_at": "2025-11-10T15:43:35.853677Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "d5ff42ce9f68ab6bbccac00549faca06afe145d8177ed2653796d17aa8db226b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3e32805f-015b-428d-a7a2-30ea443a04c4",
+    "ingest_source_id": "0f48894f-f493-4de4-8904-af6c734f19b1",
+    "canonical_title": "否定词nicht_kein_nichts",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.853685Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "否定词nicht_kein_nichts.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9a3eac1e-9e56-4edc-ac98-aa03cf13f982",
+      "note_id": "3e32805f-015b-428d-a7a2-30ea443a04c4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.853689Z",
+      "content": "---\ntitle: 否定词nicht/kein/nichts\nupdated: 2020-12-14 20:30:15Z\ncreated: 2020-12-14 20:29:45Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"-en-paragraph:true;\">在德语中有不同的方式表达否定形态（这就像英语中，你有时候用&ldquo;no&rdquo;，有时候用&ldquo;does not&rdquo;）。德语的副词&ldquo;nicht&rdquo;(not) 经常被使用，但是有时候你需要使用&ldquo;kein&rdquo;(not a)。\n</span></div><h3>Nicht\n</h3><div><span STYLE=\"-en-paragraph:true;\">在以下五种情况中使用&ldquo;nicht&rdquo;:\n</span></div><ol><li><div>否定一个带定冠词的名词时，比如在&ldquo;Der Architekt mag den Raum nicht.&rdquo;(这个建筑师不喜欢这个房间)中否定&ldquo;der Raum(这个房间)&rdquo;；</div></li><li><div>否定一个有人称代词所有格的名词时，比如在&ldquo;Der Autor sucht sein Glas nicht.&rdquo;(这个作者没有找他的玻璃杯)中否定&ldquo;sein Glass(他的玻璃杯)&rdquo;；</div></li><li><div>否定动词，比如&ldquo;Sie trinken nicht.&rdquo;(他们/你们不喝)；</div></li><li><div>否定一个副词或副词性词组，比如&ldquo;Mein Mann isst nicht immer.&rdquo;(我丈夫并不总是吃)；</div></li><li><div>否定一个和&ldquo;sein&rdquo;(是)合用的形容词，比如&ldquo;Du bist nicht hungrig.&rdquo;(你不饿)。</div></li></ol><h3>Nicht的位置\n</h3><div><span STYLE=\"-en-paragraph:true;\">在不同的语言中，副词的位置不同。德语中的&ldquo;nicht&rdquo;会被放在形容词和副词之前，比如&ldquo;Das Fr&uuml;hst&uuml;ck ist nicht schlecht.&rdquo;(这早饭不差)； &ldquo;Das Hemd ist nicht ganz blau.&rdquo;(这件衬衫并不全蓝)。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">否定动词时，根据动词的种类，&ldquo;nicht&rdquo;既可以出现在动词前，又可以出现在动词后。一般情况下，&ldquo;nicht&rdquo;在变位动词之后出现，比如&ldquo;Die Maus isst nicht&rdquo;(这只老鼠不吃)。而在德语的对话中，完成时态经常被用来表达过去发生的情况。如果这类表达被否定，&ldquo;nicht&rdquo;会出现在句末分词前，比如&ldquo;Ich habe nicht gegessen&rdquo;(我还没吃)。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">最后，&ldquo;nicht&rdquo;也可以出现在句末，一种情况是在直接宾语（如&ldquo;mir&rdquo;(我)）后；另一种情况是在如果在是否问题中只有一个变位动词的时候，比如，&ldquo;Die Lehrerin hilft mir nicht.&rdquo;(这个老师不帮助我)；&ldquo;Hat er den Ball nicht.&rdquo; (他没有球吗？)。\n</span></div><h3>kein\n</h3><div><span STYLE=\"-en-paragraph:true;\">简单说，&ldquo;kein&rdquo;就是&ldquo;k+ein&rdquo;，可以被放在一般句子中不定冠词的位置。比如说，&rdquo;ein Mann&rdquo;(一个男人) VS &ldquo;kein Mann&rdquo;(没一个男人); &ldquo;eine Frau&rdquo;(一个女人) VS &ldquo;keine Frau&rdquo;(没一个女人)。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">&ldquo;kein&quot;也被用来否定一些没有冠词的名词，比如&ldquo;Man has bread.&rdquo;(人有面包) VS &ldquo;Man hat kein Brot.&rdquo;(人没有面包)。\n</span></div><h3>nicht VS nichts\n</h3><div><span STYLE=\"-en-paragraph:true;\">&ldquo;nicht&rdquo;是一个副词，用作否定。另一方面，&ldquo;nichts&rdquo;(没有什么/一点也没有)是一个代词，它的意思和&ldquo;nicht&rdquo;不同。使用&ldquo;nicht&rdquo;只表示否定一个事实，涵盖面不如&ldquo;nichts&rdquo;广。比如，&ldquo;Der Sch&uuml;ler lernt nicht.&rdquo;(这个学生不学习)比&ldquo;Der Sch&uuml;ler lernt nichts&rdquo;(这个学习没学任何东西)。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">单词&ldquo;Nichts&rdquo;如果在大写的情况下，也是一个名词： &quot;das Nichts&rdquo;(虚无/不存在)\n</span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d5ff42ce9f68ab6bbccac00549faca06afe145d8177ed2653796d17aa8db226b",
+        "path": "backups/2023年6月/德语1/否定词nicht_kein_nichts.html"
+      }
+    },
+    {
+      "id": "0a456435-3dec-44ab-931b-75342fdb2f65",
+      "note_id": "3e32805f-015b-428d-a7a2-30ea443a04c4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.853693Z",
+      "content": "---\ntitle: 否定词nicht/kein/nichts\nupdated: 2020-12-14 20:30:15Z\ncreated: 2020-12-14 20:29:45Z\nauthor: tangyongfeng@gmail.com\n---\n\n在德语中有不同的方式表达否定形态（这就像英语中，你有时候用“no”，有时候用“does not”）。德语的副词“nicht”(not) 经常被使用，但是有时候你需要使用“kein”(not a)。\n\nNicht\n\n在以下五种情况中使用“nicht”:\n\n否定一个带定冠词的名词时，比如在“Der Architekt mag den Raum nicht.”(这个建筑师不喜欢这个房间)中否定“der Raum(这个房间)”；\n否定一个有人称代词所有格的名词时，比如在“Der Autor sucht sein Glas nicht.”(这个作者没有找他的玻璃杯)中否定“sein Glass(他的玻璃杯)”；\n否定动词，比如“Sie trinken nicht.”(他们/你们不喝)；\n否定一个副词或副词性词组，比如“Mein Mann isst nicht immer.”(我丈夫并不总是吃)；\n否定一个和“sein”(是)合用的形容词，比如“Du bist nicht hungrig.”(你不饿)。\nNicht的位置\n\n在不同的语言中，副词的位置不同。德语中的“nicht”会被放在形容词和副词之前，比如“Das Frühstück ist nicht schlecht.”(这早饭不差)； “Das Hemd ist nicht ganz blau.”(这件衬衫并不全蓝)。\n\n否定动词时，根据动词的种类，“nicht”既可以出现在动词前，又可以出现在动词后。一般情况下，“nicht”在变位动词之后出现，比如“Die Maus isst nicht”(这只老鼠不吃)。而在德语的对话中，完成时态经常被用来表达过去发生的情况。如果这类表达被否定，“nicht”会出现在句末分词前，比如“Ich habe nicht gegessen”(我还没吃)。\n\n最后，“nicht”也可以出现在句末，一种情况是在直接宾语（如“mir”(我)）后；另一种情况是在如果在是否问题中只有一个变位动词的时候，比如，“Die Lehrerin hilft mir nicht.”(这个老师不帮助我)；“Hat er den Ball nicht.” (他没有球吗？)。\n\nkein\n\n简单说，“kein”就是“k+ein”，可以被放在一般句子中不定冠词的位置。比如说，”ein Mann”(一个男人) VS “kein Mann”(没一个男人); “eine Frau”(一个女人) VS “keine Frau”(没一个女人)。\n\n“kein\"也被用来否定一些没有冠词的名词，比如“Man has bread.”(人有面包) VS “Man hat kein Brot.”(人没有面包)。\n\nnicht VS nichts\n\n“nicht”是一个副词，用作否定。另一方面，“nichts”(没有什么/一点也没有)是一个代词，它的意思和“nicht”不同。使用“nicht”只表示否定一个事实，涵盖面不如“nichts”广。比如，“Der Schüler lernt nicht.”(这个学生不学习)比“Der Schüler lernt nichts”(这个学习没学任何东西)。\n\n单词“Nichts”如果在大写的情况下，也是一个名词： \"das Nichts”(虚无/不存在)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1512,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7ce85ffe-8329-4545-bbec-67d0f12c11c1",
+    "note_id": "3e32805f-015b-428d-a7a2-30ea443a04c4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.853700Z",
+    "finished_at": "2025-11-10T15:43:35.853701Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "073b87ca-0c92-44a5-81a5-e15bec457322",
+      "source_path": "backups/2023年6月/德语1/否定词nicht_kein_nichts.html",
+      "checksum": "d5ff42ce9f68ab6bbccac00549faca06afe145d8177ed2653796d17aa8db226b"
+    },
+    "output_ref": {
+      "ingest_source": "0f48894f-f493-4de4-8904-af6c734f19b1",
+      "note": "3e32805f-015b-428d-a7a2-30ea443a04c4",
+      "variants": [
+        "9a3eac1e-9e56-4edc-ac98-aa03cf13f982",
+        "0a456435-3dec-44ab-931b-75342fdb2f65"
+      ]
+    },
+    "error_detail": null
+  }
+}

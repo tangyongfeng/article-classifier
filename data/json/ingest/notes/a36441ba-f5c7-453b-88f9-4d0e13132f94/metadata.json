@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "56027968-14ca-43a5-b0b0-cae09b579906",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/迟到和旷工.html",
+    "collected_at": "2025-11-10T15:43:35.026407Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7bea3bc189b5fbb470ed6ec5549d523f9125ffdfd3fb8b9f4b1f0b0ad37e06a5",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a36441ba-f5c7-453b-88f9-4d0e13132f94",
+    "ingest_source_id": "56027968-14ca-43a5-b0b0-cae09b579906",
+    "canonical_title": "迟到和旷工",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.026411Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "迟到和旷工.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "44ae8a54-f4d7-4c14-b7be-e54931bb1b7c",
+      "note_id": "a36441ba-f5c7-453b-88f9-4d0e13132f94",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.026414Z",
+      "content": "---\ntitle: 迟到和旷工\nupdated: 2018-12-07 04:05:41Z\ncreated: 2018-12-07 04:05:00Z\n---\n\n\n<en-note><div><a HREF=\"http://www.mohrss.gov.cn/gkml/ldgx/ldrsdjzc/201804/t20180420_292736.html\">http://www.mohrss.gov.cn/gkml/ldgx/ldrsdjzc/201804/t20180420_292736.html</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7bea3bc189b5fbb470ed6ec5549d523f9125ffdfd3fb8b9f4b1f0b0ad37e06a5",
+        "path": "backups/2023年6月/中彩相关/迟到和旷工.html"
+      }
+    },
+    {
+      "id": "dad1b6fd-4e90-4357-9c56-27ff55e2a8c0",
+      "note_id": "a36441ba-f5c7-453b-88f9-4d0e13132f94",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.026417Z",
+      "content": "---\ntitle: 迟到和旷工\nupdated: 2018-12-07 04:05:41Z\ncreated: 2018-12-07 04:05:00Z\n---\n\nhttp://www.mohrss.gov.cn/gkml/ldgx/ldrsdjzc/201804/t20180420_292736.html",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 154,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9d715e8f-b91f-47eb-be47-6a75ff7e5fc8",
+    "note_id": "a36441ba-f5c7-453b-88f9-4d0e13132f94",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.026423Z",
+    "finished_at": "2025-11-10T15:43:35.026423Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "900743de-ab4a-4b9e-a643-ef83beb651c0",
+      "source_path": "backups/2023年6月/中彩相关/迟到和旷工.html",
+      "checksum": "7bea3bc189b5fbb470ed6ec5549d523f9125ffdfd3fb8b9f4b1f0b0ad37e06a5"
+    },
+    "output_ref": {
+      "ingest_source": "56027968-14ca-43a5-b0b0-cae09b579906",
+      "note": "a36441ba-f5c7-453b-88f9-4d0e13132f94",
+      "variants": [
+        "44ae8a54-f4d7-4c14-b7be-e54931bb1b7c",
+        "dad1b6fd-4e90-4357-9c56-27ff55e2a8c0"
+      ]
+    },
+    "error_detail": null
+  }
+}

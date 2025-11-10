@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "69df5eac-6cc0-49e8-8add-899c5af362b7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/$ tar -zcvf - stuff_openssl des3 -salt -….html",
+    "collected_at": "2025-11-10T15:43:33.342758Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5cb4cf03e82a3770bff0745b1926c39205bb53bc5a214630203f6d5a0f0da163",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4e935a1f-7ffe-4bb3-97cb-9de6bf3cf22a",
+    "ingest_source_id": "69df5eac-6cc0-49e8-8add-899c5af362b7",
+    "canonical_title": "$ tar -zcvf - stuff_openssl des3 -salt -…",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.342762Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "$ tar -zcvf - stuff_openssl des3 -salt -….html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0d2713ab-22ec-4e47-823d-5b436144cc1b",
+      "note_id": "4e935a1f-7ffe-4bb3-97cb-9de6bf3cf22a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.342765Z",
+      "content": "---\ntitle: $ tar -zcvf - stuff|openssl des3 -salt -…\nupdated: 2019-11-16 05:54:37Z\ncreated: 2019-11-16 05:54:37Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><span>&nbsp;</span>$ tar -zcvf - stuff|openssl des3 -salt -k secretpassword | dd of=stuff.des3</div>\n<div>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; <span>将得到一个</span> stuff.des3<span>文件，用你的密码替换</span>secretpassword<span>，切勿搞忘了</span></div>\n<div>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<span>使用</span>tar<span>对加密文件解压</span></div>\n<div>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; $ dd if=stuff.des3 |openssl des3 -d -k secretpassword|tar zxf -</div>\n<div>&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;&mdash;</div>\n<div>版权声明：本文为<span>CSDN</span>博主「<span>guolb57</span>」的原创文章，遵循 <span>CC 4.0 BY-SA</span> 版权协议，转载请附上原文出处链接及本声明。</div>\n<div><span>原文链接：</span>https://blog.csdn.net/guolb57/article/details/6697812</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5cb4cf03e82a3770bff0745b1926c39205bb53bc5a214630203f6d5a0f0da163",
+        "path": "backups/2023年6月/个人的乱78糟/$ tar -zcvf - stuff_openssl des3 -salt -….html"
+      }
+    },
+    {
+      "id": "b5e6bee7-dcee-4d77-8f29-1cde3698a928",
+      "note_id": "4e935a1f-7ffe-4bb3-97cb-9de6bf3cf22a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.342768Z",
+      "content": "---\ntitle: $ tar -zcvf - stuff|openssl des3 -salt -…\nupdated: 2019-11-16 05:54:37Z\ncreated: 2019-11-16 05:54:37Z\nauthor: tangyongfeng@gmail.com\n---\n\n$ tar -zcvf - stuff|openssl des3 -salt -k secretpassword | dd of=stuff.des3\n\n将得到一个\n stuff.des3\n文件，用你的密码替换\nsecretpassword\n，切勿搞忘了\n\n使用\ntar\n对加密文件解压\n\n         $ dd if=stuff.des3 |openssl des3 -d -k secretpassword|tar zxf -\n\n————————————————\n\n版权声明：本文为\nCSDN\n博主「\nguolb57\n」的原创文章，遵循\nCC 4.0 BY-SA\n 版权协议，转载请附上原文出处链接及本声明。\n\n原文链接：\nhttps://blog.csdn.net/guolb57/article/details/6697812",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 518,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0e1d8a31-fb9e-4209-8ec0-8a9fbe754eba",
+    "note_id": "4e935a1f-7ffe-4bb3-97cb-9de6bf3cf22a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.342774Z",
+    "finished_at": "2025-11-10T15:43:33.342774Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5b27fc1f-8aee-4695-ac6e-fe7510a20491",
+      "source_path": "backups/2023年6月/个人的乱78糟/$ tar -zcvf - stuff_openssl des3 -salt -….html",
+      "checksum": "5cb4cf03e82a3770bff0745b1926c39205bb53bc5a214630203f6d5a0f0da163"
+    },
+    "output_ref": {
+      "ingest_source": "69df5eac-6cc0-49e8-8add-899c5af362b7",
+      "note": "4e935a1f-7ffe-4bb3-97cb-9de6bf3cf22a",
+      "variants": [
+        "0d2713ab-22ec-4e47-823d-5b436144cc1b",
+        "b5e6bee7-dcee-4d77-8f29-1cde3698a928"
+      ]
+    },
+    "error_detail": null
+  }
+}

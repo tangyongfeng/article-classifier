@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "fc1a9080-058b-4a27-8435-1c52556bb960",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/immigration-flowchart-roadmap-to-green-card.pdf.html",
+    "collected_at": "2025-11-10T15:43:31.693806Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "094818c26687aac1ec61a1f7cddd6e532acd676764490ce7ce5cc861b541840c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3ea9a170-550d-45e1-bd13-69de48d2f945",
+    "ingest_source_id": "fc1a9080-058b-4a27-8435-1c52556bb960",
+    "canonical_title": "immigration-flowchart-roadmap-to-green-card.pdf",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.693810Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "immigration-flowchart-roadmap-to-green-card.pdf.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9ec72d96-4d28-47f8-b921-01b60fd0ce41",
+      "note_id": "3ea9a170-550d-45e1-bd13-69de48d2f945",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.693813Z",
+      "content": "---\ntitle: immigration-flowchart-roadmap-to-green-card.pdf\nupdated: 2018-02-17 05:09:58Z\ncreated: 2018-02-17 05:09:58Z\n---\n\n\n<en-note><div><a href='../_resources/immigration-flowchart-roadmap-to-green-card.pdf'  type=\"application/pdf\" hash=\"2eda9debf10eb8da7e59b50c4ef84974\" alt=\"immigration-flowchart-roadmap-to-green-card.pdf\">  immigration-flowchart-roadmap-to-green-card.pdf</a></en-media></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "094818c26687aac1ec61a1f7cddd6e532acd676764490ce7ce5cc861b541840c",
+        "path": "backups/2023年6月/IT技术/immigration-flowchart-roadmap-to-green-card.pdf.html"
+      }
+    },
+    {
+      "id": "110000c2-4d89-4f56-a6bc-39cec5872ac9",
+      "note_id": "3ea9a170-550d-45e1-bd13-69de48d2f945",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.693816Z",
+      "content": "---\ntitle: immigration-flowchart-roadmap-to-green-card.pdf\nupdated: 2018-02-17 05:09:58Z\ncreated: 2018-02-17 05:09:58Z\n---\n\n  immigration-flowchart-roadmap-to-green-card.pdf",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 173,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "da161c69-fe17-470b-8c21-3745a45b9ed5",
+    "note_id": "3ea9a170-550d-45e1-bd13-69de48d2f945",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.693821Z",
+    "finished_at": "2025-11-10T15:43:31.693821Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ed877ef6-2a5a-4c82-9376-a85d3d136367",
+      "source_path": "backups/2023年6月/IT技术/immigration-flowchart-roadmap-to-green-card.pdf.html",
+      "checksum": "094818c26687aac1ec61a1f7cddd6e532acd676764490ce7ce5cc861b541840c"
+    },
+    "output_ref": {
+      "ingest_source": "fc1a9080-058b-4a27-8435-1c52556bb960",
+      "note": "3ea9a170-550d-45e1-bd13-69de48d2f945",
+      "variants": [
+        "9ec72d96-4d28-47f8-b921-01b60fd0ce41",
+        "110000c2-4d89-4f56-a6bc-39cec5872ac9"
+      ]
+    },
+    "error_detail": null
+  }
+}

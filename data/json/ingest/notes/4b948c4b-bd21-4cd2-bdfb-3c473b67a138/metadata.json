@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ef3c8726-4426-43c1-a124-14b1f586a651",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/给nachhilfen写信约时间.html",
+    "collected_at": "2025-11-10T15:43:35.505077Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "15127440be0b923314d454143b081cb59f151ee0a633f1c4676a695a8b668972",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4b948c4b-bd21-4cd2-bdfb-3c473b67a138",
+    "ingest_source_id": "ef3c8726-4426-43c1-a124-14b1f586a651",
+    "canonical_title": "给nachhilfen写信约时间",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.505080Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "给nachhilfen写信约时间.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ee4c45ff-1d4e-40da-b799-3b8101838de5",
+      "note_id": "4b948c4b-bd21-4cd2-bdfb-3c473b67a138",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.505083Z",
+      "content": "---\ntitle: 给nachhilfen写信约时间\nupdated: 2022-03-07 12:54:31Z\ncreated: 2022-03-07 12:53:49Z\n---\n\n\n<en-note><div><br/></div><div>1、</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "15127440be0b923314d454143b081cb59f151ee0a633f1c4676a695a8b668972",
+        "path": "backups/2023年6月/德国1/给nachhilfen写信约时间.html"
+      }
+    },
+    {
+      "id": "35d24cc8-fda0-40d4-97ec-5b9a4adac56b",
+      "note_id": "4b948c4b-bd21-4cd2-bdfb-3c473b67a138",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.505085Z",
+      "content": "---\ntitle: 给nachhilfen写信约时间\nupdated: 2022-03-07 12:54:31Z\ncreated: 2022-03-07 12:53:49Z\n---\n\n1、",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 95,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "357f5f0c-ff34-4f61-a96d-26723792a04f",
+    "note_id": "4b948c4b-bd21-4cd2-bdfb-3c473b67a138",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.505090Z",
+    "finished_at": "2025-11-10T15:43:35.505091Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "654032ee-d653-49ef-8183-cba771533e29",
+      "source_path": "backups/2023年6月/德国1/给nachhilfen写信约时间.html",
+      "checksum": "15127440be0b923314d454143b081cb59f151ee0a633f1c4676a695a8b668972"
+    },
+    "output_ref": {
+      "ingest_source": "ef3c8726-4426-43c1-a124-14b1f586a651",
+      "note": "4b948c4b-bd21-4cd2-bdfb-3c473b67a138",
+      "variants": [
+        "ee4c45ff-1d4e-40da-b799-3b8101838de5",
+        "35d24cc8-fda0-40d4-97ec-5b9a4adac56b"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e1f4616e-667e-45de-aafb-8b7ace4d9ebe",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/tony报价.html",
+    "collected_at": "2025-11-10T15:43:34.706977Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "0453df4d81f29c92040fd1d317e99334257ef1f2f108363864d146f5a580db8e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "53e8536b-88e5-4f91-97df-99f415160354",
+    "ingest_source_id": "e1f4616e-667e-45de-aafb-8b7ace4d9ebe",
+    "canonical_title": "tony报价",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.706980Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "tony报价.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "cf06ab3d-ec51-49be-a7d9-3ff0cc1619f3",
+      "note_id": "53e8536b-88e5-4f91-97df-99f415160354",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.706983Z",
+      "content": "---\ntitle: tony报价\nupdated: 2019-03-17 20:27:19Z\ncreated: 2019-03-17 20:23:06Z\n---\n\n\n\n<en-note><div>15个人月，五人三个月</div><div>每个人月2万欧元</div><div>共30万欧元</div><div><br/></div><div>一个游戏，但以后成本会越来越低</div><div><br/></div><div>上述为前期修改游戏费用</div><div><br/></div><div><br/></div><div>提供技术支持，占股份50%</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0453df4d81f29c92040fd1d317e99334257ef1f2f108363864d146f5a580db8e",
+        "path": "backups/2023年6月/中彩相关/tony报价.html"
+      }
+    },
+    {
+      "id": "42c05e18-9a76-4abd-b5b4-0756bbf3b454",
+      "note_id": "53e8536b-88e5-4f91-97df-99f415160354",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.706985Z",
+      "content": "---\ntitle: tony报价\nupdated: 2019-03-17 20:27:19Z\ncreated: 2019-03-17 20:23:06Z\n---\n\n15个人月，五人三个月\n每个人月2万欧元\n共30万欧元\n一个游戏，但以后成本会越来越低\n上述为前期修改游戏费用\n提供技术支持，占股份50%",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 152,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "611cc57d-ac52-4d9c-97f8-21a64162fbc9",
+    "note_id": "53e8536b-88e5-4f91-97df-99f415160354",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.706990Z",
+    "finished_at": "2025-11-10T15:43:34.706990Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "815e1e7e-d340-4f34-bba0-181b5974cc14",
+      "source_path": "backups/2023年6月/中彩相关/tony报价.html",
+      "checksum": "0453df4d81f29c92040fd1d317e99334257ef1f2f108363864d146f5a580db8e"
+    },
+    "output_ref": {
+      "ingest_source": "e1f4616e-667e-45de-aafb-8b7ace4d9ebe",
+      "note": "53e8536b-88e5-4f91-97df-99f415160354",
+      "variants": [
+        "cf06ab3d-ec51-49be-a7d9-3ff0cc1619f3",
+        "42c05e18-9a76-4abd-b5b4-0756bbf3b454"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "150950de-b120-4340-af21-8db8cf3c8be7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/转码基础.html",
+    "collected_at": "2025-11-10T15:43:34.542286Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "ce0abed9b63e7696a0878eef876b1c000d2c88614df762e52307f36177bcab16",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4457d195-cf86-454b-9efc-58434a76db58",
+    "ingest_source_id": "150950de-b120-4340-af21-8db8cf3c8be7",
+    "canonical_title": "转码基础",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.542289Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "转码基础.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "734597a1-a68c-4ac6-b923-bbe37e751414",
+      "note_id": "4457d195-cf86-454b-9efc-58434a76db58",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.542293Z",
+      "content": "---\ntitle: 转码基础\nupdated: 2022-08-26 06:36:54Z\ncreated: 2022-08-26 06:36:10Z\n---\n\n\n<en-note><div>关于零基础转码润美国门槛，讲了很多次了，这是最后一次&mdash;&mdash;判断自己逻辑思维和智商够不够门槛，最简单方法：</div><div><br/></div><div>1. 到coursera或者b站，学python语言；</div><div>2. 学完数据结构和算法这门课；</div><div>3. 注册Leetcode，看懂并做完1/9/13/14/20/21/26/27这八道题。</div><div><br/></div><div>如果能顺利做出来&mdash;&mdash;那么恭喜你，可以正式考虑转码了！</div><div><br/></div><div>如果作为零基础的你，能按照上面步骤学习后，完整做完这8道题，哪怕花一小时做对，或者看答案才能刚好做对&mdash;&mdash;</div><div><br/></div><div>1. 你可以认真按照notion.so/lidang/9a33b51&hellip; 这份笔记计划学习路线和选学校了；</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ce0abed9b63e7696a0878eef876b1c000d2c88614df762e52307f36177bcab16",
+        "path": "backups/2023年6月/个人的乱78糟/转码基础.html"
+      }
+    },
+    {
+      "id": "18ec1855-66f9-4f92-89b5-e78a6ea98761",
+      "note_id": "4457d195-cf86-454b-9efc-58434a76db58",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.542297Z",
+      "content": "---\ntitle: 转码基础\nupdated: 2022-08-26 06:36:54Z\ncreated: 2022-08-26 06:36:10Z\n---\n\n关于零基础转码润美国门槛，讲了很多次了，这是最后一次——判断自己逻辑思维和智商够不够门槛，最简单方法：\n1. 到coursera或者b站，学python语言；\n2. 学完数据结构和算法这门课；\n3. 注册Leetcode，看懂并做完1/9/13/14/20/21/26/27这八道题。\n如果能顺利做出来——那么恭喜你，可以正式考虑转码了！\n如果作为零基础的你，能按照上面步骤学习后，完整做完这8道题，哪怕花一小时做对，或者看答案才能刚好做对——\n1. 你可以认真按照notion.so/lidang/9a33b51… 这份笔记计划学习路线和选学校了；",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 356,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "858d8cab-aea3-4b32-9f5d-62b6b74c2503",
+    "note_id": "4457d195-cf86-454b-9efc-58434a76db58",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.542304Z",
+    "finished_at": "2025-11-10T15:43:34.542304Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d79944ea-10de-4d3d-ae99-9427a745e4f0",
+      "source_path": "backups/2023年6月/个人的乱78糟/转码基础.html",
+      "checksum": "ce0abed9b63e7696a0878eef876b1c000d2c88614df762e52307f36177bcab16"
+    },
+    "output_ref": {
+      "ingest_source": "150950de-b120-4340-af21-8db8cf3c8be7",
+      "note": "4457d195-cf86-454b-9efc-58434a76db58",
+      "variants": [
+        "734597a1-a68c-4ac6-b923-bbe37e751414",
+        "18ec1855-66f9-4f92-89b5-e78a6ea98761"
+      ]
+    },
+    "error_detail": null
+  }
+}

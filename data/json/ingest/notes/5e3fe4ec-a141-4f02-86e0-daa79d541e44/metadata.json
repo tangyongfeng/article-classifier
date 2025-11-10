@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2ca40ee5-dab0-4018-b4ca-ddb8c4ef3e64",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/定时任务yueran.de记录和调整.html",
+    "collected_at": "2025-11-10T15:43:33.913796Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "0dbecc67ba08b2aeb70869208f4cfdc23030fb2e06ac61153006482792f5025f",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "5e3fe4ec-a141-4f02-86e0-daa79d541e44",
+    "ingest_source_id": "2ca40ee5-dab0-4018-b4ca-ddb8c4ef3e64",
+    "canonical_title": "定时任务yueran.de记录和调整",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.913801Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "定时任务yueran.de记录和调整.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b2ecee0d-38a3-400c-ac5c-9219bb3d9ba2",
+      "note_id": "5e3fe4ec-a141-4f02-86e0-daa79d541e44",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.913805Z",
+      "content": "---\ntitle: 定时任务yueran.de记录和调整\nupdated: 2021-07-20 09:40:51Z\ncreated: 2021-07-17 07:05:31Z\n---\n\n\n<en-note><div><br/></div><table WIDTH=\"943px\" STYLE=\"width:943px;border-collapse:collapse;\"><colgroup><col STYLE=\"width: 373px;\"/><col STYLE=\"width: 190px;\"/><col STYLE=\"width: 190px;\"/><col STYLE=\"width: 190px;\"/></colgroup><tbody><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>任务</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>UTC</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>北京时间</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><span STYLE=\"color:rgb(0, 0, 0);\">Stock_fundamental_daily.log</span></div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>8:00</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>16:00</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>cb_daily.log</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>cb_price_andern.log</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>需增加获得时间</div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>index_daily.log</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>8:00</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>16:00</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>minuten.log</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>news.log</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>22:30</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td></tr><tr><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>stock_daily.log</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>8:00</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div>16:00</div></td><td STYLE=\"border-color:#ccc;border-width:1px;border-style:solid;padding:10px;\"><div><br/></div></td></tr></tbody></table><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0dbecc67ba08b2aeb70869208f4cfdc23030fb2e06ac61153006482792f5025f",
+        "path": "backups/2023年6月/个人的乱78糟/定时任务yueran.de记录和调整.html"
+      }
+    },
+    {
+      "id": "a51f8d5c-d574-47ea-a567-5e2012ac01be",
+      "note_id": "5e3fe4ec-a141-4f02-86e0-daa79d541e44",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.913808Z",
+      "content": "---\ntitle: 定时任务yueran.de记录和调整\nupdated: 2021-07-20 09:40:51Z\ncreated: 2021-07-17 07:05:31Z\n---\n\n任务\nUTC\n北京时间\nStock_fundamental_daily.log\n8:00\n16:00\ncb_daily.log\ncb_price_andern.log\n需增加获得时间\nindex_daily.log\n8:00\n16:00\nminuten.log\nnews.log\n22:30\nstock_daily.log\n8:00\n16:00",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 267,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4b9640ac-fe58-4370-a8b7-5475d85a044b",
+    "note_id": "5e3fe4ec-a141-4f02-86e0-daa79d541e44",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.913814Z",
+    "finished_at": "2025-11-10T15:43:33.913814Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "221640d7-67ab-48f1-9274-0a88c10a5f76",
+      "source_path": "backups/2023年6月/个人的乱78糟/定时任务yueran.de记录和调整.html",
+      "checksum": "0dbecc67ba08b2aeb70869208f4cfdc23030fb2e06ac61153006482792f5025f"
+    },
+    "output_ref": {
+      "ingest_source": "2ca40ee5-dab0-4018-b4ca-ddb8c4ef3e64",
+      "note": "5e3fe4ec-a141-4f02-86e0-daa79d541e44",
+      "variants": [
+        "b2ecee0d-38a3-400c-ac5c-9219bb3d9ba2",
+        "a51f8d5c-d574-47ea-a567-5e2012ac01be"
+      ]
+    },
+    "error_detail": null
+  }
+}

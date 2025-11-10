@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "eccce11c-1756-46b6-87fd-fc0d340b2e48",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/常用短语.html",
+    "collected_at": "2025-11-10T15:43:36.093268Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fd6fb7bfd33551227806ad41413e997fc36422edd50cbbe357460a9088b5f822",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "cc69b62f-3e37-413a-a1a2-04268f64ff5b",
+    "ingest_source_id": "eccce11c-1756-46b6-87fd-fc0d340b2e48",
+    "canonical_title": "常用短语",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.093271Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "常用短语.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e50864fc-5af4-41bc-8f8a-8108d0c6b058",
+      "note_id": "cc69b62f-3e37-413a-a1a2-04268f64ff5b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.093274Z",
+      "content": "---\ntitle: 常用短语\nupdated: 2020-05-02 21:19:22Z\ncreated: 2020-05-02 21:19:08Z\n---\n\n\n\n<en-note><div>darf ich mich vorstellen?</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fd6fb7bfd33551227806ad41413e997fc36422edd50cbbe357460a9088b5f822",
+        "path": "backups/2023年6月/德语2/常用短语.html"
+      }
+    },
+    {
+      "id": "8bbf47e0-90d3-45d4-99f2-d00f03b871c7",
+      "note_id": "cc69b62f-3e37-413a-a1a2-04268f64ff5b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.093276Z",
+      "content": "---\ntitle: 常用短语\nupdated: 2020-05-02 21:19:22Z\ncreated: 2020-05-02 21:19:08Z\n---\n\ndarf ich mich vorstellen?",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 106,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "70ac3891-1076-40f1-89a6-73861804d87b",
+    "note_id": "cc69b62f-3e37-413a-a1a2-04268f64ff5b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.093281Z",
+    "finished_at": "2025-11-10T15:43:36.093281Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "42858f83-0df5-42e2-9e17-68376c8164e8",
+      "source_path": "backups/2023年6月/德语2/常用短语.html",
+      "checksum": "fd6fb7bfd33551227806ad41413e997fc36422edd50cbbe357460a9088b5f822"
+    },
+    "output_ref": {
+      "ingest_source": "eccce11c-1756-46b6-87fd-fc0d340b2e48",
+      "note": "cc69b62f-3e37-413a-a1a2-04268f64ff5b",
+      "variants": [
+        "e50864fc-5af4-41bc-8f8a-8108d0c6b058",
+        "8bbf47e0-90d3-45d4-99f2-d00f03b871c7"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e06caf2d-b391-4bc6-b118-8d269756ff15",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-4.html",
+    "collected_at": "2025-11-10T15:43:34.066550Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "efe77d6528c5e90b88c982c85391ba0dd598707ab7faa55d570873ca95307b60",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "44131787-6089-4ec2-8503-0dc045407795",
+    "ingest_source_id": "e06caf2d-b391-4bc6-b118-8d269756ff15",
+    "canonical_title": "无标题笔记-4",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:34.066554Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-4.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d6aed4e5-5ce9-4273-a7d1-304da7b83057",
+      "note_id": "44131787-6089-4ec2-8503-0dc045407795",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.066556Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2022-02-20 09:41:58Z\ncreated: 2022-02-20 09:40:36Z\n---\n\n\n<en-note><div>1.Eine Apfelsine hat viele Vitamine.</div><div>2.Eine Geige hat vier Saiten.</div><div><br/></div><div>3.Haie k&ouml;nnen bei&szlig;en.</div><div>4.Der Kaiser ist ein m&auml;chtiger Mann.</div><div><br/></div><div>5.Wer sich ungesund ern&auml;hrt, lebt gef&auml;hrlich.</div><div>6.Wer die Fahne der Piraten sah, war in gro&szlig;er Gefahr.</div><div>7.Auf der Stra&szlig;e steht ein gro&szlig;er Bus.</div><div>8.Die F&uuml;&szlig;e des Riesen stinken stark nach Schwei&szlig;.</div><div>9.Die Maschine in der Fabrik ist kaputt.</div><div>10. Die Biene fliegt summend &uuml;ber die Wiese.</div><div>11. Sehr viel Zucker macht S&uuml;&szlig;igkeiten so s&uuml;&szlig;.</div><div>12. Der gute Koch r&uuml;hrt den Teig mit viel Gef&uuml;hl.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "efe77d6528c5e90b88c982c85391ba0dd598707ab7faa55d570873ca95307b60",
+        "path": "backups/2023年6月/个人的乱78糟/无标题笔记-4.html"
+      }
+    },
+    {
+      "id": "ab01eded-9a46-4d22-94d3-f321ab47d80b",
+      "note_id": "44131787-6089-4ec2-8503-0dc045407795",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.066559Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2022-02-20 09:41:58Z\ncreated: 2022-02-20 09:40:36Z\n---\n\n1.Eine Apfelsine hat viele Vitamine.\n2.Eine Geige hat vier Saiten.\n3.Haie können beißen.\n4.Der Kaiser ist ein mächtiger Mann.\n5.Wer sich ungesund ernährt, lebt gefährlich.\n6.Wer die Fahne der Piraten sah, war in großer Gefahr.\n7.Auf der Straße steht ein großer Bus.\n8.Die Füße des Riesen stinken stark nach Schweiß.\n9.Die Maschine in der Fabrik ist kaputt.\n10. Die Biene fliegt summend über die Wiese.\n11. Sehr viel Zucker macht Süßigkeiten so süß.\n12. Der gute Koch rührt den Teig mit viel Gefühl.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 580,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2d33a58a-1820-45a6-84de-08c9a9430ded",
+    "note_id": "44131787-6089-4ec2-8503-0dc045407795",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.066563Z",
+    "finished_at": "2025-11-10T15:43:34.066564Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "92061b72-d6ff-4f26-a6bb-3636e4c8eac5",
+      "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-4.html",
+      "checksum": "efe77d6528c5e90b88c982c85391ba0dd598707ab7faa55d570873ca95307b60"
+    },
+    "output_ref": {
+      "ingest_source": "e06caf2d-b391-4bc6-b118-8d269756ff15",
+      "note": "44131787-6089-4ec2-8503-0dc045407795",
+      "variants": [
+        "d6aed4e5-5ce9-4273-a7d1-304da7b83057",
+        "ab01eded-9a46-4d22-94d3-f321ab47d80b"
+      ]
+    },
+    "error_detail": null
+  }
+}

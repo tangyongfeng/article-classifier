@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "73345e18-c7c6-4257-9080-9de9039c971c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/作文谨记.html",
+    "collected_at": "2025-11-10T15:43:35.837082Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "80cc67016700ce508a3f86d8169f72bd26661127b4890b2d0a0fefd63fa5ec33",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4f3741dd-5856-495a-b411-73a6dcf7e3b5",
+    "ingest_source_id": "73345e18-c7c6-4257-9080-9de9039c971c",
+    "canonical_title": "作文谨记",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.837088Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "作文谨记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c685b97d-2fd9-4392-ae32-fd8a27c3058b",
+      "note_id": "4f3741dd-5856-495a-b411-73a6dcf7e3b5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.837091Z",
+      "content": "---\ntitle: 作文谨记\nupdated: 2020-12-15 09:08:52Z\ncreated: 2020-12-14 20:26:57Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note><ol><li><div>邀请参加去哪儿需要加冠词，常见的地点以das为多，所以zu 的话，就是zum</div></li><li><div>只有dass ,weil 是带起从句的带起词</div></li><li><div>不反对是nicht dagegen ，不是nicht gegen</div></li><li><div>zusammen 在被zusammen 之前，例如 ich will zusammen mit Mike kommen</div></li><li><div>和谁一起去，是kommen 不是gehen ，例如上例。</div></li><li><div>更喜欢的交通工具，是ich fahre lieber der Bahn。</div></li><li><div>Ich vermisse sehr die Tage, die wir zusammen waren.</div></li><li><div>letzten Monat war ich in China, deshalb habe ich nicht geschrieben.</div></li><li><div>Ich bin jetzt in Deutschland, und wir k&ouml;nnen uns jederzeit schreiben.&nbsp;</div></li><li><div>将要做和将要发生的事情是werde/wirst/wird/werden ，不是will，说别人也要加上。ein Sch&uuml;ler aus China <span STYLE=\"--inversion-type-color:  simple; color: rgb(224, 223, 25);\">wird</span>&nbsp;dich besuchen</div></li><li><div>ich habe dich lange nicht gesehen. 很久是lange ，没有其他</div></li><li><div>直接宾语是四格</div></li><li><div>带起从句，除了ich freue mich 还可以 es ist sch&ouml;n.</div></li><li><div>Das w&auml;re eine wichtige <span STYLE=\"--inversion-type-color: simple; color: rgb(255, 251, 0);\">Hilfe f&uuml;r ihm</span></div></li><li><div><span STYLE=\"font-weight: bold;\">seit, mit, zu, bei, aus, au&szlig;er, ab, gegen&uuml;ber, nach, von </span>跟三格</div></li><li><div><br/></div></li></ol><div><span STYLE=\"--inversion-type-color: simple; color: rgb(255, 251, 0);\"> </span></div>\n<hr/>在2020年12月15日 10:06:47出现冲突的修改：<hr/><ol><li><div>邀请参加去哪儿需要加冠词，常见的地点以das为多，所以zu 的话，就是zum</div></li><li><div>只有dass ,weil 是带起从句的带起词</div></li><li><div>反对是nicht dagegen ，不是nicht gegen</div></li><li><div>zusammen 在被zusammen 之前，例如 ich will zusammen mit Mike kommen</div></li><li><div>和谁一起去，是kommen 不是gehen ，例如上例。</div></li><li><div>更喜欢的交通工具，是ich fahre lieber der Bahn。</div></li><li><div>Ich vermisse sehr die Tage, die wir zusammen waren.</div></li><li><div>letzten Monat war ich in China, deshalb habe ich nicht geschrieben.</div></li><li><div>Ich bin jetzt in Deutschland, und wir k&ouml;nnen uns jederzeit schreiben.&nbsp;</div></li><li><div>将要做和将要发生的事情是werde/wirst/wird/werden ，不是will，说别人也要加上。ein Sch&uuml;ler aus China <span STYLE=\"color: rgb(224, 223, 25); --inversion-type-color:  simple;\">wird</span>&nbsp;dich besuchen</div></li><li><div>ich habe dich lange nicht gesehen. 很久是lange ，没有其他</div></li><li><div>直接宾语是四格</div></li><li><div>带起从句，除了ich freue mich 还可以 es ist sch&ouml;n.</div></li><li><div>Das w&auml;re eine wichtige <span STYLE=\"color: rgb(255, 251, 0); --inversion-type-color: simple;\">Hilfe f&uuml;r ihm</span></div></li><li><div><span STYLE=\"font-weight: bold;\">seit, mit, zu, bei, aus, au&szlig;er, ab, gegen&uuml;ber, nach, von </span>跟三格</div></li><li><div><br/></div></li></ol><div><span STYLE=\"--inversion-type-color: simple; color: rgb(255, 251, 0);\"> </span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "80cc67016700ce508a3f86d8169f72bd26661127b4890b2d0a0fefd63fa5ec33",
+        "path": "backups/2023年6月/德语1/作文谨记.html"
+      }
+    },
+    {
+      "id": "d811b5e7-752f-4280-bd66-710cbc9d221a",
+      "note_id": "4f3741dd-5856-495a-b411-73a6dcf7e3b5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.837095Z",
+      "content": "---\ntitle: 作文谨记\nupdated: 2020-12-15 09:08:52Z\ncreated: 2020-12-14 20:26:57Z\nauthor: tangyongfeng@gmail.com\n---\n\n邀请参加去哪儿需要加冠词，常见的地点以das为多，所以zu 的话，就是zum\n只有dass ,weil 是带起从句的带起词\n不反对是nicht dagegen ，不是nicht gegen\nzusammen 在被zusammen 之前，例如 ich will zusammen mit Mike kommen\n和谁一起去，是kommen 不是gehen ，例如上例。\n更喜欢的交通工具，是ich fahre lieber der Bahn。\nIch vermisse sehr die Tage, die wir zusammen waren.\nletzten Monat war ich in China, deshalb habe ich nicht geschrieben.\nIch bin jetzt in Deutschland, und wir können uns jederzeit schreiben. \n将要做和将要发生的事情是werde/wirst/wird/werden ，不是will，说别人也要加上。ein Schüler aus China\nwird\n dich besuchen\nich habe dich lange nicht gesehen. 很久是lange ，没有其他\n直接宾语是四格\n带起从句，除了ich freue mich 还可以 es ist schön.\nDas wäre eine wichtige\nHilfe für ihm\nseit, mit, zu, bei, aus, außer, ab, gegenüber, nach, von\n跟三格\n\n在2020年12月15日 10:06:47出现冲突的修改：\n邀请参加去哪儿需要加冠词，常见的地点以das为多，所以zu 的话，就是zum\n只有dass ,weil 是带起从句的带起词\n反对是nicht dagegen ，不是nicht gegen\nzusammen 在被zusammen 之前，例如 ich will zusammen mit Mike kommen\n和谁一起去，是kommen 不是gehen ，例如上例。\n更喜欢的交通工具，是ich fahre lieber der Bahn。\nIch vermisse sehr die Tage, die wir zusammen waren.\nletzten Monat war ich in China, deshalb habe ich nicht geschrieben.\nIch bin jetzt in Deutschland, und wir können uns jederzeit schreiben. \n将要做和将要发生的事情是werde/wirst/wird/werden ，不是will，说别人也要加上。ein Schüler aus China\nwird\n dich besuchen\nich habe dich lange nicht gesehen. 很久是lange ，没有其他\n直接宾语是四格\n带起从句，除了ich freue mich 还可以 es ist schön.\nDas wäre eine wichtige\nHilfe für ihm\nseit, mit, zu, bei, aus, außer, ab, gegenüber, nach, von\n跟三格",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1545,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7f68151e-c25a-47e1-b10e-86c1fa029c90",
+    "note_id": "4f3741dd-5856-495a-b411-73a6dcf7e3b5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.837101Z",
+    "finished_at": "2025-11-10T15:43:35.837102Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "62a2e5d9-03d6-4d29-bd20-e2a3e85a8252",
+      "source_path": "backups/2023年6月/德语1/作文谨记.html",
+      "checksum": "80cc67016700ce508a3f86d8169f72bd26661127b4890b2d0a0fefd63fa5ec33"
+    },
+    "output_ref": {
+      "ingest_source": "73345e18-c7c6-4257-9080-9de9039c971c",
+      "note": "4f3741dd-5856-495a-b411-73a6dcf7e3b5",
+      "variants": [
+        "c685b97d-2fd9-4392-ae32-fd8a27c3058b",
+        "d811b5e7-752f-4280-bd66-710cbc9d221a"
+      ]
+    },
+    "error_detail": null
+  }
+}

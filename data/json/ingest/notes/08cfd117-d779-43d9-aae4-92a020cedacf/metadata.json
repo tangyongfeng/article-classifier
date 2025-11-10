@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a9523e56-d3d4-4298-826d-6e3179d88817",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-16.html",
+    "collected_at": "2025-11-10T15:43:34.058094Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "451fb6636ccb862acce426a9abbe6eff644e665a66c87246c1a66f83e7428d4f",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "08cfd117-d779-43d9-aae4-92a020cedacf",
+    "ingest_source_id": "a9523e56-d3d4-4298-826d-6e3179d88817",
+    "canonical_title": "无标题笔记-16",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.058098Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-16.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bd495910-b7b8-4a4d-b21d-af50d4a0c04d",
+      "note_id": "08cfd117-d779-43d9-aae4-92a020cedacf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.058101Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2014-11-29 18:39:31Z\ncreated: 2014-11-29 18:39:15Z\nsource: http://t66y.com/htm_data/7/1410/1263393.html\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"http://www.viidii.info/?http://115______com/lb/5lbb7xltfe2c&amp;z\">http://www.viidii.info/?http://115______com/lb/5lbb7xltfe2c&amp;z</a><div><br/></div><div><a HREF=\"http://www.viidii.info/?http://115______com/lb/5lbb7xltfe2c&amp;amp;z\" STYLE=\"text-decoration: none; color: rgb(47, 95, 161); font-family: 細明體; text-align: left; cursor: pointer; font-size: 14px; background-color: rgb(222, 245, 205); background-position: initial initial; background-repeat: initial initial;\" TARGET=\"_blank\">http://115.com/lb/5lbb7xltfe2c</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "451fb6636ccb862acce426a9abbe6eff644e665a66c87246c1a66f83e7428d4f",
+        "path": "backups/2023年6月/个人的乱78糟/无标题笔记-16.html"
+      }
+    },
+    {
+      "id": "3ee58272-1160-49ad-b4fd-fe9170c17198",
+      "note_id": "08cfd117-d779-43d9-aae4-92a020cedacf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.058103Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2014-11-29 18:39:31Z\ncreated: 2014-11-29 18:39:15Z\nsource: http://t66y.com/htm_data/7/1410/1263393.html\n---\n\nhttp://www.viidii.info/?http://115______com/lb/5lbb7xltfe2c&z\nhttp://115.com/lb/5lbb7xltfe2c",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 227,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6d4e7ce1-2224-49e8-8e56-96b66cd8d7a7",
+    "note_id": "08cfd117-d779-43d9-aae4-92a020cedacf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.058108Z",
+    "finished_at": "2025-11-10T15:43:34.058108Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c68cf6a0-8b01-4aad-8583-d5d0786a84ad",
+      "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-16.html",
+      "checksum": "451fb6636ccb862acce426a9abbe6eff644e665a66c87246c1a66f83e7428d4f"
+    },
+    "output_ref": {
+      "ingest_source": "a9523e56-d3d4-4298-826d-6e3179d88817",
+      "note": "08cfd117-d779-43d9-aae4-92a020cedacf",
+      "variants": [
+        "bd495910-b7b8-4a4d-b21d-af50d4a0c04d",
+        "3ee58272-1160-49ad-b4fd-fe9170c17198"
+      ]
+    },
+    "error_detail": null
+  }
+}

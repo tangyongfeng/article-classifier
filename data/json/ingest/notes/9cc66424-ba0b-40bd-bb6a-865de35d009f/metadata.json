@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8ecf43c4-13db-4ab7-af2e-9b7ed45228a1",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/允许博彩的地区和组织.html",
+    "collected_at": "2025-11-10T15:43:32.206017Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ac88bebd17820fddd477bbcbea52984bfe0881bf69d97d0db13eefb37964b657",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9cc66424-ba0b-40bd-bb6a-865de35d009f",
+    "ingest_source_id": "8ecf43c4-13db-4ab7-af2e-9b7ed45228a1",
+    "canonical_title": "允许博彩的地区和组织",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.206021Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "允许博彩的地区和组织.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d3d956df-1c85-4285-ac0b-b54daaceefd3",
+      "note_id": "9cc66424-ba0b-40bd-bb6a-865de35d009f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.206024Z",
+      "content": "---\ntitle: 允许博彩的地区和组织\nupdated: 2017-03-07 05:32:57Z\ncreated: 2017-03-07 05:32:24Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n\n<en-note><div><a HREF=\"http://www.rga.eu.com/pages/en/gambling-in-the-eu.html\">http://www.rga.eu.com/pages/en/gambling-in-the-eu.html</a>&nbsp; 欧洲远程博彩联盟</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ac88bebd17820fddd477bbcbea52984bfe0881bf69d97d0db13eefb37964b657",
+        "path": "backups/2023年6月/IT技术/允许博彩的地区和组织.html"
+      }
+    },
+    {
+      "id": "c2c95e3f-a670-424b-93da-333e68d37bd7",
+      "note_id": "9cc66424-ba0b-40bd-bb6a-865de35d009f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.206026Z",
+      "content": "---\ntitle: 允许博彩的地区和组织\nupdated: 2017-03-07 05:32:57Z\ncreated: 2017-03-07 05:32:24Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttp://www.rga.eu.com/pages/en/gambling-in-the-eu.html\n  欧洲远程博彩联盟",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 183,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a335d5b3-1419-4833-826d-dbc26804640f",
+    "note_id": "9cc66424-ba0b-40bd-bb6a-865de35d009f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.206031Z",
+    "finished_at": "2025-11-10T15:43:32.206032Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5e4654b2-3011-4d0e-9618-b1b027ce459e",
+      "source_path": "backups/2023年6月/IT技术/允许博彩的地区和组织.html",
+      "checksum": "ac88bebd17820fddd477bbcbea52984bfe0881bf69d97d0db13eefb37964b657"
+    },
+    "output_ref": {
+      "ingest_source": "8ecf43c4-13db-4ab7-af2e-9b7ed45228a1",
+      "note": "9cc66424-ba0b-40bd-bb6a-865de35d009f",
+      "variants": [
+        "d3d956df-1c85-4285-ac0b-b54daaceefd3",
+        "c2c95e3f-a670-424b-93da-333e68d37bd7"
+      ]
+    },
+    "error_detail": null
+  }
+}

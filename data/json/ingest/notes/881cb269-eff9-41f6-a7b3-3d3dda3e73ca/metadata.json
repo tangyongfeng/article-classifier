@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ac17b6b1-ac1e-4948-b2d0-3849a918fa0a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/合作小记.html",
+    "collected_at": "2025-11-10T15:43:35.848756Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bfad54e77219183ec12232294c6f8c5d884251c70ca06f9ead2d66b5bc15da03",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "881cb269-eff9-41f6-a7b3-3d3dda3e73ca",
+    "ingest_source_id": "ac17b6b1-ac1e-4948-b2d0-3849a918fa0a",
+    "canonical_title": "合作小记",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.848761Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "合作小记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c9afbb40-4e9a-4f65-acfe-38bbba5b8b9f",
+      "note_id": "881cb269-eff9-41f6-a7b3-3d3dda3e73ca",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.848765Z",
+      "content": "---\ntitle: 合作小记\nupdated: 2020-12-14 22:07:41Z\ncreated: 2020-12-14 22:07:32Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bfad54e77219183ec12232294c6f8c5d884251c70ca06f9ead2d66b5bc15da03",
+        "path": "backups/2023年6月/德语1/合作小记.html"
+      }
+    },
+    {
+      "id": "5dbbe771-95a3-495c-a3a3-80faf8e24aa1",
+      "note_id": "881cb269-eff9-41f6-a7b3-3d3dda3e73ca",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.848768Z",
+      "content": "---\ntitle: 合作小记\nupdated: 2020-12-14 22:07:41Z\ncreated: 2020-12-14 22:07:32Z\nauthor: tangyongfeng@gmail.com\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 110,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ecd2d416-8ebc-4e52-9964-472e9c996d06",
+    "note_id": "881cb269-eff9-41f6-a7b3-3d3dda3e73ca",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.848774Z",
+    "finished_at": "2025-11-10T15:43:35.848775Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6f21f8fe-77bb-4881-a6f1-ec8e5297f0c2",
+      "source_path": "backups/2023年6月/德语1/合作小记.html",
+      "checksum": "bfad54e77219183ec12232294c6f8c5d884251c70ca06f9ead2d66b5bc15da03"
+    },
+    "output_ref": {
+      "ingest_source": "ac17b6b1-ac1e-4948-b2d0-3849a918fa0a",
+      "note": "881cb269-eff9-41f6-a7b3-3d3dda3e73ca",
+      "variants": [
+        "c9afbb40-4e9a-4f65-acfe-38bbba5b8b9f",
+        "5dbbe771-95a3-495c-a3a3-80faf8e24aa1"
+      ]
+    },
+    "error_detail": null
+  }
+}

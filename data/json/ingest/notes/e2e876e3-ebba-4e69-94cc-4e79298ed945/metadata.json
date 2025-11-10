@@ -1,0 +1,104 @@
+{
+  "ingest_source": {
+    "id": "ed43552e-fbd2-4299-b4e8-c426578cac68",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/什么是python装饰器.html",
+    "collected_at": "2025-11-10T15:43:32.152065Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3a6b6bc275cc96c7fe220a71706c2a5a9ca3fbfd4ba7a15dcc51498827d1e080",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e2e876e3-ebba-4e69-94cc-4e79298ed945",
+    "ingest_source_id": "ed43552e-fbd2-4299-b4e8-c426578cac68",
+    "canonical_title": "什么是python装饰器",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.152069Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "什么是python装饰器.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "df0b7846-9135-4eb6-be2c-11764a3e5714",
+      "note_id": "e2e876e3-ebba-4e69-94cc-4e79298ed945",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.152072Z",
+      "content": "---\ntitle: 什么是python装饰器\nupdated: 2022-09-05 20:54:33Z\ncreated: 2022-09-05 20:53:08Z\ntags:\n  - python\n---\n\n\n<en-note><div>2分钟告诉你什么是python装饰器。</div><div><br/></div><div>一、什么是装饰器</div><div>Python的装饰器的英文名叫Decorator，这个和设计模式中的Decorator Pattern是两种东西。</div><div>Python中的装饰器主要用于对已经有的模块做一些&ldquo;修饰工作&rdquo;。比如说，我们经常需要在函数调用前后自动打印日志，又不想要改变原有函数的模块，这个时候，我们便可以写一个打印log的装饰器。</div><div><br/></div><div>二、Hello World</div><div><br/></div><div># 定义log装饰器</div><div>def log(func):</div><div>&nbsp; &nbsp; def wrapper(*args, **kw):</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print(&apos;start %s()&apos; % func.__name__)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; return func(*args, **kw)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print(&apos;end %s()&apos; % func.__name__)</div><div>&nbsp; &nbsp; return wrapper</div><div>@log</div><div>def foo():</div><div>&nbsp; &nbsp; print(&apos;foo function ...&apos;)</div><div>foo()</div><div>当运行代码，你会发现有如下输出：</div><div><br/></div><div>C:\\Users\\maoao\\Desktop\\Project&gt;python Test.py</div><div>start foo()</div><div>foo function ...</div><div>end foo()</div><div>有木有发现很神奇？</div><div><br/></div><div>三、Decorator 的本质</div><div>对于Python的这个@注解语法糖来说，当你在用某个@decorator来修饰某个函数func时，如下所示:</div><div><br/></div><div>@log</div><div>def foo():</div><div>&nbsp; &nbsp; print(&apos;foo function ...&apos;)</div><div>相当于执行了语句：</div><div><br/></div><div>1</div><div>foo = log(foo)</div><div>其实就是把一个函数当参数传到另一个函数中，然后再把decorator这个函数的返回值赋值回了原来的func。</div><div><br/></div><div>不信我们可以做如下验证：</div><div><br/></div><div>def fuck(fn):</div><div>&nbsp; &nbsp; print (&quot;fuck %s ! &quot; % fn.__name__.upper())</div><div> </div><div>@fuck</div><div>def gfw():</div><div>&nbsp; &nbsp; pass</div><div>还没有执行gfw就输出我们每个人的心声了有木有。</div><div><br/></div><div>知道这点本质，当你看到有多个decorator：</div><div><br/></div><div>@decorator_one</div><div>@decorator_two</div><div>def func():</div><div>&nbsp; &nbsp; pass</div><div>相当于：</div><div><br/></div><div>func = decorator_one(decorator_two(func))</div><div>带参数的decorator：</div><div><br/></div><div>@decorator(arg1, arg2)</div><div>def func():</div><div>&nbsp; &nbsp; pass</div><div>相当于：</div><div><br/></div><div>func = decorator(arg1,arg2)(func)</div><div>这意味着decorator(arg1, arg2)这个函数需要返回一个&ldquo;真正的decorator&rdquo;。</div><div><br/></div><div>四、带参数的装饰器示例</div><div>假设我们可以编写一个带参数的装饰器：</div><div><br/></div><div>def log(text):</div><div>&nbsp; &nbsp; def decorator(func):</div><div>&nbsp; &nbsp; &nbsp; &nbsp; def wrapper(*args, **kw):</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print(&apos;%s, start %s()&apos; % (text, func.__name__))</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; func(*args, **kw)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print(&apos;%s, end %s()&apos; % (text, func.__name__))</div><div>&nbsp; &nbsp; &nbsp; &nbsp; wrapper.__name__ = func.__name__</div><div>&nbsp; &nbsp; &nbsp; &nbsp; return wrapper</div><div>&nbsp; &nbsp; return decorator</div><div>@log(&apos;SHUN_TAG&apos;)</div><div>def foo():</div><div>&nbsp; &nbsp; print(&apos;foo function ...&apos;)</div><div>foo()</div><div>print foo.__name__</div><div># 输出：</div><div># C:\\Users\\maoao\\Desktop\\Project&gt;python Test.py</div><div># SHUN_TAG, start foo()</div><div># foo function ...</div><div># SHUN_TAG, end foo()</div><div># foo</div><div>@@log(&lsquo;SHUN_TAG&rsquo;)实际上会执行如下语句：</div><div>foo = log(&apos;SHUN_TAG&apos;)(foo)</div><div>然后最终会返回wrapper函数给foo，另外要记得wrapper.__name__ = func.__name__，防止有些函数签名的代码回报错。</div><div><br/></div><div>也可以用@functools.wraps(func)来代替上述写法：</div><div><br/></div><div><br/></div><div>import functools</div><div>def log(text):</div><div>&nbsp; &nbsp; def decorator(func):</div><div>&nbsp; &nbsp; &nbsp; &nbsp; @functools.wraps(func)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; def wrapper(*args, **kw):</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print(&apos;%s, start %s()&apos; % (text, func.__name__))</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; func(*args, **kw)</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; print(&apos;%s, end %s()&apos; % (text, func.__name__))</div><div>&nbsp; &nbsp; &nbsp; &nbsp; return wrapper</div><div>&nbsp; &nbsp; return decorator</div><div>其实也没有什么复杂的东西。</div><div><br/></div><div>五、class式的 Decorator</div><div>最后再来看下decorator的class方式，还是看个示例：</div><div><br/></div><div><br/></div><div>class myDecorator(object):</div><div> </div><div>&nbsp; &nbsp; def __init__(self, fn):</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print &quot;inside myDecorator.__init__()&quot;</div><div>&nbsp; &nbsp; &nbsp; &nbsp; self.fn = fn</div><div> </div><div>&nbsp; &nbsp; def __call__(self):</div><div>&nbsp; &nbsp; &nbsp; &nbsp; self.fn()</div><div>&nbsp; &nbsp; &nbsp; &nbsp; print &quot;inside myDecorator.__call__()&quot;</div><div> </div><div>@myDecorator</div><div>def aFunction():</div><div>&nbsp; &nbsp; print &quot;inside aFunction()&quot;</div><div> </div><div>print &quot;Finished decorating aFunction()&quot;</div><div> </div><div>aFunction()</div><div> </div><div># 输出：</div><div># inside myDecorator.__init__()</div><div># Finished decorating aFunction()</div><div># inside aFunction()</div><div># inside myDecorator.__call__()</div><div>用类的方式声明一个decorator。我们可以看到这个类中有两个成员：</div><div><br/></div><div>一个是init()，这个方法是在我们给某个函数decorator时被调用，所以，需要有一个fn的参数，也就是被decorator的函数。</div><div>一个是call()，这个方法是在我们调用被decorator函数时被调用的。</div><div>上面输出可以看到整个程序的执行顺序。</div><div>六、总结</div><div>decorator可以增强函数的功能，定义起来虽然有点复杂，但使用起来非常灵活和方便。</div><div><br/></div><div>References:</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3a6b6bc275cc96c7fe220a71706c2a5a9ca3fbfd4ba7a15dcc51498827d1e080",
+        "path": "backups/2023年6月/IT技术/什么是python装饰器.html"
+      }
+    },
+    {
+      "id": "65a92f24-60f0-4bce-9bf4-aee45c62f40a",
+      "note_id": "e2e876e3-ebba-4e69-94cc-4e79298ed945",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.152074Z",
+      "content": "---\ntitle: 什么是python装饰器\nupdated: 2022-09-05 20:54:33Z\ncreated: 2022-09-05 20:53:08Z\ntags:\n  - python\n---\n\n2分钟告诉你什么是python装饰器。\n一、什么是装饰器\nPython的装饰器的英文名叫Decorator，这个和设计模式中的Decorator Pattern是两种东西。\nPython中的装饰器主要用于对已经有的模块做一些“修饰工作”。比如说，我们经常需要在函数调用前后自动打印日志，又不想要改变原有函数的模块，这个时候，我们便可以写一个打印log的装饰器。\n二、Hello World\n# 定义log装饰器\ndef log(func):\n    def wrapper(*args, **kw):\n        print('start %s()' % func.__name__)\n        return func(*args, **kw)\n        print('end %s()' % func.__name__)\n    return wrapper\n\ndef foo():\n    print('foo function ...')\nfoo()\n当运行代码，你会发现有如下输出：\nC:\\Users\\maoao\\Desktop\\Project>python Test.py\nstart foo()\nfoo function ...\nend foo()\n有木有发现很神奇？\n三、Decorator 的本质\n对于Python的这个@注解语法糖来说，当你在用某个@decorator来修饰某个函数func时，如下所示:\n\ndef foo():\n    print('foo function ...')\n相当于执行了语句：\n1\nfoo = log(foo)\n其实就是把一个函数当参数传到另一个函数中，然后再把decorator这个函数的返回值赋值回了原来的func。\n不信我们可以做如下验证：\ndef fuck(fn):\n    print (\"fuck %s ! \" % fn.__name__.upper())\n\ndef gfw():\n    pass\n还没有执行gfw就输出我们每个人的心声了有木有。\n知道这点本质，当你看到有多个decorator：\n\ndef func():\n    pass\n相当于：\nfunc = decorator_one(decorator_two(func))\n带参数的decorator：\n@decorator(arg1, arg2)\ndef func():\n    pass\n相当于：\nfunc = decorator(arg1,arg2)(func)\n这意味着decorator(arg1, arg2)这个函数需要返回一个“真正的decorator”。\n四、带参数的装饰器示例\n假设我们可以编写一个带参数的装饰器：\ndef log(text):\n    def decorator(func):\n        def wrapper(*args, **kw):\n            print('%s, start %s()' % (text, func.__name__))\n            func(*args, **kw)\n            print('%s, end %s()' % (text, func.__name__))\n        wrapper.__name__ = func.__name__\n        return wrapper\n    return decorator\n@log('SHUN_TAG')\ndef foo():\n    print('foo function ...')\nfoo()\nprint foo.__name__\n# 输出：\n# C:\\Users\\maoao\\Desktop\\Project>python Test.py\n# SHUN_TAG, start foo()\n# foo function ...\n# SHUN_TAG, end foo()\n# foo\n@@log(‘SHUN_TAG’)实际上会执行如下语句：\nfoo = log('SHUN_TAG')(foo)\n然后最终会返回wrapper函数给foo，另外要记得wrapper.__name__ = func.__name__，防止有些函数签名的代码回报错。\n也可以用@functools.wraps(func)来代替上述写法：\nimport functools\ndef log(text):\n    def decorator(func):\n        @functools.wraps(func)\n        def wrapper(*args, **kw):\n            print('%s, start %s()' % (text, func.__name__))\n            func(*args, **kw)\n            print('%s, end %s()' % (text, func.__name__))\n        return wrapper\n    return decorator\n其实也没有什么复杂的东西。\n五、class式的 Decorator\n最后再来看下decorator的class方式，还是看个示例：\nclass myDecorator(object):\n\n    def __init__(self, fn):\n        print \"inside myDecorator.__init__()\"\n        self.fn = fn\n\n    def __call__(self):\n        self.fn()\n        print \"inside myDecorator.__call__()\"\n\ndef aFunction():\n    print \"inside aFunction()\"\n\nprint \"Finished decorating aFunction()\"\n\naFunction()\n\n# 输出：\n# inside myDecorator.__init__()\n# Finished decorating aFunction()\n# inside aFunction()\n# inside myDecorator.__call__()\n用类的方式声明一个decorator。我们可以看到这个类中有两个成员：\n一个是init()，这个方法是在我们给某个函数decorator时被调用，所以，需要有一个fn的参数，也就是被decorator的函数。\n一个是call()，这个方法是在我们调用被decorator函数时被调用的。\n上面输出可以看到整个程序的执行顺序。\n六、总结\ndecorator可以增强函数的功能，定义起来虽然有点复杂，但使用起来非常灵活和方便。\nReferences:",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 2969,
+        "rule_count": 3,
+        "applied_rules": [
+          {
+            "rule_id": "social_handles",
+            "description": "Drop standalone social handles and hashtags",
+            "note": "removed social handle only lines"
+          },
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "66611dd4-b07b-4803-aea5-34db69dba646",
+    "note_id": "e2e876e3-ebba-4e69-94cc-4e79298ed945",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.152079Z",
+    "finished_at": "2025-11-10T15:43:32.152080Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a2423436-d660-4c07-865c-a44802fc38fd",
+      "source_path": "backups/2023年6月/IT技术/什么是python装饰器.html",
+      "checksum": "3a6b6bc275cc96c7fe220a71706c2a5a9ca3fbfd4ba7a15dcc51498827d1e080"
+    },
+    "output_ref": {
+      "ingest_source": "ed43552e-fbd2-4299-b4e8-c426578cac68",
+      "note": "e2e876e3-ebba-4e69-94cc-4e79298ed945",
+      "variants": [
+        "df0b7846-9135-4eb6-be2c-11764a3e5714",
+        "65a92f24-60f0-4bce-9bf4-aee45c62f40a"
+      ]
+    },
+    "error_detail": null
+  }
+}

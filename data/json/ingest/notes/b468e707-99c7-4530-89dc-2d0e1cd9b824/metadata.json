@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "39a902ec-6bb5-4527-bed7-e773c35adc23",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/室内尺寸.html",
+    "collected_at": "2025-11-10T15:43:35.415411Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ko",
+    "captured_at": null,
+    "checksum": "59bfa8f0f01b72f2d0acbfd9c13a56b41139e97f3c67ef0659c18345471dbb3a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b468e707-99c7-4530-89dc-2d0e1cd9b824",
+    "ingest_source_id": "39a902ec-6bb5-4527-bed7-e773c35adc23",
+    "canonical_title": "室内尺寸",
+    "language": "ko",
+    "ingested_at": "2025-11-10T15:43:35.415416Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "室内尺寸.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b2597900-3740-4139-9dba-4f785a894439",
+      "note_id": "b468e707-99c7-4530-89dc-2d0e1cd9b824",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.415419Z",
+      "content": "---\ntitle: 室内尺寸\nupdated: 2019-09-27 12:20:31Z\ncreated: 2019-05-04 10:07:22Z\n---\n\n\n\n<en-note><div>主卧</div><div>窗宽 3.07</div><div>高2.07</div><div>套内 2.7+0.98+0.86 x3</div><div>客厅窗宽1.93</div><div>小门宽90</div><div><br/></div><div><span STYLE=\"font-size: 14px;\">衣柜位置，3米X0.60米X2.6米</span></div><div><span STYLE=\"font-size: 14px;\">左 0.975</span></div><div><span STYLE=\"font-size: 14px;\">中0.975</span></div><div><span STYLE=\"font-size: 14px;\">右柜 0.975</span></div><div><span STYLE=\"font-size: 14px;\"><br/></span></div><div><span STYLE=\"font-size: 14px;\">书架位置 2.9米X2.6米</span></div><div><br/></div><div>橱柜面</div><div>3+1.82 宽1.45</div><div>次卧</div><div>窗宽1.58*高1.28</div><div>套内 2.94x4.2(2.6+1.6)</div><div><br/></div><div>卫生间主镜宽 1.5高0.25</div><div><br/></div><div>双洗手池0.6</div><div><br/></div><div>次卫主镜宽1.08</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "59bfa8f0f01b72f2d0acbfd9c13a56b41139e97f3c67ef0659c18345471dbb3a",
+        "path": "backups/2023年6月/德国1/室内尺寸.html"
+      }
+    },
+    {
+      "id": "556ff882-15d0-4e3e-b83c-1ab2f07530d0",
+      "note_id": "b468e707-99c7-4530-89dc-2d0e1cd9b824",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.415422Z",
+      "content": "---\ntitle: 室内尺寸\nupdated: 2019-09-27 12:20:31Z\ncreated: 2019-05-04 10:07:22Z\n---\n\n主卧\n窗宽 3.07\n高2.07\n套内 2.7+0.98+0.86 x3\n客厅窗宽1.93\n小门宽90\n衣柜位置，3米X0.60米X2.6米\n左 0.975\n中0.975\n右柜 0.975\n书架位置 2.9米X2.6米\n橱柜面\n3+1.82 宽1.45\n次卧\n窗宽1.58*高1.28\n套内 2.94x4.2(2.6+1.6)\n卫生间主镜宽 1.5高0.25\n双洗手池0.6\n次卫主镜宽1.08",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ko",
+        "length": 278,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f6e3210e-013e-47ef-9048-2cb678ae51b2",
+    "note_id": "b468e707-99c7-4530-89dc-2d0e1cd9b824",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.415428Z",
+    "finished_at": "2025-11-10T15:43:35.415429Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1ef63314-c943-4ac6-a67d-bf574439af41",
+      "source_path": "backups/2023年6月/德国1/室内尺寸.html",
+      "checksum": "59bfa8f0f01b72f2d0acbfd9c13a56b41139e97f3c67ef0659c18345471dbb3a"
+    },
+    "output_ref": {
+      "ingest_source": "39a902ec-6bb5-4527-bed7-e773c35adc23",
+      "note": "b468e707-99c7-4530-89dc-2d0e1cd9b824",
+      "variants": [
+        "b2597900-3740-4139-9dba-4f785a894439",
+        "556ff882-15d0-4e3e-b83c-1ab2f07530d0"
+      ]
+    },
+    "error_detail": null
+  }
+}

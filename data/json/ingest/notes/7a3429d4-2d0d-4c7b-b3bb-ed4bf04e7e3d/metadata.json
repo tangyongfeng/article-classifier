@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0f4077df-304b-4d88-b2fa-920cc50be942",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/四月赴美航班.html",
+    "collected_at": "2025-11-10T15:43:34.840253Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "7ad1b0a596d886fd713e00f6910040d73a73f795f97a0de2ebd35be98fac7f28",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7a3429d4-2d0d-4c7b-b3bb-ed4bf04e7e3d",
+    "ingest_source_id": "0f4077df-304b-4d88-b2fa-920cc50be942",
+    "canonical_title": "四月赴美航班",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.840257Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "四月赴美航班.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dad04733-ffd5-4a09-81e9-908985e6918d",
+      "note_id": "7a3429d4-2d0d-4c7b-b3bb-ed4bf04e7e3d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.840259Z",
+      "content": "---\ntitle: 四月赴美航班\nupdated: 2013-04-17 14:05:28Z\ncreated: 2013-04-03 06:25:57Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n尊敬的唐永峰，您乘坐4月27日洛杉矶-北京首都国航CA988航班，13:20起飞，17:00降落。请T2航站准时登机。祝您旅途愉快！【鸿运达】<br/>\n尊敬的唐永峰，您乘坐4月7日洛杉矶-纽约美联航UA534航班，08:45起飞，17:04降落。请T1航站准时登机。祝您旅途愉快！【鸿运达】<br/>\n尊敬的唐永峰，您乘坐4月21日纽约-洛杉矶美联航UA703航班，11:25起飞，14:27降落。请T1航站准时登机。祝您旅途愉快！【鸿运达】\n<div><span LANG=\"EN-US\" STYLE=\"font-size:12.0pt;font-family: 宋体;mso-bidi-font-family:宋体;mso-font-kerning:0pt;mso-ansi-language:EN-US; mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA\">TANG/YONGFENG/CA988/</span><span STYLE=\"font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;mso-font-kerning: 0pt;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN;mso-bidi-language:AR-SA\">洛杉矶至北京首都机场<span LANG=\"EN-US\">/`2013</span>年<span LANG=\"EN-US\">5</span>月<span LANG=\"EN-US\">5</span>日<span LANG=\"EN-US\">13</span>时<span LANG=\"EN-US\">20</span>分起飞</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7ad1b0a596d886fd713e00f6910040d73a73f795f97a0de2ebd35be98fac7f28",
+        "path": "backups/2023年6月/中彩相关/四月赴美航班.html"
+      }
+    },
+    {
+      "id": "88c1f20e-5847-4fed-9378-699f16bc15aa",
+      "note_id": "7a3429d4-2d0d-4c7b-b3bb-ed4bf04e7e3d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.840262Z",
+      "content": "---\ntitle: 四月赴美航班\nupdated: 2013-04-17 14:05:28Z\ncreated: 2013-04-03 06:25:57Z\n---\n\n尊敬的唐永峰，您乘坐4月27日洛杉矶-北京首都国航CA988航班，13:20起飞，17:00降落。请T2航站准时登机。祝您旅途愉快！【鸿运达】\n\n尊敬的唐永峰，您乘坐4月7日洛杉矶-纽约美联航UA534航班，08:45起飞，17:04降落。请T1航站准时登机。祝您旅途愉快！【鸿运达】\n\n尊敬的唐永峰，您乘坐4月21日纽约-洛杉矶美联航UA703航班，11:25起飞，14:27降落。请T1航站准时登机。祝您旅途愉快！【鸿运达】\n\nTANG/YONGFENG/CA988/\n洛杉矶至北京首都机场\n/`2013\n年\n5\n月\n5\n日\n13\n时\n20\n分起飞",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 359,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "44f3a635-d370-4bcd-af94-b79222fa59d7",
+    "note_id": "7a3429d4-2d0d-4c7b-b3bb-ed4bf04e7e3d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.840267Z",
+    "finished_at": "2025-11-10T15:43:34.840267Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2fc4acfa-4918-46d2-861e-4d0303016ccd",
+      "source_path": "backups/2023年6月/中彩相关/四月赴美航班.html",
+      "checksum": "7ad1b0a596d886fd713e00f6910040d73a73f795f97a0de2ebd35be98fac7f28"
+    },
+    "output_ref": {
+      "ingest_source": "0f4077df-304b-4d88-b2fa-920cc50be942",
+      "note": "7a3429d4-2d0d-4c7b-b3bb-ed4bf04e7e3d",
+      "variants": [
+        "dad04733-ffd5-4a09-81e9-908985e6918d",
+        "88c1f20e-5847-4fed-9378-699f16bc15aa"
+      ]
+    },
+    "error_detail": null
+  }
+}

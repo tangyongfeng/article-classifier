@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "602cc030-3de8-427e-b7c6-d6e76cec966f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/update.cs.html",
+    "collected_at": "2025-11-10T15:43:31.966053Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c1d8e0d4ed2c8afafa242844d47500d3d4a80466f886e2bb80db8d4f31b980b6",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6044b22b-4e78-4050-91dd-cca54eae6e49",
+    "ingest_source_id": "602cc030-3de8-427e-b7c6-d6e76cec966f",
+    "canonical_title": "update.cs",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.966057Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "update.cs.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "cb385f56-c458-40f7-968d-37273ade3efe",
+      "note_id": "6044b22b-4e78-4050-91dd-cca54eae6e49",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.966060Z",
+      "content": "---\ntitle: update.cs\nupdated: 2013-06-08 07:57:30Z\ncreated: 2013-06-08 07:57:21Z\ntags:\n  - SQLite\n  - c#\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\ndb = new SQLiteDatabase();<br/>\nDictionary&lt;String, String&gt; data = new Dictionary&lt;String, String&gt;();<br/>\nDataTable rows;<br/>\ndata.Add(&quot;NAME&quot;, nameTextBox.Text);<br/>\ndata.Add(&quot;DESCRIPTION&quot;, descriptionTextBox.Text);<br/>\ndata.Add(&quot;PREP_TIME&quot;, prepTimeTextBox.Text);<br/>\ndata.Add(&quot;COOKING_TIME&quot;, cookingTimeTextBox.Text);<br/>\ntry<br/>\n{<br/>\n&nbsp;&nbsp;&nbsp;&nbsp; db.Update(&quot;RECIPE&quot;, data, String.Format(&quot;RECIPE.ID = {0}&quot;, this.RecipeID));<br/>\n}<br/>\ncatch(Exception crap)<br/>\n{<br/>\n&nbsp;&nbsp;&nbsp;&nbsp; MessageBox.Show(crap.Message);<br/>\n}<br/><br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c1d8e0d4ed2c8afafa242844d47500d3d4a80466f886e2bb80db8d4f31b980b6",
+        "path": "backups/2023年6月/IT技术/update.cs.html"
+      }
+    },
+    {
+      "id": "54bfe3f2-ff9f-4424-a6c8-9afd2177b00e",
+      "note_id": "6044b22b-4e78-4050-91dd-cca54eae6e49",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.966063Z",
+      "content": "---\ntitle: update.cs\nupdated: 2013-06-08 07:57:30Z\ncreated: 2013-06-08 07:57:21Z\ntags:\n  - SQLite\n  - c#\n---\n\ndb = new SQLiteDatabase();\n\nDictionary<String, String> data = new Dictionary<String, String>();\n\nDataTable rows;\n\ndata.Add(\"NAME\", nameTextBox.Text);\n\ndata.Add(\"DESCRIPTION\", descriptionTextBox.Text);\n\ndata.Add(\"PREP_TIME\", prepTimeTextBox.Text);\n\ndata.Add(\"COOKING_TIME\", cookingTimeTextBox.Text);\n\ntry\n\n{\n\n     db.Update(\"RECIPE\", data, String.Format(\"RECIPE.ID = {0}\", this.RecipeID));\n\n}\n\ncatch(Exception crap)\n\n{\n\n     MessageBox.Show(crap.Message);\n\n}",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 567,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "676dd441-6c22-4ce4-94e7-7df7871176df",
+    "note_id": "6044b22b-4e78-4050-91dd-cca54eae6e49",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.966068Z",
+    "finished_at": "2025-11-10T15:43:31.966069Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8fedef97-e202-4bd4-ae65-dc9ddb8093f3",
+      "source_path": "backups/2023年6月/IT技术/update.cs.html",
+      "checksum": "c1d8e0d4ed2c8afafa242844d47500d3d4a80466f886e2bb80db8d4f31b980b6"
+    },
+    "output_ref": {
+      "ingest_source": "602cc030-3de8-427e-b7c6-d6e76cec966f",
+      "note": "6044b22b-4e78-4050-91dd-cca54eae6e49",
+      "variants": [
+        "cb385f56-c458-40f7-968d-37273ade3efe",
+        "54bfe3f2-ff9f-4424-a6c8-9afd2177b00e"
+      ]
+    },
+    "error_detail": null
+  }
+}

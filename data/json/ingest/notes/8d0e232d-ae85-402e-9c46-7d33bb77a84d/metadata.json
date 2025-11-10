@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b8e703bf-8174-4e83-8197-f31df3177a6c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/查询每天都有多少条.html",
+    "collected_at": "2025-11-10T15:43:32.924303Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7eceb9888f41cf95b61a44c25eef2cf13e2aa6b2babd5f43c5510e7d7fb7ce0a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "8d0e232d-ae85-402e-9c46-7d33bb77a84d",
+    "ingest_source_id": "b8e703bf-8174-4e83-8197-f31df3177a6c",
+    "canonical_title": "查询每天都有多少条",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.924307Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "查询每天都有多少条.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "27678eaf-02ff-4a7f-8bd0-204f924c7316",
+      "note_id": "8d0e232d-ae85-402e-9c46-7d33bb77a84d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.924310Z",
+      "content": "---\ntitle: 查询每天都有多少条\nupdated: 2022-09-09 12:43:26Z\ncreated: 2022-09-09 12:43:11Z\nauthor: tangyongfeng\ntags:\n  - sql\n---\n\n\n\n<en-note><div><p><span>set @tag=&apos;20220909&apos;; select @tag,count(trade_date) from real_stock_cn_data where trade_date=@tag;</span></p><br CLEAR=\"none\"/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7eceb9888f41cf95b61a44c25eef2cf13e2aa6b2babd5f43c5510e7d7fb7ce0a",
+        "path": "backups/2023年6月/IT技术/查询每天都有多少条.html"
+      }
+    },
+    {
+      "id": "68f9fcc8-9693-4ede-b70a-25139d4b1ed9",
+      "note_id": "8d0e232d-ae85-402e-9c46-7d33bb77a84d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.924312Z",
+      "content": "---\ntitle: 查询每天都有多少条\nupdated: 2022-09-09 12:43:26Z\ncreated: 2022-09-09 12:43:11Z\nauthor: tangyongfeng\ntags:\n  - sql\n---\n\nset @tag='20220909'; select @tag,count(trade_date) from real_stock_cn_data where trade_date=@tag;",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 218,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2ee492e3-7850-4987-8a78-ee6f344a9d45",
+    "note_id": "8d0e232d-ae85-402e-9c46-7d33bb77a84d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.924317Z",
+    "finished_at": "2025-11-10T15:43:32.924317Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "054f9b89-7f28-4449-a6d3-59304e5f1f58",
+      "source_path": "backups/2023年6月/IT技术/查询每天都有多少条.html",
+      "checksum": "7eceb9888f41cf95b61a44c25eef2cf13e2aa6b2babd5f43c5510e7d7fb7ce0a"
+    },
+    "output_ref": {
+      "ingest_source": "b8e703bf-8174-4e83-8197-f31df3177a6c",
+      "note": "8d0e232d-ae85-402e-9c46-7d33bb77a84d",
+      "variants": [
+        "27678eaf-02ff-4a7f-8bd0-204f924c7316",
+        "68f9fcc8-9693-4ede-b70a-25139d4b1ed9"
+      ]
+    },
+    "error_detail": null
+  }
+}

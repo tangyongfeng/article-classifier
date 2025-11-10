@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8ddb1831-897c-42b8-89c6-e64eeda61068",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Apache实现图片防盗链.html",
+    "collected_at": "2025-11-10T15:43:30.642285Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "9b5b986170a4be6bbff19be4096dfaefd68cd24d3d9324d7fa87243b830f3a01",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7d16dba5-fbb2-4e47-be68-74dd84e7c79a",
+    "ingest_source_id": "8ddb1831-897c-42b8-89c6-e64eeda61068",
+    "canonical_title": "Apache实现图片防盗链",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:30.642290Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Apache实现图片防盗链.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "992e60b2-3e65-465a-9b21-0217903bd7dd",
+      "note_id": "7d16dba5-fbb2-4e47-be68-74dd84e7c79a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.642293Z",
+      "content": "---\ntitle: Apache实现图片防盗链\nupdated: 2013-03-12 03:24:54Z\ncreated: 2013-03-12 03:24:54Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nApache实现图片防盗链<br/><br/>\nApache实现图片防盗链以及，显示一张&ldquo;禁止盗链&rdquo;的图片，我们可以用mod_rewrite 来实现。<br/>\n假设充许连结图片的主机域名为：www.php100.com<br/>\n修改httpd.conf<br/>\nSetEnvIfNoCase Referer &quot;^&quot; local_ref=1<br/>\n&lt;FilesMatch &quot;.(gif|jpg)&quot;&gt;<br/>\nOrder Allow,Deny<br/>\nAllow from env=local_ref<br/>\n&lt;/FilesMatch&gt;<br/><br/><br/>\n这个简单的应用不光可以解决图片盗链的问题，稍加修改还可以防止任意文件盗链下载的问题。<br/>\n使用以上的方法当从非指定的主机连结图片时，图片将无法显示。<br/>\n如果希望显示一张&ldquo;禁止盗链&rdquo;的图片，我们可以用mod_rewrite 来实现。<br/>\n首先在安装 apache 时要加上 --enable-rewrite 参数加载 mod_rewrite 模组。<br/>\n假设&ldquo;禁止盗链&rdquo;的图片为abc.gif，我们在 httpd.conf 中可以这样配置：<br/>\nRewriteEngine on<br/>\nRewriteCond %{HTTP_REFERER} !^$<br/>\nRewriteCond %{HTTP_REFERER} !^http://(www\\.)?demo.com.cn /.*$ [NC]<br/>\nRewriteRule \\.(gif|jpg)$ abc.gif [R,L]<br/>\nDocumentRoot &quot;/usr/local/apache/htdocs&quot;<br/>\n#设置存放站点html文件的目录。<br/>\n&lt;Directory /&gt;<br/>\nOptions FollowSymLinks<br/>\nAllowOverride None<br/>\n&lt;/Directory&gt;<br/>\n#设置/目录的指令。具体地说明：<br/>\nOption：定义在目录内所能执行的操作。<br/>\nNone：表示只能浏览，<br/>\nFollowSymLinks：允许页面连接到别处，<br/>\nExecCGI：允许执行CGI，<br/>\nMultiViews：允许看动画或是听音乐之类的操作，<br/>\nIndexes：允许服务器返回目录的格式化列表，<br/>\nIncludes：允许使用SSI。这些设置可以复选。<br/>\nAll：则可以做任何事，但不包括MultiViews。<br/>\nAllowOverride：加None参数表示任何人都可以浏览该目录下的文件。<br/>\n另外的参数有：FileInfo、AuthConfig、Limit。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9b5b986170a4be6bbff19be4096dfaefd68cd24d3d9324d7fa87243b830f3a01",
+        "path": "backups/2023年6月/IT技术/Apache实现图片防盗链.html"
+      }
+    },
+    {
+      "id": "cbf26a21-7454-448a-bf3e-b54b01ce7fc7",
+      "note_id": "7d16dba5-fbb2-4e47-be68-74dd84e7c79a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.642296Z",
+      "content": "---\ntitle: Apache实现图片防盗链\nupdated: 2013-03-12 03:24:54Z\ncreated: 2013-03-12 03:24:54Z\n---\n\nApache实现图片防盗链\n\nApache实现图片防盗链以及，显示一张“禁止盗链”的图片，我们可以用mod_rewrite 来实现。\n\n假设充许连结图片的主机域名为：www.php100.com\n\n修改httpd.conf\n\nSetEnvIfNoCase Referer \"^\" local_ref=1\n\n<FilesMatch \".(gif|jpg)\">\n\nOrder Allow,Deny\n\nAllow from env=local_ref\n\n</FilesMatch>\n\n这个简单的应用不光可以解决图片盗链的问题，稍加修改还可以防止任意文件盗链下载的问题。\n\n使用以上的方法当从非指定的主机连结图片时，图片将无法显示。\n\n如果希望显示一张“禁止盗链”的图片，我们可以用mod_rewrite 来实现。\n\n首先在安装 apache 时要加上 --enable-rewrite 参数加载 mod_rewrite 模组。\n\n假设“禁止盗链”的图片为abc.gif，我们在 httpd.conf 中可以这样配置：\n\nRewriteEngine on\n\nRewriteCond %{HTTP_REFERER} !^$\n\nRewriteCond %{HTTP_REFERER} !^http://(www\\.)?demo.com.cn /.*$ [NC]\n\nRewriteRule \\.(gif|jpg)$ abc.gif [R,L]\n\nDocumentRoot \"/usr/local/apache/htdocs\"\n\n#设置存放站点html文件的目录。\n\n<Directory />\n\nOptions FollowSymLinks\n\nAllowOverride None\n\n</Directory>\n\n#设置/目录的指令。具体地说明：\n\nOption：定义在目录内所能执行的操作。\n\nNone：表示只能浏览，\n\nFollowSymLinks：允许页面连接到别处，\n\nExecCGI：允许执行CGI，\n\nMultiViews：允许看动画或是听音乐之类的操作，\n\nIndexes：允许服务器返回目录的格式化列表，\n\nIncludes：允许使用SSI。这些设置可以复选。\n\nAll：则可以做任何事，但不包括MultiViews。\n\nAllowOverride：加None参数表示任何人都可以浏览该目录下的文件。\n\n另外的参数有：FileInfo、AuthConfig、Limit。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1125,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c504f491-acbd-46a1-b2d2-6ca0cc651067",
+    "note_id": "7d16dba5-fbb2-4e47-be68-74dd84e7c79a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.642301Z",
+    "finished_at": "2025-11-10T15:43:30.642301Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4298da70-72df-41d3-a00a-520fa4895e6c",
+      "source_path": "backups/2023年6月/IT技术/Apache实现图片防盗链.html",
+      "checksum": "9b5b986170a4be6bbff19be4096dfaefd68cd24d3d9324d7fa87243b830f3a01"
+    },
+    "output_ref": {
+      "ingest_source": "8ddb1831-897c-42b8-89c6-e64eeda61068",
+      "note": "7d16dba5-fbb2-4e47-be68-74dd84e7c79a",
+      "variants": [
+        "992e60b2-3e65-465a-9b21-0217903bd7dd",
+        "cbf26a21-7454-448a-bf3e-b54b01ce7fc7"
+      ]
+    },
+    "error_detail": null
+  }
+}

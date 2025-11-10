@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "2f43e238-ed93-4c71-91e3-5d43177773ca",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/哪些Python库让你相见恨晚？-3.html",
+    "collected_at": "2025-11-10T15:43:32.314242Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6a051d2d909f38876bff3e2d38f93321aa71fce70446056489086da41e5658b7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "df2f0e8f-3d6b-4400-b785-2ba611a2a1fa",
+    "ingest_source_id": "2f43e238-ed93-4c71-91e3-5d43177773ca",
+    "canonical_title": "哪些Python库让你相见恨晚？-3",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.314247Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "哪些Python库让你相见恨晚？-3.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "40feb332-e946-47b8-99fe-02b00d327e68",
+      "note_id": "df2f0e8f-3d6b-4400-b785-2ba611a2a1fa",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.314250Z",
+      "content": "---\ntitle: 哪些Python库让你相见恨晚？\nupdated: 2016-04-02 12:24:46Z\ncreated: 2016-04-02 12:24:46Z\ntags:\n  - 知乎收藏\n---\n\n\n\n<en-note><p>太多了</p><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><blockquote></blockquote><p>更多详情: <a HREF=\"http://www.zhihu.com/question/24590883/answer/89226375\">http://www.zhihu.com/question/24590883/answer/89226375</a></p></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6a051d2d909f38876bff3e2d38f93321aa71fce70446056489086da41e5658b7",
+        "path": "backups/2023年6月/IT技术/哪些Python库让你相见恨晚？-3.html"
+      }
+    },
+    {
+      "id": "4c148be1-5514-454c-a730-6c97629a79d2",
+      "note_id": "df2f0e8f-3d6b-4400-b785-2ba611a2a1fa",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.314253Z",
+      "content": "---\ntitle: 哪些Python库让你相见恨晚？\nupdated: 2016-04-02 12:24:46Z\ncreated: 2016-04-02 12:24:46Z\ntags:\n  - 知乎收藏\n---\n\n太多了\n更多详情:\nhttp://www.zhihu.com/question/24590883/answer/89226375",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 172,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6211b16b-c0e6-4b3a-b59a-2590734a8678",
+    "note_id": "df2f0e8f-3d6b-4400-b785-2ba611a2a1fa",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.314259Z",
+    "finished_at": "2025-11-10T15:43:32.314259Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "199ddd59-6b10-4af8-b44d-57e9168f09a1",
+      "source_path": "backups/2023年6月/IT技术/哪些Python库让你相见恨晚？-3.html",
+      "checksum": "6a051d2d909f38876bff3e2d38f93321aa71fce70446056489086da41e5658b7"
+    },
+    "output_ref": {
+      "ingest_source": "2f43e238-ed93-4c71-91e3-5d43177773ca",
+      "note": "df2f0e8f-3d6b-4400-b785-2ba611a2a1fa",
+      "variants": [
+        "40feb332-e946-47b8-99fe-02b00d327e68",
+        "4c148be1-5514-454c-a730-6c97629a79d2"
+      ]
+    },
+    "error_detail": null
+  }
+}

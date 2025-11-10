@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c8b9187a-6ed8-457e-bcae-11f4c0bdc01a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/寿司.html",
+    "collected_at": "2025-11-10T15:43:33.918310Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "b02b45555ea7c8d5a564e06a564665f0232aabc05348c20066850e622e04dc1b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e3110798-3de0-497a-af03-256430a03127",
+    "ingest_source_id": "c8b9187a-6ed8-457e-bcae-11f4c0bdc01a",
+    "canonical_title": "寿司",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.918314Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "寿司.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bfb25b4c-2a19-4712-9cf2-193462ed9d8b",
+      "note_id": "e3110798-3de0-497a-af03-256430a03127",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.918316Z",
+      "content": "---\ntitle: 寿司\nupdated: 2019-12-16 14:14:58Z\ncreated: 2019-12-16 13:43:53Z\n---\n\n\n\n<en-note><div>寿司</div><div>冰激凌</div><div>莎拉莎拉，</div><div><br/></div><div>菜单</div><div>冰淇淋</div><div>泡腾片</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b02b45555ea7c8d5a564e06a564665f0232aabc05348c20066850e622e04dc1b",
+        "path": "backups/2023年6月/个人的乱78糟/寿司.html"
+      }
+    },
+    {
+      "id": "0f0f39d6-4708-4a29-a59d-d72810e5ac72",
+      "note_id": "e3110798-3de0-497a-af03-256430a03127",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.918319Z",
+      "content": "---\ntitle: 寿司\nupdated: 2019-12-16 14:14:58Z\ncreated: 2019-12-16 13:43:53Z\n---\n\n寿司\n冰激凌\n莎拉莎拉，\n菜单\n冰淇淋\n泡腾片",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 102,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "549dda13-223f-426e-9ebd-4e4322b09e48",
+    "note_id": "e3110798-3de0-497a-af03-256430a03127",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.918324Z",
+    "finished_at": "2025-11-10T15:43:33.918324Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f1058018-7113-4188-8db8-d16ce425fc5a",
+      "source_path": "backups/2023年6月/个人的乱78糟/寿司.html",
+      "checksum": "b02b45555ea7c8d5a564e06a564665f0232aabc05348c20066850e622e04dc1b"
+    },
+    "output_ref": {
+      "ingest_source": "c8b9187a-6ed8-457e-bcae-11f4c0bdc01a",
+      "note": "e3110798-3de0-497a-af03-256430a03127",
+      "variants": [
+        "bfb25b4c-2a19-4712-9cf2-193462ed9d8b",
+        "0f0f39d6-4708-4a29-a59d-d72810e5ac72"
+      ]
+    },
+    "error_detail": null
+  }
+}

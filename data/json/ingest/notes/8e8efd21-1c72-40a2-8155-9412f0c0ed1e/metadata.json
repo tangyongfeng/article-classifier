@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "32e3111c-f70e-409a-b6da-b8105330fda0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/访问类型在访问量中的比例.html",
+    "collected_at": "2025-11-10T15:43:33.160441Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "83cfe050ce9cb1f792670c0bc90d1ebde7eac664706a1c0a0322038f2f709438",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "8e8efd21-1c72-40a2-8155-9412f0c0ed1e",
+    "ingest_source_id": "32e3111c-f70e-409a-b6da-b8105330fda0",
+    "canonical_title": "访问类型在访问量中的比例",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:33.160446Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "访问类型在访问量中的比例.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bfe13dc0-2661-4ca2-b82b-0e0e20518e05",
+      "note_id": "8e8efd21-1c72-40a2-8155-9412f0c0ed1e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.160448Z",
+      "content": "---\ntitle: 访问类型在访问量中的比例\nupdated: 2012-08-06 09:41:07Z\ncreated: 2012-08-06 08:26:14Z\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>增加访问类型在访问量中的比例内容。<br/>如果投注量是十，查询量也是十，兑奖量等于中奖面，需要有公共空间维护公共资源，例如累计大奖和沉溺信息<div><br/></div>投注和查询的比例是一比一，但是不会同时发生，如果没开奖，查询没有意义，客户端就可以过滤掉。开奖后不能过滤，因为无论是否中奖彩民都需要查询，但是此时投注已经会很少<br/> </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "83cfe050ce9cb1f792670c0bc90d1ebde7eac664706a1c0a0322038f2f709438",
+        "path": "backups/2023年6月/IT技术/访问类型在访问量中的比例.html"
+      }
+    },
+    {
+      "id": "c614a664-d55a-4a47-a5f1-adbe12deb293",
+      "note_id": "8e8efd21-1c72-40a2-8155-9412f0c0ed1e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.160451Z",
+      "content": "---\ntitle: 访问类型在访问量中的比例\nupdated: 2012-08-06 09:41:07Z\ncreated: 2012-08-06 08:26:14Z\n---\n\n增加访问类型在访问量中的比例内容。\n如果投注量是十，查询量也是十，兑奖量等于中奖面，需要有公共空间维护公共资源，例如累计大奖和沉溺信息\n投注和查询的比例是一比一，但是不会同时发生，如果没开奖，查询没有意义，客户端就可以过滤掉。开奖后不能过滤，因为无论是否中奖彩民都需要查询，但是此时投注已经会很少",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 237,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2cd3574e-0434-4e08-a9a7-6979d42caf9e",
+    "note_id": "8e8efd21-1c72-40a2-8155-9412f0c0ed1e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.160456Z",
+    "finished_at": "2025-11-10T15:43:33.160456Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a3019db3-77ea-4db6-9764-004566f1c05d",
+      "source_path": "backups/2023年6月/IT技术/访问类型在访问量中的比例.html",
+      "checksum": "83cfe050ce9cb1f792670c0bc90d1ebde7eac664706a1c0a0322038f2f709438"
+    },
+    "output_ref": {
+      "ingest_source": "32e3111c-f70e-409a-b6da-b8105330fda0",
+      "note": "8e8efd21-1c72-40a2-8155-9412f0c0ed1e",
+      "variants": [
+        "bfe13dc0-2661-4ca2-b82b-0e0e20518e05",
+        "c614a664-d55a-4a47-a5f1-adbe12deb293"
+      ]
+    },
+    "error_detail": null
+  }
+}

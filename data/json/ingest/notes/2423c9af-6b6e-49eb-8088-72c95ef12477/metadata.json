@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d78b03d8-722b-4881-af1e-5ce98a131c0c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/IBM合作内容.html",
+    "collected_at": "2025-11-10T15:43:30.832744Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "917d993d2e4efa66e3b4d73027cd387b6b1bfe82a4ec726c581f2945173fbd19",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "2423c9af-6b6e-49eb-8088-72c95ef12477",
+    "ingest_source_id": "d78b03d8-722b-4881-af1e-5ce98a131c0c",
+    "canonical_title": "IBM合作内容",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:30.832747Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "IBM合作内容.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ac72ebb4-0591-47aa-8440-655dd6ef043f",
+      "note_id": "2423c9af-6b6e-49eb-8088-72c95ef12477",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.832750Z",
+      "content": "---\ntitle: IBM合作内容\nupdated: 2012-10-08 02:52:14Z\ncreated: 2012-10-08 01:55:20Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、&nbsp;&nbsp;&nbsp;&nbsp; NDA<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a)&nbsp;&nbsp;&nbsp;&nbsp; 有效期目前是12/31/2012，建议改到2013年<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b)&nbsp;&nbsp;&nbsp;&nbsp; 保密时间&nbsp;&nbsp;&nbsp;&nbsp; 2年 需要请示，时间比较短<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c)&nbsp;&nbsp;&nbsp;&nbsp; 具体要保护的内容\n<div>&nbsp; &nbsp; &nbsp;A、&nbsp;&nbsp;&nbsp;&nbsp; 业务分析文档<br/>\n&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;&nbsp;&nbsp; 需求分析文档<br/></div><blockquote STYLE=\"margin: 0 0 0 40px; border: none; padding: 0px;\"><div>2.&nbsp;&nbsp;&nbsp;&nbsp; 政策分析文档</div></blockquote><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.&nbsp;&nbsp;&nbsp;&nbsp; 业务分析文档<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B、&nbsp;&nbsp;&nbsp;&nbsp; 规划和构架文档<br/>\n&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.&nbsp;&nbsp;&nbsp;&nbsp; 系统设计文档<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.&nbsp;&nbsp;&nbsp;&nbsp; 构架模型文档<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.&nbsp;&nbsp;&nbsp;&nbsp; 详细设计文档<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C、&nbsp;&nbsp;&nbsp;&nbsp; 测试文档<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.&nbsp;&nbsp;&nbsp;&nbsp; 测试方案<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.&nbsp;&nbsp;&nbsp;&nbsp; 测试数据<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.&nbsp;&nbsp;&nbsp;&nbsp; 测试报告<br/>\n2、&nbsp;&nbsp;&nbsp;&nbsp; 意大利</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;a)是否需要ibm来牵线local magic的合作，如何合作？</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;b)&nbsp;<br/>\n3、&nbsp;&nbsp;&nbsp;&nbsp; 计划<br/></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; a)切割出来一个场景或者流程</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b) 11中旬需要有一个展示点</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "917d993d2e4efa66e3b4d73027cd387b6b1bfe82a4ec726c581f2945173fbd19",
+        "path": "backups/2023年6月/IT技术/IBM合作内容.html"
+      }
+    },
+    {
+      "id": "8657b529-0a1b-4596-80ec-cab045da0e4f",
+      "note_id": "2423c9af-6b6e-49eb-8088-72c95ef12477",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.832753Z",
+      "content": "---\ntitle: IBM合作内容\nupdated: 2012-10-08 02:52:14Z\ncreated: 2012-10-08 01:55:20Z\n---\n\n1、     NDA\n\n     a)     有效期目前是12/31/2012，建议改到2013年\n\n     b)     保密时间     2年 需要请示，时间比较短\n\n     c)     具体要保护的内容\n\n     A、     业务分析文档\n\n          1.     需求分析文档\n2.     政策分析文档\n          3.     业务分析文档\n\n     B、     规划和构架文档\n\n          1.     系统设计文档\n\n          2.     构架模型文档\n\n          3.     详细设计文档\n\n     C、     测试文档\n\n          1.     测试方案\n\n          2.     测试数据\n\n          3.     测试报告\n\n2、     意大利\n         a)是否需要ibm来牵线local magic的合作，如何合作？\n         b) \n\n3、     计划\n          a)切割出来一个场景或者流程\n          b) 11中旬需要有一个展示点",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 587,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ce2ab105-4416-4b3a-bf41-580816dbd2d7",
+    "note_id": "2423c9af-6b6e-49eb-8088-72c95ef12477",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.832757Z",
+    "finished_at": "2025-11-10T15:43:30.832758Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ba4305eb-0d91-4150-a48a-6ec6eae4eb25",
+      "source_path": "backups/2023年6月/IT技术/IBM合作内容.html",
+      "checksum": "917d993d2e4efa66e3b4d73027cd387b6b1bfe82a4ec726c581f2945173fbd19"
+    },
+    "output_ref": {
+      "ingest_source": "d78b03d8-722b-4881-af1e-5ce98a131c0c",
+      "note": "2423c9af-6b6e-49eb-8088-72c95ef12477",
+      "variants": [
+        "ac72ebb4-0591-47aa-8440-655dd6ef043f",
+        "8657b529-0a1b-4596-80ec-cab045da0e4f"
+      ]
+    },
+    "error_detail": null
+  }
+}

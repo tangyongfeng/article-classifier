@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6680aafc-50ab-45c2-b0b4-9da86e08e104",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/fagen.html",
+    "collected_at": "2025-11-10T15:43:33.492013Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "b4a2a0417cde3b77208de2b717db40ccb9dea7b717383c6f261a916069b9c652",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a314976b-bffe-4028-824a-cd381fd2d329",
+    "ingest_source_id": "6680aafc-50ab-45c2-b0b4-9da86e08e104",
+    "canonical_title": "fagen",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:33.492018Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "fagen.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c537b761-9c39-4701-afc9-2fb5e242a313",
+      "note_id": "a314976b-bffe-4028-824a-cd381fd2d329",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.492021Z",
+      "content": "---\ntitle: fagen\nupdated: 2020-10-27 13:48:16Z\ncreated: 2020-10-26 11:08:17Z\n---\n\n\n\n<en-note><div>当时有什么症状</div><div>我知道你很忙，感谢你的安排，请问你为我们的会议准备了多少时间？</div><div>marman并没有说完全禁止</div><div>捐口罩</div><div>你认为学校在此次事件中应该承担什么责任？</div><div><br/></div><div>本次会议，我会保留一个中文版本的会议记录供我自己使用，我会按照中文的内容理解细节和你们的答复。</div><div><br/></div><div><br/></div><div>2019年8月29日 起</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b4a2a0417cde3b77208de2b717db40ccb9dea7b717383c6f261a916069b9c652",
+        "path": "backups/2023年6月/个人的乱78糟/fagen.html"
+      }
+    },
+    {
+      "id": "28d3ed0c-881a-4a58-be40-b3e0878d8da5",
+      "note_id": "a314976b-bffe-4028-824a-cd381fd2d329",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.492024Z",
+      "content": "---\ntitle: fagen\nupdated: 2020-10-27 13:48:16Z\ncreated: 2020-10-26 11:08:17Z\n---\n\n当时有什么症状\n我知道你很忙，感谢你的安排，请问你为我们的会议准备了多少时间？\nmarman并没有说完全禁止\n捐口罩\n你认为学校在此次事件中应该承担什么责任？\n本次会议，我会保留一个中文版本的会议记录供我自己使用，我会按照中文的内容理解细节和你们的答复。\n2019年8月29日 起",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 222,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6debc59b-8eeb-424c-8980-07fbe4cf99cd",
+    "note_id": "a314976b-bffe-4028-824a-cd381fd2d329",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.492029Z",
+    "finished_at": "2025-11-10T15:43:33.492029Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "77f27d97-90ce-4f16-a4df-041db1c75441",
+      "source_path": "backups/2023年6月/个人的乱78糟/fagen.html",
+      "checksum": "b4a2a0417cde3b77208de2b717db40ccb9dea7b717383c6f261a916069b9c652"
+    },
+    "output_ref": {
+      "ingest_source": "6680aafc-50ab-45c2-b0b4-9da86e08e104",
+      "note": "a314976b-bffe-4028-824a-cd381fd2d329",
+      "variants": [
+        "c537b761-9c39-4701-afc9-2fb5e242a313",
+        "28d3ed0c-881a-4a58-be40-b3e0878d8da5"
+      ]
+    },
+    "error_detail": null
+  }
+}

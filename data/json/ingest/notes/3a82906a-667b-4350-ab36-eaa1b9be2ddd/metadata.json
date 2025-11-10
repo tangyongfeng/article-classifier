@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "a026e9df-b26c-4417-b056-33e8259bacd7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/Recommended a Weibo to you：__@老马自奋蹄_ 纪录片《希特勒与纳粹德国的.html",
+    "collected_at": "2025-11-10T15:43:33.423973Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c4f79e34b1785c2d6d992652ae0c630419cff6962ceb4b5223d3fe0c0bf68f53",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3a82906a-667b-4350-ab36-eaa1b9be2ddd",
+    "ingest_source_id": "a026e9df-b26c-4417-b056-33e8259bacd7",
+    "canonical_title": "Recommended a Weibo to you：__@老马自奋蹄_ 纪录片《希特勒与纳粹德国的",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.423977Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Recommended a Weibo to you：__@老马自奋蹄_ 纪录片《希特勒与纳粹德国的.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c25f4b65-84c0-4964-bd45-96d7331e1daf",
+      "note_id": "3a82906a-667b-4350-ab36-eaa1b9be2ddd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.423980Z",
+      "content": "---\ntitle: 'Recommended a Weibo to you：//@老马自奋蹄: 纪录片《希特勒与纳粹德国的将帅们》。。。'\nupdated: 2020-11-20 12:50:38Z\ncreated: 2020-11-18 23:01:04Z\n---\n\n\n\n<en-note>\n<div>\n<p><span>Recommended a Weibo to you：//@老马自奋蹄: 纪录片《希特勒与纳粹德国的将帅们》。。。</span></p>\n<p><span></span><br/></p>\n<p><span>首次以独特的视角，从捆绑在法西斯战车上骁勇战将反观希特勒从上台到败亡的历程（<a HREF=\"http://t.cn/A6GOBfD3\">http://t.cn/A6GOBfD3</a>）<span>&nbsp; </span>-Original Address：http://<a HREF=\"http://weibointl.api.weibo.com/share/184740043.html?weibo_id=4572853444018748\">weibointl.api.weibo.com/share/184740043.html?weibo_id=4572853444018748</a></span></p>\n</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c4f79e34b1785c2d6d992652ae0c630419cff6962ceb4b5223d3fe0c0bf68f53",
+        "path": "backups/2023年6月/个人的乱78糟/Recommended a Weibo to you：__@老马自奋蹄_ 纪录片《希特勒与纳粹德国的.html"
+      }
+    },
+    {
+      "id": "c48db0ee-12b1-47c4-b591-6a1592df9883",
+      "note_id": "3a82906a-667b-4350-ab36-eaa1b9be2ddd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.423983Z",
+      "content": "---\ntitle: 'Recommended a Weibo to you：//@老马自奋蹄: 纪录片《希特勒与纳粹德国的将帅们》。。。'\nupdated: 2020-11-20 12:50:38Z\ncreated: 2020-11-18 23:01:04Z\n---\n\nRecommended a Weibo to you：//@老马自奋蹄: 纪录片《希特勒与纳粹德国的将帅们》。。。\n\n首次以独特的视角，从捆绑在法西斯战车上骁勇战将反观希特勒从上台到败亡的历程（\nhttp://t.cn/A6GOBfD3\n）\n \n-Original Address：http://\nweibointl.api.weibo.com/share/184740043.html?weibo_id=4572853444018748",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 355,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "11e29a88-e70f-4794-b05d-e18bf2d30da5",
+    "note_id": "3a82906a-667b-4350-ab36-eaa1b9be2ddd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.423989Z",
+    "finished_at": "2025-11-10T15:43:33.423989Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "67effbc0-991d-4bde-a185-95ae7f327a41",
+      "source_path": "backups/2023年6月/个人的乱78糟/Recommended a Weibo to you：__@老马自奋蹄_ 纪录片《希特勒与纳粹德国的.html",
+      "checksum": "c4f79e34b1785c2d6d992652ae0c630419cff6962ceb4b5223d3fe0c0bf68f53"
+    },
+    "output_ref": {
+      "ingest_source": "a026e9df-b26c-4417-b056-33e8259bacd7",
+      "note": "3a82906a-667b-4350-ab36-eaa1b9be2ddd",
+      "variants": [
+        "c25f4b65-84c0-4964-bd45-96d7331e1daf",
+        "c48db0ee-12b1-47c4-b591-6a1592df9883"
+      ]
+    },
+    "error_detail": null
+  }
+}

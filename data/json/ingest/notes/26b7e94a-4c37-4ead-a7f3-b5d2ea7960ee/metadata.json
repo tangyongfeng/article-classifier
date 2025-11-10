@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "74ebe7e3-63b0-4400-ad78-5f9155a3659e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/淘宝广告引擎网址.html",
+    "collected_at": "2025-11-10T15:43:32.983031Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "09340dbda84bec9d6b6f17dc75b7c146ae8ec41cae9d341ce882df818003cd00",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "26b7e94a-4c37-4ead-a7f3-b5d2ea7960ee",
+    "ingest_source_id": "74ebe7e3-63b0-4400-ad78-5f9155a3659e",
+    "canonical_title": "淘宝广告引擎网址",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.983035Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "淘宝广告引擎网址.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "68f970d8-06cf-49e8-96b3-bc4a0f9d6ab6",
+      "note_id": "26b7e94a-4c37-4ead-a7f3-b5d2ea7960ee",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.983038Z",
+      "content": "---\ntitle: 淘宝广告引擎网址\nupdated: 2013-07-01 03:04:54Z\ncreated: 2013-07-01 03:04:41Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"http://p.tanx.com/\">http://p.tanx.com</a></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "09340dbda84bec9d6b6f17dc75b7c146ae8ec41cae9d341ce882df818003cd00",
+        "path": "backups/2023年6月/IT技术/淘宝广告引擎网址.html"
+      }
+    },
+    {
+      "id": "8c43de58-8d4e-4ea7-a484-d3a73e5797c8",
+      "note_id": "26b7e94a-4c37-4ead-a7f3-b5d2ea7960ee",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.983041Z",
+      "content": "---\ntitle: 淘宝广告引擎网址\nupdated: 2013-07-01 03:04:54Z\ncreated: 2013-07-01 03:04:41Z\n---\n\nhttp://p.tanx.com",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 102,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "66ff4411-1a55-457a-ad6a-c1f8edc99f18",
+    "note_id": "26b7e94a-4c37-4ead-a7f3-b5d2ea7960ee",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.983046Z",
+    "finished_at": "2025-11-10T15:43:32.983046Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "22b457bd-bf54-4cc4-ba3e-ef1065d163c1",
+      "source_path": "backups/2023年6月/IT技术/淘宝广告引擎网址.html",
+      "checksum": "09340dbda84bec9d6b6f17dc75b7c146ae8ec41cae9d341ce882df818003cd00"
+    },
+    "output_ref": {
+      "ingest_source": "74ebe7e3-63b0-4400-ad78-5f9155a3659e",
+      "note": "26b7e94a-4c37-4ead-a7f3-b5d2ea7960ee",
+      "variants": [
+        "68f970d8-06cf-49e8-96b3-bc4a0f9d6ab6",
+        "8c43de58-8d4e-4ea7-a484-d3a73e5797c8"
+      ]
+    },
+    "error_detail": null
+  }
+}

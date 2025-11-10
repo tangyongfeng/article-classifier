@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "33cb631c-530b-46d9-a8cd-4d6231431066",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/王东临《一文读懂区块链存储》阅读问题.html",
+    "collected_at": "2025-11-10T15:43:34.907508Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "11b2d84de023ee2a7310ff26c66723afc2c604b1ecf32bbd1d37181c7b385dff",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ef35a5fa-d3bc-49c5-83a5-c2972d96258c",
+    "ingest_source_id": "33cb631c-530b-46d9-a8cd-4d6231431066",
+    "canonical_title": "王东临《一文读懂区块链存储》阅读问题",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.907511Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "王东临《一文读懂区块链存储》阅读问题.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e0e8c883-f088-4ac4-b92e-1886b9c56e98",
+      "note_id": "ef35a5fa-d3bc-49c5-83a5-c2972d96258c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.907514Z",
+      "content": "---\ntitle: 王东临《一文读懂区块链存储》阅读问题\nupdated: 2020-07-07 05:48:31Z\ncreated: 2020-07-07 05:33:21Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>一、赞同前两页所说的内容，区块链确实是一个使用场景非常有限的技术，适于运用在需要公信力、快速交易、安全的应用中。但是经过这些年大众的筛选和尝试，也仅限这几类；</div><div>二、用区块链解决社会形态是柏拉图式的；</div><div>三、区块链解决数据安全的方式是加密，但其本质是公开的密文，就会面临千万次的尝试破解。请问相同的加密方法和水平，公开的密文和不公开的密文，哪个更有风险？</div><div>四、在量子计算机面前，现行的加密方法都是纸糊的；</div><div>五、同样都是云存储，都可以用标准（国密）的加密算法，请问YottaChain和阿里云有什么竞争优势？</div><div>六、在文中所述（持久性、安全性、可用性、一致性、延时、吞吐量、IOPS、去重、并发能力、分区可容忍性、容灾性、抗DDos、等等）有什么特别优势么？</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "11b2d84de023ee2a7310ff26c66723afc2c604b1ecf32bbd1d37181c7b385dff",
+        "path": "backups/2023年6月/中彩相关/王东临《一文读懂区块链存储》阅读问题.html"
+      }
+    },
+    {
+      "id": "288045a8-56ec-4d84-a3b7-df49f77aba81",
+      "note_id": "ef35a5fa-d3bc-49c5-83a5-c2972d96258c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.907517Z",
+      "content": "---\ntitle: 王东临《一文读懂区块链存储》阅读问题\nupdated: 2020-07-07 05:48:31Z\ncreated: 2020-07-07 05:33:21Z\nauthor: tangyongfeng@gmail.com\n---\n\n一、赞同前两页所说的内容，区块链确实是一个使用场景非常有限的技术，适于运用在需要公信力、快速交易、安全的应用中。但是经过这些年大众的筛选和尝试，也仅限这几类；\n二、用区块链解决社会形态是柏拉图式的；\n三、区块链解决数据安全的方式是加密，但其本质是公开的密文，就会面临千万次的尝试破解。请问相同的加密方法和水平，公开的密文和不公开的密文，哪个更有风险？\n四、在量子计算机面前，现行的加密方法都是纸糊的；\n五、同样都是云存储，都可以用标准（国密）的加密算法，请问YottaChain和阿里云有什么竞争优势？\n六、在文中所述（持久性、安全性、可用性、一致性、延时、吞吐量、IOPS、去重、并发能力、分区可容忍性、容灾性、抗DDos、等等）有什么特别优势么？",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 451,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "cd117e7b-00f7-45dd-93f2-d0faefbf7126",
+    "note_id": "ef35a5fa-d3bc-49c5-83a5-c2972d96258c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.907521Z",
+    "finished_at": "2025-11-10T15:43:34.907521Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "71b29310-19f7-4cd6-b70b-e0caf2a98e36",
+      "source_path": "backups/2023年6月/中彩相关/王东临《一文读懂区块链存储》阅读问题.html",
+      "checksum": "11b2d84de023ee2a7310ff26c66723afc2c604b1ecf32bbd1d37181c7b385dff"
+    },
+    "output_ref": {
+      "ingest_source": "33cb631c-530b-46d9-a8cd-4d6231431066",
+      "note": "ef35a5fa-d3bc-49c5-83a5-c2972d96258c",
+      "variants": [
+        "e0e8c883-f088-4ac4-b92e-1886b9c56e98",
+        "288045a8-56ec-4d84-a3b7-df49f77aba81"
+      ]
+    },
+    "error_detail": null
+  }
+}

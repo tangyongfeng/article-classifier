@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3f1f1832-1194-4dd0-bc74-9c7d27081e78",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/23.106.149.17.html",
+    "collected_at": "2025-11-10T15:43:30.630881Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ce6d898bcdf2a36261f06069abcc239b85efc7b3f82959c269841dd3c6d9cdac",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0614c8aa-1d9c-4951-8758-a4384b1573dd",
+    "ingest_source_id": "3f1f1832-1194-4dd0-bc74-9c7d27081e78",
+    "canonical_title": "23.106.149.17",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:30.630886Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "23.106.149.17.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "77788ae5-db8f-42d6-ad71-d4bd3cc680a5",
+      "note_id": "0614c8aa-1d9c-4951-8758-a4384b1573dd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.630889Z",
+      "content": "---\ntitle: 23.106.149.17\nupdated: 2018-09-26 08:17:56Z\ncreated: 2018-09-26 05:40:44Z\nauthor: tangyongfeng\n---\n\n\n\n<en-note><div>port:2437</div><div>password: tNsrBPEfrA</div><div><br CLEAR=\"none\"/></div><div><span STYLE=\"font-size: 14.0pt; font-family: 'Microsoft YaHei UI',sans-serif; color: black;\">clo@1234</span><br CLEAR=\"none\"/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ce6d898bcdf2a36261f06069abcc239b85efc7b3f82959c269841dd3c6d9cdac",
+        "path": "backups/2023年6月/IT技术/23.106.149.17.html"
+      }
+    },
+    {
+      "id": "f2fb131d-b76a-4d52-9de2-b5e6e4212976",
+      "note_id": "0614c8aa-1d9c-4951-8758-a4384b1573dd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.630893Z",
+      "content": "---\ntitle: 23.106.149.17\nupdated: 2018-09-26 08:17:56Z\ncreated: 2018-09-26 05:40:44Z\nauthor: tangyongfeng\n---\n\nport:2437\npassword: tNsrBPEfrA\nclo@1234",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 150,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "527ed2e8-10cd-4a70-a33c-11757e005c75",
+    "note_id": "0614c8aa-1d9c-4951-8758-a4384b1573dd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.630898Z",
+    "finished_at": "2025-11-10T15:43:30.630898Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d6b789b3-ce3d-4dc7-ae9b-c16fd988cf8e",
+      "source_path": "backups/2023年6月/IT技术/23.106.149.17.html",
+      "checksum": "ce6d898bcdf2a36261f06069abcc239b85efc7b3f82959c269841dd3c6d9cdac"
+    },
+    "output_ref": {
+      "ingest_source": "3f1f1832-1194-4dd0-bc74-9c7d27081e78",
+      "note": "0614c8aa-1d9c-4951-8758-a4384b1573dd",
+      "variants": [
+        "77788ae5-db8f-42d6-ad71-d4bd3cc680a5",
+        "f2fb131d-b76a-4d52-9de2-b5e6e4212976"
+      ]
+    },
+    "error_detail": null
+  }
+}

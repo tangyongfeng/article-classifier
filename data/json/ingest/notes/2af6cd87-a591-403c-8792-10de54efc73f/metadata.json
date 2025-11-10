@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "193dd886-f0ec-4525-b60d-99ec7092c47e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/需公证内容.html",
+    "collected_at": "2025-11-10T15:43:35.035237Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "b1e5d6a3e31e280d62565049a2de4f8254d2e922a7cb1f72a8d0fa85f468671b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "2af6cd87-a591-403c-8792-10de54efc73f",
+    "ingest_source_id": "193dd886-f0ec-4525-b60d-99ec7092c47e",
+    "canonical_title": "需公证内容",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.035240Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "需公证内容.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "39795a0b-cb2e-4ca4-b850-17e700f5f715",
+      "note_id": "2af6cd87-a591-403c-8792-10de54efc73f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.035243Z",
+      "content": "---\ntitle: 需公证内容\nupdated: 2019-01-11 08:53:16Z\ncreated: 2019-01-11 07:58:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>1、邮件</div><div><u>2018年11月23日&ldquo;<span STYLE=\"font-weight: bold;\">关于加强考勤管理工作的补充通知&rdquo;</span></u></div><div><span STYLE=\"font-weight: bold;\">2018年12月24日 &ldquo;<span STYLE=\"font-weight: bold;\">关于沟通劳动合同相关事宜的通知&ldquo;邮件。带附件</span></span></div><div><span STYLE=\"font-weight: bold;\">2018年12月27日，《<span STYLE=\"font-weight: bold;\">关于劳动合同变更事宜的通知》带附件</span></span></div><div><span STYLE=\"font-weight: bold;\">2018年12月29日，已发送邮件中，《<span STYLE=\"font-weight: bold;\">回复：关于沟通劳动合同相关事宜的通知》</span></span></div><div><span STYLE=\"font-weight: bold;\">2018年12月29日《索求工资条的要求》</span></div><div><span STYLE=\"font-weight: bold;\">2019年1月11日《关于未收到2018年12月工资的事宜》</span></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><span STYLE=\"font-weight: bold;\">工作流：</span></div><div><span STYLE=\"font-weight: bold;\"> &nbsp; &nbsp;WCSQ0000015604崔跃请假批准，工作流文件2018年9月26日</span></div><div><span STYLE=\"font-weight: bold;\"><br/></span></div><div><span STYLE=\"font-weight: bold;\"><br/></span></div><div><b>需要三份</b></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b1e5d6a3e31e280d62565049a2de4f8254d2e922a7cb1f72a8d0fa85f468671b",
+        "path": "backups/2023年6月/中彩相关/需公证内容.html"
+      }
+    },
+    {
+      "id": "6c7b09af-d1db-4859-82a4-9c513b2132d9",
+      "note_id": "2af6cd87-a591-403c-8792-10de54efc73f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.035246Z",
+      "content": "---\ntitle: 需公证内容\nupdated: 2019-01-11 08:53:16Z\ncreated: 2019-01-11 07:58:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、邮件\n2018年11月23日“\n关于加强考勤管理工作的补充通知”\n2018年12月24日 “\n关于沟通劳动合同相关事宜的通知“邮件。带附件\n2018年12月27日，《\n关于劳动合同变更事宜的通知》带附件\n2018年12月29日，已发送邮件中，《\n回复：关于沟通劳动合同相关事宜的通知》\n2018年12月29日《索求工资条的要求》\n2019年1月11日《关于未收到2018年12月工资的事宜》\n工作流：\n    WCSQ0000015604崔跃请假批准，工作流文件2018年9月26日\n需要三份",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 361,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c866ad10-3318-4904-8773-32c9bda80122",
+    "note_id": "2af6cd87-a591-403c-8792-10de54efc73f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.035251Z",
+    "finished_at": "2025-11-10T15:43:35.035251Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d38919d8-da82-43c8-9a22-8fb53285a8aa",
+      "source_path": "backups/2023年6月/中彩相关/需公证内容.html",
+      "checksum": "b1e5d6a3e31e280d62565049a2de4f8254d2e922a7cb1f72a8d0fa85f468671b"
+    },
+    "output_ref": {
+      "ingest_source": "193dd886-f0ec-4525-b60d-99ec7092c47e",
+      "note": "2af6cd87-a591-403c-8792-10de54efc73f",
+      "variants": [
+        "39795a0b-cb2e-4ca4-b850-17e700f5f715",
+        "6c7b09af-d1db-4859-82a4-9c513b2132d9"
+      ]
+    },
+    "error_detail": null
+  }
+}

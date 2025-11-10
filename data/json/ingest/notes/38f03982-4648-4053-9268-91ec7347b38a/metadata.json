@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ebb8684e-abfb-48d9-adae-0f5891b740f9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/可儿/证 件 护照、身份证、结婚证、机票、驾照.html",
+    "collected_at": "2025-11-10T15:43:35.327192Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "hu",
+    "captured_at": null,
+    "checksum": "a6bbb45511116da7b36078336aa3b364d4f12ee75d5f2eda0ff17b4cb8abee2a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "38f03982-4648-4053-9268-91ec7347b38a",
+    "ingest_source_id": "ebb8684e-abfb-48d9-adae-0f5891b740f9",
+    "canonical_title": "证 件 护照、身份证、结婚证、机票、驾照",
+    "language": "hu",
+    "ingested_at": "2025-11-10T15:43:35.327196Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "证 件 护照、身份证、结婚证、机票、驾照.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b9f723d4-981f-4d51-bfab-90a2a7f54d2f",
+      "note_id": "38f03982-4648-4053-9268-91ec7347b38a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.327199Z",
+      "content": "---\ntitle: 证 件 护照、身份证、结婚证、机票、驾照\nupdated: 2014-06-25 03:40:34Z\ncreated: 2013-03-26 14:43:53Z\nsource: file:///C:\\Users\\evali\\Desktop\\美国各项事宜\\二次赴美准备资料\\预算.xlsx\n---\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n&Tab;<table BORDER=\"0\" CELLPADDING=\"0\" STYLE=\"border-collapse: collapse;width:244pt\" WIDTH=\"326\" CELLSPACING=\"0\">\n&Tab;&Tab;<colgroup>\n&Tab;&Tab;&Tab;<col STYLE=\"mso-width-source:userset;mso-width-alt:4750;width:100pt\" WIDTH=\"134\"/>\n&Tab;&Tab;&Tab;<col SPAN=\"3\" STYLE=\"width:48pt\" WIDTH=\"64\"/>\n&Tab;&Tab;</colgroup>\n&Tab;&Tab;<tbody>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;width:100pt\" WIDTH=\"134\" HEIGHT=\"19\"><b>证&nbsp;&nbsp;&nbsp; 件 护照、身份证、结婚证、机票、驾照</b></td>\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"width:48pt\" WIDTH=\"64\"></td>\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"width:48pt\" WIDTH=\"64\"></td>\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"width:48pt\" WIDTH=\"64\"></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\"><b>药&nbsp;&nbsp;&nbsp; 品</b></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">衣&nbsp;&nbsp;&nbsp; 物</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">玩&nbsp;&nbsp;&nbsp; 具</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">毛&nbsp;&nbsp;&nbsp; 毯</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\"><b>奶&nbsp;&nbsp;&nbsp; 粉</b></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\"><b>针线类/指甲剪</b></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\"><b>医院检查证明</b></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\"><b>可儿疫苗本</b></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">现&nbsp;&nbsp;&nbsp; 金 纳尼 吧 &nbsp; ， &nbsp;了，ll</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">奶瓶、尿不湿、碗儿、勺、刷子、</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">插线板</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">手机</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">水壶</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">笔、本</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">IPD充电器</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">IPHONE 充电器</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\"><b>小米充电器</b></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\"><b>诺基亚充电器</b></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td><br/>\nFFF</td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">音乐播放器充电器 从； \\]<br/>\nz<br/>\n\\<br/>\n\\mbck&apos;p.;;;;;;;;;;;;;;z-a=s-=zvv<br/>\nb\\\\b],lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbn；。看着r.........rraq</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">音乐播放器</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\">转换插头</td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt;border-top:none\" HEIGHT=\"19\"><b>巧虎碟压缩</b></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;&Tab;<tr STYLE=\"height:14.4pt\">\n&Tab;&Tab;&Tab;&Tab;<td STYLE=\"height:14.4pt\" HEIGHT=\"19\"><b>机票<br/>\n伞<br/>\n车用保温杯</b></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;&Tab;<td></td>\n&Tab;&Tab;&Tab;</tr>\n&Tab;&Tab;</tbody>\n&Tab;</table>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a6bbb45511116da7b36078336aa3b364d4f12ee75d5f2eda0ff17b4cb8abee2a",
+        "path": "backups/2023年6月/可儿/证 件 护照、身份证、结婚证、机票、驾照.html"
+      }
+    },
+    {
+      "id": "2244507b-59db-45c2-8a5f-127faa67248e",
+      "note_id": "38f03982-4648-4053-9268-91ec7347b38a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.327201Z",
+      "content": "---\ntitle: 证 件 护照、身份证、结婚证、机票、驾照\nupdated: 2014-06-25 03:40:34Z\ncreated: 2013-03-26 14:43:53Z\nsource: file:///C:\\Users\\evali\\Desktop\\美国各项事宜\\二次赴美准备资料\\预算.xlsx\n---\n\n证    件 护照、身份证、结婚证、机票、驾照\n\n药    品\n\n衣    物\n\n玩    具\n\n毛    毯\n\n奶    粉\n\n针线类/指甲剪\n\n医院检查证明\n\n可儿疫苗本\n\n现    金 纳尼 吧   ，  了，ll\n\n奶瓶、尿不湿、碗儿、勺、刷子、\n\n插线板\n\n手机\n\n水壶\n\n笔、本\n\nIPD充电器\n\nIPHONE 充电器\n\n小米充电器\n\n诺基亚充电器\n\nFFF\n\n音乐播放器充电器 从； \\]\n\nz\n\n\\\n\n\\mbck'p.;;;;;;;;;;;;;;z-a=s-=zvv\n\nb\\\\b],lbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbn；。看着r.........rraq\n\n音乐播放器\n\n转换插头\n\n巧虎碟压缩\n\n机票\n\n伞\n\n车用保温杯",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "hu",
+        "length": 608,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b6731c2d-c2a1-4f12-a499-98ee8385bd5b",
+    "note_id": "38f03982-4648-4053-9268-91ec7347b38a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.327206Z",
+    "finished_at": "2025-11-10T15:43:35.327206Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "69e6aae7-4367-4c98-bd8b-14f620738401",
+      "source_path": "backups/2023年6月/可儿/证 件 护照、身份证、结婚证、机票、驾照.html",
+      "checksum": "a6bbb45511116da7b36078336aa3b364d4f12ee75d5f2eda0ff17b4cb8abee2a"
+    },
+    "output_ref": {
+      "ingest_source": "ebb8684e-abfb-48d9-adae-0f5891b740f9",
+      "note": "38f03982-4648-4053-9268-91ec7347b38a",
+      "variants": [
+        "b9f723d4-981f-4d51-bfab-90a2a7f54d2f",
+        "2244507b-59db-45c2-8a5f-127faa67248e"
+      ]
+    },
+    "error_detail": null
+  }
+}

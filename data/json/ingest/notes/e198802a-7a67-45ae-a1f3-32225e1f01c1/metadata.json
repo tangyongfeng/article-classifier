@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1f88c6bd-8fa7-4a73-b240-c5095a1a3d9f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/金仕达卫宁.html",
+    "collected_at": "2025-11-10T15:43:35.265144Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "494067e432824057af8757f9dea1f02ab43584fd2430d7a952e589d6373d1436",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e198802a-7a67-45ae-a1f3-32225e1f01c1",
+    "ingest_source_id": "1f88c6bd-8fa7-4a73-b240-c5095a1a3d9f",
+    "canonical_title": "金仕达卫宁",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.265148Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "金仕达卫宁.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "92e5bdd0-54f7-4cac-bcef-0e84deef37dc",
+      "note_id": "e198802a-7a67-45ae-a1f3-32225e1f01c1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.265151Z",
+      "content": "---\ntitle: 金仕达卫宁\nupdated: 2013-08-21 08:08:49Z\ncreated: 2013-08-21 08:08:45Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><br/>\n单位用的是金仕达卫宁系列软件，包括HIS 物资管理 固资管理 电子病历 准备继续上LIS<br/>\n对于金仕达卫宁的产品方面，没有比较出色的亮点，可能用户比较多，公版程序垃圾太多，所有菜单、配置一大堆，而且很多过期的， 过期的与在用的混在一起，初学者很容易弄错。 报表方面一般。很多东西程序写死了，没法修改。呼叫售后服务那是相当的难。<br/>\n电子病历（非结构化电子病历），感觉还行，但由于结构化电子病历的快速发展，这个非结构化电子病历应该淘汰了，但如果有低挡客户需要时，他们还会拿出来卖。<br/>\n物资管理和固资管理也是很早就开发了的，老掉牙的东西，没有新意，将就用还行。<br/>\n金仕达卫宁已经在创业板上市，实施人员年薪越3-4万元，流动很大。<br/>\n金士达程序无法跨网段运行，无论是用3层交换机还是路由器都不行，医院扩容只能够改子网掩码（太坑爹了），希望能够改进。<br/>\n4.5及以前的版本是delphi开发的，SQL跟踪很方便，新版.net程序不支持直接SQL跟踪，不方便程序排错和调试。<br/>\n存储过程太少，很多地方都写死了，特别是医保接口部分，希望可以用存储过程，以便对应医保升级出现的问题。<br/>\n打折优惠方案太少，不灵活，不适合现在的民营医院的各种营销方式，希望可以用多种方案，多个存储过程来解决。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "494067e432824057af8757f9dea1f02ab43584fd2430d7a952e589d6373d1436",
+        "path": "backups/2023年6月/医疗/金仕达卫宁.html"
+      }
+    },
+    {
+      "id": "061bc2d3-77a0-4f2c-8dc1-a95cdc37b408",
+      "note_id": "e198802a-7a67-45ae-a1f3-32225e1f01c1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.265154Z",
+      "content": "---\ntitle: 金仕达卫宁\nupdated: 2013-08-21 08:08:49Z\ncreated: 2013-08-21 08:08:45Z\n---\n\n单位用的是金仕达卫宁系列软件，包括HIS 物资管理 固资管理 电子病历 准备继续上LIS\n\n对于金仕达卫宁的产品方面，没有比较出色的亮点，可能用户比较多，公版程序垃圾太多，所有菜单、配置一大堆，而且很多过期的， 过期的与在用的混在一起，初学者很容易弄错。 报表方面一般。很多东西程序写死了，没法修改。呼叫售后服务那是相当的难。\n\n电子病历（非结构化电子病历），感觉还行，但由于结构化电子病历的快速发展，这个非结构化电子病历应该淘汰了，但如果有低挡客户需要时，他们还会拿出来卖。\n\n物资管理和固资管理也是很早就开发了的，老掉牙的东西，没有新意，将就用还行。\n\n金仕达卫宁已经在创业板上市，实施人员年薪越3-4万元，流动很大。\n\n金士达程序无法跨网段运行，无论是用3层交换机还是路由器都不行，医院扩容只能够改子网掩码（太坑爹了），希望能够改进。\n\n4.5及以前的版本是delphi开发的，SQL跟踪很方便，新版.net程序不支持直接SQL跟踪，不方便程序排错和调试。\n\n存储过程太少，很多地方都写死了，特别是医保接口部分，希望可以用存储过程，以便对应医保升级出现的问题。\n\n打折优惠方案太少，不灵活，不适合现在的民营医院的各种营销方式，希望可以用多种方案，多个存储过程来解决。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 618,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "56f038e1-834f-4284-ad1d-c39f5f2af73e",
+    "note_id": "e198802a-7a67-45ae-a1f3-32225e1f01c1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.265159Z",
+    "finished_at": "2025-11-10T15:43:35.265159Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "99303ae4-61f2-4f33-a115-b164938a6c9d",
+      "source_path": "backups/2023年6月/医疗/金仕达卫宁.html",
+      "checksum": "494067e432824057af8757f9dea1f02ab43584fd2430d7a952e589d6373d1436"
+    },
+    "output_ref": {
+      "ingest_source": "1f88c6bd-8fa7-4a73-b240-c5095a1a3d9f",
+      "note": "e198802a-7a67-45ae-a1f3-32225e1f01c1",
+      "variants": [
+        "92e5bdd0-54f7-4cac-bcef-0e84deef37dc",
+        "061bc2d3-77a0-4f2c-8dc1-a95cdc37b408"
+      ]
+    },
+    "error_detail": null
+  }
+}

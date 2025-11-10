@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b1842ab0-be1f-4dc9-8ca5-66d64dc5fcd3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语3/日期.html",
+    "collected_at": "2025-11-10T15:43:36.190198Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "19fe73b8989f72ec707cfe3f03f3d1539843779f9c67de9937ebead3d10fedfe",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "38cf4dc8-a69b-48aa-a51b-1facd588aa56",
+    "ingest_source_id": "b1842ab0-be1f-4dc9-8ca5-66d64dc5fcd3",
+    "canonical_title": "日期",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.190202Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "日期.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c365aad5-8560-4db3-a70d-c499b438f927",
+      "note_id": "38cf4dc8-a69b-48aa-a51b-1facd588aa56",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.190204Z",
+      "content": "---\ntitle: 日期\nupdated: 2020-03-05 10:43:09Z\ncreated: 2020-03-05 10:41:28Z\n---\n\n\n\n<en-note><div>der Tag</div><div>die Woche</div><div>der Monat</div><div>das Jahr</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "19fe73b8989f72ec707cfe3f03f3d1539843779f9c67de9937ebead3d10fedfe",
+        "path": "backups/2023年6月/德语3/日期.html"
+      }
+    },
+    {
+      "id": "26f68d03-5965-41d8-b9c4-a03931c0adcd",
+      "note_id": "38cf4dc8-a69b-48aa-a51b-1facd588aa56",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.190207Z",
+      "content": "---\ntitle: 日期\nupdated: 2020-03-05 10:43:09Z\ncreated: 2020-03-05 10:41:28Z\n---\n\nder Tag\ndie Woche\nder Monat\ndas Jahr",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 115,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "55f93d66-17f4-40d5-877b-ac5a3a760b5b",
+    "note_id": "38cf4dc8-a69b-48aa-a51b-1facd588aa56",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.190212Z",
+    "finished_at": "2025-11-10T15:43:36.190212Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7808a301-9eae-460f-ace2-9bbc82ee715d",
+      "source_path": "backups/2023年6月/德语3/日期.html",
+      "checksum": "19fe73b8989f72ec707cfe3f03f3d1539843779f9c67de9937ebead3d10fedfe"
+    },
+    "output_ref": {
+      "ingest_source": "b1842ab0-be1f-4dc9-8ca5-66d64dc5fcd3",
+      "note": "38cf4dc8-a69b-48aa-a51b-1facd588aa56",
+      "variants": [
+        "c365aad5-8560-4db3-a70d-c499b438f927",
+        "26f68d03-5965-41d8-b9c4-a03931c0adcd"
+      ]
+    },
+    "error_detail": null
+  }
+}

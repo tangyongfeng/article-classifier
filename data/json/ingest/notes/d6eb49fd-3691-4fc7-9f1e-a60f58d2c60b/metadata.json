@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "da1c3d66-36fa-40f3-b1dd-772228d44ffe",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/驾照考试单词.html",
+    "collected_at": "2025-11-10T15:43:35.990976Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "368adf636477cfdee1fb27ebc9fcc5a75197e7cb3a957bd29b8f025c200d2c56",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d6eb49fd-3691-4fc7-9f1e-a60f58d2c60b",
+    "ingest_source_id": "da1c3d66-36fa-40f3-b1dd-772228d44ffe",
+    "canonical_title": "驾照考试单词",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.990980Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "驾照考试单词.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "df33502b-9824-40c2-905e-c1b4ac6be04c",
+      "note_id": "d6eb49fd-3691-4fc7-9f1e-a60f58d2c60b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.990983Z",
+      "content": "---\ntitle: 驾照考试单词\nupdated: 2021-10-11 10:16:03Z\ncreated: 2021-08-02 08:56:19Z\n---\n\n\n\n<en-note><div><br/></div><div>Situation </div><div>Womit</div><div>rechnen</div><div>Fahrzeuge</div><div>Wodurch</div><div>beim</div><div>verkehrszeichen</div><div>Pkw</div><div>gekennzeichnete</div><div>einfahren</div><div>abblegen</div><div>worauf</div><div>Kraftstoffverbrauch</div><div>&uuml;berholen</div><div>Fahrt</div><div>entstehen</div><div>Farhrzeugs</div><div>beitragen</div><div>Kreyung</div><div>entgegen</div><div>Beide</div><div>jewells</div><div>werden</div><div>Quad</div><div>durch</div><div>einhalten</div><div>nutzen</div><div>Hauptuntersuchung</div><div>Schutzstrelfen</div><div>Umwelt</div><div>mehrenren</div><div>markierten</div><div>Fahrstreifen</div><div>Richtung</div><div>Rei&szlig;verschlussverfahren</div><div>anzuwenden</div><div>Parkplatz</div><div>Aquaplaning</div><div>Wassergl&auml;tte</div><div>Floge</div><div>vermeidbare</div><div>L&auml;rmbel&auml;stigung</div><div>Gef&auml;hrdung</div><div>Fahrweise</div><div>f&uuml;hrt</div><div>Innerorts</div><div>hohen</div><div>reduzieren</div><div>ebener</div><div>Fahrbahn</div><div>schalten</div><div>besonders</div><div>umweltbewusst</div><div>sparsam</div><div>unzul&auml;ssig</div><div>anhalten</div><div>bez&uuml;glich</div><div>gelber</div><div>Fahrbahnmarkierungen</div><div>Beladung</div><div>Kofferaums</div><div>Gep&auml;ck</div><div>derartigen</div><div>Querungshilfen</div><div>Streckenplanung</div><div>Ausland</div><div>Ma&szlig;nahme</div><div>umweltschonenden</div><div>Regelfall</div><div>Motor&ouml;lstand</div><div>kontrollieren</div><div>verhindert</div><div>Gegenverkehr</div><div>Abblendlicht</div><div>geblendet</div><div>Motorstart</div><div>&Ouml;ldruckkontrollleuchte</div><div>erlischt</div><div>Kraftfahrzeuge</div><div>Umweltzone</div><div>n&auml;chtlichen</div><div>Erm&uuml;dungserscheinungen</div><div>sp&uuml;ren</div><div>Anh&auml;nger</div><div>mitf&uuml;hren</div><div>Spurhalte-Assistent</div><div>warnt</div><div>akustische</div><div>haptische</div><div>order</div><div>optische</div><div>Signale</div><div>Ursche</div><div>Seitenabstand 缝隙</div><div>stockende 缓慢的</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "368adf636477cfdee1fb27ebc9fcc5a75197e7cb3a957bd29b8f025c200d2c56",
+        "path": "backups/2023年6月/德语1/驾照考试单词.html"
+      }
+    },
+    {
+      "id": "a79cc3ab-f244-4d23-8ec8-1b3a99acf8dc",
+      "note_id": "d6eb49fd-3691-4fc7-9f1e-a60f58d2c60b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.990986Z",
+      "content": "---\ntitle: 驾照考试单词\nupdated: 2021-10-11 10:16:03Z\ncreated: 2021-08-02 08:56:19Z\n---\n\nSituation\nWomit\nrechnen\nFahrzeuge\nWodurch\nbeim\nverkehrszeichen\nPkw\ngekennzeichnete\neinfahren\nabblegen\nworauf\nKraftstoffverbrauch\nüberholen\nFahrt\nentstehen\nFarhrzeugs\nbeitragen\nKreyung\nentgegen\nBeide\njewells\nwerden\nQuad\ndurch\neinhalten\nnutzen\nHauptuntersuchung\nSchutzstrelfen\nUmwelt\nmehrenren\nmarkierten\nFahrstreifen\nRichtung\nReißverschlussverfahren\nanzuwenden\nParkplatz\nAquaplaning\nWasserglätte\nFloge\nvermeidbare\nLärmbelästigung\nGefährdung\nFahrweise\nführt\nInnerorts\nhohen\nreduzieren\nebener\nFahrbahn\nschalten\nbesonders\numweltbewusst\nsparsam\nunzulässig\nanhalten\nbezüglich\ngelber\nFahrbahnmarkierungen\nBeladung\nKofferaums\nGepäck\nderartigen\nQuerungshilfen\nStreckenplanung\nAusland\nMaßnahme\numweltschonenden\nRegelfall\nMotorölstand\nkontrollieren\nverhindert\nGegenverkehr\nAbblendlicht\ngeblendet\nMotorstart\nÖldruckkontrollleuchte\nerlischt\nKraftfahrzeuge\nUmweltzone\nnächtlichen\nErmüdungserscheinungen\nspüren\nAnhänger\nmitführen\nSpurhalte-Assistent\nwarnt\nakustische\nhaptische\norder\noptische\nSignale\nUrsche\nSeitenabstand 缝隙\nstockende 缓慢的",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1105,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "47c67815-0f56-4946-8f87-8a63ba6f17e4",
+    "note_id": "d6eb49fd-3691-4fc7-9f1e-a60f58d2c60b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.990991Z",
+    "finished_at": "2025-11-10T15:43:35.990992Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "382ce99b-6f40-44a3-88f6-7cc093020482",
+      "source_path": "backups/2023年6月/德语1/驾照考试单词.html",
+      "checksum": "368adf636477cfdee1fb27ebc9fcc5a75197e7cb3a957bd29b8f025c200d2c56"
+    },
+    "output_ref": {
+      "ingest_source": "da1c3d66-36fa-40f3-b1dd-772228d44ffe",
+      "note": "d6eb49fd-3691-4fc7-9f1e-a60f58d2c60b",
+      "variants": [
+        "df33502b-9824-40c2-905e-c1b4ac6be04c",
+        "a79cc3ab-f244-4d23-8ec8-1b3a99acf8dc"
+      ]
+    },
+    "error_detail": null
+  }
+}

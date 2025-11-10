@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f80f63f2-c2d8-4682-b06b-3ec5f8a8b04a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/8月13日会议记录.html",
+    "collected_at": "2025-11-10T15:43:34.663651Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "456536e1af808ee2fa56918a666bd296e626e5a6fdec9cb3312d68a194f041c8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "2e4e434b-0fca-47f4-bb4b-ddc7bc7a1a6e",
+    "ingest_source_id": "f80f63f2-c2d8-4682-b06b-3ec5f8a8b04a",
+    "canonical_title": "8月13日会议记录",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.663655Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "8月13日会议记录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4aa18757-c1d0-400a-9840-fbfe86aed9bb",
+      "note_id": "2e4e434b-0fca-47f4-bb4b-ddc7bc7a1a6e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.663658Z",
+      "content": "---\ntitle: 8月13日会议记录\nupdated: 2020-08-13 09:04:07Z\ncreated: 2020-08-13 07:32:42Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>1、用户系统需要讨论问题</div><ul><li><div>用户系统的设计思想。</div></li><li><div>是否使用第三方成熟的开源用户系统</div></li><li><div>使用现有教学系统的用户系统还是建立一个独立的用户系统</div></li></ul><div>2、资源平台</div><ul><li><div>现在教学平台并不带视频播放的功能，需要提供url格式（LTI）的资源列表</div></li><li><div>直播课堂的录像也需要纳入到资源库其中</div></li><li><div>资源入库标准</div></li><li><div>需要支持普通拷贝资源进入系统的模式，用与支持初期的资源收集模式</div></li><li><div>考虑将来与知识图谱结合。</div></li></ul><div>3、具体内容确定</div><ul><li><div>韩冰和张鹏整理一套相对适合的抉择，对开源系统已有的功能和我们的需求做基本的抉择。</div></li></ul><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "456536e1af808ee2fa56918a666bd296e626e5a6fdec9cb3312d68a194f041c8",
+        "path": "backups/2023年6月/中彩相关/8月13日会议记录.html"
+      }
+    },
+    {
+      "id": "5968a422-c16a-4dcb-b028-95c8582beb11",
+      "note_id": "2e4e434b-0fca-47f4-bb4b-ddc7bc7a1a6e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.663661Z",
+      "content": "---\ntitle: 8月13日会议记录\nupdated: 2020-08-13 09:04:07Z\ncreated: 2020-08-13 07:32:42Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、用户系统需要讨论问题\n用户系统的设计思想。\n是否使用第三方成熟的开源用户系统\n使用现有教学系统的用户系统还是建立一个独立的用户系统\n2、资源平台\n现在教学平台并不带视频播放的功能，需要提供url格式（LTI）的资源列表\n直播课堂的录像也需要纳入到资源库其中\n资源入库标准\n需要支持普通拷贝资源进入系统的模式，用与支持初期的资源收集模式\n考虑将来与知识图谱结合。\n3、具体内容确定\n韩冰和张鹏整理一套相对适合的抉择，对开源系统已有的功能和我们的需求做基本的抉择。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 349,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "afcacb0f-ef70-4f8b-afb3-f085d62132b8",
+    "note_id": "2e4e434b-0fca-47f4-bb4b-ddc7bc7a1a6e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.663666Z",
+    "finished_at": "2025-11-10T15:43:34.663667Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "136902eb-3e1b-46c8-a7e6-4bdaf0f23424",
+      "source_path": "backups/2023年6月/中彩相关/8月13日会议记录.html",
+      "checksum": "456536e1af808ee2fa56918a666bd296e626e5a6fdec9cb3312d68a194f041c8"
+    },
+    "output_ref": {
+      "ingest_source": "f80f63f2-c2d8-4682-b06b-3ec5f8a8b04a",
+      "note": "2e4e434b-0fca-47f4-bb4b-ddc7bc7a1a6e",
+      "variants": [
+        "4aa18757-c1d0-400a-9840-fbfe86aed9bb",
+        "5968a422-c16a-4dcb-b028-95c8582beb11"
+      ]
+    },
+    "error_detail": null
+  }
+}

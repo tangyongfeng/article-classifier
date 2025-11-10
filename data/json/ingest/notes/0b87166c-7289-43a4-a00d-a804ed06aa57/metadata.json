@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "be18d332-1b05-47a1-b57f-c03ffc3ab237",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/谷歌SEO免费关键词工具 Ubersuggest 讲解.html",
+    "collected_at": "2025-11-10T15:43:33.175069Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "48d81c39a1a4db44ff5fc6193f4c69c6590fb7aed810316bf6876b35466c0181",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0b87166c-7289-43a4-a00d-a804ed06aa57",
+    "ingest_source_id": "be18d332-1b05-47a1-b57f-c03ffc3ab237",
+    "canonical_title": "谷歌SEO免费关键词工具 Ubersuggest 讲解",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:33.175073Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "谷歌SEO免费关键词工具 Ubersuggest 讲解.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6d618c1c-4ebb-42a6-b7f2-6ecb5410e5c3",
+      "note_id": "0b87166c-7289-43a4-a00d-a804ed06aa57",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.175075Z",
+      "content": "---\ntitle: 谷歌SEO免费关键词工具 Ubersuggest 讲解\nupdated: 2019-10-27 09:28:51Z\ncreated: 2019-10-27 09:28:40Z\n---\n\n\n<en-note><h1></h1><div>&nbsp; 2019/09/27&nbsp; 10&nbsp; <a TITLE=\"SEO工具\" HREF=\"http://ailongmiao.com/etagid69_0.html\" REV=\"en_rl_none\">SEO工具</a> </div><div><br/></div><div>国外著名seo大神 Neil Patel 收购&nbsp;ubersuggest 之后，疯狂增加技能，比如，最根本的，以前只显示谷歌提示词，现在所有相关词都会展示给你；再比如，以前就显示个单词，其他信息完全没有，现在会把关键词所有信息（<b><span STYLE=\"color: #0000FF;\">搜索量、seo难度、adwords信息</span></b>）全部展现给你。除此之外，输入竞争对手域名，你会获得竞争对手的详细信息，包括<b><span STYLE=\"color: #0000FF;\">流量变化、关键词情况、外链</span></b>甚至<b><span STYLE=\"color: #0000FF;\">站内seo</span></b>情况。</div><div>可以说，现在ubersuggest已经非常强大了，免费的关键词工具中，没有一个能比得上它，甚至很多付费的都比它要差一些（比如日薄西山的Moz）。这个工具估计后面很快会收费。</div><div>趁着还免费，大家赶紧用，至于如何使用，今天我会详细交给大家。</div><div>（学习如何使用工具之前，一定要有这样的意识：绝大部分seo工具都是<b>看起来复杂，使用其实非常简单</b>，所以掌握工具最重要的不是教程，而是亲自去用，用个几次就全懂了。）</div><h2>Ubersuggest 关键词挖掘教程：</h2><div>Ubersuggest 主界面：</div><div><br/></div><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/9dd82d02a4bcb9403f8417ebfb1c9411.png\" ALT=\"Ubersuggest 主界面\"/><div>如果单纯是搜索词的话，输入关键词，选择语言和国家（一般国家和语言是对应的，比如日语对应日本，但是偶尔一种语言对应多个国家，比如英语/英国，英语/美国，这种就需要选择），点击搜索就可以了。</div><div>（ubersuggest显示的提示词数据都是分国家的，比如你选择了英语/美国，那你在香港使用英语搜索这个词，搜索量就不会被统计进去。）</div><div><b>然后，当你输入某个词，点击搜索之后，你会得到下面的信息：</b>（我们以computer game这个词为例）</div><h3>1.关键词重点信息：</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/44602be263c812002070cbdc76b44b1f.png\" ALT=\"键词重点信息\"/><div><b>Search volume</b>：搜索量（月均）。</div><div><b>Seo difficulty</b>：seo难度（越接近0越低，越接近100越高）。</div><div><b>Paid difficulty</b>：adwords竞价难度（越接近0越低，越接近100越高），难度越高说明在adwords里买这个关键词的人越多。</div><div><b>CPC</b>：做adwords竞价每次点击需要花费的费用。</div><h3>2.流量趋势</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/8504c15d206ac58b8e1a82ed226423ea.png\" ALT=\"流量趋势\"/><div>通过这里，你可以清晰的看到某个词一年内每月的搜索量情况。</div><h3>3.谷歌提示词（完全包含这个词的长尾词）</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/8730f2d3e36c0a3cdcc51e7524c7f98a.png\" ALT=\"谷歌提示词（完全包含这个词的长尾词）\"/><div>点击view all可以查看更多关键词，并且进入更多关键词页面后，你可以对这些词进行导出，同时使用filter进行筛选，控制工具的输出词。（这些都很简单，尝试一次就会了，这里就不详细讲了。）</div><h3>4.查看相关词</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/5058a8b8505b338f06a00514d62a901c.png\" ALT=\"查看相关词\"/><div>同样点击view all查看更多，其他也是一样的。</div><div>不管是提示词还是相关词，ubersuggest都会把<span STYLE=\"color: #0000FF;\">详细的搜索量、竞价费用、竞价难度、seo难度以及趋势显示在词的右侧</span>，点击这个词，你可以获得更详细的信息。</div><h3>5.搜索这个词排名前十的网站信息</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/691ea5e18fb02eca6efa8ea50e0fba7f.png\" ALT=\"搜索这个词排名前十的网站信息\"/><div>这些信息包括标题和url、根据关键词预估的每月自然流量、外链数量、Facebook及Pinterest分享量等。点击可以查看更详细信息。</div><div>上面是使用<b>ubersuggest</b>进行<b>关键词挖掘</b>的教程。</div><h2>使用 ubersuggest 分析竞争对手网站教程</h2><div>现在这个工具除了挖掘关键词还可以直接输入链接，查看某个网站的信息，我们来讲一下：（以大名鼎鼎的backlinko为例）</div><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/f297eb2e683fde8e2d15521d6a69a8af.png\" ALT=\"ubersuggest 分析竞争对手网站教程\"/><div>点击search后，我们可以看到如下信息：</div><h3>1.网站概况：</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/070f1e01523d710436809531fecefbc8.png\" ALT=\"网站概况\"/><div><b>Organic keywords</b>：有排名的关键词数量</div><div><b>Organic monthly traffic</b>：根据有排名的关键词估算出来的月均自然搜索流量</div><div><b>Domain score</b>：域名得分（得分越高说明越容易在谷歌获得好的排名）</div><div><b>Backlinks</b>：外链总数量</div><div>当然，以上数据都是ubersuggest得出的，跟真实情况可能有一定差距，这是所有工具都有的问题。</div><h3>2.网站一年内的自然流量趋势：</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/735b2bfa28a042b7e2c0c25ba0c594e9.png\" ALT=\"网站一年内的自然流量趋势\"/><h3>3.网站的关键词概览及趋势：</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/b6d95c569b6dee3dcf686b2ab6336291.png\" ALT=\"网站的关键词概览及趋势\"/><h3>4.网站流量最高的页面及页面信息：</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/d46ca5339cf3cdcbf4b2ea7fc917f774.png\" ALT=\"网站流量最高的页面及页面信息\"/><h3>5.详细的关键词信息：</h3><img SRC=\"http://ailongmiao.com/d/file/2019/09-27/e8d24dda9eb8e0a800f95e22029274b4.png\" ALT=\"详细的关键词信息\"/><div>上面是使用ubersuggest分析竞争对手的简单教程，后面最重要的是大家自己实操，自己去了解更详细的信息。</div><div>最后，ubersuggest还有一个强大的功能，那就是检测网站seo问题，跟semrush的网站检测功能基本是一样的。</div><div>看完上面教程，大家应该发现了，新版的ubersuggest很强大，基本看做semrush、ahrefs或者mangools的简化版，虽然可能一些数据没有其他知名工具那么强大，但是基本也够用了，最重要的一点是它是免费的！！</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "48d81c39a1a4db44ff5fc6193f4c69c6590fb7aed810316bf6876b35466c0181",
+        "path": "backups/2023年6月/IT技术/谷歌SEO免费关键词工具 Ubersuggest 讲解.html"
+      }
+    },
+    {
+      "id": "055558c6-5183-4091-bb97-a02dc2839ea5",
+      "note_id": "0b87166c-7289-43a4-a00d-a804ed06aa57",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.175078Z",
+      "content": "---\ntitle: 谷歌SEO免费关键词工具 Ubersuggest 讲解\nupdated: 2019-10-27 09:28:51Z\ncreated: 2019-10-27 09:28:40Z\n---\n\n  2019/09/27  10 \nSEO工具\n\n国外著名seo大神 Neil Patel 收购 ubersuggest 之后，疯狂增加技能，比如，最根本的，以前只显示谷歌提示词，现在所有相关词都会展示给你；再比如，以前就显示个单词，其他信息完全没有，现在会把关键词所有信息（\n搜索量、seo难度、adwords信息\n）全部展现给你。除此之外，输入竞争对手域名，你会获得竞争对手的详细信息，包括\n流量变化、关键词情况、外链\n甚至\n站内seo\n情况。\n可以说，现在ubersuggest已经非常强大了，免费的关键词工具中，没有一个能比得上它，甚至很多付费的都比它要差一些（比如日薄西山的Moz）。这个工具估计后面很快会收费。\n趁着还免费，大家赶紧用，至于如何使用，今天我会详细交给大家。\n（学习如何使用工具之前，一定要有这样的意识：绝大部分seo工具都是\n看起来复杂，使用其实非常简单\n，所以掌握工具最重要的不是教程，而是亲自去用，用个几次就全懂了。）\nUbersuggest 关键词挖掘教程：\nUbersuggest 主界面：\n如果单纯是搜索词的话，输入关键词，选择语言和国家（一般国家和语言是对应的，比如日语对应日本，但是偶尔一种语言对应多个国家，比如英语/英国，英语/美国，这种就需要选择），点击搜索就可以了。\n（ubersuggest显示的提示词数据都是分国家的，比如你选择了英语/美国，那你在香港使用英语搜索这个词，搜索量就不会被统计进去。）\n然后，当你输入某个词，点击搜索之后，你会得到下面的信息：\n（我们以computer game这个词为例）\n1.关键词重点信息：\nSearch volume\n：搜索量（月均）。\nSeo difficulty\n：seo难度（越接近0越低，越接近100越高）。\nPaid difficulty\n：adwords竞价难度（越接近0越低，越接近100越高），难度越高说明在adwords里买这个关键词的人越多。\nCPC\n：做adwords竞价每次点击需要花费的费用。\n2.流量趋势\n通过这里，你可以清晰的看到某个词一年内每月的搜索量情况。\n3.谷歌提示词（完全包含这个词的长尾词）\n点击view all可以查看更多关键词，并且进入更多关键词页面后，你可以对这些词进行导出，同时使用filter进行筛选，控制工具的输出词。（这些都很简单，尝试一次就会了，这里就不详细讲了。）\n4.查看相关词\n同样点击view all查看更多，其他也是一样的。\n不管是提示词还是相关词，ubersuggest都会把\n详细的搜索量、竞价费用、竞价难度、seo难度以及趋势显示在词的右侧\n，点击这个词，你可以获得更详细的信息。\n5.搜索这个词排名前十的网站信息\n这些信息包括标题和url、根据关键词预估的每月自然流量、外链数量、Facebook及Pinterest分享量等。点击可以查看更详细信息。\n上面是使用\nubersuggest\n进行\n关键词挖掘\n的教程。\n使用 ubersuggest 分析竞争对手网站教程\n现在这个工具除了挖掘关键词还可以直接输入链接，查看某个网站的信息，我们来讲一下：（以大名鼎鼎的backlinko为例）\n点击search后，我们可以看到如下信息：\n1.网站概况：\nOrganic keywords\n：有排名的关键词数量\nOrganic monthly traffic\n：根据有排名的关键词估算出来的月均自然搜索流量\nDomain score\n：域名得分（得分越高说明越容易在谷歌获得好的排名）\nBacklinks\n：外链总数量\n当然，以上数据都是ubersuggest得出的，跟真实情况可能有一定差距，这是所有工具都有的问题。\n2.网站一年内的自然流量趋势：\n3.网站的关键词概览及趋势：\n4.网站流量最高的页面及页面信息：\n5.详细的关键词信息：\n上面是使用ubersuggest分析竞争对手的简单教程，后面最重要的是大家自己实操，自己去了解更详细的信息。\n最后，ubersuggest还有一个强大的功能，那就是检测网站seo问题，跟semrush的网站检测功能基本是一样的。\n看完上面教程，大家应该发现了，新版的ubersuggest很强大，基本看做semrush、ahrefs或者mangools的简化版，虽然可能一些数据没有其他知名工具那么强大，但是基本也够用了，最重要的一点是它是免费的！！",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 1929,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d619b8df-e4c9-4ec7-ab5c-c62b376f4c39",
+    "note_id": "0b87166c-7289-43a4-a00d-a804ed06aa57",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.175083Z",
+    "finished_at": "2025-11-10T15:43:33.175083Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "291f9a50-ffd6-40e9-80df-bda92c0ecd8e",
+      "source_path": "backups/2023年6月/IT技术/谷歌SEO免费关键词工具 Ubersuggest 讲解.html",
+      "checksum": "48d81c39a1a4db44ff5fc6193f4c69c6590fb7aed810316bf6876b35466c0181"
+    },
+    "output_ref": {
+      "ingest_source": "be18d332-1b05-47a1-b57f-c03ffc3ab237",
+      "note": "0b87166c-7289-43a4-a00d-a804ed06aa57",
+      "variants": [
+        "6d618c1c-4ebb-42a6-b7f2-6ecb5410e5c3",
+        "055558c6-5183-4091-bb97-a02dc2839ea5"
+      ]
+    },
+    "error_detail": null
+  }
+}

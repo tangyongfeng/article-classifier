@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8ada2cb2-5f59-48bb-849f-d7aad3b6fcc7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语3/祈使句.html",
+    "collected_at": "2025-11-10T15:43:36.220292Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "1258b1e563cbe2c4e2cdab51a13257264a00ab0943ed4cb00915061dead8e7a7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ff3d2ffe-dc80-470f-928d-e5404792052f",
+    "ingest_source_id": "8ada2cb2-5f59-48bb-849f-d7aad3b6fcc7",
+    "canonical_title": "祈使句",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.220296Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "祈使句.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "90defcce-bd58-4de7-bc2a-06023fd3c116",
+      "note_id": "ff3d2ffe-dc80-470f-928d-e5404792052f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.220298Z",
+      "content": "---\ntitle: 祈使句\nupdated: 2020-02-18 10:11:02Z\ncreated: 2020-02-18 10:10:42Z\n---\n\n\n\n<en-note><div>Sie的时候，把动词提前</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1258b1e563cbe2c4e2cdab51a13257264a00ab0943ed4cb00915061dead8e7a7",
+        "path": "backups/2023年6月/德语3/祈使句.html"
+      }
+    },
+    {
+      "id": "e8a0bc88-b6da-4a28-8941-fed442eecc6a",
+      "note_id": "ff3d2ffe-dc80-470f-928d-e5404792052f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.220301Z",
+      "content": "---\ntitle: 祈使句\nupdated: 2020-02-18 10:11:02Z\ncreated: 2020-02-18 10:10:42Z\n---\n\nSie的时候，把动词提前",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 92,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ecbbee70-5041-499d-b4a6-55e5aa02d0cb",
+    "note_id": "ff3d2ffe-dc80-470f-928d-e5404792052f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.220306Z",
+    "finished_at": "2025-11-10T15:43:36.220306Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e1116edc-5680-467e-9810-0b8e31da2fc6",
+      "source_path": "backups/2023年6月/德语3/祈使句.html",
+      "checksum": "1258b1e563cbe2c4e2cdab51a13257264a00ab0943ed4cb00915061dead8e7a7"
+    },
+    "output_ref": {
+      "ingest_source": "8ada2cb2-5f59-48bb-849f-d7aad3b6fcc7",
+      "note": "ff3d2ffe-dc80-470f-928d-e5404792052f",
+      "variants": [
+        "90defcce-bd58-4de7-bc2a-06023fd3c116",
+        "e8a0bc88-b6da-4a28-8941-fed442eecc6a"
+      ]
+    },
+    "error_detail": null
+  }
+}

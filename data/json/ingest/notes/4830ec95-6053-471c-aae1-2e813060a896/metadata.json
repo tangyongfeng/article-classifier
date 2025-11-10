@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ee775c42-2728-41b3-889e-ffcaf5116446",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/计数并且排序.html",
+    "collected_at": "2025-11-10T15:43:33.159041Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ceb35d8f7843b18eda362845ef852b8ff3b8b80d172cd530463b695c0e7aad19",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4830ec95-6053-471c-aae1-2e813060a896",
+    "ingest_source_id": "ee775c42-2728-41b3-889e-ffcaf5116446",
+    "canonical_title": "计数并且排序",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.159045Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "计数并且排序.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d4df95ca-d12d-4ed8-bc99-4b005cbfdc16",
+      "note_id": "4830ec95-6053-471c-aae1-2e813060a896",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.159048Z",
+      "content": "---\ntitle: 计数并且排序\nupdated: 2019-01-25 09:53:15Z\ncreated: 2019-01-25 09:52:50Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - sql\n---\n\n\n<en-note><div></div><div>SELECT keyword, count( * ) AS count&nbsp;</div><div><br/></div><div>FROM article_keyword&nbsp;</div><div><br/></div><div>GROUP BY keyword&nbsp;</div><div><br/></div><div>ORDER BY count DESC&nbsp;</div><div><br/></div><div STYLE=\"margin-top: 1em; margin-bottom: 1em;\"><span STYLE=\"-en-paragraph:true;\">LIMIT 20\n</span></div><p></p><div><span STYLE=\"box-sizing: border-box; outline: 0px; font-family: &quot;Microsoft YaHei&quot;, &quot;SF Pro Display&quot;, Roboto, Noto, Arial, &quot;PingFang SC&quot;, sans-serif; font-size: 16px; color: rgb(79, 79, 79); line-height: 26px; overflow-wrap: break-word; font-variant-ligatures: common-ligatures; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;-en-paragraph:true;\">此段查询语句返回 article_keyword 表中 keyword 重复次数（count） 最多的20条记录。\n</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ceb35d8f7843b18eda362845ef852b8ff3b8b80d172cd530463b695c0e7aad19",
+        "path": "backups/2023年6月/IT技术/计数并且排序.html"
+      }
+    },
+    {
+      "id": "10d86ba2-7c2e-4ee8-bc23-e6b9a2cad186",
+      "note_id": "4830ec95-6053-471c-aae1-2e813060a896",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.159050Z",
+      "content": "---\ntitle: 计数并且排序\nupdated: 2019-01-25 09:53:15Z\ncreated: 2019-01-25 09:52:50Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - sql\n---\n\nSELECT keyword, count( * ) AS count \nFROM article_keyword \nGROUP BY keyword \nORDER BY count DESC \nLIMIT 20\n\n此段查询语句返回 article_keyword 表中 keyword 重复次数（count） 最多的20条记录。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 293,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0df282b0-495a-4c75-928f-17224638d194",
+    "note_id": "4830ec95-6053-471c-aae1-2e813060a896",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.159055Z",
+    "finished_at": "2025-11-10T15:43:33.159055Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2e46cf95-2356-4fb3-9042-cf022e7d9eea",
+      "source_path": "backups/2023年6月/IT技术/计数并且排序.html",
+      "checksum": "ceb35d8f7843b18eda362845ef852b8ff3b8b80d172cd530463b695c0e7aad19"
+    },
+    "output_ref": {
+      "ingest_source": "ee775c42-2728-41b3-889e-ffcaf5116446",
+      "note": "4830ec95-6053-471c-aae1-2e813060a896",
+      "variants": [
+        "d4df95ca-d12d-4ed8-bc99-4b005cbfdc16",
+        "10d86ba2-7c2e-4ee8-bc23-e6b9a2cad186"
+      ]
+    },
+    "error_detail": null
+  }
+}

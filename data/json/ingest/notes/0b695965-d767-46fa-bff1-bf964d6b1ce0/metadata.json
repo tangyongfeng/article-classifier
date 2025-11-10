@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "487ab72d-298f-452a-9d8f-9a879af139db",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/段子/爸：丫头，考试考的怎么样呀？.html",
+    "collected_at": "2025-11-10T15:43:36.924502Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "619f6b36355b8a98143ece4b3d5f56554f8e17cc6e470190d8472b662d10e5d3",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0b695965-d767-46fa-bff1-bf964d6b1ce0",
+    "ingest_source_id": "487ab72d-298f-452a-9d8f-9a879af139db",
+    "canonical_title": "爸：丫头，考试考的怎么样呀？",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.924506Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "爸：丫头，考试考的怎么样呀？.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a4296585-c393-4033-97d0-f68d6127ed67",
+      "note_id": "0b695965-d767-46fa-bff1-bf964d6b1ce0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.924508Z",
+      "content": "---\ntitle: 爸：丫头，考试考的怎么样呀？\nupdated: 2014-04-01 04:45:40Z\ncreated: 2014-04-01 04:45:40Z\nsource: >-\n  https://plus.google.com/110402715572698674699/posts?utm_source=dlvr.it&utm_medium=facebook\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">爸：丫头，考试考的怎么样呀？</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">丫头：不怎么好！</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">我爸：考了几分呀？</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">丫头：数学零分，语文四分。</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">我爸：嗯，是不怎么好，有点偏科&hellip;&hellip;</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">我站在边上瞬间就凌乱了&hellip;&hellip;&nbsp;﻿</span></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "619f6b36355b8a98143ece4b3d5f56554f8e17cc6e470190d8472b662d10e5d3",
+        "path": "backups/2023年6月/段子/爸：丫头，考试考的怎么样呀？.html"
+      }
+    },
+    {
+      "id": "f78beff1-1a0f-4a4a-9d51-9d23b416020e",
+      "note_id": "0b695965-d767-46fa-bff1-bf964d6b1ce0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.924511Z",
+      "content": "---\ntitle: 爸：丫头，考试考的怎么样呀？\nupdated: 2014-04-01 04:45:40Z\ncreated: 2014-04-01 04:45:40Z\nsource: >-\n  https://plus.google.com/110402715572698674699/posts?utm_source=dlvr.it&utm_medium=facebook\n---\n\n爸：丫头，考试考的怎么样呀？\n丫头：不怎么好！\n我爸：考了几分呀？\n丫头：数学零分，语文四分。\n我爸：嗯，是不怎么好，有点偏科……\n我站在边上瞬间就凌乱了…… ﻿",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 276,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "35771e9e-2e9a-4861-897a-884ea502d464",
+    "note_id": "0b695965-d767-46fa-bff1-bf964d6b1ce0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.924516Z",
+    "finished_at": "2025-11-10T15:43:36.924516Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "12baaa43-b020-4d9c-b52e-ea403a505faa",
+      "source_path": "backups/2023年6月/段子/爸：丫头，考试考的怎么样呀？.html",
+      "checksum": "619f6b36355b8a98143ece4b3d5f56554f8e17cc6e470190d8472b662d10e5d3"
+    },
+    "output_ref": {
+      "ingest_source": "487ab72d-298f-452a-9d8f-9a879af139db",
+      "note": "0b695965-d767-46fa-bff1-bf964d6b1ce0",
+      "variants": [
+        "a4296585-c393-4033-97d0-f68d6127ed67",
+        "f78beff1-1a0f-4a4a-9d51-9d23b416020e"
+      ]
+    },
+    "error_detail": null
+  }
+}

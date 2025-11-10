@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "18458127-b1e0-46e7-bd88-c6218ee64101",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/水果蔬菜.html",
+    "collected_at": "2025-11-10T15:43:36.124945Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "9a86de174e99339d69239a9022ff60edcff5fa32cfce69b40aba6a9f95542bef",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c4bc3e6b-78c1-429f-8ec7-019b29f1a653",
+    "ingest_source_id": "18458127-b1e0-46e7-bd88-c6218ee64101",
+    "canonical_title": "水果蔬菜",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.124949Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "水果蔬菜.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ea1f5767-41de-4665-839c-4263f610ab36",
+      "note_id": "c4bc3e6b-78c1-429f-8ec7-019b29f1a653",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.124951Z",
+      "content": "---\ntitle: 水果蔬菜\nupdated: 2020-04-24 07:44:25Z\ncreated: 2020-04-24 07:44:15Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><a HREF=\"https://quizlet.com/_896mrr?x=1qqt&i=1d48g3\" STYLE=\"color: rgb(69, 83, 88); font-family: hurme_no2-webfont, -apple-system, system-ui, sans-serif; font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: pre; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(244, 244, 244);\">https://quizlet.com/_896mrr?x=1qqt&amp;i=1d48g3</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9a86de174e99339d69239a9022ff60edcff5fa32cfce69b40aba6a9f95542bef",
+        "path": "backups/2023年6月/德语2/水果蔬菜.html"
+      }
+    },
+    {
+      "id": "a6d97c6b-2ca6-4284-af3a-69d957d1b61a",
+      "note_id": "c4bc3e6b-78c1-429f-8ec7-019b29f1a653",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.124954Z",
+      "content": "---\ntitle: 水果蔬菜\nupdated: 2020-04-24 07:44:25Z\ncreated: 2020-04-24 07:44:15Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttps://quizlet.com/_896mrr?x=1qqt&i=1d48g3",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 155,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3263e669-d89d-4f9d-a59a-31db2f984f77",
+    "note_id": "c4bc3e6b-78c1-429f-8ec7-019b29f1a653",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.124959Z",
+    "finished_at": "2025-11-10T15:43:36.124959Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a6a24138-6c38-4837-bcd6-fa7c8ee887ed",
+      "source_path": "backups/2023年6月/德语2/水果蔬菜.html",
+      "checksum": "9a86de174e99339d69239a9022ff60edcff5fa32cfce69b40aba6a9f95542bef"
+    },
+    "output_ref": {
+      "ingest_source": "18458127-b1e0-46e7-bd88-c6218ee64101",
+      "note": "c4bc3e6b-78c1-429f-8ec7-019b29f1a653",
+      "variants": [
+        "ea1f5767-41de-4665-839c-4263f610ab36",
+        "a6d97c6b-2ca6-4284-af3a-69d957d1b61a"
+      ]
+    },
+    "error_detail": null
+  }
+}

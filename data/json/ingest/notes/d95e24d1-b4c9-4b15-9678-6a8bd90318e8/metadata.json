@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "01a29350-8881-4247-ae2f-c563d30d8b1a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/lesen.html",
+    "collected_at": "2025-11-10T15:43:35.804151Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "7b6cd71f6ac3a4c136898b2cd3c3900eb549a8ba0b81069db2be21570c7faadd",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d95e24d1-b4c9-4b15-9678-6a8bd90318e8",
+    "ingest_source_id": "01a29350-8881-4247-ae2f-c563d30d8b1a",
+    "canonical_title": "lesen",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.804159Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "lesen.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "eceef6c9-d92f-4022-bd1f-f5528dc0e90f",
+      "note_id": "d95e24d1-b4c9-4b15-9678-6a8bd90318e8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.804163Z",
+      "content": "---\ntitle: lesen\nupdated: 2021-02-28 21:22:55Z\ncreated: 2021-02-28 21:22:45Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>In der Kronauer Stra&szlig;e streiten die Nachbarn, nachdem die Bezirksverwaltung ein Parkverbot auf der linken Seite der Stra&szlig;e eingerichtet hat. Bisher konnten die Bewohner der Stra&szlig;e auf beiden Seiten parken. Nachdem sich nun aber ein Blumenladen und eine Reinigung angesiedelt haben, wurde dort ein Parkverbot von 6.00 bis 8.00 Uhr f&uuml;r die Bewohner eingerichtet , um Platz f&uuml;r den Lieferwagen zu schaffen. So d&uuml;rfen sie ihre Autos dort nicht mehr &uuml;ber Nachte parken oder m&uuml;ssen sie vor 6.00 Uhr morgens wegfahren.&quot;Das funktioniert nie&quot;, sagt der Besitzer des Blumenladens, Chen Nyugen. &quot;Ich kann mit meinem Transporter nicht parken und muss in zweiter Reihe stehen bleiben. Das gibt immer Streit mit den Nachbarn! &quot; Auch die Betreiberin der Reinigung , Irina Millner , ist sauer :&quot;Meine Kunden k&ouml;nnen vor meinem Gesch&auml;ft nicht parken und gehen deshalb lieber in die Reinigung im Einkaufszentrum. Wenn das so weitergeht ,muss ich bald schlie&szlig;en! ich verlange ,dass mindestens zwei Kundenparkpl&auml;tze vor meiner T&uuml;r eingerichtet werden.&quot; Dann h&auml;tten die Bewohner noch weniger M&ouml;glichkeiten zu parken. Man kann nur hoffen ,dass die Bewohner der Kronauer Stra&szlig;e in Zukunft mehr Verst&auml;ndnis f&uuml;r die beiden neuen Ladenbesitzer zeigen.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7b6cd71f6ac3a4c136898b2cd3c3900eb549a8ba0b81069db2be21570c7faadd",
+        "path": "backups/2023年6月/德语1/lesen.html"
+      }
+    },
+    {
+      "id": "a6860b09-cc6b-4877-983b-76e5884f070b",
+      "note_id": "d95e24d1-b4c9-4b15-9678-6a8bd90318e8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.804168Z",
+      "content": "---\ntitle: lesen\nupdated: 2021-02-28 21:22:55Z\ncreated: 2021-02-28 21:22:45Z\nauthor: tangyongfeng@gmail.com\n---\n\nIn der Kronauer Straße streiten die Nachbarn, nachdem die Bezirksverwaltung ein Parkverbot auf der linken Seite der Straße eingerichtet hat. Bisher konnten die Bewohner der Straße auf beiden Seiten parken. Nachdem sich nun aber ein Blumenladen und eine Reinigung angesiedelt haben, wurde dort ein Parkverbot von 6.00 bis 8.00 Uhr für die Bewohner eingerichtet , um Platz für den Lieferwagen zu schaffen. So dürfen sie ihre Autos dort nicht mehr über Nachte parken oder müssen sie vor 6.00 Uhr morgens wegfahren.\"Das funktioniert nie\", sagt der Besitzer des Blumenladens, Chen Nyugen. \"Ich kann mit meinem Transporter nicht parken und muss in zweiter Reihe stehen bleiben. Das gibt immer Streit mit den Nachbarn! \" Auch die Betreiberin der Reinigung , Irina Millner , ist sauer :\"Meine Kunden können vor meinem Geschäft nicht parken und gehen deshalb lieber in die Reinigung im Einkaufszentrum. Wenn das so weitergeht ,muss ich bald schließen! ich verlange ,dass mindestens zwei Kundenparkplätze vor meiner Tür eingerichtet werden.\" Dann hätten die Bewohner noch weniger Möglichkeiten zu parken. Man kann nur hoffen ,dass die Bewohner der Kronauer Straße in Zukunft mehr Verständnis für die beiden neuen Ladenbesitzer zeigen.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1337,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "813bbf0b-c977-4d13-aee6-b117ec5b327a",
+    "note_id": "d95e24d1-b4c9-4b15-9678-6a8bd90318e8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.804175Z",
+    "finished_at": "2025-11-10T15:43:35.804176Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1c815785-e9f6-49da-9c50-5483632280b2",
+      "source_path": "backups/2023年6月/德语1/lesen.html",
+      "checksum": "7b6cd71f6ac3a4c136898b2cd3c3900eb549a8ba0b81069db2be21570c7faadd"
+    },
+    "output_ref": {
+      "ingest_source": "01a29350-8881-4247-ae2f-c563d30d8b1a",
+      "note": "d95e24d1-b4c9-4b15-9678-6a8bd90318e8",
+      "variants": [
+        "eceef6c9-d92f-4022-bd1f-f5528dc0e90f",
+        "a6860b09-cc6b-4877-983b-76e5884f070b"
+      ]
+    },
+    "error_detail": null
+  }
+}

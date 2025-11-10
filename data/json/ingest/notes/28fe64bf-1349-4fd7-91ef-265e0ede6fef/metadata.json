@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3b438e22-e070-4b75-b235-ba01328dadc1",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/手机号码.html",
+    "collected_at": "2025-11-10T15:43:33.956095Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c13112632a235dac7a26813d886136ac11ca9db0dcda86dc054ec096e9b9c0f4",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "28fe64bf-1349-4fd7-91ef-265e0ede6fef",
+    "ingest_source_id": "3b438e22-e070-4b75-b235-ba01328dadc1",
+    "canonical_title": "手机号码",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.956099Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "手机号码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a46d975d-a5f7-40f4-9ea1-803c7aa029db",
+      "note_id": "28fe64bf-1349-4fd7-91ef-265e0ede6fef",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.956101Z",
+      "content": "---\ntitle: 手机号码\nupdated: 2021-08-09 21:33:37Z\ncreated: 2021-08-09 21:33:20Z\n---\n\n\n<en-note><div>15258985193</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c13112632a235dac7a26813d886136ac11ca9db0dcda86dc054ec096e9b9c0f4",
+        "path": "backups/2023年6月/个人的乱78糟/手机号码.html"
+      }
+    },
+    {
+      "id": "23eb0e90-01a9-4339-b6e5-95272919ecf5",
+      "note_id": "28fe64bf-1349-4fd7-91ef-265e0ede6fef",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.956104Z",
+      "content": "---\ntitle: 手机号码\nupdated: 2021-08-09 21:33:37Z\ncreated: 2021-08-09 21:33:20Z\n---\n\n15258985193",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 92,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "dacc826a-2df3-428d-a3d5-9a08526393f8",
+    "note_id": "28fe64bf-1349-4fd7-91ef-265e0ede6fef",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.956108Z",
+    "finished_at": "2025-11-10T15:43:33.956109Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "22ef1e1a-4b9f-4ebc-93d9-8d73a5f00fd0",
+      "source_path": "backups/2023年6月/个人的乱78糟/手机号码.html",
+      "checksum": "c13112632a235dac7a26813d886136ac11ca9db0dcda86dc054ec096e9b9c0f4"
+    },
+    "output_ref": {
+      "ingest_source": "3b438e22-e070-4b75-b235-ba01328dadc1",
+      "note": "28fe64bf-1349-4fd7-91ef-265e0ede6fef",
+      "variants": [
+        "a46d975d-a5f7-40f4-9ea1-803c7aa029db",
+        "23eb0e90-01a9-4339-b6e5-95272919ecf5"
+      ]
+    },
+    "error_detail": null
+  }
+}

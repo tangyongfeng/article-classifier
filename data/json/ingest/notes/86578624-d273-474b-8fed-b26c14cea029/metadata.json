@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "73a4ade4-b44c-4a15-ab62-e611d22685ef",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/车付款信息.html",
+    "collected_at": "2025-11-10T15:43:34.539029Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4a6243a0c667877bb31b07df619d5f0962a1ece22f7d01b42babe5e27a7d0cf2",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "86578624-d273-474b-8fed-b26c14cea029",
+    "ingest_source_id": "73a4ade4-b44c-4a15-ab62-e611d22685ef",
+    "canonical_title": "车付款信息",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.539033Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "车付款信息.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5e4378ba-0d2b-4ed9-b4f9-1d1214986a46",
+      "note_id": "86578624-d273-474b-8fed-b26c14cea029",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.539035Z",
+      "content": "---\ntitle: 车付款信息\nupdated: 2021-06-30 07:47:37Z\ncreated: 2021-06-30 07:47:03Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><br/></div><div><br/></div><div>Gottfried Schultz/Audi Neuss</div><div><br/></div><div>DE83 3003 0880 0000 2230 93</div><div><br/></div><div>Audi A4 Avant GW:90028</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4a6243a0c667877bb31b07df619d5f0962a1ece22f7d01b42babe5e27a7d0cf2",
+        "path": "backups/2023年6月/个人的乱78糟/车付款信息.html"
+      }
+    },
+    {
+      "id": "fb7c0e4c-e605-4008-9044-326d928d822f",
+      "note_id": "86578624-d273-474b-8fed-b26c14cea029",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.539038Z",
+      "content": "---\ntitle: 车付款信息\nupdated: 2021-06-30 07:47:37Z\ncreated: 2021-06-30 07:47:03Z\nauthor: tangyongfeng@gmail.com\n---\n\nGottfried Schultz/Audi Neuss\nDE83 3003 0880 0000 2230 93\nAudi A4 Avant GW:90028",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 192,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6dd2f63d-064c-41e6-9e15-6bb377177543",
+    "note_id": "86578624-d273-474b-8fed-b26c14cea029",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.539044Z",
+    "finished_at": "2025-11-10T15:43:34.539044Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dfcbfad0-4af3-4bd9-a20d-f61803fe684e",
+      "source_path": "backups/2023年6月/个人的乱78糟/车付款信息.html",
+      "checksum": "4a6243a0c667877bb31b07df619d5f0962a1ece22f7d01b42babe5e27a7d0cf2"
+    },
+    "output_ref": {
+      "ingest_source": "73a4ade4-b44c-4a15-ab62-e611d22685ef",
+      "note": "86578624-d273-474b-8fed-b26c14cea029",
+      "variants": [
+        "5e4378ba-0d2b-4ed9-b4f9-1d1214986a46",
+        "fb7c0e4c-e605-4008-9044-326d928d822f"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8ef86d4d-c78b-4b42-8e71-83cb2208ca77",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/简历搜索.html",
+    "collected_at": "2025-11-10T15:43:35.243538Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d18168ebd65e7bbb4931b191f5ce3a3b83c12549107ea91411db1c1253bf479f",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7e64c3de-0a1b-432b-b8dd-caa9f71720e6",
+    "ingest_source_id": "8ef86d4d-c78b-4b42-8e71-83cb2208ca77",
+    "canonical_title": "简历搜索",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.243544Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "简历搜索.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "354c95d1-2368-4e43-92f8-954a83dfbfe8",
+      "note_id": "7e64c3de-0a1b-432b-b8dd-caa9f71720e6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.243548Z",
+      "content": "---\ntitle: 简历搜索\nupdated: 2014-03-06 08:59:43Z\ncreated: 2014-03-06 08:59:26Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n关键字\n<div>电子病历</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d18168ebd65e7bbb4931b191f5ce3a3b83c12549107ea91411db1c1253bf479f",
+        "path": "backups/2023年6月/医疗/简历搜索.html"
+      }
+    },
+    {
+      "id": "932b99b2-999d-431c-81e0-b90e0c25260c",
+      "note_id": "7e64c3de-0a1b-432b-b8dd-caa9f71720e6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.243552Z",
+      "content": "---\ntitle: 简历搜索\nupdated: 2014-03-06 08:59:43Z\ncreated: 2014-03-06 08:59:26Z\n---\n\n关键字\n\n电子病历",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 90,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "624105d9-bb6c-4104-8624-29bb5e15e51a",
+    "note_id": "7e64c3de-0a1b-432b-b8dd-caa9f71720e6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.243559Z",
+    "finished_at": "2025-11-10T15:43:35.243559Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a9856828-63d6-4d7e-a88d-c6b7bfcda066",
+      "source_path": "backups/2023年6月/医疗/简历搜索.html",
+      "checksum": "d18168ebd65e7bbb4931b191f5ce3a3b83c12549107ea91411db1c1253bf479f"
+    },
+    "output_ref": {
+      "ingest_source": "8ef86d4d-c78b-4b42-8e71-83cb2208ca77",
+      "note": "7e64c3de-0a1b-432b-b8dd-caa9f71720e6",
+      "variants": [
+        "354c95d1-2368-4e43-92f8-954a83dfbfe8",
+        "932b99b2-999d-431c-81e0-b90e0c25260c"
+      ]
+    },
+    "error_detail": null
+  }
+}

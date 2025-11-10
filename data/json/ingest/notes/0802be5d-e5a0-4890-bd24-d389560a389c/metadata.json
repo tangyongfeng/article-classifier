@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "160c12c8-6630-4ab8-8054-0a172a68fc37",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/家庭组添加其他计算机.html",
+    "collected_at": "2025-11-10T15:43:33.916361Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4f2433b0a97828eb041328dfd6c8b0f350385488566e3d6a5de1a85f34596ff0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0802be5d-e5a0-4890-bd24-d389560a389c",
+    "ingest_source_id": "160c12c8-6630-4ab8-8054-0a172a68fc37",
+    "canonical_title": "家庭组添加其他计算机",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.916365Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "家庭组添加其他计算机.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ab34b947-9876-468b-8998-f5fa3f5ca417",
+      "note_id": "0802be5d-e5a0-4890-bd24-d389560a389c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.916367Z",
+      "content": "---\ntitle: 家庭组添加其他计算机\nupdated: 2013-01-18 11:10:49Z\ncreated: 2013-01-18 11:09:37Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nfc6pu5jJ99 家庭组添加其他计算机\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4f2433b0a97828eb041328dfd6c8b0f350385488566e3d6a5de1a85f34596ff0",
+        "path": "backups/2023年6月/个人的乱78糟/家庭组添加其他计算机.html"
+      }
+    },
+    {
+      "id": "9c8d9090-83ac-44ad-8342-0fa40699f664",
+      "note_id": "0802be5d-e5a0-4890-bd24-d389560a389c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.916370Z",
+      "content": "---\ntitle: 家庭组添加其他计算机\nupdated: 2013-01-18 11:10:49Z\ncreated: 2013-01-18 11:09:37Z\n---\n\nfc6pu5jJ99 家庭组添加其他计算机",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 108,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9786650e-acaa-4e3d-b779-938a5420f6cd",
+    "note_id": "0802be5d-e5a0-4890-bd24-d389560a389c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.916374Z",
+    "finished_at": "2025-11-10T15:43:33.916375Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c400115d-22e6-4f19-b7a5-4d7828762d7a",
+      "source_path": "backups/2023年6月/个人的乱78糟/家庭组添加其他计算机.html",
+      "checksum": "4f2433b0a97828eb041328dfd6c8b0f350385488566e3d6a5de1a85f34596ff0"
+    },
+    "output_ref": {
+      "ingest_source": "160c12c8-6630-4ab8-8054-0a172a68fc37",
+      "note": "0802be5d-e5a0-4890-bd24-d389560a389c",
+      "variants": [
+        "ab34b947-9876-468b-8998-f5fa3f5ca417",
+        "9c8d9090-83ac-44ad-8342-0fa40699f664"
+      ]
+    },
+    "error_detail": null
+  }
+}

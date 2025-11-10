@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e70519fc-aa0c-40b7-9943-2c550f571ea6",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/Leoschule 🌟.html",
+    "collected_at": "2025-11-10T15:43:35.587234Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6d4123103596eb53c8681b6c7a7a4d4ecec6697c363d87cfc411fbafa3c18355",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "69c40d11-cdd9-4811-a568-9afd03b9234c",
+    "ingest_source_id": "e70519fc-aa0c-40b7-9943-2c550f571ea6",
+    "canonical_title": "Leoschule 🌟",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.587237Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Leoschule 🌟.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "45f60d54-b451-42ed-8384-e848855d1a13",
+      "note_id": "69c40d11-cdd9-4811-a568-9afd03b9234c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.587240Z",
+      "content": "---\ntitle: Leoschule 🌟\nupdated: 2019-03-09 19:51:51Z\ncreated: 2019-03-09 19:31:05Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\n\n<en-note><h1 STYLE=\"border: 0px; outline: 0px; padding: 0px 0px 5px; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\"><span STYLE=\"color: rgb(34, 34, 34); font-variant-caps: normal; font-variant-ligatures: normal; line-height: 36px; font-family: Courier; font-size: 14px; font-weight: normal;\">Leoschule 是一所城市天主教小学; 酒店位于Furth北部的Neuss区，紧邻Neuss Nordpark，乘坐公共交通工具即可轻松抵达。我们学校是一所两到三门课程的小学。目前，有240名学生在九个班级中生活，学习和工作。作为天主教忏悔学校，我们属于教区基督君王和圣灵。</span></h1><div><span STYLE=\"color: rgb(34, 34, 34); font-variant-caps: normal; font-variant-ligatures: normal; line-height: 36px; font-family: Courier; font-size: 14px; font-weight: normal;\">5/42</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6d4123103596eb53c8681b6c7a7a4d4ecec6697c363d87cfc411fbafa3c18355",
+        "path": "backups/2023年6月/德国2/Leoschule 🌟.html"
+      }
+    },
+    {
+      "id": "6b591f34-2bde-41e3-acdf-ef89fc05a6bd",
+      "note_id": "69c40d11-cdd9-4811-a568-9afd03b9234c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.587243Z",
+      "content": "---\ntitle: Leoschule 🌟\nupdated: 2019-03-09 19:51:51Z\ncreated: 2019-03-09 19:31:05Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\nLeoschule 是一所城市天主教小学; 酒店位于Furth北部的Neuss区，紧邻Neuss Nordpark，乘坐公共交通工具即可轻松抵达。我们学校是一所两到三门课程的小学。目前，有240名学生在九个班级中生活，学习和工作。作为天主教忏悔学校，我们属于教区基督君王和圣灵。\n5/42",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 276,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fb490417-f67f-4939-8c4d-b99eb79d9fbb",
+    "note_id": "69c40d11-cdd9-4811-a568-9afd03b9234c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.587247Z",
+    "finished_at": "2025-11-10T15:43:35.587248Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5dc47ab8-b8dc-4ee5-950e-9d8982fdd461",
+      "source_path": "backups/2023年6月/德国2/Leoschule 🌟.html",
+      "checksum": "6d4123103596eb53c8681b6c7a7a4d4ecec6697c363d87cfc411fbafa3c18355"
+    },
+    "output_ref": {
+      "ingest_source": "e70519fc-aa0c-40b7-9943-2c550f571ea6",
+      "note": "69c40d11-cdd9-4811-a568-9afd03b9234c",
+      "variants": [
+        "45f60d54-b451-42ed-8384-e848855d1a13",
+        "6b591f34-2bde-41e3-acdf-ef89fc05a6bd"
+      ]
+    },
+    "error_detail": null
+  }
+}

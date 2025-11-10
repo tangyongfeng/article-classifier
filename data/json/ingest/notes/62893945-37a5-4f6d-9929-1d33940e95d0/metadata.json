@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "98609ef9-0701-4de2-a9ad-b0f0e08e3e0b",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/VPN für Mobilgeräte einrichten.html",
+    "collected_at": "2025-11-10T15:43:31.344239Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "44710178224473cdc687ed97532c93b5daaa83241ce000f48eb63f37f9910b7a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "62893945-37a5-4f6d-9929-1d33940e95d0",
+    "ingest_source_id": "98609ef9-0701-4de2-a9ad-b0f0e08e3e0b",
+    "canonical_title": "VPN für Mobilgeräte einrichten",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:31.344243Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "VPN für Mobilgeräte einrichten.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9bfbfc5c-cb80-4214-96ec-78ad01fc1e18",
+      "note_id": "62893945-37a5-4f6d-9929-1d33940e95d0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.344246Z",
+      "content": "---\ntitle: VPN für Mobilgeräte einrichten\nupdated: 2019-05-30 20:20:28Z\ncreated: 2019-05-30 20:20:28Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>VPN für Mobilgeräte einrichten</div>\n<div>Geben Sie die folgenden Daten in Ihr Mobilgerät ein, um es für die Nutzung von VPN mit der FRITZ!Box einzurichten.</div>\n<div>iPhone, iPad oder iPod touch</div>\n<div>Wählen Sie auf dem Homescreen Ihres iPhones, iPads oder iPod touch das Symbol &quot;Einstellungen&quot;.</div>\n<div>Öffnen Sie das Menü &quot;Allgemein &gt; VPN &gt; VPN hinzufügen&quot;.</div>\n<div>Wählen Sie als VPN&shy;Betriebsmodus &quot;IPSec&quot;.</div>\n<div>Tragen Sie in die Felder folgende Angaben ein:</div>\n<div><span>&nbsp; &nbsp; &nbsp;</span> Beschreibung:</div>\n<div>Server:</div>\n<div>Account:</div>\n<div>Kennwort:</div>\n<div>Zertifikat verwenden ist deaktiviert Gruppenname: tang</div>\n<div>Shared Secret: grSfltpztfGIdoNj</div>\n<div>94.219.176.102</div>\n<div>tang</div>\n<div>Kennwort des FRITZ!Box&shy;Benutzers &quot;tang&quot;</div>\n<div>Wählen Sie für &quot;Proxy&quot; die Einstellung &quot;aus&quot;. Beenden Sie die VPN&shy;Einrichtung mit &quot;Sichern&quot;.</div>\n<div>Android&shy;Gerät (ab Version 4.0.4 &shy; Ice Cream Sandwich)</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "44710178224473cdc687ed97532c93b5daaa83241ce000f48eb63f37f9910b7a",
+        "path": "backups/2023年6月/IT技术/VPN für Mobilgeräte einrichten.html"
+      }
+    },
+    {
+      "id": "88cb639c-8c82-4c49-acc8-10997b9fce5b",
+      "note_id": "62893945-37a5-4f6d-9929-1d33940e95d0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.344248Z",
+      "content": "---\ntitle: VPN für Mobilgeräte einrichten\nupdated: 2019-05-30 20:20:28Z\ncreated: 2019-05-30 20:20:28Z\nauthor: tangyongfeng@gmail.com\n---\n\nVPN für Mobilgeräte einrichten\n\nGeben Sie die folgenden Daten in Ihr Mobilgerät ein, um es für die Nutzung von VPN mit der FRITZ!Box einzurichten.\n\niPhone, iPad oder iPod touch\n\nWählen Sie auf dem Homescreen Ihres iPhones, iPads oder iPod touch das Symbol \"Einstellungen\".\n\nÖffnen Sie das Menü \"Allgemein > VPN > VPN hinzufügen\".\n\nWählen Sie als VPN­Betriebsmodus \"IPSec\".\n\nTragen Sie in die Felder folgende Angaben ein:\n\n Beschreibung:\n\nServer:\n\nAccount:\n\nKennwort:\n\nZertifikat verwenden ist deaktiviert Gruppenname: tang\n\nShared Secret: grSfltpztfGIdoNj\n\n94.219.176.102\n\ntang\n\nKennwort des FRITZ!Box­Benutzers \"tang\"\n\nWählen Sie für \"Proxy\" die Einstellung \"aus\". Beenden Sie die VPN­Einrichtung mit \"Sichern\".\n\nAndroid­Gerät (ab Version 4.0.4 ­ Ice Cream Sandwich)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 919,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a2b7f9bf-23d3-49eb-82c9-88ada4fdf084",
+    "note_id": "62893945-37a5-4f6d-9929-1d33940e95d0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.344253Z",
+    "finished_at": "2025-11-10T15:43:31.344253Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2938cc82-085a-4de0-8378-703f4b1c4c7d",
+      "source_path": "backups/2023年6月/IT技术/VPN für Mobilgeräte einrichten.html",
+      "checksum": "44710178224473cdc687ed97532c93b5daaa83241ce000f48eb63f37f9910b7a"
+    },
+    "output_ref": {
+      "ingest_source": "98609ef9-0701-4de2-a9ad-b0f0e08e3e0b",
+      "note": "62893945-37a5-4f6d-9929-1d33940e95d0",
+      "variants": [
+        "9bfbfc5c-cb80-4214-96ec-78ad01fc1e18",
+        "88cb639c-8c82-4c49-acc8-10997b9fce5b"
+      ]
+    },
+    "error_detail": null
+  }
+}

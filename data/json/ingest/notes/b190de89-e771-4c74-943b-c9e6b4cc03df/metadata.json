@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6bf56061-92cc-40ef-902e-2097aae6a8c1",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/长城开发.html",
+    "collected_at": "2025-11-10T15:43:36.687357Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "d2a631bd2a363e0d2c1324abaf24fe72d38be1ca5236bd59c07560bba819a1c4",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b190de89-e771-4c74-943b-c9e6b4cc03df",
+    "ingest_source_id": "6bf56061-92cc-40ef-902e-2097aae6a8c1",
+    "canonical_title": "长城开发",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.687361Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "长城开发.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2825d805-9cf3-4c15-8086-863dca341003",
+      "note_id": "b190de89-e771-4c74-943b-c9e6b4cc03df",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.687364Z",
+      "content": "---\ntitle: 长城开发\nupdated: 2013-09-09 10:38:48Z\ncreated: 2013-09-07 14:48:41Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n无锡海力士工厂大火，导致内存价格近期飙升，重大利好。\n<div>9月6日长城董事会公布决定定向增发6.9亿 ，而账面上留存66亿现金。为什么要保持这么高的现金留存比例。？</div><div>9月9日买入2800股，开盘跌，止跌稳定保持。为什么内存狂涨价而没有波及到股票呢？</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d2a631bd2a363e0d2c1324abaf24fe72d38be1ca5236bd59c07560bba819a1c4",
+        "path": "backups/2023年6月/投资/长城开发.html"
+      }
+    },
+    {
+      "id": "c6a2c598-ea69-4245-a961-dbbacd7311d8",
+      "note_id": "b190de89-e771-4c74-943b-c9e6b4cc03df",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.687366Z",
+      "content": "---\ntitle: 长城开发\nupdated: 2013-09-09 10:38:48Z\ncreated: 2013-09-07 14:48:41Z\n---\n\n无锡海力士工厂大火，导致内存价格近期飙升，重大利好。\n\n9月6日长城董事会公布决定定向增发6.9亿 ，而账面上留存66亿现金。为什么要保持这么高的现金留存比例。？\n9月9日买入2800股，开盘跌，止跌稳定保持。为什么内存狂涨价而没有波及到股票呢？",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 204,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7f548691-356b-4bae-b7cf-7048acda2422",
+    "note_id": "b190de89-e771-4c74-943b-c9e6b4cc03df",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.687371Z",
+    "finished_at": "2025-11-10T15:43:36.687371Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a86c7cd5-cd51-4c63-8d93-aa2833e7d03c",
+      "source_path": "backups/2023年6月/投资/长城开发.html",
+      "checksum": "d2a631bd2a363e0d2c1324abaf24fe72d38be1ca5236bd59c07560bba819a1c4"
+    },
+    "output_ref": {
+      "ingest_source": "6bf56061-92cc-40ef-902e-2097aae6a8c1",
+      "note": "b190de89-e771-4c74-943b-c9e6b4cc03df",
+      "variants": [
+        "2825d805-9cf3-4c15-8086-863dca341003",
+        "c6a2c598-ea69-4245-a961-dbbacd7311d8"
+      ]
+    },
+    "error_detail": null
+  }
+}

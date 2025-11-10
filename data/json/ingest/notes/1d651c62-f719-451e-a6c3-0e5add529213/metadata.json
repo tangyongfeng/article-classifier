@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "296d0180-a0fa-4a60-bd7d-de664d190518",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/r_~_T&7[HZ4)_V}n.html",
+    "collected_at": "2025-11-10T15:43:31.904241Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e05e6fefa64d37dc67a20a040c3215d9da074eac797a9a29f236c3701f28c960",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "1d651c62-f719-451e-a6c3-0e5add529213",
+    "ingest_source_id": "296d0180-a0fa-4a60-bd7d-de664d190518",
+    "canonical_title": "r_~_T&7[HZ4)_V}n",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.904245Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "r_~_T&7[HZ4)_V}n.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7082265a-daf6-4da2-bf26-754b29884b82",
+      "note_id": "1d651c62-f719-451e-a6c3-0e5add529213",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.904248Z",
+      "content": "---\ntitle: r*~\\T&7[HZ4)>V}n\nupdated: 2019-04-09 20:11:40Z\ncreated: 2019-04-09 20:11:40Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>r*~\\T&amp;7[HZ4)&gt;V}n</div>\n<div>MariaDB root <span>密码</span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e05e6fefa64d37dc67a20a040c3215d9da074eac797a9a29f236c3701f28c960",
+        "path": "backups/2023年6月/IT技术/r_~_T&7[HZ4)_V}n.html"
+      }
+    },
+    {
+      "id": "1b6d482b-a2a5-489a-9332-aea7446d0240",
+      "note_id": "1d651c62-f719-451e-a6c3-0e5add529213",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.904251Z",
+      "content": "---\ntitle: r*~\\T&7[HZ4)>V}n\nupdated: 2019-04-09 20:11:40Z\ncreated: 2019-04-09 20:11:40Z\nauthor: tangyongfeng@gmail.com\n---\n\nr*~\\T&7[HZ4)>V}n\n\nMariaDB root\n密码",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 157,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "76b57dc5-6703-4f25-9769-559561863d0b",
+    "note_id": "1d651c62-f719-451e-a6c3-0e5add529213",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.904256Z",
+    "finished_at": "2025-11-10T15:43:31.904256Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "02dc3343-3232-4cbf-b664-d37bb891d959",
+      "source_path": "backups/2023年6月/IT技术/r_~_T&7[HZ4)_V}n.html",
+      "checksum": "e05e6fefa64d37dc67a20a040c3215d9da074eac797a9a29f236c3701f28c960"
+    },
+    "output_ref": {
+      "ingest_source": "296d0180-a0fa-4a60-bd7d-de664d190518",
+      "note": "1d651c62-f719-451e-a6c3-0e5add529213",
+      "variants": [
+        "7082265a-daf6-4da2-bf26-754b29884b82",
+        "1b6d482b-a2a5-489a-9332-aea7446d0240"
+      ]
+    },
+    "error_detail": null
+  }
+}

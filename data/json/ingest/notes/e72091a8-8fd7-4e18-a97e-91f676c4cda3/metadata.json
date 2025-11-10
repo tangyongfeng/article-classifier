@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "db90981c-5c8f-4593-9d5a-d6300d597935",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/wtcf follow up 会议.html",
+    "collected_at": "2025-11-10T15:43:34.711680Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "5bec20ef8d129b51214b446f9d70548d8fdfdce45b93aef0a148a31182e4cdae",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e72091a8-8fd7-4e18-a97e-91f676c4cda3",
+    "ingest_source_id": "db90981c-5c8f-4593-9d5a-d6300d597935",
+    "canonical_title": "wtcf follow up 会议",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.711686Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "wtcf follow up 会议.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9b35314f-126e-495a-974d-e36a5d324721",
+      "note_id": "e72091a8-8fd7-4e18-a97e-91f676c4cda3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.711689Z",
+      "content": "---\ntitle: wtcf follow up 会议\nupdated: 2013-07-23 03:48:29Z\ncreated: 2013-07-23 02:40:57Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、需要支持的功能，已经完成沟通。\n<div>2、合作工作内容已经完成。</div><div>3、整体硬件成本软件成本运维成本估算</div><div>4、我们的期望并没有和下一个版本的规划有大面积的结合。</div><div>5、双方合作工作计划图</div><div>6、没有一个完整的内容包，还需要有网络、存储、机器、培训、运维。需要有一个商务上的方案，三年的费用或者五年的费用。看到整体的成本，看到整体的回报是多少。</div><div>对于用户数的分析，根据年龄推算。</div><div>7、本地化支持的问题</div><div>8、客户交流。</div><div>9、给ibm一个时间表，没有ibm支持也得实现的时间点。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5bec20ef8d129b51214b446f9d70548d8fdfdce45b93aef0a148a31182e4cdae",
+        "path": "backups/2023年6月/中彩相关/wtcf follow up 会议.html"
+      }
+    },
+    {
+      "id": "07f74bd1-020d-450f-ae65-f29df1a192fe",
+      "note_id": "e72091a8-8fd7-4e18-a97e-91f676c4cda3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.711693Z",
+      "content": "---\ntitle: wtcf follow up 会议\nupdated: 2013-07-23 03:48:29Z\ncreated: 2013-07-23 02:40:57Z\n---\n\n1、需要支持的功能，已经完成沟通。\n\n2、合作工作内容已经完成。\n3、整体硬件成本软件成本运维成本估算\n4、我们的期望并没有和下一个版本的规划有大面积的结合。\n5、双方合作工作计划图\n6、没有一个完整的内容包，还需要有网络、存储、机器、培训、运维。需要有一个商务上的方案，三年的费用或者五年的费用。看到整体的成本，看到整体的回报是多少。\n对于用户数的分析，根据年龄推算。\n7、本地化支持的问题\n8、客户交流。\n9、给ibm一个时间表，没有ibm支持也得实现的时间点。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 327,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "649c18f4-3ec2-4113-ad4e-1e2d6c5d0fbb",
+    "note_id": "e72091a8-8fd7-4e18-a97e-91f676c4cda3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.711699Z",
+    "finished_at": "2025-11-10T15:43:34.711699Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7c29d508-9152-477a-8ed8-8592572cb3ad",
+      "source_path": "backups/2023年6月/中彩相关/wtcf follow up 会议.html",
+      "checksum": "5bec20ef8d129b51214b446f9d70548d8fdfdce45b93aef0a148a31182e4cdae"
+    },
+    "output_ref": {
+      "ingest_source": "db90981c-5c8f-4593-9d5a-d6300d597935",
+      "note": "e72091a8-8fd7-4e18-a97e-91f676c4cda3",
+      "variants": [
+        "9b35314f-126e-495a-974d-e36a5d324721",
+        "07f74bd1-020d-450f-ae65-f29df1a192fe"
+      ]
+    },
+    "error_detail": null
+  }
+}

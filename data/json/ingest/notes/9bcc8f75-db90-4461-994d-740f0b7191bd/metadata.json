@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "17ddae1d-1ecd-4263-a19c-2e294810ec3c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/易经/蒙卦.html",
+    "collected_at": "2025-11-10T15:43:36.868129Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "dc8ddbf87b26a56f20c3ecc46b7cc2d0c4dd560fbd26f2cbb13e06a00db627f1",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9bcc8f75-db90-4461-994d-740f0b7191bd",
+    "ingest_source_id": "17ddae1d-1ecd-4263-a19c-2e294810ec3c",
+    "canonical_title": "蒙卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.868133Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "蒙卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "55515209-1f3d-4d3b-b651-a5633a60efbc",
+      "note_id": "9bcc8f75-db90-4461-994d-740f0b7191bd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.868136Z",
+      "content": "---\ntitle: 蒙卦\nupdated: 2018-11-06 14:39:45Z\ncreated: 2018-11-06 01:42:57Z\n---\n\n\n<en-note><div>亨，匪（非）我（92）求童（65）蒙，童蒙求我。初筮告，再三渎，渎而不告，利贞。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 410px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>上九</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>击蒙。不利为寇，利御寇。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六五</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>童蒙，吉</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六四</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>困蒙，吝</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>六三</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>勿用取女，见金夫，不有躬。无攸利</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>九二（主爻）</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>包蒙，吉。纳妇吉。子克家。</div></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div>初六</div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 410px; padding: 8px;\"><div>发蒙，利用行人</div></td></tr></tbody></table><div>636465互坤</div><div>63不有躬，离开呼应的上九，失身于92</div><div>64上下不靠阳爻，困</div><div>65不当位，但是可以呼应92，依靠上九，以谦逊来表达顺从</div><div>上九，不利进攻，利防守。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dc8ddbf87b26a56f20c3ecc46b7cc2d0c4dd560fbd26f2cbb13e06a00db627f1",
+        "path": "backups/2023年6月/易经/蒙卦.html"
+      }
+    },
+    {
+      "id": "6c6618ea-a982-4e73-b723-63b061cc17cb",
+      "note_id": "9bcc8f75-db90-4461-994d-740f0b7191bd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.868139Z",
+      "content": "---\ntitle: 蒙卦\nupdated: 2018-11-06 14:39:45Z\ncreated: 2018-11-06 01:42:57Z\n---\n\n亨，匪（非）我（92）求童（65）蒙，童蒙求我。初筮告，再三渎，渎而不告，利贞。\n上九\n击蒙。不利为寇，利御寇。\n六五\n童蒙，吉\n六四\n困蒙，吝\n六三\n勿用取女，见金夫，不有躬。无攸利\n九二（主爻）\n包蒙，吉。纳妇吉。子克家。\n初六\n发蒙，利用行人\n636465互坤\n63不有躬，离开呼应的上九，失身于92\n64上下不靠阳爻，困\n65不当位，但是可以呼应92，依靠上九，以谦逊来表达顺从\n上九，不利进攻，利防守。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 285,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ae641ad5-db89-4fec-aeb8-7150789b6d1d",
+    "note_id": "9bcc8f75-db90-4461-994d-740f0b7191bd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.868145Z",
+    "finished_at": "2025-11-10T15:43:36.868145Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d82bfafa-1789-4744-978a-368a832e5d7f",
+      "source_path": "backups/2023年6月/易经/蒙卦.html",
+      "checksum": "dc8ddbf87b26a56f20c3ecc46b7cc2d0c4dd560fbd26f2cbb13e06a00db627f1"
+    },
+    "output_ref": {
+      "ingest_source": "17ddae1d-1ecd-4263-a19c-2e294810ec3c",
+      "note": "9bcc8f75-db90-4461-994d-740f0b7191bd",
+      "variants": [
+        "55515209-1f3d-4d3b-b651-a5633a60efbc",
+        "6c6618ea-a982-4e73-b723-63b061cc17cb"
+      ]
+    },
+    "error_detail": null
+  }
+}

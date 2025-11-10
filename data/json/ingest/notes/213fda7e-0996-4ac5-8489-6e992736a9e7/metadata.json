@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "f87d8e6e-5f77-446b-b0b5-7b7ec5ef362c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/xcode 学习笔记.html",
+    "collected_at": "2025-11-10T15:43:31.993813Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3bba37dde6507660781dd373a7adea5131f53739547c415dec5c82dd31c9c9fa",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "213fda7e-0996-4ac5-8489-6e992736a9e7",
+    "ingest_source_id": "f87d8e6e-5f77-446b-b0b5-7b7ec5ef362c",
+    "canonical_title": "xcode 学习笔记",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.993816Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "xcode 学习笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "893e9bc7-4ebe-4564-8741-7efad474ac42",
+      "note_id": "213fda7e-0996-4ac5-8489-6e992736a9e7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.993819Z",
+      "content": "---\ntitle: xcode 学习笔记\nupdated: 2017-12-04 15:39:16Z\ncreated: 2017-12-04 15:30:55Z\nauthor: tangyongfeng\ntags:\n  - swift\n  - xcode\n---\n\n\n\n<en-note><div>绑定类型 </div><div>&nbsp;&nbsp;&nbsp;&nbsp; outlet类型用于绑定控件属性，把ui控件的属性和代码绑定在一起，方便以后修改和获得数值<br CLEAR=\"none\"/></div><div>&nbsp;&nbsp;&nbsp; action类型用于绑定事件类型，把ui控件的事件和代码绑定在一起，用于控件的事件触发<br CLEAR=\"none\"/></div><div><br CLEAR=\"none\"/></div><div>if let语句，如果获得的数值不是nil，则把数值赋值给制定的代码，例如：<br CLEAR=\"none\"/></div><div>&nbsp;&nbsp;&nbsp;&nbsp; if let var abc=UIController.input() {<br CLEAR=\"none\"/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; abc= //一定不是空值<br CLEAR=\"none\"/></div><div>&nbsp;&nbsp;&nbsp;&nbsp; }<br CLEAR=\"none\"/></div><div><pre>控件名称.resignFirstResponder 用于将控件失去焦点<br CLEAR=\"none\"/>控件名称.registerFirstResponder 用于重新获得控件的焦点<br CLEAR=\"none\"/><br CLEAR=\"none\"/></pre><pre>override func touchesEnded(touches: Set&lt;UITouch&gt;, withEvent event: UIEvent?) {\n     　　   控件名称.resignFirstResponder()\n    　　}<br CLEAR=\"none\"/>将重新self控件的事件，点一下这个控件的任何地方所产生的事件，<br CLEAR=\"none\"/><br CLEAR=\"none\"/></pre><br CLEAR=\"none\"/><br CLEAR=\"none\"/></div><div><br CLEAR=\"none\"/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3bba37dde6507660781dd373a7adea5131f53739547c415dec5c82dd31c9c9fa",
+        "path": "backups/2023年6月/IT技术/xcode 学习笔记.html"
+      }
+    },
+    {
+      "id": "c1696c5c-d6c1-4dee-8b59-ae01196ff862",
+      "note_id": "213fda7e-0996-4ac5-8489-6e992736a9e7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.993822Z",
+      "content": "---\ntitle: xcode 学习笔记\nupdated: 2017-12-04 15:39:16Z\ncreated: 2017-12-04 15:30:55Z\nauthor: tangyongfeng\ntags:\n  - swift\n  - xcode\n---\n\n绑定类型\n     outlet类型用于绑定控件属性，把ui控件的属性和代码绑定在一起，方便以后修改和获得数值\n    action类型用于绑定事件类型，把ui控件的事件和代码绑定在一起，用于控件的事件触发\nif let语句，如果获得的数值不是nil，则把数值赋值给制定的代码，例如：\n     if let var abc=UIController.input() {\n          abc= //一定不是空值\n     }\n控件名称.resignFirstResponder 用于将控件失去焦点\n控件名称.registerFirstResponder 用于重新获得控件的焦点\noverride func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {\n     　　   控件名称.resignFirstResponder()\n    　　}\n将重新self控件的事件，点一下这个控件的任何地方所产生的事件，",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 584,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "da7cb0f2-b838-47e1-be3c-fa633b8e705c",
+    "note_id": "213fda7e-0996-4ac5-8489-6e992736a9e7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.993826Z",
+    "finished_at": "2025-11-10T15:43:31.993827Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ce7f9f72-2ae2-48dd-8457-72a28f754487",
+      "source_path": "backups/2023年6月/IT技术/xcode 学习笔记.html",
+      "checksum": "3bba37dde6507660781dd373a7adea5131f53739547c415dec5c82dd31c9c9fa"
+    },
+    "output_ref": {
+      "ingest_source": "f87d8e6e-5f77-446b-b0b5-7b7ec5ef362c",
+      "note": "213fda7e-0996-4ac5-8489-6e992736a9e7",
+      "variants": [
+        "893e9bc7-4ebe-4564-8741-7efad474ac42",
+        "c1696c5c-d6c1-4dee-8b59-ae01196ff862"
+      ]
+    },
+    "error_detail": null
+  }
+}

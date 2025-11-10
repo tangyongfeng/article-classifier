@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d7357bd0-c35c-4c0c-bfd5-d1522d3db3a1",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/用户推测.html",
+    "collected_at": "2025-11-10T15:43:34.910385Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d104d04ece773d125debadea2748fc0151e774fbe275912ab2f5d574ba948754",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c135fb86-4db5-4232-9436-4810d6ad9694",
+    "ingest_source_id": "d7357bd0-c35c-4c0c-bfd5-d1522d3db3a1",
+    "canonical_title": "用户推测",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.910388Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "用户推测.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0a74d97f-5f63-458c-99a8-502866cc68db",
+      "note_id": "c135fb86-4db5-4232-9436-4810d6ad9694",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.910391Z",
+      "content": "---\ntitle: 用户推测\nupdated: 2013-06-08 05:52:02Z\ncreated: 2013-04-15 19:55:48Z\n---\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; \">\n&Tab;<div>active user:5M</div>\n&Tab;<div>login:20k/sec</div>\n&Tab;<div>bet:300/sec（1 wtcf query,1 wtcf update)</div>\n&Tab;<div>query:200k/sec (1 wtcf query)</div>\n&Tab;<div><br/></div>\n&Tab;<div>5亿用户，20%来玩，5%在线人数，5m</div>\n&Tab;<div>查询来源，每1.5次投注1次查询，每次查询wtcf不更新，否则压力太大了</div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div>bet :300K</div>\n&Tab;<div>Query:200K</div>\n&Tab;<div>Login:20K</div>\n&Tab;<div>activeuser:5M</div>\n&Tab;<div>50m/20k=250 sec 在线时间</div>\n&Tab;<div>5m/（300k+200K)=10次/sec &nbsp;每次操作的间隔</div>\n&Tab;<div>&nbsp;250秒中有15次bet10次查询</div>\n&Tab;<div><br/></div>\n&Tab;<div>按照这次测试的推算1000bet 1个core</div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/></div>\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d104d04ece773d125debadea2748fc0151e774fbe275912ab2f5d574ba948754",
+        "path": "backups/2023年6月/中彩相关/用户推测.html"
+      }
+    },
+    {
+      "id": "5d1ed890-be39-4479-9fee-13e89cf86a45",
+      "note_id": "c135fb86-4db5-4232-9436-4810d6ad9694",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.910393Z",
+      "content": "---\ntitle: 用户推测\nupdated: 2013-06-08 05:52:02Z\ncreated: 2013-04-15 19:55:48Z\n---\n\nactive user:5M\n\nlogin:20k/sec\n\nbet:300/sec（1 wtcf query,1 wtcf update)\n\nquery:200k/sec (1 wtcf query)\n\n5亿用户，20%来玩，5%在线人数，5m\n\n查询来源，每1.5次投注1次查询，每次查询wtcf不更新，否则压力太大了\n\nbet :300K\n\nQuery:200K\n\nLogin:20K\n\nactiveuser:5M\n\n50m/20k=250 sec 在线时间\n\n5m/（300k+200K)=10次/sec  每次操作的间隔\n\n 250秒中有15次bet10次查询\n\n按照这次测试的推算1000bet 1个core",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 391,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "dee9f4d9-9771-4b0f-98d5-2e9dc58b103a",
+    "note_id": "c135fb86-4db5-4232-9436-4810d6ad9694",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.910398Z",
+    "finished_at": "2025-11-10T15:43:34.910398Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5f1355fe-7623-43e3-8f9d-c1ed61340997",
+      "source_path": "backups/2023年6月/中彩相关/用户推测.html",
+      "checksum": "d104d04ece773d125debadea2748fc0151e774fbe275912ab2f5d574ba948754"
+    },
+    "output_ref": {
+      "ingest_source": "d7357bd0-c35c-4c0c-bfd5-d1522d3db3a1",
+      "note": "c135fb86-4db5-4232-9436-4810d6ad9694",
+      "variants": [
+        "0a74d97f-5f63-458c-99a8-502866cc68db",
+        "5d1ed890-be39-4479-9fee-13e89cf86a45"
+      ]
+    },
+    "error_detail": null
+  }
+}

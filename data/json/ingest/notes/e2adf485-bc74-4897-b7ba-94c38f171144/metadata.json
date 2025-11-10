@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8658dd7c-ba0c-4acd-a3b9-1733fb45d853",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/招聘-1.html",
+    "collected_at": "2025-11-10T15:43:35.203680Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "5aacf22e3b0f81b6c8fb2f9c82c0a6ed87ae4d01442fadc780b4896cd25d2662",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e2adf485-bc74-4897-b7ba-94c38f171144",
+    "ingest_source_id": "8658dd7c-ba0c-4acd-a3b9-1733fb45d853",
+    "canonical_title": "招聘-1",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.203683Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "招聘-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "50b37f2d-cdea-48c8-ae80-04e355d4292e",
+      "note_id": "e2adf485-bc74-4897-b7ba-94c38f171144",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.203686Z",
+      "content": "---\ntitle: 招聘\nupdated: 2014-02-21 09:11:46Z\ncreated: 2014-02-21 09:11:33Z\nsource: http://bbs.hc3i.cn/post.php?action=newthread&fid=13\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22.399999618530273px; text-align: left; background-color: rgb(255, 255, 255);\">我们是一家大企业的内部创业团队</span><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">现在需要找人一起来做，有强大企业作为我们的缓冲和后备，可以专心做有创造力和发展的事情，提供有竞争力的待遇和福利。</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">事情是医疗信息化方向的事情，这里不方便多说。</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">地点在北京宣武和朝阳（两个办公地点）。</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\"><br STYLE=\"word-wrap: break-word;\"/></div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">我们需要：</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">后台系统软件工程师：</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">1、C++功底扎实；</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">2、Linux+Oracle 经验丰富；</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">3、能坐得住、写得出、做得好；</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">4、医疗信息化背景，经验越丰富越好。</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\"><br STYLE=\"word-wrap: break-word;\"/></div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">前台系统软件工程师：</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">1、C#功底扎实；</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">2、能坐得住、写得出、做得好；</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">3、医疗信息化背景，经验越丰富越好。</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\"><br STYLE=\"word-wrap: break-word;\"/></div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">Web软件工程师：</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">1、Java scripts功底扎实；</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">2、html 上各种工具和知识完善全面；</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">3、能坐得住、写得出、做得好；</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">4、医疗信息化背景，经验越丰富越好；</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\"><br STYLE=\"word-wrap: break-word;\"/></div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\"><br STYLE=\"word-wrap: break-word;\"/></div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">以上招聘长期有效，英雄不问出处，但求德才兼备！</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\">有需要了解的内容或者直接简历，请发到这个邮箱 ：health_system@163.com 唐先生</div><div STYLE=\"word-wrap: break-word; color: rgb(68, 68, 68); font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; text-align: left;\"><br STYLE=\"word-wrap: break-word;\"/></div><br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5aacf22e3b0f81b6c8fb2f9c82c0a6ed87ae4d01442fadc780b4896cd25d2662",
+        "path": "backups/2023年6月/医疗/招聘-1.html"
+      }
+    },
+    {
+      "id": "7f7295b2-8e1c-43cc-97a2-e5d1b704e073",
+      "note_id": "e2adf485-bc74-4897-b7ba-94c38f171144",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.203689Z",
+      "content": "---\ntitle: 招聘\nupdated: 2014-02-21 09:11:46Z\ncreated: 2014-02-21 09:11:33Z\nsource: http://bbs.hc3i.cn/post.php?action=newthread&fid=13\n---\n\n我们是一家大企业的内部创业团队\n现在需要找人一起来做，有强大企业作为我们的缓冲和后备，可以专心做有创造力和发展的事情，提供有竞争力的待遇和福利。\n事情是医疗信息化方向的事情，这里不方便多说。\n地点在北京宣武和朝阳（两个办公地点）。\n我们需要：\n后台系统软件工程师：\n1、C++功底扎实；\n2、Linux+Oracle 经验丰富；\n3、能坐得住、写得出、做得好；\n4、医疗信息化背景，经验越丰富越好。\n前台系统软件工程师：\n1、C#功底扎实；\n2、能坐得住、写得出、做得好；\n3、医疗信息化背景，经验越丰富越好。\nWeb软件工程师：\n1、Java scripts功底扎实；\n2、html 上各种工具和知识完善全面；\n3、能坐得住、写得出、做得好；\n4、医疗信息化背景，经验越丰富越好；\n以上招聘长期有效，英雄不问出处，但求德才兼备！\n有需要了解的内容或者直接简历，请发到这个邮箱 ：health_system@163.com 唐先生",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 554,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "bd039906-7741-417c-81d2-0b8f7f6bb7ac",
+    "note_id": "e2adf485-bc74-4897-b7ba-94c38f171144",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.203693Z",
+    "finished_at": "2025-11-10T15:43:35.203693Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e12cf15c-2ea4-4e33-9ad1-0e76875a4fd1",
+      "source_path": "backups/2023年6月/医疗/招聘-1.html",
+      "checksum": "5aacf22e3b0f81b6c8fb2f9c82c0a6ed87ae4d01442fadc780b4896cd25d2662"
+    },
+    "output_ref": {
+      "ingest_source": "8658dd7c-ba0c-4acd-a3b9-1733fb45d853",
+      "note": "e2adf485-bc74-4897-b7ba-94c38f171144",
+      "variants": [
+        "50b37f2d-cdea-48c8-ae80-04e355d4292e",
+        "7f7295b2-8e1c-43cc-97a2-e5d1b704e073"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "4148ad8b-7f07-4b6e-b2d9-ef24e0d30138",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/TF Bank Kreditkarte.html",
+    "collected_at": "2025-11-10T15:43:35.347479Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "caf2adff6f8b28533a1fd43b5134cc6a8270b3c9257952d0893d07ed1164821f",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3bf4f6b3-e7bc-4171-8b8d-6203f3b91482",
+    "ingest_source_id": "4148ad8b-7f07-4b6e-b2d9-ef24e0d30138",
+    "canonical_title": "TF Bank Kreditkarte",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.347483Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "TF Bank Kreditkarte.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6c44bc4e-c1ee-46e1-86e5-3408d0070dfd",
+      "note_id": "3bf4f6b3-e7bc-4171-8b8d-6203f3b91482",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.347485Z",
+      "content": "---\ntitle: TF Bank Kreditkarte\nupdated: 2021-12-02 20:36:25Z\ncreated: 2021-12-02 20:23:26Z\n---\n\n\n<en-note><div><span STYLE=\"color:rgb(40, 40, 40);\">Ab sofort m&uuml;ssen Sie Ihre pers&ouml;nliche IBAN</span><b><span STYLE=\"color:rgb(40, 40, 40);\">DE41110101017332755301</span></b><span STYLE=\"color:rgb(40, 40, 40);\"> beim Rechnungsausgleich verwenden (siehe unten). Nur so k&ouml;nnen wir zuk&uuml;nftig Ihre Zahlungen korrekt zuordnen. Die pers&ouml;nliche IBAN ersetzt den bisherigen Verwendungszweck.</span></div><div><br/></div><div><span STYLE=\"font-size: 20px;\">Kundennummer: <span STYLE=\"color:rgb(229, 158, 37);--inversion-type-color:simple;\">4141571</span> </span></div><div><span STYLE=\"font-size: 20px;\">W&auml;hrung: EUR </span></div><div><span STYLE=\"font-size: 20px;\">Kreditlimit: 600.00 </span></div><div><span STYLE=\"font-size: 20px;\">&Auml;nderungen Kreditlimit: 600.00</span></div><div><br/></div><div><br/></div><div><span STYLE=\"color:rgb(40, 40, 40);\">Bitte nutzen Sie von nun an folgende &Uuml;berweisungsinformationen:</span></div><div><br/></div><div><span STYLE=\"color:rgb(40, 40, 40);\">IBAN </span><b><span STYLE=\"color:rgb(40, 40, 40);\">DE41110101017332755301</span></b></div><div><br/></div><div><span STYLE=\"color:rgb(40, 40, 40);\">BIC: SOBKDEBBXXX</span></div><div><br/></div><div><span STYLE=\"color:rgb(40, 40, 40);\">Empf&auml;nger: TF Bank AB</span></div><div><br/></div><div><br/></div><div><span STYLE=\"color:rgb(40, 40, 40);\">Bei Fragen kontaktieren Sie bitte </span><a HREF=\"mailto:service@tfbank.de\" REV=\"en_rl_none\"><span STYLE=\"color:rgb(40, 40, 40);\">service@tfbank.de</span></a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "caf2adff6f8b28533a1fd43b5134cc6a8270b3c9257952d0893d07ed1164821f",
+        "path": "backups/2023年6月/德国1/TF Bank Kreditkarte.html"
+      }
+    },
+    {
+      "id": "9af07235-6f56-449e-b27e-fc3a1776e334",
+      "note_id": "3bf4f6b3-e7bc-4171-8b8d-6203f3b91482",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.347488Z",
+      "content": "---\ntitle: TF Bank Kreditkarte\nupdated: 2021-12-02 20:36:25Z\ncreated: 2021-12-02 20:23:26Z\n---\n\nAb sofort müssen Sie Ihre persönliche IBAN\nDE41110101017332755301\n beim Rechnungsausgleich verwenden (siehe unten). Nur so können wir zukünftig Ihre Zahlungen korrekt zuordnen. Die persönliche IBAN ersetzt den bisherigen Verwendungszweck.\nKundennummer:\n4141571\n\nWährung: EUR\nKreditlimit: 600.00\nÄnderungen Kreditlimit: 600.00\nBitte nutzen Sie von nun an folgende Überweisungsinformationen:\nIBAN\nDE41110101017332755301\nBIC: SOBKDEBBXXX\nEmpfänger: TF Bank AB\nBei Fragen kontaktieren Sie bitte\nservice@tfbank.de",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 604,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "70d77e03-61ae-46fa-93fb-f6ecdff4a644",
+    "note_id": "3bf4f6b3-e7bc-4171-8b8d-6203f3b91482",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.347493Z",
+    "finished_at": "2025-11-10T15:43:35.347493Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7500776c-4701-4bd3-a92e-91ff61198fd9",
+      "source_path": "backups/2023年6月/德国1/TF Bank Kreditkarte.html",
+      "checksum": "caf2adff6f8b28533a1fd43b5134cc6a8270b3c9257952d0893d07ed1164821f"
+    },
+    "output_ref": {
+      "ingest_source": "4148ad8b-7f07-4b6e-b2d9-ef24e0d30138",
+      "note": "3bf4f6b3-e7bc-4171-8b8d-6203f3b91482",
+      "variants": [
+        "6c44bc4e-c1ee-46e1-86e5-3408d0070dfd",
+        "9af07235-6f56-449e-b27e-fc3a1776e334"
+      ]
+    },
+    "error_detail": null
+  }
+}

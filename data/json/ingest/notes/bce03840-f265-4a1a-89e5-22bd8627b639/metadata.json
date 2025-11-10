@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3fb9b879-e086-459d-9623-070a567f6c48",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-15.html",
+    "collected_at": "2025-11-10T15:43:34.055520Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "e8fb6173f05490b6d8585dbf12538a9a89a2f4c4736c2a18da42884165e29342",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "bce03840-f265-4a1a-89e5-22bd8627b639",
+    "ingest_source_id": "3fb9b879-e086-459d-9623-070a567f6c48",
+    "canonical_title": "无标题笔记-15",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:34.055524Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-15.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "94d2d951-af5d-4850-b024-17a0b566c330",
+      "note_id": "bce03840-f265-4a1a-89e5-22bd8627b639",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.055527Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2020-01-28 16:38:16Z\ncreated: 2020-01-28 16:35:34Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Papa muss auch aufr&auml;umen</div><div>Papa schimpft</div><div>Kinder spielen</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e8fb6173f05490b6d8585dbf12538a9a89a2f4c4736c2a18da42884165e29342",
+        "path": "backups/2023年6月/个人的乱78糟/无标题笔记-15.html"
+      }
+    },
+    {
+      "id": "f94ec784-3970-43a5-bb7d-8a963b56cd32",
+      "note_id": "bce03840-f265-4a1a-89e5-22bd8627b639",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.055529Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2020-01-28 16:38:16Z\ncreated: 2020-01-28 16:35:34Z\nauthor: tangyongfeng@gmail.com\n---\n\nPapa muss auch aufräumen\nPapa schimpft\nKinder spielen",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 166,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e5fc5dac-ec44-4a04-8bd2-b2561834e9ac",
+    "note_id": "bce03840-f265-4a1a-89e5-22bd8627b639",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.055534Z",
+    "finished_at": "2025-11-10T15:43:34.055534Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "56a8e81c-cff5-4f4f-bcd3-bfae87a4f06f",
+      "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-15.html",
+      "checksum": "e8fb6173f05490b6d8585dbf12538a9a89a2f4c4736c2a18da42884165e29342"
+    },
+    "output_ref": {
+      "ingest_source": "3fb9b879-e086-459d-9623-070a567f6c48",
+      "note": "bce03840-f265-4a1a-89e5-22bd8627b639",
+      "variants": [
+        "94d2d951-af5d-4850-b024-17a0b566c330",
+        "f94ec784-3970-43a5-bb7d-8a963b56cd32"
+      ]
+    },
+    "error_detail": null
+  }
+}

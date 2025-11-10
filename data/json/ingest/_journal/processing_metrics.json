@@ -1,11 +1,12 @@
 {
-  "total": 2687,
+  "total": 4031,
   "by_stage": {
-    "llm_enhance": 1,
-    "ingest": 2686
+    "ingest": 2687,
+    "llm_enhance": 1344
   },
   "by_status": {
-    "success": 2687
+    "success": 2751,
+    "failed": 1280
   },
-  "last_updated": "2025-11-09T20:05:19.168053Z"
+  "last_updated": "2025-11-10T15:43:37.121325Z"
 }

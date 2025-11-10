@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a43886a5-20fc-4422-a8a6-a7c1b760317a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/中心演示第二次迭代会议.html",
+    "collected_at": "2025-11-10T15:43:34.729228Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "54d5fe3c61d6926b63bba35bbb4dc171b0549eac268e749f574f506596365be6",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ea49cacc-7899-456c-b3ed-799bd306f1ef",
+    "ingest_source_id": "a43886a5-20fc-4422-a8a6-a7c1b760317a",
+    "canonical_title": "中心演示第二次迭代会议",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.729232Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "中心演示第二次迭代会议.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "772b9812-a0d1-4c50-b934-718865c8e316",
+      "note_id": "ea49cacc-7899-456c-b3ed-799bd306f1ef",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.729235Z",
+      "content": "---\ntitle: 中心演示第二次迭代会议\nupdated: 2013-03-28 08:42:13Z\ncreated: 2013-03-28 08:22:02Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n时间：2013年3月26\n<div>地点：中建二局大厦四层会议室</div><div>参与人员：姚彦松 李根行 孙斌 郑宇 &nbsp;全仁山 &nbsp;孔令顺 &nbsp;隋玉亮 唐永峰</div><div><br/></div><div>内容：</div><div>&nbsp; &nbsp; &nbsp;1、总结第一次迭代的开发内容。</div><div><br/></div><div>&nbsp; &nbsp;&nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "54d5fe3c61d6926b63bba35bbb4dc171b0549eac268e749f574f506596365be6",
+        "path": "backups/2023年6月/中彩相关/中心演示第二次迭代会议.html"
+      }
+    },
+    {
+      "id": "35734b9e-b34b-41ca-a78e-0fe590b05d28",
+      "note_id": "ea49cacc-7899-456c-b3ed-799bd306f1ef",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.729238Z",
+      "content": "---\ntitle: 中心演示第二次迭代会议\nupdated: 2013-03-28 08:42:13Z\ncreated: 2013-03-28 08:22:02Z\n---\n\n时间：2013年3月26\n\n地点：中建二局大厦四层会议室\n参与人员：姚彦松 李根行 孙斌 郑宇  全仁山  孔令顺  隋玉亮 唐永峰\n内容：\n     1、总结第一次迭代的开发内容。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 179,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f739c27c-8a9c-4c45-8a95-6ac7d1cda15a",
+    "note_id": "ea49cacc-7899-456c-b3ed-799bd306f1ef",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.729243Z",
+    "finished_at": "2025-11-10T15:43:34.729243Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "47994b1c-58fa-4338-bc75-3a3e00d90cbd",
+      "source_path": "backups/2023年6月/中彩相关/中心演示第二次迭代会议.html",
+      "checksum": "54d5fe3c61d6926b63bba35bbb4dc171b0549eac268e749f574f506596365be6"
+    },
+    "output_ref": {
+      "ingest_source": "a43886a5-20fc-4422-a8a6-a7c1b760317a",
+      "note": "ea49cacc-7899-456c-b3ed-799bd306f1ef",
+      "variants": [
+        "772b9812-a0d1-4c50-b934-718865c8e316",
+        "35734b9e-b34b-41ca-a78e-0fe590b05d28"
+      ]
+    },
+    "error_detail": null
+  }
+}

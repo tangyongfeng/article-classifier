@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "66b4c0d3-ce4d-411b-ae55-f04b6f3f6ddf",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/德国苹果商店秘密问题 applestore.html",
+    "collected_at": "2025-11-10T15:43:32.629334Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4503f965c73765b4771c81bff3563078384c1fb3c36535edac5f754e96a6bcff",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9dc98a82-f79f-4cc9-af8a-338f2a8282be",
+    "ingest_source_id": "66b4c0d3-ce4d-411b-ae55-f04b6f3f6ddf",
+    "canonical_title": "德国苹果商店秘密问题 applestore",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.629338Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "德国苹果商店秘密问题 applestore.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "19785492-16f5-4a1c-9886-2f6c495ac3d6",
+      "note_id": "9dc98a82-f79f-4cc9-af8a-338f2a8282be",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.629340Z",
+      "content": "---\ntitle: 德国苹果商店秘密问题 applestore\nupdated: 2019-03-01 23:42:23Z\ncreated: 2019-03-01 23:42:23Z\n---\n\n\n\n<en-note>\n<div><img src=\"../_resources/6ACFF3DF-1AC0-4A74-9439-9C058FEE20FE.JPG\"  hash=\"3b2fbe4fde92cd254b8476516cc38a9e\" type=\"image/jpeg\" alt=\"6ACFF3DF-1AC0-4A74-9439-9C058FEE20FE.JPG\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4503f965c73765b4771c81bff3563078384c1fb3c36535edac5f754e96a6bcff",
+        "path": "backups/2023年6月/IT技术/德国苹果商店秘密问题 applestore.html"
+      }
+    },
+    {
+      "id": "a854f31a-5169-4f77-b3c4-0851918c01d1",
+      "note_id": "9dc98a82-f79f-4cc9-af8a-338f2a8282be",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.629343Z",
+      "content": "---\ntitle: 德国苹果商店秘密问题 applestore\nupdated: 2019-03-01 23:42:23Z\ncreated: 2019-03-01 23:42:23Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 96,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0458a166-2a61-4b24-a8e3-ebbe7ac21413",
+    "note_id": "9dc98a82-f79f-4cc9-af8a-338f2a8282be",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.629348Z",
+    "finished_at": "2025-11-10T15:43:32.629348Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8db78617-ce6e-47fb-afaa-b0102ed6d885",
+      "source_path": "backups/2023年6月/IT技术/德国苹果商店秘密问题 applestore.html",
+      "checksum": "4503f965c73765b4771c81bff3563078384c1fb3c36535edac5f754e96a6bcff"
+    },
+    "output_ref": {
+      "ingest_source": "66b4c0d3-ce4d-411b-ae55-f04b6f3f6ddf",
+      "note": "9dc98a82-f79f-4cc9-af8a-338f2a8282be",
+      "variants": [
+        "19785492-16f5-4a1c-9886-2f6c495ac3d6",
+        "a854f31a-5169-4f77-b3c4-0851918c01d1"
+      ]
+    },
+    "error_detail": null
+  }
+}

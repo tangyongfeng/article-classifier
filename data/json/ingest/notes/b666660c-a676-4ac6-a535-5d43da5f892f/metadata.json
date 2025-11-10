@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6529a029-3c4d-4641-8f11-ef0d738fa5f0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/可儿11岁生日派对邀请.html",
+    "collected_at": "2025-11-10T15:43:35.397257Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "766290eeed13714c27a40c24b2dc3d87e0b195f07533c1112891d7818eacd3b3",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b666660c-a676-4ac6-a535-5d43da5f892f",
+    "ingest_source_id": "6529a029-3c4d-4641-8f11-ef0d738fa5f0",
+    "canonical_title": "可儿11岁生日派对邀请",
+    "language": "ro",
+    "ingested_at": "2025-11-10T15:43:35.397260Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "可儿11岁生日派对邀请.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "17d3426c-e7c0-4e64-b576-8060d75463bd",
+      "note_id": "b666660c-a676-4ac6-a535-5d43da5f892f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.397263Z",
+      "content": "---\ntitle: 可儿11岁生日派对邀请\nupdated: 2022-01-02 19:35:18Z\ncreated: 2022-01-02 19:31:18Z\n---\n\n\n<en-note><div>邀请人：</div><div>saphira</div><div>marie</div><div>meliessa</div><div>amy</div><div>Leoni</div><div>Eva</div><div>Luci Liu</div><div>Qiuqiu</div><div>Kai</div><div>Yuki</div><div>Papa</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "766290eeed13714c27a40c24b2dc3d87e0b195f07533c1112891d7818eacd3b3",
+        "path": "backups/2023年6月/德国1/可儿11岁生日派对邀请.html"
+      }
+    },
+    {
+      "id": "63102bab-d10a-49e1-a537-8af43aa0de40",
+      "note_id": "b666660c-a676-4ac6-a535-5d43da5f892f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.397265Z",
+      "content": "---\ntitle: 可儿11岁生日派对邀请\nupdated: 2022-01-02 19:35:18Z\ncreated: 2022-01-02 19:31:18Z\n---\n\n邀请人：\nsaphira\nmarie\nmeliessa\namy\nLeoni\nEva\nLuci Liu\nQiuqiu\nKai\nYuki\nPapa",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 159,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "36f86d95-5bac-4fbb-88c0-db58cbd7d932",
+    "note_id": "b666660c-a676-4ac6-a535-5d43da5f892f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.397270Z",
+    "finished_at": "2025-11-10T15:43:35.397270Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "44ade7ce-26f4-48f4-ae2b-50ad6b294a46",
+      "source_path": "backups/2023年6月/德国1/可儿11岁生日派对邀请.html",
+      "checksum": "766290eeed13714c27a40c24b2dc3d87e0b195f07533c1112891d7818eacd3b3"
+    },
+    "output_ref": {
+      "ingest_source": "6529a029-3c4d-4641-8f11-ef0d738fa5f0",
+      "note": "b666660c-a676-4ac6-a535-5d43da5f892f",
+      "variants": [
+        "17d3426c-e7c0-4e64-b576-8060d75463bd",
+        "63102bab-d10a-49e1-a537-8af43aa0de40"
+      ]
+    },
+    "error_detail": null
+  }
+}

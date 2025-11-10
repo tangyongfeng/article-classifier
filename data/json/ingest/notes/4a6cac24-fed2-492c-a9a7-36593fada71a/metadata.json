@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a77f8a36-0c18-4541-b82d-12a96c919fdf",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/美甲打印机.html",
+    "collected_at": "2025-11-10T15:43:35.730131Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "a0db3d284e6176a7ef472c8039a2a877855ef390f361c0216f18fec5d1a99be7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4a6cac24-fed2-492c-a9a7-36593fada71a",
+    "ingest_source_id": "a77f8a36-0c18-4541-b82d-12a96c919fdf",
+    "canonical_title": "美甲打印机",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.730136Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "美甲打印机.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e86aa2e2-173c-4aeb-b3dc-037e8923e7a4",
+      "note_id": "4a6cac24-fed2-492c-a9a7-36593fada71a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.730139Z",
+      "content": "---\ntitle: 美甲打印机\nupdated: 2018-01-28 10:47:46Z\ncreated: 2018-01-28 10:04:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>由甲科技</div><div><a HREF=\"http://www.myooga.com/\">http://www.myooga.com/</a></div><div><br/></div><div>类型：加盟（10万）</div><div><br/></div><div><a HREF=\"https://qdmaidike.1688.com/page/companyinfo.htm\">青岛麦迪珂数码有限公司</a>&nbsp; 生产厂家，生产各种打印机&nbsp;<a HREF=\"https://qdmaidike.1688.com/\">https://qdmaidike.1688.com/</a></div><div><br/></div><div><a HREF=\"https://sdmagnetic.en.alibaba.com/product/60126680951-212656197/professional_digital_digital_nail_art_printer_machine.html?spm=a2700.8304367.rect38f22d.31.485bb5acymCjqL\">https://sdmagnetic.en.alibaba.com/product/60126680951-212656197/professional_digital_digital_nail_art_printer_machine.html</a></div><div><br/></div><div><br/></div><div><br/></div><div>O2Nail &nbsp;广州天河高新技术产业开发区太极电子有限公司第一分公司</div><div><br/></div><div><a HREF=\"https://us1004926853.fm.alibaba.com/product/122748601-103323935/Nilette_Nail_Fashion_Printer.html\">https://us1004926853.fm.alibaba.com/product/122748601-103323935/Nilette_Nail_Fashion_Printer.html</a></div><div><br/></div><div><a HREF=\"https://shiningshine.en.alibaba.com/contactinfo.html\">https://shiningshine.en.alibaba.com/contactinfo.html</a></div><div><br/></div><div><a HREF=\"https://www.top5reviewed.com/digital-nail-printers/\">https://www.top5reviewed.com/digital-nail-printers/</a></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a0db3d284e6176a7ef472c8039a2a877855ef390f361c0216f18fec5d1a99be7",
+        "path": "backups/2023年6月/德国2/美甲打印机.html"
+      }
+    },
+    {
+      "id": "78709384-c20e-45a3-aeef-f344e32606e3",
+      "note_id": "4a6cac24-fed2-492c-a9a7-36593fada71a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.730143Z",
+      "content": "---\ntitle: 美甲打印机\nupdated: 2018-01-28 10:47:46Z\ncreated: 2018-01-28 10:04:06Z\nauthor: tangyongfeng@gmail.com\n---\n\n由甲科技\nhttp://www.myooga.com/\n类型：加盟（10万）\n青岛麦迪珂数码有限公司\n  生产厂家，生产各种打印机 \nhttps://qdmaidike.1688.com/\nhttps://sdmagnetic.en.alibaba.com/product/60126680951-212656197/professional_digital_digital_nail_art_printer_machine.html\nO2Nail  广州天河高新技术产业开发区太极电子有限公司第一分公司\nhttps://us1004926853.fm.alibaba.com/product/122748601-103323935/Nilette_Nail_Fashion_Printer.html\nhttps://shiningshine.en.alibaba.com/contactinfo.html\nhttps://www.top5reviewed.com/digital-nail-printers/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 568,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "06c5e9b6-ebec-4ef3-adbe-44d8543ded62",
+    "note_id": "4a6cac24-fed2-492c-a9a7-36593fada71a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.730149Z",
+    "finished_at": "2025-11-10T15:43:35.730149Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b2219119-03b0-4de0-a156-f27513587fbe",
+      "source_path": "backups/2023年6月/德国2/美甲打印机.html",
+      "checksum": "a0db3d284e6176a7ef472c8039a2a877855ef390f361c0216f18fec5d1a99be7"
+    },
+    "output_ref": {
+      "ingest_source": "a77f8a36-0c18-4541-b82d-12a96c919fdf",
+      "note": "4a6cac24-fed2-492c-a9a7-36593fada71a",
+      "variants": [
+        "e86aa2e2-173c-4aeb-b3dc-037e8923e7a4",
+        "78709384-c20e-45a3-aeef-f344e32606e3"
+      ]
+    },
+    "error_detail": null
+  }
+}

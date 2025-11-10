@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "922145d6-931f-49d3-b158-157e80be67ba",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/西藏发展 000752.html",
+    "collected_at": "2025-11-10T15:43:36.619835Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "5de4b30d2b8103c2b76295ada2be8c4444f39be5291b57a3730f570b2ba702a1",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a72e90f8-03fd-4147-9982-6f1a25773a18",
+    "ingest_source_id": "922145d6-931f-49d3-b158-157e80be67ba",
+    "canonical_title": "西藏发展 000752",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.619838Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "西藏发展 000752.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "fd82ff51-fb2a-4991-8294-c0c5ecb50df8",
+      "note_id": "a72e90f8-03fd-4147-9982-6f1a25773a18",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.619841Z",
+      "content": "---\ntitle: 西藏发展 000752\nupdated: 2013-09-17 04:51:17Z\ncreated: 2013-09-17 04:25:12Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n公司全称：西藏银河科技发展股份有限公司\n<div>股本 2.6亿 &nbsp;A股全流通</div><div>前身为拉萨啤酒厂，除了啤酒及附产品饲料养殖外，还有娱乐服务、藏红花、计算机软件硬件系统继承。单吃西藏。</div><div>2011年3月，编造出一个稀土神话，导致第一第二大股东秘密出货，隐藏实际控制人。 把股价从12块炒到40块，后来持续下跌，最终骗术破灭。</div><div>骗得大家痛心疾首，现在网上的券商调研报告竟然都是11年的。可见大家都希望对他们敬而远之。</div><div><br/></div><div>但是2013年中报收益0.5249 同比上涨了十倍不止。如此高的收益来源于他们卖掉了一个子公司。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5de4b30d2b8103c2b76295ada2be8c4444f39be5291b57a3730f570b2ba702a1",
+        "path": "backups/2023年6月/投资/西藏发展 000752.html"
+      }
+    },
+    {
+      "id": "e8d83989-0c4a-4d29-80e8-4277ef8b9241",
+      "note_id": "a72e90f8-03fd-4147-9982-6f1a25773a18",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.619843Z",
+      "content": "---\ntitle: 西藏发展 000752\nupdated: 2013-09-17 04:51:17Z\ncreated: 2013-09-17 04:25:12Z\n---\n\n公司全称：西藏银河科技发展股份有限公司\n\n股本 2.6亿  A股全流通\n前身为拉萨啤酒厂，除了啤酒及附产品饲料养殖外，还有娱乐服务、藏红花、计算机软件硬件系统继承。单吃西藏。\n2011年3月，编造出一个稀土神话，导致第一第二大股东秘密出货，隐藏实际控制人。 把股价从12块炒到40块，后来持续下跌，最终骗术破灭。\n骗得大家痛心疾首，现在网上的券商调研报告竟然都是11年的。可见大家都希望对他们敬而远之。\n但是2013年中报收益0.5249 同比上涨了十倍不止。如此高的收益来源于他们卖掉了一个子公司。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 338,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "af0dc235-8798-4c63-bd1a-c31c38b50bd7",
+    "note_id": "a72e90f8-03fd-4147-9982-6f1a25773a18",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.619848Z",
+    "finished_at": "2025-11-10T15:43:36.619848Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "df79500d-e1c2-476b-bf52-973f5eaa1039",
+      "source_path": "backups/2023年6月/投资/西藏发展 000752.html",
+      "checksum": "5de4b30d2b8103c2b76295ada2be8c4444f39be5291b57a3730f570b2ba702a1"
+    },
+    "output_ref": {
+      "ingest_source": "922145d6-931f-49d3-b158-157e80be67ba",
+      "note": "a72e90f8-03fd-4147-9982-6f1a25773a18",
+      "variants": [
+        "fd82ff51-fb2a-4991-8294-c0c5ecb50df8",
+        "e8d83989-0c4a-4d29-80e8-4277ef8b9241"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0d7986ac-9150-4b3a-95e6-9c2a4d86c68a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-18.html",
+    "collected_at": "2025-11-10T15:43:34.061770Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c570922005a009c5d64b0868904837019d617b6b46b25c472a84ba66c547de07",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "76150db4-0143-43b7-91c2-2c363c2d092a",
+    "ingest_source_id": "0d7986ac-9150-4b3a-95e6-9c2a4d86c68a",
+    "canonical_title": "无标题笔记-18",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.061774Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-18.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "28921231-8a40-4a27-8c2f-468f0fba5bb8",
+      "note_id": "76150db4-0143-43b7-91c2-2c363c2d092a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.061776Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2013-02-03 14:38:33Z\ncreated: 2013-02-03 14:38:05Z\n---\n\n\n\n<en-note>世界时钟\n\n<div><span STYLE=\"background-color: rgba(255, 255, 255, 0.0078125);\">股票提醒</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c570922005a009c5d64b0868904837019d617b6b46b25c472a84ba66c547de07",
+        "path": "backups/2023年6月/个人的乱78糟/无标题笔记-18.html"
+      }
+    },
+    {
+      "id": "aaf1073e-5730-49ff-bd9d-eb76782173d3",
+      "note_id": "76150db4-0143-43b7-91c2-2c363c2d092a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.061779Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2013-02-03 14:38:33Z\ncreated: 2013-02-03 14:38:05Z\n---\n\n世界时钟\n\n股票提醒",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 92,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "95f5b8dc-a193-4a00-8f09-fb8bd4c9f743",
+    "note_id": "76150db4-0143-43b7-91c2-2c363c2d092a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.061783Z",
+    "finished_at": "2025-11-10T15:43:34.061784Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c85ab70e-0803-43c7-ab29-f58e2a4ca79f",
+      "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-18.html",
+      "checksum": "c570922005a009c5d64b0868904837019d617b6b46b25c472a84ba66c547de07"
+    },
+    "output_ref": {
+      "ingest_source": "0d7986ac-9150-4b3a-95e6-9c2a4d86c68a",
+      "note": "76150db4-0143-43b7-91c2-2c363c2d092a",
+      "variants": [
+        "28921231-8a40-4a27-8c2f-468f0fba5bb8",
+        "aaf1073e-5730-49ff-bd9d-eb76782173d3"
+      ]
+    },
+    "error_detail": null
+  }
+}

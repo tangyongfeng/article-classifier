@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "851664c8-c8f1-4ec5-a12c-7c8da37a9704",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/莱茵河地区的葡萄酒.html",
+    "collected_at": "2025-11-10T15:43:35.507356Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "40c2f45bb95ccb50cace54680905a9c976a9d1d59ab2cbf5f83f9fd9931ddb72",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3ebc755b-9d60-4276-807f-3afdaf4430b2",
+    "ingest_source_id": "851664c8-c8f1-4ec5-a12c-7c8da37a9704",
+    "canonical_title": "莱茵河地区的葡萄酒",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.507359Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "莱茵河地区的葡萄酒.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ca5fdb85-efae-4eb0-8ead-334ee1bd5049",
+      "note_id": "3ebc755b-9d60-4276-807f-3afdaf4430b2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.507362Z",
+      "content": "---\ntitle: 莱茵河地区的葡萄酒\nupdated: 2019-04-09 19:31:32Z\ncreated: 2019-04-09 19:29:55Z\n---\n\n\n\n<en-note><div>fegerweiss</div><div><br/></div><div>九月到十月，超市冰柜里卖的，不拧紧盖子。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "40c2f45bb95ccb50cace54680905a9c976a9d1d59ab2cbf5f83f9fd9931ddb72",
+        "path": "backups/2023年6月/德国1/莱茵河地区的葡萄酒.html"
+      }
+    },
+    {
+      "id": "1e3d3ca6-adf0-48fc-ae1a-b2c4bdff3df8",
+      "note_id": "3ebc755b-9d60-4276-807f-3afdaf4430b2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.507365Z",
+      "content": "---\ntitle: 莱茵河地区的葡萄酒\nupdated: 2019-04-09 19:31:32Z\ncreated: 2019-04-09 19:29:55Z\n---\n\nfegerweiss\n九月到十月，超市冰柜里卖的，不拧紧盖子。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 117,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "367cd39a-1232-412a-a342-1498222e026c",
+    "note_id": "3ebc755b-9d60-4276-807f-3afdaf4430b2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.507369Z",
+    "finished_at": "2025-11-10T15:43:35.507370Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "427f286b-083d-4f40-b97f-efcad2b6714c",
+      "source_path": "backups/2023年6月/德国1/莱茵河地区的葡萄酒.html",
+      "checksum": "40c2f45bb95ccb50cace54680905a9c976a9d1d59ab2cbf5f83f9fd9931ddb72"
+    },
+    "output_ref": {
+      "ingest_source": "851664c8-c8f1-4ec5-a12c-7c8da37a9704",
+      "note": "3ebc755b-9d60-4276-807f-3afdaf4430b2",
+      "variants": [
+        "ca5fdb85-efae-4eb0-8ead-334ee1bd5049",
+        "1e3d3ca6-adf0-48fc-ae1a-b2c4bdff3df8"
+      ]
+    },
+    "error_detail": null
+  }
+}

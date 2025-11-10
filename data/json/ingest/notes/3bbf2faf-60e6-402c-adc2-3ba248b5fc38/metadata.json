@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "dbfdd742-8f99-4222-856e-4457ebc1f9cf",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/要买的东西.html",
+    "collected_at": "2025-11-10T15:43:34.514377Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "f5bd38c4b91cb32ed53c623adc15f0ce763d51d6d99c9242561f6d722314fde9",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3bbf2faf-60e6-402c-adc2-3ba248b5fc38",
+    "ingest_source_id": "dbfdd742-8f99-4222-856e-4457ebc1f9cf",
+    "canonical_title": "要买的东西",
+    "language": "ro",
+    "ingested_at": "2025-11-10T15:43:34.514381Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "要买的东西.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5da52251-b52e-4629-8dc3-5852cd5a5300",
+      "note_id": "3bbf2faf-60e6-402c-adc2-3ba248b5fc38",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.514384Z",
+      "content": "---\ntitle: 要买的东西\nupdated: 2012-09-09 01:30:43Z\ncreated: 2012-09-09 01:30:43Z\nlatitude: 39.88890000\nlongitude: 116.63100000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>小米<br/>厨房纸<br/>卫生纸<br/>湿巾<br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f5bd38c4b91cb32ed53c623adc15f0ce763d51d6d99c9242561f6d722314fde9",
+        "path": "backups/2023年6月/个人的乱78糟/要买的东西.html"
+      }
+    },
+    {
+      "id": "35b717c6-82ac-4c5b-9d34-eed613f9cc31",
+      "note_id": "3bbf2faf-60e6-402c-adc2-3ba248b5fc38",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.514387Z",
+      "content": "---\ntitle: 要买的东西\nupdated: 2012-09-09 01:30:43Z\ncreated: 2012-09-09 01:30:43Z\nlatitude: 39.88890000\nlongitude: 116.63100000\naltitude: 0.0000\n---\n\n小米\n厨房纸\n卫生纸\n湿巾",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 158,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7a79c153-2f91-46cc-9c52-b73ac1c2e4d0",
+    "note_id": "3bbf2faf-60e6-402c-adc2-3ba248b5fc38",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.514391Z",
+    "finished_at": "2025-11-10T15:43:34.514392Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8c1a51a8-96f6-4edf-ab50-d349550030f1",
+      "source_path": "backups/2023年6月/个人的乱78糟/要买的东西.html",
+      "checksum": "f5bd38c4b91cb32ed53c623adc15f0ce763d51d6d99c9242561f6d722314fde9"
+    },
+    "output_ref": {
+      "ingest_source": "dbfdd742-8f99-4222-856e-4457ebc1f9cf",
+      "note": "3bbf2faf-60e6-402c-adc2-3ba248b5fc38",
+      "variants": [
+        "5da52251-b52e-4629-8dc3-5852cd5a5300",
+        "35b717c6-82ac-4c5b-9d34-eed613f9cc31"
+      ]
+    },
+    "error_detail": null
+  }
+}

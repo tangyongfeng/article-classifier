@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b2d1648c-5e64-404b-982f-66a2ade8edc9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/高并发下怎么做余额扣减？.html",
+    "collected_at": "2025-11-10T15:43:33.285670Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "683cd82b6a0f03d5800add3e1f172ae3162ca892cfc9a49e611e66c86d2fffd5",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6f2d8f2a-99b0-45a9-a1c1-b15e70e64e2c",
+    "ingest_source_id": "b2d1648c-5e64-404b-982f-66a2ade8edc9",
+    "canonical_title": "高并发下怎么做余额扣减？",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:33.285673Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "高并发下怎么做余额扣减？.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ee8ead1b-2c3a-4bef-ba1c-9a4f1ffde3bb",
+      "note_id": "6f2d8f2a-99b0-45a9-a1c1-b15e70e64e2c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.285676Z",
+      "content": "---\ntitle: 高并发下怎么做余额扣减？\nupdated: 2021-06-28 20:15:25Z\ncreated: 2021-06-28 20:09:02Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 账户\n  - 高性能\n---\n\n\n<en-note><div><font FACE=\"Courier\">取决于是计费⾼并发，还是⽤户⾼并发。&nbsp;</font></div><div><font FACE=\"Courier\">前者是同⼀账户，同时并发多个计费请求，导致余额变化，好像⼀个银⾏账户，多个银⾏卡，同时 刷卡买东⻄；后者是多个⽤户在线，⽤各⾃的账户消费，互不影响。&nbsp;</font></div><div><font FACE=\"Courier\">就基于计费⾼并发来讨论。</font></div><div><font FACE=\"Courier\">&nbsp;曾遇到过⼀个需求，每个账户每秒有⼏百次计费请求，要求很简单，</font></div><div><font FACE=\"Courier\">&nbsp;1，⼜快⼜准。&nbsp;</font></div><div><font FACE=\"Courier\">2，余额不为负。&nbsp;</font></div><div><font FACE=\"Courier\">同⼀个字段被并发修改，很⾃然会想到⽤lock，但系统有很多其他业务逻辑，计费只是很⼩的⼀部 分，要⾜够的轻，就开始考虑尽量⽆锁的⽅案。</font></div><div><font FACE=\"Courier\">⼤概思路如下， 记录持久化，余额内存化。&nbsp;</font></div><div><font FACE=\"Courier\">余额是充值和消费的结果，在不断变化，但充值和消费是记录，⼀旦发⽣，不会再变，某时某刻花 了10块，这条记录产⽣了，就永远不会变。这类记录持久化，放在DB⾥。</font></div><div><font FACE=\"Courier\">&nbsp;有了记录，可以在任何时刻，重建余额。</font></div><div><font FACE=\"Courier\">这个余额是否需要持久化，不⼀定，还要考虑是否存在过期等。我们虽选择持久化余额，但不加锁，因为读写不发⽣在DB上，⽽是在内存⾥。</font></div><div><font FACE=\"Courier\">&nbsp;内存⾥，⽤户有两个值，⼀个是余额，⼀个是花费。</font></div><div><font FACE=\"Courier\">⽤户消费时，余额不变，花费增加。两个问 题， 为什不直接减余额呢？&nbsp;</font></div><div><font FACE=\"Courier\">不改余额，就可以保证内存⾥的余额始终和DB中的⼀致，⽽内存⾥花费始终和消费记录⼀致。</font></div><div><font FACE=\"Courier\">⽤户 的实时余额 = 余额 - 花费。&nbsp;</font></div><div><font FACE=\"Courier\">内存计费是否加锁？&nbsp;</font></div><div><font FACE=\"Courier\">余额不为负，意味着要先确认实时余额 &gt; 所需花费，才能消费，check, then update，这并不是 atomic 的，意味着存在 race condition，</font></div><div><font FACE=\"Courier\" STYLE=\"color: rgb(255, 38, 0); --inversion-type-color: simple;\">计费函数是不是⼀定要加锁呢？</font></div><div><font FACE=\"Courier\">&nbsp;如果先查余额，再扣钱，的确要加锁；但也可以先扣钱，再查余额，若⼩于0，则把钱加回来，返 回计费失败，阻⽌消费，这样就不⽤加锁了。</font></div><div><font FACE=\"Courier\"><br/></font></div><div><font FACE=\"Courier\">当然，余额和花费应选Atomic数据类型。 这样⾼并发下的余额扣减就变得⾮常的轻，对 performance ⼏乎没有影响，也满⾜了⼜快⼜准的需 求。</font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "683cd82b6a0f03d5800add3e1f172ae3162ca892cfc9a49e611e66c86d2fffd5",
+        "path": "backups/2023年6月/IT技术/高并发下怎么做余额扣减？.html"
+      }
+    },
+    {
+      "id": "5cc79ad9-7bdb-4a3d-beae-99ba6d47fc96",
+      "note_id": "6f2d8f2a-99b0-45a9-a1c1-b15e70e64e2c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.285679Z",
+      "content": "---\ntitle: 高并发下怎么做余额扣减？\nupdated: 2021-06-28 20:15:25Z\ncreated: 2021-06-28 20:09:02Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 账户\n  - 高性能\n---\n\n取决于是计费⾼并发，还是⽤户⾼并发。 \n前者是同⼀账户，同时并发多个计费请求，导致余额变化，好像⼀个银⾏账户，多个银⾏卡，同时 刷卡买东⻄；后者是多个⽤户在线，⽤各⾃的账户消费，互不影响。 \n就基于计费⾼并发来讨论。\n 曾遇到过⼀个需求，每个账户每秒有⼏百次计费请求，要求很简单，\n 1，⼜快⼜准。 \n2，余额不为负。 \n同⼀个字段被并发修改，很⾃然会想到⽤lock，但系统有很多其他业务逻辑，计费只是很⼩的⼀部 分，要⾜够的轻，就开始考虑尽量⽆锁的⽅案。\n⼤概思路如下， 记录持久化，余额内存化。 \n余额是充值和消费的结果，在不断变化，但充值和消费是记录，⼀旦发⽣，不会再变，某时某刻花 了10块，这条记录产⽣了，就永远不会变。这类记录持久化，放在DB⾥。\n 有了记录，可以在任何时刻，重建余额。\n这个余额是否需要持久化，不⼀定，还要考虑是否存在过期等。我们虽选择持久化余额，但不加锁，因为读写不发⽣在DB上，⽽是在内存⾥。\n 内存⾥，⽤户有两个值，⼀个是余额，⼀个是花费。\n⽤户消费时，余额不变，花费增加。两个问 题， 为什不直接减余额呢？ \n不改余额，就可以保证内存⾥的余额始终和DB中的⼀致，⽽内存⾥花费始终和消费记录⼀致。\n⽤户 的实时余额 = 余额 - 花费。 \n内存计费是否加锁？ \n余额不为负，意味着要先确认实时余额 > 所需花费，才能消费，check, then update，这并不是 atomic 的，意味着存在 race condition，\n计费函数是不是⼀定要加锁呢？\n 如果先查余额，再扣钱，的确要加锁；但也可以先扣钱，再查余额，若⼩于0，则把钱加回来，返 回计费失败，阻⽌消费，这样就不⽤加锁了。\n当然，余额和花费应选Atomic数据类型。 这样⾼并发下的余额扣减就变得⾮常的轻，对 performance ⼏乎没有影响，也满⾜了⼜快⼜准的需 求。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 931,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "454b9f43-c7d2-43a6-8190-40d80dbb5727",
+    "note_id": "6f2d8f2a-99b0-45a9-a1c1-b15e70e64e2c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.285683Z",
+    "finished_at": "2025-11-10T15:43:33.285684Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6cbe6c01-1265-4881-b386-abc6b4a85ff9",
+      "source_path": "backups/2023年6月/IT技术/高并发下怎么做余额扣减？.html",
+      "checksum": "683cd82b6a0f03d5800add3e1f172ae3162ca892cfc9a49e611e66c86d2fffd5"
+    },
+    "output_ref": {
+      "ingest_source": "b2d1648c-5e64-404b-982f-66a2ade8edc9",
+      "note": "6f2d8f2a-99b0-45a9-a1c1-b15e70e64e2c",
+      "variants": [
+        "ee8ead1b-2c3a-4bef-ba1c-9a4f1ffde3bb",
+        "5cc79ad9-7bdb-4a3d-beae-99ba6d47fc96"
+      ]
+    },
+    "error_detail": null
+  }
+}

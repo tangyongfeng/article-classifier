@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "550346ca-a40e-4f17-a950-0f06d0daf97b",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/德国房东卡号.html",
+    "collected_at": "2025-11-10T15:43:35.452459Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c6da26f539f5ffb62966dc07b359019fbc8e916e3868ec338153c6b6887a8b5b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7a765707-8901-4db3-9bee-08f677438c52",
+    "ingest_source_id": "550346ca-a40e-4f17-a950-0f06d0daf97b",
+    "canonical_title": "德国房东卡号",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.452462Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "德国房东卡号.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0af054b9-92b9-4806-b537-496816d5966f",
+      "note_id": "7a765707-8901-4db3-9bee-08f677438c52",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.452465Z",
+      "content": "---\ntitle: 德国房东卡号\nupdated: 2019-05-03 20:19:39Z\ncreated: 2019-05-03 20:19:18Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"color: rgb(76, 76, 76); font-family: Frutiger, sans-serif; font-size: 18px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: nowrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">Ehel.Stinner</span></div><div><span STYLE=\"color: rgb(76, 76, 76); font-family: Frutiger, sans-serif; font-size: 18px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">DE92 3055 0000 0080 0543 31</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c6da26f539f5ffb62966dc07b359019fbc8e916e3868ec338153c6b6887a8b5b",
+        "path": "backups/2023年6月/德国1/德国房东卡号.html"
+      }
+    },
+    {
+      "id": "0ad98ec2-44e0-4057-a8d9-f96c306326d4",
+      "note_id": "7a765707-8901-4db3-9bee-08f677438c52",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.452468Z",
+      "content": "---\ntitle: 德国房东卡号\nupdated: 2019-05-03 20:19:39Z\ncreated: 2019-05-03 20:19:18Z\nauthor: tangyongfeng@gmail.com\n---\n\nEhel.Stinner\nDE92 3055 0000 0080 0543 31",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 154,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "80bef24a-a683-496b-963b-551c9b02b999",
+    "note_id": "7a765707-8901-4db3-9bee-08f677438c52",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.452472Z",
+    "finished_at": "2025-11-10T15:43:35.452473Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c1bed741-bd3a-49f2-a417-6581d560a847",
+      "source_path": "backups/2023年6月/德国1/德国房东卡号.html",
+      "checksum": "c6da26f539f5ffb62966dc07b359019fbc8e916e3868ec338153c6b6887a8b5b"
+    },
+    "output_ref": {
+      "ingest_source": "550346ca-a40e-4f17-a950-0f06d0daf97b",
+      "note": "7a765707-8901-4db3-9bee-08f677438c52",
+      "variants": [
+        "0af054b9-92b9-4806-b537-496816d5966f",
+        "0ad98ec2-44e0-4057-a8d9-f96c306326d4"
+      ]
+    },
+    "error_detail": null
+  }
+}

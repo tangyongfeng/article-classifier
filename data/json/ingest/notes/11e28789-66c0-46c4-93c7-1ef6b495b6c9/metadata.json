@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "c87579f2-fd9b-441e-adc7-e2066b1f80a4",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/密码.html",
+    "collected_at": "2025-11-10T15:43:32.551777Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "defd72069f7526efecd8d58b124e417fc37c8c01449a0ba286cf6bc9383694d9",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "11e28789-66c0-46c4-93c7-1ef6b495b6c9",
+    "ingest_source_id": "c87579f2-fd9b-441e-adc7-e2066b1f80a4",
+    "canonical_title": "密码",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.551783Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "密码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "35b24db0-6baa-4bf4-807f-eff7956ff01b",
+      "note_id": "11e28789-66c0-46c4-93c7-1ef6b495b6c9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.551787Z",
+      "content": "---\ntitle: 密码\nupdated: 2015-05-22 06:35:31Z\ncreated: 2015-05-22 06:35:24Z\n---\n\n\n\n<en-note>131113</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "defd72069f7526efecd8d58b124e417fc37c8c01449a0ba286cf6bc9383694d9",
+        "path": "backups/2023年6月/IT技术/密码.html"
+      }
+    },
+    {
+      "id": "41554b59-e8bd-40b1-be04-958f0b2c2906",
+      "note_id": "11e28789-66c0-46c4-93c7-1ef6b495b6c9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.551790Z",
+      "content": "---\ntitle: 密码\nupdated: 2015-05-22 06:35:31Z\ncreated: 2015-05-22 06:35:24Z\n---\n\n131113",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 85,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5ef556ff-1e5f-4365-8703-7832eda1cfb3",
+    "note_id": "11e28789-66c0-46c4-93c7-1ef6b495b6c9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.551796Z",
+    "finished_at": "2025-11-10T15:43:32.551797Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "68bd06e2-2703-410f-a899-6434a6aeb7e0",
+      "source_path": "backups/2023年6月/IT技术/密码.html",
+      "checksum": "defd72069f7526efecd8d58b124e417fc37c8c01449a0ba286cf6bc9383694d9"
+    },
+    "output_ref": {
+      "ingest_source": "c87579f2-fd9b-441e-adc7-e2066b1f80a4",
+      "note": "11e28789-66c0-46c4-93c7-1ef6b495b6c9",
+      "variants": [
+        "35b24db0-6baa-4bf4-807f-eff7956ff01b",
+        "41554b59-e8bd-40b1-be04-958f0b2c2906"
+      ]
+    },
+    "error_detail": null
+  }
+}

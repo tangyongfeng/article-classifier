@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "773ed12e-350e-4760-9c7d-40f289f47980",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/可儿/绘本前言.html",
+    "collected_at": "2025-11-10T15:43:35.316372Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d6b492f1bbb9e33422ddac3f683770fdbac3287167dbcdd556a060df0920dea2",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7d096f0e-d178-4dec-b4a9-1e92575808f7",
+    "ingest_source_id": "773ed12e-350e-4760-9c7d-40f289f47980",
+    "canonical_title": "绘本前言",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.316376Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "绘本前言.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4d893b74-b05b-4e9a-8d97-48f1124f297a",
+      "note_id": "7d096f0e-d178-4dec-b4a9-1e92575808f7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.316378Z",
+      "content": "---\ntitle: 绘本前言\nupdated: 2018-10-19 08:58:44Z\ncreated: 2018-10-19 08:58:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>我女儿心里的王国</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d6b492f1bbb9e33422ddac3f683770fdbac3287167dbcdd556a060df0920dea2",
+        "path": "backups/2023年6月/可儿/绘本前言.html"
+      }
+    },
+    {
+      "id": "d3da0961-a8b8-4cb5-8b45-b6086f153ed8",
+      "note_id": "7d096f0e-d178-4dec-b4a9-1e92575808f7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.316381Z",
+      "content": "---\ntitle: 绘本前言\nupdated: 2018-10-19 08:58:44Z\ncreated: 2018-10-19 08:58:05Z\nauthor: tangyongfeng@gmail.com\n---\n\n我女儿心里的王国",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 120,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fe9a63dd-3962-4c82-8537-eb40de909923",
+    "note_id": "7d096f0e-d178-4dec-b4a9-1e92575808f7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.316385Z",
+    "finished_at": "2025-11-10T15:43:35.316386Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ef21ae54-a51e-4cee-832c-add9550e5680",
+      "source_path": "backups/2023年6月/可儿/绘本前言.html",
+      "checksum": "d6b492f1bbb9e33422ddac3f683770fdbac3287167dbcdd556a060df0920dea2"
+    },
+    "output_ref": {
+      "ingest_source": "773ed12e-350e-4760-9c7d-40f289f47980",
+      "note": "7d096f0e-d178-4dec-b4a9-1e92575808f7",
+      "variants": [
+        "4d893b74-b05b-4e9a-8d97-48f1124f297a",
+        "d3da0961-a8b8-4cb5-8b45-b6086f153ed8"
+      ]
+    },
+    "error_detail": null
+  }
+}

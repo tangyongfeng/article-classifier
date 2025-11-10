@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "226c10f2-02de-46cf-995d-1de7b8e4febd",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/mysql 改目录.html",
+    "collected_at": "2025-11-10T15:43:31.796842Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "dd20b6ef27d0074030a5b5c23e1c89d4bbf0545812d72924725c68b5b9f61b8b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "76feb645-5007-48df-a0a7-1e5ecb5689b7",
+    "ingest_source_id": "226c10f2-02de-46cf-995d-1de7b8e4febd",
+    "canonical_title": "mysql 改目录",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.796847Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "mysql 改目录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "27dd35f3-dc47-4cb8-b2ef-ca17f37b8492",
+      "note_id": "76feb645-5007-48df-a0a7-1e5ecb5689b7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.796849Z",
+      "content": "---\ntitle: mysql 改目录\nupdated: 2021-05-26 17:46:16Z\ncreated: 2021-05-26 17:42:39Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - mysql\n---\n\n\n<en-note><div><br/></div><div><br/></div><ol><li><div>停库</div></li><li><div>修改/etc/mysql/my.cnf文件中的 /var/db/$$$$ 到对应的目录下</div></li><li><div>拷贝或者移动/var/db/mysql &nbsp;mysql_secure mysql_tmpdir &nbsp;改到目标目录下</div></li><li><div>修改目录归属到mysql用户下</div></li><li><div>在/etc/mysql/my.cnf 中的mysql.sock文件需要有对应的位置</div></li><li><div>修改service 对应的启动文件中的目录到目标文件夹下</div></li><li><div>启动</div></li></ol><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dd20b6ef27d0074030a5b5c23e1c89d4bbf0545812d72924725c68b5b9f61b8b",
+        "path": "backups/2023年6月/IT技术/mysql 改目录.html"
+      }
+    },
+    {
+      "id": "730302f6-3957-4ca9-89e0-7dfcbe465938",
+      "note_id": "76feb645-5007-48df-a0a7-1e5ecb5689b7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.796852Z",
+      "content": "---\ntitle: mysql 改目录\nupdated: 2021-05-26 17:46:16Z\ncreated: 2021-05-26 17:42:39Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - mysql\n---\n\n停库\n修改/etc/mysql/my.cnf文件中的 /var/db/$$$$ 到对应的目录下\n拷贝或者移动/var/db/mysql  mysql_secure mysql_tmpdir  改到目标目录下\n修改目录归属到mysql用户下\n在/etc/mysql/my.cnf 中的mysql.sock文件需要有对应的位置\n修改service 对应的启动文件中的目录到目标文件夹下\n启动",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 326,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b397cd44-f6a4-4f0d-b922-0b2ef178ba48",
+    "note_id": "76feb645-5007-48df-a0a7-1e5ecb5689b7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.796857Z",
+    "finished_at": "2025-11-10T15:43:31.796857Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9811af0d-f93c-451c-a3e4-4fa0f4d21dc2",
+      "source_path": "backups/2023年6月/IT技术/mysql 改目录.html",
+      "checksum": "dd20b6ef27d0074030a5b5c23e1c89d4bbf0545812d72924725c68b5b9f61b8b"
+    },
+    "output_ref": {
+      "ingest_source": "226c10f2-02de-46cf-995d-1de7b8e4febd",
+      "note": "76feb645-5007-48df-a0a7-1e5ecb5689b7",
+      "variants": [
+        "27dd35f3-dc47-4cb8-b2ef-ca17f37b8492",
+        "730302f6-3957-4ca9-89e0-7dfcbe465938"
+      ]
+    },
+    "error_detail": null
+  }
+}

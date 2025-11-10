@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "acee1a35-b88a-4b8b-a5f8-594cf2da28df",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Sharing link-6.html",
+    "collected_at": "2025-11-10T15:43:31.310405Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fda5a76b6c88fdae94cb660ab5b775c261a37c2c193516e4af2317d23996612b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7a60895e-8541-4145-b0ef-304125d94c7a",
+    "ingest_source_id": "acee1a35-b88a-4b8b-a5f8-594cf2da28df",
+    "canonical_title": "Sharing link-6",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.310410Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Sharing link-6.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0f48e48d-e417-48d6-b2e1-3e9bf4987fa1",
+      "note_id": "7a60895e-8541-4145-b0ef-304125d94c7a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.310414Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2016-03-10 02:23:56Z\ncreated: 2016-03-10 02:23:56Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><span>Sharing link</span></div>\n<div><br/></div>\n<div><span>http://drops.wooyun.org/tips/723</span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fda5a76b6c88fdae94cb660ab5b775c261a37c2c193516e4af2317d23996612b",
+        "path": "backups/2023年6月/IT技术/Sharing link-6.html"
+      }
+    },
+    {
+      "id": "0dab26ae-5468-4e75-ae8b-473edf9b4800",
+      "note_id": "7a60895e-8541-4145-b0ef-304125d94c7a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.310417Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2016-03-10 02:23:56Z\ncreated: 2016-03-10 02:23:56Z\nauthor: tangyongfeng@gmail.com\n---\n\nSharing link\n\nhttp://drops.wooyun.org/tips/723",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 166,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c91af7a0-85d3-4270-a9ed-c6edeed9983c",
+    "note_id": "7a60895e-8541-4145-b0ef-304125d94c7a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.310424Z",
+    "finished_at": "2025-11-10T15:43:31.310424Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "93b03b8e-bd8b-446b-991e-5fa2b2fd6445",
+      "source_path": "backups/2023年6月/IT技术/Sharing link-6.html",
+      "checksum": "fda5a76b6c88fdae94cb660ab5b775c261a37c2c193516e4af2317d23996612b"
+    },
+    "output_ref": {
+      "ingest_source": "acee1a35-b88a-4b8b-a5f8-594cf2da28df",
+      "note": "7a60895e-8541-4145-b0ef-304125d94c7a",
+      "variants": [
+        "0f48e48d-e417-48d6-b2e1-3e9bf4987fa1",
+        "0dab26ae-5468-4e75-ae8b-473edf9b4800"
+      ]
+    },
+    "error_detail": null
+  }
+}

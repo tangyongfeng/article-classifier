@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5d7c2748-a04b-49bb-ab61-ea0c4281d2ec",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/十大慢性病.html",
+    "collected_at": "2025-11-10T15:43:35.187979Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "849150c4364205149f769a32f025e547b4ba49d7b0b6c809bd7ab6a43fc11a37",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "753be536-6655-401a-91c2-7baa21c985f5",
+    "ingest_source_id": "5d7c2748-a04b-49bb-ab61-ea0c4281d2ec",
+    "canonical_title": "十大慢性病",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.187982Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "十大慢性病.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "02c8a7a9-5f82-453c-bb29-f4a04ffec8b6",
+      "note_id": "753be536-6655-401a-91c2-7baa21c985f5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.187985Z",
+      "content": "---\ntitle: 十大慢性病\nupdated: 2013-06-24 03:12:55Z\ncreated: 2013-06-24 03:11:37Z\ntags:\n  - health\n  - 十病百药\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n高血压\n<div>高血脂</div><div>糖尿病</div><div>肾脏病</div><div>慢性肝炎</div><div>气喘</div><div>痛风</div><div>骨松症</div><div>关节炎</div><div>肥胖症</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "849150c4364205149f769a32f025e547b4ba49d7b0b6c809bd7ab6a43fc11a37",
+        "path": "backups/2023年6月/医疗/十大慢性病.html"
+      }
+    },
+    {
+      "id": "66ada3af-3598-46e9-bd65-235983a23aef",
+      "note_id": "753be536-6655-401a-91c2-7baa21c985f5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.187987Z",
+      "content": "---\ntitle: 十大慢性病\nupdated: 2013-06-24 03:12:55Z\ncreated: 2013-06-24 03:11:37Z\ntags:\n  - health\n  - 十病百药\n---\n\n高血压\n\n高血脂\n糖尿病\n肾脏病\n慢性肝炎\n气喘\n痛风\n骨松症\n关节炎\n肥胖症",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 147,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2f21c8bd-18db-4ab5-b93e-da5335b6fd98",
+    "note_id": "753be536-6655-401a-91c2-7baa21c985f5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.187992Z",
+    "finished_at": "2025-11-10T15:43:35.187992Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6ed046e3-ec37-4d44-bc60-31e79a336739",
+      "source_path": "backups/2023年6月/医疗/十大慢性病.html",
+      "checksum": "849150c4364205149f769a32f025e547b4ba49d7b0b6c809bd7ab6a43fc11a37"
+    },
+    "output_ref": {
+      "ingest_source": "5d7c2748-a04b-49bb-ab61-ea0c4281d2ec",
+      "note": "753be536-6655-401a-91c2-7baa21c985f5",
+      "variants": [
+        "02c8a7a9-5f82-453c-bb29-f4a04ffec8b6",
+        "66ada3af-3598-46e9-bd65-235983a23aef"
+      ]
+    },
+    "error_detail": null
+  }
+}

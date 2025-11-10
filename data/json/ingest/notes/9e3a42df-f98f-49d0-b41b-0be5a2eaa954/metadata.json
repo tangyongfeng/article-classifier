@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "aeee5600-afa2-46c2-abfc-6e3932ecabf3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/可儿/宝宝先心.html",
+    "collected_at": "2025-11-10T15:43:35.295829Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "dccacd99cb3bb0c59e4caa043aa6d98c22d4ee39aab5fc26fc73aa0fbd307ad2",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9e3a42df-f98f-49d0-b41b-0be5a2eaa954",
+    "ingest_source_id": "aeee5600-afa2-46c2-abfc-6e3932ecabf3",
+    "canonical_title": "宝宝先心",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.295833Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "宝宝先心.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0099b9e0-6b37-4d3e-8358-9e450cfcd9be",
+      "note_id": "9e3a42df-f98f-49d0-b41b-0be5a2eaa954",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.295835Z",
+      "content": "---\ntitle: 宝宝先心\nupdated: 2012-06-20 05:17:06Z\ncreated: 2012-06-18 08:20:09Z\nlatitude: 39.87530000\nlongitude: 116.34400000\naltitude: 0.0000\ntags:\n  - hashmap\n  - java\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>左室内径轻度增大，余房室内径未见明显增大。室间隔及左室后壁未见明显增厚，运幅正常。房室间隔回声连续完整。主肺动脉内径稍增宽，其分叉与降主动脉间可见一宽约3。1至4。6毫米的异常通道。各瓣摸形态及活动未见明星异常。主动脉弓降部未见明显异常。<br/>动脉水平可见坐向右分流信号<div><br/></div><div><br/></div>您能否给予建议：<br/>1、是否必须做介入手术，如果不做会有什么不好的结果。<br/>2、手术的是否越早越好，等半年或者一年是否可以，拖延不好的结果是怎样的、<br/>3、如果做这个手术，夏天和冬天做有什么区别，夏天和冬天何时更好？<br/>4、这个手术是否成熟，重点在哪里。<br/> </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dccacd99cb3bb0c59e4caa043aa6d98c22d4ee39aab5fc26fc73aa0fbd307ad2",
+        "path": "backups/2023年6月/可儿/宝宝先心.html"
+      }
+    },
+    {
+      "id": "881fb923-5795-47c5-b2cd-26262e0bb81c",
+      "note_id": "9e3a42df-f98f-49d0-b41b-0be5a2eaa954",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.295838Z",
+      "content": "---\ntitle: 宝宝先心\nupdated: 2012-06-20 05:17:06Z\ncreated: 2012-06-18 08:20:09Z\nlatitude: 39.87530000\nlongitude: 116.34400000\naltitude: 0.0000\ntags:\n  - hashmap\n  - java\n---\n\n左室内径轻度增大，余房室内径未见明显增大。室间隔及左室后壁未见明显增厚，运幅正常。房室间隔回声连续完整。主肺动脉内径稍增宽，其分叉与降主动脉间可见一宽约3。1至4。6毫米的异常通道。各瓣摸形态及活动未见明星异常。主动脉弓降部未见明显异常。\n动脉水平可见坐向右分流信号\n您能否给予建议：\n1、是否必须做介入手术，如果不做会有什么不好的结果。\n2、手术的是否越早越好，等半年或者一年是否可以，拖延不好的结果是怎样的、\n3、如果做这个手术，夏天和冬天做有什么区别，夏天和冬天何时更好？\n4、这个手术是否成熟，重点在哪里。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 428,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "30b169ac-f164-41f2-8bc2-2fb2f2791a09",
+    "note_id": "9e3a42df-f98f-49d0-b41b-0be5a2eaa954",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.295843Z",
+    "finished_at": "2025-11-10T15:43:35.295844Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7fc6b1f9-c510-4fa9-ba36-970a78e4e316",
+      "source_path": "backups/2023年6月/可儿/宝宝先心.html",
+      "checksum": "dccacd99cb3bb0c59e4caa043aa6d98c22d4ee39aab5fc26fc73aa0fbd307ad2"
+    },
+    "output_ref": {
+      "ingest_source": "aeee5600-afa2-46c2-abfc-6e3932ecabf3",
+      "note": "9e3a42df-f98f-49d0-b41b-0be5a2eaa954",
+      "variants": [
+        "0099b9e0-6b37-4d3e-8358-9e450cfcd9be",
+        "881fb923-5795-47c5-b2cd-26262e0bb81c"
+      ]
+    },
+    "error_detail": null
+  }
+}

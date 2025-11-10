@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a07eb52f-faee-4c22-a9da-748273fc9f46",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/青少点播站_青少_央视网.html",
+    "collected_at": "2025-11-10T15:43:33.270427Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "cbaa04c5684ccc9ef15641d06dafc39b53a5e6da1efdc353ccc8a61bc75a90a4",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "52bdf8b3-a7e7-4a45-b04c-e29789c808f5",
+    "ingest_source_id": "a07eb52f-faee-4c22-a9da-748273fc9f46",
+    "canonical_title": "青少点播站_青少_央视网",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.270430Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "青少点播站_青少_央视网.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6bb08184-d3c7-4c52-9dc4-0c72d5a1754f",
+      "note_id": "52bdf8b3-a7e7-4a45-b04c-e29789c808f5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.270433Z",
+      "content": "---\ntitle: 青少点播站_青少_央视网\nupdated: 2013-04-09 12:29:03Z\ncreated: 2013-04-09 12:29:03Z\nsource: http://shaoer.cntv.cn/dianbo/index.shtml\n---\n\n\n\n\n<en-note><span><img SRC=\"http://www.google.com/s2/favicons?domain=shaoer.cntv.cn\" STYLE=\"display:inline;border: none; width: 16px; height: 16px; padding: 0px; margin: 0px 8px -2px 0px;\" TITLE=\"青少点播站_青少_央视网\"/></span><a HREF=\"http://shaoer.cntv.cn/dianbo/index.shtml\" STYLE=\"font-size: 12pt; line-height: 18px; display: inline;\" TITLE=\"青少点播站_青少_央视网\">http://shaoer.cntv.cn/dianbo/index.shtml</a></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "cbaa04c5684ccc9ef15641d06dafc39b53a5e6da1efdc353ccc8a61bc75a90a4",
+        "path": "backups/2023年6月/IT技术/青少点播站_青少_央视网.html"
+      }
+    },
+    {
+      "id": "b23286dd-b0ce-4196-aff5-a9ce40666e99",
+      "note_id": "52bdf8b3-a7e7-4a45-b04c-e29789c808f5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.270435Z",
+      "content": "---\ntitle: 青少点播站_青少_央视网\nupdated: 2013-04-09 12:29:03Z\ncreated: 2013-04-09 12:29:03Z\nsource: http://shaoer.cntv.cn/dianbo/index.shtml\n---\n\nhttp://shaoer.cntv.cn/dianbo/index.shtml",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 178,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8394be8c-2b23-405b-847f-4df5b19c1c8e",
+    "note_id": "52bdf8b3-a7e7-4a45-b04c-e29789c808f5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.270440Z",
+    "finished_at": "2025-11-10T15:43:33.270440Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a0c04bca-002c-4bca-a298-d3645f9214ba",
+      "source_path": "backups/2023年6月/IT技术/青少点播站_青少_央视网.html",
+      "checksum": "cbaa04c5684ccc9ef15641d06dafc39b53a5e6da1efdc353ccc8a61bc75a90a4"
+    },
+    "output_ref": {
+      "ingest_source": "a07eb52f-faee-4c22-a9da-748273fc9f46",
+      "note": "52bdf8b3-a7e7-4a45-b04c-e29789c808f5",
+      "variants": [
+        "6bb08184-d3c7-4c52-9dc4-0c72d5a1754f",
+        "b23286dd-b0ce-4196-aff5-a9ce40666e99"
+      ]
+    },
+    "error_detail": null
+  }
+}

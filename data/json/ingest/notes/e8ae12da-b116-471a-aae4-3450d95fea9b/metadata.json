@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "5992d560-8977-4550-a18c-3a3564e34bf8",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Open edX官方提供5种方式扩展edx.html",
+    "collected_at": "2025-11-10T15:43:30.987109Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e743e19053b1e5ff8f94cb984ec5e2e1f118f60dcd375784a0cd7ff640bb7b70",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e8ae12da-b116-471a-aae4-3450d95fea9b",
+    "ingest_source_id": "5992d560-8977-4550-a18c-3a3564e34bf8",
+    "canonical_title": "Open edX官方提供5种方式扩展edx",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:30.987113Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Open edX官方提供5种方式扩展edx.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5f1d397e-28eb-42d0-bc2b-037895da100b",
+      "note_id": "e8ae12da-b116-471a-aae4-3450d95fea9b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.987116Z",
+      "content": "---\ntitle: Open edX官方提供5种方式扩展edx\nupdated: 2021-01-16 23:19:05Z\ncreated: 2021-01-16 23:18:24Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - openedx\n---\n\n\n<en-note><div><span STYLE=\"-en-paragraph:true;\">github地址：</span><a HREF=\"https://github.com/edx/edx-platform/wiki/Five-ways-to-extend-edX\" STYLE=\"-en-paragraph:true;\">https://github.com/edx/edx-platform/wiki/Five-ways-to-extend-edX</a><span STYLE=\"-en-paragraph:true;\">\n</span></div><div>jsinput -- 创建介绍js级别的组件并提供getState(), setState(), 和 getGrade()方法</div><div>LTI -- edX 现在支持 LTI 1.1 , LTI 2.0 还是开发中</div><div>custom grader -- Code can be run on an external server to do arbitrary work to grade problems. With our <a HREF=\"http://db.class.stanford.edu/\">Database Class</a> we&apos;ve had some success returning not just grades, but also an HTML block to be rendered with an answer. We return the query result, complete with HTML table formatting tags. See <a HREF=\"https://github.com/edx/edx-platform/wiki/image/dbclass_external_grader.png\">this screenshot</a> as an example: the contents of the blue box is what was returned by the grader.</div><div>XBlock</div><div>hack on core code</div><div><div><br/></div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/></colgroup><tbody><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: 700;\"> </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: 700;\">JSinput</span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: 700;\">LTI</span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: 700;\">External Grader</span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: 700;\">XBlock</span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: 700;\">Hack The Core!</span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">开发成本 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">Low </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">Low </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">Med </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">Med </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">High </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">语言 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">JS </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">any </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">any </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">Python </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">Python </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">开发环境 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">本地组件 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">需要edx整合 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">基于iframe的ui </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no [1] </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">移动端 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">maybe </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">maybe </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">服务端分级 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no [2] </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">日志记录 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no [3] </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">limited </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes (?) </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">Studio里的约束 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">yes </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td></tr><tr><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">隐私相关 </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">possibly [4] </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">possibly [4] </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td><td STYLE=\"width: 130px; padding: 8px; border: 1px solid;\"><div><span STYLE=\"font-weight: normal;\">no </span></div></td></tr></tbody></table><div><br/></div></div><div><span STYLE=\"-en-paragraph:true;\">Notes:\n</span></div><div>[1] Only LTI components delivered via https can be iframed in Many are served over http only. And even then they usually have their own look and feel. For example, Piazza can be iFramed in, but has its own navigation elements and their color scheme (see<a HREF=\"http://networking.class.stanford.edu/\">http://networking.class.stanford.edu/</a> for an example).</div><div>[2] JSInput does have a small place where python could do server side grading, but doing it there would be pretty hacky and difficult to maintain.</div><div>[3] JSInput really only exposes the getState, putState, getGrade methods. But is there any reason why we can&rsquo;t also document / publish the tracking endpoint (/events/user_track I believe)</div><div>[4] Privacy and secrecy issues are important in some areas of the world, and only becoming more important because of the news. If you have to self host OpenEdx because of that, this row indicates the guarantees that you can offer your students in that area. &quot;Possibly&quot; indicates that the guarantees will have to depend on the solution chosen for that particular use case. Note that both LTI and external graders allow for anonymization, but this might not be enough to allow for the use of some external tools within the constraints.</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e743e19053b1e5ff8f94cb984ec5e2e1f118f60dcd375784a0cd7ff640bb7b70",
+        "path": "backups/2023年6月/IT技术/Open edX官方提供5种方式扩展edx.html"
+      }
+    },
+    {
+      "id": "5b592dd4-64bd-492a-9302-6f9309ba8499",
+      "note_id": "e8ae12da-b116-471a-aae4-3450d95fea9b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.987119Z",
+      "content": "---\ntitle: Open edX官方提供5种方式扩展edx\nupdated: 2021-01-16 23:19:05Z\ncreated: 2021-01-16 23:18:24Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - openedx\n---\n\ngithub地址：\nhttps://github.com/edx/edx-platform/wiki/Five-ways-to-extend-edX\n\njsinput -- 创建介绍js级别的组件并提供getState(), setState(), 和 getGrade()方法\nLTI -- edX 现在支持 LTI 1.1 , LTI 2.0 还是开发中\ncustom grader -- Code can be run on an external server to do arbitrary work to grade problems. With our\nDatabase Class\n we've had some success returning not just grades, but also an HTML block to be rendered with an answer. We return the query result, complete with HTML table formatting tags. See\nthis screenshot\n as an example: the contents of the blue box is what was returned by the grader.\nXBlock\nhack on core code\n\nJSinput\nLTI\nExternal Grader\nXBlock\nHack The Core!\n开发成本\nLow\nMed\nHigh\n语言\nJS\nany\nPython\n开发环境\nno\nyes\n本地组件\nno\nyes\nno\n需要edx整合\nno\nyes\n基于iframe的ui\nyes\nno [1]\nyes\n移动端\nmaybe\nyes\n服务端分级\nno [2]\nyes\n日志记录\nno [3]\nno\nlimited\nyes (?)\nyes\nStudio里的约束\nno\nyes\nno\n隐私相关\nno\npossibly [4]\nno\nNotes:\n\n[1] Only LTI components delivered via https can be iframed in Many are served over http only. And even then they usually have their own look and feel. For example, Piazza can be iFramed in, but has its own navigation elements and their color scheme (see\nhttp://networking.class.stanford.edu/\n for an example).\n[2] JSInput does have a small place where python could do server side grading, but doing it there would be pretty hacky and difficult to maintain.\n[3] JSInput really only exposes the getState, putState, getGrade methods. But is there any reason why we can’t also document / publish the tracking endpoint (/events/user_track I believe)\n[4] Privacy and secrecy issues are important in some areas of the world, and only becoming more important because of the news. If you have to self host OpenEdx because of that, this row indicates the guarantees that you can offer your students in that area. \"Possibly\" indicates that the guarantees will have to depend on the solution chosen for that particular use case. Note that both LTI and external graders allow for anonymization, but this might not be enough to allow for the use of some external tools within the constraints.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 2199,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1ce0399c-e8f3-4c38-95d7-cb54241ae8ab",
+    "note_id": "e8ae12da-b116-471a-aae4-3450d95fea9b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.987124Z",
+    "finished_at": "2025-11-10T15:43:30.987124Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "31277414-6367-401e-a646-64b49c5bc7b2",
+      "source_path": "backups/2023年6月/IT技术/Open edX官方提供5种方式扩展edx.html",
+      "checksum": "e743e19053b1e5ff8f94cb984ec5e2e1f118f60dcd375784a0cd7ff640bb7b70"
+    },
+    "output_ref": {
+      "ingest_source": "5992d560-8977-4550-a18c-3a3564e34bf8",
+      "note": "e8ae12da-b116-471a-aae4-3450d95fea9b",
+      "variants": [
+        "5f1d397e-28eb-42d0-bc2b-037895da100b",
+        "5b592dd4-64bd-492a-9302-6f9309ba8499"
+      ]
+    },
+    "error_detail": null
+  }
+}

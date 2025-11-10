@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "89669477-ae33-415d-a6ee-ff3d4e1b1a46",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/n95口罩.html",
+    "collected_at": "2025-11-10T15:43:33.524419Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "58223cd0b1b6cb22398e2105e56f918e7303636a9cc937d86d71c04c43fead3e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4053582a-cf80-4224-8b2e-1ba4614c516e",
+    "ingest_source_id": "89669477-ae33-415d-a6ee-ff3d4e1b1a46",
+    "canonical_title": "n95口罩",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:33.524422Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "n95口罩.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7c788d98-2411-4216-b4c5-864d4d04c281",
+      "note_id": "4053582a-cf80-4224-8b2e-1ba4614c516e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.524425Z",
+      "content": "---\ntitle: n95口罩\nupdated: 2020-01-29 04:17:11Z\ncreated: 2020-01-29 04:16:55Z\n---\n\n\n\n<en-note><div>转：今天给3M打了好几个电话，收到了email，终于把N95各种型号的口罩搞明白了，分享一下吧：</div><div>1860 / 1870+ 这个型号是用于医疗作业，防湿尘等</div><div>8210 / 8511 这个型号是用于建筑工程，防灰尘等</div><div>9210+ 这个型号是用于工业工程，防砂尘及腐料等</div><div>从国外代购，很可能买到建筑用N95防尘口罩，完全不防病毒，大家一定要仔细看～不晓得是代购无知、还是明知却故意为之：以下被大量代购的两款，包括有名的3M品牌，虽然都是N95，但纯粹是建筑用防尘口罩，只防悬浮颗粒/微尘/花粉等，完全不防病毒，很贵但对于新型肺炎毫无作用，一定看清楚才好。</div><div>N95是口罩级别，购买时一定谨记1860 / 1870+ 这个型号，或者有anti virus、surgical、flu-fighter字样的，否则毫无用处l</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "58223cd0b1b6cb22398e2105e56f918e7303636a9cc937d86d71c04c43fead3e",
+        "path": "backups/2023年6月/个人的乱78糟/n95口罩.html"
+      }
+    },
+    {
+      "id": "ff8e4905-740e-4ab6-91bb-8468b60bd8ab",
+      "note_id": "4053582a-cf80-4224-8b2e-1ba4614c516e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.524428Z",
+      "content": "---\ntitle: n95口罩\nupdated: 2020-01-29 04:17:11Z\ncreated: 2020-01-29 04:16:55Z\n---\n\n转：今天给3M打了好几个电话，收到了email，终于把N95各种型号的口罩搞明白了，分享一下吧：\n1860 / 1870+ 这个型号是用于医疗作业，防湿尘等\n8210 / 8511 这个型号是用于建筑工程，防灰尘等\n9210+ 这个型号是用于工业工程，防砂尘及腐料等\n从国外代购，很可能买到建筑用N95防尘口罩，完全不防病毒，大家一定要仔细看～不晓得是代购无知、还是明知却故意为之：以下被大量代购的两款，包括有名的3M品牌，虽然都是N95，但纯粹是建筑用防尘口罩，只防悬浮颗粒/微尘/花粉等，完全不防病毒，很贵但对于新型肺炎毫无作用，一定看清楚才好。\nN95是口罩级别，购买时一定谨记1860 / 1870+ 这个型号，或者有anti virus、surgical、flu-fighter字样的，否则毫无用处l",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 437,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "627bb3f5-83aa-4ae8-a372-387a1b7eb548",
+    "note_id": "4053582a-cf80-4224-8b2e-1ba4614c516e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.524432Z",
+    "finished_at": "2025-11-10T15:43:33.524433Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "69979978-d6b0-487e-a95d-4b9a26cfad55",
+      "source_path": "backups/2023年6月/个人的乱78糟/n95口罩.html",
+      "checksum": "58223cd0b1b6cb22398e2105e56f918e7303636a9cc937d86d71c04c43fead3e"
+    },
+    "output_ref": {
+      "ingest_source": "89669477-ae33-415d-a6ee-ff3d4e1b1a46",
+      "note": "4053582a-cf80-4224-8b2e-1ba4614c516e",
+      "variants": [
+        "7c788d98-2411-4216-b4c5-864d4d04c281",
+        "ff8e4905-740e-4ab6-91bb-8468b60bd8ab"
+      ]
+    },
+    "error_detail": null
+  }
+}

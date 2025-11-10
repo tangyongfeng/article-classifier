@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6670428c-5abd-4707-b22d-21e2cebf22d0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/跃儿/名字.html",
+    "collected_at": "2025-11-10T15:43:37.022757Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f365985623eaade90afd602fd07c043c2ce2c315390bb19b782ad8d14aed9484",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9f1696cb-ccbf-4101-8634-8d46120967af",
+    "ingest_source_id": "6670428c-5abd-4707-b22d-21e2cebf22d0",
+    "canonical_title": "名字",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:37.022761Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "名字.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f2ccfae2-6167-47cc-bbdf-1088cf46e48c",
+      "note_id": "9f1696cb-ccbf-4101-8634-8d46120967af",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.022763Z",
+      "content": "---\ntitle: 名字\nupdated: 2013-01-18 11:20:30Z\ncreated: 2013-01-18 11:20:22Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n跃然\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f365985623eaade90afd602fd07c043c2ce2c315390bb19b782ad8d14aed9484",
+        "path": "backups/2023年6月/跃儿/名字.html"
+      }
+    },
+    {
+      "id": "d6e271cc-c7c6-49b4-b9e7-de478637db42",
+      "note_id": "9f1696cb-ccbf-4101-8634-8d46120967af",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.022766Z",
+      "content": "---\ntitle: 名字\nupdated: 2013-01-18 11:20:30Z\ncreated: 2013-01-18 11:20:22Z\n---\n\n跃然",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 81,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b7d92328-0b01-4559-a98f-b7a6cff76e0b",
+    "note_id": "9f1696cb-ccbf-4101-8634-8d46120967af",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:37.022771Z",
+    "finished_at": "2025-11-10T15:43:37.022771Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4efa20fb-752b-46fb-b003-35c98a8c1431",
+      "source_path": "backups/2023年6月/跃儿/名字.html",
+      "checksum": "f365985623eaade90afd602fd07c043c2ce2c315390bb19b782ad8d14aed9484"
+    },
+    "output_ref": {
+      "ingest_source": "6670428c-5abd-4707-b22d-21e2cebf22d0",
+      "note": "9f1696cb-ccbf-4101-8634-8d46120967af",
+      "variants": [
+        "f2ccfae2-6167-47cc-bbdf-1088cf46e48c",
+        "d6e271cc-c7c6-49b4-b9e7-de478637db42"
+      ]
+    },
+    "error_detail": null
+  }
+}

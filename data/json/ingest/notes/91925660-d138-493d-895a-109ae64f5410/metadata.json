@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d1db0ac2-4817-41c5-af7a-065647738540",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/frankfurt openedx.html",
+    "collected_at": "2025-11-10T15:43:31.497489Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d1202f2e77c25f6bbcfb66c2da37acb90271c07c790ea94998c0fe152eb35e73",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "91925660-d138-493d-895a-109ae64f5410",
+    "ingest_source_id": "d1db0ac2-4817-41c5-af7a-065647738540",
+    "canonical_title": "frankfurt openedx",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.497496Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "frankfurt openedx.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "71e5f806-a70e-406a-b564-ec24d789ddef",
+      "note_id": "91925660-d138-493d-895a-109ae64f5410",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.497500Z",
+      "content": "---\ntitle: frankfurt openedx\nupdated: 2021-04-22 11:08:28Z\ncreated: 2021-04-22 11:08:01Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"color: rgb(255, 255, 255); font-family: monospace, monospace; font-size: 17px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(5, 30, 48);\">sudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*</span></div><div><span STYLE=\"color: rgb(255, 255, 255); font-family: monospace, monospace; font-size: 17px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(5, 30, 48);\"><br/></span></div><div><span STYLE=\"color: rgb(255, 255, 255); font-family: monospace, monospace; font-size: 17px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: pre-wrap; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(5, 30, 48);\">mysql root abcdE12345</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d1202f2e77c25f6bbcfb66c2da37acb90271c07c790ea94998c0fe152eb35e73",
+        "path": "backups/2023年6月/IT技术/frankfurt openedx.html"
+      }
+    },
+    {
+      "id": "3bd7b246-125d-42a3-a72a-c4c74a9256df",
+      "note_id": "91925660-d138-493d-895a-109ae64f5410",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.497504Z",
+      "content": "---\ntitle: frankfurt openedx\nupdated: 2021-04-22 11:08:28Z\ncreated: 2021-04-22 11:08:01Z\nauthor: tangyongfeng@gmail.com\n---\n\nsudo apt install -f mysql-client=5.7* mysql-community-server=5.7* mysql-server=5.7*\nmysql root abcdE12345",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 230,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "855adb3c-3a11-4f3e-b922-88c8095b48c4",
+    "note_id": "91925660-d138-493d-895a-109ae64f5410",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.497511Z",
+    "finished_at": "2025-11-10T15:43:31.497512Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9dd5f091-f394-4962-bf36-489678ae3dd7",
+      "source_path": "backups/2023年6月/IT技术/frankfurt openedx.html",
+      "checksum": "d1202f2e77c25f6bbcfb66c2da37acb90271c07c790ea94998c0fe152eb35e73"
+    },
+    "output_ref": {
+      "ingest_source": "d1db0ac2-4817-41c5-af7a-065647738540",
+      "note": "91925660-d138-493d-895a-109ae64f5410",
+      "variants": [
+        "71e5f806-a70e-406a-b564-ec24d789ddef",
+        "3bd7b246-125d-42a3-a72a-c4c74a9256df"
+      ]
+    },
+    "error_detail": null
+  }
+}

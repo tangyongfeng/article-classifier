@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1d8f7b87-f92c-4086-9966-f625c55d1b4f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Odoo配置流程.html",
+    "collected_at": "2025-11-10T15:43:30.976095Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8b11f08caeb6c5f77d65d1ba0c81014436dfaf406228949d448a832f8d5d6606",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "678c3e2c-320f-48bc-91f8-4eb7c903444d",
+    "ingest_source_id": "1d8f7b87-f92c-4086-9966-f625c55d1b4f",
+    "canonical_title": "Odoo配置流程",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:30.976099Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Odoo配置流程.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a586424d-6e28-4dd7-b2af-e3c7627a75fb",
+      "note_id": "678c3e2c-320f-48bc-91f8-4eb7c903444d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.976102Z",
+      "content": "---\ntitle: Odoo配置流程\nupdated: 2019-04-21 16:24:19Z\ncreated: 2019-04-21 10:33:08Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - odoo\n---\n\n\n<en-note><div>1、配置发票</div><div>2、配置税率</div><ul><li><div><span>建立银行帐户</span></div></li><li><div>建立银行</div></li><li><div><br/></div></li></ul><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8b11f08caeb6c5f77d65d1ba0c81014436dfaf406228949d448a832f8d5d6606",
+        "path": "backups/2023年6月/IT技术/Odoo配置流程.html"
+      }
+    },
+    {
+      "id": "67ff3a08-bd5d-4171-9687-564ed202cfc2",
+      "note_id": "678c3e2c-320f-48bc-91f8-4eb7c903444d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.976105Z",
+      "content": "---\ntitle: Odoo配置流程\nupdated: 2019-04-21 16:24:19Z\ncreated: 2019-04-21 10:33:08Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - odoo\n---\n\n1、配置发票\n2、配置税率\n建立银行帐户\n建立银行",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 156,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6bb07b18-4eb5-4e01-a84e-b8cc69820f86",
+    "note_id": "678c3e2c-320f-48bc-91f8-4eb7c903444d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.976110Z",
+    "finished_at": "2025-11-10T15:43:30.976110Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ae314709-4173-492b-b961-518139bc1197",
+      "source_path": "backups/2023年6月/IT技术/Odoo配置流程.html",
+      "checksum": "8b11f08caeb6c5f77d65d1ba0c81014436dfaf406228949d448a832f8d5d6606"
+    },
+    "output_ref": {
+      "ingest_source": "1d8f7b87-f92c-4086-9966-f625c55d1b4f",
+      "note": "678c3e2c-320f-48bc-91f8-4eb7c903444d",
+      "variants": [
+        "a586424d-6e28-4dd7-b2af-e3c7627a75fb",
+        "67ff3a08-bd5d-4171-9687-564ed202cfc2"
+      ]
+    },
+    "error_detail": null
+  }
+}

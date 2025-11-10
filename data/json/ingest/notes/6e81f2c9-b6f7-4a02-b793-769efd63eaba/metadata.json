@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "eb04c456-7770-4bb4-a2a7-ec681ee73f99",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/连接系统扩展测试准备会议.html",
+    "collected_at": "2025-11-10T15:43:34.990707Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "88a4f7f987d82bf4eac27044d1ef9990fd17cbadee58108411ca796fa6e59e36",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6e81f2c9-b6f7-4a02-b793-769efd63eaba",
+    "ingest_source_id": "eb04c456-7770-4bb4-a2a7-ec681ee73f99",
+    "canonical_title": "连接系统扩展测试准备会议",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.990712Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "连接系统扩展测试准备会议.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "21b7b61f-de5d-4ae7-9bd3-8559338ebd94",
+      "note_id": "6e81f2c9-b6f7-4a02-b793-769efd63eaba",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.990715Z",
+      "content": "---\ntitle: 连接系统扩展测试准备会议\nupdated: 2013-03-01 02:57:37Z\ncreated: 2013-02-25 01:57:39Z\ntags:\n  - IBM\n  - WTCF\n  - 会议记录\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nv时间：2013年2月25日10点\n<div>地点：IBM上地办公室会议室</div><div>参会人员：岳益民、王程民、李振亚、全仁山、张鹏、唐永峰</div><div>内容：</div><div>Mike下周五来</div><div>议题：</div><div>怎么测试</div><div>impact展示内容</div><div>当前的问题还是物理资源不够，网卡没有</div><div>建议把每一个个字段的解析交给wtcf来做，通用性会有很多的好处。</div><div>增加 Device ID 作为检索内容</div><div><br/></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; deviceID &nbsp; &nbsp;UID &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;sessionID</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;| &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;|</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;V &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;V &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;V</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;---------------------------------</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;traceInfo</div><div>&nbsp; &nbsp; &nbsp; &nbsp;User Record:UID,User Name ,etc</div><div>&nbsp; &nbsp; &nbsp; Device record:Device ID,Session ID</div><div>&nbsp; &nbsp; &nbsp; TraceInfo&amp;VLTInfo</div><div><br/></div><div><br/></div><div>大概分工：</div><div>数据库结构：ibm</div><div>数据访问模块：ibm</div><div>模拟测试驱动：clo</div><div>测试数据：clo</div><div>共同工作：drvier 和数据访问层的接口，通过讨论。</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div>测试</div><div>测试数据</div><div>4亿uid</div><div>8亿dev</div><div><br/></div><div>数据类型和内容</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "88a4f7f987d82bf4eac27044d1ef9990fd17cbadee58108411ca796fa6e59e36",
+        "path": "backups/2023年6月/中彩相关/连接系统扩展测试准备会议.html"
+      }
+    },
+    {
+      "id": "6531d714-c19e-404b-8846-4d6bf3d0d3b2",
+      "note_id": "6e81f2c9-b6f7-4a02-b793-769efd63eaba",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.990718Z",
+      "content": "---\ntitle: 连接系统扩展测试准备会议\nupdated: 2013-03-01 02:57:37Z\ncreated: 2013-02-25 01:57:39Z\ntags:\n  - IBM\n  - WTCF\n  - 会议记录\n---\n\nv时间：2013年2月25日10点\n\n地点：IBM上地办公室会议室\n参会人员：岳益民、王程民、李振亚、全仁山、张鹏、唐永峰\n内容：\nMike下周五来\n议题：\n怎么测试\nimpact展示内容\n当前的问题还是物理资源不够，网卡没有\n建议把每一个个字段的解析交给wtcf来做，通用性会有很多的好处。\n增加 Device ID 作为检索内容\n          deviceID    UID              sessionID\n             |             |                    |\n             V            V                    V\n           ---------------------------------\n                       traceInfo\n       User Record:UID,User Name ,etc\n      Device record:Device ID,Session ID\n      TraceInfo&VLTInfo\n大概分工：\n数据库结构：ibm\n数据访问模块：ibm\n模拟测试驱动：clo\n测试数据：clo\n共同工作：drvier 和数据访问层的接口，通过讨论。\n测试\n测试数据\n4亿uid\n8亿dev\n数据类型和内容",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 719,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "cbbefeac-8e1f-48ce-9699-042b0ef14cbb",
+    "note_id": "6e81f2c9-b6f7-4a02-b793-769efd63eaba",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.990723Z",
+    "finished_at": "2025-11-10T15:43:34.990724Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "bcedd963-606c-483c-97d5-301df499dc69",
+      "source_path": "backups/2023年6月/中彩相关/连接系统扩展测试准备会议.html",
+      "checksum": "88a4f7f987d82bf4eac27044d1ef9990fd17cbadee58108411ca796fa6e59e36"
+    },
+    "output_ref": {
+      "ingest_source": "eb04c456-7770-4bb4-a2a7-ec681ee73f99",
+      "note": "6e81f2c9-b6f7-4a02-b793-769efd63eaba",
+      "variants": [
+        "21b7b61f-de5d-4ae7-9bd3-8559338ebd94",
+        "6531d714-c19e-404b-8846-4d6bf3d0d3b2"
+      ]
+    },
+    "error_detail": null
+  }
+}

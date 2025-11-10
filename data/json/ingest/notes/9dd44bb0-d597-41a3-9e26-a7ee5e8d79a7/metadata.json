@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "cf764316-a697-494a-9cad-2fde091b2cb9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/SQLite Connection String.html",
+    "collected_at": "2025-11-10T15:43:31.245017Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fe63e7abde1d7b51cff2cac1ad306737b5ce75d3bb42b8e23250a5aa2b64acc8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9dd44bb0-d597-41a3-9e26-a7ee5e8d79a7",
+    "ingest_source_id": "cf764316-a697-494a-9cad-2fde091b2cb9",
+    "canonical_title": "SQLite Connection String",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.245023Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "SQLite Connection String.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5ffa87b7-2a3a-4bc8-a411-4ad6795015fa",
+      "note_id": "9dd44bb0-d597-41a3-9e26-a7ee5e8d79a7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.245026Z",
+      "content": "---\ntitle: SQLite Connection String\nupdated: 2013-06-08 08:18:12Z\ncreated: 2013-06-08 08:07:03Z\nsource: http://www.connectionstrings.com/sqlite#sqlite-net-provider\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div STYLE=\"text-align: left;\">Basic<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;</font><br/>\nVersion 2 is not supported by this class library.<br/><br/><br/>\nIn-Memory Database<br/>\nAn SQLite database is normally stored on disk but the database can also be stored in memory. Read more about SQLite in-memory databases here.<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=:memory:;Version=3;New=True;</font><br/><br/><br/>\nUsing UTF16<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;UseUTF16Encoding=True;</font><br/><br/><br/>\nWith password<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Password=myPassword;</font><br/><br/><br/>\nUsing the pre 3.3x database format<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Legacy Format=True;</font><br/><br/><br/>\nWith connection pooling<br/>\nConnection pooling is not enabled by default. Use the following parameters to control the connection pooling mechanism.<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Pooling=False;Max Pool Size=100;</font><br/><br/><br/><br/>\nRead only connection<br/>\n&nbsp;&nbsp;&nbsp;<br/>\nData Source=c:\\mydb.db;Version=3;Read Only=True;<br/><br/><br/>\nUsing DateTime.Ticks as datetime format<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;DateTimeFormat=Ticks;</font><br/>\nThe default value is ISO8601 which activates the use of the ISO8601 datetime format<br/><br/><br/>\nStore GUID as text<br/>\nNormally, GUIDs are stored in a binary format. Use this connection string to store GUIDs as text.<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;BinaryGUID=False;</font><br/>\nNote that storing GUIDs as text uses more space in the database.<br/><br/><br/>\nSpecify cache size<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Cache Size=2000;</font><br/>\nThe Cache Size value measured in bytes<br/><br/><br/>\nSpecify page size<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Page Size=1024;</font><br/>\nThe Page Size value measured in bytes<br/><br/><br/>\nDisable enlistment in distributed transactions<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Enlist=N;</font><br/><br/><br/>\nDisable enlistment in distributed transactions<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Enlist=N;</font><br/><br/><br/>\nDisable create database behaviour<br/>\nIf the database file doesn&apos;t exist, the default behaviour is to create a new file. Use the following parameter to raise an error instead of creating a new database file.<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;FailIfMissing=True;</font><br/><br/><br/>\nLimit the size of database<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Max Page Count=5000;</font><br/>\nThe Max Page Count is measured in pages. This parameter limits the maximum number of pages of the database.<br/><br/><br/>\nDisable the Journal File<br/>\nThis one disables the rollback journal entirely.<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Journal Mode=Off;</font><br/><br/><br/>\nPersist the Journal File<br/>\nThis one blanks and leaves the journal file on disk after a commit. Default behaviour is to delete the Journal File after each commit.<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Journal Mode=Persist;</font><br/><br/><br/>\nControling file flushing<br/>\n&nbsp;&nbsp;&nbsp;<br/><font COLOR=\"#147191\">Data Source=c:\\mydb.db;Version=3;Synchronous=Full;</font><br/>\nFull specifies a full flush to take action after each write. Normal is the default value. Off means that the underlying OS flushes I/O&apos;s.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fe63e7abde1d7b51cff2cac1ad306737b5ce75d3bb42b8e23250a5aa2b64acc8",
+        "path": "backups/2023年6月/IT技术/SQLite Connection String.html"
+      }
+    },
+    {
+      "id": "7ec4b977-2ce9-47d0-bf9c-30272d7fd3dc",
+      "note_id": "9dd44bb0-d597-41a3-9e26-a7ee5e8d79a7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.245030Z",
+      "content": "---\ntitle: SQLite Connection String\nupdated: 2013-06-08 08:18:12Z\ncreated: 2013-06-08 08:07:03Z\nsource: http://www.connectionstrings.com/sqlite#sqlite-net-provider\n---\n\nBasic\n\nData Source=c:\\mydb.db;Version=3;\n\nVersion 2 is not supported by this class library.\n\nIn-Memory Database\n\nAn SQLite database is normally stored on disk but the database can also be stored in memory. Read more about SQLite in-memory databases here.\n\nData Source=:memory:;Version=3;New=True;\n\nUsing UTF16\n\nData Source=c:\\mydb.db;Version=3;UseUTF16Encoding=True;\n\nWith password\n\nData Source=c:\\mydb.db;Version=3;Password=myPassword;\n\nUsing the pre 3.3x database format\n\nData Source=c:\\mydb.db;Version=3;Legacy Format=True;\n\nWith connection pooling\n\nConnection pooling is not enabled by default. Use the following parameters to control the connection pooling mechanism.\n\nData Source=c:\\mydb.db;Version=3;Pooling=False;Max Pool Size=100;\n\nRead only connection\n\nData Source=c:\\mydb.db;Version=3;Read Only=True;\n\nUsing DateTime.Ticks as datetime format\n\nData Source=c:\\mydb.db;Version=3;DateTimeFormat=Ticks;\n\nThe default value is ISO8601 which activates the use of the ISO8601 datetime format\n\nStore GUID as text\n\nNormally, GUIDs are stored in a binary format. Use this connection string to store GUIDs as text.\n\nData Source=c:\\mydb.db;Version=3;BinaryGUID=False;\n\nNote that storing GUIDs as text uses more space in the database.\n\nSpecify cache size\n\nData Source=c:\\mydb.db;Version=3;Cache Size=2000;\n\nThe Cache Size value measured in bytes\n\nSpecify page size\n\nData Source=c:\\mydb.db;Version=3;Page Size=1024;\n\nThe Page Size value measured in bytes\n\nDisable enlistment in distributed transactions\n\nData Source=c:\\mydb.db;Version=3;Enlist=N;\n\nDisable enlistment in distributed transactions\n\nData Source=c:\\mydb.db;Version=3;Enlist=N;\n\nDisable create database behaviour\n\nIf the database file doesn't exist, the default behaviour is to create a new file. Use the following parameter to raise an error instead of creating a new database file.\n\nData Source=c:\\mydb.db;Version=3;FailIfMissing=True;\n\nLimit the size of database\n\nData Source=c:\\mydb.db;Version=3;Max Page Count=5000;\n\nThe Max Page Count is measured in pages. This parameter limits the maximum number of pages of the database.\n\nDisable the Journal File\n\nThis one disables the rollback journal entirely.\n\nData Source=c:\\mydb.db;Version=3;Journal Mode=Off;\n\nPersist the Journal File\n\nThis one blanks and leaves the journal file on disk after a commit. Default behaviour is to delete the Journal File after each commit.\n\nData Source=c:\\mydb.db;Version=3;Journal Mode=Persist;\n\nControling file flushing\n\nData Source=c:\\mydb.db;Version=3;Synchronous=Full;\n\nFull specifies a full flush to take action after each write. Normal is the default value. Off means that the underlying OS flushes I/O's.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 2817,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3f555130-603c-42ce-aa84-0ee4b6cc49ee",
+    "note_id": "9dd44bb0-d597-41a3-9e26-a7ee5e8d79a7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.245036Z",
+    "finished_at": "2025-11-10T15:43:31.245036Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "89a7f01e-ee0a-4663-91de-5f6e0ad3db3f",
+      "source_path": "backups/2023年6月/IT技术/SQLite Connection String.html",
+      "checksum": "fe63e7abde1d7b51cff2cac1ad306737b5ce75d3bb42b8e23250a5aa2b64acc8"
+    },
+    "output_ref": {
+      "ingest_source": "cf764316-a697-494a-9cad-2fde091b2cb9",
+      "note": "9dd44bb0-d597-41a3-9e26-a7ee5e8d79a7",
+      "variants": [
+        "5ffa87b7-2a3a-4bc8-a411-4ad6795015fa",
+        "7ec4b977-2ce9-47d0-bf9c-30272d7fd3dc"
+      ]
+    },
+    "error_detail": null
+  }
+}

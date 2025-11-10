@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "474c2428-ebf8-401f-93d8-0296fda6a76f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/2012-10-10IBM会议纪要.html",
+    "collected_at": "2025-11-10T15:43:34.657466Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "560d8b2af53fb84654e0d7dd8a4469c15db0dfe57bc6b2cae2d95b4cf73ee4fe",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0182996a-c982-4d24-ba76-202deeee7a51",
+    "ingest_source_id": "474c2428-ebf8-401f-93d8-0296fda6a76f",
+    "canonical_title": "2012-10-10IBM会议纪要",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.657469Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "2012-10-10IBM会议纪要.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ff31af6b-6d4c-4840-bef2-c66191e48783",
+      "note_id": "0182996a-c982-4d24-ba76-202deeee7a51",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.657472Z",
+      "content": "---\ntitle: 2012-10-10IBM会议纪要\nupdated: 2012-10-11 01:15:19Z\ncreated: 2012-10-11 01:15:04Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1. Project Scope<br/>\nDecided to implement the &quot;user management component&quot; first, and target to complete it by the end of Nov. Will implement more functions later as the next-steps.<br/>\nThe functions of &quot;user management component&quot; includes:<br/>\n&nbsp;&nbsp; - User add/update/delete/query<br/>\n&nbsp;&nbsp; - User authorization login/logout/<br/>\n&nbsp;&nbsp; - Player anti-addiction<br/>\n&nbsp;&nbsp; - etc.<br/><br/>\n2. Schedule<br/>\n&nbsp;&nbsp; - Project kickoff - TBD<br/>\n&nbsp;&nbsp; - NDA/Test Agreement - completed by 10/12 or 10/24 (Mr Shao Lan will has biz trip next week)<br/>\n&nbsp;&nbsp; - WTCF Education -&nbsp; completed by 10/19 ( target to next Wednesday, 10/17)<br/>\n&nbsp;&nbsp; - Data model review and finalized - completed by 10/26<br/>\n&nbsp;&nbsp; - Project plan (system architecture, test cases, test data, schedule) finalized -&nbsp; completed by 10/26<br/>\n&nbsp;&nbsp; - HW is ready -&nbsp; completed by 10/22<br/>\n&nbsp;&nbsp; - SW installation (WTCF+CLO APP) -&nbsp; completed by 10/26<br/>\n&nbsp;&nbsp; - Development completed by 11/09 (10/29 - 11/09, two weeks for coding)<br/>\n&nbsp;&nbsp; - Testing - completed by 11/16 (11/12-11/16, one week for testing)<br/>\n&nbsp;&nbsp; - Project report - completed by 11/30 (11/19-11/30, two weeks for preparing the report and discuss next-step plan)<br/><br/>\n3. Responsibilities<br/>\n&nbsp;&nbsp; - System architecture design - CLO+IBM<br/>\n&nbsp;&nbsp; - WTCF data model design - IBM (CLO will actively participant)<br/>\n&nbsp;&nbsp; - WTCF App development - IBM (CLO will also choose 2-3 functions to develop)<br/>\n&nbsp;&nbsp; - Front-end App development - CLO<br/>\n&nbsp;&nbsp; - Test data preparation - CLO<br/>\n&nbsp;&nbsp; - Test plan - CLO (IBM will also support)<br/>\n&nbsp;&nbsp; - Test report - CLO (IBM will also support)<br/><br/>\n4. NDA<br/>\n&nbsp;&nbsp; - CLO asked to include test plan, test cases result into the statement.<br/>\n&nbsp;&nbsp; - CLO prefers 5 years duration<br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "560d8b2af53fb84654e0d7dd8a4469c15db0dfe57bc6b2cae2d95b4cf73ee4fe",
+        "path": "backups/2023年6月/中彩相关/2012-10-10IBM会议纪要.html"
+      }
+    },
+    {
+      "id": "55c106bb-a3ff-4b06-b245-4db233fa0a8c",
+      "note_id": "0182996a-c982-4d24-ba76-202deeee7a51",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.657474Z",
+      "content": "---\ntitle: 2012-10-10IBM会议纪要\nupdated: 2012-10-11 01:15:19Z\ncreated: 2012-10-11 01:15:04Z\n---\n\n1. Project Scope\n\nDecided to implement the \"user management component\" first, and target to complete it by the end of Nov. Will implement more functions later as the next-steps.\n\nThe functions of \"user management component\" includes:\n\n   - User add/update/delete/query\n\n   - User authorization login/logout/\n\n   - Player anti-addiction\n\n   - etc.\n\n2. Schedule\n\n   - Project kickoff - TBD\n\n   - NDA/Test Agreement - completed by 10/12 or 10/24 (Mr Shao Lan will has biz trip next week)\n\n   - WTCF Education -  completed by 10/19 ( target to next Wednesday, 10/17)\n\n   - Data model review and finalized - completed by 10/26\n\n   - Project plan (system architecture, test cases, test data, schedule) finalized -  completed by 10/26\n\n   - HW is ready -  completed by 10/22\n\n   - SW installation (WTCF+CLO APP) -  completed by 10/26\n\n   - Development completed by 11/09 (10/29 - 11/09, two weeks for coding)\n\n   - Testing - completed by 11/16 (11/12-11/16, one week for testing)\n\n   - Project report - completed by 11/30 (11/19-11/30, two weeks for preparing the report and discuss next-step plan)\n\n3. Responsibilities\n\n   - System architecture design - CLO+IBM\n\n   - WTCF data model design - IBM (CLO will actively participant)\n\n   - WTCF App development - IBM (CLO will also choose 2-3 functions to develop)\n\n   - Front-end App development - CLO\n\n   - Test data preparation - CLO\n\n   - Test plan - CLO (IBM will also support)\n\n   - Test report - CLO (IBM will also support)\n\n4. NDA\n\n   - CLO asked to include test plan, test cases result into the statement.\n\n   - CLO prefers 5 years duration",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1682,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "209c1a25-abe0-4720-a954-217ec4905006",
+    "note_id": "0182996a-c982-4d24-ba76-202deeee7a51",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.657479Z",
+    "finished_at": "2025-11-10T15:43:34.657479Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5b30d1f6-ffd4-48cb-a5bf-ea086d18358b",
+      "source_path": "backups/2023年6月/中彩相关/2012-10-10IBM会议纪要.html",
+      "checksum": "560d8b2af53fb84654e0d7dd8a4469c15db0dfe57bc6b2cae2d95b4cf73ee4fe"
+    },
+    "output_ref": {
+      "ingest_source": "474c2428-ebf8-401f-93d8-0296fda6a76f",
+      "note": "0182996a-c982-4d24-ba76-202deeee7a51",
+      "variants": [
+        "ff31af6b-6d4c-4840-bef2-c66191e48783",
+        "55c106bb-a3ff-4b06-b245-4db233fa0a8c"
+      ]
+    },
+    "error_detail": null
+  }
+}

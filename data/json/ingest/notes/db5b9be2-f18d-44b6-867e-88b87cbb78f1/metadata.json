@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "aaae2a83-b818-4859-b78e-3898fd5310ae",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/可儿学校.html",
+    "collected_at": "2025-11-10T15:43:35.398605Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "b7ae6bed6fa253ed074d44d7f6b607e22c75f1d70f718094a62f0ebd9188458f",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "db5b9be2-f18d-44b6-867e-88b87cbb78f1",
+    "ingest_source_id": "aaae2a83-b818-4859-b78e-3898fd5310ae",
+    "canonical_title": "可儿学校",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.398609Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "可儿学校.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b3311097-70ea-4d9e-8f4a-8669124201cf",
+      "note_id": "db5b9be2-f18d-44b6-867e-88b87cbb78f1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.398611Z",
+      "content": "---\ntitle: 可儿学校\nupdated: 2022-01-27 07:06:10Z\ncreated: 2022-01-27 07:05:50Z\n---\n\n\n<en-note><div>Sehr geehrte Frau...</div><div>auf der Schulempfehlung soll Gesamtschule und Realschule stehen, so wie die Nachricht vom 20.Kanuar dies auch besagt!</div><div>Mit freundlichen Gr&uuml;&szlig;en </div><div>Herr Tang</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b7ae6bed6fa253ed074d44d7f6b607e22c75f1d70f718094a62f0ebd9188458f",
+        "path": "backups/2023年6月/德国1/可儿学校.html"
+      }
+    },
+    {
+      "id": "f7e09246-ddfa-4c6a-b2cf-0d0ae3e68cde",
+      "note_id": "db5b9be2-f18d-44b6-867e-88b87cbb78f1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.398614Z",
+      "content": "---\ntitle: 可儿学校\nupdated: 2022-01-27 07:06:10Z\ncreated: 2022-01-27 07:05:50Z\n---\n\nSehr geehrte Frau...\nauf der Schulempfehlung soll Gesamtschule und Realschule stehen, so wie die Nachricht vom 20.Kanuar dies auch besagt!\nMit freundlichen Grüßen\nHerr Tang",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 253,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3e932a1a-fee0-4942-a384-1bbd9ca24213",
+    "note_id": "db5b9be2-f18d-44b6-867e-88b87cbb78f1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.398619Z",
+    "finished_at": "2025-11-10T15:43:35.398619Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c8ef0d24-112d-47a6-a6a6-1366f3e9348d",
+      "source_path": "backups/2023年6月/德国1/可儿学校.html",
+      "checksum": "b7ae6bed6fa253ed074d44d7f6b607e22c75f1d70f718094a62f0ebd9188458f"
+    },
+    "output_ref": {
+      "ingest_source": "aaae2a83-b818-4859-b78e-3898fd5310ae",
+      "note": "db5b9be2-f18d-44b6-867e-88b87cbb78f1",
+      "variants": [
+        "b3311097-70ea-4d9e-8f4a-8669124201cf",
+        "f7e09246-ddfa-4c6a-b2cf-0d0ae3e68cde"
+      ]
+    },
+    "error_detail": null
+  }
+}

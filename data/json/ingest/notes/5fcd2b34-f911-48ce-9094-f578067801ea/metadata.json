@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8f8aa388-3d40-45de-8d17-c6559e280ff0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/Betriebsnr 88178936.html",
+    "collected_at": "2025-11-10T15:43:35.338431Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c1c36522fd38da2cd2cff6bb059e7f066543d1aed425c14bcbbdc6d46e8fc3d9",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "5fcd2b34-f911-48ce-9094-f578067801ea",
+    "ingest_source_id": "8f8aa388-3d40-45de-8d17-c6559e280ff0",
+    "canonical_title": "Betriebsnr 88178936",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.338435Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Betriebsnr 88178936.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "74a8581b-9b5b-401c-88f0-4669a3b26dca",
+      "note_id": "5fcd2b34-f911-48ce-9094-f578067801ea",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.338437Z",
+      "content": "---\ntitle: Betriebsnr 88178936\nupdated: 2019-08-05 12:58:26Z\ncreated: 2019-08-05 12:58:03Z\n---\n\n\n\n<en-note><div>Betriebsnr 88178936</div><div><br/></div><div><br/></div><div>劳工编号</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c1c36522fd38da2cd2cff6bb059e7f066543d1aed425c14bcbbdc6d46e8fc3d9",
+        "path": "backups/2023年6月/德国1/Betriebsnr 88178936.html"
+      }
+    },
+    {
+      "id": "25c8bab5-b5d5-411f-a6b8-a8aad45e594c",
+      "note_id": "5fcd2b34-f911-48ce-9094-f578067801ea",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.338440Z",
+      "content": "---\ntitle: Betriebsnr 88178936\nupdated: 2019-08-05 12:58:26Z\ncreated: 2019-08-05 12:58:03Z\n---\n\nBetriebsnr 88178936\n劳工编号",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 120,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9693c4f8-450c-4aed-847c-436fce295a62",
+    "note_id": "5fcd2b34-f911-48ce-9094-f578067801ea",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.338445Z",
+    "finished_at": "2025-11-10T15:43:35.338445Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5b52e8b5-ab6c-49e2-99a2-226c4e71d054",
+      "source_path": "backups/2023年6月/德国1/Betriebsnr 88178936.html",
+      "checksum": "c1c36522fd38da2cd2cff6bb059e7f066543d1aed425c14bcbbdc6d46e8fc3d9"
+    },
+    "output_ref": {
+      "ingest_source": "8f8aa388-3d40-45de-8d17-c6559e280ff0",
+      "note": "5fcd2b34-f911-48ce-9094-f578067801ea",
+      "variants": [
+        "74a8581b-9b5b-401c-88f0-4669a3b26dca",
+        "25c8bab5-b5d5-411f-a6b8-a8aad45e594c"
+      ]
+    },
+    "error_detail": null
+  }
+}

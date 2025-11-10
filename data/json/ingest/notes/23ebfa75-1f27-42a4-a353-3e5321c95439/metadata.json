@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f9601f5f-6852-4156-9013-63c30dce5129",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/说话前先想一想（你将要说的话）：.html",
+    "collected_at": "2025-11-10T15:43:34.527514Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "aa73cb17107e538629ba46d46f7fa254c6b8237beaf17d87ee48e05401caa05c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "23ebfa75-1f27-42a4-a353-3e5321c95439",
+    "ingest_source_id": "f9601f5f-6852-4156-9013-63c30dce5129",
+    "canonical_title": "说话前先想一想（你将要说的话）：",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.527519Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "说话前先想一想（你将要说的话）：.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a3e5c6e6-4e23-455d-bb8f-dd7772a36fe1",
+      "note_id": "23ebfa75-1f27-42a4-a353-3e5321c95439",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.527522Z",
+      "content": "---\ntitle: 说话前先想一想（你将要说的话）：\nupdated: 2020-01-08 22:02:24Z\ncreated: 2020-01-08 22:02:24Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>说话前先想一想（你将要说的话）：</div>\n<div><span>-</span> 它是真的吗？</div>\n<div><span>-</span> 它有帮助吗？</div>\n<div><span>-</span> 它能有所启发吗？</div>\n<div><span>-</span> 它是必要的吗？</div>\n<div><span>-</span> 它是和善的吗？</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "aa73cb17107e538629ba46d46f7fa254c6b8237beaf17d87ee48e05401caa05c",
+        "path": "backups/2023年6月/个人的乱78糟/说话前先想一想（你将要说的话）：.html"
+      }
+    },
+    {
+      "id": "c859ab5b-840a-486f-a264-fa321733d454",
+      "note_id": "23ebfa75-1f27-42a4-a353-3e5321c95439",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.527525Z",
+      "content": "---\ntitle: 说话前先想一想（你将要说的话）：\nupdated: 2020-01-08 22:02:24Z\ncreated: 2020-01-08 22:02:24Z\nauthor: tangyongfeng@gmail.com\n---\n\n说话前先想一想（你将要说的话）：\n\n-\n 它是真的吗？\n\n-\n 它有帮助吗？\n\n-\n 它能有所启发吗？\n\n-\n 它是必要的吗？\n\n-\n 它是和善的吗？",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 199,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4d4e428b-8647-4bd5-9bdb-51f2b3a196cd",
+    "note_id": "23ebfa75-1f27-42a4-a353-3e5321c95439",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.527530Z",
+    "finished_at": "2025-11-10T15:43:34.527531Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "09379e83-6bf8-4b4a-9cdd-fe0ce3b0b5be",
+      "source_path": "backups/2023年6月/个人的乱78糟/说话前先想一想（你将要说的话）：.html",
+      "checksum": "aa73cb17107e538629ba46d46f7fa254c6b8237beaf17d87ee48e05401caa05c"
+    },
+    "output_ref": {
+      "ingest_source": "f9601f5f-6852-4156-9013-63c30dce5129",
+      "note": "23ebfa75-1f27-42a4-a353-3e5321c95439",
+      "variants": [
+        "a3e5c6e6-4e23-455d-bb8f-dd7772a36fe1",
+        "c859ab5b-840a-486f-a264-fa321733d454"
+      ]
+    },
+    "error_detail": null
+  }
+}

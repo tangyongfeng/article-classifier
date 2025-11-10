@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ca1320f2-592f-4bd0-ace9-339ac0520ecd",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/给外管局写信.html",
+    "collected_at": "2025-11-10T15:43:34.354496Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "8e2702fcdb3fb3345a1cac17d99b72bb2cb60a407dd708f6bb653af28cccf8fa",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7a5eb115-91a3-4e97-9f8d-e9a2520236be",
+    "ingest_source_id": "ca1320f2-592f-4bd0-ace9-339ac0520ecd",
+    "canonical_title": "给外管局写信",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:34.354499Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "给外管局写信.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "25df4018-96aa-4f29-9e5b-075c4f4869a2",
+      "note_id": "7a5eb115-91a3-4e97-9f8d-e9a2520236be",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.354502Z",
+      "content": "---\ntitle: 给外管局写信\nupdated: 2020-07-14 08:47:51Z\ncreated: 2020-07-14 08:22:05Z\n---\n\n\n<en-note><div><span STYLE=\"caret-color: rgb(212, 212, 213); font-size: 16px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px; -webkit-text-stroke-width: 0px; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49); color: rgb(49, 49, 49); font-family: -apple-system, HelveticaNeue; font-variant-caps: normal;\">Sehr geehrte Frau Hienemann,</span>\n&Tab;</div><div STYLE=\"caret-color: rgb(212, 212, 213); font-size: 16px; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px; -webkit-text-stroke-width: 0px; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49);\"><div><br/></div><div STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49);\"><span STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49); color: rgb(49, 49, 49); font-family: -apple-system, HelveticaNeue; font-variant-caps: normal;\">Vielen Dank, dass Sie Aufenthaltskarten f&uuml;r meine Frau und meinen Sohn erhalten haben. In der Anlage finden Sie eine Kopie der Gehaltsabrechnung (3.2020-5.2020), die Sie von mir ben&ouml;tigen, aber wenn Sie zus&auml;tzliche Dokumente ben&ouml;tigen, wenden Sie sich bitte an Sagen Sie es mir.</span></div><div STYLE=\"background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49);\"><br/></div><div STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49);\"><span STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49); color: rgb(49, 49, 49); font-family: -apple-system, HelveticaNeue; font-variant-caps: normal;\">Mit freundliche&nbsp;Gr&uuml;&szlig;e</span></div><div STYLE=\"background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49);\"><br/></div><div STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49);\"><span STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49); color: rgb(49, 49, 49); font-family: -apple-system, HelveticaNeue; font-variant-caps: normal;\">Yongfeng Tang</span></div></div><div><br/></div><div><span STYLE=\"font-size: 16px; color: rgb(8, 8, 8); --inversion-type-color: simple;\"><br/></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8e2702fcdb3fb3345a1cac17d99b72bb2cb60a407dd708f6bb653af28cccf8fa",
+        "path": "backups/2023年6月/个人的乱78糟/给外管局写信.html"
+      }
+    },
+    {
+      "id": "06db6a64-9013-4c7b-85a1-1a829d19fc49",
+      "note_id": "7a5eb115-91a3-4e97-9f8d-e9a2520236be",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.354504Z",
+      "content": "---\ntitle: 给外管局写信\nupdated: 2020-07-14 08:47:51Z\ncreated: 2020-07-14 08:22:05Z\n---\n\nSehr geehrte Frau Hienemann,\n\nVielen Dank, dass Sie Aufenthaltskarten für meine Frau und meinen Sohn erhalten haben. In der Anlage finden Sie eine Kopie der Gehaltsabrechnung (3.2020-5.2020), die Sie von mir benötigen, aber wenn Sie zusätzliche Dokumente benötigen, wenden Sie sich bitte an Sagen Sie es mir.\nMit freundliche Grüße\nYongfeng Tang",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 427,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "46557ffd-3d2a-45a7-96d0-18244ef2c70f",
+    "note_id": "7a5eb115-91a3-4e97-9f8d-e9a2520236be",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.354509Z",
+    "finished_at": "2025-11-10T15:43:34.354509Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d08fd306-c1cc-4c7e-8f81-0c8325038eb2",
+      "source_path": "backups/2023年6月/个人的乱78糟/给外管局写信.html",
+      "checksum": "8e2702fcdb3fb3345a1cac17d99b72bb2cb60a407dd708f6bb653af28cccf8fa"
+    },
+    "output_ref": {
+      "ingest_source": "ca1320f2-592f-4bd0-ace9-339ac0520ecd",
+      "note": "7a5eb115-91a3-4e97-9f8d-e9a2520236be",
+      "variants": [
+        "25df4018-96aa-4f29-9e5b-075c4f4869a2",
+        "06db6a64-9013-4c7b-85a1-1a829d19fc49"
+      ]
+    },
+    "error_detail": null
+  }
+}

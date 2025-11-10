@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b4a45f18-cd50-4089-9950-bcda587fd43d",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/生活信息.html",
+    "collected_at": "2025-11-10T15:43:35.485522Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7dd018ec7be3355f25d01454fbe00b59535311fed8d590786d5d454c44a007ea",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "80582e8c-c86b-4640-b814-21d4b0ab5479",
+    "ingest_source_id": "b4a45f18-cd50-4089-9950-bcda587fd43d",
+    "canonical_title": "生活信息",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.485526Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "生活信息.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1d5b0c55-f0c9-4fe5-9f7e-0902dc7e5152",
+      "note_id": "80582e8c-c86b-4640-b814-21d4b0ab5479",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.485529Z",
+      "content": "---\ntitle: 生活信息\nupdated: 2020-03-11 11:35:48Z\ncreated: 2020-03-11 10:38:23Z\n---\n\n\n\n<en-note><div>Fielmann 很好的眼镜店</div><div>Wochenendeticket 周末票&nbsp;</div><div>mallorca 便宜的度假岛</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7dd018ec7be3355f25d01454fbe00b59535311fed8d590786d5d454c44a007ea",
+        "path": "backups/2023年6月/德国1/生活信息.html"
+      }
+    },
+    {
+      "id": "7f8b2783-d76f-4eb5-9c02-3966a3d4f9c7",
+      "note_id": "80582e8c-c86b-4640-b814-21d4b0ab5479",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.485532Z",
+      "content": "---\ntitle: 生活信息\nupdated: 2020-03-11 11:35:48Z\ncreated: 2020-03-11 10:38:23Z\n---\n\nFielmann 很好的眼镜店\nWochenendeticket 周末票 \nmallorca 便宜的度假岛",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 134,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3796ee50-abc0-443d-bfce-bf4f1be02797",
+    "note_id": "80582e8c-c86b-4640-b814-21d4b0ab5479",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.485537Z",
+    "finished_at": "2025-11-10T15:43:35.485537Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "19d2fc3f-b80c-4268-9ae9-b69029fd2d4a",
+      "source_path": "backups/2023年6月/德国1/生活信息.html",
+      "checksum": "7dd018ec7be3355f25d01454fbe00b59535311fed8d590786d5d454c44a007ea"
+    },
+    "output_ref": {
+      "ingest_source": "b4a45f18-cd50-4089-9950-bcda587fd43d",
+      "note": "80582e8c-c86b-4640-b814-21d4b0ab5479",
+      "variants": [
+        "1d5b0c55-f0c9-4fe5-9f7e-0902dc7e5152",
+        "7f8b2783-d76f-4eb5-9c02-3966a3d4f9c7"
+      ]
+    },
+    "error_detail": null
+  }
+}

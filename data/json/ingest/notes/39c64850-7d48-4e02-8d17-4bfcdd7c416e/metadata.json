@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7f928614-2729-47bc-a0c8-1c34c07a3c4d",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/freebsd 删除port make 配置.html",
+    "collected_at": "2025-11-10T15:43:31.517366Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d7c501d7ca24c48a1866b71ee749e878fd04acb8207a96ffec0731a0e99bce72",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "39c64850-7d48-4e02-8d17-4bfcdd7c416e",
+    "ingest_source_id": "7f928614-2729-47bc-a0c8-1c34c07a3c4d",
+    "canonical_title": "freebsd 删除port make 配置",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.517370Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "freebsd 删除port make 配置.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "933cff05-0b92-4ab8-a2c3-4f67b5fb3eb1",
+      "note_id": "39c64850-7d48-4e02-8d17-4bfcdd7c416e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.517373Z",
+      "content": "---\ntitle: freebsd 删除port make 配置\nupdated: 2022-09-14 08:10:09Z\ncreated: 2017-12-17 10:05:33Z\nauthor: tangyongfeng\ntags:\n  - freebsd\n---\n\n\n<en-note><div><span STYLE=\"color:rgb(102,102,102);font-family:'宋体', Arial;background-color:rgb(255,255,255);\">使用make rmconfig 后再make install 就行了。</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d7c501d7ca24c48a1866b71ee749e878fd04acb8207a96ffec0731a0e99bce72",
+        "path": "backups/2023年6月/IT技术/freebsd 删除port make 配置.html"
+      }
+    },
+    {
+      "id": "e6aa7e83-f330-456e-a412-e7807a1e3a2d",
+      "note_id": "39c64850-7d48-4e02-8d17-4bfcdd7c416e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.517376Z",
+      "content": "---\ntitle: freebsd 删除port make 配置\nupdated: 2022-09-14 08:10:09Z\ncreated: 2017-12-17 10:05:33Z\nauthor: tangyongfeng\ntags:\n  - freebsd\n---\n\n使用make rmconfig 后再make install 就行了。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 173,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4d2f1aab-67bc-4352-bb4f-6dd848bbc07e",
+    "note_id": "39c64850-7d48-4e02-8d17-4bfcdd7c416e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.517380Z",
+    "finished_at": "2025-11-10T15:43:31.517381Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1dd484f5-0f15-4402-bffe-1b2e5ba7fb51",
+      "source_path": "backups/2023年6月/IT技术/freebsd 删除port make 配置.html",
+      "checksum": "d7c501d7ca24c48a1866b71ee749e878fd04acb8207a96ffec0731a0e99bce72"
+    },
+    "output_ref": {
+      "ingest_source": "7f928614-2729-47bc-a0c8-1c34c07a3c4d",
+      "note": "39c64850-7d48-4e02-8d17-4bfcdd7c416e",
+      "variants": [
+        "933cff05-0b92-4ab8-a2c3-4f67b5fb3eb1",
+        "e6aa7e83-f330-456e-a412-e7807a1e3a2d"
+      ]
+    },
+    "error_detail": null
+  }
+}

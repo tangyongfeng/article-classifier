@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "142403a8-a7be-4deb-be62-fb3528dbb4ab",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/看病准备.html",
+    "collected_at": "2025-11-10T15:43:34.305782Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c674aeb34e1a6127f9e091d308ce0f40caa361cfa8bdfb9e6220666d29332366",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "14b8a781-8f05-4bdf-8f6a-ff988a145450",
+    "ingest_source_id": "142403a8-a7be-4deb-be62-fb3528dbb4ab",
+    "canonical_title": "看病准备",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.305786Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "看病准备.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "110bf24a-16ba-4307-9275-c90c6fbbd674",
+      "note_id": "14b8a781-8f05-4bdf-8f6a-ff988a145450",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.305789Z",
+      "content": "---\ntitle: 看病准备\nupdated: 2020-12-01 00:37:26Z\ncreated: 2020-12-01 00:20:20Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>I&apos;m a software engineer who spends most of my time working at a computer.</div><div>There are three parts of my body that make me uneasy.</div><div>1, blood pressure, I have not been concerned about blood pressure, three years ago in Beijing had been warned by the doctor. Until a week ago, I bought a blood pressure monitor and my blood pressure is sometimes very high at night. It reached 152/101 at 23:00 on November 25, and 162/100 at 8:32 on November 27.</div><div><img src=\"../_resources/IMG_12C48B0B0227-1.jpeg\"  hash=\"778bcdb3c703f6ffce4986ff7a186faa\" type=\"image/jpeg\" alt=\"IMG_12C48B0B0227-1.jpeg\" /></en-media><br/></div><div>2,Snoring, I snore very loudly, sometimes all night long. I could not sleep deeply, which made me very sleepy every day. I found out on the internet that this problem can be solv。</div><div><br/></div><div>I don&apos;t drink alcohol, smoke about 3 e-cigarettes every day, and have no other bad habits. Maybe I&apos;ve been under a lot of stress lately and stopped hiking to exercise, but I&apos;m not feeling very well.</div><div><br/></div><div>3,I have very bad breath and I brush my teeth very carefully every day and carry gum with me. Shortly after I eat the gum, I get bad breath, which is a serious problem for me in my work and life.</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c674aeb34e1a6127f9e091d308ce0f40caa361cfa8bdfb9e6220666d29332366",
+        "path": "backups/2023年6月/个人的乱78糟/看病准备.html"
+      }
+    },
+    {
+      "id": "9f8c9b56-9d56-4774-a76d-71684df6e8d4",
+      "note_id": "14b8a781-8f05-4bdf-8f6a-ff988a145450",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.305792Z",
+      "content": "---\ntitle: 看病准备\nupdated: 2020-12-01 00:37:26Z\ncreated: 2020-12-01 00:20:20Z\nauthor: tangyongfeng@gmail.com\n---\n\nI'm a software engineer who spends most of my time working at a computer.\nThere are three parts of my body that make me uneasy.\n1, blood pressure, I have not been concerned about blood pressure, three years ago in Beijing had been warned by the doctor. Until a week ago, I bought a blood pressure monitor and my blood pressure is sometimes very high at night. It reached 152/101 at 23:00 on November 25, and 162/100 at 8:32 on November 27.\n2,Snoring, I snore very loudly, sometimes all night long. I could not sleep deeply, which made me very sleepy every day. I found out on the internet that this problem can be solv。\nI don't drink alcohol, smoke about 3 e-cigarettes every day, and have no other bad habits. Maybe I've been under a lot of stress lately and stopped hiking to exercise, but I'm not feeling very well.\n3,I have very bad breath and I brush my teeth very carefully every day and carry gum with me. Shortly after I eat the gum, I get bad breath, which is a serious problem for me in my work and life.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1126,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "80bef9fd-986b-4437-85be-81ac3126efe0",
+    "note_id": "14b8a781-8f05-4bdf-8f6a-ff988a145450",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.305797Z",
+    "finished_at": "2025-11-10T15:43:34.305797Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5b79f795-c039-4aae-8908-1b2b1fb364d6",
+      "source_path": "backups/2023年6月/个人的乱78糟/看病准备.html",
+      "checksum": "c674aeb34e1a6127f9e091d308ce0f40caa361cfa8bdfb9e6220666d29332366"
+    },
+    "output_ref": {
+      "ingest_source": "142403a8-a7be-4deb-be62-fb3528dbb4ab",
+      "note": "14b8a781-8f05-4bdf-8f6a-ff988a145450",
+      "variants": [
+        "110bf24a-16ba-4307-9275-c90c6fbbd674",
+        "9f8c9b56-9d56-4774-a76d-71684df6e8d4"
+      ]
+    },
+    "error_detail": null
+  }
+}

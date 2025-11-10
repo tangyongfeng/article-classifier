@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5f7ffa17-2436-43d6-b9f3-9d257ac8d090",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-6.html",
+    "collected_at": "2025-11-10T15:43:34.070959Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3c51b185fd5c3ff105add0560fadec4e8aff9452bbe25ab6493815d5dcac1a5b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "eaac77a4-fbe9-4809-9979-73089263adc3",
+    "ingest_source_id": "5f7ffa17-2436-43d6-b9f3-9d257ac8d090",
+    "canonical_title": "无标题笔记-6",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.070963Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-6.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "27223e40-08b5-45b8-9644-183e87c736b0",
+      "note_id": "eaac77a4-fbe9-4809-9979-73089263adc3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.070966Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2021-07-25 10:46:13Z\ncreated: 2021-02-26 21:42:17Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><a HREF=\"https://edu.tuxrman2.cn/signin_redirect_to_lms?next=https%3A%2F%2Fedu.tuxrman2.cn%2F\">https://edu.tuxrman2.cn/signin_redirect_to_lms?next=https%3A%2F%2Fedu.tuxrman2.cn%2F</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3c51b185fd5c3ff105add0560fadec4e8aff9452bbe25ab6493815d5dcac1a5b",
+        "path": "backups/2023年6月/个人的乱78糟/无标题笔记-6.html"
+      }
+    },
+    {
+      "id": "d1c6109d-7b6c-42f5-bb0d-afd065087b6e",
+      "note_id": "eaac77a4-fbe9-4809-9979-73089263adc3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.070969Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2021-07-25 10:46:13Z\ncreated: 2021-02-26 21:42:17Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttps://edu.tuxrman2.cn/signin_redirect_to_lms?next=https%3A%2F%2Fedu.tuxrman2.cn%2F",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 197,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "49d380e2-016b-4c6d-b7ca-e9147cfc53f8",
+    "note_id": "eaac77a4-fbe9-4809-9979-73089263adc3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.070974Z",
+    "finished_at": "2025-11-10T15:43:34.070975Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2fcf15b9-107e-44bb-a650-60da9514cdd1",
+      "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-6.html",
+      "checksum": "3c51b185fd5c3ff105add0560fadec4e8aff9452bbe25ab6493815d5dcac1a5b"
+    },
+    "output_ref": {
+      "ingest_source": "5f7ffa17-2436-43d6-b9f3-9d257ac8d090",
+      "note": "eaac77a4-fbe9-4809-9979-73089263adc3",
+      "variants": [
+        "27223e40-08b5-45b8-9644-183e87c736b0",
+        "d1c6109d-7b6c-42f5-bb0d-afd065087b6e"
+      ]
+    },
+    "error_detail": null
+  }
+}

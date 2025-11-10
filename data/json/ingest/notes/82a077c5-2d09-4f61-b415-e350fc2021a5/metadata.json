@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "69190e7a-d4b7-4afb-b609-25c33958b330",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/Jia Li GmbH.html",
+    "collected_at": "2025-11-10T15:43:35.345414Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3707d793adb456240708070eb0a4b3696dfa5f56c9af233d8ca9448f4f5081cb",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "82a077c5-2d09-4f61-b415-e350fc2021a5",
+    "ingest_source_id": "69190e7a-d4b7-4afb-b609-25c33958b330",
+    "canonical_title": "Jia Li GmbH",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.345418Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Jia Li GmbH.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d1025524-6003-47b0-862a-15caa1882e28",
+      "note_id": "82a077c5-2d09-4f61-b415-e350fc2021a5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.345421Z",
+      "content": "---\ntitle: Jia Li GmbH\nupdated: 2020-04-12 12:15:30Z\ncreated: 2020-04-12 12:15:07Z\n---\n\n\n\n<en-note><div>DE67500700240255208100</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3707d793adb456240708070eb0a4b3696dfa5f56c9af233d8ca9448f4f5081cb",
+        "path": "backups/2023年6月/德国1/Jia Li GmbH.html"
+      }
+    },
+    {
+      "id": "c04c3305-afdf-4cfa-bdd2-dec11006d837",
+      "note_id": "82a077c5-2d09-4f61-b415-e350fc2021a5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.345424Z",
+      "content": "---\ntitle: Jia Li GmbH\nupdated: 2020-04-12 12:15:30Z\ncreated: 2020-04-12 12:15:07Z\n---\n\nDE67500700240255208100",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 110,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d863991e-b20b-49b3-aeb0-ec73cfbe9385",
+    "note_id": "82a077c5-2d09-4f61-b415-e350fc2021a5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.345429Z",
+    "finished_at": "2025-11-10T15:43:35.345429Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e3131ee9-21a4-4543-823c-08541331ff7c",
+      "source_path": "backups/2023年6月/德国1/Jia Li GmbH.html",
+      "checksum": "3707d793adb456240708070eb0a4b3696dfa5f56c9af233d8ca9448f4f5081cb"
+    },
+    "output_ref": {
+      "ingest_source": "69190e7a-d4b7-4afb-b609-25c33958b330",
+      "note": "82a077c5-2d09-4f61-b415-e350fc2021a5",
+      "variants": [
+        "d1025524-6003-47b0-862a-15caa1882e28",
+        "c04c3305-afdf-4cfa-bdd2-dec11006d837"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "30466640-33a6-4207-8444-42cd026e7a12",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/评分.html",
+    "collected_at": "2025-11-10T15:43:35.510644Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "f426d81e8570af892f737dbee78e3f02b744e2e05ee8f93ae98070df2ea344fc",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "63a95c9c-b310-454e-b8ca-fc3590ad63a7",
+    "ingest_source_id": "30466640-33a6-4207-8444-42cd026e7a12",
+    "canonical_title": "评分",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.510647Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "评分.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "93d11fa4-694c-46d9-a576-9e6adbf984aa",
+      "note_id": "63a95c9c-b310-454e-b8ca-fc3590ad63a7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.510650Z",
+      "content": "---\ntitle: 评分\nupdated: 2022-01-28 14:50:47Z\ncreated: 2022-01-28 14:50:25Z\n---\n\n\n<en-note><div><span STYLE=\"color:rgb(51, 51, 51);\">Sehr gut&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;优秀</span></div><div><br/></div><div><span STYLE=\"color:rgb(51, 51, 51);\">Gut&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;良好</span></div><div><br/></div><div><span STYLE=\"color:rgb(51, 51, 51);\">Befriedigend&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;中等</span></div><div><br/></div><div><span STYLE=\"color:rgb(51, 51, 51);\">Ausreichend&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; 及格</span></div><div><br/></div><div><span STYLE=\"color:rgb(51, 51, 51);\">Nicht ausreichend&nbsp; &nbsp; 不及格</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f426d81e8570af892f737dbee78e3f02b744e2e05ee8f93ae98070df2ea344fc",
+        "path": "backups/2023年6月/德国1/评分.html"
+      }
+    },
+    {
+      "id": "6c16d225-2400-48f3-afd4-9053d45c8918",
+      "note_id": "63a95c9c-b310-454e-b8ca-fc3590ad63a7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.510653Z",
+      "content": "---\ntitle: 评分\nupdated: 2022-01-28 14:50:47Z\ncreated: 2022-01-28 14:50:25Z\n---\n\nSehr gut                  优秀\nGut                          良好\nBefriedigend            中等\nAusreichend             及格\nNicht ausreichend    不及格",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 218,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ed54cf3f-8950-4ab4-bb0f-610d7cf102e3",
+    "note_id": "63a95c9c-b310-454e-b8ca-fc3590ad63a7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.510657Z",
+    "finished_at": "2025-11-10T15:43:35.510658Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "87043917-fc9d-46d5-822c-1a49a0f3a4f9",
+      "source_path": "backups/2023年6月/德国1/评分.html",
+      "checksum": "f426d81e8570af892f737dbee78e3f02b744e2e05ee8f93ae98070df2ea344fc"
+    },
+    "output_ref": {
+      "ingest_source": "30466640-33a6-4207-8444-42cd026e7a12",
+      "note": "63a95c9c-b310-454e-b8ca-fc3590ad63a7",
+      "variants": [
+        "93d11fa4-694c-46d9-a576-9e6adbf984aa",
+        "6c16d225-2400-48f3-afd4-9053d45c8918"
+      ]
+    },
+    "error_detail": null
+  }
+}

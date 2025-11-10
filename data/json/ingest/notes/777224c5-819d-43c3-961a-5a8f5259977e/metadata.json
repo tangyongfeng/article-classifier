@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "58df731c-a8ba-4ec3-ac98-c4550cb3fb37",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/双低策略.html",
+    "collected_at": "2025-11-10T15:43:36.484598Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "5bbfafffba12d319450eb5c72278720bb611218eaddc0b98784d4313d4a451e7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "777224c5-819d-43c3-961a-5a8f5259977e",
+    "ingest_source_id": "58df731c-a8ba-4ec3-ac98-c4550cb3fb37",
+    "canonical_title": "双低策略",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.484602Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "双低策略.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3ffcfbd7-c2e9-4b3f-9d90-585f42e193b6",
+      "note_id": "777224c5-819d-43c3-961a-5a8f5259977e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.484605Z",
+      "content": "---\ntitle: 双低策略\nupdated: 2022-07-27 16:32:08Z\ncreated: 2021-06-25 08:14:51Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 量化策略\n---\n\n\n<en-note><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">1 双底策略指标定义</span></div><div><span STYLE=\"-en-paragraph:true;\">&ldquo;双低策略&rdquo;,指标值为可转债价格和溢价率的加权和：公式= &lowast;&nbsp;价格+ &nbsp;&lowast; 溢价率&lowast; 100，我个人设定X=1，Y=1，X权重倾向于防守，Y权重倾向于进攻。\n</span></div><div><span STYLE=\"-en-paragraph:true;\"><br/></span></div><div>double_low =cb_price+溢价率*100</div><div><img src=\"../_resources/3fe474644177f2114c515c647f389e50.jpg\"  hash=\"3fe474644177f2114c515c647f389e50\" type=\"image/jpeg\" alt=\"\" /></en-media></div><div><span STYLE=\"-en-paragraph:true;\">举例：</span><a HREF=\"https://xueqiu.com/S/SH113600?from=status_stock_match\" STYLE=\"-en-paragraph:true;\">新星转债</a><span STYLE=\"-en-paragraph:true;\">双底指数=1*89.61+1*26.31%*100=115.92\n</span></div><div><span STYLE=\"-en-paragraph:true;\">&ldquo;双低策略&rdquo;是指投资于低价低转股溢价率的可转债的策略，低价保证了我们的投资成本较低，低转股溢价率又体现了可转债的股性较强，当正股上涨时转债能够很快跟涨获得收益，因此&ldquo;双低策略&rdquo;是防守和进攻兼得的&ldquo;性价比&rdquo;很高的策略。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">一般选择双底方式是排序所有转债双底指数，然后定期选前10，或者前20轮动；或者选双底指数某一数字下全部转债买入，比如选双底指数125以下的，分散买入。\n</span></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\"> 2&nbsp;双底策略指标弊端</span></div><div><span STYLE=\"-en-paragraph:true;\">在近期信用违约事件的影响下，正股资质差的股票估值进一步压低，中低评级价格均值有明显下行，纯债溢价率一度出现分化。完全按照低价位标准选择转债，容易 &ldquo;踩雷&rdquo;。建议关注信用评级和纯债溢价率指标。当转债价格接近债底，若主体偿付能力较强，则存在投资机会；但应警惕纯债溢价率远小于零的转债，容易发生&ldquo;爆雷&rdquo;。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">举例如下：</span><a HREF=\"https://xueqiu.com/S/SZ128100?from=status_stock_match\" STYLE=\"-en-paragraph:true;\">搜特转债</a><span STYLE=\"-en-paragraph:true;\">纯债价值价值94.17\n</span></div><div><img src=\"../_resources/d8a636afe89ffa75e38ace2b3da7729d.jpg\"  hash=\"d8a636afe89ffa75e38ace2b3da7729d\" type=\"image/jpeg\" alt=\"\" /></en-media></div><p STYLE=\"box-sizing: border-box; color: rgb(51, 53, 60); font-family: &quot;Biaodian Pro Sans GB&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;pingfang sc&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, SimSun, sans-serif; font-size: medium; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\"></p><div><br STYLE=\"box-sizing: border-box;\"/></div><div><br/></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\"> 3&nbsp;双低策略进化版</span></div><div><span STYLE=\"-en-paragraph:true;\">防止暴雷，引入正股的基本面指标、技术指标对双低策略补充，重视对正股的基本面考察和行业分析。具体看营业收入、归母净利润、市盈率、市净率、净资产收益率、成交额等正股指标进行进一步筛选，在高性价比转债中进一步筛选出正股质地优良的个券。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">我们应该关注波动率指标，对于低价低溢价率的转债而言，是跟随正股表现的趋势上涨，如果波动率不大弹性较差，那么短时间内也很难获得超额收益\n</span></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\"> 4&nbsp;可转债举例</span></div><div><span STYLE=\"font-weight: bold;-en-paragraph:true;\">例如：齐翔转2</span></div><div><img src=\"../_resources/281dacb9bedca4077b895f5ee5906ed6.jpg\"  hash=\"281dacb9bedca4077b895f5ee5906ed6\" type=\"image/jpeg\" alt=\"\" /></en-media></div><div><span STYLE=\"-en-paragraph:true;\">双底数据：&lt;110\n</span></div><div><span STYLE=\"-en-paragraph:true;\">公司是：化学制品行业，发债主体公司专注于对原料碳四进行深度加工转化成高附加值精细化工产品的研发、生产和销售，是相关领域的龙头企业之一。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">根据2020 年三季报，归母净利润同比增长50.28%，而市盈率和市净率均处于行业较低水平，有较高的投资价值。\n</span></div><div><span STYLE=\"-en-paragraph:true;\">以上举例仅供参考，希望能用公司基本面+股票波动率来过滤双低转债\n</span></div><div><br STYLE=\"box-sizing: border-box; color: rgb(51, 53, 60); font-family: &quot;Biaodian Pro Sans GB&quot;, &quot;Helvetica Neue&quot;, Helvetica, Arial, &quot;pingfang sc&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, 微软雅黑, STHeiti, SimSun, sans-serif; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial;\"/></div><div><br/></div><div>作者：公众号-可转债实盘</div><div>链接：<a HREF=\"https://xueqiu.com/8280198954/169052221\">https://xueqiu.com/8280198954/169052221</a></div><div>来源：雪球</div><div>著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。</div><div>风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5bbfafffba12d319450eb5c72278720bb611218eaddc0b98784d4313d4a451e7",
+        "path": "backups/2023年6月/投资/双低策略.html"
+      }
+    },
+    {
+      "id": "57f72c19-26cd-415b-a515-2af6f667a5c0",
+      "note_id": "777224c5-819d-43c3-961a-5a8f5259977e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.484608Z",
+      "content": "---\ntitle: 双低策略\nupdated: 2022-07-27 16:32:08Z\ncreated: 2021-06-25 08:14:51Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 量化策略\n---\n\n1 双底策略指标定义\n“双低策略”,指标值为可转债价格和溢价率的加权和：公式= ∗ 价格+  ∗ 溢价率∗ 100，我个人设定X=1，Y=1，X权重倾向于防守，Y权重倾向于进攻。\n\ndouble_low =cb_price+溢价率*100\n举例：\n新星转债\n双底指数=1*89.61+1*26.31%*100=115.92\n\n“双低策略”是指投资于低价低转股溢价率的可转债的策略，低价保证了我们的投资成本较低，低转股溢价率又体现了可转债的股性较强，当正股上涨时转债能够很快跟涨获得收益，因此“双低策略”是防守和进攻兼得的“性价比”很高的策略。\n\n一般选择双底方式是排序所有转债双底指数，然后定期选前10，或者前20轮动；或者选双底指数某一数字下全部转债买入，比如选双底指数125以下的，分散买入。\n\n 2 双底策略指标弊端\n在近期信用违约事件的影响下，正股资质差的股票估值进一步压低，中低评级价格均值有明显下行，纯债溢价率一度出现分化。完全按照低价位标准选择转债，容易 “踩雷”。建议关注信用评级和纯债溢价率指标。当转债价格接近债底，若主体偿付能力较强，则存在投资机会；但应警惕纯债溢价率远小于零的转债，容易发生“爆雷”。\n\n举例如下：\n搜特转债\n纯债价值价值94.17\n\n 3 双低策略进化版\n防止暴雷，引入正股的基本面指标、技术指标对双低策略补充，重视对正股的基本面考察和行业分析。具体看营业收入、归母净利润、市盈率、市净率、净资产收益率、成交额等正股指标进行进一步筛选，在高性价比转债中进一步筛选出正股质地优良的个券。\n\n我们应该关注波动率指标，对于低价低溢价率的转债而言，是跟随正股表现的趋势上涨，如果波动率不大弹性较差，那么短时间内也很难获得超额收益\n\n 4 可转债举例\n例如：齐翔转2\n双底数据：<110\n\n公司是：化学制品行业，发债主体公司专注于对原料碳四进行深度加工转化成高附加值精细化工产品的研发、生产和销售，是相关领域的龙头企业之一。\n\n根据2020 年三季报，归母净利润同比增长50.28%，而市盈率和市净率均处于行业较低水平，有较高的投资价值。\n\n以上举例仅供参考，希望能用公司基本面+股票波动率来过滤双低转债\n\n作者：公众号-可转债实盘\n链接：\nhttps://xueqiu.com/8280198954/169052221\n来源：雪球\n著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。\n风险提示：本文所提到的观点仅代表个人的意见，所涉及标的不作推荐，据此买卖，风险自负。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 1186,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2fd378bb-04d2-44dd-9a0e-40105fc1b856",
+    "note_id": "777224c5-819d-43c3-961a-5a8f5259977e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.484613Z",
+    "finished_at": "2025-11-10T15:43:36.484613Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cecd2c97-da31-407c-9646-d6805609eb11",
+      "source_path": "backups/2023年6月/投资/双低策略.html",
+      "checksum": "5bbfafffba12d319450eb5c72278720bb611218eaddc0b98784d4313d4a451e7"
+    },
+    "output_ref": {
+      "ingest_source": "58df731c-a8ba-4ec3-ac98-c4550cb3fb37",
+      "note": "777224c5-819d-43c3-961a-5a8f5259977e",
+      "variants": [
+        "3ffcfbd7-c2e9-4b3f-9d90-585f42e193b6",
+        "57f72c19-26cd-415b-a515-2af6f667a5c0"
+      ]
+    },
+    "error_detail": null
+  }
+}

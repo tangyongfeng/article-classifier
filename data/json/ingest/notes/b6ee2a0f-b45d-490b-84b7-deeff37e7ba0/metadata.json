@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "c11d4a00-f45b-4230-8e77-b158e3f7f6d9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/获取cpu数量.html",
+    "collected_at": "2025-11-10T15:43:33.123500Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "de69f8c60178e12b20f7719f592baa854971a9d715832b5699e0bf214dda15ad",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b6ee2a0f-b45d-490b-84b7-deeff37e7ba0",
+    "ingest_source_id": "c11d4a00-f45b-4230-8e77-b158e3f7f6d9",
+    "canonical_title": "获取cpu数量",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.123504Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "获取cpu数量.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3a3a49b6-b018-4acc-911d-66f506274f00",
+      "note_id": "b6ee2a0f-b45d-490b-84b7-deeff37e7ba0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.123506Z",
+      "content": "---\ntitle: 获取cpu数量\nupdated: 2017-11-16 15:57:45Z\ncreated: 2017-11-16 15:57:21Z\nsource: http://outofmemory.cn/code-snippet/14162/python-get-tell-cpu\nauthor: tangyongfeng@gmail.com\ntags:\n  - python\n---\n\n\n\n\n<en-note><div STYLE=\"font-size: 9pt;\"><span STYLE=\"font-family: Arial, 宋体; font-size: 14px; color: rgb(0, 0, 139);\">from</span> <span STYLE=\"font-family: Arial, 宋体; font-size: 14px; color: rgb(0, 0, 0);\">multiprocessing</span> <span STYLE=\"font-family: Arial, 宋体; font-size: 14px; color: rgb(0, 0, 139);\">import</span> <span STYLE=\"font-family: Arial, 宋体; font-size: 14px; color: rgb(0, 0, 0);\">cpu_count</span></div><div STYLE=\"font-size: 9pt;\"><span STYLE=\"font-family: Arial, 宋体; font-size: 14px; color: rgb(0, 0, 139);\">print</span><span STYLE=\"font-family: Arial, 宋体; font-size: 14px; color: rgb(0, 0, 0);\">(</span><span STYLE=\"font-family: Arial, 宋体; font-size: 14px; color: rgb(0, 0, 0);\">cpu_count</span><span STYLE=\"font-family: Arial, 宋体; font-size: 14px; color: rgb(0, 0, 0);\">())</span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "de69f8c60178e12b20f7719f592baa854971a9d715832b5699e0bf214dda15ad",
+        "path": "backups/2023年6月/IT技术/获取cpu数量.html"
+      }
+    },
+    {
+      "id": "de5473a4-0580-4843-b10c-237bfb6272a3",
+      "note_id": "b6ee2a0f-b45d-490b-84b7-deeff37e7ba0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.123509Z",
+      "content": "---\ntitle: 获取cpu数量\nupdated: 2017-11-16 15:57:45Z\ncreated: 2017-11-16 15:57:21Z\nsource: http://outofmemory.cn/code-snippet/14162/python-get-tell-cpu\nauthor: tangyongfeng@gmail.com\ntags:\n  - python\n---\n\nfrom\n\nmultiprocessing\n\nimport\n\ncpu_count\nprint\n(\ncpu_count\n())",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 263,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "491d8d76-f0d9-44bc-990f-e836e0be6d66",
+    "note_id": "b6ee2a0f-b45d-490b-84b7-deeff37e7ba0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.123514Z",
+    "finished_at": "2025-11-10T15:43:33.123514Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "73917740-e933-454e-9ff4-0e477808ad45",
+      "source_path": "backups/2023年6月/IT技术/获取cpu数量.html",
+      "checksum": "de69f8c60178e12b20f7719f592baa854971a9d715832b5699e0bf214dda15ad"
+    },
+    "output_ref": {
+      "ingest_source": "c11d4a00-f45b-4230-8e77-b158e3f7f6d9",
+      "note": "b6ee2a0f-b45d-490b-84b7-deeff37e7ba0",
+      "variants": [
+        "3a3a49b6-b018-4acc-911d-66f506274f00",
+        "de5473a4-0580-4843-b10c-237bfb6272a3"
+      ]
+    },
+    "error_detail": null
+  }
+}

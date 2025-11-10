@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "3cb99d18-b8a5-4c97-8c92-ed1d17218262",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/python readline()逐行读,怎么判断已到末尾_ - SegmentFault 思否.html",
+    "collected_at": "2025-11-10T15:43:31.854249Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e33636800988dfd2880349ebac10ebf942cac23c6981fc96db107a536d8efa86",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b731f988-eedf-4e10-9c8d-37192ae1e917",
+    "ingest_source_id": "3cb99d18-b8a5-4c97-8c92-ed1d17218262",
+    "canonical_title": "python readline()逐行读,怎么判断已到末尾_ - SegmentFault 思否",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.854252Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "python readline()逐行读,怎么判断已到末尾_ - SegmentFault 思否.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "28277560-abe0-4b89-bf1a-a9f0d8a882da",
+      "note_id": "b731f988-eedf-4e10-9c8d-37192ae1e917",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.854255Z",
+      "content": "---\ntitle: python readline()逐行读,怎么判断已到末尾? - SegmentFault 思否\nupdated: 2019-02-16 07:54:02Z\ncreated: 2019-02-16 07:54:02Z\nsource: https://segmentfault.com/q/1010000006788420\n---\n\n\n<en-note>\n  <div>\n<div><br/></div><div STYLE=\"font-size: 16px; display:block; min-width: 100%; \"> <div STYLE=\"background-color:transparent;font:inherit;vertical-align:baseline;\"><div STYLE=\"background-color:transparent;font:inherit;vertical-align:baseline;font-family:&quot;PT Serif&quot;;font-size:16px;line-height:1.5em;color:rgb(31, 9, 9);text-align:left;\"><div STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><div STYLE=\"z-index:200;padding-left:2em;padding-right:2em;margin-left:auto;margin-right:auto;position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;width:36em;\"><div STYLE=\"position:relative;margin-left:-25px;margin-right:25px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><div STYLE=\"position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;padding-top:4.5em;padding-bottom:9em;\"><div STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;\"><div STYLE=\"margin-bottom:0px;position:relative;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><div STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><div STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\"><h1 STYLE=\"padding:0px;margin:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:normal;font-size:35px;line-height:35px;margin-bottom:20px;font-family:&quot;PT Serif&quot;;text-align:left;\">python readline()逐行读,怎么判断已到末尾?</h1><div STYLE=\"margin-bottom:0px;position:relative;margin:0px;height:1em;line-height:1;text-align:center;padding:0px;border:0px;font:inherit;vertical-align:baseline;padding-top:1.5em;padding-bottom:1.5em;\"><div STYLE=\"margin-bottom:0px;position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;padding:0px;border:0px;font:inherit;vertical-align:baseline;background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);\"><span STYLE=\"font:inherit;position:absolute;left:-4em;top:50%;z-index:10;width:100%;padding-left:4em;padding-right:4em;height:0.1em;margin:0px;opacity:0.5;background:-webkit-linear-gradient(0deg, rgb(243, 242, 238) 1%, rgb(31, 9, 9) 50%, rgb(243, 242, 238) 99%);\"></span></div></div></div>\n                                    \n<blockquote STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;quotes:none;margin-bottom:1.5em;font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em;\"><span STYLE=\"font:inherit;quotes:none;font-style:italic;\"></span><p STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\">两种方法:</p><span STYLE=\"font:inherit;quotes:none;font-style:italic;\"></span></blockquote>\n<h3 STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:normal;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;font-family:&quot;PT Serif&quot;;text-align:left;\">1. for ... in ...</h3>\n<pre STYLE=\"width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;\"><code STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;\">with open(&quot;file&quot;) as fh:\n    for line in fh:\n        print(line.strip())</code></pre>\n<h3 STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-weight:normal;font-size:30px;line-height:35px;margin-top:35px;margin-bottom:15px;font-family:&quot;PT Serif&quot;;text-align:left;\">2. while fh.readline():</h3>\n<pre STYLE=\"width:auto;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;background-color:rgb(243, 242, 238);font-family:Inconsolata;\"><code STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:1.15em;line-height:1.71429em;font-family:Inconsolata;\">with open(&quot;file&quot;) as fh:\n    line = fh.readline()\n    while line:\n        print(line.strip())\n        line = fh.readline()</code></pre>\n<blockquote STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;quotes:none;font-style:italic;border-left:5px solid;margin-left:2em;padding-left:1em;\"><span STYLE=\"font:inherit;quotes:none;font-style:italic;\"></span><p STYLE=\"margin-bottom:0px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\">最简洁优雅又高效的自然是第一种, 如果题主非要用<code STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;font-family:Inconsolata;\">readline()</code>, 则可以使用第二种, <code STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;font-family:Inconsolata;\">while</code>循环, 读到最后一行没有内容会退出循环, 中间有空行不要紧, 空行不等于结尾(<code STYLE=\"margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;font-size:0.875em;line-height:1.71429em;font-family:Inconsolata;\">\\n != EOF</code>)</p><span STYLE=\"font:inherit;quotes:none;font-style:italic;\"></span></blockquote>\n\n                            </div></div></div><div STYLE=\"position:absolute;top:-1000px;left:-1000px;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;margin-bottom:1.5em;\">Measure</div><div STYLE=\"margin-bottom:0px;position:absolute;top:-1000px;left:-1000px;line-height:1;margin:0px;padding:0px;border:0px;font:inherit;vertical-align:baseline;\">Measure</div></div></div></div></div></div></div></div>\n</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e33636800988dfd2880349ebac10ebf942cac23c6981fc96db107a536d8efa86",
+        "path": "backups/2023年6月/IT技术/python readline()逐行读,怎么判断已到末尾_ - SegmentFault 思否.html"
+      }
+    },
+    {
+      "id": "6ebca945-7539-4df0-8aad-82f5fcbc2bd1",
+      "note_id": "b731f988-eedf-4e10-9c8d-37192ae1e917",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.854258Z",
+      "content": "---\ntitle: python readline()逐行读,怎么判断已到末尾? - SegmentFault 思否\nupdated: 2019-02-16 07:54:02Z\ncreated: 2019-02-16 07:54:02Z\nsource: https://segmentfault.com/q/1010000006788420\n---\n\npython readline()逐行读,怎么判断已到末尾?\n\n两种方法:\n\n1. for ... in ...\n\nwith open(\"file\") as fh:\n    for line in fh:\n        print(line.strip())\n\n2. while fh.readline():\n\nwith open(\"file\") as fh:\n    line = fh.readline()\n    while line:\n        print(line.strip())\n        line = fh.readline()\n\n最简洁优雅又高效的自然是第一种, 如果题主非要用\nreadline()\n, 则可以使用第二种,\nwhile\n循环, 读到最后一行没有内容会退出循环, 中间有空行不要紧, 空行不等于结尾(\n\\n != EOF\n)\n\nMeasure",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 572,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "249e4045-eef6-4b8b-a99d-2da57aa145fa",
+    "note_id": "b731f988-eedf-4e10-9c8d-37192ae1e917",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.854262Z",
+    "finished_at": "2025-11-10T15:43:31.854262Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4dfd6c6f-d45f-483c-bf11-8897711c752f",
+      "source_path": "backups/2023年6月/IT技术/python readline()逐行读,怎么判断已到末尾_ - SegmentFault 思否.html",
+      "checksum": "e33636800988dfd2880349ebac10ebf942cac23c6981fc96db107a536d8efa86"
+    },
+    "output_ref": {
+      "ingest_source": "3cb99d18-b8a5-4c97-8c92-ed1d17218262",
+      "note": "b731f988-eedf-4e10-9c8d-37192ae1e917",
+      "variants": [
+        "28277560-abe0-4b89-bf1a-a9f0d8a882da",
+        "6ebca945-7539-4df0-8aad-82f5fcbc2bd1"
+      ]
+    },
+    "error_detail": null
+  }
+}

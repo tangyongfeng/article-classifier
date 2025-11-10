@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "53b702d5-4c43-4cd3-bbb0-dfa357819231",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/折叠自行车轮胎.html",
+    "collected_at": "2025-11-10T15:43:33.960419Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "1ace5211804994ada98a10ee9bbba04f62914e3c447cf912960c2d667756c8ab",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d6fca3cd-7e45-4f36-9119-41e48a09e4bc",
+    "ingest_source_id": "53b702d5-4c43-4cd3-bbb0-dfa357819231",
+    "canonical_title": "折叠自行车轮胎",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.960423Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "折叠自行车轮胎.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5abec491-ba77-4f3e-a047-d32cc386e878",
+      "note_id": "d6fca3cd-7e45-4f36-9119-41e48a09e4bc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.960425Z",
+      "content": "---\ntitle: 折叠自行车轮胎\nupdated: 2021-07-29 09:39:53Z\ncreated: 2021-07-29 09:39:09Z\n---\n\n\n<en-note><div><br/></div><div>40-305&nbsp;  </div><div>16*1.5</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1ace5211804994ada98a10ee9bbba04f62914e3c447cf912960c2d667756c8ab",
+        "path": "backups/2023年6月/个人的乱78糟/折叠自行车轮胎.html"
+      }
+    },
+    {
+      "id": "8165dd3d-ff61-4d45-9d43-82e18b71704d",
+      "note_id": "d6fca3cd-7e45-4f36-9119-41e48a09e4bc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.960428Z",
+      "content": "---\ntitle: 折叠自行车轮胎\nupdated: 2021-07-29 09:39:53Z\ncreated: 2021-07-29 09:39:09Z\n---\n\n40-305  \n16*1.5",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 99,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "236267d6-b8b5-40fe-836f-bc5f74adae3f",
+    "note_id": "d6fca3cd-7e45-4f36-9119-41e48a09e4bc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.960433Z",
+    "finished_at": "2025-11-10T15:43:33.960433Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6a390b97-6b36-4bdf-aefb-5143036da3a1",
+      "source_path": "backups/2023年6月/个人的乱78糟/折叠自行车轮胎.html",
+      "checksum": "1ace5211804994ada98a10ee9bbba04f62914e3c447cf912960c2d667756c8ab"
+    },
+    "output_ref": {
+      "ingest_source": "53b702d5-4c43-4cd3-bbb0-dfa357819231",
+      "note": "d6fca3cd-7e45-4f36-9119-41e48a09e4bc",
+      "variants": [
+        "5abec491-ba77-4f3e-a047-d32cc386e878",
+        "8165dd3d-ff61-4d45-9d43-82e18b71704d"
+      ]
+    },
+    "error_detail": null
+  }
+}

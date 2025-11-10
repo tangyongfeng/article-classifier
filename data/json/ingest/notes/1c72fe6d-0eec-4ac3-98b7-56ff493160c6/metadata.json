@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6aa1392a-a7f5-4fe2-b790-df7796426bf0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/闪铁/讨论会后感.html",
+    "collected_at": "2025-11-10T15:43:37.120911Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "b249b03d9f338a56502c73d1dfaab27f43139ef613de0b39d6e17e5bbafb88ff",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "1c72fe6d-0eec-4ac3-98b7-56ff493160c6",
+    "ingest_source_id": "6aa1392a-a7f5-4fe2-b790-df7796426bf0",
+    "canonical_title": "讨论会后感",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:37.120914Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "讨论会后感.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e5935998-71ed-450a-bb37-b0eb9ddc6832",
+      "note_id": "1c72fe6d-0eec-4ac3-98b7-56ff493160c6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.120917Z",
+      "content": "---\ntitle: 讨论会后感\nupdated: 2019-10-26 02:03:37Z\ncreated: 2019-10-25 02:33:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>我确实有点儿钻牛角尖了。我是做技术出身，又是做基层工作的，所以习惯了从原理的角度看问题，而少了哲学的高度。</div><div>现在的大型互联网企业，管理上大都是扁平的小团队模式，在保证财务、人事、技术、行政几个基础支撑以后，业务部门可能会分散成非常多的小团体，加入一定量的&ldquo;鲶鱼&rdquo;，用各种方式来激励小团队在大平台上创造价值。没有太多的规则，更多的是靠文化和价值观来统一大家的思想，最终用利益来带动团体激发本能。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b249b03d9f338a56502c73d1dfaab27f43139ef613de0b39d6e17e5bbafb88ff",
+        "path": "backups/2023年6月/闪铁/讨论会后感.html"
+      }
+    },
+    {
+      "id": "15da04d3-c770-42b3-803c-1ff3abb7d8c3",
+      "note_id": "1c72fe6d-0eec-4ac3-98b7-56ff493160c6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.120920Z",
+      "content": "---\ntitle: 讨论会后感\nupdated: 2019-10-26 02:03:37Z\ncreated: 2019-10-25 02:33:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n我确实有点儿钻牛角尖了。我是做技术出身，又是做基层工作的，所以习惯了从原理的角度看问题，而少了哲学的高度。\n现在的大型互联网企业，管理上大都是扁平的小团队模式，在保证财务、人事、技术、行政几个基础支撑以后，业务部门可能会分散成非常多的小团体，加入一定量的“鲶鱼”，用各种方式来激励小团队在大平台上创造价值。没有太多的规则，更多的是靠文化和价值观来统一大家的思想，最终用利益来带动团体激发本能。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 309,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "207280cc-750a-4fe9-b0dd-2b1c830d8985",
+    "note_id": "1c72fe6d-0eec-4ac3-98b7-56ff493160c6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:37.120924Z",
+    "finished_at": "2025-11-10T15:43:37.120925Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e27a0bf1-f7f1-441d-a961-9e72196853d7",
+      "source_path": "backups/2023年6月/闪铁/讨论会后感.html",
+      "checksum": "b249b03d9f338a56502c73d1dfaab27f43139ef613de0b39d6e17e5bbafb88ff"
+    },
+    "output_ref": {
+      "ingest_source": "6aa1392a-a7f5-4fe2-b790-df7796426bf0",
+      "note": "1c72fe6d-0eec-4ac3-98b7-56ff493160c6",
+      "variants": [
+        "e5935998-71ed-450a-bb37-b0eb9ddc6832",
+        "15da04d3-c770-42b3-803c-1ff3abb7d8c3"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "71ec2661-0c2c-4a74-89e7-b760abdf6b56",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/易经/颐卦.html",
+    "collected_at": "2025-11-10T15:43:36.896494Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c773300a47593801af004d18eafb30b079acdf795c6c6af622bf946313a0a4e2",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0ed99086-56b8-45f2-94d4-d48f1f8bfc71",
+    "ingest_source_id": "71ec2661-0c2c-4a74-89e7-b760abdf6b56",
+    "canonical_title": "颐卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.896500Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "颐卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "caae9a5e-4616-4603-8faf-bbd34dac20d3",
+      "note_id": "0ed99086-56b8-45f2-94d4-d48f1f8bfc71",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.896504Z",
+      "content": "---\ntitle: 颐卦\nupdated: 2018-11-20 15:00:28Z\ncreated: 2018-11-20 14:33:47Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>贞吉。观颐，自求口实。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 397px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">上九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">由颐，厉，吉。利涉大川。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六五</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">拂经，居贞吉，不可涉大川。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六四</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">颠颐，吉。虎视眈眈，其欲逐逐，无咎。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">拂颐，贞凶，十年勿用，无攸利。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六二</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">颠颐拂经于丘颐，征凶。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">初九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 397px; padding: 8px;\">舍尔灵龟，观我朵颐，凶。</td></tr></tbody></table><div></div><div>养正则吉。慎言语，节饮食。</div><div>颐：养育方式。</div><div>拂经：违背常理。</div><div>初九：舍弃你自己的灵龟看我吃东西。（贪婪，没有主见）</div><div>六二：去靠初九，丢掉了自己的同类。</div><div>六三：进退维谷。震三，震动的最厉害，上面是停止（艮）。</div><div>上九：终于出头了。</div><div><br/></div><div><br/></div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c773300a47593801af004d18eafb30b079acdf795c6c6af622bf946313a0a4e2",
+        "path": "backups/2023年6月/易经/颐卦.html"
+      }
+    },
+    {
+      "id": "87253500-192b-4b0c-b479-a05411f71995",
+      "note_id": "0ed99086-56b8-45f2-94d4-d48f1f8bfc71",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.896508Z",
+      "content": "---\ntitle: 颐卦\nupdated: 2018-11-20 15:00:28Z\ncreated: 2018-11-20 14:33:47Z\nauthor: tangyongfeng@gmail.com\n---\n\n贞吉。观颐，自求口实。\n上九\n由颐，厉，吉。利涉大川。\n六五\n拂经，居贞吉，不可涉大川。\n六四\n颠颐，吉。虎视眈眈，其欲逐逐，无咎。\n六三\n拂颐，贞凶，十年勿用，无攸利。\n六二\n颠颐拂经于丘颐，征凶。\n初九\n舍尔灵龟，观我朵颐，凶。\n养正则吉。慎言语，节饮食。\n颐：养育方式。\n拂经：违背常理。\n初九：舍弃你自己的灵龟看我吃东西。（贪婪，没有主见）\n六二：去靠初九，丢掉了自己的同类。\n六三：进退维谷。震三，震动的最厉害，上面是停止（艮）。\n上九：终于出头了。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 340,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a5b460cd-defd-4dc1-b5ec-8f608bed50a0",
+    "note_id": "0ed99086-56b8-45f2-94d4-d48f1f8bfc71",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.896514Z",
+    "finished_at": "2025-11-10T15:43:36.896515Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0d3e3039-6c2b-4be4-9591-774ec7bfcb87",
+      "source_path": "backups/2023年6月/易经/颐卦.html",
+      "checksum": "c773300a47593801af004d18eafb30b079acdf795c6c6af622bf946313a0a4e2"
+    },
+    "output_ref": {
+      "ingest_source": "71ec2661-0c2c-4a74-89e7-b760abdf6b56",
+      "note": "0ed99086-56b8-45f2-94d4-d48f1f8bfc71",
+      "variants": [
+        "caae9a5e-4616-4603-8faf-bbd34dac20d3",
+        "87253500-192b-4b0c-b479-a05411f71995"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9a4788cd-51ab-4dbb-8e6a-4e39f564b34e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/债券.html",
+    "collected_at": "2025-11-10T15:43:36.425731Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6f28afc4280866fffd2cd37184781d973b8042bbc4f1be9695d42f9189f71ea7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "facad75c-1b9d-405e-aa14-30cd52e6f001",
+    "ingest_source_id": "9a4788cd-51ab-4dbb-8e6a-4e39f564b34e",
+    "canonical_title": "债券",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.425736Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "债券.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a4ce17e7-f5d3-495a-919c-90d21525f043",
+      "note_id": "facad75c-1b9d-405e-aa14-30cd52e6f001",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.425740Z",
+      "content": "---\ntitle: 债券\nupdated: 2013-09-27 05:53:54Z\ncreated: 2013-09-20 15:12:40Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a href='../_resources/债券.xlsx'  hash=\"fc8a20b0338fb2ac8c010070ddd609d2\" style=\"cursor: default;\" type=\"application/vnd.openxmlformats-officedocument.spreadsheetml.sheet\" alt=\"债券.xlsx\">  债券.xlsx</a></en-media></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6f28afc4280866fffd2cd37184781d973b8042bbc4f1be9695d42f9189f71ea7",
+        "path": "backups/2023年6月/投资/债券.html"
+      }
+    },
+    {
+      "id": "98e32650-26b2-41a6-ba88-ac94778160d1",
+      "note_id": "facad75c-1b9d-405e-aa14-30cd52e6f001",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.425743Z",
+      "content": "---\ntitle: 债券\nupdated: 2013-09-27 05:53:54Z\ncreated: 2013-09-20 15:12:40Z\n---\n\n  债券.xlsx",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 88,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "142d6e74-c0c5-4d4d-9914-5154876da4e8",
+    "note_id": "facad75c-1b9d-405e-aa14-30cd52e6f001",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.425749Z",
+    "finished_at": "2025-11-10T15:43:36.425750Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ec0850ba-9a96-4780-96cd-f4aa5c6033d6",
+      "source_path": "backups/2023年6月/投资/债券.html",
+      "checksum": "6f28afc4280866fffd2cd37184781d973b8042bbc4f1be9695d42f9189f71ea7"
+    },
+    "output_ref": {
+      "ingest_source": "9a4788cd-51ab-4dbb-8e6a-4e39f564b34e",
+      "note": "facad75c-1b9d-405e-aa14-30cd52e6f001",
+      "variants": [
+        "a4ce17e7-f5d3-495a-919c-90d21525f043",
+        "98e32650-26b2-41a6-ba88-ac94778160d1"
+      ]
+    },
+    "error_detail": null
+  }
+}

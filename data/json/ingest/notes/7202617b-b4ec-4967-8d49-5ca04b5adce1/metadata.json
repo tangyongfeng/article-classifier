@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "69533a84-599d-4b9a-9b78-2aeb4d96a13e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/妈妈生日.html",
+    "collected_at": "2025-11-10T15:43:33.903401Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f21da500ff88135e408ba5ae60e88f7105babc326beb407a642df1741d79dde0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7202617b-b4ec-4967-8d49-5ca04b5adce1",
+    "ingest_source_id": "69533a84-599d-4b9a-9b78-2aeb4d96a13e",
+    "canonical_title": "妈妈生日",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.903406Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "妈妈生日.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e9cf1d1b-bbdc-4637-9d81-abc0b6a07b7a",
+      "note_id": "7202617b-b4ec-4967-8d49-5ca04b5adce1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.903409Z",
+      "content": "---\ntitle: 妈妈生日\nupdated: 2014-03-07 03:13:04Z\ncreated: 2014-02-20 03:06:38Z\n---\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1953年3月29日\n<div>农历正月初七</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f21da500ff88135e408ba5ae60e88f7105babc326beb407a642df1741d79dde0",
+        "path": "backups/2023年6月/个人的乱78糟/妈妈生日.html"
+      }
+    },
+    {
+      "id": "8664c54e-37a1-49a9-86fc-6f2cbcded3ab",
+      "note_id": "7202617b-b4ec-4967-8d49-5ca04b5adce1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.903412Z",
+      "content": "---\ntitle: 妈妈生日\nupdated: 2014-03-07 03:13:04Z\ncreated: 2014-02-20 03:06:38Z\n---\n\n1953年3月29日\n\n农历正月初七",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 99,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f07f26e8-d7aa-4b89-ab45-6949ea1a2c8e",
+    "note_id": "7202617b-b4ec-4967-8d49-5ca04b5adce1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.903418Z",
+    "finished_at": "2025-11-10T15:43:33.903418Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0f34460e-4dbc-4057-8b44-d3c232197857",
+      "source_path": "backups/2023年6月/个人的乱78糟/妈妈生日.html",
+      "checksum": "f21da500ff88135e408ba5ae60e88f7105babc326beb407a642df1741d79dde0"
+    },
+    "output_ref": {
+      "ingest_source": "69533a84-599d-4b9a-9b78-2aeb4d96a13e",
+      "note": "7202617b-b4ec-4967-8d49-5ca04b5adce1",
+      "variants": [
+        "e9cf1d1b-bbdc-4637-9d81-abc0b6a07b7a",
+        "8664c54e-37a1-49a9-86fc-6f2cbcded3ab"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "6363c98d-27c7-41ab-9a95-5df332a9b2a0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/dv.Rows[0].Cells[0] as DataGridViewComboBoxCell).D.html",
+    "collected_at": "2025-11-10T15:43:31.460288Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ca312e32990eef4ef51da664e1b73479ddbc72efebf6cf313c586cd5f48857bc",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "37fbaf07-e572-4d20-8e0e-383798c26114",
+    "ingest_source_id": "6363c98d-27c7-41ab-9a95-5df332a9b2a0",
+    "canonical_title": "dv.Rows[0].Cells[0] as DataGridViewComboBoxCell).D",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.460292Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "dv.Rows[0].Cells[0] as DataGridViewComboBoxCell).D.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "57504384-2b4c-4814-85ee-6c1d1d8ea367",
+      "note_id": "37fbaf07-e572-4d20-8e0e-383798c26114",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.460295Z",
+      "content": "---\ntitle: dv.Rows[0].Cells[0] as DataGridViewComboBoxCell).DataSource = ls;\nupdated: 2013-06-18 11:16:40Z\ncreated: 2013-06-18 11:01:44Z\ntags:\n  - c#\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">dv.Rows[0].Cells[0]</span></font> <font COLOR=\"#0000FF\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">as</span></font> <font COLOR=\"#2B91AF\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">DataGridViewComboBoxCell</span></font><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">).DataSource = ls;&nbsp;</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\"><br/></span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">需要响应 DataError事件</span></font></div><div ALIGN=\"left\"><div ALIGN=\"left\"><font COLOR=\"#0000FF\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">private</span></font> <font COLOR=\"#0000FF\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">void</span></font> <font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">datagridview_Dataerror(</span></font><font COLOR=\"#0000FF\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">object</span></font> <font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">sender,</span></font> <font COLOR=\"#2B91AF\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">DataGridViewDataErrorEventArgs</span></font> <font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">anError)</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Calibri\"><span STYLE=\"font-size:12pt\">&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></font></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ca312e32990eef4ef51da664e1b73479ddbc72efebf6cf313c586cd5f48857bc",
+        "path": "backups/2023年6月/IT技术/dv.Rows[0].Cells[0] as DataGridViewComboBoxCell).D.html"
+      }
+    },
+    {
+      "id": "9f07a11d-bf74-44e9-8244-5740dd91bbf2",
+      "note_id": "37fbaf07-e572-4d20-8e0e-383798c26114",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.460298Z",
+      "content": "---\ntitle: dv.Rows[0].Cells[0] as DataGridViewComboBoxCell).DataSource = ls;\nupdated: 2013-06-18 11:16:40Z\ncreated: 2013-06-18 11:01:44Z\ntags:\n  - c#\n---\n\ndv.Rows[0].Cells[0]\n\nas\n\nDataGridViewComboBoxCell\n).DataSource = ls; \n需要响应 DataError事件\nprivate\n\nvoid\n\ndatagridview_Dataerror(\nobject\n\nsender,\n\nDataGridViewDataErrorEventArgs\n\nanError)",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 338,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "634d38b9-ed15-4288-bf6f-c9c61502c4b2",
+    "note_id": "37fbaf07-e572-4d20-8e0e-383798c26114",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.460302Z",
+    "finished_at": "2025-11-10T15:43:31.460303Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "feee43fc-1de5-4a8e-a35d-272fb12616e6",
+      "source_path": "backups/2023年6月/IT技术/dv.Rows[0].Cells[0] as DataGridViewComboBoxCell).D.html",
+      "checksum": "ca312e32990eef4ef51da664e1b73479ddbc72efebf6cf313c586cd5f48857bc"
+    },
+    "output_ref": {
+      "ingest_source": "6363c98d-27c7-41ab-9a95-5df332a9b2a0",
+      "note": "37fbaf07-e572-4d20-8e0e-383798c26114",
+      "variants": [
+        "57504384-2b4c-4814-85ee-6c1d1d8ea367",
+        "9f07a11d-bf74-44e9-8244-5740dd91bbf2"
+      ]
+    },
+    "error_detail": null
+  }
+}

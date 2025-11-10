@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "90ea2e58-8fd2-43f3-9b1c-067332c17a95",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/申诉信询问.html",
+    "collected_at": "2025-11-10T15:43:35.727806Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "258bf4368ccfd92903dc33f6d85d099a52657c45f8a1ab17e194965e722d4ad1",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0c7b4a22-037a-43b8-ac1e-3cac56efe504",
+    "ingest_source_id": "90ea2e58-8fd2-43f3-9b1c-067332c17a95",
+    "canonical_title": "申诉信询问",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.727810Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "申诉信询问.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ac36cb2f-4cbb-4b85-90ad-14d73879386e",
+      "note_id": "0c7b4a22-037a-43b8-ac1e-3cac56efe504",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.727813Z",
+      "content": "---\ntitle: 申诉信询问\nupdated: 2018-12-27 11:30:37Z\ncreated: 2018-12-27 05:58:50Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Merry Christmas and Happy New Year.</div><div>My visa apply number is 1899427 and my passport number is E12457556. I received a visa refusal from the German Embassy in Beijing .I submitted the appeal paper on December 17, 2018 through the embassy.</div><div>I want to know if my appeal is accepted? &nbsp;what day is the processing time limited?</div><div><br/></div><div>Sincerely</div><div><br/></div><div>Yongfeng.Tang(唐永峰）</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "258bf4368ccfd92903dc33f6d85d099a52657c45f8a1ab17e194965e722d4ad1",
+        "path": "backups/2023年6月/德国2/申诉信询问.html"
+      }
+    },
+    {
+      "id": "d3d4de71-3d4f-4d8e-a344-1897e9083808",
+      "note_id": "0c7b4a22-037a-43b8-ac1e-3cac56efe504",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.727816Z",
+      "content": "---\ntitle: 申诉信询问\nupdated: 2018-12-27 11:30:37Z\ncreated: 2018-12-27 05:58:50Z\nauthor: tangyongfeng@gmail.com\n---\n\nMerry Christmas and Happy New Year.\nMy visa apply number is 1899427 and my passport number is E12457556. I received a visa refusal from the German Embassy in Beijing .I submitted the appeal paper on December 17, 2018 through the embassy.\nI want to know if my appeal is accepted?  what day is the processing time limited?\nSincerely\nYongfeng.Tang(唐永峰）",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 462,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "57f0177d-3f13-43b4-bb5f-7b0e0b8f41ae",
+    "note_id": "0c7b4a22-037a-43b8-ac1e-3cac56efe504",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.727821Z",
+    "finished_at": "2025-11-10T15:43:35.727821Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c019735b-dd89-4fcd-a4a0-e2d62b3bb25b",
+      "source_path": "backups/2023年6月/德国2/申诉信询问.html",
+      "checksum": "258bf4368ccfd92903dc33f6d85d099a52657c45f8a1ab17e194965e722d4ad1"
+    },
+    "output_ref": {
+      "ingest_source": "90ea2e58-8fd2-43f3-9b1c-067332c17a95",
+      "note": "0c7b4a22-037a-43b8-ac1e-3cac56efe504",
+      "variants": [
+        "ac36cb2f-4cbb-4b85-90ad-14d73879386e",
+        "d3d4de71-3d4f-4d8e-a344-1897e9083808"
+      ]
+    },
+    "error_detail": null
+  }
+}

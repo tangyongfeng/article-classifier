@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d6e7e264-5db0-42b2-bd41-612052d5576f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/购房费用预计.html",
+    "collected_at": "2025-11-10T15:43:35.547079Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "1854ab137caba9674b2bfb3808ee5dfdbc8d56c4db428d4b5df59f8b207a4bdc",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9bbe3c77-05fe-4953-96f1-a5323794f6a8",
+    "ingest_source_id": "d6e7e264-5db0-42b2-bd41-612052d5576f",
+    "canonical_title": "购房费用预计",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.547083Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "购房费用预计.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a0619c20-40a8-41e9-b520-d697c75fb34b",
+      "note_id": "9bbe3c77-05fe-4953-96f1-a5323794f6a8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.547086Z",
+      "content": "---\ntitle: 购房费用预计\nupdated: 2020-09-29 15:51:04Z\ncreated: 2020-09-29 15:49:21Z\n---\n\n\n\n<en-note><div>地税 6.5%</div><div>公证 1.5%</div><div>土地登记 0.5%</div><div>中介费 3.48～5.5%</div><div><br/></div><div><br/></div><div>预计利率 1.2～1.5%</div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1854ab137caba9674b2bfb3808ee5dfdbc8d56c4db428d4b5df59f8b207a4bdc",
+        "path": "backups/2023年6月/德国1/购房费用预计.html"
+      }
+    },
+    {
+      "id": "dc97ab14-8d63-48c4-8e0e-c75d20454f85",
+      "note_id": "9bbe3c77-05fe-4953-96f1-a5323794f6a8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.547089Z",
+      "content": "---\ntitle: 购房费用预计\nupdated: 2020-09-29 15:51:04Z\ncreated: 2020-09-29 15:49:21Z\n---\n\n地税 6.5%\n公证 1.5%\n土地登记 0.5%\n中介费 3.48～5.5%\n预计利率 1.2～1.5%",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 136,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "084383c4-c6f2-4d81-abdb-68d0149c9a91",
+    "note_id": "9bbe3c77-05fe-4953-96f1-a5323794f6a8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.547094Z",
+    "finished_at": "2025-11-10T15:43:35.547095Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "178cf6b9-5492-4a37-90b5-d969081bd2b2",
+      "source_path": "backups/2023年6月/德国1/购房费用预计.html",
+      "checksum": "1854ab137caba9674b2bfb3808ee5dfdbc8d56c4db428d4b5df59f8b207a4bdc"
+    },
+    "output_ref": {
+      "ingest_source": "d6e7e264-5db0-42b2-bd41-612052d5576f",
+      "note": "9bbe3c77-05fe-4953-96f1-a5323794f6a8",
+      "variants": [
+        "a0619c20-40a8-41e9-b520-d697c75fb34b",
+        "dc97ab14-8d63-48c4-8e0e-c75d20454f85"
+      ]
+    },
+    "error_detail": null
+  }
+}

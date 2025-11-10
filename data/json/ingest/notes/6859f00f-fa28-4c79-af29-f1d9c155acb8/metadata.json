@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b3018ff3-b060-4a4b-a26e-5cb758f90a8c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/8月3号读书会.html",
+    "collected_at": "2025-11-10T15:43:35.996477Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "b9fe150f3917dbbb1f136ba40021c8380096ff4645d27e437cc1af6385506d05",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6859f00f-fa28-4c79-af29-f1d9c155acb8",
+    "ingest_source_id": "b3018ff3-b060-4a4b-a26e-5cb758f90a8c",
+    "canonical_title": "8月3号读书会",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.996481Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "8月3号读书会.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "baddf51f-7052-46ac-8880-2b6cd4834630",
+      "note_id": "6859f00f-fa28-4c79-af29-f1d9c155acb8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.996484Z",
+      "content": "---\ntitle: 8月3号读书会\nupdated: 2020-08-03 13:33:33Z\ncreated: 2020-08-03 13:31:32Z\n---\n\n\n<en-note><div>Zum Beisspiel muss ich die Kinder zur Schule bringen, sie aus der Schule abholen, f&uuml;r sie kochen, ihnen helfen sich an zu kleiden und mit ihnen spielen.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b9fe150f3917dbbb1f136ba40021c8380096ff4645d27e437cc1af6385506d05",
+        "path": "backups/2023年6月/德语2/8月3号读书会.html"
+      }
+    },
+    {
+      "id": "d685f4db-6457-4d4a-aba0-53960d602391",
+      "note_id": "6859f00f-fa28-4c79-af29-f1d9c155acb8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.996487Z",
+      "content": "---\ntitle: 8月3号读书会\nupdated: 2020-08-03 13:33:33Z\ncreated: 2020-08-03 13:31:32Z\n---\n\nZum Beisspiel muss ich die Kinder zur Schule bringen, sie aus der Schule abholen, für sie kochen, ihnen helfen sich an zu kleiden und mit ihnen spielen.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 236,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ba53ae20-113f-4af5-acd3-bb9d4e7a8e7b",
+    "note_id": "6859f00f-fa28-4c79-af29-f1d9c155acb8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.996492Z",
+    "finished_at": "2025-11-10T15:43:35.996492Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "962e1583-3be8-433e-8108-5924febca062",
+      "source_path": "backups/2023年6月/德语2/8月3号读书会.html",
+      "checksum": "b9fe150f3917dbbb1f136ba40021c8380096ff4645d27e437cc1af6385506d05"
+    },
+    "output_ref": {
+      "ingest_source": "b3018ff3-b060-4a4b-a26e-5cb758f90a8c",
+      "note": "6859f00f-fa28-4c79-af29-f1d9c155acb8",
+      "variants": [
+        "baddf51f-7052-46ac-8880-2b6cd4834630",
+        "d685f4db-6457-4d4a-aba0-53960d602391"
+      ]
+    },
+    "error_detail": null
+  }
+}

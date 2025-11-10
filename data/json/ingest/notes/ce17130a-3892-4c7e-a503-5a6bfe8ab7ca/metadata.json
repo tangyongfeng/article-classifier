@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8bf84006-16a1-4cc9-9b67-e71861ae5db4",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/阅文合约.html",
+    "collected_at": "2025-11-10T15:43:35.746618Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "0f82e151c48c2ca3415ad35cec7581792af5350f0166b69224ba0524d1638d01",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ce17130a-3892-4c7e-a503-5a6bfe8ab7ca",
+    "ingest_source_id": "8bf84006-16a1-4cc9-9b67-e71861ae5db4",
+    "canonical_title": "阅文合约",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.746622Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "阅文合约.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "babf2138-550b-4018-b546-89677d8855f6",
+      "note_id": "ce17130a-3892-4c7e-a503-5a6bfe8ab7ca",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.746625Z",
+      "content": "---\ntitle: 阅文合约\nupdated: 2018-12-03 09:00:32Z\ncreated: 2018-12-03 08:59:54Z\n---\n\n\n<en-note><div><img src=\"../_resources/88c25655jw1exd8cbi68ij20md0f477j.jpg\"  hash=\"b2b136db15de33323bb41c2e9efd1c85\" type=\"image/jpeg\" alt=\"88c25655jw1exd8cbi68ij20md0f477j.jpg\" /></en-media><br/></div><div><img src=\"../_resources/88c25655jw1exd8clk0gqj20n70bowgq.jpg\"  hash=\"85fedfdac532c801360cb514fdbe69ff\" type=\"image/jpeg\" alt=\"88c25655jw1exd8clk0gqj20n70bowgq.jpg\" /></en-media></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0f82e151c48c2ca3415ad35cec7581792af5350f0166b69224ba0524d1638d01",
+        "path": "backups/2023年6月/德国2/阅文合约.html"
+      }
+    },
+    {
+      "id": "a942752f-d294-4e32-857d-809248b487e8",
+      "note_id": "ce17130a-3892-4c7e-a503-5a6bfe8ab7ca",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.746628Z",
+      "content": "---\ntitle: 阅文合约\nupdated: 2018-12-03 09:00:32Z\ncreated: 2018-12-03 08:59:54Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 79,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "97d9096a-e657-401d-ba32-99a0241226b3",
+    "note_id": "ce17130a-3892-4c7e-a503-5a6bfe8ab7ca",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.746633Z",
+    "finished_at": "2025-11-10T15:43:35.746634Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "07fd6aeb-81bc-4e5b-9d8d-aedec5f2156b",
+      "source_path": "backups/2023年6月/德国2/阅文合约.html",
+      "checksum": "0f82e151c48c2ca3415ad35cec7581792af5350f0166b69224ba0524d1638d01"
+    },
+    "output_ref": {
+      "ingest_source": "8bf84006-16a1-4cc9-9b67-e71861ae5db4",
+      "note": "ce17130a-3892-4c7e-a503-5a6bfe8ab7ca",
+      "variants": [
+        "babf2138-550b-4018-b546-89677d8855f6",
+        "a942752f-d294-4e32-857d-809248b487e8"
+      ]
+    },
+    "error_detail": null
+  }
+}

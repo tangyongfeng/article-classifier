@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b3c14230-74d2-4002-b0c7-aa729739d5b6",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/佛学/佛说马有三相经.html",
+    "collected_at": "2025-11-10T15:43:35.060073Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "b92ab6a30ce3ecd3cdbe5dc54c594ac031b2768faeabf1c05c039a20661f1a1e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a7c8c002-9be2-452f-a58d-500a3d1e1e07",
+    "ingest_source_id": "b3c14230-74d2-4002-b0c7-aa729739d5b6",
+    "canonical_title": "佛说马有三相经",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.060076Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "佛说马有三相经.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0d1bfd0a-7fe8-454b-b020-2c26e4ec004c",
+      "note_id": "a7c8c002-9be2-452f-a58d-500a3d1e1e07",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.060079Z",
+      "content": "---\ntitle: 佛说马有三相经\nupdated: 2015-06-06 15:43:47Z\ncreated: 2015-06-06 15:43:15Z\n---\n\n\n\n<en-note>【佛说马有三相经】&ldquo; 《佛说马有三相经》（出杂阿含别译），后汉沙门支曜译，佛经全文：<br/>闻如是。一时佛在舍卫国只树给孤独园。佛便告诸比丘。善马有三相用入官可给御。中王意得名为官马。何等为三相。一者有善马意自能走。二者有力。三者端正好色。是为三相。善马中入官。善人亦有三相。自得善意名闻亦豪。举人敬难之。可受人礼能福天下。何等为三相。有善人得意能走有力有端正色。何等为善人得意能走。有善人得意是苦如有知。为是习。为是尽败。为是道识。如是善人得意为走。何等为善人得意为力。为有弊恶态当为断尽力求之。精进求者意弃恶。未起弊恶态不复起。未起善意当为起。已起善意当为止不忘减稍稍增多。行意俱善行尽力求。制意弃恶。如是善人得力。何等为善人得意有色端正。是间有善人得意避五乐避弊恶。能到四弃得行。如是善人得意有色。是为三因缘谛行。善人得意名闻为能主举人难之。可取礼天下如是。佛说如是。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b92ab6a30ce3ecd3cdbe5dc54c594ac031b2768faeabf1c05c039a20661f1a1e",
+        "path": "backups/2023年6月/佛学/佛说马有三相经.html"
+      }
+    },
+    {
+      "id": "280886ad-4027-4684-baeb-37af39975a6d",
+      "note_id": "a7c8c002-9be2-452f-a58d-500a3d1e1e07",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.060081Z",
+      "content": "---\ntitle: 佛说马有三相经\nupdated: 2015-06-06 15:43:47Z\ncreated: 2015-06-06 15:43:15Z\n---\n\n【佛说马有三相经】“ 《佛说马有三相经》（出杂阿含别译），后汉沙门支曜译，佛经全文：\n闻如是。一时佛在舍卫国只树给孤独园。佛便告诸比丘。善马有三相用入官可给御。中王意得名为官马。何等为三相。一者有善马意自能走。二者有力。三者端正好色。是为三相。善马中入官。善人亦有三相。自得善意名闻亦豪。举人敬难之。可受人礼能福天下。何等为三相。有善人得意能走有力有端正色。何等为善人得意能走。有善人得意是苦如有知。为是习。为是尽败。为是道识。如是善人得意为走。何等为善人得意为力。为有弊恶态当为断尽力求之。精进求者意弃恶。未起弊恶态不复起。未起善意当为起。已起善意当为止不忘减稍稍增多。行意俱善行尽力求。制意弃恶。如是善人得力。何等为善人得意有色端正。是间有善人得意避五乐避弊恶。能到四弃得行。如是善人得意有色。是为三因缘谛行。善人得意名闻为能主举人难之。可取礼天下如是。佛说如是。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 468,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b3322188-e616-475b-b282-545582bf26c4",
+    "note_id": "a7c8c002-9be2-452f-a58d-500a3d1e1e07",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.060086Z",
+    "finished_at": "2025-11-10T15:43:35.060086Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d3eb6d4a-075c-43bc-b889-062e40ccb17b",
+      "source_path": "backups/2023年6月/佛学/佛说马有三相经.html",
+      "checksum": "b92ab6a30ce3ecd3cdbe5dc54c594ac031b2768faeabf1c05c039a20661f1a1e"
+    },
+    "output_ref": {
+      "ingest_source": "b3c14230-74d2-4002-b0c7-aa729739d5b6",
+      "note": "a7c8c002-9be2-452f-a58d-500a3d1e1e07",
+      "variants": [
+        "0d1bfd0a-7fe8-454b-b020-2c26e4ec004c",
+        "280886ad-4027-4684-baeb-37af39975a6d"
+      ]
+    },
+    "error_detail": null
+  }
+}

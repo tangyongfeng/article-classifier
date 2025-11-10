@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "323a03b7-ff39-430a-b47b-f8b890283179",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/跃儿/奶粉顺丰快递单.html",
+    "collected_at": "2025-11-10T15:43:37.028181Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "0ca43b01645d232599298ead9432b51afff55ee790f818d0f1c945da4cc70a0a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d3a5b43e-8601-46bf-98e8-a799eccd5ac3",
+    "ingest_source_id": "323a03b7-ff39-430a-b47b-f8b890283179",
+    "canonical_title": "奶粉顺丰快递单",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:37.028185Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "奶粉顺丰快递单.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a34d4b28-61de-47b1-9bb1-13648dfc5b8d",
+      "note_id": "d3a5b43e-8601-46bf-98e8-a799eccd5ac3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.028188Z",
+      "content": "---\ntitle: 奶粉顺丰快递单\nupdated: 2013-06-08 10:18:03Z\ncreated: 2013-06-08 08:18:38Z\n---\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; \">\n单号：<a HREF=\"tel:302294560398\">302294560398</a>\n\n&Tab;<div>地址：虎坊桥19号楼6-3底商</div>\n&Tab;<div><a HREF=\"tel:51251951\">51251951</a></div>\n&Tab;<div><br/></div>\n&Tab;<div><a HREF=\"tel:4008111111\">4008111111</a></div><div>13811215084</div>\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0ca43b01645d232599298ead9432b51afff55ee790f818d0f1c945da4cc70a0a",
+        "path": "backups/2023年6月/跃儿/奶粉顺丰快递单.html"
+      }
+    },
+    {
+      "id": "406d08aa-a28d-48a1-a5b3-a94c7168fb19",
+      "note_id": "d3a5b43e-8601-46bf-98e8-a799eccd5ac3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.028191Z",
+      "content": "---\ntitle: 奶粉顺丰快递单\nupdated: 2013-06-08 10:18:03Z\ncreated: 2013-06-08 08:18:38Z\n---\n\n单号：\n302294560398\n\n地址：虎坊桥19号楼6-3底商\n\n51251951\n\n4008111111\n13811215084",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 151,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "574c3138-d026-4776-bc09-c686be5e07cd",
+    "note_id": "d3a5b43e-8601-46bf-98e8-a799eccd5ac3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:37.028197Z",
+    "finished_at": "2025-11-10T15:43:37.028197Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0f147ed1-6b61-42ce-b7f4-3aa2cad41d92",
+      "source_path": "backups/2023年6月/跃儿/奶粉顺丰快递单.html",
+      "checksum": "0ca43b01645d232599298ead9432b51afff55ee790f818d0f1c945da4cc70a0a"
+    },
+    "output_ref": {
+      "ingest_source": "323a03b7-ff39-430a-b47b-f8b890283179",
+      "note": "d3a5b43e-8601-46bf-98e8-a799eccd5ac3",
+      "variants": [
+        "a34d4b28-61de-47b1-9bb1-13648dfc5b8d",
+        "406d08aa-a28d-48a1-a5b3-a94c7168fb19"
+      ]
+    },
+    "error_detail": null
+  }
+}

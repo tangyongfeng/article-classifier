@@ -82,9 +82,20 @@ class LLMDispatcher:
         content: str,
         language: str = "zh-cn",
         models: Optional[Iterable[str]] = None,
+        category_guidance: Optional[str] = None,
     ) -> LLMResponse:
-        prompt = SUMMARY_TEMPLATE.render(title=title or "未命名", content=content, language=language)
-        metadata = {"task": "note_summary", "language": language, "title": title}
+        prompt = SUMMARY_TEMPLATE.render(
+            title=title or "未命名",
+            content=content,
+            language=language,
+            category_guidance=category_guidance or "无可用分类",
+        )
+        metadata = {
+            "task": "note_summary",
+            "language": language,
+            "title": title,
+            "has_category_guidance": bool(category_guidance),
+        }
         return self.dispatch(prompt, models=models, expected_format="json", metadata=metadata)
 
     # ------------------------------------------------------------------

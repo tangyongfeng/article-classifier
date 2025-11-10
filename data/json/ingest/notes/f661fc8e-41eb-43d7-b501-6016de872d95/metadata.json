@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "360a9fbc-99c5-4c54-8655-5ff280b2fb7f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/德语动词liegen的多种介词搭配可能.html",
+    "collected_at": "2025-11-10T15:43:35.900398Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "d2f8357522816465bf7c45ed15c700f37a2a46647885824d92a56f609cd8479a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "f661fc8e-41eb-43d7-b501-6016de872d95",
+    "ingest_source_id": "360a9fbc-99c5-4c54-8655-5ff280b2fb7f",
+    "canonical_title": "德语动词liegen的多种介词搭配可能",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.900403Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "德语动词liegen的多种介词搭配可能.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "93a27d1d-f576-4068-877a-0712fee34df0",
+      "note_id": "f661fc8e-41eb-43d7-b501-6016de872d95",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.900406Z",
+      "content": "---\ntitle: 德语动词liegen的多种介词搭配可能\nupdated: 2021-02-19 18:08:00Z\ncreated: 2021-02-19 18:07:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>在德语中，liegen属于我们接触比较早的一个基础动词。然而，随着学习的不断深入，我们发现，原来liegen这个词不是轻易就能掌握的，因为它可能跟不同的介词产生搭配，进而产生不同的意思。今天这篇短文希望帮助大家来系统梳理下liegen的用法，其中部分内容已经收录在我所编著的《德语专业词汇宝典：词根+词缀》以及《德语考试高频词汇精选：词根+词缀》中，以飨读者。\n</div><div> \n</div><div>1. &nbsp;首先liegen作为基础动词的第一个意思是&ldquo;平躺&rdquo;，例如： Er liegt im Bett. &nbsp;他躺在床上。但是，更多的时候liegen用来表示方位，解释为&ldquo;位于；地处&rdquo;。例如： Wo liegt mein Buch ? &nbsp;我的书在哪里 ? &nbsp;Die Schule liegt in der N&auml;he von der Post. 学校在邮局附近。\n</div><div> \n</div><div>2. &nbsp;然后liegen开始跟不同的介词进行搭配了，首当其中的是liegen in D结构，表示&ldquo;存在于&rdquo;。例如： Unsere Aufgabe liegt darin, das Problem so bald wie m&ouml;glich zu l&ouml;sen. 我们的任务在于尽快解决这个问题。 \n</div><div> \n</div><div>3. &nbsp;还有一个重要结构是liegen bei，专门用来表示&ldquo;达到某一个数字&rdquo;，经常在考试中被用于图表描述。例如：Im vergangenen Jahr lag die Kursteilnehmerzahl bei etwa 5.000. &nbsp;去年学员数量达到了5000人左右。 \n</div><div> \n</div><div>4. &nbsp;第三个固定搭配是liegen an D，专门用来表示&ldquo;因果关系&rdquo;，解释为&ldquo;原因在于&rdquo;。例如：\n</div><div>Der Unfall liegt daran, dass sich der Busfahrer nicht gut konzentriert. &nbsp;这起事故的原因在于公交车司机没有很好地集中注意力。\n</div><div>Das liegt an ihm &nbsp;这件事怪他。\n</div><div> \n</div><div STYLE=\"padding: 0px; word-break: normal; font-family: Verdana; line-height: 21px; color: rgb(51, 51, 51); overflow-wrap: break-word; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">总结：liegen的过去式是lag，第二分词是gelegen haben，需要大家特别注意！<span STYLE=\"word-break: normal; font-family: Verdana; line-height: 21px; color: rgb(51, 51, 51); overflow-wrap: break-word; font-size: 14px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">\n</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d2f8357522816465bf7c45ed15c700f37a2a46647885824d92a56f609cd8479a",
+        "path": "backups/2023年6月/德语1/德语动词liegen的多种介词搭配可能.html"
+      }
+    },
+    {
+      "id": "57802d35-04da-4d7e-9b8c-04ca12281d54",
+      "note_id": "f661fc8e-41eb-43d7-b501-6016de872d95",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.900409Z",
+      "content": "---\ntitle: 德语动词liegen的多种介词搭配可能\nupdated: 2021-02-19 18:08:00Z\ncreated: 2021-02-19 18:07:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n在德语中，liegen属于我们接触比较早的一个基础动词。然而，随着学习的不断深入，我们发现，原来liegen这个词不是轻易就能掌握的，因为它可能跟不同的介词产生搭配，进而产生不同的意思。今天这篇短文希望帮助大家来系统梳理下liegen的用法，其中部分内容已经收录在我所编著的《德语专业词汇宝典：词根+词缀》以及《德语考试高频词汇精选：词根+词缀》中，以飨读者。\n\n1.  首先liegen作为基础动词的第一个意思是“平躺”，例如： Er liegt im Bett.  他躺在床上。但是，更多的时候liegen用来表示方位，解释为“位于；地处”。例如： Wo liegt mein Buch ?  我的书在哪里 ?  Die Schule liegt in der Nähe von der Post. 学校在邮局附近。\n\n2.  然后liegen开始跟不同的介词进行搭配了，首当其中的是liegen in D结构，表示“存在于”。例如： Unsere Aufgabe liegt darin, das Problem so bald wie möglich zu lösen. 我们的任务在于尽快解决这个问题。\n\n3.  还有一个重要结构是liegen bei，专门用来表示“达到某一个数字”，经常在考试中被用于图表描述。例如：Im vergangenen Jahr lag die Kursteilnehmerzahl bei etwa 5.000.  去年学员数量达到了5000人左右。\n\n4.  第三个固定搭配是liegen an D，专门用来表示“因果关系”，解释为“原因在于”。例如：\n\nDer Unfall liegt daran, dass sich der Busfahrer nicht gut konzentriert.  这起事故的原因在于公交车司机没有很好地集中注意力。\n\nDas liegt an ihm  这件事怪他。\n\n总结：liegen的过去式是lag，第二分词是gelegen haben，需要大家特别注意！",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 999,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5b584b64-18f1-40e0-9317-e66cafe2f078",
+    "note_id": "f661fc8e-41eb-43d7-b501-6016de872d95",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.900415Z",
+    "finished_at": "2025-11-10T15:43:35.900415Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "cefac934-ccc5-4005-a397-9a8b972bf62d",
+      "source_path": "backups/2023年6月/德语1/德语动词liegen的多种介词搭配可能.html",
+      "checksum": "d2f8357522816465bf7c45ed15c700f37a2a46647885824d92a56f609cd8479a"
+    },
+    "output_ref": {
+      "ingest_source": "360a9fbc-99c5-4c54-8655-5ff280b2fb7f",
+      "note": "f661fc8e-41eb-43d7-b501-6016de872d95",
+      "variants": [
+        "93a27d1d-f576-4068-877a-0712fee34df0",
+        "57802d35-04da-4d7e-9b8c-04ca12281d54"
+      ]
+    },
+    "error_detail": null
+  }
+}

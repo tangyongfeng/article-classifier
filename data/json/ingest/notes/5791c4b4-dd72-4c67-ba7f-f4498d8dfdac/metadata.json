@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "de3aab76-870b-4100-a15f-1500fa950f3e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/跃儿/可儿身份证.html",
+    "collected_at": "2025-11-10T15:43:37.021347Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "1fab31ddf2f09d429d68e22e6ec4e3c1668bfaef3384014be82aac55f58bc59b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "5791c4b4-dd72-4c67-ba7f-f4498d8dfdac",
+    "ingest_source_id": "de3aab76-870b-4100-a15f-1500fa950f3e",
+    "canonical_title": "可儿身份证",
+    "language": "ro",
+    "ingested_at": "2025-11-10T15:43:37.021351Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "可儿身份证.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c2afd3e4-4d9a-4979-9418-a72a333e69f8",
+      "note_id": "5791c4b4-dd72-4c67-ba7f-f4498d8dfdac",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.021354Z",
+      "content": "---\ntitle: 可儿身份证\nupdated: 2018-07-13 03:54:23Z\ncreated: 2012-07-03 11:35:20Z\nlatitude: 39.88870000\nlongitude: 116.63100000\naltitude: 35.4149\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><a HREF=\"tel:410902201\">410902201</a><a HREF=\"tel:101170105\">101170105</a><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1fab31ddf2f09d429d68e22e6ec4e3c1668bfaef3384014be82aac55f58bc59b",
+        "path": "backups/2023年6月/跃儿/可儿身份证.html"
+      }
+    },
+    {
+      "id": "f0179513-4b51-4261-b555-f923c2040b40",
+      "note_id": "5791c4b4-dd72-4c67-ba7f-f4498d8dfdac",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.021357Z",
+      "content": "---\ntitle: 可儿身份证\nupdated: 2018-07-13 03:54:23Z\ncreated: 2012-07-03 11:35:20Z\nlatitude: 39.88870000\nlongitude: 116.63100000\naltitude: 35.4149\n---\n\n410902201\n101170105",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 165,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "cfa357cc-602a-47e4-942b-591b73a3d634",
+    "note_id": "5791c4b4-dd72-4c67-ba7f-f4498d8dfdac",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:37.021362Z",
+    "finished_at": "2025-11-10T15:43:37.021362Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1e35e284-e17a-45ff-8595-76eb4461914e",
+      "source_path": "backups/2023年6月/跃儿/可儿身份证.html",
+      "checksum": "1fab31ddf2f09d429d68e22e6ec4e3c1668bfaef3384014be82aac55f58bc59b"
+    },
+    "output_ref": {
+      "ingest_source": "de3aab76-870b-4100-a15f-1500fa950f3e",
+      "note": "5791c4b4-dd72-4c67-ba7f-f4498d8dfdac",
+      "variants": [
+        "c2afd3e4-4d9a-4979-9418-a72a333e69f8",
+        "f0179513-4b51-4261-b555-f923c2040b40"
+      ]
+    },
+    "error_detail": null
+  }
+}

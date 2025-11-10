@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0a186adb-08c5-4329-80bf-bddbadef32d1",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/电子病历重要知识点.html",
+    "collected_at": "2025-11-10T15:43:35.226243Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "7620edb3d8a7760b22b33ab60d2d936c007461b33c23510fb3b1d8a674ffd742",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3930ab85-1573-4cf8-bbfa-6a6d7a104529",
+    "ingest_source_id": "0a186adb-08c5-4329-80bf-bddbadef32d1",
+    "canonical_title": "电子病历重要知识点",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.226246Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "电子病历重要知识点.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "130d2656-4f57-4e5e-bb23-9a1a27e56f03",
+      "note_id": "3930ab85-1573-4cf8-bbfa-6a6d7a104529",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.226249Z",
+      "content": "---\ntitle: 电子病历重要知识点\nupdated: 2013-12-13 09:13:39Z\ncreated: 2013-12-13 08:45:26Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n入院：\n<div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;住院处做住院登记，</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;护士分配床位、指定床位医生、主治医生等信息</div><div>&nbsp; &nbsp; &nbsp;医生书写病历、开医嘱</div><div>病历书写流程</div><div>&nbsp; &nbsp; &nbsp;医生选择病历模板或者选择要编辑的文件</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;编辑、提交病历、打印签名</div><div>&nbsp; &nbsp; &nbsp;上级医生 进入病历编辑模块（自动生成阅改模式）</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 修改病历、保存</div><div>&nbsp; &nbsp; &nbsp;病案室 &nbsp; &nbsp; 归档</div><div>三级阅改规则</div><div>&nbsp; &nbsp; &nbsp;病历提交前只能由创建者自己修改。</div><div>&nbsp; &nbsp; &nbsp;提交后只能由上级医师进行阅改。</div><div>&nbsp; &nbsp; &nbsp;阅改国的病历不能再被修改。</div><div>病历归档</div><div>&nbsp; &nbsp; &nbsp;病人出院后其病历被送至病案室整理登记，这就是病历归档。</div><div>&nbsp; &nbsp; &nbsp;病人自己可以复印，医生可以借阅但不可以修改。</div><div>医嘱处理流程</div><div>&nbsp; &nbsp; &nbsp;医生在医嘱编辑模块中新增、取消或者停止长期医嘱，发送后由医生签字。</div><div>&nbsp; &nbsp; &nbsp;护士在医嘱审核模块中检查医嘱，修改默认药房和执行科室。执行医嘱，打印医嘱，护士签字。</div><div>病人转科流程：</div><div>&nbsp; &nbsp; &nbsp;医生下达转科医嘱，书写转出记录，提交所有病历，打印病历签名。</div><div>&nbsp; &nbsp; &nbsp;护士审核医嘱、执行医嘱、打印医嘱签名、执行转科操作。</div><div>&nbsp; &nbsp; &nbsp;转入科室护士接收病人入区。</div><div>病人转入：</div><div>&nbsp; &nbsp; &nbsp;护士接收转入患者。</div><div>&nbsp; &nbsp; &nbsp;医生处理转入患者，书写转入记录，开始正常的病历书写流程。或者开新医嘱，进入正常的医嘱流程。</div><div>病人出院：</div><div>&nbsp; &nbsp; &nbsp;医生下达出院医嘱，书写出院小结，提交所有病历，打印病历并签名。</div><div>&nbsp; &nbsp; &nbsp;护士审核医嘱、执行医嘱并签名，执行出区操作。</div><div>&nbsp; &nbsp; &nbsp;住院处病人结算。</div><div>出院带药流程：</div><div>&nbsp; &nbsp; &nbsp;医生下达出院医嘱，附带出院带药医嘱，保存发送。</div><div>&nbsp; &nbsp; &nbsp;护士进入医嘱审核模块，检查医嘱，修改默认药房和执行科室。审核后执行医嘱，打印并交医生签字，护士签字后，病人领药，病人出区。</div><div>&nbsp; &nbsp; &nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7620edb3d8a7760b22b33ab60d2d936c007461b33c23510fb3b1d8a674ffd742",
+        "path": "backups/2023年6月/医疗/电子病历重要知识点.html"
+      }
+    },
+    {
+      "id": "6942d3fb-dcd5-4cc7-a01e-33f73b5206e6",
+      "note_id": "3930ab85-1573-4cf8-bbfa-6a6d7a104529",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.226252Z",
+      "content": "---\ntitle: 电子病历重要知识点\nupdated: 2013-12-13 09:13:39Z\ncreated: 2013-12-13 08:45:26Z\n---\n\n入院：\n\n     住院处做住院登记，\n     护士分配床位、指定床位医生、主治医生等信息\n     医生书写病历、开医嘱\n病历书写流程\n     医生选择病历模板或者选择要编辑的文件\n           编辑、提交病历、打印签名\n     上级医生 进入病历编辑模块（自动生成阅改模式）\n                    修改病历、保存\n     病案室     归档\n三级阅改规则\n     病历提交前只能由创建者自己修改。\n     提交后只能由上级医师进行阅改。\n     阅改国的病历不能再被修改。\n病历归档\n     病人出院后其病历被送至病案室整理登记，这就是病历归档。\n     病人自己可以复印，医生可以借阅但不可以修改。\n医嘱处理流程\n     医生在医嘱编辑模块中新增、取消或者停止长期医嘱，发送后由医生签字。\n     护士在医嘱审核模块中检查医嘱，修改默认药房和执行科室。执行医嘱，打印医嘱，护士签字。\n病人转科流程：\n     医生下达转科医嘱，书写转出记录，提交所有病历，打印病历签名。\n     护士审核医嘱、执行医嘱、打印医嘱签名、执行转科操作。\n     转入科室护士接收病人入区。\n病人转入：\n     护士接收转入患者。\n     医生处理转入患者，书写转入记录，开始正常的病历书写流程。或者开新医嘱，进入正常的医嘱流程。\n病人出院：\n     医生下达出院医嘱，书写出院小结，提交所有病历，打印病历并签名。\n     护士审核医嘱、执行医嘱并签名，执行出区操作。\n     住院处病人结算。\n出院带药流程：\n     医生下达出院医嘱，附带出院带药医嘱，保存发送。\n     护士进入医嘱审核模块，检查医嘱，修改默认药房和执行科室。审核后执行医嘱，打印并交医生签字，护士签字后，病人领药，病人出区。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 861,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4e56fcbb-cc73-4296-8af4-c209b47674e5",
+    "note_id": "3930ab85-1573-4cf8-bbfa-6a6d7a104529",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.226257Z",
+    "finished_at": "2025-11-10T15:43:35.226257Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "39a585e6-6f8d-42f6-bd29-f73ae889bcb8",
+      "source_path": "backups/2023年6月/医疗/电子病历重要知识点.html",
+      "checksum": "7620edb3d8a7760b22b33ab60d2d936c007461b33c23510fb3b1d8a674ffd742"
+    },
+    "output_ref": {
+      "ingest_source": "0a186adb-08c5-4329-80bf-bddbadef32d1",
+      "note": "3930ab85-1573-4cf8-bbfa-6a6d7a104529",
+      "variants": [
+        "130d2656-4f57-4e5e-bb23-9a1a27e56f03",
+        "6942d3fb-dcd5-4cc7-a01e-33f73b5206e6"
+      ]
+    },
+    "error_detail": null
+  }
+}

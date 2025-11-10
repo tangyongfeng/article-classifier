@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b68e8604-f1cc-4a9c-9e72-400709a3d599",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/笔记-3.html",
+    "collected_at": "2025-11-10T15:43:34.341639Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a94c4fe1312858c74638e6ab02b936b55e9ad287873981c43aae6333ff2577d4",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "2a059273-428f-41b6-b8d0-a11fca1cf995",
+    "ingest_source_id": "b68e8604-f1cc-4a9c-9e72-400709a3d599",
+    "canonical_title": "笔记-3",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.341642Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-3.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ea9e4634-375a-483d-b7c9-a2b5f8fc1984",
+      "note_id": "2a059273-428f-41b6-b8d0-a11fca1cf995",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.341645Z",
+      "content": "---\ntitle: 笔记\nupdated: 2017-03-29 13:39:36Z\ncreated: 2017-03-29 13:39:09Z\n---\n\n\n\n<en-note><div>唐倩茹身份证<font STYLE=\"font-family: 'Helvetica Neue';\">她的是：410928198703239623</font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a94c4fe1312858c74638e6ab02b936b55e9ad287873981c43aae6333ff2577d4",
+        "path": "backups/2023年6月/个人的乱78糟/笔记-3.html"
+      }
+    },
+    {
+      "id": "9c8f2506-475f-4f61-bdd7-ea54ac5e92c0",
+      "note_id": "2a059273-428f-41b6-b8d0-a11fca1cf995",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.341647Z",
+      "content": "---\ntitle: 笔记\nupdated: 2017-03-29 13:39:36Z\ncreated: 2017-03-29 13:39:09Z\n---\n\n唐倩茹身份证\n她的是：410928198703239623",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 108,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "69c7e6db-7378-4976-8d7e-05891effd0a0",
+    "note_id": "2a059273-428f-41b6-b8d0-a11fca1cf995",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.341652Z",
+    "finished_at": "2025-11-10T15:43:34.341652Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c9ed51c6-0b64-47f7-ab26-7b555a33ad04",
+      "source_path": "backups/2023年6月/个人的乱78糟/笔记-3.html",
+      "checksum": "a94c4fe1312858c74638e6ab02b936b55e9ad287873981c43aae6333ff2577d4"
+    },
+    "output_ref": {
+      "ingest_source": "b68e8604-f1cc-4a9c-9e72-400709a3d599",
+      "note": "2a059273-428f-41b6-b8d0-a11fca1cf995",
+      "variants": [
+        "ea9e4634-375a-483d-b7c9-a2b5f8fc1984",
+        "9c8f2506-475f-4f61-bdd7-ea54ac5e92c0"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "19173c20-2068-48db-ac78-427d6447e1a3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/光照量.html",
+    "collected_at": "2025-11-10T15:43:33.700664Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "fa3836ecc92d0a2fccbf247dbe6f9a7f9bf7ad53d93eebcccef0615d2aff5927",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "15bfaaec-0028-419f-ba8a-981c5fa8561a",
+    "ingest_source_id": "19173c20-2068-48db-ac78-427d6447e1a3",
+    "canonical_title": "光照量",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:33.700668Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "光照量.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6d8bcff0-4b02-46b1-848a-0c285702b2d3",
+      "note_id": "15bfaaec-0028-419f-ba8a-981c5fa8561a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.700671Z",
+      "content": "---\ntitle: 光照量\nupdated: 2021-09-13 14:35:47Z\ncreated: 2021-09-13 14:35:23Z\n---\n\n\n\n<en-note><div>1、灯具的光通量是指：一只灯发光量的总和。单位为lm，俗称<a HREF=\"https://www.zhihu.com/search?q=%E6%B5%81%E6%98%8E&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">流明</a><a HREF=\"https://www.zhihu.com/search?q=%E6%B5%81%E6%98%8E&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">\n&Tab;&Tab;&Tab;&Tab;</a></div><div><a HREF=\"https://www.zhihu.com/search?q=%E6%B5%81%E6%98%8E&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">\n&Tab;&Tab;&Tab;&Tab;&Tab;</a></div><div><a HREF=\"https://www.zhihu.com/search?q=%E6%B5%81%E6%98%8E&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">\n&Tab;&Tab;&Tab;</a>\n&Tab;&Tab;。测试光通量的工具叫做&ldquo;积分球&rdquo;，就是把一只灯放进一只圆球状的仪器内部，点亮后测试其发光总量有多少流明。比如一只标示为9W的LED灯泡，测试的结果为720lm，则说明此LED灯泡的光效为80lm/W（80流明每瓦），目前国内品质较好的LED灯具，</div><div><a HREF=\"https://www.zhihu.com/search?q=%E5%B9%B3%E5%9D%87%E5%85%89%E6%95%88&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">平均光效</a><a HREF=\"https://www.zhihu.com/search?q=%E5%B9%B3%E5%9D%87%E5%85%89%E6%95%88&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">\n&Tab;&Tab;&Tab;&Tab;</a></div><div><a HREF=\"https://www.zhihu.com/search?q=%E5%B9%B3%E5%9D%87%E5%85%89%E6%95%88&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">\n&Tab;&Tab;&Tab;&Tab;&Tab;</a></div><div>\n&Tab;&Tab;</div><div>基本可以达到120lm/W。\n&Tab;</div><div>2、<a HREF=\"https://www.zhihu.com/search?q=%E5%85%89%E7%85%A7%E5%BC%BA%E5%BA%A6&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">光照强度</a><a HREF=\"https://www.zhihu.com/search?q=%E5%85%89%E7%85%A7%E5%BC%BA%E5%BA%A6&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">\n&Tab;&Tab;&Tab;&Tab;</a></div><div><a HREF=\"https://www.zhihu.com/search?q=%E5%85%89%E7%85%A7%E5%BC%BA%E5%BA%A6&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">\n&Tab;&Tab;&Tab;&Tab;&Tab;</a></div><div><a HREF=\"https://www.zhihu.com/search?q=%E5%85%89%E7%85%A7%E5%BC%BA%E5%BA%A6&search_source=Entity&hybrid_search_source=Entity&hybrid_search_extra=%7B%22sourceType%22:%22answer%22,%22sourceId%22:648374860%7D\">\n&Tab;&Tab;&Tab;</a>\n&Tab;&Tab;，简称照度。简单来说，是指一只灯发出的光，投射在某个点上的亮度。举个例子：在黑暗的房间里打开手电筒，照射在一个随便什么物体上面，此时手电筒发出的光的总量叫光通量。而照射在那个物体上的某一个点的亮度，就是照度。照度的单位叫lux（勒克斯）。\n&Tab;</div><div>3、光通量是灯具的一个固定值。这只灯你安装在天花上还是安装在地板上，光通量是不变的。但照度会因为距离和发光角度的原因而变化。一只灯离你5米远的时候照度是1000lux，但如果离你2米远的时候，照度可能是3000lux。</div><div>4、无论是什么照明品牌，其标示参数时可能会有光通量，但是绝不会标示照度值。</div><div>5、照度只是针对光线的，无关灯具的好与坏，也无关灯具的功率大小。一只1000w的射灯，放在500米外来测试照度，估计。。。（不知道具体数值，没有试过，但估计很低）</div><div>6、在20平方的房间里，装一只吸顶灯，光源是LED的话，15W就已经足够了。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fa3836ecc92d0a2fccbf247dbe6f9a7f9bf7ad53d93eebcccef0615d2aff5927",
+        "path": "backups/2023年6月/个人的乱78糟/光照量.html"
+      }
+    },
+    {
+      "id": "a2562cbf-4e5b-4b00-9e17-f0fbbd14317f",
+      "note_id": "15bfaaec-0028-419f-ba8a-981c5fa8561a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.700674Z",
+      "content": "---\ntitle: 光照量\nupdated: 2021-09-13 14:35:47Z\ncreated: 2021-09-13 14:35:23Z\n---\n\n1、灯具的光通量是指：一只灯发光量的总和。单位为lm，俗称\n流明\n\n 。测试光通量的工具叫做“积分球”，就是把一只灯放进一只圆球状的仪器内部，点亮后测试其发光总量有多少流明。比如一只标示为9W的LED灯泡，测试的结果为720lm，则说明此LED灯泡的光效为80lm/W（80流明每瓦），目前国内品质较好的LED灯具，\n平均光效\n\n基本可以达到120lm/W。\n\n2、\n光照强度\n\n ，简称照度。简单来说，是指一只灯发出的光，投射在某个点上的亮度。举个例子：在黑暗的房间里打开手电筒，照射在一个随便什么物体上面，此时手电筒发出的光的总量叫光通量。而照射在那个物体上的某一个点的亮度，就是照度。照度的单位叫lux（勒克斯）。\n\n3、光通量是灯具的一个固定值。这只灯你安装在天花上还是安装在地板上，光通量是不变的。但照度会因为距离和发光角度的原因而变化。一只灯离你5米远的时候照度是1000lux，但如果离你2米远的时候，照度可能是3000lux。\n4、无论是什么照明品牌，其标示参数时可能会有光通量，但是绝不会标示照度值。\n5、照度只是针对光线的，无关灯具的好与坏，也无关灯具的功率大小。一只1000w的射灯，放在500米外来测试照度，估计。。。（不知道具体数值，没有试过，但估计很低）\n6、在20平方的房间里，装一只吸顶灯，光源是LED的话，15W就已经足够了。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 660,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "31012343-79cf-4d0d-bac2-06fb485c5a7c",
+    "note_id": "15bfaaec-0028-419f-ba8a-981c5fa8561a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.700679Z",
+    "finished_at": "2025-11-10T15:43:33.700679Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "faaaa92c-7a62-42af-b1ed-3864732e6a27",
+      "source_path": "backups/2023年6月/个人的乱78糟/光照量.html",
+      "checksum": "fa3836ecc92d0a2fccbf247dbe6f9a7f9bf7ad53d93eebcccef0615d2aff5927"
+    },
+    "output_ref": {
+      "ingest_source": "19173c20-2068-48db-ac78-427d6447e1a3",
+      "note": "15bfaaec-0028-419f-ba8a-981c5fa8561a",
+      "variants": [
+        "6d8bcff0-4b02-46b1-848a-0c285702b2d3",
+        "a2562cbf-4e5b-4b00-9e17-f0fbbd14317f"
+      ]
+    },
+    "error_detail": null
+  }
+}

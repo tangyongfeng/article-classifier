@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e4756cc0-0989-4ad9-ad05-3c75e0d2870d",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/En11IEYVkAc261t 916×807像素.html",
+    "collected_at": "2025-11-10T15:43:30.753913Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8eeb546941ea29dcb199d664ef3e7bfaec50ebd3d530f3da5dd6315e687949e8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6c9bea64-1d5f-4263-a24d-d975be494f73",
+    "ingest_source_id": "e4756cc0-0989-4ad9-ad05-3c75e0d2870d",
+    "canonical_title": "En11IEYVkAc261t 916×807像素",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:30.753918Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "En11IEYVkAc261t 916×807像素.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b0297c73-52eb-4ee1-8c2a-3562869a2cf5",
+      "note_id": "6c9bea64-1d5f-4263-a24d-d975be494f73",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.753921Z",
+      "content": "---\ntitle: En11IEYVkAc261t 916×807像素\nupdated: 2020-12-01 00:23:34Z\ncreated: 2020-11-28 03:25:24Z\nsource: https://pbs.twimg.com/media/En11IEYVkAc261t?format=jpg&name=medium\n---\n\n\n\n<en-note>\n<div STYLE=\"\"><img src=\"../_resources/0d1a377d0f1f6607510f6a7b92ec238b.jpg\"  style=\"display: block; margin: auto; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);\" hash=\"0d1a377d0f1f6607510f6a7b92ec238b\" type=\"image/jpeg\" alt=\"\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8eeb546941ea29dcb199d664ef3e7bfaec50ebd3d530f3da5dd6315e687949e8",
+        "path": "backups/2023年6月/IT技术/En11IEYVkAc261t 916×807像素.html"
+      }
+    },
+    {
+      "id": "30eeacdf-15e4-414e-8810-30279a62bcee",
+      "note_id": "6c9bea64-1d5f-4263-a24d-d975be494f73",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.753925Z",
+      "content": "---\ntitle: En11IEYVkAc261t 916×807像素\nupdated: 2020-12-01 00:23:34Z\ncreated: 2020-11-28 03:25:24Z\nsource: https://pbs.twimg.com/media/En11IEYVkAc261t?format=jpg&name=medium\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 175,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7a74ceab-eead-4b78-b3c3-bc5c28d3f222",
+    "note_id": "6c9bea64-1d5f-4263-a24d-d975be494f73",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.753932Z",
+    "finished_at": "2025-11-10T15:43:30.753932Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9380e1e9-43bb-494e-b5dc-5d3f60335698",
+      "source_path": "backups/2023年6月/IT技术/En11IEYVkAc261t 916×807像素.html",
+      "checksum": "8eeb546941ea29dcb199d664ef3e7bfaec50ebd3d530f3da5dd6315e687949e8"
+    },
+    "output_ref": {
+      "ingest_source": "e4756cc0-0989-4ad9-ad05-3c75e0d2870d",
+      "note": "6c9bea64-1d5f-4263-a24d-d975be494f73",
+      "variants": [
+        "b0297c73-52eb-4ee1-8c2a-3562869a2cf5",
+        "30eeacdf-15e4-414e-8810-30279a62bcee"
+      ]
+    },
+    "error_detail": null
+  }
+}

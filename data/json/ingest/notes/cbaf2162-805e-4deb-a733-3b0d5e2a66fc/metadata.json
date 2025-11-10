@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "93f531f4-6370-42f4-bfc0-5cf48050f839",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/太阳纸业   002078.html",
+    "collected_at": "2025-11-10T15:43:36.530610Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ko",
+    "captured_at": null,
+    "checksum": "89a6aef8bf0eedaf6aa865502e4263beca75687ed9cb8e01424b6c941eb5e846",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "cbaf2162-805e-4deb-a733-3b0d5e2a66fc",
+    "ingest_source_id": "93f531f4-6370-42f4-bfc0-5cf48050f839",
+    "canonical_title": "太阳纸业   002078",
+    "language": "ko",
+    "ingested_at": "2025-11-10T15:43:36.530613Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "太阳纸业   002078.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "856420f0-f8da-4dc0-8a15-e7f8312f022a",
+      "note_id": "cbaf2162-805e-4deb-a733-3b0d5e2a66fc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.530616Z",
+      "content": "---\ntitle: 太阳纸业   002078\nupdated: 2013-09-24 08:25:34Z\ncreated: 2013-09-24 02:14:28Z\nsource: 招商证券\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n总股本 11，5亿\n<div>由山东兖州金太阳商贸有限公司、兖州市新兖镇集体资产经营管理有限公司、兖州是旭东浆纸销售有限公司、兖州是阳光纸制品有限公司。</div><div><br/></div><div>公司bbs&nbsp;</div><div><a HREF=\"http://sunpaper.cn/bbs/\">http://sunpaper.cn/bbs/</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "89a6aef8bf0eedaf6aa865502e4263beca75687ed9cb8e01424b6c941eb5e846",
+        "path": "backups/2023年6月/投资/太阳纸业   002078.html"
+      }
+    },
+    {
+      "id": "6c3a2b9c-553f-463d-9408-134639b93b1e",
+      "note_id": "cbaf2162-805e-4deb-a733-3b0d5e2a66fc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.530618Z",
+      "content": "---\ntitle: 太阳纸业   002078\nupdated: 2013-09-24 08:25:34Z\ncreated: 2013-09-24 02:14:28Z\nsource: 招商证券\n---\n\n总股本 11，5亿\n\n由山东兖州金太阳商贸有限公司、兖州市新兖镇集体资产经营管理有限公司、兖州是旭东浆纸销售有限公司、兖州是阳光纸制品有限公司。\n公司bbs \nhttp://sunpaper.cn/bbs/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ko",
+        "length": 206,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8f64c286-115c-4aa8-8891-e931ed3158ac",
+    "note_id": "cbaf2162-805e-4deb-a733-3b0d5e2a66fc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.530623Z",
+    "finished_at": "2025-11-10T15:43:36.530623Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6c973f1c-926c-4dae-bd58-03587078a06f",
+      "source_path": "backups/2023年6月/投资/太阳纸业   002078.html",
+      "checksum": "89a6aef8bf0eedaf6aa865502e4263beca75687ed9cb8e01424b6c941eb5e846"
+    },
+    "output_ref": {
+      "ingest_source": "93f531f4-6370-42f4-bfc0-5cf48050f839",
+      "note": "cbaf2162-805e-4deb-a733-3b0d5e2a66fc",
+      "variants": [
+        "856420f0-f8da-4dc0-8a15-e7f8312f022a",
+        "6c3a2b9c-553f-463d-9408-134639b93b1e"
+      ]
+    },
+    "error_detail": null
+  }
+}

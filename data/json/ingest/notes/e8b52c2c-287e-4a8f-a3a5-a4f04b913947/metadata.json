@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3092648c-b7c6-4959-8b03-fac3cccb912a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/一瓶180-190.html",
+    "collected_at": "2025-11-10T15:43:32.087254Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "b35cdfee37540e4a90ae838b040518164923718a1451d45e1f2fa506fdf3aa19",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e8b52c2c-287e-4a8f-a3a5-a4f04b913947",
+    "ingest_source_id": "3092648c-b7c6-4959-8b03-fac3cccb912a",
+    "canonical_title": "一瓶180-190",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.087258Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "一瓶180-190.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "84068ad9-7591-4af3-9418-b0cbcb454d9c",
+      "note_id": "e8b52c2c-287e-4a8f-a3a5-a4f04b913947",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.087261Z",
+      "content": "---\ntitle: 一瓶180-190\nupdated: 2019-02-20 04:02:43Z\ncreated: 2019-02-20 04:02:06Z\n---\n\n\n\n<en-note><div><span><span>一瓶180-190</span></span></div><div><span><span>两箱以上120-130</span></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "b35cdfee37540e4a90ae838b040518164923718a1451d45e1f2fa506fdf3aa19",
+        "path": "backups/2023年6月/IT技术/一瓶180-190.html"
+      }
+    },
+    {
+      "id": "40dfad2c-f42d-4d93-a65b-5ba954260b0b",
+      "note_id": "e8b52c2c-287e-4a8f-a3a5-a4f04b913947",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.087263Z",
+      "content": "---\ntitle: 一瓶180-190\nupdated: 2019-02-20 04:02:43Z\ncreated: 2019-02-20 04:02:06Z\n---\n\n一瓶180-190\n两箱以上120-130",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 107,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "baf04663-b435-4e51-b0b5-899da553b09a",
+    "note_id": "e8b52c2c-287e-4a8f-a3a5-a4f04b913947",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.087268Z",
+    "finished_at": "2025-11-10T15:43:32.087268Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b902587a-febb-4c1f-b713-d463eb11b258",
+      "source_path": "backups/2023年6月/IT技术/一瓶180-190.html",
+      "checksum": "b35cdfee37540e4a90ae838b040518164923718a1451d45e1f2fa506fdf3aa19"
+    },
+    "output_ref": {
+      "ingest_source": "3092648c-b7c6-4959-8b03-fac3cccb912a",
+      "note": "e8b52c2c-287e-4a8f-a3a5-a4f04b913947",
+      "variants": [
+        "84068ad9-7591-4af3-9418-b0cbcb454d9c",
+        "40dfad2c-f42d-4d93-a65b-5ba954260b0b"
+      ]
+    },
+    "error_detail": null
+  }
+}

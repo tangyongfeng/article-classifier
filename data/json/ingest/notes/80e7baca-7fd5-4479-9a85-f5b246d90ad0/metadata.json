@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a7a22059-f342-4a6c-b86f-83bcc8329de7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/卫计委委托统计.html",
+    "collected_at": "2025-11-10T15:43:35.193702Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e7dd38416c32ef7805ae915d8c4f7d740231a9a3c46c26b77d78073334fb98f2",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "80e7baca-7fd5-4479-9a85-f5b246d90ad0",
+    "ingest_source_id": "a7a22059-f342-4a6c-b86f-83bcc8329de7",
+    "canonical_title": "卫计委委托统计",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.193706Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "卫计委委托统计.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a5911500-c0c8-45cd-950e-0223246af7af",
+      "note_id": "80e7baca-7fd5-4479-9a85-f5b246d90ad0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.193708Z",
+      "content": "---\ntitle: 卫计委委托统计\nupdated: 2014-04-25 03:38:58Z\ncreated: 2014-04-25 03:24:12Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><br/></div>\n3700万失能半失能老人\n<div>60岁以上老人消耗了全国医疗费用的79%</div><div><br/></div><div><br/></div><div>辅具引进</div><div>高端医疗<br/>\n&nbsp;\n<div><br/></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e7dd38416c32ef7805ae915d8c4f7d740231a9a3c46c26b77d78073334fb98f2",
+        "path": "backups/2023年6月/医疗/卫计委委托统计.html"
+      }
+    },
+    {
+      "id": "631f4676-e12a-4911-bfd5-ccb2cb7090f3",
+      "note_id": "80e7baca-7fd5-4479-9a85-f5b246d90ad0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.193711Z",
+      "content": "---\ntitle: 卫计委委托统计\nupdated: 2014-04-25 03:38:58Z\ncreated: 2014-04-25 03:24:12Z\n---\n\n3700万失能半失能老人\n\n60岁以上老人消耗了全国医疗费用的79%\n辅具引进\n高端医疗",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 128,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "01a72ce9-ce04-41d6-9a93-46d649866318",
+    "note_id": "80e7baca-7fd5-4479-9a85-f5b246d90ad0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.193716Z",
+    "finished_at": "2025-11-10T15:43:35.193716Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "38304a7a-1b8e-4a70-bb06-50dad68b7b17",
+      "source_path": "backups/2023年6月/医疗/卫计委委托统计.html",
+      "checksum": "e7dd38416c32ef7805ae915d8c4f7d740231a9a3c46c26b77d78073334fb98f2"
+    },
+    "output_ref": {
+      "ingest_source": "a7a22059-f342-4a6c-b86f-83bcc8329de7",
+      "note": "80e7baca-7fd5-4479-9a85-f5b246d90ad0",
+      "variants": [
+        "a5911500-c0c8-45cd-950e-0223246af7af",
+        "631f4676-e12a-4911-bfd5-ccb2cb7090f3"
+      ]
+    },
+    "error_detail": null
+  }
+}

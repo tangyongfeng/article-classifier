@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "30c97a6a-80db-4076-9091-01d600b57838",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/佛学/西游记读书笔记.html",
+    "collected_at": "2025-11-10T15:43:35.111785Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "57eec4ec54bbca348ae7f3d3a83378f83cfc5385fd0a300cc72da595b089a3ec",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "955a0b26-4315-4900-98ba-3c511feeddfa",
+    "ingest_source_id": "30c97a6a-80db-4076-9091-01d600b57838",
+    "canonical_title": "西游记读书笔记",
+    "language": "ro",
+    "ingested_at": "2025-11-10T15:43:35.111789Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "西游记读书笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a75994b0-2ef0-4b02-b621-51a3dc1bbdf1",
+      "note_id": "955a0b26-4315-4900-98ba-3c511feeddfa",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.111791Z",
+      "content": "---\ntitle: 西游记读书笔记\nupdated: 2012-09-30 14:27:53Z\ncreated: 2012-09-30 14:27:25Z\nlatitude: 39.88866605\nlongitude: 116.63106542\naltitude: 39.5551\n---\n\n\n\n<en-note>道化贤良释化愚</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "57eec4ec54bbca348ae7f3d3a83378f83cfc5385fd0a300cc72da595b089a3ec",
+        "path": "backups/2023年6月/佛学/西游记读书笔记.html"
+      }
+    },
+    {
+      "id": "260769df-cf65-4930-8082-5e59d27838aa",
+      "note_id": "955a0b26-4315-4900-98ba-3c511feeddfa",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.111794Z",
+      "content": "---\ntitle: 西游记读书笔记\nupdated: 2012-09-30 14:27:53Z\ncreated: 2012-09-30 14:27:25Z\nlatitude: 39.88866605\nlongitude: 116.63106542\naltitude: 39.5551\n---\n\n道化贤良释化愚",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 155,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "12c618cc-2909-4e3a-a895-106e4ab87a2f",
+    "note_id": "955a0b26-4315-4900-98ba-3c511feeddfa",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.111799Z",
+    "finished_at": "2025-11-10T15:43:35.111799Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "44235889-95f9-4cb3-ba3c-aeaa422c8e4f",
+      "source_path": "backups/2023年6月/佛学/西游记读书笔记.html",
+      "checksum": "57eec4ec54bbca348ae7f3d3a83378f83cfc5385fd0a300cc72da595b089a3ec"
+    },
+    "output_ref": {
+      "ingest_source": "30c97a6a-80db-4076-9091-01d600b57838",
+      "note": "955a0b26-4315-4900-98ba-3c511feeddfa",
+      "variants": [
+        "a75994b0-2ef0-4b02-b621-51a3dc1bbdf1",
+        "260769df-cf65-4930-8082-5e59d27838aa"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ab16d08a-d49c-4527-81e6-381bb1b1046e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/hertz会员卡.html",
+    "collected_at": "2025-11-10T15:43:31.528109Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "61c91a8e19493e755cd874e5b9c0042269e32032b1ca13d169d6de125e390b6b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "f1c1370c-6878-44ab-b6da-dc236161bec0",
+    "ingest_source_id": "ab16d08a-d49c-4527-81e6-381bb1b1046e",
+    "canonical_title": "hertz会员卡",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.528113Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "hertz会员卡.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e4f7a6d0-89c8-437e-ad29-c44d7fe1f81e",
+      "note_id": "f1c1370c-6878-44ab-b6da-dc236161bec0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.528115Z",
+      "content": "---\ntitle: hertz会员卡\nupdated: 2016-05-13 15:10:29Z\ncreated: 2016-05-13 15:10:05Z\nauthor: tangyongfeng\n---\n\n\n\n<en-note><div>64701582</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "61c91a8e19493e755cd874e5b9c0042269e32032b1ca13d169d6de125e390b6b",
+        "path": "backups/2023年6月/IT技术/hertz会员卡.html"
+      }
+    },
+    {
+      "id": "c138ec46-7bf3-4c83-8fbb-4632ddbfafde",
+      "note_id": "f1c1370c-6878-44ab-b6da-dc236161bec0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.528118Z",
+      "content": "---\ntitle: hertz会员卡\nupdated: 2016-05-13 15:10:29Z\ncreated: 2016-05-13 15:10:05Z\nauthor: tangyongfeng\n---\n\n64701582",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 114,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8f0b7296-755c-4306-85e8-1adc904325c7",
+    "note_id": "f1c1370c-6878-44ab-b6da-dc236161bec0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.528122Z",
+    "finished_at": "2025-11-10T15:43:31.528123Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8d0a0b36-6513-4ef4-8042-e3ca575b4ea8",
+      "source_path": "backups/2023年6月/IT技术/hertz会员卡.html",
+      "checksum": "61c91a8e19493e755cd874e5b9c0042269e32032b1ca13d169d6de125e390b6b"
+    },
+    "output_ref": {
+      "ingest_source": "ab16d08a-d49c-4527-81e6-381bb1b1046e",
+      "note": "f1c1370c-6878-44ab-b6da-dc236161bec0",
+      "variants": [
+        "e4f7a6d0-89c8-437e-ad29-c44d7fe1f81e",
+        "c138ec46-7bf3-4c83-8fbb-4632ddbfafde"
+      ]
+    },
+    "error_detail": null
+  }
+}

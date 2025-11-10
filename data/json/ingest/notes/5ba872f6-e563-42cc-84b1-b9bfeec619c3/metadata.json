@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9de7a390-0dfc-420c-ae71-e42dd2e5b236",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/登录.html",
+    "collected_at": "2025-11-10T15:43:35.229580Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f22d720f5da2b4458f0cb73fde7d563b887fa8ba4bf0f4adeecf11a8e1c59458",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "5ba872f6-e563-42cc-84b1-b9bfeec619c3",
+    "ingest_source_id": "9de7a390-0dfc-420c-ae71-e42dd2e5b236",
+    "canonical_title": "登录",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.229585Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "登录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f24739e8-306a-40d4-a7fd-91372b8e51d0",
+      "note_id": "5ba872f6-e563-42cc-84b1-b9bfeec619c3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.229588Z",
+      "content": "---\ntitle: 登录\nupdated: 2014-02-18 06:45:20Z\ncreated: 2014-02-18 06:33:26Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、每个工作人员都有一个属于自己终生不变的id。\n<div>2、使用用户名/密码的方式传输，由服务器校验后返回结果。</div><div>3、找回密码服务</div><div>4、修改密码服务</div><div>5、用户管理服务</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f22d720f5da2b4458f0cb73fde7d563b887fa8ba4bf0f4adeecf11a8e1c59458",
+        "path": "backups/2023年6月/医疗/登录.html"
+      }
+    },
+    {
+      "id": "876b70b6-53e0-4b4e-b362-0a93e7d85646",
+      "note_id": "5ba872f6-e563-42cc-84b1-b9bfeec619c3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.229592Z",
+      "content": "---\ntitle: 登录\nupdated: 2014-02-18 06:45:20Z\ncreated: 2014-02-18 06:33:26Z\n---\n\n1、每个工作人员都有一个属于自己终生不变的id。\n\n2、使用用户名/密码的方式传输，由服务器校验后返回结果。\n3、找回密码服务\n4、修改密码服务\n5、用户管理服务",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 160,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d5213448-e6d6-415d-a4c7-6fde2278c665",
+    "note_id": "5ba872f6-e563-42cc-84b1-b9bfeec619c3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.229597Z",
+    "finished_at": "2025-11-10T15:43:35.229598Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "be9a812f-981e-47ff-aadc-632642215570",
+      "source_path": "backups/2023年6月/医疗/登录.html",
+      "checksum": "f22d720f5da2b4458f0cb73fde7d563b887fa8ba4bf0f4adeecf11a8e1c59458"
+    },
+    "output_ref": {
+      "ingest_source": "9de7a390-0dfc-420c-ae71-e42dd2e5b236",
+      "note": "5ba872f6-e563-42cc-84b1-b9bfeec619c3",
+      "variants": [
+        "f24739e8-306a-40d4-a7fd-91372b8e51d0",
+        "876b70b6-53e0-4b4e-b362-0a93e7d85646"
+      ]
+    },
+    "error_detail": null
+  }
+}

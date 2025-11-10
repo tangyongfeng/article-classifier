@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2321f8dd-a84b-40fa-bce3-83c3f0b4b254",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/office2019.html",
+    "collected_at": "2025-11-10T15:43:33.532218Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "vi",
+    "captured_at": null,
+    "checksum": "2ee175004a17509ade22e038d8a889cc7ed3b5c8da95fed7144bdf1c34bc1ce7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ba5165fb-40ed-4610-a82c-f1afad36b773",
+    "ingest_source_id": "2321f8dd-a84b-40fa-bce3-83c3f0b4b254",
+    "canonical_title": "office2019",
+    "language": "vi",
+    "ingested_at": "2025-11-10T15:43:33.532221Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "office2019.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7acf434d-713d-4c2d-86ce-a6b74af7870b",
+      "note_id": "ba5165fb-40ed-4610-a82c-f1afad36b773",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.532224Z",
+      "content": "---\ntitle: office2019\nupdated: 2020-02-12 08:01:02Z\ncreated: 2020-02-12 07:50:45Z\n---\n\n\n<en-note><div>账号：<a HREF=\"mailto:dw1407@vip365.tech\">dw1407@vip365.tech</a> 密码： &nbsp; &nbsp;jiVNGCLB2m6xUjDYJuZz</div><div><br/></div><div>mac2019 mac官网下载地址：（直接下载或者用mac迅雷下载）</div><div><a HREF=\"https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Office_16.18.18101400_Installer.pkg\">https://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Office_16.18.18101400_Installer.pkg</a></div><div><br/></div><div>安装好直接登录账号密码激活即可，首次登录会提示你修改密码，把密码改成自己的就可以了，修改完记住密码！</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2ee175004a17509ade22e038d8a889cc7ed3b5c8da95fed7144bdf1c34bc1ce7",
+        "path": "backups/2023年6月/个人的乱78糟/office2019.html"
+      }
+    },
+    {
+      "id": "aad8898a-7a8d-4aca-95cb-9807efae1f17",
+      "note_id": "ba5165fb-40ed-4610-a82c-f1afad36b773",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.532226Z",
+      "content": "---\ntitle: office2019\nupdated: 2020-02-12 08:01:02Z\ncreated: 2020-02-12 07:50:45Z\n---\n\n账号：\ndw1407@vip365.tech\n 密码：    jiVNGCLB2m6xUjDYJuZz\nmac2019 mac官网下载地址：（直接下载或者用mac迅雷下载）\nhttps://officecdn-microsoft-com.akamaized.net/pr/C1297A47-86C4-4C1F-97FA-950631F94777/OfficeMac/Microsoft_Office_16.18.18101400_Installer.pkg\n安装好直接登录账号密码激活即可，首次登录会提示你修改密码，把密码改成自己的就可以了，修改完记住密码！",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "vi",
+        "length": 366,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3d926d23-99c3-42d8-bda3-0d19146574f0",
+    "note_id": "ba5165fb-40ed-4610-a82c-f1afad36b773",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.532231Z",
+    "finished_at": "2025-11-10T15:43:33.532231Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "87c6d59d-2f98-4ef8-9e7e-7210602ca8a4",
+      "source_path": "backups/2023年6月/个人的乱78糟/office2019.html",
+      "checksum": "2ee175004a17509ade22e038d8a889cc7ed3b5c8da95fed7144bdf1c34bc1ce7"
+    },
+    "output_ref": {
+      "ingest_source": "2321f8dd-a84b-40fa-bce3-83c3f0b4b254",
+      "note": "ba5165fb-40ed-4610-a82c-f1afad36b773",
+      "variants": [
+        "7acf434d-713d-4c2d-86ce-a6b74af7870b",
+        "aad8898a-7a8d-4aca-95cb-9807efae1f17"
+      ]
+    },
+    "error_detail": null
+  }
+}

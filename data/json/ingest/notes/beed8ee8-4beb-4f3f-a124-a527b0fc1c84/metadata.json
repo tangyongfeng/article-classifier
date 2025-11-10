@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b2d30ca0-7203-4dfd-ad17-ead8153babe6",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/mutliprocessing example code.html",
+    "collected_at": "2025-11-10T15:43:31.780921Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "9b83ad22a89e6dc01f52b38fb1e61f58c06be7e3d0c2269d1b911e96f37ed738",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "beed8ee8-4beb-4f3f-a124-a527b0fc1c84",
+    "ingest_source_id": "b2d30ca0-7203-4dfd-ad17-ead8153babe6",
+    "canonical_title": "mutliprocessing example code",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.780925Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "mutliprocessing example code.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1d5387f3-dba9-4078-af48-2510689ed6a3",
+      "note_id": "beed8ee8-4beb-4f3f-a124-a527b0fc1c84",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.780928Z",
+      "content": "---\ntitle: mutliprocessing example code\nupdated: 2017-12-12 15:27:52Z\ncreated: 2017-12-12 15:27:22Z\nauthor: tangyongfeng\ntags:\n  - face_recognition\n  - mutliprocess\n  - python\n---\n\n\n<en-note><div><div STYLE=\"\"><code>import&nbsp;multiprocessing<br/>import&nbsp;logging<br/><br/>def&nbsp;g1(results,&nbsp;x):<br/>&nbsp; &nbsp; y&nbsp;=&nbsp;x*x<br/>&nbsp; &nbsp; print&nbsp;&quot;processing:&nbsp;y&nbsp;=&nbsp;%s&quot;&nbsp;%&nbsp;y<br/>&nbsp; &nbsp; results.append(y)<br/><br/>def&nbsp;f1():<br/>&nbsp; &nbsp; logger&nbsp;=&nbsp;multiprocessing.log_to_stderr()<br/>&nbsp; &nbsp; logger.setLevel(multiprocessing.SUBDEBUG)<br/>&nbsp; &nbsp; manager&nbsp;=&nbsp;multiprocessing.Manager()<br/>&nbsp; &nbsp; results&nbsp;=&nbsp;manager.list()<br/>&nbsp; &nbsp; pool&nbsp;=&nbsp;multiprocessing.Pool(processes=4)<br/>&nbsp; &nbsp; for&nbsp;(i)&nbsp;in&nbsp;range(0,15):<br/>&nbsp; &nbsp; &nbsp; &nbsp; pool.apply_async(g1,&nbsp;[results,&nbsp;i])<br/>&nbsp; &nbsp; pool.close()<br/>&nbsp; &nbsp; pool.join()<br/><br/><br/>def&nbsp;main():<br/>&nbsp; &nbsp; f1()<br/><br/>if&nbsp;__name__&nbsp;==&nbsp;&quot;__main__&quot;:<br/>&nbsp; &nbsp; main()</code></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9b83ad22a89e6dc01f52b38fb1e61f58c06be7e3d0c2269d1b911e96f37ed738",
+        "path": "backups/2023年6月/IT技术/mutliprocessing example code.html"
+      }
+    },
+    {
+      "id": "ec1fda1e-fa47-433e-a6c2-5cab9cef585c",
+      "note_id": "beed8ee8-4beb-4f3f-a124-a527b0fc1c84",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.780932Z",
+      "content": "---\ntitle: mutliprocessing example code\nupdated: 2017-12-12 15:27:52Z\ncreated: 2017-12-12 15:27:22Z\nauthor: tangyongfeng\ntags:\n  - face_recognition\n  - mutliprocess\n  - python\n---\n\nimport multiprocessing\nimport logging\ndef g1(results, x):\n    y = x*x\n    print \"processing: y = %s\" % y\n    results.append(y)\ndef f1():\n    logger = multiprocessing.log_to_stderr()\n    logger.setLevel(multiprocessing.SUBDEBUG)\n    manager = multiprocessing.Manager()\n    results = manager.list()\n    pool = multiprocessing.Pool(processes=4)\n    for (i) in range(0,15):\n        pool.apply_async(g1, [results, i])\n    pool.close()\n    pool.join()\ndef main():\n    f1()\nif __name__ == \"__main__\":\n    main()",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 685,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6da4546a-6a6d-4219-9086-fc8681ac815a",
+    "note_id": "beed8ee8-4beb-4f3f-a124-a527b0fc1c84",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.780937Z",
+    "finished_at": "2025-11-10T15:43:31.780937Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "db9ffa00-137c-4c42-bd20-5fb9aa023de1",
+      "source_path": "backups/2023年6月/IT技术/mutliprocessing example code.html",
+      "checksum": "9b83ad22a89e6dc01f52b38fb1e61f58c06be7e3d0c2269d1b911e96f37ed738"
+    },
+    "output_ref": {
+      "ingest_source": "b2d30ca0-7203-4dfd-ad17-ead8153babe6",
+      "note": "beed8ee8-4beb-4f3f-a124-a527b0fc1c84",
+      "variants": [
+        "1d5387f3-dba9-4078-af48-2510689ed6a3",
+        "ec1fda1e-fa47-433e-a6c2-5cab9cef585c"
+      ]
+    },
+    "error_detail": null
+  }
+}

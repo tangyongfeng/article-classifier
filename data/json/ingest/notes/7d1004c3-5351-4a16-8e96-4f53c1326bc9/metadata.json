@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1bb2e4b2-8ed5-48ee-af5e-d30318b29ebb",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/结婚12年写给佳佳的信.html",
+    "collected_at": "2025-11-10T15:43:35.503209Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "304ec1cf2ae6e9b1c8422adf76214127a1471e3cc5f7edc0a96691aaa8ee4b1c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7d1004c3-5351-4a16-8e96-4f53c1326bc9",
+    "ingest_source_id": "1bb2e4b2-8ed5-48ee-af5e-d30318b29ebb",
+    "canonical_title": "结婚12年写给佳佳的信",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.503213Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "结婚12年写给佳佳的信.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "581df513-1029-4542-9109-bc4abd0154d0",
+      "note_id": "7d1004c3-5351-4a16-8e96-4f53c1326bc9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.503216Z",
+      "content": "---\ntitle: 结婚12年写给佳佳的信\nupdated: 2019-10-07 12:10:40Z\ncreated: 2019-10-07 11:25:52Z\n---\n\n\n<en-note><div>我亲爱的老婆佳佳：</div><div><br/></div><div>&nbsp; &nbsp; &nbsp;  我在北京，比你早六个小时就进入了今天，今天是重阳节，12年前的今天，我们领了结婚证，我们成为了亲密的一家人。</div><div>&nbsp; &nbsp; &nbsp;  从那一天起，我就发誓，要和你美好的生活下去，无论遇到多少困难和险阻，都不分开。直到今天，这个信念始终在我心里，我还在坚持。</div><div>&nbsp; &nbsp; &nbsp; 这12年来，我们经历了太多事情，爱情的小船乘风破浪，增加了两个宝宝作为乘客，行驶到了万里之遥的德国，12年前，你可想到今天我们在德国有一个家，一个院子，院门口有一个秋千，院子里种着玫瑰？</div><div>&nbsp; &nbsp;  12年前你嫁给我的时候，我们开着我们的QQ，奔驰在从店到家的路上，12年后的今天，我在北京，你在德国。希望我能尽快的回到你的身边，陪伴你。</div><div>&nbsp; &nbsp;  这封信我写了好几个小时，心里打了腹稿，写下一段又删掉，再写再删，就像我们这12年，有开心的时刻也有不开心的时候，我希望把不开心的内容都删掉，只留下快乐的记忆。</div><div>&nbsp; &nbsp;  我们会一直快乐下去的，对吗？</div><div><br/></div><div>&nbsp; &nbsp; &nbsp; 爱你的</div><div><br/></div><div>老公</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "304ec1cf2ae6e9b1c8422adf76214127a1471e3cc5f7edc0a96691aaa8ee4b1c",
+        "path": "backups/2023年6月/德国1/结婚12年写给佳佳的信.html"
+      }
+    },
+    {
+      "id": "ac4b4a55-9b65-4c25-a7b0-71f3e193204e",
+      "note_id": "7d1004c3-5351-4a16-8e96-4f53c1326bc9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.503219Z",
+      "content": "---\ntitle: 结婚12年写给佳佳的信\nupdated: 2019-10-07 12:10:40Z\ncreated: 2019-10-07 11:25:52Z\n---\n\n我亲爱的老婆佳佳：\n       我在北京，比你早六个小时就进入了今天，今天是重阳节，12年前的今天，我们领了结婚证，我们成为了亲密的一家人。\n       从那一天起，我就发誓，要和你美好的生活下去，无论遇到多少困难和险阻，都不分开。直到今天，这个信念始终在我心里，我还在坚持。\n      这12年来，我们经历了太多事情，爱情的小船乘风破浪，增加了两个宝宝作为乘客，行驶到了万里之遥的德国，12年前，你可想到今天我们在德国有一个家，一个院子，院门口有一个秋千，院子里种着玫瑰？\n     12年前你嫁给我的时候，我们开着我们的QQ，奔驰在从店到家的路上，12年后的今天，我在北京，你在德国。希望我能尽快的回到你的身边，陪伴你。\n     这封信我写了好几个小时，心里打了腹稿，写下一段又删掉，再写再删，就像我们这12年，有开心的时刻也有不开心的时候，我希望把不开心的内容都删掉，只留下快乐的记忆。\n     我们会一直快乐下去的，对吗？\n      爱你的\n老公",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 521,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f20d59e7-13ac-4192-83fc-3dfe5ed07667",
+    "note_id": "7d1004c3-5351-4a16-8e96-4f53c1326bc9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.503224Z",
+    "finished_at": "2025-11-10T15:43:35.503224Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dce619c6-1d7a-4194-8de2-3cac567ce5a5",
+      "source_path": "backups/2023年6月/德国1/结婚12年写给佳佳的信.html",
+      "checksum": "304ec1cf2ae6e9b1c8422adf76214127a1471e3cc5f7edc0a96691aaa8ee4b1c"
+    },
+    "output_ref": {
+      "ingest_source": "1bb2e4b2-8ed5-48ee-af5e-d30318b29ebb",
+      "note": "7d1004c3-5351-4a16-8e96-4f53c1326bc9",
+      "variants": [
+        "581df513-1029-4542-9109-bc4abd0154d0",
+        "ac4b4a55-9b65-4c25-a7b0-71f3e193204e"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4e92ca46-48a3-42d6-8e1e-b8cd56de10c7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/vodafone账单.html",
+    "collected_at": "2025-11-10T15:43:35.356185Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "e24d3b2e891c0cf15bdbb47b3f1a3b92402007fe2fed0c7932323d2da213c7df",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d1d1aca4-82fc-40de-8f77-cbc11762d295",
+    "ingest_source_id": "4e92ca46-48a3-42d6-8e1e-b8cd56de10c7",
+    "canonical_title": "vodafone账单",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.356189Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "vodafone账单.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4e86d60c-2b61-4e9d-a31c-7d1cd1406bab",
+      "note_id": "d1d1aca4-82fc-40de-8f77-cbc11762d295",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.356192Z",
+      "content": "---\ntitle: vodafone账单\nupdated: 2022-01-20 12:50:09Z\ncreated: 2022-01-20 12:47:04Z\n---\n\n\n<en-note><div><br/></div><div><br/></div><div><br/></div><div><span STYLE=\"color:rgb(76, 76, 76);\">Referenz 300R99245241651</span></div><div><span STYLE=\"color:rgb(76, 76, 76);\">Mandat UMKBW00110032881008</span></div><div><span STYLE=\"color:rgb(76, 76, 76);\">Einreicher-ID DE45ZZZ00000186272</span></div><div><span STYLE=\"color:rgb(76, 76, 76);\">VODAFONE NRW GMBH KDNR.188</span></div><div><span STYLE=\"color:rgb(76, 76, 76);\">25.57，26.17，26.56</span></div><div><span STYLE=\"color:rgb(76, 76, 76);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></div><div><span STYLE=\"color:rgb(76, 76, 76);\"><span STYLE=\"--en-markholder:true;\"><br/></span></span></div><div><span STYLE=\"color:rgb(76, 76, 76);\">Referenz 137033035259</span></div><div><span STYLE=\"color:rgb(76, 76, 76);\">Mandat DE04CCB0001947650225A1046531</span></div><div><span STYLE=\"color:rgb(76, 76, 76);\">749E001</span></div><div><span STYLE=\"color:rgb(76, 76, 76);\">Einreicher-ID DE26ZZZ00000006194</span></div><div><span STYLE=\"color:rgb(76, 76, 76);\">32.97，42.98，42.98</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e24d3b2e891c0cf15bdbb47b3f1a3b92402007fe2fed0c7932323d2da213c7df",
+        "path": "backups/2023年6月/德国1/vodafone账单.html"
+      }
+    },
+    {
+      "id": "86ffe447-d312-49d7-9e2d-b374d0756164",
+      "note_id": "d1d1aca4-82fc-40de-8f77-cbc11762d295",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.356195Z",
+      "content": "---\ntitle: vodafone账单\nupdated: 2022-01-20 12:50:09Z\ncreated: 2022-01-20 12:47:04Z\n---\n\nReferenz 300R99245241651\nMandat UMKBW00110032881008\nEinreicher-ID DE45ZZZ00000186272\nVODAFONE NRW GMBH KDNR.188\n25.57，26.17，26.56\nReferenz 137033035259\nMandat DE04CCB0001947650225A1046531\n749E001\nEinreicher-ID DE26ZZZ00000006194\n32.97，42.98，42.98",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 333,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f1405279-6a3b-435d-887e-c9a2dcde9259",
+    "note_id": "d1d1aca4-82fc-40de-8f77-cbc11762d295",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.356200Z",
+    "finished_at": "2025-11-10T15:43:35.356201Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5a255743-4e1c-485b-84f9-2ce5610aec5c",
+      "source_path": "backups/2023年6月/德国1/vodafone账单.html",
+      "checksum": "e24d3b2e891c0cf15bdbb47b3f1a3b92402007fe2fed0c7932323d2da213c7df"
+    },
+    "output_ref": {
+      "ingest_source": "4e92ca46-48a3-42d6-8e1e-b8cd56de10c7",
+      "note": "d1d1aca4-82fc-40de-8f77-cbc11762d295",
+      "variants": [
+        "4e86d60c-2b61-4e9d-a31c-7d1cd1406bab",
+        "86ffe447-d312-49d7-9e2d-b374d0756164"
+      ]
+    },
+    "error_detail": null
+  }
+}

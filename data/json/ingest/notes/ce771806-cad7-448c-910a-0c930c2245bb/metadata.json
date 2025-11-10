@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "cd528478-872b-484b-8509-e862945de97d",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/跃儿/美国人的圣诞节一定家家户户挂满装饰品和五彩的圣诞灯，大大小小公园皆举行点灯仪式，召告圣诞节的来临，相.html",
+    "collected_at": "2025-11-10T15:43:37.084031Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "02bc1edd1e4da81ae350b3f85f692975e1fa400d4b8d856c10080bfdb28c811c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ce771806-cad7-448c-910a-0c930c2245bb",
+    "ingest_source_id": "cd528478-872b-484b-8509-e862945de97d",
+    "canonical_title": "美国人的圣诞节一定家家户户挂满装饰品和五彩的圣诞灯，大大小小公园皆举行点灯仪式，召告圣诞节的来临，相",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:37.084034Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "美国人的圣诞节一定家家户户挂满装饰品和五彩的圣诞灯，大大小小公园皆举行点灯仪式，召告圣诞节的来临，相.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4e77bcac-1f4a-4cc4-aa4d-667dbd16952a",
+      "note_id": "ce771806-cad7-448c-910a-0c930c2245bb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.084037Z",
+      "content": "---\ntitle: >-\n  美国人的圣诞节一定家家户户挂满装饰品和五彩的圣诞灯，大大小小公园皆举行点灯仪式，召告圣诞节的来临，相当温馨。而在Griffith公园的点灯仪式最大也最受注目。\nupdated: 2012-10-25 09:19:30Z\ncreated: 2012-10-25 09:19:30Z\nsource: http://www.chineseinla.com/la_holiday/id_13.html\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><table ALIGN=\"center\" BGCOLOR=\"#FFFFFF\" BORDER=\"0\" CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\"><tbody><tr><td ALIGN=\"left\" VALIGN=\"top\" WIDTH=\"98%\"><table ALIGN=\"center\" BORDER=\"0\" CELLPADDING=\"0\" CELLSPACING=\"0\" WIDTH=\"100%\"><tbody><tr><td VALIGN=\"top\"><table WIDTH=\"100%\"><tbody><tr><td VALIGN=\"top\" WIDTH=\"80%\"><div>美国人的圣诞节一定家家户户挂满装饰品和五彩的圣诞灯，大大小小公园皆举行点灯仪式，召告圣诞节的来临，相当温馨。而在Griffith公园的点灯仪式最大也最受注目。<br/>\n咨询电话：323-913-4688<br/></div></td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "02bc1edd1e4da81ae350b3f85f692975e1fa400d4b8d856c10080bfdb28c811c",
+        "path": "backups/2023年6月/跃儿/美国人的圣诞节一定家家户户挂满装饰品和五彩的圣诞灯，大大小小公园皆举行点灯仪式，召告圣诞节的来临，相.html"
+      }
+    },
+    {
+      "id": "0ea274ff-8188-47e3-a034-25dc0e0be610",
+      "note_id": "ce771806-cad7-448c-910a-0c930c2245bb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.084040Z",
+      "content": "---\ntitle: >-\n  美国人的圣诞节一定家家户户挂满装饰品和五彩的圣诞灯，大大小小公园皆举行点灯仪式，召告圣诞节的来临，相当温馨。而在Griffith公园的点灯仪式最大也最受注目。\nupdated: 2012-10-25 09:19:30Z\ncreated: 2012-10-25 09:19:30Z\nsource: http://www.chineseinla.com/la_holiday/id_13.html\n---\n\n美国人的圣诞节一定家家户户挂满装饰品和五彩的圣诞灯，大大小小公园皆举行点灯仪式，召告圣诞节的来临，相当温馨。而在Griffith公园的点灯仪式最大也最受注目。\n\n咨询电话：323-913-4688",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 316,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2779213d-0f2b-475d-b3cc-b74fe241986a",
+    "note_id": "ce771806-cad7-448c-910a-0c930c2245bb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:37.084045Z",
+    "finished_at": "2025-11-10T15:43:37.084045Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fcc13332-7b84-431b-ba26-9aa32608e62a",
+      "source_path": "backups/2023年6月/跃儿/美国人的圣诞节一定家家户户挂满装饰品和五彩的圣诞灯，大大小小公园皆举行点灯仪式，召告圣诞节的来临，相.html",
+      "checksum": "02bc1edd1e4da81ae350b3f85f692975e1fa400d4b8d856c10080bfdb28c811c"
+    },
+    "output_ref": {
+      "ingest_source": "cd528478-872b-484b-8509-e862945de97d",
+      "note": "ce771806-cad7-448c-910a-0c930c2245bb",
+      "variants": [
+        "4e77bcac-1f4a-4cc4-aa4d-667dbd16952a",
+        "0ea274ff-8188-47e3-a034-25dc0e0be610"
+      ]
+    },
+    "error_detail": null
+  }
+}

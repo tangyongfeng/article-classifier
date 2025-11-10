@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "59c13a93-5686-4fe5-bacf-36c70c547344",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/远东超市.html",
+    "collected_at": "2025-11-10T15:43:34.559499Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "854627b3f0b2dc76012219f738ae86334b8a2cbf9c9c8d52191a7782c0e67f88",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9faf93a1-afad-4a1b-bdbc-71ba44c61c9c",
+    "ingest_source_id": "59c13a93-5686-4fe5-bacf-36c70c547344",
+    "canonical_title": "远东超市",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.559503Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "远东超市.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6ccb0a05-616e-4f64-b275-5e2e04a9a23a",
+      "note_id": "9faf93a1-afad-4a1b-bdbc-71ba44c61c9c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.559506Z",
+      "content": "---\ntitle: 远东超市\nupdated: 2020-12-14 15:41:31Z\ncreated: 2020-12-14 15:40:53Z\n---\n\n\n\n<en-note><div>德国傅氏食品</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "854627b3f0b2dc76012219f738ae86334b8a2cbf9c9c8d52191a7782c0e67f88",
+        "path": "backups/2023年6月/个人的乱78糟/远东超市.html"
+      }
+    },
+    {
+      "id": "60058fba-ed13-4312-9ade-fe741ac23636",
+      "note_id": "9faf93a1-afad-4a1b-bdbc-71ba44c61c9c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.559509Z",
+      "content": "---\ntitle: 远东超市\nupdated: 2020-12-14 15:41:31Z\ncreated: 2020-12-14 15:40:53Z\n---\n\n德国傅氏食品",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 87,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9af54c5c-f92e-4f1b-ae72-b6ad491463a1",
+    "note_id": "9faf93a1-afad-4a1b-bdbc-71ba44c61c9c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.559514Z",
+    "finished_at": "2025-11-10T15:43:34.559515Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "09853473-b153-4916-9ac6-2ef550d9cf0d",
+      "source_path": "backups/2023年6月/个人的乱78糟/远东超市.html",
+      "checksum": "854627b3f0b2dc76012219f738ae86334b8a2cbf9c9c8d52191a7782c0e67f88"
+    },
+    "output_ref": {
+      "ingest_source": "59c13a93-5686-4fe5-bacf-36c70c547344",
+      "note": "9faf93a1-afad-4a1b-bdbc-71ba44c61c9c",
+      "variants": [
+        "6ccb0a05-616e-4f64-b275-5e2e04a9a23a",
+        "60058fba-ed13-4312-9ade-fe741ac23636"
+      ]
+    },
+    "error_detail": null
+  }
+}

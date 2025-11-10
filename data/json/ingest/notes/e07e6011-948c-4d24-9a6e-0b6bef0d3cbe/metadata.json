@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8df4db5b-542e-4f7c-b9d2-ad170d9771ce",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/笔记-4.html",
+    "collected_at": "2025-11-10T15:43:33.079631Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6f61862bae5ad91ea2d1edcb3688c435651bf9964dd3f3084be73d2201b87705",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e07e6011-948c-4d24-9a6e-0b6bef0d3cbe",
+    "ingest_source_id": "8df4db5b-542e-4f7c-b9d2-ad170d9771ce",
+    "canonical_title": "笔记-4",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.079635Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-4.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e99883c9-ca7d-4cdd-b851-ca452676a9e0",
+      "note_id": "e07e6011-948c-4d24-9a6e-0b6bef0d3cbe",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.079637Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-05-04 06:18:22Z\ncreated: 2014-05-04 06:18:17Z\n---\n\n\n\n<en-note>Facebook开源了动画引擎Pop，今天略看了一下，顺便翻译了一篇文章：Facebook Paper背后的动画引擎Pop介绍 http://t.cn/8sulobL。话说Facebook真心是良心企业啊，这么优秀的动画引擎都开源了，赞。大家要是觉着不错，可以转发给更多需要的人。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6f61862bae5ad91ea2d1edcb3688c435651bf9964dd3f3084be73d2201b87705",
+        "path": "backups/2023年6月/IT技术/笔记-4.html"
+      }
+    },
+    {
+      "id": "4f088f13-2f5e-4a46-b33a-33734a1b9668",
+      "note_id": "e07e6011-948c-4d24-9a6e-0b6bef0d3cbe",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.079640Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-05-04 06:18:22Z\ncreated: 2014-05-04 06:18:17Z\n---\n\nFacebook开源了动画引擎Pop，今天略看了一下，顺便翻译了一篇文章：Facebook Paper背后的动画引擎Pop介绍 http://t.cn/8sulobL。话说Facebook真心是良心企业啊，这么优秀的动画引擎都开源了，赞。大家要是觉着不错，可以转发给更多需要的人。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 219,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "80364ae5-f5d6-4774-bc10-b3656b6bcb9a",
+    "note_id": "e07e6011-948c-4d24-9a6e-0b6bef0d3cbe",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.079644Z",
+    "finished_at": "2025-11-10T15:43:33.079645Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "520fa4eb-df07-4b14-89ef-2738743a6b86",
+      "source_path": "backups/2023年6月/IT技术/笔记-4.html",
+      "checksum": "6f61862bae5ad91ea2d1edcb3688c435651bf9964dd3f3084be73d2201b87705"
+    },
+    "output_ref": {
+      "ingest_source": "8df4db5b-542e-4f7c-b9d2-ad170d9771ce",
+      "note": "e07e6011-948c-4d24-9a6e-0b6bef0d3cbe",
+      "variants": [
+        "e99883c9-ca7d-4cdd-b851-ca452676a9e0",
+        "4f088f13-2f5e-4a46-b33a-33734a1b9668"
+      ]
+    },
+    "error_detail": null
+  }
+}

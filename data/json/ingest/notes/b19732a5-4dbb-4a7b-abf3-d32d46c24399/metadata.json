@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "557288aa-9782-4b0e-9f2f-2457a0d6e7f4",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/笔记 位于 天津市.html",
+    "collected_at": "2025-11-10T15:43:34.336081Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "d406f5a56a04c3e1c398817fc351f2f61170e690ecdafd7c7de3cebcdc55f569",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b19732a5-4dbb-4a7b-abf3-d32d46c24399",
+    "ingest_source_id": "557288aa-9782-4b0e-9f2f-2457a0d6e7f4",
+    "canonical_title": "笔记 位于 天津市",
+    "language": "ro",
+    "ingested_at": "2025-11-10T15:43:34.336084Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记 位于 天津市.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "74ebd42f-2792-41d3-b9b1-baec0d8b7832",
+      "note_id": "b19732a5-4dbb-4a7b-abf3-d32d46c24399",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.336087Z",
+      "content": "---\ntitle: 笔记 位于 天津市\nupdated: 2012-06-29 06:34:02Z\ncreated: 2012-06-29 06:34:02Z\nlatitude: 39.08060000\nlongitude: 117.12900000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>彭建伟</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d406f5a56a04c3e1c398817fc351f2f61170e690ecdafd7c7de3cebcdc55f569",
+        "path": "backups/2023年6月/个人的乱78糟/笔记 位于 天津市.html"
+      }
+    },
+    {
+      "id": "dee902e7-ce51-4caf-a561-dd75af032acb",
+      "note_id": "b19732a5-4dbb-4a7b-abf3-d32d46c24399",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.336090Z",
+      "content": "---\ntitle: 笔记 位于 天津市\nupdated: 2012-06-29 06:34:02Z\ncreated: 2012-06-29 06:34:02Z\nlatitude: 39.08060000\nlongitude: 117.12900000\naltitude: 0.0000\n---\n\n彭建伟",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 152,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "52898333-c885-4320-8491-5f61601a2f3e",
+    "note_id": "b19732a5-4dbb-4a7b-abf3-d32d46c24399",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.336095Z",
+    "finished_at": "2025-11-10T15:43:34.336095Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "bd21f860-94ae-4ac3-9f88-e23de5a84501",
+      "source_path": "backups/2023年6月/个人的乱78糟/笔记 位于 天津市.html",
+      "checksum": "d406f5a56a04c3e1c398817fc351f2f61170e690ecdafd7c7de3cebcdc55f569"
+    },
+    "output_ref": {
+      "ingest_source": "557288aa-9782-4b0e-9f2f-2457a0d6e7f4",
+      "note": "b19732a5-4dbb-4a7b-abf3-d32d46c24399",
+      "variants": [
+        "74ebd42f-2792-41d3-b9b1-baec0d8b7832",
+        "dee902e7-ce51-4caf-a561-dd75af032acb"
+      ]
+    },
+    "error_detail": null
+  }
+}

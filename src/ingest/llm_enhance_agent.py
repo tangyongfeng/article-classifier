@@ -8,6 +8,7 @@ from typing import Iterable, Optional
 from uuid import UUID
 
 from ..llm import LLMDispatcher
+from ..llm.category_context import CategoryContextProvider, infer_repo_root
 from ..models import Extraction, ProcessingJournalEntry
 from ..storage import ProcessingJournalWriter, serialize_entity
 from ..utils import ensure_directory
@@ -30,6 +31,10 @@ class LLMEnhanceAgent:
         self._dispatcher = dispatcher
         journal_root = self._json_root / "_journal"
         self._journal_writer = journal_writer or ProcessingJournalWriter(journal_root)
+        repo_root = infer_repo_root(self._json_root)
+        self._category_provider: Optional[CategoryContextProvider] = (
+            CategoryContextProvider(repo_root) if repo_root else None
+        )
 
     def enhance_note(self, note_id: str, *, models: Optional[Iterable[str]] = None) -> dict:
         note_root = self._json_root / "notes" / note_id
@@ -43,11 +48,13 @@ class LLMEnhanceAgent:
         language = metadata.get("note", {}).get("language", "zh-cn")
 
         started_at = datetime.now(UTC)
+        category_guidance = self._category_provider.get_guidance() if self._category_provider else None
         response = self._dispatcher.summarize_note(
             title=title,
             content=clean_text,
             language=language,
             models=models,
+            category_guidance=category_guidance,
         )
         finished_at = datetime.now(UTC)
 
@@ -149,6 +156,8 @@ class LLMEnhanceAgent:
             "keywords": keywords[:5],
             "action_items": ["无"],
             "source": "fallback",
+            "category_path": ["未分类"],
+            "new_category_suggestion": None,
         }
 
     def _normalize_llm_payload(self, raw: dict, model_name: str) -> dict:
@@ -172,11 +181,35 @@ class LLMEnhanceAgent:
         if not action_items:
             action_items = ["无"]
 
+        category_path: list[str] = []
+        raw_category_path = raw.get("category_path")
+        if isinstance(raw_category_path, list):
+            for item in raw_category_path:
+                token = str(item).strip()
+                if token:
+                    category_path.append(token)
+        elif isinstance(raw_category_path, str):
+            token = raw_category_path.strip()
+            if token:
+                category_path.append(token)
+
+        new_category = raw.get("new_category_suggestion")
+        if isinstance(new_category, list):
+            new_category = [str(item).strip() for item in new_category if str(item).strip()]
+            if not new_category:
+                new_category = None
+        elif isinstance(new_category, str):
+            new_category = new_category.strip() or None
+        else:
+            new_category = None
+
         return {
             "summary": summary,
             "keywords": keywords[:5],
             "action_items": action_items,
             "source": model_name,
+            "category_path": category_path,
+            "new_category_suggestion": new_category,
         }
 
     def _create_extraction(

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "29f6f43a-8270-47ef-a3dd-5001fcb3ea4b",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/wochenende.html",
+    "collected_at": "2025-11-10T15:43:36.042736Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "ee8882dfe3401b9f2f04e332df42d2c31f9aea8f36713b9dada48c4190ca5f22",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "47afc291-148c-4d21-b55b-7e60848027dc",
+    "ingest_source_id": "29f6f43a-8270-47ef-a3dd-5001fcb3ea4b",
+    "canonical_title": "wochenende",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:36.042743Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "wochenende.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0969bf8c-d113-4622-90b3-e5a20ffbe788",
+      "note_id": "47afc291-148c-4d21-b55b-7e60848027dc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.042746Z",
+      "content": "---\ntitle: wochenende\nupdated: 2020-09-30 08:03:57Z\ncreated: 2020-09-30 07:47:16Z\n---\n\n\n\n<en-note><div>am samstag habe ich an einne Treffen teilgenommen. In dem Treffen stellte ich &nbsp;</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ee8882dfe3401b9f2f04e332df42d2c31f9aea8f36713b9dada48c4190ca5f22",
+        "path": "backups/2023年6月/德语2/wochenende.html"
+      }
+    },
+    {
+      "id": "8591e5c8-c63c-4d96-99c5-cb9b1c2b7960",
+      "note_id": "47afc291-148c-4d21-b55b-7e60848027dc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.042750Z",
+      "content": "---\ntitle: wochenende\nupdated: 2020-09-30 08:03:57Z\ncreated: 2020-09-30 07:47:16Z\n---\n\nam samstag habe ich an einne Treffen teilgenommen. In dem Treffen stellte ich",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 164,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8a90b54f-19c7-49b9-af39-cffcafba0da5",
+    "note_id": "47afc291-148c-4d21-b55b-7e60848027dc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.042756Z",
+    "finished_at": "2025-11-10T15:43:36.042757Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9223fccf-c524-4a4b-8233-913de58e13d4",
+      "source_path": "backups/2023年6月/德语2/wochenende.html",
+      "checksum": "ee8882dfe3401b9f2f04e332df42d2c31f9aea8f36713b9dada48c4190ca5f22"
+    },
+    "output_ref": {
+      "ingest_source": "29f6f43a-8270-47ef-a3dd-5001fcb3ea4b",
+      "note": "47afc291-148c-4d21-b55b-7e60848027dc",
+      "variants": [
+        "0969bf8c-d113-4622-90b3-e5a20ffbe788",
+        "8591e5c8-c63c-4d96-99c5-cb9b1c2b7960"
+      ]
+    },
+    "error_detail": null
+  }
+}

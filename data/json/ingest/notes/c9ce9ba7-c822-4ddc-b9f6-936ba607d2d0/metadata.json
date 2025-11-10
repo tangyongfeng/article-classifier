@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3e42a365-d28b-4596-8547-448321825e1b",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/mysql binlog日志自动清理及手动删除.html",
+    "collected_at": "2025-11-10T15:43:31.787017Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a30bf5be3e64f29fa7ebaa7f3368ce329671c348226dff8214af399a9bff397a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c9ce9ba7-c822-4ddc-b9f6-936ba607d2d0",
+    "ingest_source_id": "3e42a365-d28b-4596-8547-448321825e1b",
+    "canonical_title": "mysql binlog日志自动清理及手动删除",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.787022Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "mysql binlog日志自动清理及手动删除.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2a812009-55ed-4b44-80ef-606c6bd3958a",
+      "note_id": "c9ce9ba7-c822-4ddc-b9f6-936ba607d2d0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.787026Z",
+      "content": "---\ntitle: mysql binlog日志自动清理及手动删除\nupdated: 2022-08-21 19:09:09Z\ncreated: 2022-08-15 19:41:54Z\nauthor: tangyongfeng\ntags:\n  - mysql\n---\n\n\n\n<en-note><div><h1><br CLEAR=\"none\"/></h1><div><strong>简介：</strong></div><div><div><div><br CLEAR=\"none\"/></div><div>+关注继续查看</div></div><div><p>说明：</p><p>当开启MySQL数据库主从时，会产生大量如mysql-bin.00000* log的文件，这会大量耗费您的硬盘空间。</p><p>mysql-bin.000001</p><p>mysql-bin.000002</p><p>mysql-bin.000003</p><p>mysql-bin.000004</p><p>mysql-bin.000005</p><p>&hellip;</p><p>有三种解决方法：</p><p>1.<span>关闭mysql主从，关闭binlog；</span></p><p><br CLEAR=\"none\"/></p><p>2.<span>开启mysql主从，设置expire_logs_days；</span></p><p><br CLEAR=\"none\"/></p><p>3.手动清除binlog文件，&gt;&nbsp;<span>PURGE MASTER LOGS TO &lsquo;MySQL-bin.010&prime;;</span></p><p><span><br CLEAR=\"none\"/></span></p><p><span STYLE=\"font-size: 18px;\"><strong>上面三种都不对，只有一种，就是在my.cnf中加入如下</strong></span></p><p></p><div>[mysqld]<br CLEAR=\"none\"/>disable_log_bin<br CLEAR=\"none\"/></div><div><br CLEAR=\"none\"/></div><br CLEAR=\"none\"/><p><br CLEAR=\"none\"/></p><p>实现：</p><p><br CLEAR=\"none\"/></p><ol><li><p><strong><span>关闭mysql主从，关闭binlog</span></strong></p><p><br CLEAR=\"none\"/></p></li></ol><p># vim /etc/my.cnf &nbsp;//注释掉log-bin,binlog_format</p><p># Replication Master Server (default)</p><p># binary logging is required for replication</p><p><span># log-bin=mysql-bin</span></p><p># binary logging format - mixed recommended</p><p><span># binlog_format=mixed</span></p><p>然后重启数据库</p><p><br CLEAR=\"none\"/></p><p>2.重启mysql,开启mysql主从，设置expire_logs_days</p><p><br CLEAR=\"none\"/></p><p># vim /etc/my.cnf &nbsp;</p><p>//修改expire_logs_days,x是自动删除的天数，一般将x设置为短点，如10;</p><p><strong><span>expire_logs_days = x &nbsp;</span></strong></p><p>//二进制日志自动删除的天数。默认值为0,表示&ldquo;没有自动删除&rdquo;</p><p>此方法需要重启mysql，附录有关于expire_logs_days的英文说明</p><p><br CLEAR=\"none\"/></p><p>当然也可以不重启mysql,开启mysql主从，直接在mysql里设置expire_logs_days</p><p>&gt; show binary logs;</p><p>&gt; show variables like &apos;%log%&apos;;</p><p>&gt;&nbsp;<span>set global expire_logs_days = 10;</span></p><p>&nbsp;</p><p>3.手动清除binlog文件</p><p># /usr/local/mysql/bin/mysql -u root -p</p><p><br CLEAR=\"none\"/></p><p>&gt;&nbsp;<span>PURGE MASTER LOGS BEFORE DATE_SUB(CURRENT_DATE, INTERVAL 10 DAY);&nbsp;</span></p><p>&nbsp;&nbsp;</p><p>//删除10天前的MySQL binlog日志,附录2有关于PURGE MASTER LOGS手动删除用法及示例</p><p><br CLEAR=\"none\"/></p><p>&gt;<span>&nbsp;show master logs;</span></p><p>&nbsp;</p><p>也可以重置master，删除所有binlog文件：</p><p><br CLEAR=\"none\"/></p><p># /usr/local/mysql/bin/mysql -u root -p</p><p><br CLEAR=\"none\"/></p><p>&gt;&nbsp;<strong><span>reset master;&nbsp;</span></strong>&nbsp;//附录3有清除binlog时，对从mysql的影响说明</p><p>&nbsp;</p><p>附录：</p><p>1.expire_logs_days英文说明</p><p>Where X is the number of days you&rsquo;d like to keep them around. I would recommend 10, but this depends on how busy your MySQL server is and how fast these log files grow. Just make sure it is longer than the slowest slave takes to replicate the data from your master.</p><p>Just a side note: You know that you should do this anyway, but make sure you back up your mysql database. The binary log can be used to recover the database in certain situations; so having a backup ensures that if your database server does crash, you will be able to recover the data.</p><p><br CLEAR=\"none\"/></p><p>2.PURGE MASTER LOGS手动删除用法及示例,MASTER和BINARY是同义词</p><p><br CLEAR=\"none\"/></p><p>&gt; PURGE {MASTER | BINARY} LOGS TO &apos;log_name&apos;</p><p><br CLEAR=\"none\"/></p><p>&gt; PURGE {MASTER | BINARY} LOGS BEFORE &apos;date&apos;</p><p><br CLEAR=\"none\"/></p><p>删除指定的日志或日期之前的日志索引中的所有二进制日志。这些日志也会从记录在日志索引文件中的清单中被删除MySQL BIN-LOG 日志，这样被给定的日志成为第一个。</p><p><br CLEAR=\"none\"/></p><p>实例：</p><p>&gt; PURGE MASTER LOGS TO &apos;MySQL-bin.010&apos;; &nbsp;//清除MySQL-bin.010日志</p><p>&gt; PURGE MASTER LOGS BEFORE &apos;2008-06-22 13:00:00&apos;; &nbsp; //清除2008-06-22 13:00:00前binlog日志</p><p>&gt; PURGE MASTER LOGS BEFORE DATE_SUB( NOW( ), INTERVAL 3 DAY); &nbsp;//清除3天前binlog日志</p><p>BEFORE，变量的date自变量可以为&apos;YYYY-MM-DD hh:mm:ss&apos;格式。</p><p>&nbsp;</p><p>3.清除binlog时，对从mysql的影响</p><p>如果您有一个活性的从属服务器，该服务器当前正在读取您正在试图删除的日志之一，则本语句不会起作用，而是会失败，并伴随一个错误。不过，如果从属服务器是休止的，并且您碰巧清理了其想要读取的日志之一，则从属服务器启动后不能复制。当从属服务器正在复制时，本语句可以安全运行。您不需要停止它们。</p></div></div><br CLEAR=\"none\"/></div><div STYLE=\"position: absolute; left: -54px; top: -6.01042px;\"><div><br CLEAR=\"none\"/></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a30bf5be3e64f29fa7ebaa7f3368ce329671c348226dff8214af399a9bff397a",
+        "path": "backups/2023年6月/IT技术/mysql binlog日志自动清理及手动删除.html"
+      }
+    },
+    {
+      "id": "6f904e21-65dd-4462-9714-cb4d4a204d01",
+      "note_id": "c9ce9ba7-c822-4ddc-b9f6-936ba607d2d0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.787029Z",
+      "content": "---\ntitle: mysql binlog日志自动清理及手动删除\nupdated: 2022-08-21 19:09:09Z\ncreated: 2022-08-15 19:41:54Z\nauthor: tangyongfeng\ntags:\n  - mysql\n---\n\n简介：\n+关注继续查看\n说明：\n当开启MySQL数据库主从时，会产生大量如mysql-bin.00000* log的文件，这会大量耗费您的硬盘空间。\nmysql-bin.000001\nmysql-bin.000002\nmysql-bin.000003\nmysql-bin.000004\nmysql-bin.000005\n…\n有三种解决方法：\n1.\n关闭mysql主从，关闭binlog；\n2.\n开启mysql主从，设置expire_logs_days；\n3.手动清除binlog文件，> \nPURGE MASTER LOGS TO ‘MySQL-bin.010′;\n上面三种都不对，只有一种，就是在my.cnf中加入如下\n[mysqld]\ndisable_log_bin\n实现：\n关闭mysql主从，关闭binlog\n# vim /etc/my.cnf  //注释掉log-bin,binlog_format\n# Replication Master Server (default)\n# binary logging is required for replication\n# log-bin=mysql-bin\n# binary logging format - mixed recommended\n# binlog_format=mixed\n然后重启数据库\n2.重启mysql,开启mysql主从，设置expire_logs_days\n# vim /etc/my.cnf  \n//修改expire_logs_days,x是自动删除的天数，一般将x设置为短点，如10;\nexpire_logs_days = x  \n//二进制日志自动删除的天数。默认值为0,表示“没有自动删除”\n此方法需要重启mysql，附录有关于expire_logs_days的英文说明\n当然也可以不重启mysql,开启mysql主从，直接在mysql里设置expire_logs_days\n> show binary logs;\n> show variables like '%log%';\n> \nset global expire_logs_days = 10;\n \n3.手动清除binlog文件\n# /usr/local/mysql/bin/mysql -u root -p\n> \nPURGE MASTER LOGS BEFORE DATE_SUB(CURRENT_DATE, INTERVAL 10 DAY); \n  \n//删除10天前的MySQL binlog日志,附录2有关于PURGE MASTER LOGS手动删除用法及示例\n>\n show master logs;\n \n也可以重置master，删除所有binlog文件：\n# /usr/local/mysql/bin/mysql -u root -p\n> \nreset master; \n //附录3有清除binlog时，对从mysql的影响说明\n \n附录：\n1.expire_logs_days英文说明\nWhere X is the number of days you’d like to keep them around. I would recommend 10, but this depends on how busy your MySQL server is and how fast these log files grow. Just make sure it is longer than the slowest slave takes to replicate the data from your master.\nJust a side note: You know that you should do this anyway, but make sure you back up your mysql database. The binary log can be used to recover the database in certain situations; so having a backup ensures that if your database server does crash, you will be able to recover the data.\n2.PURGE MASTER LOGS手动删除用法及示例,MASTER和BINARY是同义词\n> PURGE {MASTER | BINARY} LOGS TO 'log_name'\n> PURGE {MASTER | BINARY} LOGS BEFORE 'date'\n删除指定的日志或日期之前的日志索引中的所有二进制日志。这些日志也会从记录在日志索引文件中的清单中被删除MySQL BIN-LOG 日志，这样被给定的日志成为第一个。\n实例：\n> PURGE MASTER LOGS TO 'MySQL-bin.010';  //清除MySQL-bin.010日志\n> PURGE MASTER LOGS BEFORE '2008-06-22 13:00:00';   //清除2008-06-22 13:00:00前binlog日志\n> PURGE MASTER LOGS BEFORE DATE_SUB( NOW( ), INTERVAL 3 DAY);  //清除3天前binlog日志\nBEFORE，变量的date自变量可以为'YYYY-MM-DD hh:mm:ss'格式。\n \n3.清除binlog时，对从mysql的影响\n如果您有一个活性的从属服务器，该服务器当前正在读取您正在试图删除的日志之一，则本语句不会起作用，而是会失败，并伴随一个错误。不过，如果从属服务器是休止的，并且您碰巧清理了其想要读取的日志之一，则从属服务器启动后不能复制。当从属服务器正在复制时，本语句可以安全运行。您不需要停止它们。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 2624,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "511cb256-c179-4522-b60f-bb6772e58ec8",
+    "note_id": "c9ce9ba7-c822-4ddc-b9f6-936ba607d2d0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.787037Z",
+    "finished_at": "2025-11-10T15:43:31.787037Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f2543d44-843e-49f3-99f5-cc69b08d4395",
+      "source_path": "backups/2023年6月/IT技术/mysql binlog日志自动清理及手动删除.html",
+      "checksum": "a30bf5be3e64f29fa7ebaa7f3368ce329671c348226dff8214af399a9bff397a"
+    },
+    "output_ref": {
+      "ingest_source": "3e42a365-d28b-4596-8547-448321825e1b",
+      "note": "c9ce9ba7-c822-4ddc-b9f6-936ba607d2d0",
+      "variants": [
+        "2a812009-55ed-4b44-80ef-606c6bd3958a",
+        "6f904e21-65dd-4462-9714-cb4d4a204d01"
+      ]
+    },
+    "error_detail": null
+  }
+}

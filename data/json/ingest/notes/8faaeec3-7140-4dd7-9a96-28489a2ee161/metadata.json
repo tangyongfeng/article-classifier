@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "fb718f83-70ba-4daa-bc06-eb1e90cd8ee8",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/跃儿/优惠码.html",
+    "collected_at": "2025-11-10T15:43:36.993836Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8cb886c9290ce26bbc075c79efbdb21a61457543b6df5f013728489f2191c122",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "8faaeec3-7140-4dd7-9a96-28489a2ee161",
+    "ingest_source_id": "fb718f83-70ba-4daa-bc06-eb1e90cd8ee8",
+    "canonical_title": "优惠码",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.993840Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "优惠码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "7249f8fc-f29e-414d-ac60-bf52577d554c",
+      "note_id": "8faaeec3-7140-4dd7-9a96-28489a2ee161",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.993843Z",
+      "content": "---\ntitle: 优惠码\nupdated: 2013-03-25 03:08:07Z\ncreated: 2013-03-25 03:07:58Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n凡在2012.11.15&mdash;2013.04.30期间预定AVIS安飞士租车美国或加拿大境内自驾车辆, 并输入全球优惠代码：H228201\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8cb886c9290ce26bbc075c79efbdb21a61457543b6df5f013728489f2191c122",
+        "path": "backups/2023年6月/跃儿/优惠码.html"
+      }
+    },
+    {
+      "id": "e025263f-a126-45fb-bdec-8fc25cf30b0e",
+      "note_id": "8faaeec3-7140-4dd7-9a96-28489a2ee161",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.993845Z",
+      "content": "---\ntitle: 优惠码\nupdated: 2013-03-25 03:08:07Z\ncreated: 2013-03-25 03:07:58Z\n---\n\n凡在2012.11.15—2013.04.30期间预定AVIS安飞士租车美国或加拿大境内自驾车辆, 并输入全球优惠代码：H228201",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 147,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "853a0ca5-065d-4689-958f-b6180f547781",
+    "note_id": "8faaeec3-7140-4dd7-9a96-28489a2ee161",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.993850Z",
+    "finished_at": "2025-11-10T15:43:36.993851Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9e787a2c-fac8-46b9-988a-4a1b267f705e",
+      "source_path": "backups/2023年6月/跃儿/优惠码.html",
+      "checksum": "8cb886c9290ce26bbc075c79efbdb21a61457543b6df5f013728489f2191c122"
+    },
+    "output_ref": {
+      "ingest_source": "fb718f83-70ba-4daa-bc06-eb1e90cd8ee8",
+      "note": "8faaeec3-7140-4dd7-9a96-28489a2ee161",
+      "variants": [
+        "7249f8fc-f29e-414d-ac60-bf52577d554c",
+        "e025263f-a126-45fb-bdec-8fc25cf30b0e"
+      ]
+    },
+    "error_detail": null
+  }
+}

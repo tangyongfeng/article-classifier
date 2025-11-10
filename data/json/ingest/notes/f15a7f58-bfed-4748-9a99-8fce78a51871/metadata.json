@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "029db285-218c-4541-9db3-37688f775d80",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语3/动词变位-1.html",
+    "collected_at": "2025-11-10T15:43:36.158421Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "414dde6137bff1ff100d5f8fab9e1b8ca896719e274efa09d4a55bf08f033ed4",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "f15a7f58-bfed-4748-9a99-8fce78a51871",
+    "ingest_source_id": "029db285-218c-4541-9db3-37688f775d80",
+    "canonical_title": "动词变位-1",
+    "language": "no",
+    "ingested_at": "2025-11-10T15:43:36.158425Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "动词变位-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "524f5a43-e0b5-4bfd-b435-2ae3c7328c6a",
+      "note_id": "f15a7f58-bfed-4748-9a99-8fce78a51871",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.158428Z",
+      "content": "---\ntitle: 动词变位\nupdated: 2020-02-13 11:22:04Z\ncreated: 2020-02-13 11:13:45Z\n---\n\n\n\n<en-note><div>词根根据谁来变化</div><div><br/></div><div><br/></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; kommen</div><div>我 &nbsp; &nbsp; ich. &nbsp; &nbsp; &nbsp; komm<b>e</b></div><div><span STYLE=\"-webkit-text-size-adjust: 100%;\">你 &nbsp; &nbsp; du. &nbsp; &nbsp; &nbsp; &nbsp;komm</span><b STYLE=\"-webkit-text-size-adjust: 100%;\">st</b></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;er</div><div>Ta &nbsp; &nbsp; &nbsp;sie. &nbsp; &nbsp; &nbsp; &nbsp;komm</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; es</div><div>我们 &nbsp;wir. &nbsp; &nbsp; &nbsp; &nbsp;komm<b>en</b></div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ihr. &nbsp; &nbsp; &nbsp; &nbsp; kommt</div><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sie/sie. &nbsp;komm<b>en</b></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "414dde6137bff1ff100d5f8fab9e1b8ca896719e274efa09d4a55bf08f033ed4",
+        "path": "backups/2023年6月/德语3/动词变位-1.html"
+      }
+    },
+    {
+      "id": "f921acfc-851d-48ca-aba2-1ca38897c28d",
+      "note_id": "f15a7f58-bfed-4748-9a99-8fce78a51871",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.158430Z",
+      "content": "---\ntitle: 动词变位\nupdated: 2020-02-13 11:22:04Z\ncreated: 2020-02-13 11:13:45Z\n---\n\n词根根据谁来变化\n                  kommen\n我     ich.       komm\ne\n你     du.        komm\nst\n         er\nTa      sie.        komm\n          es\n我们  wir.        komm\nen\n          ihr.         kommt\n          sie/sie.  komm\nen",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 294,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b0d1ec7a-3381-4d37-b5ce-4d8ac20a2268",
+    "note_id": "f15a7f58-bfed-4748-9a99-8fce78a51871",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.158435Z",
+    "finished_at": "2025-11-10T15:43:36.158436Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0f92dc94-ae78-461e-aec2-15df99126c56",
+      "source_path": "backups/2023年6月/德语3/动词变位-1.html",
+      "checksum": "414dde6137bff1ff100d5f8fab9e1b8ca896719e274efa09d4a55bf08f033ed4"
+    },
+    "output_ref": {
+      "ingest_source": "029db285-218c-4541-9db3-37688f775d80",
+      "note": "f15a7f58-bfed-4748-9a99-8fce78a51871",
+      "variants": [
+        "524f5a43-e0b5-4bfd-b435-2ae3c7328c6a",
+        "f921acfc-851d-48ca-aba2-1ca38897c28d"
+      ]
+    },
+    "error_detail": null
+  }
+}

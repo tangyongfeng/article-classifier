@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a0caac65-560a-483d-b5f8-5b480b12dcff",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/易经/否卦.html",
+    "collected_at": "2025-11-10T15:43:36.796766Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c60f06e2e5698d80e05a18cbb00a9208dbabf6217a4c77e90f8bf28ff3cbd9f3",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6950105b-5e08-47b8-9ed5-5d270254f8df",
+    "ingest_source_id": "a0caac65-560a-483d-b5f8-5b480b12dcff",
+    "canonical_title": "否卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.796770Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "否卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "8dfaf1ea-53f4-406a-a6b9-3885b899e7de",
+      "note_id": "6950105b-5e08-47b8-9ed5-5d270254f8df",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.796773Z",
+      "content": "---\ntitle: 否卦\nupdated: 2018-11-11 15:59:14Z\ncreated: 2018-11-11 14:54:30Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>否之匪人，不利君子贞，大往小来。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 462px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">上九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">倾否，先否后喜。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九五</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">休否，大人吉。其亡其亡，系于苞桑。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" width=\"115\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九四</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">有命，无咎，畴离祉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">包羞</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六二</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">包承，小人吉，大人否。亨。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media><br/></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">初六</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 462px; padding: 8px;\">拔茅茹以其汇。贞吉，亨。</td></tr></tbody></table><div><br/></div><div>初六正应九四。即中且正。</div><div>最底下不能包。</div><div>阳爻下面有三个阴爻表示获得民众的支持。</div><div>九五正应。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c60f06e2e5698d80e05a18cbb00a9208dbabf6217a4c77e90f8bf28ff3cbd9f3",
+        "path": "backups/2023年6月/易经/否卦.html"
+      }
+    },
+    {
+      "id": "785964bc-f96f-40f7-bcdb-3330996e3015",
+      "note_id": "6950105b-5e08-47b8-9ed5-5d270254f8df",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.796776Z",
+      "content": "---\ntitle: 否卦\nupdated: 2018-11-11 15:59:14Z\ncreated: 2018-11-11 14:54:30Z\nauthor: tangyongfeng@gmail.com\n---\n\n否之匪人，不利君子贞，大往小来。\n上九\n倾否，先否后喜。\n九五\n休否，大人吉。其亡其亡，系于苞桑。\n九四\n有命，无咎，畴离祉。\n六三\n包羞\n六二\n包承，小人吉，大人否。亨。\n初六\n拔茅茹以其汇。贞吉，亨。\n初六正应九四。即中且正。\n最底下不能包。\n阳爻下面有三个阴爻表示获得民众的支持。\n九五正应。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 259,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "786a86a6-e859-4a97-8222-07d517baee14",
+    "note_id": "6950105b-5e08-47b8-9ed5-5d270254f8df",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.796782Z",
+    "finished_at": "2025-11-10T15:43:36.796782Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "67a41991-2bbc-4fbf-ab42-3d2a920b8807",
+      "source_path": "backups/2023年6月/易经/否卦.html",
+      "checksum": "c60f06e2e5698d80e05a18cbb00a9208dbabf6217a4c77e90f8bf28ff3cbd9f3"
+    },
+    "output_ref": {
+      "ingest_source": "a0caac65-560a-483d-b5f8-5b480b12dcff",
+      "note": "6950105b-5e08-47b8-9ed5-5d270254f8df",
+      "variants": [
+        "8dfaf1ea-53f4-406a-a6b9-3885b899e7de",
+        "785964bc-f96f-40f7-bcdb-3330996e3015"
+      ]
+    },
+    "error_detail": null
+  }
+}

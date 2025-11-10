@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "be662e5d-8d9a-49e4-9bc4-884b406b405f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/IBM电话会议拨入号码.html",
+    "collected_at": "2025-11-10T15:43:34.672240Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "1e55fba1513eb3694ac474ab505b17a8fad35a76323cdbabba228d84783203ee",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "afa0fd28-afdd-4f38-8b49-25c610b2bf5e",
+    "ingest_source_id": "be662e5d-8d9a-49e4-9bc4-884b406b405f",
+    "canonical_title": "IBM电话会议拨入号码",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.672244Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "IBM电话会议拨入号码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a2ec3268-c731-4f1b-ac76-e227243a9ca6",
+      "note_id": "afa0fd28-afdd-4f38-8b49-25c610b2bf5e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.672247Z",
+      "content": "---\ntitle: IBM电话会议拨入号码\nupdated: 2013-02-01 03:49:39Z\ncreated: 2013-02-01 03:47:58Z\ntags:\n  - IBM\n---\n\n\n\n<en-note><br/>第一步：拨电话：108007111071 或者 4001201478<br/>第二步：输入会议号码：17906525#\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "1e55fba1513eb3694ac474ab505b17a8fad35a76323cdbabba228d84783203ee",
+        "path": "backups/2023年6月/中彩相关/IBM电话会议拨入号码.html"
+      }
+    },
+    {
+      "id": "6ba9a8b5-b34e-4be0-879e-5ee7cc6f4034",
+      "note_id": "afa0fd28-afdd-4f38-8b49-25c610b2bf5e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.672250Z",
+      "content": "---\ntitle: IBM电话会议拨入号码\nupdated: 2013-02-01 03:49:39Z\ncreated: 2013-02-01 03:47:58Z\ntags:\n  - IBM\n---\n\n第一步：拨电话：108007111071 或者 4001201478\n第二步：输入会议号码：17906525#",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 157,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0458e3a7-81a7-49fc-9a69-cd74e86dff46",
+    "note_id": "afa0fd28-afdd-4f38-8b49-25c610b2bf5e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.672255Z",
+    "finished_at": "2025-11-10T15:43:34.672255Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "51fe8585-80ef-4e56-972a-01b3f4515d3f",
+      "source_path": "backups/2023年6月/中彩相关/IBM电话会议拨入号码.html",
+      "checksum": "1e55fba1513eb3694ac474ab505b17a8fad35a76323cdbabba228d84783203ee"
+    },
+    "output_ref": {
+      "ingest_source": "be662e5d-8d9a-49e4-9bc4-884b406b405f",
+      "note": "afa0fd28-afdd-4f38-8b49-25c610b2bf5e",
+      "variants": [
+        "a2ec3268-c731-4f1b-ac76-e227243a9ca6",
+        "6ba9a8b5-b34e-4be0-879e-5ee7cc6f4034"
+      ]
+    },
+    "error_detail": null
+  }
+}

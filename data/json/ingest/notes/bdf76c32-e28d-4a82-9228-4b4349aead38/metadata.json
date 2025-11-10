@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "964d33f2-1ac8-4d9a-8fdd-1ef2b9d3f902",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/SSH 登录时提示 Permission denied (publickey,gssapi-keye.html",
+    "collected_at": "2025-11-10T15:43:31.264527Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "7206cb63e4ae6cb4fa9fe1b9b2a096057e077299c2356ca24f71e01e573ea9ee",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "bdf76c32-e28d-4a82-9228-4b4349aead38",
+    "ingest_source_id": "964d33f2-1ac8-4d9a-8fdd-1ef2b9d3f902",
+    "canonical_title": "SSH 登录时提示 Permission denied (publickey,gssapi-keye",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.264532Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "SSH 登录时提示 Permission denied (publickey,gssapi-keye.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "fcdabb13-4069-4252-bf1d-e0ca310291a1",
+      "note_id": "bdf76c32-e28d-4a82-9228-4b4349aead38",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.264535Z",
+      "content": "---\ntitle: SSH 登录时提示 Permission denied (publickey,gssapi-keyex,gssapi-with-mic).\nupdated: 2019-10-11 03:35:58Z\ncreated: 2019-09-20 12:44:18Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><font FACE=\"Courier\">注意：本地证书必须是400权限</font></div><div><span STYLE=\"font-family: Courier;\"><br/></span></div><div><span STYLE=\"font-family: Courier;\">在服务器上新建了一个用户，让用户可以使用 ssh key 的方式登录 ，所以我在用户主目录下新建了一个 .ssh 目录，又在这个目录下面添加了一个 authorized_keys 文件。然后把我本地的 ssh 公钥的内容放在了服务器上的 autorized_keys 文件里。</span></div><div><span STYLE=\"font-family: Courier;\">在本地 SSH 登录服务器，使用新创建的用户，提示：</span></div><div><span STYLE=\"font-family: Courier;\">Permission denied (publickey,gssapi-keyex,gssapi-with-mic).</span></div><div><br/></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">原因是用户主目录下的 .ssh 目录与它里面的 authorized_keys 文件的权限不能。</span></div><div><br/></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">.ssh 目录的权限应该是 700，authorized_keys 这个文件的权限应该设置成 600 。</span></div><div><br/></div><div><span STYLE=\"font-family: Courier;\">注意 .ssh 目录与 authorized_keys 的拥有者都必须是你创建的那个用户。比如我创建了一个叫 wanghao 的用户，寻它应该是 .ssh 与 authorized_keys 的拥有者，并且必须要设置合适的权限：</span></div><div><span STYLE=\"font-family: Courier;\">chmod 700 ~/.ssh</span></div><div><span STYLE=\"font-family: Courier;\">chmod 600 ~/.ssh_authorized_keys</span></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7206cb63e4ae6cb4fa9fe1b9b2a096057e077299c2356ca24f71e01e573ea9ee",
+        "path": "backups/2023年6月/IT技术/SSH 登录时提示 Permission denied (publickey,gssapi-keye.html"
+      }
+    },
+    {
+      "id": "e2c47265-dd71-481f-b4b9-ba1136296838",
+      "note_id": "bdf76c32-e28d-4a82-9228-4b4349aead38",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.264538Z",
+      "content": "---\ntitle: SSH 登录时提示 Permission denied (publickey,gssapi-keyex,gssapi-with-mic).\nupdated: 2019-10-11 03:35:58Z\ncreated: 2019-09-20 12:44:18Z\nauthor: tangyongfeng@gmail.com\n---\n\n注意：本地证书必须是400权限\n在服务器上新建了一个用户，让用户可以使用 ssh key 的方式登录 ，所以我在用户主目录下新建了一个 .ssh 目录，又在这个目录下面添加了一个 authorized_keys 文件。然后把我本地的 ssh 公钥的内容放在了服务器上的 autorized_keys 文件里。\n在本地 SSH 登录服务器，使用新创建的用户，提示：\nPermission denied (publickey,gssapi-keyex,gssapi-with-mic).\n原因是用户主目录下的 .ssh 目录与它里面的 authorized_keys 文件的权限不能。\n.ssh 目录的权限应该是 700，authorized_keys 这个文件的权限应该设置成 600 。\n注意 .ssh 目录与 authorized_keys 的拥有者都必须是你创建的那个用户。比如我创建了一个叫 wanghao 的用户，寻它应该是 .ssh 与 authorized_keys 的拥有者，并且必须要设置合适的权限：\nchmod 700 ~/.ssh\nchmod 600 ~/.ssh_authorized_keys",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 685,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "68b0ae9e-9909-4d62-9636-89fd3f5d4251",
+    "note_id": "bdf76c32-e28d-4a82-9228-4b4349aead38",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.264543Z",
+    "finished_at": "2025-11-10T15:43:31.264544Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "64c5e0e3-27fa-4872-8816-8ec440ed2aec",
+      "source_path": "backups/2023年6月/IT技术/SSH 登录时提示 Permission denied (publickey,gssapi-keye.html",
+      "checksum": "7206cb63e4ae6cb4fa9fe1b9b2a096057e077299c2356ca24f71e01e573ea9ee"
+    },
+    "output_ref": {
+      "ingest_source": "964d33f2-1ac8-4d9a-8fdd-1ef2b9d3f902",
+      "note": "bdf76c32-e28d-4a82-9228-4b4349aead38",
+      "variants": [
+        "fcdabb13-4069-4252-bf1d-e0ca310291a1",
+        "e2c47265-dd71-481f-b4b9-ba1136296838"
+      ]
+    },
+    "error_detail": null
+  }
+}

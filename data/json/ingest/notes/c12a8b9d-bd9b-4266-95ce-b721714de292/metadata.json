@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "67a6b967-8450-45e9-9a8b-b35c1417c056",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/视频彩票发展前景报告.html",
+    "collected_at": "2025-11-10T15:43:34.974427Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "2c897fe595ab94615cb2a807bcce0f8366e5b595f280aa9468d5be09ddec42b2",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c12a8b9d-bd9b-4266-95ce-b721714de292",
+    "ingest_source_id": "67a6b967-8450-45e9-9a8b-b35c1417c056",
+    "canonical_title": "视频彩票发展前景报告",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.974430Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "视频彩票发展前景报告.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bc6fd167-cb64-4721-b14b-bd1cf02c7199",
+      "note_id": "c12a8b9d-bd9b-4266-95ce-b721714de292",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.974433Z",
+      "content": "---\ntitle: 视频彩票发展前景报告\nupdated: 2013-03-22 01:53:36Z\ncreated: 2013-03-22 01:52:05Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n视频彩票发展前景报告\n<div>视频彩票改进措施报告</div><div><br/></div><div>用户群体</div><div>网络媒体的变化</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2c897fe595ab94615cb2a807bcce0f8366e5b595f280aa9468d5be09ddec42b2",
+        "path": "backups/2023年6月/中彩相关/视频彩票发展前景报告.html"
+      }
+    },
+    {
+      "id": "019bfe7a-d62b-4b1d-ab46-43f556afb0af",
+      "note_id": "c12a8b9d-bd9b-4266-95ce-b721714de292",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.974435Z",
+      "content": "---\ntitle: 视频彩票发展前景报告\nupdated: 2013-03-22 01:53:36Z\ncreated: 2013-03-22 01:52:05Z\n---\n\n视频彩票发展前景报告\n\n视频彩票改进措施报告\n用户群体\n网络媒体的变化",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 122,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "93b67722-0ee0-44b9-b733-85ba6a74498c",
+    "note_id": "c12a8b9d-bd9b-4266-95ce-b721714de292",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.974440Z",
+    "finished_at": "2025-11-10T15:43:34.974440Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b2485e12-10cf-4f49-88c7-df7094b18e57",
+      "source_path": "backups/2023年6月/中彩相关/视频彩票发展前景报告.html",
+      "checksum": "2c897fe595ab94615cb2a807bcce0f8366e5b595f280aa9468d5be09ddec42b2"
+    },
+    "output_ref": {
+      "ingest_source": "67a6b967-8450-45e9-9a8b-b35c1417c056",
+      "note": "c12a8b9d-bd9b-4266-95ce-b721714de292",
+      "variants": [
+        "bc6fd167-cb64-4721-b14b-bd1cf02c7199",
+        "019bfe7a-d62b-4b1d-ab46-43f556afb0af"
+      ]
+    },
+    "error_detail": null
+  }
+}

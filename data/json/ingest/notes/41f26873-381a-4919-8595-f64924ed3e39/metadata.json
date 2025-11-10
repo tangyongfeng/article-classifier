@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3374f5dd-bc8f-4042-97ea-2ca81df1cbfa",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/delete.cs.html",
+    "collected_at": "2025-11-10T15:43:31.457200Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8d6251938837b046d1a6e2cb4bb98fb3184da6fc6db7e7265f1e6f07ed3b2b98",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "41f26873-381a-4919-8595-f64924ed3e39",
+    "ingest_source_id": "3374f5dd-bc8f-4042-97ea-2ca81df1cbfa",
+    "canonical_title": "delete.cs",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.457204Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "delete.cs.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "07d447cb-4929-43c4-859c-897caeb6119d",
+      "note_id": "41f26873-381a-4919-8595-f64924ed3e39",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.457206Z",
+      "content": "---\ntitle: delete.cs\nupdated: 2013-06-08 07:58:01Z\ncreated: 2013-06-08 07:57:48Z\ntags:\n  - SQLite\n  - c#\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\ndb = new SQLiteDatabase();<br/>\nString recipeID = &quot;12&quot;;<br/>\ndb.Delete(&quot;RECIPE&quot;, String.Format(&quot;ID = {0}&quot;, recipeID));<br/>\ndb.Delete(&quot;HAS_INGREDIENT&quot;, String.Format(&quot;ID = {0}&quot;, recipeID));<br/><br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8d6251938837b046d1a6e2cb4bb98fb3184da6fc6db7e7265f1e6f07ed3b2b98",
+        "path": "backups/2023年6月/IT技术/delete.cs.html"
+      }
+    },
+    {
+      "id": "5e792939-b34e-4c18-98ef-51872dfb3f95",
+      "note_id": "41f26873-381a-4919-8595-f64924ed3e39",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.457209Z",
+      "content": "---\ntitle: delete.cs\nupdated: 2013-06-08 07:58:01Z\ncreated: 2013-06-08 07:57:48Z\ntags:\n  - SQLite\n  - c#\n---\n\ndb = new SQLiteDatabase();\n\nString recipeID = \"12\";\n\ndb.Delete(\"RECIPE\", String.Format(\"ID = {0}\", recipeID));\n\ndb.Delete(\"HAS_INGREDIENT\", String.Format(\"ID = {0}\", recipeID));",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 287,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3e5c295a-bb22-422b-ba67-32494c7e4681",
+    "note_id": "41f26873-381a-4919-8595-f64924ed3e39",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.457214Z",
+    "finished_at": "2025-11-10T15:43:31.457215Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "29360723-d9cb-4e1c-9844-b650542d8dcd",
+      "source_path": "backups/2023年6月/IT技术/delete.cs.html",
+      "checksum": "8d6251938837b046d1a6e2cb4bb98fb3184da6fc6db7e7265f1e6f07ed3b2b98"
+    },
+    "output_ref": {
+      "ingest_source": "3374f5dd-bc8f-4042-97ea-2ca81df1cbfa",
+      "note": "41f26873-381a-4919-8595-f64924ed3e39",
+      "variants": [
+        "07d447cb-4929-43c4-859c-897caeb6119d",
+        "5e792939-b34e-4c18-98ef-51872dfb3f95"
+      ]
+    },
+    "error_detail": null
+  }
+}

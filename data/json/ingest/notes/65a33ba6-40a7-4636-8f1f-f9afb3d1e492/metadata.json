@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a4abc526-62d3-47c8-a508-517368241805",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/电话彩票外围工作.html",
+    "collected_at": "2025-11-10T15:43:34.916922Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ko",
+    "captured_at": null,
+    "checksum": "c62ab4768d0761a50b68f956307086ac7920a609bd46d1be2c5d9890cf756e2c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "65a33ba6-40a7-4636-8f1f-f9afb3d1e492",
+    "ingest_source_id": "a4abc526-62d3-47c8-a508-517368241805",
+    "canonical_title": "电话彩票外围工作",
+    "language": "ko",
+    "ingested_at": "2025-11-10T15:43:34.916926Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "电话彩票外围工作.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "11036a0a-f53a-498b-b198-865590754e31",
+      "note_id": "65a33ba6-40a7-4636-8f1f-f9afb3d1e492",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.916928Z",
+      "content": "---\ntitle: 电话彩票外围工作\nupdated: 2013-05-14 07:32:47Z\ncreated: 2013-05-14 07:32:17Z\n---\n\n\n\n<en-note><span STYLE=\"font-family: '.Helvetica NeueUI'; line-height: 24px; -webkit-composition-fill-color: rgba(130, 98, 83, 0.0898438); -webkit-composition-frame-color: rgba(191, 107, 82, 0.496094); -webkit-tap-highlight-color: rgba(26, 26, 26, 0.292969); -webkit-text-size-adjust: auto; font-size: inherit; \"><span>电话彩票外围工作</span><br/>\n&Tab;&Tab;<div><br/>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>代销商角度</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div><br/></div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>银联角度-张主任介绍</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>省中心角度</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>思乐穗彩角度</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>中心角度</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div>语音和短信的接口是什么样的</div>\n&Tab;&Tab;&Tab;&Tab;\n&Tab;&Tab;&Tab;<div><br/></div><br/>\n&Tab;&Tab;&Tab;\n&Tab;&Tab;</div>\n&Tab;&Tab;\n&Tab;</span>\n&Tab;\n\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c62ab4768d0761a50b68f956307086ac7920a609bd46d1be2c5d9890cf756e2c",
+        "path": "backups/2023年6月/中彩相关/电话彩票外围工作.html"
+      }
+    },
+    {
+      "id": "dc400a86-f626-4045-a92b-05ccfcab06c6",
+      "note_id": "65a33ba6-40a7-4636-8f1f-f9afb3d1e492",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.916931Z",
+      "content": "---\ntitle: 电话彩票外围工作\nupdated: 2013-05-14 07:32:47Z\ncreated: 2013-05-14 07:32:17Z\n---\n\n电话彩票外围工作\n\n代销商角度\n\n银联角度-张主任介绍\n\n省中心角度\n\n思乐穗彩角度\n\n中心角度\n\n语音和短信的接口是什么样的",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ko",
+        "length": 148,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1c09655c-d7a5-4e1e-8b2f-9fdc0da3a626",
+    "note_id": "65a33ba6-40a7-4636-8f1f-f9afb3d1e492",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.916935Z",
+    "finished_at": "2025-11-10T15:43:34.916936Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "bbdba677-8108-4458-a09b-dc90f4cc317c",
+      "source_path": "backups/2023年6月/中彩相关/电话彩票外围工作.html",
+      "checksum": "c62ab4768d0761a50b68f956307086ac7920a609bd46d1be2c5d9890cf756e2c"
+    },
+    "output_ref": {
+      "ingest_source": "a4abc526-62d3-47c8-a508-517368241805",
+      "note": "65a33ba6-40a7-4636-8f1f-f9afb3d1e492",
+      "variants": [
+        "11036a0a-f53a-498b-b198-865590754e31",
+        "dc400a86-f626-4045-a92b-05ccfcab06c6"
+      ]
+    },
+    "error_detail": null
+  }
+}

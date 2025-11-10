@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a519ba30-a0be-4f6b-acce-58c2f0436a8e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/易经/大壮卦.html",
+    "collected_at": "2025-11-10T15:43:36.809565Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "301e630973aa98ebe059c247c76f14987e32bbecd980efd445917702edb45773",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "dcc01306-c35e-4dd6-a2ee-fe7f2fa7c6fb",
+    "ingest_source_id": "a519ba30-a0be-4f6b-acce-58c2f0436a8e",
+    "canonical_title": "大壮卦",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.809569Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "大壮卦.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b0bc55c8-18a6-4c35-81d5-7715416e80b0",
+      "note_id": "dcc01306-c35e-4dd6-a2ee-fe7f2fa7c6fb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.809571Z",
+      "content": "---\ntitle: 大壮卦\nupdated: 2018-11-26 15:03:01Z\ncreated: 2018-11-26 14:31:47Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>利贞。</div><div>适宜正固。保持状态是最好的状态，阳爻发展到应该停止的状态。</div><table STYLE=\"border-collapse: collapse; min-width: 100%;\"><colgroup><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 130px;\"/><col STYLE=\"width: 339px;\"/></colgroup><tbody><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">上六</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 339px; padding: 8px;\">羝羊触藩，不能退，不能遂，无攸利，艰则吉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/67a9ed80d6ea224e0916912f1d95af89.gif\"  hash=\"67a9ed80d6ea224e0916912f1d95af89\" type=\"image/gif\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">六五</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 339px; padding: 8px;\">丧羊于易，无悔。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九四</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 339px; padding: 8px;\">贞吉，悔亡。藩决不羸，壮于大舆之輹<span STYLE=\"font-weight: bold;\">[f&ugrave;<span STYLE=\"font-weight: bold;\">]</span></span></td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九三</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 339px; padding: 8px;\">小人用壮，君子用罔，贞厉。羝羊触藩，羸其角。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">九二</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 339px; padding: 8px;\">贞吉。</td></tr><tr><td STYLE=\"background-color: rgb(255, 255, 255); border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\"><div><img src=\"../_resources/cd292744e85c2057a3d3bba26986c0f5.jpg\"  hash=\"cd292744e85c2057a3d3bba26986c0f5\" type=\"image/jpeg\" alt=\"\" /></en-media></div></td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 130px; padding: 8px;\">初九</td><td STYLE=\"border: 1px solid rgb(219, 219, 219); width: 339px; padding: 8px;\">壮于趾，征凶，有孚。</td></tr></tbody></table><div></div><div>四个阳爻往上攻，阳爻掌控全局。是最理想的情况。</div><div>如果是五个阳爻的话，反而被一个阴爻所控。</div><div>初九、九二、九三都是阳爻，上冲并不是君子。</div><div>九四是被羊撞坏的，撞坏了大车的车輹</div><div>九五在边界（易）上丢了羊。</div><div>上六，羊被卡住。</div><div><br/></div><div><br/></div><div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "301e630973aa98ebe059c247c76f14987e32bbecd980efd445917702edb45773",
+        "path": "backups/2023年6月/易经/大壮卦.html"
+      }
+    },
+    {
+      "id": "e3824271-0aae-4815-bef0-662c8af5744b",
+      "note_id": "dcc01306-c35e-4dd6-a2ee-fe7f2fa7c6fb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.809574Z",
+      "content": "---\ntitle: 大壮卦\nupdated: 2018-11-26 15:03:01Z\ncreated: 2018-11-26 14:31:47Z\nauthor: tangyongfeng@gmail.com\n---\n\n利贞。\n适宜正固。保持状态是最好的状态，阳爻发展到应该停止的状态。\n上六\n羝羊触藩，不能退，不能遂，无攸利，艰则吉。\n六五\n丧羊于易，无悔。\n九四\n贞吉，悔亡。藩决不羸，壮于大舆之輹\n[fù\n]\n九三\n小人用壮，君子用罔，贞厉。羝羊触藩，羸其角。\n九二\n贞吉。\n初九\n壮于趾，征凶，有孚。\n四个阳爻往上攻，阳爻掌控全局。是最理想的情况。\n如果是五个阳爻的话，反而被一个阴爻所控。\n初九、九二、九三都是阳爻，上冲并不是君子。\n九四是被羊撞坏的，撞坏了大车的车輹\n九五在边界（易）上丢了羊。\n上六，羊被卡住。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 363,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "48ba6498-44dc-4a42-a344-9826c0b94e76",
+    "note_id": "dcc01306-c35e-4dd6-a2ee-fe7f2fa7c6fb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.809579Z",
+    "finished_at": "2025-11-10T15:43:36.809579Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "de2c92a9-1b3e-482d-b734-3b3c43ce5aa2",
+      "source_path": "backups/2023年6月/易经/大壮卦.html",
+      "checksum": "301e630973aa98ebe059c247c76f14987e32bbecd980efd445917702edb45773"
+    },
+    "output_ref": {
+      "ingest_source": "a519ba30-a0be-4f6b-acce-58c2f0436a8e",
+      "note": "dcc01306-c35e-4dd6-a2ee-fe7f2fa7c6fb",
+      "variants": [
+        "b0bc55c8-18a6-4c35-81d5-7715416e80b0",
+        "e3824271-0aae-4815-bef0-662c8af5744b"
+      ]
+    },
+    "error_detail": null
+  }
+}

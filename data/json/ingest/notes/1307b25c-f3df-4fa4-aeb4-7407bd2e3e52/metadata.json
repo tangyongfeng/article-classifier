@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "03e15a82-b84b-4fc2-aa95-ac9d3a0ee030",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/无标题笔记.html",
+    "collected_at": "2025-11-10T15:43:34.886270Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "233d84bd1757984c735305cb979b8a7ca1dcfa5593caf2c6e53d3d6438a7d403",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "1307b25c-f3df-4fa4-aeb4-7407bd2e3e52",
+    "ingest_source_id": "03e15a82-b84b-4fc2-aa95-ac9d3a0ee030",
+    "canonical_title": "无标题笔记",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.886274Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "608fab05-e4c0-4bda-ac53-84044008d634",
+      "note_id": "1307b25c-f3df-4fa4-aeb4-7407bd2e3e52",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.886276Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-03-20 15:58:35Z\ncreated: 2019-03-20 15:54:52Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>看到10X，我就知道你被这些数字弄晕了。</div><div>我问你，如果20万欧元卖给你一个各种完备的，可以在各个平台上销售的博彩软件，你觉得贵么？</div><div>我只是出于真诚，把每一个细节告诉你，希望你能理解。</div><div>如果我们不能合作，以后就做朋友吧，我还记得我们在杜塞尔多夫的约定。</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "233d84bd1757984c735305cb979b8a7ca1dcfa5593caf2c6e53d3d6438a7d403",
+        "path": "backups/2023年6月/中彩相关/无标题笔记.html"
+      }
+    },
+    {
+      "id": "6efc5c43-c383-46ab-a9d6-819c4ab47df6",
+      "note_id": "1307b25c-f3df-4fa4-aeb4-7407bd2e3e52",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.886279Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2019-03-20 15:58:35Z\ncreated: 2019-03-20 15:54:52Z\nauthor: tangyongfeng@gmail.com\n---\n\n看到10X，我就知道你被这些数字弄晕了。\n我问你，如果20万欧元卖给你一个各种完备的，可以在各个平台上销售的博彩软件，你觉得贵么？\n我只是出于真诚，把每一个细节告诉你，希望你能理解。\n如果我们不能合作，以后就做朋友吧，我还记得我们在杜塞尔多夫的约定。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 238,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "757c2e3f-6116-4061-abc2-faf9fa4b106c",
+    "note_id": "1307b25c-f3df-4fa4-aeb4-7407bd2e3e52",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.886284Z",
+    "finished_at": "2025-11-10T15:43:34.886284Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e96ca00d-01d7-4679-ab6f-e96dc3081b9b",
+      "source_path": "backups/2023年6月/中彩相关/无标题笔记.html",
+      "checksum": "233d84bd1757984c735305cb979b8a7ca1dcfa5593caf2c6e53d3d6438a7d403"
+    },
+    "output_ref": {
+      "ingest_source": "03e15a82-b84b-4fc2-aa95-ac9d3a0ee030",
+      "note": "1307b25c-f3df-4fa4-aeb4-7407bd2e3e52",
+      "variants": [
+        "608fab05-e4c0-4bda-ac53-84044008d634",
+        "6efc5c43-c383-46ab-a9d6-819c4ab47df6"
+      ]
+    },
+    "error_detail": null
+  }
+}

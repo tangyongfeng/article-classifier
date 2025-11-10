@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d5f93b0a-0a4b-46dc-b932-a43adcc97948",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语1/Welches heutige deutsche Bundesland gehörte früher.html",
+    "collected_at": "2025-11-10T15:43:35.783962Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "c24e4810789b97d62822d9ff70bd51e8d75244a916dcd328a56dbcbad1422744",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "996c4e7a-079d-42ab-b9fb-99ed4d2185fa",
+    "ingest_source_id": "d5f93b0a-0a4b-46dc-b932-a43adcc97948",
+    "canonical_title": "Welches heutige deutsche Bundesland gehörte früher",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:35.783966Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Welches heutige deutsche Bundesland gehörte früher.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1d792bfc-80a5-4855-8632-8914a695690e",
+      "note_id": "996c4e7a-079d-42ab-b9fb-99ed4d2185fa",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.783969Z",
+      "content": "---\ntitle: Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR\nupdated: 2021-04-06 21:12:22Z\ncreated: 2021-04-06 21:10:42Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Das Staatsgebiet der Deutschen Demokratischen Republik bestand aus den heutigen deutschen L&auml;ndern&nbsp;</div><div>Mecklenburg-Vorpommern,</div><div>&nbsp;Brandenburg,</div><div>&nbsp;Sachsen,</div><div>&nbsp;Sachsen-Anhalt,</div><div>&nbsp;Th&uuml;ringen</div><div>&nbsp;dem Amt Neuhaus in Niedersachsen;</div><div>&nbsp;strittig war die Einbeziehung Ost-Berlins.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c24e4810789b97d62822d9ff70bd51e8d75244a916dcd328a56dbcbad1422744",
+        "path": "backups/2023年6月/德语1/Welches heutige deutsche Bundesland gehörte früher.html"
+      }
+    },
+    {
+      "id": "d9179663-12a2-4bdd-bfbb-d50e43b028e1",
+      "note_id": "996c4e7a-079d-42ab-b9fb-99ed4d2185fa",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.783972Z",
+      "content": "---\ntitle: Welches heutige deutsche Bundesland gehörte früher zum Gebiet der DDR\nupdated: 2021-04-06 21:12:22Z\ncreated: 2021-04-06 21:10:42Z\nauthor: tangyongfeng@gmail.com\n---\n\nDas Staatsgebiet der Deutschen Demokratischen Republik bestand aus den heutigen deutschen Ländern \nMecklenburg-Vorpommern,\n Brandenburg,\n Sachsen,\n Sachsen-Anhalt,\n Thüringen\n dem Amt Neuhaus in Niedersachsen;\n strittig war die Einbeziehung Ost-Berlins.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 430,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c5526412-83d8-4a09-837f-802f925a52bf",
+    "note_id": "996c4e7a-079d-42ab-b9fb-99ed4d2185fa",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.783977Z",
+    "finished_at": "2025-11-10T15:43:35.783977Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "086cbc58-e393-459e-b941-f8c0c49595e1",
+      "source_path": "backups/2023年6月/德语1/Welches heutige deutsche Bundesland gehörte früher.html",
+      "checksum": "c24e4810789b97d62822d9ff70bd51e8d75244a916dcd328a56dbcbad1422744"
+    },
+    "output_ref": {
+      "ingest_source": "d5f93b0a-0a4b-46dc-b932-a43adcc97948",
+      "note": "996c4e7a-079d-42ab-b9fb-99ed4d2185fa",
+      "variants": [
+        "1d792bfc-80a5-4855-8632-8914a695690e",
+        "d9179663-12a2-4bdd-bfbb-d50e43b028e1"
+      ]
+    },
+    "error_detail": null
+  }
+}

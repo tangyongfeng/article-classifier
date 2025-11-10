@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e4c1bc25-edcb-4469-9460-a880c724ffc1",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/第三轮迭代评审.html",
+    "collected_at": "2025-11-10T15:43:35.241218Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c10f44edd346d366703aed7ef070543e629aa742d13e683c68ac3cace9dd230b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b66e58f9-a704-4c47-a22c-a0a2b8668b29",
+    "ingest_source_id": "e4c1bc25-edcb-4469-9460-a880c724ffc1",
+    "canonical_title": "第三轮迭代评审",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.241222Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "第三轮迭代评审.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9ec6e079-ad28-4a65-8ab8-89a8cead19f9",
+      "note_id": "b66e58f9-a704-4c47-a22c-a0a2b8668b29",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.241225Z",
+      "content": "---\ntitle: 第三轮迭代评审\nupdated: 2014-05-05 01:49:50Z\ncreated: 2014-05-05 01:46:43Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>1、应该按照2013国家标准做，当前版本是按照2011版标准做。</div>\n1、个人信息完善的人性化和快速填写 要增加\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c10f44edd346d366703aed7ef070543e629aa742d13e683c68ac3cace9dd230b",
+        "path": "backups/2023年6月/医疗/第三轮迭代评审.html"
+      }
+    },
+    {
+      "id": "4bace3ba-6b8c-41f6-b80c-a8de165ef100",
+      "note_id": "b66e58f9-a704-4c47-a22c-a0a2b8668b29",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.241228Z",
+      "content": "---\ntitle: 第三轮迭代评审\nupdated: 2014-05-05 01:49:50Z\ncreated: 2014-05-05 01:46:43Z\n---\n\n1、应该按照2013国家标准做，当前版本是按照2011版标准做。\n\n1、个人信息完善的人性化和快速填写 要增加",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 139,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6485f105-7ab1-4d35-a807-cbd8d94444f7",
+    "note_id": "b66e58f9-a704-4c47-a22c-a0a2b8668b29",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.241233Z",
+    "finished_at": "2025-11-10T15:43:35.241233Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0f3351e1-9aa6-410e-95be-617aee7fd85a",
+      "source_path": "backups/2023年6月/医疗/第三轮迭代评审.html",
+      "checksum": "c10f44edd346d366703aed7ef070543e629aa742d13e683c68ac3cace9dd230b"
+    },
+    "output_ref": {
+      "ingest_source": "e4c1bc25-edcb-4469-9460-a880c724ffc1",
+      "note": "b66e58f9-a704-4c47-a22c-a0a2b8668b29",
+      "variants": [
+        "9ec6e079-ad28-4a65-8ab8-89a8cead19f9",
+        "4bace3ba-6b8c-41f6-b80c-a8de165ef100"
+      ]
+    },
+    "error_detail": null
+  }
+}

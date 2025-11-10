@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "459e17c3-0c5a-4a58-a339-0b6a5f56a837",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/唐人神002567 唐人转债128092.html",
+    "collected_at": "2025-11-10T15:43:36.521485Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d51a6f971e6542c8b7367437ecb71a7d321338025028de79f4f167d0e001c916",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4aa8e81f-12f9-4ca4-8a2f-22b61ce50f1e",
+    "ingest_source_id": "459e17c3-0c5a-4a58-a339-0b6a5f56a837",
+    "canonical_title": "唐人神002567 唐人转债128092",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.521489Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "唐人神002567 唐人转债128092.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "04017139-cdad-4d09-a7c2-b81a49af8665",
+      "note_id": "4aa8e81f-12f9-4ca4-8a2f-22b61ce50f1e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.521491Z",
+      "content": "---\ntitle: 唐人神002567 唐人转债128092\nupdated: 2020-07-26 06:49:08Z\ncreated: 2020-07-26 06:35:07Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>一个生产猪饲料、种猪、商品猪、生鲜肉的公司，公司在长沙。</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d51a6f971e6542c8b7367437ecb71a7d321338025028de79f4f167d0e001c916",
+        "path": "backups/2023年6月/投资/唐人神002567 唐人转债128092.html"
+      }
+    },
+    {
+      "id": "d41438a3-7512-4bd3-9595-f1886f536cbc",
+      "note_id": "4aa8e81f-12f9-4ca4-8a2f-22b61ce50f1e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.521494Z",
+      "content": "---\ntitle: 唐人神002567 唐人转债128092\nupdated: 2020-07-26 06:49:08Z\ncreated: 2020-07-26 06:35:07Z\nauthor: tangyongfeng@gmail.com\n---\n\n一个生产猪饲料、种猪、商品猪、生鲜肉的公司，公司在长沙。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 156,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a1a32665-ff52-40c8-9724-c96ca1c929de",
+    "note_id": "4aa8e81f-12f9-4ca4-8a2f-22b61ce50f1e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.521499Z",
+    "finished_at": "2025-11-10T15:43:36.521499Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d15eb63d-b8cf-4654-9dfd-071db6e0b720",
+      "source_path": "backups/2023年6月/投资/唐人神002567 唐人转债128092.html",
+      "checksum": "d51a6f971e6542c8b7367437ecb71a7d321338025028de79f4f167d0e001c916"
+    },
+    "output_ref": {
+      "ingest_source": "459e17c3-0c5a-4a58-a339-0b6a5f56a837",
+      "note": "4aa8e81f-12f9-4ca4-8a2f-22b61ce50f1e",
+      "variants": [
+        "04017139-cdad-4d09-a7c2-b81a49af8665",
+        "d41438a3-7512-4bd3-9595-f1886f536cbc"
+      ]
+    },
+    "error_detail": null
+  }
+}

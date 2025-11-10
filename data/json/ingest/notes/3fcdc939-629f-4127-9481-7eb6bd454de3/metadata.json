@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "fccbda61-0e3a-418d-8e45-d48a4804f5b3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/国家领导人的求救电话.html",
+    "collected_at": "2025-11-10T15:43:33.805769Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bb4672d25470ec5d704502678ce9e66a6f41674e4431968cbf34c85d8fe3f8d8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3fcdc939-629f-4127-9481-7eb6bd454de3",
+    "ingest_source_id": "fccbda61-0e3a-418d-8e45-d48a4804f5b3",
+    "canonical_title": "国家领导人的求救电话",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.805773Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "国家领导人的求救电话.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9882bb64-f0c5-479d-a436-0480d974a6a2",
+      "note_id": "3fcdc939-629f-4127-9481-7eb6bd454de3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.805776Z",
+      "content": "---\ntitle: 国家领导人的求救电话\nupdated: 2021-01-10 00:59:38Z\ncreated: 2021-01-10 00:59:38Z\nsource: https://instant.lvv2.com/html/269c2102c181e85eb3c1061fdfc43380.html\n---\n\n\n\n<en-note></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bb4672d25470ec5d704502678ce9e66a6f41674e4431968cbf34c85d8fe3f8d8",
+        "path": "backups/2023年6月/个人的乱78糟/国家领导人的求救电话.html"
+      }
+    },
+    {
+      "id": "9cfd9308-13be-47a9-bd14-11d026a34232",
+      "note_id": "3fcdc939-629f-4127-9481-7eb6bd454de3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.805779Z",
+      "content": "---\ntitle: 国家领导人的求救电话\nupdated: 2021-01-10 00:59:38Z\ncreated: 2021-01-10 00:59:38Z\nsource: https://instant.lvv2.com/html/269c2102c181e85eb3c1061fdfc43380.html\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 161,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7475eccc-f9cf-4ca6-b194-f85cc2ce3c71",
+    "note_id": "3fcdc939-629f-4127-9481-7eb6bd454de3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.805784Z",
+    "finished_at": "2025-11-10T15:43:33.805784Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f429cd3d-2af9-41c2-94f6-d43d0f264524",
+      "source_path": "backups/2023年6月/个人的乱78糟/国家领导人的求救电话.html",
+      "checksum": "bb4672d25470ec5d704502678ce9e66a6f41674e4431968cbf34c85d8fe3f8d8"
+    },
+    "output_ref": {
+      "ingest_source": "fccbda61-0e3a-418d-8e45-d48a4804f5b3",
+      "note": "3fcdc939-629f-4127-9481-7eb6bd454de3",
+      "variants": [
+        "9882bb64-f0c5-479d-a436-0480d974a6a2",
+        "9cfd9308-13be-47a9-bd14-11d026a34232"
+      ]
+    },
+    "error_detail": null
+  }
+}

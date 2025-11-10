@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8a57c465-9c29-4797-a3e9-724079137328",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/宜通世纪 300310.html",
+    "collected_at": "2025-11-10T15:43:36.536786Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e8dd79736741a425a3edeea75622232172ab6e002b544ddde01e99606ecbfac3",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6341c7c5-671e-4415-8017-f4fde477ca1a",
+    "ingest_source_id": "8a57c465-9c29-4797-a3e9-724079137328",
+    "canonical_title": "宜通世纪 300310",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.536790Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "宜通世纪 300310.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a97e67f7-267a-438a-9694-5251a7cf8c06",
+      "note_id": "6341c7c5-671e-4415-8017-f4fde477ca1a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.536793Z",
+      "content": "---\ntitle: 宜通世纪 300310\nupdated: 2013-09-11 07:46:11Z\ncreated: 2013-09-11 07:45:53Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n4G受益股，是广东移动合作伙伴，是广东境内最好的基站建设者<br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e8dd79736741a425a3edeea75622232172ab6e002b544ddde01e99606ecbfac3",
+        "path": "backups/2023年6月/投资/宜通世纪 300310.html"
+      }
+    },
+    {
+      "id": "89ea54a4-0e08-4a2d-b222-2f497712b7c2",
+      "note_id": "6341c7c5-671e-4415-8017-f4fde477ca1a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.536796Z",
+      "content": "---\ntitle: 宜通世纪 300310\nupdated: 2013-09-11 07:46:11Z\ncreated: 2013-09-11 07:45:53Z\n---\n\n4G受益股，是广东移动合作伙伴，是广东境内最好的基站建设者",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 117,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d5cc984c-f6be-436d-9d2a-80222d1e51e6",
+    "note_id": "6341c7c5-671e-4415-8017-f4fde477ca1a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.536800Z",
+    "finished_at": "2025-11-10T15:43:36.536801Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7b29f2b3-c16b-4bd4-b4e8-fd7f2bdd9c47",
+      "source_path": "backups/2023年6月/投资/宜通世纪 300310.html",
+      "checksum": "e8dd79736741a425a3edeea75622232172ab6e002b544ddde01e99606ecbfac3"
+    },
+    "output_ref": {
+      "ingest_source": "8a57c465-9c29-4797-a3e9-724079137328",
+      "note": "6341c7c5-671e-4415-8017-f4fde477ca1a",
+      "variants": [
+        "a97e67f7-267a-438a-9694-5251a7cf8c06",
+        "89ea54a4-0e08-4a2d-b222-2f497712b7c2"
+      ]
+    },
+    "error_detail": null
+  }
+}

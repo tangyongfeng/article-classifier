@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ee0a0596-af99-4c46-9e99-2bf54cff3662",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-14.html",
+    "collected_at": "2025-11-10T15:43:34.053296Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "068a31b96bcea62a33f6c585ba609c7e9e98dcdae626eead51fe98726b197746",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6e78ae69-6114-4d53-8dc1-7f0f0e957d04",
+    "ingest_source_id": "ee0a0596-af99-4c46-9e99-2bf54cff3662",
+    "canonical_title": "无标题笔记-14",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:34.053299Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-14.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4ca43741-dbc2-466f-9615-58f6a378c6e0",
+      "note_id": "6e78ae69-6114-4d53-8dc1-7f0f0e957d04",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.053302Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2020-02-06 13:36:47Z\ncreated: 2020-02-06 12:42:50Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"font-size: 13px; color: rgb(0, 0, 0); font-family: arial; --inversion-type-color: simple;\">Meine Tochter erbrach sich und hatte am Dienstag Magenbeschwerden. Nach der Pause kehrte sie in die Schule zur&uuml;ck. Sie erbrach sich heute mehr. Sie hat mehrere andere Klassenkameraden mit den gleichen Symptomen.</span></div><div><span STYLE=\"font-size: 13px; color: rgb(0, 0, 0); font-family: arial; --inversion-type-color: simple;\">Wir haben einen Termin f&uuml;r einen Besuch in Ihrem Krankenhaus am kommenden Montag vereinbart, um ihren Juckreiz zu untersuchen. Kann ich heute oder morgen einen Arzt aufsuchen?</span></div><div><span STYLE=\"font-size: 13px; color: rgb(0, 0, 0); font-family: arial; --inversion-type-color: simple;\"><br/></span></div><div><span STYLE=\"font-size: 13px; color: rgb(0, 0, 0); font-family: arial; --inversion-type-color: simple;\"><br/></span></div><div><span STYLE=\"font-size: 13px; color: rgb(0, 0, 0); font-family: arial; --inversion-type-color: simple;\">My daughter vomited and had stomach problems on Tuesday. After the break, she returned to school. She vomited more today. She has several other classmates with the same symptoms.</span></div><div><span STYLE=\"font-size: 13px; color: rgb(0, 0, 0); font-family: arial; --inversion-type-color: simple;\">We have made an appointment to visit your hospital next Monday to examine your itching. Can I see a doctor today or tomorrow?</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "068a31b96bcea62a33f6c585ba609c7e9e98dcdae626eead51fe98726b197746",
+        "path": "backups/2023年6月/个人的乱78糟/无标题笔记-14.html"
+      }
+    },
+    {
+      "id": "bedb6e02-bc3f-448c-b225-89495ef86525",
+      "note_id": "6e78ae69-6114-4d53-8dc1-7f0f0e957d04",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.053305Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2020-02-06 13:36:47Z\ncreated: 2020-02-06 12:42:50Z\nauthor: tangyongfeng@gmail.com\n---\n\nMeine Tochter erbrach sich und hatte am Dienstag Magenbeschwerden. Nach der Pause kehrte sie in die Schule zurück. Sie erbrach sich heute mehr. Sie hat mehrere andere Klassenkameraden mit den gleichen Symptomen.\nWir haben einen Termin für einen Besuch in Ihrem Krankenhaus am kommenden Montag vereinbart, um ihren Juckreiz zu untersuchen. Kann ich heute oder morgen einen Arzt aufsuchen?\nMy daughter vomited and had stomach problems on Tuesday. After the break, she returned to school. She vomited more today. She has several other classmates with the same symptoms.\nWe have made an appointment to visit your hospital next Monday to examine your itching. Can I see a doctor today or tomorrow?",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 805,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "04ab1c96-fa10-4d74-bad7-ee7da949169d",
+    "note_id": "6e78ae69-6114-4d53-8dc1-7f0f0e957d04",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.053310Z",
+    "finished_at": "2025-11-10T15:43:34.053310Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "1f4346e8-7256-4a22-a42d-93b7d922c7fd",
+      "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-14.html",
+      "checksum": "068a31b96bcea62a33f6c585ba609c7e9e98dcdae626eead51fe98726b197746"
+    },
+    "output_ref": {
+      "ingest_source": "ee0a0596-af99-4c46-9e99-2bf54cff3662",
+      "note": "6e78ae69-6114-4d53-8dc1-7f0f0e957d04",
+      "variants": [
+        "4ca43741-dbc2-466f-9615-58f6a378c6e0",
+        "bedb6e02-bc3f-448c-b225-89495ef86525"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e3b20c80-9e40-468c-9140-daa07dd92f75",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/可儿吸管杯优惠码.html",
+    "collected_at": "2025-11-10T15:43:33.765913Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3f36b6d656940d0ceb40f39bd9372aa280e89785099960882b346b991af6f688",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e77f63c9-e5ce-4e8d-949e-58d31ed3a0b7",
+    "ingest_source_id": "e3b20c80-9e40-468c-9140-daa07dd92f75",
+    "canonical_title": "可儿吸管杯优惠码",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.765916Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "可儿吸管杯优惠码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "60108e34-3be1-4742-b339-883d281a1c8c",
+      "note_id": "e77f63c9-e5ce-4e8d-949e-58d31ed3a0b7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.765919Z",
+      "content": "---\ntitle: 可儿吸管杯优惠码\nupdated: 2022-01-29 11:04:15Z\ncreated: 2022-01-29 11:03:09Z\n---\n\n\n<en-note><div>可儿吸管杯优惠码</div><div><br/></div><div>air up</div><div><br/></div><div><br/></div><div>TRIBE-9JMB93</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3f36b6d656940d0ceb40f39bd9372aa280e89785099960882b346b991af6f688",
+        "path": "backups/2023年6月/个人的乱78糟/可儿吸管杯优惠码.html"
+      }
+    },
+    {
+      "id": "4e25f260-affb-4094-8840-6f37647d0136",
+      "note_id": "e77f63c9-e5ce-4e8d-949e-58d31ed3a0b7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.765922Z",
+      "content": "---\ntitle: 可儿吸管杯优惠码\nupdated: 2022-01-29 11:04:15Z\ncreated: 2022-01-29 11:03:09Z\n---\n\n可儿吸管杯优惠码\nair up\nTRIBE-9JMB93",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 113,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "413b72d8-2f35-448f-bb75-68391d28c427",
+    "note_id": "e77f63c9-e5ce-4e8d-949e-58d31ed3a0b7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.765927Z",
+    "finished_at": "2025-11-10T15:43:33.765927Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "05d1ad7b-b017-4dd9-b1db-0ca1132b63f0",
+      "source_path": "backups/2023年6月/个人的乱78糟/可儿吸管杯优惠码.html",
+      "checksum": "3f36b6d656940d0ceb40f39bd9372aa280e89785099960882b346b991af6f688"
+    },
+    "output_ref": {
+      "ingest_source": "e3b20c80-9e40-468c-9140-daa07dd92f75",
+      "note": "e77f63c9-e5ce-4e8d-949e-58d31ed3a0b7",
+      "variants": [
+        "60108e34-3be1-4742-b339-883d281a1c8c",
+        "4e25f260-affb-4094-8840-6f37647d0136"
+      ]
+    },
+    "error_detail": null
+  }
+}

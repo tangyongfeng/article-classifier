@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "de3cc99d-4523-453b-8ba8-0ed8b3ea38d1",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/用户系统.html",
+    "collected_at": "2025-11-10T15:43:33.031169Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fd15c7cf5bc590ed9f4147d1350d77d3e05f2ea3e9e8c66e11783c370f76e7d7",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "07e044bf-421a-4887-a848-27b383ce510b",
+    "ingest_source_id": "de3cc99d-4523-453b-8ba8-0ed8b3ea38d1",
+    "canonical_title": "用户系统",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.031174Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "用户系统.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c1df7e16-51ec-44e4-80a7-4b6f2adbcb4c",
+      "note_id": "07e044bf-421a-4887-a848-27b383ce510b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.031177Z",
+      "content": "---\ntitle: 用户系统\nupdated: 2012-05-21 02:53:56Z\ncreated: 2011-06-29 02:05:27Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><ol STYLE=\"margin-top: 0mm; margin-bottom: 0mm;\"><li STYLE=\"margin-left: -7pt; margin-right: 0pt; padding-left: 0pt; font-family: Calibri;  color: #010101;\"><div ALIGN=\"justify\"><font COLOR=\"#010101\" FACE=\"Calibri\" SIZE=\"2\"><span STYLE=\"font-size:10pt; font-family:Calibri; color:#010101; font-weight:Normal; font-style:Normal; font-decoration:Normal\">RAC</span></font><font COLOR=\"#010101\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">模式的链接分配</span></font></div></li></ol></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fd15c7cf5bc590ed9f4147d1350d77d3e05f2ea3e9e8c66e11783c370f76e7d7",
+        "path": "backups/2023年6月/IT技术/用户系统.html"
+      }
+    },
+    {
+      "id": "b72aeffa-f7bc-4460-9c30-de70d3a01c27",
+      "note_id": "07e044bf-421a-4887-a848-27b383ce510b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.031181Z",
+      "content": "---\ntitle: 用户系统\nupdated: 2012-05-21 02:53:56Z\ncreated: 2011-06-29 02:05:27Z\n---\n\nRAC\n模式的链接分配",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 92,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "bf03f3a2-37e2-4baa-bfbb-2b3fba329ed5",
+    "note_id": "07e044bf-421a-4887-a848-27b383ce510b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.031187Z",
+    "finished_at": "2025-11-10T15:43:33.031187Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "61374bfb-78d7-4055-81d0-9e142bec63f2",
+      "source_path": "backups/2023年6月/IT技术/用户系统.html",
+      "checksum": "fd15c7cf5bc590ed9f4147d1350d77d3e05f2ea3e9e8c66e11783c370f76e7d7"
+    },
+    "output_ref": {
+      "ingest_source": "de3cc99d-4523-453b-8ba8-0ed8b3ea38d1",
+      "note": "07e044bf-421a-4887-a848-27b383ce510b",
+      "variants": [
+        "c1df7e16-51ec-44e4-80a7-4b6f2adbcb4c",
+        "b72aeffa-f7bc-4460-9c30-de70d3a01c27"
+      ]
+    },
+    "error_detail": null
+  }
+}

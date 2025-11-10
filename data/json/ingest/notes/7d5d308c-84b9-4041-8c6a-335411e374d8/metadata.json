@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "c4b54fa3-1f2f-4150-87b3-7e4606cf921c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/yq53k_m8a7q~EIQ5.html",
+    "collected_at": "2025-11-10T15:43:31.999020Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3b9bba878d4b321b979bf1a0b5fa70e46a3ecf3c551245ac0c5582b73ea69f1f",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7d5d308c-84b9-4041-8c6a-335411e374d8",
+    "ingest_source_id": "c4b54fa3-1f2f-4150-87b3-7e4606cf921c",
+    "canonical_title": "yq53k_m8a7q~EIQ5",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.999024Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "yq53k_m8a7q~EIQ5.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9774ba52-3507-4bc9-9754-c687d6b5dc87",
+      "note_id": "7d5d308c-84b9-4041-8c6a-335411e374d8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.999026Z",
+      "content": "---\ntitle: yq53k:m8a7q~EIQ5\nupdated: 2019-10-06 08:38:31Z\ncreated: 2019-10-06 08:38:31Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>yq53k:m8a7q~EIQ5</div>\n<div><br/></div>\n<div>webadmin<span>&nbsp;</span></div>\n<div><br/></div>\n<div>jlgmbh.de</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3b9bba878d4b321b979bf1a0b5fa70e46a3ecf3c551245ac0c5582b73ea69f1f",
+        "path": "backups/2023年6月/IT技术/yq53k_m8a7q~EIQ5.html"
+      }
+    },
+    {
+      "id": "4d44ca86-8d03-40c0-9992-b6906d854183",
+      "note_id": "7d5d308c-84b9-4041-8c6a-335411e374d8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.999029Z",
+      "content": "---\ntitle: yq53k:m8a7q~EIQ5\nupdated: 2019-10-06 08:38:31Z\ncreated: 2019-10-06 08:38:31Z\nauthor: tangyongfeng@gmail.com\n---\n\nyq53k:m8a7q~EIQ5\n\nwebadmin\n \njlgmbh.de",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 162,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e426a430-2da7-481f-a3a1-98bf6185e261",
+    "note_id": "7d5d308c-84b9-4041-8c6a-335411e374d8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.999034Z",
+    "finished_at": "2025-11-10T15:43:31.999034Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6d0a25ae-fbf3-4e38-939f-26e964e952b5",
+      "source_path": "backups/2023年6月/IT技术/yq53k_m8a7q~EIQ5.html",
+      "checksum": "3b9bba878d4b321b979bf1a0b5fa70e46a3ecf3c551245ac0c5582b73ea69f1f"
+    },
+    "output_ref": {
+      "ingest_source": "c4b54fa3-1f2f-4150-87b3-7e4606cf921c",
+      "note": "7d5d308c-84b9-4041-8c6a-335411e374d8",
+      "variants": [
+        "9774ba52-3507-4bc9-9754-c687d6b5dc87",
+        "4d44ca86-8d03-40c0-9992-b6906d854183"
+      ]
+    },
+    "error_detail": null
+  }
+}

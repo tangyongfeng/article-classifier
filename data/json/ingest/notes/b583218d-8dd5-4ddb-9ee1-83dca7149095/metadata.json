@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "9d15ebc3-4b6b-4f2a-b39e-82f4e0e00061",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/oracle.com 用户名.html",
+    "collected_at": "2025-11-10T15:43:31.829953Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "a818cee49dcb2f0854043a23cd0fd9ab218dd7e6e3a4f1e17d51f278ec4d1a48",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b583218d-8dd5-4ddb-9ee1-83dca7149095",
+    "ingest_source_id": "9d15ebc3-4b6b-4f2a-b39e-82f4e0e00061",
+    "canonical_title": "oracle.com 用户名",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.829957Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "oracle.com 用户名.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bbbbf631-bd16-427d-ad57-14f8e64c1ee9",
+      "note_id": "b583218d-8dd5-4ddb-9ee1-83dca7149095",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.829959Z",
+      "content": "---\ntitle: oracle.com 用户名\nupdated: 2013-12-05 09:24:41Z\ncreated: 2013-12-05 09:24:13Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"mailto:tangyf@clo.com.cn\">tangyf@clo.com.cn</a>&nbsp;\n<div>We*******3</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a818cee49dcb2f0854043a23cd0fd9ab218dd7e6e3a4f1e17d51f278ec4d1a48",
+        "path": "backups/2023年6月/IT技术/oracle.com 用户名.html"
+      }
+    },
+    {
+      "id": "707bee35-cc80-4129-8543-29255e375e89",
+      "note_id": "b583218d-8dd5-4ddb-9ee1-83dca7149095",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.829962Z",
+      "content": "---\ntitle: oracle.com 用户名\nupdated: 2013-12-05 09:24:41Z\ncreated: 2013-12-05 09:24:13Z\n---\n\ntangyf@clo.com.cn\n \nWe*******3",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 121,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0177300e-0571-408c-a9b7-d1c7969dc030",
+    "note_id": "b583218d-8dd5-4ddb-9ee1-83dca7149095",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.829967Z",
+    "finished_at": "2025-11-10T15:43:31.829968Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9d56f9f1-1a47-4fb6-a961-f6c80ff2026e",
+      "source_path": "backups/2023年6月/IT技术/oracle.com 用户名.html",
+      "checksum": "a818cee49dcb2f0854043a23cd0fd9ab218dd7e6e3a4f1e17d51f278ec4d1a48"
+    },
+    "output_ref": {
+      "ingest_source": "9d15ebc3-4b6b-4f2a-b39e-82f4e0e00061",
+      "note": "b583218d-8dd5-4ddb-9ee1-83dca7149095",
+      "variants": [
+        "bbbbf631-bd16-427d-ad57-14f8e64c1ee9",
+        "707bee35-cc80-4129-8543-29255e375e89"
+      ]
+    },
+    "error_detail": null
+  }
+}

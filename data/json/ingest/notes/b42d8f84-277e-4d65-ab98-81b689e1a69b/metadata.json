@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3aee5753-079c-4bd6-860e-fc6465a562f9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/h5渠道.html",
+    "collected_at": "2025-11-10T15:43:31.526429Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "d06e38910574bf0a44d87f204da20ae1b06d0de1067f592f393baf8ab33ce087",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "b42d8f84-277e-4d65-ab98-81b689e1a69b",
+    "ingest_source_id": "3aee5753-079c-4bd6-860e-fc6465a562f9",
+    "canonical_title": "h5渠道",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:31.526433Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "h5渠道.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d4a2a4e6-7664-4643-881b-f5aa4135a97f",
+      "note_id": "b42d8f84-277e-4d65-ab98-81b689e1a69b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.526435Z",
+      "content": "---\ntitle: h5渠道\nupdated: 2018-01-09 02:49:05Z\ncreated: 2018-01-09 02:48:57Z\nauthor: tangyongfeng\n---\n\n\n<en-note><div>1. 乐禅互娱\n</div><div>2. 坑玩游戏\n</div><div>3. 4177\n</div><div>4. 7k7k\n</div><div>5. 游戏狗\n</div><div>6. 一牛游戏\n</div><div>7. 小熊游乐场\n</div><div>8. 呵呵玩\n</div><div>9. 5玩游戏\n</div><div>10. play.cn在线玩\n</div><div>11. 乐嗨嗨游戏\n</div><div>12. 蘑菇游戏\n</div><div>13. 紫霞游戏\n</div><div>14. 火舞游戏\n</div><div>15. 7Q。com\n</div><div>16. Mg社区\n</div><div>17. 16游\n</div><div>18. 511wan\n</div><div>19. 6533在线玩\n</div><div>20. 爱点游戏\n</div><div>21. 游戏坛子\n</div><div>22. 爱乐h5\n</div><div>23. 创游指趣\n</div><div>24. 齐齐乐h5\n</div><div>25. 果盘游戏\n</div><div>26. 萝卜玩\n</div><div>27. 乐趣游戏\n</div><div>28. 41188\n</div><div>29. 37117\n</div><div>30. 游戏圈\n</div><div>31. 果子游戏\n</div><div>32. 欢聚游微游戏\n</div><div>33. 我玩\n</div><div>34. 牛刀手游\n</div><div>35. 奇玩网\n</div><div>36. 水滴游戏\n</div><div>37. 天玩游戏\n</div><div>38. 欢乐人游戏\n</div><div>39. 花生游戏\n</div><div>40. 我去玩游戏\n</div><div>41. 昊游互娱\n</div><div>42. 602游戏\n</div><div>43. bobgame\n</div><div>44. 1905游戏\n</div><div>45. 至尊游戏</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d06e38910574bf0a44d87f204da20ae1b06d0de1067f592f393baf8ab33ce087",
+        "path": "backups/2023年6月/IT技术/h5渠道.html"
+      }
+    },
+    {
+      "id": "f6613016-c77c-45af-934e-78e80f3c7eb1",
+      "note_id": "b42d8f84-277e-4d65-ab98-81b689e1a69b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.526438Z",
+      "content": "---\ntitle: h5渠道\nupdated: 2018-01-09 02:49:05Z\ncreated: 2018-01-09 02:48:57Z\nauthor: tangyongfeng\n---\n\n1. 乐禅互娱\n\n2. 坑玩游戏\n\n3. 4177\n\n4. 7k7k\n\n5. 游戏狗\n\n6. 一牛游戏\n\n7. 小熊游乐场\n\n8. 呵呵玩\n\n9. 5玩游戏\n\n10. play.cn在线玩\n\n11. 乐嗨嗨游戏\n\n12. 蘑菇游戏\n\n13. 紫霞游戏\n\n14. 火舞游戏\n\n15. 7Q。com\n\n16. Mg社区\n\n17. 16游\n\n18. 511wan\n\n19. 6533在线玩\n\n20. 爱点游戏\n\n21. 游戏坛子\n\n22. 爱乐h5\n\n23. 创游指趣\n\n24. 齐齐乐h5\n\n25. 果盘游戏\n\n26. 萝卜玩\n\n27. 乐趣游戏\n\n28. 41188\n\n29. 37117\n\n30. 游戏圈\n\n31. 果子游戏\n\n32. 欢聚游微游戏\n\n33. 我玩\n\n34. 牛刀手游\n\n35. 奇玩网\n\n36. 水滴游戏\n\n37. 天玩游戏\n\n38. 欢乐人游戏\n\n39. 花生游戏\n\n40. 我去玩游戏\n\n41. 昊游互娱\n\n42. 602游戏\n\n43. bobgame\n\n44. 1905游戏\n\n45. 至尊游戏",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 561,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "340f49c2-289a-4c9f-b763-d3342e285e23",
+    "note_id": "b42d8f84-277e-4d65-ab98-81b689e1a69b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.526443Z",
+    "finished_at": "2025-11-10T15:43:31.526443Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b895b8a7-8975-4b1e-95fe-6511eec58370",
+      "source_path": "backups/2023年6月/IT技术/h5渠道.html",
+      "checksum": "d06e38910574bf0a44d87f204da20ae1b06d0de1067f592f393baf8ab33ce087"
+    },
+    "output_ref": {
+      "ingest_source": "3aee5753-079c-4bd6-860e-fc6465a562f9",
+      "note": "b42d8f84-277e-4d65-ab98-81b689e1a69b",
+      "variants": [
+        "d4a2a4e6-7664-4643-881b-f5aa4135a97f",
+        "f6613016-c77c-45af-934e-78e80f3c7eb1"
+      ]
+    },
+    "error_detail": null
+  }
+}

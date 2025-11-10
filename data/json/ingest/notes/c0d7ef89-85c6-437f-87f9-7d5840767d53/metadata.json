@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "34ca3fde-64fb-4250-ad5c-f91bf6e3f1f8",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/三格四格.html",
+    "collected_at": "2025-11-10T15:43:36.058773Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "3a5a1fd979a16fbe8d27d7bee5d732a516238655fe8ccc90e20018d049d5e81a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c0d7ef89-85c6-437f-87f9-7d5840767d53",
+    "ingest_source_id": "34ca3fde-64fb-4250-ad5c-f91bf6e3f1f8",
+    "canonical_title": "三格四格",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.058778Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "三格四格.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d759a4eb-f3af-4d6c-bcc0-3c928a40317c",
+      "note_id": "c0d7ef89-85c6-437f-87f9-7d5840767d53",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.058781Z",
+      "content": "---\ntitle: 三格四格\nupdated: 2020-08-27 07:58:08Z\ncreated: 2020-08-27 07:48:37Z\n---\n\n\n\n<en-note><div>三格是间接宾语，做为动词的受惠者</div><div>四格是直接宾语，作为动词的施惠者</div><div><br/></div><div><br/></div><div><br/></div><div><span STYLE=\"caret-color: rgb(47, 47, 47); font-size: 16px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: 100%; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); color: rgb(47, 47, 47); font-family: -apple-system, &quot;SF UI Text&quot;, Arial, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-caps: normal;\">一格很好记忆，四格记着阳性单数变成den；三格阳中变成dem，然后阴转阳（只为说明冠词变化，词性不会变）；二格阳中变成des，相应名词词尾变化，同样阴转阳（只为说明冠词变化，词性不会变）。</span></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3a5a1fd979a16fbe8d27d7bee5d732a516238655fe8ccc90e20018d049d5e81a",
+        "path": "backups/2023年6月/德语2/三格四格.html"
+      }
+    },
+    {
+      "id": "f35566cd-bc73-4d67-af83-6d07bda8b020",
+      "note_id": "c0d7ef89-85c6-437f-87f9-7d5840767d53",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.058784Z",
+      "content": "---\ntitle: 三格四格\nupdated: 2020-08-27 07:58:08Z\ncreated: 2020-08-27 07:48:37Z\n---\n\n三格是间接宾语，做为动词的受惠者\n四格是直接宾语，作为动词的施惠者\n一格很好记忆，四格记着阳性单数变成den；三格阳中变成dem，然后阴转阳（只为说明冠词变化，词性不会变）；二格阳中变成des，相应名词词尾变化，同样阴转阳（只为说明冠词变化，词性不会变）。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 209,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "aab210fb-e499-4e4e-8f47-e37b6d36de4a",
+    "note_id": "c0d7ef89-85c6-437f-87f9-7d5840767d53",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.058789Z",
+    "finished_at": "2025-11-10T15:43:36.058790Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3650a3c8-db9b-498e-925d-2fadf09a1b32",
+      "source_path": "backups/2023年6月/德语2/三格四格.html",
+      "checksum": "3a5a1fd979a16fbe8d27d7bee5d732a516238655fe8ccc90e20018d049d5e81a"
+    },
+    "output_ref": {
+      "ingest_source": "34ca3fde-64fb-4250-ad5c-f91bf6e3f1f8",
+      "note": "c0d7ef89-85c6-437f-87f9-7d5840767d53",
+      "variants": [
+        "d759a4eb-f3af-4d6c-bcc0-3c928a40317c",
+        "f35566cd-bc73-4d67-af83-6d07bda8b020"
+      ]
+    },
+    "error_detail": null
+  }
+}

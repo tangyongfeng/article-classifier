@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3e0d1b57-65ab-4fee-a3d4-2b217931dc70",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/训练.html",
+    "collected_at": "2025-11-10T15:43:34.520794Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "22bc66ed38f234d4eb19c1b3b81848c3c06a9284224ac27261cdf897b22d37d0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a75f5c2b-2c80-41a3-843c-abe12a1a00b3",
+    "ingest_source_id": "3e0d1b57-65ab-4fee-a3d4-2b217931dc70",
+    "canonical_title": "训练",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.520798Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "训练.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "77403940-e25e-4468-9647-f3f6d3390dc6",
+      "note_id": "a75f5c2b-2c80-41a3-843c-abe12a1a00b3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.520801Z",
+      "content": "---\ntitle: 训练\nupdated: 2021-06-12 22:42:55Z\ncreated: 2021-06-12 22:42:36Z\n---\n\n\n\n<en-note><div><span STYLE=\"caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 15px; font-variant-caps: normal; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: 100%; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">训练这个东西是一个非常科学的非常成体系的东西，很多人认为美国训练肯定是世界顶尖的，这个不假，但是不像大家想象那样，军队是一个封闭的环境自己研究训练学科，他和社会和文化有很大的关联。 美军最优秀的军队，和LEO，还有第三方合同承包商，都会自行出资，把自己的教官送去私人企业去受训，比如gunsite academy，sig academy等，出师了以后再回来教部队，这里面的原因说出来一般人不相信，那是因为很多军事技能，军队并无法掌握最先进最科学最前沿的训练方式，因为军队的职责不在研究这些方式，军队就是打仗的， 而这些私企，他的利润全部来自于孜孜不倦的研发这些训练手段和方式，他每一天每一秒都受到来自市场的压力，不进步就完蛋. 比如现代手枪持枪动作规范，现代射击五要素及训练方式，这都是gunsite academy创立的，由学员学会了，扩散到全世界部队采用的. 美国有1100万持猎照猎人，900多万有驾驶飞机能力的学员，1800余万参加过正规准军事训练的适军龄者，超过1600万份随身开放/隐蔽持枪许可，超过550万成年人有能力驾驶39尺以上的船只，这种尚武文化，决定了准军事训练的市场异常火爆，政府不花一份钱，反而创收，就把训练和战备技术的问题解决了，</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "22bc66ed38f234d4eb19c1b3b81848c3c06a9284224ac27261cdf897b22d37d0",
+        "path": "backups/2023年6月/个人的乱78糟/训练.html"
+      }
+    },
+    {
+      "id": "496ad2e5-98ff-4c21-932d-e83b66fadcb3",
+      "note_id": "a75f5c2b-2c80-41a3-843c-abe12a1a00b3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.520804Z",
+      "content": "---\ntitle: 训练\nupdated: 2021-06-12 22:42:55Z\ncreated: 2021-06-12 22:42:36Z\n---\n\n训练这个东西是一个非常科学的非常成体系的东西，很多人认为美国训练肯定是世界顶尖的，这个不假，但是不像大家想象那样，军队是一个封闭的环境自己研究训练学科，他和社会和文化有很大的关联。 美军最优秀的军队，和LEO，还有第三方合同承包商，都会自行出资，把自己的教官送去私人企业去受训，比如gunsite academy，sig academy等，出师了以后再回来教部队，这里面的原因说出来一般人不相信，那是因为很多军事技能，军队并无法掌握最先进最科学最前沿的训练方式，因为军队的职责不在研究这些方式，军队就是打仗的， 而这些私企，他的利润全部来自于孜孜不倦的研发这些训练手段和方式，他每一天每一秒都受到来自市场的压力，不进步就完蛋. 比如现代手枪持枪动作规范，现代射击五要素及训练方式，这都是gunsite academy创立的，由学员学会了，扩散到全世界部队采用的. 美国有1100万持猎照猎人，900多万有驾驶飞机能力的学员，1800余万参加过正规准军事训练的适军龄者，超过1600万份随身开放/隐蔽持枪许可，超过550万成年人有能力驾驶39尺以上的船只，这种尚武文化，决定了准军事训练的市场异常火爆，政府不花一份钱，反而创收，就把训练和战备技术的问题解决了，",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 608,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "853621e8-e88d-4a07-bc77-fa4df4fb2f5a",
+    "note_id": "a75f5c2b-2c80-41a3-843c-abe12a1a00b3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.520809Z",
+    "finished_at": "2025-11-10T15:43:34.520810Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9c9b12a8-f16c-4ac1-a0e7-7509b8e7aba6",
+      "source_path": "backups/2023年6月/个人的乱78糟/训练.html",
+      "checksum": "22bc66ed38f234d4eb19c1b3b81848c3c06a9284224ac27261cdf897b22d37d0"
+    },
+    "output_ref": {
+      "ingest_source": "3e0d1b57-65ab-4fee-a3d4-2b217931dc70",
+      "note": "a75f5c2b-2c80-41a3-843c-abe12a1a00b3",
+      "variants": [
+        "77403940-e25e-4468-9647-f3f6d3390dc6",
+        "496ad2e5-98ff-4c21-932d-e83b66fadcb3"
+      ]
+    },
+    "error_detail": null
+  }
+}

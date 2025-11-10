@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "5187a382-72e2-4de0-a43b-18186aa535ad",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语3/一封信.html",
+    "collected_at": "2025-11-10T15:43:36.146977Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "6f6b9b204965f148c00149e078b684d971fde29f729154e473580b0dc2f07d15",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "6bcef0be-e12b-4d2c-87f5-5aa2c15ef6a7",
+    "ingest_source_id": "5187a382-72e2-4de0-a43b-18186aa535ad",
+    "canonical_title": "一封信",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:36.146981Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "一封信.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "01d0fe94-8ee1-4174-a64a-6068772dcf49",
+      "note_id": "6bcef0be-e12b-4d2c-87f5-5aa2c15ef6a7",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.146984Z",
+      "content": "---\ntitle: 一封信\nupdated: 2020-02-16 22:54:44Z\ncreated: 2020-02-16 22:54:29Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"mso-ansi-language: DE;\">Lieber Jan:</span></div><div><span STYLE=\"mso-ansi-language: DE;\">&nbsp;</span></div><div><span STYLE=\"mso-ansi-language: DE;\">Gerne schreibe ich Ihnen.</span></div><div><span STYLE=\"mso-ansi-language: DE;\">Das ist Yongfeng Tang</span> <span STYLE=\"mso-ansi-language: DE;\">，</span><span STYLE=\"mso-ansi-language: DE;\">Ich bin 43 Jahre alt und komme aus Peking China. Ich lebe in Neuss.</span>\n</div><div><span STYLE=\"mso-ansi-language: DE;\">Ich bin gl&uuml;cklich, Ich habe zwei s&uuml;&szlig;e Kinder,7 und 9 Jahre alt.</span></div><div><span STYLE=\"mso-ansi-language: DE;\">Ich bin Computeringenieur. Ich spiele gern mit Kindern. Und Du?</span></div><div><span STYLE=\"mso-ansi-language: DE;\">Wie alt bist Du? </span><span STYLE=\"mso-ansi-language: DE; mso-tab-count: 1;\">&nbsp;&nbsp;</span><span STYLE=\"mso-ansi-language: DE;\"> Wo wohnst Du? </span><span STYLE=\"mso-ansi-language: DE; mso-spacerun: yes;\">&nbsp;</span><span STYLE=\"mso-ansi-language: DE;\">Hast Du Kinder? </span><span STYLE=\"mso-ansi-language: DE; mso-spacerun: yes;\">&nbsp;</span><span STYLE=\"mso-ansi-language: DE;\">Was machst Du ?</span></div><div><span STYLE=\"mso-ansi-language: DE;\">&nbsp;</span></div><div><span STYLE=\"mso-ansi-language: DE;\">Vielen Gr&uuml;&szlig;e</span></div><div><span STYLE=\"mso-ansi-language: DE;\">&nbsp;</span></div><div><span STYLE=\"mso-ansi-language: DE;\">Yongfeng</span></div><div><span STYLE=\"mso-ansi-language: DE;\">&nbsp;</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6f6b9b204965f148c00149e078b684d971fde29f729154e473580b0dc2f07d15",
+        "path": "backups/2023年6月/德语3/一封信.html"
+      }
+    },
+    {
+      "id": "3a3bd157-5821-4926-93a0-23d1cebf1324",
+      "note_id": "6bcef0be-e12b-4d2c-87f5-5aa2c15ef6a7",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.146987Z",
+      "content": "---\ntitle: 一封信\nupdated: 2020-02-16 22:54:44Z\ncreated: 2020-02-16 22:54:29Z\nauthor: tangyongfeng@gmail.com\n---\n\nLieber Jan:\n \nGerne schreibe ich Ihnen.\nDas ist Yongfeng Tang\n\n，\nIch bin 43 Jahre alt und komme aus Peking China. Ich lebe in Neuss.\n\nIch bin glücklich, Ich habe zwei süße Kinder,7 und 9 Jahre alt.\nIch bin Computeringenieur. Ich spiele gern mit Kindern. Und Du?\nWie alt bist Du?\n  \n Wo wohnst Du?\n \nHast Du Kinder?\n \nWas machst Du ?\n \nVielen Grüße\n \nYongfeng",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 469,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9428084e-a455-4f7f-a3a6-c0b3dc166c83",
+    "note_id": "6bcef0be-e12b-4d2c-87f5-5aa2c15ef6a7",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.146992Z",
+    "finished_at": "2025-11-10T15:43:36.146993Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fae4486d-3421-4dce-b252-c6c677105ff7",
+      "source_path": "backups/2023年6月/德语3/一封信.html",
+      "checksum": "6f6b9b204965f148c00149e078b684d971fde29f729154e473580b0dc2f07d15"
+    },
+    "output_ref": {
+      "ingest_source": "5187a382-72e2-4de0-a43b-18186aa535ad",
+      "note": "6bcef0be-e12b-4d2c-87f5-5aa2c15ef6a7",
+      "variants": [
+        "01d0fe94-8ee1-4174-a64a-6068772dcf49",
+        "3a3bd157-5821-4926-93a0-23d1cebf1324"
+      ]
+    },
+    "error_detail": null
+  }
+}

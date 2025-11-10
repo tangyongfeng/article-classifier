@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "478b3080-41a0-4aa2-beb6-195fc7e68283",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/宾语替换.html",
+    "collected_at": "2025-11-10T15:43:36.086161Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "72a05ba9be0fb86e9d1024f458626c586e982658a3a0ba340a89dfcb05509f14",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e5cee4ea-2953-4989-a430-e99a4a52e34c",
+    "ingest_source_id": "478b3080-41a0-4aa2-beb6-195fc7e68283",
+    "canonical_title": "宾语替换",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.086165Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "宾语替换.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e16f7dfb-9d67-4745-aa80-d4181cf76542",
+      "note_id": "e5cee4ea-2953-4989-a430-e99a4a52e34c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.086168Z",
+      "content": "---\ntitle: 宾语替换\nupdated: 2020-10-14 06:46:56Z\ncreated: 2020-10-14 06:45:58Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><br/></div><div>人三物四</div><div><br/></div><div><br/></div><div>如果都是人，就按照原来的顺序。</div><div>如果一个是人一个是物，就把顺序替换过来</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "72a05ba9be0fb86e9d1024f458626c586e982658a3a0ba340a89dfcb05509f14",
+        "path": "backups/2023年6月/德语2/宾语替换.html"
+      }
+    },
+    {
+      "id": "a4381153-98f8-444b-b1c3-73c346ca2734",
+      "note_id": "e5cee4ea-2953-4989-a430-e99a4a52e34c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.086171Z",
+      "content": "---\ntitle: 宾语替换\nupdated: 2020-10-14 06:46:56Z\ncreated: 2020-10-14 06:45:58Z\nauthor: tangyongfeng@gmail.com\n---\n\n人三物四\n如果都是人，就按照原来的顺序。\n如果一个是人一个是物，就把顺序替换过来",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 152,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b6d017ca-d465-423e-b167-4c9b06ad3d88",
+    "note_id": "e5cee4ea-2953-4989-a430-e99a4a52e34c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.086175Z",
+    "finished_at": "2025-11-10T15:43:36.086176Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "83d2ef98-fa97-4ba6-b1a3-c91670ca3e93",
+      "source_path": "backups/2023年6月/德语2/宾语替换.html",
+      "checksum": "72a05ba9be0fb86e9d1024f458626c586e982658a3a0ba340a89dfcb05509f14"
+    },
+    "output_ref": {
+      "ingest_source": "478b3080-41a0-4aa2-beb6-195fc7e68283",
+      "note": "e5cee4ea-2953-4989-a430-e99a4a52e34c",
+      "variants": [
+        "e16f7dfb-9d67-4745-aa80-d4181cf76542",
+        "a4381153-98f8-444b-b1c3-73c346ca2734"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7b9aa4f2-4d4f-4d4d-b486-4f92f59b3a2e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/需求更新.html",
+    "collected_at": "2025-11-10T15:43:33.268790Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e80e108fc83d99beddb1f195af2e72c85200efbc3cb6339bcc85a3c1db1f612c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7dc8d96e-2c55-48f4-9e70-1e70c4532c51",
+    "ingest_source_id": "7b9aa4f2-4d4f-4d4d-b486-4f92f59b3a2e",
+    "canonical_title": "需求更新",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.268793Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "需求更新.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "cb52f2d1-7172-4bd9-8b20-5df46de95b54",
+      "note_id": "7dc8d96e-2c55-48f4-9e70-1e70c4532c51",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.268796Z",
+      "content": "---\ntitle: 需求更新\nupdated: 2012-05-21 02:33:34Z\ncreated: 2011-06-29 02:04:57Z\ntags:\n  - IB\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1.&nbsp;&nbsp;&nbsp;&nbsp; 增加更改银行卡前需要吧投注兑奖做完，并且完全提现<br/>\n2.&nbsp;&nbsp;&nbsp;&nbsp; 订单内容保存在数据库中需要加密<br/></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e80e108fc83d99beddb1f195af2e72c85200efbc3cb6339bcc85a3c1db1f612c",
+        "path": "backups/2023年6月/IT技术/需求更新.html"
+      }
+    },
+    {
+      "id": "ae6eec00-7da9-4060-a9ad-1fe01f2babaf",
+      "note_id": "7dc8d96e-2c55-48f4-9e70-1e70c4532c51",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.268799Z",
+      "content": "---\ntitle: 需求更新\nupdated: 2012-05-21 02:33:34Z\ncreated: 2011-06-29 02:04:57Z\ntags:\n  - IB\n---\n\n1.     增加更改银行卡前需要吧投注兑奖做完，并且完全提现\n\n2.     订单内容保存在数据库中需要加密",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 149,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f0ea0c70-c661-462d-8d91-379924fc4a04",
+    "note_id": "7dc8d96e-2c55-48f4-9e70-1e70c4532c51",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.268803Z",
+    "finished_at": "2025-11-10T15:43:33.268804Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "79f37bd0-6815-4736-bd2d-abeca6ea370e",
+      "source_path": "backups/2023年6月/IT技术/需求更新.html",
+      "checksum": "e80e108fc83d99beddb1f195af2e72c85200efbc3cb6339bcc85a3c1db1f612c"
+    },
+    "output_ref": {
+      "ingest_source": "7b9aa4f2-4d4f-4d4d-b486-4f92f59b3a2e",
+      "note": "7dc8d96e-2c55-48f4-9e70-1e70c4532c51",
+      "variants": [
+        "cb52f2d1-7172-4bd9-8b20-5df46de95b54",
+        "ae6eec00-7da9-4060-a9ad-1fe01f2babaf"
+      ]
+    },
+    "error_detail": null
+  }
+}

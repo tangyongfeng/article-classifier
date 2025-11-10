@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "29fc3b55-3e26-4198-b89a-3fea72eb98db",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/每一个Java文件中，只能有一个public类.html",
+    "collected_at": "2025-11-10T15:43:32.949580Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3231d5ebbc7c40eefe83c773356eed95c9455c288663eaca4c9d6370246c1195",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "33ad0d78-c50d-4ceb-9315-a9534d70b582",
+    "ingest_source_id": "29fc3b55-3e26-4198-b89a-3fea72eb98db",
+    "canonical_title": "每一个Java文件中，只能有一个public类",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.949584Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "每一个Java文件中，只能有一个public类.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3a2e0db2-9e84-475a-9094-fdebf46c2f51",
+      "note_id": "33ad0d78-c50d-4ceb-9315-a9534d70b582",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.949587Z",
+      "content": "---\ntitle: 每一个Java文件中，只能有一个public类\nupdated: 2012-06-13 02:11:28Z\ncreated: 2012-06-13 02:11:15Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n每一个Java文件中，只能有一个public类\n<div><br/></div><div><br/></div><div><br/></div><div>GC overhead limit exceeded</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3231d5ebbc7c40eefe83c773356eed95c9455c288663eaca4c9d6370246c1195",
+        "path": "backups/2023年6月/IT技术/每一个Java文件中，只能有一个public类.html"
+      }
+    },
+    {
+      "id": "f1aea4ce-d3d2-4f9f-94b8-0b12c03d4f72",
+      "note_id": "33ad0d78-c50d-4ceb-9315-a9534d70b582",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.949591Z",
+      "content": "---\ntitle: 每一个Java文件中，只能有一个public类\nupdated: 2012-06-13 02:11:28Z\ncreated: 2012-06-13 02:11:15Z\n---\n\n每一个Java文件中，只能有一个public类\n\nGC overhead limit exceeded",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 151,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e61f6018-9dcc-4aeb-9f82-407755c2fba1",
+    "note_id": "33ad0d78-c50d-4ceb-9315-a9534d70b582",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.949596Z",
+    "finished_at": "2025-11-10T15:43:32.949597Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "92a288dc-8f9c-4e2b-bc0d-b93cc73634e5",
+      "source_path": "backups/2023年6月/IT技术/每一个Java文件中，只能有一个public类.html",
+      "checksum": "3231d5ebbc7c40eefe83c773356eed95c9455c288663eaca4c9d6370246c1195"
+    },
+    "output_ref": {
+      "ingest_source": "29fc3b55-3e26-4198-b89a-3fea72eb98db",
+      "note": "33ad0d78-c50d-4ceb-9315-a9534d70b582",
+      "variants": [
+        "3a2e0db2-9e84-475a-9094-fdebf46c2f51",
+        "f1aea4ce-d3d2-4f9f-94b8-0b12c03d4f72"
+      ]
+    },
+    "error_detail": null
+  }
+}

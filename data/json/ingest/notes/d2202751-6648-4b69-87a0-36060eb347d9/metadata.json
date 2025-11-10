@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "5d6baa91-8edd-4b3a-ad41-f0a38c991b77",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/Über _Sind junge Menschen heute schlecht erzogen_.html",
+    "collected_at": "2025-11-10T15:43:36.045310Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "7c16730a3f30cd0e699de556da417cc6d6085741da6be9ed7be1324fea12091a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d2202751-6648-4b69-87a0-36060eb347d9",
+    "ingest_source_id": "5d6baa91-8edd-4b3a-ad41-f0a38c991b77",
+    "canonical_title": "Über _Sind junge Menschen heute schlecht erzogen_",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:36.045314Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Über _Sind junge Menschen heute schlecht erzogen_.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ffdd8756-a3f6-4736-9e3d-b797adbdeb30",
+      "note_id": "d2202751-6648-4b69-87a0-36060eb347d9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.045317Z",
+      "content": "---\ntitle: Über \"Sind junge Menschen heute schlecht erzogen\"\nupdated: 2020-10-18 19:10:11Z\ncreated: 2020-10-18 12:44:12Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Sie haben im Fernsehen eine Diskussionssendung zum Thema &bdquo;Sind junge Menschen heute schlecht erzogen ? &nbsp;&ldquo; &nbsp;gesehen. Im Online-G&auml;stebuch finden Sie folgende Meinung :</div><div><br/></div><div><a HREF=\"http://www.brisant.de/\">www.brisant.de</a></div><div>G&auml;stebuch</div><div><br/></div><div>Erich : Die meisten jungen Leute denken nur an sich selbst . Sie achten nicht auf &auml;ltere Menschen ,sind unh&ouml;flich und sprecheng lieber mit ihren Mobiltelefonen als mit wirklichen Leuten . Das finde ich schade.</div><div><br/></div><div>Schreiben Sie nun Ihre Meinung (ca. 80 W&ouml;rter )</div><hr/><div>Jeder kann w&auml;hlen, wie er sein lebe, auch junge Menschen.</div><div>Wenn man junge Menschen verstehen will, muss man sich in die Welt der jungen Menschen eintreten.&nbsp;</div><div>Soweit ich wei&szlig;, das Diskussion hat die Umwelt &uuml;ber Millionen junge Menschen zu teilnehmen.</div><div>Als ich junger war, hassten mich die &auml;lteren Menschen am Computer. Sie glauben, solle ich mehr Buch lernen, aber jetzt bin ich Informatiker.</div><div>&Auml;ltere Menschen sind nicht kl&uuml;ger als j&uuml;ngere Menschen.</div><div>Und ich werde das Lesen von andere nicht st&ouml;ren.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7c16730a3f30cd0e699de556da417cc6d6085741da6be9ed7be1324fea12091a",
+        "path": "backups/2023年6月/德语2/Über _Sind junge Menschen heute schlecht erzogen_.html"
+      }
+    },
+    {
+      "id": "23981677-4fcf-4632-bad0-bf1fc1a1fe31",
+      "note_id": "d2202751-6648-4b69-87a0-36060eb347d9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.045320Z",
+      "content": "---\ntitle: Über \"Sind junge Menschen heute schlecht erzogen\"\nupdated: 2020-10-18 19:10:11Z\ncreated: 2020-10-18 12:44:12Z\nauthor: tangyongfeng@gmail.com\n---\n\nSie haben im Fernsehen eine Diskussionssendung zum Thema „Sind junge Menschen heute schlecht erzogen ?  “  gesehen. Im Online-Gästebuch finden Sie folgende Meinung :\nwww.brisant.de\nGästebuch\nErich : Die meisten jungen Leute denken nur an sich selbst . Sie achten nicht auf ältere Menschen ,sind unhöflich und sprecheng lieber mit ihren Mobiltelefonen als mit wirklichen Leuten . Das finde ich schade.\nSchreiben Sie nun Ihre Meinung (ca. 80 Wörter )\nJeder kann wählen, wie er sein lebe, auch junge Menschen.\nWenn man junge Menschen verstehen will, muss man sich in die Welt der jungen Menschen eintreten. \nSoweit ich weiß, das Diskussion hat die Umwelt über Millionen junge Menschen zu teilnehmen.\nAls ich junger war, hassten mich die älteren Menschen am Computer. Sie glauben, solle ich mehr Buch lernen, aber jetzt bin ich Informatiker.\nÄltere Menschen sind nicht klüger als jüngere Menschen.\nUnd ich werde das Lesen von andere nicht stören.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1099,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "90a215e2-dcec-431d-b0d9-639bcd216775",
+    "note_id": "d2202751-6648-4b69-87a0-36060eb347d9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.045326Z",
+    "finished_at": "2025-11-10T15:43:36.045327Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "076fc241-2de5-4ea8-90e2-9a894e9418a5",
+      "source_path": "backups/2023年6月/德语2/Über _Sind junge Menschen heute schlecht erzogen_.html",
+      "checksum": "7c16730a3f30cd0e699de556da417cc6d6085741da6be9ed7be1324fea12091a"
+    },
+    "output_ref": {
+      "ingest_source": "5d6baa91-8edd-4b3a-ad41-f0a38c991b77",
+      "note": "d2202751-6648-4b69-87a0-36060eb347d9",
+      "variants": [
+        "ffdd8756-a3f6-4736-9e3d-b797adbdeb30",
+        "23981677-4fcf-4632-bad0-bf1fc1a1fe31"
+      ]
+    },
+    "error_detail": null
+  }
+}

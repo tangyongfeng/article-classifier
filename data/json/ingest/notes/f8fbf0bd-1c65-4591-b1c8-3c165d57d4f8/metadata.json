@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "be2fa69b-192f-4d61-8a4e-868ccbcecec7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语3/语句结构.html",
+    "collected_at": "2025-11-10T15:43:36.251052Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d1c995510083caa6b756f65506a245d6e5e72ec3e4fb0a8ea360d7c3f9c69288",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "f8fbf0bd-1c65-4591-b1c8-3c165d57d4f8",
+    "ingest_source_id": "be2fa69b-192f-4d61-8a4e-868ccbcecec7",
+    "canonical_title": "语句结构",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.251059Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "语句结构.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "30ce6c11-fb04-4ed4-8f5d-584a854844f9",
+      "note_id": "f8fbf0bd-1c65-4591-b1c8-3c165d57d4f8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.251062Z",
+      "content": "---\ntitle: 语句结构\nupdated: 2020-02-18 11:38:34Z\ncreated: 2020-02-18 11:34:27Z\n---\n\n\n\n<en-note><div>陈述句</div><div>动词+主语</div><div>倒装句</div><div>被强调部分（非主语/非动词/非主语）+动词+主语</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d1c995510083caa6b756f65506a245d6e5e72ec3e4fb0a8ea360d7c3f9c69288",
+        "path": "backups/2023年6月/德语3/语句结构.html"
+      }
+    },
+    {
+      "id": "507b4e86-e2e3-49fb-943b-d1f19174d68d",
+      "note_id": "f8fbf0bd-1c65-4591-b1c8-3c165d57d4f8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.251066Z",
+      "content": "---\ntitle: 语句结构\nupdated: 2020-02-18 11:38:34Z\ncreated: 2020-02-18 11:34:27Z\n---\n\n陈述句\n动词+主语\n倒装句\n被强调部分（非主语/非动词/非主语）+动词+主语",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 119,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a5e64f8e-63e4-47f5-9d98-cec521e1d08b",
+    "note_id": "f8fbf0bd-1c65-4591-b1c8-3c165d57d4f8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.251072Z",
+    "finished_at": "2025-11-10T15:43:36.251073Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "debbd9c8-a976-4468-b27b-5aec2826186b",
+      "source_path": "backups/2023年6月/德语3/语句结构.html",
+      "checksum": "d1c995510083caa6b756f65506a245d6e5e72ec3e4fb0a8ea360d7c3f9c69288"
+    },
+    "output_ref": {
+      "ingest_source": "be2fa69b-192f-4d61-8a4e-868ccbcecec7",
+      "note": "f8fbf0bd-1c65-4591-b1c8-3c165d57d4f8",
+      "variants": [
+        "30ce6c11-fb04-4ed4-8f5d-584a854844f9",
+        "507b4e86-e2e3-49fb-943b-d1f19174d68d"
+      ]
+    },
+    "error_detail": null
+  }
+}

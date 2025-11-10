@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4fd7e5b9-67f9-4733-a431-e465cca3cb99",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/分类黄页.html",
+    "collected_at": "2025-11-10T15:43:35.631836Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fd0997d4ab4bfa56ba206e598f98e91350321664b15d68c886a65188fb35fb69",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "72dc1bbe-2a11-45b1-90f3-76c3d0cd6c51",
+    "ingest_source_id": "4fd7e5b9-67f9-4733-a431-e465cca3cb99",
+    "canonical_title": "分类黄页",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.631840Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "分类黄页.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0f945f63-5c2c-4d11-baab-afedbff77886",
+      "note_id": "72dc1bbe-2a11-45b1-90f3-76c3d0cd6c51",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.631842Z",
+      "content": "---\ntitle: 分类黄页\nupdated: 2019-01-02 01:03:59Z\ncreated: 2019-01-02 01:03:43Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><a HREF=\"https://www.gelbeseiten.de/\">https://www.gelbeseiten.de/</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fd0997d4ab4bfa56ba206e598f98e91350321664b15d68c886a65188fb35fb69",
+        "path": "backups/2023年6月/德国2/分类黄页.html"
+      }
+    },
+    {
+      "id": "45fbc808-6dd9-43f4-a6ec-042b539d4283",
+      "note_id": "72dc1bbe-2a11-45b1-90f3-76c3d0cd6c51",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.631845Z",
+      "content": "---\ntitle: 分类黄页\nupdated: 2019-01-02 01:03:59Z\ncreated: 2019-01-02 01:03:43Z\nauthor: tangyongfeng@gmail.com\n---\n\nhttps://www.gelbeseiten.de/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 139,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2deeca90-f80f-4529-9a43-0d1c64161aee",
+    "note_id": "72dc1bbe-2a11-45b1-90f3-76c3d0cd6c51",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.631850Z",
+    "finished_at": "2025-11-10T15:43:35.631850Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "24c66afa-c5c4-4411-bace-ce6e02eba3f3",
+      "source_path": "backups/2023年6月/德国2/分类黄页.html",
+      "checksum": "fd0997d4ab4bfa56ba206e598f98e91350321664b15d68c886a65188fb35fb69"
+    },
+    "output_ref": {
+      "ingest_source": "4fd7e5b9-67f9-4733-a431-e465cca3cb99",
+      "note": "72dc1bbe-2a11-45b1-90f3-76c3d0cd6c51",
+      "variants": [
+        "0f945f63-5c2c-4d11-baab-afedbff77886",
+        "45fbc808-6dd9-43f4-a6ec-042b539d4283"
+      ]
+    },
+    "error_detail": null
+  }
+}

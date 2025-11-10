@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e527c359-afe7-4db4-a891-21a13fe9a962",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/keno终端.html",
+    "collected_at": "2025-11-10T15:43:34.698341Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "20b6ff6894e921311dcdbb64037edde5a21a9639a6e773ab4dc473c5c290711a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c59f2522-2996-412b-a53e-6898d337463b",
+    "ingest_source_id": "e527c359-afe7-4db4-a891-21a13fe9a962",
+    "canonical_title": "keno终端",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.698345Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "keno终端.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "cd8eda51-1fba-4657-8adf-b1fe01b0226c",
+      "note_id": "c59f2522-2996-412b-a53e-6898d337463b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.698348Z",
+      "content": "---\ntitle: keno终端\nupdated: 2012-09-13 09:31:35Z\ncreated: 2012-09-13 09:31:22Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div><font COLOR=\"#0000FF\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\"><b>t4bc0rp</b></span></font></div><div><font COLOR=\"#0000FF\" FACE=\"宋体\" SIZE=\"2\"><span STYLE=\"font-size:10pt\"><b>192.168.19.207</b></span></font></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "20b6ff6894e921311dcdbb64037edde5a21a9639a6e773ab4dc473c5c290711a",
+        "path": "backups/2023年6月/中彩相关/keno终端.html"
+      }
+    },
+    {
+      "id": "174d242f-062d-4a87-9725-12015a377118",
+      "note_id": "c59f2522-2996-412b-a53e-6898d337463b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.698350Z",
+      "content": "---\ntitle: keno终端\nupdated: 2012-09-13 09:31:35Z\ncreated: 2012-09-13 09:31:22Z\n---\n\nt4bc0rp\n192.168.19.207",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 105,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1167e907-e09c-4890-a315-134b26c04762",
+    "note_id": "c59f2522-2996-412b-a53e-6898d337463b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.698355Z",
+    "finished_at": "2025-11-10T15:43:34.698356Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "889d98db-fd38-4fed-9da2-2f23dec7095a",
+      "source_path": "backups/2023年6月/中彩相关/keno终端.html",
+      "checksum": "20b6ff6894e921311dcdbb64037edde5a21a9639a6e773ab4dc473c5c290711a"
+    },
+    "output_ref": {
+      "ingest_source": "e527c359-afe7-4db4-a891-21a13fe9a962",
+      "note": "c59f2522-2996-412b-a53e-6898d337463b",
+      "variants": [
+        "cd8eda51-1fba-4657-8adf-b1fe01b0226c",
+        "174d242f-062d-4a87-9725-12015a377118"
+      ]
+    },
+    "error_detail": null
+  }
+}

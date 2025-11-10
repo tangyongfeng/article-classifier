@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "882d017d-0542-44bd-9d8c-b4cc339bfa67",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/海通证券账户.html",
+    "collected_at": "2025-11-10T15:43:36.582630Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "a7304c3341aae4c31e08d32048270a6d398cd16be9e0a5de2b59a57f6fb98973",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "123e43ee-68fa-4517-a467-ad40b0019a00",
+    "ingest_source_id": "882d017d-0542-44bd-9d8c-b4cc339bfa67",
+    "canonical_title": "海通证券账户",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.582635Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "海通证券账户.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ca2cb2e3-59a6-4c89-87dd-8863eaef45e6",
+      "note_id": "123e43ee-68fa-4517-a467-ad40b0019a00",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.582638Z",
+      "content": "---\ntitle: 海通证券账户\nupdated: 2021-06-22 13:52:32Z\ncreated: 2021-06-21 16:13:09Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note><div>密码：852961</div><div><br/></div><div><br/></div><div>尊敬的客户，恭喜您开户成功，资金账号为：4920033838,一码通账号为:180047887222，您的风险测评等级为C4。即刻下载e海通财APP，进入&ldquo;理财&rdquo;专区领取您的新客专享福利吧！随行体验更快交易服务 <a HREF=\"http://t.cn/R7ziG6N\">http://t.cn/R7ziG6N</a>。您还可关注微信「haitongsec」，免费订阅新股申购中签提醒，如有疑问详询95553、02195553【海通证券】</div><div><br/></div><div>尊敬的客户，恭喜您开户成功，资金账号为：4920033838，沪A证券账户：A319704887，深A证券账户：0317942949，本次业务见证人员郭楠，您可以通过中国证券业协会网站、海通官网、客服热线（95553）核实见证人员身份及执业资格。您所选择的第三方存管银行为招商银行，首笔银证转账需要通过银行端发起，可使用该银行手机银行、网银等方式办理。即刻下载e海通财APP，进入&ldquo;理财&rdquo;专区领取您的新客专享福利吧！随行体验更快交易服务 <a HREF=\"http://t.cn/R7ziG6N\">http://t.cn/R7ziG6N</a>。您还可关注微信「haitongsec」，免费订阅新股申购中签提醒，如有疑问详询95553、02195553【海通证券】</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "a7304c3341aae4c31e08d32048270a6d398cd16be9e0a5de2b59a57f6fb98973",
+        "path": "backups/2023年6月/投资/海通证券账户.html"
+      }
+    },
+    {
+      "id": "8b3dc96a-8b71-469f-90dd-67544f729e7c",
+      "note_id": "123e43ee-68fa-4517-a467-ad40b0019a00",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.582642Z",
+      "content": "---\ntitle: 海通证券账户\nupdated: 2021-06-22 13:52:32Z\ncreated: 2021-06-21 16:13:09Z\nauthor: tangyongfeng@gmail.com\n---\n\n密码：852961\n尊敬的客户，恭喜您开户成功，资金账号为：4920033838,一码通账号为:180047887222，您的风险测评等级为C4。即刻下载e海通财APP，进入“理财”专区领取您的新客专享福利吧！随行体验更快交易服务\nhttp://t.cn/R7ziG6N\n。您还可关注微信「haitongsec」，免费订阅新股申购中签提醒，如有疑问详询95553、02195553【海通证券】\n尊敬的客户，恭喜您开户成功，资金账号为：4920033838，沪A证券账户：A319704887，深A证券账户：0317942949，本次业务见证人员郭楠，您可以通过中国证券业协会网站、海通官网、客服热线（95553）核实见证人员身份及执业资格。您所选择的第三方存管银行为招商银行，首笔银证转账需要通过银行端发起，可使用该银行手机银行、网银等方式办理。即刻下载e海通财APP，进入“理财”专区领取您的新客专享福利吧！随行体验更快交易服务\nhttp://t.cn/R7ziG6N\n。您还可关注微信「haitongsec」，免费订阅新股申购中签提醒，如有疑问详询95553、02195553【海通证券】",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 610,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a9cc96f1-d280-444d-9ce0-64cf805c7fd0",
+    "note_id": "123e43ee-68fa-4517-a467-ad40b0019a00",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.582647Z",
+    "finished_at": "2025-11-10T15:43:36.582648Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d2a03366-c90b-48a5-a11e-2fb1fe0a31ee",
+      "source_path": "backups/2023年6月/投资/海通证券账户.html",
+      "checksum": "a7304c3341aae4c31e08d32048270a6d398cd16be9e0a5de2b59a57f6fb98973"
+    },
+    "output_ref": {
+      "ingest_source": "882d017d-0542-44bd-9d8c-b4cc339bfa67",
+      "note": "123e43ee-68fa-4517-a467-ad40b0019a00",
+      "variants": [
+        "ca2cb2e3-59a6-4c89-87dd-8863eaef45e6",
+        "8b3dc96a-8b71-469f-90dd-67544f729e7c"
+      ]
+    },
+    "error_detail": null
+  }
+}

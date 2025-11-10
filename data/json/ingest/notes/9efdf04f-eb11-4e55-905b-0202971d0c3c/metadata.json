@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "953e8f1b-f3e9-4386-a7b3-0e02ca30acc3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/第二均价预测.html",
+    "collected_at": "2025-11-10T15:43:36.592353Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "2f8d9ae8e436edf15dac34feff1fbb8e31f7a0fc17b54f45aa7f364182a0d0b8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9efdf04f-eb11-4e55-905b-0202971d0c3c",
+    "ingest_source_id": "953e8f1b-f3e9-4386-a7b3-0e02ca30acc3",
+    "canonical_title": "第二均价预测",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.592357Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "第二均价预测.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "366da5bc-fae7-4412-88f3-4671cda353ed",
+      "note_id": "9efdf04f-eb11-4e55-905b-0202971d0c3c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.592360Z",
+      "content": "---\ntitle: 第二均价预测\nupdated: 2022-09-16 09:04:40Z\ncreated: 2022-09-16 09:01:51Z\n---\n\n\n<en-note><div>当天均价计算公式</div><div><br/></div><div>均价=（收盘价x2+最高价+最低价）/4</div><div><br/></div><div>次日最高价、最低价、次高价、次低价计算公式</div><div><br/></div><div>最高价=前一天均价+（前一天最高价-前一天最低价）</div><div>最低价=前一天均价-（前一天最高价-前一天最低价）</div><div>次高价=前一天均价x2-最低价</div><div>次低价=前一天均价x2-最高价</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2f8d9ae8e436edf15dac34feff1fbb8e31f7a0fc17b54f45aa7f364182a0d0b8",
+        "path": "backups/2023年6月/投资/第二均价预测.html"
+      }
+    },
+    {
+      "id": "055153d3-d2ad-465e-af7e-1e5c94cc9c22",
+      "note_id": "9efdf04f-eb11-4e55-905b-0202971d0c3c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.592362Z",
+      "content": "---\ntitle: 第二均价预测\nupdated: 2022-09-16 09:04:40Z\ncreated: 2022-09-16 09:01:51Z\n---\n\n当天均价计算公式\n均价=（收盘价x2+最高价+最低价）/4\n次日最高价、最低价、次高价、次低价计算公式\n最高价=前一天均价+（前一天最高价-前一天最低价）\n最低价=前一天均价-（前一天最高价-前一天最低价）\n次高价=前一天均价x2-最低价\n次低价=前一天均价x2-最高价",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 218,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e2a25f8b-f534-4081-a407-608af6aefdce",
+    "note_id": "9efdf04f-eb11-4e55-905b-0202971d0c3c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.592367Z",
+    "finished_at": "2025-11-10T15:43:36.592368Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6a911a9f-1a2b-47a5-8a0b-987a5861e88b",
+      "source_path": "backups/2023年6月/投资/第二均价预测.html",
+      "checksum": "2f8d9ae8e436edf15dac34feff1fbb8e31f7a0fc17b54f45aa7f364182a0d0b8"
+    },
+    "output_ref": {
+      "ingest_source": "953e8f1b-f3e9-4386-a7b3-0e02ca30acc3",
+      "note": "9efdf04f-eb11-4e55-905b-0202971d0c3c",
+      "variants": [
+        "366da5bc-fae7-4412-88f3-4671cda353ed",
+        "055153d3-d2ad-465e-af7e-1e5c94cc9c22"
+      ]
+    },
+    "error_detail": null
+  }
+}

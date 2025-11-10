@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0c818376-6ff7-4728-a917-e70aaa6844d6",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/当前要储备的东西.html",
+    "collected_at": "2025-11-10T15:43:35.201626Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "6af6059da45fb08d258fd5c8974b0708b51fd8cf4065c19ea112b89ebc600dc8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "34e0be15-0f33-4228-b883-7d722365c2cd",
+    "ingest_source_id": "0c818376-6ff7-4728-a917-e70aaa6844d6",
+    "canonical_title": "当前要储备的东西",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.201630Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "当前要储备的东西.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "eb4887e9-6102-40ca-86e5-43544562d14f",
+      "note_id": "34e0be15-0f33-4228-b883-7d722365c2cd",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.201633Z",
+      "content": "---\ntitle: 当前要储备的东西\nupdated: 2013-07-11 03:46:01Z\ncreated: 2013-07-11 03:42:02Z\n---\n\n\n\n<en-note>电子病历<div>保险</div><div>药品</div><div>对社保的了解</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6af6059da45fb08d258fd5c8974b0708b51fd8cf4065c19ea112b89ebc600dc8",
+        "path": "backups/2023年6月/医疗/当前要储备的东西.html"
+      }
+    },
+    {
+      "id": "bcacb4c8-2007-42fd-8dce-f8277bfef0b0",
+      "note_id": "34e0be15-0f33-4228-b883-7d722365c2cd",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.201635Z",
+      "content": "---\ntitle: 当前要储备的东西\nupdated: 2013-07-11 03:46:01Z\ncreated: 2013-07-11 03:42:02Z\n---\n\n电子病历\n保险\n药品\n对社保的了解",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 102,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "da68c518-0a27-45c7-8b44-643f80f2dc1a",
+    "note_id": "34e0be15-0f33-4228-b883-7d722365c2cd",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.201640Z",
+    "finished_at": "2025-11-10T15:43:35.201640Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "84bd2c84-f367-4efc-b6aa-28b756617911",
+      "source_path": "backups/2023年6月/医疗/当前要储备的东西.html",
+      "checksum": "6af6059da45fb08d258fd5c8974b0708b51fd8cf4065c19ea112b89ebc600dc8"
+    },
+    "output_ref": {
+      "ingest_source": "0c818376-6ff7-4728-a917-e70aaa6844d6",
+      "note": "34e0be15-0f33-4228-b883-7d722365c2cd",
+      "variants": [
+        "eb4887e9-6102-40ca-86e5-43544562d14f",
+        "bcacb4c8-2007-42fd-8dce-f8277bfef0b0"
+      ]
+    },
+    "error_detail": null
+  }
+}

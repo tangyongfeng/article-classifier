@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "eaa1ab11-7dc5-4fd1-bc21-844db76ba1aa",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/ice展会.html",
+    "collected_at": "2025-11-10T15:43:31.682610Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "326de69da52c21b4147a3119fab59180ba7fd98573466329418e909c7e1a3392",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ad93e17b-99e9-4a51-8663-f63cbfe7842b",
+    "ingest_source_id": "eaa1ab11-7dc5-4fd1-bc21-844db76ba1aa",
+    "canonical_title": "ice展会",
+    "language": "no",
+    "ingested_at": "2025-11-10T15:43:31.682614Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ice展会.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "86b3165b-b886-449e-88be-860a72c293c9",
+      "note_id": "ad93e17b-99e9-4a51-8663-f63cbfe7842b",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.682618Z",
+      "content": "---\ntitle: ice展会\nupdated: 2015-01-26 06:00:08Z\ncreated: 2015-01-26 05:40:33Z\n---\n\n\n\n<en-note>关注厂商：\n&Tab;<div>GTech</div>\n&Tab;<div>将发布一款true 3d游戏</div>\n&Tab;<div>几台终端机共用一个jackpot</div>\n&Tab;<div>有九款终端机产品</div>\n&Tab;<div>iGaming手机平台</div>\n&Tab;<div>五号上午九点到十点有一个技术交流会</div>\n&Tab;<div>SG：</div>\n&Tab;<div>体彩使用SG</div>\n&Tab;<div>aegis 宙斯盾系统</div><div><br/></div><div>novomatse:奥地利公司</div><div>gli:第三方测试供应商</div><div>moker:高斯曼的子公司</div><div>bailing:很炫的游戏厂商</div><div>insbaire:</div><div>intranlot:keno</div><div>bewin:做互联网很牛的公司，互联网实时投注公司</div><div>威廉希尔：</div><div>力博：</div><div><br/></div><div><br/></div>\n&Tab;<div><br/></div>\n&Tab;<div><br/>\n&Tab;&Tab;<div><br/></div>\n&Tab;</div>\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "326de69da52c21b4147a3119fab59180ba7fd98573466329418e909c7e1a3392",
+        "path": "backups/2023年6月/IT技术/ice展会.html"
+      }
+    },
+    {
+      "id": "8b82f0ed-e3f7-433b-a518-ec0ddbc1b02b",
+      "note_id": "ad93e17b-99e9-4a51-8663-f63cbfe7842b",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.682621Z",
+      "content": "---\ntitle: ice展会\nupdated: 2015-01-26 06:00:08Z\ncreated: 2015-01-26 05:40:33Z\n---\n\n关注厂商：\n\nGTech\n\n将发布一款true 3d游戏\n\n几台终端机共用一个jackpot\n\n有九款终端机产品\n\niGaming手机平台\n\n五号上午九点到十点有一个技术交流会\n\nSG：\n\n体彩使用SG\n\naegis 宙斯盾系统\nnovomatse:奥地利公司\ngli:第三方测试供应商\nmoker:高斯曼的子公司\nbailing:很炫的游戏厂商\ninsbaire:\nintranlot:keno\nbewin:做互联网很牛的公司，互联网实时投注公司\n威廉希尔：\n力博：",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 316,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5ee959f3-b3c5-40c2-8e45-ef117a10bd6e",
+    "note_id": "ad93e17b-99e9-4a51-8663-f63cbfe7842b",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.682626Z",
+    "finished_at": "2025-11-10T15:43:31.682626Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "40103900-3848-41eb-a6e7-4e5d077015c3",
+      "source_path": "backups/2023年6月/IT技术/ice展会.html",
+      "checksum": "326de69da52c21b4147a3119fab59180ba7fd98573466329418e909c7e1a3392"
+    },
+    "output_ref": {
+      "ingest_source": "eaa1ab11-7dc5-4fd1-bc21-844db76ba1aa",
+      "note": "ad93e17b-99e9-4a51-8663-f63cbfe7842b",
+      "variants": [
+        "86b3165b-b886-449e-88be-860a72c293c9",
+        "8b82f0ed-e3f7-433b-a518-ec0ddbc1b02b"
+      ]
+    },
+    "error_detail": null
+  }
+}

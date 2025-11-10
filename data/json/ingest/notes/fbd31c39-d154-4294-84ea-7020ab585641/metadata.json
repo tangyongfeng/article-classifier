@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "548de8ef-3f3d-44c8-bac2-1d1d9ad20996",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/SELECT cnName.html",
+    "collected_at": "2025-11-10T15:43:31.240548Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ac5b41a8cd0f7430d29f4b7296736d2a6614a414f85960a0a41babc0af7cea46",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "fbd31c39-d154-4294-84ea-7020ab585641",
+    "ingest_source_id": "548de8ef-3f3d-44c8-bac2-1d1d9ad20996",
+    "canonical_title": "SELECT cnName",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.240553Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "SELECT cnName.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "35c4cf52-e5ab-4f7b-9e91-cc96547542cd",
+      "note_id": "fbd31c39-d154-4294-84ea-7020ab585641",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.240556Z",
+      "content": "---\ntitle: SELECT cnName\nupdated: 2013-06-18 07:21:28Z\ncreated: 2013-06-18 07:21:28Z\ntags:\n  - sql\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nSELECT&nbsp;&nbsp; cnName<br/>\nFROM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; category<br/>\nWHERE&nbsp;&nbsp; (supId =<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (SELECT&nbsp;&nbsp; supId<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; FROM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; category AS category_1<br/>\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WHERE&nbsp;&nbsp; (cnName = &apos;抗微生物药物&apos;)))\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ac5b41a8cd0f7430d29f4b7296736d2a6614a414f85960a0a41babc0af7cea46",
+        "path": "backups/2023年6月/IT技术/SELECT cnName.html"
+      }
+    },
+    {
+      "id": "1428b98a-09ce-47e0-b00b-a8f3f6264af4",
+      "note_id": "fbd31c39-d154-4294-84ea-7020ab585641",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.240560Z",
+      "content": "---\ntitle: SELECT cnName\nupdated: 2013-06-18 07:21:28Z\ncreated: 2013-06-18 07:21:28Z\ntags:\n  - sql\n---\n\nSELECT   cnName\n\nFROM      category\n\nWHERE   (supId =\n\n                    (SELECT   supId\n\n                     FROM      category AS category_1\n\n                     WHERE   (cnName = '抗微生物药物')))",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 301,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7582b5d4-3944-40c5-bf17-2826ceec06e5",
+    "note_id": "fbd31c39-d154-4294-84ea-7020ab585641",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.240566Z",
+    "finished_at": "2025-11-10T15:43:31.240566Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3672b624-a937-447f-aec1-11fbd8c83c65",
+      "source_path": "backups/2023年6月/IT技术/SELECT cnName.html",
+      "checksum": "ac5b41a8cd0f7430d29f4b7296736d2a6614a414f85960a0a41babc0af7cea46"
+    },
+    "output_ref": {
+      "ingest_source": "548de8ef-3f3d-44c8-bac2-1d1d9ad20996",
+      "note": "fbd31c39-d154-4294-84ea-7020ab585641",
+      "variants": [
+        "35c4cf52-e5ab-4f7b-9e91-cc96547542cd",
+        "1428b98a-09ce-47e0-b00b-a8f3f6264af4"
+      ]
+    },
+    "error_detail": null
+  }
+}

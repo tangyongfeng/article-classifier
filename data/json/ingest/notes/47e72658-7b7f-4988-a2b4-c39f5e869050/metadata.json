@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "29e5a87a-c83d-4ec2-9885-2f089fadbf43",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/QQ information.html",
+    "collected_at": "2025-11-10T15:43:31.232067Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "65caa1680275176e54f3cdd92f120322b3c67576cc8d013d9a88f61b1512dc50",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "47e72658-7b7f-4988-a2b4-c39f5e869050",
+    "ingest_source_id": "29e5a87a-c83d-4ec2-9885-2f089fadbf43",
+    "canonical_title": "QQ information",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.232072Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "QQ information.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9705c107-e1d1-4644-a1d4-84f9c4f7f7bb",
+      "note_id": "47e72658-7b7f-4988-a2b4-c39f5e869050",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.232075Z",
+      "content": "---\ntitle: QQ information\nupdated: 2013-11-27 08:19:47Z\ncreated: 2013-11-27 05:57:57Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div ALIGN=\"left\"><font COLOR=\"#0000FF\" FACE=\"Courier New\"><br/></font></div><div ALIGN=\"left\"><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\"><br/></span></font></div><div ALIGN=\"left\"><div ALIGN=\"left\"><font COLOR=\"#0000FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">insert</span></font> <font COLOR=\"#0000FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">into</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">qunNumberOfPeople</span></font></div><div ALIGN=\"left\"><font COLOR=\"#0000FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">select</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">a</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">QunNum</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">,</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">b</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">Title</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">,</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">a</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">ctn</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">,</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">b</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">MastQQ</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">,</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">b</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">createDate</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">,</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">b</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">QunText</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">,</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">b</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">class</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">&nbsp;</span></font><font COLOR=\"#0000FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">from</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">(</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font> <font COLOR=\"#0000FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">SELECT</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">QunNum</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">,</span></font><font COLOR=\"#FF00FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">count</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">(</span></font> <font COLOR=\"#010101\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">1</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">)</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">ctn</span></font><font COLOR=\"#010101\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">&nbsp;</span></font> <font COLOR=\"#0000FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">FROM</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">dbo</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">Groups</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font> <font COLOR=\"#0000FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">group</span></font> <font COLOR=\"#0000FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">by</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">QunNum</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">)</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">a</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">left</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">join</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">dbo</span></font><font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">quninfo</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">b</span></font></div><div ALIGN=\"left\"><font COLOR=\"#010101\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></font> <font COLOR=\"#0000FF\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">on</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">a</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">QunNUm</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">=</span></font> <font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">b</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">.</span></font><font COLOR=\"#008080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">QunNum</span></font> <font COLOR=\"#808080\" FACE=\"Courier New\" SIZE=\"2\"><span STYLE=\"font-size:10pt\">;</span></font></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "65caa1680275176e54f3cdd92f120322b3c67576cc8d013d9a88f61b1512dc50",
+        "path": "backups/2023年6月/IT技术/QQ information.html"
+      }
+    },
+    {
+      "id": "b0ddf7b7-d92f-4131-be7c-d2a083479b3f",
+      "note_id": "47e72658-7b7f-4988-a2b4-c39f5e869050",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.232079Z",
+      "content": "---\ntitle: QQ information\nupdated: 2013-11-27 08:19:47Z\ncreated: 2013-11-27 05:57:57Z\n---\n\ninsert\n\ninto\n\nqunNumberOfPeople\nselect\n\na\n\n.\nQunNum\n,\n\nb\n.\nTitle\n\n,\na\n.\n\nctn\n,\nb\n\n.\nMastQQ\n,\n\nb\n.\ncreateDate\n\n,\nb\n.\n\nQunText\n,\nb\n\n.\nclass\n \nfrom\n\n(\n      \nSELECT\n\nQunNum\n\n,\ncount\n(\n\n1\n)\n\nctn\n \nFROM\n\ndbo\n.\n\nGroups\n      \ngroup\n\nby\n\nQunNum\n\n)\n      \na\n\nleft\n\njoin\n\ndbo\n.\nquninfo\n\nb\n      \non\n\na\n\n.\nQunNUm\n\n=\n\nb\n\n.\nQunNum\n\n;",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 412,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "4a478f67-4bdc-48f0-96e4-09216399a6de",
+    "note_id": "47e72658-7b7f-4988-a2b4-c39f5e869050",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.232084Z",
+    "finished_at": "2025-11-10T15:43:31.232085Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "597a272e-bfa6-4bf7-b17c-3a756d6c1896",
+      "source_path": "backups/2023年6月/IT技术/QQ information.html",
+      "checksum": "65caa1680275176e54f3cdd92f120322b3c67576cc8d013d9a88f61b1512dc50"
+    },
+    "output_ref": {
+      "ingest_source": "29e5a87a-c83d-4ec2-9885-2f089fadbf43",
+      "note": "47e72658-7b7f-4988-a2b4-c39f5e869050",
+      "variants": [
+        "9705c107-e1d1-4644-a1d4-84f9c4f7f7bb",
+        "b0ddf7b7-d92f-4131-be7c-d2a083479b3f"
+      ]
+    },
+    "error_detail": null
+  }
+}

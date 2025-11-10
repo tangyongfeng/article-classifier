@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d87c922d-bde7-4670-a246-e60167001c14",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国3/The first step to self-employment _ Made in German.html",
+    "collected_at": "2025-11-10T15:43:35.748139Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f8e318d7a1003e78d5b90c8d88c5c4a4a1e5d602fe229eac64910ec673ef193f",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "610e51b5-8320-4d02-ac0d-eb439c44c4de",
+    "ingest_source_id": "d87c922d-bde7-4670-a246-e60167001c14",
+    "canonical_title": "The first step to self-employment _ Made in German",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.748143Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "The first step to self-employment _ Made in German.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b63e9354-1eaa-4fc2-b20b-cde3a44e0418",
+      "note_id": "610e51b5-8320-4d02-ac0d-eb439c44c4de",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.748146Z",
+      "content": "---\ntitle: The first step to self-employment | Made in Germany - Interview\nupdated: 2017-12-13 04:31:57Z\ncreated: 2017-12-13 04:31:16Z\nauthor: tangyongfeng\n---\n\n\n<en-note><div><a HREF=\"https://www.youtube.com/watch?v=YY3JzgvLeig\">https://www.youtube.com/watch?v=YY3JzgvLeig</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f8e318d7a1003e78d5b90c8d88c5c4a4a1e5d602fe229eac64910ec673ef193f",
+        "path": "backups/2023年6月/德国3/The first step to self-employment _ Made in German.html"
+      }
+    },
+    {
+      "id": "dced18b2-7bde-47a2-b3b2-05ea8d17ed3e",
+      "note_id": "610e51b5-8320-4d02-ac0d-eb439c44c4de",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.748149Z",
+      "content": "---\ntitle: The first step to self-employment | Made in Germany - Interview\nupdated: 2017-12-13 04:31:57Z\ncreated: 2017-12-13 04:31:16Z\nauthor: tangyongfeng\n---\n\nhttps://www.youtube.com/watch?v=YY3JzgvLeig",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 204,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9042869c-0e9a-42bc-b94b-25dbfd0867da",
+    "note_id": "610e51b5-8320-4d02-ac0d-eb439c44c4de",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.748154Z",
+    "finished_at": "2025-11-10T15:43:35.748154Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "41db23ad-2f3e-45cd-87c6-01960d8db209",
+      "source_path": "backups/2023年6月/德国3/The first step to self-employment _ Made in German.html",
+      "checksum": "f8e318d7a1003e78d5b90c8d88c5c4a4a1e5d602fe229eac64910ec673ef193f"
+    },
+    "output_ref": {
+      "ingest_source": "d87c922d-bde7-4670-a246-e60167001c14",
+      "note": "610e51b5-8320-4d02-ac0d-eb439c44c4de",
+      "variants": [
+        "b63e9354-1eaa-4fc2-b20b-cde3a44e0418",
+        "dced18b2-7bde-47a2-b3b2-05ea8d17ed3e"
+      ]
+    },
+    "error_detail": null
+  }
+}

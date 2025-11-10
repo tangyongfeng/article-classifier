@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8cd7cfdd-3301-47d6-af3a-c92857650ee5",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/加拿大签证.html",
+    "collected_at": "2025-11-10T15:43:33.720164Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e95023014ee9f42cc130435713098b9beaa18b93d193ae30e17a5be22f409a2c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "272dfb49-5ded-4f9d-8c5d-9897e8fa8994",
+    "ingest_source_id": "8cd7cfdd-3301-47d6-af3a-c92857650ee5",
+    "canonical_title": "加拿大签证",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.720168Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "加拿大签证.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "45fc1f59-79d2-4179-bc75-071146b76b7d",
+      "note_id": "272dfb49-5ded-4f9d-8c5d-9897e8fa8994",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.720171Z",
+      "content": "---\ntitle: 加拿大签证\nupdated: 2022-01-29 18:49:19Z\ncreated: 2022-01-29 18:48:45Z\n---\n\n\n<en-note><div>gckey username :yongfengtang_de</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e95023014ee9f42cc130435713098b9beaa18b93d193ae30e17a5be22f409a2c",
+        "path": "backups/2023年6月/个人的乱78糟/加拿大签证.html"
+      }
+    },
+    {
+      "id": "a290921f-a436-4e5b-a866-76360b5017b4",
+      "note_id": "272dfb49-5ded-4f9d-8c5d-9897e8fa8994",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.720174Z",
+      "content": "---\ntitle: 加拿大签证\nupdated: 2022-01-29 18:49:19Z\ncreated: 2022-01-29 18:48:45Z\n---\n\ngckey username :yongfengtang_de",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 113,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "886e724f-cabf-4bf8-8f07-81626c25d0ad",
+    "note_id": "272dfb49-5ded-4f9d-8c5d-9897e8fa8994",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.720180Z",
+    "finished_at": "2025-11-10T15:43:33.720180Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3edb2802-2048-4e65-ae56-ddbe2025dba2",
+      "source_path": "backups/2023年6月/个人的乱78糟/加拿大签证.html",
+      "checksum": "e95023014ee9f42cc130435713098b9beaa18b93d193ae30e17a5be22f409a2c"
+    },
+    "output_ref": {
+      "ingest_source": "8cd7cfdd-3301-47d6-af3a-c92857650ee5",
+      "note": "272dfb49-5ded-4f9d-8c5d-9897e8fa8994",
+      "variants": [
+        "45fc1f59-79d2-4179-bc75-071146b76b7d",
+        "a290921f-a436-4e5b-a866-76360b5017b4"
+      ]
+    },
+    "error_detail": null
+  }
+}

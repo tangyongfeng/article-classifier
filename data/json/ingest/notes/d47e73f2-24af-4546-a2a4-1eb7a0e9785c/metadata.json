@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "cae3a29f-776b-491f-9727-55e30e20fcec",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/Gemeinsam eine Aufgabe lösen.html",
+    "collected_at": "2025-11-10T15:43:36.008114Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "14ca2773eac4c73459a7b6a05cea8790a7c87a25f94db8c6776b98fe96740b26",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d47e73f2-24af-4546-a2a4-1eb7a0e9785c",
+    "ingest_source_id": "cae3a29f-776b-491f-9727-55e30e20fcec",
+    "canonical_title": "Gemeinsam eine Aufgabe lösen",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:36.008119Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Gemeinsam eine Aufgabe lösen.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a024b5a7-0691-4f81-8879-a6d99c7f4785",
+      "note_id": "d47e73f2-24af-4546-a2a4-1eb7a0e9785c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.008121Z",
+      "content": "---\ntitle: Gemeinsam eine Aufgabe lösen\nupdated: 2020-11-17 23:45:56Z\ncreated: 2020-11-17 14:53:36Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - B1\n---\n\n\n<en-note><div>Sie haben einige Bekannte aus Ihrem Deutschkurs am Wochenende zu sich nach Hause eingeladen, weil Sie zusammen Deutsch lernen wollen. Sie haben die Aufgabe , zusammen mit Ihrer Gespr&auml;chspartnerin/Ihrem Gespr&auml;chspartner dieses Wochenende zu planen. &Uuml;berlegen Sie sich , was alles zu tun ist und wer welche Aufgaben &uuml;bernimmt . Sie haben sich schon einen Zettel mit Notizen gemacht.</div><div><br/></div><div>Gemeinsam lernen</div><ul><li><div>Wann genau ?</div></li><li><div>Essen</div></li><li><div>Getr&auml;nke</div></li><li><div>Wer bezahlt wof&uuml;r ?</div></li><li><div>Welche B&uuml;cher ?</div></li><li><div>Sonstiges Material (z.B. Computer )?</div></li><li><div>Wo k&ouml;nnen die Bekannten schlafen ?</div></li></ul><hr/><ul><li><div>Hallo , Ich habe &hellip;&hellip;&hellip;&hellip;eingeladen&hellip;&hellip;&hellip;&hellip;weil ich zusammen Deutsch lernen wollen.</div></li><li><div>Ja , Ich will gehen.Wann werde ich gehen ?</div></li><li><div>Ich denke, dass um Freitag am 10 Uhr besser ist&hellip;...</div></li><li><div>Ich glaube, dass 10 Uhr zu fr&uuml;h ist . ich lerne jeden Tag sp&auml;t , deshalb stehe ich jeden Tag sp&auml;t auf .&nbsp;</div></li><li><div>wie denkst du 3:00 Uhr ?</div></li><li><div>3 Uhr , ist es drei Uhr nachmittags ?</div></li><li><div>Ja, 3 Uhr nachmittags.&nbsp;</div></li><li><div>Meiner Meinung nach ist es teuer. Soll ich etwas zum Essen mitbringen?</div></li><li><div>Ich denke , nachdem du gekommen bist, wir werden in den Supermarkt gehen, um etwas zu &nbsp;kaufen.</div></li><li><div>ok, Ich m&ouml;chte etwas Pizza und Salat kaufen. M&uuml;ssen wir etwas Getr&auml;nke kaufen?</div></li><li><div>Ja, Tee und Wasser, ZhangSan mag Cola, Wir &nbsp;werden etwas f&uuml;r ihn kaufen, wenn wir es kaufen.</div></li><li><div>ok ,Wie zahlen wir ?</div></li><li><div>Wir k&ouml;nnen uns gleich aufteilen.</div></li><li><div>ok. Welche B&uuml;cher solle ich mitbringe ?</div></li><li><div>Ich denke, dass Delfin B1 sollst du mitbringen.</div></li><li><div>ok. sollen ich andere Dinge mitbringen ?&nbsp;<span STYLE=\"color: rgb(68, 68, 68); font-family: helvetica, 宋体, arial, sans-serif; font-size: 14.7px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);\">zum Beispiel ,Computer und CD&hellip;etwas.</span></div></li><li><div><span STYLE=\"color: rgb(15, 15, 15); font-family: helvetica; --inversion-type-color: simple;\">Ich habe eine Computer in meinem Zimmer ,und habe ich vielen CD. du musst nicht mitbringen.</span></div></li><li><div><span STYLE=\"color: rgb(15, 15, 15); font-family: helvetica; --inversion-type-color: simple;\">wo sollen wir nacht schlafen ?</span></div></li><li><div><span STYLE=\"color: rgb(15, 15, 15); font-family: helvetica; --inversion-type-color: simple;\">ich habe vielen Bett, Jeder von uns hat ein Bett.&nbsp;</span></div></li></ul><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "14ca2773eac4c73459a7b6a05cea8790a7c87a25f94db8c6776b98fe96740b26",
+        "path": "backups/2023年6月/德语2/Gemeinsam eine Aufgabe lösen.html"
+      }
+    },
+    {
+      "id": "eb806d1e-b0f7-48b5-9fab-173ac52e2a65",
+      "note_id": "d47e73f2-24af-4546-a2a4-1eb7a0e9785c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.008124Z",
+      "content": "---\ntitle: Gemeinsam eine Aufgabe lösen\nupdated: 2020-11-17 23:45:56Z\ncreated: 2020-11-17 14:53:36Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - B1\n---\n\nSie haben einige Bekannte aus Ihrem Deutschkurs am Wochenende zu sich nach Hause eingeladen, weil Sie zusammen Deutsch lernen wollen. Sie haben die Aufgabe , zusammen mit Ihrer Gesprächspartnerin/Ihrem Gesprächspartner dieses Wochenende zu planen. Überlegen Sie sich , was alles zu tun ist und wer welche Aufgaben übernimmt . Sie haben sich schon einen Zettel mit Notizen gemacht.\nGemeinsam lernen\nWann genau ?\nEssen\nGetränke\nWer bezahlt wofür ?\nWelche Bücher ?\nSonstiges Material (z.B. Computer )?\nWo können die Bekannten schlafen ?\nHallo , Ich habe …………eingeladen…………weil ich zusammen Deutsch lernen wollen.\nJa , Ich will gehen.Wann werde ich gehen ?\nIch denke, dass um Freitag am 10 Uhr besser ist…...\nIch glaube, dass 10 Uhr zu früh ist . ich lerne jeden Tag spät , deshalb stehe ich jeden Tag spät auf . \nwie denkst du 3:00 Uhr ?\n3 Uhr , ist es drei Uhr nachmittags ?\nJa, 3 Uhr nachmittags. \nMeiner Meinung nach ist es teuer. Soll ich etwas zum Essen mitbringen?\nIch denke , nachdem du gekommen bist, wir werden in den Supermarkt gehen, um etwas zu  kaufen.\nok, Ich möchte etwas Pizza und Salat kaufen. Müssen wir etwas Getränke kaufen?\nJa, Tee und Wasser, ZhangSan mag Cola, Wir  werden etwas für ihn kaufen, wenn wir es kaufen.\nok ,Wie zahlen wir ?\nWir können uns gleich aufteilen.\nok. Welche Bücher solle ich mitbringe ?\nIch denke, dass Delfin B1 sollst du mitbringen.\nok. sollen ich andere Dinge mitbringen ? \nzum Beispiel ,Computer und CD…etwas.\nIch habe eine Computer in meinem Zimmer ,und habe ich vielen CD. du musst nicht mitbringen.\nwo sollen wir nacht schlafen ?\nich habe vielen Bett, Jeder von uns hat ein Bett.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 1777,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f9405e39-be89-4ee0-9cf2-a97cabfb44db",
+    "note_id": "d47e73f2-24af-4546-a2a4-1eb7a0e9785c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.008128Z",
+    "finished_at": "2025-11-10T15:43:36.008129Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "72d280d5-a680-4bd0-b54e-57415b4c1390",
+      "source_path": "backups/2023年6月/德语2/Gemeinsam eine Aufgabe lösen.html",
+      "checksum": "14ca2773eac4c73459a7b6a05cea8790a7c87a25f94db8c6776b98fe96740b26"
+    },
+    "output_ref": {
+      "ingest_source": "cae3a29f-776b-491f-9727-55e30e20fcec",
+      "note": "d47e73f2-24af-4546-a2a4-1eb7a0e9785c",
+      "variants": [
+        "a024b5a7-0691-4f81-8879-a6d99c7f4785",
+        "eb806d1e-b0f7-48b5-9fab-173ac52e2a65"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "12ef290a-d666-4810-9c87-d1d7498c0449",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/http___www.ifanr.com_news_475848_url_type=39&objec.html",
+    "collected_at": "2025-11-10T15:43:31.560363Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "5dae21ace90770dd63113a75ae7234d0bdb16fc882ed624c064212fc3a35ff39",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "df996bcc-5068-484b-ab1a-d67e1a95cd4c",
+    "ingest_source_id": "12ef290a-d666-4810-9c87-d1d7498c0449",
+    "canonical_title": "http___www.ifanr.com_news_475848_url_type=39&objec",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.560368Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "http___www.ifanr.com_news_475848_url_type=39&objec.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2ad678cb-bd33-431e-a59b-5c50cd55e872",
+      "note_id": "df996bcc-5068-484b-ab1a-d67e1a95cd4c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.560371Z",
+      "content": "---\ntitle: http://www.ifanr.com/news/475848?url_type=39&object_type=article&pos=1\nupdated: 2014-12-15 00:25:29Z\ncreated: 2014-12-15 00:25:29Z\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>http://www.ifanr.com/news/475848?url_type=39&amp;object_type=article&amp;pos=1</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5dae21ace90770dd63113a75ae7234d0bdb16fc882ed624c064212fc3a35ff39",
+        "path": "backups/2023年6月/IT技术/http___www.ifanr.com_news_475848_url_type=39&objec.html"
+      }
+    },
+    {
+      "id": "1f3d188d-0992-4606-a83f-081f106b5f4a",
+      "note_id": "df996bcc-5068-484b-ab1a-d67e1a95cd4c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.560374Z",
+      "content": "---\ntitle: http://www.ifanr.com/news/475848?url_type=39&object_type=article&pos=1\nupdated: 2014-12-15 00:25:29Z\ncreated: 2014-12-15 00:25:29Z\n---\n\nhttp://www.ifanr.com/news/475848?url_type=39&object_type=article&pos=1",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 217,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "556b6030-c69f-4b1d-831e-df59091d1523",
+    "note_id": "df996bcc-5068-484b-ab1a-d67e1a95cd4c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.560379Z",
+    "finished_at": "2025-11-10T15:43:31.560379Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "91ea235a-9859-4323-b78b-c73b83316032",
+      "source_path": "backups/2023年6月/IT技术/http___www.ifanr.com_news_475848_url_type=39&objec.html",
+      "checksum": "5dae21ace90770dd63113a75ae7234d0bdb16fc882ed624c064212fc3a35ff39"
+    },
+    "output_ref": {
+      "ingest_source": "12ef290a-d666-4810-9c87-d1d7498c0449",
+      "note": "df996bcc-5068-484b-ab1a-d67e1a95cd4c",
+      "variants": [
+        "2ad678cb-bd33-431e-a59b-5c50cd55e872",
+        "1f3d188d-0992-4606-a83f-081f106b5f4a"
+      ]
+    },
+    "error_detail": null
+  }
+}

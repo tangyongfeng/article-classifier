@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a7517a16-32c4-4fce-9b5b-03b09ff21afe",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-1.html",
+    "collected_at": "2025-11-10T15:43:34.008616Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "9844a5c0307cd2c34febe60895db074ddbc04bf3d3d350c68aacb4e01592a927",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "90ceadeb-ed1d-434a-8827-73f8920ebe26",
+    "ingest_source_id": "a7517a16-32c4-4fce-9b5b-03b09ff21afe",
+    "canonical_title": "无标题笔记-1",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.008620Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-1.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5a09da9c-cbe5-48d7-a044-db20f8511a05",
+      "note_id": "90ceadeb-ed1d-434a-8827-73f8920ebe26",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.008622Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2022-03-09 18:07:06Z\ncreated: 2022-03-09 18:06:57Z\n---\n\n\n<en-note><div><br/></div><div><br/></div><div><br/></div><div>在班级旅行开始时，必须向班主任递交以下材料。</div><div>- 在信封上贴上标签。健康保险卡和疫苗接种本（复印件，标明</div><div>有名字)</div><div>- 如果有必要，将药物装在一个袋子里，并注明名称+剂量说明。</div><div>睡衣</div><div>足够的内衣和袜子</div><div>换洗的衣服（旧的牛仔裤、毛衣、T恤衫等）。</div><div>一双结实的鞋子</div><div>胶鞋（如果天气不好）</div><div>拖鞋</div><div>雨衣或防雨夹克，可能还有雨裤</div><div>装有洗漱用品的洗漱包（肥皂、沐浴露、牙刷和牙膏、发刷等）。</div><div>毛巾</div><div>可爱的玩具</div><div>派对装束</div><div>小背包、水壶、手帕</div><div>可能是手表，而不是智能手表!</div><div>火炬</div><div>一本书</div><div>铅笔盒、剪刀、胶水</div><div>一个棋盘游戏</div><div>一袋糖果或咸味食品</div><div>请不要嚼口香糖!</div><div>每个孩子最多可获得4,-欧元的零用钱</div><div>不得使用手机、相机、电子设备，例如任天堂，MP3-播放器。</div><div>小刀等。伊尔 没有贵重物品。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9844a5c0307cd2c34febe60895db074ddbc04bf3d3d350c68aacb4e01592a927",
+        "path": "backups/2023年6月/个人的乱78糟/无标题笔记-1.html"
+      }
+    },
+    {
+      "id": "9bdb2cb5-b6ef-4f64-9d81-7292625c523a",
+      "note_id": "90ceadeb-ed1d-434a-8827-73f8920ebe26",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.008625Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2022-03-09 18:07:06Z\ncreated: 2022-03-09 18:06:57Z\n---\n\n在班级旅行开始时，必须向班主任递交以下材料。\n- 在信封上贴上标签。健康保险卡和疫苗接种本（复印件，标明\n有名字)\n- 如果有必要，将药物装在一个袋子里，并注明名称+剂量说明。\n睡衣\n足够的内衣和袜子\n换洗的衣服（旧的牛仔裤、毛衣、T恤衫等）。\n一双结实的鞋子\n胶鞋（如果天气不好）\n拖鞋\n雨衣或防雨夹克，可能还有雨裤\n装有洗漱用品的洗漱包（肥皂、沐浴露、牙刷和牙膏、发刷等）。\n毛巾\n可爱的玩具\n派对装束\n小背包、水壶、手帕\n可能是手表，而不是智能手表!\n火炬\n一本书\n铅笔盒、剪刀、胶水\n一个棋盘游戏\n一袋糖果或咸味食品\n请不要嚼口香糖!\n每个孩子最多可获得4,-欧元的零用钱\n不得使用手机、相机、电子设备，例如任天堂，MP3-播放器。\n小刀等。伊尔 没有贵重物品。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 417,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "b07ec9f9-290e-4b65-bbe7-9e7c4a0ae826",
+    "note_id": "90ceadeb-ed1d-434a-8827-73f8920ebe26",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.008630Z",
+    "finished_at": "2025-11-10T15:43:34.008630Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "290517de-e0be-48b3-9851-e5be7511e1dd",
+      "source_path": "backups/2023年6月/个人的乱78糟/无标题笔记-1.html",
+      "checksum": "9844a5c0307cd2c34febe60895db074ddbc04bf3d3d350c68aacb4e01592a927"
+    },
+    "output_ref": {
+      "ingest_source": "a7517a16-32c4-4fce-9b5b-03b09ff21afe",
+      "note": "90ceadeb-ed1d-434a-8827-73f8920ebe26",
+      "variants": [
+        "5a09da9c-cbe5-48d7-a044-db20f8511a05",
+        "9bdb2cb5-b6ef-4f64-9d81-7292625c523a"
+      ]
+    },
+    "error_detail": null
+  }
+}

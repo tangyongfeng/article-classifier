@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e4e0a5fe-927c-4bdc-a211-9bba7ec0e60e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语2/Email ,Ich möchte nach deines Freundes Land besuch.html",
+    "collected_at": "2025-11-10T15:43:36.003214Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "45785f0d4092274c6be9ae7edc9d76c1be4d96e1cac4d259b56b24ab22cdbb7b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e33b51e6-4163-4014-a8e4-2ef248ba82bf",
+    "ingest_source_id": "e4e0a5fe-927c-4bdc-a211-9bba7ec0e60e",
+    "canonical_title": "Email ,Ich möchte nach deines Freundes Land besuch",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:36.003219Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Email ,Ich möchte nach deines Freundes Land besuch.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "002b5310-74b7-452b-b95d-245d0a7992a7",
+      "note_id": "e33b51e6-4163-4014-a8e4-2ef248ba82bf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.003222Z",
+      "content": "---\ntitle: Email ,Ich möchte nach deines Freundes Land besuche.\nupdated: 2020-10-21 06:15:57Z\ncreated: 2020-10-20 22:06:26Z\n---\n\n\n<en-note><div>Lieber Nico,</div><div>Wie geht es dir? Ich hoffe ,dass &nbsp;es dir und deiner Familie geht es gut.</div><div>Wie lange hast du schon in Kanada gelebt?Vielleicht zwei Jahre,und wir haben uns seit zwei Jahre nicht mehr gesehen.</div><div>Ich habe nie Kanada besucht , es ist sch&ouml;nes Land und gef&auml;llt mir.</div><div>Wann hast du Zeit ? Ich m&ouml;chte dich im Sommer besuchen.</div><div>Wie viele Zimmer gibt es in deiner Wohnung? Wenn ich zu deiner Haus bleiben kann .</div><div>Wie viele Personen haben deiner Familie? Ich will sie die Geschenke schenke.und Ich w&uuml;rde auch die deutsches Bier nach Kanada mitbringe.</div><div>Wenn du auch darfst ,w&uuml;rde ich gerne meine Freunde Mike mitnehmen .Du kennst ihn.Ich hoffe,dass ihr auch Freunde werdet.</div><div>Ich erwarte deiner Antwort.</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "45785f0d4092274c6be9ae7edc9d76c1be4d96e1cac4d259b56b24ab22cdbb7b",
+        "path": "backups/2023年6月/德语2/Email ,Ich möchte nach deines Freundes Land besuch.html"
+      }
+    },
+    {
+      "id": "d06ea307-6791-4115-8509-c1838384471d",
+      "note_id": "e33b51e6-4163-4014-a8e4-2ef248ba82bf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.003225Z",
+      "content": "---\ntitle: Email ,Ich möchte nach deines Freundes Land besuche.\nupdated: 2020-10-21 06:15:57Z\ncreated: 2020-10-20 22:06:26Z\n---\n\nLieber Nico,\nWie geht es dir? Ich hoffe ,dass  es dir und deiner Familie geht es gut.\nWie lange hast du schon in Kanada gelebt?Vielleicht zwei Jahre,und wir haben uns seit zwei Jahre nicht mehr gesehen.\nIch habe nie Kanada besucht , es ist schönes Land und gefällt mir.\nWann hast du Zeit ? Ich möchte dich im Sommer besuchen.\nWie viele Zimmer gibt es in deiner Wohnung? Wenn ich zu deiner Haus bleiben kann .\nWie viele Personen haben deiner Familie? Ich will sie die Geschenke schenke.und Ich würde auch die deutsches Bier nach Kanada mitbringe.\nWenn du auch darfst ,würde ich gerne meine Freunde Mike mitnehmen .Du kennst ihn.Ich hoffe,dass ihr auch Freunde werdet.\nIch erwarte deiner Antwort.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 823,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "219bd9ae-ee21-40cb-80a6-46face301b47",
+    "note_id": "e33b51e6-4163-4014-a8e4-2ef248ba82bf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.003231Z",
+    "finished_at": "2025-11-10T15:43:36.003231Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0a333a96-21bd-438e-a8a0-466fa87854cc",
+      "source_path": "backups/2023年6月/德语2/Email ,Ich möchte nach deines Freundes Land besuch.html",
+      "checksum": "45785f0d4092274c6be9ae7edc9d76c1be4d96e1cac4d259b56b24ab22cdbb7b"
+    },
+    "output_ref": {
+      "ingest_source": "e4e0a5fe-927c-4bdc-a211-9bba7ec0e60e",
+      "note": "e33b51e6-4163-4014-a8e4-2ef248ba82bf",
+      "variants": [
+        "002b5310-74b7-452b-b95d-245d0a7992a7",
+        "d06ea307-6791-4115-8509-c1838384471d"
+      ]
+    },
+    "error_detail": null
+  }
+}

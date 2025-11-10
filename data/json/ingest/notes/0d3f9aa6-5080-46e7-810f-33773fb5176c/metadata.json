@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1c49f64d-6553-4153-8f26-9e41fda122e2",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/尊敬的签证官：.html",
+    "collected_at": "2025-11-10T15:43:35.644477Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c8d8801699248c7a668ad18224c1a71ca3a902bc2bd095906b5f2eb43e5566b5",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "0d3f9aa6-5080-46e7-810f-33773fb5176c",
+    "ingest_source_id": "1c49f64d-6553-4153-8f26-9e41fda122e2",
+    "canonical_title": "尊敬的签证官：",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.644483Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "尊敬的签证官：.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "03e566d1-b6a1-4c4f-93f4-667c78a7af35",
+      "note_id": "0d3f9aa6-5080-46e7-810f-33773fb5176c",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.644486Z",
+      "content": "---\ntitle: 尊敬的签证官：\nupdated: 2019-01-19 21:24:11Z\ncreated: 2019-01-19 20:54:57Z\n---\n\n\n\n<en-note><div>尊敬的签证官：</div><div>&nbsp; &nbsp; &nbsp;我于Xxx申请了商务签证，于Xxx被拒签，我的护照号码是E12457556 ，申请号码是000000。于Ｘｘｘｘｘ提交了申诉，时间已经过去了五周。</div><div>通过向大使馆签证官咨询，我得知被拒签的理由是我此行的内容可能被定义为工作性质。</div><div><br/></div><div>我提出申诉是因为我无法接受第六条的拒签理由，我无法接受我这样的拥有优秀出入境记录的守法中国公民会伤害申根国家的公共秩序和公共安全，我不希望我下次再申请签证时这样的记录会影响签证官的判断。</div><div><span STYLE=\"-en-paragraph:true;\">如果您允许，我希望能够重新提交我的旅行计划，去掉和我太太公司会计师的会谈安排，仍然保留替她取回营业执照和银行支付密码信件，以及了解德国商业环境的日程。这样做并不是为了获得签证而撒谎，而是通过希望和您沟通，尊重德国法律和签证规则。我可以书面的对上述内容作出承诺，为了获得您的信任。</span></div><div><span STYLE=\"-en-paragraph:true;\">我和我太太在婚姻中，依照中国的法律（我不确定德国的法律是否也有相同的规定），这家公司属于我和我太太共同拥有，我太太也授权我这样做，所以我去取回文件不应该被认为是为这家公司工作，同样，我为了了解德国的商业环境，为我太太的经营提出意见也不应该被认为是为这家公司工作。</span></div><div><span STYLE=\"-en-paragraph:true;\">无论怎样，我真诚的希望您能充满人情味的处理我的案件，尽快发给我签证。</span></div><div><span STYLE=\"-en-paragraph:true;\"><br/></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c8d8801699248c7a668ad18224c1a71ca3a902bc2bd095906b5f2eb43e5566b5",
+        "path": "backups/2023年6月/德国2/尊敬的签证官：.html"
+      }
+    },
+    {
+      "id": "8105d4fd-69f2-42a4-8fd5-62e58d96aaac",
+      "note_id": "0d3f9aa6-5080-46e7-810f-33773fb5176c",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.644489Z",
+      "content": "---\ntitle: 尊敬的签证官：\nupdated: 2019-01-19 21:24:11Z\ncreated: 2019-01-19 20:54:57Z\n---\n\n尊敬的签证官：\n     我于Xxx申请了商务签证，于Xxx被拒签，我的护照号码是E12457556 ，申请号码是000000。于Ｘｘｘｘｘ提交了申诉，时间已经过去了五周。\n通过向大使馆签证官咨询，我得知被拒签的理由是我此行的内容可能被定义为工作性质。\n我提出申诉是因为我无法接受第六条的拒签理由，我无法接受我这样的拥有优秀出入境记录的守法中国公民会伤害申根国家的公共秩序和公共安全，我不希望我下次再申请签证时这样的记录会影响签证官的判断。\n如果您允许，我希望能够重新提交我的旅行计划，去掉和我太太公司会计师的会谈安排，仍然保留替她取回营业执照和银行支付密码信件，以及了解德国商业环境的日程。这样做并不是为了获得签证而撒谎，而是通过希望和您沟通，尊重德国法律和签证规则。我可以书面的对上述内容作出承诺，为了获得您的信任。\n我和我太太在婚姻中，依照中国的法律（我不确定德国的法律是否也有相同的规定），这家公司属于我和我太太共同拥有，我太太也授权我这样做，所以我去取回文件不应该被认为是为这家公司工作，同样，我为了了解德国的商业环境，为我太太的经营提出意见也不应该被认为是为这家公司工作。\n无论怎样，我真诚的希望您能充满人情味的处理我的案件，尽快发给我签证。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 611,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ec2f88a9-bc84-4fe7-bb7c-0e927fbac59b",
+    "note_id": "0d3f9aa6-5080-46e7-810f-33773fb5176c",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.644495Z",
+    "finished_at": "2025-11-10T15:43:35.644496Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d9d5c605-f242-49b9-8672-57c8d6ef2175",
+      "source_path": "backups/2023年6月/德国2/尊敬的签证官：.html",
+      "checksum": "c8d8801699248c7a668ad18224c1a71ca3a902bc2bd095906b5f2eb43e5566b5"
+    },
+    "output_ref": {
+      "ingest_source": "1c49f64d-6553-4153-8f26-9e41fda122e2",
+      "note": "0d3f9aa6-5080-46e7-810f-33773fb5176c",
+      "variants": [
+        "03e566d1-b6a1-4c4f-93f4-667c78a7af35",
+        "8105d4fd-69f2-42a4-8fd5-62e58d96aaac"
+      ]
+    },
+    "error_detail": null
+  }
+}

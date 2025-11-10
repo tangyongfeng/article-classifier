@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "de1e8bef-1645-45f3-9593-be51976a5310",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Mysql 对SQL语句监控查看的记录.html",
+    "collected_at": "2025-11-10T15:43:30.915389Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "d71f91f4ec92dc06145361b7756ded35ae43e8fbdde5d94a8528cec79ee0e614",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "33beef6a-e7e8-4131-a157-4b0ac0b48620",
+    "ingest_source_id": "de1e8bef-1645-45f3-9593-be51976a5310",
+    "canonical_title": "Mysql 对SQL语句监控查看的记录",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:30.915393Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Mysql 对SQL语句监控查看的记录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "48441f1c-20b1-4a5e-87de-3c7ae05f9f3f",
+      "note_id": "33beef6a-e7e8-4131-a157-4b0ac0b48620",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.915396Z",
+      "content": "---\ntitle: Mysql 对SQL语句监控查看的记录\nupdated: 2021-04-15 15:31:24Z\ncreated: 2021-04-15 15:31:10Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>mysql 默认不开启sql语句跟踪监控记录，如查看sql语句执行记录，一般有下面三种方式:</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.修改配置文件，my.cnf</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; #vi /etc/my.cnf</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; log =/mysql/mysqls.log</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; #慢查询语句 ,time 单位是秒</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; log-slow-queries = /mysql/slowquery.log</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; long_query_time = 1</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2. 查看正在执行的SQL语句，用 processlist，缺点是，时时变化，不易观察到需要的SQL 。</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mysql&gt; use information_schema;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mysql&gt; select * from PROCESSLIST where info is not null;</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.使用 global general_log 参数，方便随时查看</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 默认也是OFF，使用时候，最好，先查看 用 show global variables like &apos;%general%&apos;;</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 可以看到，log文件的位置，。</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SET GLOBAL general_log = &apos;ON&apos;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; //需要root权限。</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 设置ON 之后，就可以查看log文件，数据库所有操作都会记录。</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 也可以输出到系统表，需要SET GLOBAL log_output = &apos;TABLE&apos;;</div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 然后，查看 SELECT * from mysql.general_log ORDER BY&nbsp; event_time DESC ；</div><div><br/></div><div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 不查看时候，记得 关闭，否则日志或表，都会很大。</div><div><br/></div><div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d71f91f4ec92dc06145361b7756ded35ae43e8fbdde5d94a8528cec79ee0e614",
+        "path": "backups/2023年6月/IT技术/Mysql 对SQL语句监控查看的记录.html"
+      }
+    },
+    {
+      "id": "feb1d703-5a95-4579-8ff6-d01922b88c14",
+      "note_id": "33beef6a-e7e8-4131-a157-4b0ac0b48620",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.915399Z",
+      "content": "---\ntitle: Mysql 对SQL语句监控查看的记录\nupdated: 2021-04-15 15:31:24Z\ncreated: 2021-04-15 15:31:10Z\nauthor: tangyongfeng@gmail.com\n---\n\nmysql 默认不开启sql语句跟踪监控记录，如查看sql语句执行记录，一般有下面三种方式:\n          1.修改配置文件，my.cnf\n             #vi /etc/my.cnf\n            log =/mysql/mysqls.log\n            #慢查询语句 ,time 单位是秒\n            log-slow-queries = /mysql/slowquery.log\n            long_query_time = 1\n          2. 查看正在执行的SQL语句，用 processlist，缺点是，时时变化，不易观察到需要的SQL 。\n            mysql> use information_schema;\n            mysql> select * from PROCESSLIST where info is not null;\n          3.使用 global general_log 参数，方便随时查看\n             默认也是OFF，使用时候，最好，先查看 用 show global variables like '%general%';\n             可以看到，log文件的位置，。\n            SET GLOBAL general_log = 'ON';         //需要root权限。\n            设置ON 之后，就可以查看log文件，数据库所有操作都会记录。\n            也可以输出到系统表，需要SET GLOBAL log_output = 'TABLE';\n            然后，查看 SELECT * from mysql.general_log ORDER BY  event_time DESC ；\n            不查看时候，记得 关闭，否则日志或表，都会很大。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 979,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3d354266-f62b-468a-a82f-dd18da471903",
+    "note_id": "33beef6a-e7e8-4131-a157-4b0ac0b48620",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.915404Z",
+    "finished_at": "2025-11-10T15:43:30.915404Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5f21b78e-f2fd-492c-895e-3647f6c80f13",
+      "source_path": "backups/2023年6月/IT技术/Mysql 对SQL语句监控查看的记录.html",
+      "checksum": "d71f91f4ec92dc06145361b7756ded35ae43e8fbdde5d94a8528cec79ee0e614"
+    },
+    "output_ref": {
+      "ingest_source": "de1e8bef-1645-45f3-9593-be51976a5310",
+      "note": "33beef6a-e7e8-4131-a157-4b0ac0b48620",
+      "variants": [
+        "48441f1c-20b1-4a5e-87de-3c7ae05f9f3f",
+        "feb1d703-5a95-4579-8ff6-d01922b88c14"
+      ]
+    },
+    "error_detail": null
+  }
+}

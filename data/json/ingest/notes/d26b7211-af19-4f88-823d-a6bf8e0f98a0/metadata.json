@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "6b4dfd65-e179-44a7-8fcf-3b1f9615816a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/可儿/儿研所挂号，呼吸科.html",
+    "collected_at": "2025-11-10T15:43:35.278644Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "c7ecd900648a1e423275ece72ffce5da6e4415563b59c15d7e5c4864cc8fc10b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d26b7211-af19-4f88-823d-a6bf8e0f98a0",
+    "ingest_source_id": "6b4dfd65-e179-44a7-8fcf-3b1f9615816a",
+    "canonical_title": "儿研所挂号，呼吸科",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.278648Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "儿研所挂号，呼吸科.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "682c72fe-27a6-4b15-b86e-588330b62acd",
+      "note_id": "d26b7211-af19-4f88-823d-a6bf8e0f98a0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.278650Z",
+      "content": "---\ntitle: 儿研所挂号，呼吸科\nupdated: 2012-07-03 11:41:46Z\ncreated: 2012-07-01 14:21:31Z\nlatitude: 39.88870000\nlongitude: 116.63100000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div> <br/>1/3:您已成功预约了首都儿科研究所附属儿童医院呼吸内科门诊的副主任医师,顺序号是12,预约识别码是:【<a HREF=\"tel:15419337\">15419337</a>】,就诊日期是<a HREF=\"tel:2012-07-03\">2012-07-03</a>上午,取号时间当日上午号8：00--9：30取号时须携带患儿本人户口本或身份证或医保卡。<a HREF=\"tel:114/116114\">114/116114</a>转<div><br/></div><a HREF=\"tel:15570342\">15570342</a><br/>您已成功预约了首都儿科研究所附属儿童医院呼吸内科门诊的主任医师,顺序号是14,预约识别码是:【15570342】,就诊日期是2012-07-06上午,取号时间当日上午号8：00--9：30取号时须携带患儿本人户口本或身份证或医保卡。<br/> </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c7ecd900648a1e423275ece72ffce5da6e4415563b59c15d7e5c4864cc8fc10b",
+        "path": "backups/2023年6月/可儿/儿研所挂号，呼吸科.html"
+      }
+    },
+    {
+      "id": "289252cc-eadd-4e39-a86c-320843cb0871",
+      "note_id": "d26b7211-af19-4f88-823d-a6bf8e0f98a0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.278653Z",
+      "content": "---\ntitle: 儿研所挂号，呼吸科\nupdated: 2012-07-03 11:41:46Z\ncreated: 2012-07-01 14:21:31Z\nlatitude: 39.88870000\nlongitude: 116.63100000\naltitude: 0.0000\n---\n\n1/3:您已成功预约了首都儿科研究所附属儿童医院呼吸内科门诊的副主任医师,顺序号是12,预约识别码是:【\n15419337\n】,就诊日期是\n2012-07-03\n上午,取号时间当日上午号8：00--9：30取号时须携带患儿本人户口本或身份证或医保卡。\n114/116114\n转\n15570342\n您已成功预约了首都儿科研究所附属儿童医院呼吸内科门诊的主任医师,顺序号是14,预约识别码是:【15570342】,就诊日期是2012-07-06上午,取号时间当日上午号8：00--9：30取号时须携带患儿本人户口本或身份证或医保卡。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 413,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3a4f6091-df61-4433-ad2e-43a2575cacab",
+    "note_id": "d26b7211-af19-4f88-823d-a6bf8e0f98a0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.278658Z",
+    "finished_at": "2025-11-10T15:43:35.278658Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dd8498a9-c0ea-48cf-962f-22b1387ce6b0",
+      "source_path": "backups/2023年6月/可儿/儿研所挂号，呼吸科.html",
+      "checksum": "c7ecd900648a1e423275ece72ffce5da6e4415563b59c15d7e5c4864cc8fc10b"
+    },
+    "output_ref": {
+      "ingest_source": "6b4dfd65-e179-44a7-8fcf-3b1f9615816a",
+      "note": "d26b7211-af19-4f88-823d-a6bf8e0f98a0",
+      "variants": [
+        "682c72fe-27a6-4b15-b86e-588330b62acd",
+        "289252cc-eadd-4e39-a86c-320843cb0871"
+      ]
+    },
+    "error_detail": null
+  }
+}

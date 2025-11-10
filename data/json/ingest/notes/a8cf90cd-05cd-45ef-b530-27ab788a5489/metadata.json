@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "ce5307d7-49a5-4177-bc98-90a4098f5fd2",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/SanJose地址.html",
+    "collected_at": "2025-11-10T15:43:33.426996Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "fa6d4c9369e34ec38e5f7b9405513e952d95831c7e25e0e1c64f2ee1aa11712a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a8cf90cd-05cd-45ef-b530-27ab788a5489",
+    "ingest_source_id": "ce5307d7-49a5-4177-bc98-90a4098f5fd2",
+    "canonical_title": "SanJose地址",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.427000Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "SanJose地址.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a13819af-984a-489d-b272-3aa5468fd0c3",
+      "note_id": "a8cf90cd-05cd-45ef-b530-27ab788a5489",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.427002Z",
+      "content": "---\ntitle: SanJose地址\nupdated: 2012-12-27 08:11:52Z\ncreated: 2012-12-26 03:06:05Z\nsource: >-\n  http://www.orbitz.com/shop/hotelsearch?search=Search&hotel.type=keyword&type=hotel&hsv.showDetails=true&pageView=popup&hotel.keyword.key=San+Jose&hotel.chkin=&hotel.chkout=&hotel.hid=348198&hsv.hid=348198&hotel.rooms[0].adlts=1&hotel.address.addressInput.postalCode=&hotel.address.addressInput.city=&hotel.address.addressInput.addressLine1=&hotel.address.addressInput.countryCode=&hotel.rating=&hotel.chain=&hotel.hname=\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1378 Oakland Rd, San Jose, CA 95112 &nbsp; <span STYLE=\"font-family: Arial, Helvetica, sans-serif; font-weight: bold; line-height: 25.66666603088379px; background-color: rgb(255, 255, 255);\">Horizon Inn</span><div>833 Lippert Pl, Santa Clara, CA 95050, United States &nbsp;谢振华家</div><div>777 N 1st St, San Jose, CA, United States &nbsp; 物格律师事务所 计律师 408-283-9299 &nbsp; 11:00 am</div><div>413 3rd St, Oakland, CA, United States 王明武律师事务所 洪律师 梁助理 &nbsp;510-451-2124 415-397-2622 &nbsp;得去Oakland,san jose没人，2:30 pm ，10点确认</div><div>2570 North 1st Street, San Jose, CA, United States 王明武律师事务所 &nbsp;510-451-2124 很多办公室</div><div><div>271 North 1st Street, San Jose, CA, United States 蒋丹宁律师事务所 &nbsp; &nbsp;408-299-0800 2点-3点</div><br/></div><div>2114 Senter Road,#21, San Jose, CA, United States &nbsp; 林志昱律师事务所 408-947-9151 650-208-3710 没打通，</div><div><br/></div><div><br/></div><div>908 Brookgrove Ln, Cupertino, CA 95014, United States 毛红阳Jassica 408-207-3198</div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "fa6d4c9369e34ec38e5f7b9405513e952d95831c7e25e0e1c64f2ee1aa11712a",
+        "path": "backups/2023年6月/个人的乱78糟/SanJose地址.html"
+      }
+    },
+    {
+      "id": "87a942bd-1f84-44dc-b8ca-a75d529e9f97",
+      "note_id": "a8cf90cd-05cd-45ef-b530-27ab788a5489",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.427005Z",
+      "content": "---\ntitle: SanJose地址\nupdated: 2012-12-27 08:11:52Z\ncreated: 2012-12-26 03:06:05Z\nsource: >-\n  http://www.orbitz.com/shop/hotelsearch?search=Search&hotel.type=keyword&type=hotel&hsv.showDetails=true&pageView=popup&hotel.keyword.key=San+Jose&hotel.chkin=&hotel.chkout=&hotel.hid=348198&hsv.hid=348198&hotel.rooms[0].adlts=1&hotel.address.addressInput.postalCode=&hotel.address.addressInput.city=&hotel.address.addressInput.addressLine1=&hotel.address.addressInput.countryCode=&hotel.rating=&hotel.chain=&hotel.hname=\n---\n\n1378 Oakland Rd, San Jose, CA 95112  \nHorizon Inn\n833 Lippert Pl, Santa Clara, CA 95050, United States  谢振华家\n777 N 1st St, San Jose, CA, United States   物格律师事务所 计律师 408-283-9299   11:00 am\n413 3rd St, Oakland, CA, United States 王明武律师事务所 洪律师 梁助理  510-451-2124 415-397-2622  得去Oakland,san jose没人，2:30 pm ，10点确认\n2570 North 1st Street, San Jose, CA, United States 王明武律师事务所  510-451-2124 很多办公室\n271 North 1st Street, San Jose, CA, United States 蒋丹宁律师事务所    408-299-0800 2点-3点\n2114 Senter Road,#21, San Jose, CA, United States   林志昱律师事务所 408-947-9151 650-208-3710 没打通，\n908 Brookgrove Ln, Cupertino, CA 95014, United States 毛红阳Jassica 408-207-3198",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 1159,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f2fb15a1-6ed8-4270-8a72-1122f4e2da82",
+    "note_id": "a8cf90cd-05cd-45ef-b530-27ab788a5489",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.427010Z",
+    "finished_at": "2025-11-10T15:43:33.427010Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0e43ef1a-8a33-4cb5-ab0b-819f489dcfef",
+      "source_path": "backups/2023年6月/个人的乱78糟/SanJose地址.html",
+      "checksum": "fa6d4c9369e34ec38e5f7b9405513e952d95831c7e25e0e1c64f2ee1aa11712a"
+    },
+    "output_ref": {
+      "ingest_source": "ce5307d7-49a5-4177-bc98-90a4098f5fd2",
+      "note": "a8cf90cd-05cd-45ef-b530-27ab788a5489",
+      "variants": [
+        "a13819af-984a-489d-b272-3aa5468fd0c3",
+        "87a942bd-1f84-44dc-b8ca-a75d529e9f97"
+      ]
+    },
+    "error_detail": null
+  }
+}

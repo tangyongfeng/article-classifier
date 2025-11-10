@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "8f3faa24-9c4e-4ecf-b8b6-b5c942e4723f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/大数据导航.html",
+    "collected_at": "2025-11-10T15:43:33.855997Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8acc64388703788643b1bf6605b5f82e53c74600642a2c5879cdee6f3df420c0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "bbba862e-6f2b-4f97-b6ba-a644dd603408",
+    "ingest_source_id": "8f3faa24-9c4e-4ecf-b8b6-b5c942e4723f",
+    "canonical_title": "大数据导航",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.856001Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "大数据导航.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ab5f2e58-0dec-4b17-bca3-5e5cda4e0c95",
+      "note_id": "bbba862e-6f2b-4f97-b6ba-a644dd603408",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.856004Z",
+      "content": "---\ntitle: 大数据导航\nupdated: 2019-11-20 16:07:41Z\ncreated: 2019-11-20 16:07:41Z\nauthor: '=?UTF-8?B?5ZSQ5rC45bOw?= <realtime@yeah.net>'\n---\n\n\n\n<en-note><div STYLE=\"line-height:1.7;color:#000000;font-size:14px;font-family:Arial\"><a SHAPE=\"rect\" HREF=\"http://hao.199it.com/\">http://hao.199it.com/</a></div><br CLEAR=\"none\"/><br CLEAR=\"none\"/><span TITLE=\"neteasefooter\"></span><p>&nbsp;</p></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8acc64388703788643b1bf6605b5f82e53c74600642a2c5879cdee6f3df420c0",
+        "path": "backups/2023年6月/个人的乱78糟/大数据导航.html"
+      }
+    },
+    {
+      "id": "814b8ca9-82fa-4e9c-9d56-1e1ee78b5d8c",
+      "note_id": "bbba862e-6f2b-4f97-b6ba-a644dd603408",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.856007Z",
+      "content": "---\ntitle: 大数据导航\nupdated: 2019-11-20 16:07:41Z\ncreated: 2019-11-20 16:07:41Z\nauthor: '=?UTF-8?B?5ZSQ5rC45bOw?=\n'\n---\n\nhttp://hao.199it.com/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 139,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "f86e9a52-fc78-48d9-b92c-fab31cb6b9ed",
+    "note_id": "bbba862e-6f2b-4f97-b6ba-a644dd603408",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.856012Z",
+    "finished_at": "2025-11-10T15:43:33.856013Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6bbb1e32-5293-45bf-9a6e-0de7a8eb022a",
+      "source_path": "backups/2023年6月/个人的乱78糟/大数据导航.html",
+      "checksum": "8acc64388703788643b1bf6605b5f82e53c74600642a2c5879cdee6f3df420c0"
+    },
+    "output_ref": {
+      "ingest_source": "8f3faa24-9c4e-4ecf-b8b6-b5c942e4723f",
+      "note": "bbba862e-6f2b-4f97-b6ba-a644dd603408",
+      "variants": [
+        "ab5f2e58-0dec-4b17-bca3-5e5cda4e0c95",
+        "814b8ca9-82fa-4e9c-9d56-1e1ee78b5d8c"
+      ]
+    },
+    "error_detail": null
+  }
+}

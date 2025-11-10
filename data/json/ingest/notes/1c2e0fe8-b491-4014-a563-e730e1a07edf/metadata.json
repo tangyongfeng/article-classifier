@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1272ad9e-c7c8-4c8c-bba2-4a4fb5167f58",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/德国律师事务所.html",
+    "collected_at": "2025-11-10T15:43:32.627541Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "120aabf48d4c8b6c1eaef4fa271d24b4584621a50494a2f7c0069ad2332de30f",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "1c2e0fe8-b491-4014-a563-e730e1a07edf",
+    "ingest_source_id": "1272ad9e-c7c8-4c8c-bba2-4a4fb5167f58",
+    "canonical_title": "德国律师事务所",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.627545Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "德国律师事务所.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e717ab0a-2fc9-4cf9-a66e-fef30f608caf",
+      "note_id": "1c2e0fe8-b491-4014-a563-e730e1a07edf",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.627547Z",
+      "content": "---\ntitle: 德国律师事务所\nupdated: 2017-06-14 05:46:27Z\ncreated: 2017-06-14 05:38:51Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n\n<en-note><div>名称：JORDAN FUHR MEYER</div><div>开户行：Volksbank Sprockh&ouml;vel&nbsp;</div><div>SWIFT-Code: GENODEM1SPO</div><div>IBAN: DE13 4526 1547 0152 1019 00</div><div><br/></div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "120aabf48d4c8b6c1eaef4fa271d24b4584621a50494a2f7c0069ad2332de30f",
+        "path": "backups/2023年6月/IT技术/德国律师事务所.html"
+      }
+    },
+    {
+      "id": "555bbd57-7ae3-4360-92b5-f531659a7e9f",
+      "note_id": "1c2e0fe8-b491-4014-a563-e730e1a07edf",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.627550Z",
+      "content": "---\ntitle: 德国律师事务所\nupdated: 2017-06-14 05:46:27Z\ncreated: 2017-06-14 05:38:51Z\nauthor: tangyongfeng@gmail.com\n---\n\n名称：JORDAN FUHR MEYER\n开户行：Volksbank Sprockhövel \nSWIFT-Code: GENODEM1SPO\nIBAN: DE13 4526 1547 0152 1019 00",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 220,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "28a2b912-d917-4c9f-93dc-ab1b600aba24",
+    "note_id": "1c2e0fe8-b491-4014-a563-e730e1a07edf",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.627555Z",
+    "finished_at": "2025-11-10T15:43:32.627555Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e1c8530e-436f-467c-a5a3-9bc2f3b6828a",
+      "source_path": "backups/2023年6月/IT技术/德国律师事务所.html",
+      "checksum": "120aabf48d4c8b6c1eaef4fa271d24b4584621a50494a2f7c0069ad2332de30f"
+    },
+    "output_ref": {
+      "ingest_source": "1272ad9e-c7c8-4c8c-bba2-4a4fb5167f58",
+      "note": "1c2e0fe8-b491-4014-a563-e730e1a07edf",
+      "variants": [
+        "e717ab0a-2fc9-4cf9-a66e-fef30f608caf",
+        "555bbd57-7ae3-4360-92b5-f531659a7e9f"
+      ]
+    },
+    "error_detail": null
+  }
+}

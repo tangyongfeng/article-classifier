@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d815f771-956f-47c8-8b73-21a775be510f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Sharing link-5.html",
+    "collected_at": "2025-11-10T15:43:31.308587Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "99dd1c585075a3f6d0588b13d7931792cad9845f16e1cade427e8671d6d14f39",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c7f1dda6-7200-48af-a0a5-21e3cceb8530",
+    "ingest_source_id": "d815f771-956f-47c8-8b73-21a775be510f",
+    "canonical_title": "Sharing link-5",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.308593Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Sharing link-5.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "646c4054-95c8-4a8c-9a8f-01f24a836b5e",
+      "note_id": "c7f1dda6-7200-48af-a0a5-21e3cceb8530",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.308597Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2018-03-23 12:21:10Z\ncreated: 2018-03-23 12:21:10Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><span>Sharing link</span></div>\n<div><span>时下最流行的区块链应用</span></div>\n<div><span>http://www.dapdap.io/#/</span></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "99dd1c585075a3f6d0588b13d7931792cad9845f16e1cade427e8671d6d14f39",
+        "path": "backups/2023年6月/IT技术/Sharing link-5.html"
+      }
+    },
+    {
+      "id": "80d0c17d-ab81-47cd-a0cd-333cbcd2ee02",
+      "note_id": "c7f1dda6-7200-48af-a0a5-21e3cceb8530",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.308601Z",
+      "content": "---\ntitle: Sharing link\nupdated: 2018-03-23 12:21:10Z\ncreated: 2018-03-23 12:21:10Z\nauthor: tangyongfeng@gmail.com\n---\n\nSharing link\n\n时下最流行的区块链应用\n\nhttp://www.dapdap.io/#/",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 170,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ae0cb758-33c5-4769-9086-90c794707364",
+    "note_id": "c7f1dda6-7200-48af-a0a5-21e3cceb8530",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.308607Z",
+    "finished_at": "2025-11-10T15:43:31.308608Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9fa11420-1ea0-4af8-b631-c15def692d78",
+      "source_path": "backups/2023年6月/IT技术/Sharing link-5.html",
+      "checksum": "99dd1c585075a3f6d0588b13d7931792cad9845f16e1cade427e8671d6d14f39"
+    },
+    "output_ref": {
+      "ingest_source": "d815f771-956f-47c8-8b73-21a775be510f",
+      "note": "c7f1dda6-7200-48af-a0a5-21e3cceb8530",
+      "variants": [
+        "646c4054-95c8-4a8c-9a8f-01f24a836b5e",
+        "80d0c17d-ab81-47cd-a0cd-333cbcd2ee02"
+      ]
+    },
+    "error_detail": null
+  }
+}

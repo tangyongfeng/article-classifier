@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "cf657d91-35ee-4dc2-9ccb-76f2e0cf8dd2",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/抽象.html",
+    "collected_at": "2025-11-10T15:43:32.689197Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "655435f67229f91302bf32959ac72e194fe4d6d745036220e5f945fa09994cab",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "14d48717-923c-4bf5-961d-4b7fbff42a2f",
+    "ingest_source_id": "cf657d91-35ee-4dc2-9ccb-76f2e0cf8dd2",
+    "canonical_title": "抽象",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:32.689203Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "抽象.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f60a22b3-67f6-4a1c-95e2-3e04ce68fdbb",
+      "note_id": "14d48717-923c-4bf5-961d-4b7fbff42a2f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.689206Z",
+      "content": "---\ntitle: 抽象\nupdated: 2017-12-15 07:00:02Z\ncreated: 2017-12-15 06:59:40Z\nauthor: tangyongfeng\ntags:\n  - python\n  - 学习笔记\n---\n\n\n<en-note><div>\n<p>抽象是数学中非常常见的概念。举个例子：</p>\n<p>计算数列的和，比如：<code>1 + 2 + 3 + ... + 100</code>，写起来十分不方便，于是数学家发明了求和符号&sum;，可以把<code>1 + 2 + 3 + ... + 100</code>记作：</p>\n<p>100</p>\n<p><span STYLE=\"font-size:3em\">&sum;</span><span STYLE=\"font-size:2em\">n</span></p>\n<p>n=1</p>\n<p>这种抽象记法非常强大，因为我们看到 &sum; 就可以理解成求和，而不是还原成低级的加法运算。</p>\n<p>而且，这种抽象记法是可扩展的，比如：</p>\n<p>100</p>\n<p><span STYLE=\"font-size:3em\">&sum;</span><span STYLE=\"font-size:2em\">(n<sup>2</sup>+1)</span></p>\n<p>n=1</p>\n<p>还原成加法运算就变成了：</p>\n<p>(1 x 1 + 1) + (2 x 2 + 1) + (3 x 3 + 1) + ... + (100 x 100 + 1)</p>\n<p>可见，借助抽象，我们才能不关心底层的具体计算过程，而直接在更高的层次上思考问题。</p>\n<p>写计算机程序也是一样，函数就是最基本的一种代码抽象的方式。</p></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "655435f67229f91302bf32959ac72e194fe4d6d745036220e5f945fa09994cab",
+        "path": "backups/2023年6月/IT技术/抽象.html"
+      }
+    },
+    {
+      "id": "6688560e-6eae-43d1-9e66-956a95d1f965",
+      "note_id": "14d48717-923c-4bf5-961d-4b7fbff42a2f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.689209Z",
+      "content": "---\ntitle: 抽象\nupdated: 2017-12-15 07:00:02Z\ncreated: 2017-12-15 06:59:40Z\nauthor: tangyongfeng\ntags:\n  - python\n  - 学习笔记\n---\n\n抽象是数学中非常常见的概念。举个例子：\n\n计算数列的和，比如：\n1 + 2 + 3 + ... + 100\n，写起来十分不方便，于是数学家发明了求和符号∑，可以把\n1 + 2 + 3 + ... + 100\n记作：\n\n100\n\n∑\nn\n\nn=1\n\n这种抽象记法非常强大，因为我们看到 ∑ 就可以理解成求和，而不是还原成低级的加法运算。\n\n而且，这种抽象记法是可扩展的，比如：\n\n100\n\n∑\n(n\n2\n+1)\n\nn=1\n\n还原成加法运算就变成了：\n\n(1 x 1 + 1) + (2 x 2 + 1) + (3 x 3 + 1) + ... + (100 x 100 + 1)\n\n可见，借助抽象，我们才能不关心底层的具体计算过程，而直接在更高的层次上思考问题。\n\n写计算机程序也是一样，函数就是最基本的一种代码抽象的方式。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 487,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a1fcfe0d-a245-4c64-8f6e-bb885653e559",
+    "note_id": "14d48717-923c-4bf5-961d-4b7fbff42a2f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.689215Z",
+    "finished_at": "2025-11-10T15:43:32.689215Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5aca74c3-8fb9-4da4-858f-2786af30caa8",
+      "source_path": "backups/2023年6月/IT技术/抽象.html",
+      "checksum": "655435f67229f91302bf32959ac72e194fe4d6d745036220e5f945fa09994cab"
+    },
+    "output_ref": {
+      "ingest_source": "cf657d91-35ee-4dc2-9ccb-76f2e0cf8dd2",
+      "note": "14d48717-923c-4bf5-961d-4b7fbff42a2f",
+      "variants": [
+        "f60a22b3-67f6-4a1c-95e2-3e04ce68fdbb",
+        "6688560e-6eae-43d1-9e66-956a95d1f965"
+      ]
+    },
+    "error_detail": null
+  }
+}

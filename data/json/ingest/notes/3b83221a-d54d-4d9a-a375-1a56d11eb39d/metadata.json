@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4217ee27-bd69-4d3e-81c2-1e3ec187e1c1",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/FO_tRIrVgAIPr4A_format=jpg&name=large.html",
+    "collected_at": "2025-11-10T15:43:30.755726Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "478dacbb524289f6254374d80e79ece8650fd67c3be41c80b4dfdc50f245bd2b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3b83221a-d54d-4d9a-a375-1a56d11eb39d",
+    "ingest_source_id": "4217ee27-bd69-4d3e-81c2-1e3ec187e1c1",
+    "canonical_title": "FO_tRIrVgAIPr4A_format=jpg&name=large",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:30.755729Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "FO_tRIrVgAIPr4A_format=jpg&name=large.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e134ace5-9259-4402-a990-b0b19342ef35",
+      "note_id": "3b83221a-d54d-4d9a-a375-1a56d11eb39d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.755732Z",
+      "content": "---\ntitle: FO_tRIrVgAIPr4A?format=jpg&name=large\nupdated: 2022-03-29 07:15:34Z\ncreated: 2022-03-29 07:15:34Z\n---\n\n\n<en-note><br/><img src=\"../_resources/FO_tRIrVgAIPr4A.FO_tRIrVgAIPr4A\"  hash=\"9a5b75073a90c34ee0e5e4822d211036\" type=\"image/jpeg\" alt=\"FO_tRIrVgAIPr4A.FO_tRIrVgAIPr4A\" /></en-media></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "478dacbb524289f6254374d80e79ece8650fd67c3be41c80b4dfdc50f245bd2b",
+        "path": "backups/2023年6月/IT技术/FO_tRIrVgAIPr4A_format=jpg&name=large.html"
+      }
+    },
+    {
+      "id": "6ff6ae85-65c8-42da-b8c9-34df22337dba",
+      "note_id": "3b83221a-d54d-4d9a-a375-1a56d11eb39d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.755735Z",
+      "content": "---\ntitle: FO_tRIrVgAIPr4A?format=jpg&name=large\nupdated: 2022-03-29 07:15:34Z\ncreated: 2022-03-29 07:15:34Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 112,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a822c50d-521d-4f82-84c6-0d3a6bd2f031",
+    "note_id": "3b83221a-d54d-4d9a-a375-1a56d11eb39d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.755739Z",
+    "finished_at": "2025-11-10T15:43:30.755740Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c3a30997-fd6e-4f37-82e0-8934c894abf4",
+      "source_path": "backups/2023年6月/IT技术/FO_tRIrVgAIPr4A_format=jpg&name=large.html",
+      "checksum": "478dacbb524289f6254374d80e79ece8650fd67c3be41c80b4dfdc50f245bd2b"
+    },
+    "output_ref": {
+      "ingest_source": "4217ee27-bd69-4d3e-81c2-1e3ec187e1c1",
+      "note": "3b83221a-d54d-4d9a-a375-1a56d11eb39d",
+      "variants": [
+        "e134ace5-9259-4402-a990-b0b19342ef35",
+        "6ff6ae85-65c8-42da-b8c9-34df22337dba"
+      ]
+    },
+    "error_detail": null
+  }
+}

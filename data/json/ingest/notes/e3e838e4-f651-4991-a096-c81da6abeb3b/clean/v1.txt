@@ -1,9 +1,0 @@
----
-title: >-
-  select count(*) from czryk where id="00" and
-  passwd=char(66)+char(167)+char(152)
-updated: 2013-12-18 08:34:46Z
-created: 2013-12-18 08:34:46Z
----
-
-select count(*) from czryk where id="00" and passwd=char(66)+char(167)+char(152)+char(230)+char(72)+char(84)+char(8)+char(75)+char(0)

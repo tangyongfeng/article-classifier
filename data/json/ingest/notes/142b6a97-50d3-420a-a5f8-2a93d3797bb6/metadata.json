@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "0c7ffc10-4d8a-4926-9777-75faadd08edd",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/投资/隆基股份.html",
+    "collected_at": "2025-11-10T15:43:36.690229Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f721927b56a3a5a70d8fa5336f649957b5735c4add12f8160b11d8f9c494ae5a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "142b6a97-50d3-420a-a5f8-2a93d3797bb6",
+    "ingest_source_id": "0c7ffc10-4d8a-4926-9777-75faadd08edd",
+    "canonical_title": "隆基股份",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:36.690232Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "隆基股份.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f9d00532-ddce-4174-a963-f6ea2f21cd52",
+      "note_id": "142b6a97-50d3-420a-a5f8-2a93d3797bb6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.690235Z",
+      "content": "---\ntitle: 隆基股份\nupdated: 2013-09-12 02:22:06Z\ncreated: 2013-09-12 02:21:14Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n总股本5.39亿 &nbsp;a股流通2.69亿\n<div>西安的单晶硅生产商</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f721927b56a3a5a70d8fa5336f649957b5735c4add12f8160b11d8f9c494ae5a",
+        "path": "backups/2023年6月/投资/隆基股份.html"
+      }
+    },
+    {
+      "id": "9f6e5260-3428-47eb-b55f-9e9fecd60637",
+      "note_id": "142b6a97-50d3-420a-a5f8-2a93d3797bb6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.690238Z",
+      "content": "---\ntitle: 隆基股份\nupdated: 2013-09-12 02:22:06Z\ncreated: 2013-09-12 02:21:14Z\n---\n\n总股本5.39亿  a股流通2.69亿\n\n西安的单晶硅生产商",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 111,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3d9211fa-2498-487f-926a-1b251a0bedf8",
+    "note_id": "142b6a97-50d3-420a-a5f8-2a93d3797bb6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.690243Z",
+    "finished_at": "2025-11-10T15:43:36.690243Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6a392d8b-8c0c-4ce5-94ae-1b1920b097a7",
+      "source_path": "backups/2023年6月/投资/隆基股份.html",
+      "checksum": "f721927b56a3a5a70d8fa5336f649957b5735c4add12f8160b11d8f9c494ae5a"
+    },
+    "output_ref": {
+      "ingest_source": "0c7ffc10-4d8a-4926-9777-75faadd08edd",
+      "note": "142b6a97-50d3-420a-a5f8-2a93d3797bb6",
+      "variants": [
+        "f9d00532-ddce-4174-a963-f6ea2f21cd52",
+        "9f6e5260-3428-47eb-b55f-9e9fecd60637"
+      ]
+    },
+    "error_detail": null
+  }
+}

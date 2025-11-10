@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "cc65c59f-4961-4428-9e04-fc715d42e6e9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/笔记-4.html",
+    "collected_at": "2025-11-10T15:43:34.343183Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "4f7ee2f6bce0baa6ce3af20bd85fb09c328e37bcbd92f7fb6ca8d461957c4749",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "368a1b82-0adb-430a-acae-87ef95e2d2b4",
+    "ingest_source_id": "cc65c59f-4961-4428-9e04-fc715d42e6e9",
+    "canonical_title": "笔记-4",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.343187Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-4.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2e807e51-6ea4-4b3d-b275-92b32f14b823",
+      "note_id": "368a1b82-0adb-430a-acae-87ef95e2d2b4",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.343189Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-02-10 03:28:43Z\ncreated: 2014-02-10 03:20:42Z\n---\n\n\n\n<en-note>lh。 &nbsp; 0505 登录<div>ll.JJ. &nbsp; 支付</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "4f7ee2f6bce0baa6ce3af20bd85fb09c328e37bcbd92f7fb6ca8d461957c4749",
+        "path": "backups/2023年6月/个人的乱78糟/笔记-4.html"
+      }
+    },
+    {
+      "id": "aec7aa33-a545-430d-aa70-c475edea27d8",
+      "note_id": "368a1b82-0adb-430a-acae-87ef95e2d2b4",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.343192Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-02-10 03:28:43Z\ncreated: 2014-02-10 03:20:42Z\n---\n\nlh。   0505 登录\nll.JJ.   支付",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 104,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fd861b54-d26d-4533-a143-af22a8c7d4c6",
+    "note_id": "368a1b82-0adb-430a-acae-87ef95e2d2b4",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.343197Z",
+    "finished_at": "2025-11-10T15:43:34.343197Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "99d76108-3982-4153-8827-85c4cfc5a0bb",
+      "source_path": "backups/2023年6月/个人的乱78糟/笔记-4.html",
+      "checksum": "4f7ee2f6bce0baa6ce3af20bd85fb09c328e37bcbd92f7fb6ca8d461957c4749"
+    },
+    "output_ref": {
+      "ingest_source": "cc65c59f-4961-4428-9e04-fc715d42e6e9",
+      "note": "368a1b82-0adb-430a-acae-87ef95e2d2b4",
+      "variants": [
+        "2e807e51-6ea4-4b3d-b275-92b32f14b823",
+        "aec7aa33-a545-430d-aa70-c475edea27d8"
+      ]
+    },
+    "error_detail": null
+  }
+}

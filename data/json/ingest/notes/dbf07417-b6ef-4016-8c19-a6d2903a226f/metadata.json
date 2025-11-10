@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "2c34f520-48dc-48f1-a755-b89871e7245a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/跃儿/幼儿园.html",
+    "collected_at": "2025-11-10T15:43:37.042192Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "18afb82a08fc9adb72ae08d34e61a1df6420ced0165a6941221119fc37d718c1",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "dbf07417-b6ef-4016-8c19-a6d2903a226f",
+    "ingest_source_id": "2c34f520-48dc-48f1-a755-b89871e7245a",
+    "canonical_title": "幼儿园",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:37.042196Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "幼儿园.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c9867bc1-293c-45e1-81b9-5896ae19ff4b",
+      "note_id": "dbf07417-b6ef-4016-8c19-a6d2903a226f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.042199Z",
+      "content": "---\ntitle: 幼儿园\nupdated: 2013-03-25 02:15:40Z\ncreated: 2013-02-27 09:49:47Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><a HREF=\"http://www.brightstarmontessori.org/\">http://www.brightstarmontessori.org</a><div><br/></div><div><br/></div><div>470 Carbonia Avenue, Walnut, CA, United States 蒙氏幼儿园</div><div>16152 Gale Ave, Hacienda Heights, CA, United States 教会幼儿园</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "18afb82a08fc9adb72ae08d34e61a1df6420ced0165a6941221119fc37d718c1",
+        "path": "backups/2023年6月/跃儿/幼儿园.html"
+      }
+    },
+    {
+      "id": "db58a9a8-f10d-4438-99bf-dd9ea6a9048e",
+      "note_id": "dbf07417-b6ef-4016-8c19-a6d2903a226f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.042201Z",
+      "content": "---\ntitle: 幼儿园\nupdated: 2013-03-25 02:15:40Z\ncreated: 2013-02-27 09:49:47Z\n---\n\nhttp://www.brightstarmontessori.org\n470 Carbonia Avenue, Walnut, CA, United States 蒙氏幼儿园\n16152 Gale Ave, Hacienda Heights, CA, United States 教会幼儿园",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 226,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0fc5f5a8-4e6e-473c-94bd-2e1f465f5d19",
+    "note_id": "dbf07417-b6ef-4016-8c19-a6d2903a226f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:37.042206Z",
+    "finished_at": "2025-11-10T15:43:37.042206Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "34fc2ed0-2886-4b1a-95ab-fbe3ccd01d39",
+      "source_path": "backups/2023年6月/跃儿/幼儿园.html",
+      "checksum": "18afb82a08fc9adb72ae08d34e61a1df6420ced0165a6941221119fc37d718c1"
+    },
+    "output_ref": {
+      "ingest_source": "2c34f520-48dc-48f1-a755-b89871e7245a",
+      "note": "dbf07417-b6ef-4016-8c19-a6d2903a226f",
+      "variants": [
+        "c9867bc1-293c-45e1-81b9-5896ae19ff4b",
+        "db58a9a8-f10d-4438-99bf-dd9ea6a9048e"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "95848d65-116f-4cd1-a697-14b402b1fb87",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/ssh -D.html",
+    "collected_at": "2025-11-10T15:43:31.941801Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "33a411fdab32bfd7d70ca035abc2d66d7369c7c249fd9359ac6585f1da2a64fd",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "651846eb-a0f4-48eb-a81f-99fecd5a6de2",
+    "ingest_source_id": "95848d65-116f-4cd1-a697-14b402b1fb87",
+    "canonical_title": "ssh -D",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.941804Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ssh -D.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f5094d31-d9f8-4dd4-b88b-75919b49884d",
+      "note_id": "651846eb-a0f4-48eb-a81f-99fecd5a6de2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.941807Z",
+      "content": "---\ntitle: ssh -D\nupdated: 2018-12-30 13:34:55Z\ncreated: 2018-12-30 13:34:14Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>ssh -D127.0.0.1:9000 root@remoteaddress</div><div><br/></div><div>socket5</div><div><br/></div><div>dns by socket5</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "33a411fdab32bfd7d70ca035abc2d66d7369c7c249fd9359ac6585f1da2a64fd",
+        "path": "backups/2023年6月/IT技术/ssh -D.html"
+      }
+    },
+    {
+      "id": "1e52652a-9593-4b2f-b519-bb9ec695698d",
+      "note_id": "651846eb-a0f4-48eb-a81f-99fecd5a6de2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.941809Z",
+      "content": "---\ntitle: ssh -D\nupdated: 2018-12-30 13:34:55Z\ncreated: 2018-12-30 13:34:14Z\nauthor: tangyongfeng@gmail.com\n---\n\nssh -D127.0.0.1:9000 root@remoteaddress\nsocket5\ndns by socket5",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 176,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "dfedf07b-9487-4a97-8715-fb18af6ada26",
+    "note_id": "651846eb-a0f4-48eb-a81f-99fecd5a6de2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.941814Z",
+    "finished_at": "2025-11-10T15:43:31.941814Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f310f967-7b93-49eb-a0fc-5f084404e659",
+      "source_path": "backups/2023年6月/IT技术/ssh -D.html",
+      "checksum": "33a411fdab32bfd7d70ca035abc2d66d7369c7c249fd9359ac6585f1da2a64fd"
+    },
+    "output_ref": {
+      "ingest_source": "95848d65-116f-4cd1-a697-14b402b1fb87",
+      "note": "651846eb-a0f4-48eb-a81f-99fecd5a6de2",
+      "variants": [
+        "f5094d31-d9f8-4dd4-b88b-75919b49884d",
+        "1e52652a-9593-4b2f-b519-bb9ec695698d"
+      ]
+    },
+    "error_detail": null
+  }
+}

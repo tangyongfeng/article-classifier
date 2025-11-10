@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6e468414-569f-46d4-b3e1-3b8c6f6d1cf5",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/facebook游戏策略.html",
+    "collected_at": "2025-11-10T15:43:31.466247Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "9e5374198087a39533d3b5943fe41351f15fd58f3dcaf1a40cc81985dec4927c",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "70392397-fd47-42dc-a928-199d58e915cc",
+    "ingest_source_id": "6e468414-569f-46d4-b3e1-3b8c6f6d1cf5",
+    "canonical_title": "facebook游戏策略",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:31.466251Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "facebook游戏策略.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a00bd75a-f0a9-4fb0-ba3e-66c8b7c4967b",
+      "note_id": "70392397-fd47-42dc-a928-199d58e915cc",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.466254Z",
+      "content": "---\ntitle: facebook游戏策略\nupdated: 2016-12-12 10:00:08Z\ncreated: 2016-12-05 08:18:03Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n\n<en-note><div>1、使用自动离开窗口，保持在线人数</div><div>2、多人同时玩，相互有感染</div><div>3、刚开始只允许使用小筹码，防止很快的输光</div><div>4、允许相互聊天，使用订制模板</div><div>5、主要画面大，清晰方便操作</div><div>6、鼓励尝试新玩法</div><div>7、第一次的读取facebook信息，之后不再读取除照片以外的内容</div><div>8、有附带游戏，在用户脑袋累了的时候换个思路</div><div>9、使用k、m来表示金币单位，显得多，并且易读性强</div><div>10、多增加附加功能，例如insurance和double，利润在这里</div><div>11、按键复用，方标操作和移植</div><div>12、做非常大的金币额度空间，让免费用户可以玩更久</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "9e5374198087a39533d3b5943fe41351f15fd58f3dcaf1a40cc81985dec4927c",
+        "path": "backups/2023年6月/IT技术/facebook游戏策略.html"
+      }
+    },
+    {
+      "id": "676295d1-f0d1-40a8-8b06-0ef9cf325c58",
+      "note_id": "70392397-fd47-42dc-a928-199d58e915cc",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.466256Z",
+      "content": "---\ntitle: facebook游戏策略\nupdated: 2016-12-12 10:00:08Z\ncreated: 2016-12-05 08:18:03Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、使用自动离开窗口，保持在线人数\n2、多人同时玩，相互有感染\n3、刚开始只允许使用小筹码，防止很快的输光\n4、允许相互聊天，使用订制模板\n5、主要画面大，清晰方便操作\n6、鼓励尝试新玩法\n7、第一次的读取facebook信息，之后不再读取除照片以外的内容\n8、有附带游戏，在用户脑袋累了的时候换个思路\n9、使用k、m来表示金币单位，显得多，并且易读性强\n10、多增加附加功能，例如insurance和double，利润在这里\n11、按键复用，方标操作和移植\n12、做非常大的金币额度空间，让免费用户可以玩更久",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 375,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2d2c1f58-8cc1-4593-a3a7-a5446f049cee",
+    "note_id": "70392397-fd47-42dc-a928-199d58e915cc",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.466261Z",
+    "finished_at": "2025-11-10T15:43:31.466262Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "23615313-a925-4df2-bb94-06915b86ba2f",
+      "source_path": "backups/2023年6月/IT技术/facebook游戏策略.html",
+      "checksum": "9e5374198087a39533d3b5943fe41351f15fd58f3dcaf1a40cc81985dec4927c"
+    },
+    "output_ref": {
+      "ingest_source": "6e468414-569f-46d4-b3e1-3b8c6f6d1cf5",
+      "note": "70392397-fd47-42dc-a928-199d58e915cc",
+      "variants": [
+        "a00bd75a-f0a9-4fb0-ba3e-66c8b7c4967b",
+        "676295d1-f0d1-40a8-8b06-0ef9cf325c58"
+      ]
+    },
+    "error_detail": null
+  }
+}

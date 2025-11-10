@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f118378f-a1ec-4e16-99ec-093e79ba4c10",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/microbsd@gmail.com.html",
+    "collected_at": "2025-11-10T15:43:31.777770Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "25d8c9040cb2b85ac50355a743e1116ab386285f3d0c17017d6516ecc14bc015",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c1fdd786-a3a3-4eab-8b36-fe0f96250d86",
+    "ingest_source_id": "f118378f-a1ec-4e16-99ec-093e79ba4c10",
+    "canonical_title": "microbsd@gmail.com",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.777774Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "microbsd@gmail.com.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e7548ea6-b309-4f5d-8fa2-54377a592774",
+      "note_id": "c1fdd786-a3a3-4eab-8b36-fe0f96250d86",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.777777Z",
+      "content": "---\ntitle: microbsd@gmail.com\nupdated: 2022-01-29 14:51:50Z\ncreated: 2022-01-29 14:51:20Z\n---\n\n\n<en-note><div>&apos;[!`ybL8;bG]hJaE</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "25d8c9040cb2b85ac50355a743e1116ab386285f3d0c17017d6516ecc14bc015",
+        "path": "backups/2023年6月/IT技术/microbsd@gmail.com.html"
+      }
+    },
+    {
+      "id": "1e7376b7-9788-4a3b-8d86-2b075e03dd3f",
+      "note_id": "c1fdd786-a3a3-4eab-8b36-fe0f96250d86",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.777780Z",
+      "content": "---\ntitle: microbsd@gmail.com\nupdated: 2022-01-29 14:51:50Z\ncreated: 2022-01-29 14:51:20Z\n---\n\n'[!`ybL8;bG]hJaE",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 111,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "829b7995-ed68-4c84-8953-cc09b1c5b812",
+    "note_id": "c1fdd786-a3a3-4eab-8b36-fe0f96250d86",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.777786Z",
+    "finished_at": "2025-11-10T15:43:31.777786Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "02b40903-217b-4da6-b5ab-4551a2c82ae7",
+      "source_path": "backups/2023年6月/IT技术/microbsd@gmail.com.html",
+      "checksum": "25d8c9040cb2b85ac50355a743e1116ab386285f3d0c17017d6516ecc14bc015"
+    },
+    "output_ref": {
+      "ingest_source": "f118378f-a1ec-4e16-99ec-093e79ba4c10",
+      "note": "c1fdd786-a3a3-4eab-8b36-fe0f96250d86",
+      "variants": [
+        "e7548ea6-b309-4f5d-8fa2-54377a592774",
+        "1e7376b7-9788-4a3b-8d86-2b075e03dd3f"
+      ]
+    },
+    "error_detail": null
+  }
+}

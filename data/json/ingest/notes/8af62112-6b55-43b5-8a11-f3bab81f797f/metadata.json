@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "9aa3c1b2-d9ed-446f-9612-c73397d34f37",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/段子/老师：明天叫你爸爸来学校。小明：我爸爸去参加爸爸去哪了。老师：那你怎么没去？小明：我爷爷去了。。。.html",
+    "collected_at": "2025-11-10T15:43:36.930428Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "55315b22f542d215ca8caaf0868c697cf6a28b67075f4d0542983ec70e470842",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "8af62112-6b55-43b5-8a11-f3bab81f797f",
+    "ingest_source_id": "9aa3c1b2-d9ed-446f-9612-c73397d34f37",
+    "canonical_title": "老师：明天叫你爸爸来学校。小明：我爸爸去参加爸爸去哪了。老师：那你怎么没去？小明：我爷爷去了。。。",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.930431Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "老师：明天叫你爸爸来学校。小明：我爸爸去参加爸爸去哪了。老师：那你怎么没去？小明：我爷爷去了。。。.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "872245d1-99bf-4d29-b8b8-98e08a0abb16",
+      "note_id": "8af62112-6b55-43b5-8a11-f3bab81f797f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.930434Z",
+      "content": "---\ntitle: 老师：明天叫你爸爸来学校。小明：我爸爸去参加爸爸去哪了。老师：那你怎么没去？小明：我爷爷去了。。。\nupdated: 2014-04-01 04:40:43Z\ncreated: 2014-04-01 04:40:43Z\nsource: >-\n  https://plus.google.com/110402715572698674699/posts?utm_source=dlvr.it&utm_medium=facebook\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">老师：明天叫你爸爸来学校。小明：我爸爸去参加爸爸去哪了。老师：那你怎么没去？小明：我爷爷去了。。。</span></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "55315b22f542d215ca8caaf0868c697cf6a28b67075f4d0542983ec70e470842",
+        "path": "backups/2023年6月/段子/老师：明天叫你爸爸来学校。小明：我爸爸去参加爸爸去哪了。老师：那你怎么没去？小明：我爷爷去了。。。.html"
+      }
+    },
+    {
+      "id": "15a548b7-ee47-47f2-8d23-3db798176afb",
+      "note_id": "8af62112-6b55-43b5-8a11-f3bab81f797f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.930437Z",
+      "content": "---\ntitle: 老师：明天叫你爸爸来学校。小明：我爸爸去参加爸爸去哪了。老师：那你怎么没去？小明：我爷爷去了。。。\nupdated: 2014-04-01 04:40:43Z\ncreated: 2014-04-01 04:40:43Z\nsource: >-\n  https://plus.google.com/110402715572698674699/posts?utm_source=dlvr.it&utm_medium=facebook\n---\n\n老师：明天叫你爸爸来学校。小明：我爸爸去参加爸爸去哪了。老师：那你怎么没去？小明：我爷爷去了。。。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 279,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2a84de04-82bb-49aa-8845-2b4710ed3f23",
+    "note_id": "8af62112-6b55-43b5-8a11-f3bab81f797f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.930442Z",
+    "finished_at": "2025-11-10T15:43:36.930442Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "02523f85-f617-4ea4-a447-6d885d3626f5",
+      "source_path": "backups/2023年6月/段子/老师：明天叫你爸爸来学校。小明：我爸爸去参加爸爸去哪了。老师：那你怎么没去？小明：我爷爷去了。。。.html",
+      "checksum": "55315b22f542d215ca8caaf0868c697cf6a28b67075f4d0542983ec70e470842"
+    },
+    "output_ref": {
+      "ingest_source": "9aa3c1b2-d9ed-446f-9612-c73397d34f37",
+      "note": "8af62112-6b55-43b5-8a11-f3bab81f797f",
+      "variants": [
+        "872245d1-99bf-4d29-b8b8-98e08a0abb16",
+        "15a548b7-ee47-47f2-8d23-3db798176afb"
+      ]
+    },
+    "error_detail": null
+  }
+}

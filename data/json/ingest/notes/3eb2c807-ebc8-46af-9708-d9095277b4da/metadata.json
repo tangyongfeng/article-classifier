@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "f5721947-8c35-4fc7-89f3-de5c864ffbb8",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/客户版功能.html",
+    "collected_at": "2025-11-10T15:43:35.199321Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "85d1e3f6b8579c94ec949b1f268f93d80139dbd2121bb11b92e6a67ae9ddb118",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3eb2c807-ebc8-46af-9708-d9095277b4da",
+    "ingest_source_id": "f5721947-8c35-4fc7-89f3-de5c864ffbb8",
+    "canonical_title": "客户版功能",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.199325Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "客户版功能.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "725b4cda-80b7-4f26-81f4-6191ab92f4af",
+      "note_id": "3eb2c807-ebc8-46af-9708-d9095277b4da",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.199327Z",
+      "content": "---\ntitle: 客户版功能\nupdated: 2014-05-15 11:44:53Z\ncreated: 2014-05-15 11:39:43Z\n---\n\n\n\n<en-note>1、赠送服务功能完善\n&Tab;<div>2、如果血压心电等数据不好，提醒是否致电医生</div><div>3、自动下载经过医生审核的健身和检查计划</div><div><br/></div>\n&Tab;<div><br/></div>\n\n\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "85d1e3f6b8579c94ec949b1f268f93d80139dbd2121bb11b92e6a67ae9ddb118",
+        "path": "backups/2023年6月/医疗/客户版功能.html"
+      }
+    },
+    {
+      "id": "93a25786-df6f-4b99-92fe-67b48f405e3f",
+      "note_id": "3eb2c807-ebc8-46af-9708-d9095277b4da",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.199330Z",
+      "content": "---\ntitle: 客户版功能\nupdated: 2014-05-15 11:44:53Z\ncreated: 2014-05-15 11:39:43Z\n---\n\n1、赠送服务功能完善\n\n2、如果血压心电等数据不好，提醒是否致电医生\n3、自动下载经过医生审核的健身和检查计划",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 137,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "fb936fff-5a95-41f2-bf43-55e9a9bc6ae9",
+    "note_id": "3eb2c807-ebc8-46af-9708-d9095277b4da",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.199335Z",
+    "finished_at": "2025-11-10T15:43:35.199335Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "5a87478a-a4b5-4ab5-852e-2536a2fb2027",
+      "source_path": "backups/2023年6月/医疗/客户版功能.html",
+      "checksum": "85d1e3f6b8579c94ec949b1f268f93d80139dbd2121bb11b92e6a67ae9ddb118"
+    },
+    "output_ref": {
+      "ingest_source": "f5721947-8c35-4fc7-89f3-de5c864ffbb8",
+      "note": "3eb2c807-ebc8-46af-9708-d9095277b4da",
+      "variants": [
+        "725b4cda-80b7-4f26-81f4-6191ab92f4af",
+        "93a25786-df6f-4b99-92fe-67b48f405e3f"
+      ]
+    },
+    "error_detail": null
+  }
+}

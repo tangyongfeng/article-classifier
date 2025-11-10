@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "281d1487-1079-4303-8a8d-980104b37098",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/roa 低于 15.html",
+    "collected_at": "2025-11-10T15:43:33.536896Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "aaa7bc78d9305eabce1f0778c44912168e6a3fbd5f56f89d263cc4963e8a83d9",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3e941298-4327-4b27-a90d-0fef4834b4e8",
+    "ingest_source_id": "281d1487-1079-4303-8a8d-980104b37098",
+    "canonical_title": "roa 低于 15",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.536899Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "roa 低于 15.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "e2b0f7d4-ba9c-4d25-8191-4b77bd6565e6",
+      "note_id": "3e941298-4327-4b27-a90d-0fef4834b4e8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.536902Z",
+      "content": "---\ntitle: roa 低于 15\nupdated: 2021-04-05 22:55:16Z\ncreated: 2021-04-05 22:54:49Z\n---\n\n\n\n<en-note><div>roa 低于 15</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "aaa7bc78d9305eabce1f0778c44912168e6a3fbd5f56f89d263cc4963e8a83d9",
+        "path": "backups/2023年6月/个人的乱78糟/roa 低于 15.html"
+      }
+    },
+    {
+      "id": "a19a8190-e799-4350-b2cc-5a722c13e9a9",
+      "note_id": "3e941298-4327-4b27-a90d-0fef4834b4e8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.536904Z",
+      "content": "---\ntitle: roa 低于 15\nupdated: 2021-04-05 22:55:16Z\ncreated: 2021-04-05 22:54:49Z\n---\n\nroa 低于 15",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 95,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "de15a656-e0bb-4aa5-87b8-385d8032ec7a",
+    "note_id": "3e941298-4327-4b27-a90d-0fef4834b4e8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.536909Z",
+    "finished_at": "2025-11-10T15:43:33.536909Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "841ca9e8-cd1f-494d-a563-f1a03d595ac3",
+      "source_path": "backups/2023年6月/个人的乱78糟/roa 低于 15.html",
+      "checksum": "aaa7bc78d9305eabce1f0778c44912168e6a3fbd5f56f89d263cc4963e8a83d9"
+    },
+    "output_ref": {
+      "ingest_source": "281d1487-1079-4303-8a8d-980104b37098",
+      "note": "3e941298-4327-4b27-a90d-0fef4834b4e8",
+      "variants": [
+        "e2b0f7d4-ba9c-4d25-8191-4b77bd6565e6",
+        "a19a8190-e799-4350-b2cc-5a722c13e9a9"
+      ]
+    },
+    "error_detail": null
+  }
+}

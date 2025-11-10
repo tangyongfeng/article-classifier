@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1ba78052-d5c2-4f7f-862b-c62c7df49a41",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/ip地址反查域名和归属.html",
+    "collected_at": "2025-11-10T15:43:31.742529Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "96c450a69a0fa9d1be87f32b1a4b9f6b39dbbccbdfee01a56ce35d9f40c2d792",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "d24a58f5-75fd-4ff8-9949-f4380dcf210a",
+    "ingest_source_id": "1ba78052-d5c2-4f7f-862b-c62c7df49a41",
+    "canonical_title": "ip地址反查域名和归属",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.742534Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "ip地址反查域名和归属.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0d85ee29-9013-4e63-948b-d6460b9119b4",
+      "note_id": "d24a58f5-75fd-4ff8-9949-f4380dcf210a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.742538Z",
+      "content": "---\ntitle: ip地址反查域名和归属\nupdated: 2021-07-10 07:21:04Z\ncreated: 2021-07-10 07:20:31Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - freebsd\n---\n\n\n<en-note><div>\n<span STYLE=\"font-style: normal; font-variant-caps: normal; font-weight: normal; font-stretch: normal; font-size: 11px; line-height: normal; font-family: Menlo; font-variant-ligatures: no-common-ligatures; color: rgb(0, 0, 0);\">drill -x 8.8.8.8</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "96c450a69a0fa9d1be87f32b1a4b9f6b39dbbccbdfee01a56ce35d9f40c2d792",
+        "path": "backups/2023年6月/IT技术/ip地址反查域名和归属.html"
+      }
+    },
+    {
+      "id": "f794d072-22fe-4f46-bf6d-d93c1c4ecedf",
+      "note_id": "d24a58f5-75fd-4ff8-9949-f4380dcf210a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.742541Z",
+      "content": "---\ntitle: ip地址反查域名和归属\nupdated: 2021-07-10 07:21:04Z\ncreated: 2021-07-10 07:20:31Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - freebsd\n---\n\ndrill -x 8.8.8.8",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 153,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "2e7efc00-3e91-42f2-8375-7a6469dd4d5c",
+    "note_id": "d24a58f5-75fd-4ff8-9949-f4380dcf210a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.742547Z",
+    "finished_at": "2025-11-10T15:43:31.742548Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "ef0fb7f2-0702-47d4-a75a-7209e61ac692",
+      "source_path": "backups/2023年6月/IT技术/ip地址反查域名和归属.html",
+      "checksum": "96c450a69a0fa9d1be87f32b1a4b9f6b39dbbccbdfee01a56ce35d9f40c2d792"
+    },
+    "output_ref": {
+      "ingest_source": "1ba78052-d5c2-4f7f-862b-c62c7df49a41",
+      "note": "d24a58f5-75fd-4ff8-9949-f4380dcf210a",
+      "variants": [
+        "0d85ee29-9013-4e63-948b-d6460b9119b4",
+        "f794d072-22fe-4f46-bf6d-d93c1c4ecedf"
+      ]
+    },
+    "error_detail": null
+  }
+}

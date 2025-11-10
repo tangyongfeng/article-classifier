@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f931e86e-a5ec-44e9-baf1-1158451861d9",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/adler 老师zoom课堂编号.html",
+    "collected_at": "2025-11-10T15:43:33.490495Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "099476f15be66250276869ac0f4a478b585e3035370e594aac60c483a95f5525",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "5bd8bdd8-e22f-4e09-a146-523f1b608ec9",
+    "ingest_source_id": "f931e86e-a5ec-44e9-baf1-1158451861d9",
+    "canonical_title": "adler 老师zoom课堂编号",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:33.490499Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "adler 老师zoom课堂编号.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "c1420e25-7ce9-4684-be84-b20f18178400",
+      "note_id": "5bd8bdd8-e22f-4e09-a146-523f1b608ec9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.490502Z",
+      "content": "---\ntitle: adler 老师zoom课堂编号\nupdated: 2020-04-07 16:08:11Z\ncreated: 2020-04-07 16:07:40Z\n---\n\n\n\n<en-note><div>249499768</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "099476f15be66250276869ac0f4a478b585e3035370e594aac60c483a95f5525",
+        "path": "backups/2023年6月/个人的乱78糟/adler 老师zoom课堂编号.html"
+      }
+    },
+    {
+      "id": "d60e9ebe-54a5-4379-9134-1305346abdb2",
+      "note_id": "5bd8bdd8-e22f-4e09-a146-523f1b608ec9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.490504Z",
+      "content": "---\ntitle: adler 老师zoom课堂编号\nupdated: 2020-04-07 16:08:11Z\ncreated: 2020-04-07 16:07:40Z\n---\n\n249499768",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 102,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0478a5e8-2bed-4fb2-84db-f93ce46a0437",
+    "note_id": "5bd8bdd8-e22f-4e09-a146-523f1b608ec9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.490509Z",
+    "finished_at": "2025-11-10T15:43:33.490509Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a16d61e0-dab2-409f-9119-3e730642e15e",
+      "source_path": "backups/2023年6月/个人的乱78糟/adler 老师zoom课堂编号.html",
+      "checksum": "099476f15be66250276869ac0f4a478b585e3035370e594aac60c483a95f5525"
+    },
+    "output_ref": {
+      "ingest_source": "f931e86e-a5ec-44e9-baf1-1158451861d9",
+      "note": "5bd8bdd8-e22f-4e09-a146-523f1b608ec9",
+      "variants": [
+        "c1420e25-7ce9-4684-be84-b20f18178400",
+        "d60e9ebe-54a5-4379-9134-1305346abdb2"
+      ]
+    },
+    "error_detail": null
+  }
+}

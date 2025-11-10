@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d7f30f72-031e-454e-ac29-00d4fc954494",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/段子/“有女朋友了吗？”.html",
+    "collected_at": "2025-11-10T15:43:36.898713Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "0e21c502676e7fe46aed0721b25307bd77c6a2aaab49adb642721cce942a325a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "fcebb805-ced7-4de1-a5ae-13e53f36d1c9",
+    "ingest_source_id": "d7f30f72-031e-454e-ac29-00d4fc954494",
+    "canonical_title": "“有女朋友了吗？”",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.898719Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "“有女朋友了吗？”.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "56a5515b-672e-4b5a-9340-9a833f8ca69d",
+      "note_id": "fcebb805-ced7-4de1-a5ae-13e53f36d1c9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.898723Z",
+      "content": "---\ntitle: “有女朋友了吗？”\nupdated: 2014-04-01 04:41:03Z\ncreated: 2014-04-01 04:41:03Z\nsource: >-\n  https://plus.google.com/110402715572698674699/posts?utm_source=dlvr.it&utm_medium=facebook\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">&ldquo;有女朋友了吗？&rdquo;</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">&ldquo;还没。&rdquo;</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">&ldquo;想找个什么样儿的？&rdquo;</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">&ldquo;都行，能看得上我就行。&rdquo;</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">&ldquo;你这要求可不低啊。&rdquo;</span><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><br STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\"/><span STYLE=\"color: rgb(64, 64, 64); font-family: Roboto, arial, sans-serif; font-size: 13px; line-height: 18.200000762939453px; background-color: rgb(255, 255, 255);\">&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;&hellip;=____=﻿</span></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0e21c502676e7fe46aed0721b25307bd77c6a2aaab49adb642721cce942a325a",
+        "path": "backups/2023年6月/段子/“有女朋友了吗？”.html"
+      }
+    },
+    {
+      "id": "d0d01b10-6c8c-4074-b452-bce778ed8a40",
+      "note_id": "fcebb805-ced7-4de1-a5ae-13e53f36d1c9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.898727Z",
+      "content": "---\ntitle: “有女朋友了吗？”\nupdated: 2014-04-01 04:41:03Z\ncreated: 2014-04-01 04:41:03Z\nsource: >-\n  https://plus.google.com/110402715572698674699/posts?utm_source=dlvr.it&utm_medium=facebook\n---\n\n“有女朋友了吗？”\n“还没。”\n“想找个什么样儿的？”\n“都行，能看得上我就行。”\n“你这要求可不低啊。”\n………………………=____=﻿",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 260,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d19bc1c0-fd73-4dcd-b2d1-bae567dc53e6",
+    "note_id": "fcebb805-ced7-4de1-a5ae-13e53f36d1c9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.898734Z",
+    "finished_at": "2025-11-10T15:43:36.898734Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "257ca199-685b-4d28-9713-f10f12ecfd44",
+      "source_path": "backups/2023年6月/段子/“有女朋友了吗？”.html",
+      "checksum": "0e21c502676e7fe46aed0721b25307bd77c6a2aaab49adb642721cce942a325a"
+    },
+    "output_ref": {
+      "ingest_source": "d7f30f72-031e-454e-ac29-00d4fc954494",
+      "note": "fcebb805-ced7-4de1-a5ae-13e53f36d1c9",
+      "variants": [
+        "56a5515b-672e-4b5a-9340-9a833f8ca69d",
+        "d0d01b10-6c8c-4074-b452-bce778ed8a40"
+      ]
+    },
+    "error_detail": null
+  }
+}

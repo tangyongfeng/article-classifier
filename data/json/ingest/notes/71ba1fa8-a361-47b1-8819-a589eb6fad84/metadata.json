@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "47c48544-2685-4b68-8b1a-6f12a94c684e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/无标题笔记-17.html",
+    "collected_at": "2025-11-10T15:43:32.820839Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "86beb1c0b1e00d739d8cd01c641070c718f9016db9832f129e76c38edf02a0a6",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "71ba1fa8-a361-47b1-8819-a589eb6fad84",
+    "ingest_source_id": "47c48544-2685-4b68-8b1a-6f12a94c684e",
+    "canonical_title": "无标题笔记-17",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.820843Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-17.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d5d9e605-9786-4855-9fad-ba513d27afa1",
+      "note_id": "71ba1fa8-a361-47b1-8819-a589eb6fad84",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.820846Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2015-01-01 05:17:28Z\ncreated: 2015-01-01 05:17:28Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\nSuper123Visor\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "86beb1c0b1e00d739d8cd01c641070c718f9016db9832f129e76c38edf02a0a6",
+        "path": "backups/2023年6月/IT技术/无标题笔记-17.html"
+      }
+    },
+    {
+      "id": "b72c411f-a6d2-4a44-988b-1c0efd840202",
+      "note_id": "71ba1fa8-a361-47b1-8819-a589eb6fad84",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.820849Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2015-01-01 05:17:28Z\ncreated: 2015-01-01 05:17:28Z\n---\n\nSuper123Visor",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 95,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "1659c837-2771-40ad-bc68-dec6398915ac",
+    "note_id": "71ba1fa8-a361-47b1-8819-a589eb6fad84",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.820855Z",
+    "finished_at": "2025-11-10T15:43:32.820855Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b5502839-723b-424e-8948-5029552cb242",
+      "source_path": "backups/2023年6月/IT技术/无标题笔记-17.html",
+      "checksum": "86beb1c0b1e00d739d8cd01c641070c718f9016db9832f129e76c38edf02a0a6"
+    },
+    "output_ref": {
+      "ingest_source": "47c48544-2685-4b68-8b1a-6f12a94c684e",
+      "note": "71ba1fa8-a361-47b1-8819-a589eb6fad84",
+      "variants": [
+        "d5d9e605-9786-4855-9fad-ba513d27afa1",
+        "b72c411f-a6d2-4a44-988b-1c0efd840202"
+      ]
+    },
+    "error_detail": null
+  }
+}

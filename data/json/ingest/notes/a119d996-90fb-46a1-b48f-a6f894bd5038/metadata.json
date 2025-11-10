@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "16948a8b-26a5-4b38-9b62-35cd4ddd07fa",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/视频制作参考大全.html",
+    "collected_at": "2025-11-10T15:43:34.518754Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "7db352dddaa505ac76dedee874686a738815bccbeff9d5eaa106f52676c39527",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a119d996-90fb-46a1-b48f-a6f894bd5038",
+    "ingest_source_id": "16948a8b-26a5-4b38-9b62-35cd4ddd07fa",
+    "canonical_title": "视频制作参考大全",
+    "language": "no",
+    "ingested_at": "2025-11-10T15:43:34.518758Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "视频制作参考大全.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "5da15295-d232-45d5-a479-efa149ca939c",
+      "note_id": "a119d996-90fb-46a1-b48f-a6f894bd5038",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.518761Z",
+      "content": "---\ntitle: 视频制作参考大全\nupdated: 2022-02-03 12:00:46Z\ncreated: 2022-02-03 12:00:10Z\n---\n\n\n<en-note><div>发现一个宝藏网站还是完全免费的，Netflix 合作伙伴帮助有完整的视频制作指导，大的方面包括：画面、声音、视觉特效、动画，小到 HDR 技术的指导、色彩管理、相机参数的设定、甚至包括字幕标题的指导。官网有中文，YouTube 还有视频的版本，看了下都很实用，得认真学习了。</div><div><br/></div><div><a HREF=\"http://partnerhelp.netflixstudios.com/hc/en-us\">partnerhelp.netflixstudios.com/hc/en-us</a></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7db352dddaa505ac76dedee874686a738815bccbeff9d5eaa106f52676c39527",
+        "path": "backups/2023年6月/个人的乱78糟/视频制作参考大全.html"
+      }
+    },
+    {
+      "id": "244e7c44-1b15-4c75-91ab-5111f3d15223",
+      "note_id": "a119d996-90fb-46a1-b48f-a6f894bd5038",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.518763Z",
+      "content": "---\ntitle: 视频制作参考大全\nupdated: 2022-02-03 12:00:46Z\ncreated: 2022-02-03 12:00:10Z\n---\n\n发现一个宝藏网站还是完全免费的，Netflix 合作伙伴帮助有完整的视频制作指导，大的方面包括：画面、声音、视觉特效、动画，小到 HDR 技术的指导、色彩管理、相机参数的设定、甚至包括字幕标题的指导。官网有中文，YouTube 还有视频的版本，看了下都很实用，得认真学习了。\npartnerhelp.netflixstudios.com/hc/en-us",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 262,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5355578a-7f41-4a62-bde9-b7764ead4ea3",
+    "note_id": "a119d996-90fb-46a1-b48f-a6f894bd5038",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.518768Z",
+    "finished_at": "2025-11-10T15:43:34.518768Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "4ffa0238-6a9f-4b9c-a41c-d9b4ad160849",
+      "source_path": "backups/2023年6月/个人的乱78糟/视频制作参考大全.html",
+      "checksum": "7db352dddaa505ac76dedee874686a738815bccbeff9d5eaa106f52676c39527"
+    },
+    "output_ref": {
+      "ingest_source": "16948a8b-26a5-4b38-9b62-35cd4ddd07fa",
+      "note": "a119d996-90fb-46a1-b48f-a6f894bd5038",
+      "variants": [
+        "5da15295-d232-45d5-a479-efa149ca939c",
+        "244e7c44-1b15-4c75-91ab-5111f3d15223"
+      ]
+    },
+    "error_detail": null
+  }
+}

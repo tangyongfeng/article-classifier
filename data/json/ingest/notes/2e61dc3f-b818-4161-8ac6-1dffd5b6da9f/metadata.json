@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "26fed9fa-ac6a-435c-a316-2d67956cbaa7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/中心二期重点.html",
+    "collected_at": "2025-11-10T15:43:34.727517Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "et",
+    "captured_at": null,
+    "checksum": "e5bc93fa3839b36996f1cb922610bda28c30b02dfa5712dc8d2cf4c7b36603e1",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "2e61dc3f-b818-4161-8ac6-1dffd5b6da9f",
+    "ingest_source_id": "26fed9fa-ac6a-435c-a316-2d67956cbaa7",
+    "canonical_title": "中心二期重点",
+    "language": "et",
+    "ingested_at": "2025-11-10T15:43:34.727521Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "中心二期重点.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "3e1aef75-969c-4bca-a2e0-0b0abd663621",
+      "note_id": "2e61dc3f-b818-4161-8ac6-1dffd5b6da9f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.727523Z",
+      "content": "---\ntitle: 中心二期重点\nupdated: 2012-09-07 07:10:54Z\ncreated: 2012-09-07 07:10:54Z\nlatitude: 39.87570000\nlongitude: 116.34500000\naltitude: 0.0000\n---\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><div>1.中心本地rest，省回调rest<br/>2.省中心通知需要测试<br/>3.省机房交换机，前置服务器</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e5bc93fa3839b36996f1cb922610bda28c30b02dfa5712dc8d2cf4c7b36603e1",
+        "path": "backups/2023年6月/中彩相关/中心二期重点.html"
+      }
+    },
+    {
+      "id": "92b138a0-99f8-4ea5-84cf-fd075f87815a",
+      "note_id": "2e61dc3f-b818-4161-8ac6-1dffd5b6da9f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.727526Z",
+      "content": "---\ntitle: 中心二期重点\nupdated: 2012-09-07 07:10:54Z\ncreated: 2012-09-07 07:10:54Z\nlatitude: 39.87570000\nlongitude: 116.34500000\naltitude: 0.0000\n---\n\n1.中心本地rest，省回调rest\n2.省中心通知需要测试\n3.省机房交换机，前置服务器",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "et",
+        "length": 191,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "21cea6bf-7975-4397-9d00-5d5e7720df05",
+    "note_id": "2e61dc3f-b818-4161-8ac6-1dffd5b6da9f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.727531Z",
+    "finished_at": "2025-11-10T15:43:34.727531Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "128b1c0e-8605-416e-86c3-e8e9ee5865ed",
+      "source_path": "backups/2023年6月/中彩相关/中心二期重点.html",
+      "checksum": "e5bc93fa3839b36996f1cb922610bda28c30b02dfa5712dc8d2cf4c7b36603e1"
+    },
+    "output_ref": {
+      "ingest_source": "26fed9fa-ac6a-435c-a316-2d67956cbaa7",
+      "note": "2e61dc3f-b818-4161-8ac6-1dffd5b6da9f",
+      "variants": [
+        "3e1aef75-969c-4bca-a2e0-0b0abd663621",
+        "92b138a0-99f8-4ea5-84cf-fd075f87815a"
+      ]
+    },
+    "error_detail": null
+  }
+}

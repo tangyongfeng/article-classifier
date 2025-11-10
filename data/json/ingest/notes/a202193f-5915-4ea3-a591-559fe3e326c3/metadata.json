@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3dbce639-375c-4116-a55f-dd2b7b9a1b7e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/税号.html",
+    "collected_at": "2025-11-10T15:43:35.495267Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ca7f5da25e40c7d3aca13b5ef88f159eaebb4374e1cb2da8a8cfedac62bc3ed1",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a202193f-5915-4ea3-a591-559fe3e326c3",
+    "ingest_source_id": "3dbce639-375c-4116-a55f-dd2b7b9a1b7e",
+    "canonical_title": "税号",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.495271Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "税号.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bd18ecac-fdd4-4a65-8181-fd9420b58c3a",
+      "note_id": "a202193f-5915-4ea3-a591-559fe3e326c3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.495273Z",
+      "content": "---\ntitle: 税号\nupdated: 2022-06-05 12:50:52Z\ncreated: 2022-06-05 12:48:26Z\n---\n\n\n<en-note><div>Yongfeng Tang&nbsp; 93 547 330 120</div><div>Youran Tang 91 244 037 542</div><div>Yueran Tang&nbsp; 80 244 137 549</div><div>Jia Li&nbsp; 80 443 127 541 </div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ca7f5da25e40c7d3aca13b5ef88f159eaebb4374e1cb2da8a8cfedac62bc3ed1",
+        "path": "backups/2023年6月/德国1/税号.html"
+      }
+    },
+    {
+      "id": "e6b8d867-bf74-43a6-b93d-347bf65e5238",
+      "note_id": "a202193f-5915-4ea3-a591-559fe3e326c3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.495276Z",
+      "content": "---\ntitle: 税号\nupdated: 2022-06-05 12:50:52Z\ncreated: 2022-06-05 12:48:26Z\n---\n\nYongfeng Tang  93 547 330 120\nYouran Tang 91 244 037 542\nYueran Tang  80 244 137 549\nJia Li  80 443 127 541",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 186,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "7a628a12-89b9-49ad-9909-ef340d18bb62",
+    "note_id": "a202193f-5915-4ea3-a591-559fe3e326c3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.495281Z",
+    "finished_at": "2025-11-10T15:43:35.495281Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "7f010562-166f-4e78-bf98-aef992c11abb",
+      "source_path": "backups/2023年6月/德国1/税号.html",
+      "checksum": "ca7f5da25e40c7d3aca13b5ef88f159eaebb4374e1cb2da8a8cfedac62bc3ed1"
+    },
+    "output_ref": {
+      "ingest_source": "3dbce639-375c-4116-a55f-dd2b7b9a1b7e",
+      "note": "a202193f-5915-4ea3-a591-559fe3e326c3",
+      "variants": [
+        "bd18ecac-fdd4-4a65-8181-fd9420b58c3a",
+        "e6b8d867-bf74-43a6-b93d-347bf65e5238"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "66c7b672-84b2-4988-b42e-18c61f826cc3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/世界网速.html",
+    "collected_at": "2025-11-10T15:43:32.093300Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "f3929daaa35e831481c18988e47efa851115c179806d0c7cdc7c3ace579427d9",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "02dc6487-334f-415b-93de-a5af8e9c1ca6",
+    "ingest_source_id": "66c7b672-84b2-4988-b42e-18c61f826cc3",
+    "canonical_title": "世界网速",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.093304Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "世界网速.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "47025f00-faaa-429a-95e4-39b2350e53df",
+      "note_id": "02dc6487-334f-415b-93de-a5af8e9c1ca6",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.093306Z",
+      "content": "---\ntitle: 世界网速\nupdated: 2021-10-06 14:25:42Z\ncreated: 2021-10-06 05:58:02Z\n---\n\n\n\n<en-note>\n<div><img src=\"../_resources/IMG_6570.JPG\"  hash=\"6c5dc5a05a8e59b9f643861ba8350dc8\" type=\"image/jpeg\" alt=\"IMG_6570.JPG\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f3929daaa35e831481c18988e47efa851115c179806d0c7cdc7c3ace579427d9",
+        "path": "backups/2023年6月/IT技术/世界网速.html"
+      }
+    },
+    {
+      "id": "67e49d3e-cdd2-4600-b982-2b30841cd231",
+      "note_id": "02dc6487-334f-415b-93de-a5af8e9c1ca6",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.093309Z",
+      "content": "---\ntitle: 世界网速\nupdated: 2021-10-06 14:25:42Z\ncreated: 2021-10-06 05:58:02Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 79,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "c8af181d-b018-40b3-8481-ead712c72469",
+    "note_id": "02dc6487-334f-415b-93de-a5af8e9c1ca6",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.093314Z",
+    "finished_at": "2025-11-10T15:43:32.093314Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "a4a353ed-9bab-4343-ae26-84f7692153c6",
+      "source_path": "backups/2023年6月/IT技术/世界网速.html",
+      "checksum": "f3929daaa35e831481c18988e47efa851115c179806d0c7cdc7c3ace579427d9"
+    },
+    "output_ref": {
+      "ingest_source": "66c7b672-84b2-4988-b42e-18c61f826cc3",
+      "note": "02dc6487-334f-415b-93de-a5af8e9c1ca6",
+      "variants": [
+        "47025f00-faaa-429a-95e4-39b2350e53df",
+        "67e49d3e-cdd2-4600-b982-2b30841cd231"
+      ]
+    },
+    "error_detail": null
+  }
+}

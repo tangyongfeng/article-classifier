@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "aa2c32d6-1db4-458d-bc14-236a121262a7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Returning a DataSet From a Web Services_ Step-by-S.html",
+    "collected_at": "2025-11-10T15:43:31.238373Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "3e4af048620aadc185023ab87feaf34496e65572e2081a157e4eb2c6e66c6579",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "c2495119-ac39-4e5e-95c5-751cc45db6e3",
+    "ingest_source_id": "aa2c32d6-1db4-458d-bc14-236a121262a7",
+    "canonical_title": "Returning a DataSet From a Web Services_ Step-by-S",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.238378Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Returning a DataSet From a Web Services_ Step-by-S.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "479a9df8-cd06-4375-9a80-85c980d282be",
+      "note_id": "c2495119-ac39-4e5e-95c5-751cc45db6e3",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.238382Z",
+      "content": "---\ntitle: 'Returning a DataSet From a Web Services: Step-by-Step'\nupdated: 2013-07-16 07:24:07Z\ncreated: 2013-07-16 07:22:55Z\ntags:\n  - c#\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><br/>\nThis Example Shows how to create a webservice which returns a DataSet and a Client Which displays the DataSet in a Grid.<br/><br/>\nDescription<br/><br/>\nThis Example Shows how to create a webservice which returns a DataSet and a Client Which displays the DataSet in a Grid.<br/><br/>\nSource Code<br/><br/>\n*** WEBSERVICE<br/><br/>\nOpen a New WebService project Lets Call It WebService1<br/>\nCreate a Stock Table on SQL Desktop Edition with the Following Fields<br/>\nStock Code,Description,Price(Can be anything you want), and Add some dummy data.<br/>\nCreate a Method as the Code Below<br/><br/>\n// Put the Code Below in the using Section<br/>\nusing System.Data.SqlClient ;<br/>\n// this is the Actual Web Method<br/>\n[WebMethod]<br/>\npublic DataSet GetData()<br/>\n{<br/>\n// First Create a New Connection<br/>\nSystem.Data.SqlClient.SqlConnection sqlConnection1 = new System.Data.SqlClient.SqlConnection();<br/>\n// Now Pass a Connection String To the Connection<br/>\nsqlConnection1.ConnectionString = &quot;data source=MyServer-001\\\\SqlServerName;initial catalog=Stock;integrated securi&quot; +<br/>\n&quot;ty=SSPI;persist security info=False;workstation id=MyServer-001;packet size=40&quot; +<br/>\n&quot;96&quot;;<br/>\n// Now the Select statement you want to run<br/>\nstring select =&quot;select * from stock &quot;;<br/>\n// Create an Adapter<br/>\nSqlDataAdapter da = new SqlDataAdapter(select,sqlConnection1);<br/>\n// Create a New DataSet<br/>\nDataSet ds = new DataSet();<br/>\n// Fill The DataSet With the Contents of the Stock Table<br/>\nda.Fill(ds , &quot;stock&quot;);<br/>\n// Now Return ds which is a DataSet<br/>\nreturn(ds);<br/>\n}<br/><br/>\n*****CLIENT<br/><br/>\nNow For the Client<br/><br/>\nOpen a New Window form Project and Call it WindowsApplication1<br/>\nAdd a DataGrid to the Form. Rename DataGrid1 to dataGrid<br/>\nAdd a Command Button<br/>\nNow to add a Web reference do the Following.<br/>\nIn the Solution Explorer Right Click on you application name and Click Add Web Reference.<br/>\nA Form is brought up. In the Window Type your Url it would Be http://localhost/webservice1/service1.asmx<br/>\nNow Click on Add Reference Button. you will be brought back to your solution explorer.<br/>\nNow in the solution explorer under web references Rename localhost to WebDataSet<br/>\nNow in the Using Section add the Foll Code<br/>\nusing WindowsApplication1.WebDataSet;<br/>\nNow in the Button click event add the foll Code<br/>\nprivate void button1_Click(object sender, System.EventArgs e)<br/>\n{<br/>\n// Init MyService to the Web Service<br/>\nService1 MyService = new Service1();<br/>\n// Call the GetData method in the Web Service<br/>\nDataSet ds = MyService.GetData();<br/>\n// Bind the DataSet to the Grid<br/>\ndataGrid.SetDataBinding(ds , &quot;stock&quot;);<br/>\n}\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "3e4af048620aadc185023ab87feaf34496e65572e2081a157e4eb2c6e66c6579",
+        "path": "backups/2023年6月/IT技术/Returning a DataSet From a Web Services_ Step-by-S.html"
+      }
+    },
+    {
+      "id": "c40ca60c-4538-4a07-8bf2-fc802252c586",
+      "note_id": "c2495119-ac39-4e5e-95c5-751cc45db6e3",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.238386Z",
+      "content": "---\ntitle: 'Returning a DataSet From a Web Services: Step-by-Step'\nupdated: 2013-07-16 07:24:07Z\ncreated: 2013-07-16 07:22:55Z\ntags:\n  - c#\n---\n\nThis Example Shows how to create a webservice which returns a DataSet and a Client Which displays the DataSet in a Grid.\n\nDescription\n\nThis Example Shows how to create a webservice which returns a DataSet and a Client Which displays the DataSet in a Grid.\n\nSource Code\n\n*** WEBSERVICE\n\nOpen a New WebService project Lets Call It WebService1\n\nCreate a Stock Table on SQL Desktop Edition with the Following Fields\n\nStock Code,Description,Price(Can be anything you want), and Add some dummy data.\n\nCreate a Method as the Code Below\n\n// Put the Code Below in the using Section\n\nusing System.Data.SqlClient ;\n\n// this is the Actual Web Method\n\n[WebMethod]\n\npublic DataSet GetData()\n\n{\n\n// First Create a New Connection\n\nSystem.Data.SqlClient.SqlConnection sqlConnection1 = new System.Data.SqlClient.SqlConnection();\n\n// Now Pass a Connection String To the Connection\n\nsqlConnection1.ConnectionString = \"data source=MyServer-001\\\\SqlServerName;initial catalog=Stock;integrated securi\" +\n\n\"ty=SSPI;persist security info=False;workstation id=MyServer-001;packet size=40\" +\n\n\"96\";\n\n// Now the Select statement you want to run\n\nstring select =\"select * from stock \";\n\n// Create an Adapter\n\nSqlDataAdapter da = new SqlDataAdapter(select,sqlConnection1);\n\n// Create a New DataSet\n\nDataSet ds = new DataSet();\n\n// Fill The DataSet With the Contents of the Stock Table\n\nda.Fill(ds , \"stock\");\n\n// Now Return ds which is a DataSet\n\nreturn(ds);\n\n}\n\n*****CLIENT\n\nNow For the Client\n\nOpen a New Window form Project and Call it WindowsApplication1\n\nAdd a DataGrid to the Form. Rename DataGrid1 to dataGrid\n\nAdd a Command Button\n\nNow to add a Web reference do the Following.\n\nIn the Solution Explorer Right Click on you application name and Click Add Web Reference.\n\nA Form is brought up. In the Window Type your Url it would Be http://localhost/webservice1/service1.asmx\n\nNow Click on Add Reference Button. you will be brought back to your solution explorer.\n\nNow in the solution explorer under web references Rename localhost to WebDataSet\n\nNow in the Using Section add the Foll Code\n\nusing WindowsApplication1.WebDataSet;\n\nNow in the Button click event add the foll Code\n\nprivate void button1_Click(object sender, System.EventArgs e)\n\n{\n\n// Init MyService to the Web Service\n\nService1 MyService = new Service1();\n\n// Call the GetData method in the Web Service\n\nDataSet ds = MyService.GetData();\n\n// Bind the DataSet to the Grid\n\ndataGrid.SetDataBinding(ds , \"stock\");\n\n}",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 2598,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e0d0b67c-b507-4ed9-ad9c-77a716dfae09",
+    "note_id": "c2495119-ac39-4e5e-95c5-751cc45db6e3",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.238392Z",
+    "finished_at": "2025-11-10T15:43:31.238392Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "e490e742-1b68-4a5a-bb69-4a0da797d859",
+      "source_path": "backups/2023年6月/IT技术/Returning a DataSet From a Web Services_ Step-by-S.html",
+      "checksum": "3e4af048620aadc185023ab87feaf34496e65572e2081a157e4eb2c6e66c6579"
+    },
+    "output_ref": {
+      "ingest_source": "aa2c32d6-1db4-458d-bc14-236a121262a7",
+      "note": "c2495119-ac39-4e5e-95c5-751cc45db6e3",
+      "variants": [
+        "479a9df8-cd06-4375-9a80-85c980d282be",
+        "c40ca60c-4538-4a07-8bf2-fc802252c586"
+      ]
+    },
+    "error_detail": null
+  }
+}

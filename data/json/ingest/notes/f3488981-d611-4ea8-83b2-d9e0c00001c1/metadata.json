@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3630f956-1045-43a0-ab28-ced2d3c10382",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德语3/发音课.html",
+    "collected_at": "2025-11-10T15:43:36.167930Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f9aa79a8c7c2c52c3e3db16cf9c9a3ff730f066256968e759ec6f649ccbc3a79",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "f3488981-d611-4ea8-83b2-d9e0c00001c1",
+    "ingest_source_id": "3630f956-1045-43a0-ab28-ced2d3c10382",
+    "canonical_title": "发音课",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:36.167936Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "发音课.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2a937de2-b8df-42b0-be0e-52f26f05f24c",
+      "note_id": "f3488981-d611-4ea8-83b2-d9e0c00001c1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.167940Z",
+      "content": "---\ntitle: 发音课\nupdated: 2020-03-18 17:40:09Z\ncreated: 2020-03-18 16:22:33Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>A</div><div>a 永远发a，只是有的时候是长音有的时候发短音。</div><ol><li><div>长音,a后面只有一辅音，或者没有辅音。</div></li><li><div>长音，a后面有一个h</div></li><li><div>长音，双a重叠</div></li><li><div>短音，后面有两个辅音</div></li></ol><div>&Auml;</div><div>&auml;永远发&auml;</div><div>长音</div><ol><li><div>&auml;后面一只有一辅音，或者没有辅音。</div></li><li><div>&auml;后面有一个长音标志h</div></li><li><div><br/></div></li></ol><div>短音</div><ol><li><div>&auml;后面有两个或者以上的辅音</div></li></ol><div>O</div><div>长音和短音是不同的，</div><div>长音，本身音</div><ol><li><div>后面只有一个辅音或者没有辅音</div></li><li><div>有长音标志h</div></li><li><div>双oo重叠</div></li></ol><div>短音</div><ol><li><div>后面有两个或者两个以上辅音的时候</div></li></ol><div>&Ouml;&ouml;</div><div>长音</div><ol><li><div>&ouml; 后面只有一个辅音或者没有辅音</div></li><li><div>有长音标志</div></li></ol><div>短音</div><ol><li><div>有两个或者两个以上辅音的时候</div></li></ol><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f9aa79a8c7c2c52c3e3db16cf9c9a3ff730f066256968e759ec6f649ccbc3a79",
+        "path": "backups/2023年6月/德语3/发音课.html"
+      }
+    },
+    {
+      "id": "9961dcbe-7fe2-415e-ba91-ee9f075660f2",
+      "note_id": "f3488981-d611-4ea8-83b2-d9e0c00001c1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:36.167943Z",
+      "content": "---\ntitle: 发音课\nupdated: 2020-03-18 17:40:09Z\ncreated: 2020-03-18 16:22:33Z\nauthor: tangyongfeng@gmail.com\n---\n\nA\na 永远发a，只是有的时候是长音有的时候发短音。\n长音,a后面只有一辅音，或者没有辅音。\n长音，a后面有一个h\n长音，双a重叠\n短音，后面有两个辅音\nÄ\nä永远发ä\n长音\nä后面一只有一辅音，或者没有辅音。\nä后面有一个长音标志h\n短音\nä后面有两个或者以上的辅音\nO\n长音和短音是不同的，\n长音，本身音\n后面只有一个辅音或者没有辅音\n有长音标志h\n双oo重叠\n短音\n后面有两个或者两个以上辅音的时候\nÖö\n长音\nö 后面只有一个辅音或者没有辅音\n有长音标志\n短音\n有两个或者两个以上辅音的时候",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 360,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e3983e8e-91a2-47c7-8b41-698c1f8302e4",
+    "note_id": "f3488981-d611-4ea8-83b2-d9e0c00001c1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:36.167950Z",
+    "finished_at": "2025-11-10T15:43:36.167950Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dc46efae-caa9-4fe2-b767-9be0c35249ff",
+      "source_path": "backups/2023年6月/德语3/发音课.html",
+      "checksum": "f9aa79a8c7c2c52c3e3db16cf9c9a3ff730f066256968e759ec6f649ccbc3a79"
+    },
+    "output_ref": {
+      "ingest_source": "3630f956-1045-43a0-ab28-ced2d3c10382",
+      "note": "f3488981-d611-4ea8-83b2-d9e0c00001c1",
+      "variants": [
+        "2a937de2-b8df-42b0-be0e-52f26f05f24c",
+        "9961dcbe-7fe2-415e-ba91-ee9f075660f2"
+      ]
+    },
+    "error_detail": null
+  }
+}

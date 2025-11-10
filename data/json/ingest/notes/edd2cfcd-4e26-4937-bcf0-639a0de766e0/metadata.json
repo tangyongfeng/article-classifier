@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "40b66c42-f380-4e04-a1d0-ef1d7af72b72",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/scale out 测试记录 大压力测试记录.html",
+    "collected_at": "2025-11-10T15:43:34.705734Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "e61549907e4d7c6aa1c6e2aaa91177c12ceac8be8470b90b16d41f30407102bd",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "edd2cfcd-4e26-4937-bcf0-639a0de766e0",
+    "ingest_source_id": "40b66c42-f380-4e04-a1d0-ef1d7af72b72",
+    "canonical_title": "scale out 测试记录 大压力测试记录",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.705738Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "scale out 测试记录 大压力测试记录.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "bb47b1c1-783d-479b-8a2e-5921bed03ec3",
+      "note_id": "edd2cfcd-4e26-4937-bcf0-639a0de766e0",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.705741Z",
+      "content": "---\ntitle: scale out 测试记录 大压力测试记录\nupdated: 2013-04-12 18:36:30Z\ncreated: 2013-04-12 18:23:01Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1\n<div>CF1&nbsp;</div><table BORDER=\"1\" CELLPADDING=\"2\" CELLSPACING=\"0\" WIDTH=\"100%\"><tbody><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\">server 1</td><td VALIGN=\"top\">server2</td><td VALIGN=\"top\">server3</td></tr><tr><td VALIGN=\"top\">cpu</td><td VALIGN=\"top\">4chip*4process</td><td VALIGN=\"top\">8chip*4process</td><td VALIGN=\"top\">12chip*process</td></tr><tr><td VALIGN=\"top\">memory</td><td VALIGN=\"top\">100G</td><td VALIGN=\"top\">100G</td><td VALIGN=\"top\">100G</td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td></tr><tr><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td><td VALIGN=\"top\"><br/></td></tr></tbody></table><div><br/></div><div>开始的是有主要的工作是从磁盘上loading数据到内存里，所以开始的时候系统主要的负担是iowait.</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "e61549907e4d7c6aa1c6e2aaa91177c12ceac8be8470b90b16d41f30407102bd",
+        "path": "backups/2023年6月/中彩相关/scale out 测试记录 大压力测试记录.html"
+      }
+    },
+    {
+      "id": "8a4913a3-f4e0-4b70-950c-63561cc24d15",
+      "note_id": "edd2cfcd-4e26-4937-bcf0-639a0de766e0",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.705744Z",
+      "content": "---\ntitle: scale out 测试记录 大压力测试记录\nupdated: 2013-04-12 18:36:30Z\ncreated: 2013-04-12 18:23:01Z\n---\n\n1\n\nCF1 \nserver 1\nserver2\nserver3\ncpu\n4chip*4process\n8chip*4process\n12chip*process\nmemory\n100G\n开始的是有主要的工作是从磁盘上loading数据到内存里，所以开始的时候系统主要的负担是iowait.",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 244,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a5ddd0ce-0dcd-4314-bbcf-d44bb6f3b67b",
+    "note_id": "edd2cfcd-4e26-4937-bcf0-639a0de766e0",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.705750Z",
+    "finished_at": "2025-11-10T15:43:34.705750Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "264e64dc-7c37-45d6-ad9d-1c29108aa693",
+      "source_path": "backups/2023年6月/中彩相关/scale out 测试记录 大压力测试记录.html",
+      "checksum": "e61549907e4d7c6aa1c6e2aaa91177c12ceac8be8470b90b16d41f30407102bd"
+    },
+    "output_ref": {
+      "ingest_source": "40b66c42-f380-4e04-a1d0-ef1d7af72b72",
+      "note": "edd2cfcd-4e26-4937-bcf0-639a0de766e0",
+      "variants": [
+        "bb47b1c1-783d-479b-8a2e-5921bed03ec3",
+        "8a4913a3-f4e0-4b70-950c-63561cc24d15"
+      ]
+    },
+    "error_detail": null
+  }
+}

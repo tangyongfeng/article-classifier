@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "4818f4e2-8a44-40fe-b7c5-7f7304f826ab",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/可儿/特殊的礼物.html",
+    "collected_at": "2025-11-10T15:43:35.313250Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "60957d6be1d206c01ced4a38e5ab068846c514ee302a671c795a5079964b6ddb",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "dfb7e0d9-03c4-427f-94ba-0e56b1d3b999",
+    "ingest_source_id": "4818f4e2-8a44-40fe-b7c5-7f7304f826ab",
+    "canonical_title": "特殊的礼物",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.313254Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "特殊的礼物.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1924723d-a55e-4cb1-a856-41ff4e4c133a",
+      "note_id": "dfb7e0d9-03c4-427f-94ba-0e56b1d3b999",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.313257Z",
+      "content": "---\ntitle: 特殊的礼物\nupdated: 2018-05-11 08:07:32Z\ncreated: 2018-05-11 08:07:09Z\n---\n\n\n<en-note><div><a href='../_resources/演讲稿.docx'  type=\"application/vnd.openxmlformats-officedocument.wordprocessingml.document\" hash=\"bcfc07745da60b9463ae8c9da23ac559\" alt=\"演讲稿.docx\">  演讲稿.docx</a></en-media></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "60957d6be1d206c01ced4a38e5ab068846c514ee302a671c795a5079964b6ddb",
+        "path": "backups/2023年6月/可儿/特殊的礼物.html"
+      }
+    },
+    {
+      "id": "51ce8c3b-492e-4d2a-b810-ed6d8beb02d9",
+      "note_id": "dfb7e0d9-03c4-427f-94ba-0e56b1d3b999",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.313259Z",
+      "content": "---\ntitle: 特殊的礼物\nupdated: 2018-05-11 08:07:32Z\ncreated: 2018-05-11 08:07:09Z\n---\n\n  演讲稿.docx",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 92,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d47a8edd-b805-4d0d-bd18-2e91e83ff39e",
+    "note_id": "dfb7e0d9-03c4-427f-94ba-0e56b1d3b999",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.313264Z",
+    "finished_at": "2025-11-10T15:43:35.313264Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9af1fba3-f854-45dc-a0cd-a326a7160689",
+      "source_path": "backups/2023年6月/可儿/特殊的礼物.html",
+      "checksum": "60957d6be1d206c01ced4a38e5ab068846c514ee302a671c795a5079964b6ddb"
+    },
+    "output_ref": {
+      "ingest_source": "4818f4e2-8a44-40fe-b7c5-7f7304f826ab",
+      "note": "dfb7e0d9-03c4-427f-94ba-0e56b1d3b999",
+      "variants": [
+        "1924723d-a55e-4cb1-a856-41ff4e4c133a",
+        "51ce8c3b-492e-4d2a-b810-ed6d8beb02d9"
+      ]
+    },
+    "error_detail": null
+  }
+}

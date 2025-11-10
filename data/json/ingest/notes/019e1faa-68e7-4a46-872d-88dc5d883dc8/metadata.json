@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "7f184a8f-edc0-4063-b116-3f7a1f7e489c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/克隆声音.html",
+    "collected_at": "2025-11-10T15:43:32.209778Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "8dbf2e2bc14c1799e485f73a3c3a1375b4421bdb90ea1cd52c233b16bc7b4da8",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "019e1faa-68e7-4a46-872d-88dc5d883dc8",
+    "ingest_source_id": "7f184a8f-edc0-4063-b116-3f7a1f7e489c",
+    "canonical_title": "克隆声音",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.209783Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "克隆声音.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "1f475aca-4c04-4de9-aec5-2e92daad465b",
+      "note_id": "019e1faa-68e7-4a46-872d-88dc5d883dc8",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.209786Z",
+      "content": "---\ntitle: 克隆声音\nupdated: 2021-10-08 21:41:08Z\ncreated: 2021-10-08 21:40:35Z\n---\n\n\n<en-note><div><br/></div><div><br/></div><div><br/></div><div>https://github.com/birdrides/mockingbird</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8dbf2e2bc14c1799e485f73a3c3a1375b4421bdb90ea1cd52c233b16bc7b4da8",
+        "path": "backups/2023年6月/IT技术/克隆声音.html"
+      }
+    },
+    {
+      "id": "d3ca115e-8d8e-4680-9585-f7ada916e03a",
+      "note_id": "019e1faa-68e7-4a46-872d-88dc5d883dc8",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.209789Z",
+      "content": "---\ntitle: 克隆声音\nupdated: 2021-10-08 21:41:08Z\ncreated: 2021-10-08 21:40:35Z\n---\n\nhttps://github.com/birdrides/mockingbird",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 121,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ecfc5abc-580a-4bc4-bdf2-418fc237cc9e",
+    "note_id": "019e1faa-68e7-4a46-872d-88dc5d883dc8",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.209795Z",
+    "finished_at": "2025-11-10T15:43:32.209795Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "dab6e173-037d-4599-be5c-1e2a691c6a88",
+      "source_path": "backups/2023年6月/IT技术/克隆声音.html",
+      "checksum": "8dbf2e2bc14c1799e485f73a3c3a1375b4421bdb90ea1cd52c233b16bc7b4da8"
+    },
+    "output_ref": {
+      "ingest_source": "7f184a8f-edc0-4063-b116-3f7a1f7e489c",
+      "note": "019e1faa-68e7-4a46-872d-88dc5d883dc8",
+      "variants": [
+        "1f475aca-4c04-4de9-aec5-2e92daad465b",
+        "d3ca115e-8d8e-4680-9585-f7ada916e03a"
+      ]
+    },
+    "error_detail": null
+  }
+}

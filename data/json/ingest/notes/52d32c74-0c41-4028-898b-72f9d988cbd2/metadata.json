@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "1a0ad88a-19e5-4c14-85cc-4018da9aab31",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/nachhilfe.html",
+    "collected_at": "2025-11-10T15:43:33.526106Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "dd0f46275b097aabd1e6e63041ba4aebc3a97d298d643e558244aaa1e2bd91ed",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "52d32c74-0c41-4028-898b-72f9d988cbd2",
+    "ingest_source_id": "1a0ad88a-19e5-4c14-85cc-4018da9aab31",
+    "canonical_title": "nachhilfe",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:33.526109Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "nachhilfe.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "92ba7b71-ea7b-4501-98fc-9e732d3d10ce",
+      "note_id": "52d32c74-0c41-4028-898b-72f9d988cbd2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.526112Z",
+      "content": "---\ntitle: nachhilfe\nupdated: 2022-03-04 21:43:49Z\ncreated: 2022-03-04 21:43:19Z\n---\n\n\n\n<en-note><div>ich h&auml;tte das alles Leid und wenn Sie Fragen zur Rechnung haben oder sie K&uuml;ndigung oder zu diesen Dokumenten dann kann ich das leider nicht beantworten das mache ich nicht selbst das macht f&uuml;r mich eine Spezialabteilung sie ich bezahle das mache ich nicht selbst ich mache Stundenplan um Stunden aber die Rechnung fragen macht nur das B&uuml;ro am besten Sie schicken alle Fragen direkt an die Mail an die Schule Mail ja</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "dd0f46275b097aabd1e6e63041ba4aebc3a97d298d643e558244aaa1e2bd91ed",
+        "path": "backups/2023年6月/个人的乱78糟/nachhilfe.html"
+      }
+    },
+    {
+      "id": "c6d21f0c-bf99-4d1b-9688-4cecc586b093",
+      "note_id": "52d32c74-0c41-4028-898b-72f9d988cbd2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.526114Z",
+      "content": "---\ntitle: nachhilfe\nupdated: 2022-03-04 21:43:49Z\ncreated: 2022-03-04 21:43:19Z\n---\n\nich hätte das alles Leid und wenn Sie Fragen zur Rechnung haben oder sie Kündigung oder zu diesen Dokumenten dann kann ich das leider nicht beantworten das mache ich nicht selbst das macht für mich eine Spezialabteilung sie ich bezahle das mache ich nicht selbst ich mache Stundenplan um Stunden aber die Rechnung fragen macht nur das Büro am besten Sie schicken alle Fragen direkt an die Mail an die Schule Mail ja",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 501,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "5300ff84-023c-4fe1-b307-7a5065469d9b",
+    "note_id": "52d32c74-0c41-4028-898b-72f9d988cbd2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.526119Z",
+    "finished_at": "2025-11-10T15:43:33.526119Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "c6fab897-6b0f-44e7-9af6-fcbc55d627ff",
+      "source_path": "backups/2023年6月/个人的乱78糟/nachhilfe.html",
+      "checksum": "dd0f46275b097aabd1e6e63041ba4aebc3a97d298d643e558244aaa1e2bd91ed"
+    },
+    "output_ref": {
+      "ingest_source": "1a0ad88a-19e5-4c14-85cc-4018da9aab31",
+      "note": "52d32c74-0c41-4028-898b-72f9d988cbd2",
+      "variants": [
+        "92ba7b71-ea7b-4501-98fc-9e732d3d10ce",
+        "c6d21f0c-bf99-4d1b-9688-4cecc586b093"
+      ]
+    },
+    "error_detail": null
+  }
+}

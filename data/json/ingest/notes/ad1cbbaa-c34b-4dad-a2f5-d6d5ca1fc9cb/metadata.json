@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "349aad5a-8d75-4adb-b7b2-3f735b1aa581",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/湛江图书馆.html",
+    "collected_at": "2025-11-10T15:43:34.258022Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "no",
+    "captured_at": null,
+    "checksum": "797d622919ede37b9d43cf01607f943954dd7f7df56a24ac8f2b285a610bac95",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "ad1cbbaa-c34b-4dad-a2f5-d6d5ca1fc9cb",
+    "ingest_source_id": "349aad5a-8d75-4adb-b7b2-3f735b1aa581",
+    "canonical_title": "湛江图书馆",
+    "language": "no",
+    "ingested_at": "2025-11-10T15:43:34.258026Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "湛江图书馆.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "de5786d3-b6b2-4a3f-8979-ba53bba98c57",
+      "note_id": "ad1cbbaa-c34b-4dad-a2f5-d6d5ca1fc9cb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.258029Z",
+      "content": "---\ntitle: 湛江图书馆\nupdated: 2021-03-16 22:43:33Z\ncreated: 2021-03-16 22:43:12Z\n---\n\n\n\n<en-note><div>本馆提供二十万种图书免费在线阅读，一百万种图书免费提供读者查询。</div><div>外网请访问：<a HREF=\"http://sslibrary.com\">sslibrary.com</a></div><div>帐号：zjlib 密码：zjtsg@2020</div><div>搜索5000余万篇期刊文章、挖掘作者、机构、主题、资助等海量知识对象 </div><div>外网读者可用</div><div>帐号：zjstsg 密码：zjstsg </div><div>访问：<a HREF=\"http://zjlib.com\">zjlib.com</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "797d622919ede37b9d43cf01607f943954dd7f7df56a24ac8f2b285a610bac95",
+        "path": "backups/2023年6月/个人的乱78糟/湛江图书馆.html"
+      }
+    },
+    {
+      "id": "eea40fb6-0e6b-4907-bb73-96817339809d",
+      "note_id": "ad1cbbaa-c34b-4dad-a2f5-d6d5ca1fc9cb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.258032Z",
+      "content": "---\ntitle: 湛江图书馆\nupdated: 2021-03-16 22:43:33Z\ncreated: 2021-03-16 22:43:12Z\n---\n\n本馆提供二十万种图书免费在线阅读，一百万种图书免费提供读者查询。\n外网请访问：\nsslibrary.com\n帐号：zjlib 密码：zjtsg@2020\n搜索5000余万篇期刊文章、挖掘作者、机构、主题、资助等海量知识对象\n外网读者可用\n帐号：zjstsg 密码：zjstsg\n访问：\nzjlib.com",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "no",
+        "length": 234,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a35eb5c4-bf57-4518-ba80-aea584e8edc4",
+    "note_id": "ad1cbbaa-c34b-4dad-a2f5-d6d5ca1fc9cb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.258037Z",
+    "finished_at": "2025-11-10T15:43:34.258037Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "3d60265e-ca2d-4f14-bb05-d4794bc09798",
+      "source_path": "backups/2023年6月/个人的乱78糟/湛江图书馆.html",
+      "checksum": "797d622919ede37b9d43cf01607f943954dd7f7df56a24ac8f2b285a610bac95"
+    },
+    "output_ref": {
+      "ingest_source": "349aad5a-8d75-4adb-b7b2-3f735b1aa581",
+      "note": "ad1cbbaa-c34b-4dad-a2f5-d6d5ca1fc9cb",
+      "variants": [
+        "de5786d3-b6b2-4a3f-8979-ba53bba98c57",
+        "eea40fb6-0e6b-4907-bb73-96817339809d"
+      ]
+    },
+    "error_detail": null
+  }
+}

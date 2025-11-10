@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e6c4f42a-6e7a-48be-8a53-553daafe59e0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/闪铁/印尼产量.html",
+    "collected_at": "2025-11-10T15:43:37.112550Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "f59a5010a3709957a778fe38a610605737078f4143087594022484c610c523bd",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "9a8dd0d7-69c4-4ad9-8e98-641fa6160486",
+    "ingest_source_id": "e6c4f42a-6e7a-48be-8a53-553daafe59e0",
+    "canonical_title": "印尼产量",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:37.112554Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "印尼产量.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "666e2652-c617-4bc1-9977-04601ced5cd2",
+      "note_id": "9a8dd0d7-69c4-4ad9-8e98-641fa6160486",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.112557Z",
+      "content": "---\ntitle: 印尼产量\nupdated: 2019-10-21 20:34:41Z\ncreated: 2019-10-21 10:31:10Z\n---\n\n\n\n<en-note><div><span STYLE=\"caret-color: rgb(68, 68, 68); font-size: 17px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; color: rgb(68, 68, 68); font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-caps: normal;\">我们预计2017年印尼包括青山、振石、新华联、亨泰源、金鳞、德龙、新兴铸管等企业在内的总产量在23.4万金属吨，2017年的新增产能在19万吨金属吨。其中大部分是镍生铁&mdash;&mdash;不锈钢一体化工艺，但不锈钢投产往往都滞后，所以后期印尼还有大量产量可以通过出口到中国销售出去，根据我们最新数据库显示，目前进口镍铁成本在760，国内目前的市场价格为840，盈利空间还很大</span></div><div><span STYLE=\"caret-color: rgb(68, 68, 68); font-size: 17px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; color: rgb(68, 68, 68); font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-caps: normal;\"><br/></span></div><div><span STYLE=\"caret-color: rgb(68, 68, 68); font-size: 17px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; color: rgb(68, 68, 68); font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-caps: normal;\">当地都有哪些企业做得好</span></div><div><span STYLE=\"caret-color: rgb(68, 68, 68); font-size: 17px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; color: rgb(68, 68, 68); font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-caps: normal;\">当地谁说了算？</span></div><div><span STYLE=\"caret-color: rgb(68, 68, 68); font-size: 17px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; color: rgb(68, 68, 68); font-family: -apple-system, BlinkMacSystemFont, &quot;Helvetica Neue&quot;, &quot;PingFang SC&quot;, &quot;Microsoft YaHei&quot;, &quot;Source Han Sans SC&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, sans-serif; font-variant-caps: normal;\"><br/></span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "f59a5010a3709957a778fe38a610605737078f4143087594022484c610c523bd",
+        "path": "backups/2023年6月/闪铁/印尼产量.html"
+      }
+    },
+    {
+      "id": "1c8a8e8f-d316-45fa-8bd2-1fcd3b0b41ff",
+      "note_id": "9a8dd0d7-69c4-4ad9-8e98-641fa6160486",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.112559Z",
+      "content": "---\ntitle: 印尼产量\nupdated: 2019-10-21 20:34:41Z\ncreated: 2019-10-21 10:31:10Z\n---\n\n我们预计2017年印尼包括青山、振石、新华联、亨泰源、金鳞、德龙、新兴铸管等企业在内的总产量在23.4万金属吨，2017年的新增产能在19万吨金属吨。其中大部分是镍生铁——不锈钢一体化工艺，但不锈钢投产往往都滞后，所以后期印尼还有大量产量可以通过出口到中国销售出去，根据我们最新数据库显示，目前进口镍铁成本在760，国内目前的市场价格为840，盈利空间还很大\n当地都有哪些企业做得好\n当地谁说了算？",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 280,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "09629a5b-6e6c-4b38-accf-d148386d8c71",
+    "note_id": "9a8dd0d7-69c4-4ad9-8e98-641fa6160486",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:37.112564Z",
+    "finished_at": "2025-11-10T15:43:37.112564Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "2d5dc3df-f38f-45cf-9d70-ce3837ac50e8",
+      "source_path": "backups/2023年6月/闪铁/印尼产量.html",
+      "checksum": "f59a5010a3709957a778fe38a610605737078f4143087594022484c610c523bd"
+    },
+    "output_ref": {
+      "ingest_source": "e6c4f42a-6e7a-48be-8a53-553daafe59e0",
+      "note": "9a8dd0d7-69c4-4ad9-8e98-641fa6160486",
+      "variants": [
+        "666e2652-c617-4bc1-9977-04601ced5cd2",
+        "1c8a8e8f-d316-45fa-8bd2-1fcd3b0b41ff"
+      ]
+    },
+    "error_detail": null
+  }
+}

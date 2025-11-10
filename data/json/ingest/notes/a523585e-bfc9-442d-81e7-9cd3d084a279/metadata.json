@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "deb0355d-d573-428e-82ed-1499084244f3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/无标题笔记-2.html",
+    "collected_at": "2025-11-10T15:43:35.690370Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "bd6b9bd3bf99bdfbd5933fd71d91b5938878fb7fc5b69d7f06fda7f587c725b5",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "a523585e-bfc9-442d-81e7-9cd3d084a279",
+    "ingest_source_id": "deb0355d-d573-428e-82ed-1499084244f3",
+    "canonical_title": "无标题笔记-2",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.690374Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "无标题笔记-2.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ee1f9760-5de1-4d16-b272-e5246d796709",
+      "note_id": "a523585e-bfc9-442d-81e7-9cd3d084a279",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.690377Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2018-12-27 14:40:48Z\ncreated: 2018-12-27 11:30:40Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>Dear Visa Offier:</div><div><br/></div><div>Thank you for your reply, I respect your process, I just want to know the processing time.</div><div>If I am not mistaken, the final processing time is January 14, 2019, right?</div><div>Can I revoke my appeal during this time?</div><div><br/></div><div><span STYLE=\"color: rgb(34, 34, 34); font-family: Arial, Helvetica, sans-serif; font-size: small; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">Sincerely</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "bd6b9bd3bf99bdfbd5933fd71d91b5938878fb7fc5b69d7f06fda7f587c725b5",
+        "path": "backups/2023年6月/德国2/无标题笔记-2.html"
+      }
+    },
+    {
+      "id": "da592193-e91c-45af-833a-4464b597b9bb",
+      "note_id": "a523585e-bfc9-442d-81e7-9cd3d084a279",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.690379Z",
+      "content": "---\ntitle: 无标题笔记\nupdated: 2018-12-27 14:40:48Z\ncreated: 2018-12-27 11:30:40Z\nauthor: tangyongfeng@gmail.com\n---\n\nDear Visa Offier:\nThank you for your reply, I respect your process, I just want to know the processing time.\nIf I am not mistaken, the final processing time is January 14, 2019, right?\nCan I revoke my appeal during this time?\nSincerely",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 348,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "990afbed-830f-489e-b367-3951b87e5821",
+    "note_id": "a523585e-bfc9-442d-81e7-9cd3d084a279",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.690384Z",
+    "finished_at": "2025-11-10T15:43:35.690384Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f5a43553-e79d-44b2-8614-3c6f48b374d7",
+      "source_path": "backups/2023年6月/德国2/无标题笔记-2.html",
+      "checksum": "bd6b9bd3bf99bdfbd5933fd71d91b5938878fb7fc5b69d7f06fda7f587c725b5"
+    },
+    "output_ref": {
+      "ingest_source": "deb0355d-d573-428e-82ed-1499084244f3",
+      "note": "a523585e-bfc9-442d-81e7-9cd3d084a279",
+      "variants": [
+        "ee1f9760-5de1-4d16-b272-e5246d796709",
+        "da592193-e91c-45af-833a-4464b597b9bb"
+      ]
+    },
+    "error_detail": null
+  }
+}

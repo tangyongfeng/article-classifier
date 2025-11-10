@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "46ee01d2-b169-4850-944a-95a402e6c16d",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。.html",
+    "collected_at": "2025-11-10T15:43:35.030039Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "d468ae3d7f4cb7969f0a1ea7f87c1e8426e89f68efce152bae3658d93b3e98f6",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "97f01789-4822-4052-85ce-d797d68353db",
+    "ingest_source_id": "46ee01d2-b169-4850-944a-95a402e6c16d",
+    "canonical_title": "酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.030043Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "4b1fd5c2-51d9-4d83-95f3-47a827ecf266",
+      "note_id": "97f01789-4822-4052-85ce-d797d68353db",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.030046Z",
+      "content": "---\ntitle: 酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。\nupdated: 2013-07-12 03:24:47Z\ncreated: 2013-07-12 03:24:47Z\nsource: http://www.homeinns.com/rjhotel/057152\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><ul STYLE=\"margin: 0px; padding: 0px; border: 0px; font-size: 12px; font-family: 'microsoft yahei', Arial, Helvetica, Verdana, simsun; vertical-align: baseline; list-style: none; color: rgb(51, 51, 51); line-height: 18px; background-color: rgb(255, 255, 255);\"><li STYLE=\"list-style: none; display: inline\"><p STYLE=\"margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 24px; color: rgb(83, 83, 83);\">酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。</p><p STYLE=\"margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 24px; color: rgb(83, 83, 83);\">联系电话：0571-87019995</p><p STYLE=\"margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-family: inherit; vertical-align: baseline; line-height: 24px; color: rgb(83, 83, 83);\">开业时间：2012-3-8</p></li></ul></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d468ae3d7f4cb7969f0a1ea7f87c1e8426e89f68efce152bae3658d93b3e98f6",
+        "path": "backups/2023年6月/中彩相关/酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。.html"
+      }
+    },
+    {
+      "id": "76149d05-2fb4-4622-a65f-0c1013527a44",
+      "note_id": "97f01789-4822-4052-85ce-d797d68353db",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.030048Z",
+      "content": "---\ntitle: 酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。\nupdated: 2013-07-12 03:24:47Z\ncreated: 2013-07-12 03:24:47Z\nsource: http://www.homeinns.com/rjhotel/057152\n---\n\n酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。\n联系电话：0571-87019995\n开业时间：2012-3-8",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 233,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "97767cd4-e2ce-4664-965f-b2773811d90d",
+    "note_id": "97f01789-4822-4052-85ce-d797d68353db",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.030053Z",
+    "finished_at": "2025-11-10T15:43:35.030054Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "b0f6c009-6047-4259-b7a8-1f4daf326da9",
+      "source_path": "backups/2023年6月/中彩相关/酒店地址：杭州市下城区庆春路182号，金融大厦三楼（庆春路与浣纱路交叉口）。.html",
+      "checksum": "d468ae3d7f4cb7969f0a1ea7f87c1e8426e89f68efce152bae3658d93b3e98f6"
+    },
+    "output_ref": {
+      "ingest_source": "46ee01d2-b169-4850-944a-95a402e6c16d",
+      "note": "97f01789-4822-4052-85ce-d797d68353db",
+      "variants": [
+        "4b1fd5c2-51d9-4d83-95f3-47a827ecf266",
+        "76149d05-2fb4-4622-a65f-0c1013527a44"
+      ]
+    },
+    "error_detail": null
+  }
+}

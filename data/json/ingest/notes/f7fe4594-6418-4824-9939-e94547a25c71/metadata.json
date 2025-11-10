@@ -1,0 +1,99 @@
+{
+  "ingest_source": {
+    "id": "f49fde09-1d3e-45b1-a438-b975f3149f3e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Führerschein – Figma.html",
+    "collected_at": "2025-11-10T15:43:30.776196Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "0d816a11e30d67493cfa41d3baec108bbe73d6df79b666386dea9ccfe27faa06",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "f7fe4594-6418-4824-9939-e94547a25c71",
+    "ingest_source_id": "f49fde09-1d3e-45b1-a438-b975f3149f3e",
+    "canonical_title": "Führerschein – Figma",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:30.776200Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Führerschein – Figma.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "d0de833d-b0ee-4e27-a3f5-f20c1318ab1f",
+      "note_id": "f7fe4594-6418-4824-9939-e94547a25c71",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.776202Z",
+      "content": "---\ntitle: Führerschein – Figma\nupdated: 2022-10-31 10:57:48Z\ncreated: 2022-10-31 10:57:19Z\n---\n\n\n<en-note><div><a HREF=\"https://www.figma.com/community/file/1168865589265387900\" REV=\"en_rl_none\">F&uuml;hrerschein &ndash; Figma</a></div><div><br/></div><div><a HREF=\"https://www.figma.com/community/file/1168865589265387900\" REV=\"en_rl_none\">F&uuml;hrerschein &ndash; Figma</a> <a HREF=\"https://www.figma.com/community/file/1168865589265387900\">https://www.figma.com/community/file/1168865589265387900</a></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "0d816a11e30d67493cfa41d3baec108bbe73d6df79b666386dea9ccfe27faa06",
+        "path": "backups/2023年6月/IT技术/Führerschein – Figma.html"
+      }
+    },
+    {
+      "id": "39a74b73-b8fe-406d-92c1-fdb8633c03bc",
+      "note_id": "f7fe4594-6418-4824-9939-e94547a25c71",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.776205Z",
+      "content": "---\ntitle: Führerschein – Figma\nupdated: 2022-10-31 10:57:48Z\ncreated: 2022-10-31 10:57:19Z\n---\n\nFührerschein – Figma\n\nhttps://www.figma.com/community/file/1168865589265387900",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 175,
+        "rule_count": 2,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          },
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "090fff74-16bd-455a-aa3d-a19bf4c570e3",
+    "note_id": "f7fe4594-6418-4824-9939-e94547a25c71",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.776210Z",
+    "finished_at": "2025-11-10T15:43:30.776210Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "603a038e-fc30-48d3-8c2b-ad48f7ad76f1",
+      "source_path": "backups/2023年6月/IT技术/Führerschein – Figma.html",
+      "checksum": "0d816a11e30d67493cfa41d3baec108bbe73d6df79b666386dea9ccfe27faa06"
+    },
+    "output_ref": {
+      "ingest_source": "f49fde09-1d3e-45b1-a438-b975f3149f3e",
+      "note": "f7fe4594-6418-4824-9939-e94547a25c71",
+      "variants": [
+        "d0de833d-b0ee-4e27-a3f5-f20c1318ab1f",
+        "39a74b73-b8fe-406d-92c1-fdb8633c03bc"
+      ]
+    },
+    "error_detail": null
+  }
+}

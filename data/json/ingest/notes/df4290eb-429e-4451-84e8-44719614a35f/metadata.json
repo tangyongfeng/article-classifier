@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "99adc9ea-5c67-4b71-bc10-f0c888575a56",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/中彩相关/电话投注会议纪要.html",
+    "collected_at": "2025-11-10T15:43:34.918944Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "2e7a76535726d0b7dc5ec525cdd1997272c4796fc39b2d5261461118eb244698",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "df4290eb-429e-4451-84e8-44719614a35f",
+    "ingest_source_id": "99adc9ea-5c67-4b71-bc10-f0c888575a56",
+    "canonical_title": "电话投注会议纪要",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:34.918947Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "电话投注会议纪要.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9a8621bf-c19f-4f2e-83e3-ddd448ecdfb2",
+      "note_id": "df4290eb-429e-4451-84e8-44719614a35f",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.918950Z",
+      "content": "---\ntitle: 电话投注会议纪要\nupdated: 2013-05-13 07:00:25Z\ncreated: 2013-05-13 06:35:12Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、重庆发行了一个一卡通，现在先停止，以后看能否兼容。\n<div>2、用户和资金一定要在咱们这里。</div><div>3、电话投注没有代销商，目前就确定三大运营商。</div><div>4、楼处来福彩中心之前，已经确定短信投注算是电话投注。</div><div>5、现在有一种短信业务叫互动短信，模糊化了电话投注的界限。</div><div>6、现在重庆短信投注的量很大，5-6千万。目前没有身份验证，</div><div>7、三大运营商的短信投注需要事先注册，注册成功后，可以不带用户名密码的投注。</div><div>8、现在领导确定了这件事情的模式。</div><div>9、除了投注以外，都需要有完整的注册和其他流程。</div><div>10、分省模式现在是已经确定的事情，必须要按照分省投注的方式来运营</div><div>11、领导的想法是不让绑定多张借记卡，至少不能绑定多张不同省份的借记卡。</div><div>12、在注册的时候就要确定银行卡的所在地，以确定所在地</div><div>13、需要确定运营商是否有全国统一网关。</div><div>14、现在倾向于各省自己接收各省的短信数据，不接受异地接受短信。只是在账户在中心系统。接受通道还是在各省。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "2e7a76535726d0b7dc5ec525cdd1997272c4796fc39b2d5261461118eb244698",
+        "path": "backups/2023年6月/中彩相关/电话投注会议纪要.html"
+      }
+    },
+    {
+      "id": "9da17263-29f9-449b-8104-e46da6723738",
+      "note_id": "df4290eb-429e-4451-84e8-44719614a35f",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.918953Z",
+      "content": "---\ntitle: 电话投注会议纪要\nupdated: 2013-05-13 07:00:25Z\ncreated: 2013-05-13 06:35:12Z\n---\n\n1、重庆发行了一个一卡通，现在先停止，以后看能否兼容。\n\n2、用户和资金一定要在咱们这里。\n3、电话投注没有代销商，目前就确定三大运营商。\n4、楼处来福彩中心之前，已经确定短信投注算是电话投注。\n5、现在有一种短信业务叫互动短信，模糊化了电话投注的界限。\n6、现在重庆短信投注的量很大，5-6千万。目前没有身份验证，\n7、三大运营商的短信投注需要事先注册，注册成功后，可以不带用户名密码的投注。\n8、现在领导确定了这件事情的模式。\n9、除了投注以外，都需要有完整的注册和其他流程。\n10、分省模式现在是已经确定的事情，必须要按照分省投注的方式来运营\n11、领导的想法是不让绑定多张借记卡，至少不能绑定多张不同省份的借记卡。\n12、在注册的时候就要确定银行卡的所在地，以确定所在地\n13、需要确定运营商是否有全国统一网关。\n14、现在倾向于各省自己接收各省的短信数据，不接受异地接受短信。只是在账户在中心系统。接受通道还是在各省。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 499,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "53d6cc14-63fe-4623-8356-2a5b8b78c1c3",
+    "note_id": "df4290eb-429e-4451-84e8-44719614a35f",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.918957Z",
+    "finished_at": "2025-11-10T15:43:34.918957Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "79c81e88-6dd4-4ac0-912d-c1f2ed6417ae",
+      "source_path": "backups/2023年6月/中彩相关/电话投注会议纪要.html",
+      "checksum": "2e7a76535726d0b7dc5ec525cdd1997272c4796fc39b2d5261461118eb244698"
+    },
+    "output_ref": {
+      "ingest_source": "99adc9ea-5c67-4b71-bc10-f0c888575a56",
+      "note": "df4290eb-429e-4451-84e8-44719614a35f",
+      "variants": [
+        "9a8621bf-c19f-4f2e-83e3-ddd448ecdfb2",
+        "9da17263-29f9-449b-8104-e46da6723738"
+      ]
+    },
+    "error_detail": null
+  }
+}

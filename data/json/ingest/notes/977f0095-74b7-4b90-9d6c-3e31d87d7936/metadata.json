@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "f9c7f244-5a6c-4848-a2b4-1a5ced467ba3",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/笔记.html",
+    "collected_at": "2025-11-10T15:43:35.240010Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ca8dd5f2c69c02ebbb7fbb51cdbd3f7de5c037e36a463cbac05e1fa7205b20d4",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "977f0095-74b7-4b90-9d6c-3e31d87d7936",
+    "ingest_source_id": "f9c7f244-5a6c-4848-a2b4-1a5ced467ba3",
+    "canonical_title": "笔记",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.240014Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "2165cb3c-b913-4883-ac47-e37af6dc9abe",
+      "note_id": "977f0095-74b7-4b90-9d6c-3e31d87d7936",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.240016Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-05-13 13:17:21Z\ncreated: 2014-05-13 13:16:15Z\n---\n\n\n\n<en-note>增加回访前短信提醒<div>个人信息首页增加烟酒用量</div><div>个人信息页增加称谓</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ca8dd5f2c69c02ebbb7fbb51cdbd3f7de5c037e36a463cbac05e1fa7205b20d4",
+        "path": "backups/2023年6月/医疗/笔记.html"
+      }
+    },
+    {
+      "id": "deeaf5fa-f99b-4404-8c25-5d735e59f792",
+      "note_id": "977f0095-74b7-4b90-9d6c-3e31d87d7936",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.240019Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-05-13 13:17:21Z\ncreated: 2014-05-13 13:16:15Z\n---\n\n增加回访前短信提醒\n个人信息首页增加烟酒用量\n个人信息页增加称谓",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 111,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "54956deb-0164-4591-a2e2-0ae23f1d921d",
+    "note_id": "977f0095-74b7-4b90-9d6c-3e31d87d7936",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.240024Z",
+    "finished_at": "2025-11-10T15:43:35.240024Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "392c7570-f6e7-44ef-bc2a-be3e48f596f3",
+      "source_path": "backups/2023年6月/医疗/笔记.html",
+      "checksum": "ca8dd5f2c69c02ebbb7fbb51cdbd3f7de5c037e36a463cbac05e1fa7205b20d4"
+    },
+    "output_ref": {
+      "ingest_source": "f9c7f244-5a6c-4848-a2b4-1a5ced467ba3",
+      "note": "977f0095-74b7-4b90-9d6c-3e31d87d7936",
+      "variants": [
+        "2165cb3c-b913-4883-ac47-e37af6dc9abe",
+        "deeaf5fa-f99b-4404-8c25-5d735e59f792"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "e4a06480-00ce-4b52-97e4-78b1d738c727",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/云.html",
+    "collected_at": "2025-11-10T15:43:32.130624Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "25f7f4b206535c5b570ff8eb64e3c437e937ebe5be1353e3578b25a28b4afa32",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "497aa04e-efae-491b-8d56-1db07b0db34d",
+    "ingest_source_id": "e4a06480-00ce-4b52-97e4-78b1d738c727",
+    "canonical_title": "云",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:32.130628Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "云.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "9dd756f3-ddb3-4741-bfcd-bbb268c7cbe5",
+      "note_id": "497aa04e-efae-491b-8d56-1db07b0db34d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.130630Z",
+      "content": "---\ntitle: 云\nupdated: 2011-07-04 09:47:46Z\ncreated: 2011-07-04 09:47:43Z\nlatitude: 39.87597614\nlongitude: 116.34407051\naltitude: 0.0000\n---\n\n\n<en-note>Hadoop</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "25f7f4b206535c5b570ff8eb64e3c437e937ebe5be1353e3578b25a28b4afa32",
+        "path": "backups/2023年6月/IT技术/云.html"
+      }
+    },
+    {
+      "id": "c14f9fd2-142a-4abc-807e-d405a93d1d68",
+      "note_id": "497aa04e-efae-491b-8d56-1db07b0db34d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.130633Z",
+      "content": "---\ntitle: 云\nupdated: 2011-07-04 09:47:46Z\ncreated: 2011-07-04 09:47:43Z\nlatitude: 39.87597614\nlongitude: 116.34407051\naltitude: 0.0000\n---\n\nHadoop",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 147,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "6930ab02-1f16-4607-9ef1-2bb2bdd483cd",
+    "note_id": "497aa04e-efae-491b-8d56-1db07b0db34d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.130638Z",
+    "finished_at": "2025-11-10T15:43:32.130638Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "66def935-5c74-44a9-8ae9-712f8b1daa52",
+      "source_path": "backups/2023年6月/IT技术/云.html",
+      "checksum": "25f7f4b206535c5b570ff8eb64e3c437e937ebe5be1353e3578b25a28b4afa32"
+    },
+    "output_ref": {
+      "ingest_source": "e4a06480-00ce-4b52-97e4-78b1d738c727",
+      "note": "497aa04e-efae-491b-8d56-1db07b0db34d",
+      "variants": [
+        "9dd756f3-ddb3-4741-bfcd-bbb268c7cbe5",
+        "c14f9fd2-142a-4abc-807e-d405a93d1d68"
+      ]
+    },
+    "error_detail": null
+  }
+}

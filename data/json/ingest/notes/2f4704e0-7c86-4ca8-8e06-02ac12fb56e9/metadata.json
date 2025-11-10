@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d40fac30-c241-43eb-a6e5-88268797df3e",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/可儿/身份证号码.html",
+    "collected_at": "2025-11-10T15:43:35.329617Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "ro",
+    "captured_at": null,
+    "checksum": "860258e0787eb834e35782ed8310d32b6f4a825d5b2f250b1ca6bfca6adbbea6",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "2f4704e0-7c86-4ca8-8e06-02ac12fb56e9",
+    "ingest_source_id": "d40fac30-c241-43eb-a6e5-88268797df3e",
+    "canonical_title": "身份证号码",
+    "language": "ro",
+    "ingested_at": "2025-11-10T15:43:35.329620Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "身份证号码.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dff9f737-bdb7-48ca-93c2-d99d3ea35d15",
+      "note_id": "2f4704e0-7c86-4ca8-8e06-02ac12fb56e9",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.329623Z",
+      "content": "---\ntitle: 身份证号码\nupdated: 2017-05-08 03:43:49Z\ncreated: 2012-08-24 08:31:13Z\nlatitude: 39.87610000\nlongitude: 116.34400000\naltitude: 0.0000\n---\n\n\n\n\n<en-note><div><span STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">李佳</span></div><div><span STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">佳佳 142703197903023628</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "860258e0787eb834e35782ed8310d32b6f4a825d5b2f250b1ca6bfca6adbbea6",
+        "path": "backups/2023年6月/可儿/身份证号码.html"
+      }
+    },
+    {
+      "id": "bdeca346-bf21-44dd-a077-1e80ed2a54eb",
+      "note_id": "2f4704e0-7c86-4ca8-8e06-02ac12fb56e9",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.329626Z",
+      "content": "---\ntitle: 身份证号码\nupdated: 2017-05-08 03:43:49Z\ncreated: 2012-08-24 08:31:13Z\nlatitude: 39.87610000\nlongitude: 116.34400000\naltitude: 0.0000\n---\n\n李佳\n佳佳 142703197903023628",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "ro",
+        "length": 169,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "92c25007-5ea2-4e8c-9f8d-f569f9630a23",
+    "note_id": "2f4704e0-7c86-4ca8-8e06-02ac12fb56e9",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.329630Z",
+    "finished_at": "2025-11-10T15:43:35.329631Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d46db28f-d042-44f2-b97f-d352f9919ebc",
+      "source_path": "backups/2023年6月/可儿/身份证号码.html",
+      "checksum": "860258e0787eb834e35782ed8310d32b6f4a825d5b2f250b1ca6bfca6adbbea6"
+    },
+    "output_ref": {
+      "ingest_source": "d40fac30-c241-43eb-a6e5-88268797df3e",
+      "note": "2f4704e0-7c86-4ca8-8e06-02ac12fb56e9",
+      "variants": [
+        "dff9f737-bdb7-48ca-93c2-d99d3ea35d15",
+        "bdeca346-bf21-44dd-a077-1e80ed2a54eb"
+      ]
+    },
+    "error_detail": null
+  }
+}

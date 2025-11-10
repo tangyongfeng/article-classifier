@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "18131e2c-6855-49fb-baf4-5a1bf88c1606",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/跃儿/海航金鹏.html",
+    "collected_at": "2025-11-10T15:43:37.057298Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "430ffd13ca2b380a0ee846c9e55d8153ddf32ecc22aaf87b4ea998edb19c8e03",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "749a9fb4-b9e3-4c3f-8f7c-bb3a885a0237",
+    "ingest_source_id": "18131e2c-6855-49fb-baf4-5a1bf88c1606",
+    "canonical_title": "海航金鹏",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:37.057302Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "海航金鹏.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "a9a4372d-6955-47f2-aa8c-11530aee590f",
+      "note_id": "749a9fb4-b9e3-4c3f-8f7c-bb3a885a0237",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.057305Z",
+      "content": "---\ntitle: 海航金鹏\nupdated: 2013-01-28 08:32:27Z\ncreated: 2013-01-28 08:25:17Z\nsource: http://icc.hnair.com/5107/chat/chat.php?c=1&s=1\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\"><span STYLE=\"color: rgb(0, 128, 0); font-size: 12px; line-height: 12px; background-color: rgb(255, 255, 255);\">9061659543&nbsp;</span><div><font COLOR=\"#008000\"><span STYLE=\"font-size: 12px; line-height: 12px;\"><br/></span></font><div><span STYLE=\"color: rgb(0, 128, 0); font-size: 12px; line-height: 12px; background-color: rgb(255, 255, 255);\">659543</span></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "430ffd13ca2b380a0ee846c9e55d8153ddf32ecc22aaf87b4ea998edb19c8e03",
+        "path": "backups/2023年6月/跃儿/海航金鹏.html"
+      }
+    },
+    {
+      "id": "04288b09-3303-4704-a241-76ba1a0bd48f",
+      "note_id": "749a9fb4-b9e3-4c3f-8f7c-bb3a885a0237",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:37.057308Z",
+      "content": "---\ntitle: 海航金鹏\nupdated: 2013-01-28 08:32:27Z\ncreated: 2013-01-28 08:25:17Z\nsource: http://icc.hnair.com/5107/chat/chat.php?c=1&s=1\n---\n\n9061659543 \n659543",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 155,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "3c506dc7-9bff-4610-a06b-26e8f769b754",
+    "note_id": "749a9fb4-b9e3-4c3f-8f7c-bb3a885a0237",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:37.057313Z",
+    "finished_at": "2025-11-10T15:43:37.057314Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "9411f5d0-45f6-4ab3-a05a-28e013268ac5",
+      "source_path": "backups/2023年6月/跃儿/海航金鹏.html",
+      "checksum": "430ffd13ca2b380a0ee846c9e55d8153ddf32ecc22aaf87b4ea998edb19c8e03"
+    },
+    "output_ref": {
+      "ingest_source": "18131e2c-6855-49fb-baf4-5a1bf88c1606",
+      "note": "749a9fb4-b9e3-4c3f-8f7c-bb3a885a0237",
+      "variants": [
+        "a9a4372d-6955-47f2-aa8c-11530aee590f",
+        "04288b09-3303-4704-a241-76ba1a0bd48f"
+      ]
+    },
+    "error_detail": null
+  }
+}

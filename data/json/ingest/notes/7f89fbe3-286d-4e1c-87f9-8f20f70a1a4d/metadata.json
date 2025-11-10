@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d92f93cb-314e-4465-a1fc-6e63a6f3aad4",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/笔记-2.html",
+    "collected_at": "2025-11-10T15:43:35.233655Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "02ae4e519783f291f40608b3f65b66cab6269ee9d4e09d2fa5e970cdc960272a",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "7f89fbe3-286d-4e1c-87f9-8f20f70a1a4d",
+    "ingest_source_id": "d92f93cb-314e-4465-a1fc-6e63a6f3aad4",
+    "canonical_title": "笔记-2",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.233659Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "笔记-2.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "6b68a99b-0de1-439c-aa22-b24764d4d167",
+      "note_id": "7f89fbe3-286d-4e1c-87f9-8f20f70a1a4d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.233662Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-03-28 02:44:24Z\ncreated: 2014-03-28 02:44:17Z\n---\n\n\n\n<en-note></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "02ae4e519783f291f40608b3f65b66cab6269ee9d4e09d2fa5e970cdc960272a",
+        "path": "backups/2023年6月/医疗/笔记-2.html"
+      }
+    },
+    {
+      "id": "2feb24c6-8a16-4afa-92e6-da9bbe84c0aa",
+      "note_id": "7f89fbe3-286d-4e1c-87f9-8f20f70a1a4d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.233664Z",
+      "content": "---\ntitle: 笔记\nupdated: 2014-03-28 02:44:24Z\ncreated: 2014-03-28 02:44:17Z\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 77,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "8cfa1b13-bf14-49cf-9453-0c0724563025",
+    "note_id": "7f89fbe3-286d-4e1c-87f9-8f20f70a1a4d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.233669Z",
+    "finished_at": "2025-11-10T15:43:35.233670Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "48a7501f-6f01-4be1-9f1e-fa1c141ff432",
+      "source_path": "backups/2023年6月/医疗/笔记-2.html",
+      "checksum": "02ae4e519783f291f40608b3f65b66cab6269ee9d4e09d2fa5e970cdc960272a"
+    },
+    "output_ref": {
+      "ingest_source": "d92f93cb-314e-4465-a1fc-6e63a6f3aad4",
+      "note": "7f89fbe3-286d-4e1c-87f9-8f20f70a1a4d",
+      "variants": [
+        "6b68a99b-0de1-439c-aa22-b24764d4d167",
+        "2feb24c6-8a16-4afa-92e6-da9bbe84c0aa"
+      ]
+    },
+    "error_detail": null
+  }
+}

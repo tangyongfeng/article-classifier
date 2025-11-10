@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "b80254d9-202a-49a8-8199-9691821ac467",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/医疗/取药.html",
+    "collected_at": "2025-11-10T15:43:35.194645Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "ff2034f5b42ba52649a0cf448c27438cbe6075d7a2475e851e6cda27a83db3d3",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "22ccbe70-d1c8-4754-90ae-10d06a547c37",
+    "ingest_source_id": "b80254d9-202a-49a8-8199-9691821ac467",
+    "canonical_title": "取药",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.194648Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "取药.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "11abfa3e-1d13-401a-8598-9c49f3f64601",
+      "note_id": "22ccbe70-d1c8-4754-90ae-10d06a547c37",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.194651Z",
+      "content": "---\ntitle: 取药\nupdated: 2014-02-18 07:03:15Z\ncreated: 2014-02-18 06:57:38Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、得到处方单据（不同的医嘱类型不同类型的单据，例如各种治疗单据，取药为处方单据）\n<div>2、获取处方，药师签字后提交</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ff2034f5b42ba52649a0cf448c27438cbe6075d7a2475e851e6cda27a83db3d3",
+        "path": "backups/2023年6月/医疗/取药.html"
+      }
+    },
+    {
+      "id": "5f4e5c2d-24dd-4674-a13d-52d8c367815d",
+      "note_id": "22ccbe70-d1c8-4754-90ae-10d06a547c37",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.194654Z",
+      "content": "---\ntitle: 取药\nupdated: 2014-02-18 07:03:15Z\ncreated: 2014-02-18 06:57:38Z\n---\n\n1、得到处方单据（不同的医嘱类型不同类型的单据，例如各种治疗单据，取药为处方单据）\n\n2、获取处方，药师签字后提交",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 136,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "01beaada-836e-4529-9b52-48a4af8549fc",
+    "note_id": "22ccbe70-d1c8-4754-90ae-10d06a547c37",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.194658Z",
+    "finished_at": "2025-11-10T15:43:35.194658Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "0fc95cf3-a789-4106-8339-dba8fae8a962",
+      "source_path": "backups/2023年6月/医疗/取药.html",
+      "checksum": "ff2034f5b42ba52649a0cf448c27438cbe6075d7a2475e851e6cda27a83db3d3"
+    },
+    "output_ref": {
+      "ingest_source": "b80254d9-202a-49a8-8199-9691821ac467",
+      "note": "22ccbe70-d1c8-4754-90ae-10d06a547c37",
+      "variants": [
+        "11abfa3e-1d13-401a-8598-9c49f3f64601",
+        "5f4e5c2d-24dd-4674-a13d-52d8c367815d"
+      ]
+    },
+    "error_detail": null
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "73487206-9fd5-4bef-9319-a8a8941fe1ab",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/Facebook的消息系统.html",
+    "collected_at": "2025-11-10T15:43:30.758630Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "5d2949390ef0416347415558de1a31ecacfb6de756022a1651d3e74c4f56e9ae",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "5ed89d27-e34d-4091-b36a-00a20af73c23",
+    "ingest_source_id": "73487206-9fd5-4bef-9319-a8a8941fe1ab",
+    "canonical_title": "Facebook的消息系统",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:30.758634Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Facebook的消息系统.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "20c30d8d-48b3-4095-a2c9-e39feb8898cf",
+      "note_id": "5ed89d27-e34d-4091-b36a-00a20af73c23",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.758636Z",
+      "content": "---\ntitle: Facebook的消息系统\nupdated: 2014-02-11 00:59:03Z\ncreated: 2014-02-11 00:58:52Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n在Facebook的消息系统使用Hbase+HDFS，虽然应用看起来是读为主，在HDFS仅有21%的写入，但是HBase的Logging和压缩是大量写入．而消息应用的写入仅代表1%的写入．再深入挖掘，发现写放大严重．HDFS底层的复制（3倍写）和OS缓存，导致64%的压力是写入。这个情况让我们认识到在分层系统中必须优化写操作。\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "5d2949390ef0416347415558de1a31ecacfb6de756022a1651d3e74c4f56e9ae",
+        "path": "backups/2023年6月/IT技术/Facebook的消息系统.html"
+      }
+    },
+    {
+      "id": "a99dd6d3-4251-4892-80d5-24f0228534e9",
+      "note_id": "5ed89d27-e34d-4091-b36a-00a20af73c23",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:30.758639Z",
+      "content": "---\ntitle: Facebook的消息系统\nupdated: 2014-02-11 00:59:03Z\ncreated: 2014-02-11 00:58:52Z\n---\n\n在Facebook的消息系统使用Hbase+HDFS，虽然应用看起来是读为主，在HDFS仅有21%的写入，但是HBase的Logging和压缩是大量写入．而消息应用的写入仅代表1%的写入．再深入挖掘，发现写放大严重．HDFS底层的复制（3倍写）和OS缓存，导致64%的压力是写入。这个情况让我们认识到在分层系统中必须优化写操作。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 254,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "0184f5e7-e2a6-480c-8806-fd948f56b9bd",
+    "note_id": "5ed89d27-e34d-4091-b36a-00a20af73c23",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:30.758644Z",
+    "finished_at": "2025-11-10T15:43:30.758644Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "272a91b1-1403-4632-96a2-1e90105848f0",
+      "source_path": "backups/2023年6月/IT技术/Facebook的消息系统.html",
+      "checksum": "5d2949390ef0416347415558de1a31ecacfb6de756022a1651d3e74c4f56e9ae"
+    },
+    "output_ref": {
+      "ingest_source": "73487206-9fd5-4bef-9319-a8a8941fe1ab",
+      "note": "5ed89d27-e34d-4091-b36a-00a20af73c23",
+      "variants": [
+        "20c30d8d-48b3-4095-a2c9-e39feb8898cf",
+        "a99dd6d3-4251-4892-80d5-24f0228534e9"
+      ]
+    },
+    "error_detail": null
+  }
+}

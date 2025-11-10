@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "099fd1e7-1965-4b04-a998-745582a7a8af",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/阳光灿烂的日子高清版.html",
+    "collected_at": "2025-11-10T15:43:34.598875Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "c3d14c1a64252eb949785c698d358074d9755f127e1b6f89aff789bf19184349",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "e4dbccb3-a280-41a8-b0b3-aff001d332b2",
+    "ingest_source_id": "099fd1e7-1965-4b04-a998-745582a7a8af",
+    "canonical_title": "阳光灿烂的日子高清版",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.598879Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "阳光灿烂的日子高清版.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "ce5e2933-5ffb-4906-842c-6edc05dee110",
+      "note_id": "e4dbccb3-a280-41a8-b0b3-aff001d332b2",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.598881Z",
+      "content": "---\ntitle: 阳光灿烂的日子高清版\nupdated: 2020-05-01 07:45:56Z\ncreated: 2020-05-01 07:45:36Z\n---\n\n\n\n<en-note><div>magnet:?xt=urn:btih:51BD95CF972DFE7C13F430899C73756A39094466</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "c3d14c1a64252eb949785c698d358074d9755f127e1b6f89aff789bf19184349",
+        "path": "backups/2023年6月/个人的乱78糟/阳光灿烂的日子高清版.html"
+      }
+    },
+    {
+      "id": "9832031d-0a61-49f8-baab-1cbdcb738efe",
+      "note_id": "e4dbccb3-a280-41a8-b0b3-aff001d332b2",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.598884Z",
+      "content": "---\ntitle: 阳光灿烂的日子高清版\nupdated: 2020-05-01 07:45:56Z\ncreated: 2020-05-01 07:45:36Z\n---\n\nmagnet:?xt=urn:btih:51BD95CF972DFE7C13F430899C73756A39094466",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 147,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "72f4b886-9dc1-42b0-85b5-beae24ee873b",
+    "note_id": "e4dbccb3-a280-41a8-b0b3-aff001d332b2",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.598889Z",
+    "finished_at": "2025-11-10T15:43:34.598889Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "8fb962c6-1d42-4abb-9f6e-506a1373e1e0",
+      "source_path": "backups/2023年6月/个人的乱78糟/阳光灿烂的日子高清版.html",
+      "checksum": "c3d14c1a64252eb949785c698d358074d9755f127e1b6f89aff789bf19184349"
+    },
+    "output_ref": {
+      "ingest_source": "099fd1e7-1965-4b04-a998-745582a7a8af",
+      "note": "e4dbccb3-a280-41a8-b0b3-aff001d332b2",
+      "variants": [
+        "ce5e2933-5ffb-4906-842c-6edc05dee110",
+        "9832031d-0a61-49f8-baab-1cbdcb738efe"
+      ]
+    },
+    "error_detail": null
+  }
+}

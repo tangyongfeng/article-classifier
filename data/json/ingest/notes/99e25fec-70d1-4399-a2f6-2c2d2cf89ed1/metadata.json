@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "442c3abb-5f93-46fc-a635-47943590609a",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/realtime@yeah.net.html",
+    "collected_at": "2025-11-10T15:43:31.905832Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "ce024ecefdcb4d904903a5c6a3cb6a8b349dc2f9cc991f89b7a18ead29377b62",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "99e25fec-70d1-4399-a2f6-2c2d2cf89ed1",
+    "ingest_source_id": "442c3abb-5f93-46fc-a635-47943590609a",
+    "canonical_title": "realtime@yeah.net",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.905836Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "realtime@yeah.net.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f6009a84-b9b8-47d0-aca1-38d7a645cd73",
+      "note_id": "99e25fec-70d1-4399-a2f6-2c2d2cf89ed1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.905839Z",
+      "content": "---\ntitle: realtime@yeah.net\nupdated: 2019-04-27 10:21:33Z\ncreated: 2019-04-27 10:21:33Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div><br/></div>\n<div>realtime@yeah.net</div>\n<div><br/></div>\n<div>客户端授权码</div>\n<div><br/></div>\n<div>G5uer7DYJdGSxm0A</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "ce024ecefdcb4d904903a5c6a3cb6a8b349dc2f9cc991f89b7a18ead29377b62",
+        "path": "backups/2023年6月/IT技术/realtime@yeah.net.html"
+      }
+    },
+    {
+      "id": "1bf7891a-03c7-42a2-884f-37fe5a6b3395",
+      "note_id": "99e25fec-70d1-4399-a2f6-2c2d2cf89ed1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.905843Z",
+      "content": "---\ntitle: realtime@yeah.net\nupdated: 2019-04-27 10:21:33Z\ncreated: 2019-04-27 10:21:33Z\nauthor: tangyongfeng@gmail.com\n---\n\nrealtime@yeah.net\n\n客户端授权码\n\nG5uer7DYJdGSxm0A",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 168,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e8d88f27-a65a-4325-8867-1b3c6493ed45",
+    "note_id": "99e25fec-70d1-4399-a2f6-2c2d2cf89ed1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.905848Z",
+    "finished_at": "2025-11-10T15:43:31.905848Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "f76a568c-069d-454e-854c-30fc84b6473f",
+      "source_path": "backups/2023年6月/IT技术/realtime@yeah.net.html",
+      "checksum": "ce024ecefdcb4d904903a5c6a3cb6a8b349dc2f9cc991f89b7a18ead29377b62"
+    },
+    "output_ref": {
+      "ingest_source": "442c3abb-5f93-46fc-a635-47943590609a",
+      "note": "99e25fec-70d1-4399-a2f6-2c2d2cf89ed1",
+      "variants": [
+        "f6009a84-b9b8-47d0-aca1-38d7a645cd73",
+        "1bf7891a-03c7-42a2-884f-37fe5a6b3395"
+      ]
+    },
+    "error_detail": null
+  }
+}

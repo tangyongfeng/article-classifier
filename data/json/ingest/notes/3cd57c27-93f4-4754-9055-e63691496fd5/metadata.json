@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "05f005ca-0881-4bf5-ad1b-e4a4ed26f9e6",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/给外管局写信询问居住卡是不是已经做好.html",
+    "collected_at": "2025-11-10T15:43:34.356585Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "de",
+    "captured_at": null,
+    "checksum": "968f5e636faa5ce13e23d2fe5eb67466d7ee13a112af37ae339efbb3513c0ce0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3cd57c27-93f4-4754-9055-e63691496fd5",
+    "ingest_source_id": "05f005ca-0881-4bf5-ad1b-e4a4ed26f9e6",
+    "canonical_title": "给外管局写信询问居住卡是不是已经做好",
+    "language": "de",
+    "ingested_at": "2025-11-10T15:43:34.356588Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "给外管局写信询问居住卡是不是已经做好.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "54dc9e77-e9cc-4563-96d6-6ebb0f664228",
+      "note_id": "3cd57c27-93f4-4754-9055-e63691496fd5",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.356591Z",
+      "content": "---\ntitle: 给外管局写信询问居住卡是不是已经做好\nupdated: 2020-07-14 08:49:06Z\ncreated: 2020-07-14 08:47:53Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div><span STYLE=\"caret-color: rgb(212, 212, 213); font-size: 16px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px; -webkit-text-stroke-width: 0px; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49); color: rgb(49, 49, 49); font-family: -apple-system, HelveticaNeue; font-variant-caps: normal;\">Sehr geehrte Frau Hienemann,</span></div><div><span STYLE=\"caret-color: rgb(212, 212, 213); font-size: 16px; letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 1px; -webkit-text-stroke-width: 0px; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49); color: rgb(49, 49, 49); font-family: -apple-system, HelveticaNeue; font-variant-caps: normal;\">guten Tag.</span></div><div>Sind die Aufenthaltskarten meiner Frau und meines Sohnes fertig? Wann k&ouml;nnen wir es abholen?</div><div><br/></div><div>Meine Frau. </div><div>Name：Jia Li </div><div>Reisepass-Nummer: EA863181</div><div>Geburtstag: 2. M&auml;rz 1979</div><div><br/></div><div>Mein Sohn. </div><div>Name：Yueran Tang</div><div>Reisepass-Nummer: EH0197017</div><div>Geburtstag: 25. Mai 2013</div><div><br/></div><div STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49);\"><span STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49); color: rgb(49, 49, 49); font-family: -apple-system, HelveticaNeue; font-variant-caps: normal;\">Mit freundliche&nbsp;Gr&uuml;&szlig;e</span></div><div STYLE=\"background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49);\"><br/></div><div STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49);\"><span STYLE=\"font-size: 1rem; background-color: rgba(0, 0, 0, 0); border-color: rgb(49, 49, 49); color: rgb(49, 49, 49); font-family: -apple-system, HelveticaNeue; font-variant-caps: normal;\">Yongfeng Tang</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "968f5e636faa5ce13e23d2fe5eb67466d7ee13a112af37ae339efbb3513c0ce0",
+        "path": "backups/2023年6月/个人的乱78糟/给外管局写信询问居住卡是不是已经做好.html"
+      }
+    },
+    {
+      "id": "8b87c448-7f65-4d5b-8f82-4a92dd1545f9",
+      "note_id": "3cd57c27-93f4-4754-9055-e63691496fd5",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.356593Z",
+      "content": "---\ntitle: 给外管局写信询问居住卡是不是已经做好\nupdated: 2020-07-14 08:49:06Z\ncreated: 2020-07-14 08:47:53Z\nauthor: tangyongfeng@gmail.com\n---\n\nSehr geehrte Frau Hienemann,\nguten Tag.\nSind die Aufenthaltskarten meiner Frau und meines Sohnes fertig? Wann können wir es abholen?\nMeine Frau.\nName：Jia Li\nReisepass-Nummer: EA863181\nGeburtstag: 2. März 1979\nMein Sohn.\nName：Yueran Tang\nReisepass-Nummer: EH0197017\nGeburtstag: 25. Mai 2013\nMit freundliche Grüße\nYongfeng Tang",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "de",
+        "length": 451,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "whitespace",
+            "description": "Normalize whitespace",
+            "note": "collapsed whitespace"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "a82cd68c-693c-4320-9b2c-5d892fee677b",
+    "note_id": "3cd57c27-93f4-4754-9055-e63691496fd5",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.356598Z",
+    "finished_at": "2025-11-10T15:43:34.356598Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "68653047-cf0b-4c46-8128-75eec789b183",
+      "source_path": "backups/2023年6月/个人的乱78糟/给外管局写信询问居住卡是不是已经做好.html",
+      "checksum": "968f5e636faa5ce13e23d2fe5eb67466d7ee13a112af37ae339efbb3513c0ce0"
+    },
+    "output_ref": {
+      "ingest_source": "05f005ca-0881-4bf5-ad1b-e4a4ed26f9e6",
+      "note": "3cd57c27-93f4-4754-9055-e63691496fd5",
+      "variants": [
+        "54dc9e77-e9cc-4563-96d6-6ebb0f664228",
+        "8b87c448-7f65-4d5b-8f82-4a92dd1545f9"
+      ]
+    },
+    "error_detail": null
+  }
+}

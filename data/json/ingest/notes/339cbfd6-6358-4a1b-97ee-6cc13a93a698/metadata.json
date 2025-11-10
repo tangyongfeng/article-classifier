@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "143e5369-d36c-4fcd-b43c-13360a90a2a0",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/申根签证需要准备的材料.html",
+    "collected_at": "2025-11-10T15:43:35.712297Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "6c44743c9a441c9e6b060a62c9f0401d970508c849eefee32986b89841a878f0",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "339cbfd6-6358-4a1b-97ee-6cc13a93a698",
+    "ingest_source_id": "143e5369-d36c-4fcd-b43c-13360a90a2a0",
+    "canonical_title": "申根签证需要准备的材料",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.712301Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "申根签证需要准备的材料.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "0dad2fae-7493-4cd5-942a-ef7cc96f71eb",
+      "note_id": "339cbfd6-6358-4a1b-97ee-6cc13a93a698",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.712304Z",
+      "content": "---\ntitle: 申根签证需要准备的材料\nupdated: 2018-12-14 13:09:40Z\ncreated: 2018-12-14 13:04:13Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>1、社保</div><div>2、个税</div><div>3、it技能证书</div><div>4、名片</div><div>5、申诉信</div><div>6、招商银行信用卡账单</div><div>7、租车订单</div><div>8、北京居住证</div><div>9、房产复印件</div><div>10、公司简介</div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "6c44743c9a441c9e6b060a62c9f0401d970508c849eefee32986b89841a878f0",
+        "path": "backups/2023年6月/德国2/申根签证需要准备的材料.html"
+      }
+    },
+    {
+      "id": "beba5e1c-501d-4d3b-83fe-3ee0e1d1b8f3",
+      "note_id": "339cbfd6-6358-4a1b-97ee-6cc13a93a698",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.712306Z",
+      "content": "---\ntitle: 申根签证需要准备的材料\nupdated: 2018-12-14 13:09:40Z\ncreated: 2018-12-14 13:04:13Z\nauthor: tangyongfeng@gmail.com\n---\n\n1、社保\n2、个税\n3、it技能证书\n4、名片\n5、申诉信\n6、招商银行信用卡账单\n7、租车订单\n8、北京居住证\n9、房产复印件\n10、公司简介",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 191,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "57eecbfe-0504-4238-a182-41fc703cc537",
+    "note_id": "339cbfd6-6358-4a1b-97ee-6cc13a93a698",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.712311Z",
+    "finished_at": "2025-11-10T15:43:35.712312Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6b2e81a7-dec0-4566-9755-745b26248b52",
+      "source_path": "backups/2023年6月/德国2/申根签证需要准备的材料.html",
+      "checksum": "6c44743c9a441c9e6b060a62c9f0401d970508c849eefee32986b89841a878f0"
+    },
+    "output_ref": {
+      "ingest_source": "143e5369-d36c-4fcd-b43c-13360a90a2a0",
+      "note": "339cbfd6-6358-4a1b-97ee-6cc13a93a698",
+      "variants": [
+        "0dad2fae-7493-4cd5-942a-ef7cc96f71eb",
+        "beba5e1c-501d-4d3b-83fe-3ee0e1d1b8f3"
+      ]
+    },
+    "error_detail": null
+  }
+}

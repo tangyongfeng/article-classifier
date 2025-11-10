@@ -1,0 +1,94 @@
+{
+  "ingest_source": {
+    "id": "c4c99a66-26f0-4cdd-a2e1-aed00604bc34",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/再次给有缘人几个信息.html",
+    "collected_at": "2025-11-10T15:43:32.235970Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "7dd5910268f208bee1f82119400034f8a99ea45af75cc5675dd6577e3b8215fe",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "4d405924-116c-4bea-b9d1-4138641be48a",
+    "ingest_source_id": "c4c99a66-26f0-4cdd-a2e1-aed00604bc34",
+    "canonical_title": "再次给有缘人几个信息",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:32.235978Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "再次给有缘人几个信息.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "31319efc-9c5a-4a1c-b89a-a257ea0cbfa1",
+      "note_id": "4d405924-116c-4bea-b9d1-4138641be48a",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.235982Z",
+      "content": "---\ntitle: 再次给有缘人几个信息\nupdated: 2019-05-21 23:02:21Z\ncreated: 2019-05-21 23:02:21Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n\n<en-note>\n<div>再次给有缘人几个信息</div>\n<div>　　<span>1</span> 希腊绝对是我们这个级别的人的天堂，这一年我度假去了很多的欧洲国家：意大利，法国，瑞士，奥地利，德国，西班牙，葡萄牙，保加利亚。最喜欢的还是雅典！环境 天气 景观 人文 历史 消费 英语普及度 房价 友好度 社会治安 首屈一指就是雅典！！！</div>\n<div>　　<span>2</span> 格力法达和乌拉是雅典真正最好的富人区！今年我在格力法达买了一套房，是在买的第三套，我妹妹在乌拉买了一套带公共游泳池的豪宅！开车到我市中心的家是<span>30</span>分钟左右。</div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "7dd5910268f208bee1f82119400034f8a99ea45af75cc5675dd6577e3b8215fe",
+        "path": "backups/2023年6月/IT技术/再次给有缘人几个信息.html"
+      }
+    },
+    {
+      "id": "523f3943-2a18-4178-8c23-adddb3f501ef",
+      "note_id": "4d405924-116c-4bea-b9d1-4138641be48a",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.235986Z",
+      "content": "---\ntitle: 再次给有缘人几个信息\nupdated: 2019-05-21 23:02:21Z\ncreated: 2019-05-21 23:02:21Z\nauthor: tangyongfeng@gmail.com\n---\n\n再次给有缘人几个信息\n\n1\n 希腊绝对是我们这个级别的人的天堂，这一年我度假去了很多的欧洲国家：意大利，法国，瑞士，奥地利，德国，西班牙，葡萄牙，保加利亚。最喜欢的还是雅典！环境 天气 景观 人文 历史 消费 英语普及度 房价 友好度 社会治安 首屈一指就是雅典！！！\n\n2\n 格力法达和乌拉是雅典真正最好的富人区！今年我在格力法达买了一套房，是在买的第三套，我妹妹在乌拉买了一套带公共游泳池的豪宅！开车到我市中心的家是\n30\n分钟左右。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 337,
+        "rule_count": 1,
+        "applied_rules": [
+          {
+            "rule_id": "dedupe_lines",
+            "description": "Collapse adjacent duplicate lines",
+            "note": "collapsed duplicate adjacent lines"
+          }
+        ]
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "79260b86-1cba-4536-b213-4e7bbc5c499e",
+    "note_id": "4d405924-116c-4bea-b9d1-4138641be48a",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.235992Z",
+    "finished_at": "2025-11-10T15:43:32.235993Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "39912d8b-e930-474e-81aa-9de5a226081d",
+      "source_path": "backups/2023年6月/IT技术/再次给有缘人几个信息.html",
+      "checksum": "7dd5910268f208bee1f82119400034f8a99ea45af75cc5675dd6577e3b8215fe"
+    },
+    "output_ref": {
+      "ingest_source": "c4c99a66-26f0-4cdd-a2e1-aed00604bc34",
+      "note": "4d405924-116c-4bea-b9d1-4138641be48a",
+      "variants": [
+        "31319efc-9c5a-4a1c-b89a-a257ea0cbfa1",
+        "523f3943-2a18-4178-8c23-adddb3f501ef"
+      ]
+    },
+    "error_detail": null
+  }
+}

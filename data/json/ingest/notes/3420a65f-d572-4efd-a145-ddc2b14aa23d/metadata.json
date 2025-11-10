@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "3f004a44-2ad1-4397-bd57-78dfc3b5cf43",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国2/Gebrüder-Grimm-Schule.html",
+    "collected_at": "2025-11-10T15:43:35.577017Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "478b533fc9c799aee4e3068361cc7aac3697ce56dc8d38a884151d74bfeab58b",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3420a65f-d572-4efd-a145-ddc2b14aa23d",
+    "ingest_source_id": "3f004a44-2ad1-4397-bd57-78dfc3b5cf43",
+    "canonical_title": "Gebrüder-Grimm-Schule",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:35.577022Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "Gebrüder-Grimm-Schule.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "f3b92c25-684f-4fc0-ac8e-06a28eec8884",
+      "note_id": "3420a65f-d572-4efd-a145-ddc2b14aa23d",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.577024Z",
+      "content": "---\ntitle: Gebrüder-Grimm-Schule\nupdated: 2019-03-09 20:45:34Z\ncreated: 2019-03-09 20:42:36Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\n\n<en-note><div><span STYLE=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 13.3333px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\"><span STYLE=\"color: rgb(51, 51, 51); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; font-size: 13px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">创立于1973年8月1日，<span STYLE=\"color: rgb(0, 0, 0); font-family: arial, helvetica, sans-serif; font-size: 13.3333px; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;\">格林兄弟学校有</span></span>来自不同国家的约250名儿童</span></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "478b533fc9c799aee4e3068361cc7aac3697ce56dc8d38a884151d74bfeab58b",
+        "path": "backups/2023年6月/德国2/Gebrüder-Grimm-Schule.html"
+      }
+    },
+    {
+      "id": "7bef3b91-b379-44b8-99d2-567423947b1c",
+      "note_id": "3420a65f-d572-4efd-a145-ddc2b14aa23d",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.577028Z",
+      "content": "---\ntitle: Gebrüder-Grimm-Schule\nupdated: 2019-03-09 20:45:34Z\ncreated: 2019-03-09 20:42:36Z\nauthor: tangyongfeng@gmail.com\ntags:\n  - 学校\n---\n\n创立于1973年8月1日，\n格林兄弟学校有\n来自不同国家的约250名儿童",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 178,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "51ffba3f-e01d-4af3-9519-cd03f0a77f51",
+    "note_id": "3420a65f-d572-4efd-a145-ddc2b14aa23d",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.577033Z",
+    "finished_at": "2025-11-10T15:43:35.577033Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "640c29b8-a177-4d1a-9336-a676d54c40db",
+      "source_path": "backups/2023年6月/德国2/Gebrüder-Grimm-Schule.html",
+      "checksum": "478b533fc9c799aee4e3068361cc7aac3697ce56dc8d38a884151d74bfeab58b"
+    },
+    "output_ref": {
+      "ingest_source": "3f004a44-2ad1-4397-bd57-78dfc3b5cf43",
+      "note": "3420a65f-d572-4efd-a145-ddc2b14aa23d",
+      "variants": [
+        "f3b92c25-684f-4fc0-ac8e-06a28eec8884",
+        "7bef3b91-b379-44b8-99d2-567423947b1c"
+      ]
+    },
+    "error_detail": null
+  }
+}

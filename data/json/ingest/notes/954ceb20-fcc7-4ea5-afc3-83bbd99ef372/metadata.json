@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "8244ee14-1e12-4629-9014-17d5c708ddd7",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/工作分期表.html",
+    "collected_at": "2025-11-10T15:43:32.559708Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "d9d1df514b5311c07f659af2a993b96593041097a710455bf10bfc5e160e2f2e",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "954ceb20-fcc7-4ea5-afc3-83bbd99ef372",
+    "ingest_source_id": "8244ee14-1e12-4629-9014-17d5c708ddd7",
+    "canonical_title": "工作分期表",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:32.559713Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "工作分期表.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b72f6802-d2d9-46d1-a583-351d02934c56",
+      "note_id": "954ceb20-fcc7-4ea5-afc3-83bbd99ef372",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.559716Z",
+      "content": "---\ntitle: 工作分期表\nupdated: 2015-01-16 02:42:28Z\ncreated: 2015-01-16 01:37:17Z\n---\n\n\n\n\n<en-note STYLE=\"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;\">\n1、网站&nbsp;\n<div>1.1 会员中心</div><div>1.2 绑定会员卡</div><div>1.3</div><div><br/></div><div>1、做论坛的理由：给彩民一个骂我们的发泄渠道，收集彩民的发泄的信息，</div><div>2、将我们的技术贴也贴在里面。包括中奖感言。</div><div>3、合买发起。</div><div><br/></div><div>1、安排24小时值守</div><div>2、内容少一点儿也无关紧要</div><div>3、拿电子公告牌的拍照</div><div><br/></div><div><br/></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "d9d1df514b5311c07f659af2a993b96593041097a710455bf10bfc5e160e2f2e",
+        "path": "backups/2023年6月/IT技术/工作分期表.html"
+      }
+    },
+    {
+      "id": "9c241922-8bef-4392-9cfb-b57a571ad5e3",
+      "note_id": "954ceb20-fcc7-4ea5-afc3-83bbd99ef372",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:32.559719Z",
+      "content": "---\ntitle: 工作分期表\nupdated: 2015-01-16 02:42:28Z\ncreated: 2015-01-16 01:37:17Z\n---\n\n1、网站 \n\n1.1 会员中心\n1.2 绑定会员卡\n1.3\n1、做论坛的理由：给彩民一个骂我们的发泄渠道，收集彩民的发泄的信息，\n2、将我们的技术贴也贴在里面。包括中奖感言。\n3、合买发起。\n1、安排24小时值守\n2、内容少一点儿也无关紧要\n3、拿电子公告牌的拍照",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 214,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "442c9b9c-5b97-490b-87d5-108c1e351298",
+    "note_id": "954ceb20-fcc7-4ea5-afc3-83bbd99ef372",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:32.559725Z",
+    "finished_at": "2025-11-10T15:43:32.559725Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "fc8724c7-0d35-4bec-ba09-2e037cd082e0",
+      "source_path": "backups/2023年6月/IT技术/工作分期表.html",
+      "checksum": "d9d1df514b5311c07f659af2a993b96593041097a710455bf10bfc5e160e2f2e"
+    },
+    "output_ref": {
+      "ingest_source": "8244ee14-1e12-4629-9014-17d5c708ddd7",
+      "note": "954ceb20-fcc7-4ea5-afc3-83bbd99ef372",
+      "variants": [
+        "b72f6802-d2d9-46d1-a583-351d02934c56",
+        "9c241922-8bef-4392-9cfb-b57a571ad5e3"
+      ]
+    },
+    "error_detail": null
+  }
+}

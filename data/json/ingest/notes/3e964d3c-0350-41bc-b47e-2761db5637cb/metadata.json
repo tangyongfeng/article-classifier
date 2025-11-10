@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "ba3155d5-74c2-4417-b400-b88c1b0e6e87",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/德国1/收房要点.html",
+    "collected_at": "2025-11-10T15:43:35.470919Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "470eced0e4d1b6c9c70068edcae55589e614c59e7b2135db3b04b54aa5685d85",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3e964d3c-0350-41bc-b47e-2761db5637cb",
+    "ingest_source_id": "ba3155d5-74c2-4417-b400-b88c1b0e6e87",
+    "canonical_title": "收房要点",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:35.470923Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "收房要点.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "dcda8914-a25b-4551-b683-c195f54cb36b",
+      "note_id": "3e964d3c-0350-41bc-b47e-2761db5637cb",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.470926Z",
+      "content": "---\ntitle: 收房要点\nupdated: 2019-05-02 10:07:20Z\ncreated: 2019-05-02 09:28:33Z\nauthor: tangyongfeng@gmail.com\n---\n\n\n<en-note><div>合同修改意见</div><div>1、延长终止合同的通知时间，由一个月延长至三个月</div><div>2、我会修改地址，需要房东配合做相应的工作</div><div>3、我会因为需要收看中国的电视节目，所以可能会要求安装卫星电视接收器</div><div>4、明天上午收房，收完是否就可以入住</div><div><br/></div><div><br/></div><div>收房要点</div><div>1、自来水，收费、计量</div><div>2、燃气、收费、计量</div><div>3、热水、收费、计量</div><div>4、电、收费、计量、分时政策</div><div>5、暖气、收费、计量</div><div>6、污水、收费、计量</div><div>7、洗衣机、安装，上下水</div><div>8、垃圾、时间、量、种类方法</div><div>9、花园、使用</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "470eced0e4d1b6c9c70068edcae55589e614c59e7b2135db3b04b54aa5685d85",
+        "path": "backups/2023年6月/德国1/收房要点.html"
+      }
+    },
+    {
+      "id": "f59a9936-4213-4da5-b5ea-7ae684d9cd6a",
+      "note_id": "3e964d3c-0350-41bc-b47e-2761db5637cb",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:35.470930Z",
+      "content": "---\ntitle: 收房要点\nupdated: 2019-05-02 10:07:20Z\ncreated: 2019-05-02 09:28:33Z\nauthor: tangyongfeng@gmail.com\n---\n\n合同修改意见\n1、延长终止合同的通知时间，由一个月延长至三个月\n2、我会修改地址，需要房东配合做相应的工作\n3、我会因为需要收看中国的电视节目，所以可能会要求安装卫星电视接收器\n4、明天上午收房，收完是否就可以入住\n收房要点\n1、自来水，收费、计量\n2、燃气、收费、计量\n3、热水、收费、计量\n4、电、收费、计量、分时政策\n5、暖气、收费、计量\n6、污水、收费、计量\n7、洗衣机、安装，上下水\n8、垃圾、时间、量、种类方法\n9、花园、使用",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 331,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "9eaaa25f-79e2-45ee-93f3-6cbf59f8e1e0",
+    "note_id": "3e964d3c-0350-41bc-b47e-2761db5637cb",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:35.470935Z",
+    "finished_at": "2025-11-10T15:43:35.470936Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "d6ceb89b-ebb4-4edb-bbea-b583c4f9b669",
+      "source_path": "backups/2023年6月/德国1/收房要点.html",
+      "checksum": "470eced0e4d1b6c9c70068edcae55589e614c59e7b2135db3b04b54aa5685d85"
+    },
+    "output_ref": {
+      "ingest_source": "ba3155d5-74c2-4417-b400-b88c1b0e6e87",
+      "note": "3e964d3c-0350-41bc-b47e-2761db5637cb",
+      "variants": [
+        "dcda8914-a25b-4551-b683-c195f54cb36b",
+        "f59a9936-4213-4da5-b5ea-7ae684d9cd6a"
+      ]
+    },
+    "error_detail": null
+  }
+}

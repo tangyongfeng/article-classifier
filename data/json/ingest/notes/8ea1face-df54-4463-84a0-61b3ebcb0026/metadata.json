@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "d562e594-dba9-42b9-9998-344890e22476",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/项目管理知识结构.html",
+    "collected_at": "2025-11-10T15:43:34.603590Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "561b9cdcaa4accf7bdbcfde9b5dcc68c30470b17c1e002913d7740bb0c62f976",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "8ea1face-df54-4463-84a0-61b3ebcb0026",
+    "ingest_source_id": "d562e594-dba9-42b9-9998-344890e22476",
+    "canonical_title": "项目管理知识结构",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:34.603594Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "项目管理知识结构.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "595f4707-181f-4d01-94e3-fe4df9f87a1b",
+      "note_id": "8ea1face-df54-4463-84a0-61b3ebcb0026",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.603597Z",
+      "content": "---\ntitle: 项目管理知识结构\nupdated: 2021-02-18 17:43:28Z\ncreated: 2021-02-18 09:13:12Z\nsource: https://pbs.twimg.com/media/EuerG1EUUAMjgwy?format=jpg&name=large\n---\n\n\n\n<en-note>\n<div STYLE=\"\"><img src=\"../_resources/015c9528714e027a06ac576c881d9bd9.jpg\"  style=\"display: block; margin: auto; padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);\" hash=\"015c9528714e027a06ac576c881d9bd9\" type=\"image/jpeg\" alt=\"\" /></en-media></div>\n</en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "561b9cdcaa4accf7bdbcfde9b5dcc68c30470b17c1e002913d7740bb0c62f976",
+        "path": "backups/2023年6月/个人的乱78糟/项目管理知识结构.html"
+      }
+    },
+    {
+      "id": "e5ae6ea1-bc2c-426a-bdce-09ec44eca634",
+      "note_id": "8ea1face-df54-4463-84a0-61b3ebcb0026",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:34.603600Z",
+      "content": "---\ntitle: 项目管理知识结构\nupdated: 2021-02-18 17:43:28Z\ncreated: 2021-02-18 09:13:12Z\nsource: https://pbs.twimg.com/media/EuerG1EUUAMjgwy?format=jpg&name=large\n---",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 157,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "d75c1f52-dc66-46cc-9f14-f9afde01233f",
+    "note_id": "8ea1face-df54-4463-84a0-61b3ebcb0026",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:34.603605Z",
+    "finished_at": "2025-11-10T15:43:34.603606Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "6e13a794-8f33-4ec8-92b6-da744449d334",
+      "source_path": "backups/2023年6月/个人的乱78糟/项目管理知识结构.html",
+      "checksum": "561b9cdcaa4accf7bdbcfde9b5dcc68c30470b17c1e002913d7740bb0c62f976"
+    },
+    "output_ref": {
+      "ingest_source": "d562e594-dba9-42b9-9998-344890e22476",
+      "note": "8ea1face-df54-4463-84a0-61b3ebcb0026",
+      "variants": [
+        "595f4707-181f-4d01-94e3-fe4df9f87a1b",
+        "e5ae6ea1-bc2c-426a-bdce-09ec44eca634"
+      ]
+    },
+    "error_detail": null
+  }
+}

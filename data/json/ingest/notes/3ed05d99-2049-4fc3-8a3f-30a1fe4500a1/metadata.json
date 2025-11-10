@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "a6756b5b-d60d-4c09-a4fb-18cbd0cda15f",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/个人的乱78糟/北京.html",
+    "collected_at": "2025-11-10T15:43:33.736721Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "zh-cn",
+    "captured_at": null,
+    "checksum": "8ac05fa04245e2918035681d25765f84125c2e15ca8ca5b08c8f5ab1091b1c90",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "3ed05d99-2049-4fc3-8a3f-30a1fe4500a1",
+    "ingest_source_id": "a6756b5b-d60d-4c09-a4fb-18cbd0cda15f",
+    "canonical_title": "北京",
+    "language": "zh-cn",
+    "ingested_at": "2025-11-10T15:43:33.736725Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "北京.html"
+    }
+  },
+  "variants": [
+    {
+      "id": "b6a913c5-63c4-4123-8167-d4478d8203b0",
+      "note_id": "3ed05d99-2049-4fc3-8a3f-30a1fe4500a1",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.736728Z",
+      "content": "---\ntitle: 北京\nupdated: 2021-11-22 06:51:59Z\ncreated: 2021-11-22 06:51:48Z\n---\n\n\n<en-note><div>三里屯的疯，工体的浪，国贸的装逼不重样。东三坏的富，中关村的鲁，亦庄的员工最命苦。东直门的饭，天通苑的床，上地的加班最他妈的长。金宝街的洋，木樨园的乱，望京的棒子满街窜。西三旗的灰，回龙观的土，北六环的空气好飞舞。南三环的穷，德胜门的堵。挤地铁的孩子得练武。</div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "8ac05fa04245e2918035681d25765f84125c2e15ca8ca5b08c8f5ab1091b1c90",
+        "path": "backups/2023年6月/个人的乱78糟/北京.html"
+      }
+    },
+    {
+      "id": "bfb88e5c-e259-4679-9a7d-668d03d08779",
+      "note_id": "3ed05d99-2049-4fc3-8a3f-30a1fe4500a1",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:33.736731Z",
+      "content": "---\ntitle: 北京\nupdated: 2021-11-22 06:51:59Z\ncreated: 2021-11-22 06:51:48Z\n---\n\n三里屯的疯，工体的浪，国贸的装逼不重样。东三坏的富，中关村的鲁，亦庄的员工最命苦。东直门的饭，天通苑的床，上地的加班最他妈的长。金宝街的洋，木樨园的乱，望京的棒子满街窜。西三旗的灰，回龙观的土，北六环的空气好飞舞。南三环的穷，德胜门的堵。挤地铁的孩子得练武。",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "zh-cn",
+        "length": 208,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "ebd3be28-8447-456a-94d1-f355d0fc3e6c",
+    "note_id": "3ed05d99-2049-4fc3-8a3f-30a1fe4500a1",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:33.736735Z",
+    "finished_at": "2025-11-10T15:43:33.736736Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "496d2a67-7c51-47eb-8e53-de384a575a41",
+      "source_path": "backups/2023年6月/个人的乱78糟/北京.html",
+      "checksum": "8ac05fa04245e2918035681d25765f84125c2e15ca8ca5b08c8f5ab1091b1c90"
+    },
+    "output_ref": {
+      "ingest_source": "a6756b5b-d60d-4c09-a4fb-18cbd0cda15f",
+      "note": "3ed05d99-2049-4fc3-8a3f-30a1fe4500a1",
+      "variants": [
+        "b6a913c5-63c4-4123-8167-d4478d8203b0",
+        "bfb88e5c-e259-4679-9a7d-668d03d08779"
+      ]
+    },
+    "error_detail": null
+  }
+}

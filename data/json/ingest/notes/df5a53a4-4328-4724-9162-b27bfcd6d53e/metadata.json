@@ -1,0 +1,88 @@
+{
+  "ingest_source": {
+    "id": "6c41a756-8c14-49fb-b467-b5b2f1487b6c",
+    "source_type": "evernote_html",
+    "source_path": "backups/2023年6月/IT技术/software development of the OsmocomBB Open Source .html",
+    "collected_at": "2025-11-10T15:43:31.938299Z",
+    "external_id": null,
+    "title_hint": null,
+    "language_hint": "en",
+    "captured_at": null,
+    "checksum": "48b01b04519f00c8bf9549021a585d4550789f36501613f8f871aa8a1d879a67",
+    "status": "pending",
+    "notes": {
+      "batch_id": "phase2-backfill-202306"
+    }
+  },
+  "note": {
+    "id": "df5a53a4-4328-4724-9162-b27bfcd6d53e",
+    "ingest_source_id": "6c41a756-8c14-49fb-b467-b5b2f1487b6c",
+    "canonical_title": "software development of the OsmocomBB Open Source ",
+    "language": "en",
+    "ingested_at": "2025-11-10T15:43:31.938302Z",
+    "created_at": null,
+    "status": "active",
+    "importance": 0,
+    "attributes": {
+      "source_filename": "software development of the OsmocomBB Open Source .html"
+    }
+  },
+  "variants": [
+    {
+      "id": "66d0d4b7-fdd6-42e8-908d-44e24f2ee62d",
+      "note_id": "df5a53a4-4328-4724-9162-b27bfcd6d53e",
+      "variant_type": "raw_html",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.938305Z",
+      "content": "---\ntitle: software development of the OsmocomBB Open Source GSM BaseBand stack\nupdated: 2016-04-02 16:17:50Z\ncreated: 2016-04-02 16:17:50Z\nsource: http://comments.gmane.org/gmane.comp.mobile.osmocom.baseband.devel/2102\n---\n\n\n\n<en-note><div STYLE=\"position:relative;\"><div><div><div>sudo ./osmocon -p /dev/ttyUSB0 -m c123xor ../../target/firmware/board/compal_e88/loader.compalram.bin</div>\n<div>sudo ./osmoload memload 0x820000 ../../target/firmware/board/compal_e88/monitor.highram.bin</div>\n<div>sudo ./osmoload jump 0x820000</div></div></div></div></en-note>      ",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "checksum": "48b01b04519f00c8bf9549021a585d4550789f36501613f8f871aa8a1d879a67",
+        "path": "backups/2023年6月/IT技术/software development of the OsmocomBB Open Source .html"
+      }
+    },
+    {
+      "id": "d5beb8a6-c6b1-4feb-9ce7-893ae778eec0",
+      "note_id": "df5a53a4-4328-4724-9162-b27bfcd6d53e",
+      "variant_type": "clean_text",
+      "version": 1,
+      "created_by": "evernote_ingest:v0",
+      "created_at": "2025-11-10T15:43:31.938308Z",
+      "content": "---\ntitle: software development of the OsmocomBB Open Source GSM BaseBand stack\nupdated: 2016-04-02 16:17:50Z\ncreated: 2016-04-02 16:17:50Z\nsource: http://comments.gmane.org/gmane.comp.mobile.osmocom.baseband.devel/2102\n---\n\nsudo ./osmocon -p /dev/ttyUSB0 -m c123xor ../../target/firmware/board/compal_e88/loader.compalram.bin\n\nsudo ./osmoload memload 0x820000 ../../target/firmware/board/compal_e88/monitor.highram.bin\n\nsudo ./osmoload jump 0x820000",
+      "content_path": null,
+      "diff_base_variant_id": null,
+      "metadata": {
+        "language": "en",
+        "length": 450,
+        "rule_count": 0,
+        "applied_rules": []
+      }
+    }
+  ],
+  "extractions": [],
+  "journal": {
+    "id": "e08961a0-35e4-43ab-889c-8b36ff79bf2c",
+    "note_id": "df5a53a4-4328-4724-9162-b27bfcd6d53e",
+    "stage": "ingest",
+    "agent_id": "evernote_ingest:v0",
+    "started_at": "2025-11-10T15:43:31.938312Z",
+    "finished_at": "2025-11-10T15:43:31.938313Z",
+    "status": "success",
+    "input_ref": {
+      "task_id": "af05bae1-e97a-43bb-810b-7f4e755bc057",
+      "source_path": "backups/2023年6月/IT技术/software development of the OsmocomBB Open Source .html",
+      "checksum": "48b01b04519f00c8bf9549021a585d4550789f36501613f8f871aa8a1d879a67"
+    },
+    "output_ref": {
+      "ingest_source": "6c41a756-8c14-49fb-b467-b5b2f1487b6c",
+      "note": "df5a53a4-4328-4724-9162-b27bfcd6d53e",
+      "variants": [
+        "66d0d4b7-fdd6-42e8-908d-44e24f2ee62d",
+        "d5beb8a6-c6b1-4feb-9ce7-893ae778eec0"
+      ]
+    },
+    "error_detail": null
+  }
+}
