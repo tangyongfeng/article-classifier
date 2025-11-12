@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1d64ad57-3699-4539-ac46-ff9051c26232",
+      "note_id": "d205f35d-0692-4861-99fa-be34a52c3ae0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "需要IBM提供硬件和软件的完整成本数据，用于商务决策分析。",
+        "keywords": [
+          "IBM",
+          "成本数据",
+          "硬件",
+          "软件",
+          "商务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:35:42.957155Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.423
+    }
+  ],
   "journal": {
     "id": "50ef0887-9bd2-4690-8106-f6b111476563",
     "note_id": "d205f35d-0692-4861-99fa-be34a52c3ae0",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:35:42.957016Z",
+    "latency_seconds": 40.432313375058584,
+    "attempts": 2,
+    "summary": {
+      "summary": "需要IBM提供硬件和软件的完整成本数据，用于商务决策分析。",
+      "keywords": [
+        "IBM",
+        "成本数据",
+        "硬件",
+        "软件",
+        "商务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.423,
+      "metrics": {
+        "input_chars": 125.0,
+        "input_lines": 6.0,
+        "summary_chars": 29.0,
+        "summary_coverage_ratio": 0.232,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.5
+      }
+    }
   }
 }

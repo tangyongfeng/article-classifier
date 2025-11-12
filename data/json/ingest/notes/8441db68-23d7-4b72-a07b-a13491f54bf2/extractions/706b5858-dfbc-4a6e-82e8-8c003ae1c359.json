@@ -1,0 +1,28 @@
+{
+  "id": "706b5858-dfbc-4a6e-82e8-8c003ae1c359",
+  "note_id": "8441db68-23d7-4b72-a07b-a13491f54bf2",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "医生为小学生扎手指查血时，孩子放屁，妈妈幽默调侃'还他妈给你扎漏气儿了'，展现家庭日常趣事。",
+    "keywords": [
+      "医生",
+      "小学生",
+      "扎手指",
+      "放屁",
+      "妈妈调侃"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social",
+      "Family Discussions"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:53:49.126686Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.326
+}

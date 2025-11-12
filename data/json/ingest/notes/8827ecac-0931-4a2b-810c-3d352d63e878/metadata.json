@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6237010b-42e7-4e76-a879-a14b9d7237c4",
+      "note_id": "8827ecac-0931-4a2b-810c-3d352d63e878",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "乾卦为《易经》首卦，象征天道，阐释'元亨利贞'四德及爻辞如'潜龙勿用'、'飞龙在天'，指导君子修身处世。",
+        "keywords": [
+          "乾卦",
+          "易经",
+          "爻辞",
+          "元亨利贞",
+          "君子"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:18:25.641735Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.219
+    }
+  ],
   "journal": {
     "id": "d7b7e81a-9a70-4a9a-ac87-6cc7e36c284b",
     "note_id": "8827ecac-0931-4a2b-810c-3d352d63e878",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:18:25.641564Z",
+    "latency_seconds": 25.005831291899085,
+    "attempts": 1,
+    "summary": {
+      "summary": "乾卦为《易经》首卦，象征天道，阐释'元亨利贞'四德及爻辞如'潜龙勿用'、'飞龙在天'，指导君子修身处世。",
+      "keywords": [
+        "乾卦",
+        "易经",
+        "爻辞",
+        "元亨利贞",
+        "君子"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.219,
+      "metrics": {
+        "input_chars": 814.0,
+        "input_lines": 28.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.064,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 48.8
+      }
+    }
   }
 }

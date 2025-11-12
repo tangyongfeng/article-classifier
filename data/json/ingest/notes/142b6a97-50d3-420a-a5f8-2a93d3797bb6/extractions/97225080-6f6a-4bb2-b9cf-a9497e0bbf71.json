@@ -1,0 +1,29 @@
+{
+  "id": "97225080-6f6a-4bb2-b9cf-a9497e0bbf71",
+  "note_id": "142b6a97-50d3-420a-a5f8-2a93d3797bb6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "隆基股份为西安单晶硅生产商，总股本5.39亿，A股流通2.69亿。",
+    "keywords": [
+      "隆基股份",
+      "单晶硅",
+      "总股本",
+      "A股流通",
+      "西安企业"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market",
+      "Company Analysis"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:18:02.348321Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.455
+}

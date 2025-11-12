@@ -1,0 +1,28 @@
+{
+  "id": "0319c035-d432-419a-aa38-a5758105e272",
+  "note_id": "e72091a8-8fd7-4e18-a97e-91f676c4cda3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "wtcf会议讨论合作进展、成本估算、商务方案及时间表，需制定完整内容包和费用规划。",
+    "keywords": [
+      "合作",
+      "成本估算",
+      "商务方案",
+      "时间表",
+      "内容包"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:22:21.299747Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.369
+}

@@ -1,0 +1,28 @@
+{
+  "id": "363dcdd5-fa96-4d54-b5b0-9bbbfe328542",
+  "note_id": "de4a3ec9-07a0-4c9b-8429-98662b51a0e7",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语学习相关代码实现笔记，涉及语言学习分类与语法处理，归类至语言学习下的德语子类。",
+    "keywords": [
+      "德语学习",
+      "语言分类",
+      "语法",
+      "德语",
+      "语言代码"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T08:36:57.227742Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.109
+}

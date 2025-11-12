@@ -1,0 +1,27 @@
+{
+  "id": "afe98981-cf0a-427d-b6a8-c8f24999de63",
+  "note_id": "85e3d589-fe64-4f60-9eb6-c68d1bf90fa5",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "数字起卦方法通过三个三位数的模运算生成卦象，包括下爻、上爻及动爻的确定步骤，属传统占卜实践。",
+    "keywords": [
+      "数字起卦",
+      "易经",
+      "卦象",
+      "占卜",
+      "模运算"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:03:20.712779Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.209
+}

@@ -1,0 +1,30 @@
+{
+  "id": "5ebca1e7-9627-4dfe-985d-5416cd200c4e",
+  "note_id": "5ba872f6-e563-42cc-84b1-b9bfeec619c3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "用户拥有唯一ID，通过用户名/密码认证，支持密码找回、修改及用户管理服务。",
+    "keywords": [
+      "用户ID",
+      "用户名",
+      "密码",
+      "认证",
+      "用户管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": [
+      "技术",
+      "用户认证"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:27:51.093784Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.362
+}

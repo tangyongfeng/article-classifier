@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f8f4655d-fd44-4e5e-a5e8-99f846a6356c",
+      "note_id": "df5a53a4-4328-4724-9162-b27bfcd6d53e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "OsmocomBB开源GSM基带栈的软件开发，专注于移动通信技术的嵌入式系统实现。",
+        "keywords": [
+          "开源",
+          "GSM",
+          "基带栈",
+          "软件开发",
+          "移动通信"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:43:13.319353Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.172
+    }
+  ],
   "journal": {
     "id": "e08961a0-35e4-43ab-889c-8b36ff79bf2c",
     "note_id": "df5a53a4-4328-4724-9162-b27bfcd6d53e",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:43:13.319155Z",
+    "latency_seconds": 37.34028387500439,
+    "attempts": 1,
+    "summary": {
+      "summary": "OsmocomBB开源GSM基带栈的软件开发，专注于移动通信技术的嵌入式系统实现。",
+      "keywords": [
+        "开源",
+        "GSM",
+        "基带栈",
+        "软件开发",
+        "移动通信"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.172,
+      "metrics": {
+        "input_chars": 450.0,
+        "input_lines": 9.0,
+        "summary_chars": 41.0,
+        "summary_coverage_ratio": 0.091,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 27.0
+      }
+    }
   }
 }

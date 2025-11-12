@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ae546357-bdb9-444b-93c8-66497c14faeb",
+      "note_id": "67c419d9-ec32-4aee-a426-fa1030e4a356",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容涉及签证申请中的加分与减分因素，属于旅行准备相关事项。",
+        "keywords": [
+          "签证",
+          "加分",
+          "减分",
+          "旅行",
+          "手续"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "Other"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:25:53.923029Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.368
+    }
+  ],
   "journal": {
     "id": "445d3df2-6d27-4151-a9b8-ad4f1531274b",
     "note_id": "67c419d9-ec32-4aee-a426-fa1030e4a356",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:25:53.922875Z",
+    "latency_seconds": 22.6175445409026,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容涉及签证申请中的加分与减分因素，属于旅行准备相关事项。",
+      "keywords": [
+        "签证",
+        "加分",
+        "减分",
+        "旅行",
+        "手续"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "Other"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.368,
+      "metrics": {
+        "input_chars": 128.0,
+        "input_lines": 8.0,
+        "summary_chars": 31.0,
+        "summary_coverage_ratio": 0.242,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.7
+      }
+    }
   }
 }

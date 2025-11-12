@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "02d73c8a-28af-41a6-9caf-cca983e6e115",
+      "note_id": "5ed89d27-e34d-4091-b36a-00a20af73c23",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Facebook消息系统采用Hbase+HDFS架构，因HDFS复制和OS缓存导致写放大，64%性能压力来自写入，需优化写操作。",
+        "keywords": [
+          "Facebook消息系统",
+          "Hbase",
+          "HDFS",
+          "写放大",
+          "系统优化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:38:47.031982Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.373
+    }
+  ],
   "journal": {
     "id": "0184f5e7-e2a6-480c-8806-fd948f56b9bd",
     "note_id": "5ed89d27-e34d-4091-b36a-00a20af73c23",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:38:47.031769Z",
+    "latency_seconds": 30.370737500023097,
+    "attempts": 1,
+    "summary": {
+      "summary": "Facebook消息系统采用Hbase+HDFS架构，因HDFS复制和OS缓存导致写放大，64%性能压力来自写入，需优化写操作。",
+      "keywords": [
+        "Facebook消息系统",
+        "Hbase",
+        "HDFS",
+        "写放大",
+        "系统优化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.373,
+      "metrics": {
+        "input_chars": 254.0,
+        "input_lines": 6.0,
+        "summary_chars": 64.0,
+        "summary_coverage_ratio": 0.252,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.2
+      }
+    }
   }
 }

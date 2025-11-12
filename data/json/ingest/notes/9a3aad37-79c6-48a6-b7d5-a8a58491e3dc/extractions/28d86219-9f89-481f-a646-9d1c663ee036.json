@@ -1,0 +1,28 @@
+{
+  "id": "28d86219-9f89-481f-a646-9d1c663ee036",
+  "note_id": "9a3aad37-79c6-48a6-b7d5-a8a58491e3dc",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "首次申请德国商务签证所需资料清单，包含邀请函、商务行程安排、机票、酒店订单及律师事务所证明等文件。",
+    "keywords": [
+      "签证",
+      "德国",
+      "商务",
+      "资料",
+      "行程"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区",
+      "德国"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:33:31.428332Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.388
+}

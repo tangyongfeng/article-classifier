@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7624c096-247d-44cc-ac53-16f7d2fe6626",
+      "note_id": "266ce623-6fed-415a-a055-c156ef4e987b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "录音内容涉及会议通知，提及无协商流程及无法到场，适用于商务沟通场景。",
+        "keywords": [
+          "会议",
+          "通知",
+          "缺席",
+          "商务",
+          "沟通"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:45:04.252926Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.198
+    }
+  ],
   "journal": {
     "id": "ac8f8c8d-464d-4b6e-8ae9-b657dea37307",
     "note_id": "266ce623-6fed-415a-a055-c156ef4e987b",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:45:04.252783Z",
+    "latency_seconds": 27.35641058301553,
+    "attempts": 1,
+    "summary": {
+      "summary": "录音内容涉及会议通知，提及无协商流程及无法到场，适用于商务沟通场景。",
+      "keywords": [
+        "会议",
+        "通知",
+        "缺席",
+        "商务",
+        "沟通"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.198,
+      "metrics": {
+        "input_chars": 130.0,
+        "input_lines": 8.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.262,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.8
+      }
+    }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "id": "b138284b-e275-448f-bbf3-bcb0e2e712d8",
+  "note_id": "604cb90a-06f5-4284-9009-d69e96eed2e2",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本笔记详细列出哌甲酯、利他林等精神类药物的常见及罕见副作用，包括食欲下降、失眠、焦虑等医学症状。",
+    "keywords": [
+      "药品",
+      "副作用",
+      "精神类药物",
+      "药物治疗",
+      "医学"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "健康",
+      "药物",
+      "副作用"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:55:13.964834Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.216
+}

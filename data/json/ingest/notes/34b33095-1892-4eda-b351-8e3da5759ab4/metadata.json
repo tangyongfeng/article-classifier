@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8a1b731a-c985-43d7-875d-95516739c849",
+      "note_id": "34b33095-1892-4eda-b351-8e3da5759ab4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记涉及中彩在线股权交易，贺文出售天意公司股权获利并导致国有资产流失，国有股东中国福利彩票发行管理中心未获益。",
+        "keywords": [
+          "股权交易",
+          "国有资产流失",
+          "公司分析",
+          "分红",
+          "国有股东"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:53:32.574388Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.324
+    }
+  ],
   "journal": {
     "id": "eb1dd85f-142a-4f90-84b5-979ae4d0aa66",
     "note_id": "34b33095-1892-4eda-b351-8e3da5759ab4",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:53:32.574221Z",
+    "latency_seconds": 11.918462291941978,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记涉及中彩在线股权交易，贺文出售天意公司股权获利并导致国有资产流失，国有股东中国福利彩票发行管理中心未获益。",
+      "keywords": [
+        "股权交易",
+        "国有资产流失",
+        "公司分析",
+        "分红",
+        "国有股东"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.324,
+      "metrics": {
+        "input_chars": 357.0,
+        "input_lines": 6.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.154,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 21.4
+      }
+    }
   }
 }

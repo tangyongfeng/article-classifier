@@ -1,0 +1,28 @@
+{
+  "id": "39687ef0-902b-4506-85fe-39e91f250fdb",
+  "note_id": "fa053759-63d9-4165-bc91-04b8f54e86aa",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "券商接口API是证券公司提供的用于股票交易、行情查询等金融数据交互的应用程序接口，支持开发者集成交易系统。",
+    "keywords": [
+      "券商",
+      "API",
+      "股票交易",
+      "金融接口",
+      "证券"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:57:34.686333Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.373
+}

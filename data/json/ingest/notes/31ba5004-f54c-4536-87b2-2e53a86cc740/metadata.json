@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5ade9d4e-91c0-4b33-a1cb-92be99f8efab",
+      "note_id": "31ba5004-f54c-4536-87b2-2e53a86cc740",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国政治制度相关问答，涵盖议会结构、选举机制、东德历史遗留问题及联邦制特点。",
+        "keywords": [
+          "德国政治制度",
+          "议会选举",
+          "联邦议院",
+          "东德州",
+          "联邦制"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国",
+          "政治制度"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:39:21.025266Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.072
+    }
+  ],
   "journal": {
     "id": "a1db7687-e353-4f75-aedc-b87e87bae06c",
     "note_id": "31ba5004-f54c-4536-87b2-2e53a86cc740",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:39:21.025024Z",
+    "latency_seconds": 13.34645808301866,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国政治制度相关问答，涵盖议会结构、选举机制、东德历史遗留问题及联邦制特点。",
+      "keywords": [
+        "德国政治制度",
+        "议会选举",
+        "联邦议院",
+        "东德州",
+        "联邦制"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国",
+        "政治制度"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.072,
+      "metrics": {
+        "input_chars": 3336.0,
+        "input_lines": 94.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.011,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 200.2
+      }
+    }
   }
 }

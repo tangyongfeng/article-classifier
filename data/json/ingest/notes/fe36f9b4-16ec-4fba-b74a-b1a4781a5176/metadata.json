@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "544ca6bc-2d13-44e6-bdd6-350a21153e21",
+      "note_id": "fe36f9b4-16ec-4fba-b74a-b1a4781a5176",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分析2020年中国品牌如华为、抖音出海的策略与挑战，揭示'灰犀牛'风险与机遇。",
+        "keywords": [
+          "中国品牌",
+          "出海",
+          "华为",
+          "抖音",
+          "品牌国际化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "品牌国际化"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:26:22.142286Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.361
+    }
+  ],
   "journal": {
     "id": "70692522-20bf-496f-96c1-5384d943c237",
     "note_id": "fe36f9b4-16ec-4fba-b74a-b1a4781a5176",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:26:22.142120Z",
+    "latency_seconds": 21.295886709005572,
+    "attempts": 1,
+    "summary": {
+      "summary": "分析2020年中国品牌如华为、抖音出海的策略与挑战，揭示'灰犀牛'风险与机遇。",
+      "keywords": [
+        "中国品牌",
+        "出海",
+        "华为",
+        "抖音",
+        "品牌国际化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "品牌国际化"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.361,
+      "metrics": {
+        "input_chars": 357.0,
+        "input_lines": 11.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.109,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 21.4
+      }
+    }
   }
 }

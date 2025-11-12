@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bc738a23-47e6-4ae9-b0e7-3850162431c0",
+      "note_id": "b666660c-a676-4ac6-a535-5d43da5f892f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "可儿11岁生日派对邀请函，由saphira、marie等亲友共同发起，邀请参加家庭庆祝活动。",
+        "keywords": [
+          "生日",
+          "派对",
+          "邀请",
+          "11岁",
+          "家庭"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Events"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:43:18.404221Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.451
+    }
+  ],
   "journal": {
     "id": "36f86d95-5bac-4fbb-88c0-db58cbd7d932",
     "note_id": "b666660c-a676-4ac6-a535-5d43da5f892f",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:43:18.404069Z",
+    "latency_seconds": 43.73845312499907,
+    "attempts": 1,
+    "summary": {
+      "summary": "可儿11岁生日派对邀请函，由saphira、marie等亲友共同发起，邀请参加家庭庆祝活动。",
+      "keywords": [
+        "生日",
+        "派对",
+        "邀请",
+        "11岁",
+        "家庭"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Events"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.451,
+      "metrics": {
+        "input_chars": 159.0,
+        "input_lines": 17.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.289,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.5
+      }
+    }
   }
 }

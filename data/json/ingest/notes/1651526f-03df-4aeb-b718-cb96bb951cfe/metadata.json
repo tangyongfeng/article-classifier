@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b296dd33-ba65-496c-81f4-8cf12193dac6",
+      "note_id": "1651526f-03df-4aeb-b718-cb96bb951cfe",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语情态动词（如können, müssen）在不同人称下的变位规则表，用于语法学习。包含人称代词及对应动词形式。",
+        "keywords": [
+          "情态动词",
+          "德语",
+          "变位",
+          "语法",
+          "学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:26:57.353516Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.194
+    }
+  ],
   "journal": {
     "id": "562c516a-cdae-4fec-9dbe-8a26c3c2f5f9",
     "note_id": "1651526f-03df-4aeb-b718-cb96bb951cfe",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:26:57.353364Z",
+    "latency_seconds": 13.512755833915435,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语情态动词（如können, müssen）在不同人称下的变位规则表，用于语法学习。包含人称代词及对应动词形式。",
+      "keywords": [
+        "情态动词",
+        "德语",
+        "变位",
+        "语法",
+        "学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.194,
+      "metrics": {
+        "input_chars": 422.0,
+        "input_lines": 54.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.135,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 25.3
+      }
+    }
   }
 }

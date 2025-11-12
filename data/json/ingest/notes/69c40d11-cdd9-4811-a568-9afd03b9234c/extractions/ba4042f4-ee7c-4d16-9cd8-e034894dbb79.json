@@ -1,0 +1,27 @@
+{
+  "id": "ba4042f4-ee7c-4d16-9cd8-e034894dbb79",
+  "note_id": "69c40d11-cdd9-4811-a568-9afd03b9234c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Leoschule 是一所位于德国Neuss区的城市天主教小学，有240名学生在九个班级中学习，属于教区基督君王和圣灵。",
+    "keywords": [
+      "学校",
+      "天主教",
+      "小学",
+      "教区",
+      "Neuss"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:40:29.555136Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.475
+}

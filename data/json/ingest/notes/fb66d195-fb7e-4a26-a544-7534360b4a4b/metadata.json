@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0c149cd4-26fd-4f56-b99a-92e4ffc3575a",
+      "note_id": "fb66d195-fb7e-4a26-a544-7534360b4a4b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供IBM软件集团在美国的地址信息，含经理姓名、职位、详细地址及联系电话。",
+        "keywords": [
+          "IBM",
+          "地址",
+          "美国",
+          "软件集团",
+          "联系信息"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:00:54.256185Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.25
+    }
+  ],
   "journal": {
     "id": "d4ed82f0-4e8b-4c49-b53d-8861588beaf5",
     "note_id": "fb66d195-fb7e-4a26-a544-7534360b4a4b",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:00:54.255895Z",
+    "latency_seconds": 40.47401645791251,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供IBM软件集团在美国的地址信息，含经理姓名、职位、详细地址及联系电话。",
+      "keywords": [
+        "IBM",
+        "地址",
+        "美国",
+        "软件集团",
+        "联系信息"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.25,
+      "metrics": {
+        "input_chars": 293.0,
+        "input_lines": 9.0,
+        "summary_chars": 37.0,
+        "summary_coverage_ratio": 0.126,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.6
+      }
+    }
   }
 }

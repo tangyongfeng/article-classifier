@@ -1,0 +1,27 @@
+{
+  "id": "5b3515f0-0a7f-4a58-bb4c-d0cd88adc7a6",
+  "note_id": "739f7967-8d3c-4fe2-a03a-bb335c870ca5",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "分享博客链接，具体内容未详述。",
+    "keywords": [
+      "分享",
+      "链接",
+      "博客",
+      "分享链接",
+      "博客链接"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:24:23.891613Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.103
+}

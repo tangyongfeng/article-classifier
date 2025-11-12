@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "feb31330-5a2f-4318-8760-cd4eaeeed3bd",
+      "note_id": "7d6684cd-c8af-4b3d-8f67-d69c6862aae9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "晋卦为《易经》六十四卦之一，象征光明晋升，卦辞'前途光明。晋升。晋者进也'，爻辞解析包括初六'挤着往上走，级别太低，因为宽裕所以没有灾难'等。",
+        "keywords": [
+          "晋卦",
+          "易经",
+          "光明晋升",
+          "爻辞",
+          "中国传统文化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:17:50.869125Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.205
+    }
+  ],
   "journal": {
     "id": "d78128f5-d3d9-48f0-b7e9-c2b90d01b79d",
     "note_id": "7d6684cd-c8af-4b3d-8f67-d69c6862aae9",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:17:50.868941Z",
+    "latency_seconds": 24.32629316695966,
+    "attempts": 1,
+    "summary": {
+      "summary": "晋卦为《易经》六十四卦之一，象征光明晋升，卦辞'前途光明。晋升。晋者进也'，爻辞解析包括初六'挤着往上走，级别太低，因为宽裕所以没有灾难'等。",
+      "keywords": [
+        "晋卦",
+        "易经",
+        "光明晋升",
+        "爻辞",
+        "中国传统文化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.205,
+      "metrics": {
+        "input_chars": 453.0,
+        "input_lines": 31.0,
+        "summary_chars": 71.0,
+        "summary_coverage_ratio": 0.157,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 3.0,
+        "estimated_read_seconds": 27.2
+      }
+    }
   }
 }

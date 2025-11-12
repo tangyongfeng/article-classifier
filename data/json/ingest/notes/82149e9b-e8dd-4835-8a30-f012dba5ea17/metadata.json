@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "da11bfd9-ad66-4f88-8bba-ef2ab2b4c343",
+      "note_id": "82149e9b-e8dd-4835-8a30-f012dba5ea17",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "总结德语1-10课强变化动词和不规则动词的第二分词构成规律，包括ge-前缀使用、元音变化规则及例外情况，便于掌握现在完成时语法。",
+        "keywords": [
+          "德语",
+          "强变化动词",
+          "第二分词",
+          "动词变位",
+          "语法"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Verb Conjugation"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:50:26.775550Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.259
+    }
+  ],
   "journal": {
     "id": "5ce1f9b7-9759-48e1-b226-a494f14b1124",
     "note_id": "82149e9b-e8dd-4835-8a30-f012dba5ea17",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:50:26.775356Z",
+    "latency_seconds": 32.015012249932624,
+    "attempts": 1,
+    "summary": {
+      "summary": "总结德语1-10课强变化动词和不规则动词的第二分词构成规律，包括ge-前缀使用、元音变化规则及例外情况，便于掌握现在完成时语法。",
+      "keywords": [
+        "德语",
+        "强变化动词",
+        "第二分词",
+        "动词变位",
+        "语法"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Verb Conjugation"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.259,
+      "metrics": {
+        "input_chars": 2592.0,
+        "input_lines": 24.0,
+        "summary_chars": 64.0,
+        "summary_coverage_ratio": 0.025,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 155.5
+      }
+    }
   }
 }

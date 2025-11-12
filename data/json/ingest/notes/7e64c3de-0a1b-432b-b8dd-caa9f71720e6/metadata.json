@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b90f5253-6ea4-4112-af0c-ddc163bee657",
+      "note_id": "7e64c3de-0a1b-432b-b8dd-caa9f71720e6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "简历搜索笔记，关键词电子病历，可能为误写，实际应与求职相关。",
+        "keywords": [
+          "简历",
+          "搜索",
+          "电子病历",
+          "求职",
+          "招聘"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:23:27.752930Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.413
+    }
+  ],
   "journal": {
     "id": "624105d9-bb6c-4104-8624-29bb5e15e51a",
     "note_id": "7e64c3de-0a1b-432b-b8dd-caa9f71720e6",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:23:27.752795Z",
+    "latency_seconds": 48.588441082974896,
+    "attempts": 1,
+    "summary": {
+      "summary": "简历搜索笔记，关键词电子病历，可能为误写，实际应与求职相关。",
+      "keywords": [
+        "简历",
+        "搜索",
+        "电子病历",
+        "求职",
+        "招聘"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.413,
+      "metrics": {
+        "input_chars": 90.0,
+        "input_lines": 7.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.333,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.4
+      }
+    }
   }
 }

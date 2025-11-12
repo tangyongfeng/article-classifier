@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0553eb47-d2e0-4036-a084-f58f94ca7f98",
+      "note_id": "79bcfb34-5b5e-4878-a6b9-079931ea146d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "收录19则心理恐怖短篇，主题涉及幻觉、超自然现象与家庭场景，营造强烈惊悚氛围。",
+        "keywords": [
+          "恐怖",
+          "段子",
+          "心理惊悚",
+          "超自然",
+          "家庭恐惧"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:55:48.869081Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.205
+    }
+  ],
   "journal": {
     "id": "9c906d51-7591-48e2-be26-7e79d912caf2",
     "note_id": "79bcfb34-5b5e-4878-a6b9-079931ea146d",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:55:48.868927Z",
+    "latency_seconds": 16.236213291995227,
+    "attempts": 1,
+    "summary": {
+      "summary": "收录19则心理恐怖短篇，主题涉及幻觉、超自然现象与家庭场景，营造强烈惊悚氛围。",
+      "keywords": [
+        "恐怖",
+        "段子",
+        "心理惊悚",
+        "超自然",
+        "家庭恐惧"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.205,
+      "metrics": {
+        "input_chars": 1065.0,
+        "input_lines": 24.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.037,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 63.9
+      }
+    }
   }
 }

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "98c6934a-b1e1-49df-9525-a1e67c420da6",
+      "note_id": "07b46be9-4ed5-4a84-87db-b45935d3d1a2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分享一个链接地址，用于资源获取或信息传递。",
+        "keywords": [
+          "链接分享",
+          "资源链接",
+          "信息传递",
+          "在线资源",
+          "分享链接"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:02:24.988137Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.134
+    }
+  ],
   "journal": {
     "id": "564072b9-41b8-4b9f-8d21-97132fd8c70e",
     "note_id": "07b46be9-4ed5-4a84-87db-b45935d3d1a2",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:02:24.987989Z",
+    "latency_seconds": 19.07708337495569,
+    "attempts": 1,
+    "summary": {
+      "summary": "分享一个链接地址，用于资源获取或信息传递。",
+      "keywords": [
+        "链接分享",
+        "资源链接",
+        "信息传递",
+        "在线资源",
+        "分享链接"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.134,
+      "metrics": {
+        "input_chars": 155.0,
+        "input_lines": 8.0,
+        "summary_chars": 21.0,
+        "summary_coverage_ratio": 0.135,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.3
+      }
+    }
   }
 }

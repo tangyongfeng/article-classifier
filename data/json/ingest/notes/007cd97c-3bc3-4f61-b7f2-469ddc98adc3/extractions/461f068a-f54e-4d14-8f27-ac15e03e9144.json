@@ -1,0 +1,28 @@
+{
+  "id": "461f068a-f54e-4d14-8f27-ac15e03e9144",
+  "note_id": "007cd97c-3bc3-4f61-b7f2-469ddc98adc3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "2013年2月多家银行人民币兑换美元的买入价、卖出价及差额数据表。",
+    "keywords": [
+      "人民币",
+      "兑换",
+      "银行",
+      "汇率",
+      "美元"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:26:00.214361Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.325
+}

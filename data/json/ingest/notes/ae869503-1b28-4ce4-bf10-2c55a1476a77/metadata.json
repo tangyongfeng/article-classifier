@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c4d0db57-b958-4711-ac10-01ba0da7f8e3",
+      "note_id": "ae869503-1b28-4ce4-bf10-2c55a1476a77",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "朋友间轻松对话，涉及幽默提问与情感互动，内容偏向社交场景。",
+        "keywords": [
+          "朋友",
+          "社交",
+          "对话",
+          "玩笑",
+          "情感"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:08:22.260162Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.167
+    }
+  ],
   "journal": {
     "id": "dad0799e-a615-4b0c-b413-d7e435dd7788",
     "note_id": "ae869503-1b28-4ce4-bf10-2c55a1476a77",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:08:22.259999Z",
+    "latency_seconds": 22.004676916985773,
+    "attempts": 1,
+    "summary": {
+      "summary": "朋友间轻松对话，涉及幽默提问与情感互动，内容偏向社交场景。",
+      "keywords": [
+        "朋友",
+        "社交",
+        "对话",
+        "玩笑",
+        "情感"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.167,
+      "metrics": {
+        "input_chars": 362.0,
+        "input_lines": 9.0,
+        "summary_chars": 29.0,
+        "summary_coverage_ratio": 0.08,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 21.7
+      }
+    }
   }
 }

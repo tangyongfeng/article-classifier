@@ -72,7 +72,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2720c6bd-5c79-487c-a698-d5bc96f8d053",
+      "note_id": "55e92769-7920-4af0-bc88-962554ce5f5b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "OsmocomBB是GSM协议栈开源实现，分析其源代码结构、编译流程及GSM网络协议栈实现，包含硬件准备、软件环境配置及通信测试方法。",
+        "keywords": [
+          "GSM协议栈",
+          "开源实现",
+          "源代码分析",
+          "通信协议",
+          "手机协议栈"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": [
+          "Education",
+          "Technology",
+          "Open Source Projects"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:59:41.708832Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.255
+    }
+  ],
   "journal": {
     "id": "2cede9db-dc73-4776-9dc4-17f288b82f35",
     "note_id": "55e92769-7920-4af0-bc88-962554ce5f5b",
@@ -95,5 +127,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:59:41.708582Z",
+    "latency_seconds": 31.17866904195398,
+    "attempts": 1,
+    "summary": {
+      "summary": "OsmocomBB是GSM协议栈开源实现，分析其源代码结构、编译流程及GSM网络协议栈实现，包含硬件准备、软件环境配置及通信测试方法。",
+      "keywords": [
+        "GSM协议栈",
+        "开源实现",
+        "源代码分析",
+        "通信协议",
+        "手机协议栈"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": [
+        "Education",
+        "Technology",
+        "Open Source Projects"
+      ]
+    },
+    "quality": {
+      "score": 0.255,
+      "metrics": {
+        "input_chars": 4139.0,
+        "input_lines": 106.0,
+        "summary_chars": 67.0,
+        "summary_coverage_ratio": 0.016,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 248.3
+      }
+    }
   }
 }

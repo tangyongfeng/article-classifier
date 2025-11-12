@@ -1,0 +1,30 @@
+{
+  "id": "d6e38ef4-d8f8-498a-b69f-f4b1207d3905",
+  "note_id": "00f10942-1e22-4f3a-8d5e-ab7fac696778",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该笔记涉及医疗服务渠道与门户、广义临床路径、省一级行政权责工作及合理用药系统(PASS)的核心内容。",
+    "keywords": [
+      "服务渠道",
+      "临床路径",
+      "省一级",
+      "权责",
+      "合理用药"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": [
+      "医疗健康",
+      "医疗健康 > 临床路径"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:33:49.523235Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.573
+}

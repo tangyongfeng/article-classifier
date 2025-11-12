@@ -72,7 +72,40 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d6717311-f983-4e2b-b92c-e73d4989e9aa",
+      "note_id": "73990d2d-6c19-4df5-83dd-9d7b4a62079a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "在雅典买房需警惕中介风险，选择合适区域（如基菲夏），明确投资目的（如子女教育），并咨询专业律师规避法律风险。",
+        "keywords": [
+          "雅典",
+          "买房",
+          "中介",
+          "区域",
+          "律师"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": [
+          "Travel",
+          "Real Estate"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:23:45.495440Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.386
+    }
+  ],
   "journal": {
     "id": "9dddc8eb-423e-46b2-b173-d1072ae51e84",
     "note_id": "73990d2d-6c19-4df5-83dd-9d7b4a62079a",
@@ -95,5 +128,48 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:23:45.495236Z",
+    "latency_seconds": 70.74632429110352,
+    "attempts": 1,
+    "summary": {
+      "summary": "在雅典买房需警惕中介风险，选择合适区域（如基菲夏），明确投资目的（如子女教育），并咨询专业律师规避法律风险。",
+      "keywords": [
+        "雅典",
+        "买房",
+        "中介",
+        "区域",
+        "律师"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": [
+        "Travel",
+        "Real Estate"
+      ]
+    },
+    "quality": {
+      "score": 0.386,
+      "metrics": {
+        "input_chars": 1431.0,
+        "input_lines": 60.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.038,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 85.9
+      }
+    }
   }
 }

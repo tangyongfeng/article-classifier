@@ -1,0 +1,29 @@
+{
+  "id": "19ead1c9-472b-4305-919d-1e18131d715c",
+  "note_id": "26e11fee-7b9d-4c7e-945b-9f777dc28a2a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语介词后接格的规则总结，包括三格、四格及可选介词分类，用于德语语法学习。",
+    "keywords": [
+      "介词",
+      "格",
+      "德语",
+      "语法",
+      "语言学习"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:47:07.517107Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.258
+}

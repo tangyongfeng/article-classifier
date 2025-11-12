@@ -1,0 +1,27 @@
+{
+  "id": "c21e8a3a-00dd-41e6-a40d-bd2003fa5ace",
+  "note_id": "14d48717-923c-4bf5-961d-4b7fbff42a2f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "数学抽象通过符号简化计算，编程中函数作为代码抽象，提升问题解决效率。涉及求和符号与函数应用。",
+    "keywords": [
+      "抽象",
+      "数学",
+      "求和符号",
+      "函数",
+      "编程"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:20:04.278271Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.354
+}

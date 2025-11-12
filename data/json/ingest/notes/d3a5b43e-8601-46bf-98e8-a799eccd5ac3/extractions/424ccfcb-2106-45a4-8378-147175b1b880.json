@@ -1,0 +1,30 @@
+{
+  "id": "424ccfcb-2106-45a4-8378-147175b1b880",
+  "note_id": "d3a5b43e-8601-46bf-98e8-a799eccd5ac3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "奶粉顺丰快递单信息，包含单号、地址、联系电话等。",
+    "keywords": [
+      "奶粉",
+      "顺丰",
+      "快递单",
+      "单号",
+      "地址"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "交通"
+    ],
+    "new_category_suggestion": [
+      "交通",
+      "物流"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:53:00.733627Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.446
+}

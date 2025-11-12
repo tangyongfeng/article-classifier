@@ -1,0 +1,28 @@
+{
+  "id": "29417338-29d8-4c13-be04-4d1743c3e15c",
+  "note_id": "0acdfb1b-531d-4c88-bd74-14bc2877a940",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "系统设计中通过隔离策略（物理/逻辑）、SLA保障措施及容灾演练确保异常可控和稳定性。",
+    "keywords": [
+      "隔离策略",
+      "SLA保障",
+      "容灾预案",
+      "异常演练",
+      "系统稳定性"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:28:57.727542Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.21
+}

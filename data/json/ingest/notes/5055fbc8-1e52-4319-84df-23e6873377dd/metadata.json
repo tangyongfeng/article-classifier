@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3de8215a-8f97-4178-b5d1-beffe3f37924",
+      "note_id": "5055fbc8-1e52-4319-84df-23e6873377dd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容涉及通过症状（soap）判断疾病、确定治疗方法及处方的医疗知识库，属于医学诊断与治疗相关知识。",
+        "keywords": [
+          "诊断",
+          "治疗",
+          "处方",
+          "知识库",
+          "医疗"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": [
+          "Health",
+          "Health > Diagnosis"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:24:22.730792Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.429
+    }
+  ],
   "journal": {
     "id": "c8e603af-db61-4a5c-980e-ef9145cf0d28",
     "note_id": "5055fbc8-1e52-4319-84df-23e6873377dd",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:24:22.730667Z",
+    "latency_seconds": 39.76117499999236,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容涉及通过症状（soap）判断疾病、确定治疗方法及处方的医疗知识库，属于医学诊断与治疗相关知识。",
+      "keywords": [
+        "诊断",
+        "治疗",
+        "处方",
+        "知识库",
+        "医疗"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": [
+        "Health",
+        "Health > Diagnosis"
+      ]
+    },
+    "quality": {
+      "score": 0.429,
+      "metrics": {
+        "input_chars": 140.0,
+        "input_lines": 12.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.364,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.4
+      }
+    }
   }
 }

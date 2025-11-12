@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 from functools import lru_cache
 from pathlib import Path
-from typing import Iterable, Optional
+from typing import Dict, Iterable, List, Optional, Tuple
 
 
 class CategoryContextProvider:
@@ -37,6 +37,62 @@ class CategoryContextProvider:
             if isinstance(categories, list):
                 return categories
         return []
+
+    @lru_cache(maxsize=1)
+    def _path_index(self) -> Dict[Tuple[str, ...], List[str]]:
+        index: Dict[Tuple[str, ...], List[str]] = {}
+
+        def walk(node: dict, trail: List[str]) -> None:
+            name_raw = node.get("name")
+            if not isinstance(name_raw, str):
+                return
+            name = name_raw.strip()
+            if not name:
+                return
+            current_path = trail + [name]
+            normalized_path = tuple(self._normalize_name(part) for part in current_path)
+            index[normalized_path] = current_path
+            for child in node.get("children", []) or []:
+                if isinstance(child, dict):
+                    walk(child, current_path)
+
+        for root in self._load_categories():
+            if isinstance(root, dict):
+                walk(root, [])
+
+        return index
+
+    def canonicalize_path(self, path: Iterable[str]) -> Optional[List[str]]:
+        tokens = [self._normalize_name(part) for part in path if isinstance(part, str) and part.strip()]
+        if not tokens:
+            return None
+
+        index = self._path_index()
+        normalized_tuple = tuple(tokens)
+        if normalized_tuple in index:
+            return index[normalized_tuple]
+
+        prefix_matches = {
+            tuple(index_path[: len(tokens)])
+            for normalized, index_path in index.items()
+            if len(normalized) >= len(tokens) and normalized[: len(tokens)] == normalized_tuple
+        }
+        if len(prefix_matches) == 1:
+            # Convert back to list of original names with exact casing
+            only_match = next(iter(prefix_matches))
+            return list(only_match)
+
+        return None
+
+    def default_path(self) -> Optional[List[str]]:
+        index = self._path_index()
+        if not index:
+            return None
+        first_key = next(iter(index))
+        return index[first_key]
+
+    def _normalize_name(self, value: str) -> str:
+        return value.strip().lower()
 
     def _render_categories(self, categories: Iterable[dict]) -> str:
         lines: list[str] = []

@@ -1,0 +1,27 @@
+{
+  "id": "716af24a-3b81-4f4d-bef1-ff12e89b9866",
+  "note_id": "244ee18e-465d-46b6-b164-18ff963d5711",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "无效内容，包含乱码、数字和无意义字符，无实际信息或主题。",
+    "keywords": [
+      "无效内容",
+      "乱码",
+      "无意义",
+      "无主题",
+      "无信息"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:42:50.402743Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.091
+}

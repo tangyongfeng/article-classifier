@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ccec0107-97aa-4ca5-bac7-0fd562bb69d6",
+      "note_id": "a7758c87-3522-4424-a7f6-6986e220eca5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "通过监控WiFi探针请求统计附近智能手机数量，估算人员密度的开源工具，适用于人流监测等场景。",
+        "keywords": [
+          "WiFi信号",
+          "人数统计",
+          "传感器",
+          "智能手机",
+          "探针请求"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:38:20.208001Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.078
+    }
+  ],
   "journal": {
     "id": "efea2754-dc0f-475b-a12d-9a4226f0f7e6",
     "note_id": "a7758c87-3522-4424-a7f6-6986e220eca5",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:38:20.207807Z",
+    "latency_seconds": 13.508215542067774,
+    "attempts": 1,
+    "summary": {
+      "summary": "通过监控WiFi探针请求统计附近智能手机数量，估算人员密度的开源工具，适用于人流监测等场景。",
+      "keywords": [
+        "WiFi信号",
+        "人数统计",
+        "传感器",
+        "智能手机",
+        "探针请求"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.078,
+      "metrics": {
+        "input_chars": 1958.0,
+        "input_lines": 76.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.023,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 117.5
+      }
+    }
   }
 }

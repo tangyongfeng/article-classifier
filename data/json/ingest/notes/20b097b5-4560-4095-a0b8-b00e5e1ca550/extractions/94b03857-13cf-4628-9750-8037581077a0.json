@@ -1,0 +1,27 @@
+{
+  "id": "94b03857-13cf-4628-9750-8037581077a0",
+  "note_id": "20b097b5-4560-4095-a0b8-b00e5e1ca550",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "中国网络文学海外传播受关注，但翻译耗时长、译者不足，文学批评匮乏，制约其发展。",
+    "keywords": [
+      "网络文学",
+      "海外传播",
+      "翻译滞后",
+      "译者不足",
+      "文学批评"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:24:04.840747Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.196
+}

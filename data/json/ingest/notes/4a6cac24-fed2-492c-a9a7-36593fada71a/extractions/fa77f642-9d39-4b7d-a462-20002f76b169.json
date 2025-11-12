@@ -1,0 +1,28 @@
+{
+  "id": "fa77f642-9d39-4b7d-a462-20002f76b169",
+  "note_id": "4a6cac24-fed2-492c-a9a7-36593fada71a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美甲打印机是用于美甲艺术的数字打印设备，相关公司包括青岛麦迪珂数码等，提供生产、加盟及产品信息。",
+    "keywords": [
+      "美甲打印机",
+      "加盟",
+      "数字打印",
+      "美甲艺术",
+      "生产公司"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:35:06.099836Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.229
+}

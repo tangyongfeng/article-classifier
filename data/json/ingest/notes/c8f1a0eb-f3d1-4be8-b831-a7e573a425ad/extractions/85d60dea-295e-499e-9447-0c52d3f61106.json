@@ -1,0 +1,29 @@
+{
+  "id": "85d60dea-295e-499e-9447-0c52d3f61106",
+  "note_id": "c8f1a0eb-f3d1-4be8-b831-a7e573a425ad",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "驾驶理论问题，探讨在特定路况下需准备刹车的原因，涉及道路走向、其他车辆动态及速度限制识别。",
+    "keywords": [
+      "驾驶理论",
+      "刹车准备",
+      "道路走向",
+      "其他车辆",
+      "速度限制"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "交通",
+      "驾照",
+      "驾驶理论"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:45:45.779699Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.108
+}

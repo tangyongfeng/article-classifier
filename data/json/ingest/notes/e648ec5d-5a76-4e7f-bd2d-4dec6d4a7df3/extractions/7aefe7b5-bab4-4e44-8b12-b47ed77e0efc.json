@@ -1,0 +1,28 @@
+{
+  "id": "7aefe7b5-bab4-4e44-8b12-b47ed77e0efc",
+  "note_id": "e648ec5d-5a76-4e7f-bd2d-4dec6d4a7df3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "余主任要求在九层建立公司系统测试环境，用于展示vlt相关功能与性能，测试部牵头，不连接生产系统。",
+    "keywords": [
+      "系统环境",
+      "测试部",
+      "vlt",
+      "展示",
+      "演示"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:19:49.350382Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.389
+}

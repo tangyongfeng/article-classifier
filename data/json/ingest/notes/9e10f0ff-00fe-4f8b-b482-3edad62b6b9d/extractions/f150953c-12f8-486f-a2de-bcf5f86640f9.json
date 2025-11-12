@@ -1,0 +1,30 @@
+{
+  "id": "f150953c-12f8-486f-a2de-bcf5f86640f9",
+  "note_id": "9e10f0ff-00fe-4f8b-b482-3edad62b6b9d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "通过配置树莓派locale和Mac终端bash_profile环境变量，解决SSH连接中文显示乱码问题。",
+    "keywords": [
+      "树莓派",
+      "SSH",
+      "中文乱码",
+      "locale",
+      "bash_profile"
+    ],
+    "action_items": [
+      "配置树莓派locale和中文字体，修改Mac的~/.bash_profile设置LANG=en_US.UTF-8和LC_ALL=en_US.UTF-8"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": [
+      "Technology",
+      "System Configuration"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:54:37.062732Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.327
+}

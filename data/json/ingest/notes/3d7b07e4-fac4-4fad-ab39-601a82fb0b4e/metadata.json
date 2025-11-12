@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "56388417-0603-4308-bd38-052281767166",
+      "note_id": "3d7b07e4-fac4-4fad-ab39-601a82fb0b4e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记为网易汽车产品比较页面，涉及车型参数对比，属于交通领域中的交通知识分类。",
+        "keywords": [
+          "汽车比较",
+          "车型对比",
+          "产品评测",
+          "网易汽车",
+          "汽车参数"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "交通知识"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:21:17.127583Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.176
+    }
+  ],
   "journal": {
     "id": "706bff69-dd21-4185-b38d-f004225d7c09",
     "note_id": "3d7b07e4-fac4-4fad-ab39-601a82fb0b4e",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:21:17.127418Z",
+    "latency_seconds": 17.272052875021473,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记为网易汽车产品比较页面，涉及车型参数对比，属于交通领域中的交通知识分类。",
+      "keywords": [
+        "汽车比较",
+        "车型对比",
+        "产品评测",
+        "网易汽车",
+        "汽车参数"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "交通知识"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.176,
+      "metrics": {
+        "input_chars": 179.0,
+        "input_lines": 6.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.218,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.7
+      }
+    }
   }
 }

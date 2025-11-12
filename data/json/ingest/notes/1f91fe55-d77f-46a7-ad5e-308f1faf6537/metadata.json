@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e2360472-786b-4e92-921e-e16491838de8",
+      "note_id": "1f91fe55-d77f-46a7-ad5e-308f1faf6537",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语人称代词和物主代词的用法表格，涵盖阳性、中性、阴性及复数形式，用于德语语法学习基础。",
+        "keywords": [
+          "德语",
+          "人称代词",
+          "物主代词",
+          "语法",
+          "语言学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:15:41.692817Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.217
+    }
+  ],
   "journal": {
     "id": "a0391aed-cd70-43a7-8adc-58a050bbef5d",
     "note_id": "1f91fe55-d77f-46a7-ad5e-308f1faf6537",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:15:41.692652Z",
+    "latency_seconds": 21.493288041907363,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语人称代词和物主代词的用法表格，涵盖阳性、中性、阴性及复数形式，用于德语语法学习基础。",
+      "keywords": [
+        "德语",
+        "人称代词",
+        "物主代词",
+        "语法",
+        "语言学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.217,
+      "metrics": {
+        "input_chars": 243.0,
+        "input_lines": 30.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.181,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.6
+      }
+    }
   }
 }

@@ -77,7 +77,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c6abddb5-b47a-4976-969b-ee11fbfcb822",
+      "note_id": "b2175a5c-8b1b-4568-95de-8116a4083351",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "微博分享旅行中朋友拍照摆姿势的实用技巧，提供酷炫模式新技能，提升旅途体验。核心内容聚焦于旅行场景下的拍照方法。",
+        "keywords": [
+          "拍照",
+          "旅行",
+          "姿势",
+          "朋友",
+          "酷炫"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:25:41.211956Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.403
+    }
+  ],
   "journal": {
     "id": "acc187a3-cd7f-4f95-b97d-a9298630e195",
     "note_id": "b2175a5c-8b1b-4568-95de-8116a4083351",
@@ -100,5 +130,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:25:41.211770Z",
+    "latency_seconds": 18.73494454205502,
+    "attempts": 1,
+    "summary": {
+      "summary": "微博分享旅行中朋友拍照摆姿势的实用技巧，提供酷炫模式新技能，提升旅途体验。核心内容聚焦于旅行场景下的拍照方法。",
+      "keywords": [
+        "拍照",
+        "旅行",
+        "姿势",
+        "朋友",
+        "酷炫"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.403,
+      "metrics": {
+        "input_chars": 755.0,
+        "input_lines": 66.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.073,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 45.3
+      }
+    }
   }
 }

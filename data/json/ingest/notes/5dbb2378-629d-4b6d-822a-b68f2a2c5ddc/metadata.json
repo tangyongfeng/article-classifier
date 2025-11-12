@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "638e063a-d39b-401d-a9e8-cab8803731c3",
+      "note_id": "5dbb2378-629d-4b6d-822a-b68f2a2c5ddc",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "关于打印文件的流程说明，涉及文档处理和打印操作的日常事务管理。",
+        "keywords": [
+          "打印",
+          "文件",
+          "办公",
+          "流程",
+          "文档"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:34:33.923513Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.298
+    }
+  ],
   "journal": {
     "id": "ead34707-ad50-474f-9ae5-2699fdecb0b9",
     "note_id": "5dbb2378-629d-4b6d-822a-b68f2a2c5ddc",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:34:33.923359Z",
+    "latency_seconds": 33.80619820894208,
+    "attempts": 1,
+    "summary": {
+      "summary": "关于打印文件的流程说明，涉及文档处理和打印操作的日常事务管理。",
+      "keywords": [
+        "打印",
+        "文件",
+        "办公",
+        "流程",
+        "文档"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.298,
+      "metrics": {
+        "input_chars": 139.0,
+        "input_lines": 7.0,
+        "summary_chars": 31.0,
+        "summary_coverage_ratio": 0.223,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.3
+      }
+    }
   }
 }

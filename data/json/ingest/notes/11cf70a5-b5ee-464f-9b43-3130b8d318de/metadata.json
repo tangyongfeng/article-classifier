@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "aa42ef98-4398-4643-b492-e0c47a3572aa",
+      "note_id": "11cf70a5-b5ee-464f-9b43-3130b8d318de",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "suiteCRM 是一个开源客户关系管理软件，笔记包含管理员登录账号及密码信息。",
+        "keywords": [
+          "suiteCRM",
+          "CRM",
+          "管理员",
+          "登录",
+          "开源"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:10:07.470090Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.301
+    }
+  ],
   "journal": {
     "id": "e59a17cd-18b0-4f88-a695-f013e2ab0cc1",
     "note_id": "11cf70a5-b5ee-464f-9b43-3130b8d318de",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:10:07.469920Z",
+    "latency_seconds": 46.13541216705926,
+    "attempts": 1,
+    "summary": {
+      "summary": "suiteCRM 是一个开源客户关系管理软件，笔记包含管理员登录账号及密码信息。",
+      "keywords": [
+        "suiteCRM",
+        "CRM",
+        "管理员",
+        "登录",
+        "开源"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.301,
+      "metrics": {
+        "input_chars": 175.0,
+        "input_lines": 10.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.229,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.5
+      }
+    }
   }
 }

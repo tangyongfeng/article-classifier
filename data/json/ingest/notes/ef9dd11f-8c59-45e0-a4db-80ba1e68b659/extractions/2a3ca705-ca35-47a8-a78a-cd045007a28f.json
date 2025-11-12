@@ -1,0 +1,28 @@
+{
+  "id": "2a3ca705-ca35-47a8-a78a-cd045007a28f",
+  "note_id": "ef9dd11f-8c59-45e0-a4db-80ba1e68b659",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Vertica Analytics Platform 数据分析平台，涉及安装限制（社区版三节点、1T数据）、按列存储实现、效率优势及具体使用方法。",
+    "keywords": [
+      "Vertica",
+      "数据分析",
+      "按列存储",
+      "效率优势",
+      "安装"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:10:08.278085Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.404
+}

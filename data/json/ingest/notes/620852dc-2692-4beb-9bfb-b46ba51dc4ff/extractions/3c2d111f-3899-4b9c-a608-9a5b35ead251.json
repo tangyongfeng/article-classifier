@@ -1,0 +1,29 @@
+{
+  "id": "3c2d111f-3899-4b9c-a608-9a5b35ead251",
+  "note_id": "620852dc-2692-4beb-9bfb-b46ba51dc4ff",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "古井贡酒股价跌至2010年5月10日最低点，当前筹码盈利率为0，反映公司近期市场表现疲软。",
+    "keywords": [
+      "古井贡酒",
+      "股票",
+      "盈利率",
+      "最低点",
+      "公司分析"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market",
+      "Company Analysis"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:58:20.874819Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.437
+}

@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ca4fa37c-7f24-486a-b850-39c713ba6cd4",
+      "note_id": "9ed09885-4734-4009-be96-b6669d92ed05",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "医疗信息系统国际标准涵盖数据交换（HL7 V3）、术语（ICD-9）、文档（HL7 CDA）等六类，用于规范电子病历系统。",
+        "keywords": [
+          "医疗信息系统",
+          "HL7",
+          "DICOM",
+          "术语标准",
+          "文档标准"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:02:55.876454Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.505
+    }
+  ],
   "journal": {
     "id": "b46f062c-37d5-4d5b-9597-39594e31c07d",
     "note_id": "9ed09885-4734-4009-be96-b6669d92ed05",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:02:55.876211Z",
+    "latency_seconds": 20.305726082995534,
+    "attempts": 2,
+    "summary": {
+      "summary": "医疗信息系统国际标准涵盖数据交换（HL7 V3）、术语（ICD-9）、文档（HL7 CDA）等六类，用于规范电子病历系统。",
+      "keywords": [
+        "医疗信息系统",
+        "HL7",
+        "DICOM",
+        "术语标准",
+        "文档标准"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.505,
+      "metrics": {
+        "input_chars": 220.0,
+        "input_lines": 15.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.277,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.2
+      }
+    }
   }
 }

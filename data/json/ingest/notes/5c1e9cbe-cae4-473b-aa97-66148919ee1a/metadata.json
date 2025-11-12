@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c8317cab-671b-4b55-a2e4-87467d9bf3ff",
+      "note_id": "5c1e9cbe-cae4-473b-aa97-66148919ee1a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分析了药物福利管理（PBM）公司主要竞争对手CVS Caremark和Medco Health Solutions的业务范围、客户群体及市场地位。",
+        "keywords": [
+          "PBM",
+          "竞争对手",
+          "CVS Caremark",
+          "Medco Health Solutions",
+          "公司分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:29:48.906524Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.34
+    }
+  ],
   "journal": {
     "id": "83a62b57-91c5-4945-9832-14764aa76378",
     "note_id": "5c1e9cbe-cae4-473b-aa97-66148919ee1a",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:29:48.906210Z",
+    "latency_seconds": 72.00345783296507,
+    "attempts": 1,
+    "summary": {
+      "summary": "分析了药物福利管理（PBM）公司主要竞争对手CVS Caremark和Medco Health Solutions的业务范围、客户群体及市场地位。",
+      "keywords": [
+        "PBM",
+        "竞争对手",
+        "CVS Caremark",
+        "Medco Health Solutions",
+        "公司分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.34,
+      "metrics": {
+        "input_chars": 1083.0,
+        "input_lines": 17.0,
+        "summary_chars": 73.0,
+        "summary_coverage_ratio": 0.067,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 65.0
+      }
+    }
   }
 }

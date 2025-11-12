@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "14bdab1e-7de1-4ed7-ae44-f21a94a81b51",
+      "note_id": "0e2f8876-220b-4afa-86d1-deb155650bf3",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: python接口http网络请求 返回常见statusCode(状态码)解释 - helloxiaozhe的博客 - CSDN博客 upd",
+        "keywords": [
+          "---",
+          "title: python接口http网络请求 返回常见statusCode(状态码)解释 - helloxiaozhe的博客 - CSDN博客",
+          "updated: 2019-02-13 17:53:59Z",
+          "created: 2019-02-13 17:53:59Z",
+          "source: https://blog.csdn.net/helloxiaozhe/article/details/82623918"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:55:25.731356Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "8014068e-8699-4e8a-8a32-4541e019af12",
     "note_id": "0e2f8876-220b-4afa-86d1-deb155650bf3",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T14:55:25.730943Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: python接口http网络请求 返回常见statusCode(状态码)解释 - helloxiaozhe的博客 - CSDN博客 upd",
+      "keywords": [
+        "---",
+        "title: python接口http网络请求 返回常见statusCode(状态码)解释 - helloxiaozhe的博客 - CSDN博客",
+        "updated: 2019-02-13 17:53:59Z",
+        "created: 2019-02-13 17:53:59Z",
+        "source: https://blog.csdn.net/helloxiaozhe/article/details/82623918"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 5549.0,
+        "input_lines": 124.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.014,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 332.9
+      }
+    }
   }
 }

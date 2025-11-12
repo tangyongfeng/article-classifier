@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "52d34c5b-b986-4f54-913d-ec5431ef5454",
+      "note_id": "d9557ee8-2cba-4df9-9d97-1555cf58297f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "详细介绍了Google、Yahoo、新浪等平台获取实时股票数据的API接口，包括URL结构、数据字段解析及多股票查询示例。",
+        "keywords": [
+          "股票数据",
+          "API接口",
+          "Google财经",
+          "Yahoo财经",
+          "新浪股票"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:08:27.894304Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.134
+    }
+  ],
   "journal": {
     "id": "0d923f9d-c580-481d-b373-7a9d3719d6b2",
     "note_id": "d9557ee8-2cba-4df9-9d97-1555cf58297f",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:08:27.894046Z",
+    "latency_seconds": 21.56144662492443,
+    "attempts": 1,
+    "summary": {
+      "summary": "详细介绍了Google、Yahoo、新浪等平台获取实时股票数据的API接口，包括URL结构、数据字段解析及多股票查询示例。",
+      "keywords": [
+        "股票数据",
+        "API接口",
+        "Google财经",
+        "Yahoo财经",
+        "新浪股票"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.134,
+      "metrics": {
+        "input_chars": 4356.0,
+        "input_lines": 142.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.014,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 261.4
+      }
+    }
   }
 }

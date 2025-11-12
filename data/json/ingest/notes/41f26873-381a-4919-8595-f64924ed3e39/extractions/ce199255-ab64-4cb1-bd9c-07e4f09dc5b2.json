@@ -1,0 +1,28 @@
+{
+  "id": "ce199255-ab64-4cb1-bd9c-07e4f09dc5b2",
+  "note_id": "41f26873-381a-4919-8595-f64924ed3e39",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "C#代码示例，使用SQLite数据库删除RECIPE和HAS_INGREDIENT表中指定ID的记录。",
+    "keywords": [
+      "SQLite",
+      "C#",
+      "Delete",
+      "Database",
+      "Recipe"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:35:24.038909Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.456
+}

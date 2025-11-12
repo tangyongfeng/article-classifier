@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "20c30e6a-0190-491b-a440-35aa96242121",
+      "note_id": "ae6b93bf-2b39-47e7-83e0-6ff8708e28c3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "评测手机游戏Lifeline，一款文字互动冒险游戏，玩家通过文字选择决定主角泰勒太空求生命运，游戏节奏优秀但对话过于闲聊影响紧张感。",
+        "keywords": [
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": [
+          "Entertainment",
+          "Games",
+          "Mobile Games"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:08:00.250044Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.079
+    }
+  ],
   "journal": {
     "id": "7dea5b24-2194-40ed-b798-dfe5bb29816c",
     "note_id": "ae6b93bf-2b39-47e7-83e0-6ff8708e28c3",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:08:00.249825Z",
+    "latency_seconds": 51.001947958022356,
+    "attempts": 1,
+    "summary": {
+      "summary": "评测手机游戏Lifeline，一款文字互动冒险游戏，玩家通过文字选择决定主角泰勒太空求生命运，游戏节奏优秀但对话过于闲聊影响紧张感。",
+      "keywords": [
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": [
+        "Entertainment",
+        "Games",
+        "Mobile Games"
+      ]
+    },
+    "quality": {
+      "score": 0.079,
+      "metrics": {
+        "input_chars": 2768.0,
+        "input_lines": 74.0,
+        "summary_chars": 66.0,
+        "summary_coverage_ratio": 0.024,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 166.1
+      }
+    }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "id": "8a27356f-072c-4256-b110-c2596da2e385",
+  "note_id": "8abc2d20-53b9-424c-8667-fe0423132077",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语日常用语幽默小故事，通过'购买面包'与'西瓜'的双关用法展示德语词汇实际应用，涉及基础动词einkaufen和日常场景表达。",
+    "keywords": [
+      "德语词汇",
+      "日常用语",
+      "购买",
+      "西瓜",
+      "幽默故事"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Vocabulary"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:24:27.879091Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.132
+}

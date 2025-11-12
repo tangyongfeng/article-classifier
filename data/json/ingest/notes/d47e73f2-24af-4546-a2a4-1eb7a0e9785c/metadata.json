@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "afbd713b-f0be-4641-89a7-79695bbd4944",
+      "note_id": "d47e73f2-24af-4546-a2a4-1eb7a0e9785c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语学习小组共同规划聚会细节，包括时间安排、食物饮料准备及任务分工，以提升语言交流与合作能力。",
+        "keywords": [
+          "德语学习",
+          "小组讨论",
+          "计划安排",
+          "语言交流",
+          "合作任务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:53:45.614274Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.08
+    }
+  ],
   "journal": {
     "id": "f9405e39-be89-4ee0-9cf2-a97cabfb44db",
     "note_id": "d47e73f2-24af-4546-a2a4-1eb7a0e9785c",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:53:45.613989Z",
+    "latency_seconds": 20.347923916997388,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语学习小组共同规划聚会细节，包括时间安排、食物饮料准备及任务分工，以提升语言交流与合作能力。",
+      "keywords": [
+        "德语学习",
+        "小组讨论",
+        "计划安排",
+        "语言交流",
+        "合作任务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.08,
+      "metrics": {
+        "input_chars": 1777.0,
+        "input_lines": 37.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.026,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 106.6
+      }
+    }
   }
 }

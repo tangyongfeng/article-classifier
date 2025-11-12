@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1913e325-2afb-40eb-a43c-259e0f40157d",
+      "note_id": "fe13e299-1e6f-453f-ac06-6f95cb51e12c",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 如何在12个月内创办一家资产数百万美元的公司？_36氪 updated: 2016-03-29 11:52:29Z created: 20",
+        "keywords": [
+          "---",
+          "title: 如何在12个月内创办一家资产数百万美元的公司？_36氪",
+          "updated: 2016-03-29 11:52:29Z",
+          "created: 2016-03-29 11:52:29Z",
+          "source: https://36kr.com/p/5045061.html"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:26:00.831678Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "87c094a6-f267-49d9-86fc-b5a9329f19b3",
     "note_id": "fe13e299-1e6f-453f-ac06-6f95cb51e12c",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T11:26:00.830564Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 如何在12个月内创办一家资产数百万美元的公司？_36氪 updated: 2016-03-29 11:52:29Z created: 20",
+      "keywords": [
+        "---",
+        "title: 如何在12个月内创办一家资产数百万美元的公司？_36氪",
+        "updated: 2016-03-29 11:52:29Z",
+        "created: 2016-03-29 11:52:29Z",
+        "source: https://36kr.com/p/5045061.html"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 15341.0,
+        "input_lines": 409.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.005,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 920.5
+      }
+    }
   }
 }

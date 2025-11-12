@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "54dd0c5d-2a90-402b-ba73-f8af915337e5",
+      "note_id": "19859859-f297-4a41-bd4b-0f8b7c509c1d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分析A股市场中小盘与大盘轮动策略，基于动量效应原理，通过沪深300与中证500指数轮动实现收益优化，需注意交易费率影响。",
+        "keywords": [
+          "二八轮动",
+          "大小盘轮动",
+          "动量效应",
+          "股票指数",
+          "趋势投资"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:43:28.601957Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.329
+    }
+  ],
   "journal": {
     "id": "e4d06bea-b2e3-44b4-a4c9-5371885ef4d0",
     "note_id": "19859859-f297-4a41-bd4b-0f8b7c509c1d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:43:28.601776Z",
+    "latency_seconds": 16.043942584074102,
+    "attempts": 1,
+    "summary": {
+      "summary": "分析A股市场中小盘与大盘轮动策略，基于动量效应原理，通过沪深300与中证500指数轮动实现收益优化，需注意交易费率影响。",
+      "keywords": [
+        "二八轮动",
+        "大小盘轮动",
+        "动量效应",
+        "股票指数",
+        "趋势投资"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.329,
+      "metrics": {
+        "input_chars": 1349.0,
+        "input_lines": 27.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.044,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 80.9
+      }
+    }
   }
 }

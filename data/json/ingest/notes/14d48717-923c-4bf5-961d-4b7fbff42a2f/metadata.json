@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c21e8a3a-00dd-41e6-a40d-bd2003fa5ace",
+      "note_id": "14d48717-923c-4bf5-961d-4b7fbff42a2f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "数学抽象通过符号简化计算，编程中函数作为代码抽象，提升问题解决效率。涉及求和符号与函数应用。",
+        "keywords": [
+          "抽象",
+          "数学",
+          "求和符号",
+          "函数",
+          "编程"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:20:04.278271Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.354
+    }
+  ],
   "journal": {
     "id": "a1fcfe0d-a245-4c64-8f6e-bb885653e559",
     "note_id": "14d48717-923c-4bf5-961d-4b7fbff42a2f",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:20:04.278106Z",
+    "latency_seconds": 22.5897668749094,
+    "attempts": 1,
+    "summary": {
+      "summary": "数学抽象通过符号简化计算，编程中函数作为代码抽象，提升问题解决效率。涉及求和符号与函数应用。",
+      "keywords": [
+        "抽象",
+        "数学",
+        "求和符号",
+        "函数",
+        "编程"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.354,
+      "metrics": {
+        "input_chars": 487.0,
+        "input_lines": 31.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.094,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 29.2
+      }
+    }
   }
 }

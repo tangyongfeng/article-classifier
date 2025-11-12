@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b6b763dc-dcc9-4b3b-8c4f-44ed8df67bbd",
+      "note_id": "3390968a-bc36-46eb-807d-3827b87de457",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "包含美国加利福尼亚州哈辛塔高地街道地址及联系电话信息的笔记。",
+        "keywords": [
+          "地址",
+          "电话",
+          "邮编",
+          "加州",
+          "洛杉矶"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "城市生活"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:48:17.896901Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.185
+    }
+  ],
   "journal": {
     "id": "ce16611b-f2b1-448c-86e8-201509f47dbd",
     "note_id": "3390968a-bc36-46eb-807d-3827b87de457",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:48:17.896741Z",
+    "latency_seconds": 43.68791999993846,
+    "attempts": 1,
+    "summary": {
+      "summary": "包含美国加利福尼亚州哈辛塔高地街道地址及联系电话信息的笔记。",
+      "keywords": [
+        "地址",
+        "电话",
+        "邮编",
+        "加州",
+        "洛杉矶"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "城市生活"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.185,
+      "metrics": {
+        "input_chars": 257.0,
+        "input_lines": 9.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.117,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.4
+      }
+    }
   }
 }

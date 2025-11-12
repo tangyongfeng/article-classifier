@@ -77,7 +77,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f5a3114b-77ef-4aa0-b16f-4948ad6e4dc6",
+      "note_id": "3220196b-4054-4413-b1d9-e3ec4191a1e0",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: blackjack.py updated: 2016-12-20 04:46:16Z created: 2016-12-19 12:22:",
+        "keywords": [
+          "---",
+          "title: blackjack.py",
+          "updated: 2016-12-20 04:46:16Z",
+          "created: 2016-12-19 12:22:12Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:43:52.575256Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "eee67efa-3f45-4d96-a462-4d5576c7d982",
     "note_id": "3220196b-4054-4413-b1d9-e3ec4191a1e0",
@@ -100,5 +128,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T17:43:52.574624Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: blackjack.py updated: 2016-12-20 04:46:16Z created: 2016-12-19 12:22:",
+      "keywords": [
+        "---",
+        "title: blackjack.py",
+        "updated: 2016-12-20 04:46:16Z",
+        "created: 2016-12-19 12:22:12Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 7872.0,
+        "input_lines": 1119.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.01,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 472.3
+      }
+    }
   }
 }

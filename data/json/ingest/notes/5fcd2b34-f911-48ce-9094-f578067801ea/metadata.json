@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e7741c37-0e5c-4e78-8006-86b97b19bace",
+      "note_id": "5fcd2b34-f911-48ce-9094-f578067801ea",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "劳工编号（Betriebsnr）用于企业员工管理，属于商务领域，归类至'商务'一级分类。",
+        "keywords": [
+          "劳工编号",
+          "商务",
+          "员工管理",
+          "工作编号",
+          "企业运营"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:47:21.781727Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.31
+    }
+  ],
   "journal": {
     "id": "9693c4f8-450c-4aed-847c-436fce295a62",
     "note_id": "5fcd2b34-f911-48ce-9094-f578067801ea",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:47:21.781607Z",
+    "latency_seconds": 18.899414583924226,
+    "attempts": 1,
+    "summary": {
+      "summary": "劳工编号（Betriebsnr）用于企业员工管理，属于商务领域，归类至'商务'一级分类。",
+      "keywords": [
+        "劳工编号",
+        "商务",
+        "员工管理",
+        "工作编号",
+        "企业运营"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.31,
+      "metrics": {
+        "input_chars": 120.0,
+        "input_lines": 7.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.367,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.2
+      }
+    }
   }
 }

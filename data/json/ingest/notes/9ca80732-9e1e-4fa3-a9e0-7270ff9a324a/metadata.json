@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9f776cf0-cafc-4f6d-af14-1e9ebf00e396",
+      "note_id": "9ca80732-9e1e-4fa3-a9e0-7270ff9a324a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "中药食疗方子，用于促进乳汁分泌，含黄芪、当归等药材。",
+        "keywords": [
+          "下奶方",
+          "中药",
+          "黄芪",
+          "当归",
+          "通草"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Discussions"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:49:12.020749Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.382
+    }
+  ],
   "journal": {
     "id": "0948162a-b295-4e66-ac3c-f45d5ac45eed",
     "note_id": "9ca80732-9e1e-4fa3-a9e0-7270ff9a324a",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:49:12.020567Z",
+    "latency_seconds": 34.9623292919714,
+    "attempts": 2,
+    "summary": {
+      "summary": "中药食疗方子，用于促进乳汁分泌，含黄芪、当归等药材。",
+      "keywords": [
+        "下奶方",
+        "中药",
+        "黄芪",
+        "当归",
+        "通草"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Discussions"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.382,
+      "metrics": {
+        "input_chars": 173.0,
+        "input_lines": 14.0,
+        "summary_chars": 26.0,
+        "summary_coverage_ratio": 0.15,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.4
+      }
+    }
   }
 }

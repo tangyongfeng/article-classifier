@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a0946637-d97b-4bf0-8422-ba9797e5215e",
+      "note_id": "bbc49343-72a0-470d-9e5b-dfc62720f237",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "popupzoo为广告投放平台，用于管理弹窗广告，归类于商务领域广告投放商类别。",
+        "keywords": [
+          "广告投放",
+          "弹窗广告",
+          "商务平台",
+          "广告管理",
+          "投放商"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:15:30.577016Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.269
+    }
+  ],
   "journal": {
     "id": "7b2c5a71-dadf-45fb-affb-dc819837ad99",
     "note_id": "bbc49343-72a0-470d-9e5b-dfc62720f237",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:15:30.576860Z",
+    "latency_seconds": 22.895575499976985,
+    "attempts": 1,
+    "summary": {
+      "summary": "popupzoo为广告投放平台，用于管理弹窗广告，归类于商务领域广告投放商类别。",
+      "keywords": [
+        "广告投放",
+        "弹窗广告",
+        "商务平台",
+        "广告管理",
+        "投放商"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.269,
+      "metrics": {
+        "input_chars": 99.0,
+        "input_lines": 6.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.404,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.9
+      }
+    }
   }
 }

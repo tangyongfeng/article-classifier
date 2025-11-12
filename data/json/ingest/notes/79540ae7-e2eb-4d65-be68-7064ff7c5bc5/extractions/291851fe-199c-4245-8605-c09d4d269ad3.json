@@ -1,0 +1,27 @@
+{
+  "id": "291851fe-199c-4245-8605-c09d4d269ad3",
+  "note_id": "79540ae7-e2eb-4d65-be68-7064ff7c5bc5",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "华德福教育与蒙氏教育是两种强调儿童创造力和自主学习的教育方法，常用于学校选择参考。",
+    "keywords": [
+      "华德福教育",
+      "蒙氏教育",
+      "教育方法",
+      "教育体系",
+      "儿童教育"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:53:59.951850Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.36
+}

@@ -1,0 +1,28 @@
+{
+  "id": "638e063a-d39b-401d-a9e8-cab8803731c3",
+  "note_id": "5dbb2378-629d-4b6d-822a-b68f2a2c5ddc",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "关于打印文件的流程说明，涉及文档处理和打印操作的日常事务管理。",
+    "keywords": [
+      "打印",
+      "文件",
+      "办公",
+      "流程",
+      "文档"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展",
+      "生活规划"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:34:33.923513Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.298
+}

@@ -1,0 +1,27 @@
+{
+  "id": "a70b4483-a6e9-4ac5-bc08-c4a416f9d150",
+  "note_id": "3bbf2faf-60e6-402c-adc2-3ba248b5fc38",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "日常购物清单，包含小米产品、厨房纸、卫生纸及湿巾等生活必需品。",
+    "keywords": [
+      "小米",
+      "厨房纸",
+      "卫生纸",
+      "湿巾",
+      "生活必需品"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:12:58.028377Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.405
+}

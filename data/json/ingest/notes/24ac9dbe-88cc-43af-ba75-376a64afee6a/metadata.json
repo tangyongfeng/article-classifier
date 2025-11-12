@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3a6cb6b9-e6df-4828-b3af-7275fff8da53",
+      "note_id": "24ac9dbe-88cc-43af-ba75-376a64afee6a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "作者反思育儿历程，从过度干预到尊重孩子自主选择，学会沟通协商，促进孩子健康成长。",
+        "keywords": [
+          "育儿",
+          "自主性",
+          "亲子沟通",
+          "教育方式",
+          "决策"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Discussions"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:43:21.905612Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.096
+    }
+  ],
   "journal": {
     "id": "9425a061-f4bf-4b61-8f01-e98e1c2810d8",
     "note_id": "24ac9dbe-88cc-43af-ba75-376a64afee6a",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:43:21.905357Z",
+    "latency_seconds": 31.497271958040074,
+    "attempts": 1,
+    "summary": {
+      "summary": "作者反思育儿历程，从过度干预到尊重孩子自主选择，学会沟通协商，促进孩子健康成长。",
+      "keywords": [
+        "育儿",
+        "自主性",
+        "亲子沟通",
+        "教育方式",
+        "决策"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Discussions"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.096,
+      "metrics": {
+        "input_chars": 677.0,
+        "input_lines": 13.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.059,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 40.6
+      }
+    }
   }
 }

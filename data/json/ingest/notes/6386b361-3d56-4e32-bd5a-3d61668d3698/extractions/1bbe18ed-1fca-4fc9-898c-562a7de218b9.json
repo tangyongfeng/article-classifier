@@ -1,0 +1,30 @@
+{
+  "id": "1bbe18ed-1fca-4fc9-898c-562a7de218b9",
+  "note_id": "6386b361-3d56-4e32-bd5a-3d61668d3698",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该笔记包含多个人名及对应身份证号码的列表，用于个人信息记录与管理。",
+    "keywords": [
+      "姓名",
+      "身份证号",
+      "个人信息",
+      "数据列表",
+      "记录"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展"
+    ],
+    "new_category_suggestion": [
+      "个人发展",
+      "个人信息"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:10:32.942559Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.116
+}

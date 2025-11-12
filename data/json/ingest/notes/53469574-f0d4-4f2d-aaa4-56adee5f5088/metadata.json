@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d5a0c9c2-7d38-422d-90bb-9f8697f4c126",
+      "note_id": "53469574-f0d4-4f2d-aaa4-56adee5f5088",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "解析希腊房产交易中成交价（双方协商）与市场价格（市场指导）的区别，说明增值税24%和交易税3%的征收规则及税收误区。",
+        "keywords": [
+          "成交价格",
+          "市场价格",
+          "增值税",
+          "交易税",
+          "希腊房产"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:55:32.003514Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.339
+    }
+  ],
   "journal": {
     "id": "dbb9aff2-fcb6-4cff-a28d-e7571eba29f3",
     "note_id": "53469574-f0d4-4f2d-aaa4-56adee5f5088",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:55:32.003320Z",
+    "latency_seconds": 18.67636766692158,
+    "attempts": 1,
+    "summary": {
+      "summary": "解析希腊房产交易中成交价（双方协商）与市场价格（市场指导）的区别，说明增值税24%和交易税3%的征收规则及税收误区。",
+      "keywords": [
+        "成交价格",
+        "市场价格",
+        "增值税",
+        "交易税",
+        "希腊房产"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.339,
+      "metrics": {
+        "input_chars": 889.0,
+        "input_lines": 56.0,
+        "summary_chars": 58.0,
+        "summary_coverage_ratio": 0.065,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 53.3
+      }
+    }
   }
 }

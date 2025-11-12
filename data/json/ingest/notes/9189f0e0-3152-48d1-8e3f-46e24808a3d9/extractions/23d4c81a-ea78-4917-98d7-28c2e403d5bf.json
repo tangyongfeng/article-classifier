@@ -1,0 +1,27 @@
+{
+  "id": "23d4c81a-ea78-4917-98d7-28c2e403d5bf",
+  "note_id": "9189f0e0-3152-48d1-8e3f-46e24808a3d9",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "未提供具体内容的笔记，暂归入未分类。需补充内容以确定更精确分类。",
+    "keywords": [
+      "笔记",
+      "未分类",
+      "通用",
+      "学习",
+      "待分类"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:55:42.294196Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.278
+}

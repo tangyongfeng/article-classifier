@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "09b25734-8d2a-4238-a682-5bff8a35bb0c",
+      "note_id": "bf385005-b6e1-4ca9-96ad-3c449814f621",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "斯瓦尔巴群岛主权归属挪威，中国公民可免签入境的国际地理与签证政策介绍。",
+        "keywords": [
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:44:48.953754Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.071
+    }
+  ],
   "journal": {
     "id": "dae73ec1-96d8-4898-bff2-885bbfe889ca",
     "note_id": "bf385005-b6e1-4ca9-96ad-3c449814f621",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:44:48.953489Z",
+    "latency_seconds": 44.1721751249861,
+    "attempts": 1,
+    "summary": {
+      "summary": "斯瓦尔巴群岛主权归属挪威，中国公民可免签入境的国际地理与签证政策介绍。",
+      "keywords": [
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.071,
+      "metrics": {
+        "input_chars": 3848.0,
+        "input_lines": 234.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.009,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 230.9
+      }
+    }
   }
 }

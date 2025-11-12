@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d3610649-3017-4971-87a4-0f124dd2b876",
+      "note_id": "492c8167-8568-48e1-b8ce-9268029dcc0f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "疫情中德国老夫妇隔离于楼内，社区群争论小女孩夜间打球事件，反思荒诞世界中微小自由与青春浪漫。",
+        "keywords": [
+          "疫情",
+          "隔离",
+          "社区冲突",
+          "青春",
+          "自由"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Events"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:27:28.146202Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.272
+    }
+  ],
   "journal": {
     "id": "1b17b291-5415-4bc0-bb74-622d539dbb83",
     "note_id": "492c8167-8568-48e1-b8ce-9268029dcc0f",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:27:28.146038Z",
+    "latency_seconds": 32.577896459028125,
+    "attempts": 1,
+    "summary": {
+      "summary": "疫情中德国老夫妇隔离于楼内，社区群争论小女孩夜间打球事件，反思荒诞世界中微小自由与青春浪漫。",
+      "keywords": [
+        "疫情",
+        "隔离",
+        "社区冲突",
+        "青春",
+        "自由"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Events"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.272,
+      "metrics": {
+        "input_chars": 910.0,
+        "input_lines": 51.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.051,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 54.6
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "bab818c0-d95f-4370-9db9-2e02702224a2",
+  "note_id": "ef575e26-c388-4aab-b020-c407bf15ff0a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "在Amazon EC2实例上部署Let's Encrypt SSL证书的详细技术指南，涵盖安装、Apache配置、证书生成及自动续期流程，确保服务器安全连接。",
+    "keywords": [
+      "SSL证书",
+      "Amazon EC2",
+      "Apache配置",
+      "证书续期",
+      "服务器安全"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:09:21.466323Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.072
+}

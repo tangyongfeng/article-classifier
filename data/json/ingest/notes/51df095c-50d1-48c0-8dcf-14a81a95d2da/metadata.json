@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b4b4a23b-9a72-44e1-8060-b9b9fc9894b1",
+      "note_id": "51df095c-50d1-48c0-8dcf-14a81a95d2da",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "C#代码实现SQLite数据库插入食谱数据，使用字典存储字段，包含异常处理机制。",
+        "keywords": [
+          "SQLite",
+          "C#",
+          "数据库",
+          "字典",
+          "异常处理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:39:10.191707Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.223
+    }
+  ],
   "journal": {
     "id": "8acd24b4-7039-4f4c-8134-4834b95199af",
     "note_id": "51df095c-50d1-48c0-8dcf-14a81a95d2da",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:39:10.191551Z",
+    "latency_seconds": 25.945551999961026,
+    "attempts": 1,
+    "summary": {
+      "summary": "C#代码实现SQLite数据库插入食谱数据，使用字典存储字段，包含异常处理机制。",
+      "keywords": [
+        "SQLite",
+        "C#",
+        "数据库",
+        "字典",
+        "异常处理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.223,
+      "metrics": {
+        "input_chars": 554.0,
+        "input_lines": 23.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.072,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 33.2
+      }
+    }
   }
 }

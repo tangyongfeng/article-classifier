@@ -1,0 +1,28 @@
+{
+  "id": "e569c352-ee39-4f07-9b0f-19f4b0f72765",
+  "note_id": "a75f5c2b-2c80-41a3-843c-abe12a1a00b3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美国军队与私营企业合作研发训练方法，市场驱动创新，提升军事训练效率，形成高效训练体系。",
+    "keywords": [
+      "军事训练",
+      "私营企业",
+      "市场驱动",
+      "训练方法",
+      "企业合作"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:38:06.696384Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.162
+}

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "74d965fd-b32b-4ab8-8426-9f50577e2d26",
+      "note_id": "80b06a52-3054-424e-a48d-40585a1d3951",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "2019年北京中小学寒假于1月26日开始，2月24日结束，共4周零2天。",
+        "keywords": [
+          "寒假",
+          "北京",
+          "中小学",
+          "时间",
+          "2019"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:38:47.466195Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.474
+    }
+  ],
   "journal": {
     "id": "4d349690-b5eb-4f22-9a3d-df28e8fec4d0",
     "note_id": "80b06a52-3054-424e-a48d-40585a1d3951",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:38:47.466034Z",
+    "latency_seconds": 22.915357750025578,
+    "attempts": 1,
+    "summary": {
+      "summary": "2019年北京中小学寒假于1月26日开始，2月24日结束，共4周零2天。",
+      "keywords": [
+        "寒假",
+        "北京",
+        "中小学",
+        "时间",
+        "2019"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.474,
+      "metrics": {
+        "input_chars": 168.0,
+        "input_lines": 7.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.214,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.1
+      }
+    }
   }
 }

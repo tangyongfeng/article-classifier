@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4558452b-ac93-4753-89de-ef8b855bf58b",
+      "note_id": "eef2c44a-c4e8-4837-bebf-e37af4535e8d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Orbitz优惠码用于酒店预订折扣，属于旅游住宿类优惠信息，关联Travel > Accommodation > Hotel Booking Inquiry分类",
+        "keywords": [
+          "Orbitz",
+          "优惠码",
+          "酒店预订",
+          "旅游优惠",
+          "预订折扣"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Accommodation",
+          "Hotel Booking Inquiry"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:06:18.469271Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.612
+    }
+  ],
   "journal": {
     "id": "2436a378-4072-4534-904c-8aa57ac2ff6d",
     "note_id": "eef2c44a-c4e8-4837-bebf-e37af4535e8d",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:06:18.469150Z",
+    "latency_seconds": 11.679086042102426,
+    "attempts": 1,
+    "summary": {
+      "summary": "Orbitz优惠码用于酒店预订折扣，属于旅游住宿类优惠信息，关联Travel > Accommodation > Hotel Booking Inquiry分类",
+      "keywords": [
+        "Orbitz",
+        "优惠码",
+        "酒店预订",
+        "旅游优惠",
+        "预订折扣"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Accommodation",
+        "Hotel Booking Inquiry"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.612,
+      "metrics": {
+        "input_chars": 94.0,
+        "input_lines": 6.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.851,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.6
+      }
+    }
   }
 }

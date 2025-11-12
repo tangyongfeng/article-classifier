@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "12e5b7fb-45fe-4030-88e3-720c244a8073",
+      "note_id": "8ed595ac-b395-4116-a46f-70533d3a49db",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "在Windows系统中，使用PowerShell命令行批量执行MySQL数据库脚本，通过Get-Content和mysql命令实现自动化数据处理。",
+        "keywords": [
+          "Windows",
+          "SQL",
+          "批量执行",
+          "命令行",
+          "MySQL"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:48:59.750266Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.529
+    }
+  ],
   "journal": {
     "id": "56ca72aa-206e-4b40-bd27-2a1c6b4646c3",
     "note_id": "8ed595ac-b395-4116-a46f-70533d3a49db",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:48:59.750109Z",
+    "latency_seconds": 39.5509437500732,
+    "attempts": 1,
+    "summary": {
+      "summary": "在Windows系统中，使用PowerShell命令行批量执行MySQL数据库脚本，通过Get-Content和mysql命令实现自动化数据处理。",
+      "keywords": [
+        "Windows",
+        "SQL",
+        "批量执行",
+        "命令行",
+        "MySQL"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.529,
+      "metrics": {
+        "input_chars": 164.0,
+        "input_lines": 6.0,
+        "summary_chars": 73.0,
+        "summary_coverage_ratio": 0.445,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.8
+      }
+    }
   }
 }

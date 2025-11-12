@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0862ef07-bd7a-48e8-a8fd-99007e58ac66",
+      "note_id": "5bd8bdd8-e22f-4e09-a146-523f1b608ec9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语教师adler的Zoom课堂会议编号，属于语言学习课程管理。",
+        "keywords": [
+          "德语",
+          "语言学习",
+          "Zoom课堂",
+          "会议编号",
+          "教师"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:28:08.873824Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.284
+    }
+  ],
   "journal": {
     "id": "0478a5e8-2bed-4fb2-84db-f93ce46a0437",
     "note_id": "5bd8bdd8-e22f-4e09-a146-523f1b608ec9",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:28:08.873663Z",
+    "latency_seconds": 17.77567674999591,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语教师adler的Zoom课堂会议编号，属于语言学习课程管理。",
+      "keywords": [
+        "德语",
+        "语言学习",
+        "Zoom课堂",
+        "会议编号",
+        "教师"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.284,
+      "metrics": {
+        "input_chars": 102.0,
+        "input_lines": 6.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.314,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.1
+      }
+    }
   }
 }

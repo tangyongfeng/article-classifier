@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2f7b0103-56e2-46b9-ba76-f3b573215307",
+      "note_id": "6af97a54-c37e-4463-913c-c402c34ec89f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "加拿大大温哥华地区公立高中排名分析，西温哥华、温区等学区位列前五，温哥华东区垫底，共12个学区参与评估。",
+        "keywords": [
+          "高中排名",
+          "大温哥华",
+          "学区",
+          "公立学校",
+          "教育评估"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:48:08.205716Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.275
+    }
+  ],
   "journal": {
     "id": "435533d9-7c18-4a4b-a8f9-3276cf8e3d87",
     "note_id": "6af97a54-c37e-4463-913c-c402c34ec89f",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:48:08.205499Z",
+    "latency_seconds": 18.25734229106456,
+    "attempts": 1,
+    "summary": {
+      "summary": "加拿大大温哥华地区公立高中排名分析，西温哥华、温区等学区位列前五，温哥华东区垫底，共12个学区参与评估。",
+      "keywords": [
+        "高中排名",
+        "大温哥华",
+        "学区",
+        "公立学校",
+        "教育评估"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.275,
+      "metrics": {
+        "input_chars": 926.0,
+        "input_lines": 13.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.056,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 55.6
+      }
+    }
   }
 }

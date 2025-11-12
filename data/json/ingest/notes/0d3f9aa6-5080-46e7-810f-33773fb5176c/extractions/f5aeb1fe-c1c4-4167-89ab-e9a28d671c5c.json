@@ -1,0 +1,28 @@
+{
+  "id": "f5aeb1fe-c1c4-4167-89ab-e9a28d671c5c",
+  "note_id": "0d3f9aa6-5080-46e7-810f-33773fb5176c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "商务签证被拒后申诉，强调行程非工作性质，涉及德国公司文件取回及商业环境了解，请求重新审理。",
+    "keywords": [
+      "签证",
+      "商务",
+      "德国",
+      "申诉",
+      "公司"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区",
+      "德国"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:50:43.763176Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.404
+}

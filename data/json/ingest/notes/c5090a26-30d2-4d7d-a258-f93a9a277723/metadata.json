@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6763fda1-34f2-4798-bbc2-0ed1bf4ee2a6",
+      "note_id": "c5090a26-30d2-4d7d-a258-f93a9a277723",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "c#类定义示例，包含私有字段、公共Text属性（get/set访问器）及内部Count属性（private get/set），体现面向对象编程基础。",
+        "keywords": [
+          "C#",
+          "类",
+          "属性",
+          "访问器",
+          "面向对象"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": [
+          "Education",
+          "Programming"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:18:21.867288Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.284
+    }
+  ],
   "journal": {
     "id": "f2b86314-eb08-4493-9aa3-f8f071c2c454",
     "note_id": "c5090a26-30d2-4d7d-a258-f93a9a277723",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:18:21.867127Z",
+    "latency_seconds": 39.928537916974165,
+    "attempts": 2,
+    "summary": {
+      "summary": "c#类定义示例，包含私有字段、公共Text属性（get/set访问器）及内部Count属性（private get/set），体现面向对象编程基础。",
+      "keywords": [
+        "C#",
+        "类",
+        "属性",
+        "访问器",
+        "面向对象"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": [
+        "Education",
+        "Programming"
+      ]
+    },
+    "quality": {
+      "score": 0.284,
+      "metrics": {
+        "input_chars": 380.0,
+        "input_lines": 20.0,
+        "summary_chars": 74.0,
+        "summary_coverage_ratio": 0.195,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 22.8
+      }
+    }
   }
 }

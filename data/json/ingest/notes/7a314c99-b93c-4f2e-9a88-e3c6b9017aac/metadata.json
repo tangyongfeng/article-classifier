@@ -77,7 +77,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4df93fc5-e576-4067-882c-f251a730b961",
+      "note_id": "7a314c99-b93c-4f2e-9a88-e3c6b9017aac",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分享了9个加密货币与区块链相关实用工具，包括融资查询、钱包网络配置、NFT稀有度分析、代币监控及空投项目精选平台。",
+        "keywords": [
+          "加密货币",
+          "区块链",
+          "NFT",
+          "钱包",
+          "工具"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新",
+          "区块链应用"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:57:02.230596Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.262
+    }
+  ],
   "journal": {
     "id": "ca6c70c1-0dd7-4682-81d1-e72ef24bd174",
     "note_id": "7a314c99-b93c-4f2e-9a88-e3c6b9017aac",
@@ -100,5 +130,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:57:02.230418Z",
+    "latency_seconds": 22.218199792085215,
+    "attempts": 1,
+    "summary": {
+      "summary": "分享了9个加密货币与区块链相关实用工具，包括融资查询、钱包网络配置、NFT稀有度分析、代币监控及空投项目精选平台。",
+      "keywords": [
+        "加密货币",
+        "区块链",
+        "NFT",
+        "钱包",
+        "工具"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新",
+        "区块链应用"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.262,
+      "metrics": {
+        "input_chars": 1908.0,
+        "input_lines": 138.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.03,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 114.5
+      }
+    }
   }
 }

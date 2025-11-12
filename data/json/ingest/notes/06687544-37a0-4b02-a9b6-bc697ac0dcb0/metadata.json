@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9e8e4b85-9f91-407e-bef5-960026ad2815",
+      "note_id": "06687544-37a0-4b02-a9b6-bc697ac0dcb0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "IBM硅谷实验室是IBM在硅谷设立的研发机构，专注于技术创新与科技研发，属于商务领域的科技企业活动。",
+        "keywords": [
+          "IBM",
+          "硅谷",
+          "实验室",
+          "技术创新",
+          "科技企业"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:00:08.195015Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.325
+    }
+  ],
   "journal": {
     "id": "1997e95b-2d60-448b-bb04-b87e22670953",
     "note_id": "06687544-37a0-4b02-a9b6-bc697ac0dcb0",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:00:08.194870Z",
+    "latency_seconds": 14.227641791920178,
+    "attempts": 1,
+    "summary": {
+      "summary": "IBM硅谷实验室是IBM在硅谷设立的研发机构，专注于技术创新与科技研发，属于商务领域的科技企业活动。",
+      "keywords": [
+        "IBM",
+        "硅谷",
+        "实验室",
+        "技术创新",
+        "科技企业"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.325,
+      "metrics": {
+        "input_chars": 320.0,
+        "input_lines": 11.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.156,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 19.2
+      }
+    }
   }
 }

@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5b1a893c-8454-47f3-b4e6-48d4a71d5978",
+      "note_id": "ac61b1a5-4951-4268-a8c8-c689bba8cded",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "全职妈妈从化妆品行业转型，计划通过微信平台开展珠宝定制业务，专注于珍珠、翡翠、琥珀的个性化设计与销售，强调天然品质与客户故事。",
+        "keywords": [
+          "珠宝定制",
+          "全职妈妈",
+          "个性化",
+          "珍珠",
+          "创业"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:58:49.370946Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.255
+    }
+  ],
   "journal": {
     "id": "c82f3f40-d2ba-41cd-8994-011efb901c6b",
     "note_id": "ac61b1a5-4951-4268-a8c8-c689bba8cded",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:58:49.370777Z",
+    "latency_seconds": 42.94249641697388,
+    "attempts": 1,
+    "summary": {
+      "summary": "全职妈妈从化妆品行业转型，计划通过微信平台开展珠宝定制业务，专注于珍珠、翡翠、琥珀的个性化设计与销售，强调天然品质与客户故事。",
+      "keywords": [
+        "珠宝定制",
+        "全职妈妈",
+        "个性化",
+        "珍珠",
+        "创业"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.255,
+      "metrics": {
+        "input_chars": 4023.0,
+        "input_lines": 18.0,
+        "summary_chars": 63.0,
+        "summary_coverage_ratio": 0.016,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 241.4
+      }
+    }
   }
 }

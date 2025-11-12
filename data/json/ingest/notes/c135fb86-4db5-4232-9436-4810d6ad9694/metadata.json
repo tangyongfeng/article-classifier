@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b2606f5e-b792-4815-9976-50d084a918ad",
+      "note_id": "c135fb86-4db5-4232-9436-4810d6ad9694",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分析5亿用户在线行为数据，包括投注率300/sec、查询率200k/sec及系统负载推算，用于业务决策优化。",
+        "keywords": [
+          "用户行为",
+          "投注率",
+          "查询率",
+          "系统负载",
+          "业务分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:54:51.432301Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.136
+    }
+  ],
   "journal": {
     "id": "dee9f4d9-9771-4b0f-98d5-2e9dc58b103a",
     "note_id": "c135fb86-4db5-4232-9436-4810d6ad9694",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:54:51.432144Z",
+    "latency_seconds": 26.101386542082764,
+    "attempts": 1,
+    "summary": {
+      "summary": "分析5亿用户在线行为数据，包括投注率300/sec、查询率200k/sec及系统负载推算，用于业务决策优化。",
+      "keywords": [
+        "用户行为",
+        "投注率",
+        "查询率",
+        "系统负载",
+        "业务分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.136,
+      "metrics": {
+        "input_chars": 391.0,
+        "input_lines": 19.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.138,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.5
+      }
+    }
   }
 }

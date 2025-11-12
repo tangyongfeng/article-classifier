@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a76eef0f-b0b2-4705-9051-c48251017097",
+      "note_id": "bb8bf46e-7544-41ae-869a-28d1948b3eed",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "IBM组织的WebSphere相关会议，参与者包括IBM客户与IBM员工，聚焦企业级应用服务器技术。",
+        "keywords": [
+          "IBM",
+          "WebSphere",
+          "企业应用",
+          "技术创新",
+          "应用服务器"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:14:17.539932Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.376
+    }
+  ],
   "journal": {
     "id": "1f137a25-ebd5-4bf9-a4b5-e013de5dc3b4",
     "note_id": "bb8bf46e-7544-41ae-869a-28d1948b3eed",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:14:17.539793Z",
+    "latency_seconds": 24.49358229106292,
+    "attempts": 1,
+    "summary": {
+      "summary": "IBM组织的WebSphere相关会议，参与者包括IBM客户与IBM员工，聚焦企业级应用服务器技术。",
+      "keywords": [
+        "IBM",
+        "WebSphere",
+        "企业应用",
+        "技术创新",
+        "应用服务器"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.376,
+      "metrics": {
+        "input_chars": 132.0,
+        "input_lines": 7.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.379,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.9
+      }
+    }
   }
 }

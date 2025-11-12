@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e39a6a77-4955-410f-ba99-b83cf780fbc6",
+      "note_id": "53075c3a-c9fc-4c22-ad91-9edfb6e94ab5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "介绍美国道路英文术语及中文对应，包括Freeway（高速路）、Highway（干道）、Boulevard（大街）等常用道路名称。",
+        "keywords": [
+          "道路术语",
+          "美国交通",
+          "高速路",
+          "干道",
+          "大街"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "交通知识"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:55:13.322873Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.372
+    }
+  ],
   "journal": {
     "id": "f1554cfb-e0d3-4948-95ad-523789c5959d",
     "note_id": "53075c3a-c9fc-4c22-ad91-9edfb6e94ab5",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:55:13.322745Z",
+    "latency_seconds": 22.877351750037633,
+    "attempts": 1,
+    "summary": {
+      "summary": "介绍美国道路英文术语及中文对应，包括Freeway（高速路）、Highway（干道）、Boulevard（大街）等常用道路名称。",
+      "keywords": [
+        "道路术语",
+        "美国交通",
+        "高速路",
+        "干道",
+        "大街"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "交通知识"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.372,
+      "metrics": {
+        "input_chars": 255.0,
+        "input_lines": 14.0,
+        "summary_chars": 64.0,
+        "summary_coverage_ratio": 0.251,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.3
+      }
+    }
   }
 }

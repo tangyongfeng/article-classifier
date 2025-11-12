@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0f3531f9-d721-47a3-8732-3be3df0e8476",
+      "note_id": "e98a1d1a-1d02-4697-aa46-61cfb898ddc7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "SQL Server中，使用ISNULL函数处理int类型字段为null的情况，将null替换为-10进行条件查询示例。",
+        "keywords": [
+          "SQL",
+          "SQL Server",
+          "空值",
+          "ISNULL",
+          "数据库"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:39:39.361420Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.297
+    }
+  ],
   "journal": {
     "id": "f4e84ea5-b8b3-403d-88eb-1b5374e6d368",
     "note_id": "e98a1d1a-1d02-4697-aa46-61cfb898ddc7",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:39:39.361243Z",
+    "latency_seconds": 40.44960654096212,
+    "attempts": 1,
+    "summary": {
+      "summary": "SQL Server中，使用ISNULL函数处理int类型字段为null的情况，将null替换为-10进行条件查询示例。",
+      "keywords": [
+        "SQL",
+        "SQL Server",
+        "空值",
+        "ISNULL",
+        "数据库"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.297,
+      "metrics": {
+        "input_chars": 273.0,
+        "input_lines": 12.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.22,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.4
+      }
+    }
   }
 }

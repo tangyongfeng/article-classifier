@@ -1,0 +1,28 @@
+{
+  "id": "193826c1-aae5-45a3-af6d-df3c78500663",
+  "note_id": "7f697ebf-e4b3-4868-831d-2b50359fa81a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语故事描述小猪佩奇一家在炎热天气中玩水、吃冰淇淋，学习德语词汇如'水坑'和'冰淇淋'。",
+    "keywords": [
+      "德语",
+      "小猪佩奇",
+      "炎热",
+      "玩水",
+      "冰淇淋"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:32:30.988604Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.194
+}

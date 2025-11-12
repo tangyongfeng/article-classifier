@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "84bc5186-5bd4-4893-b8b1-73cefadb9475",
+      "note_id": "0bcf60bc-5072-4fb2-a2ae-73c2a242fc19",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语中，'einkaufen'用于泛指购物，'kaufen'用于具体购买物品。",
+        "keywords": [
+          "德语",
+          "einkaufen",
+          "kaufen",
+          "动词用法",
+          "语法"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:40:46.573211Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.34
+    }
+  ],
   "journal": {
     "id": "c315b29b-1125-409d-aa4d-c82646f8f13c",
     "note_id": "0bcf60bc-5072-4fb2-a2ae-73c2a242fc19",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:40:46.573038Z",
+    "latency_seconds": 33.0053215411026,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语中，'einkaufen'用于泛指购物，'kaufen'用于具体购买物品。",
+      "keywords": [
+        "德语",
+        "einkaufen",
+        "kaufen",
+        "动词用法",
+        "语法"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.34,
+      "metrics": {
+        "input_chars": 127.0,
+        "input_lines": 6.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.307,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.6
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "f9252d27-ef4e-4272-9098-a8fc89d3e501",
+  "note_id": "4b948c4b-bd21-4cd2-bdfb-3c473b67a138",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容为用德语给家教（nachhilfen）写信预约时间，属于德语学习中的日常沟通应用，归入语言学习类下的德语子类。",
+    "keywords": [
+      "德语",
+      "家教",
+      "写信",
+      "预约",
+      "时间"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:40:34.592268Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.497
+}

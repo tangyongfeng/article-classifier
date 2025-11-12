@@ -1,0 +1,28 @@
+{
+  "id": "ef37bcee-0a2f-413e-9ebd-75447fa6dd5e",
+  "note_id": "7cf99d5a-b15c-4e3c-ba3a-7b6c07230420",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "列举多个企业组织作为合作方，包括银行、通信、科技公司等，涉及金融、通信及科技领域。",
+    "keywords": [
+      "企业",
+      "银行",
+      "通信",
+      "科技",
+      "合作"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:13:45.508886Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.247
+}

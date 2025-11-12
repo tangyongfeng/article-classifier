@@ -1,0 +1,31 @@
+{
+  "id": "2ca3381e-33c1-4c96-ac0d-720313d1bf6b",
+  "note_id": "04eb4303-dd3b-40a8-817c-88eae748b679",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Ubuntu服务器MySQL客户端配置文件，包含主机、用户、密码等连接参数，涉及数据库访问设置。",
+    "keywords": [
+      "Ubuntu",
+      "MySQL",
+      "配置文件",
+      "服务器",
+      "密码"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "技术",
+      "系统配置",
+      "服务器配置"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:53:21.220912Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.242
+}

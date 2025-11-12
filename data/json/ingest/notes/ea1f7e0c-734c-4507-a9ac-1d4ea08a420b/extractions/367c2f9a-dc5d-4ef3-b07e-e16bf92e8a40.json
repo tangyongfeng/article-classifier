@@ -1,0 +1,27 @@
+{
+  "id": "367c2f9a-dc5d-4ef3-b07e-e16bf92e8a40",
+  "note_id": "ea1f7e0c-734c-4507-a9ac-1d4ea08a420b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Flask是Python Web框架，学习笔记涵盖环境配置、路由注册、响应处理、重定向与异常处理等基础内容。",
+    "keywords": [
+      "Flask",
+      "Web框架",
+      "路由",
+      "响应",
+      "异常处理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:40:21.992778Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.276
+}

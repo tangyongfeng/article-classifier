@@ -1,0 +1,27 @@
+{
+  "id": "a0e30935-4a67-405d-bf32-1c3b32ed98d3",
+  "note_id": "a523585e-bfc9-442d-81e7-9cd3d084a279",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "用户询问签证处理时间，确认最终日期为2019年1月14日，并咨询是否可在处理期间撤销上诉。",
+    "keywords": [
+      "签证",
+      "处理时间",
+      "上诉",
+      "撤销",
+      "签证官"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:27:10.128405Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.131
+}

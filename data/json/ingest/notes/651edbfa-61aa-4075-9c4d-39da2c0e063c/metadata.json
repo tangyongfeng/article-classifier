@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "24400688-9685-4670-8def-76c50b51e7ac",
+      "note_id": "651edbfa-61aa-4075-9c4d-39da2c0e063c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "佛教核心教义，指无常、缘起、无我三大原理，为佛教哲学基础。",
+        "keywords": [
+          "佛教",
+          "核心教义",
+          "无常",
+          "缘起",
+          "无我"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:16:04.933812Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.412
+    }
+  ],
   "journal": {
     "id": "9ad1896e-a166-4f6e-b84d-b8d3c711c32c",
     "note_id": "651edbfa-61aa-4075-9c4d-39da2c0e063c",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:16:04.933669Z",
+    "latency_seconds": 14.205540791968815,
+    "attempts": 1,
+    "summary": {
+      "summary": "佛教核心教义，指无常、缘起、无我三大原理，为佛教哲学基础。",
+      "keywords": [
+        "佛教",
+        "核心教义",
+        "无常",
+        "缘起",
+        "无我"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.412,
+      "metrics": {
+        "input_chars": 88.0,
+        "input_lines": 8.0,
+        "summary_chars": 29.0,
+        "summary_coverage_ratio": 0.33,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.3
+      }
+    }
   }
 }

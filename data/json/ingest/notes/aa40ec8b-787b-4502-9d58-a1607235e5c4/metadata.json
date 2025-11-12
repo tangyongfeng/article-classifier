@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c40ea3d0-cade-4646-8926-fd794f5d6fc8",
+      "note_id": "aa40ec8b-787b-4502-9d58-a1607235e5c4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "测试不同CPU核心数（4、8、12）下系统的扩展性，记录交易笔数、CPU使用率及日志影响。",
+        "keywords": [
+          "系统性能",
+          "CPU核心数",
+          "交易吞吐量",
+          "扩展性",
+          "日志影响"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:49:37.670414Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.094
+    }
+  ],
   "journal": {
     "id": "a8b401df-04ca-41de-8158-bc275d0537a4",
     "note_id": "aa40ec8b-787b-4502-9d58-a1607235e5c4",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:49:37.670218Z",
+    "latency_seconds": 23.411097957985476,
+    "attempts": 1,
+    "summary": {
+      "summary": "测试不同CPU核心数（4、8、12）下系统的扩展性，记录交易笔数、CPU使用率及日志影响。",
+      "keywords": [
+        "系统性能",
+        "CPU核心数",
+        "交易吞吐量",
+        "扩展性",
+        "日志影响"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.094,
+      "metrics": {
+        "input_chars": 815.0,
+        "input_lines": 80.0,
+        "summary_chars": 45.0,
+        "summary_coverage_ratio": 0.055,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 48.9
+      }
+    }
   }
 }

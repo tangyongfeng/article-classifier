@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3303ab0f-b702-45f4-bfb0-e400ab5a89e6",
+      "note_id": "0614c8aa-1d9c-4951-8758-a4384b1573dd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记包含服务器端口2437及密码配置信息，属于系统凭证管理，需谨慎处理。",
+        "keywords": [
+          "端口",
+          "密码",
+          "服务器",
+          "配置",
+          "凭证"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "系统配置"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:59:40.440375Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.187
+    }
+  ],
   "journal": {
     "id": "527ed2e8-10cd-4a70-a33c-11757e005c75",
     "note_id": "0614c8aa-1d9c-4951-8758-a4384b1573dd",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:59:40.440231Z",
+    "latency_seconds": 48.333218042040244,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记包含服务器端口2437及密码配置信息，属于系统凭证管理，需谨慎处理。",
+      "keywords": [
+        "端口",
+        "密码",
+        "服务器",
+        "配置",
+        "凭证"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "系统配置"
+      ]
+    },
+    "quality": {
+      "score": 0.187,
+      "metrics": {
+        "input_chars": 150.0,
+        "input_lines": 9.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.24,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.0
+      }
+    }
   }
 }

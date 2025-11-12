@@ -1,0 +1,28 @@
+{
+  "id": "a05148bd-946a-4b1c-ba0b-5f1d96c1fd36",
+  "note_id": "41fd8c7d-b9f7-4020-a60a-62ca955fa631",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本文总结十大网站创业方向，涵盖专业知识内容、工具型网站、内容组合等策略，指导创业者通过内容变现和用户需求解决实现盈利。",
+    "keywords": [
+      "网站创业",
+      "内容变现",
+      "工具型网站",
+      "创业方向",
+      "互联网商业"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "创业"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:35:44.759917Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.319
+}

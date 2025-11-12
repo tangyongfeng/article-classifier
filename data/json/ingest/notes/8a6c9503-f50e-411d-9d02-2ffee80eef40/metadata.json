@@ -77,7 +77,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f0a95fd2-6e0b-482f-ac2b-af7fd195a3ac",
+      "note_id": "8a6c9503-f50e-411d-9d02-2ffee80eef40",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "在Ubuntu 16.04上编译dlib库以启用CUDA支持，提升人脸识别等应用性能。",
+        "keywords": [
+          "dlib",
+          "CUDA",
+          "编译",
+          "机器学习",
+          "人脸识别"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:23:53.121757Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.316
+    }
+  ],
   "journal": {
     "id": "4ce04776-5ae8-4c41-a5ef-29920581d59c",
     "note_id": "8a6c9503-f50e-411d-9d02-2ffee80eef40",
@@ -100,5 +129,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:23:53.121564Z",
+    "latency_seconds": 24.94019679108169,
+    "attempts": 1,
+    "summary": {
+      "summary": "在Ubuntu 16.04上编译dlib库以启用CUDA支持，提升人脸识别等应用性能。",
+      "keywords": [
+        "dlib",
+        "CUDA",
+        "编译",
+        "机器学习",
+        "人脸识别"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.316,
+      "metrics": {
+        "input_chars": 2261.0,
+        "input_lines": 114.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.019,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 135.7
+      }
+    }
   }
 }

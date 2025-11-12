@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "abada016-5db7-4d96-ba4a-c04802dbd964",
+      "note_id": "28b01dc5-f52d-475b-ad2f-76c8545fe978",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 开发OpenWrt路由器上LuCI的模块-lwchsz-ChinaUnix博客 updated: 2015-12-16 00:24:26Z",
+        "keywords": [
+          "---",
+          "title: 开发OpenWrt路由器上LuCI的模块-lwchsz-ChinaUnix博客",
+          "updated: 2015-12-16 00:24:26Z",
+          "created: 2015-12-16 00:24:26Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:56:04.054694Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "f2411e96-fa3e-43ef-bb0b-f16cd48c2731",
     "note_id": "28b01dc5-f52d-475b-ad2f-76c8545fe978",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T16:56:04.054256Z",
+    "latency_seconds": 24.33099991607014,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 开发OpenWrt路由器上LuCI的模块-lwchsz-ChinaUnix博客 updated: 2015-12-16 00:24:26Z",
+      "keywords": [
+        "---",
+        "title: 开发OpenWrt路由器上LuCI的模块-lwchsz-ChinaUnix博客",
+        "updated: 2015-12-16 00:24:26Z",
+        "created: 2015-12-16 00:24:26Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 8291.0,
+        "input_lines": 702.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.01,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 497.5
+      }
+    }
   }
 }

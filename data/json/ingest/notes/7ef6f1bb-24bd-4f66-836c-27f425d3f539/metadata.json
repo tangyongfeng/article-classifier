@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6cbfc589-891f-4453-a82d-6f8a1c9cffb3",
+      "note_id": "7ef6f1bb-24bd-4f66-836c-27f425d3f539",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本笔记总结德语常用动词的变位规则，涵盖不同人称和时态，适用于语言学习者掌握动词变化应用。",
+        "keywords": [
+          "德语",
+          "动词变位",
+          "语法",
+          "语言学习",
+          "变位规则"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Verb Conjugation"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:30:56.578604Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.398
+    }
+  ],
   "journal": {
     "id": "481d4a5f-b50a-4c53-a79c-be4304c8b4a3",
     "note_id": "7ef6f1bb-24bd-4f66-836c-27f425d3f539",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:30:56.578444Z",
+    "latency_seconds": 33.231783416937105,
+    "attempts": 1,
+    "summary": {
+      "summary": "本笔记总结德语常用动词的变位规则，涵盖不同人称和时态，适用于语言学习者掌握动词变化应用。",
+      "keywords": [
+        "德语",
+        "动词变位",
+        "语法",
+        "语言学习",
+        "变位规则"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Verb Conjugation"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.398,
+      "metrics": {
+        "input_chars": 81.0,
+        "input_lines": 5.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.543,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.9
+      }
+    }
   }
 }

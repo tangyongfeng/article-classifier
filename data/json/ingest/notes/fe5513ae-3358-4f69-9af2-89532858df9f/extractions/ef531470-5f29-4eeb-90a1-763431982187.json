@@ -1,0 +1,28 @@
+{
+  "id": "ef531470-5f29-4eeb-90a1-763431982187",
+  "note_id": "fe5513ae-3358-4f69-9af2-89532858df9f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "silkpay支付服务登录信息：用户名evali@jlgmbh.de，密码JIALI2022，PIN码6688，网站https://www.silkpay.eu",
+    "keywords": [
+      "silkpay",
+      "payment",
+      "login",
+      "password",
+      "PIN"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T11:27:12.802643Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.46
+}

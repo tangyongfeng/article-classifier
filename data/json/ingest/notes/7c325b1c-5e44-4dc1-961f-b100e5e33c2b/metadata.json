@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c1c56257-60ce-4ddf-b695-c77c5a73df75",
+      "note_id": "7c325b1c-5e44-4dc1-961f-b100e5e33c2b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "汇总多个免费体育赛事直播网站链接，涵盖足球、篮球等赛事观看。",
+        "keywords": [
+          "免费",
+          "直播",
+          "体育",
+          "足球",
+          "网站"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:04:26.818077Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.218
+    }
+  ],
   "journal": {
     "id": "c3eb03d4-569f-46ea-b653-f5cb6d6476fa",
     "note_id": "7c325b1c-5e44-4dc1-961f-b100e5e33c2b",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:04:26.817946Z",
+    "latency_seconds": 31.6346452080179,
+    "attempts": 2,
+    "summary": {
+      "summary": "汇总多个免费体育赛事直播网站链接，涵盖足球、篮球等赛事观看。",
+      "keywords": [
+        "免费",
+        "直播",
+        "体育",
+        "足球",
+        "网站"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.218,
+      "metrics": {
+        "input_chars": 482.0,
+        "input_lines": 29.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.062,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 28.9
+      }
+    }
   }
 }

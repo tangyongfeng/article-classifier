@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0df0ac4c-be96-4179-930d-610da4f84d8c",
+      "note_id": "e2eea9e9-bd84-46a2-bdcc-e53a069a57a7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "2017年德国年轻人常用APP盘点，涵盖社交（WhatsApp）、学习（Memrise）及新闻（Spiegel、Tagesschau）类应用，重点推荐Memri",
+        "keywords": [
+          "App",
+          "德国",
+          "WhatsApp",
+          "Memrise",
+          "德语学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:09:38.553302Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.328
+    }
+  ],
   "journal": {
     "id": "12463b46-ab39-4e15-8505-bece92e2ac34",
     "note_id": "e2eea9e9-bd84-46a2-bdcc-e53a069a57a7",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:09:38.553116Z",
+    "latency_seconds": 52.406814167043194,
+    "attempts": 1,
+    "summary": {
+      "summary": "2017年德国年轻人常用APP盘点，涵盖社交（WhatsApp）、学习（Memrise）及新闻（Spiegel、Tagesschau）类应用，重点推荐Memri",
+      "keywords": [
+        "App",
+        "德国",
+        "WhatsApp",
+        "Memrise",
+        "德语学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.328,
+      "metrics": {
+        "input_chars": 1866.0,
+        "input_lines": 77.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.043,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 112.0
+      }
+    }
   }
 }

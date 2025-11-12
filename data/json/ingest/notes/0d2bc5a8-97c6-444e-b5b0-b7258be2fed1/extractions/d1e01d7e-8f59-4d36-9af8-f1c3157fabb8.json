@@ -1,0 +1,31 @@
+{
+  "id": "d1e01d7e-8f59-4d36-9af8-f1c3157fabb8",
+  "note_id": "0d2bc5a8-97c6-444e-b5b0-b7258be2fed1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "糖尿病是胰岛素不足导致的代谢疾病，分1型、2型及妊娠期，症状包括三多一少，诊断基于血糖值标准。",
+    "keywords": [
+      "糖尿病",
+      "胰岛素",
+      "血糖",
+      "1型",
+      "诊断标准"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "健康",
+      "疾病",
+      "糖尿病"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:50:07.148701Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.404
+}

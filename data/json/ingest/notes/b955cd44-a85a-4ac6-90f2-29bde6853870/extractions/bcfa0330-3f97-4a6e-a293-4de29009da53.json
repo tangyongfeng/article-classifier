@@ -1,0 +1,28 @@
+{
+  "id": "bcfa0330-3f97-4a6e-a293-4de29009da53",
+  "note_id": "b955cd44-a85a-4ac6-90f2-29bde6853870",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "在Ubuntu系统中编译GNUARM和OsmocomBB环境，用于GSM安全测试，支持固件刷写和基站扫描操作。",
+    "keywords": [
+      "GNUARM",
+      "OsmocomBB",
+      "编译",
+      "GSM安全",
+      "固件刷写"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:58:01.073514Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.373
+}

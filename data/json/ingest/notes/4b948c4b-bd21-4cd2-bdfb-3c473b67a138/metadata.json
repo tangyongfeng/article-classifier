@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f9252d27-ef4e-4272-9098-a8fc89d3e501",
+      "note_id": "4b948c4b-bd21-4cd2-bdfb-3c473b67a138",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容为用德语给家教（nachhilfen）写信预约时间，属于德语学习中的日常沟通应用，归入语言学习类下的德语子类。",
+        "keywords": [
+          "德语",
+          "家教",
+          "写信",
+          "预约",
+          "时间"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:40:34.592268Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.497
+    }
+  ],
   "journal": {
     "id": "357f5f0c-ff34-4f61-a96d-26723792a04f",
     "note_id": "4b948c4b-bd21-4cd2-bdfb-3c473b67a138",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:40:34.592114Z",
+    "latency_seconds": 19.75545029202476,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容为用德语给家教（nachhilfen）写信预约时间，属于德语学习中的日常沟通应用，归入语言学习类下的德语子类。",
+      "keywords": [
+        "德语",
+        "家教",
+        "写信",
+        "预约",
+        "时间"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.497,
+      "metrics": {
+        "input_chars": 95.0,
+        "input_lines": 6.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.621,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.7
+      }
+    }
   }
 }

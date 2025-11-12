@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "da986a7e-0df8-4685-9c08-510e89cbf502",
+      "note_id": "3af625fa-8ee2-41dc-bf73-c37b6a9963ef",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: hynnet/openwrt-mt7620 updated: 2018-11-14 06:47:42Z created: 2018-11-",
+        "keywords": [
+          "---",
+          "title: hynnet/openwrt-mt7620",
+          "updated: 2018-11-14 06:47:42Z",
+          "created: 2018-11-14 06:47:42Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:09:24.871925Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "817148c1-e35c-4d4d-ac3f-8f713b0c03ed",
     "note_id": "3af625fa-8ee2-41dc-bf73-c37b6a9963ef",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T18:09:24.870269Z",
+    "latency_seconds": 15.062514167046174,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: hynnet/openwrt-mt7620 updated: 2018-11-14 06:47:42Z created: 2018-11-",
+      "keywords": [
+        "---",
+        "title: hynnet/openwrt-mt7620",
+        "updated: 2018-11-14 06:47:42Z",
+        "created: 2018-11-14 06:47:42Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 50555.0,
+        "input_lines": 4079.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.002,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 3033.3
+      }
+    }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "cbd4605e-6d85-4b53-8c68-b7696a9bf05f",
+  "note_id": "6ef0d72a-9255-45ac-96cc-1273147c6be6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "马耳他华人移民主要在餐饮、超市零售、旅游等传统行业及专业服务、5G等新兴领域创业，体现勤奋创新精神。",
+    "keywords": [
+      "马耳他",
+      "华人移民",
+      "餐饮业",
+      "超市零售",
+      "专业服务"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:01:00.657706Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.383
+}

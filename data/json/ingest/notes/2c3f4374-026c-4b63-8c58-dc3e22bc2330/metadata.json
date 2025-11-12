@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "49c5c26e-2fdc-4c71-ba51-4f2a7b0073f1",
+      "note_id": "2c3f4374-026c-4b63-8c58-dc3e22bc2330",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "OpenCV视频处理中通过VideoCapture::set方法设置帧位置的API使用说明，涉及帧索引和时间参数配置。",
+        "keywords": [
+          "OpenCV",
+          "视频处理",
+          "帧定位",
+          "API",
+          "VideoCapture"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:08:52.235773Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.198
+    }
+  ],
   "journal": {
     "id": "0511b58e-80e7-4803-a6fd-65d4bc9f0702",
     "note_id": "2c3f4374-026c-4b63-8c58-dc3e22bc2330",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:08:52.235577Z",
+    "latency_seconds": 15.1456285410095,
+    "attempts": 2,
+    "summary": {
+      "summary": "OpenCV视频处理中通过VideoCapture::set方法设置帧位置的API使用说明，涉及帧索引和时间参数配置。",
+      "keywords": [
+        "OpenCV",
+        "视频处理",
+        "帧定位",
+        "API",
+        "VideoCapture"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.198,
+      "metrics": {
+        "input_chars": 2585.0,
+        "input_lines": 102.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.023,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 155.1
+      }
+    }
   }
 }

@@ -1,0 +1,30 @@
+{
+  "id": "667f10d2-633a-400f-b6cd-879739d78005",
+  "note_id": "19375356-4fe7-482d-a9f8-c3c0cfcae0dd",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容涉及垃圾袋、小米产品、大米及挂钩等日常用品信息，与家居生活相关。",
+    "keywords": [
+      "垃圾袋",
+      "小米",
+      "大米",
+      "挂钩",
+      "日常用品"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "城市生活",
+      "家居用品"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:40:16.281534Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.514
+}

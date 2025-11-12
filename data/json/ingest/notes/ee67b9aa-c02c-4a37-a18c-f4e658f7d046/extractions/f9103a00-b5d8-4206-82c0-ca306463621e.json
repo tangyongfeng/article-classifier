@@ -1,0 +1,28 @@
+{
+  "id": "f9103a00-b5d8-4206-82c0-ca306463621e",
+  "note_id": "ee67b9aa-c02c-4a37-a18c-f4e658f7d046",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美国法律咨询，涉及重婚指控、离婚程序、孩子监护及财产分割，提供律师事务所信息。",
+    "keywords": [
+      "重婚",
+      "离婚",
+      "律师事务所",
+      "孩子监护",
+      "财产分割"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social",
+      "Family Discussions"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:04:32.934344Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.263
+}

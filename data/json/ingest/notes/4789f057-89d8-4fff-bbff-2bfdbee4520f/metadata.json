@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4538b6cb-2d9d-4cf4-9293-86705e6d0be9",
+      "note_id": "4789f057-89d8-4fff-bbff-2bfdbee4520f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录莫妮卡之家三语幼儿园家长会，介绍三语（中英韩）教学环境、音乐语言结合理念、小班制管理及生活语言学习方法。",
+        "keywords": [
+          "三语教育",
+          "家长会",
+          "音乐语言结合",
+          "生活语言学习",
+          "小班教学"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:21:51.536451Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.153
+    }
+  ],
   "journal": {
     "id": "df47f475-2f60-4731-805a-f5df6785e562",
     "note_id": "4789f057-89d8-4fff-bbff-2bfdbee4520f",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:21:51.536238Z",
+    "latency_seconds": 22.176553124911152,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录莫妮卡之家三语幼儿园家长会，介绍三语（中英韩）教学环境、音乐语言结合理念、小班制管理及生活语言学习方法。",
+      "keywords": [
+        "三语教育",
+        "家长会",
+        "音乐语言结合",
+        "生活语言学习",
+        "小班教学"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.153,
+      "metrics": {
+        "input_chars": 1021.0,
+        "input_lines": 45.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.053,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 61.3
+      }
+    }
   }
 }

@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "dc1aa467-db6d-4b55-bbf6-52b8faf2afce",
+      "note_id": "9c69da5a-4713-489f-9956-5aa955d89c57",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "介绍Python库pydub用于音频处理，实现音频剪切、基于静音分割单词（适用于语言学习）及慢速播放功能。",
+        "keywords": [
+          "pydub",
+          "音频处理",
+          "静音分割",
+          "Python",
+          "音频剪切"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:46:07.894085Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.313
+    }
+  ],
   "journal": {
     "id": "19ce0c38-d8a9-427b-81f7-ade78b82aa06",
     "note_id": "9c69da5a-4713-489f-9956-5aa955d89c57",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:46:07.893763Z",
+    "latency_seconds": 41.31860533403233,
+    "attempts": 1,
+    "summary": {
+      "summary": "介绍Python库pydub用于音频处理，实现音频剪切、基于静音分割单词（适用于语言学习）及慢速播放功能。",
+      "keywords": [
+        "pydub",
+        "音频处理",
+        "静音分割",
+        "Python",
+        "音频剪切"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.313,
+      "metrics": {
+        "input_chars": 4259.0,
+        "input_lines": 373.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.012,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 255.5
+      }
+    }
   }
 }

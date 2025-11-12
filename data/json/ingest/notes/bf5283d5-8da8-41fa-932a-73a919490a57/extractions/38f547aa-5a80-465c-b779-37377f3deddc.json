@@ -1,0 +1,27 @@
+{
+  "id": "38f547aa-5a80-465c-b779-37377f3deddc",
+  "note_id": "bf5283d5-8da8-41fa-932a-73a919490a57",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "海南彩票游戏规则总结：涵盖长城拼图、海南珍宝、足球三猜、赛马等玩法，描述投注方式、中奖条件及75%返奖比例。",
+    "keywords": [
+      "彩票",
+      "投注",
+      "中奖",
+      "奖金",
+      "规则"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:45:47.772756Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.273
+}

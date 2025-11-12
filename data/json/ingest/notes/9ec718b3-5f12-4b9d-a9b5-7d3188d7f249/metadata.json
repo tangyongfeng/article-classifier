@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7cdd98f1-55d7-4389-963e-07c0d863520f",
+      "note_id": "9ec718b3-5f12-4b9d-a9b5-7d3188d7f249",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "基于WiFi和RFID技术的室内定位算法，融合LANDMARC与三边定位，实现1.5米定位精度。",
+        "keywords": [
+          "WiFi",
+          "RFID",
+          "定位算法",
+          "LANDMARC",
+          "三边定位"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:00:35.554094Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.374
+    }
+  ],
   "journal": {
     "id": "156ebc2b-425e-4948-bf75-c23395b084bd",
     "note_id": "9ec718b3-5f12-4b9d-a9b5-7d3188d7f249",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:00:35.553518Z",
+    "latency_seconds": 24.900193458073772,
+    "attempts": 1,
+    "summary": {
+      "summary": "基于WiFi和RFID技术的室内定位算法，融合LANDMARC与三边定位，实现1.5米定位精度。",
+      "keywords": [
+        "WiFi",
+        "RFID",
+        "定位算法",
+        "LANDMARC",
+        "三边定位"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.374,
+      "metrics": {
+        "input_chars": 3359.0,
+        "input_lines": 54.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.014,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 201.5
+      }
+    }
   }
 }

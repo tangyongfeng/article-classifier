@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0ed1c265-b626-4504-99c3-19e6275e55bf",
+      "note_id": "66aa276c-543f-44a9-941e-8ba49e529c89",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "小市值选股策略聚焦于低市值公司分析，结合财务指标与市场趋势，旨在发掘高增长潜力的投资标的，属于股票市场分析范畴。",
+        "keywords": [
+          "小市值",
+          "选股策略",
+          "股票市场分析",
+          "公司分析",
+          "投资策略"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:24:03.151635Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.528
+    }
+  ],
   "journal": {
     "id": "ab7bbfb3-6ae8-476f-9e48-8e66346a523b",
     "note_id": "66aa276c-543f-44a9-941e-8ba49e529c89",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:24:03.151485Z",
+    "latency_seconds": 13.21848941699136,
+    "attempts": 1,
+    "summary": {
+      "summary": "小市值选股策略聚焦于低市值公司分析，结合财务指标与市场趋势，旨在发掘高增长潜力的投资标的，属于股票市场分析范畴。",
+      "keywords": [
+        "小市值",
+        "选股策略",
+        "股票市场分析",
+        "公司分析",
+        "投资策略"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.528,
+      "metrics": {
+        "input_chars": 82.0,
+        "input_lines": 5.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.683,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.9
+      }
+    }
   }
 }

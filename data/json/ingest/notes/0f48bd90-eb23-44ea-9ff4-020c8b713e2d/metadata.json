@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1f45279c-9fe5-4f06-9628-52faef64a3b8",
+      "note_id": "0f48bd90-eb23-44ea-9ff4-020c8b713e2d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记列出了美国加利福尼亚州圣何塞地区的多个购物地点，包括Macy's、Nordstrom、Coach等商店信息。",
+        "keywords": [
+          "购物",
+          "圣何塞",
+          "Macy's",
+          "Nordstrom",
+          "商店"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:07:35.556704Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.319
+    }
+  ],
   "journal": {
     "id": "b98a44be-2bea-496a-b24a-b1ec6ef125fb",
     "note_id": "0f48bd90-eb23-44ea-9ff4-020c8b713e2d",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:07:35.556542Z",
+    "latency_seconds": 35.46995316701941,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记列出了美国加利福尼亚州圣何塞地区的多个购物地点，包括Macy's、Nordstrom、Coach等商店信息。",
+      "keywords": [
+        "购物",
+        "圣何塞",
+        "Macy's",
+        "Nordstrom",
+        "商店"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.319,
+      "metrics": {
+        "input_chars": 390.0,
+        "input_lines": 13.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.144,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.4
+      }
+    }
   }
 }

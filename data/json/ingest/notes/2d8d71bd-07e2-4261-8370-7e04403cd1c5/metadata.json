@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "76c49175-b9eb-4cf4-8e43-dc5c94cb0ef1",
+      "note_id": "2d8d71bd-07e2-4261-8370-7e04403cd1c5",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 为什么投资日本 updated: 2018-08-31 09:28:21Z created: 2018-08-31 09:28:04Z a",
+        "keywords": [
+          "---",
+          "title: 为什么投资日本",
+          "updated: 2018-08-31 09:28:21Z",
+          "created: 2018-08-31 09:28:04Z",
+          "author: tangyongfeng"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:14:33.407010Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.15
+    }
+  ],
   "journal": {
     "id": "8933a77a-d979-419d-9221-e425add85ca4",
     "note_id": "2d8d71bd-07e2-4261-8370-7e04403cd1c5",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T17:14:33.406668Z",
+    "latency_seconds": 66.81337208300829,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 为什么投资日本 updated: 2018-08-31 09:28:21Z created: 2018-08-31 09:28:04Z a",
+      "keywords": [
+        "---",
+        "title: 为什么投资日本",
+        "updated: 2018-08-31 09:28:21Z",
+        "created: 2018-08-31 09:28:04Z",
+        "author: tangyongfeng"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.15,
+      "metrics": {
+        "input_chars": 5417.0,
+        "input_lines": 185.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.015,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 325.0
+      }
+    }
   }
 }

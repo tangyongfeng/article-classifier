@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fcefc06b-f6a2-478e-99fe-44d164ea28e8",
+      "note_id": "dfe9a83c-5527-4337-a9c9-81e739470512",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "快乐激素指内啡肽等促进愉悦感的神经递质，与心理健康及生理学密切相关。",
+        "keywords": [
+          "内啡肽",
+          "神经递质",
+          "心理健康",
+          "生理学",
+          "快乐激素"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展"
+        ],
+        "new_category_suggestion": [
+          "Health > Physiology"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:48:12.169927Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.342
+    }
+  ],
   "journal": {
     "id": "01410dd5-17a3-4e55-ad34-7324d41a95b3",
     "note_id": "dfe9a83c-5527-4337-a9c9-81e739470512",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:48:12.169766Z",
+    "latency_seconds": 40.73773645795882,
+    "attempts": 1,
+    "summary": {
+      "summary": "快乐激素指内啡肽等促进愉悦感的神经递质，与心理健康及生理学密切相关。",
+      "keywords": [
+        "内啡肽",
+        "神经递质",
+        "心理健康",
+        "生理学",
+        "快乐激素"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展"
+      ],
+      "new_category_suggestion": [
+        "Health > Physiology"
+      ]
+    },
+    "quality": {
+      "score": 0.342,
+      "metrics": {
+        "input_chars": 79.0,
+        "input_lines": 5.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.43,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.7
+      }
+    }
   }
 }

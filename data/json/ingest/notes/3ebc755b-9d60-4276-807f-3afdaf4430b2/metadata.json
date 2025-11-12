@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fa445ae5-46e0-49bf-87d6-ee28381c6d35",
+      "note_id": "3ebc755b-9d60-4276-807f-3afdaf4430b2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "介绍莱茵河地区（德国）葡萄酒旅游体验，涉及季节性销售及当地酒类信息，属于旅游体验范畴。",
+        "keywords": [
+          "莱茵河",
+          "葡萄酒",
+          "旅游",
+          "德国",
+          "产区"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:24:39.035484Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.371
+    }
+  ],
   "journal": {
     "id": "367cd39a-1232-412a-a342-1498222e026c",
     "note_id": "3ebc755b-9d60-4276-807f-3afdaf4430b2",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:24:39.035375Z",
+    "latency_seconds": 12.086480166995898,
+    "attempts": 1,
+    "summary": {
+      "summary": "介绍莱茵河地区（德国）葡萄酒旅游体验，涉及季节性销售及当地酒类信息，属于旅游体验范畴。",
+      "keywords": [
+        "莱茵河",
+        "葡萄酒",
+        "旅游",
+        "德国",
+        "产区"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.371,
+      "metrics": {
+        "input_chars": 117.0,
+        "input_lines": 7.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.368,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.0
+      }
+    }
   }
 }

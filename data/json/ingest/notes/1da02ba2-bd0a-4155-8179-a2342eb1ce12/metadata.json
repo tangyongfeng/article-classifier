@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "73e3cbb3-b84f-4216-9bbb-478d7c570c22",
+      "note_id": "1da02ba2-bd0a-4155-8179-a2342eb1ce12",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "李佳同学聚会的安排讨论，涉及时间确认、联系方式及是否带家属。",
+        "keywords": [
+          "同学聚会",
+          "时间确认",
+          "联系方式",
+          "家属",
+          "社交活动"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:11:41.306034Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.266
+    }
+  ],
   "journal": {
     "id": "0ef4d440-599e-4533-8d6c-ae62d10a25e5",
     "note_id": "1da02ba2-bd0a-4155-8179-a2342eb1ce12",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:11:41.305875Z",
+    "latency_seconds": 24.039928875048645,
+    "attempts": 2,
+    "summary": {
+      "summary": "李佳同学聚会的安排讨论，涉及时间确认、联系方式及是否带家属。",
+      "keywords": [
+        "同学聚会",
+        "时间确认",
+        "联系方式",
+        "家属",
+        "社交活动"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.266,
+      "metrics": {
+        "input_chars": 189.0,
+        "input_lines": 10.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.159,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.3
+      }
+    }
   }
 }

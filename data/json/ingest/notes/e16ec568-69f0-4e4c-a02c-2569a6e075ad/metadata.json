@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "84c7face-0c48-4d99-99e6-32cfc45745b3",
+      "note_id": "e16ec568-69f0-4e4c-a02c-2569a6e075ad",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 华为概念股 updated: 2021-03-29 23:37:04Z created: 2021-01-27 14:03:47Z sou",
+        "keywords": [
+          "---",
+          "title: 华为概念股",
+          "updated: 2021-03-29 23:37:04Z",
+          "created: 2021-01-27 14:03:47Z",
+          "source: http://m.yuncaijing.com/concept/1968.html"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:00:35.237643Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "46847374-1995-4639-b414-16c94a5c775d",
     "note_id": "e16ec568-69f0-4e4c-a02c-2569a6e075ad",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T09:00:35.236939Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 华为概念股 updated: 2021-03-29 23:37:04Z created: 2021-01-27 14:03:47Z sou",
+      "keywords": [
+        "---",
+        "title: 华为概念股",
+        "updated: 2021-03-29 23:37:04Z",
+        "created: 2021-01-27 14:03:47Z",
+        "source: http://m.yuncaijing.com/concept/1968.html"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 9655.0,
+        "input_lines": 296.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.008,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 579.3
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2eaddde8-5887-4dbb-94cf-0ef290171bb6",
+      "note_id": "44f719eb-217f-4920-a861-60fe88ddfe4b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国邮寄中国包裹海关规定：奶粉2.5kg以下免税，5kg以下缴税10%；数码类完税价2000元起，税率10%；个人邮寄限值1000元。",
+        "keywords": [
+          "德国",
+          "邮寄",
+          "海关",
+          "税率",
+          "免税"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:53:45.276257Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.404
+    }
+  ],
   "journal": {
     "id": "6544307e-46c7-4b37-aaf6-5a57f235f2c8",
     "note_id": "44f719eb-217f-4920-a861-60fe88ddfe4b",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:53:45.275998Z",
+    "latency_seconds": 29.74925404204987,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国邮寄中国包裹海关规定：奶粉2.5kg以下免税，5kg以下缴税10%；数码类完税价2000元起，税率10%；个人邮寄限值1000元。",
+      "keywords": [
+        "德国",
+        "邮寄",
+        "海关",
+        "税率",
+        "免税"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.404,
+      "metrics": {
+        "input_chars": 891.0,
+        "input_lines": 36.0,
+        "summary_chars": 67.0,
+        "summary_coverage_ratio": 0.075,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 53.5
+      }
+    }
   }
 }

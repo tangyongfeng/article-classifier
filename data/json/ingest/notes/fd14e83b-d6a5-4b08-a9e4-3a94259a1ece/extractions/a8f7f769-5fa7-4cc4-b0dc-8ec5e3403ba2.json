@@ -1,0 +1,27 @@
+{
+  "id": "a8f7f769-5fa7-4cc4-b0dc-8ec5e3403ba2",
+  "note_id": "fd14e83b-d6a5-4b08-a9e4-3a94259a1ece",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "平安保险投保期150天，从4月1日至8月29日，两份保险合计1987元。",
+    "keywords": [
+      "保险",
+      "投保",
+      "期限",
+      "价格",
+      "平安"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T11:16:40.850627Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.424
+}

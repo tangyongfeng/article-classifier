@@ -1,0 +1,30 @@
+{
+  "id": "943aa307-c42b-4c15-bb7c-4006f08c9885",
+  "note_id": "d1d190ae-a4cc-4e65-93a1-3b2dde3fe156",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "授权书邮寄单号信息，包含运单编号RR31059415DE，用于文件邮寄追踪。",
+    "keywords": [
+      "授权书",
+      "邮寄单号",
+      "运单编号",
+      "RR31059415DE",
+      "文件邮寄"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Unclassified",
+      "文件邮寄"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:33:05.834823Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.32
+}

@@ -1,0 +1,29 @@
+{
+  "id": "ea3a09c3-7955-4bfd-86f0-2f9298569e88",
+  "note_id": "4d405924-116c-4bea-b9d1-4138641be48a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记推荐希腊雅典作为旅游目的地，强调其环境、历史、消费等综合优势，并提及在格力法达富人区购房经历。",
+    "keywords": [
+      "希腊",
+      "雅典",
+      "旅游体验",
+      "富人区",
+      "房产"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:02:57.320889Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.319
+}

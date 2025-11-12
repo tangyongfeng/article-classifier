@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "976f83c0-d265-4b19-ac40-b4f5d2c53c99",
+      "note_id": "954ceb20-fcc7-4ea5-afc3-83bbd99ef372",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "工作分期表规划网站功能，涵盖会员中心、论坛运营（含技术内容与合买服务），旨在服务彩民需求。",
+        "keywords": [
+          "网站",
+          "会员中心",
+          "论坛",
+          "技术内容",
+          "合买"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:17:29.602789Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.412
+    }
+  ],
   "journal": {
     "id": "442c9b9c-5b97-490b-87d5-108c1e351298",
     "note_id": "954ceb20-fcc7-4ea5-afc3-83bbd99ef372",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:17:29.602536Z",
+    "latency_seconds": 41.88433087489102,
+    "attempts": 1,
+    "summary": {
+      "summary": "工作分期表规划网站功能，涵盖会员中心、论坛运营（含技术内容与合买服务），旨在服务彩民需求。",
+      "keywords": [
+        "网站",
+        "会员中心",
+        "论坛",
+        "技术内容",
+        "合买"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.412,
+      "metrics": {
+        "input_chars": 214.0,
+        "input_lines": 15.0,
+        "summary_chars": 45.0,
+        "summary_coverage_ratio": 0.21,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.8
+      }
+    }
   }
 }

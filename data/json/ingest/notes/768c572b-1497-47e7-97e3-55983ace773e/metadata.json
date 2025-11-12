@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d69c934a-d144-45e5-a7b2-86b66f1f9cb8",
+      "note_id": "768c572b-1497-47e7-97e3-55983ace773e",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: Apache性能基准测试 updated: 2012-05-21 02:33:06Z created: 2012-05-21 02:31:",
+        "keywords": [
+          "---",
+          "title: Apache性能基准测试",
+          "updated: 2012-05-21 02:33:06Z",
+          "created: 2012-05-21 02:31:52Z",
+          "tags:"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:47:23.890105Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "e54da0ef-9ea5-4c54-bf21-9df9f9dc001b",
     "note_id": "768c572b-1497-47e7-97e3-55983ace773e",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T23:47:23.889679Z",
+    "latency_seconds": 58.708542666980065,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: Apache性能基准测试 updated: 2012-05-21 02:33:06Z created: 2012-05-21 02:31:",
+      "keywords": [
+        "---",
+        "title: Apache性能基准测试",
+        "updated: 2012-05-21 02:33:06Z",
+        "created: 2012-05-21 02:31:52Z",
+        "tags:"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 8740.0,
+        "input_lines": 250.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.009,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 524.4
+      }
+    }
   }
 }

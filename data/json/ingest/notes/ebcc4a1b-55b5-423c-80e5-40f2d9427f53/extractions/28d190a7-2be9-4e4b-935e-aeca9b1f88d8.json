@@ -1,0 +1,28 @@
+{
+  "id": "28d190a7-2be9-4e4b-935e-aeca9b1f88d8",
+  "note_id": "ebcc4a1b-55b5-423c-80e5-40f2d9427f53",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "家人卦出自《易经》，阐释家庭成员间的和谐关系与责任规范。爻辞强调'利女贞'、'有孚威如'等，指导家庭内部管理与相处之道。",
+    "keywords": [
+      "家人卦",
+      "易经",
+      "家庭管理",
+      "爻辞",
+      "和谐"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social",
+      "Family Relationships"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:53:08.042457Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.24
+}

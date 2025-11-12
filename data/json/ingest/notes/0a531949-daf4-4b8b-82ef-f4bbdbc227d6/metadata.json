@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "aadb1511-4cff-4183-9372-ba50a80671df",
+      "note_id": "0a531949-daf4-4b8b-82ef-f4bbdbc227d6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记阐述演说家通过极端情感、重复和情绪化表达影响群体的心理机制，强调避免理性论证，依赖情感煽动技巧。",
+        "keywords": [
+          "群体心理",
+          "演说技巧",
+          "极端感情",
+          "公众集会",
+          "论说技巧"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": [
+          "Social",
+          "Public Speaking"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:19:58.475954Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.372
+    }
+  ],
   "journal": {
     "id": "49831e3f-c313-48d4-9b50-a207431cbfa9",
     "note_id": "0a531949-daf4-4b8b-82ef-f4bbdbc227d6",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:19:58.475804Z",
+    "latency_seconds": 22.93122766702436,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记阐述演说家通过极端情感、重复和情绪化表达影响群体的心理机制，强调避免理性论证，依赖情感煽动技巧。",
+      "keywords": [
+        "群体心理",
+        "演说技巧",
+        "极端感情",
+        "公众集会",
+        "论说技巧"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": [
+        "Social",
+        "Public Speaking"
+      ]
+    },
+    "quality": {
+      "score": 0.372,
+      "metrics": {
+        "input_chars": 199.0,
+        "input_lines": 6.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.251,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.9
+      }
+    }
   }
 }

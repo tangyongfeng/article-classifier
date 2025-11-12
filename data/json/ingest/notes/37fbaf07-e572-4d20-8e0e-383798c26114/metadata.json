@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "93f049aa-f136-455e-83f9-5754922b36a2",
+      "note_id": "37fbaf07-e572-4d20-8e0e-383798c26114",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "C#编程中处理DataGridViewComboBoxCell的DataSource设置及DataError事件响应的代码示例。",
+        "keywords": [
+          "C#",
+          "DataGridView",
+          "ComboBoxCell",
+          "DataSource",
+          "DataError"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:58:06.074134Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.461
+    }
+  ],
   "journal": {
     "id": "634d38b9-ed15-4288-bf6f-c9c61502c4b2",
     "note_id": "37fbaf07-e572-4d20-8e0e-383798c26114",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:58:06.073980Z",
+    "latency_seconds": 21.33764375001192,
+    "attempts": 1,
+    "summary": {
+      "summary": "C#编程中处理DataGridViewComboBoxCell的DataSource设置及DataError事件响应的代码示例。",
+      "keywords": [
+        "C#",
+        "DataGridView",
+        "ComboBoxCell",
+        "DataSource",
+        "DataError"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.461,
+      "metrics": {
+        "input_chars": 338.0,
+        "input_lines": 19.0,
+        "summary_chars": 64.0,
+        "summary_coverage_ratio": 0.189,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 20.3
+      }
+    }
   }
 }

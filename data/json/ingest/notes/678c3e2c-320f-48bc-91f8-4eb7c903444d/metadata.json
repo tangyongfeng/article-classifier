@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c860126a-e45c-4a3f-a1ae-d7d2eaaff0f4",
+      "note_id": "678c3e2c-320f-48bc-91f8-4eb7c903444d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Odoo软件配置流程，包括发票设置、税率配置及银行账户建立。",
+        "keywords": [
+          "Odoo",
+          "配置",
+          "发票",
+          "税率",
+          "银行"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "商务",
+          "软件配置",
+          "Odoo"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:25:31.300793Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.463
+    }
+  ],
   "journal": {
     "id": "6bb07b18-4eb5-4e01-a84e-b8cc69820f86",
     "note_id": "678c3e2c-320f-48bc-91f8-4eb7c903444d",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:25:31.300665Z",
+    "latency_seconds": 30.56346824998036,
+    "attempts": 1,
+    "summary": {
+      "summary": "Odoo软件配置流程，包括发票设置、税率配置及银行账户建立。",
+      "keywords": [
+        "Odoo",
+        "配置",
+        "发票",
+        "税率",
+        "银行"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "商务",
+        "软件配置",
+        "Odoo"
+      ]
+    },
+    "quality": {
+      "score": 0.463,
+      "metrics": {
+        "input_chars": 156.0,
+        "input_lines": 12.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.192,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.4
+      }
+    }
   }
 }

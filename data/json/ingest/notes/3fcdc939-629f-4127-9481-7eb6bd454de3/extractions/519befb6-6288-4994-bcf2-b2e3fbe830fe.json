@@ -1,0 +1,27 @@
+{
+  "id": "519befb6-6288-4994-bcf2-b2e3fbe830fe",
+  "note_id": "3fcdc939-629f-4127-9481-7eb6bd454de3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "国家领导人遭遇紧急情况需通过电话求助的事件，涉及公共安全与危机管理议题。",
+    "keywords": [
+      "国家领导人",
+      "求救电话",
+      "紧急求助",
+      "公共安全",
+      "危机管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:26:56.711788Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.299
+}

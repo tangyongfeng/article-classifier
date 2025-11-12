@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e3a0cbe3-8c1d-4f7f-91f7-96b3c9ddbd4d",
+      "note_id": "c5693ef6-81fd-4052-93f8-8c02a6b5ca57",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本笔记详细辨析德语动词liegen/legen、sitzen/setzen、stehen/stellen等状态动词与位移动词的用法区别，重点说明主语、介词及动词",
+        "keywords": [
+          "德语语法",
+          "动词辨析",
+          "状态动词",
+          "位移动词",
+          "语法差异"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:18:43.207646Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.213
+    }
+  ],
   "journal": {
     "id": "14a337a8-aa37-40ee-844d-8c1a8cdf6c5e",
     "note_id": "c5693ef6-81fd-4052-93f8-8c02a6b5ca57",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:18:43.207458Z",
+    "latency_seconds": 21.33527362497989,
+    "attempts": 1,
+    "summary": {
+      "summary": "本笔记详细辨析德语动词liegen/legen、sitzen/setzen、stehen/stellen等状态动词与位移动词的用法区别，重点说明主语、介词及动词",
+      "keywords": [
+        "德语语法",
+        "动词辨析",
+        "状态动词",
+        "位移动词",
+        "语法差异"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.213,
+      "metrics": {
+        "input_chars": 1516.0,
+        "input_lines": 40.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.053,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 91.0
+      }
+    }
   }
 }

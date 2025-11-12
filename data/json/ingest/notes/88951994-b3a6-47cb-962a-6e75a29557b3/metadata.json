@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "acbd9be7-82c0-47a4-9de2-90948425a700",
+      "note_id": "88951994-b3a6-47cb-962a-6e75a29557b3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "有妖气原创漫画平台提供签约创作与VIP分成收益渠道，支持作品授权、现金活动及增值功能，作者可通过多元方式获取收入。",
+        "keywords": [
+          "签约",
+          "VIP分成",
+          "作品授权",
+          "现金活动",
+          "增值功能"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:19:20.888719Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.396
+    }
+  ],
   "journal": {
     "id": "cba4b1ea-f115-47ca-8d2d-92f8272c1c0e",
     "note_id": "88951994-b3a6-47cb-962a-6e75a29557b3",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:19:20.888513Z",
+    "latency_seconds": 55.241723499959335,
+    "attempts": 1,
+    "summary": {
+      "summary": "有妖气原创漫画平台提供签约创作与VIP分成收益渠道，支持作品授权、现金活动及增值功能，作者可通过多元方式获取收入。",
+      "keywords": [
+        "签约",
+        "VIP分成",
+        "作品授权",
+        "现金活动",
+        "增值功能"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.396,
+      "metrics": {
+        "input_chars": 961.0,
+        "input_lines": 32.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.059,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 57.7
+      }
+    }
   }
 }

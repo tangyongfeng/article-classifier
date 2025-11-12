@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ddda5607-1093-4540-aa99-82db979c93c1",
+      "note_id": "dea510cc-0bac-40ae-a13d-1f06beead401",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "概述在美国创办公司并拓展业务的完整流程，包括公司注册、市场调研、行业展会参与及L1A职业移民规划。",
+        "keywords": [
+          "创业",
+          "公司注册",
+          "市场分析",
+          "行业展会",
+          "L1A移民"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业",
+          "公司注册"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:37:25.887988Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.222
+    }
+  ],
   "journal": {
     "id": "778f9bdc-e943-4bfb-8d26-cb446b0a35cb",
     "note_id": "dea510cc-0bac-40ae-a13d-1f06beead401",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:37:25.887847Z",
+    "latency_seconds": 28.655276583041996,
+    "attempts": 1,
+    "summary": {
+      "summary": "概述在美国创办公司并拓展业务的完整流程，包括公司注册、市场调研、行业展会参与及L1A职业移民规划。",
+      "keywords": [
+        "创业",
+        "公司注册",
+        "市场分析",
+        "行业展会",
+        "L1A移民"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业",
+        "公司注册"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.222,
+      "metrics": {
+        "input_chars": 256.0,
+        "input_lines": 16.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.191,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.4
+      }
+    }
   }
 }

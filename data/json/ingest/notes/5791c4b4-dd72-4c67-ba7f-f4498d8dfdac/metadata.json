@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "83daeffb-1857-4c1d-bcc7-2ccd25382db6",
+      "note_id": "5791c4b4-dd72-4c67-ba7f-f4498d8dfdac",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记包含身份证号码信息，属于身份证明文件，应归类至国家与地区相关分类。",
+        "keywords": [
+          "身份证",
+          "号码",
+          "身份信息",
+          "行政区划",
+          "中国"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:05:21.598662Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.233
+    }
+  ],
   "journal": {
     "id": "cfa357cc-602a-47e4-942b-591b73a3d634",
     "note_id": "5791c4b4-dd72-4c67-ba7f-f4498d8dfdac",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:05:21.598543Z",
+    "latency_seconds": 15.923692082986236,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记包含身份证号码信息，属于身份证明文件，应归类至国家与地区相关分类。",
+      "keywords": [
+        "身份证",
+        "号码",
+        "身份信息",
+        "行政区划",
+        "中国"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.233,
+      "metrics": {
+        "input_chars": 165.0,
+        "input_lines": 10.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.212,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.9
+      }
+    }
   }
 }

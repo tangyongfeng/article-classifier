@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2abafc28-410f-4fbf-bf19-0f0849d2f3fd",
+      "note_id": "f7e27d8f-18f8-4351-b7bc-d11e514027bb",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "父母对女性自强自立、家庭关系、经济独立的教导，强调生活态度与家庭责任。",
+        "keywords": [
+          "自强自立",
+          "家庭关系",
+          "经济独立",
+          "女性成长",
+          "生活态度"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Relationships"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:41:26.211358Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.205
+    }
+  ],
   "journal": {
     "id": "201804f3-fc4c-4753-bf31-b19dae260211",
     "note_id": "f7e27d8f-18f8-4351-b7bc-d11e514027bb",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:41:26.211201Z",
+    "latency_seconds": 17.239809834049083,
+    "attempts": 1,
+    "summary": {
+      "summary": "父母对女性自强自立、家庭关系、经济独立的教导，强调生活态度与家庭责任。",
+      "keywords": [
+        "自强自立",
+        "家庭关系",
+        "经济独立",
+        "女性成长",
+        "生活态度"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Relationships"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.205,
+      "metrics": {
+        "input_chars": 981.0,
+        "input_lines": 25.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.036,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 58.9
+      }
+    }
   }
 }

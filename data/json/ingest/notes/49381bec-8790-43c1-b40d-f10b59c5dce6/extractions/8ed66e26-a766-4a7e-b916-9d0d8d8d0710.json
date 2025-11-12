@@ -1,0 +1,29 @@
+{
+  "id": "8ed66e26-a766-4a7e-b916-9d0d8d8d0710",
+  "note_id": "49381bec-8790-43c1-b40d-f10b59c5dce6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语语法中时间从句的规则，涵盖als、wenn、bis等引导词的时态搭配及典型例句说明。",
+    "keywords": [
+      "德语",
+      "语法",
+      "时间从句",
+      "从句引导词",
+      "时态规则"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:27:59.026483Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.256
+}

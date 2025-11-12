@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "728e492a-30fa-44b6-9a58-95cfc2d47685",
+      "note_id": "94c22f63-e30c-4477-9d15-553deb89da93",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "中彩在线公司计划在欧洲设立海外公司，拓展博彩游戏销售与平台业务。分三阶段实施，涵盖公司注册、牌照申请、产品开发及广告投放，聚焦海外市场拓展。",
+        "keywords": [
+          "商业计划",
+          "海外业务",
+          "博彩",
+          "公司设立",
+          "资本规划"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:14:38.116374Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.285
+    }
+  ],
   "journal": {
     "id": "b1251944-1096-4c12-89c9-5dd736b24950",
     "note_id": "94c22f63-e30c-4477-9d15-553deb89da93",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:14:38.116198Z",
+    "latency_seconds": 25.89068066701293,
+    "attempts": 1,
+    "summary": {
+      "summary": "中彩在线公司计划在欧洲设立海外公司，拓展博彩游戏销售与平台业务。分三阶段实施，涵盖公司注册、牌照申请、产品开发及广告投放，聚焦海外市场拓展。",
+      "keywords": [
+        "商业计划",
+        "海外业务",
+        "博彩",
+        "公司设立",
+        "资本规划"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.285,
+      "metrics": {
+        "input_chars": 917.0,
+        "input_lines": 42.0,
+        "summary_chars": 70.0,
+        "summary_coverage_ratio": 0.076,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 55.0
+      }
+    }
   }
 }

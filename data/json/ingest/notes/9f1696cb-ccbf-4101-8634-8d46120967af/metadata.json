@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b43bccc9-ba0b-4b7b-9cc6-16c63f046945",
+      "note_id": "9f1696cb-ccbf-4101-8634-8d46120967af",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记'名字'涉及语言学习中的词汇分类，归入德语词汇学习范畴。",
+        "keywords": [
+          "词汇",
+          "人名",
+          "德语",
+          "语言学习",
+          "名词"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:04:13.009974Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.252
+    }
+  ],
   "journal": {
     "id": "b7d92328-0b01-4559-a98f-b7a6cff76e0b",
     "note_id": "9f1696cb-ccbf-4101-8634-8d46120967af",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:04:13.009762Z",
+    "latency_seconds": 13.308136499952525,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记'名字'涉及语言学习中的词汇分类，归入德语词汇学习范畴。",
+      "keywords": [
+        "词汇",
+        "人名",
+        "德语",
+        "语言学习",
+        "名词"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.252,
+      "metrics": {
+        "input_chars": 81.0,
+        "input_lines": 6.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.37,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.9
+      }
+    }
   }
 }

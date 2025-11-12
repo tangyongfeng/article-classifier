@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8befa6be-1706-4092-9dbf-64f748883096",
+      "note_id": "a8cf90cd-05cd-45ef-b530-27ab788a5489",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "圣何塞地区酒店及律师事务所地址列表，用于旅行住宿和法律事务查询。",
+        "keywords": [
+          "圣何塞",
+          "地址",
+          "酒店",
+          "律师事务所",
+          "查询"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Accommodation",
+          "Hotel Booking Inquiry"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:45:03.158955Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.201
+    }
+  ],
   "journal": {
     "id": "f2fb15a1-6ed8-4270-8a72-1122f4e2da82",
     "note_id": "a8cf90cd-05cd-45ef-b530-27ab788a5489",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:45:03.158795Z",
+    "latency_seconds": 35.40767954196781,
+    "attempts": 1,
+    "summary": {
+      "summary": "圣何塞地区酒店及律师事务所地址列表，用于旅行住宿和法律事务查询。",
+      "keywords": [
+        "圣何塞",
+        "地址",
+        "酒店",
+        "律师事务所",
+        "查询"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Accommodation",
+        "Hotel Booking Inquiry"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.201,
+      "metrics": {
+        "input_chars": 1159.0,
+        "input_lines": 16.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.028,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 69.5
+      }
+    }
   }
 }

@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "05a565bf-6b00-4771-be7e-88290fbe29ff",
+      "note_id": "06a1b7e4-92ea-4a0a-a2c2-171344ffa55d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "整理iPhone各型号屏幕参数，包括尺寸、分辨率、像素密度及比例等技术规格，涵盖4/4s至14系列详细数据。",
+        "keywords": [
+          "iPhone",
+          "屏幕参数",
+          "分辨率",
+          "像素密度",
+          "设备规格"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": [
+          "科技",
+          "设备参数"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:00:56.777578Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.218
+    }
+  ],
   "journal": {
     "id": "d3ee983d-8b96-49ef-9fed-43e5cb68952d",
     "note_id": "06a1b7e4-92ea-4a0a-a2c2-171344ffa55d",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:00:56.777395Z",
+    "latency_seconds": 29.622376583050936,
+    "attempts": 1,
+    "summary": {
+      "summary": "整理iPhone各型号屏幕参数，包括尺寸、分辨率、像素密度及比例等技术规格，涵盖4/4s至14系列详细数据。",
+      "keywords": [
+        "iPhone",
+        "屏幕参数",
+        "分辨率",
+        "像素密度",
+        "设备规格"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": [
+        "科技",
+        "设备参数"
+      ]
+    },
+    "quality": {
+      "score": 0.218,
+      "metrics": {
+        "input_chars": 873.0,
+        "input_lines": 84.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.062,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 52.4
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "ba23d726-63b3-4ed2-8951-fca33f838b75",
+  "note_id": "1c2e0fe8-b491-4014-a563-e730e1a07edf",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德国律师事务所信息，含名称、银行账户及SWIFT代码，属德国法律服务机构，归类至国家与地区 > 德国。",
+    "keywords": [
+      "德国",
+      "律师事务所",
+      "法律服务",
+      "银行账户",
+      "SWIFT"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区",
+      "德国"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:04:54.755469Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.363
+}

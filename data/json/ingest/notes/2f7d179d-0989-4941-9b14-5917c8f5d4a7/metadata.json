@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cfd30f8e-36d6-4f33-8a86-8648fd622772",
+      "note_id": "2f7d179d-0989-4941-9b14-5917c8f5d4a7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供加州埃尔蒙特公共社会服务部门地址及申请医疗补助所需材料，包括护照与医生证明。",
+        "keywords": [
+          "保险",
+          "医疗补助",
+          "申请步骤",
+          "护照",
+          "医生证明"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:27:29.395973Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.239
+    }
+  ],
   "journal": {
     "id": "f9372c6b-b086-42cc-be89-765b688a7874",
     "note_id": "2f7d179d-0989-4941-9b14-5917c8f5d4a7",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:27:29.395840Z",
+    "latency_seconds": 34.12838900007773,
+    "attempts": 2,
+    "summary": {
+      "summary": "提供加州埃尔蒙特公共社会服务部门地址及申请医疗补助所需材料，包括护照与医生证明。",
+      "keywords": [
+        "保险",
+        "医疗补助",
+        "申请步骤",
+        "护照",
+        "医生证明"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.239,
+      "metrics": {
+        "input_chars": 381.0,
+        "input_lines": 16.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.105,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 22.9
+      }
+    }
   }
 }

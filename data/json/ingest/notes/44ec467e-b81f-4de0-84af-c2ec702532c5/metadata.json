@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "337c2d3a-b2dc-4c22-ae87-1f61324f863d",
+      "note_id": "44ec467e-b81f-4de0-84af-c2ec702532c5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "中福在线等彩票游戏及文化娱乐产品名称列表。",
+        "keywords": [
+          "彩票",
+          "游戏",
+          "娱乐",
+          "产品",
+          "文化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "商务",
+          "游戏娱乐"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:53:15.520875Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.117
+    }
+  ],
   "journal": {
     "id": "1dce6548-55d3-4bc4-b4b4-f97a5b87887e",
     "note_id": "44ec467e-b81f-4de0-84af-c2ec702532c5",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:53:15.520719Z",
+    "latency_seconds": 75.07790866692085,
+    "attempts": 1,
+    "summary": {
+      "summary": "中福在线等彩票游戏及文化娱乐产品名称列表。",
+      "keywords": [
+        "彩票",
+        "游戏",
+        "娱乐",
+        "产品",
+        "文化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "商务",
+        "游戏娱乐"
+      ]
+    },
+    "quality": {
+      "score": 0.117,
+      "metrics": {
+        "input_chars": 210.0,
+        "input_lines": 28.0,
+        "summary_chars": 21.0,
+        "summary_coverage_ratio": 0.1,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.6
+      }
+    }
   }
 }

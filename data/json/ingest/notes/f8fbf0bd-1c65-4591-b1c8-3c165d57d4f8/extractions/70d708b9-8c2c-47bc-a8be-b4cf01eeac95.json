@@ -1,0 +1,29 @@
+{
+  "id": "70d708b9-8c2c-47bc-a8be-b4cf01eeac95",
+  "note_id": "f8fbf0bd-1c65-4591-b1c8-3c165d57d4f8",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语语法学习中的语句结构，包括陈述句（动词+主语）和倒装句（强调部分+动词+主语）。",
+    "keywords": [
+      "语句结构",
+      "陈述句",
+      "倒装句",
+      "语法",
+      "德语"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:53:38.481611Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.423
+}

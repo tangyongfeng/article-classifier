@@ -1,0 +1,28 @@
+{
+  "id": "70af5cfa-34e7-43e9-b6e6-dc16f077b93a",
+  "note_id": "7202617b-b4ec-4967-8d49-5ca04b5adce1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "妈妈生日记录，日期1953年3月29日（农历正月初七）。",
+    "keywords": [
+      "生日",
+      "家庭",
+      "1953年",
+      "农历",
+      "妈妈"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social",
+      "Family Events"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:10:24.739093Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.448
+}

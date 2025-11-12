@@ -1,0 +1,28 @@
+{
+  "id": "37fd954e-6a99-49fc-b770-418e69d28295",
+  "note_id": "a36441ba-f5c7-453b-88f9-4d0e13132f94",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该笔记涉及中国人力资源和社会保障部关于员工迟到和旷工的管理规定，强调工作纪律与劳动关系处理措施。",
+    "keywords": [
+      "迟到",
+      "旷工",
+      "劳动纪律",
+      "员工管理",
+      "规章制度"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展",
+      "生活规划"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:25:22.005367Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.343
+}

@@ -72,7 +72,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b02a4a72-f8f4-405a-bf0e-11bfa7cc89dd",
+      "note_id": "b8a66f1a-8d45-445d-8769-7cd14ad7eb5e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "整理NFT聚合平台、交易工具、数据分析及稀有度查询等实用资源，覆盖多链NFT生态，助力NFT投资与管理。",
+        "keywords": [
+          "NFT",
+          "区块链",
+          "工具大全",
+          "交易平台",
+          "数据分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新",
+          "区块链应用"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:53:59.032200Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.312
+    }
+  ],
   "journal": {
     "id": "1722e055-01a5-4eac-ab37-31f14917299c",
     "note_id": "b8a66f1a-8d45-445d-8769-7cd14ad7eb5e",
@@ -95,5 +125,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:53:59.031979Z",
+    "latency_seconds": 23.508541667019017,
+    "attempts": 1,
+    "summary": {
+      "summary": "整理NFT聚合平台、交易工具、数据分析及稀有度查询等实用资源，覆盖多链NFT生态，助力NFT投资与管理。",
+      "keywords": [
+        "NFT",
+        "区块链",
+        "工具大全",
+        "交易平台",
+        "数据分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新",
+        "区块链应用"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.312,
+      "metrics": {
+        "input_chars": 5185.0,
+        "input_lines": 278.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.01,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 311.1
+      }
+    }
   }
 }

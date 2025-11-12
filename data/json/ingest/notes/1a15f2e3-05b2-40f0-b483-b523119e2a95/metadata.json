@@ -72,7 +72,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2d0c6bff-2e1a-43ab-a73e-d3707f67c216",
+      "note_id": "1a15f2e3-05b2-40f0-b483-b523119e2a95",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "通过OpenWRT系统命令（如arp、dhcp.leases）查询已连接设备的IP、MAC地址及设备名称，适用于网络设备管理场景。",
+        "keywords": [
+          "OpenWRT",
+          "IP地址",
+          "MAC地址",
+          "设备名",
+          "网络管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "Networking",
+          "Router Management"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:47:22.689674Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.275
+    }
+  ],
   "journal": {
     "id": "600b757e-a304-4045-966d-d73c7998783c",
     "note_id": "1a15f2e3-05b2-40f0-b483-b523119e2a95",
@@ -95,5 +127,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:47:22.689486Z",
+    "latency_seconds": 27.08576054207515,
+    "attempts": 1,
+    "summary": {
+      "summary": "通过OpenWRT系统命令（如arp、dhcp.leases）查询已连接设备的IP、MAC地址及设备名称，适用于网络设备管理场景。",
+      "keywords": [
+        "OpenWRT",
+        "IP地址",
+        "MAC地址",
+        "设备名",
+        "网络管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "Networking",
+        "Router Management"
+      ]
+    },
+    "quality": {
+      "score": 0.275,
+      "metrics": {
+        "input_chars": 1169.0,
+        "input_lines": 31.0,
+        "summary_chars": 65.0,
+        "summary_coverage_ratio": 0.056,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 70.1
+      }
+    }
   }
 }

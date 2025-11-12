@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cd4c6568-7415-493d-bf90-1ea7f2301afd",
+      "note_id": "45fffe3c-3e0b-4ca5-a5f5-259ec9705b6a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "使用rsync命令通过ssh实现scp断点续传，支持部分传输和进度显示，可设置别名scpr简化操作，避免大文件传输中断问题。",
+        "keywords": [
+          "scp",
+          "rsync",
+          "断点续传",
+          "ssh",
+          "文件传输"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:02:51.863910Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.347
+    }
+  ],
   "journal": {
     "id": "7df44238-1e1e-479f-9117-8361725179d7",
     "note_id": "45fffe3c-3e0b-4ca5-a5f5-259ec9705b6a",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:02:51.863738Z",
+    "latency_seconds": 31.27309320808854,
+    "attempts": 1,
+    "summary": {
+      "summary": "使用rsync命令通过ssh实现scp断点续传，支持部分传输和进度显示，可设置别名scpr简化操作，避免大文件传输中断问题。",
+      "keywords": [
+        "scp",
+        "rsync",
+        "断点续传",
+        "ssh",
+        "文件传输"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.347,
+      "metrics": {
+        "input_chars": 763.0,
+        "input_lines": 15.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.081,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 45.8
+      }
+    }
   }
 }

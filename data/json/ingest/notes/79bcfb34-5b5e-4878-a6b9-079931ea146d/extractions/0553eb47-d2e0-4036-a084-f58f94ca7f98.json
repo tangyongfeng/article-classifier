@@ -1,0 +1,27 @@
+{
+  "id": "0553eb47-d2e0-4036-a084-f58f94ca7f98",
+  "note_id": "79bcfb34-5b5e-4878-a6b9-079931ea146d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "收录19则心理恐怖短篇，主题涉及幻觉、超自然现象与家庭场景，营造强烈惊悚氛围。",
+    "keywords": [
+      "恐怖",
+      "段子",
+      "心理惊悚",
+      "超自然",
+      "家庭恐惧"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:55:48.869081Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.205
+}

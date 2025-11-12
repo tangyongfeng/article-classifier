@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7c394a39-0764-4b2d-9949-a3c0db3d4282",
+      "note_id": "0e07fda6-91e7-4ae1-8bf9-3e349c714ad7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Alpha Vantage 是提供股票市场实时和历史数据的API数据库，支持金融数据查询与分析。",
+        "keywords": [
+          "股市",
+          "数据库",
+          "API",
+          "股票数据",
+          "Alpha Vantage"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:51:09.126546Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.408
+    }
+  ],
   "journal": {
     "id": "05ff6408-66e3-4a6e-9552-99fd781d48d2",
     "note_id": "0e07fda6-91e7-4ae1-8bf9-3e349c714ad7",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:51:09.126380Z",
+    "latency_seconds": 25.35896162490826,
+    "attempts": 1,
+    "summary": {
+      "summary": "Alpha Vantage 是提供股票市场实时和历史数据的API数据库，支持金融数据查询与分析。",
+      "keywords": [
+        "股市",
+        "数据库",
+        "API",
+        "股票数据",
+        "Alpha Vantage"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.408,
+      "metrics": {
+        "input_chars": 236.0,
+        "input_lines": 6.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.203,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.2
+      }
+    }
   }
 }

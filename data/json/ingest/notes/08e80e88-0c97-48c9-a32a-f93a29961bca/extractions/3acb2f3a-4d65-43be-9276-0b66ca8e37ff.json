@@ -1,0 +1,31 @@
+{
+  "id": "3acb2f3a-4d65-43be-9276-0b66ca8e37ff",
+  "note_id": "08e80e88-0c97-48c9-a32a-f93a29961bca",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "FreeBSD ports技巧总结：涵盖软件包搜索、下载、安装等实用命令，如make search、make fetch、make install，提升系统软件",
+    "keywords": [
+      "FreeBSD",
+      "ports",
+      "软件包",
+      "命令",
+      "安装"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": [
+      "Technology",
+      "System Management",
+      "FreeBSD Ports"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:08:39.993642Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.328
+}

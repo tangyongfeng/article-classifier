@@ -1,0 +1,28 @@
+{
+  "id": "976f83c0-d265-4b19-ac40-b4f5d2c53c99",
+  "note_id": "954ceb20-fcc7-4ea5-afc3-83bbd99ef372",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "工作分期表规划网站功能，涵盖会员中心、论坛运营（含技术内容与合买服务），旨在服务彩民需求。",
+    "keywords": [
+      "网站",
+      "会员中心",
+      "论坛",
+      "技术内容",
+      "合买"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:17:29.602789Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.412
+}

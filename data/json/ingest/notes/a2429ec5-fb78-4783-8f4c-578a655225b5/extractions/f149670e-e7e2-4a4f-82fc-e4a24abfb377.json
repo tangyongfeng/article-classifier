@@ -1,0 +1,27 @@
+{
+  "id": "f149670e-e7e2-4a4f-82fc-e4a24abfb377",
+  "note_id": "a2429ec5-fb78-4783-8f4c-578a655225b5",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "阿道夫·克莱尔布鲁克学校是位于北方城市市区的新教小学，现有213名学生，10名教师，提供安静环境和良好外部条件。",
+    "keywords": [
+      "学校",
+      "小学",
+      "新教",
+      "市区",
+      "教育"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:21:48.551685Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.449
+}

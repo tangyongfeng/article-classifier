@@ -1,0 +1,28 @@
+{
+  "id": "9a760fb7-cf88-4e4c-9bc4-56be0b9b19d8",
+  "note_id": "9bbe3c77-05fe-4953-96f1-a5323794f6a8",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "购房费用预计包括地税6.5%、公证费1.5%、土地登记费0.5%、中介费3.48-5.5%及预计利率1.2-1.5%。",
+    "keywords": [
+      "购房",
+      "费用",
+      "地税",
+      "中介费",
+      "利率"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展",
+      "生活规划"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:41:59.192712Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.584
+}

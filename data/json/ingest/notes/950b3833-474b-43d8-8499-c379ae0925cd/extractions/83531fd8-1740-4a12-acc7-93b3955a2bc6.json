@@ -1,0 +1,27 @@
+{
+  "id": "83531fd8-1740-4a12-acc7-93b3955a2bc6",
+  "note_id": "950b3833-474b-43d8-8499-c379ae0925cd",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "分享智联招聘、前程无忧等招聘网站的用户名和密码信息。",
+    "keywords": [
+      "招聘网站",
+      "用户名",
+      "密码",
+      "智联招聘",
+      "前程无忧"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:16:47.711013Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.228
+}

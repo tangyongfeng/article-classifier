@@ -1,0 +1,28 @@
+{
+  "id": "9d501fd9-15a2-4cde-a1a2-aca92df25251",
+  "note_id": "b51359c8-1286-4db3-94f2-59da1f5ba68e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "4月1日看房问题清单，涉及车位租赁、房源照片缺失、房间结构疑问、入住时间及中介费等租房细节。",
+    "keywords": [
+      "看房",
+      "房源",
+      "车位",
+      "中介费",
+      "租金"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Accommodation"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:42:14.625640Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.456
+}

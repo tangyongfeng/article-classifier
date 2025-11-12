@@ -1,0 +1,28 @@
+{
+  "id": "b2cace0e-2eab-4bfa-9ffc-216d6b9bab42",
+  "note_id": "f9d40f47-0fae-4e3d-8f6f-7dbf53754e1d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "给牛律师的文件清单，包含已发送的翻译稿、中文定稿及报价单等文件。",
+    "keywords": [
+      "文件",
+      "律师",
+      "翻译",
+      "定稿",
+      "报价"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:56:46.722712Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.452
+}

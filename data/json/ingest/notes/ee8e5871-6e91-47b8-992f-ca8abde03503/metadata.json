@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "62af6ebf-32f4-4b33-ba8f-85ea3cd4b505",
+      "note_id": "ee8e5871-6e91-47b8-992f-ca8abde03503",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "关于树莓派设备的密码设置与安全配置指南，涉及用户管理及系统安全。",
+        "keywords": [
+          "树莓派",
+          "密码",
+          "Raspberry Pi",
+          "安全设置",
+          "硬件"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:05:21.826301Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.293
+    }
+  ],
   "journal": {
     "id": "53b29fea-8e4c-42a7-a102-9f6fc99f70a8",
     "note_id": "ee8e5871-6e91-47b8-992f-ca8abde03503",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:05:21.826116Z",
+    "latency_seconds": 23.529085416928865,
+    "attempts": 1,
+    "summary": {
+      "summary": "关于树莓派设备的密码设置与安全配置指南，涉及用户管理及系统安全。",
+      "keywords": [
+        "树莓派",
+        "密码",
+        "Raspberry Pi",
+        "安全设置",
+        "硬件"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.293,
+      "metrics": {
+        "input_chars": 151.0,
+        "input_lines": 9.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.212,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.1
+      }
+    }
   }
 }

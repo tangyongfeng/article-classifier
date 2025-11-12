@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "57be5c86-1769-4140-ad6b-4655eedc5b25",
+      "note_id": "2257c3aa-9703-4445-9e2b-60ab2ca40a33",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "描述了股票市场大盘与个股价格变动的八大关系，用于指导投资决策操作策略。",
+        "keywords": [
+          "大盘",
+          "个股",
+          "股票市场",
+          "投资策略",
+          "关系"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:31:35.990718Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.33
+    }
+  ],
   "journal": {
     "id": "a8a5ef5e-af1a-4763-bcdb-a4d5c3f7ae7a",
     "note_id": "2257c3aa-9703-4445-9e2b-60ab2ca40a33",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:31:35.990529Z",
+    "latency_seconds": 36.730646957992576,
+    "attempts": 1,
+    "summary": {
+      "summary": "描述了股票市场大盘与个股价格变动的八大关系，用于指导投资决策操作策略。",
+      "keywords": [
+        "大盘",
+        "个股",
+        "股票市场",
+        "投资策略",
+        "关系"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.33,
+      "metrics": {
+        "input_chars": 209.0,
+        "input_lines": 6.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.167,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.5
+      }
+    }
   }
 }

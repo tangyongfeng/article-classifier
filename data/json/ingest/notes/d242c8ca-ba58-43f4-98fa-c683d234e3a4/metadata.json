@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "35dc902c-2325-4b39-a8a8-c39bc3c1a4d4",
+      "note_id": "d242c8ca-ba58-43f4-98fa-c683d234e3a4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Java中HashMap遍历的两种方式：keySet（效率低，遍历两次）和entrySet（效率高，遍历一次），推荐使用entrySet提高性能。",
+        "keywords": [
+          "HashMap",
+          "遍历",
+          "keySet",
+          "entrySet",
+          "效率"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:38:11.639924Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.388
+    }
+  ],
   "journal": {
     "id": "4ad86685-adf3-4951-af5c-768c2d5c110e",
     "note_id": "d242c8ca-ba58-43f4-98fa-c683d234e3a4",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:38:11.639653Z",
+    "latency_seconds": 12.070352709037252,
+    "attempts": 1,
+    "summary": {
+      "summary": "Java中HashMap遍历的两种方式：keySet（效率低，遍历两次）和entrySet（效率高，遍历一次），推荐使用entrySet提高性能。",
+      "keywords": [
+        "HashMap",
+        "遍历",
+        "keySet",
+        "entrySet",
+        "效率"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.388,
+      "metrics": {
+        "input_chars": 1745.0,
+        "input_lines": 58.0,
+        "summary_chars": 73.0,
+        "summary_coverage_ratio": 0.042,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 104.7
+      }
+    }
   }
 }

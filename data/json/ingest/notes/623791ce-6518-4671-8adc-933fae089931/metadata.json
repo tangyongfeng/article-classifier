@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "565f6f95-0fa7-4b1a-8a32-cb7b3c53cbd6",
+      "note_id": "623791ce-6518-4671-8adc-933fae089931",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "AWS API Gateway作为API管理服务，连接企业应用与旧系统，自动化部署和分析流程，提升开发效率，推动云计算集成，成为关键业务工具。",
+        "keywords": [
+          "AWS",
+          "API网关",
+          "企业应用",
+          "云计算",
+          "自动化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:01:31.078072Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.389
+    }
+  ],
   "journal": {
     "id": "de6ba4c4-e04e-46b1-af2f-91c2ba83fe76",
     "note_id": "623791ce-6518-4671-8adc-933fae089931",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:01:31.077912Z",
+    "latency_seconds": 30.594978792010807,
+    "attempts": 1,
+    "summary": {
+      "summary": "AWS API Gateway作为API管理服务，连接企业应用与旧系统，自动化部署和分析流程，提升开发效率，推动云计算集成，成为关键业务工具。",
+      "keywords": [
+        "AWS",
+        "API网关",
+        "企业应用",
+        "云计算",
+        "自动化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.389,
+      "metrics": {
+        "input_chars": 1606.0,
+        "input_lines": 41.0,
+        "summary_chars": 71.0,
+        "summary_coverage_ratio": 0.044,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 96.4
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "771b6d9d-4789-43a3-aa69-9572b290bdda",
+      "note_id": "6e2d4f29-ed0e-416c-b43a-d872ef3767fa",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记包含德语学习资源的YouTube视频与知乎问题链接，涉及德语学习方法。",
+        "keywords": [
+          "德语",
+          "学习",
+          "视频",
+          "知乎",
+          "资源"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:56:40.787193Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.169
+    }
+  ],
   "journal": {
     "id": "9fd34bec-9aa5-4af9-9eb1-80bca08ad78b",
     "note_id": "6e2d4f29-ed0e-416c-b43a-d872ef3767fa",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:56:40.787056Z",
+    "latency_seconds": 48.864136500051245,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记包含德语学习资源的YouTube视频与知乎问题链接，涉及德语学习方法。",
+      "keywords": [
+        "德语",
+        "学习",
+        "视频",
+        "知乎",
+        "资源"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.169,
+      "metrics": {
+        "input_chars": 186.0,
+        "input_lines": 8.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.204,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.2
+      }
+    }
   }
 }

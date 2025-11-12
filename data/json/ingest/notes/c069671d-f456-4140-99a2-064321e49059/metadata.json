@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7eabb3a1-469c-4ba0-95f5-7b18f4af0ccd",
+      "note_id": "c069671d-f456-4140-99a2-064321e49059",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "开源企业即时通讯平台，类似Slack/Teams，支持自托管部署与TLS加密，提供Web/桌面/移动端客户端。",
+        "keywords": [
+          "开源",
+          "企业通讯",
+          "自托管",
+          "TLS加密",
+          "客户端"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:53:11.517552Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.081
+    }
+  ],
   "journal": {
     "id": "87c1f602-4cbe-40ff-a0a8-89b0bb35dbf5",
     "note_id": "c069671d-f456-4140-99a2-064321e49059",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:53:11.517353Z",
+    "latency_seconds": 16.211280999938026,
+    "attempts": 1,
+    "summary": {
+      "summary": "开源企业即时通讯平台，类似Slack/Teams，支持自托管部署与TLS加密，提供Web/桌面/移动端客户端。",
+      "keywords": [
+        "开源",
+        "企业通讯",
+        "自托管",
+        "TLS加密",
+        "客户端"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.081,
+      "metrics": {
+        "input_chars": 1996.0,
+        "input_lines": 99.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.028,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 119.8
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "62397e86-cb38-4bf9-9ab5-3a4c6b24d131",
+      "note_id": "71c149f4-cc89-40f7-a640-213ad648fe0d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录了妈妈家庭历史信息，包括酒泉县县长爷爷（原甘肃省政协委员）、妈妈原名龚艳秀、姑父翟家武等人物及背景。",
+        "keywords": [
+          "酒泉",
+          "县长",
+          "家庭",
+          "历史",
+          "甘肃省"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:09:52.053545Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.406
+    }
+  ],
   "journal": {
     "id": "6c74b412-586d-4f64-b431-8a58744dd7ba",
     "note_id": "71c149f4-cc89-40f7-a640-213ad648fe0d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:09:52.053406Z",
+    "latency_seconds": 27.360749208019115,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录了妈妈家庭历史信息，包括酒泉县县长爷爷（原甘肃省政协委员）、妈妈原名龚艳秀、姑父翟家武等人物及背景。",
+      "keywords": [
+        "酒泉",
+        "县长",
+        "家庭",
+        "历史",
+        "甘肃省"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.406,
+      "metrics": {
+        "input_chars": 163.0,
+        "input_lines": 9.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.319,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.8
+      }
+    }
   }
 }

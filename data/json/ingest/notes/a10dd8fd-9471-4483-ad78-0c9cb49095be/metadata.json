@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "32afd1a7-1ed4-408d-9346-59a472507558",
+      "note_id": "a10dd8fd-9471-4483-ad78-0c9cb49095be",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "详细说明饺子皮制作步骤，包括和面、醒面、擀皮等关键步骤，强调揉面技巧与面团处理方法。",
+        "keywords": [
+          "饺子皮",
+          "和面",
+          "醒面",
+          "擀皮",
+          "生活技能"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:09:00.330262Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.249
+    }
+  ],
   "journal": {
     "id": "07740a88-71b8-4a94-8710-4e9c43b303f1",
     "note_id": "a10dd8fd-9471-4483-ad78-0c9cb49095be",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:09:00.330021Z",
+    "latency_seconds": 15.533432791940868,
+    "attempts": 1,
+    "summary": {
+      "summary": "详细说明饺子皮制作步骤，包括和面、醒面、擀皮等关键步骤，强调揉面技巧与面团处理方法。",
+      "keywords": [
+        "饺子皮",
+        "和面",
+        "醒面",
+        "擀皮",
+        "生活技能"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.249,
+      "metrics": {
+        "input_chars": 339.0,
+        "input_lines": 9.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.124,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 20.3
+      }
+    }
   }
 }

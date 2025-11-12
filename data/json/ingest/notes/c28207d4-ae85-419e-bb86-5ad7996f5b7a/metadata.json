@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7d6f1d25-76c7-4b78-933e-3e92441f3c30",
+      "note_id": "c28207d4-ae85-419e-bb86-5ad7996f5b7a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容聚焦系统需求分析，涉及角色划分、功能汇总及移动平台客服系统需求，属于商务系统设计范畴。",
+        "keywords": [
+          "系统需求",
+          "角色划分",
+          "功能汇总",
+          "客服系统",
+          "移动平台"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:57:36.208947Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.29
+    }
+  ],
   "journal": {
     "id": "993091ad-c740-4fa4-9c7a-4c9bcc0233fd",
     "note_id": "c28207d4-ae85-419e-bb86-5ad7996f5b7a",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:57:36.208820Z",
+    "latency_seconds": 29.950483291991986,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容聚焦系统需求分析，涉及角色划分、功能汇总及移动平台客服系统需求，属于商务系统设计范畴。",
+      "keywords": [
+        "系统需求",
+        "角色划分",
+        "功能汇总",
+        "客服系统",
+        "移动平台"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.29,
+      "metrics": {
+        "input_chars": 546.0,
+        "input_lines": 17.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.086,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 32.8
+      }
+    }
   }
 }

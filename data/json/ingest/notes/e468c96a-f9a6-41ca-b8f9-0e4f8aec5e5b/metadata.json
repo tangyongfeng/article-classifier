@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4bde1047-8a2c-4b85-aa46-26010b22b4b6",
+      "note_id": "e468c96a-f9a6-41ca-b8f9-0e4f8aec5e5b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "可儿日常护理记录，涵盖7月14-15日饮食安排（如炒米饭、饺子）、健康状况（呕吐）及活动时间，反映家庭照顾细节。",
+        "keywords": [
+          "护理",
+          "饮食",
+          "家庭",
+          "健康",
+          "记录"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Relationships"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:14:57.007204Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.301
+    }
+  ],
   "journal": {
     "id": "2d50ed8c-7ff0-417d-a371-35507740fd85",
     "note_id": "e468c96a-f9a6-41ca-b8f9-0e4f8aec5e5b",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:14:57.007058Z",
+    "latency_seconds": 21.962549416930415,
+    "attempts": 1,
+    "summary": {
+      "summary": "可儿日常护理记录，涵盖7月14-15日饮食安排（如炒米饭、饺子）、健康状况（呕吐）及活动时间，反映家庭照顾细节。",
+      "keywords": [
+        "护理",
+        "饮食",
+        "家庭",
+        "健康",
+        "记录"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Relationships"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.301,
+      "metrics": {
+        "input_chars": 246.0,
+        "input_lines": 17.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.228,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.8
+      }
+    }
   }
 }

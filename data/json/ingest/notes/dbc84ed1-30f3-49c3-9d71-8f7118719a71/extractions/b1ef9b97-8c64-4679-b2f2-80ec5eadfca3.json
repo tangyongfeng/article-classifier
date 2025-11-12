@@ -1,0 +1,29 @@
+{
+  "id": "b1ef9b97-8c64-4679-b2f2-80ec5eadfca3",
+  "note_id": "dbc84ed1-30f3-49c3-9d71-8f7118719a71",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语学习中特殊动词变位规则整理，包含wechseln、reisen等动词的变位示例，属于德语语法范畴。",
+    "keywords": [
+      "特殊动词",
+      "动词变位",
+      "德语语法",
+      "德语学习",
+      "语法"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T08:23:20.682602Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.357
+}

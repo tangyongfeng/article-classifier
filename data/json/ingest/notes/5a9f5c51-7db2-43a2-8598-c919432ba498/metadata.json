@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b36c0ab7-d306-4de7-85ff-68e2bbed6637",
+      "note_id": "5a9f5c51-7db2-43a2-8598-c919432ba498",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "使用GoDaddy注册域名yueran.de，到期日期为2021年9月12日，需通过Google辅助登录。",
+        "keywords": [
+          "GoDaddy",
+          "域名",
+          "到期日期",
+          "登录",
+          "域名注册"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:24:30.734490Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.389
+    }
+  ],
   "journal": {
     "id": "356d4b96-8331-4d21-b831-ae885cb0adf2",
     "note_id": "5a9f5c51-7db2-43a2-8598-c919432ba498",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:24:30.734275Z",
+    "latency_seconds": 27.399084750097245,
+    "attempts": 1,
+    "summary": {
+      "summary": "使用GoDaddy注册域名yueran.de，到期日期为2021年9月12日，需通过Google辅助登录。",
+      "keywords": [
+        "GoDaddy",
+        "域名",
+        "到期日期",
+        "登录",
+        "域名注册"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.389,
+      "metrics": {
+        "input_chars": 186.0,
+        "input_lines": 11.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.285,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 11.2
+      }
+    }
   }
 }

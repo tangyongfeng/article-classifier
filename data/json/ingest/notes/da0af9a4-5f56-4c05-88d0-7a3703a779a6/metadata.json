@@ -72,7 +72,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f3671558-da51-45f4-b2f0-7fdf9ec00bdd",
+      "note_id": "da0af9a4-5f56-4c05-88d0-7a3703a779a6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "在OpenWrt系统中，通过无线抓包技术提取MAC地址和RSSI等无线指标，实现WiFi信号强度分析与定位应用。",
+        "keywords": [
+          "OpenWrt",
+          "WiFi",
+          "MAC地址",
+          "RSSI",
+          "抓包"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "网络",
+          "WiFi指标分析"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:16:29.288603Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.381
+    }
+  ],
   "journal": {
     "id": "b3658a0d-37c8-487b-b2a7-756209938078",
     "note_id": "da0af9a4-5f56-4c05-88d0-7a3703a779a6",
@@ -95,5 +127,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:16:29.288421Z",
+    "latency_seconds": 72.34282429201994,
+    "attempts": 1,
+    "summary": {
+      "summary": "在OpenWrt系统中，通过无线抓包技术提取MAC地址和RSSI等无线指标，实现WiFi信号强度分析与定位应用。",
+      "keywords": [
+        "OpenWrt",
+        "WiFi",
+        "MAC地址",
+        "RSSI",
+        "抓包"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "网络",
+        "WiFi指标分析"
+      ]
+    },
+    "quality": {
+      "score": 0.381,
+      "metrics": {
+        "input_chars": 1919.0,
+        "input_lines": 63.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.029,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 115.1
+      }
+    }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "ef0c68e1-2146-4e4c-90e3-45c2647461e6",
+  "note_id": "307e0b2f-baa4-4a3b-a910-0ab3a9c6e0b5",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本系统支持多终端、多网络模式，实现全局防沉溺、海量用户处理、彩民信息系统及资金管理，集成业务数据实时控制与分析功能。",
+    "keywords": [
+      "多终端",
+      "防沉溺",
+      "海量用户",
+      "彩民系统",
+      "资金管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:33:54.413468Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.399
+}

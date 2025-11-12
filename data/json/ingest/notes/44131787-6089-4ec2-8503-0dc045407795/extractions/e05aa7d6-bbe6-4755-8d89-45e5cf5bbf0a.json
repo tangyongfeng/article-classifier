@@ -1,0 +1,28 @@
+{
+  "id": "e05aa7d6-bbe6-4755-8d89-45e5cf5bbf0a",
+  "note_id": "44131787-6089-4ec2-8503-0dc045407795",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "包含12个德语基础句子，描述日常事物如水果、乐器、动物等，用于德语语言学习练习。",
+    "keywords": [
+      "德语",
+      "句子",
+      "语言学习",
+      "基础",
+      "练习"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:45:26.337890Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.101
+}

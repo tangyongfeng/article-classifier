@@ -1,0 +1,28 @@
+{
+  "id": "56ac3596-6f85-43f3-aebd-393eb8e8a1f3",
+  "note_id": "2e20af06-8355-4fe7-8450-924d2bd79680",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "离卦为易经八卦之一，象征附丽与光明。爻辞描述不同情境下的吉凶：初九敬慎无咎，六二温顺大吉，九三不退则凶，九四无容身之地，六五悲泣吉，上九获非丑者无咎。",
+    "keywords": [
+      "离卦",
+      "易经",
+      "附丽",
+      "爻辞",
+      "吉凶"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:15:38.941922Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.282
+}

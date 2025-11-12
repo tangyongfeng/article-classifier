@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "04f350bd-51f6-4bc9-8f61-4eb30e16de5b",
+      "note_id": "18181edf-3b9b-4157-836c-af2b7e2fec6c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记澄清与王律师事务所交涉内容，指出法律咨询、公司公证及签证申请服务未完成，对方拖延且不专业。",
+        "keywords": [
+          "法律咨询",
+          "公司成立",
+          "签证申请",
+          "拖延",
+          "不专业"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:37:03.313560Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.21
+    }
+  ],
   "journal": {
     "id": "72cb473c-90aa-425c-8735-6e67a9b351f0",
     "note_id": "18181edf-3b9b-4157-836c-af2b7e2fec6c",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:37:03.313400Z",
+    "latency_seconds": 19.16397141700145,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记澄清与王律师事务所交涉内容，指出法律咨询、公司公证及签证申请服务未完成，对方拖延且不专业。",
+      "keywords": [
+        "法律咨询",
+        "公司成立",
+        "签证申请",
+        "拖延",
+        "不专业"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.21,
+      "metrics": {
+        "input_chars": 992.0,
+        "input_lines": 35.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.047,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 59.5
+      }
+    }
   }
 }

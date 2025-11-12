@@ -1,0 +1,32 @@
+{
+  "id": "5466b063-61b6-4b1a-8452-0d1412417986",
+  "note_id": "4fc68614-5eb4-4392-992c-b931cc3cae7b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "无线网络捕获系统，用于监测和捕获无线WIFI数据传输，支持信息监控、解析与安全分析，专供军警部门使用。",
+    "keywords": [
+      "防病毒",
+      "涉密安全",
+      "信息安全",
+      "杀毒软件",
+      "无线网络"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": [
+      "商务",
+      "技术创新",
+      "信息安全"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:22:22.399329Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.377
+}

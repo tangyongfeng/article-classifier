@@ -1,0 +1,27 @@
+{
+  "id": "6fb3585c-e860-478b-875d-18f756ca5eca",
+  "note_id": "4ee21ffb-d768-40f7-a8a1-5f47c3b13ba7",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容涉及搬家、护理实习、电脑特批及人员调动等内部事务问题，需进一步处理。",
+    "keywords": [
+      "搬家",
+      "护理实习",
+      "电脑",
+      "调动",
+      "特批"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:18:21.890239Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.543
+}

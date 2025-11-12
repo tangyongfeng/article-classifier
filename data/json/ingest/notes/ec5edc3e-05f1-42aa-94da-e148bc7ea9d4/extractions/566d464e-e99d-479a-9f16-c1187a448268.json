@@ -1,0 +1,28 @@
+{
+  "id": "566d464e-e99d-479a-9f16-c1187a448268",
+  "note_id": "ec5edc3e-05f1-42aa-94da-e148bc7ea9d4",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记提出货币票证化、实名化及可挂失的三个推论，涉及支付路径监管、自动报表生成与纳税补贴，体现金融支付系统革新。",
+    "keywords": [
+      "货币票证化",
+      "货币实名化",
+      "支付监管",
+      "自动报表",
+      "自动纳税"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:57:15.164623Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.371
+}

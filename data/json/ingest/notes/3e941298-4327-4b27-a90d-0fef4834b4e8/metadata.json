@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a99c0198-88ff-40b5-9faf-7d01906f871e",
+      "note_id": "3e941298-4327-4b27-a90d-0fef4834b4e8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记讨论资产回报率（ROA）低于15%的财务分析情况，属于公司财务分析范畴。",
+        "keywords": [
+          "ROA",
+          "资产回报率",
+          "财务分析",
+          "公司分析",
+          "15%"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:22:46.592280Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.327
+    }
+  ],
   "journal": {
     "id": "de15a656-e0bb-4aa5-87b8-385d8032ec7a",
     "note_id": "3e941298-4327-4b27-a90d-0fef4834b4e8",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:22:46.592146Z",
+    "latency_seconds": 9.784404333913699,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记讨论资产回报率（ROA）低于15%的财务分析情况，属于公司财务分析范畴。",
+      "keywords": [
+        "ROA",
+        "资产回报率",
+        "财务分析",
+        "公司分析",
+        "15%"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.327,
+      "metrics": {
+        "input_chars": 95.0,
+        "input_lines": 6.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.4,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.7
+      }
+    }
   }
 }

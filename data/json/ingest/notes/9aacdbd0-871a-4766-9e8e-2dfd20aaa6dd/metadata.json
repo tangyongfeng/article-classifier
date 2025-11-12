@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b6487afb-0eba-4de4-9315-9204b9c01b1b",
+      "note_id": "9aacdbd0-871a-4766-9e8e-2dfd20aaa6dd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "建立福彩品牌形象及知识产权管理，确保权威稀缺通知渠道。",
+        "keywords": [
+          "权威性",
+          "稀缺",
+          "福彩",
+          "品牌形象",
+          "知识产权"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "品牌管理"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:35:26.933710Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.434
+    }
+  ],
   "journal": {
     "id": "7504cc7a-67a1-4417-aa38-adc7e6593abb",
     "note_id": "9aacdbd0-871a-4766-9e8e-2dfd20aaa6dd",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:35:26.933479Z",
+    "latency_seconds": 18.406751792063005,
+    "attempts": 1,
+    "summary": {
+      "summary": "建立福彩品牌形象及知识产权管理，确保权威稀缺通知渠道。",
+      "keywords": [
+        "权威性",
+        "稀缺",
+        "福彩",
+        "品牌形象",
+        "知识产权"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "品牌管理"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.434,
+      "metrics": {
+        "input_chars": 106.0,
+        "input_lines": 8.0,
+        "summary_chars": 27.0,
+        "summary_coverage_ratio": 0.255,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.4
+      }
+    }
   }
 }

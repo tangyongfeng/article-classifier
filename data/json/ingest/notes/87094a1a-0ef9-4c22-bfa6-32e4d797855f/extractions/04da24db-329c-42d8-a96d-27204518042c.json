@@ -1,0 +1,27 @@
+{
+  "id": "04da24db-329c-42d8-a96d-27204518042c",
+  "note_id": "87094a1a-0ef9-4c22-bfa6-32e4d797855f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本文详细阐述使用RTL-SDR电视棒及GNU Radio、Airprobe等工具截获GSM信号的步骤，包括频率校准、信号接收和数据监听，适用于通信技术实践。",
+    "keywords": [
+      "GSM",
+      "RTL-SDR",
+      "信号截获",
+      "GNU Radio",
+      "Airprobe"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "多媒体"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:11:14.818320Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.314
+}

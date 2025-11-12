@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "30f7b5af-d5f1-4499-9d65-90b757ac20a0",
+      "note_id": "abf521f9-cb39-4206-9682-a3890ac20b68",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "量化交易依赖高质量数据源，涵盖宏观、行业、公司基本面数据，以及高频、实时数据，常见提供商包括Wind、Bloomberg等。",
+        "keywords": [
+          "量化交易",
+          "数据源",
+          "基本面数据",
+          "高频数据",
+          "数据提供商"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:57:14.963765Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.374
+    }
+  ],
   "journal": {
     "id": "03cb9eba-b778-4cbd-b863-b91fa0158acb",
     "note_id": "abf521f9-cb39-4206-9682-a3890ac20b68",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:57:14.963505Z",
+    "latency_seconds": 22.35917933296878,
+    "attempts": 1,
+    "summary": {
+      "summary": "量化交易依赖高质量数据源，涵盖宏观、行业、公司基本面数据，以及高频、实时数据，常见提供商包括Wind、Bloomberg等。",
+      "keywords": [
+        "量化交易",
+        "数据源",
+        "基本面数据",
+        "高频数据",
+        "数据提供商"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.374,
+      "metrics": {
+        "input_chars": 4284.0,
+        "input_lines": 229.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.014,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 257.0
+      }
+    }
   }
 }

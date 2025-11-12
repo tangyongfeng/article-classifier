@@ -1,0 +1,28 @@
+{
+  "id": "87d66187-23e6-45c9-bbb8-78c6553fff18",
+  "note_id": "4eddd65e-aaf0-4574-8822-587a76402eeb",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "分析拼多多低价补贴、砍单机制对厂商渠道的影响，指出其无底线策略可能损害消费市场，呼吁理性竞争。",
+    "keywords": [
+      "拼多多",
+      "渠道分析",
+      "补贴",
+      "砍单",
+      "渠道崩盘"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:15:02.634297Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.377
+}

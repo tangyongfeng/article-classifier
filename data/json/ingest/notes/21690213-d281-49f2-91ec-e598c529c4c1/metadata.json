@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4ca4d59e-738f-4399-b95a-fd1b5c42ab12",
+      "note_id": "21690213-d281-49f2-91ec-e598c529c4c1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讨论医药健康领域商业模式，聚焦慢性病管理、药品精细管理、医保审核及门户盈利，旨在降低药品浪费、提升健康管理效率。",
+        "keywords": [
+          "医药门户",
+          "慢性病管理",
+          "药品精细管理",
+          "医保审核",
+          "商业模式"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:26:31.484980Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.282
+    }
+  ],
   "journal": {
     "id": "b0f8c0ce-6ff4-4781-a1d5-f0d0c93a59ad",
     "note_id": "21690213-d281-49f2-91ec-e598c529c4c1",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:26:31.484719Z",
+    "latency_seconds": 34.39265199995134,
+    "attempts": 1,
+    "summary": {
+      "summary": "讨论医药健康领域商业模式，聚焦慢性病管理、药品精细管理、医保审核及门户盈利，旨在降低药品浪费、提升健康管理效率。",
+      "keywords": [
+        "医药门户",
+        "慢性病管理",
+        "药品精细管理",
+        "医保审核",
+        "商业模式"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.282,
+      "metrics": {
+        "input_chars": 789.0,
+        "input_lines": 39.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.071,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 47.3
+      }
+    }
   }
 }

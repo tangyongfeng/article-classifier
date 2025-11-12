@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e78589a3-e357-48cc-ae38-deefa1bfde04",
+      "note_id": "ce771806-cad7-448c-910a-0c930c2245bb",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "描述美国圣诞节家庭装饰、公园点灯仪式及Griffith公园大型点灯活动的节日旅游体验。",
+        "keywords": [
+          "圣诞节",
+          "节日装饰",
+          "公园点灯",
+          "旅游体验",
+          "Griffith公园"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:16:51.227237Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.255
+    }
+  ],
   "journal": {
     "id": "2779213d-0f2b-475d-b3cc-b74fe241986a",
     "note_id": "ce771806-cad7-448c-910a-0c930c2245bb",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:16:51.227080Z",
+    "latency_seconds": 10.853639375069179,
+    "attempts": 1,
+    "summary": {
+      "summary": "描述美国圣诞节家庭装饰、公园点灯仪式及Griffith公园大型点灯活动的节日旅游体验。",
+      "keywords": [
+        "圣诞节",
+        "节日装饰",
+        "公园点灯",
+        "旅游体验",
+        "Griffith公园"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.255,
+      "metrics": {
+        "input_chars": 316.0,
+        "input_lines": 9.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.136,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 19.0
+      }
+    }
   }
 }

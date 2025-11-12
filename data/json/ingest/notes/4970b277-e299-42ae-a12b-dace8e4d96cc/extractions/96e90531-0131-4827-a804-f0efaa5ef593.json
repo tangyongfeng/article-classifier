@@ -1,0 +1,28 @@
+{
+  "id": "96e90531-0131-4827-a804-f0efaa5ef593",
+  "note_id": "4970b277-e299-42ae-a12b-dace8e4d96cc",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "泰卦为《易经》六十四卦之第三十一卦，象征天地交泰、通泰之象。卦辞‘小往大来，吉，亨’，寓意顺应时势、和谐发展。",
+    "keywords": [
+      "泰卦",
+      "易经",
+      "天地交泰",
+      "卦辞",
+      "通泰"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:28:29.264860Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.215
+}

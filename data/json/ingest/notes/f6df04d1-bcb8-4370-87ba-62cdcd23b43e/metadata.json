@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b8490774-dfc1-442e-bd61-5b438b6c0215",
+      "note_id": "f6df04d1-bcb8-4370-87ba-62cdcd23b43e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "指导将Mac TimeMachine备份配置至Windows PC共享FAT分区的操作步骤，通过创建磁盘镜像实现跨平台备份。",
+        "keywords": [
+          "TimeMachine",
+          "FAT分区",
+          "Windows共享",
+          "磁盘镜像",
+          "备份设置"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "Technology > System Administration",
+          "Technology > System Administration > Backup Solutions"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:38:50.781361Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.276
+    }
+  ],
   "journal": {
     "id": "687cbdc4-569d-4e56-af08-6ff04549d502",
     "note_id": "f6df04d1-bcb8-4370-87ba-62cdcd23b43e",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:38:50.781195Z",
+    "latency_seconds": 39.67552483396139,
+    "attempts": 3,
+    "summary": {
+      "summary": "指导将Mac TimeMachine备份配置至Windows PC共享FAT分区的操作步骤，通过创建磁盘镜像实现跨平台备份。",
+      "keywords": [
+        "TimeMachine",
+        "FAT分区",
+        "Windows共享",
+        "磁盘镜像",
+        "备份设置"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "Technology > System Administration",
+        "Technology > System Administration > Backup Solutions"
+      ]
+    },
+    "quality": {
+      "score": 0.276,
+      "metrics": {
+        "input_chars": 1053.0,
+        "input_lines": 33.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.059,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 63.2
+      }
+    }
   }
 }

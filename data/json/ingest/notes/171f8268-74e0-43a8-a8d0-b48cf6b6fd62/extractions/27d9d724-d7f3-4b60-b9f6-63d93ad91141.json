@@ -1,0 +1,29 @@
+{
+  "id": "27d9d724-d7f3-4b60-b9f6-63d93ad91141",
+  "note_id": "171f8268-74e0-43a8-a8d0-b48cf6b6fd62",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "西雅图W Seattle酒店预订信息，含地址、价格及联系方式。",
+    "keywords": [
+      "西雅图",
+      "酒店",
+      "预订",
+      "价格",
+      "联系方式"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Accommodation",
+      "Hotel Booking Inquiry"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:30:03.169865Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.354
+}

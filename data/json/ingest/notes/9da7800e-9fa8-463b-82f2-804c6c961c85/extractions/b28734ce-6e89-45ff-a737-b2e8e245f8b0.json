@@ -1,0 +1,27 @@
+{
+  "id": "b28734ce-6e89-45ff-a737-b2e8e245f8b0",
+  "note_id": "9da7800e-9fa8-463b-82f2-804c6c961c85",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "提供美国与中国犯罪记录查询的官方渠道，涉及司法系统信息获取。",
+    "keywords": [
+      "犯罪记录",
+      "查询",
+      "美国",
+      "中国",
+      "司法"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:53:05.836005Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.391
+}

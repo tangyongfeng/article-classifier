@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "30f589d5-0bee-49d0-a0bb-3839e8505911",
+      "note_id": "753be536-6655-401a-91c2-7baa21c985f5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "十大慢性病包括高血压、高血脂、糖尿病、肾脏病、慢性肝炎、气喘、痛风、骨松症、关节炎和肥胖症，涉及心血管、代谢及骨骼系统。",
+        "keywords": [
+          "高血压",
+          "糖尿病",
+          "高血脂",
+          "慢性病",
+          "肥胖症"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展"
+        ],
+        "new_category_suggestion": [
+          "健康",
+          "慢性病"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:36:14.591548Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.571
+    }
+  ],
   "journal": {
     "id": "2f21c8bd-18db-4ab5-b93e-da5335b6fd98",
     "note_id": "753be536-6655-401a-91c2-7baa21c985f5",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:36:14.591376Z",
+    "latency_seconds": 102.54006979207043,
+    "attempts": 2,
+    "summary": {
+      "summary": "十大慢性病包括高血压、高血脂、糖尿病、肾脏病、慢性肝炎、气喘、痛风、骨松症、关节炎和肥胖症，涉及心血管、代谢及骨骼系统。",
+      "keywords": [
+        "高血压",
+        "糖尿病",
+        "高血脂",
+        "慢性病",
+        "肥胖症"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展"
+      ],
+      "new_category_suggestion": [
+        "健康",
+        "慢性病"
+      ]
+    },
+    "quality": {
+      "score": 0.571,
+      "metrics": {
+        "input_chars": 147.0,
+        "input_lines": 18.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.408,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.8
+      }
+    }
   }
 }

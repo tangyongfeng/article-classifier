@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "39b212d7-6ad7-4065-aab1-f3b4d5c1596e",
+      "note_id": "69f17b09-e32b-4f4a-9212-e31cf549b9a8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录了高速收费及旅行期间的食品、加油、租车、住宿等消费明细。",
+        "keywords": [
+          "高速收费",
+          "食品",
+          "加油",
+          "租车",
+          "住宿"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "交通知识"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:41:14.398431Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.442
+    }
+  ],
   "journal": {
     "id": "2d837d46-98b7-4752-ab33-f4609689e988",
     "note_id": "69f17b09-e32b-4f4a-9212-e31cf549b9a8",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:41:14.398267Z",
+    "latency_seconds": 44.838599832961336,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录了高速收费及旅行期间的食品、加油、租车、住宿等消费明细。",
+      "keywords": [
+        "高速收费",
+        "食品",
+        "加油",
+        "租车",
+        "住宿"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "交通知识"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.442,
+      "metrics": {
+        "input_chars": 200.0,
+        "input_lines": 15.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.15,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.0
+      }
+    }
   }
 }

@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "65358a6c-3d71-473a-b417-3e7e6cacc9ad",
+      "note_id": "75a17b11-1abd-47fa-b4b7-6d9fcce43208",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Open edX平台（版本koa.1）入门操作指南，涵盖服务器配置、LMS/CMS访问、超级管理员创建及主题定制等配置步骤。",
+        "keywords": [
+          "Open edX",
+          "入门操作",
+          "LMS",
+          "CMS",
+          "用户管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:37:22.202749Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.321
+    }
+  ],
   "journal": {
     "id": "e69535e9-91c1-491b-9478-ba5d75997a94",
     "note_id": "75a17b11-1abd-47fa-b4b7-6d9fcce43208",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:37:22.202570Z",
+    "latency_seconds": 34.796177458018064,
+    "attempts": 1,
+    "summary": {
+      "summary": "Open edX平台（版本koa.1）入门操作指南，涵盖服务器配置、LMS/CMS访问、超级管理员创建及主题定制等配置步骤。",
+      "keywords": [
+        "Open edX",
+        "入门操作",
+        "LMS",
+        "CMS",
+        "用户管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.321,
+      "metrics": {
+        "input_chars": 2240.0,
+        "input_lines": 83.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.028,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 134.4
+      }
+    }
   }
 }

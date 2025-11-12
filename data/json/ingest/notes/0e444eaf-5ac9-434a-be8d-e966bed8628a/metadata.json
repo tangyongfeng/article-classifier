@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7c94fabb-5cd8-48d6-bf60-c41b6dccc0ae",
+      "note_id": "0e444eaf-5ac9-434a-be8d-e966bed8628a",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 缉毒决战渤海湾 updated: 2021-01-03 22:27:53Z created: 2021-01-03 22:26:30Z s",
+        "keywords": [
+          "---",
+          "title: 缉毒决战渤海湾",
+          "updated: 2021-01-03 22:27:53Z",
+          "created: 2021-01-03 22:26:30Z",
+          "source: http://www1.peopledaily.com.cn/GB/channel1/11/20000602/86470.html"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:59:30.931824Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "45388122-4fe9-4bb1-8002-72f62714b00d",
     "note_id": "0e444eaf-5ac9-434a-be8d-e966bed8628a",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T14:59:30.931352Z",
+    "latency_seconds": 108.85754033294506,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 缉毒决战渤海湾 updated: 2021-01-03 22:27:53Z created: 2021-01-03 22:26:30Z s",
+      "keywords": [
+        "---",
+        "title: 缉毒决战渤海湾",
+        "updated: 2021-01-03 22:27:53Z",
+        "created: 2021-01-03 22:26:30Z",
+        "source: http://www1.peopledaily.com.cn/GB/channel1/11/20000602/86470.html"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 6630.0,
+        "input_lines": 48.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.012,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 397.8
+      }
+    }
   }
 }

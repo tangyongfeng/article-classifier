@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4f2a5b6e-ebbb-42e4-aba8-bd1aff5dd314",
+      "note_id": "76460999-edda-408a-8c4a-7bffcb70411a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语动词stehen、stellen、liegen等的变位规则及过去式、分词形式总结，涵盖站、竖放、躺、平放等含义。",
+        "keywords": [
+          "动词变位",
+          "德语语法",
+          "过去式",
+          "分词",
+          "德语学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Verb Conjugation"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:43:58.261132Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.172
+    }
+  ],
   "journal": {
     "id": "4292bded-7a9b-43c2-87a5-d6c63c1e81e3",
     "note_id": "76460999-edda-408a-8c4a-7bffcb70411a",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:43:58.260997Z",
+    "latency_seconds": 13.322051666909829,
+    "attempts": 2,
+    "summary": {
+      "summary": "德语动词stehen、stellen、liegen等的变位规则及过去式、分词形式总结，涵盖站、竖放、躺、平放等含义。",
+      "keywords": [
+        "动词变位",
+        "德语语法",
+        "过去式",
+        "分词",
+        "德语学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Verb Conjugation"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.172,
+      "metrics": {
+        "input_chars": 276.0,
+        "input_lines": 12.0,
+        "summary_chars": 58.0,
+        "summary_coverage_ratio": 0.21,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.6
+      }
+    }
   }
 }

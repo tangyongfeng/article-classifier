@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "79d96d42-346e-4aac-9270-8b3d67c564d8",
+      "note_id": "5e06e8ee-fd19-42af-8db5-9f2e0101514d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "用户系统实现包括密码修改后令牌失效、令牌算法检验、密码加盐存储及增加对账功能。",
+        "keywords": [
+          "密码",
+          "令牌",
+          "加盐",
+          "对账",
+          "安全"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:35:45.403882Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.409
+    }
+  ],
   "journal": {
     "id": "1e456c19-f299-46dd-98a2-6492b5747c4d",
     "note_id": "5e06e8ee-fd19-42af-8db5-9f2e0101514d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:35:45.403715Z",
+    "latency_seconds": 29.887178750010207,
+    "attempts": 1,
+    "summary": {
+      "summary": "用户系统实现包括密码修改后令牌失效、令牌算法检验、密码加盐存储及增加对账功能。",
+      "keywords": [
+        "密码",
+        "令牌",
+        "加盐",
+        "对账",
+        "安全"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.409,
+      "metrics": {
+        "input_chars": 191.0,
+        "input_lines": 12.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.204,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.5
+      }
+    }
   }
 }

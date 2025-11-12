@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "29e57df0-6bf8-4d26-ab59-7b072865f2be",
+      "note_id": "425fd4d2-553a-4c78-8a2e-f18b247d3827",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "技术宅DIY开源电子墨水屏日历，自动刷新天气、位置，随机播放2000+条毒鸡汤，硬件成本约360元。",
+        "keywords": [
+          "DIY",
+          "电子墨水屏",
+          "开源",
+          "毒鸡汤",
+          "技术创新"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:36:55.659994Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.314
+    }
+  ],
   "journal": {
     "id": "2568f0ca-2576-4097-97fa-2061fc281b80",
     "note_id": "425fd4d2-553a-4c78-8a2e-f18b247d3827",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:36:55.659761Z",
+    "latency_seconds": 33.037421333021484,
+    "attempts": 1,
+    "summary": {
+      "summary": "技术宅DIY开源电子墨水屏日历，自动刷新天气、位置，随机播放2000+条毒鸡汤，硬件成本约360元。",
+      "keywords": [
+        "DIY",
+        "电子墨水屏",
+        "开源",
+        "毒鸡汤",
+        "技术创新"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.314,
+      "metrics": {
+        "input_chars": 3695.0,
+        "input_lines": 160.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.014,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 221.7
+      }
+    }
   }
 }

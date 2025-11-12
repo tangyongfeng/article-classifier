@@ -72,7 +72,40 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5a1e4927-894b-4993-a924-db394df5d257",
+      "note_id": "a001a2f3-5717-4ada-a69c-1efefd1f4541",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "用户在OsmocomBB开源GSM基站栈开发中，因SIM卡读取器连接失败，无法运行Wireshark工具捕获GSM通信数据。",
+        "keywords": [
+          "OsmocomBB",
+          "GSM基站栈",
+          "SIM卡",
+          "Wireshark",
+          "开源开发"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "电信",
+          "GSM开发"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:06:37.146869Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.195
+    }
+  ],
   "journal": {
     "id": "fd53e227-90e3-43b5-96c0-99f7d47a5249",
     "note_id": "a001a2f3-5717-4ada-a69c-1efefd1f4541",
@@ -95,5 +128,48 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:06:37.146623Z",
+    "latency_seconds": 55.393091375008225,
+    "attempts": 1,
+    "summary": {
+      "summary": "用户在OsmocomBB开源GSM基站栈开发中，因SIM卡读取器连接失败，无法运行Wireshark工具捕获GSM通信数据。",
+      "keywords": [
+        "OsmocomBB",
+        "GSM基站栈",
+        "SIM卡",
+        "Wireshark",
+        "开源开发"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "电信",
+        "GSM开发"
+      ]
+    },
+    "quality": {
+      "score": 0.195,
+      "metrics": {
+        "input_chars": 3605.0,
+        "input_lines": 80.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.017,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 216.3
+      }
+    }
   }
 }

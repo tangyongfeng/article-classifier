@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "439b3785-50a7-4835-a253-7461850952ae",
+      "note_id": "c414476c-7f9c-4048-9937-908bfdb2126b",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: Tornado：一个简单例 updated: 2019-09-27 08:47:55Z created: 2019-09-27 08:47",
+        "keywords": [
+          "---",
+          "title: Tornado：一个简单例",
+          "updated: 2019-09-27 08:47:55Z",
+          "created: 2019-09-27 08:47:25Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:11:47.772451Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "b3f65701-ba91-416d-bda4-0935e9838a62",
     "note_id": "c414476c-7f9c-4048-9937-908bfdb2126b",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T06:11:47.771984Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: Tornado：一个简单例 updated: 2019-09-27 08:47:55Z created: 2019-09-27 08:47",
+      "keywords": [
+        "---",
+        "title: Tornado：一个简单例",
+        "updated: 2019-09-27 08:47:55Z",
+        "created: 2019-09-27 08:47:25Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 8871.0,
+        "input_lines": 201.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.009,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 532.3
+      }
+    }
   }
 }

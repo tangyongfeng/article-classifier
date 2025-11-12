@@ -1,0 +1,29 @@
+{
+  "id": "dfb0e5ba-8f42-4254-b3f0-cda0a2108bd6",
+  "note_id": "46886dfc-2569-4a24-9291-2ffae19d6447",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "雅戈尔投资石油油气管道项目，预期中石油拆分将带来高收益，涉及公司投资分析与市场策略。",
+    "keywords": [
+      "雅戈尔",
+      "石油投资",
+      "中石油",
+      "股票收益",
+      "公司分析"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market",
+      "Company Analysis"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:10:42.106916Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.368
+}

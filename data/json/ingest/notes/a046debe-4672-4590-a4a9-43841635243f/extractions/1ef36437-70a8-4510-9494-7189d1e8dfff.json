@@ -1,0 +1,28 @@
+{
+  "id": "1ef36437-70a8-4510-9494-7189d1e8dfff",
+  "note_id": "a046debe-4672-4590-a4a9-43841635243f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "商业计划书修订聚焦美容化妆培训服务市场需求分层，包括办公室快速化妆、专业美睫美甲课程、美容学校师资培训及欧洲交流，优化业务策略。",
+    "keywords": [
+      "美容化妆",
+      "商业计划书",
+      "市场需求",
+      "培训服务",
+      "欧洲交流"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "创业"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:07:08.700856Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.338
+}

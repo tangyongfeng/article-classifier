@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "98475b6d-b71a-4b7e-9ad0-a3cf1f30884c",
+      "note_id": "57e2efe4-1a79-4b32-83ad-4eec258a0403",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语词汇练习题，涉及工会（Gewerkschaften）的正确选项，属于德语学习中的词汇分类。",
+        "keywords": [
+          "德语",
+          "词汇",
+          "工会",
+          "选择题",
+          "德语学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:05:57.533692Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.087
+    }
+  ],
   "journal": {
     "id": "a88d7e95-4ada-4afa-a9bf-3caee34151ed",
     "note_id": "57e2efe4-1a79-4b32-83ad-4eec258a0403",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:05:57.533503Z",
+    "latency_seconds": 13.656866500037722,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语词汇练习题，涉及工会（Gewerkschaften）的正确选项，属于德语学习中的词汇分类。",
+      "keywords": [
+        "德语",
+        "词汇",
+        "工会",
+        "选择题",
+        "德语学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.087,
+      "metrics": {
+        "input_chars": 1166.0,
+        "input_lines": 28.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.04,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 70.0
+      }
+    }
   }
 }

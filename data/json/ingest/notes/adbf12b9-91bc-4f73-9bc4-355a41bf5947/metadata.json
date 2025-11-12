@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f904358a-87eb-490e-aeff-0bcef37afd64",
+      "note_id": "adbf12b9-91bc-4f73-9bc4-355a41bf5947",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 通达信软件系统目录结构及文件数据格式 updated: 2021-01-29 19:04:44Z created: 2021-01-29 ",
+        "keywords": [
+          "---",
+          "title: 通达信软件系统目录结构及文件数据格式",
+          "updated: 2021-01-29 19:04:44Z",
+          "created: 2021-01-29 19:04:17Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:05:23.087012Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "11167845-3c7f-47fa-a603-9e43c32a892e",
     "note_id": "adbf12b9-91bc-4f73-9bc4-355a41bf5947",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T04:05:23.086231Z",
+    "latency_seconds": 16.538376625045203,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 通达信软件系统目录结构及文件数据格式 updated: 2021-01-29 19:04:44Z created: 2021-01-29 ",
+      "keywords": [
+        "---",
+        "title: 通达信软件系统目录结构及文件数据格式",
+        "updated: 2021-01-29 19:04:44Z",
+        "created: 2021-01-29 19:04:17Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 16565.0,
+        "input_lines": 892.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.005,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 993.9
+      }
+    }
   }
 }

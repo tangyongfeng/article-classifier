@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4dafbd65-c3e7-4211-b5b8-600e5c99287c",
+      "note_id": "adc7da77-f2b7-467b-98e1-77a7b8ee0fa0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "关于高铁的讨论，涉及加藤嘉一的观点，关联中国公共交通与交通知识。",
+        "keywords": [
+          "高铁",
+          "加藤嘉一",
+          "公共交通",
+          "交通知识",
+          "中国"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "交通知识",
+          "公共交通"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:05:52.101417Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.357
+    }
+  ],
   "journal": {
     "id": "616e3175-14ab-46fb-8b43-1ba2d2647aff",
     "note_id": "adc7da77-f2b7-467b-98e1-77a7b8ee0fa0",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:05:52.101265Z",
+    "latency_seconds": 29.008140624966472,
+    "attempts": 1,
+    "summary": {
+      "summary": "关于高铁的讨论，涉及加藤嘉一的观点，关联中国公共交通与交通知识。",
+      "keywords": [
+        "高铁",
+        "加藤嘉一",
+        "公共交通",
+        "交通知识",
+        "中国"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "交通知识",
+        "公共交通"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.357,
+      "metrics": {
+        "input_chars": 94.0,
+        "input_lines": 6.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.34,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.6
+      }
+    }
   }
 }

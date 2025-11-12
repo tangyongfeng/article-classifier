@@ -1,0 +1,32 @@
+{
+  "id": "5014e79c-d3fa-4551-968c-cbafd3d6c57d",
+  "note_id": "7982243b-e39c-4cf6-b2aa-ed680dbaeb1d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "介绍OpenBTS 5.0基站软件安装流程，包含GNU Radio、UHD依赖安装，USRP设备配置及GSM网络参数设置步骤。",
+    "keywords": [
+      "OpenBTS",
+      "GNU Radio",
+      "UHD",
+      "基站安装",
+      "GSM"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": [
+      "商务",
+      "技术创新",
+      "通信技术"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:54:48.974839Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.316
+}

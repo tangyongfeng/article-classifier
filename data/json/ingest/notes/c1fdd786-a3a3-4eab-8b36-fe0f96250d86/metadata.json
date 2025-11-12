@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "83ad169d-c4be-4f6e-9821-eed6d662878c",
+      "note_id": "c1fdd786-a3a3-4eab-8b36-fe0f96250d86",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记标题为邮箱地址microbsd@gmail.com，内容为空或仅包含邮箱地址。",
+        "keywords": [
+          "邮箱",
+          "电子邮件",
+          "联系信息",
+          "microbsd",
+          "gmail"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:56:01.830651Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.371
+    }
+  ],
   "journal": {
     "id": "829b7995-ed68-4c84-8953-cc09b1c5b812",
     "note_id": "c1fdd786-a3a3-4eab-8b36-fe0f96250d86",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:56:01.830484Z",
+    "latency_seconds": 38.817148542031646,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记标题为邮箱地址microbsd@gmail.com，内容为空或仅包含邮箱地址。",
+      "keywords": [
+        "邮箱",
+        "电子邮件",
+        "联系信息",
+        "microbsd",
+        "gmail"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.371,
+      "metrics": {
+        "input_chars": 111.0,
+        "input_lines": 6.0,
+        "summary_chars": 41.0,
+        "summary_coverage_ratio": 0.369,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 6.7
+      }
+    }
   }
 }

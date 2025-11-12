@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b166aa1a-7046-46ef-8f6d-467ca3ae8c07",
+      "note_id": "70bc5338-fc10-4b07-8125-ea0eea8562d1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记列出了三个基础数据库：健康档案基础资源数据库、电子病历基础资源数据库和综合管理数据库，主要用于医疗健康信息管理领域。",
+        "keywords": [
+          "数据库",
+          "健康档案",
+          "电子病历",
+          "基础资源",
+          "综合管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "健康",
+          "健康 > 医疗数据库"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:07:55.156216Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.623
+    }
+  ],
   "journal": {
     "id": "3de62ead-3d2a-4b4c-8831-cbfe487d6a33",
     "note_id": "70bc5338-fc10-4b07-8125-ea0eea8562d1",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:07:55.156029Z",
+    "latency_seconds": 45.094494624994695,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记列出了三个基础数据库：健康档案基础资源数据库、电子病历基础资源数据库和综合管理数据库，主要用于医疗健康信息管理领域。",
+      "keywords": [
+        "数据库",
+        "健康档案",
+        "电子病历",
+        "基础资源",
+        "综合管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "健康",
+        "健康 > 医疗数据库"
+      ]
+    },
+    "quality": {
+      "score": 0.623,
+      "metrics": {
+        "input_chars": 117.0,
+        "input_lines": 8.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.513,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.0
+      }
+    }
   }
 }

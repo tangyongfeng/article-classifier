@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6e9fb396-dbe4-4e49-949b-37224e7e1c3a",
+      "note_id": "ef908155-ebb6-4039-b100-60096ab7d1c9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "宇顺电子为深圳小尺寸液晶显示器制造商，股本1850万股易控盘，2012年亏损后2013年扭亏，与欧菲光竞争，正推进收购雅视科技的重大资产重组。",
+        "keywords": [
+          "公司分析",
+          "资产重组",
+          "扭亏为盈",
+          "液晶显示器",
+          "竞争对手"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:09:38.400799Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.449
+    }
+  ],
   "journal": {
     "id": "6083c750-3410-4b0d-9239-debe41f6feee",
     "note_id": "ef908155-ebb6-4039-b100-60096ab7d1c9",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:09:38.400500Z",
+    "latency_seconds": 16.928165458026342,
+    "attempts": 1,
+    "summary": {
+      "summary": "宇顺电子为深圳小尺寸液晶显示器制造商，股本1850万股易控盘，2012年亏损后2013年扭亏，与欧菲光竞争，正推进收购雅视科技的重大资产重组。",
+      "keywords": [
+        "公司分析",
+        "资产重组",
+        "扭亏为盈",
+        "液晶显示器",
+        "竞争对手"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.449,
+      "metrics": {
+        "input_chars": 250.0,
+        "input_lines": 13.0,
+        "summary_chars": 71.0,
+        "summary_coverage_ratio": 0.284,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.0
+      }
+    }
   }
 }

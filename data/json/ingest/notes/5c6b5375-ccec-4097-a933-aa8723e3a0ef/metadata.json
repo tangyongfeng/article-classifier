@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "aee5bee5-8254-4641-bb08-c62776807ad2",
+      "note_id": "5c6b5375-ccec-4097-a933-aa8723e3a0ef",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 地藏菩萨本愿经白话解释 updated: 2012-11-05 07:44:27Z created: 2012-11-05 07:44:0",
+        "keywords": [
+          "---",
+          "title: 地藏菩萨本愿经白话解释",
+          "updated: 2012-11-05 07:44:27Z",
+          "created: 2012-11-05 07:44:03Z",
+          "地藏菩萨本愿经白话解释序"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:32:25.950386Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "267bd10b-c3f3-40b7-a302-9ccaa894f51e",
     "note_id": "5c6b5375-ccec-4097-a933-aa8723e3a0ef",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T21:32:25.946419Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 地藏菩萨本愿经白话解释 updated: 2012-11-05 07:44:27Z created: 2012-11-05 07:44:0",
+      "keywords": [
+        "---",
+        "title: 地藏菩萨本愿经白话解释",
+        "updated: 2012-11-05 07:44:27Z",
+        "created: 2012-11-05 07:44:03Z",
+        "地藏菩萨本愿经白话解释序"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 121170.0,
+        "input_lines": 1252.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.001,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7270.2
+      }
+    }
   }
 }

@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fd4f603c-0406-436c-924d-5d88ecc99369",
+      "note_id": "4eb74844-23ab-489f-8f38-4b28cdd59b85",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "（空摘要）",
+        "keywords": [
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "金融"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:08:21.359953Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.067
+    }
+  ],
   "journal": {
     "id": "c12314c7-ac4f-41de-9c6b-6822996c3d5d",
     "note_id": "4eb74844-23ab-489f-8f38-4b28cdd59b85",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:08:21.359487Z",
+    "latency_seconds": 68.04423587501515,
+    "attempts": 2,
+    "summary": {
+      "summary": "（空摘要）",
+      "keywords": [
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "金融"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.067,
+      "metrics": {
+        "input_chars": 11967.0,
+        "input_lines": 167.0,
+        "summary_chars": 5.0,
+        "summary_coverage_ratio": 0.0,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 718.0
+      }
+    }
   }
 }

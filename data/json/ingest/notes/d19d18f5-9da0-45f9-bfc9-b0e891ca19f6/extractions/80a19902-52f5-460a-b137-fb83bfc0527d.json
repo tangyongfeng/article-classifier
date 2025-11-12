@@ -1,0 +1,29 @@
+{
+  "id": "80a19902-52f5-460a-b137-fb83bfc0527d",
+  "note_id": "d19d18f5-9da0-45f9-bfc9-b0e891ca19f6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "讨论德语中'Freund'（男性朋友单数）、'Freunde'（男性朋友复数）、'Freundin'（女性朋友单数）、'Freundinnen'（女性朋友复数）",
+    "keywords": [
+      "德语",
+      "语法",
+      "单复数",
+      "性别",
+      "格"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:32:17.186578Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.1
+}

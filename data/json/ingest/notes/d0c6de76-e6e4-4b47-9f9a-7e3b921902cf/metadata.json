@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1d08a4ea-d357-410f-919a-c088aba5fe58",
+      "note_id": "d0c6de76-e6e4-4b47-9f9a-7e3b921902cf",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "在公交站等车时，女生分享饼干，众人食用后上车，发现彼此相识，叙述者未参与互动而未上车。",
+        "keywords": [
+          "公交车站",
+          "分享饼干",
+          "陌生人互动",
+          "社交行为",
+          "未上车"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:28:51.226875Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.185
+    }
+  ],
   "journal": {
     "id": "3e82958f-b800-439e-b89d-bba4eb484354",
     "note_id": "d0c6de76-e6e4-4b47-9f9a-7e3b921902cf",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:28:51.226704Z",
+    "latency_seconds": 26.21145008399617,
+    "attempts": 1,
+    "summary": {
+      "summary": "在公交站等车时，女生分享饼干，众人食用后上车，发现彼此相识，叙述者未参与互动而未上车。",
+      "keywords": [
+        "公交车站",
+        "分享饼干",
+        "陌生人互动",
+        "社交行为",
+        "未上车"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.185,
+      "metrics": {
+        "input_chars": 369.0,
+        "input_lines": 10.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.117,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 22.1
+      }
+    }
   }
 }

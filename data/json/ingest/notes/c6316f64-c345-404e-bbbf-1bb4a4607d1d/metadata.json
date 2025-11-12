@@ -77,7 +77,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0fb5b686-417c-4254-96d3-09a38ed66aa8",
+      "note_id": "c6316f64-c345-404e-bbbf-1bb4a4607d1d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分享饺子肉馅调制技巧，避免添加料酒、十三香和生油，推荐使用葱姜花椒水和葱油，使饺子鲜嫩多汁。",
+        "keywords": [
+          "饺子",
+          "肉馅",
+          "葱姜花椒水",
+          "葱油",
+          "食谱"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "城市生活"
+        ],
+        "new_category_suggestion": [
+          "饮食",
+          "烹饪",
+          "食谱"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:25:04.262490Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.315
+    }
+  ],
   "journal": {
     "id": "68c20ddb-4321-4ac5-95e9-32ca96c537af",
     "note_id": "c6316f64-c345-404e-bbbf-1bb4a4607d1d",
@@ -100,5 +132,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:25:04.262236Z",
+    "latency_seconds": 64.17958612495568,
+    "attempts": 1,
+    "summary": {
+      "summary": "分享饺子肉馅调制技巧，避免添加料酒、十三香和生油，推荐使用葱姜花椒水和葱油，使饺子鲜嫩多汁。",
+      "keywords": [
+        "饺子",
+        "肉馅",
+        "葱姜花椒水",
+        "葱油",
+        "食谱"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "城市生活"
+      ],
+      "new_category_suggestion": [
+        "饮食",
+        "烹饪",
+        "食谱"
+      ]
+    },
+    "quality": {
+      "score": 0.315,
+      "metrics": {
+        "input_chars": 2837.0,
+        "input_lines": 149.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.016,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 170.2
+      }
+    }
   }
 }

@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "24ec2f54-1a43-4731-8d2c-04c742beca37",
+      "note_id": "431dd21d-3957-41a4-a441-74a9085ff4a4",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: Python3网络爬虫(十一)：爬虫黑科技之让你的爬虫程序更像人类用户的行为(代理IP池等) - 个人文章 - SegmentFault ",
+        "keywords": [
+          "---",
+          "title: Python3网络爬虫(十一)：爬虫黑科技之让你的爬虫程序更像人类用户的行为(代理IP池等) - 个人文章 - SegmentFault 思否",
+          "updated: 2019-01-16 02:57:24Z",
+          "created: 2019-01-16 02:57:24Z",
+          "source: https://segmentfault.com/a/1190000017799363"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:43:46.424261Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "438fff84-3d82-406c-9ef8-5599954f8955",
     "note_id": "431dd21d-3957-41a4-a441-74a9085ff4a4",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T18:43:46.423636Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: Python3网络爬虫(十一)：爬虫黑科技之让你的爬虫程序更像人类用户的行为(代理IP池等) - 个人文章 - SegmentFault ",
+      "keywords": [
+        "---",
+        "title: Python3网络爬虫(十一)：爬虫黑科技之让你的爬虫程序更像人类用户的行为(代理IP池等) - 个人文章 - SegmentFault 思否",
+        "updated: 2019-01-16 02:57:24Z",
+        "created: 2019-01-16 02:57:24Z",
+        "source: https://segmentfault.com/a/1190000017799363"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 15857.0,
+        "input_lines": 338.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.005,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 951.4
+      }
+    }
   }
 }

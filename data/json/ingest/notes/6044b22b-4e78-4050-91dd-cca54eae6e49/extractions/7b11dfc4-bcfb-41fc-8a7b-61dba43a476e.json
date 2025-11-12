@@ -1,0 +1,28 @@
+{
+  "id": "7b11dfc4-bcfb-41fc-8a7b-61dba43a476e",
+  "note_id": "6044b22b-4e78-4050-91dd-cca54eae6e49",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "C#代码示例，使用SQLite数据库更新记录，涉及字典数据操作与异常处理。",
+    "keywords": [
+      "C#",
+      "SQLite",
+      "数据库",
+      "字典",
+      "数据更新"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:52:39.817354Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.219
+}

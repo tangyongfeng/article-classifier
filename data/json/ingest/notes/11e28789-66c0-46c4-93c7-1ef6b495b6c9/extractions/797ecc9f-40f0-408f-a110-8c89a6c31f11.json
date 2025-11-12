@@ -1,0 +1,31 @@
+{
+  "id": "797ecc9f-40f0-408f-a110-8c89a6c31f11",
+  "note_id": "11e28789-66c0-46c4-93c7-1ef6b495b6c9",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "关于密码管理、安全认证及登录系统相关的内容，涉及密码设置、强度要求及安全策略。",
+    "keywords": [
+      "密码",
+      "安全",
+      "登录",
+      "认证",
+      "管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": [
+      "安全",
+      "密码管理"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:11:15.222815Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.356
+}

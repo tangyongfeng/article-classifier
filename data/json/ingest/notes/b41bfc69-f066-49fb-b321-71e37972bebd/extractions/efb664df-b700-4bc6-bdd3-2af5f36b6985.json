@@ -1,0 +1,31 @@
+{
+  "id": "efb664df-b700-4bc6-bdd3-2af5f36b6985",
+  "note_id": "b41bfc69-f066-49fb-b321-71e37972bebd",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "执行Nmap命令扫描IP 117.79.229.216，检测到开放端口包括FTP(21)、HTTP(80)、MySQL(3306)等服务。",
+    "keywords": [
+      "nmap",
+      "端口扫描",
+      "FTP",
+      "HTTP",
+      "MySQL"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Technology",
+      "Networking",
+      "Network Scanning"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:35:30.594403Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.321
+}

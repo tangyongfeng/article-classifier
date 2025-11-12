@@ -77,7 +77,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7c15f4ce-7596-4434-ad9e-34cef4e8bd62",
+      "note_id": "bfa00b8b-55e7-41a5-a23e-3a98cf5f00cb",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: OsmocomBB项目 - 酒水不犯茶水 - BlogJava updated: 2016-04-03 10:07:03Z created",
+        "keywords": [
+          "---",
+          "title: OsmocomBB项目 - 酒水不犯茶水 - BlogJava",
+          "updated: 2016-04-03 10:07:03Z",
+          "created: 2016-04-03 10:07:03Z",
+          "source: http://www.blogjava.net/baicker/archive/2013/11/13/406293.html"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:52:16.694808Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "3e1813df-707d-4fdd-82ee-50600f8bca84",
     "note_id": "bfa00b8b-55e7-41a5-a23e-3a98cf5f00cb",
@@ -100,5 +128,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T05:52:16.694272Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: OsmocomBB项目 - 酒水不犯茶水 - BlogJava updated: 2016-04-03 10:07:03Z created",
+      "keywords": [
+        "---",
+        "title: OsmocomBB项目 - 酒水不犯茶水 - BlogJava",
+        "updated: 2016-04-03 10:07:03Z",
+        "created: 2016-04-03 10:07:03Z",
+        "source: http://www.blogjava.net/baicker/archive/2013/11/13/406293.html"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 6027.0,
+        "input_lines": 366.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 361.6
+      }
+    }
   }
 }

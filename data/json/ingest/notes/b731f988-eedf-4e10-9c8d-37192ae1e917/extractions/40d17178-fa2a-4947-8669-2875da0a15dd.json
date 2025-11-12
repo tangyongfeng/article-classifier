@@ -1,0 +1,30 @@
+{
+  "id": "40d17178-fa2a-4947-8669-2875da0a15dd",
+  "note_id": "b731f988-eedf-4e10-9c8d-37192ae1e917",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Python使用readline()逐行读取文件时，通过空行判断末尾，推荐用for循环遍历文件对象更高效。",
+    "keywords": [
+      "Python",
+      "readline",
+      "文件读取",
+      "循环",
+      "文件末尾"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": [
+      "Education",
+      "Programming"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:46:44.657178Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.293
+}

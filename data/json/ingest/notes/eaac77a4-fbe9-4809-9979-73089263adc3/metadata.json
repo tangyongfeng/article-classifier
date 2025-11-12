@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "57c80e7f-c10d-4446-bb16-7498251b5e0a",
+      "note_id": "eaac77a4-fbe9-4809-9979-73089263adc3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "教育平台登录链接，指向语言学习系统，目标语言为英文。",
+        "keywords": [
+          "教育",
+          "语言学习",
+          "登录链接",
+          "平台",
+          "学习管理系统"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education",
+          "Language Learning"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:47:05.932808Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.133
+    }
+  ],
   "journal": {
     "id": "49d380e2-016b-4c6d-b7ca-e9147cfc53f8",
     "note_id": "eaac77a4-fbe9-4809-9979-73089263adc3",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:47:05.932673Z",
+    "latency_seconds": 35.4973643750418,
+    "attempts": 1,
+    "summary": {
+      "summary": "教育平台登录链接，指向语言学习系统，目标语言为英文。",
+      "keywords": [
+        "教育",
+        "语言学习",
+        "登录链接",
+        "平台",
+        "学习管理系统"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education",
+        "Language Learning"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.133,
+      "metrics": {
+        "input_chars": 197.0,
+        "input_lines": 7.0,
+        "summary_chars": 26.0,
+        "summary_coverage_ratio": 0.132,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.8
+      }
+    }
   }
 }

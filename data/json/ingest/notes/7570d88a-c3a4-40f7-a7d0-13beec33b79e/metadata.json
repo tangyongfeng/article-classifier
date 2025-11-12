@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "238bdf78-7915-441a-9d33-5061d600ef88",
+      "note_id": "7570d88a-c3a4-40f7-a7d0-13beec33b79e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "华策影视为影视投资公司，2013年计划投资《小时代3》《小时代4》，2012年参与《听风者》票房收入2000万，电视剧业务收入下滑。",
+        "keywords": [
+          "影视投资",
+          "华策影视",
+          "电影投资",
+          "票房收入",
+          "电视剧业务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:36:47.400787Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.378
+    }
+  ],
   "journal": {
     "id": "f5203b01-7a66-4421-ae50-1a5f08421658",
     "note_id": "7570d88a-c3a4-40f7-a7d0-13beec33b79e",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:36:47.400617Z",
+    "latency_seconds": 32.80356204195414,
+    "attempts": 1,
+    "summary": {
+      "summary": "华策影视为影视投资公司，2013年计划投资《小时代3》《小时代4》，2012年参与《听风者》票房收入2000万，电视剧业务收入下滑。",
+      "keywords": [
+        "影视投资",
+        "华策影视",
+        "电影投资",
+        "票房收入",
+        "电视剧业务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.378,
+      "metrics": {
+        "input_chars": 466.0,
+        "input_lines": 16.0,
+        "summary_chars": 66.0,
+        "summary_coverage_ratio": 0.142,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 28.0
+      }
+    }
   }
 }

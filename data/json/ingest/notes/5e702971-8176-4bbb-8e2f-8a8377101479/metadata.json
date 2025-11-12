@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "381ffd11-954f-4730-acd3-974f78899f5c",
+      "note_id": "5e702971-8176-4bbb-8e2f-8a8377101479",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "北京交通管理局证件预申请成功，提供预申请密码20170420000406，需保存条码查询初审结果。",
+        "keywords": [
+          "预申请",
+          "密码",
+          "条码",
+          "证件",
+          "交通"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "驾照"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:37:36.838899Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.392
+    }
+  ],
   "journal": {
     "id": "5de55e09-3122-4ae1-87c2-38c4584d8775",
     "note_id": "5e702971-8176-4bbb-8e2f-8a8377101479",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:37:36.838721Z",
+    "latency_seconds": 36.214177416986786,
+    "attempts": 1,
+    "summary": {
+      "summary": "北京交通管理局证件预申请成功，提供预申请密码20170420000406，需保存条码查询初审结果。",
+      "keywords": [
+        "预申请",
+        "密码",
+        "条码",
+        "证件",
+        "交通"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "驾照"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.392,
+      "metrics": {
+        "input_chars": 286.0,
+        "input_lines": 14.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.171,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.2
+      }
+    }
   }
 }

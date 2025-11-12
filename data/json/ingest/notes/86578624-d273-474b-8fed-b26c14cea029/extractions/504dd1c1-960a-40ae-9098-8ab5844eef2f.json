@@ -1,0 +1,28 @@
+{
+  "id": "504dd1c1-960a-40ae-9098-8ab5844eef2f",
+  "note_id": "86578624-d273-474b-8fed-b26c14cea029",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该笔记记录Audi A4 Avant车辆的付款银行账号信息，包括账号DE83 3003 0880 0000 2230 93及车辆型号细节。",
+    "keywords": [
+      "汽车付款",
+      "银行账号",
+      "Audi A4",
+      "车辆信息",
+      "支付服务"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:05:54.625339Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.306
+}

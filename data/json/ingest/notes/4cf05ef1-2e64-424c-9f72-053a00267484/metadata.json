@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ba83ba9d-605a-4a8a-94e7-42514aac2b35",
+      "note_id": "4cf05ef1-2e64-424c-9f72-053a00267484",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记解析德国RE、RB、S-Bahn和U-Bahn交通系统区别，涵盖运营主体、票务规则及速度特征，强调公共交通与城市轨道交通关联。",
+        "keywords": [
+          "区域快车",
+          "区域慢车",
+          "市郊铁路",
+          "地铁",
+          "公共交通"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "交通知识",
+          "公共交通"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:51:29.032787Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.341
+    }
+  ],
   "journal": {
     "id": "3f1923de-7941-44cc-82aa-48aaa9a7f354",
     "note_id": "4cf05ef1-2e64-424c-9f72-053a00267484",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:51:29.032657Z",
+    "latency_seconds": 28.50080512498971,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记解析德国RE、RB、S-Bahn和U-Bahn交通系统区别，涵盖运营主体、票务规则及速度特征，强调公共交通与城市轨道交通关联。",
+      "keywords": [
+        "区域快车",
+        "区域慢车",
+        "市郊铁路",
+        "地铁",
+        "公共交通"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "交通知识",
+        "公共交通"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.341,
+      "metrics": {
+        "input_chars": 939.0,
+        "input_lines": 12.0,
+        "summary_chars": 65.0,
+        "summary_coverage_ratio": 0.069,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 56.3
+      }
+    }
   }
 }

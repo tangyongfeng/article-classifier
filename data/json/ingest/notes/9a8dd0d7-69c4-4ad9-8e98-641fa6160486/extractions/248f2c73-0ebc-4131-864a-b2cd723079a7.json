@@ -1,0 +1,27 @@
+{
+  "id": "248f2c73-0ebc-4131-864a-b2cd723079a7",
+  "note_id": "9a8dd0d7-69c4-4ad9-8e98-641fa6160486",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "2017年印尼不锈钢及镍生铁总产量预计23.4万金属吨，新增产能19万吨，镍铁成本760元，国内售价840元，盈利空间大，出口潜力显著。",
+    "keywords": [
+      "印尼",
+      "不锈钢",
+      "镍生铁",
+      "产量",
+      "盈利"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:35:08.522705Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.488
+}

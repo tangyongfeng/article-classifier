@@ -1,0 +1,27 @@
+{
+  "id": "7d0eeb1a-b099-49af-9f71-620ced5dd10b",
+  "note_id": "a376601e-697e-4d16-a99c-239388b35e58",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "使用Delphi实现微信电脑端图片文件解密，可找回被撤回的图片，代码涉及文件加密解密算法。",
+    "keywords": [
+      "Delphi",
+      "微信",
+      "图片解密",
+      "电脑端",
+      "代码"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:25:59.021459Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.314
+}

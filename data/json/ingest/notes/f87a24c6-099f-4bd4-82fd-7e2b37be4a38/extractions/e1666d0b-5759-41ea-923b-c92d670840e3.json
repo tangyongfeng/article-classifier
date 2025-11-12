@@ -1,0 +1,32 @@
+{
+  "id": "e1666d0b-5759-41ea-923b-c92d670840e3",
+  "note_id": "f87a24c6-099f-4bd4-82fd-7e2b37be4a38",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Ruby gem更新时因IPv6连接超时报错，解决方法是禁用系统IPv6配置（设置net.ipv6.conf.*.disable_ipv6=1）。",
+    "keywords": [
+      "gem",
+      "IPv6",
+      "Ruby",
+      "update",
+      "error"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": [
+      "技术",
+      "开发工具",
+      "Ruby"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:52:16.444494Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.456
+}

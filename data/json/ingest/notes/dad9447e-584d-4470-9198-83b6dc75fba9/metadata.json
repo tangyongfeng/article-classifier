@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d1822154-5981-4afe-b0ac-c9867350c8fa",
+      "note_id": "dad9447e-584d-4470-9198-83b6dc75fba9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "新年祝福，中彩在线离职后移居德国，与家人团聚共贺新年。",
+        "keywords": [
+          "新年",
+          "德国",
+          "家庭",
+          "团聚",
+          "祝福"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Events"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:19:59.907845Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.314
+    }
+  ],
   "journal": {
     "id": "240246b9-3f74-4c6c-b6b6-05024106e688",
     "note_id": "dad9447e-584d-4470-9198-83b6dc75fba9",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:19:59.906809Z",
+    "latency_seconds": 25.883997917058878,
+    "attempts": 1,
+    "summary": {
+      "summary": "新年祝福，中彩在线离职后移居德国，与家人团聚共贺新年。",
+      "keywords": [
+        "新年",
+        "德国",
+        "家庭",
+        "团聚",
+        "祝福"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Events"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.314,
+      "metrics": {
+        "input_chars": 202.0,
+        "input_lines": 7.0,
+        "summary_chars": 27.0,
+        "summary_coverage_ratio": 0.134,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.1
+      }
+    }
   }
 }

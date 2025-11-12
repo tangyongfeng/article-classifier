@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "18157a6e-ff1a-4888-ac71-e3bf23ad4de7",
+      "note_id": "448381a3-9580-4d7a-95cb-173bf2a80048",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Structured guide for writing internet history book with focus on early developme",
+        "keywords": [
+          "internet history",
+          "social media evolution",
+          "book structure",
+          "digital culture",
+          "early internet"
+        ],
+        "action_items": [
+          "Draft a 1-page timeline of 10 pivotal events (e.g., 1993 Mosaic browser launch)",
+          "Write a 'Why It Matters' paragraph for each event to build your thesis",
+          "Research primary sources: Usenet archives, early Facebook code, *Wired* magazine",
+          "Avoid tech jargon; explain concepts through societal impact (e.g., TCP/IP = 'internet's universal language')",
+          "Include a section on how pre-social media communities (Usenet) shaped modern platforms"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": "Digital Culture Studies"
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:50:04.307014Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.271
+    }
+  ],
   "journal": {
     "id": "90b5b856-c2aa-4a16-93ec-ebf51050cf21",
     "note_id": "448381a3-9580-4d7a-95cb-173bf2a80048",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:50:04.306840Z",
+    "latency_seconds": 101.56882695795503,
+    "attempts": 1,
+    "summary": {
+      "summary": "Structured guide for writing internet history book with focus on early developme",
+      "keywords": [
+        "internet history",
+        "social media evolution",
+        "book structure",
+        "digital culture",
+        "early internet"
+      ],
+      "action_items": [
+        "Draft a 1-page timeline of 10 pivotal events (e.g., 1993 Mosaic browser launch)",
+        "Write a 'Why It Matters' paragraph for each event to build your thesis",
+        "Research primary sources: Usenet archives, early Facebook code, *Wired* magazine",
+        "Avoid tech jargon; explain concepts through societal impact (e.g., TCP/IP = 'internet's universal language')",
+        "Include a section on how pre-social media communities (Usenet) shaped modern platforms"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": "Digital Culture Studies"
+    },
+    "quality": {
+      "score": 0.271,
+      "metrics": {
+        "input_chars": 567.0,
+        "input_lines": 13.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.141,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 5.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 34.0
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "430d5510-65a2-4891-b431-5faedba9d63f",
+      "note_id": "8fd5859b-f166-4d49-bcf4-8dd08c7a3f73",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "使用Python开发Web报表工具Streamlit，适用于数据可视化与商业分析，属于技术创新应用。",
+        "keywords": [
+          "python",
+          "web报表",
+          "Streamlit",
+          "数据可视化",
+          "技术创新"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:51:16.914627Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.336
+    }
+  ],
   "journal": {
     "id": "28f32b61-efac-44db-bde0-1f6bec4b934f",
     "note_id": "8fd5859b-f166-4d49-bcf4-8dd08c7a3f73",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:51:16.914470Z",
+    "latency_seconds": 15.870102167013101,
+    "attempts": 1,
+    "summary": {
+      "summary": "使用Python开发Web报表工具Streamlit，适用于数据可视化与商业分析，属于技术创新应用。",
+      "keywords": [
+        "python",
+        "web报表",
+        "Streamlit",
+        "数据可视化",
+        "技术创新"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.336,
+      "metrics": {
+        "input_chars": 167.0,
+        "input_lines": 9.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.299,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.0
+      }
+    }
   }
 }

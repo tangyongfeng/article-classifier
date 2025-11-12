@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "aacc4375-2a52-4e34-9830-4035afbf7712",
+      "note_id": "dde80f6a-6178-4a9c-86f7-9902275f1c42",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本文阐述无人机反制技术，涵盖探测方法（雷达、信号监测）和反制手段（干扰、诱骗），用于应对无人机安全威胁，保障低空飞行安全。",
+        "keywords": [
+          "无人机",
+          "反制技术",
+          "探测",
+          "干扰",
+          "安全"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "交通知识"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:36:43.100214Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.376
+    }
+  ],
   "journal": {
     "id": "5755a93c-746e-42b7-bcab-2499da0d008c",
     "note_id": "dde80f6a-6178-4a9c-86f7-9902275f1c42",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:36:43.100017Z",
+    "latency_seconds": 42.708042208105326,
+    "attempts": 1,
+    "summary": {
+      "summary": "本文阐述无人机反制技术，涵盖探测方法（雷达、信号监测）和反制手段（干扰、诱骗），用于应对无人机安全威胁，保障低空飞行安全。",
+      "keywords": [
+        "无人机",
+        "反制技术",
+        "探测",
+        "干扰",
+        "安全"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "交通知识"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.376,
+      "metrics": {
+        "input_chars": 3244.0,
+        "input_lines": 106.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.019,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 194.6
+      }
+    }
   }
 }

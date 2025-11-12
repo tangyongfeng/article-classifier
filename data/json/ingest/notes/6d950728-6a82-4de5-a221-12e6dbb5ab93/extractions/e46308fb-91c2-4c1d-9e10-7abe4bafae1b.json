@@ -1,0 +1,27 @@
+{
+  "id": "e46308fb-91c2-4c1d-9e10-7abe4bafae1b",
+  "note_id": "6d950728-6a82-4de5-a221-12e6dbb5ab93",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美国参议院2013年提出移民改革法案，设立积分制绿卡系统，按教育、工作年限、英语能力等评分，分两级实施，预计第五年生效。法案调整亲属移民和H-1B高需求职业规则",
+    "keywords": [
+      "移民改革",
+      "积分制绿卡",
+      "技能评分",
+      "美国移民",
+      "H-1B"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:55:51.925840Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.318
+}

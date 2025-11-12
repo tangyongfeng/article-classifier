@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "70e2046c-3353-459d-827d-34072aa1860b",
+      "note_id": "81bb5d09-11b5-452c-acb0-761dafc6c500",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讨论YouTube创作者盈利模式：低流量依赖广告分成（千次点击约1美元），中高流量通过广告商合作及付费内容增收，顶级频道90%收入来自商业合作而非平台分成。",
+        "keywords": [
+          "YouTube",
+          "广告分成",
+          "广告商",
+          "商业合作",
+          "付费内容"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:46:28.519794Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.329
+    }
+  ],
   "journal": {
     "id": "6f71cd29-91fb-417c-9f1f-29caf0054e37",
     "note_id": "81bb5d09-11b5-452c-acb0-761dafc6c500",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:46:28.519613Z",
+    "latency_seconds": 19.42168233403936,
+    "attempts": 1,
+    "summary": {
+      "summary": "讨论YouTube创作者盈利模式：低流量依赖广告分成（千次点击约1美元），中高流量通过广告商合作及付费内容增收，顶级频道90%收入来自商业合作而非平台分成。",
+      "keywords": [
+        "YouTube",
+        "广告分成",
+        "广告商",
+        "商业合作",
+        "付费内容"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.329,
+      "metrics": {
+        "input_chars": 1764.0,
+        "input_lines": 11.0,
+        "summary_chars": 78.0,
+        "summary_coverage_ratio": 0.044,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 105.8
+      }
+    }
   }
 }

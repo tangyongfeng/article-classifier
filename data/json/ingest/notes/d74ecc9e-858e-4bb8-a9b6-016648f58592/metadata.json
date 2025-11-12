@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2997d23d-b9b6-4bde-be9a-1f3712e0f8c7",
+      "note_id": "d74ecc9e-858e-4bb8-a9b6-016648f58592",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "劳动仲裁答辩要点，涉及考勤制度缺失、劳动合同确认及开庭注意事项，聚焦公司考勤管理问题与员工身份陈述。",
+        "keywords": [
+          "劳动仲裁",
+          "考勤制度",
+          "劳动合同",
+          "出庭",
+          "公司纠纷"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:04:47.986392Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.363
+    }
+  ],
   "journal": {
     "id": "213c6a56-5c66-415d-bb96-145dbbfaadb2",
     "note_id": "d74ecc9e-858e-4bb8-a9b6-016648f58592",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:04:47.986159Z",
+    "latency_seconds": 18.149777167011052,
+    "attempts": 1,
+    "summary": {
+      "summary": "劳动仲裁答辩要点，涉及考勤制度缺失、劳动合同确认及开庭注意事项，聚焦公司考勤管理问题与员工身份陈述。",
+      "keywords": [
+        "劳动仲裁",
+        "考勤制度",
+        "劳动合同",
+        "出庭",
+        "公司纠纷"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.363,
+      "metrics": {
+        "input_chars": 447.0,
+        "input_lines": 24.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.112,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 26.8
+      }
+    }
   }
 }

@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "55d8e8e5-4d8a-43a9-a738-17019e724d48",
+      "note_id": "9120606a-d9c3-445a-8d5d-38f962eb1052",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: The Plague Year | The New Yorker updated: 2020-12-30 22:15:09Z create",
+        "keywords": [
+          "---",
+          "title: The Plague Year | The New Yorker",
+          "updated: 2020-12-30 22:15:09Z",
+          "created: 2020-12-30 22:14:46Z",
+          "source: https://www.newyorker.com/magazine/2021/01/04/the-plague-year"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:54:43.679618Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "c512ce5c-7020-49a9-b001-07f35b52fae7",
     "note_id": "9120606a-d9c3-445a-8d5d-38f962eb1052",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T01:54:43.673090Z",
+    "latency_seconds": 24.483916500001214,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: The Plague Year | The New Yorker updated: 2020-12-30 22:15:09Z create",
+      "keywords": [
+        "---",
+        "title: The Plague Year | The New Yorker",
+        "updated: 2020-12-30 22:15:09Z",
+        "created: 2020-12-30 22:14:46Z",
+        "source: https://www.newyorker.com/magazine/2021/01/04/the-plague-year"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 193495.0,
+        "input_lines": 1198.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.0,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11609.7
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9d0ef5a6-3b12-403a-8450-2519932b44fe",
+      "note_id": "6e6785d5-6edc-4232-bea4-025555d4f5ea",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "融资融券账户是证券市场中用于借贷交易的账户类型，涉及融资利息（万分之2.39天）和融券利息（万分之2.94天）。",
+        "keywords": [
+          "融资融券",
+          "账户",
+          "利息",
+          "融资",
+          "融券"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:57:42.660839Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.556
+    }
+  ],
   "journal": {
     "id": "2b5ca509-1332-4b2d-a9ab-a5bb0e5a3494",
     "note_id": "6e6785d5-6edc-4232-bea4-025555d4f5ea",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:57:42.660511Z",
+    "latency_seconds": 45.70816091704182,
+    "attempts": 1,
+    "summary": {
+      "summary": "融资融券账户是证券市场中用于借贷交易的账户类型，涉及融资利息（万分之2.39天）和融券利息（万分之2.94天）。",
+      "keywords": [
+        "融资融券",
+        "账户",
+        "利息",
+        "融资",
+        "融券"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.556,
+      "metrics": {
+        "input_chars": 148.0,
+        "input_lines": 11.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.378,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 3.0,
+        "estimated_read_seconds": 8.9
+      }
+    }
   }
 }

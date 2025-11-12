@@ -1,0 +1,27 @@
+{
+  "id": "2deda3e5-50de-4ba1-a746-5b89abb9ac7d",
+  "note_id": "5873df20-8876-4ae1-90fa-5a8e4569e741",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "崔永元曝光最高法院卷宗丢失事件，涉及陕西千亿矿权案两审两判，司法腐败引关注。",
+    "keywords": [
+      "崔永元",
+      "最高法院",
+      "卷宗丢失",
+      "千亿矿权",
+      "司法腐败"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:10:19.656732Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.313
+}

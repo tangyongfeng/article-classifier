@@ -1,0 +1,31 @@
+{
+  "id": "05e4a175-774b-4682-aea1-36f1a00c3cf5",
+  "note_id": "e2960b87-33c1-4e33-bac2-7d4ca4000de0",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Python函数通过*numbers实现可变参数，接收元组形式参数，支持任意数量参数传入。",
+    "keywords": [
+      "Python",
+      "可变参数",
+      "函数",
+      "元组",
+      "参数传入"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": [
+      "Education",
+      "Programming",
+      "Python"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:07:07.825788Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.31
+}

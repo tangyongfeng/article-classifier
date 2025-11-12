@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e9af46dd-e84f-4b10-ba35-a52025a836cb",
+      "note_id": "f89fdef3-c298-48da-8292-a27198908119",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记包含动物英文与中文对照词汇（仓鼠、鹦鹉、豚鼠、小型马），属于语言学习词汇分类，归入Language Learning > German > Vocabula",
+        "keywords": [
+          "仓鼠",
+          "鹦鹉",
+          "豚鼠",
+          "小型马",
+          "动物词汇"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:52:43.610919Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.56
+    }
+  ],
   "journal": {
     "id": "627c577b-b391-4f7e-99e0-65c7a00ea04f",
     "note_id": "f89fdef3-c298-48da-8292-a27198908119",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:52:43.610761Z",
+    "latency_seconds": 27.161128291976638,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记包含动物英文与中文对照词汇（仓鼠、鹦鹉、豚鼠、小型马），属于语言学习词汇分类，归入Language Learning > German > Vocabula",
+      "keywords": [
+        "仓鼠",
+        "鹦鹉",
+        "豚鼠",
+        "小型马",
+        "动物词汇"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.56,
+      "metrics": {
+        "input_chars": 158.0,
+        "input_lines": 10.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.506,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.5
+      }
+    }
   }
 }

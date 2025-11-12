@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bd37e312-f249-42b9-88cf-d0ff0dc252e8",
+      "note_id": "a123c666-b039-49e4-befc-97dd490c1fd5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本笔记系统分析德语特殊疑问词（如wer, was, wo）在句子中的成分，包括主语、宾语、状语等，并通过例句详细说明用法。",
+        "keywords": [
+          "德语",
+          "特殊疑问词",
+          "句子成分",
+          "语法",
+          "例句"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:12:04.644333Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.314
+    }
+  ],
   "journal": {
     "id": "228c0701-5f4d-41bf-a740-3570bfb0fcaa",
     "note_id": "a123c666-b039-49e4-befc-97dd490c1fd5",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:12:04.643868Z",
+    "latency_seconds": 31.206253624986857,
+    "attempts": 1,
+    "summary": {
+      "summary": "本笔记系统分析德语特殊疑问词（如wer, was, wo）在句子中的成分，包括主语、宾语、状语等，并通过例句详细说明用法。",
+      "keywords": [
+        "德语",
+        "特殊疑问词",
+        "句子成分",
+        "语法",
+        "例句"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.314,
+      "metrics": {
+        "input_chars": 4382.0,
+        "input_lines": 319.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.014,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 262.9
+      }
+    }
   }
 }

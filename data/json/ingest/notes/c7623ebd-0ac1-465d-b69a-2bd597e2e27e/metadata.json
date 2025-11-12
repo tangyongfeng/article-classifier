@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "de60f574-9b3e-451d-a4ca-6bbe725e6e82",
+      "note_id": "c7623ebd-0ac1-465d-b69a-2bd597e2e27e",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 我的爸妈是奇葩 updated: 2014-04-01 05:19:17Z created: 2014-04-01 05:19:02Z s",
+        "keywords": [
+          "---",
+          "title: 我的爸妈是奇葩",
+          "updated: 2014-04-01 05:19:17Z",
+          "created: 2014-04-01 05:19:02Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:35:31.227386Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.15
+    }
+  ],
   "journal": {
     "id": "a067dbfb-3d95-4c46-86c5-988e73c26d74",
     "note_id": "c7623ebd-0ac1-465d-b69a-2bd597e2e27e",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T06:35:31.227093Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 我的爸妈是奇葩 updated: 2014-04-01 05:19:17Z created: 2014-04-01 05:19:02Z s",
+      "keywords": [
+        "---",
+        "title: 我的爸妈是奇葩",
+        "updated: 2014-04-01 05:19:17Z",
+        "created: 2014-04-01 05:19:02Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.15,
+      "metrics": {
+        "input_chars": 4226.0,
+        "input_lines": 72.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.019,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 253.6
+      }
+    }
   }
 }

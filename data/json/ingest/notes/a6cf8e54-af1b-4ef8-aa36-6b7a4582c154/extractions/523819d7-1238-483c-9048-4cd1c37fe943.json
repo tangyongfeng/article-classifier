@@ -1,0 +1,28 @@
+{
+  "id": "523819d7-1238-483c-9048-4cd1c37fe943",
+  "note_id": "a6cf8e54-af1b-4ef8-aa36-6b7a4582c154",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "C#实现的SQLite数据库操作类，提供查询、更新、删除等方法，支持连接配置和数据表操作。",
+    "keywords": [
+      "SQLite",
+      "C#",
+      "数据库",
+      "类",
+      "操作"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:31:49.783900Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.19
+}

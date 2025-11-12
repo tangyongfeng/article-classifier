@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "38f7953c-b182-47f8-8cfb-59f8f360d356",
+      "note_id": "f31ca61d-f686-470a-b2d9-a20e9ab9a59c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "可转债指标计算涉及价格、转股价值、溢价率及税前税后收益，用于评估投资价值和持有到期收益。",
+        "keywords": [
+          "可转债",
+          "转股价值",
+          "溢价率",
+          "税前收益",
+          "税后收益"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:25:29.584788Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.385
+    }
+  ],
   "journal": {
     "id": "6c176a6a-2708-498e-9d6f-28e9762e4b49",
     "note_id": "f31ca61d-f686-470a-b2d9-a20e9ab9a59c",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:25:29.584618Z",
+    "latency_seconds": 33.62292312504724,
+    "attempts": 1,
+    "summary": {
+      "summary": "可转债指标计算涉及价格、转股价值、溢价率及税前税后收益，用于评估投资价值和持有到期收益。",
+      "keywords": [
+        "可转债",
+        "转股价值",
+        "溢价率",
+        "税前收益",
+        "税后收益"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.385,
+      "metrics": {
+        "input_chars": 1209.0,
+        "input_lines": 30.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.036,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 72.5
+      }
+    }
   }
 }

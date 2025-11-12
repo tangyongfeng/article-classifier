@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0ef6e71e-4c8b-47d4-aff4-5696244b030f",
+      "note_id": "6e81f2c9-b6f7-4a02-b793-769efd63eaba",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "会议讨论连接系统扩展测试的准备，涉及测试方法、数据量（4亿uid、8亿dev）、数据库结构及数据访问模块分工。",
+        "keywords": [
+          "系统扩展",
+          "测试准备",
+          "数据库结构",
+          "数据访问",
+          "测试数据"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:59:09.822961Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.405
+    }
+  ],
   "journal": {
     "id": "cbbefeac-8e1f-48ce-9699-042b0ef14cbb",
     "note_id": "6e81f2c9-b6f7-4a02-b793-769efd63eaba",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:59:09.822820Z",
+    "latency_seconds": 34.664380709058605,
+    "attempts": 1,
+    "summary": {
+      "summary": "会议讨论连接系统扩展测试的准备，涉及测试方法、数据量（4亿uid、8亿dev）、数据库结构及数据访问模块分工。",
+      "keywords": [
+        "系统扩展",
+        "测试准备",
+        "数据库结构",
+        "数据访问",
+        "测试数据"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.405,
+      "metrics": {
+        "input_chars": 719.0,
+        "input_lines": 39.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.076,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 43.1
+      }
+    }
   }
 }

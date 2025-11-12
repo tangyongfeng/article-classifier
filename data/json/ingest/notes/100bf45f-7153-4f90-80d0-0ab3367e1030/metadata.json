@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "143927c9-704c-4923-837b-f2cb90b7ad13",
+      "note_id": "100bf45f-7153-4f90-80d0-0ab3367e1030",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "克劳斯塔工业大学是德国一所高等教育机构，需归入教育类分类。",
+        "keywords": [
+          "克劳斯塔工业大学",
+          "德国",
+          "大学",
+          "教育机构",
+          "高等教育"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:08:52.728495Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.343
+    }
+  ],
   "journal": {
     "id": "9895493a-b391-47fc-a42e-68bbf5de3f51",
     "note_id": "100bf45f-7153-4f90-80d0-0ab3367e1030",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:08:52.728354Z",
+    "latency_seconds": 18.96346033399459,
+    "attempts": 1,
+    "summary": {
+      "summary": "克劳斯塔工业大学是德国一所高等教育机构，需归入教育类分类。",
+      "keywords": [
+        "克劳斯塔工业大学",
+        "德国",
+        "大学",
+        "教育机构",
+        "高等教育"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.343,
+      "metrics": {
+        "input_chars": 93.0,
+        "input_lines": 6.0,
+        "summary_chars": 29.0,
+        "summary_coverage_ratio": 0.312,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.6
+      }
+    }
   }
 }

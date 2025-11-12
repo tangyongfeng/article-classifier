@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d00bd251-eb6f-4fd7-b0fc-7a3b2808d58b",
+      "note_id": "337a5245-a3d1-44ea-b3f6-e12a9a036a75",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "加州卷由加拿大日裔厨师东条英员为迎合西方口味改良，用蟹肉沙拉、牛油果代替生鱼，采用反卷形式，后传入美国得名，2016年厨师获'日料亲善大使'称号。",
+        "keywords": [
+          "加州卷",
+          "寿司改良",
+          "西方口味",
+          "反卷",
+          "美式寿司"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:46:53.493344Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.297
+    }
+  ],
   "journal": {
     "id": "06c0b3f1-b3f3-4779-aee2-ed4ef69dde90",
     "note_id": "337a5245-a3d1-44ea-b3f6-e12a9a036a75",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:46:53.492248Z",
+    "latency_seconds": 22.426281000021845,
+    "attempts": 1,
+    "summary": {
+      "summary": "加州卷由加拿大日裔厨师东条英员为迎合西方口味改良，用蟹肉沙拉、牛油果代替生鱼，采用反卷形式，后传入美国得名，2016年厨师获'日料亲善大使'称号。",
+      "keywords": [
+        "加州卷",
+        "寿司改良",
+        "西方口味",
+        "反卷",
+        "美式寿司"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.297,
+      "metrics": {
+        "input_chars": 726.0,
+        "input_lines": 10.0,
+        "summary_chars": 73.0,
+        "summary_coverage_ratio": 0.101,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 43.6
+      }
+    }
   }
 }

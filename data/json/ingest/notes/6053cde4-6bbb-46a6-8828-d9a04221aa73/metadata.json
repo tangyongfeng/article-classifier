@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1593997f-abfd-4a52-a829-46909c37bd42",
+      "note_id": "6053cde4-6bbb-46a6-8828-d9a04221aa73",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "FreeBSD系统中使用make -DBATCH install命令实现端口的静默安装，无需用户交互。",
+        "keywords": [
+          "FreeBSD",
+          "port",
+          "silent",
+          "make",
+          "install"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:55:42.261518Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.467
+    }
+  ],
   "journal": {
     "id": "a655c044-ad5e-42df-911f-8f18caeb1cfa",
     "note_id": "6053cde4-6bbb-46a6-8828-d9a04221aa73",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:55:42.261273Z",
+    "latency_seconds": 28.292157832998782,
+    "attempts": 1,
+    "summary": {
+      "summary": "FreeBSD系统中使用make -DBATCH install命令实现端口的静默安装，无需用户交互。",
+      "keywords": [
+        "FreeBSD",
+        "port",
+        "silent",
+        "make",
+        "install"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.467,
+      "metrics": {
+        "input_chars": 159.0,
+        "input_lines": 10.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.321,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.5
+      }
+    }
   }
 }

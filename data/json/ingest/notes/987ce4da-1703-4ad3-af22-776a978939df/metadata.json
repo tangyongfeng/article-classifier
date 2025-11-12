@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c956dbe3-258a-425a-b147-bb1cd9bd9530",
+      "note_id": "987ce4da-1703-4ad3-af22-776a978939df",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "万网域名注册账户的用户名及密码信息，涉及中国域名注册服务。",
+        "keywords": [
+          "万网",
+          "域名注册",
+          "账户信息",
+          "阿里云",
+          "密码"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业",
+          "公司注册"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:26:44.606382Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.3
+    }
+  ],
   "journal": {
     "id": "850a3a3d-9868-4482-8e2f-3d592050766c",
     "note_id": "987ce4da-1703-4ad3-af22-776a978939df",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:26:44.606145Z",
+    "latency_seconds": 18.647018459043466,
+    "attempts": 1,
+    "summary": {
+      "summary": "万网域名注册账户的用户名及密码信息，涉及中国域名注册服务。",
+      "keywords": [
+        "万网",
+        "域名注册",
+        "账户信息",
+        "阿里云",
+        "密码"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业",
+        "公司注册"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.3,
+      "metrics": {
+        "input_chars": 128.0,
+        "input_lines": 8.0,
+        "summary_chars": 29.0,
+        "summary_coverage_ratio": 0.227,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.7
+      }
+    }
   }
 }

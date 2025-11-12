@@ -77,7 +77,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "30078ea9-9ec9-40df-9178-9a41e5d999e6",
+      "note_id": "9b282455-e5ae-48b6-a004-13e436b12ac7",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 中国奢侈品高仿都是从哪里出来的？ - 庄羽的回答 - 知乎 updated: 2015-08-30 16:01:20Z created: ",
+        "keywords": [
+          "---",
+          "title: 中国奢侈品高仿都是从哪里出来的？ - 庄羽的回答 - 知乎",
+          "updated: 2015-08-30 16:01:20Z",
+          "created: 2015-08-30 16:01:20Z",
+          "source: http://www.zhihu.com/question/20708780/answer/61380140"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:40:47.439876Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "cfc3a836-99bb-4670-bce8-0fb43b1396d4",
     "note_id": "9b282455-e5ae-48b6-a004-13e436b12ac7",
@@ -100,5 +128,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T02:40:47.438849Z",
+    "latency_seconds": 31.333595957956277,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 中国奢侈品高仿都是从哪里出来的？ - 庄羽的回答 - 知乎 updated: 2015-08-30 16:01:20Z created: ",
+      "keywords": [
+        "---",
+        "title: 中国奢侈品高仿都是从哪里出来的？ - 庄羽的回答 - 知乎",
+        "updated: 2015-08-30 16:01:20Z",
+        "created: 2015-08-30 16:01:20Z",
+        "source: http://www.zhihu.com/question/20708780/answer/61380140"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 16327.0,
+        "input_lines": 454.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.005,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 979.6
+      }
+    }
   }
 }

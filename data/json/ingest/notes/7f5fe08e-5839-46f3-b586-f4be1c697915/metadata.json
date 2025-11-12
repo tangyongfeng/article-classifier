@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0f1c3e4b-6cd1-49c5-b760-e3c3a44ce701",
+      "note_id": "7f5fe08e-5839-46f3-b586-f4be1c697915",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语动词变位表，列出多个动词的现在时、过去式及第二分词形式，如bleiben、gedeihen等。",
+        "keywords": [
+          "德语",
+          "动词变位",
+          "现在时",
+          "过去式",
+          "第二分词"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Verb Conjugation"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:32:11.039343Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.342
+    }
+  ],
   "journal": {
     "id": "8a36d8d6-71ba-41af-8f1d-5da088a49676",
     "note_id": "7f5fe08e-5839-46f3-b586-f4be1c697915",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:32:11.039174Z",
+    "latency_seconds": 35.57746983296238,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语动词变位表，列出多个动词的现在时、过去式及第二分词形式，如bleiben、gedeihen等。",
+      "keywords": [
+        "德语",
+        "动词变位",
+        "现在时",
+        "过去式",
+        "第二分词"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Verb Conjugation"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.342,
+      "metrics": {
+        "input_chars": 692.0,
+        "input_lines": 74.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.071,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 41.5
+      }
+    }
   }
 }

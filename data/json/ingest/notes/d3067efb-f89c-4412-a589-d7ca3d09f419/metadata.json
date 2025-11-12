@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2ad309d1-ce7f-42ff-9fd8-1132b38e33ae",
+      "note_id": "d3067efb-f89c-4412-a589-d7ca3d09f419",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "咨询德国三王节圣歌活动细节，涉及教堂地点、儿童参与及准备事项。",
+        "keywords": [
+          "圣歌活动",
+          "教堂",
+          "儿童",
+          "德语",
+          "三王节"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Events"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:49:30.966056Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.142
+    }
+  ],
   "journal": {
     "id": "b6e0b7b3-cc7f-42b1-9fb6-0d40f50ba3ce",
     "note_id": "d3067efb-f89c-4412-a589-d7ca3d09f419",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:49:30.965814Z",
+    "latency_seconds": 33.740332875051536,
+    "attempts": 1,
+    "summary": {
+      "summary": "咨询德国三王节圣歌活动细节，涉及教堂地点、儿童参与及准备事项。",
+      "keywords": [
+        "圣歌活动",
+        "教堂",
+        "儿童",
+        "德语",
+        "三王节"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Events"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.142,
+      "metrics": {
+        "input_chars": 1020.0,
+        "input_lines": 15.0,
+        "summary_chars": 31.0,
+        "summary_coverage_ratio": 0.03,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 61.2
+      }
+    }
   }
 }

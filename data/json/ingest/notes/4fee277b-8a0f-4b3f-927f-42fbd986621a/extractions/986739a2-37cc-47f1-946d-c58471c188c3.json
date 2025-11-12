@@ -1,0 +1,29 @@
+{
+  "id": "986739a2-37cc-47f1-946d-c58471c188c3",
+  "note_id": "4fee277b-8a0f-4b3f-927f-42fbd986621a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语学习笔记，包含解释情况和安全问题的日常表达，用于词汇积累。",
+    "keywords": [
+      "德语",
+      "词汇",
+      "解释",
+      "安全问题",
+      "日常表达"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Vocabulary"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:22:53.411928Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.158
+}

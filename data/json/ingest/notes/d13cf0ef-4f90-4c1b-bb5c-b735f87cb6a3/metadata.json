@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e10184f6-f73f-4f3a-86df-21bfbfa0f941",
+      "note_id": "d13cf0ef-4f90-4c1b-bb5c-b735f87cb6a3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本文详解亚马逊欧洲站增值税(VAT)注册流程、税率标准、申报要求及合规重要性，强调税务合规对跨境电商经营的关键作用。",
+        "keywords": [
+          "VAT",
+          "亚马逊",
+          "欧洲站",
+          "税务合规",
+          "跨境电商"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:29:29.902244Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.374
+    }
+  ],
   "journal": {
     "id": "922260c5-456d-4077-8bf7-0bb3e8cb6e90",
     "note_id": "d13cf0ef-4f90-4c1b-bb5c-b735f87cb6a3",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:29:29.901945Z",
+    "latency_seconds": 38.66978566697799,
+    "attempts": 1,
+    "summary": {
+      "summary": "本文详解亚马逊欧洲站增值税(VAT)注册流程、税率标准、申报要求及合规重要性，强调税务合规对跨境电商经营的关键作用。",
+      "keywords": [
+        "VAT",
+        "亚马逊",
+        "欧洲站",
+        "税务合规",
+        "跨境电商"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.374,
+      "metrics": {
+        "input_chars": 3866.0,
+        "input_lines": 85.0,
+        "summary_chars": 58.0,
+        "summary_coverage_ratio": 0.015,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 232.0
+      }
+    }
   }
 }

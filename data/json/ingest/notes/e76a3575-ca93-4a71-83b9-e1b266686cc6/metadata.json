@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "384efa0a-9da0-486a-8aec-163909a83e2b",
+      "note_id": "e76a3575-ca93-4a71-83b9-e1b266686cc6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该Python脚本用于树莓派监听附近Wi-Fi设备，通过邮件和微信推送通知，适用于家庭安全监控等场景。",
+        "keywords": [
+          "Python",
+          "Wi-Fi监听",
+          "邮件推送",
+          "微信推送",
+          "树莓派"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:24:32.396282Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.253
+    }
+  ],
   "journal": {
     "id": "5d7071d6-e6b6-4235-b517-c62b4f3217d7",
     "note_id": "e76a3575-ca93-4a71-83b9-e1b266686cc6",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:24:32.395773Z",
+    "latency_seconds": 27.100268292007968,
+    "attempts": 1,
+    "summary": {
+      "summary": "该Python脚本用于树莓派监听附近Wi-Fi设备，通过邮件和微信推送通知，适用于家庭安全监控等场景。",
+      "keywords": [
+        "Python",
+        "Wi-Fi监听",
+        "邮件推送",
+        "微信推送",
+        "树莓派"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.253,
+      "metrics": {
+        "input_chars": 4089.0,
+        "input_lines": 275.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.012,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 245.3
+      }
+    }
   }
 }

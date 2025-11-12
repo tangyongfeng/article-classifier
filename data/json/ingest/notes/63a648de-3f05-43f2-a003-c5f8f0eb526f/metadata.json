@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6e9aedf9-8f60-465e-8ffc-25ece8a9eb8b",
+      "note_id": "63a648de-3f05-43f2-a003-c5f8f0eb526f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "第三次赴美旅行记录，含Air China机票预订参考号MZTMQ7，日期2013年4月3日。",
+        "keywords": [
+          "赴美",
+          "旅行",
+          "机票",
+          "Air China",
+          "参考号"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:11:07.897137Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.389
+    }
+  ],
   "journal": {
     "id": "865c3f3c-456d-43c4-960d-9dbac45cc91f",
     "note_id": "63a648de-3f05-43f2-a003-c5f8f0eb526f",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:11:07.896995Z",
+    "latency_seconds": 22.48851333395578,
+    "attempts": 1,
+    "summary": {
+      "summary": "第三次赴美旅行记录，含Air China机票预订参考号MZTMQ7，日期2013年4月3日。",
+      "keywords": [
+        "赴美",
+        "旅行",
+        "机票",
+        "Air China",
+        "参考号"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.389,
+      "metrics": {
+        "input_chars": 114.0,
+        "input_lines": 6.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.404,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.8
+      }
+    }
   }
 }

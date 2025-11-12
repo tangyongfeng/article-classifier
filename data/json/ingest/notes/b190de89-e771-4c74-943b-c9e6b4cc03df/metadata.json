@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3c67f2d2-223e-4950-b4e0-d29297b9add9",
+      "note_id": "b190de89-e771-4c74-943b-c9e6b4cc03df",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "无锡海力士工厂大火推高内存价格，长城董事会宣布定向增发6.9亿并保留66亿现金，分析高现金留存原因及内存涨价对股票无显著影响。",
+        "keywords": [
+          "内存价格",
+          "长城公司",
+          "定向增发",
+          "现金留存",
+          "股票价格"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:24:18.718319Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.401
+    }
+  ],
   "journal": {
     "id": "7f548691-356b-4bae-b7cf-7048acda2422",
     "note_id": "b190de89-e771-4c74-943b-c9e6b4cc03df",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:24:18.718183Z",
+    "latency_seconds": 35.85901104193181,
+    "attempts": 1,
+    "summary": {
+      "summary": "无锡海力士工厂大火推高内存价格，长城董事会宣布定向增发6.9亿并保留66亿现金，分析高现金留存原因及内存涨价对股票无显著影响。",
+      "keywords": [
+        "内存价格",
+        "长城公司",
+        "定向增发",
+        "现金留存",
+        "股票价格"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.401,
+      "metrics": {
+        "input_chars": 204.0,
+        "input_lines": 8.0,
+        "summary_chars": 63.0,
+        "summary_coverage_ratio": 0.309,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 12.2
+      }
+    }
   }
 }

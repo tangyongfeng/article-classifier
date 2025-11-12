@@ -1,0 +1,31 @@
+{
+  "id": "5d4ee036-f8cd-4209-b505-dda1cc8e0b2d",
+  "note_id": "22a5d79d-8c8e-410f-9b86-bdc018a2ba4d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容涉及可儿口腔溃疡药的介绍与使用方法，属于药品相关类别。",
+    "keywords": [
+      "口腔溃疡药",
+      "可儿",
+      "药品",
+      "治疗",
+      "口腔健康"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Health",
+      "Medicine",
+      "Oral Care"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:34:22.494933Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.376
+}

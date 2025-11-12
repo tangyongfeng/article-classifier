@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "55b5aa1d-21dc-4d2f-b5ef-404f483587ab",
+      "note_id": "154cf5db-9524-4e44-aaf5-53afa08d846a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "C#代码使用SQLite数据库查询菜谱数据，实现数据绑定到DataGridView的示例，包含基础数据库操作流程。",
+        "keywords": [
+          "C#",
+          "SQLite",
+          "数据库查询",
+          "数据绑定",
+          "代码示例"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:20:22.870785Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.214
+    }
+  ],
   "journal": {
     "id": "602c4226-aaa5-4781-9c9b-07306fec2c91",
     "note_id": "154cf5db-9524-4e44-aaf5-53afa08d846a",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:20:22.870531Z",
+    "latency_seconds": 18.586381749948487,
+    "attempts": 1,
+    "summary": {
+      "summary": "C#代码使用SQLite数据库查询菜谱数据，实现数据绑定到DataGridView的示例，包含基础数据库操作流程。",
+      "keywords": [
+        "C#",
+        "SQLite",
+        "数据库查询",
+        "数据绑定",
+        "代码示例"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.214,
+      "metrics": {
+        "input_chars": 1040.0,
+        "input_lines": 36.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.055,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 62.4
+      }
+    }
   }
 }

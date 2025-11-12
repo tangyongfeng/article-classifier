@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "813f6370-5809-4fec-a09f-518e6ca942c4",
+      "note_id": "0c602313-26ab-4f21-80a3-8d52909746ba",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语动词werden的多重用法解析，包括作为实义动词表变化/职业，作为助动词构成将来时及过程被动态的语法功能。",
+        "keywords": [
+          "werden",
+          "语法",
+          "助动词",
+          "将来时",
+          "被动态"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:45:53.779506Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.322
+    }
+  ],
   "journal": {
     "id": "69bf9c81-a11a-41ba-beb5-03eeacf9e709",
     "note_id": "0c602313-26ab-4f21-80a3-8d52909746ba",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:45:53.779343Z",
+    "latency_seconds": 12.850418291054666,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语动词werden的多重用法解析，包括作为实义动词表变化/职业，作为助动词构成将来时及过程被动态的语法功能。",
+      "keywords": [
+        "werden",
+        "语法",
+        "助动词",
+        "将来时",
+        "被动态"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.322,
+      "metrics": {
+        "input_chars": 1778.0,
+        "input_lines": 29.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.031,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 106.7
+      }
+    }
   }
 }

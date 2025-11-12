@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f2cd443a-3b69-4b3d-ae16-6457eb577bf0",
+      "note_id": "5fe31a92-2ea1-433c-82c7-efd2a24c019a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "妻子隐瞒跆拳道教练身份及散打哥哥背景，导致婚姻冲突，婚后两次打架。",
+        "keywords": [
+          "跆拳道",
+          "婚姻矛盾",
+          "家庭隐瞒",
+          "体育生",
+          "散打"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:47:31.299261Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.308
+    }
+  ],
   "journal": {
     "id": "7db4e390-b9b5-420a-8caa-85674b5af1da",
     "note_id": "5fe31a92-2ea1-433c-82c7-efd2a24c019a",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:47:31.299090Z",
+    "latency_seconds": 9.5144051250536,
+    "attempts": 1,
+    "summary": {
+      "summary": "妻子隐瞒跆拳道教练身份及散打哥哥背景，导致婚姻冲突，婚后两次打架。",
+      "keywords": [
+        "跆拳道",
+        "婚姻矛盾",
+        "家庭隐瞒",
+        "体育生",
+        "散打"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.308,
+      "metrics": {
+        "input_chars": 268.0,
+        "input_lines": 7.0,
+        "summary_chars": 33.0,
+        "summary_coverage_ratio": 0.123,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.1
+      }
+    }
   }
 }

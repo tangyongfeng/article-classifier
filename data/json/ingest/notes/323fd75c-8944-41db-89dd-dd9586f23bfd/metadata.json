@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f29f7233-e4c6-4699-b978-5a08c663fd96",
+      "note_id": "323fd75c-8944-41db-89dd-dd9586f23bfd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "文章分析休息误区，提倡通过改变活动内容、重燃生活热情实现高效休息，避免单纯依赖睡眠或消极放纵，强调休息对精力恢复和生活质量的重要性。",
+        "keywords": [
+          "休息方法",
+          "高效休息",
+          "活动转换",
+          "生活热情",
+          "心理调节"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:44:21.913133Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.196
+    }
+  ],
   "journal": {
     "id": "7726d24c-869c-41d1-b1ee-2d867972ab7f",
     "note_id": "323fd75c-8944-41db-89dd-dd9586f23bfd",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:44:21.912906Z",
+    "latency_seconds": 29.322653874987736,
+    "attempts": 1,
+    "summary": {
+      "summary": "文章分析休息误区，提倡通过改变活动内容、重燃生活热情实现高效休息，避免单纯依赖睡眠或消极放纵，强调休息对精力恢复和生活质量的重要性。",
+      "keywords": [
+        "休息方法",
+        "高效休息",
+        "活动转换",
+        "生活热情",
+        "心理调节"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.196,
+      "metrics": {
+        "input_chars": 3588.0,
+        "input_lines": 41.0,
+        "summary_chars": 66.0,
+        "summary_coverage_ratio": 0.018,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 215.3
+      }
+    }
   }
 }

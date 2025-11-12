@@ -72,7 +72,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f150953c-12f8-486f-a2de-bcf5f86640f9",
+      "note_id": "9e10f0ff-00fe-4f8b-b482-3edad62b6b9d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "通过配置树莓派locale和Mac终端bash_profile环境变量，解决SSH连接中文显示乱码问题。",
+        "keywords": [
+          "树莓派",
+          "SSH",
+          "中文乱码",
+          "locale",
+          "bash_profile"
+        ],
+        "action_items": [
+          "配置树莓派locale和中文字体，修改Mac的~/.bash_profile设置LANG=en_US.UTF-8和LC_ALL=en_US.UTF-8"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "System Configuration"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:54:37.062732Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.327
+    }
+  ],
   "journal": {
     "id": "7366661a-6d2d-4d4e-a630-a4fbea921a56",
     "note_id": "9e10f0ff-00fe-4f8b-b482-3edad62b6b9d",
@@ -95,5 +126,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:54:37.062413Z",
+    "latency_seconds": 38.161077750031836,
+    "attempts": 1,
+    "summary": {
+      "summary": "通过配置树莓派locale和Mac终端bash_profile环境变量，解决SSH连接中文显示乱码问题。",
+      "keywords": [
+        "树莓派",
+        "SSH",
+        "中文乱码",
+        "locale",
+        "bash_profile"
+      ],
+      "action_items": [
+        "配置树莓派locale和中文字体，修改Mac的~/.bash_profile设置LANG=en_US.UTF-8和LC_ALL=en_US.UTF-8"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "System Configuration"
+      ]
+    },
+    "quality": {
+      "score": 0.327,
+      "metrics": {
+        "input_chars": 1280.0,
+        "input_lines": 101.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.041,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 76.8
+      }
+    }
   }
 }

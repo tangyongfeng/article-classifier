@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8566cdff-b76a-4e77-b136-19122f336b20",
+      "note_id": "7ea07fda-aa60-4f8a-9701-6c2d4ecc3b10",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容为'Mun Tuen'，可能为慕尼黑（München）的拼写错误，涉及德国相关专有名词。",
+        "keywords": [
+          "慕尼黑",
+          "德国",
+          "专有名词",
+          "拼写错误",
+          "地名"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:24:00.482400Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.265
+    }
+  ],
   "journal": {
     "id": "15607bc3-9e03-4f36-9231-df0642d4974f",
     "note_id": "7ea07fda-aa60-4f8a-9701-6c2d4ecc3b10",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:24:00.482255Z",
+    "latency_seconds": 32.72495649999473,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容为'Mun Tuen'，可能为慕尼黑（München）的拼写错误，涉及德国相关专有名词。",
+      "keywords": [
+        "慕尼黑",
+        "德国",
+        "专有名词",
+        "拼写错误",
+        "地名"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.265,
+      "metrics": {
+        "input_chars": 121.0,
+        "input_lines": 7.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.397,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.3
+      }
+    }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "7681e713-391e-403e-8ac6-3d9ac528e9d6",
+  "note_id": "bbbe62b8-309e-4e53-a075-fc56d7586ca1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美国签证申请流程详解，包括在线系统使用、预约步骤及常见问题解答。",
+    "keywords": [
+      "美国签证",
+      "申请流程",
+      "在线系统",
+      "签证类型",
+      "美国领事馆"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:15:07.676848Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.205
+}

@@ -1,0 +1,29 @@
+{
+  "id": "92ffefcc-952b-47b4-898a-c7d55890195b",
+  "note_id": "1d612fc6-8ad9-404c-8688-02d8bf3b9855",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本文介绍在中国获取美国手机号的实用方案，包括Google Voice、Google Fi和Lycamobile的申请流程、费用及使用技巧，适用于境外银行、云服务",
+    "keywords": [
+      "美国手机号",
+      "虚拟号码",
+      "国际通讯",
+      "Google Voice",
+      "Lycamobile"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:07:40.901672Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.318
+}

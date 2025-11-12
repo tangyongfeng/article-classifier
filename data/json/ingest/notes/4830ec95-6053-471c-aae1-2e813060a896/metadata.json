@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8577c2e6-d8af-48f9-9114-67e58a5c5dca",
+      "note_id": "4830ec95-6053-471c-aae1-2e813060a896",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "SQL查询语句用于统计article_keyword表中关键词出现频率，按降序排列并返回前20条记录。",
+        "keywords": [
+          "SQL",
+          "统计",
+          "关键词",
+          "排序",
+          "查询"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:26:43.749896Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.334
+    }
+  ],
   "journal": {
     "id": "0df282b0-495a-4c75-928f-17224638d194",
     "note_id": "4830ec95-6053-471c-aae1-2e813060a896",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:26:43.749740Z",
+    "latency_seconds": 24.714901332976297,
+    "attempts": 1,
+    "summary": {
+      "summary": "SQL查询语句用于统计article_keyword表中关键词出现频率，按降序排列并返回前20条记录。",
+      "keywords": [
+        "SQL",
+        "统计",
+        "关键词",
+        "排序",
+        "查询"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.334,
+      "metrics": {
+        "input_chars": 293.0,
+        "input_lines": 14.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.174,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.6
+      }
+    }
   }
 }

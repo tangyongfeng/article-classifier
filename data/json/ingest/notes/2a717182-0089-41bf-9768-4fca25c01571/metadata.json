@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "595b23f8-57af-40f6-8277-2d3e8080c547",
+      "note_id": "2a717182-0089-41bf-9768-4fca25c01571",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "TensorFlow学习笔记，包含Python数据可视化控件使用方法，用于机器学习模型结果展示。",
+        "keywords": [
+          "TensorFlow",
+          "Python",
+          "机器学习",
+          "数据可视化",
+          "框架"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:01:53.581793Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.272
+    }
+  ],
   "journal": {
     "id": "55fa24ae-547d-4b6b-a780-d861b91689b2",
     "note_id": "2a717182-0089-41bf-9768-4fca25c01571",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:01:53.581671Z",
+    "latency_seconds": 27.222077291924506,
+    "attempts": 2,
+    "summary": {
+      "summary": "TensorFlow学习笔记，包含Python数据可视化控件使用方法，用于机器学习模型结果展示。",
+      "keywords": [
+        "TensorFlow",
+        "Python",
+        "机器学习",
+        "数据可视化",
+        "框架"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.272,
+      "metrics": {
+        "input_chars": 281.0,
+        "input_lines": 12.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.171,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.9
+      }
+    }
   }
 }

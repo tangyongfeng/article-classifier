@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0c486347-4305-4c8f-b9f3-bdf2deadb88e",
+      "note_id": "457ee813-33e6-4562-9a67-a311f6df1631",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语信件，请求邮递员将包裹放置于楼梯下，并致谢。",
+        "keywords": [
+          "德语",
+          "信件",
+          "邮递员",
+          "包裹",
+          "楼梯"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:54:57.819809Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.114
+    }
+  ],
   "journal": {
     "id": "b7cb28c0-0bd9-4171-b028-0fbf03407da6",
     "note_id": "457ee813-33e6-4562-9a67-a311f6df1631",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:54:57.819634Z",
+    "latency_seconds": 39.70122129097581,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语信件，请求邮递员将包裹放置于楼梯下，并致谢。",
+      "keywords": [
+        "德语",
+        "信件",
+        "邮递员",
+        "包裹",
+        "楼梯"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.114,
+      "metrics": {
+        "input_chars": 255.0,
+        "input_lines": 10.0,
+        "summary_chars": 24.0,
+        "summary_coverage_ratio": 0.094,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.3
+      }
+    }
   }
 }

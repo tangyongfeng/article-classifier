@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "efe99581-4b7a-44d9-b13b-80ffedc1c2fd",
+      "note_id": "cff6f937-5c9f-427f-bc78-b3ca4dc09b34",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "包含CT肺动脉造影、磁共振肺动脉造影、核素肺通气灌注扫描等医学影像检查项目。",
+        "keywords": [
+          "肺动脉造影",
+          "磁共振",
+          "核素扫描",
+          "超声心动图",
+          "医学影像"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "医疗",
+          "医疗检查",
+          "医学影像"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:26:09.678061Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.395
+    }
+  ],
   "journal": {
     "id": "1c9496ba-fbd1-4543-bedf-e740d0f5451c",
     "note_id": "cff6f937-5c9f-427f-bc78-b3ca4dc09b34",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:26:09.677866Z",
+    "latency_seconds": 40.416657583089545,
+    "attempts": 1,
+    "summary": {
+      "summary": "包含CT肺动脉造影、磁共振肺动脉造影、核素肺通气灌注扫描等医学影像检查项目。",
+      "keywords": [
+        "肺动脉造影",
+        "磁共振",
+        "核素扫描",
+        "超声心动图",
+        "医学影像"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "医疗",
+        "医疗检查",
+        "医学影像"
+      ]
+    },
+    "quality": {
+      "score": 0.395,
+      "metrics": {
+        "input_chars": 128.0,
+        "input_lines": 11.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.297,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.7
+      }
+    }
   }
 }

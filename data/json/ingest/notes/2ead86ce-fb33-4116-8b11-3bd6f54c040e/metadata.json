@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f84cad1c-2ab5-4ce7-a823-7763d4c9a0db",
+      "note_id": "2ead86ce-fb33-4116-8b11-3bd6f54c040e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "微信海外支付是腾讯提供的跨境支付服务，支持海外商户使用，需通过wxpayglobal@tencent.com申请。",
+        "keywords": [
+          "微信支付",
+          "海外支付",
+          "跨境支付",
+          "国际支付",
+          "支付服务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:19:25.451137Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.384
+    }
+  ],
   "journal": {
     "id": "b04a3fbb-09a2-4a0d-b753-c4e08f32158a",
     "note_id": "2ead86ce-fb33-4116-8b11-3bd6f54c040e",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:19:25.450989Z",
+    "latency_seconds": 12.631375208031386,
+    "attempts": 1,
+    "summary": {
+      "summary": "微信海外支付是腾讯提供的跨境支付服务，支持海外商户使用，需通过wxpayglobal@tencent.com申请。",
+      "keywords": [
+        "微信支付",
+        "海外支付",
+        "跨境支付",
+        "国际支付",
+        "支付服务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.384,
+      "metrics": {
+        "input_chars": 111.0,
+        "input_lines": 7.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.514,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 6.7
+      }
+    }
   }
 }

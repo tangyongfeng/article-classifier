@@ -1,0 +1,31 @@
+{
+  "id": "7f3acbbf-b981-45e9-be8f-aaad1778a0cb",
+  "note_id": "ca535920-4539-430d-a9ba-a0d4c34e68cf",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "用户账户信息，包含邮箱及账户管理相关条目",
+    "keywords": [
+      "账户",
+      "用户",
+      "邮箱",
+      "信息",
+      "管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": [
+      "Finance",
+      "Account Management"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:52:53.740190Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.139
+}

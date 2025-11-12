@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d830b0ce-7b55-47e1-9d71-c418938035fe",
+      "note_id": "c3f61dee-4580-44ca-a64a-675a683f169f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "关于Windows 10操作系统的笔记，涉及系统使用或配置相关主题。",
+        "keywords": [
+          "Windows 10",
+          "操作系统",
+          "系统安装",
+          "软件",
+          "技术"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "Operating Systems"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:07:05.819311Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.145
+    }
+  ],
   "journal": {
     "id": "c66f1781-b364-4d9c-9001-321359330be7",
     "note_id": "c3f61dee-4580-44ca-a64a-675a683f169f",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:07:05.819173Z",
+    "latency_seconds": 38.65307937504258,
+    "attempts": 1,
+    "summary": {
+      "summary": "关于Windows 10操作系统的笔记，涉及系统使用或配置相关主题。",
+      "keywords": [
+        "Windows 10",
+        "操作系统",
+        "系统安装",
+        "软件",
+        "技术"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "Operating Systems"
+      ]
+    },
+    "quality": {
+      "score": 0.145,
+      "metrics": {
+        "input_chars": 218.0,
+        "input_lines": 7.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.156,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.1
+      }
+    }
   }
 }

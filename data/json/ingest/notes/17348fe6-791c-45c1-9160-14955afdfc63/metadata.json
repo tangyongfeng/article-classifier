@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f5e04407-c0e5-4cef-ba9e-485f4054faf3",
+      "note_id": "17348fe6-791c-45c1-9160-14955afdfc63",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记包含技术、市场、风险控制及游戏玩法的上报方案提纲，属于商务合作范畴。",
+        "keywords": [
+          "技术方案",
+          "市场方案",
+          "风险控制",
+          "游戏玩法",
+          "上报方案"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:30:24.697865Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.466
+    }
+  ],
   "journal": {
     "id": "ea11ed12-d5a9-4857-8803-1d6ed7318730",
     "note_id": "17348fe6-791c-45c1-9160-14955afdfc63",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:30:24.697728Z",
+    "latency_seconds": 11.804440040956251,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记包含技术、市场、风险控制及游戏玩法的上报方案提纲，属于商务合作范畴。",
+      "keywords": [
+        "技术方案",
+        "市场方案",
+        "风险控制",
+        "游戏玩法",
+        "上报方案"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.466,
+      "metrics": {
+        "input_chars": 116.0,
+        "input_lines": 9.0,
+        "summary_chars": 37.0,
+        "summary_coverage_ratio": 0.319,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.0
+      }
+    }
   }
 }

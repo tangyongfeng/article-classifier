@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "035f2e77-fd98-4b19-927d-6f272ec8e215",
+      "note_id": "9efdf04f-eb11-4e55-905b-0202971d0c3c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记详细列出了股票当天均价及次日最高价、最低价的计算公式，包括均价公式和次日价格预测方法。",
+        "keywords": [
+          "均价",
+          "最高价",
+          "最低价",
+          "计算公式",
+          "股票预测"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:03:59.697024Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.412
+    }
+  ],
   "journal": {
     "id": "e2a25f8b-f534-4081-a407-608af6aefdce",
     "note_id": "9efdf04f-eb11-4e55-905b-0202971d0c3c",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:03:59.696832Z",
+    "latency_seconds": 15.961852375068702,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记详细列出了股票当天均价及次日最高价、最低价的计算公式，包括均价公式和次日价格预测方法。",
+      "keywords": [
+        "均价",
+        "最高价",
+        "最低价",
+        "计算公式",
+        "股票预测"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.412,
+      "metrics": {
+        "input_chars": 218.0,
+        "input_lines": 12.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.211,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.1
+      }
+    }
   }
 }

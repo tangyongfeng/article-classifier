@@ -1,0 +1,28 @@
+{
+  "id": "9eb788fb-6b5d-44ab-aeae-e3c6f8c2e53d",
+  "note_id": "ee37633f-56ab-49a7-8bdf-f89111f20e69",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "为中资企业提供公司注册、会计、审计、税务等配套服务的本地会计公司，发布商业合作机会信息。",
+    "keywords": [
+      "中资企业",
+      "商业服务",
+      "公司注册",
+      "会计",
+      "新加坡"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:04:10.756343Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.289
+}

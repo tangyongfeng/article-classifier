@@ -1,0 +1,29 @@
+{
+  "id": "b9bb6c47-849a-46e1-b135-12eb177abe8d",
+  "note_id": "cc69b62f-3e37-413a-a1a2-04268f64ff5b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语常用短语学习，属于语言学习中的德语词汇分类，用于日常交流表达。",
+    "keywords": [
+      "德语",
+      "常用短语",
+      "语言学习",
+      "词汇",
+      "口语"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Vocabulary"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:08:02.638676Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.282
+}

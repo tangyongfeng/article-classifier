@@ -1,0 +1,28 @@
+{
+  "id": "565f6f95-0fa7-4b1a-8a32-cb7b3c53cbd6",
+  "note_id": "623791ce-6518-4671-8adc-933fae089931",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "AWS API Gateway作为API管理服务，连接企业应用与旧系统，自动化部署和分析流程，提升开发效率，推动云计算集成，成为关键业务工具。",
+    "keywords": [
+      "AWS",
+      "API网关",
+      "企业应用",
+      "云计算",
+      "自动化"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:01:31.078072Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.389
+}

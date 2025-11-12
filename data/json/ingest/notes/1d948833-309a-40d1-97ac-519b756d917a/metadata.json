@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5ddb3ce5-d2b2-479d-9753-8f52832d68d0",
+      "note_id": "1d948833-309a-40d1-97ac-519b756d917a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "医院内部管理分为三大库：药房（药品）、医疗器械维修库（设备、耗材）、总务（食材、工服），涵盖物资分类与后勤保障。",
+        "keywords": [
+          "医院",
+          "库",
+          "药房",
+          "医疗器械",
+          "总务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:09:17.246875Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.529
+    }
+  ],
   "journal": {
     "id": "59c9367f-8895-4f6e-a5a9-68825a3ec136",
     "note_id": "1d948833-309a-40d1-97ac-519b756d917a",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:09:17.246743Z",
+    "latency_seconds": 47.3159943750361,
+    "attempts": 1,
+    "summary": {
+      "summary": "医院内部管理分为三大库：药房（药品）、医疗器械维修库（设备、耗材）、总务（食材、工服），涵盖物资分类与后勤保障。",
+      "keywords": [
+        "医院",
+        "库",
+        "药房",
+        "医疗器械",
+        "总务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.529,
+      "metrics": {
+        "input_chars": 173.0,
+        "input_lines": 18.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.324,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.4
+      }
+    }
   }
 }

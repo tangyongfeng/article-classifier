@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5c08c0e2-7e6d-48d2-9095-23befec0f45b",
+      "note_id": "2af6cd87-a591-403c-8792-10de54efc73f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "需公证的劳动合同相关文件，包括考勤管理通知、劳动合同变更及工资查询邮件等。",
+        "keywords": [
+          "劳动合同",
+          "考勤管理",
+          "工资条",
+          "公证",
+          "工作流"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:02:41.648927Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.418
+    }
+  ],
   "journal": {
     "id": "c866ad10-3318-4904-8773-32c9bda80122",
     "note_id": "2af6cd87-a591-403c-8792-10de54efc73f",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:02:41.648765Z",
+    "latency_seconds": 37.41548116703052,
+    "attempts": 1,
+    "summary": {
+      "summary": "需公证的劳动合同相关文件，包括考勤管理通知、劳动合同变更及工资查询邮件等。",
+      "keywords": [
+        "劳动合同",
+        "考勤管理",
+        "工资条",
+        "公证",
+        "工作流"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.418,
+      "metrics": {
+        "input_chars": 361.0,
+        "input_lines": 20.0,
+        "summary_chars": 37.0,
+        "summary_coverage_ratio": 0.102,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 21.7
+      }
+    }
   }
 }

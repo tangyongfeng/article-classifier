@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "310ea81e-3d08-4350-b278-f9ceb37c1230",
+      "note_id": "d1428a86-74aa-4d3b-aac4-ba655190d658",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "设置www目录权限为750，文件权限为640，缓存目录权限为770，确保网站安全运行。",
+        "keywords": [
+          "权限",
+          "目录",
+          "chmod",
+          "chown",
+          "安全"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "System Administration",
+          "File Permissions"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:30:18.873790Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.345
+    }
+  ],
   "journal": {
     "id": "25592c66-78b1-4174-92b8-2fd658b8ce02",
     "note_id": "d1428a86-74aa-4d3b-aac4-ba655190d658",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:30:18.873642Z",
+    "latency_seconds": 48.96627941692714,
+    "attempts": 1,
+    "summary": {
+      "summary": "设置www目录权限为750，文件权限为640，缓存目录权限为770，确保网站安全运行。",
+      "keywords": [
+        "权限",
+        "目录",
+        "chmod",
+        "chown",
+        "安全"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "System Administration",
+        "File Permissions"
+      ]
+    },
+    "quality": {
+      "score": 0.345,
+      "metrics": {
+        "input_chars": 558.0,
+        "input_lines": 16.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.077,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 33.5
+      }
+    }
   }
 }

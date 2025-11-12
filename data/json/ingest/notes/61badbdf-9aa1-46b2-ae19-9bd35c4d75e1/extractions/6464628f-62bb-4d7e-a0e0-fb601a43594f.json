@@ -1,0 +1,28 @@
+{
+  "id": "6464628f-62bb-4d7e-a0e0-fb601a43594f",
+  "note_id": "61badbdf-9aa1-46b2-ae19-9bd35c4d75e1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "介绍FreeBSD系统下使用ports机制安装软件的高效方法，包括ports套件配置、加速下载工具axel的使用及portsnap更新目录树的步骤。",
+    "keywords": [
+      "FreeBSD",
+      "ports",
+      "axel",
+      "portsnap",
+      "软件安装"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:57:34.476100Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.381
+}

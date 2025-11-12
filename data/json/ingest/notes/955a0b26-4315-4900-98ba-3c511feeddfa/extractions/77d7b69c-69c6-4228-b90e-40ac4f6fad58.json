@@ -1,0 +1,27 @@
+{
+  "id": "77d7b69c-69c6-4228-b90e-40ac4f6fad58",
+  "note_id": "955a0b26-4315-4900-98ba-3c511feeddfa",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "对古典小说《西游记》的阅读心得与分析，涉及内容理解与文学价值探讨。",
+    "keywords": [
+      "西游记",
+      "读书笔记",
+      "中国文学",
+      "古典小说",
+      "阅读心得"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:18:00.863107Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.293
+}

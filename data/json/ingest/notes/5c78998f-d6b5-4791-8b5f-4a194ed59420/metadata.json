@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6c7dd0df-f238-47a6-be00-d453b789ccb8",
+      "note_id": "5c78998f-d6b5-4791-8b5f-4a194ed59420",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "语音评测算法研究，基于隐马尔可夫模型和GOP方法，用于自动口语评分。",
+        "keywords": [
+          "语音评测",
+          "隐马尔可夫模型",
+          "GOP",
+          "自动口语评分",
+          "语音识别"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:33:00.315424Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.414
+    }
+  ],
   "journal": {
     "id": "c3a9fc48-878a-4e27-b637-10052fa7e131",
     "note_id": "5c78998f-d6b5-4791-8b5f-4a194ed59420",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:33:00.315288Z",
+    "latency_seconds": 34.35629816702567,
+    "attempts": 1,
+    "summary": {
+      "summary": "语音评测算法研究，基于隐马尔可夫模型和GOP方法，用于自动口语评分。",
+      "keywords": [
+        "语音评测",
+        "隐马尔可夫模型",
+        "GOP",
+        "自动口语评分",
+        "语音识别"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.414,
+      "metrics": {
+        "input_chars": 363.0,
+        "input_lines": 9.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.094,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 21.8
+      }
+    }
   }
 }

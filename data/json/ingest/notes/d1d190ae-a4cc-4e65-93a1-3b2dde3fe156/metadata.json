@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "943aa307-c42b-4c15-bb7c-4006f08c9885",
+      "note_id": "d1d190ae-a4cc-4e65-93a1-3b2dde3fe156",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "授权书邮寄单号信息，包含运单编号RR31059415DE，用于文件邮寄追踪。",
+        "keywords": [
+          "授权书",
+          "邮寄单号",
+          "运单编号",
+          "RR31059415DE",
+          "文件邮寄"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Unclassified",
+          "文件邮寄"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:33:05.834823Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.32
+    }
+  ],
   "journal": {
     "id": "3747462d-d043-4690-9fe2-f81ea1fa3687",
     "note_id": "d1d190ae-a4cc-4e65-93a1-3b2dde3fe156",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:33:05.834614Z",
+    "latency_seconds": 30.251933915889822,
+    "attempts": 1,
+    "summary": {
+      "summary": "授权书邮寄单号信息，包含运单编号RR31059415DE，用于文件邮寄追踪。",
+      "keywords": [
+        "授权书",
+        "邮寄单号",
+        "运单编号",
+        "RR31059415DE",
+        "文件邮寄"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Unclassified",
+        "文件邮寄"
+      ]
+    },
+    "quality": {
+      "score": 0.32,
+      "metrics": {
+        "input_chars": 143.0,
+        "input_lines": 7.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.266,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.6
+      }
+    }
   }
 }

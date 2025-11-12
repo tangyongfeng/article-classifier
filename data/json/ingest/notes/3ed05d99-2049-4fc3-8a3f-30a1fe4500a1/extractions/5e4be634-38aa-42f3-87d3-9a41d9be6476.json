@@ -1,0 +1,27 @@
+{
+  "id": "5e4be634-38aa-42f3-87d3-9a41d9be6476",
+  "note_id": "3ed05d99-2049-4fc3-8a3f-30a1fe4500a1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "描述北京各区域生活特色，包括三里屯、工体、国贸等地的文化现象与日常状态，反映城市空间的社会风貌。",
+    "keywords": [
+      "三里屯",
+      "工体",
+      "区域文化",
+      "北京生活",
+      "城市特色"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "城市生活"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:24:59.340770Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.302
+}

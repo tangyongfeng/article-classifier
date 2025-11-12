@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6114aefc-3622-4e9f-b776-962de93d3f10",
+      "note_id": "bad68fcd-bb1e-4c32-86fc-244bcf036ee9",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 另类挂钩-RING3数据包监视（Delphi版） updated: 2021-02-09 22:22:47Z created: 2021-",
+        "keywords": [
+          "---",
+          "title: 另类挂钩-RING3数据包监视（Delphi版）",
+          "updated: 2021-02-09 22:22:47Z",
+          "created: 2021-02-09 22:22:32Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:13:01.611052Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "a79434e0-78d7-4777-9a44-c957713cfa10",
     "note_id": "bad68fcd-bb1e-4c32-86fc-244bcf036ee9",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T05:13:01.610585Z",
+    "latency_seconds": 82.69936174992472,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 另类挂钩-RING3数据包监视（Delphi版） updated: 2021-02-09 22:22:47Z created: 2021-",
+      "keywords": [
+        "---",
+        "title: 另类挂钩-RING3数据包监视（Delphi版）",
+        "updated: 2021-02-09 22:22:47Z",
+        "created: 2021-02-09 22:22:32Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 8450.0,
+        "input_lines": 283.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.009,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 507.0
+      }
+    }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "id": "50cd07b2-5309-436a-8053-5b603592357b",
+  "note_id": "4c850649-4929-4b9b-b3d9-8314dab974cb",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "FreeBSD系统安装port时出现pkgdb数据库损坏错误，需修复数据库或重新安装。涉及系统操作技术问题。",
+    "keywords": [
+      "FreeBSD",
+      "port",
+      "安装",
+      "pkgdb",
+      "数据库错误"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "技术",
+      "操作系统",
+      "FreeBSD"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:46:38.259149Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.467
+}

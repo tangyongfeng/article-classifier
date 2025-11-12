@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f78b204b-c80d-49f6-be81-60e9de01dcc8",
+      "note_id": "27f4e50c-db1e-48aa-9b87-e5629f7fda42",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "纵横中文网推出独占合约，作者需授予平台全球信息网络传播权及独家改编权，稿酬按网站订阅收入分成，违约需双倍返还费用。",
+        "keywords": [
+          "版权",
+          "授权",
+          "独家",
+          "稿酬",
+          "分成"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:51:32.163178Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.39
+    }
+  ],
   "journal": {
     "id": "a78a62e3-0ed8-4713-9b41-b2603aca8c13",
     "note_id": "27f4e50c-db1e-48aa-9b87-e5629f7fda42",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:51:32.162938Z",
+    "latency_seconds": 30.794702582992613,
+    "attempts": 1,
+    "summary": {
+      "summary": "纵横中文网推出独占合约，作者需授予平台全球信息网络传播权及独家改编权，稿酬按网站订阅收入分成，违约需双倍返还费用。",
+      "keywords": [
+        "版权",
+        "授权",
+        "独家",
+        "稿酬",
+        "分成"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.39,
+      "metrics": {
+        "input_chars": 1248.0,
+        "input_lines": 51.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.046,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 74.9
+      }
+    }
   }
 }

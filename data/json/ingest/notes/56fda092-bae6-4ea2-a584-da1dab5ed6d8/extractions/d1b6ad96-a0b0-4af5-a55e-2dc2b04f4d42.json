@@ -1,0 +1,28 @@
+{
+  "id": "d1b6ad96-a0b0-4af5-a55e-2dc2b04f4d42",
+  "note_id": "56fda092-bae6-4ea2-a584-da1dab5ed6d8",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "描述周末家庭活动：周六观看儿子足球训练，周日整理家务迎接客人。",
+    "keywords": [
+      "家庭",
+      "周末",
+      "足球",
+      "家务",
+      "客人"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social",
+      "Family Events"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:03:51.531628Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.182
+}

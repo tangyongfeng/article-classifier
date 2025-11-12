@@ -1,0 +1,27 @@
+{
+  "id": "5f243649-5aea-43cc-b0e2-d98aee6f40a7",
+  "note_id": "8bf620d1-fee0-4771-8236-10d4b376408e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记包含Office 365邮箱登录信息，属于办公软件相关，应归类至商务类别。",
+    "keywords": [
+      "Office 365",
+      "邮箱",
+      "登录",
+      "办公软件",
+      "商务"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:30:37.145468Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.239
+}

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "02e4a921-ec15-46a5-9b9d-5cef1a5aa4b7",
+      "note_id": "0873fe53-0732-4cdc-bcc3-4ba7554943b0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "环球星彩可能指一家酒店或旅游品牌，与旅行住宿服务相关。",
+        "keywords": [
+          "环球星彩",
+          "酒店",
+          "旅行",
+          "住宿",
+          "品牌"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Accommodation"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:04:35.879094Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.289
+    }
+  ],
   "journal": {
     "id": "1528c5a6-85d8-4d7f-94c3-b8bbb7831619",
     "note_id": "0873fe53-0732-4cdc-bcc3-4ba7554943b0",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:04:35.878929Z",
+    "latency_seconds": 45.87947745900601,
+    "attempts": 1,
+    "summary": {
+      "summary": "环球星彩可能指一家酒店或旅游品牌，与旅行住宿服务相关。",
+      "keywords": [
+        "环球星彩",
+        "酒店",
+        "旅行",
+        "住宿",
+        "品牌"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Accommodation"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.289,
+      "metrics": {
+        "input_chars": 83.0,
+        "input_lines": 6.0,
+        "summary_chars": 27.0,
+        "summary_coverage_ratio": 0.325,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.0
+      }
+    }
   }
 }

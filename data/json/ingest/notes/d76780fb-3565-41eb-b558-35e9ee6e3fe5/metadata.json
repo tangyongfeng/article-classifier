@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "300b465f-5145-45c6-af81-bb1986f95e10",
+      "note_id": "d76780fb-3565-41eb-b558-35e9ee6e3fe5",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 中国高铁招标 日法德三国杀 updated: 2015-10-28 12:58:20Z created: 2015-10-28 12:58",
+        "keywords": [
+          "---",
+          "title: 中国高铁招标 日法德三国杀",
+          "updated: 2015-10-28 12:58:20Z",
+          "created: 2015-10-28 12:58:20Z",
+          "source: http://3g.163.com/touch/article.html?docid=B71MFT6L002526O5&from=index.money"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:06:09.307538Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "68524fb4-bff4-439e-a876-97e115a1fcf3",
     "note_id": "d76780fb-3565-41eb-b558-35e9ee6e3fe5",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T08:06:09.307255Z",
+    "latency_seconds": 28.027565540978685,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 中国高铁招标 日法德三国杀 updated: 2015-10-28 12:58:20Z created: 2015-10-28 12:58",
+      "keywords": [
+        "---",
+        "title: 中国高铁招标 日法德三国杀",
+        "updated: 2015-10-28 12:58:20Z",
+        "created: 2015-10-28 12:58:20Z",
+        "source: http://3g.163.com/touch/article.html?docid=B71MFT6L002526O5&from=index.money"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 7091.0,
+        "input_lines": 142.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.011,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 425.5
+      }
+    }
   }
 }

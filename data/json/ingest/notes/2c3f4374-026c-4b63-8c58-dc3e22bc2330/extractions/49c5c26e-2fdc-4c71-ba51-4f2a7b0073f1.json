@@ -1,0 +1,27 @@
+{
+  "id": "49c5c26e-2fdc-4c71-ba51-4f2a7b0073f1",
+  "note_id": "2c3f4374-026c-4b63-8c58-dc3e22bc2330",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "OpenCV视频处理中通过VideoCapture::set方法设置帧位置的API使用说明，涉及帧索引和时间参数配置。",
+    "keywords": [
+      "OpenCV",
+      "视频处理",
+      "帧定位",
+      "API",
+      "VideoCapture"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "多媒体"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:08:52.235773Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.198
+}

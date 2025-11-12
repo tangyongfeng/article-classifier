@@ -1,0 +1,28 @@
+{
+  "id": "08393e1e-d320-4322-8926-6856b7efc778",
+  "note_id": "aba3bd6e-b76a-4979-a0a4-356f1e42f072",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "讨论银行借记卡取现便利性，推荐华夏银行每日取500美元无手续费、平安银行无限制无手续费服务，建议出国前提前办理。",
+    "keywords": [
+      "银行",
+      "借记卡",
+      "取现",
+      "手续费",
+      "无手续费"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:56:52.599806Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.381
+}

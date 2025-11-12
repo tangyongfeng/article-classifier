@@ -1,0 +1,29 @@
+{
+  "id": "555db9d2-ae74-4c39-ba21-ef6786f02a10",
+  "note_id": "45e87935-2128-4687-a842-dd5ac140b491",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "关于德语语法问题的解答，涉及语法结构与应用，适用于语言学习者参考。",
+    "keywords": [
+      "德语",
+      "语法",
+      "语言学习",
+      "解答",
+      "问题"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:02:03.816404Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.29
+}

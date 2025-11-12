@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "eec6c260-7870-47c5-a1e6-5e1f8c4ad280",
+      "note_id": "0722ad42-38e0-4531-9941-bcf2ae940c49",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "整理了微信支付在德国的支付服务提供商信息，包括Sepay B.V.、Smart2Pay等公司的联系方式和地址。",
+        "keywords": [
+          "微信支付",
+          "德国",
+          "支付服务",
+          "服务提供商",
+          "联系方式"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:01:22.878785Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.199
+    }
+  ],
   "journal": {
     "id": "15bd5b01-b167-438f-bfc8-75aa3e5811e6",
     "note_id": "0722ad42-38e0-4531-9941-bcf2ae940c49",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:01:22.878617Z",
+    "latency_seconds": 26.09599837497808,
+    "attempts": 1,
+    "summary": {
+      "summary": "整理了微信支付在德国的支付服务提供商信息，包括Sepay B.V.、Smart2Pay等公司的联系方式和地址。",
+      "keywords": [
+        "微信支付",
+        "德国",
+        "支付服务",
+        "服务提供商",
+        "联系方式"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.199,
+      "metrics": {
+        "input_chars": 2220.0,
+        "input_lines": 91.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.025,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 3.0,
+        "estimated_read_seconds": 133.2
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "198a3fac-ffca-4e49-9bd9-9d354f164e77",
+      "note_id": "e06bfd95-9b94-4809-b44d-0275e3e2eb77",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "中国IT经理初抵德国，暂住AirBnB，计划找房后接家人，正在学习德语。",
+        "keywords": [
+          "德国",
+          "IT经理",
+          "生活规划",
+          "德语学习",
+          "短租"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:53:30.444884Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.105
+    }
+  ],
   "journal": {
     "id": "0791ec2f-ee2d-4c0f-a1cb-eba18cbaa3ae",
     "note_id": "e06bfd95-9b94-4809-b44d-0275e3e2eb77",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:53:30.444698Z",
+    "latency_seconds": 29.104722209041938,
+    "attempts": 1,
+    "summary": {
+      "summary": "中国IT经理初抵德国，暂住AirBnB，计划找房后接家人，正在学习德语。",
+      "keywords": [
+        "德国",
+        "IT经理",
+        "生活规划",
+        "德语学习",
+        "短租"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.105,
+      "metrics": {
+        "input_chars": 475.0,
+        "input_lines": 7.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.076,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 28.5
+      }
+    }
   }
 }

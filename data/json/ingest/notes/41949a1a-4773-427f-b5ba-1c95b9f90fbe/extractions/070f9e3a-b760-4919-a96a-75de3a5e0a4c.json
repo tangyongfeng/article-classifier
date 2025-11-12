@@ -1,0 +1,27 @@
+{
+  "id": "070f9e3a-b760-4919-a96a-75de3a5e0a4c",
+  "note_id": "41949a1a-4773-427f-b5ba-1c95b9f90fbe",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "钢铁公司需解决MES/ERP系统整合、数据接口开放及实时安全控制等痛点，通过技术创新实现智能分析、数据共享与能源管理优化。",
+    "keywords": [
+      "MES",
+      "ERP",
+      "数据接口",
+      "智能分析",
+      "能源管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:34:55.010403Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.36
+}

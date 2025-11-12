@@ -1,0 +1,30 @@
+{
+  "id": "28571a92-8d5c-4b8a-a9d2-29e637daa10a",
+  "note_id": "b7965ee0-4aaa-4255-97c0-f7d6c716ce52",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "WordPress 4.9.6 存在任意文件删除漏洞，攻击者可利用上传图片修改元数据删除关键文件（如wp-config.php），导致网站被重装。漏洞未修复。",
+    "keywords": [
+      "WordPress",
+      "漏洞",
+      "任意文件删除",
+      "安全",
+      "4.9.6"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": [
+      "商务",
+      "安全漏洞"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:48:52.085847Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.32
+}

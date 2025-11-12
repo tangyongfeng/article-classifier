@@ -1,0 +1,28 @@
+{
+  "id": "b2606f5e-b792-4815-9976-50d084a918ad",
+  "note_id": "c135fb86-4db5-4232-9436-4810d6ad9694",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "分析5亿用户在线行为数据，包括投注率300/sec、查询率200k/sec及系统负载推算，用于业务决策优化。",
+    "keywords": [
+      "用户行为",
+      "投注率",
+      "查询率",
+      "系统负载",
+      "业务分析"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:54:51.432301Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.136
+}

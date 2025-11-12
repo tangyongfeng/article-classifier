@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1ea67735-c5b0-4f2d-a48c-e5af636b4408",
+      "note_id": "af9cc318-623a-4f8b-95e0-e8d8ed3c0cef",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "QEMU编译指南详解：涵盖源码获取、ninja构建工具安装、依赖库配置及编译执行步骤。",
+        "keywords": [
+          "QEMU",
+          "编译",
+          "ninja",
+          "依赖",
+          "虚拟机"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:09:46.796504Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.32
+    }
+  ],
   "journal": {
     "id": "fe1f477c-67a5-4b3a-a4ca-d2301f908f0c",
     "note_id": "af9cc318-623a-4f8b-95e0-e8d8ed3c0cef",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:09:46.796284Z",
+    "latency_seconds": 62.45555833308026,
+    "attempts": 1,
+    "summary": {
+      "summary": "QEMU编译指南详解：涵盖源码获取、ninja构建工具安装、依赖库配置及编译执行步骤。",
+      "keywords": [
+        "QEMU",
+        "编译",
+        "ninja",
+        "依赖",
+        "虚拟机"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.32,
+      "metrics": {
+        "input_chars": 1639.0,
+        "input_lines": 90.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.026,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 98.3
+      }
+    }
   }
 }

@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "33b09f18-104c-4367-8906-9c7f06ed517b",
+      "note_id": "6e78ae69-6114-4d53-8dc1-7f0f0e957d04",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "女儿呕吐胃部不适，多名同学症状相同，计划下周一医院检查，询问能否提前就诊。",
+        "keywords": [
+          "呕吐",
+          "胃部不适",
+          "就医",
+          "同学症状",
+          "家庭健康"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": [
+          "Health",
+          "Health > Family Health"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:58:35.154446Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.09
+    }
+  ],
   "journal": {
     "id": "04ab1c96-fa10-4d74-bad7-ee7da949169d",
     "note_id": "6e78ae69-6114-4d53-8dc1-7f0f0e957d04",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:58:35.154270Z",
+    "latency_seconds": 35.39762549998704,
+    "attempts": 1,
+    "summary": {
+      "summary": "女儿呕吐胃部不适，多名同学症状相同，计划下周一医院检查，询问能否提前就诊。",
+      "keywords": [
+        "呕吐",
+        "胃部不适",
+        "就医",
+        "同学症状",
+        "家庭健康"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": [
+        "Health",
+        "Health > Family Health"
+      ]
+    },
+    "quality": {
+      "score": 0.09,
+      "metrics": {
+        "input_chars": 805.0,
+        "input_lines": 10.0,
+        "summary_chars": 37.0,
+        "summary_coverage_ratio": 0.046,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 48.3
+      }
+    }
   }
 }

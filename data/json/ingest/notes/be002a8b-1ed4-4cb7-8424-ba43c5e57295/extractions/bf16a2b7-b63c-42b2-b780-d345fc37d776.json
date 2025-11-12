@@ -1,0 +1,30 @@
+{
+  "id": "bf16a2b7-b63c-42b2-b780-d345fc37d776",
+  "note_id": "be002a8b-1ed4-4cb7-8424-ba43c5e57295",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "FreeBSD系统中通过修改~/.login_conf文件设置UTF-8字符编码的配置方法",
+    "keywords": [
+      "FreeBSD",
+      "UTF-8",
+      "系统配置",
+      "字符编码",
+      "登录配置"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Technology",
+      "System Configuration"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:34:51.268607Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.312
+}

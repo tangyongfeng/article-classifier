@@ -1,0 +1,28 @@
+{
+  "id": "29e57df0-6bf8-4d26-ab59-7b072865f2be",
+  "note_id": "425fd4d2-553a-4c78-8a2e-f18b247d3827",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "技术宅DIY开源电子墨水屏日历，自动刷新天气、位置，随机播放2000+条毒鸡汤，硬件成本约360元。",
+    "keywords": [
+      "DIY",
+      "电子墨水屏",
+      "开源",
+      "毒鸡汤",
+      "技术创新"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:36:55.659994Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.314
+}

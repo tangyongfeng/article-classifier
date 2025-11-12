@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "67730186-0824-4c3a-a2af-4a9f1b40b4f9",
+      "note_id": "803b7866-df13-4b72-affe-8e0129ca4734",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记包含网络配置参数，如l2tp协议、ipsec设置及管理员密码，用于网络设备管理。",
+        "keywords": [
+          "l2tp",
+          "ipsec",
+          "password",
+          "network",
+          "configuration"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:36:05.235387Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.346
+    }
+  ],
   "journal": {
     "id": "1b7d5320-73f5-4901-ba80-33d4f60cb347",
     "note_id": "803b7866-df13-4b72-affe-8e0129ca4734",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:36:05.235229Z",
+    "latency_seconds": 44.35883008304518,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记包含网络配置参数，如l2tp协议、ipsec设置及管理员密码，用于网络设备管理。",
+      "keywords": [
+        "l2tp",
+        "ipsec",
+        "password",
+        "network",
+        "configuration"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.346,
+      "metrics": {
+        "input_chars": 212.0,
+        "input_lines": 11.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.198,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.7
+      }
+    }
   }
 }

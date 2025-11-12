@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "238b9869-b0e1-4ade-892b-8a0136b27776",
+      "note_id": "2aea118a-13b8-4ff4-b02a-9370a9f8d997",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语单词复习笔记，包含常用词汇及例句，用于德语学习中的词汇积累。",
+        "keywords": [
+          "德语",
+          "单词",
+          "词汇",
+          "学习",
+          "复习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:02:04.227324Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.253
+    }
+  ],
   "journal": {
     "id": "7f5720cf-bdf9-4043-a603-b1e14013b08b",
     "note_id": "2aea118a-13b8-4ff4-b02a-9370a9f8d997",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:02:04.227090Z",
+    "latency_seconds": 10.642552457982674,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语单词复习笔记，包含常用词汇及例句，用于德语学习中的词汇积累。",
+      "keywords": [
+        "德语",
+        "单词",
+        "词汇",
+        "学习",
+        "复习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.253,
+      "metrics": {
+        "input_chars": 242.0,
+        "input_lines": 6.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.132,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.5
+      }
+    }
   }
 }

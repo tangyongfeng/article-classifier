@@ -1,0 +1,29 @@
+{
+  "id": "3269b2a7-c76b-4045-8029-edcf8aa8145a",
+  "note_id": "5e9a6418-bc2f-4e02-be78-1e79a4b69119",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语学习笔记，包含常用德语短语'你想要一个？'和'先跟我们来。'，用于词汇积累。",
+    "keywords": [
+      "德语",
+      "词汇",
+      "短语",
+      "语言学习",
+      "表达"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Vocabulary"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:38:16.656478Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.196
+}

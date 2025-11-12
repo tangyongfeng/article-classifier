@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "08a67117-48f4-4bb8-b649-b5cf37b1b50f",
+      "note_id": "733d933d-ebf3-4fc1-b12f-7a86fa36913b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讨论Python高性能架构，涉及事件驱动、缓存技术、异步并发及应用加速方法。",
+        "keywords": [
+          "Python",
+          "架构",
+          "事件驱动",
+          "缓存",
+          "异步"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:19:02.043695Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.369
+    }
+  ],
   "journal": {
     "id": "d51b7cf0-59bb-4e1c-9b60-85e52f68bf61",
     "note_id": "733d933d-ebf3-4fc1-b12f-7a86fa36913b",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:19:02.043572Z",
+    "latency_seconds": 28.741590125020593,
+    "attempts": 1,
+    "summary": {
+      "summary": "讨论Python高性能架构，涉及事件驱动、缓存技术、异步并发及应用加速方法。",
+      "keywords": [
+        "Python",
+        "架构",
+        "事件驱动",
+        "缓存",
+        "异步"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.369,
+      "metrics": {
+        "input_chars": 303.0,
+        "input_lines": 13.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.125,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 18.2
+      }
+    }
   }
 }

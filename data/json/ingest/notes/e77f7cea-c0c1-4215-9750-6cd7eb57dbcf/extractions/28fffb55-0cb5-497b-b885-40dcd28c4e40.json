@@ -1,0 +1,27 @@
+{
+  "id": "28fffb55-0cb5-497b-b885-40dcd28c4e40",
+  "note_id": "e77f7cea-c0c1-4215-9750-6cd7eb57dbcf",
+  "extractor": "llm_enhance:v0#fallback",
+  "payload": {
+    "summary": "--- title: （受权发布）习近平：在统筹推进新冠肺炎疫情防控和经济社会发展工作部署会议上的讲话-新华网 updated: 2020-02-25 21:2",
+    "keywords": [
+      "---",
+      "title: （受权发布）习近平：在统筹推进新冠肺炎疫情防控和经济社会发展工作部署会议上的讲话-新华网",
+      "updated: 2020-02-25 21:23:17Z",
+      "created: 2020-02-23 22:55:57Z",
+      "source: http://www.xinhuanet.com/politics/leaders/2020-02/23/c_1125616016.htm"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "fallback",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:30:41.941914Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.148
+}

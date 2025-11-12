@@ -1,0 +1,28 @@
+{
+  "id": "54c3d15a-90f4-42fb-be7e-8768ddf1de31",
+  "note_id": "2e61dc3f-b818-4161-8ac6-1dffd5b6da9f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记涉及中心二期系统开发，包括本地rest服务、省中心测试通知及省机房交换机与前置服务器配置。",
+    "keywords": [
+      "中心二期",
+      "服务器",
+      "省机房",
+      "测试",
+      "前置"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:17:53.884512Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.49
+}

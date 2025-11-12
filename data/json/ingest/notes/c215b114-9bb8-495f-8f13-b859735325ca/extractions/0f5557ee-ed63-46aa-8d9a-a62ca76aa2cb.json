@@ -1,0 +1,28 @@
+{
+  "id": "0f5557ee-ed63-46aa-8d9a-a62ca76aa2cb",
+  "note_id": "c215b114-9bb8-495f-8f13-b859735325ca",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记‘端口’在罗马尼亚语中可能指港口，归入交通知识分类，属交通 > 交通知识类别。",
+    "keywords": [
+      "端口",
+      "港口",
+      "罗马尼亚语",
+      "交通",
+      "术语"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "交通",
+      "交通知识"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:56:49.266694Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.239
+}

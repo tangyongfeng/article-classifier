@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f385be99-1fdf-4924-8ae4-e174c4866613",
+      "note_id": "4d303946-ef09-4d47-91e1-eedad5fa4235",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 国庆大事件！中国被人暗中踢了一屁屁 updated: 2015-10-06 05:05:54Z created: 2015-10-06 0",
+        "keywords": [
+          "---",
+          "title: 国庆大事件！中国被人暗中踢了一屁屁",
+          "updated: 2015-10-06 05:05:54Z",
+          "created: 2015-10-06 05:05:54Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:57:29.081751Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.15
+    }
+  ],
   "journal": {
     "id": "5dd93f51-e6cd-41bf-b962-f1bf8bd7d9a8",
     "note_id": "4d303946-ef09-4d47-91e1-eedad5fa4235",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T19:57:29.081117Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 国庆大事件！中国被人暗中踢了一屁屁 updated: 2015-10-06 05:05:54Z created: 2015-10-06 0",
+      "keywords": [
+        "---",
+        "title: 国庆大事件！中国被人暗中踢了一屁屁",
+        "updated: 2015-10-06 05:05:54Z",
+        "created: 2015-10-06 05:05:54Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.15,
+      "metrics": {
+        "input_chars": 4614.0,
+        "input_lines": 115.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.017,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 276.8
+      }
+    }
   }
 }

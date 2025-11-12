@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "070739dd-d28b-4ac4-b37d-d57e363a7030",
+      "note_id": "55fa7077-0bda-4fc6-b9ae-6833cc2157f1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "建议彩票业务结合移动互联网快速、精确、互动特性，推行视频化互动产品设计及游戏玩法与表现形式脱钩政策，提升用户体验与流量。",
+        "keywords": [
+          "彩票",
+          "移动互联网",
+          "视频化",
+          "互动性",
+          "产品创新"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:02:24.266662Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.326
+    }
+  ],
   "journal": {
     "id": "70f0cb35-5c95-4c8e-b29e-e55e4eb90369",
     "note_id": "55fa7077-0bda-4fc6-b9ae-6833cc2157f1",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:02:24.266494Z",
+    "latency_seconds": 22.298415625002235,
+    "attempts": 1,
+    "summary": {
+      "summary": "建议彩票业务结合移动互联网快速、精确、互动特性，推行视频化互动产品设计及游戏玩法与表现形式脱钩政策，提升用户体验与流量。",
+      "keywords": [
+        "彩票",
+        "移动互联网",
+        "视频化",
+        "互动性",
+        "产品创新"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.326,
+      "metrics": {
+        "input_chars": 1575.0,
+        "input_lines": 24.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.038,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 94.5
+      }
+    }
   }
 }

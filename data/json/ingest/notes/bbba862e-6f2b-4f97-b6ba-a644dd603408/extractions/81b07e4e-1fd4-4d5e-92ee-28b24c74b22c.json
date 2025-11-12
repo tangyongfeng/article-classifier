@@ -1,0 +1,28 @@
+{
+  "id": "81b07e4e-1fd4-4d5e-92ee-28b24c74b22c",
+  "note_id": "bbba862e-6f2b-4f97-b6ba-a644dd603408",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "大数据导航网站提供行业数据资源与分析工具，属于商务技术创新范畴。",
+    "keywords": [
+      "大数据",
+      "导航",
+      "商务",
+      "技术创新",
+      "数据分析"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:14:29.011587Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.302
+}

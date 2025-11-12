@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c31b1e22-d1ed-4bf2-9dbd-d0c7971fad53",
+      "note_id": "5a7ab872-41bb-45de-bf61-417c0b676ee5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "3521工程是医疗信息化系统，包含三级平台、五项业务、两个数据库及专用网络，涵盖健康档案、HIS、CIS等系统，用于公共卫生与医院管理。",
+        "keywords": [
+          "医疗信息化",
+          "三级平台",
+          "公共卫生",
+          "医院信息系统",
+          "健康档案"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "医疗健康",
+          "医疗健康 > 医疗信息系统"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:23:19.616697Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.328
+    }
+  ],
   "journal": {
     "id": "5de2b94d-6943-4e91-9705-fe80db0d6bce",
     "note_id": "5a7ab872-41bb-45de-bf61-417c0b676ee5",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:23:19.616453Z",
+    "latency_seconds": 39.46896770899184,
+    "attempts": 1,
+    "summary": {
+      "summary": "3521工程是医疗信息化系统，包含三级平台、五项业务、两个数据库及专用网络，涵盖健康档案、HIS、CIS等系统，用于公共卫生与医院管理。",
+      "keywords": [
+        "医疗信息化",
+        "三级平台",
+        "公共卫生",
+        "医院信息系统",
+        "健康档案"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "医疗健康",
+        "医疗健康 > 医疗信息系统"
+      ]
+    },
+    "quality": {
+      "score": 0.328,
+      "metrics": {
+        "input_chars": 418.0,
+        "input_lines": 27.0,
+        "summary_chars": 68.0,
+        "summary_coverage_ratio": 0.163,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 25.1
+      }
+    }
   }
 }

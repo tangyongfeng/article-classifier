@@ -1,0 +1,29 @@
+{
+  "id": "b8e1f23c-5d86-4b04-8c24-fe135a946c59",
+  "note_id": "727698a8-7ecf-4b61-a69e-ef0fb12a12ff",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "解释德语中'umgehend'、'sofort'和'bald'的用法区别，涉及时间表达和语法结构，属于德语学习中的语法教学内容。",
+    "keywords": [
+      "德语",
+      "词义区别",
+      "语法",
+      "时间表达",
+      "语言学习"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:17:09.084779Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.315
+}

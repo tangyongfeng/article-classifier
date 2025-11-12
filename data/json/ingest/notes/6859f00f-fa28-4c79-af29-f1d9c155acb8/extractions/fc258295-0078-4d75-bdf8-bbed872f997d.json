@@ -1,0 +1,29 @@
+{
+  "id": "fc258295-0078-4d75-bdf8-bbed872f997d",
+  "note_id": "6859f00f-fa28-4c79-af29-f1d9c155acb8",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "8月3日读书会内容为德语日常例句，描述接送孩子、做饭等家庭活动，用于德语词汇学习。",
+    "keywords": [
+      "读书会",
+      "德语",
+      "日常活动",
+      "词汇",
+      "家庭"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Vocabulary"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:29:51.377914Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.214
+}

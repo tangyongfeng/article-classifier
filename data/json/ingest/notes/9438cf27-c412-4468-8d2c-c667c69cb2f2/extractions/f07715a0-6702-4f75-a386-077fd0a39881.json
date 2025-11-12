@@ -1,0 +1,27 @@
+{
+  "id": "f07715a0-6702-4f75-a386-077fd0a39881",
+  "note_id": "9438cf27-c412-4468-8d2c-c667c69cb2f2",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Minecraft官网，提供沙盒游戏平台信息，属于游戏类多媒体内容。",
+    "keywords": [
+      "我的世界",
+      "游戏",
+      "沙盒",
+      "在线游戏",
+      "官网"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "多媒体"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:09:50.439045Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.176
+}

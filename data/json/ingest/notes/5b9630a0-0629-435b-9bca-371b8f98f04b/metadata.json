@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b8e71287-3ec2-4b38-bc78-ede11165df67",
+      "note_id": "5b9630a0-0629-435b-9bca-371b8f98f04b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "日本在二战前夕进行全国总动员预演，通过切断交通、金融管制、制造恐慌等措施检验国家战争承受力，最终发动珍珠港袭击。",
+        "keywords": [
+          "二战前夕",
+          "国家总动员",
+          "经济制裁",
+          "战时管制",
+          "珍珠港袭击"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:26:40.595734Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.306
+    }
+  ],
   "journal": {
     "id": "df1eaa88-e40f-47a0-b4b2-733fec4cfd13",
     "note_id": "5b9630a0-0629-435b-9bca-371b8f98f04b",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:26:40.595612Z",
+    "latency_seconds": 35.321030291961506,
+    "attempts": 1,
+    "summary": {
+      "summary": "日本在二战前夕进行全国总动员预演，通过切断交通、金融管制、制造恐慌等措施检验国家战争承受力，最终发动珍珠港袭击。",
+      "keywords": [
+        "二战前夕",
+        "国家总动员",
+        "经济制裁",
+        "战时管制",
+        "珍珠港袭击"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.306,
+      "metrics": {
+        "input_chars": 475.0,
+        "input_lines": 29.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.118,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 28.5
+      }
+    }
   }
 }

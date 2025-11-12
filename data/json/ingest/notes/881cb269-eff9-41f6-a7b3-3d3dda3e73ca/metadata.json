@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3048dc70-6075-4a67-b98d-3347ced8c79e",
+      "note_id": "881cb269-eff9-41f6-a7b3-3d3dda3e73ca",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "关于商务合作事项的简要记录，包含合作经验与策略总结。",
+        "keywords": [
+          "合作",
+          "商务",
+          "经验",
+          "策略",
+          "记录"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:18:00.631010Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.245
+    }
+  ],
   "journal": {
     "id": "ecd2d416-8ebc-4e52-9964-472e9c996d06",
     "note_id": "881cb269-eff9-41f6-a7b3-3d3dda3e73ca",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:18:00.630867Z",
+    "latency_seconds": 12.720433042035438,
+    "attempts": 1,
+    "summary": {
+      "summary": "关于商务合作事项的简要记录，包含合作经验与策略总结。",
+      "keywords": [
+        "合作",
+        "商务",
+        "经验",
+        "策略",
+        "记录"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.245,
+      "metrics": {
+        "input_chars": 110.0,
+        "input_lines": 6.0,
+        "summary_chars": 26.0,
+        "summary_coverage_ratio": 0.236,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.6
+      }
+    }
   }
 }

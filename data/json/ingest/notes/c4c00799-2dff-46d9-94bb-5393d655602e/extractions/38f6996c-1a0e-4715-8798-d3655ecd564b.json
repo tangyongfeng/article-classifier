@@ -1,0 +1,28 @@
+{
+  "id": "38f6996c-1a0e-4715-8798-d3655ecd564b",
+  "note_id": "c4c00799-2dff-46d9-94bb-5393d655602e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Java应用在32GB内存环境下，Full GC耗时60秒，内存移动速率400KB/s，凸显大内存场景下垃圾回收性能瓶颈。",
+    "keywords": [
+      "Java",
+      "内存管理",
+      "Full GC",
+      "垃圾回收",
+      "性能优化"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:15:31.082795Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.414
+}

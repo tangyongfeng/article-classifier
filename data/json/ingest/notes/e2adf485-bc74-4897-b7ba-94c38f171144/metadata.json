@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fdcccf45-8954-4f53-8616-f3e5fb23dbfc",
+      "note_id": "e2adf485-bc74-4897-b7ba-94c38f171144",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "大企业内部创业团队招聘医疗信息化软件工程师，需C++/C#/Java技术背景，北京办公，邮箱健康系统@163.com。",
+        "keywords": [
+          "招聘",
+          "医疗信息化",
+          "软件工程师",
+          "C++",
+          "北京"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:07:47.331635Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.42
+    }
+  ],
   "journal": {
     "id": "bd039906-7741-417c-81d2-0b8f7f6bb7ac",
     "note_id": "e2adf485-bc74-4897-b7ba-94c38f171144",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:07:47.331462Z",
+    "latency_seconds": 22.204308709013276,
+    "attempts": 1,
+    "summary": {
+      "summary": "大企业内部创业团队招聘医疗信息化软件工程师，需C++/C#/Java技术背景，北京办公，邮箱健康系统@163.com。",
+      "keywords": [
+        "招聘",
+        "医疗信息化",
+        "软件工程师",
+        "C++",
+        "北京"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.42,
+      "metrics": {
+        "input_chars": 554.0,
+        "input_lines": 27.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.106,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 33.2
+      }
+    }
   }
 }

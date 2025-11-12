@@ -1,0 +1,28 @@
+{
+  "id": "e1d7d6ad-194a-46b9-84cc-50e2cd9d1b30",
+  "note_id": "eb22620d-34d1-4cec-9667-c997c02db9d4",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Facebook视频广告应采用正方形格式最大化空间利用，避免提及产品以激发好奇心，自动播放时通常使用无声版本。",
+    "keywords": [
+      "视频广告",
+      "正方形",
+      "好奇心",
+      "自动播放",
+      "无声"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "广告投放商"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:49:10.437238Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.387
+}

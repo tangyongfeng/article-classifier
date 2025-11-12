@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fcf2370d-bfb7-4515-a94b-18f5ecbc32e7",
+      "note_id": "0381fe17-1364-42bd-97ab-4aaaf1cf6c82",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讨论与科大李香泉博士合作，探索钢研院项目及中铝电解槽智能改进的实际案例，寻求商务合作机会。",
+        "keywords": [
+          "钢研院",
+          "中铝",
+          "电解槽",
+          "智能改进",
+          "商务合作"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:49:32.243622Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.341
+    }
+  ],
   "journal": {
     "id": "dc16af6b-f421-405c-b5ab-26fef5303dd1",
     "note_id": "0381fe17-1364-42bd-97ab-4aaaf1cf6c82",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:49:32.243482Z",
+    "latency_seconds": 21.03236720804125,
+    "attempts": 1,
+    "summary": {
+      "summary": "讨论与科大李香泉博士合作，探索钢研院项目及中铝电解槽智能改进的实际案例，寻求商务合作机会。",
+      "keywords": [
+        "钢研院",
+        "中铝",
+        "电解槽",
+        "智能改进",
+        "商务合作"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.341,
+      "metrics": {
+        "input_chars": 657.0,
+        "input_lines": 8.0,
+        "summary_chars": 45.0,
+        "summary_coverage_ratio": 0.068,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 39.4
+      }
+    }
   }
 }

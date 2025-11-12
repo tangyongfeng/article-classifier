@@ -1,0 +1,29 @@
+{
+  "id": "87c598be-8cb8-431f-9fb3-f737c85945ed",
+  "note_id": "9a405b37-2153-4a25-b5d1-436e6ce5dfa4",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记分享独自旅行经历，强调自由安排行程、修改计划的灵活性，以及参观西雅图波音博物馆的惊喜体验。",
+    "keywords": [
+      "独自旅行",
+      "行程自由",
+      "波音博物馆",
+      "旅行体验",
+      "计划修改"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "Solo vs Group Travel"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:33:43.915537Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.196
+}

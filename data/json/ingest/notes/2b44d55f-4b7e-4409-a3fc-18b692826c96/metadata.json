@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "df3f8d71-6143-4aa8-a65b-ce0b10728cf8",
+      "note_id": "2b44d55f-4b7e-4409-a3fc-18b692826c96",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "用户为孩子Yuki在德国选择中学，咨询综合学校推荐，列出三所学校并请求建议。",
+        "keywords": [
+          "德国",
+          "中学",
+          "学校推荐",
+          "综合学校",
+          "教育"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:04:29.644767Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.145
+    }
+  ],
   "journal": {
     "id": "329c09ff-8fa2-4123-9352-d3d569a83084",
     "note_id": "2b44d55f-4b7e-4409-a3fc-18b692826c96",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:04:29.644609Z",
+    "latency_seconds": 41.65856229199562,
+    "attempts": 1,
+    "summary": {
+      "summary": "用户为孩子Yuki在德国选择中学，咨询综合学校推荐，列出三所学校并请求建议。",
+      "keywords": [
+        "德国",
+        "中学",
+        "学校推荐",
+        "综合学校",
+        "教育"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.145,
+      "metrics": {
+        "input_chars": 1052.0,
+        "input_lines": 12.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.036,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 63.1
+      }
+    }
   }
 }

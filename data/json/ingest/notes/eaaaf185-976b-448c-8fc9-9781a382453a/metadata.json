@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5857a4f5-555d-4b32-a36e-4ef097914214",
+      "note_id": "eaaaf185-976b-448c-8fc9-9781a382453a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分析可转债转股策略收益率，基于历史数据平均年化收益24.85%，亏损率18.49%，建议组合投资以控制风险。",
+        "keywords": [
+          "可转债",
+          "转股",
+          "收益率",
+          "投资策略",
+          "组合投资"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:46:30.429077Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.315
+    }
+  ],
   "journal": {
     "id": "07d4dd05-4e60-4fe5-b475-c1ab656cc5d0",
     "note_id": "eaaaf185-976b-448c-8fc9-9781a382453a",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:46:30.428839Z",
+    "latency_seconds": 42.71528858295642,
+    "attempts": 1,
+    "summary": {
+      "summary": "分析可转债转股策略收益率，基于历史数据平均年化收益24.85%，亏损率18.49%，建议组合投资以控制风险。",
+      "keywords": [
+        "可转债",
+        "转股",
+        "收益率",
+        "投资策略",
+        "组合投资"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.315,
+      "metrics": {
+        "input_chars": 3114.0,
+        "input_lines": 57.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.017,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 3.0,
+        "estimated_read_seconds": 186.8
+      }
+    }
   }
 }

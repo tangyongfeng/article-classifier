@@ -1,0 +1,29 @@
+{
+  "id": "093d6c98-4f3b-45b1-a029-cfa0cb3750e0",
+  "note_id": "c4cc6254-355b-470a-8504-dc78deec2ae3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "整理驾照考试中的交通规则、灯光术语及驾驶理论要点，包括超车规定、货物装载限制等知识点。",
+    "keywords": [
+      "驾照",
+      "交通规则",
+      "灯光术语",
+      "驾驶理论",
+      "超车"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "交通",
+      "驾照",
+      "驾驶理论"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:15:41.924170Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.267
+}

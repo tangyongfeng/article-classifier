@@ -4,7 +4,7 @@ from __future__ import annotations
 import json
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Iterable, Optional
+from typing import Iterable, Optional, Sequence
 from uuid import UUID
 
 from ..llm import LLMDispatcher
@@ -19,6 +19,7 @@ class LLMEnhanceAgent:
     """Generate summaries and structured metadata for notes via LLMs."""
 
     AGENT_ID = "llm_enhance:v0"
+    MAX_ATTEMPTS = 3
 
     def __init__(
         self,
@@ -49,25 +50,62 @@ class LLMEnhanceAgent:
 
         started_at = datetime.now(UTC)
         category_guidance = self._category_provider.get_guidance() if self._category_provider else None
-        response = self._dispatcher.summarize_note(
-            title=title,
-            content=clean_text,
-            language=language,
-            models=models,
-            category_guidance=category_guidance,
-        )
+
+        attempts = 0
+        attempt_count = 0
+        payload: Optional[dict] = None
+        status = "fallback"
+        last_error: Optional[str] = None
+        retry_feedback: Optional[str] = None
+        response = None
+
+        while attempts < self.MAX_ATTEMPTS:
+            response = self._dispatcher.summarize_note(
+                title=title,
+                content=clean_text,
+                language=language,
+                models=models,
+                category_guidance=category_guidance,
+                retry_feedback=retry_feedback,
+            )
+            attempts += 1
+            attempt_count = attempts
+
+            if not response.succeeded or not isinstance(response.parsed, dict):
+                last_error = response.error or "LLM 输出缺少合法 JSON"
+                retry_feedback = self._build_json_retry_feedback()
+                continue
+
+            normalized = self._normalize_llm_payload(response.parsed, response.model.name)
+            canonical_path = self._canonicalize_category_path(
+                normalized.get("category_path") or [],
+                normalized.get("new_category_suggestion"),
+            )
+            if canonical_path:
+                normalized["category_path"] = canonical_path
+                payload = normalized
+                status = "success"
+                last_error = None
+                break
+
+            last_error = "LLM 返回的 category_path 无法匹配现有分类"
+            retry_feedback = self._build_category_retry_feedback(
+                normalized.get("category_path") or [],
+                normalized.get("new_category_suggestion"),
+            )
+
         finished_at = datetime.now(UTC)
 
-        if response.succeeded and isinstance(response.parsed, dict):
-            payload = self._normalize_llm_payload(response.parsed, response.model.name)
-            status = "success"
-        else:
+        if payload is None:
             payload = self._build_fallback_payload(clean_text)
             status = "fallback"
 
         metrics = compute_quality_metrics(clean_text, payload)
         quality_score = self._score_quality(status, metrics)
-        model_used = payload.get("source") or (response.model.name if response.model else "unknown")
+        latency_seconds = response.latency_seconds if response else None
+        model_used = payload.get("source") or (
+            response.model.name if response and response.model else "unknown"
+        )
 
         extraction = self._create_extraction(
             note_id=note_id,
@@ -84,7 +122,8 @@ class LLMEnhanceAgent:
                 "status": status,
                 "model": extraction.extractor.split("#", 1)[-1],
                 "updated_at": finished_at.isoformat().replace("+00:00", "Z"),
-                "latency_seconds": response.latency_seconds,
+                "latency_seconds": latency_seconds,
+                "attempts": attempt_count,
                 "summary": payload,
                 "quality": {
                     "score": quality_score,
@@ -98,20 +137,22 @@ class LLMEnhanceAgent:
             note_id=UUID(note_id),
             stage="llm_enhance",
             agent_id=self.AGENT_ID,
-            status="success" if response.succeeded else "failed",
+            status="success" if status == "success" else "failed",
             started_at=started_at,
             finished_at=finished_at,
             input_ref={
                 "note_id": note_id,
                 "requested_models": list(models) if models else None,
-                "dispatcher_model": response.model.name,
+                "dispatcher_model": response.model.name if response and response.model else None,
+                "attempts": attempt_count,
             },
             output_ref={
                 "extraction_id": str(extraction.id),
                 "status": status,
                 "quality_score": quality_score,
+                "attempts": attempt_count,
             },
-            error_detail=response.error if not response.succeeded else None,
+            error_detail=last_error or (response.error if response and not response.succeeded else None),
         )
         self._journal_writer.write(journal_entry)
 
@@ -120,7 +161,8 @@ class LLMEnhanceAgent:
             "status": status,
             "model": extraction.extractor.split("#", 1)[-1],
             "extraction_id": str(extraction.id),
-            "latency_seconds": response.latency_seconds,
+            "latency_seconds": latency_seconds,
+            "attempts": attempt_count,
         }
 
     # ------------------------------------------------------------------
@@ -151,14 +193,88 @@ class LLMEnhanceAgent:
                 break
         while len(keywords) < 5:
             keywords.append("摘录")
+        category_path = ["未分类"]
+        if self._category_provider:
+            default_path = self._category_provider.default_path()
+            if default_path:
+                category_path = default_path[:3]
+
         return {
             "summary": summary,
             "keywords": keywords[:5],
             "action_items": ["无"],
             "source": "fallback",
-            "category_path": ["未分类"],
+            "category_path": category_path,
             "new_category_suggestion": None,
         }
+
+    def _canonicalize_category_path(
+        self,
+        category_path: Sequence[str],
+        new_category_suggestion: Optional[object],
+    ) -> Optional[list[str]]:
+        provider = self._category_provider
+        if provider is None:
+            tokens = self._flatten_path_parts(category_path)
+            return tokens if tokens else None
+
+        tokens = self._flatten_path_parts(category_path)
+        canonical = provider.canonicalize_path(tokens)
+        if canonical:
+            return canonical
+
+        if isinstance(new_category_suggestion, list):
+            suggestion_tokens = self._flatten_path_parts(new_category_suggestion)
+            canonical = provider.canonicalize_path(suggestion_tokens)
+            if canonical:
+                return canonical
+        elif isinstance(new_category_suggestion, str):
+            suggestion_tokens = self._flatten_path_parts([new_category_suggestion])
+            canonical = provider.canonicalize_path(suggestion_tokens)
+            if canonical:
+                return canonical
+
+        if tokens:
+            top_level = provider.canonicalize_path(tokens[:1])
+            if top_level:
+                return top_level
+
+        return None
+
+    def _flatten_path_parts(self, parts: Sequence[str]) -> list[str]:
+        tokens: list[str] = []
+        for part in parts:
+            if not isinstance(part, str):
+                continue
+            normalized = part.replace("/", ">")
+            for segment in normalized.split(">"):
+                cleaned = segment.strip()
+                if cleaned:
+                    tokens.append(cleaned)
+                if len(tokens) == 3:
+                    break
+            if len(tokens) == 3:
+                break
+        return tokens
+
+    def _build_json_retry_feedback(self) -> str:
+        return "上一次回复未能解析为 JSON。请仅输出符合示例的 JSON 对象，不要包含说明文字或代码块。"
+
+    def _build_category_retry_feedback(
+        self,
+        previous_path: Sequence[str],
+        new_category_suggestion: Optional[object],
+    ) -> str:
+        if previous_path:
+            joined = " > ".join(str(item) for item in previous_path if item)
+            message = f"上一次返回的 category_path（{joined}）不在提供的分类列表中。"
+        else:
+            message = "上一次返回的 category_path 为空，这是不允许的。"
+        guidance = "请从列表中挑选完全匹配的分类名称，按层级组成最多三层的数组。"
+        supplemental = " 禁止使用‘未分类’‘其他’等模糊词。"
+        if new_category_suggestion:
+            supplemental += " 若确实缺少分类，可在 new_category_suggestion 中提供完整路径的数组，同时仍需在 category_path 中填写最接近的已有分类。"
+        return message + guidance + supplemental
 
     def _normalize_llm_payload(self, raw: dict, model_name: str) -> dict:
         summary = str(raw.get("summary", "")).strip()

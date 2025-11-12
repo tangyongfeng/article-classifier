@@ -77,7 +77,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d2d7b4f4-ae33-4d5f-a685-605f5e705517",
+      "note_id": "f7fd6c85-5723-4f35-a2e1-c74e4f57a836",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: python3之requests - Py.qi - 博客园 updated: 2019-01-25 11:58:54Z created:",
+        "keywords": [
+          "---",
+          "title: python3之requests - Py.qi - 博客园",
+          "updated: 2019-01-25 11:58:54Z",
+          "created: 2019-01-25 11:58:54Z",
+          "source: https://www.cnblogs.com/zhangxinqi/p/9201594.html"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:50:06.394336Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "a9f4df34-62d5-47a8-9971-be90bec1f7f7",
     "note_id": "f7fd6c85-5723-4f35-a2e1-c74e4f57a836",
@@ -100,5 +128,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T10:50:06.393427Z",
+    "latency_seconds": 27.402008833014406,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: python3之requests - Py.qi - 博客园 updated: 2019-01-25 11:58:54Z created:",
+      "keywords": [
+        "---",
+        "title: python3之requests - Py.qi - 博客园",
+        "updated: 2019-01-25 11:58:54Z",
+        "created: 2019-01-25 11:58:54Z",
+        "source: https://www.cnblogs.com/zhangxinqi/p/9201594.html"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 21472.0,
+        "input_lines": 637.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.004,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 1288.3
+      }
+    }
   }
 }

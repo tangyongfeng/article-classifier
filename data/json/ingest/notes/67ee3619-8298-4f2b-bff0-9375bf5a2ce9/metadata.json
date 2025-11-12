@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7020bdf5-588c-45e3-afa4-5ded2ddbac67",
+      "note_id": "67ee3619-8298-4f2b-bff0-9375bf5a2ce9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容为面粉的三种类型编号：低筋550、中筋405、高筋605，用于烹饪分类。",
+        "keywords": [
+          "面粉",
+          "低筋",
+          "中筋",
+          "高筋",
+          "筋度"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:28:21.068310Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.509
+    }
+  ],
   "journal": {
     "id": "ebfe2786-dc2c-4ac5-ae8d-17b97b67fef3",
     "note_id": "67ee3619-8298-4f2b-bff0-9375bf5a2ce9",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:28:21.068161Z",
+    "latency_seconds": 27.132806707988493,
+    "attempts": 2,
+    "summary": {
+      "summary": "笔记内容为面粉的三种类型编号：低筋550、中筋405、高筋605，用于烹饪分类。",
+      "keywords": [
+        "面粉",
+        "低筋",
+        "中筋",
+        "高筋",
+        "筋度"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.509,
+      "metrics": {
+        "input_chars": 99.0,
+        "input_lines": 8.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.404,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.9
+      }
+    }
   }
 }

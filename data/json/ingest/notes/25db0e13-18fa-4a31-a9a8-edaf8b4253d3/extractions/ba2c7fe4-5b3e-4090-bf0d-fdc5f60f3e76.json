@@ -1,0 +1,28 @@
+{
+  "id": "ba2c7fe4-5b3e-4090-bf0d-fdc5f60f3e76",
+  "note_id": "25db0e13-18fa-4a31-a9a8-edaf8b4253d3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "2014年2月25日会议讨论医疗信息系统功能开发，涉及界面优化、键盘操作及病历信息整合。",
+    "keywords": [
+      "医疗系统",
+      "功能开发",
+      "界面优化",
+      "键盘操作",
+      "病历信息"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:44:04.107273Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.202
+}

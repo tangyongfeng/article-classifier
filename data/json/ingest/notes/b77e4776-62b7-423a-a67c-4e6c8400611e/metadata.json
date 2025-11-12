@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ea13603a-016b-4cc4-851f-49641be894e5",
+      "note_id": "b77e4776-62b7-423a-a67c-4e6c8400611e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本笔记列出德语序数词（如1st, 2nd）的正确形式和用法，是德语语法学习的重要内容，涵盖1-20的序数表达。",
+        "keywords": [
+          "序数词",
+          "德语",
+          "语法",
+          "语言学习",
+          "数词"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:47:15.458259Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.248
+    }
+  ],
   "journal": {
     "id": "cf19a161-81b3-49a0-882a-1b6ccfb78bc3",
     "note_id": "b77e4776-62b7-423a-a67c-4e6c8400611e",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:47:15.458088Z",
+    "latency_seconds": 30.796559125068597,
+    "attempts": 1,
+    "summary": {
+      "summary": "本笔记列出德语序数词（如1st, 2nd）的正确形式和用法，是德语语法学习的重要内容，涵盖1-20的序数表达。",
+      "keywords": [
+        "序数词",
+        "德语",
+        "语法",
+        "语言学习",
+        "数词"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.248,
+      "metrics": {
+        "input_chars": 449.0,
+        "input_lines": 43.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.122,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 26.9
+      }
+    }
   }
 }

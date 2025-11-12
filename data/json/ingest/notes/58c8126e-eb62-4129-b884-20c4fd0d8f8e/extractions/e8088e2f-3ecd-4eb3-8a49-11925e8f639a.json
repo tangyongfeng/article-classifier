@@ -1,0 +1,30 @@
+{
+  "id": "e8088e2f-3ecd-4eb3-8a49-11925e8f639a",
+  "note_id": "58c8126e-eb62-4129-b884-20c4fd0d8f8e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "小提琴选择涉及乐器类型、价格区间、材质及音质评估，帮助初学者挑选适合的乐器。",
+    "keywords": [
+      "小提琴",
+      "乐器选择",
+      "选购指南",
+      "弦乐器",
+      "音质评估"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": [
+      "Education",
+      "Music"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:16:03.004094Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.364
+}

@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "dbc7c04a-a5d5-4fc2-8fa4-ad9e462016bb",
+      "note_id": "3cb7b0b6-9c5e-43c7-846f-78a91819ca9a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "员工考勤记录查询，显示2018年10-11月签到、签退及假期情况，包含年假和外出记录。",
+        "keywords": [
+          "考勤",
+          "签到",
+          "签退",
+          "年假",
+          "外出"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:19:46.809705Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.389
+    }
+  ],
   "journal": {
     "id": "3f964f14-1290-49d5-8289-735bf3dd9c06",
     "note_id": "3cb7b0b6-9c5e-43c7-846f-78a91819ca9a",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:19:46.809559Z",
+    "latency_seconds": 27.878232583985664,
+    "attempts": 1,
+    "summary": {
+      "summary": "员工考勤记录查询，显示2018年10-11月签到、签退及假期情况，包含年假和外出记录。",
+      "keywords": [
+        "考勤",
+        "签到",
+        "签退",
+        "年假",
+        "外出"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.389,
+      "metrics": {
+        "input_chars": 984.0,
+        "input_lines": 86.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.044,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 59.0
+      }
+    }
   }
 }

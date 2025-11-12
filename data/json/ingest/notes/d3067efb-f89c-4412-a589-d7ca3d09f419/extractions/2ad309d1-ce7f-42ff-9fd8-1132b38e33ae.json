@@ -1,0 +1,28 @@
+{
+  "id": "2ad309d1-ce7f-42ff-9fd8-1132b38e33ae",
+  "note_id": "d3067efb-f89c-4412-a589-d7ca3d09f419",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "咨询德国三王节圣歌活动细节，涉及教堂地点、儿童参与及准备事项。",
+    "keywords": [
+      "圣歌活动",
+      "教堂",
+      "儿童",
+      "德语",
+      "三王节"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social",
+      "Family Events"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:49:30.966056Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.142
+}

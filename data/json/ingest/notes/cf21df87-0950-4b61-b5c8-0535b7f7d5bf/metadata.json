@@ -72,7 +72,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3145a645-fd05-46d0-9055-2ed204300011",
+      "note_id": "cf21df87-0950-4b61-b5c8-0535b7f7d5bf",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "中国公司日本分公司及子公司的补助和补贴申请流程，涉及外国公司定义、补贴类型区分、申请条件及大阪府等地方补贴案例。",
+        "keywords": [
+          "外国公司",
+          "补助手续",
+          "分公司设立",
+          "营业管理签证",
+          "政府补贴"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业",
+          "公司注册"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:18:48.729198Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.324
+    }
+  ],
   "journal": {
     "id": "41057d3f-d15c-4e89-a86d-b9b9fce52d4e",
     "note_id": "cf21df87-0950-4b61-b5c8-0535b7f7d5bf",
@@ -95,5 +125,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:18:48.729003Z",
+    "latency_seconds": 27.019146666047163,
+    "attempts": 1,
+    "summary": {
+      "summary": "中国公司日本分公司及子公司的补助和补贴申请流程，涉及外国公司定义、补贴类型区分、申请条件及大阪府等地方补贴案例。",
+      "keywords": [
+        "外国公司",
+        "补助手续",
+        "分公司设立",
+        "营业管理签证",
+        "政府补贴"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业",
+        "公司注册"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.324,
+      "metrics": {
+        "input_chars": 1642.0,
+        "input_lines": 85.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.034,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 98.5
+      }
+    }
   }
 }

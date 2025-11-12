@@ -1,0 +1,28 @@
+{
+  "id": "be2957e4-b714-4dd4-87b2-eea303776382",
+  "note_id": "a4a120dd-e634-4654-a5e9-ba280ea82e3e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "讨论DeviceID生成机制，采用硬件设备号作为校验方式的技术实现。",
+    "keywords": [
+      "设备ID",
+      "硬件设备号",
+      "校验方式",
+      "技术实现",
+      "生成机制"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:26:22.569750Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.336
+}

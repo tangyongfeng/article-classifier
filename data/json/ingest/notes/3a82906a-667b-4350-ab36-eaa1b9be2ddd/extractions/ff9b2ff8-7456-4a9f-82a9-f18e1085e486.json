@@ -1,0 +1,28 @@
+{
+  "id": "ff9b2ff8-7456-4a9f-82a9-f18e1085e486",
+  "note_id": "3a82906a-667b-4350-ab36-eaa1b9be2ddd",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "纪录片《希特勒与纳粹德国的将帅们》从将帅视角反观希特勒从上台到败亡的历程。",
+    "keywords": [
+      "纪录片",
+      "希特勒",
+      "纳粹德国",
+      "将帅",
+      "历史"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "德国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:08:34.200294Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.359
+}

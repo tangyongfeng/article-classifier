@@ -1,0 +1,28 @@
+{
+  "id": "54dd0c5d-2a90-402b-ba73-f8af915337e5",
+  "note_id": "19859859-f297-4a41-bd4b-0f8b7c509c1d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "分析A股市场中小盘与大盘轮动策略，基于动量效应原理，通过沪深300与中证500指数轮动实现收益优化，需注意交易费率影响。",
+    "keywords": [
+      "二八轮动",
+      "大小盘轮动",
+      "动量效应",
+      "股票指数",
+      "趋势投资"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:43:28.601957Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.329
+}

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c631db13-3b98-41ca-9d8e-df8a283a664a",
+      "note_id": "2f4704e0-7c86-4ca8-8e06-02ac12fb56e9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "中国身份证号码示例：142703197903023628，包含出生日期、地区编码等信息，用于身份识别和生活规划。",
+        "keywords": [
+          "身份证号码",
+          "中国",
+          "身份验证",
+          "生活规划",
+          "个人信息"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:21:45.250647Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.292
+    }
+  ],
   "journal": {
     "id": "92c25007-5ea2-4e8c-9f8d-f569f9630a23",
     "note_id": "2f4704e0-7c86-4ca8-8e06-02ac12fb56e9",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:21:45.250485Z",
+    "latency_seconds": 26.62548966705799,
+    "attempts": 1,
+    "summary": {
+      "summary": "中国身份证号码示例：142703197903023628，包含出生日期、地区编码等信息，用于身份识别和生活规划。",
+      "keywords": [
+        "身份证号码",
+        "中国",
+        "身份验证",
+        "生活规划",
+        "个人信息"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.292,
+      "metrics": {
+        "input_chars": 169.0,
+        "input_lines": 10.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.331,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.1
+      }
+    }
   }
 }

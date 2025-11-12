@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5c1bcdc0-b216-44a3-b621-e2bf9a5cd39a",
+      "note_id": "d58a3058-cb69-4cee-ab54-82004069fafc",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "SPIC AND SPAN.EXPERT 作为品牌名称，与商务品牌管理领域相关，可能涉及专家服务及品牌国际化应用。",
+        "keywords": [
+          "品牌",
+          "商务",
+          "专家",
+          "服务",
+          "管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "品牌管理"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:57:12.132309Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.281
+    }
+  ],
   "journal": {
     "id": "3a28bcb5-1c0b-4f13-8df2-5d488a959cb9",
     "note_id": "d58a3058-cb69-4cee-ab54-82004069fafc",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:57:12.132196Z",
+    "latency_seconds": 34.44603524997365,
+    "attempts": 1,
+    "summary": {
+      "summary": "SPIC AND SPAN.EXPERT 作为品牌名称，与商务品牌管理领域相关，可能涉及专家服务及品牌国际化应用。",
+      "keywords": [
+        "品牌",
+        "商务",
+        "专家",
+        "服务",
+        "管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "品牌管理"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.281,
+      "metrics": {
+        "input_chars": 133.0,
+        "input_lines": 7.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.429,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 8.0
+      }
+    }
   }
 }

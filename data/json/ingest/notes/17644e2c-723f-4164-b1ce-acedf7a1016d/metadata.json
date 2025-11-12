@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1704ff74-dee0-40b3-bbff-0fe80efa9a1b",
+      "note_id": "17644e2c-723f-4164-b1ce-acedf7a1016d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "国务院2013年规划健康服务业体系，目标2020年规模达8万亿，涵盖医疗服务、健康管理、健康保险及支撑产业，强调多元办医与预防为主。",
+        "keywords": [
+          "健康服务业",
+          "医疗服务",
+          "健康管理",
+          "健康保险",
+          "政策"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "健康服务",
+          "健康服务 > 政策"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:32:58.147812Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.39
+    }
+  ],
   "journal": {
     "id": "fd5b5352-2457-4eac-92ed-e5661b75032d",
     "note_id": "17644e2c-723f-4164-b1ce-acedf7a1016d",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:32:58.147635Z",
+    "latency_seconds": 33.43606287497096,
+    "attempts": 2,
+    "summary": {
+      "summary": "国务院2013年规划健康服务业体系，目标2020年规模达8万亿，涵盖医疗服务、健康管理、健康保险及支撑产业，强调多元办医与预防为主。",
+      "keywords": [
+        "健康服务业",
+        "医疗服务",
+        "健康管理",
+        "健康保险",
+        "政策"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "健康服务",
+        "健康服务 > 政策"
+      ]
+    },
+    "quality": {
+      "score": 0.39,
+      "metrics": {
+        "input_chars": 1428.0,
+        "input_lines": 40.0,
+        "summary_chars": 66.0,
+        "summary_coverage_ratio": 0.046,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 85.7
+      }
+    }
   }
 }

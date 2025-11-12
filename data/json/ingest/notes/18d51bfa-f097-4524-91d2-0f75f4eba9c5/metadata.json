@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ea3b7884-d7fc-4e9a-86d8-49ecbd1df2f3",
+      "note_id": "18d51bfa-f097-4524-91d2-0f75f4eba9c5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "天主教教派学校，以圣三王教堂命名，教学基于天主教，强调基督教取向和价值导向教育，1969年起所有儿童必须参加宗教教育。",
+        "keywords": [
+          "天主教",
+          "学校",
+          "宗教教育",
+          "基督教",
+          "价值导向"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:39:30.572060Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.457
+    }
+  ],
   "journal": {
     "id": "c225194f-a09e-419f-b07a-721e15705c00",
     "note_id": "18d51bfa-f097-4524-91d2-0f75f4eba9c5",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:39:30.571870Z",
+    "latency_seconds": 34.310179250082,
+    "attempts": 1,
+    "summary": {
+      "summary": "天主教教派学校，以圣三王教堂命名，教学基于天主教，强调基督教取向和价值导向教育，1969年起所有儿童必须参加宗教教育。",
+      "keywords": [
+        "天主教",
+        "学校",
+        "宗教教育",
+        "基督教",
+        "价值导向"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.457,
+      "metrics": {
+        "input_chars": 328.0,
+        "input_lines": 22.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.18,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 19.7
+      }
+    }
   }
 }

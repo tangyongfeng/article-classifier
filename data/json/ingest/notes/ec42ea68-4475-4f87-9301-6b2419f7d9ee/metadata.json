@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "75f86886-271a-4efd-8cde-05f3e93dc324",
+      "note_id": "ec42ea68-4475-4f87-9301-6b2419f7d9ee",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 黑暗幽灵（DCM）木马详细分析 - FreeBuf.COM | 关注黑客与极客 updated: 2016-04-16 06:29:21Z",
+        "keywords": [
+          "---",
+          "title: 黑暗幽灵（DCM）木马详细分析 - FreeBuf.COM | 关注黑客与极客",
+          "updated: 2016-04-16 06:29:21Z",
+          "created: 2016-04-16 06:29:21Z",
+          "source: http://www.freebuf.com/articles/system/101447.html"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:55:16.706640Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "8ede1092-45b9-44fe-9cce-ba7a8eb4de5e",
     "note_id": "ec42ea68-4475-4f87-9301-6b2419f7d9ee",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T09:55:16.705928Z",
+    "latency_seconds": 29.81738912500441,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 黑暗幽灵（DCM）木马详细分析 - FreeBuf.COM | 关注黑客与极客 updated: 2016-04-16 06:29:21Z",
+      "keywords": [
+        "---",
+        "title: 黑暗幽灵（DCM）木马详细分析 - FreeBuf.COM | 关注黑客与极客",
+        "updated: 2016-04-16 06:29:21Z",
+        "created: 2016-04-16 06:29:21Z",
+        "source: http://www.freebuf.com/articles/system/101447.html"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 13507.0,
+        "input_lines": 1014.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.006,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 810.4
+      }
+    }
   }
 }

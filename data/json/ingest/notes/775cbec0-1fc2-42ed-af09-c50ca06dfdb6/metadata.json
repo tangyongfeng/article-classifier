@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "918cf976-c9ed-4b24-bc62-05b36fcc82e0",
+      "note_id": "775cbec0-1fc2-42ed-af09-c50ca06dfdb6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "SQL注入攻击示例，涉及数据库查询和密码验证，属于技术安全领域。",
+        "keywords": [
+          "SQL注入",
+          "数据库安全",
+          "技术漏洞",
+          "密码验证",
+          "安全测试"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:49:07.577873Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.121
+    }
+  ],
   "journal": {
     "id": "cdb46836-7e38-4479-9c26-f562254c257e",
     "note_id": "775cbec0-1fc2-42ed-af09-c50ca06dfdb6",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:49:07.577704Z",
+    "latency_seconds": 38.47730308305472,
+    "attempts": 1,
+    "summary": {
+      "summary": "SQL注入攻击示例，涉及数据库查询和密码验证，属于技术安全领域。",
+      "keywords": [
+        "SQL注入",
+        "数据库安全",
+        "技术漏洞",
+        "密码验证",
+        "安全测试"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.121,
+      "metrics": {
+        "input_chars": 297.0,
+        "input_lines": 8.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.108,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.8
+      }
+    }
   }
 }

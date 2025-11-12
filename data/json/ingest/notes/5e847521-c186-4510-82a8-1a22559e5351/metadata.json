@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b4a7ec40-80c4-4917-92e7-3fa834634d68",
+      "note_id": "5e847521-c186-4510-82a8-1a22559e5351",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "工作安排会议，包含人员名单与议程，涉及内部讨论与项目展示。",
+        "keywords": [
+          "会议",
+          "行程",
+          "商务合作",
+          "议程",
+          "人员名单"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:37:46.126521Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.299
+    }
+  ],
   "journal": {
     "id": "cf8cb240-2716-4464-9883-6a96ed6cbc2d",
     "note_id": "5e847521-c186-4510-82a8-1a22559e5351",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:37:46.126371Z",
+    "latency_seconds": 9.284074416966178,
+    "attempts": 1,
+    "summary": {
+      "summary": "工作安排会议，包含人员名单与议程，涉及内部讨论与项目展示。",
+      "keywords": [
+        "会议",
+        "行程",
+        "商务合作",
+        "议程",
+        "人员名单"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.299,
+      "metrics": {
+        "input_chars": 280.0,
+        "input_lines": 15.0,
+        "summary_chars": 29.0,
+        "summary_coverage_ratio": 0.104,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.8
+      }
+    }
   }
 }

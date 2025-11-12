@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6e7a23a4-9fdc-4886-a250-b51141b26da1",
+      "note_id": "c902cdb6-50cd-410b-bf9a-213f3fe7b13f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "移动互联网创业公司服务器选择指南，涵盖网络部署、硬件配置与软件选型，优化成本与系统性能。",
+        "keywords": [
+          "移动互联网",
+          "服务器选择",
+          "系统运维",
+          "创业公司",
+          "技术选型"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:46:38.532107Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.38
+    }
+  ],
   "journal": {
     "id": "81cbc9ff-a4b0-4e04-9bc4-543543d3a7ea",
     "note_id": "c902cdb6-50cd-410b-bf9a-213f3fe7b13f",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:46:38.531908Z",
+    "latency_seconds": 40.8769294579979,
+    "attempts": 1,
+    "summary": {
+      "summary": "移动互联网创业公司服务器选择指南，涵盖网络部署、硬件配置与软件选型，优化成本与系统性能。",
+      "keywords": [
+        "移动互联网",
+        "服务器选择",
+        "系统运维",
+        "创业公司",
+        "技术选型"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.38,
+      "metrics": {
+        "input_chars": 1609.0,
+        "input_lines": 92.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.027,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 96.5
+      }
+    }
   }
 }

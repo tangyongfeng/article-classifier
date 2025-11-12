@@ -1,0 +1,28 @@
+{
+  "id": "b962cd75-5d0e-4411-9fe6-2512cee48567",
+  "note_id": "0c52738e-6a53-451b-9a93-7ac6ea5943bf",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记讲述中国末代皇帝被驱逐后进入宫殿，因错误使用历史人物照片引发误会，涉及中国历史事件与历史教学场景。",
+    "keywords": [
+      "中国历史",
+      "历史事件",
+      "宫殿",
+      "错误照片",
+      "历史教授"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:45:40.924925Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.11
+}

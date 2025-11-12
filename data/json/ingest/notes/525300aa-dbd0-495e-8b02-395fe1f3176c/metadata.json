@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "23472cba-4f58-4bb3-bf06-0101e62d3f69",
+      "note_id": "525300aa-dbd0-495e-8b02-395fe1f3176c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "书单涵盖《枪炮、病菌与钢铁》历史决定论、《思维旅行》宇宙哲学及《信息简史》信息科学史，主题涉及人类文明发展与科学演进。",
+        "keywords": [
+          "历史",
+          "哲学",
+          "信息科学",
+          "宇宙",
+          "文明"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:47:34.097296Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.381
+    }
+  ],
   "journal": {
     "id": "b965f0ae-07a7-4bfa-922f-43144cf4439d",
     "note_id": "525300aa-dbd0-495e-8b02-395fe1f3176c",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:47:34.097107Z",
+    "latency_seconds": 41.383711333037354,
+    "attempts": 1,
+    "summary": {
+      "summary": "书单涵盖《枪炮、病菌与钢铁》历史决定论、《思维旅行》宇宙哲学及《信息简史》信息科学史，主题涉及人类文明发展与科学演进。",
+      "keywords": [
+        "历史",
+        "哲学",
+        "信息科学",
+        "宇宙",
+        "文明"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.381,
+      "metrics": {
+        "input_chars": 219.0,
+        "input_lines": 11.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.269,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.1
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7028010a-9f4f-4091-afaf-5375429e4c81",
+      "note_id": "ef3e7b8d-3a7c-446f-b9e4-4dc21f8bc430",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分享电子设计行业新闻链接，涉及技术动态与行业资讯。",
+        "keywords": [
+          "电子设计",
+          "技术新闻",
+          "行业动态",
+          "EDN China",
+          "技术链接"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:08:57.690138Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.134
+    }
+  ],
   "journal": {
     "id": "0e57ea76-3aab-46b7-b1b0-e7e6b8cf8f0f",
     "note_id": "ef3e7b8d-3a7c-446f-b9e4-4dc21f8bc430",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:08:57.690000Z",
+    "latency_seconds": 18.105090083088726,
+    "attempts": 1,
+    "summary": {
+      "summary": "分享电子设计行业新闻链接，涉及技术动态与行业资讯。",
+      "keywords": [
+        "电子设计",
+        "技术新闻",
+        "行业动态",
+        "EDN China",
+        "技术链接"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.134,
+      "metrics": {
+        "input_chars": 187.0,
+        "input_lines": 8.0,
+        "summary_chars": 25.0,
+        "summary_coverage_ratio": 0.134,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.2
+      }
+    }
   }
 }

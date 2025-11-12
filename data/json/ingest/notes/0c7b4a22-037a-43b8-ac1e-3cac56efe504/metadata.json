@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "20b985cd-2271-4fdc-a2cc-24a05b1c4670",
+      "note_id": "0c7b4a22-037a-43b8-ac1e-3cac56efe504",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国签证被拒后申诉状态查询，涉及申请号1899427和护照号E12457556，询问申诉是否接受及处理时间。",
+        "keywords": [
+          "签证",
+          "申诉",
+          "德国",
+          "大使馆",
+          "处理时间"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:47:06.434591Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.185
+    }
+  ],
   "journal": {
     "id": "57f0177d-3f13-43b4-bb5f-7b0e0b8f41ae",
     "note_id": "0c7b4a22-037a-43b8-ac1e-3cac56efe504",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:47:06.434469Z",
+    "latency_seconds": 36.39537233405281,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国签证被拒后申诉状态查询，涉及申请号1899427和护照号E12457556，询问申诉是否接受及处理时间。",
+      "keywords": [
+        "签证",
+        "申诉",
+        "德国",
+        "大使馆",
+        "处理时间"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.185,
+      "metrics": {
+        "input_chars": 462.0,
+        "input_lines": 11.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.117,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 27.7
+      }
+    }
   }
 }

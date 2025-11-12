@@ -1,0 +1,27 @@
+{
+  "id": "9fc68809-0b9c-4d5e-b284-a49b37a821b1",
+  "note_id": "920f2025-f2fd-4172-8714-5c9e59c55c8f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "列举了日系、欧系、中国、韩系及新兴企业自动售货机的主要品牌，涵盖外销、内销及代工企业。",
+    "keywords": [
+      "自动售货机",
+      "品牌",
+      "日系",
+      "欧系",
+      "中国品牌"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:56:54.018409Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.386
+}

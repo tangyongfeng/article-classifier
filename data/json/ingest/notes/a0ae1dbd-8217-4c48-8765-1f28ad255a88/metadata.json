@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a7932055-dcd5-45b2-90df-b716f45a8ff3",
+      "note_id": "a0ae1dbd-8217-4c48-8765-1f28ad255a88",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容涉及德语句式结构，属于语法学习范畴，适用于德语语法教学与学习。",
+        "keywords": [
+          "句式",
+          "语法",
+          "德语",
+          "句子结构",
+          "语法点"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:07:20.089020Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.252
+    }
+  ],
   "journal": {
     "id": "25152564-878b-44f3-aae6-5ef5dbf1de05",
     "note_id": "a0ae1dbd-8217-4c48-8765-1f28ad255a88",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:07:20.088763Z",
+    "latency_seconds": 11.382824416970834,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容涉及德语句式结构，属于语法学习范畴，适用于德语语法教学与学习。",
+      "keywords": [
+        "句式",
+        "语法",
+        "德语",
+        "句子结构",
+        "语法点"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.252,
+      "metrics": {
+        "input_chars": 140.0,
+        "input_lines": 7.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.25,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.4
+      }
+    }
   }
 }

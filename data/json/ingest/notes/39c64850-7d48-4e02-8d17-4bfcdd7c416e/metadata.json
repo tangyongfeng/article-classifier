@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d0f6e992-a8ac-41f6-843b-d92e699989fd",
+      "note_id": "39c64850-7d48-4e02-8d17-4bfcdd7c416e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "在FreeBSD系统中，执行'make rmconfig'命令清除端口配置后，使用'make install'完成端口安装。",
+        "keywords": [
+          "FreeBSD",
+          "port",
+          "make",
+          "rmconfig",
+          "install"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "Operating Systems",
+          "FreeBSD"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:07:11.776187Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.546
+    }
+  ],
   "journal": {
     "id": "4d2f1aab-67bc-4352-bb4f-6dd848bbc07e",
     "note_id": "39c64850-7d48-4e02-8d17-4bfcdd7c416e",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:07:11.776006Z",
+    "latency_seconds": 26.34609962499235,
+    "attempts": 1,
+    "summary": {
+      "summary": "在FreeBSD系统中，执行'make rmconfig'命令清除端口配置后，使用'make install'完成端口安装。",
+      "keywords": [
+        "FreeBSD",
+        "port",
+        "make",
+        "rmconfig",
+        "install"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "Operating Systems",
+        "FreeBSD"
+      ]
+    },
+    "quality": {
+      "score": 0.546,
+      "metrics": {
+        "input_chars": 173.0,
+        "input_lines": 9.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.358,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.4
+      }
+    }
   }
 }

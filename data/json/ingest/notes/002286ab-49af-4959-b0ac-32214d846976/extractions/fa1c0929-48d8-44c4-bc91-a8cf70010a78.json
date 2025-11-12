@@ -1,0 +1,31 @@
+{
+  "id": "fa1c0929-48d8-44c4-bc91-a8cf70010a78",
+  "note_id": "002286ab-49af-4959-b0ac-32214d846976",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记包含邮箱tang@jlgmbh.de及客户端密码BTHWT9gQJkCi2XtE，用于邮件客户端登录。",
+    "keywords": [
+      "邮箱",
+      "密码",
+      "客户端",
+      "登录",
+      "公司"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": [
+      "商务",
+      "安全",
+      "密码管理"
+    ]
+  },
+  "version": 2,
+  "created_at": "2025-11-11T13:35:07.754027Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.334
+}

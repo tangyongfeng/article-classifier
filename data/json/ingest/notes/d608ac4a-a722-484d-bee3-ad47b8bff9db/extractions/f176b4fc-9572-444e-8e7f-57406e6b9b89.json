@@ -1,0 +1,30 @@
+{
+  "id": "f176b4fc-9572-444e-8e7f-57406e6b9b89",
+  "note_id": "d608ac4a-a722-484d-bee3-ad47b8bff9db",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "阜外医院外科病房安排、手术材料选择及术后并发症咨询，涉及动脉导管未闭等心脏手术问题。",
+    "keywords": [
+      "外科病房",
+      "手术材料",
+      "术后并发症",
+      "动脉导管未闭",
+      "心脏手术"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Health",
+      "Health > Cardiology"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T08:01:56.848857Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.308
+}

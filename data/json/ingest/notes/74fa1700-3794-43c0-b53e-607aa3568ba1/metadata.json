@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d5b9c6ae-ea84-4f1a-977b-9afe942b1212",
+      "note_id": "74fa1700-3794-43c0-b53e-607aa3568ba1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "整理Open edX学习平台的开发、运维技术链接，涵盖官方文档、安装配置、功能试用及贡献者指南。",
+        "keywords": [
+          "Open edX",
+          "开发",
+          "运维",
+          "学习平台",
+          "技术文档"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:32:59.492963Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.255
+    }
+  ],
   "journal": {
     "id": "2c2b3d24-cb19-4f2c-a9a6-b564bc37e871",
     "note_id": "74fa1700-3794-43c0-b53e-607aa3568ba1",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:32:59.492763Z",
+    "latency_seconds": 38.24542695796117,
+    "attempts": 1,
+    "summary": {
+      "summary": "整理Open edX学习平台的开发、运维技术链接，涵盖官方文档、安装配置、功能试用及贡献者指南。",
+      "keywords": [
+        "Open edX",
+        "开发",
+        "运维",
+        "学习平台",
+        "技术文档"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.255,
+      "metrics": {
+        "input_chars": 2800.0,
+        "input_lines": 84.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.017,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 168.0
+      }
+    }
   }
 }

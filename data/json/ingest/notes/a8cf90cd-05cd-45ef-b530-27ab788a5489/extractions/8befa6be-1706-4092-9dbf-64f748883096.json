@@ -1,0 +1,29 @@
+{
+  "id": "8befa6be-1706-4092-9dbf-64f748883096",
+  "note_id": "a8cf90cd-05cd-45ef-b530-27ab788a5489",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "圣何塞地区酒店及律师事务所地址列表，用于旅行住宿和法律事务查询。",
+    "keywords": [
+      "圣何塞",
+      "地址",
+      "酒店",
+      "律师事务所",
+      "查询"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Accommodation",
+      "Hotel Booking Inquiry"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:45:03.158955Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.201
+}

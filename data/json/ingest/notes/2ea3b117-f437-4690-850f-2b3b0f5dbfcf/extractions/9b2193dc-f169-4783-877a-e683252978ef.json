@@ -1,0 +1,31 @@
+{
+  "id": "9b2193dc-f169-4783-877a-e683252978ef",
+  "note_id": "2ea3b117-f437-4690-850f-2b3b0f5dbfcf",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "高血压是一种常见慢性疾病，需关注血压管理与健康生活方式。",
+    "keywords": [
+      "高血压",
+      "慢性病",
+      "健康",
+      "医学",
+      "管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Health",
+      "Chronic Conditions",
+      "Hypertension"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:19:12.815725Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.306
+}

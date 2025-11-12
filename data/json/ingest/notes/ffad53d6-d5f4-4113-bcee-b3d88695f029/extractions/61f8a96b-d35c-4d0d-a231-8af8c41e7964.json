@@ -1,0 +1,29 @@
+{
+  "id": "61f8a96b-d35c-4d0d-a231-8af8c41e7964",
+  "note_id": "ffad53d6-d5f4-4113-bcee-b3d88695f029",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "首次赴美旅行需确认中药使用及洛杉矶西餐厅推荐，涉及旅行准备事项。",
+    "keywords": [
+      "赴美",
+      "中药",
+      "洛杉矶",
+      "西餐厅",
+      "旅行准备"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T11:32:56.490561Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.451
+}

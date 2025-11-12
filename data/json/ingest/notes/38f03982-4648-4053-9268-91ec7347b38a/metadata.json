@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "452358c6-ae98-44c2-b465-9a31c241262a",
+      "note_id": "38f03982-4648-4053-9268-91ec7347b38a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "整理出行所需证件清单，包括护照、身份证、结婚证、机票及驾照。",
+        "keywords": [
+          "证件",
+          "护照",
+          "身份证",
+          "驾照",
+          "机票"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "驾照"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:59:04.895040Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.331
+    }
+  ],
   "journal": {
     "id": "b6731c2d-c2a1-4f12-a499-98ee8385bd5b",
     "note_id": "38f03982-4648-4053-9268-91ec7347b38a",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:59:04.894899Z",
+    "latency_seconds": 34.95621287508402,
+    "attempts": 1,
+    "summary": {
+      "summary": "整理出行所需证件清单，包括护照、身份证、结婚证、机票及驾照。",
+      "keywords": [
+        "证件",
+        "护照",
+        "身份证",
+        "驾照",
+        "机票"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "驾照"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.331,
+      "metrics": {
+        "input_chars": 608.0,
+        "input_lines": 37.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.049,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 36.5
+      }
+    }
   }
 }

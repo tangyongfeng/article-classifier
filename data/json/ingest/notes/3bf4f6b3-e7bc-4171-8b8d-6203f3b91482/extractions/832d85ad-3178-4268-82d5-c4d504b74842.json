@@ -1,0 +1,28 @@
+{
+  "id": "832d85ad-3178-4268-82d5-c4d504b74842",
+  "note_id": "3bf4f6b3-e7bc-4171-8b8d-6203f3b91482",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "TF Bank更新付款信息，要求客户从即日起使用新IBAN DE41110101017332755301进行交易，取代原有用途说明，确保付款正确匹配。",
+    "keywords": [
+      "信用卡",
+      "IBAN",
+      "付款信息",
+      "银行",
+      "金融"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:13:32.842551Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.189
+}

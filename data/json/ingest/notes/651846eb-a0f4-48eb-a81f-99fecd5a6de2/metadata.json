@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3a625108-2fbf-4626-967f-7fdbe4088bfb",
+      "note_id": "651846eb-a0f4-48eb-a81f-99fecd5a6de2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "使用ssh -D命令配置SOCKS5代理实现动态端口转发与DNS解析，适用于网络配置和安全访问场景。",
+        "keywords": [
+          "SSH",
+          "SOCKS5",
+          "端口转发",
+          "代理",
+          "网络配置"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "网络工具"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:15:50.724532Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.269
+    }
+  ],
   "journal": {
     "id": "dfedf07b-9487-4a97-8715-fb18af6ada26",
     "note_id": "651846eb-a0f4-48eb-a81f-99fecd5a6de2",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:15:50.724373Z",
+    "latency_seconds": 36.20847020903602,
+    "attempts": 1,
+    "summary": {
+      "summary": "使用ssh -D命令配置SOCKS5代理实现动态端口转发与DNS解析，适用于网络配置和安全访问场景。",
+      "keywords": [
+        "SSH",
+        "SOCKS5",
+        "端口转发",
+        "代理",
+        "网络配置"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "网络工具"
+      ]
+    },
+    "quality": {
+      "score": 0.269,
+      "metrics": {
+        "input_chars": 176.0,
+        "input_lines": 9.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.284,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.6
+      }
+    }
   }
 }

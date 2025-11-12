@@ -1,0 +1,27 @@
+{
+  "id": "55d8e8e5-4d8a-43a9-a738-17019e724d48",
+  "note_id": "9120606a-d9c3-445a-8d5d-38f962eb1052",
+  "extractor": "llm_enhance:v0#fallback",
+  "payload": {
+    "summary": "--- title: The Plague Year | The New Yorker updated: 2020-12-30 22:15:09Z create",
+    "keywords": [
+      "---",
+      "title: The Plague Year | The New Yorker",
+      "updated: 2020-12-30 22:15:09Z",
+      "created: 2020-12-30 22:14:46Z",
+      "source: https://www.newyorker.com/magazine/2021/01/04/the-plague-year"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "fallback",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:54:43.679618Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.147
+}

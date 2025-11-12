@@ -1,0 +1,29 @@
+{
+  "id": "623f60a2-0320-4c1d-8368-e57a255ab5d9",
+  "note_id": "7394cbc4-71c8-4d0d-9aa9-ec48746eea47",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语物主代词的单复数及阴阳性变化表，涵盖人称代词对应的'我的'、'你的'等形式，用于语法学习。",
+    "keywords": [
+      "物主代词",
+      "德语语法",
+      "人称代词",
+      "阴阳性",
+      "单复数"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:22:34.744504Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.21
+}

@@ -1,0 +1,29 @@
+{
+  "id": "da11bfd9-ad66-4f88-8bba-ef2ab2b4c343",
+  "note_id": "82149e9b-e8dd-4835-8a30-f012dba5ea17",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "总结德语1-10课强变化动词和不规则动词的第二分词构成规律，包括ge-前缀使用、元音变化规则及例外情况，便于掌握现在完成时语法。",
+    "keywords": [
+      "德语",
+      "强变化动词",
+      "第二分词",
+      "动词变位",
+      "语法"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Verb Conjugation"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:50:26.775550Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.259
+}

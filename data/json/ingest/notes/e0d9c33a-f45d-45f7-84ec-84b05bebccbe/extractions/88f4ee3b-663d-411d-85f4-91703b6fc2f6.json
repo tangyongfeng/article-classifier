@@ -1,0 +1,27 @@
+{
+  "id": "88f4ee3b-663d-411d-85f4-91703b6fc2f6",
+  "note_id": "e0d9c33a-f45d-45f7-84ec-84b05bebccbe",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本图解基于天台宗法师述解，以思维导图形式解析佛教经典《心经》，辅助理解经文核心义理。",
+    "keywords": [
+      "心经",
+      "佛教",
+      "思维导图",
+      "图解",
+      "天台宗"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T08:55:26.304878Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.286
+}

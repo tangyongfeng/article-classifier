@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bd6efdf5-f509-48dc-9ed7-dc8aca9b7fd5",
+      "note_id": "c81dd5a9-06d9-433d-b91c-f4823610cc89",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "办理宽带服务常见问题汇总，涉及合同条款、费用结构、设备租赁及账户管理等核心疑问。",
+        "keywords": [
+          "宽带",
+          "合同",
+          "费用",
+          "路由器",
+          "账户管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "城市生活"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:43:17.139221Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.378
+    }
+  ],
   "journal": {
     "id": "e718aa21-688d-487f-9b32-4be3deba42ad",
     "note_id": "c81dd5a9-06d9-433d-b91c-f4823610cc89",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:43:17.139043Z",
+    "latency_seconds": 43.04033179196995,
+    "attempts": 1,
+    "summary": {
+      "summary": "办理宽带服务常见问题汇总，涉及合同条款、费用结构、设备租赁及账户管理等核心疑问。",
+      "keywords": [
+        "宽带",
+        "合同",
+        "费用",
+        "路由器",
+        "账户管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "城市生活"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.378,
+      "metrics": {
+        "input_chars": 282.0,
+        "input_lines": 16.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.142,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.9
+      }
+    }
   }
 }

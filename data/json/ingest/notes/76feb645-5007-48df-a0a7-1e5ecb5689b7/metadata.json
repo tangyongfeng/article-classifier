@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "12476236-ef1b-4ab6-a88c-a2f634ed85e3",
+      "note_id": "76feb645-5007-48df-a0a7-1e5ecb5689b7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "修改MySQL数据库目录配置的步骤，包括停库、修改配置文件、移动数据目录、设置权限及启动服务。",
+        "keywords": [
+          "mysql",
+          "目录",
+          "配置",
+          "数据库",
+          "修改"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "数据库",
+          "配置"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:48:29.094613Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.319
+    }
+  ],
   "journal": {
     "id": "b397cd44-f6a4-4f0d-b922-0b2ef178ba48",
     "note_id": "76feb645-5007-48df-a0a7-1e5ecb5689b7",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:48:29.094463Z",
+    "latency_seconds": 65.19741066696588,
+    "attempts": 1,
+    "summary": {
+      "summary": "修改MySQL数据库目录配置的步骤，包括停库、修改配置文件、移动数据目录、设置权限及启动服务。",
+      "keywords": [
+        "mysql",
+        "目录",
+        "配置",
+        "数据库",
+        "修改"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "数据库",
+        "配置"
+      ]
+    },
+    "quality": {
+      "score": 0.319,
+      "metrics": {
+        "input_chars": 326.0,
+        "input_lines": 15.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.144,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 19.6
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cfc7ad68-f65e-4535-ae2c-c4e2ebf5e838",
+      "note_id": "6ee018ea-0423-4a4d-a04b-b9da477b6b76",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "MySQL配置文件默认路径将从/var/db/mysql/my.cnf迁移到/usr/local/etc/mysql/my.cnf，需在/etc/rc.conf",
+        "keywords": [
+          "MySQL",
+          "配置文件",
+          "路径变更",
+          "系统设置",
+          "/etc/rc.conf"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:00:29.311628Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.286
+    }
+  ],
   "journal": {
     "id": "7b5048d6-bcb9-4ef3-832f-6e6b22258d29",
     "note_id": "6ee018ea-0423-4a4d-a04b-b9da477b6b76",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:00:29.311442Z",
+    "latency_seconds": 18.979786750045605,
+    "attempts": 1,
+    "summary": {
+      "summary": "MySQL配置文件默认路径将从/var/db/mysql/my.cnf迁移到/usr/local/etc/mysql/my.cnf，需在/etc/rc.conf",
+      "keywords": [
+        "MySQL",
+        "配置文件",
+        "路径变更",
+        "系统设置",
+        "/etc/rc.conf"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.286,
+      "metrics": {
+        "input_chars": 403.0,
+        "input_lines": 10.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.199,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 4.0,
+        "estimated_read_seconds": 24.2
+      }
+    }
   }
 }

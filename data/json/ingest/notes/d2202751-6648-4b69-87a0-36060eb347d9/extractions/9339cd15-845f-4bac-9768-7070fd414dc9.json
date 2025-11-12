@@ -1,0 +1,27 @@
+{
+  "id": "9339cd15-845f-4bac-9768-7070fd414dc9",
+  "note_id": "d2202751-6648-4b69-87a0-36060eb347d9",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "讨论年轻人教育问题，作者主张年轻人有权自主生活，应理解其世界，指出老年人并非更智慧，强调代际平等。",
+    "keywords": [
+      "年轻人",
+      "教育",
+      "社会",
+      "观点",
+      "理解"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:36:23.821505Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.089
+}

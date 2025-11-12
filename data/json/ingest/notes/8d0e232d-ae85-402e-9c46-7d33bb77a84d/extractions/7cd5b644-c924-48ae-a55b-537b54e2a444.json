@@ -1,0 +1,28 @@
+{
+  "id": "7cd5b644-c924-48ae-a55b-537b54e2a444",
+  "note_id": "8d0e232d-ae85-402e-9c46-7d33bb77a84d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "使用SQL语句查询特定日期（20220909）的股票交易数据记录数量。",
+    "keywords": [
+      "SQL",
+      "数据查询",
+      "股票数据",
+      "统计",
+      "日期"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:34:01.226543Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.207
+}

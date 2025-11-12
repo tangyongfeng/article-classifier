@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0d4cc01f-aa1c-4408-add5-d33cd23ef6c5",
+      "note_id": "8c97a824-4030-4c54-ace1-a47247bf4cfe",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "履卦出自《易经》，象征脚踏实地的实践与规则遵守。卦象描述履虎尾而不咥人，寓意行为得体可避凶险，强调礼仪与时机的重要性。",
+        "keywords": [
+          "履卦",
+          "易经",
+          "实践",
+          "规则",
+          "礼仪"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:32:52.406813Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.314
+    }
+  ],
   "journal": {
     "id": "9970aedc-9e49-4b6d-b451-485f910d9f53",
     "note_id": "8c97a824-4030-4c54-ace1-a47247bf4cfe",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:32:52.406647Z",
+    "latency_seconds": 40.029226417071186,
+    "attempts": 2,
+    "summary": {
+      "summary": "履卦出自《易经》，象征脚踏实地的实践与规则遵守。卦象描述履虎尾而不咥人，寓意行为得体可避凶险，强调礼仪与时机的重要性。",
+      "keywords": [
+        "履卦",
+        "易经",
+        "实践",
+        "规则",
+        "礼仪"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.314,
+      "metrics": {
+        "input_chars": 437.0,
+        "input_lines": 32.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.135,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 26.2
+      }
+    }
   }
 }

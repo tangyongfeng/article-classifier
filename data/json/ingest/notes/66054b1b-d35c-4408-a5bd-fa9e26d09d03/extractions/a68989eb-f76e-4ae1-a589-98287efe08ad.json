@@ -1,0 +1,27 @@
+{
+  "id": "a68989eb-f76e-4ae1-a589-98287efe08ad",
+  "note_id": "66054b1b-d35c-4408-a5bd-fa9e26d09d03",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "收集了多则中文笑话，涉及生活趣事、动物拟人化及语言双关等幽默内容。",
+    "keywords": [
+      "笑话",
+      "幽默",
+      "段子",
+      "搞笑",
+      "双关"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:21:14.803409Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.158
+}

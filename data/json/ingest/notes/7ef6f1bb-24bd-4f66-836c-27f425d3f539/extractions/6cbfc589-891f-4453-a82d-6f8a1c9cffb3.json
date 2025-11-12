@@ -1,0 +1,29 @@
+{
+  "id": "6cbfc589-891f-4453-a82d-6f8a1c9cffb3",
+  "note_id": "7ef6f1bb-24bd-4f66-836c-27f425d3f539",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本笔记总结德语常用动词的变位规则，涵盖不同人称和时态，适用于语言学习者掌握动词变化应用。",
+    "keywords": [
+      "德语",
+      "动词变位",
+      "语法",
+      "语言学习",
+      "变位规则"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Verb Conjugation"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:30:56.578604Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.398
+}

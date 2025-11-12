@@ -1,0 +1,27 @@
+{
+  "id": "912a7366-d772-474e-a129-e023a82903b3",
+  "note_id": "46d90c2d-1bb3-4a8b-8872-b731a3e4ae0d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "个人在社交场合进行自我介绍，包含姓名、背景及兴趣等基本信息，用于建立初步社交联系。",
+    "keywords": [
+      "自我介绍",
+      "社交",
+      "个人简介",
+      "初次见面",
+      "社交互动"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:16:56.191591Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.386
+}

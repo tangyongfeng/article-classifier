@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "098a0df3-e9ec-4324-a2ec-e8a0b2d2e978",
+      "note_id": "6341c7c5-671e-4415-8017-f4fde477ca1a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "宜通世纪（300310）作为4G基站建设商，是广东移动合作伙伴，受益于4G网络建设。",
+        "keywords": [
+          "4G",
+          "基站建设",
+          "广东移动",
+          "股票",
+          "公司分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:06:27.544629Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.426
+    }
+  ],
   "journal": {
     "id": "d5cc984c-f6be-436d-9d2a-80222d1e51e6",
     "note_id": "6341c7c5-671e-4415-8017-f4fde477ca1a",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:06:27.544488Z",
+    "latency_seconds": 20.073938542045653,
+    "attempts": 2,
+    "summary": {
+      "summary": "宜通世纪（300310）作为4G基站建设商，是广东移动合作伙伴，受益于4G网络建设。",
+      "keywords": [
+        "4G",
+        "基站建设",
+        "广东移动",
+        "股票",
+        "公司分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.426,
+      "metrics": {
+        "input_chars": 117.0,
+        "input_lines": 6.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.359,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.0
+      }
+    }
   }
 }

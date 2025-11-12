@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "556065aa-a9de-47c9-bae7-0a842182915d",
+      "note_id": "237c6b74-3a9c-4ffb-a696-d52ac5644b79",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本笔记提供了肺血栓塞症、社区获得性肺炎、慢性阻塞性肺疾病、支气管哮喘及糖尿病的临床诊断依据，包括症状、检查标准等详细内容。",
+        "keywords": [
+          "诊断依据",
+          "肺血栓塞症",
+          "社区获得性肺炎",
+          "慢性阻塞性肺疾病",
+          "糖尿病"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": [
+          "医学",
+          "临床诊断"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:41:32.984321Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.388
+    }
+  ],
   "journal": {
     "id": "b81f289d-4dd9-4ead-a74b-791e62cc444b",
     "note_id": "237c6b74-3a9c-4ffb-a696-d52ac5644b79",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:41:32.984097Z",
+    "latency_seconds": 71.4893574169837,
+    "attempts": 1,
+    "summary": {
+      "summary": "本笔记提供了肺血栓塞症、社区获得性肺炎、慢性阻塞性肺疾病、支气管哮喘及糖尿病的临床诊断依据，包括症状、检查标准等详细内容。",
+      "keywords": [
+        "诊断依据",
+        "肺血栓塞症",
+        "社区获得性肺炎",
+        "慢性阻塞性肺疾病",
+        "糖尿病"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": [
+        "医学",
+        "临床诊断"
+      ]
+    },
+    "quality": {
+      "score": 0.388,
+      "metrics": {
+        "input_chars": 1464.0,
+        "input_lines": 48.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.042,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 87.8
+      }
+    }
   }
 }

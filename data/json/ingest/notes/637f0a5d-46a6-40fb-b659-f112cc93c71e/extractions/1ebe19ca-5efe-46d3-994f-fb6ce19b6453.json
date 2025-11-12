@@ -1,0 +1,30 @@
+{
+  "id": "1ebe19ca-5efe-46d3-994f-fb6ce19b6453",
+  "note_id": "637f0a5d-46a6-40fb-b659-f112cc93c71e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Lily, a kind-hearted girl with a special gift, talks to animals. She helps a los",
+    "keywords": [
+      "Lily",
+      "animals",
+      "friendship",
+      "picnic",
+      "kindness"
+    ],
+    "action_items": [
+      "n",
+      "o",
+      "n",
+      "e"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:09:45.613631Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.362
+}

@@ -1,0 +1,27 @@
+{
+  "id": "0054063a-142c-49e6-8231-4930a84e6342",
+  "note_id": "1f2048d7-fc4c-4413-98fc-8f10692b5143",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记标题包含编号及人名，内容简略，归类于个人发展类别。",
+    "keywords": [
+      "张鹏",
+      "编号",
+      "个人发展",
+      "档案",
+      "资料"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:14:17.743788Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.238
+}

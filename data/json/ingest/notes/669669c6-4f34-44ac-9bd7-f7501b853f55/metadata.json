@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a8d2943b-8ef7-47c6-b20e-884889d3e7a3",
+      "note_id": "669669c6-4f34-44ac-9bd7-f7501b853f55",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国北莱茵-威斯特法伦州Neuss市的街道地址，邮编41462。",
+        "keywords": [
+          "地址",
+          "德国",
+          "Neuss",
+          "街道",
+          "邮编"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:23:49.929723Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.222
+    }
+  ],
   "journal": {
     "id": "d2eb977d-461c-4caa-b990-21f2df965156",
     "note_id": "669669c6-4f34-44ac-9bd7-f7501b853f55",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:23:49.929560Z",
+    "latency_seconds": 27.739939209073782,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国北莱茵-威斯特法伦州Neuss市的街道地址，邮编41462。",
+      "keywords": [
+        "地址",
+        "德国",
+        "Neuss",
+        "街道",
+        "邮编"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.222,
+      "metrics": {
+        "input_chars": 168.0,
+        "input_lines": 8.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.19,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.1
+      }
+    }
   }
 }

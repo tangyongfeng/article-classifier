@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b7b72808-6121-4793-89dc-b07b56ee03e6",
+      "note_id": "8ce39263-ca27-467c-8b14-9f32336e257a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记描述了二十一点扑克游戏的前端API接口，包含登录、游戏开始、要牌、双倍等操作的请求路径及响应示例。",
+        "keywords": [
+          "API",
+          "Blackjack",
+          "接口",
+          "游戏",
+          "响应"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "API"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:33:17.184769Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.336
+    }
+  ],
   "journal": {
     "id": "16ba3287-e7a4-4664-9bc9-c5018b76a51b",
     "note_id": "8ce39263-ca27-467c-8b14-9f32336e257a",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:33:17.184642Z",
+    "latency_seconds": 24.773812707979232,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记描述了二十一点扑克游戏的前端API接口，包含登录、游戏开始、要牌、双倍等操作的请求路径及响应示例。",
+      "keywords": [
+        "API",
+        "Blackjack",
+        "接口",
+        "游戏",
+        "响应"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "API"
+      ]
+    },
+    "quality": {
+      "score": 0.336,
+      "metrics": {
+        "input_chars": 886.0,
+        "input_lines": 22.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.059,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 53.2
+      }
+    }
   }
 }

@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e87be243-eb53-44e6-b4a2-20260e3030ae",
+      "note_id": "1351873c-5e1d-4fd6-86f1-4f142432aea4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "工标网用户登录功能说明，包括登录、注册、密码找回及安全提示，确保用户安全访问标准信息平台服务。",
+        "keywords": [
+          "用户登录",
+          "注册",
+          "密码",
+          "工标网",
+          "信息安全"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:15:05.425194Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.412
+    }
+  ],
   "journal": {
     "id": "b73d89fc-7b13-45ad-b7b0-4dd3a1d37c5b",
     "note_id": "1351873c-5e1d-4fd6-86f1-4f142432aea4",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:15:05.425034Z",
+    "latency_seconds": 26.53555666701868,
+    "attempts": 1,
+    "summary": {
+      "summary": "工标网用户登录功能说明，包括登录、注册、密码找回及安全提示，确保用户安全访问标准信息平台服务。",
+      "keywords": [
+        "用户登录",
+        "注册",
+        "密码",
+        "工标网",
+        "信息安全"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.412,
+      "metrics": {
+        "input_chars": 525.0,
+        "input_lines": 39.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.09,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 31.5
+      }
+    }
   }
 }

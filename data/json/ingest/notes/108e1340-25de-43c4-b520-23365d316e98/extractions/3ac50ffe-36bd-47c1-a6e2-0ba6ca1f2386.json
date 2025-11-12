@@ -1,0 +1,28 @@
+{
+  "id": "3ac50ffe-36bd-47c1-a6e2-0ba6ca1f2386",
+  "note_id": "108e1340-25de-43c4-b520-23365d316e98",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本阶段服务端工作涵盖医疗系统核心功能，包括挂号查询、用户管理、会话管理、医嘱及病案处理等服务接口。",
+    "keywords": [
+      "服务端",
+      "医疗系统",
+      "接口",
+      "医嘱",
+      "病案"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:09:21.330237Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.366
+}

@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8bbeaee3-0a1c-4da8-afb7-f9533f2f3b51",
+      "note_id": "1afa1b2b-4213-4635-97ec-7235b7557cf1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Bootstrap学习笔记涵盖前端框架基础知识，包括HTML文档结构、移动设备优先设计、响应式容器、网格系统、响应式图像处理及折叠组件的使用方法。",
+        "keywords": [
+          "Bootstrap",
+          "响应式设计",
+          "容器",
+          "网格系统",
+          "折叠"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:00:10.748454Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.323
+    }
+  ],
   "journal": {
     "id": "69826fd5-604d-4e25-8cc7-9fe7ed61bde3",
     "note_id": "1afa1b2b-4213-4635-97ec-7235b7557cf1",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:00:10.748232Z",
+    "latency_seconds": 58.88363737508189,
+    "attempts": 1,
+    "summary": {
+      "summary": "Bootstrap学习笔记涵盖前端框架基础知识，包括HTML文档结构、移动设备优先设计、响应式容器、网格系统、响应式图像处理及折叠组件的使用方法。",
+      "keywords": [
+        "Bootstrap",
+        "响应式设计",
+        "容器",
+        "网格系统",
+        "折叠"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.323,
+      "metrics": {
+        "input_chars": 2221.0,
+        "input_lines": 122.0,
+        "summary_chars": 73.0,
+        "summary_coverage_ratio": 0.033,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 133.3
+      }
+    }
   }
 }

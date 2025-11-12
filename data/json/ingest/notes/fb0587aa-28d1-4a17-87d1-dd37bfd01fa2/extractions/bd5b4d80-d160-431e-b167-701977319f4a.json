@@ -1,0 +1,31 @@
+{
+  "id": "bd5b4d80-d160-431e-b167-701977319f4a",
+  "note_id": "fb0587aa-28d1-4a17-87d1-dd37bfd01fa2",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "描述药品数据结构，涵盖药品分类、公司信息、药品详情、药物相互作用及价格等数据表。",
+    "keywords": [
+      "药品",
+      "数据结构",
+      "分类",
+      "公司",
+      "相互作用"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": [
+      "医疗健康",
+      "药品",
+      "数据结构"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T11:00:13.774978Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.373
+}

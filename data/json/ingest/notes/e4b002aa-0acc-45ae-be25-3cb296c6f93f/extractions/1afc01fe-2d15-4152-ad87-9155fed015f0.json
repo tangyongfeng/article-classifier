@@ -1,0 +1,27 @@
+{
+  "id": "1afc01fe-2d15-4152-ad87-9155fed015f0",
+  "note_id": "e4b002aa-0acc-45ae-be25-3cb296c6f93f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "恒卦出自《易经》，阐释恒心与持守德行的哲学，爻辞分析不同情境的吉凶，如'恒其德，贞，妇人吉，夫子凶'，强调持久坚持的智慧。",
+    "keywords": [
+      "恒卦",
+      "易经",
+      "恒心",
+      "德行",
+      "爻辞"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:15:31.016835Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.323
+}

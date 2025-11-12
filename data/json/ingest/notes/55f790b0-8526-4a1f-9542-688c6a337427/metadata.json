@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d4ce6dec-ea51-4192-b711-f9453fb5d577",
+      "note_id": "55f790b0-8526-4a1f-9542-688c6a337427",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语B1水平超市实习申请信，询问工作时间、职责及薪资，属于德语语言学习中的实用写作练习",
+        "keywords": [
+          "德语实习",
+          "超市申请",
+          "B1水平",
+          "写作练习",
+          "申请信"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:02:01.963070Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.107
+    }
+  ],
   "journal": {
     "id": "f3069873-d8b8-4e35-8124-2144b5f41c55",
     "note_id": "55f790b0-8526-4a1f-9542-688c6a337427",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:02:01.962912Z",
+    "latency_seconds": 20.239017667016014,
+    "attempts": 2,
+    "summary": {
+      "summary": "德语B1水平超市实习申请信，询问工作时间、职责及薪资，属于德语语言学习中的实用写作练习",
+      "keywords": [
+        "德语实习",
+        "超市申请",
+        "B1水平",
+        "写作练习",
+        "申请信"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.107,
+      "metrics": {
+        "input_chars": 532.0,
+        "input_lines": 15.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.081,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 31.9
+      }
+    }
   }
 }

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "86f03415-97e7-4d60-b8f3-672bcf35b05a",
+      "note_id": "b96443e0-9d95-4bbb-a6c8-5fb0bc42ce89",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: Windows 下只列出文件名 updated: 2022-09-01 10:09:20Z created: 2022-08-16 11:",
+        "keywords": [
+          "---",
+          "title: Windows 下只列出文件名",
+          "updated: 2022-09-01 10:09:20Z",
+          "created: 2022-08-16 11:28:36Z",
+          "author: tangyongfeng"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:04:01.113287Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.235
+    }
+  ],
   "journal": {
     "id": "3235eb49-a540-489b-8f0f-b666e867cc61",
     "note_id": "b96443e0-9d95-4bbb-a6c8-5fb0bc42ce89",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T05:04:01.113084Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: Windows 下只列出文件名 updated: 2022-09-01 10:09:20Z created: 2022-08-16 11:",
+      "keywords": [
+        "---",
+        "title: Windows 下只列出文件名",
+        "updated: 2022-09-01 10:09:20Z",
+        "created: 2022-08-16 11:28:36Z",
+        "author: tangyongfeng"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.235,
+      "metrics": {
+        "input_chars": 180.0,
+        "input_lines": 11.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.444,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.8
+      }
+    }
   }
 }

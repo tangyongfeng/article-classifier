@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "dae23416-7466-44b8-9d93-1a58d626e2ec",
+      "note_id": "32895730-2e26-42e4-9a4d-9b5ceeb0efba",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "明夷卦为《周易》六十四卦之一，卦象地火明夷，卦辞'利艰贞'，爻辞阐释困境中坚守正道之理。黄宗羲《明夷待访录》以此命名，探讨治国思想。",
+        "keywords": [
+          "明夷卦",
+          "周易",
+          "卦辞",
+          "爻辞",
+          "中国历史"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:44:57.338724Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.199
+    }
+  ],
   "journal": {
     "id": "57d218cf-6312-4980-9315-308df1035fa5",
     "note_id": "32895730-2e26-42e4-9a4d-9b5ceeb0efba",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:44:57.338568Z",
+    "latency_seconds": 35.419119708938524,
+    "attempts": 1,
+    "summary": {
+      "summary": "明夷卦为《周易》六十四卦之一，卦象地火明夷，卦辞'利艰贞'，爻辞阐释困境中坚守正道之理。黄宗羲《明夷待访录》以此命名，探讨治国思想。",
+      "keywords": [
+        "明夷卦",
+        "周易",
+        "卦辞",
+        "爻辞",
+        "中国历史"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.199,
+      "metrics": {
+        "input_chars": 458.0,
+        "input_lines": 31.0,
+        "summary_chars": 66.0,
+        "summary_coverage_ratio": 0.144,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 27.5
+      }
+    }
   }
 }

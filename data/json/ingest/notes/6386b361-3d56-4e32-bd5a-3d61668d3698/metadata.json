@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1bbe18ed-1fca-4fc9-898c-562a7de218b9",
+      "note_id": "6386b361-3d56-4e32-bd5a-3d61668d3698",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记包含多个人名及对应身份证号码的列表，用于个人信息记录与管理。",
+        "keywords": [
+          "姓名",
+          "身份证号",
+          "个人信息",
+          "数据列表",
+          "记录"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展"
+        ],
+        "new_category_suggestion": [
+          "个人发展",
+          "个人信息"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:10:32.942559Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.116
+    }
+  ],
   "journal": {
     "id": "324f8760-75ee-4a55-9d28-37a3be8dadda",
     "note_id": "6386b361-3d56-4e32-bd5a-3d61668d3698",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:10:32.942401Z",
+    "latency_seconds": 47.325741291977465,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记包含多个人名及对应身份证号码的列表，用于个人信息记录与管理。",
+      "keywords": [
+        "姓名",
+        "身份证号",
+        "个人信息",
+        "数据列表",
+        "记录"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展"
+      ],
+      "new_category_suggestion": [
+        "个人发展",
+        "个人信息"
+      ]
+    },
+    "quality": {
+      "score": 0.116,
+      "metrics": {
+        "input_chars": 337.0,
+        "input_lines": 22.0,
+        "summary_chars": 33.0,
+        "summary_coverage_ratio": 0.098,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 20.2
+      }
+    }
   }
 }

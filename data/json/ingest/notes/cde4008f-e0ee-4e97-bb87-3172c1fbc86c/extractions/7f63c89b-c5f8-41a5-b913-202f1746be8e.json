@@ -1,0 +1,27 @@
+{
+  "id": "7f63c89b-c5f8-41a5-b913-202f1746be8e",
+  "note_id": "cde4008f-e0ee-4e97-bb87-3172c1fbc86c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "机器学习分类方法及监督学习原理说明，涵盖监督学习定义、分类器类型及K-means算法实现。",
+    "keywords": [
+      "机器学习",
+      "监督学习",
+      "K-means",
+      "分类算法",
+      "技术创新"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:16:07.752073Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.261
+}

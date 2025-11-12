@@ -77,7 +77,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "738aaa91-aff3-4736-a869-ff0a610a5406",
+      "note_id": "5e1016a0-02f8-4db4-b1f7-aa3fd1328a8b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "（空摘要）",
+        "keywords": [
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:36:17.717996Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.067
+    }
+  ],
   "journal": {
     "id": "7aceb899-8da6-4c39-966a-13114ca86319",
     "note_id": "5e1016a0-02f8-4db4-b1f7-aa3fd1328a8b",
@@ -100,5 +129,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:36:17.717603Z",
+    "latency_seconds": 32.30781174998265,
+    "attempts": 1,
+    "summary": {
+      "summary": "（空摘要）",
+      "keywords": [
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.067,
+      "metrics": {
+        "input_chars": 10768.0,
+        "input_lines": 139.0,
+        "summary_chars": 5.0,
+        "summary_coverage_ratio": 0.0,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 646.1
+      }
+    }
   }
 }

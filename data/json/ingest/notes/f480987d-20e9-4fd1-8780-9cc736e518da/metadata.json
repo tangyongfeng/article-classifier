@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e679b37b-4547-4a7c-9e89-50f8ad37b1f3",
+      "note_id": "f480987d-20e9-4fd1-8780-9cc736e518da",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "社保网上登录信息，含网址、密码及社保登记证号，涉及社保业务办理。",
+        "keywords": [
+          "社保",
+          "网上登录",
+          "密码",
+          "登记证号",
+          "政府服务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:29:55.382008Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.353
+    }
+  ],
   "journal": {
     "id": "af7d3df7-87e9-4c88-bd02-4714ed382122",
     "note_id": "f480987d-20e9-4fd1-8780-9cc736e518da",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:29:55.381813Z",
+    "latency_seconds": 17.939312750007957,
+    "attempts": 1,
+    "summary": {
+      "summary": "社保网上登录信息，含网址、密码及社保登记证号，涉及社保业务办理。",
+      "keywords": [
+        "社保",
+        "网上登录",
+        "密码",
+        "登记证号",
+        "政府服务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.353,
+      "metrics": {
+        "input_chars": 346.0,
+        "input_lines": 13.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.092,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 20.8
+      }
+    }
   }
 }

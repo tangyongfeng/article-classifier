@@ -1,0 +1,29 @@
+{
+  "id": "0e46b05b-012f-4ffb-8c47-78959130b8b1",
+  "note_id": "1de554da-9d96-4578-8ba0-4ad70f48ac47",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "2012年12月，从北京飞往西雅图，中转旧金山、东京后返回北京的首次国际旅行行程，含详细航班信息与乘客信息。",
+    "keywords": [
+      "行程",
+      "航班",
+      "国际旅行",
+      "中转",
+      "旅行记录"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:12:42.330033Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.201
+}

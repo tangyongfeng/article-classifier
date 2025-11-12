@@ -1,0 +1,28 @@
+{
+  "id": "98c83bda-fc64-445c-9aee-3cae563dbc0a",
+  "note_id": "6bf82efc-ffb6-42a2-a5ef-7249e228ccb0",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德国填表指南，提供姓名、婚姻状况、职业等字段的德语表达及中文对照，适用于德国行政事务场景。",
+    "keywords": [
+      "德国",
+      "填表",
+      "德语",
+      "中文对照",
+      "行政"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language",
+      "German"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:52:54.955782Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.206
+}

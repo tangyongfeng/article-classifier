@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d4907b7b-1b4d-4c4d-afb3-cc84b242c9f1",
+      "note_id": "ae08f068-952f-482f-90ae-376b9492edf7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "10月24日，孩子们为Marmann女士准备生日盒子，内容填写后带回学校，用于庆祝10月31日60岁生日。",
+        "keywords": [
+          "生日",
+          "60岁",
+          "孩子",
+          "学校",
+          "家庭活动"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Events"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:06:22.759819Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.482
+    }
+  ],
   "journal": {
     "id": "130f793a-07ff-403c-951c-fa8cf019a89c",
     "note_id": "ae08f068-952f-482f-90ae-376b9492edf7",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:06:22.759643Z",
+    "latency_seconds": 30.652588041033596,
+    "attempts": 1,
+    "summary": {
+      "summary": "10月24日，孩子们为Marmann女士准备生日盒子，内容填写后带回学校，用于庆祝10月31日60岁生日。",
+      "keywords": [
+        "生日",
+        "60岁",
+        "孩子",
+        "学校",
+        "家庭活动"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Events"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.482,
+      "metrics": {
+        "input_chars": 151.0,
+        "input_lines": 7.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.351,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.1
+      }
+    }
   }
 }

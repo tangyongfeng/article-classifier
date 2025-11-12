@@ -1,0 +1,29 @@
+{
+  "id": "bd37e312-f249-42b9-88cf-d0ff0dc252e8",
+  "note_id": "a123c666-b039-49e4-befc-97dd490c1fd5",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本笔记系统分析德语特殊疑问词（如wer, was, wo）在句子中的成分，包括主语、宾语、状语等，并通过例句详细说明用法。",
+    "keywords": [
+      "德语",
+      "特殊疑问词",
+      "句子成分",
+      "语法",
+      "例句"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:12:04.644333Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.314
+}

@@ -1,0 +1,27 @@
+{
+  "id": "9a4abe4b-d2b1-44e5-9647-f107e1ecaf7d",
+  "note_id": "d24a58f5-75fd-4ff8-9949-f4380dcf210a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "IP地址反查用于查询域名和归属信息，涉及网络技术操作，通过drill等工具实现。",
+    "keywords": [
+      "IP反查",
+      "域名查询",
+      "网络归属",
+      "DNS",
+      "地址解析"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:38:45.711851Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.197
+}

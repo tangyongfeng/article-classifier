@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a318387f-b11d-4974-a301-a1b9af862e59",
+      "note_id": "c8c64f0a-bd85-4759-b14b-7351f6d3dc78",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容为空，无法进行知识整理与分类。",
+        "keywords": [
+          "无",
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:45:13.887844Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.212
+    }
+  ],
   "journal": {
     "id": "7685d752-8c52-4da4-bba0-732dc3b9eb39",
     "note_id": "c8c64f0a-bd85-4759-b14b-7351f6d3dc78",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:45:13.887682Z",
+    "latency_seconds": 47.01270358299371,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容为空，无法进行知识整理与分类。",
+      "keywords": [
+        "无",
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.212,
+      "metrics": {
+        "input_chars": 111.0,
+        "input_lines": 6.0,
+        "summary_chars": 19.0,
+        "summary_coverage_ratio": 0.171,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.7
+      }
+    }
   }
 }

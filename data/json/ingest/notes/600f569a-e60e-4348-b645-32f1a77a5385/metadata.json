@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "070ef13a-13f0-4579-9d3b-2a1e1cf84932",
+      "note_id": "600f569a-e60e-4348-b645-32f1a77a5385",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "用户咨询德语考试'Leben in Deutschland'的报名时间，提到已通过B1水平，需确认当前考试安排。",
+        "keywords": [
+          "德语考试",
+          "报名",
+          "B1",
+          "Leben in Deutschland",
+          "语言测试"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:48:07.822816Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.231
+    }
+  ],
   "journal": {
     "id": "995d0edb-5bee-414f-9e89-d0e6aaf0c88c",
     "note_id": "600f569a-e60e-4348-b645-32f1a77a5385",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:48:07.822674Z",
+    "latency_seconds": 9.420038583921269,
+    "attempts": 1,
+    "summary": {
+      "summary": "用户咨询德语考试'Leben in Deutschland'的报名时间，提到已通过B1水平，需确认当前考试安排。",
+      "keywords": [
+        "德语考试",
+        "报名",
+        "B1",
+        "Leben in Deutschland",
+        "语言测试"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.231,
+      "metrics": {
+        "input_chars": 636.0,
+        "input_lines": 16.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.088,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 38.2
+      }
+    }
   }
 }

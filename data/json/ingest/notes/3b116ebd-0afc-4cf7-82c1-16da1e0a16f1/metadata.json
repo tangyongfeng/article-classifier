@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2a3d479e-6e1c-452c-9690-847d0983bba2",
+      "note_id": "3b116ebd-0afc-4cf7-82c1-16da1e0a16f1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "中国药品监督管理局官方查询系统的网址链接，用于药品监管信息查询。",
+        "keywords": [
+          "药监局",
+          "药品监管",
+          "官方网址",
+          "查询系统",
+          "政府机构"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:09:50.882560Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.185
+    }
+  ],
   "journal": {
     "id": "ec620728-1c30-4c63-9ba2-57ab7a9164e9",
     "note_id": "3b116ebd-0afc-4cf7-82c1-16da1e0a16f1",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:09:50.882398Z",
+    "latency_seconds": 25.991837125038728,
+    "attempts": 1,
+    "summary": {
+      "summary": "中国药品监督管理局官方查询系统的网址链接，用于药品监管信息查询。",
+      "keywords": [
+        "药监局",
+        "药品监管",
+        "官方网址",
+        "查询系统",
+        "政府机构"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.185,
+      "metrics": {
+        "input_chars": 275.0,
+        "input_lines": 7.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.116,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.5
+      }
+    }
   }
 }

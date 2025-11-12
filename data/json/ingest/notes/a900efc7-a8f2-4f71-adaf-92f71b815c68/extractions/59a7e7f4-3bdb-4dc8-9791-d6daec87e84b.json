@@ -1,0 +1,28 @@
+{
+  "id": "59a7e7f4-3bdb-4dc8-9791-d6daec87e84b",
+  "note_id": "a900efc7-a8f2-4f71-adaf-92f71b815c68",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "六十四卦是《易经》的核心卦象系统，由八卦重叠组合而成，每个卦象征自然现象和哲学概念。笔记详列卦象符号、名称、阴阳属性及对应元素。",
+    "keywords": [
+      "易经",
+      "六十四卦",
+      "八卦",
+      "阴阳",
+      "卦象"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:45:48.260411Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.262
+}

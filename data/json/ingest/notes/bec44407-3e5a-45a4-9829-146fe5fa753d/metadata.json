@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "af75e99a-87f8-4d13-9b29-7d3062c13f0b",
+      "note_id": "bec44407-3e5a-45a4-9829-146fe5fa753d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "开乐彩彩票销售总额分配比例：奖金49%、调节基金1%、中彩中心发行经费2.5%、省级以下发行经费12.5%、公益金35%。",
+        "keywords": [
+          "开乐彩",
+          "发行比例",
+          "奖金",
+          "公益金",
+          "销售总额"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:36:57.797271Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.442
+    }
+  ],
   "journal": {
     "id": "b805d24c-ebc0-4e55-bde2-a69bdba42c5c",
     "note_id": "bec44407-3e5a-45a4-9829-146fe5fa753d",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:36:57.797103Z",
+    "latency_seconds": 70.45497016701847,
+    "attempts": 2,
+    "summary": {
+      "summary": "开乐彩彩票销售总额分配比例：奖金49%、调节基金1%、中彩中心发行经费2.5%、省级以下发行经费12.5%、公益金35%。",
+      "keywords": [
+        "开乐彩",
+        "发行比例",
+        "奖金",
+        "公益金",
+        "销售总额"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.442,
+      "metrics": {
+        "input_chars": 403.0,
+        "input_lines": 13.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.151,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 3.0,
+        "estimated_read_seconds": 24.2
+      }
+    }
   }
 }

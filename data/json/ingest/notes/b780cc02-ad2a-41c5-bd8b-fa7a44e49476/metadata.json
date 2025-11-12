@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b3320528-0441-4053-af0a-91cf18db51d1",
+      "note_id": "b780cc02-ad2a-41c5-bd8b-fa7a44e49476",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "普通读者可通过知名出版社（如商务、三联、上海译文）判断译本质量，哲学社科选商务等，外国文学选上海译文、译林。",
+        "keywords": [
+          "出版社",
+          "译本质量",
+          "选择标准",
+          "人文社科",
+          "外国文学"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:47:59.246170Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.387
+    }
+  ],
   "journal": {
     "id": "3fb59bee-5fc2-4b9f-a261-a35411fe08b5",
     "note_id": "b780cc02-ad2a-41c5-bd8b-fa7a44e49476",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:47:59.246025Z",
+    "latency_seconds": 43.78233187494334,
+    "attempts": 1,
+    "summary": {
+      "summary": "普通读者可通过知名出版社（如商务、三联、上海译文）判断译本质量，哲学社科选商务等，外国文学选上海译文、译林。",
+      "keywords": [
+        "出版社",
+        "译本质量",
+        "选择标准",
+        "人文社科",
+        "外国文学"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.387,
+      "metrics": {
+        "input_chars": 192.0,
+        "input_lines": 6.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.281,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.5
+      }
+    }
   }
 }

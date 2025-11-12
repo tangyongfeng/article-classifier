@@ -1,0 +1,32 @@
+{
+  "id": "04a82ba7-0654-4b50-8820-e3be6367e264",
+  "note_id": "978e8535-c473-47fb-9fc4-4035d27c416e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该笔记包含北京市海淀区阜成路67号银都大厦9层的详细地址及联系人孙峥的电话号码信息。",
+    "keywords": [
+      "地址",
+      "电话",
+      "北京",
+      "海淀区",
+      "联系人"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "城市生活",
+      "交通"
+    ],
+    "new_category_suggestion": [
+      "城市生活",
+      "交通",
+      "地址"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:23:01.067335Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.33
+}

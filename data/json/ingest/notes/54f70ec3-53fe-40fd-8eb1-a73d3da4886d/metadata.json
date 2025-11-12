@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0692e272-281a-4988-b026-214256514642",
+      "note_id": "54f70ec3-53fe-40fd-8eb1-a73d3da4886d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记详细阐述了制定个人交易框架的步骤，涵盖时间框架确定、趋势指标选择、风险控制、入场离场策略及规则遵循。",
+        "keywords": [
+          "交易框架",
+          "时间框架",
+          "趋势指标",
+          "风险控制",
+          "入场离场"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:57:33.221149Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.278
+    }
+  ],
   "journal": {
     "id": "193a4967-df9e-428e-9f12-492a4c04d4f1",
     "note_id": "54f70ec3-53fe-40fd-8eb1-a73d3da4886d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:57:33.220971Z",
+    "latency_seconds": 21.292752125067636,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记详细阐述了制定个人交易框架的步骤，涵盖时间框架确定、趋势指标选择、风险控制、入场离场策略及规则遵循。",
+      "keywords": [
+        "交易框架",
+        "时间框架",
+        "趋势指标",
+        "风险控制",
+        "入场离场"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.278,
+      "metrics": {
+        "input_chars": 285.0,
+        "input_lines": 19.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.182,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.1
+      }
+    }
   }
 }

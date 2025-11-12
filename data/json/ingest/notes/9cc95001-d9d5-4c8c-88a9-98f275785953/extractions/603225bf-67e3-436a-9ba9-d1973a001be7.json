@@ -1,0 +1,27 @@
+{
+  "id": "603225bf-67e3-436a-9ba9-d1973a001be7",
+  "note_id": "9cc95001-d9d5-4c8c-88a9-98f275785953",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Open edX环境配置信息，包含教师端、学生端、控制台及资源库的访问链接和账号登录详情，用于在线教育平台管理。",
+    "keywords": [
+      "Open edX",
+      "教育平台",
+      "在线学习",
+      "环境设置",
+      "登录信息"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:50:23.294175Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.185
+}

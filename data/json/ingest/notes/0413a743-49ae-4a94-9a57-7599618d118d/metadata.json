@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ac80e8a8-99c0-45ca-a08d-972c6026102f",
+      "note_id": "0413a743-49ae-4a94-9a57-7599618d118d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Python中，可作用于for循环的对象为可迭代对象(Iterable)，如list、str；可被next()调用的对象为迭代器(Iterator)，如生成器。",
+        "keywords": [
+          "for循环",
+          "可迭代对象",
+          "迭代器",
+          "Iterable",
+          "Iterator"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:50:42.315861Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.342
+    }
+  ],
   "journal": {
     "id": "53e2779d-635a-4bce-86e5-da76530036e4",
     "note_id": "0413a743-49ae-4a94-9a57-7599618d118d",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:50:42.315681Z",
+    "latency_seconds": 25.808069625054486,
+    "attempts": 1,
+    "summary": {
+      "summary": "Python中，可作用于for循环的对象为可迭代对象(Iterable)，如list、str；可被next()调用的对象为迭代器(Iterator)，如生成器。",
+      "keywords": [
+        "for循环",
+        "可迭代对象",
+        "迭代器",
+        "Iterable",
+        "Iterator"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.342,
+      "metrics": {
+        "input_chars": 1124.0,
+        "input_lines": 133.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.071,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 67.4
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ab008da5-386a-4114-b46e-c7c16860f45e",
+      "note_id": "58d6e4b6-bfed-4f42-b748-3ddc3e1c534b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "介绍英国移民使用预付费手机卡（Pay as you go）的便利性，无需个人信息，可自由充值，适合初到英国人士。",
+        "keywords": [
+          "手机卡",
+          "英国",
+          "预付费",
+          "SIM卡",
+          "移民"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:18:27.140450Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.355
+    }
+  ],
   "journal": {
     "id": "38fa038f-ecf5-43a1-b309-896706fd73bd",
     "note_id": "58d6e4b6-bfed-4f42-b748-3ddc3e1c534b",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:18:27.140243Z",
+    "latency_seconds": 24.1230860829819,
+    "attempts": 2,
+    "summary": {
+      "summary": "介绍英国移民使用预付费手机卡（Pay as you go）的便利性，无需个人信息，可自由充值，适合初到英国人士。",
+      "keywords": [
+        "手机卡",
+        "英国",
+        "预付费",
+        "SIM卡",
+        "移民"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.355,
+      "metrics": {
+        "input_chars": 581.0,
+        "input_lines": 12.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.096,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 34.9
+      }
+    }
   }
 }

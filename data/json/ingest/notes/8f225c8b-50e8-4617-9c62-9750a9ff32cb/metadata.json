@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "33ad4b3b-fd5a-4932-83c2-712d4e28d584",
+      "note_id": "8f225c8b-50e8-4617-9c62-9750a9ff32cb",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记将医院信息分为医疗、费用、物资、管理四大主题，按来源和内容细分，用于医院内部运营与决策分析。",
+        "keywords": [
+          "医疗信息",
+          "费用信息",
+          "物资信息",
+          "管理信息",
+          "医院"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:49:35.901789Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.388
+    }
+  ],
   "journal": {
     "id": "363441bd-6915-49da-a125-fdf31803e9c1",
     "note_id": "8f225c8b-50e8-4617-9c62-9750a9ff32cb",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:49:35.901600Z",
+    "latency_seconds": 36.14711125008762,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记将医院信息分为医疗、费用、物资、管理四大主题，按来源和内容细分，用于医院内部运营与决策分析。",
+      "keywords": [
+        "医疗信息",
+        "费用信息",
+        "物资信息",
+        "管理信息",
+        "医院"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.388,
+      "metrics": {
+        "input_chars": 1152.0,
+        "input_lines": 29.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.042,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 69.1
+      }
+    }
   }
 }

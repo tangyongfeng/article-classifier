@@ -1,0 +1,33 @@
+{
+  "id": "73d1624e-5317-414d-a0c3-e6754c9507ed",
+  "note_id": "1ff2df0d-9d00-4342-8f62-26978cfcba36",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "解析德国艺术留学申请流程，重点讲解团审与个审区别、审核部面试要求及备考策略。",
+    "keywords": [
+      "德国艺术留学",
+      "团审",
+      "个审",
+      "审核部",
+      "艺术专业"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education",
+      "Language Learning",
+      "German Language Exams"
+    ],
+    "new_category_suggestion": [
+      "Education",
+      "Art Education",
+      "Germany"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:23:09.792902Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.322
+}

@@ -1,0 +1,28 @@
+{
+  "id": "c3a0e95c-3be7-4d06-b963-dc17318f9feb",
+  "note_id": "224a82e2-e67f-487d-9e73-9089f6bba1f0",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记探讨英语语法逻辑，分析句子主干（主语、谓语、宾语）、主系表结构及并列关系，强调逻辑在语法中的应用。",
+    "keywords": [
+      "逻辑",
+      "英语",
+      "语法",
+      "主系表",
+      "并列"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language",
+      "语法"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:30:59.254701Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.357
+}

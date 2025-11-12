@@ -1,0 +1,28 @@
+{
+  "id": "276e47c2-472a-4681-a792-6d1d4d01457f",
+  "note_id": "3ce6c540-82b4-4160-a584-c46c7f5c4ec7",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Linux系统下使用C语言通过raw socket抓取无线网络数据包，解析IEEE 802.11帧格式获取手机WIFI MAC地址的技术实现。",
+    "keywords": [
+      "Linux",
+      "无线网络",
+      "抓包",
+      "MAC地址",
+      "IEEE 802.11"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:20:41.839452Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.312
+}

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1c91b464-b148-41d5-84bc-d0f05570ebea",
+      "note_id": "d36d8660-d9b0-4828-b84f-a0519f89f764",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "用户分享美国入境被拒经历，因声称停留2个月且有产品销售被质疑非商务目的；咨询2014年奥兰多参展签证成功率及面谈注意事项。",
+        "keywords": [
+          "美国签证",
+          "商务洽谈",
+          "参展邀请",
+          "面谈技巧",
+          "入境被拒"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:51:39.421343Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.222
+    }
+  ],
   "journal": {
     "id": "ad103dc9-cfae-4474-b51f-ac4d92ad37d9",
     "note_id": "d36d8660-d9b0-4828-b84f-a0519f89f764",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:51:39.421119Z",
+    "latency_seconds": 18.906338792061433,
+    "attempts": 1,
+    "summary": {
+      "summary": "用户分享美国入境被拒经历，因声称停留2个月且有产品销售被质疑非商务目的；咨询2014年奥兰多参展签证成功率及面谈注意事项。",
+      "keywords": [
+        "美国签证",
+        "商务洽谈",
+        "参展邀请",
+        "面谈技巧",
+        "入境被拒"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.222,
+      "metrics": {
+        "input_chars": 319.0,
+        "input_lines": 10.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.191,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 19.1
+      }
+    }
   }
 }

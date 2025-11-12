@@ -1,0 +1,27 @@
+{
+  "id": "5b14e4ee-3414-4bdf-ba58-927d5dbc1d7d",
+  "note_id": "06051f56-a879-4290-9c32-7ea7885da75c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该笔记无标题且内容为空，需补充信息后重新分类。",
+    "keywords": [
+      "无标题",
+      "空笔记",
+      "未分类",
+      "待整理",
+      "无内容"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:57:28.830760Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.27
+}

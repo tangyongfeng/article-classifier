@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "882486d8-e35b-4183-8437-aa6c6b26e922",
+      "note_id": "c2c459d4-ac24-4424-acd7-5dfe1f7dd0f9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "广告投放商列表，包含papaya ads（专注东南亚游戏出海广告）和Criteo（国际企业），支持Facebook和Google广告投放服务。",
+        "keywords": [
+          "广告投放商",
+          "东南亚",
+          "游戏出海",
+          "Facebook",
+          "Google"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:58:16.196518Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.554
+    }
+  ],
   "journal": {
     "id": "c22f5d8c-31d6-486b-ab22-1397d0742395",
     "note_id": "c2c459d4-ac24-4424-acd7-5dfe1f7dd0f9",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:58:16.196371Z",
+    "latency_seconds": 20.227214250015095,
+    "attempts": 1,
+    "summary": {
+      "summary": "广告投放商列表，包含papaya ads（专注东南亚游戏出海广告）和Criteo（国际企业），支持Facebook和Google广告投放服务。",
+      "keywords": [
+        "广告投放商",
+        "东南亚",
+        "游戏出海",
+        "Facebook",
+        "Google"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.554,
+      "metrics": {
+        "input_chars": 190.0,
+        "input_lines": 15.0,
+        "summary_chars": 71.0,
+        "summary_coverage_ratio": 0.374,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.4
+      }
+    }
   }
 }

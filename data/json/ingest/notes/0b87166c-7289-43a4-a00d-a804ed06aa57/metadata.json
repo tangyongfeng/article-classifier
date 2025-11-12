@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "69208763-09b3-4123-8b59-94301188169d",
+      "note_id": "0b87166c-7289-43a4-a00d-a804ed06aa57",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讲解Ubersuggest免费SEO工具的关键词挖掘、搜索量分析及竞争对手网站数据查询功能。",
+        "keywords": [
+          "SEO",
+          "关键词工具",
+          "Ubersuggest",
+          "竞争对手分析",
+          "关键词挖掘"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:37:34.897931Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.319
+    }
+  ],
   "journal": {
     "id": "d619b8df-e4c9-4ec7-ab5c-c62b376f4c39",
     "note_id": "0b87166c-7289-43a4-a00d-a804ed06aa57",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:37:34.897744Z",
+    "latency_seconds": 33.862165582948364,
+    "attempts": 1,
+    "summary": {
+      "summary": "讲解Ubersuggest免费SEO工具的关键词挖掘、搜索量分析及竞争对手网站数据查询功能。",
+      "keywords": [
+        "SEO",
+        "关键词工具",
+        "Ubersuggest",
+        "竞争对手分析",
+        "关键词挖掘"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.319,
+      "metrics": {
+        "input_chars": 1929.0,
+        "input_lines": 70.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.024,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 115.7
+      }
+    }
   }
 }

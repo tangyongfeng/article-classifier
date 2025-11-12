@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6464628f-62bb-4d7e-a0e0-fb601a43594f",
+      "note_id": "61badbdf-9aa1-46b2-ae19-9bd35c4d75e1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "介绍FreeBSD系统下使用ports机制安装软件的高效方法，包括ports套件配置、加速下载工具axel的使用及portsnap更新目录树的步骤。",
+        "keywords": [
+          "FreeBSD",
+          "ports",
+          "axel",
+          "portsnap",
+          "软件安装"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:57:34.476100Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.381
+    }
+  ],
   "journal": {
     "id": "c42f8935-25a8-4bb5-b949-9e538f0206dd",
     "note_id": "61badbdf-9aa1-46b2-ae19-9bd35c4d75e1",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:57:34.475878Z",
+    "latency_seconds": 18.747772000031546,
+    "attempts": 1,
+    "summary": {
+      "summary": "介绍FreeBSD系统下使用ports机制安装软件的高效方法，包括ports套件配置、加速下载工具axel的使用及portsnap更新目录树的步骤。",
+      "keywords": [
+        "FreeBSD",
+        "ports",
+        "axel",
+        "portsnap",
+        "软件安装"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.381,
+      "metrics": {
+        "input_chars": 2678.0,
+        "input_lines": 71.0,
+        "summary_chars": 74.0,
+        "summary_coverage_ratio": 0.028,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 160.7
+      }
+    }
   }
 }

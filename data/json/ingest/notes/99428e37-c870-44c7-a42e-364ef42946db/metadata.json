@@ -77,7 +77,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ddea6ddd-8986-40b0-bf9c-45aa19008a15",
+      "note_id": "99428e37-c870-44c7-a42e-364ef42946db",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "LDAP（轻量级目录访问协议）配置技术指南，涉及系统管理、身份验证及目录服务设置，属于商务领域技术创新应用。",
+        "keywords": [
+          "LDAP",
+          "配置",
+          "目录服务",
+          "身份验证",
+          "系统管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:27:53.083025Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.446
+    }
+  ],
   "journal": {
     "id": "7ec89774-20c9-498c-b2cf-e9b9b1096916",
     "note_id": "99428e37-c870-44c7-a42e-364ef42946db",
@@ -100,5 +129,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:27:53.082770Z",
+    "latency_seconds": 24.073911375016905,
+    "attempts": 1,
+    "summary": {
+      "summary": "LDAP（轻量级目录访问协议）配置技术指南，涉及系统管理、身份验证及目录服务设置，属于商务领域技术创新应用。",
+      "keywords": [
+        "LDAP",
+        "配置",
+        "目录服务",
+        "身份验证",
+        "系统管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.446,
+      "metrics": {
+        "input_chars": 104.0,
+        "input_lines": 6.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.519,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.2
+      }
+    }
   }
 }

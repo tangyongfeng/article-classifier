@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "434318ae-646a-40e7-9d1e-78bb187a56a4",
+      "note_id": "634ad374-e1ae-4c90-8cda-bc281b5db975",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "新东方网课提供多语种在线语言培训课程，属于教育类语言学习服务，应归入现有分类体系。",
+        "keywords": [
+          "新东方",
+          "网课",
+          "语言学习",
+          "在线教育",
+          "课程"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education",
+          "Language Learning"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:07:12.123465Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.443
+    }
+  ],
   "journal": {
     "id": "19d20a73-3164-4ada-905c-e094cff1355e",
     "note_id": "634ad374-e1ae-4c90-8cda-bc281b5db975",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:07:12.123302Z",
+    "latency_seconds": 15.165195500012487,
+    "attempts": 1,
+    "summary": {
+      "summary": "新东方网课提供多语种在线语言培训课程，属于教育类语言学习服务，应归入现有分类体系。",
+      "keywords": [
+        "新东方",
+        "网课",
+        "语言学习",
+        "在线教育",
+        "课程"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education",
+        "Language Learning"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.443,
+      "metrics": {
+        "input_chars": 80.0,
+        "input_lines": 5.0,
+        "summary_chars": 41.0,
+        "summary_coverage_ratio": 0.512,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.8
+      }
+    }
   }
 }

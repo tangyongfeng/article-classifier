@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9aea7f2e-f478-4992-a81c-283da05e69f7",
+      "note_id": "e4064645-22a2-4b02-bcda-e865ffa81cfa",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "马自达5汽车常见故障处理：转向机渗油、发动机气门室盖渗油、避震异响、车门异响及空调问题的简单解决方案。",
+        "keywords": [
+          "马自达5",
+          "转向机",
+          "发动机",
+          "避震",
+          "空调"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:13:16.134480Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.482
+    }
+  ],
   "journal": {
     "id": "da12c23c-e486-4fa8-9c31-f2fce6a1a254",
     "note_id": "e4064645-22a2-4b02-bcda-e865ffa81cfa",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:13:16.134312Z",
+    "latency_seconds": 42.304299667011946,
+    "attempts": 1,
+    "summary": {
+      "summary": "马自达5汽车常见故障处理：转向机渗油、发动机气门室盖渗油、避震异响、车门异响及空调问题的简单解决方案。",
+      "keywords": [
+        "马自达5",
+        "转向机",
+        "发动机",
+        "避震",
+        "空调"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.482,
+      "metrics": {
+        "input_chars": 222.0,
+        "input_lines": 8.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.23,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.3
+      }
+    }
   }
 }

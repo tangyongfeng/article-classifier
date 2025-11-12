@@ -1,0 +1,29 @@
+{
+  "id": "3f7036ad-2787-4644-b979-ac579a8a879c",
+  "note_id": "749a9fb4-b9e3-4c3f-8f7c-bb3a885a0237",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "海南航空金鹏会员服务相关电话号码及查询信息，涉及常旅客计划联系方式。",
+    "keywords": [
+      "海航金鹏",
+      "会员号码",
+      "旅行服务",
+      "常旅客计划",
+      "联系方式"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:31:08.988685Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.236
+}

@@ -1,0 +1,29 @@
+{
+  "id": "779d2a4b-4d06-45c1-ac70-4501feb82917",
+  "note_id": "36f8e4c8-10ba-41ee-88ae-31107b452be0",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语形容词词尾变化是德语语法的核心规则，涉及形容词在不同格、数、性下修饰名词时的词尾变化，常见于语法教学与考试。",
+    "keywords": [
+      "德语",
+      "形容词",
+      "词尾变化",
+      "语法",
+      "德语语法"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "形容词词尾"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:57:16.963317Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.528
+}

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "22148f3f-05fb-4c2c-bec0-150d3e9b4ce8",
+      "note_id": "f1124dd6-952c-4e36-883f-c06eb3976160",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "小学二年级语文课本常用词汇列表，用于中文语言学习基础教学。",
+        "keywords": [
+          "二年级",
+          "语文",
+          "词汇表",
+          "中文学习",
+          "语言教育"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education",
+          "Language Learning"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:13:47.459481Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "e1434953-eec4-4614-a8b5-5545e558fbaf",
     "note_id": "f1124dd6-952c-4e36-883f-c06eb3976160",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:13:47.459313Z",
+    "latency_seconds": 24.851953833014704,
+    "attempts": 1,
+    "summary": {
+      "summary": "小学二年级语文课本常用词汇列表，用于中文语言学习基础教学。",
+      "keywords": [
+        "二年级",
+        "语文",
+        "词汇表",
+        "中文学习",
+        "语言教育"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education",
+        "Language Learning"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 669.0,
+        "input_lines": 17.0,
+        "summary_chars": 29.0,
+        "summary_coverage_ratio": 0.043,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 40.1
+      }
+    }
   }
 }

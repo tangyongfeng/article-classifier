@@ -1,0 +1,28 @@
+{
+  "id": "cc7ecf9c-9e2d-4b23-be21-89890ebe3d56",
+  "note_id": "0a67e55c-ec4f-4f11-a8c2-71dfd4316872",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "论坛链接指向广告投放商相关讨论平台，涉及商务广告投放服务。",
+    "keywords": [
+      "广告投放",
+      "商务",
+      "论坛",
+      "网站",
+      "平台"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "广告投放商"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:25:34.860608Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.13
+}

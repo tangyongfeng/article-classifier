@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cebcc0db-13e8-4611-941a-ec62f16addce",
+      "note_id": "b15bdf3c-7be0-4431-aae0-bc4bbdc8a238",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "edX在线教育平台报表所需数据库表，包括课程成绩表（grades_persistentsubsectiongrade）和课程数据表（courseware_stu",
+        "keywords": [
+          "edX",
+          "报表",
+          "数据库表",
+          "课程成绩",
+          "课程数据"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:20:35.281583Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.614
+    }
+  ],
   "journal": {
     "id": "cbd641be-07e2-4b49-bb8b-b6edea4ed62d",
     "note_id": "b15bdf3c-7be0-4431-aae0-bc4bbdc8a238",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:20:35.281432Z",
+    "latency_seconds": 48.83033720799722,
+    "attempts": 1,
+    "summary": {
+      "summary": "edX在线教育平台报表所需数据库表，包括课程成绩表（grades_persistentsubsectiongrade）和课程数据表（courseware_stu",
+      "keywords": [
+        "edX",
+        "报表",
+        "数据库表",
+        "课程成绩",
+        "课程数据"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.614,
+      "metrics": {
+        "input_chars": 162.0,
+        "input_lines": 9.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.494,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.7
+      }
+    }
   }
 }

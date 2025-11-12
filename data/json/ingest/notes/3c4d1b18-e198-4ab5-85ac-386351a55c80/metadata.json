@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ca95effa-bb0b-4584-b2d4-d86c58f535c5",
+      "note_id": "3c4d1b18-e198-4ab5-85ac-386351a55c80",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记列出了德语衣服相关词汇，如毛衣、衬衫、外套、夹克、裙子，用于德语语言学习。",
+        "keywords": [
+          "毛衣",
+          "衬衫",
+          "外套",
+          "夹克",
+          "裙子"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:18:31.989587Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.194
+    }
+  ],
   "journal": {
     "id": "a628e9b5-5216-4b36-b327-a67f78047624",
     "note_id": "3c4d1b18-e198-4ab5-85ac-386351a55c80",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:18:31.989483Z",
+    "latency_seconds": 29.8170759169152,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记列出了德语衣服相关词汇，如毛衣、衬衫、外套、夹克、裙子，用于德语语言学习。",
+      "keywords": [
+        "毛衣",
+        "衬衫",
+        "外套",
+        "夹克",
+        "裙子"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.194,
+      "metrics": {
+        "input_chars": 153.0,
+        "input_lines": 16.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.255,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.2
+      }
+    }
   }
 }

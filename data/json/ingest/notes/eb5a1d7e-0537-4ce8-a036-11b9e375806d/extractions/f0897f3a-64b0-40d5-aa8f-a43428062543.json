@@ -1,0 +1,29 @@
+{
+  "id": "f0897f3a-64b0-40d5-aa8f-a43428062543",
+  "note_id": "eb5a1d7e-0537-4ce8-a036-11b9e375806d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "技术驱动团队在行业迷茫期保持稳定，区块链核心团队无一人离职，体现团队凝聚力与技术前瞻性。",
+    "keywords": [
+      "技术驱动",
+      "区块链",
+      "团队凝聚力",
+      "行业迷茫",
+      "薪资水平"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新",
+      "区块链应用"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:50:52.514988Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.379
+}

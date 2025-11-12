@@ -1,0 +1,30 @@
+{
+  "id": "62f292da-acdc-43d8-9b02-0fc0d4a6d628",
+  "note_id": "282bfd9d-efbd-4551-a6c3-b214478d8da6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "日本移民主要方式包括结婚（6-8个月）、工作（3-5年归化）、投资经营（需500万日元资本金），需满足居住年限、经济能力等条件。",
+    "keywords": [
+      "移民",
+      "日本",
+      "归化",
+      "永住",
+      "签证"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区"
+    ],
+    "new_category_suggestion": [
+      "国家与地区",
+      "日本"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:52:46.028308Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.39
+}

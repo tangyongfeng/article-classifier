@@ -1,0 +1,27 @@
+{
+  "id": "1e1994b2-f9c7-4262-a5ca-6003f8cfb15d",
+  "note_id": "c18f3b29-fdd4-45a7-9a2d-f23514e64b46",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "中天科技（600522）为2002年上市的光纤、海缆及新能源设备制造商，前身为集体企业，主营光纤、锂电池、光伏电池背板等业务。",
+    "keywords": [
+      "中天科技",
+      "光纤",
+      "海缆",
+      "上市公司",
+      "公司业务"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:55:10.867409Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.297
+}

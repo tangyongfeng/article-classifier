@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e05aa7d6-bbe6-4755-8d89-45e5cf5bbf0a",
+      "note_id": "44131787-6089-4ec2-8503-0dc045407795",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "包含12个德语基础句子，描述日常事物如水果、乐器、动物等，用于德语语言学习练习。",
+        "keywords": [
+          "德语",
+          "句子",
+          "语言学习",
+          "基础",
+          "练习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:45:26.337890Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.101
+    }
+  ],
   "journal": {
     "id": "2d33a58a-1820-45a6-84de-08c9a9430ded",
     "note_id": "44131787-6089-4ec2-8503-0dc045407795",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:45:26.337725Z",
+    "latency_seconds": 27.432589625008404,
+    "attempts": 1,
+    "summary": {
+      "summary": "包含12个德语基础句子，描述日常事物如水果、乐器、动物等，用于德语语言学习练习。",
+      "keywords": [
+        "德语",
+        "句子",
+        "语言学习",
+        "基础",
+        "练习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.101,
+      "metrics": {
+        "input_chars": 580.0,
+        "input_lines": 17.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.069,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 34.8
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "2beeb21f-0c81-48c8-a180-ce9968f99a6b",
+  "note_id": "75a2a5d3-43de-432b-a53a-354cd5e43e86",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Python虚拟环境用于创建独立的Python运行环境，解决多项目依赖冲突问题。通过virtualenv工具隔离第三方包，确保项目间互不干扰。",
+    "keywords": [
+      "Python",
+      "虚拟环境",
+      "依赖隔离",
+      "virtualenv",
+      "开发环境"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:39:38.524314Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.266
+}

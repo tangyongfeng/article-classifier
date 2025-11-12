@@ -1,0 +1,28 @@
+{
+  "id": "ed56dde1-0836-4284-9a88-f44bdb33cb53",
+  "note_id": "6f2dc940-7d9c-49c1-8a6b-85f3fbb551d8",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "中彩网2012年日均PV超332万，央视网春晚直播在线用户达1000万以上，带宽150G以上，访问量数据稳定增长。",
+    "keywords": [
+      "访问量",
+      "PV",
+      "IP",
+      "带宽",
+      "视频点播"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:02:16.730359Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.426
+}

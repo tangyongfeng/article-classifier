@@ -1,0 +1,28 @@
+{
+  "id": "b71b50a7-9ad5-4093-b951-161090ffa1c8",
+  "note_id": "2794ee01-9d29-4d98-9043-d16d90d0cf66",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "创建Monday.com项目管理板子的模板链接，包含电话号码和欢迎信息，用于团队协作工具的配置。",
+    "keywords": [
+      "项目管理",
+      "团队协作",
+      "模板",
+      "创建",
+      "Monday.com"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:49:04.487826Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.226
+}

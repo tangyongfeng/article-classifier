@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9c924384-a233-47da-9a8d-942ae8a5bcb2",
+      "note_id": "81aac0fb-0902-4012-9e85-b1e9709b046c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "（空摘要）",
+        "keywords": [
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:46:09.088509Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.067
+    }
+  ],
   "journal": {
     "id": "9e61445e-c6e5-403b-885e-d55021a8f244",
     "note_id": "81aac0fb-0902-4012-9e85-b1e9709b046c",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:46:09.087609Z",
+    "latency_seconds": 37.71013274998404,
+    "attempts": 2,
+    "summary": {
+      "summary": "（空摘要）",
+      "keywords": [
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.067,
+      "metrics": {
+        "input_chars": 26559.0,
+        "input_lines": 183.0,
+        "summary_chars": 5.0,
+        "summary_coverage_ratio": 0.0,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 1593.5
+      }
+    }
   }
 }

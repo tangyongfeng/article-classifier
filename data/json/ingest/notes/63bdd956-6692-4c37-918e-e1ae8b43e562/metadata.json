@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ff3e8024-c0e2-4188-8cb8-83692eec9352",
+      "note_id": "63bdd956-6692-4c37-918e-e1ae8b43e562",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "挪威石油工业历史沿革：1963年立法确立国家权益，1972年成立Statoil，1990年设立政府养老基金，管理油气勘探生产，输出天然气至欧洲。",
+        "keywords": [
+          "挪威",
+          "石油工业",
+          "历史",
+          "政府管理",
+          "养老基金"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:12:30.305312Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.316
+    }
+  ],
   "journal": {
     "id": "9a41bd53-ee8c-4a37-9d51-9ceec5115fc0",
     "note_id": "63bdd956-6692-4c37-918e-e1ae8b43e562",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:12:30.305101Z",
+    "latency_seconds": 40.627396333031356,
+    "attempts": 1,
+    "summary": {
+      "summary": "挪威石油工业历史沿革：1963年立法确立国家权益，1972年成立Statoil，1990年设立政府养老基金，管理油气勘探生产，输出天然气至欧洲。",
+      "keywords": [
+        "挪威",
+        "石油工业",
+        "历史",
+        "政府管理",
+        "养老基金"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.316,
+      "metrics": {
+        "input_chars": 3759.0,
+        "input_lines": 68.0,
+        "summary_chars": 72.0,
+        "summary_coverage_ratio": 0.019,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 225.5
+      }
+    }
   }
 }

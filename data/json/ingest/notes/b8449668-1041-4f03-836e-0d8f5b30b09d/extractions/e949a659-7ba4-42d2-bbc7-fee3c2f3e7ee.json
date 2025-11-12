@@ -1,0 +1,28 @@
+{
+  "id": "e949a659-7ba4-42d2-bbc7-fee3c2f3e7ee",
+  "note_id": "b8449668-1041-4f03-836e-0d8f5b30b09d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "GSA标准发布，定义游戏系统通信协议（G2S、GAT等）及数据模型，支持系统交互与投注心理分析，提升游戏系统集成效率。",
+    "keywords": [
+      "GSA",
+      "游戏系统",
+      "协议",
+      "数据通信",
+      "业务分析"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:53:35.518297Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.346
+}

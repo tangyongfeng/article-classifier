@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4a304dba-6ec6-4d5a-9be0-5a9cd54aa140",
+      "note_id": "1c7bbdf1-d8d1-4228-85aa-f11b3c55b87f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "佳佳保险提供全球含美国门急诊及住院1年期保障，孕产无等待期，涵盖疾病、剖腹产等，不包括既往史及顺产。支持美国、中国直赔医院，需凭医生记录理赔。",
+        "keywords": [
+          "保险",
+          "孕产",
+          "直赔",
+          "全球医疗",
+          "病历"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:06:19.907489Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.372
+    }
+  ],
   "journal": {
     "id": "fc5286c5-2744-4b18-9da4-382dfe022a84",
     "note_id": "1c7bbdf1-d8d1-4228-85aa-f11b3c55b87f",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:06:19.907323Z",
+    "latency_seconds": 24.6300830419641,
+    "attempts": 1,
+    "summary": {
+      "summary": "佳佳保险提供全球含美国门急诊及住院1年期保障，孕产无等待期，涵盖疾病、剖腹产等，不包括既往史及顺产。支持美国、中国直赔医院，需凭医生记录理赔。",
+      "keywords": [
+        "保险",
+        "孕产",
+        "直赔",
+        "全球医疗",
+        "病历"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.372,
+      "metrics": {
+        "input_chars": 543.0,
+        "input_lines": 15.0,
+        "summary_chars": 71.0,
+        "summary_coverage_ratio": 0.131,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 32.6
+      }
+    }
   }
 }

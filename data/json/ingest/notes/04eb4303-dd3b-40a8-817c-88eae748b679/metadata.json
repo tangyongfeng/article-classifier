@@ -67,7 +67,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2ca3381e-33c1-4c96-ac0d-720313d1bf6b",
+      "note_id": "04eb4303-dd3b-40a8-817c-88eae748b679",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Ubuntu服务器MySQL客户端配置文件，包含主机、用户、密码等连接参数，涉及数据库访问设置。",
+        "keywords": [
+          "Ubuntu",
+          "MySQL",
+          "配置文件",
+          "服务器",
+          "密码"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "系统配置",
+          "服务器配置"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:53:21.220912Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.242
+    }
+  ],
   "journal": {
     "id": "2faaa406-0939-472a-be05-60dd93bb1bc6",
     "note_id": "04eb4303-dd3b-40a8-817c-88eae748b679",
@@ -90,5 +122,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:53:21.220744Z",
+    "latency_seconds": 30.066140125039965,
+    "attempts": 1,
+    "summary": {
+      "summary": "Ubuntu服务器MySQL客户端配置文件，包含主机、用户、密码等连接参数，涉及数据库访问设置。",
+      "keywords": [
+        "Ubuntu",
+        "MySQL",
+        "配置文件",
+        "服务器",
+        "密码"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "系统配置",
+        "服务器配置"
+      ]
+    },
+    "quality": {
+      "score": 0.242,
+      "metrics": {
+        "input_chars": 437.0,
+        "input_lines": 25.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.11,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 26.2
+      }
+    }
   }
 }

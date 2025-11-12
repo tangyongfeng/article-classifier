@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ce30f81e-86ce-4f66-98cb-440b79970caa",
+      "note_id": "55be7b20-1a21-4eb3-ae50-55930e1a69a7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "远程电子通信医疗咨询面临法律灰色地带、医患信任危机，自诊问诊导诊模式易遇阻力，不宜贸然推行。",
+        "keywords": [
+          "远程医疗",
+          "法律风险",
+          "医患信任",
+          "自诊问诊",
+          "医疗阻力"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Health",
+          "Health > Medical Consultation"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:59:10.523046Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.202
+    }
+  ],
   "journal": {
     "id": "e368bf7b-8a69-40ea-905a-8cbcdd6c3253",
     "note_id": "55be7b20-1a21-4eb3-ae50-55930e1a69a7",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:59:10.522808Z",
+    "latency_seconds": 42.04574974998832,
+    "attempts": 1,
+    "summary": {
+      "summary": "远程电子通信医疗咨询面临法律灰色地带、医患信任危机，自诊问诊导诊模式易遇阻力，不宜贸然推行。",
+      "keywords": [
+        "远程医疗",
+        "法律风险",
+        "医患信任",
+        "自诊问诊",
+        "医疗阻力"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Health",
+        "Health > Medical Consultation"
+      ]
+    },
+    "quality": {
+      "score": 0.202,
+      "metrics": {
+        "input_chars": 305.0,
+        "input_lines": 12.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.151,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 18.3
+      }
+    }
   }
 }

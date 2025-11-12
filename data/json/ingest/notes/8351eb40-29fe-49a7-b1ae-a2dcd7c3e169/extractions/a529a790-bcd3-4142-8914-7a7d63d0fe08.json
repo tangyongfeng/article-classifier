@@ -1,0 +1,28 @@
+{
+  "id": "a529a790-bcd3-4142-8914-7a7d63d0fe08",
+  "note_id": "8351eb40-29fe-49a7-b1ae-a2dcd7c3e169",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "《文化大革命的起源》三卷本，马若德著，聚焦1956-1966年中国历史事件，属中国历史研究范畴。",
+    "keywords": [
+      "文化大革命",
+      "中国历史",
+      "马若德",
+      "历史著作",
+      "三卷本"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:52:46.729181Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.286
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3e381c2f-cb8f-441c-923e-6a3b41bd1f36",
+  "note_id": "97b3692f-ca01-4f79-bcc3-c401865e5f7d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "京东、天猫、苏宁等电商巨头布局区块链商品溯源，京东三季度技术投入34亿元，发布'智臻链'平台解决防伪溯源问题。",
+    "keywords": [
+      "区块链",
+      "商品溯源",
+      "电商巨头",
+      "技术投入",
+      "京东"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新",
+      "区块链应用"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:23:25.188119Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.378
+}

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "dfb8d2fc-5516-4499-a176-64e7a909b305",
+      "note_id": "39b32579-7b5c-464b-94fb-4507a026fd86",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国诺伊斯社区小学提供新教、天主教及东正教宗教教育，410名学生来自40余国，50名教师，注重健康与全面发展。",
+        "keywords": [
+          "社区小学",
+          "宗教教育",
+          "多国学生",
+          "师生比例",
+          "学校介绍"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:06:45.426009Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.276
+    }
+  ],
   "journal": {
     "id": "d6d82674-5b6d-4b5e-91e2-55fa3db9e284",
     "note_id": "39b32579-7b5c-464b-94fb-4507a026fd86",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:06:45.425878Z",
+    "latency_seconds": 22.645592125016265,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国诺伊斯社区小学提供新教、天主教及东正教宗教教育，410名学生来自40余国，50名教师，注重健康与全面发展。",
+      "keywords": [
+        "社区小学",
+        "宗教教育",
+        "多国学生",
+        "师生比例",
+        "学校介绍"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.276,
+      "metrics": {
+        "input_chars": 309.0,
+        "input_lines": 12.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.178,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 18.5
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "38414ff3-4f51-4e1e-b336-5b7539f26b57",
+      "note_id": "9832b171-b70e-437d-9331-0b42a0b429e3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国拿骚地区生产的中等矿物质含量矿泉水产品。",
+        "keywords": [
+          "矿泉水",
+          "德国",
+          "拿骚",
+          "中等",
+          "产品"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:26:25.955069Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.143
+    }
+  ],
   "journal": {
     "id": "6eba0a9d-6c44-41f1-8af8-dac6dcf31334",
     "note_id": "9832b171-b70e-437d-9331-0b42a0b429e3",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:26:25.954852Z",
+    "latency_seconds": 38.00857795891352,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国拿骚地区生产的中等矿物质含量矿泉水产品。",
+      "keywords": [
+        "矿泉水",
+        "德国",
+        "拿骚",
+        "中等",
+        "产品"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.143,
+      "metrics": {
+        "input_chars": 145.0,
+        "input_lines": 6.0,
+        "summary_chars": 22.0,
+        "summary_coverage_ratio": 0.152,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.7
+      }
+    }
   }
 }

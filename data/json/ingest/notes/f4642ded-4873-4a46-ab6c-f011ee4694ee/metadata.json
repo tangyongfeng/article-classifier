@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7a9b0084-a6a2-4ad2-a9d0-3ca0bc35ed3b",
+      "note_id": "f4642ded-4873-4a46-ab6c-f011ee4694ee",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "物联网设备通过UDP组播传输WiFi SSID和密码实现无缝连接，无需用户切换网络或解除加密，提升设备联网体验。",
+        "keywords": [
+          "物联网设备",
+          "WiFi连接",
+          "UDP组播",
+          "SSID",
+          "密码"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:29:19.720068Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.235
+    }
+  ],
   "journal": {
     "id": "5fafa03d-345a-4516-9af9-b132eee1418b",
     "note_id": "f4642ded-4873-4a46-ab6c-f011ee4694ee",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:29:19.719926Z",
+    "latency_seconds": 22.777521625044756,
+    "attempts": 1,
+    "summary": {
+      "summary": "物联网设备通过UDP组播传输WiFi SSID和密码实现无缝连接，无需用户切换网络或解除加密，提升设备联网体验。",
+      "keywords": [
+        "物联网设备",
+        "WiFi连接",
+        "UDP组播",
+        "SSID",
+        "密码"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.235,
+      "metrics": {
+        "input_chars": 583.0,
+        "input_lines": 8.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.096,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 35.0
+      }
+    }
   }
 }

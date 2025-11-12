@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "af124286-dbe8-461a-ae96-6701d711e4fd",
+      "note_id": "7a765707-8901-4db3-9bee-08f677438c52",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录德国房东Ehel.Stinner的银行账号IBAN信息：DE92 3055 0000 0080 0543 31，涉及支付服务。",
+        "keywords": [
+          "德国",
+          "房东",
+          "卡号",
+          "银行账号",
+          "IBAN"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:02:33.862349Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.458
+    }
+  ],
   "journal": {
     "id": "80bef24a-a683-496b-963b-551c9b02b999",
     "note_id": "7a765707-8901-4db3-9bee-08f677438c52",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:02:33.862180Z",
+    "latency_seconds": 37.29128674999811,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录德国房东Ehel.Stinner的银行账号IBAN信息：DE92 3055 0000 0080 0543 31，涉及支付服务。",
+      "keywords": [
+        "德国",
+        "房东",
+        "卡号",
+        "银行账号",
+        "IBAN"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.458,
+      "metrics": {
+        "input_chars": 154.0,
+        "input_lines": 8.0,
+        "summary_chars": 65.0,
+        "summary_coverage_ratio": 0.422,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 9.2
+      }
+    }
   }
 }

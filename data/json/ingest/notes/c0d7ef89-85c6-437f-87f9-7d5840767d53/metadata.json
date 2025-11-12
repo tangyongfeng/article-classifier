@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9e6d6504-03b0-452d-bb7e-e91487017b28",
+      "note_id": "c0d7ef89-85c6-437f-87f9-7d5840767d53",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语语法中，三格（间接宾语）用于动词的受惠者，四格（直接宾语）用于施惠者；描述了冠词变化规则及词性变化。",
+        "keywords": [
+          "德语",
+          "语法",
+          "三格",
+          "四格",
+          "宾语"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:53:30.645649Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.371
+    }
+  ],
   "journal": {
     "id": "aab210fb-e499-4e4e-8f47-e37b6d36de4a",
     "note_id": "c0d7ef89-85c6-437f-87f9-7d5840767d53",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:53:30.645483Z",
+    "latency_seconds": 19.122924208990298,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语语法中，三格（间接宾语）用于动词的受惠者，四格（直接宾语）用于施惠者；描述了冠词变化规则及词性变化。",
+      "keywords": [
+        "德语",
+        "语法",
+        "三格",
+        "四格",
+        "宾语"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.371,
+      "metrics": {
+        "input_chars": 209.0,
+        "input_lines": 8.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.249,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.5
+      }
+    }
   }
 }

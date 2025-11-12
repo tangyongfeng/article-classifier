@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "59a1ab47-c2a3-4cc6-a024-588a433b16b6",
+      "note_id": "840fc286-fad9-418a-a908-573579f8ccfd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "DB2灾备技术讨论，涉及全备份、表空间管理、双活异地灾备解决方案及数据冲突处理。",
+        "keywords": [
+          "DB2",
+          "灾备",
+          "表空间",
+          "双活",
+          "备份恢复"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:53:28.969371Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.357
+    }
+  ],
   "journal": {
     "id": "c8682aa4-292b-4171-9e52-7c2d60d12243",
     "note_id": "840fc286-fad9-418a-a908-573579f8ccfd",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:53:28.969208Z",
+    "latency_seconds": 42.23570775007829,
+    "attempts": 1,
+    "summary": {
+      "summary": "DB2灾备技术讨论，涉及全备份、表空间管理、双活异地灾备解决方案及数据冲突处理。",
+      "keywords": [
+        "DB2",
+        "灾备",
+        "表空间",
+        "双活",
+        "备份恢复"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.357,
+      "metrics": {
+        "input_chars": 395.0,
+        "input_lines": 13.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.101,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.7
+      }
+    }
   }
 }

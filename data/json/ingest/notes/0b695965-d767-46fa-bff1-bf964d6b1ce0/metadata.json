@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "978d884d-014f-4f11-a81f-f96c15a09107",
+      "note_id": "0b695965-d767-46fa-bff1-bf964d6b1ce0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "父母与孩子讨论考试成绩不佳（数学零分，语文四分），父母指出偏科问题，体现家庭沟通场景。",
+        "keywords": [
+          "考试",
+          "成绩",
+          "偏科",
+          "家庭讨论",
+          "父母"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Discussions"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:34:45.852991Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.265
+    }
+  ],
   "journal": {
     "id": "35771e9e-2e9a-4861-897a-884ea502d464",
     "note_id": "0b695965-d767-46fa-bff1-bf964d6b1ce0",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:34:45.852833Z",
+    "latency_seconds": 31.8079963340424,
+    "attempts": 1,
+    "summary": {
+      "summary": "父母与孩子讨论考试成绩不佳（数学零分，语文四分），父母指出偏科问题，体现家庭沟通场景。",
+      "keywords": [
+        "考试",
+        "成绩",
+        "偏科",
+        "家庭讨论",
+        "父母"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Discussions"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.265,
+      "metrics": {
+        "input_chars": 276.0,
+        "input_lines": 13.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.156,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.6
+      }
+    }
   }
 }

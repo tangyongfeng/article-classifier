@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "efe6369f-74f5-4d4f-ad0b-29e4191c9c52",
+      "note_id": "5591c2fb-2241-4fd9-986e-169bfad85de7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "张鹏的护照号码G42804493，涉及个人身份信息及旅行证件管理，需归类至旅行相关类别。",
+        "keywords": [
+          "护照",
+          "证件号",
+          "身份信息",
+          "旅行证件",
+          "G42804493"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:58:28.470829Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.409
+    }
+  ],
   "journal": {
     "id": "5d587267-28fc-4988-8656-c54e316196ed",
     "note_id": "5591c2fb-2241-4fd9-986e-169bfad85de7",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:58:28.470685Z",
+    "latency_seconds": 31.728110541938804,
+    "attempts": 1,
+    "summary": {
+      "summary": "张鹏的护照号码G42804493，涉及个人身份信息及旅行证件管理，需归类至旅行相关类别。",
+      "keywords": [
+        "护照",
+        "证件号",
+        "身份信息",
+        "旅行证件",
+        "G42804493"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.409,
+      "metrics": {
+        "input_chars": 99.0,
+        "input_lines": 6.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.444,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.9
+      }
+    }
   }
 }

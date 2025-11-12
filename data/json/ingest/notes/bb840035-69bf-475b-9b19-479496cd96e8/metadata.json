@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e5d67d62-c5a9-47d5-9552-a5aa8998b389",
+      "note_id": "bb840035-69bf-475b-9b19-479496cd96e8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "林彪1971年出逃事件，因反对毛泽东与美国缓和关系，导致身首异处；蒋介石曾预言其不忠于毛泽东。",
+        "keywords": [
+          "林彪",
+          "毛泽东",
+          "蒋介石",
+          "中美关系",
+          "历史事件"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:13:53.041141Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.313
+    }
+  ],
   "journal": {
     "id": "00de9b32-131a-416f-be8f-ba4b5e89c89a",
     "note_id": "bb840035-69bf-475b-9b19-479496cd96e8",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:13:53.040925Z",
+    "latency_seconds": 25.53358929103706,
+    "attempts": 1,
+    "summary": {
+      "summary": "林彪1971年出逃事件，因反对毛泽东与美国缓和关系，导致身首异处；蒋介石曾预言其不忠于毛泽东。",
+      "keywords": [
+        "林彪",
+        "毛泽东",
+        "蒋介石",
+        "中美关系",
+        "历史事件"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.313,
+      "metrics": {
+        "input_chars": 3789.0,
+        "input_lines": 50.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.012,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 227.3
+      }
+    }
   }
 }

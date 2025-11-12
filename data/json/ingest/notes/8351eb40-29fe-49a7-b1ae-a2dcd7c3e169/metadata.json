@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a529a790-bcd3-4142-8914-7a7d63d0fe08",
+      "note_id": "8351eb40-29fe-49a7-b1ae-a2dcd7c3e169",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "《文化大革命的起源》三卷本，马若德著，聚焦1956-1966年中国历史事件，属中国历史研究范畴。",
+        "keywords": [
+          "文化大革命",
+          "中国历史",
+          "马若德",
+          "历史著作",
+          "三卷本"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:52:46.729181Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.286
+    }
+  ],
   "journal": {
     "id": "a8784d4f-d5ad-4e33-80ac-966cc26250c4",
     "note_id": "8351eb40-29fe-49a7-b1ae-a2dcd7c3e169",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:52:46.729011Z",
+    "latency_seconds": 12.762734167044982,
+    "attempts": 1,
+    "summary": {
+      "summary": "《文化大革命的起源》三卷本，马若德著，聚焦1956-1966年中国历史事件，属中国历史研究范畴。",
+      "keywords": [
+        "文化大革命",
+        "中国历史",
+        "马若德",
+        "历史著作",
+        "三卷本"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.286,
+      "metrics": {
+        "input_chars": 243.0,
+        "input_lines": 6.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.198,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.6
+      }
+    }
   }
 }

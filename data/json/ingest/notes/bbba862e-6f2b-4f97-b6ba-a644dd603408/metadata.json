@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "81b07e4e-1fd4-4d5e-92ee-28b24c74b22c",
+      "note_id": "bbba862e-6f2b-4f97-b6ba-a644dd603408",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "大数据导航网站提供行业数据资源与分析工具，属于商务技术创新范畴。",
+        "keywords": [
+          "大数据",
+          "导航",
+          "商务",
+          "技术创新",
+          "数据分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:14:29.011587Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.302
+    }
+  ],
   "journal": {
     "id": "f86e9a52-fc78-48d9-b92c-fab31cb6b9ed",
     "note_id": "bbba862e-6f2b-4f97-b6ba-a644dd603408",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:14:29.011421Z",
+    "latency_seconds": 11.466524292016402,
+    "attempts": 1,
+    "summary": {
+      "summary": "大数据导航网站提供行业数据资源与分析工具，属于商务技术创新范畴。",
+      "keywords": [
+        "大数据",
+        "导航",
+        "商务",
+        "技术创新",
+        "数据分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.302,
+      "metrics": {
+        "input_chars": 139.0,
+        "input_lines": 8.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.23,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.3
+      }
+    }
   }
 }

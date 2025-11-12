@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cdcf3d90-b107-4948-9c7f-a79981f6ae4c",
+      "note_id": "14b4a017-5765-48b4-89ce-f80b7582fa24",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "法兰克福多文化事务局与教育局合作开展语言交流项目，促进学生、教师及家长的跨语言沟通。",
+        "keywords": [
+          "语言交流",
+          "多文化项目",
+          "德语学习",
+          "教育合作",
+          "跨语言沟通"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:18:53.397146Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.137
+    }
+  ],
   "journal": {
     "id": "cc4495d9-4f66-4b2c-b79e-8669fba6c8fa",
     "note_id": "14b4a017-5765-48b4-89ce-f80b7582fa24",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:18:53.396979Z",
+    "latency_seconds": 21.211062459042296,
+    "attempts": 1,
+    "summary": {
+      "summary": "法兰克福多文化事务局与教育局合作开展语言交流项目，促进学生、教师及家长的跨语言沟通。",
+      "keywords": [
+        "语言交流",
+        "多文化项目",
+        "德语学习",
+        "教育合作",
+        "跨语言沟通"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.137,
+      "metrics": {
+        "input_chars": 298.0,
+        "input_lines": 6.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.141,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.9
+      }
+    }
   }
 }

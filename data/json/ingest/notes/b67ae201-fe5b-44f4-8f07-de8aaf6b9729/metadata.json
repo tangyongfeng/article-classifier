@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3ca3da52-202f-4f54-8f9f-506f8841b6ab",
+      "note_id": "b67ae201-fe5b-44f4-8f07-de8aaf6b9729",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记聚焦东京城市旅游体验，涵盖景点与文化活动，适合旅行规划参考。",
+        "keywords": [
+          "东京",
+          "旅行",
+          "城市体验",
+          "旅游景点",
+          "日本文化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:44:04.828171Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.237
+    }
+  ],
   "journal": {
     "id": "8d75ce5f-2abd-4daa-9778-8c4edf6eb647",
     "note_id": "b67ae201-fe5b-44f4-8f07-de8aaf6b9729",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:44:04.828023Z",
+    "latency_seconds": 13.77266162505839,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记聚焦东京城市旅游体验，涵盖景点与文化活动，适合旅行规划参考。",
+      "keywords": [
+        "东京",
+        "旅行",
+        "城市体验",
+        "旅游景点",
+        "日本文化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.237,
+      "metrics": {
+        "input_chars": 145.0,
+        "input_lines": 7.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.221,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.7
+      }
+    }
   }
 }

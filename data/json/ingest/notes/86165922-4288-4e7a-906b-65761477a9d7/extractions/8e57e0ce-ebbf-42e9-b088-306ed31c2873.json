@@ -1,0 +1,31 @@
+{
+  "id": "8e57e0ce-ebbf-42e9-b088-306ed31c2873",
+  "note_id": "86165922-4288-4e7a-906b-65761477a9d7",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "移动设备农场游戏核心机制包括自动生长农作物、不定时奖励机制、成长性路径（从彩票捐赠至学校捐助）及货币单位体系（铁币至金钻）。",
+    "keywords": [
+      "农场游戏",
+      "自动生长",
+      "奖励机制",
+      "成长路径",
+      "货币体系"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": [
+      "Games",
+      "Mobile Games",
+      "Farm Games"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:04:45.613885Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.344
+}

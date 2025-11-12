@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "41aff9db-165c-4f4c-a35e-eda4ea7b35fd",
+      "note_id": "c2cecba6-0395-43ef-a6b6-8304426fbcc2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "中国最早的即时通讯软件属于中国互联网发展历史，归类于历史 > 中国历史。",
+        "keywords": [
+          "即时通讯",
+          "中国历史",
+          "软件发展",
+          "互联网史",
+          "通信应用"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:58:40.752500Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.3
+    }
+  ],
   "journal": {
     "id": "3ddfd6cc-dc8d-4445-897e-de6be0b85c2c",
     "note_id": "c2cecba6-0395-43ef-a6b6-8304426fbcc2",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:58:40.752339Z",
+    "latency_seconds": 24.552509083994664,
+    "attempts": 1,
+    "summary": {
+      "summary": "中国最早的即时通讯软件属于中国互联网发展历史，归类于历史 > 中国历史。",
+      "keywords": [
+        "即时通讯",
+        "中国历史",
+        "软件发展",
+        "互联网史",
+        "通信应用"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.3,
+      "metrics": {
+        "input_chars": 104.0,
+        "input_lines": 6.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.346,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.2
+      }
+    }
   }
 }

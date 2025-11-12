@@ -1,0 +1,28 @@
+{
+  "id": "b4938c90-7bdb-4b72-be47-e88fbd5da401",
+  "note_id": "1307b25c-f3df-4fa4-aeb4-7407bd2e3e52",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "讨论20万欧元博彩软件销售合作，提及杜塞尔多夫约定，寻求商务合作。",
+    "keywords": [
+      "博彩软件",
+      "合作",
+      "20万欧元",
+      "杜塞尔多夫",
+      "销售"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:14:38.883932Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.436
+}

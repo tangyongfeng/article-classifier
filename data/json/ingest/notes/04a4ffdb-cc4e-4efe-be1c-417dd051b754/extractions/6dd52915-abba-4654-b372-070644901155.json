@@ -1,0 +1,27 @@
+{
+  "id": "6dd52915-abba-4654-b372-070644901155",
+  "note_id": "04a4ffdb-cc4e-4efe-be1c-417dd051b754",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "高校学业系统需参考Canvas平台，分步实现云平台化、推广标准，并融入AI技术提升智能学习管理。",
+    "keywords": [
+      "高校系统",
+      "Canvas",
+      "云平台",
+      "AI",
+      "学习管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:51:00.540741Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.235
+}

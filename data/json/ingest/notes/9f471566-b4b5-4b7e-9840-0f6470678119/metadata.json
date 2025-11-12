@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "dbd8117d-5d19-4da7-988f-b04167b26f7e",
+      "note_id": "9f471566-b4b5-4b7e-9840-0f6470678119",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记探讨儿童趣味活动与教育游戏设计，旨在通过冒险主题激发儿童学习兴趣与创造力，适用于幼儿教育场景。",
+        "keywords": [
+          "儿童",
+          "冒险",
+          "游戏",
+          "教育",
+          "趣味"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:04:36.625466Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.299
+    }
+  ],
   "journal": {
     "id": "3409aeea-7735-4dc6-8a16-193505efa2c4",
     "note_id": "9f471566-b4b5-4b7e-9840-0f6470678119",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:04:36.625182Z",
+    "latency_seconds": 23.608889166964218,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记探讨儿童趣味活动与教育游戏设计，旨在通过冒险主题激发儿童学习兴趣与创造力，适用于幼儿教育场景。",
+      "keywords": [
+        "儿童",
+        "冒险",
+        "游戏",
+        "教育",
+        "趣味"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.299,
+      "metrics": {
+        "input_chars": 145.0,
+        "input_lines": 7.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.345,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.7
+      }
+    }
   }
 }

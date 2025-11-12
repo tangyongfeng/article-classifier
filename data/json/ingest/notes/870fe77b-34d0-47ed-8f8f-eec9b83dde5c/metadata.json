@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4312d32a-3e16-4b79-b5a0-1783af29525d",
+      "note_id": "870fe77b-34d0-47ed-8f8f-eec9b83dde5c",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 转载了一篇网上流传较广的文章，得到大家较多的赞，知乎说我的转载不规范，比较难办的是，这篇文章很难找到原作者。 updated: 2016-",
+        "keywords": [
+          "---",
+          "title: 转载了一篇网上流传较广的文章，得到大家较多的赞，知乎说我的转载不规范，比较难办的是，这篇文章很难找到原作者",
+          "updated: 2016-04-07 16:13:11Z",
+          "created: 2016-04-07 16:13:11Z",
+          "tags:"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:17:14.859066Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "337632f5-fa36-4735-ae70-1cbcc78301c7",
     "note_id": "870fe77b-34d0-47ed-8f8f-eec9b83dde5c",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T01:17:14.858091Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 转载了一篇网上流传较广的文章，得到大家较多的赞，知乎说我的转载不规范，比较难办的是，这篇文章很难找到原作者。 updated: 2016-",
+      "keywords": [
+        "---",
+        "title: 转载了一篇网上流传较广的文章，得到大家较多的赞，知乎说我的转载不规范，比较难办的是，这篇文章很难找到原作者",
+        "updated: 2016-04-07 16:13:11Z",
+        "created: 2016-04-07 16:13:11Z",
+        "tags:"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 30203.0,
+        "input_lines": 124.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.003,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 1812.2
+      }
+    }
   }
 }

@@ -77,7 +77,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "94d50422-6a60-49ac-87d5-86b955d70548",
+      "note_id": "ea57988b-9374-40a2-9222-8cd99da49642",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 在Android里完美实现基站和WIFI定位 - 混魔MJM的博客 - CSDN博客 updated: 2018-11-05 02:39:",
+        "keywords": [
+          "---",
+          "title: 在Android里完美实现基站和WIFI定位 - 混魔MJM的博客 - CSDN博客",
+          "updated: 2018-11-05 02:39:37Z",
+          "created: 2018-11-05 02:39:37Z",
+          "source: https://blog.csdn.net/MJM_49/article/details/77654195"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:45:16.852962Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "f04ab029-9ea4-460e-9129-6fb0805d8ef2",
     "note_id": "ea57988b-9374-40a2-9222-8cd99da49642",
@@ -100,5 +128,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T09:45:16.851442Z",
+    "latency_seconds": 32.08350608404726,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 在Android里完美实现基站和WIFI定位 - 混魔MJM的博客 - CSDN博客 updated: 2018-11-05 02:39:",
+      "keywords": [
+        "---",
+        "title: 在Android里完美实现基站和WIFI定位 - 混魔MJM的博客 - CSDN博客",
+        "updated: 2018-11-05 02:39:37Z",
+        "created: 2018-11-05 02:39:37Z",
+        "source: https://blog.csdn.net/MJM_49/article/details/77654195"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 43105.0,
+        "input_lines": 3525.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.002,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 2586.3
+      }
+    }
   }
 }

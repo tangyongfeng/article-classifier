@@ -67,7 +67,40 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "76cfe525-fa42-495e-aacf-1fe7f60e8233",
+      "note_id": "8d6e16fc-eab2-4d52-9435-bd43fe7c5419",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "C#代码实现Code 128条码生成，通过指定字体显示数字与条码，涉及字体设置与图形渲染。",
+        "keywords": [
+          "C#",
+          "条码",
+          "Code 128",
+          "字体",
+          "编程"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "编程",
+          "条码"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:35:10.158159Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.331
+    }
+  ],
   "journal": {
     "id": "4a54a6e5-52f1-4675-a4c1-46020ba98934",
     "note_id": "8d6e16fc-eab2-4d52-9435-bd43fe7c5419",
@@ -90,5 +123,48 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:35:10.158005Z",
+    "latency_seconds": 40.318456417066045,
+    "attempts": 1,
+    "summary": {
+      "summary": "C#代码实现Code 128条码生成，通过指定字体显示数字与条码，涉及字体设置与图形渲染。",
+      "keywords": [
+        "C#",
+        "条码",
+        "Code 128",
+        "字体",
+        "编程"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "编程",
+        "条码"
+      ]
+    },
+    "quality": {
+      "score": 0.331,
+      "metrics": {
+        "input_chars": 266.0,
+        "input_lines": 21.0,
+        "summary_chars": 45.0,
+        "summary_coverage_ratio": 0.169,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.0
+      }
+    }
   }
 }

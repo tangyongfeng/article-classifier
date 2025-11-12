@@ -1,0 +1,27 @@
+{
+  "id": "3eeb107a-4da7-4d6b-bc3f-5bc1b627819f",
+  "note_id": "facad75c-1b9d-405e-aa14-30cd52e6f001",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "债券是一种金融工具，代表债务人承诺定期支付利息并到期偿还本金的协议，属于固定收益投资类别。",
+    "keywords": [
+      "债券",
+      "金融工具",
+      "固定收益",
+      "债务证券",
+      "投资产品"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:59:20.581968Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.382
+}

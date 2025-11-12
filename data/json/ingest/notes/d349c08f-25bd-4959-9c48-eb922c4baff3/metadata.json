@@ -72,7 +72,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "060af4be-078c-430f-8fca-33496da13957",
+      "note_id": "d349c08f-25bd-4959-9c48-eb922c4baff3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记描述Bosch品牌电动钉枪的在线租赁服务详情，包括价格、功能特点及家庭维修适用性。",
+        "keywords": [
+          "电动工具",
+          "租赁服务",
+          "钉枪",
+          "家庭维修",
+          "工具"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "商务",
+          "工具租赁"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:50:42.222822Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.131
+    }
+  ],
   "journal": {
     "id": "2ac408ea-b0e7-4e21-8992-33e02065a7a3",
     "note_id": "d349c08f-25bd-4959-9c48-eb922c4baff3",
@@ -95,5 +126,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:50:42.222452Z",
+    "latency_seconds": 71.25521537510213,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记描述Bosch品牌电动钉枪的在线租赁服务详情，包括价格、功能特点及家庭维修适用性。",
+      "keywords": [
+        "电动工具",
+        "租赁服务",
+        "钉枪",
+        "家庭维修",
+        "工具"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "商务",
+        "工具租赁"
+      ]
+    },
+    "quality": {
+      "score": 0.131,
+      "metrics": {
+        "input_chars": 5714.0,
+        "input_lines": 193.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.008,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 342.8
+      }
+    }
   }
 }

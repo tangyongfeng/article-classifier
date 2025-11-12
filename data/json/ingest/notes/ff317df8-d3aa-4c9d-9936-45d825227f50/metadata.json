@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ca4fe12a-58aa-422b-8021-cbd40d202a85",
+      "note_id": "ff317df8-d3aa-4c9d-9936-45d825227f50",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录2022年6月18日巴黎旅行计划要点，涵盖机票预订、AirBnB住宿详情、机场及日常交通安排，附4日景点行程推荐。",
+        "keywords": [
+          "机票",
+          "住宿",
+          "交通",
+          "行程",
+          "巴黎"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:31:53.860699Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.392
+    }
+  ],
   "journal": {
     "id": "02615596-89e9-4194-a522-788aee33a919",
     "note_id": "ff317df8-d3aa-4c9d-9936-45d825227f50",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:31:53.860514Z",
+    "latency_seconds": 38.91568400000688,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录2022年6月18日巴黎旅行计划要点，涵盖机票预订、AirBnB住宿详情、机场及日常交通安排，附4日景点行程推荐。",
+      "keywords": [
+        "机票",
+        "住宿",
+        "交通",
+        "行程",
+        "巴黎"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.392,
+      "metrics": {
+        "input_chars": 1170.0,
+        "input_lines": 44.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.05,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 70.2
+      }
+    }
   }
 }

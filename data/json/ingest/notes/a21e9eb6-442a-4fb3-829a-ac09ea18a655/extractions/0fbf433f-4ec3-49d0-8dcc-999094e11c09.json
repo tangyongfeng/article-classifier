@@ -1,0 +1,28 @@
+{
+  "id": "0fbf433f-4ec3-49d0-8dcc-999094e11c09",
+  "note_id": "a21e9eb6-442a-4fb3-829a-ac09ea18a655",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "PHP 5.5+ 版本中用于MySQL数据库交互的SO扩展文件，支持面向对象和过程式编程。",
+    "keywords": [
+      "PHP",
+      "MySQL",
+      "数据库",
+      "扩展",
+      "mysqli"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:21:23.534689Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.379
+}

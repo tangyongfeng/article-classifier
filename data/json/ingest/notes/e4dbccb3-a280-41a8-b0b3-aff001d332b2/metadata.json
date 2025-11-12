@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "962fabde-b772-460e-85fc-e71967d00b77",
+      "note_id": "e4dbccb3-a280-41a8-b0b3-aff001d332b2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "《阳光灿烂的日子》高清电影资源的下载链接，涉及电影媒体文件分享。",
+        "keywords": [
+          "阳光灿烂的日子",
+          "高清版",
+          "电影",
+          "下载",
+          "多媒体"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:16:42.048102Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.296
+    }
+  ],
   "journal": {
     "id": "72f4b886-9dc1-42b0-85b5-beae24ee873b",
     "note_id": "e4dbccb3-a280-41a8-b0b3-aff001d332b2",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:16:42.047960Z",
+    "latency_seconds": 35.412710416014306,
+    "attempts": 2,
+    "summary": {
+      "summary": "《阳光灿烂的日子》高清电影资源的下载链接，涉及电影媒体文件分享。",
+      "keywords": [
+        "阳光灿烂的日子",
+        "高清版",
+        "电影",
+        "下载",
+        "多媒体"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.296,
+      "metrics": {
+        "input_chars": 147.0,
+        "input_lines": 6.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.218,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.8
+      }
+    }
   }
 }

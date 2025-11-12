@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8ed04218-c6c9-40cf-8316-e5aabebd2a0a",
+      "note_id": "77b16cdb-af97-4486-9b78-7a5850e3e16f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记包含邮箱、WordPress及MySQL数据库用户的密码配置信息，涉及多个系统账户的登录凭证。",
+        "keywords": [
+          "邮箱",
+          "密码",
+          "WordPress",
+          "MySQL",
+          "配置"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:50:52.964882Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.348
+    }
+  ],
   "journal": {
     "id": "0ffb631c-c892-4912-894a-c80586489671",
     "note_id": "77b16cdb-af97-4486-9b78-7a5850e3e16f",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:50:52.964715Z",
+    "latency_seconds": 41.21618008404039,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记包含邮箱、WordPress及MySQL数据库用户的密码配置信息，涉及多个系统账户的登录凭证。",
+      "keywords": [
+        "邮箱",
+        "密码",
+        "WordPress",
+        "MySQL",
+        "配置"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.348,
+      "metrics": {
+        "input_chars": 594.0,
+        "input_lines": 28.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.082,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 35.6
+      }
+    }
   }
 }

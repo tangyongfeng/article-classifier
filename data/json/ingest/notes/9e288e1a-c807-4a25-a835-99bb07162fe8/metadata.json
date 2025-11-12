@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4d115723-0044-4af0-b578-85560c014d5d",
+      "note_id": "9e288e1a-c807-4a25-a835-99bb07162fe8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "需卦为《易经》六十四卦之一，阐释'等待'的哲理，爻辞描述不同情境下的应对策略，体现古代智慧。",
+        "keywords": [
+          "需卦",
+          "易经",
+          "爻辞",
+          "等待",
+          "卦象"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:55:20.100241Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.27
+    }
+  ],
   "journal": {
     "id": "3a4c26f5-feef-436f-b3f1-208528e18aa3",
     "note_id": "9e288e1a-c807-4a25-a835-99bb07162fe8",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:55:20.099988Z",
+    "latency_seconds": 20.00826870801393,
+    "attempts": 1,
+    "summary": {
+      "summary": "需卦为《易经》六十四卦之一，阐释'等待'的哲理，爻辞描述不同情境下的应对策略，体现古代智慧。",
+      "keywords": [
+        "需卦",
+        "易经",
+        "爻辞",
+        "等待",
+        "卦象"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.27,
+      "metrics": {
+        "input_chars": 276.0,
+        "input_lines": 23.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.167,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.6
+      }
+    }
   }
 }

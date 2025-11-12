@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e4196655-a21d-415d-be0b-b94d230422ea",
+      "note_id": "e6b58d84-061e-4ef1-89a3-21d1f7189af0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记包含英语单词'abandon'的动词和名词释义，用于词汇学习练习。",
+        "keywords": [
+          "词汇",
+          "英语",
+          "动词",
+          "名词",
+          "释义"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:21:01.686126Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.121
+    }
+  ],
   "journal": {
     "id": "e94058c4-859e-49cc-9ce6-0f18581b5763",
     "note_id": "e6b58d84-061e-4ef1-89a3-21d1f7189af0",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:21:01.685966Z",
+    "latency_seconds": 32.42212116695009,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记包含英语单词'abandon'的动词和名词释义，用于词汇学习练习。",
+      "keywords": [
+        "词汇",
+        "英语",
+        "动词",
+        "名词",
+        "释义"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.121,
+      "metrics": {
+        "input_chars": 332.0,
+        "input_lines": 12.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.108,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 19.9
+      }
+    }
   }
 }

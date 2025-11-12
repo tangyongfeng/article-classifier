@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4b3ad075-1b8f-470b-a93a-5d5f1b87cd98",
+      "note_id": "04ff0538-898a-4a23-9f09-1f0f87099845",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "未命名笔记，需归入未分类类别，待后续内容补充后重新分类。",
+        "keywords": [
+          "未命名",
+          "笔记",
+          "未分类",
+          "待处理",
+          "归类"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:53:35.435821Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.302
+    }
+  ],
   "journal": {
     "id": "9c856175-571e-4fb4-bc9f-dd4d99a787a6",
     "note_id": "04ff0538-898a-4a23-9f09-1f0f87099845",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:53:35.435676Z",
+    "latency_seconds": 14.209920375025831,
+    "attempts": 1,
+    "summary": {
+      "summary": "未命名笔记，需归入未分类类别，待后续内容补充后重新分类。",
+      "keywords": [
+        "未命名",
+        "笔记",
+        "未分类",
+        "待处理",
+        "归类"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.302,
+      "metrics": {
+        "input_chars": 80.0,
+        "input_lines": 5.0,
+        "summary_chars": 28.0,
+        "summary_coverage_ratio": 0.35,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.8
+      }
+    }
   }
 }

@@ -1,0 +1,30 @@
+{
+  "id": "1fd532e7-c2ba-428a-923d-ed1b46b84fb9",
+  "note_id": "139aa344-10e0-4d3b-afbd-ef46e77f2cf1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "包含PHP编译配置参数及MySQL用户创建命令的服务器配置笔记。",
+    "keywords": [
+      "服务器配置",
+      "PHP",
+      "MySQL",
+      "数据库",
+      "命令行"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Technology",
+      "Server Configuration"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:15:53.578144Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.168
+}

@@ -1,0 +1,27 @@
+{
+  "id": "428de361-f6af-414e-a436-d29025f961c2",
+  "note_id": "9566ce48-afae-40f0-aac6-96338dcfb304",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "RTL-SDR是一种软件定义无线电设备，用于接收无线电信号，安装和使用涉及硬件连接与软件配置，常见于无线电技术爱好者。",
+    "keywords": [
+      "RTL-SDR",
+      "软件定义无线电",
+      "无线电信号",
+      "安装",
+      "使用"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "多媒体"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:19:34.763602Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.385
+}

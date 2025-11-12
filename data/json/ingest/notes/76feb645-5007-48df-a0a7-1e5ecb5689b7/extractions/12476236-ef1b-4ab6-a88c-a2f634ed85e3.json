@@ -1,0 +1,31 @@
+{
+  "id": "12476236-ef1b-4ab6-a88c-a2f634ed85e3",
+  "note_id": "76feb645-5007-48df-a0a7-1e5ecb5689b7",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "修改MySQL数据库目录配置的步骤，包括停库、修改配置文件、移动数据目录、设置权限及启动服务。",
+    "keywords": [
+      "mysql",
+      "目录",
+      "配置",
+      "数据库",
+      "修改"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": [
+      "技术",
+      "数据库",
+      "配置"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:48:29.094613Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.319
+}

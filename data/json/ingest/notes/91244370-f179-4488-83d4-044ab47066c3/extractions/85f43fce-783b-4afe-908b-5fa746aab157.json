@@ -1,0 +1,27 @@
+{
+  "id": "85f43fce-783b-4afe-908b-5fa746aab157",
+  "note_id": "91244370-f179-4488-83d4-044ab47066c3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "文章讨论股票估值方法，推荐个人投资者使用PE与PEG综合分析，强调净利润复合增长率与PE匹配的重要性，避免低增长低PE投资陷阱。",
+    "keywords": [
+      "股票估值",
+      "PE",
+      "PEG",
+      "复合增长率",
+      "投资陷阱"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:55:18.490261Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.321
+}

@@ -1,0 +1,28 @@
+{
+  "id": "0a3afafa-1a16-48e4-920a-289c76b386be",
+  "note_id": "6fa45ca9-e286-425b-b186-3d0cd61f9889",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Ubuntu系统下安装OpenCV的详细命令行步骤，包含依赖库安装、编译过程及Python集成。",
+    "keywords": [
+      "OpenCV",
+      "Ubuntu",
+      "Python",
+      "图像处理",
+      "安装"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "多媒体",
+      "图片"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:05:36.105728Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.329
+}

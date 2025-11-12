@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8d86c4c2-1bf2-4919-96e9-0fc17f436b28",
+      "note_id": "c585725e-2167-43fe-97ce-df6183755c27",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 使用tar+lz4/pigz+ssh更快的数据传输 -- 系统运维 -- IT技术博客大学习 -- 共学习 共进步！ updated: 2",
+        "keywords": [
+          "---",
+          "title: 使用tar+lz4/pigz+ssh更快的数据传输 -- 系统运维 -- IT技术博客大学习 -- 共学习 共进步！",
+          "updated: 2018-04-02 11:51:40Z",
+          "created: 2018-04-01 00:05:53Z",
+          "source: http://blogread.cn/it/wap/article/7048?f=wb_blogread"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:21:56.974450Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "eec00bbc-7d52-434c-99cf-387c88ff34d0",
     "note_id": "c585725e-2167-43fe-97ce-df6183755c27",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T06:21:56.974145Z",
+    "latency_seconds": 34.19643820798956,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 使用tar+lz4/pigz+ssh更快的数据传输 -- 系统运维 -- IT技术博客大学习 -- 共学习 共进步！ updated: 2",
+      "keywords": [
+        "---",
+        "title: 使用tar+lz4/pigz+ssh更快的数据传输 -- 系统运维 -- IT技术博客大学习 -- 共学习 共进步！",
+        "updated: 2018-04-02 11:51:40Z",
+        "created: 2018-04-01 00:05:53Z",
+        "source: http://blogread.cn/it/wap/article/7048?f=wb_blogread"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 5985.0,
+        "input_lines": 132.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 359.1
+      }
+    }
   }
 }

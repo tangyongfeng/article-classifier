@@ -1,0 +1,28 @@
+{
+  "id": "67bd2481-99d8-4aa5-be68-f13c6280f83a",
+  "note_id": "03bc403e-f1b7-4bb8-be89-137054a56e76",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "关于阿拉斯加航空公司常客计划的会员信息，包括注册、里程累积及会员等级相关内容。",
+    "keywords": [
+      "阿拉斯加航空",
+      "常客计划",
+      "航空里程",
+      "会员等级",
+      "飞行常客"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Frequent Flyer"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:49:57.039881Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.213
+}

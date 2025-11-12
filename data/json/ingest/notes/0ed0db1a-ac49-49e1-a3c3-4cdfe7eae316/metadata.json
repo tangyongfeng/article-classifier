@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ed95f7d1-ffc0-4bee-a8f3-128d1b671b16",
+      "note_id": "0ed0db1a-ac49-49e1-a3c3-4cdfe7eae316",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "汪京晶与王岚之子于3月8日提前20天出生，体重5斤4两，母子平安。",
+        "keywords": [
+          "新生儿",
+          "家庭喜讯",
+          "提前出生",
+          "母子平安",
+          "喜报"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Events"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:03:08.454463Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.237
+    }
+  ],
   "journal": {
     "id": "24e90922-ac45-4257-b0d7-e77ff670a984",
     "note_id": "0ed0db1a-ac49-49e1-a3c3-4cdfe7eae316",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:03:08.454308Z",
+    "latency_seconds": 17.479284250061028,
+    "attempts": 1,
+    "summary": {
+      "summary": "汪京晶与王岚之子于3月8日提前20天出生，体重5斤4两，母子平安。",
+      "keywords": [
+        "新生儿",
+        "家庭喜讯",
+        "提前出生",
+        "母子平安",
+        "喜报"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Events"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.237,
+      "metrics": {
+        "input_chars": 150.0,
+        "input_lines": 6.0,
+        "summary_chars": 33.0,
+        "summary_coverage_ratio": 0.22,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.0
+      }
+    }
   }
 }

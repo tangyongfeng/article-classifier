@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "112083fc-dcc1-4407-9abd-cd997756a789",
+      "note_id": "6f421854-5aca-415a-9770-2a0e79987e91",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "屯卦为《易经》首卦，象征万物初生，上水下雷，生机萌发但需正固守持，体现初创阶段的艰难与机遇。",
+        "keywords": [
+          "屯卦",
+          "易经",
+          "中国历史",
+          "初创阶段",
+          "上水下雷"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:03:51.342665Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.225
+    }
+  ],
   "journal": {
     "id": "36db2b17-0093-4cf0-bde5-6b8f1f7a486b",
     "note_id": "6f421854-5aca-415a-9770-2a0e79987e91",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:03:51.342488Z",
+    "latency_seconds": 61.62403133301996,
+    "attempts": 2,
+    "summary": {
+      "summary": "屯卦为《易经》首卦，象征万物初生，上水下雷，生机萌发但需正固守持，体现初创阶段的艰难与机遇。",
+      "keywords": [
+        "屯卦",
+        "易经",
+        "中国历史",
+        "初创阶段",
+        "上水下雷"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.225,
+      "metrics": {
+        "input_chars": 602.0,
+        "input_lines": 36.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.076,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 36.1
+      }
+    }
   }
 }

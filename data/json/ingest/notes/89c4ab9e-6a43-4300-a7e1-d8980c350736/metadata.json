@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "058aa7fc-53ac-4c38-81d1-e281dee5b841",
+      "note_id": "89c4ab9e-6a43-4300-a7e1-d8980c350736",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "东莞并行计算事宜涉及模拟投注程序优化、定时脚本开发、终端管理及C/S通讯程序实现，旨在提升计算效率。",
+        "keywords": [
+          "并行计算",
+          "模拟投注",
+          "定时脚本",
+          "终端管理",
+          "C/S通讯"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:23:28.175805Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.43
+    }
+  ],
   "journal": {
     "id": "39ad3ae3-bbe8-45e5-9d2f-36284dab0db8",
     "note_id": "89c4ab9e-6a43-4300-a7e1-d8980c350736",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:23:28.175635Z",
+    "latency_seconds": 38.23259670799598,
+    "attempts": 1,
+    "summary": {
+      "summary": "东莞并行计算事宜涉及模拟投注程序优化、定时脚本开发、终端管理及C/S通讯程序实现，旨在提升计算效率。",
+      "keywords": [
+        "并行计算",
+        "模拟投注",
+        "定时脚本",
+        "终端管理",
+        "C/S通讯"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.43,
+      "metrics": {
+        "input_chars": 394.0,
+        "input_lines": 20.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.127,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.6
+      }
+    }
   }
 }

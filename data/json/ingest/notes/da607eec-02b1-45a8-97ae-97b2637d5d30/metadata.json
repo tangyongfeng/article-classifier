@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "53ddecc9-905a-4356-b069-bc5e186fb665",
+      "note_id": "da607eec-02b1-45a8-97ae-97b2637d5d30",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记为Twitter平台854×833像素图片文件，属于多媒体类别下的图片子类。",
+        "keywords": [
+          "图片",
+          "像素",
+          "Twitter",
+          "媒体",
+          "文件"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体",
+          "图片"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:16:40.319994Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.243
+    }
+  ],
   "journal": {
     "id": "8943c6d7-c687-4267-9e20-92053911d817",
     "note_id": "da607eec-02b1-45a8-97ae-97b2637d5d30",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:16:40.319855Z",
+    "latency_seconds": 11.026313374983147,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记为Twitter平台854×833像素图片文件，属于多媒体类别下的图片子类。",
+      "keywords": [
+        "图片",
+        "像素",
+        "Twitter",
+        "媒体",
+        "文件"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体",
+        "图片"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.243,
+      "metrics": {
+        "input_chars": 176.0,
+        "input_lines": 6.0,
+        "summary_chars": 41.0,
+        "summary_coverage_ratio": 0.233,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.6
+      }
+    }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "id": "b1130ae6-d756-4099-954a-2d0d0c515b8d",
+  "note_id": "afd59630-f84b-4a02-84e6-b8dd9c87b281",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本笔记为国际象棋教学的第六课，内容涵盖国际象棋基本规则、开局策略及棋局分析，属于教育类学习资料。",
+    "keywords": [
+      "国际象棋",
+      "教学",
+      "规则",
+      "策略",
+      "教育"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": [
+      "Education",
+      "Games",
+      "Chess"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:16:56.706627Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.145
+}

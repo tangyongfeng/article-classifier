@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f63e0818-66e8-486d-ba29-5d0fafb970e4",
+      "note_id": "e71757c6-c98e-41ad-b191-7b93ee533b66",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "洛杉矶林肯广场酒店的旅游推荐信息。",
+        "keywords": [
+          "洛杉矶",
+          "酒店",
+          "旅游",
+          "推荐",
+          "林肯广场"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:21:51.832989Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.18
+    }
+  ],
   "journal": {
     "id": "60a3d8bf-ce55-44cb-96f1-7553fd88a7df",
     "note_id": "e71757c6-c98e-41ad-b191-7b93ee533b66",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:21:51.832732Z",
+    "latency_seconds": 34.1229617909994,
+    "attempts": 1,
+    "summary": {
+      "summary": "洛杉矶林肯广场酒店的旅游推荐信息。",
+      "keywords": [
+        "洛杉矶",
+        "酒店",
+        "旅游",
+        "推荐",
+        "林肯广场"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.18,
+      "metrics": {
+        "input_chars": 161.0,
+        "input_lines": 6.0,
+        "summary_chars": 17.0,
+        "summary_coverage_ratio": 0.106,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.7
+      }
+    }
   }
 }

@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ced85e1f-98ee-4398-a9d8-455d6818be5d",
+      "note_id": "ef13b38b-1586-46e9-a55c-7f456d7193bf",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "（空摘要）",
+        "keywords": [
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史"
+        ],
+        "new_category_suggestion": [
+          "宗教",
+          "佛教"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:08:20.542390Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.069
+    }
+  ],
   "journal": {
     "id": "06fefaeb-6db7-411c-bf08-71530e566bcc",
     "note_id": "ef13b38b-1586-46e9-a55c-7f456d7193bf",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:08:20.542232Z",
+    "latency_seconds": 61.41899799997918,
+    "attempts": 2,
+    "summary": {
+      "summary": "（空摘要）",
+      "keywords": [
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史"
+      ],
+      "new_category_suggestion": [
+        "宗教",
+        "佛教"
+      ]
+    },
+    "quality": {
+      "score": 0.069,
+      "metrics": {
+        "input_chars": 1267.0,
+        "input_lines": 7.0,
+        "summary_chars": 5.0,
+        "summary_coverage_ratio": 0.004,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 76.0
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "88980338-02d3-4237-a2fc-6da9e0d6244f",
+  "note_id": "637af76f-a38c-4e2d-8872-b8669bc6ba4b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "师卦为《易经》六十四卦之一，象征军队与纪律。爻辞强调'师出以律，否臧凶'，体现行军守法对军事成功的重要性，反映古代军事思想与道德准则。",
+    "keywords": [
+      "师卦",
+      "易经",
+      "军事",
+      "纪律",
+      "领导"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:08:21.890702Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.301
+}

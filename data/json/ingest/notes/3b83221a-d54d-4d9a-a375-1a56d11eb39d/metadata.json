@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "21e2ca3c-4a13-433c-8cdf-50848a98e25d",
+      "note_id": "3b83221a-d54d-4d9a-a375-1a56d11eb39d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记标题表示一个jpg格式的图片文件，目标语言为英语，属于多媒体内容。",
+        "keywords": [
+          "图片",
+          "jpg",
+          "文件",
+          "标题",
+          "英语"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体",
+          "图片"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:11:37.409167Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.287
+    }
+  ],
   "journal": {
     "id": "a822c50d-521d-4f82-84c6-0d3a6bd2f031",
     "note_id": "3b83221a-d54d-4d9a-a375-1a56d11eb39d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:11:37.409039Z",
+    "latency_seconds": 33.400741084013134,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记标题表示一个jpg格式的图片文件，目标语言为英语，属于多媒体内容。",
+      "keywords": [
+        "图片",
+        "jpg",
+        "文件",
+        "标题",
+        "英语"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体",
+        "图片"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.287,
+      "metrics": {
+        "input_chars": 112.0,
+        "input_lines": 5.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.321,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.7
+      }
+    }
   }
 }

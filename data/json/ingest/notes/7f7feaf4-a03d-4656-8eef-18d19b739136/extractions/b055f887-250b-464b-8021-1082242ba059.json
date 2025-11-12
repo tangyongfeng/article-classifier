@@ -1,0 +1,27 @@
+{
+  "id": "b055f887-250b-464b-8021-1082242ba059",
+  "note_id": "7f7feaf4-a03d-4656-8eef-18d19b739136",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容涉及洛杉矶成人教育机构、月子中心推荐及医疗信息，核心为社区教育与居住服务。",
+    "keywords": [
+      "成人教育",
+      "月子中心",
+      "社区学校",
+      "医疗推荐",
+      "民宿"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:32:47.491917Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.329
+}

@@ -1,0 +1,29 @@
+{
+  "id": "cb711710-9556-4d9e-89e5-7b0c7d7c7e76",
+  "note_id": "65706775-f118-467f-8156-3ba1e9b76e04",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "日本企业管理签证申请需设立营业所、雇佣2名以上日籍员工或投资500万日元以上，涉及外国公司设立、日本分公司注册及业务计划可行性，属商务创业范畴。",
+    "keywords": [
+      "企业管理签证",
+      "设立外国公司",
+      "日本分公司",
+      "公司注册",
+      "签证申请"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "创业",
+      "公司注册"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:16:19.761334Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.323
+}

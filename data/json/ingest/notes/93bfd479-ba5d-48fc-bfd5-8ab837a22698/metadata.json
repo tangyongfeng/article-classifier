@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8bc6e232-d125-4bdc-b42b-f2153e6a6ffa",
+      "note_id": "93bfd479-ba5d-48fc-bfd5-8ab837a22698",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "一首经典的中文儿童童谣，以重复数字序列如‘二八二五六’为特色，用于儿童语言启蒙和数字记忆教育。",
+        "keywords": [
+          "童谣",
+          "数字序列",
+          "儿童教育",
+          "中文",
+          "语言学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education",
+          "Language Learning"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:05:04.701309Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.157
+    }
+  ],
   "journal": {
     "id": "565a747d-2d2c-43b5-a867-dccfe303920c",
     "note_id": "93bfd479-ba5d-48fc-bfd5-8ab837a22698",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:05:04.701171Z",
+    "latency_seconds": 47.025863916031085,
+    "attempts": 1,
+    "summary": {
+      "summary": "一首经典的中文儿童童谣，以重复数字序列如‘二八二五六’为特色，用于儿童语言启蒙和数字记忆教育。",
+      "keywords": [
+        "童谣",
+        "数字序列",
+        "儿童教育",
+        "中文",
+        "语言学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education",
+        "Language Learning"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.157,
+      "metrics": {
+        "input_chars": 259.0,
+        "input_lines": 6.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.181,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.5
+      }
+    }
   }
 }

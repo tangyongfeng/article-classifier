@@ -1,0 +1,27 @@
+{
+  "id": "282fb11f-71e2-457a-b10c-9999d504e2dd",
+  "note_id": "921404cc-1300-48c3-a4ad-e1f2541fcf8c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容为一串连续数字序列，如43至96等，未提供任何主题或上下文信息。",
+    "keywords": [
+      "数字序列",
+      "列表",
+      "编号",
+      "参考",
+      "未分类"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:57:40.763554Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.131
+}

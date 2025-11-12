@@ -1,0 +1,31 @@
+{
+  "id": "87298b43-676a-4a3f-a024-280dfab7cac5",
+  "note_id": "a25b6594-0db0-4144-9c19-2fabbd270ccc",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "介绍德国留学申请的三种审核方式：团审（院校自主审核）、Test AS（学习能力考试）、APS个审，涵盖适用人群及优缺点。",
+    "keywords": [
+      "德国",
+      "院校申请",
+      "审核方式",
+      "团审",
+      "APS个审"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": [
+      "Education",
+      "Study Abroad",
+      "Application Review"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:22:24.786654Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.39
+}

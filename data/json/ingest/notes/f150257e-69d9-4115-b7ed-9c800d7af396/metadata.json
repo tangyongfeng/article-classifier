@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9190557a-ad67-420d-9abe-a0f8dcd9387d",
+      "note_id": "f150257e-69d9-4115-b7ed-9c800d7af396",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讨论中国省份地理划分的历史原因，如汉中属陕西、山海关属河北，涉及中原、华中等区域划分及其历史沿革。",
+        "keywords": [
+          "省份划分",
+          "地理划分",
+          "历史原因",
+          "行政区划",
+          "区域划分"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:16:02.695079Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.233
+    }
+  ],
   "journal": {
     "id": "f2670fc3-3a6d-4c28-911f-4300a4096937",
     "note_id": "f150257e-69d9-4115-b7ed-9c800d7af396",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:16:02.694921Z",
+    "latency_seconds": 33.508411624934524,
+    "attempts": 1,
+    "summary": {
+      "summary": "讨论中国省份地理划分的历史原因，如汉中属陕西、山海关属河北，涉及中原、华中等区域划分及其历史沿革。",
+      "keywords": [
+        "省份划分",
+        "地理划分",
+        "历史原因",
+        "行政区划",
+        "区域划分"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.233,
+      "metrics": {
+        "input_chars": 532.0,
+        "input_lines": 78.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.092,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 31.9
+      }
+    }
   }
 }

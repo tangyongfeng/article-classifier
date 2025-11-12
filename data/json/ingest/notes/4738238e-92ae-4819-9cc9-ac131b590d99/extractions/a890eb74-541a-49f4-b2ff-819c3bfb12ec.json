@@ -1,0 +1,29 @@
+{
+  "id": "a890eb74-541a-49f4-b2ff-819c3bfb12ec",
+  "note_id": "4738238e-92ae-4819-9cc9-ac131b590d99",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "喉炎雾化治疗常用药物组合：病毒唑注射液、生理盐水、地塞米松糜蛋白酶，按20毫升生理盐水各一支配比使用。",
+    "keywords": [
+      "喉炎",
+      "雾化治疗",
+      "病毒唑",
+      "地塞米松",
+      "生理盐水"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": [
+      "Health"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:19:56.466668Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.587
+}

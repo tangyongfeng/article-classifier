@@ -1,0 +1,27 @@
+{
+  "id": "5305c1ff-b593-4202-9129-7d75cf4137c1",
+  "note_id": "9e20f698-9d3e-4735-b29d-17a8b4a28b08",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "包含无效字符及简单数学运算的无意义内容",
+    "keywords": [
+      "无效字符",
+      "数学题",
+      "无意义内容",
+      "杂乱字符",
+      "测试数据"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:55:00.087325Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.095
+}

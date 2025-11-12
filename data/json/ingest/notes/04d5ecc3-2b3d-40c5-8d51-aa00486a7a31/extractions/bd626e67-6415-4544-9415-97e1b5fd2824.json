@@ -1,0 +1,27 @@
+{
+  "id": "bd626e67-6415-4544-9415-97e1b5fd2824",
+  "note_id": "04d5ecc3-2b3d-40c5-8d51-aa00486a7a31",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "推荐Coursera和Udacity平台的优质计算机课程，涵盖编译器、机器学习及函数式编程，适合不同背景学习者，免费实用。",
+    "keywords": [
+      "在线教育",
+      "计算机课程",
+      "机器学习",
+      "编译器",
+      "函数式编程"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:52:51.148902Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.381
+}

@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f895f415-e362-4731-8718-edc257fde8f0",
+      "note_id": "977f0095-74b7-4b90-9d6c-3e31d87d7936",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "待办事项包括添加回访前短信提醒、个人信息页面增加烟酒用量及称谓字段。",
+        "keywords": [
+          "短信提醒",
+          "烟酒用量",
+          "称谓",
+          "个人信息",
+          "功能添加"
+        ],
+        "action_items": [
+          "增加回访前短信提醒",
+          "个人信息首页增加烟酒用量",
+          "个人信息页增加称谓"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:22:09.425756Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.593
+    }
+  ],
   "journal": {
     "id": "54956deb-0164-4591-a2e2-0ae23f1d921d",
     "note_id": "977f0095-74b7-4b90-9d6c-3e31d87d7936",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:22:09.425583Z",
+    "latency_seconds": 68.33250687492546,
+    "attempts": 1,
+    "summary": {
+      "summary": "待办事项包括添加回访前短信提醒、个人信息页面增加烟酒用量及称谓字段。",
+      "keywords": [
+        "短信提醒",
+        "烟酒用量",
+        "称谓",
+        "个人信息",
+        "功能添加"
+      ],
+      "action_items": [
+        "增加回访前短信提醒",
+        "个人信息首页增加烟酒用量",
+        "个人信息页增加称谓"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.593,
+      "metrics": {
+        "input_chars": 111.0,
+        "input_lines": 8.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.306,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 3.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.7
+      }
+    }
   }
 }

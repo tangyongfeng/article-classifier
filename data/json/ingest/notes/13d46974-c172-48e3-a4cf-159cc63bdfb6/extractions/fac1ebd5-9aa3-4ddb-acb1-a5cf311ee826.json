@@ -1,0 +1,27 @@
+{
+  "id": "fac1ebd5-9aa3-4ddb-acb1-a5cf311ee826",
+  "note_id": "13d46974-c172-48e3-a4cf-159cc63bdfb6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "企业追求零库存策略，强调高速反应、环境一致、人力资源重要性，认为库存增加成本掩盖经营状况。",
+    "keywords": [
+      "零库存",
+      "库存管理",
+      "企业运营",
+      "高速反应",
+      "人力资源"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:16:30.856372Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.329
+}

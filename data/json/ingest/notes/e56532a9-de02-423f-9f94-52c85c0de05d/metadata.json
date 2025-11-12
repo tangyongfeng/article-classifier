@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "315acaff-f9a0-4c01-995e-af2970290f1e",
+      "note_id": "e56532a9-de02-423f-9f94-52c85c0de05d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "广告营销三层策略：冷广告（提升点击率）、暖广告（建立认知）、热广告（促成购买），成本分配60%:30%:10%，适用于产品推广。",
+        "keywords": [
+          "广告营销",
+          "三层策略",
+          "冷广告",
+          "暖广告",
+          "热广告"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:18:20.758335Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.425
+    }
+  ],
   "journal": {
     "id": "95bb1bfb-b075-4506-80fc-eee2d4dd21e6",
     "note_id": "e56532a9-de02-423f-9f94-52c85c0de05d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:18:20.758155Z",
+    "latency_seconds": 39.17215445905458,
+    "attempts": 1,
+    "summary": {
+      "summary": "广告营销三层策略：冷广告（提升点击率）、暖广告（建立认知）、热广告（促成购买），成本分配60%:30%:10%，适用于产品推广。",
+      "keywords": [
+        "广告营销",
+        "三层策略",
+        "冷广告",
+        "暖广告",
+        "热广告"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.425,
+      "metrics": {
+        "input_chars": 546.0,
+        "input_lines": 21.0,
+        "summary_chars": 64.0,
+        "summary_coverage_ratio": 0.117,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 32.8
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ce61d3cb-d110-45dd-ad9b-b9aa161c8839",
+      "note_id": "14ae10f6-97cf-4a0d-8cf8-7e5c2e903938",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "申诉人因申根签证被拒（指威胁申根国家），解释妻子在德国注册公司未完成手续需赴德处理，女儿手术需照顾，主动提交证据申诉。",
+        "keywords": [
+          "签证",
+          "公司注册",
+          "德国",
+          "商业合作",
+          "家庭责任"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:18:32.182365Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.202
+    }
+  ],
   "journal": {
     "id": "382ce366-b36d-42ed-ad6e-92b6abe413a4",
     "note_id": "14ae10f6-97cf-4a0d-8cf8-7e5c2e903938",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:18:32.182217Z",
+    "latency_seconds": 29.829090125043876,
+    "attempts": 1,
+    "summary": {
+      "summary": "申诉人因申根签证被拒（指威胁申根国家），解释妻子在德国注册公司未完成手续需赴德处理，女儿手术需照顾，主动提交证据申诉。",
+      "keywords": [
+        "签证",
+        "公司注册",
+        "德国",
+        "商业合作",
+        "家庭责任"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.202,
+      "metrics": {
+        "input_chars": 1989.0,
+        "input_lines": 28.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.03,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 119.3
+      }
+    }
   }
 }

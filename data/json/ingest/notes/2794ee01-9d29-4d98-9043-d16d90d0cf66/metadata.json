@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b71b50a7-9ad5-4093-b951-161090ffa1c8",
+      "note_id": "2794ee01-9d29-4d98-9043-d16d90d0cf66",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "创建Monday.com项目管理板子的模板链接，包含电话号码和欢迎信息，用于团队协作工具的配置。",
+        "keywords": [
+          "项目管理",
+          "团队协作",
+          "模板",
+          "创建",
+          "Monday.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:49:04.487826Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.226
+    }
+  ],
   "journal": {
     "id": "f5625946-8ea5-4ee9-8be1-b39b31af6ebc",
     "note_id": "2794ee01-9d29-4d98-9043-d16d90d0cf66",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:49:04.487670Z",
+    "latency_seconds": 42.68845274997875,
+    "attempts": 1,
+    "summary": {
+      "summary": "创建Monday.com项目管理板子的模板链接，包含电话号码和欢迎信息，用于团队协作工具的配置。",
+      "keywords": [
+        "项目管理",
+        "团队协作",
+        "模板",
+        "创建",
+        "Monday.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.226,
+      "metrics": {
+        "input_chars": 242.0,
+        "input_lines": 9.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.198,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 14.5
+      }
+    }
   }
 }

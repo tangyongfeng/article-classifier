@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1fdd65cc-0c68-4a25-b002-ff3a9772a639",
+      "note_id": "b66e58f9-a704-4c47-a22c-a0a2b8668b29",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "产品迭代评审需将标准更新至2013版，并优化个人信息填写流程，提升用户体验。",
+        "keywords": [
+          "迭代评审",
+          "国家标准",
+          "2013版",
+          "个人信息",
+          "快速填写"
+        ],
+        "action_items": [
+          "更新标准至2013版",
+          "增加个人信息快速填写功能"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:43:51.050410Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.51
+    }
+  ],
   "journal": {
     "id": "6485f105-7ab1-4d35-a807-cbd8d94444f7",
     "note_id": "b66e58f9-a704-4c47-a22c-a0a2b8668b29",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:43:51.050247Z",
+    "latency_seconds": 32.63045649998821,
+    "attempts": 1,
+    "summary": {
+      "summary": "产品迭代评审需将标准更新至2013版，并优化个人信息填写流程，提升用户体验。",
+      "keywords": [
+        "迭代评审",
+        "国家标准",
+        "2013版",
+        "个人信息",
+        "快速填写"
+      ],
+      "action_items": [
+        "更新标准至2013版",
+        "增加个人信息快速填写功能"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.51,
+      "metrics": {
+        "input_chars": 139.0,
+        "input_lines": 7.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.273,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 2.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.3
+      }
+    }
   }
 }

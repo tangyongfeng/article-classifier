@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "46cf0868-e269-4fd8-b16f-a50168a24ed5",
+      "note_id": "c3acbf5e-ff85-4460-9bde-1b6e7fd18123",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 无标题笔记 updated: 2021-06-21 21:57:46Z created: 2021-06-17 20:19:40Z aut",
+        "keywords": [
+          "---",
+          "title: 无标题笔记",
+          "updated: 2021-06-21 21:57:46Z",
+          "created: 2021-06-17 20:19:40Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:03:01.951006Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "9f578f20-ddce-4ea7-8e45-0c281c712e7d",
     "note_id": "c3acbf5e-ff85-4460-9bde-1b6e7fd18123",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T06:03:01.950468Z",
+    "latency_seconds": 32.901934167020954,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 无标题笔记 updated: 2021-06-21 21:57:46Z created: 2021-06-17 20:19:40Z aut",
+      "keywords": [
+        "---",
+        "title: 无标题笔记",
+        "updated: 2021-06-21 21:57:46Z",
+        "created: 2021-06-17 20:19:40Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 9625.0,
+        "input_lines": 471.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.008,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 577.5
+      }
+    }
   }
 }

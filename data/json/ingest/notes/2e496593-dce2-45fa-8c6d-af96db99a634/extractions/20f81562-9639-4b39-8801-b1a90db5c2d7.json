@@ -1,0 +1,29 @@
+{
+  "id": "20f81562-9639-4b39-8801-b1a90db5c2d7",
+  "note_id": "2e496593-dce2-45fa-8c6d-af96db99a634",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本笔记包含德语身体部位（如头、脖子、手）及常见健康症状（如感冒、发烧、咳嗽）的词汇列表。",
+    "keywords": [
+      "身体",
+      "德语",
+      "词汇",
+      "感冒",
+      "咳嗽"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Vocabulary"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:16:15.491161Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.331
+}

@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f5d6a23b-ae3a-4c2b-9c99-672c12b61d48",
+      "note_id": "f771ba0c-0f00-4dbb-8373-e4151b81fd0b",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 印尼镍铁项目可行性报告 - 百度文库 updated: 2019-10-20 07:21:58Z created: 2019-10-20 ",
+        "keywords": [
+          "---",
+          "title: 印尼镍铁项目可行性报告 - 百度文库",
+          "updated: 2019-10-20 07:21:58Z",
+          "created: 2019-10-20 07:21:58Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:40:11.752343Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "f3d5e4ca-c069-4694-b94f-bf3c262e4015",
     "note_id": "f771ba0c-0f00-4dbb-8373-e4151b81fd0b",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T10:40:11.751784Z",
+    "latency_seconds": 19.716922334046103,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 印尼镍铁项目可行性报告 - 百度文库 updated: 2019-10-20 07:21:58Z created: 2019-10-20 ",
+      "keywords": [
+        "---",
+        "title: 印尼镍铁项目可行性报告 - 百度文库",
+        "updated: 2019-10-20 07:21:58Z",
+        "created: 2019-10-20 07:21:58Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 11083.0,
+        "input_lines": 671.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.007,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 665.0
+      }
+    }
   }
 }

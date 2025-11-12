@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "aec83334-90cc-4f9f-bc0f-b2f43c849759",
+      "note_id": "28fe64bf-1349-4fd7-91ef-265e0ede6fef",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记包含手机号码15258985193，属于个人信息管理，现有分类体系中无直接匹配项，归入未分类。",
+        "keywords": [
+          "手机号码",
+          "联系方式",
+          "通讯",
+          "个人信息",
+          "数字"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:57:29.869939Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.393
+    }
+  ],
   "journal": {
     "id": "dacc826a-2df3-428d-a3d5-9a08526393f8",
     "note_id": "28fe64bf-1349-4fd7-91ef-265e0ede6fef",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:57:29.869769Z",
+    "latency_seconds": 19.572637625038624,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记包含手机号码15258985193，属于个人信息管理，现有分类体系中无直接匹配项，归入未分类。",
+      "keywords": [
+        "手机号码",
+        "联系方式",
+        "通讯",
+        "个人信息",
+        "数字"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.393,
+      "metrics": {
+        "input_chars": 92.0,
+        "input_lines": 6.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.533,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.5
+      }
+    }
   }
 }

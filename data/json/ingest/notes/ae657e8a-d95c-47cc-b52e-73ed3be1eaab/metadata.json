@@ -67,7 +67,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "087b8a40-3b6a-47fc-b2df-d8337f451321",
+      "note_id": "ae657e8a-d95c-47cc-b52e-73ed3be1eaab",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供Python连接MySQL执行SQL查询并返回字典格式结果的代码示例。",
+        "keywords": [
+          "数据库",
+          "Python",
+          "SQL",
+          "字典",
+          "结果集"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "数据库",
+          "Python"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:07:09.241390Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.373
+    }
+  ],
   "journal": {
     "id": "31eb96f6-f79c-4ad2-8a71-e06b6ecb8bdb",
     "note_id": "ae657e8a-d95c-47cc-b52e-73ed3be1eaab",
@@ -90,5 +122,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:07:09.241186Z",
+    "latency_seconds": 46.47643733397126,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供Python连接MySQL执行SQL查询并返回字典格式结果的代码示例。",
+      "keywords": [
+        "数据库",
+        "Python",
+        "SQL",
+        "字典",
+        "结果集"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "数据库",
+        "Python"
+      ]
+    },
+    "quality": {
+      "score": 0.373,
+      "metrics": {
+        "input_chars": 2797.0,
+        "input_lines": 54.0,
+        "summary_chars": 37.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 167.8
+      }
+    }
   }
 }

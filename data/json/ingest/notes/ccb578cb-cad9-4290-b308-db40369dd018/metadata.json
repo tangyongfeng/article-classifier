@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "55c23cf2-768e-4e41-982d-ad3adde09a4c",
+      "note_id": "ccb578cb-cad9-4290-b308-db40369dd018",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Chrome DevTools Recorder功能可录制网页交互操作并生成YAML配置，用于自动化测试，提升测试稳定性与效率。",
+        "keywords": [
+          "Chrome DevTools",
+          "Recorder",
+          "自动化测试",
+          "网页交互",
+          "性能分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:08:58.578545Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.289
+    }
+  ],
   "journal": {
     "id": "65a3240e-d1ec-46ce-9a91-431b7cc0e943",
     "note_id": "ccb578cb-cad9-4290-b308-db40369dd018",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:08:58.578381Z",
+    "latency_seconds": 15.337967792060226,
+    "attempts": 1,
+    "summary": {
+      "summary": "Chrome DevTools Recorder功能可录制网页交互操作并生成YAML配置，用于自动化测试，提升测试稳定性与效率。",
+      "keywords": [
+        "Chrome DevTools",
+        "Recorder",
+        "自动化测试",
+        "网页交互",
+        "性能分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.289,
+      "metrics": {
+        "input_chars": 766.0,
+        "input_lines": 30.0,
+        "summary_chars": 64.0,
+        "summary_coverage_ratio": 0.084,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 46.0
+      }
+    }
   }
 }

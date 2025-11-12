@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "440eb2c9-3245-480c-9dcf-41fd5c03e869",
+      "note_id": "65fb5540-9eba-4cc2-89be-cb9dfb350e7e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "短信压力测试工具相关笔记，涉及短信轰炸平台、测试功能及实用工具分类，内容聚焦技术测试而非语言、金融等类别。",
+        "keywords": [
+          "短信压力测试",
+          "短信轰炸",
+          "测试平台",
+          "实用工具",
+          "技术测试"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:18:54.461829Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.288
+    }
+  ],
   "journal": {
     "id": "ad6aaa3a-74fb-4eaf-b1cf-ab5a2df1c8da",
     "note_id": "65fb5540-9eba-4cc2-89be-cb9dfb350e7e",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:18:54.461673Z",
+    "latency_seconds": 19.757962750038132,
+    "attempts": 2,
+    "summary": {
+      "summary": "短信压力测试工具相关笔记，涉及短信轰炸平台、测试功能及实用工具分类，内容聚焦技术测试而非语言、金融等类别。",
+      "keywords": [
+        "短信压力测试",
+        "短信轰炸",
+        "测试平台",
+        "实用工具",
+        "技术测试"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.288,
+      "metrics": {
+        "input_chars": 649.0,
+        "input_lines": 67.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.082,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 38.9
+      }
+    }
   }
 }

@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "35d61a79-ceb9-4d50-8738-57d34455d3cd",
+      "note_id": "fcefb9fc-0245-4c12-a927-90def7d9a452",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "用户提交申诉5周后，客服道歉延误，承诺本周内给出结果。",
+        "keywords": [
+          "申诉",
+          "客服",
+          "延误",
+          "结果",
+          "本周"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": [
+          "Social",
+          "Customer Service"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:14:22.415016Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.324
+    }
+  ],
   "journal": {
     "id": "abbb0238-ec71-43cd-a5c9-4280269d13bb",
     "note_id": "fcefb9fc-0245-4c12-a927-90def7d9a452",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:14:22.414843Z",
+    "latency_seconds": 38.08982770796865,
+    "attempts": 1,
+    "summary": {
+      "summary": "用户提交申诉5周后，客服道歉延误，承诺本周内给出结果。",
+      "keywords": [
+        "申诉",
+        "客服",
+        "延误",
+        "结果",
+        "本周"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": [
+        "Social",
+        "Customer Service"
+      ]
+    },
+    "quality": {
+      "score": 0.324,
+      "metrics": {
+        "input_chars": 174.0,
+        "input_lines": 11.0,
+        "summary_chars": 27.0,
+        "summary_coverage_ratio": 0.155,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.4
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "e4b9315f-a2b0-49c3-ac95-416eb982b6bd",
+  "note_id": "c12a8b9d-bd9b-4266-95ce-b721714de292",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "分析视频彩票行业的发展前景，涵盖市场趋势、政策影响及潜在增长点，涉及金融与博彩领域的交叉分析。",
+    "keywords": [
+      "视频彩票",
+      "发展前景",
+      "博彩业",
+      "金融分析",
+      "市场趋势"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:54:25.326889Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.379
+}

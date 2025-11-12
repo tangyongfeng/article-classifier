@@ -1,0 +1,28 @@
+{
+  "id": "d6243e8a-cf2b-48e2-b1cf-033bce993cae",
+  "note_id": "d0185f0a-92e6-4972-9eea-9b5a78429423",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "万里政治遗嘱反思建国60年未变事实，如中国共产党领导、无政党法，呼吁执政党应有反思勇气，公开讨论基本事实。",
+    "keywords": [
+      "政治遗嘱",
+      "中国共产党",
+      "政党制度",
+      "历史反思",
+      "基本事实"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:27:18.439777Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.316
+}

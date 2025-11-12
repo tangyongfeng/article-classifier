@@ -1,0 +1,27 @@
+{
+  "id": "f45e5de4-74f6-4a89-836c-ef062b5acf75",
+  "note_id": "337c9afb-c004-4b91-ba06-f214564d49f6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "通过Tapjoy网站免费获取iOS游戏内购道具，无需越狱，安装配置文件后下载指定应用赚取道具。",
+    "keywords": [
+      "Tapjoy",
+      "iOS",
+      "游戏内购",
+      "免费道具",
+      "App Store"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:47:34.201907Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.269
+}

@@ -1,0 +1,28 @@
+{
+  "id": "7669e0d5-88e9-4a59-9a4c-185c6c5c9fc5",
+  "note_id": "4303d987-c53e-4fb8-be3b-b22633f707b7",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美国医药福利管理公司Express Scripts Inc及其中国分公司益赛瑞普的业务、合资公司成立及2012年停业事件概述。",
+    "keywords": [
+      "医药福利管理",
+      "合资公司",
+      "美国企业",
+      "中国分公司",
+      "药品成本管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:40:24.655127Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.208
+}

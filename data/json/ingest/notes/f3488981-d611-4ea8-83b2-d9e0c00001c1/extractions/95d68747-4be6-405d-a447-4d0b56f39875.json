@@ -1,0 +1,29 @@
+{
+  "id": "95d68747-4be6-405d-a447-4d0b56f39875",
+  "note_id": "f3488981-d611-4ea8-83b2-d9e0c00001c1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语发音规则详解，包括a、ä、o、ö的长音短音区分，涵盖辅音数量与长音标志规则。",
+    "keywords": [
+      "德语",
+      "发音",
+      "长音",
+      "短音",
+      "规则"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:26:11.979306Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.302
+}

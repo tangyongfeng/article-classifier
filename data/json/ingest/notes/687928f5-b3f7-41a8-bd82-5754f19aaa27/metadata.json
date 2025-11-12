@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9f2e3cfe-a9c5-41d6-be15-ab9d7561a8a3",
+      "note_id": "687928f5-b3f7-41a8-bd82-5754f19aaa27",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "20个生活幽默笑话，涵盖校园趣事、社交误会、语言梗等日常趣事，风格轻松诙谐。",
+        "keywords": [
+          "笑话",
+          "幽默",
+          "生活趣事",
+          "语言误会",
+          "校园日常"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": [
+          "Social",
+          "幽默"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:33:08.581831Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.138
+    }
+  ],
   "journal": {
     "id": "c9fce24a-dfd9-419f-a13d-5a18d2aacc4e",
     "note_id": "687928f5-b3f7-41a8-bd82-5754f19aaa27",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:33:08.581661Z",
+    "latency_seconds": 38.330756166018546,
+    "attempts": 1,
+    "summary": {
+      "summary": "20个生活幽默笑话，涵盖校园趣事、社交误会、语言梗等日常趣事，风格轻松诙谐。",
+      "keywords": [
+        "笑话",
+        "幽默",
+        "生活趣事",
+        "语言误会",
+        "校园日常"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": [
+        "Social",
+        "幽默"
+      ]
+    },
+    "quality": {
+      "score": 0.138,
+      "metrics": {
+        "input_chars": 1704.0,
+        "input_lines": 29.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.022,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 102.2
+      }
+    }
   }
 }

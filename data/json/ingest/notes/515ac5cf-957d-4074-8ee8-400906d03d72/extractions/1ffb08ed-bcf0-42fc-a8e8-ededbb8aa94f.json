@@ -1,0 +1,27 @@
+{
+  "id": "1ffb08ed-bcf0-42fc-a8e8-ededbb8aa94f",
+  "note_id": "515ac5cf-957d-4074-8ee8-400906d03d72",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "vim编辑器中使用'sort u'命令可快速删除重复行，操作简便高效，无需其他步骤。",
+    "keywords": [
+      "vim",
+      "删除重复行",
+      "sort u",
+      "命令",
+      "编辑器"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:36:54.956442Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.399
+}

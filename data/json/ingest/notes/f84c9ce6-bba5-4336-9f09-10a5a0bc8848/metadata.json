@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "664fbd1d-0345-4105-82bc-5f23abdb4f8e",
+      "note_id": "f84c9ce6-bba5-4336-9f09-10a5a0bc8848",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "母亲催促女儿带男友回家，女儿回应男友嫌家穷，母亲建议去男友家，讽刺家庭经济状况，体现家庭互动中的幽默与现实矛盾。",
+        "keywords": [
+          "家庭关系",
+          "父母",
+          "恋爱",
+          "经济",
+          "幽默"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Discussions"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:51:21.654690Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.173
+    }
+  ],
   "journal": {
     "id": "84e423fb-7d73-4499-b819-4db34b699668",
     "note_id": "f84c9ce6-bba5-4336-9f09-10a5a0bc8848",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:51:21.654506Z",
+    "latency_seconds": 22.274949249927886,
+    "attempts": 1,
+    "summary": {
+      "summary": "母亲催促女儿带男友回家，女儿回应男友嫌家穷，母亲建议去男友家，讽刺家庭经济状况，体现家庭互动中的幽默与现实矛盾。",
+      "keywords": [
+        "家庭关系",
+        "父母",
+        "恋爱",
+        "经济",
+        "幽默"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Discussions"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.173,
+      "metrics": {
+        "input_chars": 264.0,
+        "input_lines": 13.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.212,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.8
+      }
+    }
   }
 }

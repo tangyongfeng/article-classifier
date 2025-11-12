@@ -1,0 +1,28 @@
+{
+  "id": "9aef13ff-e5e4-4bdd-b55f-0a65848303b1",
+  "note_id": "6f4e48d2-5d78-488a-ae80-2ee94b80bb4e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "系统扩展性测试显示调整机器启动顺序可优化性能，CPU和IO是关键瓶颈，登录操作影响显著，需定期清理数据以维持线性度。",
+    "keywords": [
+      "扩展性",
+      "启动顺序",
+      "CPU使用",
+      "IO瓶颈",
+      "登录操作"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:04:15.368720Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.278
+}

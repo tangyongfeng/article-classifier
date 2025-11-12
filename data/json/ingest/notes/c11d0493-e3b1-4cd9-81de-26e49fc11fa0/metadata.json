@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6dd87081-12da-4df4-8a54-9a975de0048c",
+      "note_id": "c11d0493-e3b1-4cd9-81de-26e49fc11fa0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记标题为2GhlmcL1HblsqT，作者tangyongfeng@gmail.com，包含AWS Amazon链接和邮箱信息，内容无实质描述。",
+        "keywords": [
+          "笔记",
+          "标题",
+          "AWS",
+          "Amazon",
+          "邮箱"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:54:03.698307Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.397
+    }
+  ],
   "journal": {
     "id": "9b94e6e4-902c-4ec7-b46f-3d4295b3bf9a",
     "note_id": "c11d0493-e3b1-4cd9-81de-26e49fc11fa0",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:54:03.698147Z",
+    "latency_seconds": 33.048565500066616,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记标题为2GhlmcL1HblsqT，作者tangyongfeng@gmail.com，包含AWS Amazon链接和邮箱信息，内容无实质描述。",
+      "keywords": [
+        "笔记",
+        "标题",
+        "AWS",
+        "Amazon",
+        "邮箱"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.397,
+      "metrics": {
+        "input_chars": 174.0,
+        "input_lines": 9.0,
+        "summary_chars": 73.0,
+        "summary_coverage_ratio": 0.42,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 10.4
+      }
+    }
   }
 }

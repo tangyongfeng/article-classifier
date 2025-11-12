@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "302f4eae-8846-41b7-a0c8-b72bec78f43c",
+      "note_id": "53e8536b-88e5-4f91-97df-99f415160354",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "游戏开发前期修改费用总计30万欧元，提供技术支持占股份50%，未来成本将随时间降低。",
+        "keywords": [
+          "游戏",
+          "报价",
+          "技术支持",
+          "股份",
+          "成本"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:55:55.804402Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.505
+    }
+  ],
   "journal": {
     "id": "611cc57d-ac52-4d9c-97f8-21a64162fbc9",
     "note_id": "53e8536b-88e5-4f91-97df-99f415160354",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:55:55.804242Z",
+    "latency_seconds": 14.221475042053498,
+    "attempts": 1,
+    "summary": {
+      "summary": "游戏开发前期修改费用总计30万欧元，提供技术支持占股份50%，未来成本将随时间降低。",
+      "keywords": [
+        "游戏",
+        "报价",
+        "技术支持",
+        "股份",
+        "成本"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.505,
+      "metrics": {
+        "input_chars": 152.0,
+        "input_lines": 11.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.276,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.1
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ab7f4ea4-0483-4bfb-9378-ac5a7e7b6e55",
+      "note_id": "339cbfd6-6358-4a1b-97ee-6cc13a93a698",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "申根签证申请所需材料包括社保、个税、IT技能证书、名片、申诉信、信用卡账单、租车订单、居住证、房产证明及公司简介。",
+        "keywords": [
+          "申根签证",
+          "社保",
+          "个税",
+          "信用卡账单",
+          "公司简介"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:48:46.095864Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.516
+    }
+  ],
   "journal": {
     "id": "57eecbfe-0504-4238-a182-41fc703cc537",
     "note_id": "339cbfd6-6358-4a1b-97ee-6cc13a93a698",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:48:46.095676Z",
+    "latency_seconds": 28.19313508400228,
+    "attempts": 1,
+    "summary": {
+      "summary": "申根签证申请所需材料包括社保、个税、IT技能证书、名片、申诉信、信用卡账单、租车订单、居住证、房产证明及公司简介。",
+      "keywords": [
+        "申根签证",
+        "社保",
+        "个税",
+        "信用卡账单",
+        "公司简介"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.516,
+      "metrics": {
+        "input_chars": 191.0,
+        "input_lines": 16.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.298,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.5
+      }
+    }
   }
 }

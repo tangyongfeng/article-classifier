@@ -1,0 +1,28 @@
+{
+  "id": "edac6858-80c1-4e82-a3d7-a7f6a7526506",
+  "note_id": "0ed99086-56b8-45f2-94d4-d48f1f8bfc71",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "颐卦为《易经》第27卦，阐释养生之道，强调养正则吉，慎言语节饮食，以达到道德修养与生活和谐。",
+    "keywords": [
+      "颐卦",
+      "易经",
+      "养正",
+      "节饮食",
+      "生活修养"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展",
+      "生活规划"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:05:30.491287Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.314
+}

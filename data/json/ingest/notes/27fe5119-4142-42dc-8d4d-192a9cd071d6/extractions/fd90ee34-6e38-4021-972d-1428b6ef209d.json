@@ -1,0 +1,29 @@
+{
+  "id": "fd90ee34-6e38-4021-972d-1428b6ef209d",
+  "note_id": "27fe5119-4142-42dc-8d4d-192a9cd071d6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "以太坊白皮书阐述了基于区块链的去中心化应用平台，扩展了比特币的区块链技术，支持智能合约与分布式应用开发。",
+    "keywords": [
+      "以太坊",
+      "区块链",
+      "智能合约",
+      "去中心化",
+      "分布式应用"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新",
+      "区块链应用"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:51:44.557213Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.375
+}

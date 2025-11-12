@@ -1,0 +1,27 @@
+{
+  "id": "8874177f-d1e9-4268-8784-78a75ed7e409",
+  "note_id": "d54cde31-7f5e-4ca2-b589-1612aecb4183",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "圣康拉德学校，拥有300名学生和24名教师，标签包括音乐和私人游泳池。",
+    "keywords": [
+      "学校",
+      "学生",
+      "教师",
+      "音乐",
+      "游泳池"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:54:16.118794Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.355
+}

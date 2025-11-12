@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9ed950e1-93b3-4235-b511-bbc45d29972e",
+      "note_id": "a119d996-90fb-46a1-b48f-a6f894bd5038",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供免费视频制作指导网站，涵盖画面、声音、特效、动画及技术参数等实用内容。",
+        "keywords": [
+          "视频制作",
+          "画面指导",
+          "声音处理",
+          "特效应用",
+          "字幕设计"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:11:33.428625Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.197
+    }
+  ],
   "journal": {
     "id": "5355578a-7f41-4a62-bde9-b7764ead4ea3",
     "note_id": "a119d996-90fb-46a1-b48f-a6f894bd5038",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:11:33.428414Z",
+    "latency_seconds": 14.784899082966149,
+    "attempts": 3,
+    "summary": {
+      "summary": "提供免费视频制作指导网站，涵盖画面、声音、特效、动画及技术参数等实用内容。",
+      "keywords": [
+        "视频制作",
+        "画面指导",
+        "声音处理",
+        "特效应用",
+        "字幕设计"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.197,
+      "metrics": {
+        "input_chars": 262.0,
+        "input_lines": 7.0,
+        "summary_chars": 37.0,
+        "summary_coverage_ratio": 0.141,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.7
+      }
+    }
   }
 }

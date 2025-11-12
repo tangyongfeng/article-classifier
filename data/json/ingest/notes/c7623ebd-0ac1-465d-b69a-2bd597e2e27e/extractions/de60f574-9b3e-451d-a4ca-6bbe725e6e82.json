@@ -1,0 +1,27 @@
+{
+  "id": "de60f574-9b3e-451d-a4ca-6bbe725e6e82",
+  "note_id": "c7623ebd-0ac1-465d-b69a-2bd597e2e27e",
+  "extractor": "llm_enhance:v0#fallback",
+  "payload": {
+    "summary": "--- title: 我的爸妈是奇葩 updated: 2014-04-01 05:19:17Z created: 2014-04-01 05:19:02Z s",
+    "keywords": [
+      "---",
+      "title: 我的爸妈是奇葩",
+      "updated: 2014-04-01 05:19:17Z",
+      "created: 2014-04-01 05:19:02Z",
+      "source: >-"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "fallback",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:35:31.227386Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.15
+}

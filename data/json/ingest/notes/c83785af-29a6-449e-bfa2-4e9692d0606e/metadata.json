@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "444f0aab-9553-4bed-b2e0-43159200314a",
+      "note_id": "c83785af-29a6-449e-bfa2-4e9692d0606e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容为德语'红色围巾'的词汇，属于德语学习中的词汇分类。",
+        "keywords": [
+          "德语",
+          "词汇",
+          "红领巾",
+          "学习",
+          "围巾"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:43:42.730797Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.281
+    }
+  ],
   "journal": {
     "id": "1785dfa3-6650-4e7d-8fa1-173085ac6307",
     "note_id": "c83785af-29a6-449e-bfa2-4e9692d0606e",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:43:42.730642Z",
+    "latency_seconds": 25.586010625003837,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容为德语'红色围巾'的词汇，属于德语学习中的词汇分类。",
+      "keywords": [
+        "德语",
+        "词汇",
+        "红领巾",
+        "学习",
+        "围巾"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.281,
+      "metrics": {
+        "input_chars": 97.0,
+        "input_lines": 6.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.309,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.8
+      }
+    }
   }
 }

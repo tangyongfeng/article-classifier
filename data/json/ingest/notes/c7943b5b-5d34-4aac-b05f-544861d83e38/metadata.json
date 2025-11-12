@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "63058ab1-c029-4e1f-8761-4d94eb35b665",
+      "note_id": "c7943b5b-5d34-4aac-b05f-544861d83e38",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 欧盟蓝卡FAQ - 日记 - 豆瓣 updated: 2019-03-14 21:52:52Z created: 2019-03-14 2",
+        "keywords": [
+          "---",
+          "title: 欧盟蓝卡FAQ - 日记 - 豆瓣",
+          "updated: 2019-03-14 21:52:52Z",
+          "created: 2019-03-14 21:52:52Z",
+          "source: http://m.douban.com/note/632619132/"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:37:29.122178Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "56a57053-8900-4ce4-80e6-8fb99c58a252",
     "note_id": "c7943b5b-5d34-4aac-b05f-544861d83e38",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T06:37:29.120790Z",
+    "latency_seconds": 22.71857283299323,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 欧盟蓝卡FAQ - 日记 - 豆瓣 updated: 2019-03-14 21:52:52Z created: 2019-03-14 2",
+      "keywords": [
+        "---",
+        "title: 欧盟蓝卡FAQ - 日记 - 豆瓣",
+        "updated: 2019-03-14 21:52:52Z",
+        "created: 2019-03-14 21:52:52Z",
+        "source: http://m.douban.com/note/632619132/"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 32375.0,
+        "input_lines": 427.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.002,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 1942.5
+      }
+    }
   }
 }

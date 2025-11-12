@@ -1,0 +1,28 @@
+{
+  "id": "b90f5253-6ea4-4112-af0c-ddc163bee657",
+  "note_id": "7e64c3de-0a1b-432b-b8dd-caa9f71720e6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "简历搜索笔记，关键词电子病历，可能为误写，实际应与求职相关。",
+    "keywords": [
+      "简历",
+      "搜索",
+      "电子病历",
+      "求职",
+      "招聘"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展",
+      "生活规划"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:23:27.752930Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.413
+}

@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "25009bde-c551-443d-bcf4-dfb6d6098590",
+      "note_id": "84e34952-5255-4a7a-9308-4c06218bac5e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "亚马逊提供咖啡机回收服务，需符合WEEE条款，最大重量限制为30公斤。",
+        "keywords": [
+          "咖啡机",
+          "回收",
+          "WEEE",
+          "亚马逊",
+          "电子设备"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "商务",
+          "回收服务"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:56:12.491780Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.373
+    }
+  ],
   "journal": {
     "id": "3b21bf5e-9ce6-4bdc-b35f-f5e3a427cf47",
     "note_id": "84e34952-5255-4a7a-9308-4c06218bac5e",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:56:12.491620Z",
+    "latency_seconds": 42.5742622500984,
+    "attempts": 1,
+    "summary": {
+      "summary": "亚马逊提供咖啡机回收服务，需符合WEEE条款，最大重量限制为30公斤。",
+      "keywords": [
+        "咖啡机",
+        "回收",
+        "WEEE",
+        "亚马逊",
+        "电子设备"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "商务",
+        "回收服务"
+      ]
+    },
+    "quality": {
+      "score": 0.373,
+      "metrics": {
+        "input_chars": 266.0,
+        "input_lines": 20.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.132,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.0
+      }
+    }
   }
 }

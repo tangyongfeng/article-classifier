@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d8875ff1-526e-41ff-8ce6-c9a78b7c7a9d",
+      "note_id": "232e02e3-a4ab-43d9-8ca6-eb6546cd0d1a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "在德国日常消费中，Edeka G&G品牌大米口感香甜糯滑，价格每公斤1欧元，性价比高于亚洲超市大米。",
+        "keywords": [
+          "德国",
+          "大米",
+          "Edeka",
+          "价格",
+          "消费"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:36:41.671566Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.457
+    }
+  ],
   "journal": {
     "id": "fae8d2b2-d659-4027-b546-ec92453722db",
     "note_id": "232e02e3-a4ab-43d9-8ca6-eb6546cd0d1a",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:36:41.671342Z",
+    "latency_seconds": 46.27207512501627,
+    "attempts": 1,
+    "summary": {
+      "summary": "在德国日常消费中，Edeka G&G品牌大米口感香甜糯滑，价格每公斤1欧元，性价比高于亚洲超市大米。",
+      "keywords": [
+        "德国",
+        "大米",
+        "Edeka",
+        "价格",
+        "消费"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.457,
+      "metrics": {
+        "input_chars": 166.0,
+        "input_lines": 6.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.301,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.0
+      }
+    }
   }
 }

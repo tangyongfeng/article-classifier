@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2376830d-70db-4045-be1d-ead04258598c",
+      "note_id": "3fc981b3-35d0-4ef0-ad58-48de849c567b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "可儿喜欢的日本美食和游玩体验笔记，记录对日本旅行中餐饮与活动的喜好。",
+        "keywords": [
+          "日本",
+          "美食",
+          "游玩",
+          "旅行",
+          "体验"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:26:10.758612Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.22
+    }
+  ],
   "journal": {
     "id": "5fda087d-66af-4602-a2a1-16294ff23eda",
     "note_id": "3fc981b3-35d0-4ef0-ad58-48de849c567b",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:26:10.758447Z",
+    "latency_seconds": 26.333207790972665,
+    "attempts": 1,
+    "summary": {
+      "summary": "可儿喜欢的日本美食和游玩体验笔记，记录对日本旅行中餐饮与活动的喜好。",
+      "keywords": [
+        "日本",
+        "美食",
+        "游玩",
+        "旅行",
+        "体验"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.22,
+      "metrics": {
+        "input_chars": 183.0,
+        "input_lines": 12.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.186,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.0
+      }
+    }
   }
 }

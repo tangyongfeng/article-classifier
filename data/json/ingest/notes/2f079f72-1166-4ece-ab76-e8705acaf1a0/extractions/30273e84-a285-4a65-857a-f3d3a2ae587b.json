@@ -1,0 +1,28 @@
+{
+  "id": "30273e84-a285-4a65-857a-f3d3a2ae587b",
+  "note_id": "2f079f72-1166-4ece-ab76-e8705acaf1a0",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "2013年工作目标聚焦游戏服务器标准制定、彩民行为调研、国际化开放标准G2S及政府监管方式研究。",
+    "keywords": [
+      "游戏服务器",
+      "彩民调研",
+      "国际化",
+      "G2S",
+      "政府监管"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:20:13.183146Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.377
+}

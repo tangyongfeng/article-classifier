@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "894e15a0-d867-4eb3-9129-d9c19c702a40",
+      "note_id": "aafa679d-6979-4f5e-a351-3493478804c8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "在线用户指同时在线人数，并发用户指同时请求服务器的用户数，通常并发与在线比例为5%-20%。例如，注册用户10万，同时在线1万，但并发仅约1000人。",
+        "keywords": [
+          "在线用户",
+          "并发用户",
+          "注册用户",
+          "比例",
+          "服务器请求"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "商务",
+          "商务 > 用户分析"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:50:05.566010Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.421
+    }
+  ],
   "journal": {
     "id": "c1535cb0-58c1-488d-b6a7-81ac66d21f18",
     "note_id": "aafa679d-6979-4f5e-a351-3493478804c8",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:50:05.565881Z",
+    "latency_seconds": 27.89047008403577,
+    "attempts": 1,
+    "summary": {
+      "summary": "在线用户指同时在线人数，并发用户指同时请求服务器的用户数，通常并发与在线比例为5%-20%。例如，注册用户10万，同时在线1万，但并发仅约1000人。",
+      "keywords": [
+        "在线用户",
+        "并发用户",
+        "注册用户",
+        "比例",
+        "服务器请求"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "商务",
+        "商务 > 用户分析"
+      ]
+    },
+    "quality": {
+      "score": 0.421,
+      "metrics": {
+        "input_chars": 329.0,
+        "input_lines": 13.0,
+        "summary_chars": 75.0,
+        "summary_coverage_ratio": 0.228,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 19.7
+      }
+    }
   }
 }

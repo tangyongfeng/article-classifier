@@ -72,7 +72,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7509d1ae-d5dd-4272-83ca-35e1cf761d9d",
+      "note_id": "4f3741dd-5856-495a-b411-73a6dcf7e3b5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "整理德语写作常见语法错误，包括冠词使用、从句引导词、动词变位规则等，适用于德语学习者。",
+        "keywords": [
+          "德语",
+          "语法",
+          "冠词",
+          "从句",
+          "动词变位"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:21:20.395301Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.201
+    }
+  ],
   "journal": {
     "id": "7f68151e-c25a-47e1-b10e-86c1fa029c90",
     "note_id": "4f3741dd-5856-495a-b411-73a6dcf7e3b5",
@@ -95,5 +125,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:21:20.395104Z",
+    "latency_seconds": 17.43341562501155,
+    "attempts": 1,
+    "summary": {
+      "summary": "整理德语写作常见语法错误，包括冠词使用、从句引导词、动词变位规则等，适用于德语学习者。",
+      "keywords": [
+        "德语",
+        "语法",
+        "冠词",
+        "从句",
+        "动词变位"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.201,
+      "metrics": {
+        "input_chars": 1545.0,
+        "input_lines": 45.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.028,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 92.7
+      }
+    }
   }
 }

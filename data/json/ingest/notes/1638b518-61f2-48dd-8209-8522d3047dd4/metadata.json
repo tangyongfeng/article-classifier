@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6c4c2950-4529-4829-8ecf-07e4ad27aeac",
+      "note_id": "1638b518-61f2-48dd-8209-8522d3047dd4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "特斯拉的核心价值在于先进的电池管理系统，通过传感器和软件实时监测与调节电压，实现电池组均衡，其技术本质是软件驱动的移动终端。",
+        "keywords": [
+          "特斯拉",
+          "电池管理",
+          "传感器",
+          "软件技术",
+          "技术创新"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:26:43.834089Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.3
+    }
+  ],
   "journal": {
     "id": "d78d9152-0238-4eb3-8212-f179c0232067",
     "note_id": "1638b518-61f2-48dd-8209-8522d3047dd4",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:26:43.833964Z",
+    "latency_seconds": 14.341956457938068,
+    "attempts": 1,
+    "summary": {
+      "summary": "特斯拉的核心价值在于先进的电池管理系统，通过传感器和软件实时监测与调节电压，实现电池组均衡，其技术本质是软件驱动的移动终端。",
+      "keywords": [
+        "特斯拉",
+        "电池管理",
+        "传感器",
+        "软件技术",
+        "技术创新"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.3,
+      "metrics": {
+        "input_chars": 585.0,
+        "input_lines": 7.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.106,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 35.1
+      }
+    }
   }
 }

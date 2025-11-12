@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "372712c6-1b34-445a-a12f-28d454d714cb",
+      "note_id": "65036c9f-d46e-4bda-ade7-74f507cbc3b7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "大过卦描述阳爻过重导致栋梁弯曲的卦象，爻辞阐释枯杨生华等吉凶，变卦体现阴阳平衡思想，属易经哲学核心内容。",
+        "keywords": [
+          "大过卦",
+          "易经",
+          "阳爻",
+          "爻辞",
+          "阴阳平衡"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:15:14.513021Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.248
+    }
+  ],
   "journal": {
     "id": "58bfc96f-ccda-4110-badb-db2088c63f42",
     "note_id": "65036c9f-d46e-4bda-ade7-74f507cbc3b7",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:15:14.512860Z",
+    "latency_seconds": 22.595030833035707,
+    "attempts": 1,
+    "summary": {
+      "summary": "大过卦描述阳爻过重导致栋梁弯曲的卦象，爻辞阐释枯杨生华等吉凶，变卦体现阴阳平衡思想，属易经哲学核心内容。",
+      "keywords": [
+        "大过卦",
+        "易经",
+        "阳爻",
+        "爻辞",
+        "阴阳平衡"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.248,
+      "metrics": {
+        "input_chars": 422.0,
+        "input_lines": 33.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.123,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 25.3
+      }
+    }
   }
 }

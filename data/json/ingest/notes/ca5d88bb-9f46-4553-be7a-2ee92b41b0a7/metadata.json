@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5909d716-bb55-47cc-b428-de2d2b89c934",
+      "note_id": "ca5d88bb-9f46-4553-be7a-2ee92b41b0a7",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 海底捞“骗局”：年赚165亿，靠的不是服务，揭秘暴利与亏损的真相！ - 餐厨产业链 - 知乎专栏 updated: 2019-10-05 ",
+        "keywords": [
+          "---",
+          "title: 海底捞“骗局”：年赚165亿，靠的不是服务，揭秘暴利与亏损的真相！ - 餐厨产业链 - 知乎专栏",
+          "updated: 2019-10-05 04:11:33Z",
+          "created: 2019-10-05 04:10:28Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:55:51.092049Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "66e7020f-4cff-49fc-a307-bb35140329be",
     "note_id": "ca5d88bb-9f46-4553-be7a-2ee92b41b0a7",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T06:55:51.091085Z",
+    "latency_seconds": 23.48930858296808,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 海底捞“骗局”：年赚165亿，靠的不是服务，揭秘暴利与亏损的真相！ - 餐厨产业链 - 知乎专栏 updated: 2019-10-05 ",
+      "keywords": [
+        "---",
+        "title: 海底捞“骗局”：年赚165亿，靠的不是服务，揭秘暴利与亏损的真相！ - 餐厨产业链 - 知乎专栏",
+        "updated: 2019-10-05 04:11:33Z",
+        "created: 2019-10-05 04:10:28Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 20231.0,
+        "input_lines": 419.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.004,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 1213.9
+      }
+    }
   }
 }

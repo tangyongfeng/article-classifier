@@ -1,0 +1,30 @@
+{
+  "id": "ce30f81e-86ce-4f66-98cb-440b79970caa",
+  "note_id": "55be7b20-1a21-4eb3-ae50-55930e1a69a7",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "远程电子通信医疗咨询面临法律灰色地带、医患信任危机，自诊问诊导诊模式易遇阻力，不宜贸然推行。",
+    "keywords": [
+      "远程医疗",
+      "法律风险",
+      "医患信任",
+      "自诊问诊",
+      "医疗阻力"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Health",
+      "Health > Medical Consultation"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:59:10.523046Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.202
+}

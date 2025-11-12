@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0283525f-79fa-46e6-9942-d1efc131842a",
+      "note_id": "7d8781d1-b666-45f8-8d40-d0c3244733e9",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: Java 6 JVM参数选项大全（中文版） updated: 2012-06-25 00:46:56Z created: 2012-06-",
+        "keywords": [
+          "---",
+          "title: Java 6 JVM参数选项大全（中文版）",
+          "updated: 2012-06-25 00:46:56Z",
+          "created: 2012-06-25 00:46:45Z",
+          "source: http://www.sunwei.org/archives/189"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:20:32.256638Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "d2f1c435-e0ee-4bf9-b543-71b555348cf2",
     "note_id": "7d8781d1-b666-45f8-8d40-d0c3244733e9",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T00:20:32.256086Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: Java 6 JVM参数选项大全（中文版） updated: 2012-06-25 00:46:56Z created: 2012-06-",
+      "keywords": [
+        "---",
+        "title: Java 6 JVM参数选项大全（中文版）",
+        "updated: 2012-06-25 00:46:56Z",
+        "created: 2012-06-25 00:46:45Z",
+        "source: http://www.sunwei.org/archives/189"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 10360.0,
+        "input_lines": 399.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.008,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 621.6
+      }
+    }
   }
 }

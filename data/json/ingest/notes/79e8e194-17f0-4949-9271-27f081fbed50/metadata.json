@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "83baefe5-3589-4fde-be88-a7aa2034c8ac",
+      "note_id": "79e8e194-17f0-4949-9271-27f081fbed50",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "飞利信（300287）是北京电子会议系统公司，总股本1.26亿，A股5767万，受益于会议经济。",
+        "keywords": [
+          "飞利信",
+          "电子会议系统",
+          "总股本",
+          "A股",
+          "会议经济"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:56:40.002359Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.525
+    }
+  ],
   "journal": {
     "id": "0d6d7bbe-5b7c-4c71-a80e-897e23d547a4",
     "note_id": "79e8e194-17f0-4949-9271-27f081fbed50",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:56:40.002192Z",
+    "latency_seconds": 19.906496417010203,
+    "attempts": 1,
+    "summary": {
+      "summary": "飞利信（300287）是北京电子会议系统公司，总股本1.26亿，A股5767万，受益于会议经济。",
+      "keywords": [
+        "飞利信",
+        "电子会议系统",
+        "总股本",
+        "A股",
+        "会议经济"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.525,
+      "metrics": {
+        "input_chars": 152.0,
+        "input_lines": 9.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.316,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 9.1
+      }
+    }
   }
 }

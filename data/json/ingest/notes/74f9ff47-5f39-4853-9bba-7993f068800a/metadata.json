@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a88cde00-f09a-448b-9c33-1aa233a067d9",
+      "note_id": "74f9ff47-5f39-4853-9bba-7993f068800a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容未明确，暂归入未分类类别，需补充内容以确定具体分类。",
+        "keywords": [
+          "笔记",
+          "分类",
+          "知识整理",
+          "未分类",
+          "整理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:32:21.241422Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.322
+    }
+  ],
   "journal": {
     "id": "b72856b0-ec54-4f90-9fc0-de638a3d3532",
     "note_id": "74f9ff47-5f39-4853-9bba-7993f068800a",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:32:21.241265Z",
+    "latency_seconds": 20.015360249904916,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容未明确，暂归入未分类类别，需补充内容以确定具体分类。",
+      "keywords": [
+        "笔记",
+        "分类",
+        "知识整理",
+        "未分类",
+        "整理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.322,
+      "metrics": {
+        "input_chars": 77.0,
+        "input_lines": 5.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.39,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.6
+      }
+    }
   }
 }

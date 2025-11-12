@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cdaaa354-e8d0-4c4d-a622-d53492ec618f",
+      "note_id": "dfca9fc4-6080-4dc2-bfae-d2c4c1aa7aef",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "关于Mac OS X Snow Leopard 10.6系统版本的笔记，涉及操作系统版本信息。",
+        "keywords": [
+          "雪豹",
+          "Mac OS",
+          "操作系统",
+          "版本号",
+          "技术"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:46:50.683621Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.391
+    }
+  ],
   "journal": {
     "id": "7080448e-061f-44ed-98d0-3fbd83bccff9",
     "note_id": "dfca9fc4-6080-4dc2-bfae-d2c4c1aa7aef",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:46:50.683498Z",
+    "latency_seconds": 23.852624999941327,
+    "attempts": 2,
+    "summary": {
+      "summary": "关于Mac OS X Snow Leopard 10.6系统版本的笔记，涉及操作系统版本信息。",
+      "keywords": [
+        "雪豹",
+        "Mac OS",
+        "操作系统",
+        "版本号",
+        "技术"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.391,
+      "metrics": {
+        "input_chars": 89.0,
+        "input_lines": 6.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.528,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 5.3
+      }
+    }
   }
 }

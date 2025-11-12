@@ -1,0 +1,27 @@
+{
+  "id": "6b9bf857-0aab-43f7-92dc-f3e5dcdc88c6",
+  "note_id": "289324a0-a430-402a-b2de-0bc3e6c6ce5e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "引导女儿通过经典文学作品培养阅读兴趣，分析《简·爱》《第一炉香》《了不起的盖茨比》中的世道人心与人情世故。",
+    "keywords": [
+      "阅读兴趣",
+      "经典文学",
+      "教育建议",
+      "女儿培养",
+      "世道人心"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:53:20.345618Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.264
+}

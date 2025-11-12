@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7e03fc79-54a0-4531-91fe-c102900835e3",
+      "note_id": "c7c604c5-afe8-4cf7-8660-18f36c82fab1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记讲解德语冠词der（阳性）、die（阴性）、das（中性）的用法，重点说明阴性词以e、ung、rei结尾的规则。",
+        "keywords": [
+          "德语",
+          "冠词",
+          "阴性",
+          "词尾",
+          "语法"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:37:55.957943Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.279
+    }
+  ],
   "journal": {
     "id": "f6089e7d-2a3c-47cb-b645-71388c84a8a3",
     "note_id": "c7c604c5-afe8-4cf7-8660-18f36c82fab1",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:37:55.957783Z",
+    "latency_seconds": 26.82743241696153,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记讲解德语冠词der（阳性）、die（阴性）、das（中性）的用法，重点说明阴性词以e、ung、rei结尾的规则。",
+      "keywords": [
+        "德语",
+        "冠词",
+        "阴性",
+        "词尾",
+        "语法"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.279,
+      "metrics": {
+        "input_chars": 191.0,
+        "input_lines": 10.0,
+        "summary_chars": 58.0,
+        "summary_coverage_ratio": 0.304,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.5
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cd5b1235-f34b-4d01-8f84-20862c7c409b",
+      "note_id": "3e964d3c-0350-41bc-b47e-2761db5637cb",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "收房时需检查水、电、燃气、暖气等设施的收费、计量及安装情况，包括垃圾处理和花园使用。",
+        "keywords": [
+          "收房",
+          "水电气",
+          "收费计量",
+          "设施检查",
+          "房屋验收"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:23:32.125274Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.19
+    }
+  ],
   "journal": {
     "id": "9eaaa25f-79e2-45ee-93f3-6cbf59f8e1e0",
     "note_id": "3e964d3c-0350-41bc-b47e-2761db5637cb",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:23:32.125115Z",
+    "latency_seconds": 45.528592125047,
+    "attempts": 1,
+    "summary": {
+      "summary": "收房时需检查水、电、燃气、暖气等设施的收费、计量及安装情况，包括垃圾处理和花园使用。",
+      "keywords": [
+        "收房",
+        "水电气",
+        "收费计量",
+        "设施检查",
+        "房屋验收"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.19,
+      "metrics": {
+        "input_chars": 331.0,
+        "input_lines": 21.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.127,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 19.9
+      }
+    }
   }
 }

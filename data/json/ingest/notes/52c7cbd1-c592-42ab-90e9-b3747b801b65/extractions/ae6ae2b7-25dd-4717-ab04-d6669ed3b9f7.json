@@ -1,0 +1,28 @@
+{
+  "id": "ae6ae2b7-25dd-4717-ab04-d6669ed3b9f7",
+  "note_id": "52c7cbd1-c592-42ab-90e9-b3747b801b65",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "SS代理服务器配置信息，包含地址、端口、密码及加密方法等技术参数。",
+    "keywords": [
+      "SS服务",
+      "服务器配置",
+      "加密方法",
+      "chacha20",
+      "代理工具"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:54:33.663615Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.174
+}

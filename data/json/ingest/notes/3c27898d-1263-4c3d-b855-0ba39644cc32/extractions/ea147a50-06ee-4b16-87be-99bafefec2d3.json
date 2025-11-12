@@ -1,0 +1,30 @@
+{
+  "id": "ea147a50-06ee-4b16-87be-99bafefec2d3",
+  "note_id": "3c27898d-1263-4c3d-b855-0ba39644cc32",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "提供19条实用心理学技巧，涵盖沟通打断、面试自信、情绪管理等场景，提升社交互动效果和自信心。",
+    "keywords": [
+      "沟通技巧",
+      "面试自信",
+      "情绪管理",
+      "肢体语言",
+      "社交策略"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展"
+    ],
+    "new_category_suggestion": [
+      "个人发展",
+      "心理技巧"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:14:01.440599Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.082
+}

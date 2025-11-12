@@ -1,0 +1,27 @@
+{
+  "id": "c681153c-52ee-4b12-a4ba-8ce062e2b62a",
+  "note_id": "1fb87fa6-f6dc-4dc4-9905-863d1ce40710",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "雪球平台发布的浦发、民生等银行财务数据综合分析，涉及每股收益、净资产等公司财务指标。",
+    "keywords": [
+      "银行分析",
+      "财务数据",
+      "公司分析",
+      "股票市场",
+      "银行"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:15:49.904975Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.2
+}

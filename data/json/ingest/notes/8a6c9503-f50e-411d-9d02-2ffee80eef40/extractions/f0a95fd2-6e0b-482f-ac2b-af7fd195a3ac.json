@@ -1,0 +1,28 @@
+{
+  "id": "f0a95fd2-6e0b-482f-ac2b-af7fd195a3ac",
+  "note_id": "8a6c9503-f50e-411d-9d02-2ffee80eef40",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "在Ubuntu 16.04上编译dlib库以启用CUDA支持，提升人脸识别等应用性能。",
+    "keywords": [
+      "dlib",
+      "CUDA",
+      "编译",
+      "机器学习",
+      "人脸识别"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:23:53.121757Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.316
+}

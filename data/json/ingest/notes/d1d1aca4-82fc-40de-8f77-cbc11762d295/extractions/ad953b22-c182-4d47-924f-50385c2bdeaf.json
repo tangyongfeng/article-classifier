@@ -1,0 +1,28 @@
+{
+  "id": "ad953b22-c182-4d47-924f-50385c2bdeaf",
+  "note_id": "d1d1aca4-82fc-40de-8f77-cbc11762d295",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Vodafone德国电信服务账单，包含参考号、金额等详细信息，涉及支付服务。",
+    "keywords": [
+      "Vodafone",
+      "账单",
+      "参考号",
+      "金额",
+      "电信服务"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:33:44.851557Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.244
+}

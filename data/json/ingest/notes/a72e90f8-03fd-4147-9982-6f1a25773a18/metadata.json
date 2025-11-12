@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f01918a7-17de-4dfb-8122-ed15a42665a4",
+      "note_id": "a72e90f8-03fd-4147-9982-6f1a25773a18",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "西藏发展（000752）曾因稀土骗局导致股价暴涨暴跌，2013年中报因出售子公司实现收益同比上涨十倍。",
+        "keywords": [
+          "西藏发展",
+          "稀土骗局",
+          "股价操纵",
+          "子公司出售",
+          "2013年中报"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:33:08.654860Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.262
+    }
+  ],
   "journal": {
     "id": "af0dc235-8798-4c63-bd1a-c31c38b50bd7",
     "note_id": "a72e90f8-03fd-4147-9982-6f1a25773a18",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:33:08.654736Z",
+    "latency_seconds": 22.456246500019915,
+    "attempts": 1,
+    "summary": {
+      "summary": "西藏发展（000752）曾因稀土骗局导致股价暴涨暴跌，2013年中报因出售子公司实现收益同比上涨十倍。",
+      "keywords": [
+        "西藏发展",
+        "稀土骗局",
+        "股价操纵",
+        "子公司出售",
+        "2013年中报"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.262,
+      "metrics": {
+        "input_chars": 338.0,
+        "input_lines": 11.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.151,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 20.3
+      }
+    }
   }
 }

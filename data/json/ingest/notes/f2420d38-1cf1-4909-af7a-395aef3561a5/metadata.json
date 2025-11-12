@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cbabc494-9ee5-4fb1-8fbb-e02a090dfc2e",
+      "note_id": "f2420d38-1cf1-4909-af7a-395aef3561a5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "机票比价网站信息，用于比较和购买机票的在线服务。",
+        "keywords": [
+          "机票",
+          "比价",
+          "预订",
+          "skiplagged",
+          "旅行"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Frequent Flyer"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:20:00.005132Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.304
+    }
+  ],
   "journal": {
     "id": "39eaa249-2873-4989-8c2f-fce0d899c1d1",
     "note_id": "f2420d38-1cf1-4909-af7a-395aef3561a5",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:20:00.004973Z",
+    "latency_seconds": 16.15461045806296,
+    "attempts": 1,
+    "summary": {
+      "summary": "机票比价网站信息，用于比较和购买机票的在线服务。",
+      "keywords": [
+        "机票",
+        "比价",
+        "预订",
+        "skiplagged",
+        "旅行"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Frequent Flyer"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.304,
+      "metrics": {
+        "input_chars": 102.0,
+        "input_lines": 6.0,
+        "summary_chars": 24.0,
+        "summary_coverage_ratio": 0.235,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.1
+      }
+    }
   }
 }

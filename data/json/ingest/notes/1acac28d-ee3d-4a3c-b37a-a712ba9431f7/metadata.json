@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "832cd3fd-849a-43f4-9237-82878d015dc7",
+      "note_id": "1acac28d-ee3d-4a3c-b37a-a712ba9431f7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "误改sudoers文件导致sudo失效，通过多终端切换（tty1/tty2）使用pkexec visudo修复，强调应使用visudo而非vi编辑系统配置文件。",
+        "keywords": [
+          "sudoers",
+          "权限修复",
+          "终端切换",
+          "visudo",
+          "系统管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:59:11.859001Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.215
+    }
+  ],
   "journal": {
     "id": "37888983-02ca-4033-8800-17a656e26ebb",
     "note_id": "1acac28d-ee3d-4a3c-b37a-a712ba9431f7",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:59:11.858837Z",
+    "latency_seconds": 15.163236082997173,
+    "attempts": 2,
+    "summary": {
+      "summary": "误改sudoers文件导致sudo失效，通过多终端切换（tty1/tty2）使用pkexec visudo修复，强调应使用visudo而非vi编辑系统配置文件。",
+      "keywords": [
+        "sudoers",
+        "权限修复",
+        "终端切换",
+        "visudo",
+        "系统管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.215,
+      "metrics": {
+        "input_chars": 1395.0,
+        "input_lines": 28.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.057,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 83.7
+      }
+    }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "d5b9c6ae-ea84-4f1a-977b-9afe942b1212",
+  "note_id": "74fa1700-3794-43c0-b53e-607aa3568ba1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "整理Open edX学习平台的开发、运维技术链接，涵盖官方文档、安装配置、功能试用及贡献者指南。",
+    "keywords": [
+      "Open edX",
+      "开发",
+      "运维",
+      "学习平台",
+      "技术文档"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:32:59.492963Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.255
+}

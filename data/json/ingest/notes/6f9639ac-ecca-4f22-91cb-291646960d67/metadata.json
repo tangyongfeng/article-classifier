@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6052f936-db72-462d-bbff-da9dd16bde54",
+      "note_id": "6f9639ac-ecca-4f22-91cb-291646960d67",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "解析德语中'viel'修饰名词的格变化规则：复数加词尾，单数不变；惯用语'Vielen Dank!'因语言习惯而异，语法解释清晰。",
+        "keywords": [
+          "德语语法",
+          "名词格",
+          "viel用法",
+          "语法解释",
+          "德语学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:05:05.117133Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.109
+    }
+  ],
   "journal": {
     "id": "90f1f7d2-242d-4369-b2cf-bde9b9d248c0",
     "note_id": "6f9639ac-ecca-4f22-91cb-291646960d67",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:05:05.116984Z",
+    "latency_seconds": 23.636315417010337,
+    "attempts": 1,
+    "summary": {
+      "summary": "解析德语中'viel'修饰名词的格变化规则：复数加词尾，单数不变；惯用语'Vielen Dank!'因语言习惯而异，语法解释清晰。",
+      "keywords": [
+        "德语语法",
+        "名词格",
+        "viel用法",
+        "语法解释",
+        "德语学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.109,
+      "metrics": {
+        "input_chars": 762.0,
+        "input_lines": 13.0,
+        "summary_chars": 65.0,
+        "summary_coverage_ratio": 0.085,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 45.7
+      }
+    }
   }
 }

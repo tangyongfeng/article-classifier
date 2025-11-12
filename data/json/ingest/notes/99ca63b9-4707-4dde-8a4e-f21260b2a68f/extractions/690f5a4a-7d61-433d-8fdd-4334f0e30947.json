@@ -1,0 +1,31 @@
+{
+  "id": "690f5a4a-7d61-433d-8fdd-4334f0e30947",
+  "note_id": "99ca63b9-4707-4dde-8a4e-f21260b2a68f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "云主机连接失败，因NAT配置需绑定地址0.0.0.0而非localhost或127.0.0.1。",
+    "keywords": [
+      "云主机",
+      "NAT",
+      "0.0.0.0",
+      "localhost",
+      "网络配置"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": [
+      "信息技术",
+      "云计算",
+      "网络配置"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:29:56.217966Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.462
+}

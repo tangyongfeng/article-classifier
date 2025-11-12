@@ -1,0 +1,27 @@
+{
+  "id": "4b959bc8-3c47-4263-b316-094407db6937",
+  "note_id": "cac77988-b8f5-406a-b1b9-5a762a31e694",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本笔记描述在Ubuntu 16.04上为edX平台安装figures插件的详细步骤，包括环境配置、前端构建、数据库迁移及服务重启。",
+    "keywords": [
+      "figures",
+      "edX",
+      "Ubuntu",
+      "installation",
+      "configuration"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:02:28.642076Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.325
+}

@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6ebfb6bc-afba-4d42-a654-8f1878b011b6",
+      "note_id": "34ae6271-aaf7-467d-9b9b-76650f00e63b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本笔记系统阐述劳动法中劳动合同解除的法律条款，涵盖辞退员工的四种情形（违法解除需支付2倍赔偿金、合法解除需补偿等）、经济补偿计算方法及用人单位法律风险防范要点。",
+        "keywords": [
+          "劳动合同",
+          "辞退",
+          "赔偿金",
+          "经济补偿",
+          "法律风险"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "商务",
+          "劳动法"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:53:20.650698Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.391
+    }
+  ],
   "journal": {
     "id": "63a6379b-be0c-466f-ba77-5f250eccf3c8",
     "note_id": "34ae6271-aaf7-467d-9b9b-76650f00e63b",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:53:20.650523Z",
+    "latency_seconds": 47.52403891691938,
+    "attempts": 1,
+    "summary": {
+      "summary": "本笔记系统阐述劳动法中劳动合同解除的法律条款，涵盖辞退员工的四种情形（违法解除需支付2倍赔偿金、合法解除需补偿等）、经济补偿计算方法及用人单位法律风险防范要点。",
+      "keywords": [
+        "劳动合同",
+        "辞退",
+        "赔偿金",
+        "经济补偿",
+        "法律风险"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "商务",
+        "劳动法"
+      ]
+    },
+    "quality": {
+      "score": 0.391,
+      "metrics": {
+        "input_chars": 1618.0,
+        "input_lines": 57.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.049,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 97.1
+      }
+    }
   }
 }

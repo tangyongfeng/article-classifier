@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5b548eb3-9f6e-4685-9bb9-c38a0ce3fbb1",
+      "note_id": "7dc8d96e-2c55-48f4-9e70-1e70c4532c51",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记涉及金融系统需求更新：要求更改银行卡前完成投注兑奖和提现，并对订单数据进行加密存储。",
+        "keywords": [
+          "银行卡",
+          "投注兑奖",
+          "提现",
+          "数据加密",
+          "订单内容"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:20:55.946751Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.454
+    }
+  ],
   "journal": {
     "id": "f0ea0c70-c661-462d-8d91-379924fc4a04",
     "note_id": "7dc8d96e-2c55-48f4-9e70-1e70c4532c51",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:20:55.946598Z",
+    "latency_seconds": 23.683257166994736,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记涉及金融系统需求更新：要求更改银行卡前完成投注兑奖和提现，并对订单数据进行加密存储。",
+      "keywords": [
+        "银行卡",
+        "投注兑奖",
+        "提现",
+        "数据加密",
+        "订单内容"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.454,
+      "metrics": {
+        "input_chars": 149.0,
+        "input_lines": 9.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.295,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.9
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2a3ca705-ca35-47a8-a78a-cd045007a28f",
+      "note_id": "ef9dd11f-8c59-45e0-a4db-80ba1e68b659",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Vertica Analytics Platform 数据分析平台，涉及安装限制（社区版三节点、1T数据）、按列存储实现、效率优势及具体使用方法。",
+        "keywords": [
+          "Vertica",
+          "数据分析",
+          "按列存储",
+          "效率优势",
+          "安装"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:10:08.278085Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.404
+    }
+  ],
   "journal": {
     "id": "fa867f52-28ad-46fe-8ef2-34366dca8d90",
     "note_id": "ef9dd11f-8c59-45e0-a4db-80ba1e68b659",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:10:08.277916Z",
+    "latency_seconds": 29.870949291973375,
+    "attempts": 1,
+    "summary": {
+      "summary": "Vertica Analytics Platform 数据分析平台，涉及安装限制（社区版三节点、1T数据）、按列存储实现、效率优势及具体使用方法。",
+      "keywords": [
+        "Vertica",
+        "数据分析",
+        "按列存储",
+        "效率优势",
+        "安装"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.404,
+      "metrics": {
+        "input_chars": 374.0,
+        "input_lines": 20.0,
+        "summary_chars": 73.0,
+        "summary_coverage_ratio": 0.195,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 22.4
+      }
+    }
   }
 }

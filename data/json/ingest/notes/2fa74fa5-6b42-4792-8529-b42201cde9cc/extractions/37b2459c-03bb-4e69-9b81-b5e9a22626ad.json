@@ -1,0 +1,28 @@
+{
+  "id": "37b2459c-03bb-4e69-9b81-b5e9a22626ad",
+  "note_id": "2fa74fa5-6b42-4792-8529-b42201cde9cc",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "一段关于小白上楼梯看电视后下楼吃肯德基的童谣，包含薯条、可乐、鸡翅等食物名称，适合儿童语言学习。",
+    "keywords": [
+      "童谣",
+      "小白",
+      "上楼梯",
+      "肯德基",
+      "薯条"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education",
+      "Language Learning"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:28:34.464506Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.472
+}

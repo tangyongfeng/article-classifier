@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4c92f1b7-d9c9-49c4-ad8e-585ed9d4ef38",
+      "note_id": "0294744a-0c81-4da7-9935-2b60b4b646f0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记感谢包商银行作为'非银之友'在资金交易应急中的支持，描述其在非银行机构中的重要地位及后续被接管的感慨。",
+        "keywords": [
+          "包商银行",
+          "非银之友",
+          "资金交易",
+          "应急过桥",
+          "金融乱象"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:48:37.659150Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.331
+    }
+  ],
   "journal": {
     "id": "fe7fe25e-335c-46f8-aa51-ee6905373dcc",
     "note_id": "0294744a-0c81-4da7-9935-2b60b4b646f0",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:48:37.658971Z",
+    "latency_seconds": 31.24378566700034,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记感谢包商银行作为'非银之友'在资金交易应急中的支持，描述其在非银行机构中的重要地位及后续被接管的感慨。",
+      "keywords": [
+        "包商银行",
+        "非银之友",
+        "资金交易",
+        "应急过桥",
+        "金融乱象"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.331,
+      "metrics": {
+        "input_chars": 1114.0,
+        "input_lines": 25.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.048,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 66.8
+      }
+    }
   }
 }

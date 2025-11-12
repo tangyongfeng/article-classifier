@@ -1,0 +1,29 @@
+{
+  "id": "0dbbe979-950b-4488-9203-c72d010d5a3d",
+  "note_id": "8de8e15a-56d5-4aa3-8e64-52bf2bebddb1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "TKML句式是语言学习中分析时间、原因、情状、地点的结构化方法，常用于德语语法教学。",
+    "keywords": [
+      "TKML",
+      "句式",
+      "语言学习",
+      "德语",
+      "语法"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:43:54.591153Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.338
+}

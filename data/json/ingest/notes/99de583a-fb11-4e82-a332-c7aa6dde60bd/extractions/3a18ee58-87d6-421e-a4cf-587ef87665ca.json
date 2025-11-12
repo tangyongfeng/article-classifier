@@ -1,0 +1,30 @@
+{
+  "id": "3a18ee58-87d6-421e-a4cf-587ef87665ca",
+  "note_id": "99de583a-fb11-4e82-a332-c7aa6dde60bd",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "阐述社交场合语言使用规范：对长辈用谦辞说真话，对平辈用雅辞说真话，对晚辈用正辞不戏谑说好话。",
+    "keywords": [
+      "谦辞",
+      "雅辞",
+      "正辞",
+      "社交礼仪",
+      "语言规范"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language"
+    ],
+    "new_category_suggestion": [
+      "Language",
+      "语言规范"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:30:34.054853Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.425
+}

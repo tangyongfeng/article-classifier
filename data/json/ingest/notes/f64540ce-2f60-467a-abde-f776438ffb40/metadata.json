@@ -61,7 +61,40 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5d181311-a796-4081-a5e9-16e10aaeee67",
+      "note_id": "f64540ce-2f60-467a-abde-f776438ffb40",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "介绍Java对象序列化的五个关键技术点，包括机制原理、性能优化及常见陷阱，适用于开发者参考。",
+        "keywords": [
+          "Java",
+          "序列化",
+          "对象",
+          "技术",
+          "开发"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "Java",
+          "序列化"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:33:46.367852Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.365
+    }
+  ],
   "journal": {
     "id": "2bd17ed0-ec3c-400f-becf-25ea1d39dfa6",
     "note_id": "f64540ce-2f60-467a-abde-f776438ffb40",
@@ -84,5 +117,48 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:33:46.367666Z",
+    "latency_seconds": 27.184806042001583,
+    "attempts": 1,
+    "summary": {
+      "summary": "介绍Java对象序列化的五个关键技术点，包括机制原理、性能优化及常见陷阱，适用于开发者参考。",
+      "keywords": [
+        "Java",
+        "序列化",
+        "对象",
+        "技术",
+        "开发"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "Java",
+        "序列化"
+      ]
+    },
+    "quality": {
+      "score": 0.365,
+      "metrics": {
+        "input_chars": 194.0,
+        "input_lines": 8.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.237,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.6
+      }
+    }
   }
 }

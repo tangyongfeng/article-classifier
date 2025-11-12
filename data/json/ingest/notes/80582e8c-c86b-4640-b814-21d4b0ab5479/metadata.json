@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9a25968b-f0e7-440e-b6ef-5fe3ff7bb781",
+      "note_id": "80582e8c-c86b-4640-b814-21d4b0ab5479",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供旅行相关生活信息，包括眼镜店推荐、周末交通票和Mallorca度假岛推荐。",
+        "keywords": [
+          "眼镜店",
+          "周末票",
+          "度假岛",
+          "Mallorca",
+          "旅行"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:36:43.406601Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.452
+    }
+  ],
   "journal": {
     "id": "3796ee50-abc0-443d-bfce-bf4f1be02797",
     "note_id": "80582e8c-c86b-4640-b814-21d4b0ab5479",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:36:43.406425Z",
+    "latency_seconds": 38.16595449997112,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供旅行相关生活信息，包括眼镜店推荐、周末交通票和Mallorca度假岛推荐。",
+      "keywords": [
+        "眼镜店",
+        "周末票",
+        "度假岛",
+        "Mallorca",
+        "旅行"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.452,
+      "metrics": {
+        "input_chars": 134.0,
+        "input_lines": 8.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.291,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.0
+      }
+    }
   }
 }

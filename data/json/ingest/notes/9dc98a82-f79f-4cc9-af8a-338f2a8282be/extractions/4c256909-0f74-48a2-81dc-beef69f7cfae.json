@@ -1,0 +1,28 @@
+{
+  "id": "4c256909-0f74-48a2-81dc-beef69f7cfae",
+  "note_id": "9dc98a82-f79f-4cc9-af8a-338f2a8282be",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德国苹果商店账户安全问题，涉及账户验证及支付设置，需注意地区限制。",
+    "keywords": [
+      "德国",
+      "苹果商店",
+      "安全问题",
+      "账户验证",
+      "支付设置"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区",
+      "德国"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:53:30.719644Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.359
+}

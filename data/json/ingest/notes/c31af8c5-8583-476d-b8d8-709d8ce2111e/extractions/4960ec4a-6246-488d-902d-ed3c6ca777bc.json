@@ -1,0 +1,27 @@
+{
+  "id": "4960ec4a-6246-488d-902d-ed3c6ca777bc",
+  "note_id": "c31af8c5-8583-476d-b8d8-709d8ce2111e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "分享中国教育部关于教育政策的官方公告链接，涉及教育管理与政策信息。",
+    "keywords": [
+      "教育部",
+      "教育政策",
+      "官方公告",
+      "政策链接",
+      "教育管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:58:59.639345Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.147
+}

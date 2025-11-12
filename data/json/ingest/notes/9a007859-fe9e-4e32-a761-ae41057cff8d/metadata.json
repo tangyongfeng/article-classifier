@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7b1ceeba-4040-4c78-9e1c-13391dc42e03",
+      "note_id": "9a007859-fe9e-4e32-a761-ae41057cff8d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "信立泰2012年年度报告阅读笔记，分析公司财务数据、业务进展及市场表现，为投资决策提供参考。",
+        "keywords": [
+          "信立泰",
+          "2012年报",
+          "财务分析",
+          "公司分析",
+          "股票市场"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:31:36.346415Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.448
+    }
+  ],
   "journal": {
     "id": "c40996ef-ab6a-4526-801a-0b85d7e44e44",
     "note_id": "9a007859-fe9e-4e32-a761-ae41057cff8d",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:31:36.346277Z",
+    "latency_seconds": 26.135136167053133,
+    "attempts": 1,
+    "summary": {
+      "summary": "信立泰2012年年度报告阅读笔记，分析公司财务数据、业务进展及市场表现，为投资决策提供参考。",
+      "keywords": [
+        "信立泰",
+        "2012年报",
+        "财务分析",
+        "公司分析",
+        "股票市场"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.448,
+      "metrics": {
+        "input_chars": 88.0,
+        "input_lines": 5.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.523,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.3
+      }
+    }
   }
 }

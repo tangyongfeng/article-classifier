@@ -1,0 +1,27 @@
+{
+  "id": "df1982bf-3f6b-4801-878d-a686243ac4ed",
+  "note_id": "ad93e17b-99e9-4a51-8663-f63cbfe7842b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "ice展会聚焦iGaming技术交流，厂商包括GTech、SG等，讨论3D游戏、实时投注平台及终端机技术。",
+    "keywords": [
+      "iGaming",
+      "博彩",
+      "游戏平台",
+      "技术交流",
+      "展会"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:04:01.826604Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.331
+}

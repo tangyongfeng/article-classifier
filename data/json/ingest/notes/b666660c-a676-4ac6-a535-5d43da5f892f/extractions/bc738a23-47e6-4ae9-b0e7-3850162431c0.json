@@ -1,0 +1,28 @@
+{
+  "id": "bc738a23-47e6-4ae9-b0e7-3850162431c0",
+  "note_id": "b666660c-a676-4ac6-a535-5d43da5f892f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "可儿11岁生日派对邀请函，由saphira、marie等亲友共同发起，邀请参加家庭庆祝活动。",
+    "keywords": [
+      "生日",
+      "派对",
+      "邀请",
+      "11岁",
+      "家庭"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social",
+      "Family Events"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:43:18.404221Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.451
+}

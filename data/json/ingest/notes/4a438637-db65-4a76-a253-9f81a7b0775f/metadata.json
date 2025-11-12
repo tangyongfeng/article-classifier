@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "584e9f93-035c-4c3f-be3e-a244689d87bd",
+      "note_id": "4a438637-db65-4a76-a253-9f81a7b0775f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记列出高口碑股票API接口服务商，包括免费高性价比的Finnhub.io、IEX等及收费较高的Polygon.io、IQFeed等。",
+        "keywords": [
+          "股票API",
+          "金融数据",
+          "API接口",
+          "交易服务",
+          "高性价比"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:34:29.510102Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.349
+    }
+  ],
   "journal": {
     "id": "0cca7862-ea84-422c-bae9-f529d6dec063",
     "note_id": "4a438637-db65-4a76-a253-9f81a7b0775f",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:34:29.509934Z",
+    "latency_seconds": 32.42881708405912,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记列出高口碑股票API接口服务商，包括免费高性价比的Finnhub.io、IEX等及收费较高的Polygon.io、IQFeed等。",
+      "keywords": [
+        "股票API",
+        "金融数据",
+        "API接口",
+        "交易服务",
+        "高性价比"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.349,
+      "metrics": {
+        "input_chars": 329.0,
+        "input_lines": 20.0,
+        "summary_chars": 67.0,
+        "summary_coverage_ratio": 0.204,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 3.0,
+        "estimated_read_seconds": 19.7
+      }
+    }
   }
 }

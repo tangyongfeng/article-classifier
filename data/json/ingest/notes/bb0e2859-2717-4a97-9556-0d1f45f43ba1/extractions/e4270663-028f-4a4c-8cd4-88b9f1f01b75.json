@@ -1,0 +1,29 @@
+{
+  "id": "e4270663-028f-4a4c-8cd4-88b9f1f01b75",
+  "note_id": "bb0e2859-2717-4a97-9556-0d1f45f43ba1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "详细讲解德语动词过去式形成规则，涵盖规则弱动词、不规则弱动词及强动词的变位示例。",
+    "keywords": [
+      "过去式",
+      "动词变位",
+      "规则弱动词",
+      "不规则弱动词",
+      "强动词"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Verb Conjugation"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:13:27.502729Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.318
+}

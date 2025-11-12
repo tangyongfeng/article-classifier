@@ -1,0 +1,29 @@
+{
+  "id": "2867a307-c150-4010-9535-0516a628f10e",
+  "note_id": "e6d41fb7-2706-4287-a50b-ef14a89e65d3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语第二格（Genitiv）用于表达所有权和从属关系，涉及名词变格规则、冠词变化及词尾变化（如阳性/中性名词语尾加-s）。",
+    "keywords": [
+      "第二格",
+      "德语语法",
+      "所有权",
+      "名词变格",
+      "Genitiv"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:21:17.703506Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.213
+}

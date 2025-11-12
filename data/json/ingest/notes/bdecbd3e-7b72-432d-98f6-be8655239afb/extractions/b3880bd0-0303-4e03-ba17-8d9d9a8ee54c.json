@@ -1,0 +1,28 @@
+{
+  "id": "b3880bd0-0303-4e03-ba17-8d9d9a8ee54c",
+  "note_id": "bdecbd3e-7b72-432d-98f6-be8655239afb",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容涉及德国驾照相关文件统计，包括图片、视频及文本数据，涵盖驾驶考试与驾驶理论资料。",
+    "keywords": [
+      "驾照",
+      "驾驶理论",
+      "驾驶考试",
+      "交通",
+      "德国"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "交通",
+      "驾照"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:31:25.839718Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.107
+}

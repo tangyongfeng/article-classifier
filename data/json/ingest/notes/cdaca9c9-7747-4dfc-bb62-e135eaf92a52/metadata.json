@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fe3b0d4f-463f-4141-90a4-4b5821e00cf3",
+      "note_id": "cdaca9c9-7747-4dfc-bb62-e135eaf92a52",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 印钞机停了，负利率来了，你弯道超车的机会来了 updated: 2020-01-20 20:52:07Z created: 2020-01",
+        "keywords": [
+          "---",
+          "title: 印钞机停了，负利率来了，你弯道超车的机会来了",
+          "updated: 2020-01-20 20:52:07Z",
+          "created: 2020-01-20 20:51:20Z",
+          "点击上方“远方青木”，关注后了解更多精彩内容！！"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:14:06.301922Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "59672f53-4549-449d-94fe-3479148d92c9",
     "note_id": "cdaca9c9-7747-4dfc-bb62-e135eaf92a52",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T07:14:06.301552Z",
+    "latency_seconds": 43.96318195795175,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 印钞机停了，负利率来了，你弯道超车的机会来了 updated: 2020-01-20 20:52:07Z created: 2020-01",
+      "keywords": [
+        "---",
+        "title: 印钞机停了，负利率来了，你弯道超车的机会来了",
+        "updated: 2020-01-20 20:52:07Z",
+        "created: 2020-01-20 20:51:20Z",
+        "点击上方“远方青木”，关注后了解更多精彩内容！！"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 8214.0,
+        "input_lines": 216.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.01,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 492.8
+      }
+    }
   }
 }

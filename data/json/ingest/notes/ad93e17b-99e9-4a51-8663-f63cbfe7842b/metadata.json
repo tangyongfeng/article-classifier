@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "df1982bf-3f6b-4801-878d-a686243ac4ed",
+      "note_id": "ad93e17b-99e9-4a51-8663-f63cbfe7842b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "ice展会聚焦iGaming技术交流，厂商包括GTech、SG等，讨论3D游戏、实时投注平台及终端机技术。",
+        "keywords": [
+          "iGaming",
+          "博彩",
+          "游戏平台",
+          "技术交流",
+          "展会"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:04:01.826604Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.331
+    }
+  ],
   "journal": {
     "id": "5ee959f3-b3c5-40c2-8e45-ef117a10bd6e",
     "note_id": "ad93e17b-99e9-4a51-8663-f63cbfe7842b",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:04:01.826439Z",
+    "latency_seconds": 40.43546329194214,
+    "attempts": 1,
+    "summary": {
+      "summary": "ice展会聚焦iGaming技术交流，厂商包括GTech、SG等，讨论3D游戏、实时投注平台及终端机技术。",
+      "keywords": [
+        "iGaming",
+        "博彩",
+        "游戏平台",
+        "技术交流",
+        "展会"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.331,
+      "metrics": {
+        "input_chars": 316.0,
+        "input_lines": 24.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.168,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 19.0
+      }
+    }
   }
 }

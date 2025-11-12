@@ -72,7 +72,62 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "41f75115-7ac2-42ca-b818-caf833e1963d",
+      "note_id": "00f0605b-63f5-436e-88fe-7fa3dba5f23b",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 如何在Linux系统建立自己的闪电网络节点和通道_巴比特_服务于区块链创新者 updated: 2019-02-18 10:00:08Z ",
+        "keywords": [
+          "---",
+          "title: 如何在Linux系统建立自己的闪电网络节点和通道_巴比特_服务于区块链创新者",
+          "updated: 2019-02-18 10:00:08Z",
+          "created: 2019-02-18 10:00:08Z",
+          "source: https://www.8btc.com/article/156211"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:32:18.663753Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    },
+    {
+      "id": "1d3fbe6d-469f-496c-b03f-fab5257574ad",
+      "note_id": "00f0605b-63f5-436e-88fe-7fa3dba5f23b",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 如何在Linux系统建立自己的闪电网络节点和通道_巴比特_服务于区块链创新者 updated: 2019-02-18 10:00:08Z ",
+        "keywords": [
+          "---",
+          "title: 如何在Linux系统建立自己的闪电网络节点和通道_巴比特_服务于区块链创新者",
+          "updated: 2019-02-18 10:00:08Z",
+          "created: 2019-02-18 10:00:08Z",
+          "source: https://www.8btc.com/article/156211"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 2,
+      "created_at": "2025-11-11T13:40:46.638717Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "eb30cca5-ec3a-4283-b143-6862c792c56f",
     "note_id": "00f0605b-63f5-436e-88fe-7fa3dba5f23b",
@@ -95,5 +150,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T13:40:46.638421Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 如何在Linux系统建立自己的闪电网络节点和通道_巴比特_服务于区块链创新者 updated: 2019-02-18 10:00:08Z ",
+      "keywords": [
+        "---",
+        "title: 如何在Linux系统建立自己的闪电网络节点和通道_巴比特_服务于区块链创新者",
+        "updated: 2019-02-18 10:00:08Z",
+        "created: 2019-02-18 10:00:08Z",
+        "source: https://www.8btc.com/article/156211"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 6120.0,
+        "input_lines": 106.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 367.2
+      }
+    }
   }
 }

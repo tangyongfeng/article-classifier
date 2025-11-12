@@ -1,0 +1,28 @@
+{
+  "id": "8b2f91a1-eaef-4f0f-bf7f-111440cbd334",
+  "note_id": "cc9c4487-2bdc-4c6d-a825-ac6a65ea0427",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容为德语日常对话，涉及邮局地址和政治兴趣不涉及的句子。",
+    "keywords": [
+      "德语",
+      "邮局",
+      "政治",
+      "日常对话",
+      "句子"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language",
+      "German"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:08:43.235885Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.144
+}

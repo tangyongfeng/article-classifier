@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "53b5b38a-2509-417b-9ae9-c557b9ce60a4",
+      "note_id": "c9f80d6f-0ebc-48e4-be0e-bd88dc2fdebd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "电子病历数据资源库包含病历概要、门急诊记录、处方、检查检验及住院病案等18类医疗数据集，支持医疗信息化管理。",
+        "keywords": [
+          "电子病历",
+          "数据资源库",
+          "医疗信息化",
+          "门急诊",
+          "住院病案"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Healthcare",
+          "Healthcare > Medical Data Resources"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:49:01.913554Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.321
+    }
+  ],
   "journal": {
     "id": "eff12785-98c9-4775-85d8-578663191b81",
     "note_id": "c9f80d6f-0ebc-48e4-be0e-bd88dc2fdebd",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:49:01.913390Z",
+    "latency_seconds": 34.90253370802384,
+    "attempts": 1,
+    "summary": {
+      "summary": "电子病历数据资源库包含病历概要、门急诊记录、处方、检查检验及住院病案等18类医疗数据集，支持医疗信息化管理。",
+      "keywords": [
+        "电子病历",
+        "数据资源库",
+        "医疗信息化",
+        "门急诊",
+        "住院病案"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Healthcare",
+        "Healthcare > Medical Data Resources"
+      ]
+    },
+    "quality": {
+      "score": 0.321,
+      "metrics": {
+        "input_chars": 364.0,
+        "input_lines": 23.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.148,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 21.8
+      }
+    }
   }
 }

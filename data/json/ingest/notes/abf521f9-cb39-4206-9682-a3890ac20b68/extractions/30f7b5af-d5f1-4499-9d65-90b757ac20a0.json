@@ -1,0 +1,29 @@
+{
+  "id": "30f7b5af-d5f1-4499-9d65-90b757ac20a0",
+  "note_id": "abf521f9-cb39-4206-9682-a3890ac20b68",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "量化交易依赖高质量数据源，涵盖宏观、行业、公司基本面数据，以及高频、实时数据，常见提供商包括Wind、Bloomberg等。",
+    "keywords": [
+      "量化交易",
+      "数据源",
+      "基本面数据",
+      "高频数据",
+      "数据提供商"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market",
+      "Company Analysis"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:57:14.963765Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.374
+}

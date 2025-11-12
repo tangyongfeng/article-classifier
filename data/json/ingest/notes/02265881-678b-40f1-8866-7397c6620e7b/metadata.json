@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7cf14bd4-c3eb-42d9-a757-f45e9cd2b4a8",
+      "note_id": "02265881-678b-40f1-8866-7397c6620e7b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "深度学习是一种基于神经网络的机器学习方法，通过迭代训练数据、调整参数解决线性不可分问题，实现模型优化。",
+        "keywords": [
+          "深度学习",
+          "神经网络",
+          "机器学习",
+          "训练过程",
+          "模型优化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:46:18.534940Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.373
+    }
+  ],
   "journal": {
     "id": "30efa9de-6a18-40b6-a202-e3ed2cef942e",
     "note_id": "02265881-678b-40f1-8866-7397c6620e7b",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:46:18.534806Z",
+    "latency_seconds": 28.083337916992605,
+    "attempts": 1,
+    "summary": {
+      "summary": "深度学习是一种基于神经网络的机器学习方法，通过迭代训练数据、调整参数解决线性不可分问题，实现模型优化。",
+      "keywords": [
+        "深度学习",
+        "神经网络",
+        "机器学习",
+        "训练过程",
+        "模型优化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.373,
+      "metrics": {
+        "input_chars": 387.0,
+        "input_lines": 15.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.132,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.2
+      }
+    }
   }
 }

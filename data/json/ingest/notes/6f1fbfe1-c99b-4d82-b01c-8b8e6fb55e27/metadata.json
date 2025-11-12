@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b85377a8-6bd9-46bf-90dd-f56fe120bdbe",
+      "note_id": "6f1fbfe1-c99b-4d82-b01c-8b8e6fb55e27",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记标题febb涉及德语语言考试，属于语言学习教育类别，对应现有分类Education > Language Learning > German Languag",
+        "keywords": [
+          "德语考试",
+          "语言学习",
+          "教育",
+          "考试",
+          "德语"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education",
+          "Language Learning",
+          "German Language Exams"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:01:27.679322Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.379
+    }
+  ],
   "journal": {
     "id": "0c787527-22a8-42fa-b556-e20b5013f64c",
     "note_id": "6f1fbfe1-c99b-4d82-b01c-8b8e6fb55e27",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:01:27.679172Z",
+    "latency_seconds": 27.016861084033735,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记标题febb涉及德语语言考试，属于语言学习教育类别，对应现有分类Education > Language Learning > German Languag",
+      "keywords": [
+        "德语考试",
+        "语言学习",
+        "教育",
+        "考试",
+        "德语"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education",
+        "Language Learning",
+        "German Language Exams"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.379,
+      "metrics": {
+        "input_chars": 128.0,
+        "input_lines": 6.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.625,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.7
+      }
+    }
   }
 }

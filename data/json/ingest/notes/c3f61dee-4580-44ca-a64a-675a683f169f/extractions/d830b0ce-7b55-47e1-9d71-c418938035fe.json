@@ -1,0 +1,31 @@
+{
+  "id": "d830b0ce-7b55-47e1-9d71-c418938035fe",
+  "note_id": "c3f61dee-4580-44ca-a64a-675a683f169f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "关于Windows 10操作系统的笔记，涉及系统使用或配置相关主题。",
+    "keywords": [
+      "Windows 10",
+      "操作系统",
+      "系统安装",
+      "软件",
+      "技术"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": [
+      "Technology",
+      "Operating Systems"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:07:05.819311Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.145
+}

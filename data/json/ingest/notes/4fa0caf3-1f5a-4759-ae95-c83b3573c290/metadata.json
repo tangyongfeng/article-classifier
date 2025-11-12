@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8035f44f-1bfb-40c5-8dc5-88fcf0d66b3d",
+      "note_id": "4fa0caf3-1f5a-4759-ae95-c83b3573c290",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供博客链接分享，属于网络资源信息共享，无具体内容。",
+        "keywords": [
+          "链接分享",
+          "博客资源",
+          "网络链接",
+          "信息共享",
+          "实用链接"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:21:43.802285Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.13
+    }
+  ],
   "journal": {
     "id": "0f177518-4206-4ba6-a592-67e34b67db82",
     "note_id": "4fa0caf3-1f5a-4759-ae95-c83b3573c290",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:21:43.801986Z",
+    "latency_seconds": 23.4020455830032,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供博客链接分享，属于网络资源信息共享，无具体内容。",
+      "keywords": [
+        "链接分享",
+        "博客资源",
+        "网络链接",
+        "信息共享",
+        "实用链接"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.13,
+      "metrics": {
+        "input_chars": 207.0,
+        "input_lines": 8.0,
+        "summary_chars": 26.0,
+        "summary_coverage_ratio": 0.126,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.4
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cd9bba25-db04-42ea-95ee-66313d3ff9d5",
+      "note_id": "5ff88925-c008-4647-b25c-405aefc5b7b4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记聚焦自媒体平台讨论的工业4.0、马耳他博彩、欧洲隐私法案及印尼红土镍矿等商业议题。",
+        "keywords": [
+          "自媒体",
+          "工业4.0",
+          "马耳他博彩",
+          "欧洲隐私法案",
+          "印尼红土镍矿"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:47:58.397725Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.509
+    }
+  ],
   "journal": {
     "id": "f756b7a4-8a78-42d0-aaa2-e77766c4a854",
     "note_id": "5ff88925-c008-4647-b25c-405aefc5b7b4",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:47:58.397446Z",
+    "latency_seconds": 27.092741874977946,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记聚焦自媒体平台讨论的工业4.0、马耳他博彩、欧洲隐私法案及印尼红土镍矿等商业议题。",
+      "keywords": [
+        "自媒体",
+        "工业4.0",
+        "马耳他博彩",
+        "欧洲隐私法案",
+        "印尼红土镍矿"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.509,
+      "metrics": {
+        "input_chars": 155.0,
+        "input_lines": 10.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.284,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 9.3
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6f86d0c9-3833-42f9-a129-1fb2848c669a",
+      "note_id": "e733d11b-88f5-4cb4-b818-fb6190257d8b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "介绍在Linux和Windows系统中安装MySQL Python库的步骤，包括使用apt安装依赖和pip安装mysqlclient、mysql-connect",
+        "keywords": [
+          "mysql",
+          "python",
+          "pip",
+          "安装",
+          "库"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:24:05.290397Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.461
+    }
+  ],
   "journal": {
     "id": "9aa55d7a-3b5c-44ce-81af-bcd41e3f4cc9",
     "note_id": "e733d11b-88f5-4cb4-b818-fb6190257d8b",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:24:05.290257Z",
+    "latency_seconds": 45.195944499922916,
+    "attempts": 1,
+    "summary": {
+      "summary": "介绍在Linux和Windows系统中安装MySQL Python库的步骤，包括使用apt安装依赖和pip安装mysqlclient、mysql-connect",
+      "keywords": [
+        "mysql",
+        "python",
+        "pip",
+        "安装",
+        "库"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.461,
+      "metrics": {
+        "input_chars": 425.0,
+        "input_lines": 19.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.188,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 25.5
+      }
+    }
   }
 }

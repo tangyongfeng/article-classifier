@@ -1,0 +1,28 @@
+{
+  "id": "9c7b17c6-dbb9-4d88-8e71-7fd1e7a93480",
+  "note_id": "fa143185-2c31-40f2-a397-5755febddcad",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "需要建设三语门户网站，含豪华、实用、基础三个版本，涉及发布系统、防火墙等技术需求，计划2020年11月30日上线。",
+    "keywords": [
+      "网站",
+      "三语",
+      "门户网站",
+      "版本需求",
+      "技术需求"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:58:09.177041Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.378
+}

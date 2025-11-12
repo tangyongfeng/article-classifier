@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ad953b22-c182-4d47-924f-50385c2bdeaf",
+      "note_id": "d1d1aca4-82fc-40de-8f77-cbc11762d295",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Vodafone德国电信服务账单，包含参考号、金额等详细信息，涉及支付服务。",
+        "keywords": [
+          "Vodafone",
+          "账单",
+          "参考号",
+          "金额",
+          "电信服务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:33:44.851557Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.244
+    }
+  ],
   "journal": {
     "id": "f1405279-6a3b-435d-887e-c9a2dcde9259",
     "note_id": "d1d1aca4-82fc-40de-8f77-cbc11762d295",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:33:44.851398Z",
+    "latency_seconds": 39.011737040942535,
+    "attempts": 1,
+    "summary": {
+      "summary": "Vodafone德国电信服务账单，包含参考号、金额等详细信息，涉及支付服务。",
+      "keywords": [
+        "Vodafone",
+        "账单",
+        "参考号",
+        "金额",
+        "电信服务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.244,
+      "metrics": {
+        "input_chars": 333.0,
+        "input_lines": 15.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.114,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 20.0
+      }
+    }
   }
 }

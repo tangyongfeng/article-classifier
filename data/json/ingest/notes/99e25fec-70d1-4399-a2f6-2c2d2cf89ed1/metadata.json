@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "392c285d-d06c-47d0-a85f-e397d8e8c73a",
+      "note_id": "99e25fec-70d1-4399-a2f6-2c2d2cf89ed1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "邮箱客户端授权码示例，用于账户安全认证，涉及技术应用与登录凭证管理。",
+        "keywords": [
+          "授权码",
+          "客户端",
+          "邮箱",
+          "安全",
+          "认证"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:31:10.204808Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.288
+    }
+  ],
   "journal": {
     "id": "e8d88f27-a65a-4325-8867-1b3c6493ed45",
     "note_id": "99e25fec-70d1-4399-a2f6-2c2d2cf89ed1",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:31:10.204509Z",
+    "latency_seconds": 25.65077841700986,
+    "attempts": 1,
+    "summary": {
+      "summary": "邮箱客户端授权码示例，用于账户安全认证，涉及技术应用与登录凭证管理。",
+      "keywords": [
+        "授权码",
+        "客户端",
+        "邮箱",
+        "安全",
+        "认证"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.288,
+      "metrics": {
+        "input_chars": 168.0,
+        "input_lines": 9.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.202,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.1
+      }
+    }
   }
 }

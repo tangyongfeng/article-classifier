@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8055e78f-9aed-4dae-bbfb-3df6b9338627",
+      "note_id": "86f8f74c-6fa9-451e-83af-ec7d647bcfad",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "海南航空出境航班要求旅客提供7天内核酸检测证明及个人健康码（如北京健康宝），涉及2020年7月20日、27日、8月4日、11日等日期。",
+        "keywords": [
+          "海航",
+          "出境航班",
+          "核酸证明",
+          "健康码",
+          "北京健康宝"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:09:02.997648Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.577
+    }
+  ],
   "journal": {
     "id": "4d19ff21-32e2-45dc-94c1-5e3f8f8d6a8f",
     "note_id": "86f8f74c-6fa9-451e-83af-ec7d647bcfad",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:09:02.997495Z",
+    "latency_seconds": 41.95443741697818,
+    "attempts": 1,
+    "summary": {
+      "summary": "海南航空出境航班要求旅客提供7天内核酸检测证明及个人健康码（如北京健康宝），涉及2020年7月20日、27日、8月4日、11日等日期。",
+      "keywords": [
+        "海航",
+        "出境航班",
+        "核酸证明",
+        "健康码",
+        "北京健康宝"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.577,
+      "metrics": {
+        "input_chars": 159.0,
+        "input_lines": 12.0,
+        "summary_chars": 67.0,
+        "summary_coverage_ratio": 0.421,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.5
+      }
+    }
   }
 }

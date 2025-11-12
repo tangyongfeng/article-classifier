@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "dd0184d5-6e3a-4b0d-9344-a088f4ecdb68",
+      "note_id": "63492e8c-8c77-4ffd-8e9c-36eea32b9000",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "会议记录讨论医疗挂号系统设计，涉及地域编码、医院编码、科室、医生、日期班次唯一标识，环境迁移，单据执行状态管理及用户详情查询分页功能。",
+        "keywords": [
+          "挂号编号",
+          "单据状态",
+          "用户查询",
+          "分页功能",
+          "环境迁移"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:06:56.954824Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.408
+    }
+  ],
   "journal": {
     "id": "504c63a4-dc60-4978-b570-80525331d59b",
     "note_id": "63492e8c-8c77-4ffd-8e9c-36eea32b9000",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:06:56.954663Z",
+    "latency_seconds": 29.407100791926496,
+    "attempts": 1,
+    "summary": {
+      "summary": "会议记录讨论医疗挂号系统设计，涉及地域编码、医院编码、科室、医生、日期班次唯一标识，环境迁移，单据执行状态管理及用户详情查询分页功能。",
+      "keywords": [
+        "挂号编号",
+        "单据状态",
+        "用户查询",
+        "分页功能",
+        "环境迁移"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.408,
+      "metrics": {
+        "input_chars": 208.0,
+        "input_lines": 11.0,
+        "summary_chars": 67.0,
+        "summary_coverage_ratio": 0.322,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.5
+      }
+    }
   }
 }

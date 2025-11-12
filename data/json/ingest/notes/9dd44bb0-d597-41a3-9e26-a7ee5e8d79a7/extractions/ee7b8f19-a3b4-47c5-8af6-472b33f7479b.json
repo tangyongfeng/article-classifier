@@ -1,0 +1,31 @@
+{
+  "id": "ee7b8f19-a3b4-47c5-8af6-472b33f7479b",
+  "note_id": "9dd44bb0-d597-41a3-9e26-a7ee5e8d79a7",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "SQLite数据库连接字符串配置参数，涵盖数据源、版本、内存数据库、UTF16编码、密码等常用设置。",
+    "keywords": [
+      "SQLite",
+      "连接字符串",
+      "参数配置",
+      "数据库选项",
+      "数据源"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "技术",
+      "数据库",
+      "SQLite"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:53:58.895603Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.136
+}

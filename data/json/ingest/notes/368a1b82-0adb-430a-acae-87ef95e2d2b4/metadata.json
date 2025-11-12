@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0b2df2de-ceef-4fbc-9121-f733b6d3db00",
+      "note_id": "368a1b82-0adb-430a-acae-87ef95e2d2b4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "用户登录及支付操作记录，涉及账户验证与支付服务流程。",
+        "keywords": [
+          "支付",
+          "登录",
+          "账户",
+          "验证",
+          "服务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:56:29.508739Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.312
+    }
+  ],
   "journal": {
     "id": "fd861b54-d26d-4533-a143-af22a8c7d4c6",
     "note_id": "368a1b82-0adb-430a-acae-87ef95e2d2b4",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:56:29.508604Z",
+    "latency_seconds": 12.045594374998473,
+    "attempts": 1,
+    "summary": {
+      "summary": "用户登录及支付操作记录，涉及账户验证与支付服务流程。",
+      "keywords": [
+        "支付",
+        "登录",
+        "账户",
+        "验证",
+        "服务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.312,
+      "metrics": {
+        "input_chars": 104.0,
+        "input_lines": 7.0,
+        "summary_chars": 26.0,
+        "summary_coverage_ratio": 0.25,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.2
+      }
+    }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "7194f962-ccd0-43da-a85e-c9884e53e4a0",
+  "note_id": "bac3be9e-6eac-470e-9905-9a3986a99d8e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Schufa是德国主要信用机构，提供信用评分服务，影响贷款、租房等金融活动。",
+    "keywords": [
+      "信用机构",
+      "德国",
+      "信用评分",
+      "贷款",
+      "租房"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:06:46.423491Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.174
+}

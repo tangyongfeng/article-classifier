@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4e65aa96-f8a8-4c42-9d7b-ba8d01bd52d5",
+      "note_id": "610e51b5-8320-4d02-ac0d-eb439c44c4de",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国自雇创业主题访谈，探讨创业初期策略与德国市场实践，属于商务领域创业范畴。",
+        "keywords": [
+          "自雇",
+          "创业",
+          "德国",
+          "商务",
+          "访谈"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:57:15.724215Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.16
+    }
+  ],
   "journal": {
     "id": "9042869c-0e9a-42bc-b94b-25dbfd0867da",
     "note_id": "610e51b5-8320-4d02-ac0d-eb439c44c4de",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:57:15.724020Z",
+    "latency_seconds": 13.06718345801346,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国自雇创业主题访谈，探讨创业初期策略与德国市场实践，属于商务领域创业范畴。",
+      "keywords": [
+        "自雇",
+        "创业",
+        "德国",
+        "商务",
+        "访谈"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.16,
+      "metrics": {
+        "input_chars": 204.0,
+        "input_lines": 7.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.186,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.2
+      }
+    }
   }
 }

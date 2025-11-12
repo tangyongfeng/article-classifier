@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "424d5227-0976-4511-a34a-ceae1d5be9e6",
+      "note_id": "df1d6c86-6318-401e-bd9d-b71fbd939b3d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分享腾讯游戏页面链接，内容涉及游戏信息及娱乐内容。",
+        "keywords": [
+          "游戏",
+          "链接",
+          "腾讯",
+          "分享",
+          "娱乐"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:41:21.511313Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.138
+    }
+  ],
   "journal": {
     "id": "30b9f5aa-70e3-461d-b930-597cf757238a",
     "note_id": "df1d6c86-6318-401e-bd9d-b71fbd939b3d",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:41:21.511165Z",
+    "latency_seconds": 31.20310683408752,
+    "attempts": 3,
+    "summary": {
+      "summary": "分享腾讯游戏页面链接，内容涉及游戏信息及娱乐内容。",
+      "keywords": [
+        "游戏",
+        "链接",
+        "腾讯",
+        "分享",
+        "娱乐"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.138,
+      "metrics": {
+        "input_chars": 175.0,
+        "input_lines": 8.0,
+        "summary_chars": 25.0,
+        "summary_coverage_ratio": 0.143,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.5
+      }
+    }
   }
 }

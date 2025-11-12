@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f3b7089c-8262-491e-9746-33b48ec80a46",
+      "note_id": "cbd358e7-a155-45ce-b6b7-1a5a323f20fb",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 驯虫记 updated: 2018-07-19 05:09:39Z created: 2018-07-19 05:09:39Z --- 人",
+        "keywords": [
+          "---",
+          "title: 驯虫记",
+          "updated: 2018-07-19 05:09:39Z",
+          "created: 2018-07-19 05:09:39Z",
+          "人民网"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:07:46.920028Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "6142167f-d76c-4b70-b749-f0bd0bd71084",
     "note_id": "cbd358e7-a155-45ce-b6b7-1a5a323f20fb",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T07:07:46.919311Z",
+    "latency_seconds": 104.64171250001527,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 驯虫记 updated: 2018-07-19 05:09:39Z created: 2018-07-19 05:09:39Z --- 人",
+      "keywords": [
+        "---",
+        "title: 驯虫记",
+        "updated: 2018-07-19 05:09:39Z",
+        "created: 2018-07-19 05:09:39Z",
+        "人民网"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 8247.0,
+        "input_lines": 162.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.01,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 494.8
+      }
+    }
   }
 }

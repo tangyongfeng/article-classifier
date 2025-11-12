@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2d86525a-50d9-4142-8c35-e06adc3cbe19",
+      "note_id": "eaee6b9f-b1d5-4c5d-9892-87dd1db209bf",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "北京车牌号示例京NB2234，属于交通管理中的车辆标识系统，与驾驶规则直接相关。",
+        "keywords": [
+          "车牌号",
+          "北京",
+          "交通规则",
+          "车辆标识",
+          "驾驶规则"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:48:45.884520Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.357
+    }
+  ],
   "journal": {
     "id": "6482f541-7982-4db3-bff9-1369411e20df",
     "note_id": "eaee6b9f-b1d5-4c5d-9892-87dd1db209bf",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:48:45.884366Z",
+    "latency_seconds": 16.689703833078966,
+    "attempts": 1,
+    "summary": {
+      "summary": "北京车牌号示例京NB2234，属于交通管理中的车辆标识系统，与驾驶规则直接相关。",
+      "keywords": [
+        "车牌号",
+        "北京",
+        "交通规则",
+        "车辆标识",
+        "驾驶规则"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.357,
+      "metrics": {
+        "input_chars": 87.0,
+        "input_lines": 6.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.46,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.2
+      }
+    }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "d2d5d735-ac3e-4c12-a49c-59f4eb85078e",
+  "note_id": "7edb614f-1f40-4764-8bc1-14373bac9441",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "日本自2018年10月起开放彩票互联网销售，涵盖大部分及大额彩票，区域销售待确认，由日本彩票自治协会维护。",
+    "keywords": [
+      "日本",
+      "彩票",
+      "互联网销售",
+      "开放",
+      "协会"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:27:16.693846Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.506
+}

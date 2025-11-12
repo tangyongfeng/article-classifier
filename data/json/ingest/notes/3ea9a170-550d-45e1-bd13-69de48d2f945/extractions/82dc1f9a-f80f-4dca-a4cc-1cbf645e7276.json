@@ -1,0 +1,27 @@
+{
+  "id": "82dc1f9a-f80f-4dca-a4cc-1cbf645e7276",
+  "note_id": "3ea9a170-550d-45e1-bd13-69de48d2f945",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美国绿卡申请流程图，涵盖移民步骤、签证类型及申请指南，辅助规划移民路径。",
+    "keywords": [
+      "绿卡",
+      "移民流程",
+      "美国移民",
+      "申请步骤",
+      "居留权"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:23:52.332438Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.171
+}

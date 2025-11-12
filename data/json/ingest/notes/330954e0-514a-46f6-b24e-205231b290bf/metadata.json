@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3c5469f9-a44e-458d-b2d7-4c7d5fe24f18",
+      "note_id": "330954e0-514a-46f6-b24e-205231b290bf",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "美国最高法院推翻1992年联邦禁令，允许各州合法化体育博彩，新泽西州率先推动，体育博彩市场预计达数百亿美元，引发相关股票市场飙升。",
+        "keywords": [
+          "体育博彩",
+          "最高法院",
+          "新泽西州",
+          "联邦法律",
+          "股票市场"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:45:57.725999Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.072
+    }
+  ],
   "journal": {
     "id": "ffd067ef-4f21-4e27-924c-1e8dd95e0a3c",
     "note_id": "330954e0-514a-46f6-b24e-205231b290bf",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:45:57.725759Z",
+    "latency_seconds": 35.205048583913594,
+    "attempts": 1,
+    "summary": {
+      "summary": "美国最高法院推翻1992年联邦禁令，允许各州合法化体育博彩，新泽西州率先推动，体育博彩市场预计达数百亿美元，引发相关股票市场飙升。",
+      "keywords": [
+        "体育博彩",
+        "最高法院",
+        "新泽西州",
+        "联邦法律",
+        "股票市场"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.072,
+      "metrics": {
+        "input_chars": 6480.0,
+        "input_lines": 43.0,
+        "summary_chars": 65.0,
+        "summary_coverage_ratio": 0.01,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 388.8
+      }
+    }
   }
 }

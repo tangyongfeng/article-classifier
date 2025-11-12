@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9d5b5947-527e-491a-a7b5-ed5384d2f2dc",
+      "note_id": "4c2ebee4-e8f7-41ad-871d-c7e3a159e129",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录2017年3月首次沟通、6月账单及汇款时间的财务事务，涉及支付流程时间节点。",
+        "keywords": [
+          "账单",
+          "汇款",
+          "支付",
+          "财务",
+          "时间记录"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:43:50.852626Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.31
+    }
+  ],
   "journal": {
     "id": "bc2bac1d-a945-4df7-a367-7b68f8973c8c",
     "note_id": "4c2ebee4-e8f7-41ad-871d-c7e3a159e129",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:43:50.852455Z",
+    "latency_seconds": 16.908661458059214,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录2017年3月首次沟通、6月账单及汇款时间的财务事务，涉及支付流程时间节点。",
+      "keywords": [
+        "账单",
+        "汇款",
+        "支付",
+        "财务",
+        "时间记录"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.31,
+      "metrics": {
+        "input_chars": 162.0,
+        "input_lines": 9.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.247,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.7
+      }
+    }
   }
 }

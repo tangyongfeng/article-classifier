@@ -1,0 +1,27 @@
+{
+  "id": "5feca13c-8628-4409-8a74-536e35fa45a5",
+  "note_id": "869b8f5b-efc5-4dba-9c9d-3103f42a2c9f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "使用Python通过ANSI转义码实现终端文本颜色输出，包含字体色、背景色及显示方式的代码示例。",
+    "keywords": [
+      "Python",
+      "ANSI转义码",
+      "颜色输出",
+      "终端",
+      "文本格式化"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:08:21.038115Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.151
+}

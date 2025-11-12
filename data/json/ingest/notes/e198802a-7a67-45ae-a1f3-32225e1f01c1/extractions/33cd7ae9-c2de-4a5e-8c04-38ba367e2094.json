@@ -1,0 +1,28 @@
+{
+  "id": "33cd7ae9-c2de-4a5e-8c04-38ba367e2094",
+  "note_id": "e198802a-7a67-45ae-a1f3-32225e1f01c1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "金仕达卫宁医疗软件系列存在菜单混乱、程序写死、技术缺陷等问题，公司已创业板上市，实施人员流动大。",
+    "keywords": [
+      "金仕达卫宁",
+      "医疗软件",
+      "程序缺陷",
+      "技术问题",
+      "创业板上市"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:01:21.958449Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.226
+}

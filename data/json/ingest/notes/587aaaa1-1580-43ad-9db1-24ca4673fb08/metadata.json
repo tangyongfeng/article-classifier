@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "72ba06bc-572f-40da-8f7d-d59c23c852fb",
+      "note_id": "587aaaa1-1580-43ad-9db1-24ca4673fb08",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "剥卦为《易经》六十四卦之一，象征剥落衰败，阴盛阳衰，但剥极则复，表示衰败后必有复兴。爻辞阐释了各爻的吉凶。",
+        "keywords": [
+          "剥卦",
+          "易经",
+          "阴阳",
+          "衰败",
+          "剥极则复"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:11:05.305100Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.263
+    }
+  ],
   "journal": {
     "id": "4ba7444e-be92-443d-b57d-2ef6d6b80a62",
     "note_id": "587aaaa1-1580-43ad-9db1-24ca4673fb08",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:11:05.304917Z",
+    "latency_seconds": 45.641289999941364,
+    "attempts": 1,
+    "summary": {
+      "summary": "剥卦为《易经》六十四卦之一，象征剥落衰败，阴盛阳衰，但剥极则复，表示衰败后必有复兴。爻辞阐释了各爻的吉凶。",
+      "keywords": [
+        "剥卦",
+        "易经",
+        "阴阳",
+        "衰败",
+        "剥极则复"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.263,
+      "metrics": {
+        "input_chars": 347.0,
+        "input_lines": 26.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.153,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 20.8
+      }
+    }
   }
 }

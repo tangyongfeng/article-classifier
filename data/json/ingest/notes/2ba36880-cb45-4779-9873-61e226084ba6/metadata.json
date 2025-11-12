@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b7ec6025-2a35-43e6-a3b6-4058a59816dc",
+      "note_id": "2ba36880-cb45-4779-9873-61e226084ba6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分享老虎机游戏运营经验，强调用户积累、用户画像分析、六位一体营销策略及广告变现的重要性。",
+        "keywords": [
+          "老虎机",
+          "用户积累",
+          "用户画像",
+          "营销策略",
+          "广告收益"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:05:04.531987Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.34
+    }
+  ],
   "journal": {
     "id": "ea4cba55-118f-407f-b12c-55cf50990683",
     "note_id": "2ba36880-cb45-4779-9873-61e226084ba6",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:05:04.531818Z",
+    "latency_seconds": 34.88214041606989,
+    "attempts": 1,
+    "summary": {
+      "summary": "分享老虎机游戏运营经验，强调用户积累、用户画像分析、六位一体营销策略及广告变现的重要性。",
+      "keywords": [
+        "老虎机",
+        "用户积累",
+        "用户画像",
+        "营销策略",
+        "广告收益"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.34,
+      "metrics": {
+        "input_chars": 654.0,
+        "input_lines": 9.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.067,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 39.2
+      }
+    }
   }
 }

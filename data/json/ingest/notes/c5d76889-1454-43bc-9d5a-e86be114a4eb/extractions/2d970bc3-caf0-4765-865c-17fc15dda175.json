@@ -1,0 +1,27 @@
+{
+  "id": "2d970bc3-caf0-4765-865c-17fc15dda175",
+  "note_id": "c5d76889-1454-43bc-9d5a-e86be114a4eb",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "通用学习笔记，暂未归入具体分类，需进一步整理至合适类别。",
+    "keywords": [
+      "笔记",
+      "教育",
+      "语言学习",
+      "学习",
+      "分类"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:23:05.312808Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.309
+}

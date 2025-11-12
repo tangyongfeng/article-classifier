@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "74dd9584-524a-41a3-91e3-5c9f3fe79db9",
+      "note_id": "35bdd9ba-d750-4e03-bacc-8cbc7b6c7cb6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "详细解释MySQL数据库中COLLATE设置的作用、配置层级及推荐使用utf8mb4_unicode_ci的最佳实践。",
+        "keywords": [
+          "MySQL",
+          "COLLATE",
+          "字符集",
+          "排序规则",
+          "数据库配置"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:55:29.060984Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.254
+    }
+  ],
   "journal": {
     "id": "013b6bdb-20ac-4c2e-87dd-21a1d3daf41a",
     "note_id": "35bdd9ba-d750-4e03-bacc-8cbc7b6c7cb6",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:55:29.060709Z",
+    "latency_seconds": 58.77768545795698,
+    "attempts": 2,
+    "summary": {
+      "summary": "详细解释MySQL数据库中COLLATE设置的作用、配置层级及推荐使用utf8mb4_unicode_ci的最佳实践。",
+      "keywords": [
+        "MySQL",
+        "COLLATE",
+        "字符集",
+        "排序规则",
+        "数据库配置"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.254,
+      "metrics": {
+        "input_chars": 4229.0,
+        "input_lines": 308.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.014,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 253.7
+      }
+    }
   }
 }

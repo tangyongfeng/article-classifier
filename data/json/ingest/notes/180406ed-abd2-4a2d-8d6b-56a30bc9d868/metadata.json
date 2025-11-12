@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5064950b-198a-41e5-b967-5504ae88a50c",
+      "note_id": "180406ed-abd2-4a2d-8d6b-56a30bc9d868",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: A Beginners Guide to Beating the Bookmakers with TensorFlow updated: ",
+        "keywords": [
+          "---",
+          "title: A Beginners Guide to Beating the Bookmakers with TensorFlow",
+          "updated: 2018-02-21 14:20:03Z",
+          "created: 2018-02-21 14:19:30Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:36:04.136026Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "fd9c8e53-803c-4ffc-b89d-06f07b8969a2",
     "note_id": "180406ed-abd2-4a2d-8d6b-56a30bc9d868",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T15:36:04.135466Z",
+    "latency_seconds": 22.098613207926974,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: A Beginners Guide to Beating the Bookmakers with TensorFlow updated: ",
+      "keywords": [
+        "---",
+        "title: A Beginners Guide to Beating the Bookmakers with TensorFlow",
+        "updated: 2018-02-21 14:20:03Z",
+        "created: 2018-02-21 14:19:30Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 12313.0,
+        "input_lines": 47.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.006,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 738.8
+      }
+    }
   }
 }

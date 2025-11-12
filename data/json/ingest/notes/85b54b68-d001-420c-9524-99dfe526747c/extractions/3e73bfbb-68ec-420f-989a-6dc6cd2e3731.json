@@ -1,0 +1,27 @@
+{
+  "id": "3e73bfbb-68ec-420f-989a-6dc6cd2e3731",
+  "note_id": "85b54b68-d001-420c-9524-99dfe526747c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记包含多家企业名称及行业分类，如高通、赛诺菲等，属于商业合作范畴。",
+    "keywords": [
+      "企业",
+      "公司",
+      "合作",
+      "商业",
+      "行业"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:01:33.504016Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.198
+}

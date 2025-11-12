@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1d8b3d53-5b7c-4ca3-aa65-f5ddc7e647bb",
+      "note_id": "519d354a-6374-4ed6-8ea3-127ce40af671",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供德国大使馆指定的宣誓翻译认证服务，用于中国驾照在德国合法租车驾驶。需提交驾照照片、护照拼音姓名，费用300元/本，含顺丰邮寄服务。",
+        "keywords": [
+          "宣誓翻译",
+          "驾照认证",
+          "德国大使馆",
+          "租车须知",
+          "翻译服务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "驾照"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:37:20.823833Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.329
+    }
+  ],
   "journal": {
     "id": "b8442ac9-de32-401c-916f-90a147a71c95",
     "note_id": "519d354a-6374-4ed6-8ea3-127ce40af671",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:37:20.823633Z",
+    "latency_seconds": 25.861979499924928,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供德国大使馆指定的宣誓翻译认证服务，用于中国驾照在德国合法租车驾驶。需提交驾照照片、护照拼音姓名，费用300元/本，含顺丰邮寄服务。",
+      "keywords": [
+        "宣誓翻译",
+        "驾照认证",
+        "德国大使馆",
+        "租车须知",
+        "翻译服务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "驾照"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.329,
+      "metrics": {
+        "input_chars": 1498.0,
+        "input_lines": 44.0,
+        "summary_chars": 67.0,
+        "summary_coverage_ratio": 0.045,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 89.9
+      }
+    }
   }
 }

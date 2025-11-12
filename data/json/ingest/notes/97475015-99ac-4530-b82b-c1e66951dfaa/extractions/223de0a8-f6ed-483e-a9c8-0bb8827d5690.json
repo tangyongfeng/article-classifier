@@ -1,0 +1,28 @@
+{
+  "id": "223de0a8-f6ed-483e-a9c8-0bb8827d5690",
+  "note_id": "97475015-99ac-4530-b82b-c1e66951dfaa",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美国租车保险涵盖第三方责任险、碰撞险（CDW）和丢失险（LDW），提供事故、车辆损坏及丢失的赔偿，另有个人意外险等附加选项。",
+    "keywords": [
+      "租车",
+      "保险",
+      "第三方责任险",
+      "碰撞险",
+      "丢失险"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "交通",
+      "交通知识"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:21:01.086121Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.403
+}

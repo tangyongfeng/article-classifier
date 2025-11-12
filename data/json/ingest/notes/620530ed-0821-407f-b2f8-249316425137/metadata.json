@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cf5001b4-20b1-413b-b1c0-c6d7c0a3afc4",
+      "note_id": "620530ed-0821-407f-b2f8-249316425137",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "安卓应用推广面临发布、下载、支付及云推送渠道分散问题，导致安全风险和用户体验下降。",
+        "keywords": [
+          "安卓",
+          "推广",
+          "渠道",
+          "安全",
+          "支付"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:58:07.370467Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.436
+    }
+  ],
   "journal": {
     "id": "60fdf0b3-bf2d-4715-8933-f2902cb05689",
     "note_id": "620530ed-0821-407f-b2f8-249316425137",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:58:07.370285Z",
+    "latency_seconds": 32.8898041669745,
+    "attempts": 1,
+    "summary": {
+      "summary": "安卓应用推广面临发布、下载、支付及云推送渠道分散问题，导致安全风险和用户体验下降。",
+      "keywords": [
+        "安卓",
+        "推广",
+        "渠道",
+        "安全",
+        "支付"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.436,
+      "metrics": {
+        "input_chars": 297.0,
+        "input_lines": 9.0,
+        "summary_chars": 41.0,
+        "summary_coverage_ratio": 0.138,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.8
+      }
+    }
   }
 }

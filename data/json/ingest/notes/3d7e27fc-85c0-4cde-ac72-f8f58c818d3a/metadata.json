@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "16d8278d-0017-47f8-8851-5c6cb5927312",
+      "note_id": "3d7e27fc-85c0-4cde-ac72-f8f58c818d3a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "GitHub账户登录密码的存储示例。",
+        "keywords": [
+          "GitHub",
+          "密码",
+          "账户",
+          "登录",
+          "安全"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:21:58.433544Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.254
+    }
+  ],
   "journal": {
     "id": "82157e9b-ec11-4eae-a56e-be1e58d4a743",
     "note_id": "3d7e27fc-85c0-4cde-ac72-f8f58c818d3a",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:21:58.433419Z",
+    "latency_seconds": 41.30074779095594,
+    "attempts": 1,
+    "summary": {
+      "summary": "GitHub账户登录密码的存储示例。",
+      "keywords": [
+        "GitHub",
+        "密码",
+        "账户",
+        "登录",
+        "安全"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.254,
+      "metrics": {
+        "input_chars": 133.0,
+        "input_lines": 7.0,
+        "summary_chars": 18.0,
+        "summary_coverage_ratio": 0.135,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.0
+      }
+    }
   }
 }

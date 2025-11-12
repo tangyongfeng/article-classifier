@@ -1,0 +1,28 @@
+{
+  "id": "d3ca241c-b387-4cd7-ab90-ceb27702886b",
+  "note_id": "eae4a8a3-ab7f-4fc0-b198-25b039b5eeb0",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "用户提交了关于在Ortiz取消汽车预订的查询，支持团队将跟进处理。",
+    "keywords": [
+      "取消",
+      "汽车",
+      "预订",
+      "Ortiz",
+      "支持"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "交通",
+      "交通知识"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:48:29.189657Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.198
+}

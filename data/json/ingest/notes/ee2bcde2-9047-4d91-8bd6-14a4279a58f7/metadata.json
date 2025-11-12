@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9b4b9c0f-5b2e-463e-87ec-5adc170493c2",
+      "note_id": "ee2bcde2-9047-4d91-8bd6-14a4279a58f7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记列举二级域名示例（如threecat.hopto.org），涉及域名管理技术，需归类至现有分类体系。",
+        "keywords": [
+          "二级域名",
+          "子域名",
+          "域名示例",
+          "网络技术",
+          "域名管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:03:54.331088Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.297
+    }
+  ],
   "journal": {
     "id": "4d586437-8bb8-4b05-af62-a82f196bafa7",
     "note_id": "ee2bcde2-9047-4d91-8bd6-14a4279a58f7",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:03:54.330961Z",
+    "latency_seconds": 30.78719116700813,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记列举二级域名示例（如threecat.hopto.org），涉及域名管理技术，需归类至现有分类体系。",
+      "keywords": [
+        "二级域名",
+        "子域名",
+        "域名示例",
+        "网络技术",
+        "域名管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.297,
+      "metrics": {
+        "input_chars": 153.0,
+        "input_lines": 9.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.34,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 3.0,
+        "estimated_read_seconds": 9.2
+      }
+    }
   }
 }

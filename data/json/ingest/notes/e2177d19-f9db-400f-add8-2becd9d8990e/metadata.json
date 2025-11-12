@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6c875dce-7377-4d01-b6d6-6c828735329e",
+      "note_id": "e2177d19-f9db-400f-add8-2becd9d8990e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "利弗莫尔买入法修正策略：初始买入20%，每涨10%加仓，回撤10%止损。修正后仅需一个涨停即正收益，降低风险，优化交易效率。",
+        "keywords": [
+          "利弗莫尔买入法",
+          "股票交易",
+          "加仓策略",
+          "止损规则",
+          "交易修正"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:02:19.599907Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.153
+    }
+  ],
   "journal": {
     "id": "c07a49d1-0c65-442d-ac2d-49ad06022aae",
     "note_id": "e2177d19-f9db-400f-add8-2becd9d8990e",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:02:19.599713Z",
+    "latency_seconds": 31.85940366704017,
+    "attempts": 1,
+    "summary": {
+      "summary": "利弗莫尔买入法修正策略：初始买入20%，每涨10%加仓，回撤10%止损。修正后仅需一个涨停即正收益，降低风险，优化交易效率。",
+      "keywords": [
+        "利弗莫尔买入法",
+        "股票交易",
+        "加仓策略",
+        "止损规则",
+        "交易修正"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.153,
+      "metrics": {
+        "input_chars": 1173.0,
+        "input_lines": 43.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.053,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 70.4
+      }
+    }
   }
 }

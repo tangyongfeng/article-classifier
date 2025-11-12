@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f6281e1f-6042-4df9-8d21-88d04566a821",
+      "note_id": "497aa04e-efae-491b-8d56-1db07b0db34d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容涉及Hadoop技术，属于云计算与大数据处理领域，应归类于商务技术创新范畴。",
+        "keywords": [
+          "云计算",
+          "Hadoop",
+          "大数据",
+          "分布式系统",
+          "技术创新"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:28:41.926704Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.27
+    }
+  ],
   "journal": {
     "id": "6930ab02-1f16-4607-9ef1-2bb2bdd483cd",
     "note_id": "497aa04e-efae-491b-8d56-1db07b0db34d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:28:41.926548Z",
+    "latency_seconds": 12.657380874967203,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记内容涉及Hadoop技术，属于云计算与大数据处理领域，应归类于商务技术创新范畴。",
+      "keywords": [
+        "云计算",
+        "Hadoop",
+        "大数据",
+        "分布式系统",
+        "技术创新"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.27,
+      "metrics": {
+        "input_chars": 147.0,
+        "input_lines": 9.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.286,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.8
+      }
+    }
   }
 }

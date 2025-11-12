@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3b6ccb85-f15b-4074-83d0-af3784ee270e",
+      "note_id": "562d2341-ece6-4010-9228-1218228effea",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "双色球中奖概率分析，中奖面范围6.7%-9%，涉及彩票概率计算与统计。",
+        "keywords": [
+          "双色球",
+          "中奖面",
+          "彩票",
+          "概率",
+          "金融"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified",
+          "金融"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:02:42.262237Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.286
+    }
+  ],
   "journal": {
     "id": "05487a75-b05b-4eac-a28b-42cda02514e8",
     "note_id": "562d2341-ece6-4010-9228-1218228effea",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:02:42.262083Z",
+    "latency_seconds": 17.990477000013925,
+    "attempts": 1,
+    "summary": {
+      "summary": "双色球中奖概率分析，中奖面范围6.7%-9%，涉及彩票概率计算与统计。",
+      "keywords": [
+        "双色球",
+        "中奖面",
+        "彩票",
+        "概率",
+        "金融"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified",
+        "金融"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.286,
+      "metrics": {
+        "input_chars": 176.0,
+        "input_lines": 12.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.199,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 10.6
+      }
+    }
   }
 }

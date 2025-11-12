@@ -1,0 +1,33 @@
+{
+  "id": "53c23b09-c129-467d-946c-44a6ab1c4d09",
+  "note_id": "e3110798-3de0-497a-af03-256430a03127",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容涉及寿司、菜单等词汇，但无匹配现有分类，需新增食物类目。",
+    "keywords": [
+      "寿司",
+      "日本料理",
+      "餐饮",
+      "菜单",
+      "食物"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": [
+      "Food",
+      "Japanese Food",
+      "Sushi"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:11:56.510425Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.344
+}

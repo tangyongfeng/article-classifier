@@ -1,0 +1,27 @@
+{
+  "id": "551ab6c9-731b-4f3d-b5a8-76462bfdbb7d",
+  "note_id": "040862f7-50d2-4adc-8b1f-f2e7f5c52551",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "可汗学院是由萨尔曼·可汗创立的非营利教育组织，通过在线视频提供数学、历史、金融等多学科免费课程，采用翻转课堂模式教学。",
+    "keywords": [
+      "可汗学院",
+      "在线教育",
+      "免费课程",
+      "翻转课堂",
+      "多学科"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:50:16.503112Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.218
+}

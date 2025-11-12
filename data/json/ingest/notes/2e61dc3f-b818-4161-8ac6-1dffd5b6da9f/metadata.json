@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "54c3d15a-90f4-42fb-be7e-8768ddf1de31",
+      "note_id": "2e61dc3f-b818-4161-8ac6-1dffd5b6da9f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记涉及中心二期系统开发，包括本地rest服务、省中心测试通知及省机房交换机与前置服务器配置。",
+        "keywords": [
+          "中心二期",
+          "服务器",
+          "省机房",
+          "测试",
+          "前置"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:17:53.884512Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.49
+    }
+  ],
   "journal": {
     "id": "21cea6bf-7975-4397-9d00-5d5e7720df05",
     "note_id": "2e61dc3f-b818-4161-8ac6-1dffd5b6da9f",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:17:53.884345Z",
+    "latency_seconds": 30.353992959018797,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记涉及中心二期系统开发，包括本地rest服务、省中心测试通知及省机房交换机与前置服务器配置。",
+      "keywords": [
+        "中心二期",
+        "服务器",
+        "省机房",
+        "测试",
+        "前置"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.49,
+      "metrics": {
+        "input_chars": 191.0,
+        "input_lines": 11.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.246,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.5
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "8264ff25-fbc0-4d3c-b0d7-8adc9316a3fa",
+  "note_id": "ca2a7ed6-960d-487c-a4d0-c5e6621695c9",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "医保管理系统涵盖医生管理、慢病随访、服药管理及健康管理，用于优化医疗服务质量。",
+    "keywords": [
+      "医保",
+      "医生管理",
+      "慢病管理",
+      "健康管理",
+      "医疗监管"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展",
+      "生活规划"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:52:37.998346Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.434
+}

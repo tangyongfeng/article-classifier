@@ -1,0 +1,28 @@
+{
+  "id": "a414e0b4-5103-40b7-83f4-ef1c1dfc7282",
+  "note_id": "3fe76f7a-b2e7-421c-96af-e660887ca1ff",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "讨论UTF-8中右向左控制字符U+202E被用于钓鱼邮件伪装文件扩展名的技术安全案例，涉及文件名反转攻击。",
+    "keywords": [
+      "控制字符",
+      "钓鱼邮件",
+      "UTF-8",
+      "文件扩展名",
+      "U+202E"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:27:11.283502Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.401
+}

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fffaf8b3-22ef-4b57-9e09-9813937ddd49",
+      "note_id": "01d3154c-53a7-4cf6-a527-f3a1c8963b6c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "招聘医疗健康系统软件工程师、前端开发工程师及业务分析工程师，要求具备医疗背景或相关从业经验。",
+        "keywords": [
+          "医疗健康",
+          "招聘",
+          "软件工程师",
+          "业务分析",
+          "医疗背景"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:45:50.447052Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.394
+    }
+  ],
   "journal": {
     "id": "bacfbb42-59e4-48a3-9561-6a2a057eff38",
     "note_id": "01d3154c-53a7-4cf6-a527-f3a1c8963b6c",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:45:50.446866Z",
+    "latency_seconds": 79.82882283395156,
+    "attempts": 1,
+    "summary": {
+      "summary": "招聘医疗健康系统软件工程师、前端开发工程师及业务分析工程师，要求具备医疗背景或相关从业经验。",
+      "keywords": [
+        "医疗健康",
+        "招聘",
+        "软件工程师",
+        "业务分析",
+        "医疗背景"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.394,
+      "metrics": {
+        "input_chars": 852.0,
+        "input_lines": 39.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.054,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 51.1
+      }
+    }
   }
 }

@@ -1,0 +1,31 @@
+{
+  "id": "296754db-f365-4808-a44e-792653f6ca93",
+  "note_id": "0564bc91-2f52-4efb-b7b9-ab84967a6f6a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "FreeBSD系统中screen命令的安装步骤与常用操作指南，包括窗口管理、会话分离及恢复等快捷键使用方法。",
+    "keywords": [
+      "screen命令",
+      "FreeBSD",
+      "窗口管理",
+      "会话分离",
+      "终端工具"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Technology",
+      "System Tools",
+      "Terminal Utilities"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:56:28.372299Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.221
+}

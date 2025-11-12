@@ -1,0 +1,27 @@
+{
+  "id": "539158a0-f8e3-4324-9b06-a40162ab91e0",
+  "note_id": "bbcdbb9b-498b-4406-bf84-fbc0e267ce1d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "域名清单包含多个域名的注册信息，如jlgmbh.com、annistudio.com等，包括账户号、类型、续费状态及到期日期。",
+    "keywords": [
+      "域名",
+      "注册",
+      "续费",
+      "到期",
+      "账户"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:16:09.753645Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.159
+}

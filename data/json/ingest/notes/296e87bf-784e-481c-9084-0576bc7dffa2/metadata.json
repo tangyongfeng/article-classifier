@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "957805ea-2abf-46be-a7dd-6668123ea5a0",
+      "note_id": "296e87bf-784e-481c-9084-0576bc7dffa2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分析DeepL API反滥用机制，通过修改时间戳计算（基于文本中'i'字符数）和ID生成规则（与质数相关）欺骗分析者，利用人类分析习惯和心理学设计实现防滥用。",
+        "keywords": [
+          "Web安全",
+          "心理学",
+          "API设计",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:57:57.717383Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.136
+    }
+  ],
   "journal": {
     "id": "35fed7ce-be9d-43b6-96ed-c38933bb3692",
     "note_id": "296e87bf-784e-481c-9084-0576bc7dffa2",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:57:57.717136Z",
+    "latency_seconds": 27.842504624975845,
+    "attempts": 1,
+    "summary": {
+      "summary": "分析DeepL API反滥用机制，通过修改时间戳计算（基于文本中'i'字符数）和ID生成规则（与质数相关）欺骗分析者，利用人类分析习惯和心理学设计实现防滥用。",
+      "keywords": [
+        "Web安全",
+        "心理学",
+        "API设计",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.136,
+      "metrics": {
+        "input_chars": 4215.0,
+        "input_lines": 349.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.019,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 252.9
+      }
+    }
   }
 }

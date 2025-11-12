@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6087066b-a191-4258-b3f2-bd62766aa712",
+      "note_id": "8ddee4ca-2a73-4849-a3c2-e59596e0f263",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 要建立一家外国房地产公司，你需要一个房屋建筑许可证！ |设立外国公司·日本分公司设立和企业管理签证申请。 updated: 2018-09",
+        "keywords": [
+          "---",
+          "title: 要建立一家外国房地产公司，你需要一个房屋建筑许可证！ |设立外国公司·日本分公司设立和企业管理签证申请",
+          "updated: 2018-09-14 07:16:05Z",
+          "created: 2018-09-14 07:16:05Z",
+          "source: http://www.japan-law.net/kyoninka/793/"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:43:30.012147Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "997cf690-4236-4eee-a9da-2effecba9803",
     "note_id": "8ddee4ca-2a73-4849-a3c2-e59596e0f263",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T01:43:30.011729Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 要建立一家外国房地产公司，你需要一个房屋建筑许可证！ |设立外国公司·日本分公司设立和企业管理签证申请。 updated: 2018-09",
+      "keywords": [
+        "---",
+        "title: 要建立一家外国房地产公司，你需要一个房屋建筑许可证！ |设立外国公司·日本分公司设立和企业管理签证申请",
+        "updated: 2018-09-14 07:16:05Z",
+        "created: 2018-09-14 07:16:05Z",
+        "source: http://www.japan-law.net/kyoninka/793/"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 6370.0,
+        "input_lines": 312.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 382.2
+      }
+    }
   }
 }

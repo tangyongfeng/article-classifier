@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0acc3c83-4eb2-4145-8885-29155dccb1ee",
+      "note_id": "a292bdf3-1378-490e-b377-b22809b3bf10",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "港股分红涉及公布日、除净日、截止过户日、派息日四个关键日期。除净日前买入持有股票方可获得分红，派息日下个工作日到账。",
+        "keywords": [
+          "港股",
+          "分红",
+          "除净日",
+          "截止过户日",
+          "派息日"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:23:02.361627Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.414
+    }
+  ],
   "journal": {
     "id": "4aafde60-8737-415d-bed4-f323ff9c3b0f",
     "note_id": "a292bdf3-1378-490e-b377-b22809b3bf10",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:23:02.361475Z",
+    "latency_seconds": 19.06522466603201,
+    "attempts": 1,
+    "summary": {
+      "summary": "港股分红涉及公布日、除净日、截止过户日、派息日四个关键日期。除净日前买入持有股票方可获得分红，派息日下个工作日到账。",
+      "keywords": [
+        "港股",
+        "分红",
+        "除净日",
+        "截止过户日",
+        "派息日"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.414,
+      "metrics": {
+        "input_chars": 620.0,
+        "input_lines": 29.0,
+        "summary_chars": 58.0,
+        "summary_coverage_ratio": 0.094,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 37.2
+      }
+    }
   }
 }

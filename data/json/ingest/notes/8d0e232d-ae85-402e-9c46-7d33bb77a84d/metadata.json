@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7cd5b644-c924-48ae-a55b-537b54e2a444",
+      "note_id": "8d0e232d-ae85-402e-9c46-7d33bb77a84d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "使用SQL语句查询特定日期（20220909）的股票交易数据记录数量。",
+        "keywords": [
+          "SQL",
+          "数据查询",
+          "股票数据",
+          "统计",
+          "日期"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:34:01.226543Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.207
+    }
+  ],
   "journal": {
     "id": "2ee492e3-7850-4987-8a78-ee6f344a9d45",
     "note_id": "8d0e232d-ae85-402e-9c46-7d33bb77a84d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:34:01.226387Z",
+    "latency_seconds": 24.29995537502691,
+    "attempts": 1,
+    "summary": {
+      "summary": "使用SQL语句查询特定日期（20220909）的股票交易数据记录数量。",
+      "keywords": [
+        "SQL",
+        "数据查询",
+        "股票数据",
+        "统计",
+        "日期"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.207,
+      "metrics": {
+        "input_chars": 218.0,
+        "input_lines": 9.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.161,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.1
+      }
+    }
   }
 }

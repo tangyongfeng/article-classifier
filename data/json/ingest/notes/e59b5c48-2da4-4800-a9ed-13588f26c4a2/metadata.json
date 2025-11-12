@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "dc559e84-d6cf-4445-b602-1c0a850ad228",
+      "note_id": "e59b5c48-2da4-4800-a9ed-13588f26c4a2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "解决MySQL数据库配置中my.ini文件缺失问题及关闭binlog的详细步骤。",
+        "keywords": [
+          "mysql",
+          "my.ini",
+          "binlog",
+          "配置",
+          "数据库"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:18:52.065368Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.322
+    }
+  ],
   "journal": {
     "id": "da6f4b37-f413-4523-b18d-1a9026752b9a",
     "note_id": "e59b5c48-2da4-4800-a9ed-13588f26c4a2",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:18:52.065227Z",
+    "latency_seconds": 31.301579082966782,
+    "attempts": 1,
+    "summary": {
+      "summary": "解决MySQL数据库配置中my.ini文件缺失问题及关闭binlog的详细步骤。",
+      "keywords": [
+        "mysql",
+        "my.ini",
+        "binlog",
+        "配置",
+        "数据库"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.322,
+      "metrics": {
+        "input_chars": 267.0,
+        "input_lines": 15.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.15,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 16.0
+      }
+    }
   }
 }

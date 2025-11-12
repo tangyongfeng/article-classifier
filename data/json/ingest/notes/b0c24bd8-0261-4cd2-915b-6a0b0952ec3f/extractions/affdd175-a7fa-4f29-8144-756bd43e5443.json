@@ -1,0 +1,28 @@
+{
+  "id": "affdd175-a7fa-4f29-8144-756bd43e5443",
+  "note_id": "b0c24bd8-0261-4cd2-915b-6a0b0952ec3f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "中工国际是中国从事国际工程承包和海外建设的中国企业，业务涵盖项目合作与设备出口。",
+    "keywords": [
+      "国际工程",
+      "工程承包",
+      "国际合作",
+      "企业业务",
+      "中工国际"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:17:52.714380Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.34
+}

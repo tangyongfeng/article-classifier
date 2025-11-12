@@ -1,0 +1,28 @@
+{
+  "id": "6a14a93e-915c-4e98-bb1e-a6b7672428b8",
+  "note_id": "699b03d7-1ef2-4ba0-bd19-59cb00a664f3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记列举IT项目执行中的关键问题，包括缺乏项目经验、设计未整合前期成果、文档未经审核及机房问题。",
+    "keywords": [
+      "IT项目",
+      "设计整合",
+      "文档审核",
+      "机房问题",
+      "工作硬伤"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:40:00.999479Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.297
+}

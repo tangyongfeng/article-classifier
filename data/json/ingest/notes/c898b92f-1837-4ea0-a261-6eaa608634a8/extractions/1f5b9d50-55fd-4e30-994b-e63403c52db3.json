@@ -1,0 +1,27 @@
+{
+  "id": "1f5b9d50-55fd-4e30-994b-e63403c52db3",
+  "note_id": "c898b92f-1837-4ea0-a261-6eaa608634a8",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Java SE功能库实现网络、并发等常用功能，覆盖大学计算机教学内容，代码量大，内容详细，适合教学应用。",
+    "keywords": [
+      "Java SE",
+      "功能库",
+      "教学应用",
+      "网络技术",
+      "例程"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:44:26.870081Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.436
+}

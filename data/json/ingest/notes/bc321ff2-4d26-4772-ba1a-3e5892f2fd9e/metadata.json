@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6bf18785-6056-4c26-ae58-a72213a50496",
+      "note_id": "bc321ff2-4d26-4772-ba1a-3e5892f2fd9e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语中通过前缀变化形成词义差异的词汇归纳，如nehmen、lassen等词根的变体，用于语法学习。",
+        "keywords": [
+          "德语",
+          "词尾变化",
+          "前缀",
+          "语法",
+          "词汇混淆"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:21:26.946447Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.2
+    }
+  ],
   "journal": {
     "id": "cbce42e9-d038-43f1-be28-3b0260547608",
     "note_id": "bc321ff2-4d26-4772-ba1a-3e5892f2fd9e",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:21:26.946231Z",
+    "latency_seconds": 21.97493129200302,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语中通过前缀变化形成词义差异的词汇归纳，如nehmen、lassen等词根的变体，用于语法学习。",
+      "keywords": [
+        "德语",
+        "词尾变化",
+        "前缀",
+        "语法",
+        "词汇混淆"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.2,
+      "metrics": {
+        "input_chars": 1900.0,
+        "input_lines": 111.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.026,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 114.0
+      }
+    }
   }
 }

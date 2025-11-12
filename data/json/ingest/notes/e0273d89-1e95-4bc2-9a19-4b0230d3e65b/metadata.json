@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "973676c7-b75b-4d6f-81ce-6771a5f0910a",
+      "note_id": "e0273d89-1e95-4bc2-9a19-4b0230d3e65b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "学车软件的用户名和密码信息。",
+        "keywords": [
+          "学车软件",
+          "用户名",
+          "密码",
+          "驾照",
+          "驾驶"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "驾照"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:50:12.521601Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.292
+    }
+  ],
   "journal": {
     "id": "cedd4c91-2f4b-477b-9a73-977195f72c1f",
     "note_id": "e0273d89-1e95-4bc2-9a19-4b0230d3e65b",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:50:12.521415Z",
+    "latency_seconds": 45.00615683302749,
+    "attempts": 1,
+    "summary": {
+      "summary": "学车软件的用户名和密码信息。",
+      "keywords": [
+        "学车软件",
+        "用户名",
+        "密码",
+        "驾照",
+        "驾驶"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "驾照"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.292,
+      "metrics": {
+        "input_chars": 154.0,
+        "input_lines": 8.0,
+        "summary_chars": 14.0,
+        "summary_coverage_ratio": 0.091,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.2
+      }
+    }
   }
 }

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1f5b9d50-55fd-4e30-994b-e63403c52db3",
+      "note_id": "c898b92f-1837-4ea0-a261-6eaa608634a8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Java SE功能库实现网络、并发等常用功能，覆盖大学计算机教学内容，代码量大，内容详细，适合教学应用。",
+        "keywords": [
+          "Java SE",
+          "功能库",
+          "教学应用",
+          "网络技术",
+          "例程"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:44:26.870081Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.436
+    }
+  ],
   "journal": {
     "id": "21c2882f-5817-445d-b637-95e6e309bbbc",
     "note_id": "c898b92f-1837-4ea0-a261-6eaa608634a8",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:44:26.869921Z",
+    "latency_seconds": 23.685196958947927,
+    "attempts": 1,
+    "summary": {
+      "summary": "Java SE功能库实现网络、并发等常用功能，覆盖大学计算机教学内容，代码量大，内容详细，适合教学应用。",
+      "keywords": [
+        "Java SE",
+        "功能库",
+        "教学应用",
+        "网络技术",
+        "例程"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.436,
+      "metrics": {
+        "input_chars": 374.0,
+        "input_lines": 10.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.139,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 22.4
+      }
+    }
   }
 }

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "77d7b69c-69c6-4228-b90e-40ac4f6fad58",
+      "note_id": "955a0b26-4315-4900-98ba-3c511feeddfa",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "对古典小说《西游记》的阅读心得与分析，涉及内容理解与文学价值探讨。",
+        "keywords": [
+          "西游记",
+          "读书笔记",
+          "中国文学",
+          "古典小说",
+          "阅读心得"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:18:00.863107Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.293
+    }
+  ],
   "journal": {
     "id": "12c618cc-2909-4e3a-a895-106e4ab87a2f",
     "note_id": "955a0b26-4315-4900-98ba-3c511feeddfa",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:18:00.862876Z",
+    "latency_seconds": 31.253937417059205,
+    "attempts": 1,
+    "summary": {
+      "summary": "对古典小说《西游记》的阅读心得与分析，涉及内容理解与文学价值探讨。",
+      "keywords": [
+        "西游记",
+        "读书笔记",
+        "中国文学",
+        "古典小说",
+        "阅读心得"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.293,
+      "metrics": {
+        "input_chars": 155.0,
+        "input_lines": 9.0,
+        "summary_chars": 33.0,
+        "summary_coverage_ratio": 0.213,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.3
+      }
+    }
   }
 }

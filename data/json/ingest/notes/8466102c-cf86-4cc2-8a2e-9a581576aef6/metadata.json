@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "afaad458-583d-4fd0-b531-badecd471a25",
+      "note_id": "8466102c-cf86-4cc2-8a2e-9a581576aef6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Blackjack游戏术语中英对照表，包含庄家、爆牌、分牌等21点游戏专业术语。",
+        "keywords": [
+          "21点",
+          "庄家",
+          "爆牌",
+          "分牌",
+          "术语表"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Games",
+          "Games > Casino Games",
+          "Games > Casino Games > Blackjack"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:55:29.912246Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.261
+    }
+  ],
   "journal": {
     "id": "6b89a3db-9ec7-4812-8e1e-0a6ae6664df3",
     "note_id": "8466102c-cf86-4cc2-8a2e-9a581576aef6",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:55:29.911945Z",
+    "latency_seconds": 24.074517124914564,
+    "attempts": 1,
+    "summary": {
+      "summary": "Blackjack游戏术语中英对照表，包含庄家、爆牌、分牌等21点游戏专业术语。",
+      "keywords": [
+        "21点",
+        "庄家",
+        "爆牌",
+        "分牌",
+        "术语表"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Games",
+        "Games > Casino Games",
+        "Games > Casino Games > Blackjack"
+      ]
+    },
+    "quality": {
+      "score": 0.261,
+      "metrics": {
+        "input_chars": 1374.0,
+        "input_lines": 64.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.029,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 82.4
+      }
+    }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "3fd16dab-18fc-46fd-a06e-776ea3d2375a",
+  "note_id": "16ced83d-7df7-460b-88df-d5a48147f7e6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该笔记提供了机器学习领域的系统化学习大纲，涵盖核心概念、常用算法及实际应用，旨在为学习者构建清晰的学习路径。",
+    "keywords": [
+      "机器学习",
+      "学习大纲",
+      "人工智能",
+      "算法",
+      "应用"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:29:12.857798Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.422
+}

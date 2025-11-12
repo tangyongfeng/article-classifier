@@ -1,0 +1,29 @@
+{
+  "id": "c5cc91f1-b8a6-4e97-a66c-6de54859eea1",
+  "note_id": "f98e2e7b-6da1-49f4-83c6-c8951717d834",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "记录2013年4月与9月国际航班行程，涉及北京、西雅图、洛杉矶、东京等城市，包含航班号、日期、乘客信息及机票详情。",
+    "keywords": [
+      "航班",
+      "行程",
+      "乘客",
+      "机票",
+      "国际旅行"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:55:07.843939Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.134
+}

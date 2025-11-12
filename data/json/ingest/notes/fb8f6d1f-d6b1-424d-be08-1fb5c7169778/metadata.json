@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5038590b-2b64-404e-a9ac-3f506a407a2c",
+      "note_id": "fb8f6d1f-d6b1-424d-be08-1fb5c7169778",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "会议讨论医保审核流程、电子病历系统应用及PBM难点，涉及诊疗人次下沉、费用控制与制度库建设。",
+        "keywords": [
+          "医保审核",
+          "电子病历",
+          "PBM",
+          "诊疗人次",
+          "制度库"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "医疗管理"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:01:08.803986Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.338
+    }
+  ],
   "journal": {
     "id": "138c4a7a-960e-4970-80d8-142c2a1bbbd1",
     "note_id": "fb8f6d1f-d6b1-424d-be08-1fb5c7169778",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:01:08.803772Z",
+    "latency_seconds": 14.54004954197444,
+    "attempts": 1,
+    "summary": {
+      "summary": "会议讨论医保审核流程、电子病历系统应用及PBM难点，涉及诊疗人次下沉、费用控制与制度库建设。",
+      "keywords": [
+        "医保审核",
+        "电子病历",
+        "PBM",
+        "诊疗人次",
+        "制度库"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "医疗管理"
+      ]
+    },
+    "quality": {
+      "score": 0.338,
+      "metrics": {
+        "input_chars": 734.0,
+        "input_lines": 21.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.063,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 44.0
+      }
+    }
   }
 }

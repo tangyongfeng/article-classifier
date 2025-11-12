@@ -1,0 +1,28 @@
+{
+  "id": "384efa0a-9da0-486a-8aec-163909a83e2b",
+  "note_id": "e76a3575-ca93-4a71-83b9-e1b266686cc6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该Python脚本用于树莓派监听附近Wi-Fi设备，通过邮件和微信推送通知，适用于家庭安全监控等场景。",
+    "keywords": [
+      "Python",
+      "Wi-Fi监听",
+      "邮件推送",
+      "微信推送",
+      "树莓派"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:24:32.396282Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.253
+}

@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "94aa99b2-d46b-4cce-bb5a-75143167bf34",
+      "note_id": "d6eb49fd-3691-4fc7-9f1e-a60f58d2c60b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记包含德语驾照考试核心词汇，涵盖车辆术语、交通规则及驾驶理论，用于考试准备。",
+        "keywords": [
+          "驾照考试",
+          "驾驶理论",
+          "德语词汇",
+          "交通规则",
+          "考试准备"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "驾照",
+          "驾驶理论"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:03:12.070478Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.144
+    }
+  ],
   "journal": {
     "id": "47c67815-0f56-4946-8f87-8a63ba6f17e4",
     "note_id": "d6eb49fd-3691-4fc7-9f1e-a60f58d2c60b",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:03:12.070153Z",
+    "latency_seconds": 16.47427600005176,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记包含德语驾照考试核心词汇，涵盖车辆术语、交通规则及驾驶理论，用于考试准备。",
+      "keywords": [
+        "驾照考试",
+        "驾驶理论",
+        "德语词汇",
+        "交通规则",
+        "考试准备"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "驾照",
+        "驾驶理论"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.144,
+      "metrics": {
+        "input_chars": 1105.0,
+        "input_lines": 100.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.035,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 66.3
+      }
+    }
   }
 }

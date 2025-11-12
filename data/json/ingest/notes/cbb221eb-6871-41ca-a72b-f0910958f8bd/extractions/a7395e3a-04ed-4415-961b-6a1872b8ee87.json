@@ -1,0 +1,29 @@
+{
+  "id": "a7395e3a-04ed-4415-961b-6a1872b8ee87",
+  "note_id": "cbb221eb-6871-41ca-a72b-f0910958f8bd",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "讨论团体旅行与独自旅行的优劣，作者分享独自前往西雅图的体验，强调行程自由与参观飞机博物馆的惊喜。",
+    "keywords": [
+      "团体旅行",
+      "独自旅行",
+      "行程自由",
+      "飞机博物馆",
+      "旅行体验"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "Solo vs Group Travel"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:03:35.700458Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.074
+}

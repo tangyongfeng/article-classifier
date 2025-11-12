@@ -1,0 +1,27 @@
+{
+  "id": "0bec6696-7dac-49b8-96d3-916f42930090",
+  "note_id": "c7f1dda6-7200-48af-a0a5-21e3cceb8530",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "分享区块链应用链接，介绍当下流行平台dapdap.io。",
+    "keywords": [
+      "区块链",
+      "应用",
+      "dapdap.io",
+      "平台",
+      "流行"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:38:04.797199Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.389
+}

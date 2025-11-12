@@ -1,0 +1,28 @@
+{
+  "id": "c4c71ef3-9ab4-4b01-bc47-544671991c95",
+  "note_id": "fe4b8d6c-91a6-42af-9373-0f58be3c8635",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记讨论太阳能行业投资策略，建议先买入多晶硅技术，待其普及后转向太阳能薄膜，以获取更高利润，避免投资顺序错误。",
+    "keywords": [
+      "多晶硅",
+      "太阳能薄膜",
+      "投资策略",
+      "行业趋势",
+      "技术过渡"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T11:26:46.252224Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.303
+}

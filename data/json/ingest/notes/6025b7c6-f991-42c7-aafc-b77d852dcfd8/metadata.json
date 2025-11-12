@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3a8bd9a4-9f25-45d7-806a-149d1890bd57",
+      "note_id": "6025b7c6-f991-42c7-aafc-b77d852dcfd8",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 如何用不足百元的电视棒接收气象卫星云图 - 极客头条 - CSDN.NET updated: 2016-03-10 02:48:41Z c",
+        "keywords": [
+          "---",
+          "title: 如何用不足百元的电视棒接收气象卫星云图 - 极客头条 - CSDN.NET",
+          "updated: 2016-03-10 02:48:41Z",
+          "created: 2016-03-10 02:48:41Z",
+          "source: http://geek.csdn.net/news/detail/36794"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:52:27.092455Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "1f6f6eb1-c336-41a6-8e38-0d50efc53891",
     "note_id": "6025b7c6-f991-42c7-aafc-b77d852dcfd8",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T21:52:27.091872Z",
+    "latency_seconds": 19.24666404200252,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 如何用不足百元的电视棒接收气象卫星云图 - 极客头条 - CSDN.NET updated: 2016-03-10 02:48:41Z c",
+      "keywords": [
+        "---",
+        "title: 如何用不足百元的电视棒接收气象卫星云图 - 极客头条 - CSDN.NET",
+        "updated: 2016-03-10 02:48:41Z",
+        "created: 2016-03-10 02:48:41Z",
+        "source: http://geek.csdn.net/news/detail/36794"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 11091.0,
+        "input_lines": 681.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.007,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 665.5
+      }
+    }
   }
 }

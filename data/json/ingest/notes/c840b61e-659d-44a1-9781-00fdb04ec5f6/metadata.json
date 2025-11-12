@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "edc93c5b-a5dc-4043-a347-7391cb1bae31",
+      "note_id": "c840b61e-659d-44a1-9781-00fdb04ec5f6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Open edX课程高级模块涉及LTI集成、评估工具、PDF支持等技术功能，用于扩展课程内容与交互性。",
+        "keywords": [
+          "lti_consumer",
+          "openassessment",
+          "pdf",
+          "google-calendar",
+          "poll"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:44:03.180614Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.444
+    }
+  ],
   "journal": {
     "id": "ca426557-79f2-48d8-9b68-986bb921fa9e",
     "note_id": "c840b61e-659d-44a1-9781-00fdb04ec5f6",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:44:03.180454Z",
+    "latency_seconds": 20.444799832999706,
+    "attempts": 1,
+    "summary": {
+      "summary": "Open edX课程高级模块涉及LTI集成、评估工具、PDF支持等技术功能，用于扩展课程内容与交互性。",
+      "keywords": [
+        "lti_consumer",
+        "openassessment",
+        "pdf",
+        "google-calendar",
+        "poll"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.444,
+      "metrics": {
+        "input_chars": 328.0,
+        "input_lines": 20.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.155,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 19.7
+      }
+    }
   }
 }

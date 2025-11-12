@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4f258aac-e4d6-463f-9bfc-7fd57f8880b3",
+      "note_id": "f86d95fd-f96f-4abb-ae11-bf309374b0a3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "淘宝技术笔记聚焦Velocity引擎优化系统性能，涉及JVM调优、数据库主备切换及灾备架构，提升吞吐量与稳定性。",
+        "keywords": [
+          "Velocity引擎",
+          "JVM优化",
+          "数据库主备",
+          "灾备系统",
+          "系统性能"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:51:46.707178Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.157
+    }
+  ],
   "journal": {
     "id": "19c6f3d9-584b-42b1-9423-6adb0c3743fe",
     "note_id": "f86d95fd-f96f-4abb-ae11-bf309374b0a3",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:51:46.707044Z",
+    "latency_seconds": 25.047756415908225,
+    "attempts": 1,
+    "summary": {
+      "summary": "淘宝技术笔记聚焦Velocity引擎优化系统性能，涉及JVM调优、数据库主备切换及灾备架构，提升吞吐量与稳定性。",
+      "keywords": [
+        "Velocity引擎",
+        "JVM优化",
+        "数据库主备",
+        "灾备系统",
+        "系统性能"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.157,
+      "metrics": {
+        "input_chars": 940.0,
+        "input_lines": 42.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.06,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 56.4
+      }
+    }
   }
 }

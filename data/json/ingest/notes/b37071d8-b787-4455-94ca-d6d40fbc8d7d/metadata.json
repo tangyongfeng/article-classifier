@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "418f9217-ea1e-4769-8f8e-cac72de9fca0",
+      "note_id": "b37071d8-b787-4455-94ca-d6d40fbc8d7d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语点餐常用语，包含打包请求，属于德语日常词汇学习内容。",
+        "keywords": [
+          "点餐",
+          "德语",
+          "日常用语",
+          "词汇",
+          "打包"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:34:28.451639Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.29
+    }
+  ],
   "journal": {
     "id": "976630cf-31ea-4de1-930a-2ebf58acfdb4",
     "note_id": "b37071d8-b787-4455-94ca-d6d40fbc8d7d",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:34:28.451487Z",
+    "latency_seconds": 9.788352082949132,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语点餐常用语，包含打包请求，属于德语日常词汇学习内容。",
+      "keywords": [
+        "点餐",
+        "德语",
+        "日常用语",
+        "词汇",
+        "打包"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.29,
+      "metrics": {
+        "input_chars": 136.0,
+        "input_lines": 7.0,
+        "summary_chars": 28.0,
+        "summary_coverage_ratio": 0.206,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.2
+      }
+    }
   }
 }

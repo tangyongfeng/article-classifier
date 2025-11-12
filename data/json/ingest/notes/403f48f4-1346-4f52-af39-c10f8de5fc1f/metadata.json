@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8d7ff91f-a931-49b0-9ca9-c6e79ae8c146",
+      "note_id": "403f48f4-1346-4f52-af39-c10f8de5fc1f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "关于东京旅行体验的笔记，涉及城市探索与文化观察，内容聚焦日本首都的旅行见闻。",
+        "keywords": [
+          "东京",
+          "旅行体验",
+          "城市探索",
+          "文化观察",
+          "日本"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:28:41.386216Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.258
+    }
+  ],
   "journal": {
     "id": "3d0e591e-071b-4a48-8248-715e7d99297b",
     "note_id": "403f48f4-1346-4f52-af39-c10f8de5fc1f",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:28:41.386097Z",
+    "latency_seconds": 10.29474854201544,
+    "attempts": 1,
+    "summary": {
+      "summary": "关于东京旅行体验的笔记，涉及城市探索与文化观察，内容聚焦日本首都的旅行见闻。",
+      "keywords": [
+        "东京",
+        "旅行体验",
+        "城市探索",
+        "文化观察",
+        "日本"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.258,
+      "metrics": {
+        "input_chars": 145.0,
+        "input_lines": 7.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.262,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.7
+      }
+    }
   }
 }

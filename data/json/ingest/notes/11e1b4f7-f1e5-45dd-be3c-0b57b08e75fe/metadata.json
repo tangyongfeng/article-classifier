@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0a83c034-a312-4a16-aa29-d9820d497e4d",
+      "note_id": "11e1b4f7-f1e5-45dd-be3c-0b57b08e75fe",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记属于语言学习范畴，涉及词汇与语法等学习内容，未指定具体语言，归入语言学习主分类。",
+        "keywords": [
+          "语言学习",
+          "词汇",
+          "语法",
+          "德语",
+          "教育"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:10:35.735011Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.272
+    }
+  ],
   "journal": {
     "id": "fd3f10d8-6e98-427b-bc41-e0fcb6a73978",
     "note_id": "11e1b4f7-f1e5-45dd-be3c-0b57b08e75fe",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:10:35.734836Z",
+    "latency_seconds": 28.25962999998592,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记属于语言学习范畴，涉及词汇与语法等学习内容，未指定具体语言，归入语言学习主分类。",
+      "keywords": [
+        "语言学习",
+        "词汇",
+        "语法",
+        "德语",
+        "教育"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.272,
+      "metrics": {
+        "input_chars": 105.0,
+        "input_lines": 7.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.41,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.3
+      }
+    }
   }
 }

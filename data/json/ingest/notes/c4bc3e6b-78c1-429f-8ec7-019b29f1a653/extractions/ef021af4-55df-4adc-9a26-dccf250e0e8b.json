@@ -1,0 +1,29 @@
+{
+  "id": "ef021af4-55df-4adc-9a26-dccf250e0e8b",
+  "note_id": "c4bc3e6b-78c1-429f-8ec7-019b29f1a653",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该笔记包含英文水果蔬菜基础词汇学习，属于语言学习中的词汇分类，适合英语初学者使用。",
+    "keywords": [
+      "水果",
+      "蔬菜",
+      "英文词汇",
+      "语言学习",
+      "基础"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Vocabulary"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:14:53.875703Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.319
+}

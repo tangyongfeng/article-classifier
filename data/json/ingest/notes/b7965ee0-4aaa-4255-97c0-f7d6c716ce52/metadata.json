@@ -77,7 +77,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "28571a92-8d5c-4b8a-a9d2-29e637daa10a",
+      "note_id": "b7965ee0-4aaa-4255-97c0-f7d6c716ce52",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "WordPress 4.9.6 存在任意文件删除漏洞，攻击者可利用上传图片修改元数据删除关键文件（如wp-config.php），导致网站被重装。漏洞未修复。",
+        "keywords": [
+          "WordPress",
+          "漏洞",
+          "任意文件删除",
+          "安全",
+          "4.9.6"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "商务",
+          "安全漏洞"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:48:52.085847Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.32
+    }
+  ],
   "journal": {
     "id": "b9c25ad2-aa9d-43d0-895f-7264181186e1",
     "note_id": "b7965ee0-4aaa-4255-97c0-f7d6c716ce52",
@@ -100,5 +131,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:48:52.085649Z",
+    "latency_seconds": 52.83466316701379,
+    "attempts": 1,
+    "summary": {
+      "summary": "WordPress 4.9.6 存在任意文件删除漏洞，攻击者可利用上传图片修改元数据删除关键文件（如wp-config.php），导致网站被重装。漏洞未修复。",
+      "keywords": [
+        "WordPress",
+        "漏洞",
+        "任意文件删除",
+        "安全",
+        "4.9.6"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "商务",
+        "安全漏洞"
+      ]
+    },
+    "quality": {
+      "score": 0.32,
+      "metrics": {
+        "input_chars": 2942.0,
+        "input_lines": 128.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.027,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 5.0,
+        "estimated_read_seconds": 176.5
+      }
+    }
   }
 }

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8f92f7a3-d7ca-4912-8c68-151b03eaf64c",
+      "note_id": "6e6c7cc8-33b8-4cd9-be35-1904521506ea",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "京医通卡是北京地区用于医疗预约和结算的智能卡，属于城市公共服务工具。",
+        "keywords": [
+          "京医通卡",
+          "医疗卡",
+          "北京",
+          "城市服务",
+          "健康"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "城市生活"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:57:59.752797Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.3
+    }
+  ],
   "journal": {
     "id": "19dc70bf-4fb8-40dd-a6ce-ec1f2632b0d4",
     "note_id": "6e6c7cc8-33b8-4cd9-be35-1904521506ea",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:57:59.752640Z",
+    "latency_seconds": 17.08615987491794,
+    "attempts": 1,
+    "summary": {
+      "summary": "京医通卡是北京地区用于医疗预约和结算的智能卡，属于城市公共服务工具。",
+      "keywords": [
+        "京医通卡",
+        "医疗卡",
+        "北京",
+        "城市服务",
+        "健康"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "城市生活"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.3,
+      "metrics": {
+        "input_chars": 98.0,
+        "input_lines": 6.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.347,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.9
+      }
+    }
   }
 }

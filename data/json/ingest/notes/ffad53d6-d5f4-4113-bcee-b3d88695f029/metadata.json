@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "61f8a96b-d35c-4d0d-a231-8af8c41e7964",
+      "note_id": "ffad53d6-d5f4-4113-bcee-b3d88695f029",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "首次赴美旅行需确认中药使用及洛杉矶西餐厅推荐，涉及旅行准备事项。",
+        "keywords": [
+          "赴美",
+          "中药",
+          "洛杉矶",
+          "西餐厅",
+          "旅行准备"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:32:56.490561Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.451
+    }
+  ],
   "journal": {
     "id": "4ae31880-91d5-4f59-b82a-3182666c92ed",
     "note_id": "ffad53d6-d5f4-4113-bcee-b3d88695f029",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:32:56.490420Z",
+    "latency_seconds": 23.41612983297091,
+    "attempts": 1,
+    "summary": {
+      "summary": "首次赴美旅行需确认中药使用及洛杉矶西餐厅推荐，涉及旅行准备事项。",
+      "keywords": [
+        "赴美",
+        "中药",
+        "洛杉矶",
+        "西餐厅",
+        "旅行准备"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.451,
+      "metrics": {
+        "input_chars": 111.0,
+        "input_lines": 7.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.288,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.7
+      }
+    }
   }
 }

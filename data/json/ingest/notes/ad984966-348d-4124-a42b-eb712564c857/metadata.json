@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "42aab2f6-3554-4109-b1e0-5c236b1ee9f8",
+      "note_id": "ad984966-348d-4124-a42b-eb712564c857",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "嘉泽新能2018年中止收购光伏企业中盛光电，引发股价暴跌至3.79元，融资困难及大股东减持，揭示跨行业并购风险与资金链压力。",
+        "keywords": [
+          "嘉泽新能",
+          "并购失败",
+          "股价暴跌",
+          "中盛光电",
+          "公司分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:04:19.000438Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.256
+    }
+  ],
   "journal": {
     "id": "8823c9b9-2ff2-442a-b536-f53b9c017227",
     "note_id": "ad984966-348d-4124-a42b-eb712564c857",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:04:19.000223Z",
+    "latency_seconds": 17.168446500087157,
+    "attempts": 1,
+    "summary": {
+      "summary": "嘉泽新能2018年中止收购光伏企业中盛光电，引发股价暴跌至3.79元，融资困难及大股东减持，揭示跨行业并购风险与资金链压力。",
+      "keywords": [
+        "嘉泽新能",
+        "并购失败",
+        "股价暴跌",
+        "中盛光电",
+        "公司分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.256,
+      "metrics": {
+        "input_chars": 3239.0,
+        "input_lines": 36.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.019,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 194.3
+      }
+    }
   }
 }

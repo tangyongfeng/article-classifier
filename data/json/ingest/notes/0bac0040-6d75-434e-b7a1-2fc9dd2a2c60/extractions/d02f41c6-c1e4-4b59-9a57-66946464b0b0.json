@@ -1,0 +1,28 @@
+{
+  "id": "d02f41c6-c1e4-4b59-9a57-66946464b0b0",
+  "note_id": "0bac0040-6d75-434e-b7a1-2fc9dd2a2c60",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "招商银行账户卡号信息，包含卡号及持卡人姓名。",
+    "keywords": [
+      "招行",
+      "卡号",
+      "银行",
+      "账户",
+      "姓名"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:40:13.563402Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.294
+}

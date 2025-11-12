@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1de27a82-445f-4087-ab53-1510109be7fc",
+      "note_id": "13070388-6fc1-4340-850c-d3c5f5740671",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "整理了107个安卓应用商店渠道列表，涵盖华为、小米、应用宝等主流平台，用于移动应用分发管理。",
+        "keywords": [
+          "安卓",
+          "应用商店",
+          "渠道",
+          "移动应用",
+          "应用市场"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "商务",
+          "应用商店"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:14:18.101701Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.269
+    }
+  ],
   "journal": {
     "id": "a43f0d47-a7c6-44dc-8eaf-6d3ec60ad602",
     "note_id": "13070388-6fc1-4340-850c-d3c5f5740671",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:14:18.101513Z",
+    "latency_seconds": 45.967585791950114,
+    "attempts": 1,
+    "summary": {
+      "summary": "整理了107个安卓应用商店渠道列表，涵盖华为、小米、应用宝等主流平台，用于移动应用分发管理。",
+      "keywords": [
+        "安卓",
+        "应用商店",
+        "渠道",
+        "移动应用",
+        "应用市场"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "商务",
+        "应用商店"
+      ]
+    },
+    "quality": {
+      "score": 0.269,
+      "metrics": {
+        "input_chars": 1056.0,
+        "input_lines": 113.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.044,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 63.4
+      }
+    }
   }
 }

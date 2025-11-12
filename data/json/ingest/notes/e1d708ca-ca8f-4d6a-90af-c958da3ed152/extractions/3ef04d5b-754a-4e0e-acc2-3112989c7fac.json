@@ -1,0 +1,28 @@
+{
+  "id": "3ef04d5b-754a-4e0e-acc2-3112989c7fac",
+  "note_id": "e1d708ca-ca8f-4d6a-90af-c958da3ed152",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "记录AWS账户邮箱注销、开通及数据迁移至dubox的系统日志。",
+    "keywords": [
+      "AWS",
+      "日志",
+      "邮箱变更",
+      "数据迁移",
+      "dubox"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:01:47.735487Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.304
+}

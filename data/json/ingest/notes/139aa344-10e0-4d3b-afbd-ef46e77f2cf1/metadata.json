@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1fd532e7-c2ba-428a-923d-ed1b46b84fb9",
+      "note_id": "139aa344-10e0-4d3b-afbd-ef46e77f2cf1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "包含PHP编译配置参数及MySQL用户创建命令的服务器配置笔记。",
+        "keywords": [
+          "服务器配置",
+          "PHP",
+          "MySQL",
+          "数据库",
+          "命令行"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "Server Configuration"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:15:53.578144Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.168
+    }
+  ],
   "journal": {
     "id": "7e04856e-c02c-4a18-bb31-f04f193e6a3c",
     "note_id": "139aa344-10e0-4d3b-afbd-ef46e77f2cf1",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:15:53.577994Z",
+    "latency_seconds": 31.282050082925707,
+    "attempts": 1,
+    "summary": {
+      "summary": "包含PHP编译配置参数及MySQL用户创建命令的服务器配置笔记。",
+      "keywords": [
+        "服务器配置",
+        "PHP",
+        "MySQL",
+        "数据库",
+        "命令行"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "Server Configuration"
+      ]
+    },
+    "quality": {
+      "score": 0.168,
+      "metrics": {
+        "input_chars": 389.0,
+        "input_lines": 10.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.082,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.3
+      }
+    }
   }
 }

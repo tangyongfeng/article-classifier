@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7e85598c-bcdb-486c-a60c-3323e1a86f3c",
+      "note_id": "a97d252e-2a6b-4451-835e-8808d42e237e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "随卦为《易经》第六卦，卦辞'元亨，利贞，无咎'，爻辞阐释随从之道，强调顺应时势、守正则吉的处事智慧。",
+        "keywords": [
+          "随卦",
+          "易经",
+          "卦辞",
+          "中国哲学",
+          "传统文化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:48:11.411675Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.213
+    }
+  ],
   "journal": {
     "id": "b467ff85-ae0e-4526-ace3-c703b59dee7b",
     "note_id": "a97d252e-2a6b-4451-835e-8808d42e237e",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:48:11.411508Z",
+    "latency_seconds": 37.92700491694268,
+    "attempts": 3,
+    "summary": {
+      "summary": "随卦为《易经》第六卦，卦辞'元亨，利贞，无咎'，爻辞阐释随从之道，强调顺应时势、守正则吉的处事智慧。",
+      "keywords": [
+        "随卦",
+        "易经",
+        "卦辞",
+        "中国哲学",
+        "传统文化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.213,
+      "metrics": {
+        "input_chars": 289.0,
+        "input_lines": 27.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.173,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.3
+      }
+    }
   }
 }

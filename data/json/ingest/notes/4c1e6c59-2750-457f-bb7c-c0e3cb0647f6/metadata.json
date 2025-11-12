@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fef65f27-2342-48d2-a09f-2333ee0b7e89",
+      "note_id": "4c1e6c59-2750-457f-bb7c-c0e3cb0647f6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "欧菲光为触摸屏制造企业，2013年股票因触摸屏概念火热而上涨后下跌，牵涉专利诉讼（宸鸿科技纠纷），公司利润率低需理财，涉及股票市场分析。",
+        "keywords": [
+          "触摸屏",
+          "股票市场",
+          "专利诉讼",
+          "公司分析",
+          "欧菲光"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:43:33.939314Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.267
+    }
+  ],
   "journal": {
     "id": "44d1dae5-2ba0-49a8-997b-f903cb12fdbc",
     "note_id": "4c1e6c59-2750-457f-bb7c-c0e3cb0647f6",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:43:33.939169Z",
+    "latency_seconds": 38.20295225002337,
+    "attempts": 1,
+    "summary": {
+      "summary": "欧菲光为触摸屏制造企业，2013年股票因触摸屏概念火热而上涨后下跌，牵涉专利诉讼（宸鸿科技纠纷），公司利润率低需理财，涉及股票市场分析。",
+      "keywords": [
+        "触摸屏",
+        "股票市场",
+        "专利诉讼",
+        "公司分析",
+        "欧菲光"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.267,
+      "metrics": {
+        "input_chars": 426.0,
+        "input_lines": 17.0,
+        "summary_chars": 68.0,
+        "summary_coverage_ratio": 0.16,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 25.6
+      }
+    }
   }
 }

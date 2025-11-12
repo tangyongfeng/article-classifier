@@ -1,0 +1,27 @@
+{
+  "id": "78bf6387-e539-4f01-b631-4f09cc22ee29",
+  "note_id": "9976ffbd-9975-4aed-af28-48c01367df8b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德国个人所得税退税流程示例：通过抵扣支出计算应缴税额，退还多付税款。",
+    "keywords": [
+      "退税",
+      "德国",
+      "个人所得税",
+      "抵扣",
+      "退还"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:29:12.977534Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.305
+}

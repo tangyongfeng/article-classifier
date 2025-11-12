@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "480120f7-6685-4a1e-aadd-e5663265701c",
+      "note_id": "df996bcc-5068-484b-ab1a-d67e1a95cd4c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该新闻来自科技媒体ifanr，内容涉及商业合作，归类至商务>合作分类。",
+        "keywords": [
+          "科技媒体",
+          "商业合作",
+          "品牌管理",
+          "创业",
+          "商务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:43:29.447463Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "556b6030-c69f-4b1d-831e-df59091d1523",
     "note_id": "df996bcc-5068-484b-ab1a-d67e1a95cd4c",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:43:29.447338Z",
+    "latency_seconds": 16.123112458968535,
+    "attempts": 1,
+    "summary": {
+      "summary": "该新闻来自科技媒体ifanr，内容涉及商业合作，归类至商务>合作分类。",
+      "keywords": [
+        "科技媒体",
+        "商业合作",
+        "品牌管理",
+        "创业",
+        "商务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 217.0,
+        "input_lines": 6.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.161,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.0
+      }
+    }
   }
 }

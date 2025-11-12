@@ -1,0 +1,30 @@
+{
+  "id": "b3a4886d-e4e4-46f6-aef3-59fe0f63bdc7",
+  "note_id": "b468e707-99c7-4530-89dc-2d0e1cd9b824",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记详细记录了主卧、客厅、次卧等室内空间的尺寸数据，包括门窗宽度、高度及家具布置位置。",
+    "keywords": [
+      "室内尺寸",
+      "房间布局",
+      "门窗尺寸",
+      "主卧",
+      "客厅"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "城市生活"
+    ],
+    "new_category_suggestion": [
+      "城市生活",
+      "室内设计"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:37:56.785240Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.324
+}

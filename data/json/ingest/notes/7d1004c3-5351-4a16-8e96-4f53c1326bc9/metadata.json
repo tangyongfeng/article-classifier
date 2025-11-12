@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bc3f6c64-538f-40a8-9393-9e746e901230",
+      "note_id": "7d1004c3-5351-4a16-8e96-4f53c1326bc9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "结婚12周年纪念信，回顾在德国生活、育有二子，表达坚守爱情与团聚愿望。",
+        "keywords": [
+          "结婚",
+          "家庭",
+          "德国",
+          "周年",
+          "团聚"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Relationships"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:16:39.334357Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.22
+    }
+  ],
   "journal": {
     "id": "f20d59e7-13ac-4192-83fc-3dfe5ed07667",
     "note_id": "7d1004c3-5351-4a16-8e96-4f53c1326bc9",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:16:39.334227Z",
+    "latency_seconds": 28.90411987504922,
+    "attempts": 1,
+    "summary": {
+      "summary": "结婚12周年纪念信，回顾在德国生活、育有二子，表达坚守爱情与团聚愿望。",
+      "keywords": [
+        "结婚",
+        "家庭",
+        "德国",
+        "周年",
+        "团聚"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Relationships"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.22,
+      "metrics": {
+        "input_chars": 521.0,
+        "input_lines": 14.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.067,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 31.3
+      }
+    }
   }
 }

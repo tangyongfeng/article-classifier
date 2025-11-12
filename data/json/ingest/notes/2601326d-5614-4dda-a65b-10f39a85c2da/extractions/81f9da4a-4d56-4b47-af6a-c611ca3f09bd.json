@@ -1,0 +1,29 @@
+{
+  "id": "81f9da4a-4d56-4b47-af6a-c611ca3f09bd",
+  "note_id": "2601326d-5614-4dda-a65b-10f39a85c2da",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "融券分析软件功能包括统计券商持股最大值、监测股票融券量突变及还券时间分析。",
+    "keywords": [
+      "融券",
+      "股票",
+      "券商",
+      "分析",
+      "还券"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market",
+      "Company Analysis"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:44:36.891778Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.494
+}

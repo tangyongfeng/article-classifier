@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "439df426-2148-4280-bc94-80ff7d743470",
+      "note_id": "b326e2cd-6710-4299-8d33-9b9664e20035",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语介词二格用法详解，包括wegen, während, statt, dank, trotz等介词在原因、时间、替代等语境中的正确搭配示例。",
+        "keywords": [
+          "二格",
+          "介词",
+          "德语语法",
+          "语法",
+          "用法"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:34:18.659443Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.215
+    }
+  ],
   "journal": {
     "id": "e9f9c090-820c-4834-92a7-34b5aef662e4",
     "note_id": "b326e2cd-6710-4299-8d33-9b9664e20035",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:34:18.659254Z",
+    "latency_seconds": 24.484391166013665,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语介词二格用法详解，包括wegen, während, statt, dank, trotz等介词在原因、时间、替代等语境中的正确搭配示例。",
+      "keywords": [
+        "二格",
+        "介词",
+        "德语语法",
+        "语法",
+        "用法"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.215,
+      "metrics": {
+        "input_chars": 1239.0,
+        "input_lines": 36.0,
+        "summary_chars": 71.0,
+        "summary_coverage_ratio": 0.057,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 74.3
+      }
+    }
   }
 }

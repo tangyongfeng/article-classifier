@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "304c5a47-c965-47a4-b13b-63cff717970d",
+      "note_id": "39b155e9-7d04-4722-90fc-d29fb987ae36",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "成功预约首都儿科研究所附属儿童医院心血管内科门诊。",
+        "keywords": [
+          "儿研所",
+          "心血管",
+          "挂号",
+          "预约",
+          "门诊"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展"
+        ],
+        "new_category_suggestion": [
+          "Health",
+          "Medical",
+          "Cardiology"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:06:22.776462Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.424
+    }
+  ],
   "journal": {
     "id": "ac1b637d-7942-483c-8894-a9eea713528c",
     "note_id": "39b155e9-7d04-4722-90fc-d29fb987ae36",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:06:22.776330Z",
+    "latency_seconds": 68.86387116706464,
+    "attempts": 1,
+    "summary": {
+      "summary": "成功预约首都儿科研究所附属儿童医院心血管内科门诊。",
+      "keywords": [
+        "儿研所",
+        "心血管",
+        "挂号",
+        "预约",
+        "门诊"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展"
+      ],
+      "new_category_suggestion": [
+        "Health",
+        "Medical",
+        "Cardiology"
+      ]
+    },
+    "quality": {
+      "score": 0.424,
+      "metrics": {
+        "input_chars": 217.0,
+        "input_lines": 9.0,
+        "summary_chars": 25.0,
+        "summary_coverage_ratio": 0.115,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.0
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "86cdf0b7-0858-4510-a306-bbf801f4a789",
+  "note_id": "9ef7b239-163d-45b7-8dea-b08baef5d817",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "MySQL数据库配置文件，包含主机、用户名、密码及连接参数，用于服务器管理。",
+    "keywords": [
+      "MySQL配置",
+      "数据库密码",
+      "服务器设置",
+      "用户权限",
+      "连接参数"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:03:43.729288Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.103
+}

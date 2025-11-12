@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e63ae6fa-b482-4896-b2e2-6e0620e6820a",
+      "note_id": "bee7d8d1-701c-4bf3-9a23-59f1f9fe635d",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: >- 转载了一篇网上流传较广的文章，得到大家较多的赞，知乎说我的转载不规范，比较难办的是，这篇文章很难找到原作者。 目前我搜到最早的出处是",
+        "keywords": [
+          "---",
+          "title: >-",
+          "转载了一篇网上流传较广的文章，得到大家较多的赞，知乎说我的转载不规范，比较难办的是，这篇文章很难找到原作者",
+          "目前我搜到最早的出处是超级大本营论坛，于2015年2月14日发表，中越战争――冷战的转折点 如果在网上找到更早的出处，我会来更新",
+          "据说是外国友人的作品，翻译是某网友，但据我估计更大的可能是国内某网友假借外国友人的角度，对中越战争的研究，如果超大的发表是首发的话，作者更可能是这个沈听雪，这个推断也得到下边所谓“网络资料”都是沈听雪著而验证"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:43:10.067296Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "e49233da-4ed0-4508-973a-aadaf5c0e880",
     "note_id": "bee7d8d1-701c-4bf3-9a23-59f1f9fe635d",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T05:43:10.065878Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: >- 转载了一篇网上流传较广的文章，得到大家较多的赞，知乎说我的转载不规范，比较难办的是，这篇文章很难找到原作者。 目前我搜到最早的出处是",
+      "keywords": [
+        "---",
+        "title: >-",
+        "转载了一篇网上流传较广的文章，得到大家较多的赞，知乎说我的转载不规范，比较难办的是，这篇文章很难找到原作者",
+        "目前我搜到最早的出处是超级大本营论坛，于2015年2月14日发表，中越战争――冷战的转折点 如果在网上找到更早的出处，我会来更新",
+        "据说是外国友人的作品，翻译是某网友，但据我估计更大的可能是国内某网友假借外国友人的角度，对中越战争的研究，如果超大的发表是首发的话，作者更可能是这个沈听雪，这个推断也得到下边所谓“网络资料”都是沈听雪著而验证"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 60338.0,
+        "input_lines": 240.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.001,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 3620.3
+      }
+    }
   }
 }

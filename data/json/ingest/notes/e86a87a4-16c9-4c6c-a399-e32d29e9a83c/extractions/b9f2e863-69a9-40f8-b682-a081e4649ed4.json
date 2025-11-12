@@ -1,0 +1,28 @@
+{
+  "id": "b9f2e863-69a9-40f8-b682-a081e4649ed4",
+  "note_id": "e86a87a4-16c9-4c6c-a399-e32d29e9a83c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "《周易》豫卦爻辞解析，阐释愉悦预备之道，强调居安思危，涉及儒家与道家思想。",
+    "keywords": [
+      "豫卦",
+      "易经",
+      "爻辞",
+      "儒家",
+      "道家"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:35:37.993819Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.304
+}

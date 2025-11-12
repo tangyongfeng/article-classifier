@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e046f296-ec45-4932-961f-c523eba971bd",
+      "note_id": "8cefad9a-372c-4760-8ddd-92eb7f7804b7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "海外华人需铭记国家支持，遇事依靠中国护照，避免暴露身份，保持公民责任，体现国家认同与海外行为规范。",
+        "keywords": [
+          "海外华人",
+          "国家认同",
+          "护照便利",
+          "身份管理",
+          "公民责任"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:33:36.922265Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.237
+    }
+  ],
   "journal": {
     "id": "054cafe7-d257-4d7e-a502-89bda702f95d",
     "note_id": "8cefad9a-372c-4760-8ddd-92eb7f7804b7",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:33:36.922112Z",
+    "latency_seconds": 19.733621666091494,
+    "attempts": 1,
+    "summary": {
+      "summary": "海外华人需铭记国家支持，遇事依靠中国护照，避免暴露身份，保持公民责任，体现国家认同与海外行为规范。",
+      "keywords": [
+        "海外华人",
+        "国家认同",
+        "护照便利",
+        "身份管理",
+        "公民责任"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.237,
+      "metrics": {
+        "input_chars": 222.0,
+        "input_lines": 6.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.221,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.3
+      }
+    }
   }
 }

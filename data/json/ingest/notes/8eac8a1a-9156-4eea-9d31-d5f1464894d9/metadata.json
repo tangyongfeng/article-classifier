@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fda26d76-b696-438e-8dde-f21b76c4a7ea",
+      "note_id": "8eac8a1a-9156-4eea-9d31-d5f1464894d9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "老虎证券接收账户信息说明，含账号、名称、清算代码等，用于股票转仓操作。原券商需提交此信息，老虎将在1-2个工作日内处理。",
+        "keywords": [
+          "老虎证券",
+          "接收账户",
+          "股票转仓",
+          "账户信息",
+          "清算券商"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:47:43.693050Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.383
+    }
+  ],
   "journal": {
     "id": "3ed5e1b5-10b4-4a43-ba2d-739347a4b59f",
     "note_id": "8eac8a1a-9156-4eea-9d31-d5f1464894d9",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:47:43.692883Z",
+    "latency_seconds": 23.360102375037968,
+    "attempts": 1,
+    "summary": {
+      "summary": "老虎证券接收账户信息说明，含账号、名称、清算代码等，用于股票转仓操作。原券商需提交此信息，老虎将在1-2个工作日内处理。",
+      "keywords": [
+        "老虎证券",
+        "接收账户",
+        "股票转仓",
+        "账户信息",
+        "清算券商"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.383,
+      "metrics": {
+        "input_chars": 393.0,
+        "input_lines": 31.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.153,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 23.6
+      }
+    }
   }
 }

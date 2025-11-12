@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0f1bff74-069c-4cb7-befc-8ed1392ae8d6",
+      "note_id": "9e56db33-c6c3-40b7-846f-4c085a71cc9e",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 哪些Python库让你相见恨晚？ updated: 2016-04-02 12:25:57Z created: 2016-04-02 12",
+        "keywords": [
+          "---",
+          "title: 哪些Python库让你相见恨晚？",
+          "updated: 2016-04-02 12:25:57Z",
+          "created: 2016-04-02 12:25:57Z",
+          "tags:"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:00:10.647367Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "9f6b6dfb-cf8b-407e-8ce3-3c8ac00f0990",
     "note_id": "9e56db33-c6c3-40b7-846f-4c085a71cc9e",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T03:00:10.645370Z",
+    "latency_seconds": 21.70214449998457,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 哪些Python库让你相见恨晚？ updated: 2016-04-02 12:25:57Z created: 2016-04-02 12",
+      "keywords": [
+        "---",
+        "title: 哪些Python库让你相见恨晚？",
+        "updated: 2016-04-02 12:25:57Z",
+        "created: 2016-04-02 12:25:57Z",
+        "tags:"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 26971.0,
+        "input_lines": 1473.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.003,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 1618.3
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "aed5d9f0-dde9-4f21-bd15-c46c99165e02",
+      "note_id": "91925660-d138-493d-895a-109ae64f5410",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Ubuntu系统中安装MySQL 5.7的命令行操作，涉及apt包管理、root用户登录及密码设置。",
+        "keywords": [
+          "MySQL",
+          "数据库安装",
+          "apt命令",
+          "root登录",
+          "MySQL 5.7"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:56:05.827606Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.235
+    }
+  ],
   "journal": {
     "id": "855adb3c-3a11-4f3e-b922-88c8095b48c4",
     "note_id": "91925660-d138-493d-895a-109ae64f5410",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:56:05.827455Z",
+    "latency_seconds": 23.528478874941356,
+    "attempts": 1,
+    "summary": {
+      "summary": "Ubuntu系统中安装MySQL 5.7的命令行操作，涉及apt包管理、root用户登录及密码设置。",
+      "keywords": [
+        "MySQL",
+        "数据库安装",
+        "apt命令",
+        "root登录",
+        "MySQL 5.7"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.235,
+      "metrics": {
+        "input_chars": 230.0,
+        "input_lines": 8.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.217,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 13.8
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "4f829aa5-1526-401a-92f2-4f58314a0033",
+  "note_id": "8b8e4269-67b0-40bf-b298-3104f25b4813",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "推荐提升开发效率的Python库，涵盖数据处理、自动化及可视化工具，适合编程学习者与开发者。",
+    "keywords": [
+      "Python库",
+      "开发效率",
+      "编程工具",
+      "数据处理",
+      "自动化"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:29:23.900240Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.239
+}

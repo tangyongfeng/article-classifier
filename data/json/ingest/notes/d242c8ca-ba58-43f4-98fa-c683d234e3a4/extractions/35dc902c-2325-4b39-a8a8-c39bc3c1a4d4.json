@@ -1,0 +1,28 @@
+{
+  "id": "35dc902c-2325-4b39-a8a8-c39bc3c1a4d4",
+  "note_id": "d242c8ca-ba58-43f4-98fa-c683d234e3a4",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Java中HashMap遍历的两种方式：keySet（效率低，遍历两次）和entrySet（效率高，遍历一次），推荐使用entrySet提高性能。",
+    "keywords": [
+      "HashMap",
+      "遍历",
+      "keySet",
+      "entrySet",
+      "效率"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:38:11.639924Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.388
+}

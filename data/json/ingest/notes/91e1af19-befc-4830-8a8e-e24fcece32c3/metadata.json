@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "56980205-e49c-48fe-969a-a81f6a17cfd3",
+      "note_id": "91e1af19-befc-4830-8a8e-e24fcece32c3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语常用形容词列表，涵盖大小、颜色、状态等描述性词汇，用于德语语法学习。",
+        "keywords": [
+          "形容词",
+          "德语",
+          "语法",
+          "常用",
+          "词汇"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:56:27.780307Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.193
+    }
+  ],
   "journal": {
     "id": "e9ecb5a2-daa4-4013-93e2-92cb6d628c25",
     "note_id": "91e1af19-befc-4830-8a8e-e24fcece32c3",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:56:27.780016Z",
+    "latency_seconds": 21.94749420892913,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语常用形容词列表，涵盖大小、颜色、状态等描述性词汇，用于德语语法学习。",
+      "keywords": [
+        "形容词",
+        "德语",
+        "语法",
+        "常用",
+        "词汇"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.193,
+      "metrics": {
+        "input_chars": 2738.0,
+        "input_lines": 206.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 164.3
+      }
+    }
   }
 }

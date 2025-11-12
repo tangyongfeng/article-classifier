@@ -1,0 +1,28 @@
+{
+  "id": "af124286-dbe8-461a-ae96-6701d711e4fd",
+  "note_id": "7a765707-8901-4db3-9bee-08f677438c52",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "记录德国房东Ehel.Stinner的银行账号IBAN信息：DE92 3055 0000 0080 0543 31，涉及支付服务。",
+    "keywords": [
+      "德国",
+      "房东",
+      "卡号",
+      "银行账号",
+      "IBAN"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:02:33.862349Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.458
+}

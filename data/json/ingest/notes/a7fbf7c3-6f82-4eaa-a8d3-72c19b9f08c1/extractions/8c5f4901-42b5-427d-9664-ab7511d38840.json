@@ -1,0 +1,28 @@
+{
+  "id": "8c5f4901-42b5-427d-9664-ab7511d38840",
+  "note_id": "a7fbf7c3-6f82-4eaa-a8d3-72c19b9f08c1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "加拿大在线博彩公司，作为Betfair合作伙伴提供博彩服务。",
+    "keywords": [
+      "博彩公司",
+      "在线博彩",
+      "Betfair合作伙伴",
+      "加拿大",
+      "商务合作"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:39:43.559846Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.428
+}

@@ -1,0 +1,30 @@
+{
+  "id": "6174f58f-1f29-493d-9681-09b116ed910c",
+  "note_id": "4053582a-cf80-4224-8b2e-1ba4614c516e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "N95口罩型号区分医疗用途（如1860/1870+防病毒）与建筑用途（如8210/8511防尘），购买时应选择标注anti virus的型号。",
+    "keywords": [
+      "N95",
+      "口罩",
+      "型号",
+      "医疗",
+      "建筑"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "交通安全"
+    ],
+    "new_category_suggestion": [
+      "健康",
+      "健康 > 医疗防护"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:30:20.082055Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.448
+}

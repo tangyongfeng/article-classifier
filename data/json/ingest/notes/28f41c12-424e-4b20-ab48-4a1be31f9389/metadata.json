@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9d24b37a-1029-47ab-a64a-7849b921a54e",
+      "note_id": "28f41c12-424e-4b20-ab48-4a1be31f9389",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "金自天正（600560）股票交易分析，9月17日预测股价可能下跌。",
+        "keywords": [
+          "股票",
+          "分析",
+          "金自天正",
+          "600560",
+          "下跌"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:57:10.292701Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.344
+    }
+  ],
   "journal": {
     "id": "89fad891-4ac4-4acc-8176-2a72d9b24f5b",
     "note_id": "28f41c12-424e-4b20-ab48-4a1be31f9389",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:57:10.292550Z",
+    "latency_seconds": 32.674271999974735,
+    "attempts": 1,
+    "summary": {
+      "summary": "金自天正（600560）股票交易分析，9月17日预测股价可能下跌。",
+      "keywords": [
+        "股票",
+        "分析",
+        "金自天正",
+        "600560",
+        "下跌"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.344,
+      "metrics": {
+        "input_chars": 105.0,
+        "input_lines": 6.0,
+        "summary_chars": 33.0,
+        "summary_coverage_ratio": 0.314,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.3
+      }
+    }
   }
 }

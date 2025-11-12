@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "62373425-c11b-469f-9d5e-4a832b32196d",
+      "note_id": "2e4e434b-0fca-47f4-bb4b-ddc7bc7a1a6e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "会议讨论用户系统架构、资源平台功能（含视频播放与录像入库）及开源系统抉择，考虑未来与知识图谱结合。",
+        "keywords": [
+          "用户系统",
+          "资源平台",
+          "开源系统",
+          "技术创新",
+          "知识图谱"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:16:36.164300Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.377
+    }
+  ],
   "journal": {
     "id": "afcacb0f-ef70-4f8b-afb3-f085d62132b8",
     "note_id": "2e4e434b-0fca-47f4-bb4b-ddc7bc7a1a6e",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:16:36.164141Z",
+    "latency_seconds": 20.66950295807328,
+    "attempts": 1,
+    "summary": {
+      "summary": "会议讨论用户系统架构、资源平台功能（含视频播放与录像入库）及开源系统抉择，考虑未来与知识图谱结合。",
+      "keywords": [
+        "用户系统",
+        "资源平台",
+        "开源系统",
+        "技术创新",
+        "知识图谱"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.377,
+      "metrics": {
+        "input_chars": 349.0,
+        "input_lines": 18.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.14,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 20.9
+      }
+    }
   }
 }

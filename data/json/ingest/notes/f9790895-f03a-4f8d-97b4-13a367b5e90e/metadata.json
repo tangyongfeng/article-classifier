@@ -67,7 +67,40 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "68ada949-8a1e-4ae8-9c24-86bdf1e025fd",
+      "note_id": "f9790895-f03a-4f8d-97b4-13a367b5e90e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "A comprehensive guide to creating a successful online course, covering planning,",
+        "keywords": [
+          "online course creation",
+          "course planning",
+          "content strategy",
+          "student engagement",
+          "course marketing"
+        ],
+        "action_items": [
+          "Define your target audience using surveys or competitor analysis",
+          "Create a 3-module pilot course for initial feedback",
+          "Set up a free email list before course launch",
+          "Incorporate one interactive element per module (e.g., quiz, discussion)",
+          "Analyze student completion rates weekly for improvements"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:54:38.034114Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.226
+    }
+  ],
   "journal": {
     "id": "ea921a93-f4ec-481f-aa8b-8cc00255fca2",
     "note_id": "f9790895-f03a-4f8d-97b4-13a367b5e90e",
@@ -90,5 +123,48 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:54:38.033914Z",
+    "latency_seconds": 59.546396250021644,
+    "attempts": 1,
+    "summary": {
+      "summary": "A comprehensive guide to creating a successful online course, covering planning,",
+      "keywords": [
+        "online course creation",
+        "course planning",
+        "content strategy",
+        "student engagement",
+        "course marketing"
+      ],
+      "action_items": [
+        "Define your target audience using surveys or competitor analysis",
+        "Create a 3-module pilot course for initial feedback",
+        "Set up a free email list before course launch",
+        "Incorporate one interactive element per module (e.g., quiz, discussion)",
+        "Analyze student completion rates weekly for improvements"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.226,
+      "metrics": {
+        "input_chars": 1575.0,
+        "input_lines": 64.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.051,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 5.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 94.5
+      }
+    }
   }
 }

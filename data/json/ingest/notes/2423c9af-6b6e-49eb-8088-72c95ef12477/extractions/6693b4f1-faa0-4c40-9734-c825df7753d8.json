@@ -1,0 +1,28 @@
+{
+  "id": "6693b4f1-faa0-4c40-9734-c825df7753d8",
+  "note_id": "2423c9af-6b6e-49eb-8088-72c95ef12477",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记涉及IBM合作中的保密协议（NDA）细节，包括有效期、保密期限及需保护的业务分析、规划构架、测试文档等，并计划11月中旬展示合作场景。",
+    "keywords": [
+      "保密协议",
+      "业务分析",
+      "合作流程",
+      "文档管理",
+      "NDA"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:42:34.443290Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.246
+}

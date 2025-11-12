@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "de37c702-a85b-4f5c-8727-1d8f4d18db80",
+      "note_id": "947d27f9-5f5c-4de1-877b-d27cbff98484",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 护照换发 updated: 2013-01-02 10:58:53Z created: 2012-12-31 06:35:36Z sour",
+        "keywords": [
+          "---",
+          "title: 护照换发",
+          "updated: 2013-01-02 10:58:53Z",
+          "created: 2012-12-31 06:35:36Z",
+          "source: http://210.73.73.75/idn/certificate/saveForward?applyCode=20121231000306"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:14:12.219607Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.164
+    }
+  ],
   "journal": {
     "id": "603a00b7-2f93-4b8a-af3a-941690366118",
     "note_id": "947d27f9-5f5c-4de1-877b-d27cbff98484",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T02:14:12.219408Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 护照换发 updated: 2013-01-02 10:58:53Z created: 2012-12-31 06:35:36Z sour",
+      "keywords": [
+        "---",
+        "title: 护照换发",
+        "updated: 2013-01-02 10:58:53Z",
+        "created: 2012-12-31 06:35:36Z",
+        "source: http://210.73.73.75/idn/certificate/saveForward?applyCode=20121231000306"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.164,
+      "metrics": {
+        "input_chars": 906.0,
+        "input_lines": 38.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.088,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 54.4
+      }
+    }
   }
 }

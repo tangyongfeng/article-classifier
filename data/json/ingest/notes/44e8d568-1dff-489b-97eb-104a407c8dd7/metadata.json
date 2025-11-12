@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "63488c39-e79c-4486-b729-38607e476882",
+      "note_id": "44e8d568-1dff-489b-97eb-104a407c8dd7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "针对德国企业与北京公司合作协议的修改意见，强调平等合作关系、业务分工厘清、执行地及管辖地应在德国，避免无效条款如分成比例。",
+        "keywords": [
+          "合作协议",
+          "德国企业",
+          "平等合作",
+          "执行地",
+          "管辖地"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:52:00.436539Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.38
+    }
+  ],
   "journal": {
     "id": "65ade028-713f-4d5b-9bf9-c1f6efe93199",
     "note_id": "44e8d568-1dff-489b-97eb-104a407c8dd7",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:52:00.436286Z",
+    "latency_seconds": 26.547413374995813,
+    "attempts": 1,
+    "summary": {
+      "summary": "针对德国企业与北京公司合作协议的修改意见，强调平等合作关系、业务分工厘清、执行地及管辖地应在德国，避免无效条款如分成比例。",
+      "keywords": [
+        "合作协议",
+        "德国企业",
+        "平等合作",
+        "执行地",
+        "管辖地"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.38,
+      "metrics": {
+        "input_chars": 2229.0,
+        "input_lines": 120.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.027,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 133.7
+      }
+    }
   }
 }

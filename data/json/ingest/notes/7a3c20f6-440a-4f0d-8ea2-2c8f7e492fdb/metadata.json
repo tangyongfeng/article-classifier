@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "eb5d8552-f5ca-4dce-87a6-4391f6fc28e1",
+      "note_id": "7a3c20f6-440a-4f0d-8ea2-2c8f7e492fdb",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "复卦出自《易经》，象征事物反复回归正道，七日来复，强调及时修正错误、顺应自然规律，利于行动。核心体现中国传统文化中的循环哲学。",
+        "keywords": [
+          "复卦",
+          "易经",
+          "反复",
+          "七日来复",
+          "中国历史"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:01:02.770514Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.314
+    }
+  ],
   "journal": {
     "id": "a1b0163f-720c-492f-a90f-5118739faddd",
     "note_id": "7a3c20f6-440a-4f0d-8ea2-2c8f7e492fdb",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:01:02.770328Z",
+    "latency_seconds": 41.16611966595519,
+    "attempts": 3,
+    "summary": {
+      "summary": "复卦出自《易经》，象征事物反复回归正道，七日来复，强调及时修正错误、顺应自然规律，利于行动。核心体现中国传统文化中的循环哲学。",
+      "keywords": [
+        "复卦",
+        "易经",
+        "反复",
+        "七日来复",
+        "中国历史"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.314,
+      "metrics": {
+        "input_chars": 470.0,
+        "input_lines": 32.0,
+        "summary_chars": 63.0,
+        "summary_coverage_ratio": 0.134,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 28.2
+      }
+    }
   }
 }

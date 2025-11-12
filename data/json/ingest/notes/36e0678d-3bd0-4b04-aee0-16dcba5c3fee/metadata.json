@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "edb6135b-a103-410c-944f-d4c61a5fbb1c",
+      "note_id": "36e0678d-3bd0-4b04-aee0-16dcba5c3fee",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "医联体导致医疗资源集中、马太效应加剧，基层医院被抽空。建议推行医生多点执业，优化医疗资源配置，避免规模盲目扩张。",
+        "keywords": [
+          "医联体",
+          "马太效应",
+          "资源集中",
+          "多点执业",
+          "医疗改革"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:56:51.587374Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.26
+    }
+  ],
   "journal": {
     "id": "c77f9957-cfa2-4972-8c42-95ad3002e38e",
     "note_id": "36e0678d-3bd0-4b04-aee0-16dcba5c3fee",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:56:51.587220Z",
+    "latency_seconds": 22.07487970800139,
+    "attempts": 1,
+    "summary": {
+      "summary": "医联体导致医疗资源集中、马太效应加剧，基层医院被抽空。建议推行医生多点执业，优化医疗资源配置，避免规模盲目扩张。",
+      "keywords": [
+        "医联体",
+        "马太效应",
+        "资源集中",
+        "多点执业",
+        "医疗改革"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.26,
+      "metrics": {
+        "input_chars": 2144.0,
+        "input_lines": 29.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.026,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 128.6
+      }
+    }
   }
 }

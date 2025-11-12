@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d599a0d5-dd4b-49c1-9041-25be50916676",
+      "note_id": "0fb1bf3e-392a-49bd-9b9e-3767117aeb92",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "因德国公司注册延迟导致签证拒签，申诉信详细说明家庭背景、商业合作细节以证明无威胁，请求重新审查。",
+        "keywords": [
+          "签证申诉",
+          "公司注册",
+          "商业合作",
+          "家庭背景",
+          "德国旅行"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:07:54.885334Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.08
+    }
+  ],
   "journal": {
     "id": "28618bce-9da2-4260-900a-fda700224510",
     "note_id": "0fb1bf3e-392a-49bd-9b9e-3767117aeb92",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:07:54.885153Z",
+    "latency_seconds": 19.323855541995727,
+    "attempts": 1,
+    "summary": {
+      "summary": "因德国公司注册延迟导致签证拒签，申诉信详细说明家庭背景、商业合作细节以证明无威胁，请求重新审查。",
+      "keywords": [
+        "签证申诉",
+        "公司注册",
+        "商业合作",
+        "家庭背景",
+        "德国旅行"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.08,
+      "metrics": {
+        "input_chars": 1826.0,
+        "input_lines": 26.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.026,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 109.6
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d0c3e772-d1e5-410a-9e32-427870af411f",
+      "note_id": "14b8a781-8f05-4bdf-8f6a-ff988a145450",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "软件工程师描述血压持续偏高、夜间打鼾严重及口臭问题，影响睡眠与工作，需健康改善方案。",
+        "keywords": [
+          "血压",
+          "打鼾",
+          "口臭",
+          "健康",
+          "生活规划"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:19:25.030263Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.085
+    }
+  ],
   "journal": {
     "id": "80bef9fd-986b-4437-85be-81ac3126efe0",
     "note_id": "14b8a781-8f05-4bdf-8f6a-ff988a145450",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:19:25.030090Z",
+    "latency_seconds": 31.628402292029932,
+    "attempts": 1,
+    "summary": {
+      "summary": "软件工程师描述血压持续偏高、夜间打鼾严重及口臭问题，影响睡眠与工作，需健康改善方案。",
+      "keywords": [
+        "血压",
+        "打鼾",
+        "口臭",
+        "健康",
+        "生活规划"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.085,
+      "metrics": {
+        "input_chars": 1126.0,
+        "input_lines": 12.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.037,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 67.6
+      }
+    }
   }
 }

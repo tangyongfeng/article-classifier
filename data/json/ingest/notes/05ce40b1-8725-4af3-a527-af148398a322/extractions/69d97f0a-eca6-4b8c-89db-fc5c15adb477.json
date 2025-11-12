@@ -1,0 +1,27 @@
+{
+  "id": "69d97f0a-eca6-4b8c-89db-fc5c15adb477",
+  "note_id": "05ce40b1-8725-4af3-a527-af148398a322",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "学校开学材料清单，涵盖德语、英语、数学、艺术等学科所需文具、画具及运动装备。",
+    "keywords": [
+      "德语",
+      "英语",
+      "数学",
+      "艺术",
+      "材料清单"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:57:04.668670Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.219
+}

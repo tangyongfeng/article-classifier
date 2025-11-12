@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a938187e-a881-45ec-ad44-031385dd5128",
+      "note_id": "376345ee-064e-4b5e-a4f8-83445c0120ff",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "总结德语初、中级语法重点，涵盖名词性数格、代词变位、形容词词尾、情态动词及虚拟式等核心知识点。",
+        "keywords": [
+          "德语语法",
+          "名词性数格",
+          "情态动词",
+          "虚拟式",
+          "从句结构"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:57:44.732548Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.253
+    }
+  ],
   "journal": {
     "id": "054a891d-e281-4bdd-b593-3607912f3c6b",
     "note_id": "376345ee-064e-4b5e-a4f8-83445c0120ff",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:57:44.732340Z",
+    "latency_seconds": 27.764704833971336,
+    "attempts": 1,
+    "summary": {
+      "summary": "总结德语初、中级语法重点，涵盖名词性数格、代词变位、形容词词尾、情态动词及虚拟式等核心知识点。",
+      "keywords": [
+        "德语语法",
+        "名词性数格",
+        "情态动词",
+        "虚拟式",
+        "从句结构"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.253,
+      "metrics": {
+        "input_chars": 3486.0,
+        "input_lines": 92.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 209.2
+      }
+    }
   }
 }

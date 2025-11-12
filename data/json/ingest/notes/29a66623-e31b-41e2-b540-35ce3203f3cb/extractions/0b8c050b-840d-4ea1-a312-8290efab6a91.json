@@ -1,0 +1,28 @@
+{
+  "id": "0b8c050b-840d-4ea1-a312-8290efab6a91",
+  "note_id": "29a66623-e31b-41e2-b540-35ce3203f3cb",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "MySQL数据库审计方案解析：涵盖自建环境的General Log、BinLog+Init_connect及审计插件，以及云数据库RDS的审计功能实现。",
+    "keywords": [
+      "MySQL",
+      "数据库审计",
+      "自建数据库",
+      "云数据库",
+      "审计插件"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:58:21.524731Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.377
+}

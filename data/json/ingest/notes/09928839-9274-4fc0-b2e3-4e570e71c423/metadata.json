@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ff4fc360-91e9-412c-af92-1cb6aceb5bcd",
+      "note_id": "09928839-9274-4fc0-b2e3-4e570e71c423",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语对话练习材料，包含自我介绍、家庭、工作及语言学习场景，适用于德语学习者口语训练。",
+        "keywords": [
+          "德语对话",
+          "语言学习",
+          "德语学校",
+          "自我介绍",
+          "口语练习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:15:22.139218Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.076
+    }
+  ],
   "journal": {
     "id": "488db8d3-ae81-4ad3-9721-2748098d6616",
     "note_id": "09928839-9274-4fc0-b2e3-4e570e71c423",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:15:22.139035Z",
+    "latency_seconds": 16.558662625029683,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语对话练习材料，包含自我介绍、家庭、工作及语言学习场景，适用于德语学习者口语训练。",
+      "keywords": [
+        "德语对话",
+        "语言学习",
+        "德语学校",
+        "自我介绍",
+        "口语练习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.076,
+      "metrics": {
+        "input_chars": 2163.0,
+        "input_lines": 35.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.019,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 129.8
+      }
+    }
   }
 }

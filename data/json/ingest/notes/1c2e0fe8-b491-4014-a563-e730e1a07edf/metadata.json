@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ba23d726-63b3-4ed2-8951-fca33f838b75",
+      "note_id": "1c2e0fe8-b491-4014-a563-e730e1a07edf",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国律师事务所信息，含名称、银行账户及SWIFT代码，属德国法律服务机构，归类至国家与地区 > 德国。",
+        "keywords": [
+          "德国",
+          "律师事务所",
+          "法律服务",
+          "银行账户",
+          "SWIFT"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:04:54.755469Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.363
+    }
+  ],
   "journal": {
     "id": "28a2b912-d917-4c9f-93dc-ab1b600aba24",
     "note_id": "1c2e0fe8-b491-4014-a563-e730e1a07edf",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:04:54.755329Z",
+    "latency_seconds": 29.890239583095536,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国律师事务所信息，含名称、银行账户及SWIFT代码，属德国法律服务机构，归类至国家与地区 > 德国。",
+      "keywords": [
+        "德国",
+        "律师事务所",
+        "法律服务",
+        "银行账户",
+        "SWIFT"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.363,
+      "metrics": {
+        "input_chars": 220.0,
+        "input_lines": 10.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.232,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.2
+      }
+    }
   }
 }

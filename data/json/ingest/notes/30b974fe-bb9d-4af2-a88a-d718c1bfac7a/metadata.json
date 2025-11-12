@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e747d1f0-964c-4834-8b9e-bef8c180f0ff",
+      "note_id": "30b974fe-bb9d-4af2-a88a-d718c1bfac7a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "移动设备设计旨在分散用户注意力，游戏类型如部落战争（养成类）和消除类游戏呈现彩票化特征。",
+        "keywords": [
+          "移动设备",
+          "游戏设计",
+          "养成类",
+          "消除类",
+          "彩票化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:38:38.582775Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.479
+    }
+  ],
   "journal": {
     "id": "2dc24c08-0cd2-4ab4-943f-60a5bdb44318",
     "note_id": "30b974fe-bb9d-4af2-a88a-d718c1bfac7a",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:38:38.582623Z",
+    "latency_seconds": 51.10627566697076,
+    "attempts": 2,
+    "summary": {
+      "summary": "移动设备设计旨在分散用户注意力，游戏类型如部落战争（养成类）和消除类游戏呈现彩票化特征。",
+      "keywords": [
+        "移动设备",
+        "游戏设计",
+        "养成类",
+        "消除类",
+        "彩票化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.479,
+      "metrics": {
+        "input_chars": 128.0,
+        "input_lines": 9.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.344,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.7
+      }
+    }
   }
 }

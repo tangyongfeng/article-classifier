@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "38d0dff1-4385-4042-93ab-5e7d6176e71d",
+      "note_id": "697e72bb-2d5d-497d-8f0b-972e2d78e345",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Prontosan®凝胶伤口敷料用于溃疡、烧伤、术后伤口的清洁与湿润，去除坏死组织，促进伤口愈合，适用于急性与慢性伤口护理。",
+        "keywords": [
+          "溃疡",
+          "伤口护理",
+          "敷料",
+          "清洁",
+          "愈合"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "医疗",
+          "伤口护理"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:38:26.954860Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.329
+    }
+  ],
   "journal": {
     "id": "56933a3b-732f-4d9e-8f04-497ea99f8cd1",
     "note_id": "697e72bb-2d5d-497d-8f0b-972e2d78e345",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:38:26.954680Z",
+    "latency_seconds": 58.06221970904153,
+    "attempts": 1,
+    "summary": {
+      "summary": "Prontosan®凝胶伤口敷料用于溃疡、烧伤、术后伤口的清洁与湿润，去除坏死组织，促进伤口愈合，适用于急性与慢性伤口护理。",
+      "keywords": [
+        "溃疡",
+        "伤口护理",
+        "敷料",
+        "清洁",
+        "愈合"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "医疗",
+        "伤口护理"
+      ]
+    },
+    "quality": {
+      "score": 0.329,
+      "metrics": {
+        "input_chars": 1364.0,
+        "input_lines": 23.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.045,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 81.8
+      }
+    }
   }
 }

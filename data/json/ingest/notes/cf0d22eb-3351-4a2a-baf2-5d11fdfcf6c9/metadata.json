@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "474bc3c1-1bf5-49fa-ac77-0eb1779d0766",
+      "note_id": "cf0d22eb-3351-4a2a-baf2-5d11fdfcf6c9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录ROCE网络测试的输出文件结构，包含日志、CSV统计、数据库摘要等45个文件的生成规则。",
+        "keywords": [
+          "ROCE",
+          "测试记录",
+          "日志文件",
+          "CSV",
+          "数据库摘要"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:18:21.705973Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.302
+    }
+  ],
   "journal": {
     "id": "c71900f3-473a-4424-8240-18cbdd69f957",
     "note_id": "cf0d22eb-3351-4a2a-baf2-5d11fdfcf6c9",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:18:21.705839Z",
+    "latency_seconds": 16.809573833015747,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录ROCE网络测试的输出文件结构，包含日志、CSV统计、数据库摘要等45个文件的生成规则。",
+      "keywords": [
+        "ROCE",
+        "测试记录",
+        "日志文件",
+        "CSV",
+        "数据库摘要"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.302,
+      "metrics": {
+        "input_chars": 420.0,
+        "input_lines": 18.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.11,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 25.2
+      }
+    }
   }
 }

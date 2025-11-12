@@ -1,0 +1,27 @@
+{
+  "id": "c375339c-0de0-40ca-a859-519c131c6af7",
+  "note_id": "e8ae12da-b116-471a-aae4-3450d95fea9b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Open edX官方提供五种扩展方式：JSinput、LTI、自定义评分器、XBlock及核心代码修改，涵盖开发成本、语言支持等维度对比。",
+    "keywords": [
+      "Open edX",
+      "扩展方式",
+      "JSinput",
+      "LTI",
+      "XBlock"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:35:56.137051Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.322
+}

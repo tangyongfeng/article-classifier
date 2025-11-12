@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d959e9fb-d53b-45e4-aea9-97de1b7d7eaf",
+      "note_id": "d37fa76f-fab4-49cf-8b19-9464620ed1d9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "使用OsmocomBB和openbts开源软件在家庭环境中搭建移动通信网络的技术教程，包含交叉编译环境配置和网络搭建步骤。",
+        "keywords": [
+          "OsmocomBB",
+          "openbts",
+          "家庭移动网络",
+          "开源",
+          "通信技术"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:52:01.081348Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.256
+    }
+  ],
   "journal": {
     "id": "689b6468-be41-4bea-af11-6dc55946e2c0",
     "note_id": "d37fa76f-fab4-49cf-8b19-9464620ed1d9",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:52:01.081088Z",
+    "latency_seconds": 21.653283791034482,
+    "attempts": 1,
+    "summary": {
+      "summary": "使用OsmocomBB和openbts开源软件在家庭环境中搭建移动通信网络的技术教程，包含交叉编译环境配置和网络搭建步骤。",
+      "keywords": [
+        "OsmocomBB",
+        "openbts",
+        "家庭移动网络",
+        "开源",
+        "通信技术"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.256,
+      "metrics": {
+        "input_chars": 3305.0,
+        "input_lines": 146.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.018,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 198.3
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "60d255f4-d027-43df-82fd-5ee72cb0bb34",
+      "note_id": "df4290eb-429e-4451-84e8-44719614a35f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "电话投注会议确定分省运营模式，强调用户资金安全、短信投注需注册验证、避免异地投注，确保业务合规性。",
+        "keywords": [
+          "电话投注",
+          "短信投注",
+          "分省运营",
+          "资金安全",
+          "运营商合作"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:42:01.948625Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.236
+    }
+  ],
   "journal": {
     "id": "53d6cc14-63fe-4623-8356-2a5b8b78c1c3",
     "note_id": "df4290eb-429e-4451-84e8-44719614a35f",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:42:01.948470Z",
+    "latency_seconds": 21.260838916990906,
+    "attempts": 1,
+    "summary": {
+      "summary": "电话投注会议确定分省运营模式，强调用户资金安全、短信投注需注册验证、避免异地投注，确保业务合规性。",
+      "keywords": [
+        "电话投注",
+        "短信投注",
+        "分省运营",
+        "资金安全",
+        "运营商合作"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.236,
+      "metrics": {
+        "input_chars": 499.0,
+        "input_lines": 19.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.098,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 29.9
+      }
+    }
   }
 }

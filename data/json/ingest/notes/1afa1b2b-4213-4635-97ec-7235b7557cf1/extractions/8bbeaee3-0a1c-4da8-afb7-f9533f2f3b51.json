@@ -1,0 +1,27 @@
+{
+  "id": "8bbeaee3-0a1c-4da8-afb7-f9533f2f3b51",
+  "note_id": "1afa1b2b-4213-4635-97ec-7235b7557cf1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Bootstrap学习笔记涵盖前端框架基础知识，包括HTML文档结构、移动设备优先设计、响应式容器、网格系统、响应式图像处理及折叠组件的使用方法。",
+    "keywords": [
+      "Bootstrap",
+      "响应式设计",
+      "容器",
+      "网格系统",
+      "折叠"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:00:10.748454Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.323
+}

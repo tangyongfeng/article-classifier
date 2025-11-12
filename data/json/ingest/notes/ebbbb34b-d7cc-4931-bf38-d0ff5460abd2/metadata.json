@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f5ce2e93-cfce-4892-bc80-0f218924d943",
+      "note_id": "ebbbb34b-d7cc-4931-bf38-d0ff5460abd2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "马耳他博彩牌照分类详解，包括Class 1-4许可证类型、税收标准差异（如Class 1月税7000欧元，Class 1 on 4月税1220欧元）及B2B业务",
+        "keywords": [
+          "马耳他",
+          "博彩牌照",
+          "Class 1",
+          "Class 4",
+          "B2B"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:52:29.330302Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.378
+    }
+  ],
   "journal": {
     "id": "3cd98779-9608-4265-8672-057f8a495a45",
     "note_id": "ebbbb34b-d7cc-4931-bf38-d0ff5460abd2",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:52:29.330069Z",
+    "latency_seconds": 31.870636625098996,
+    "attempts": 1,
+    "summary": {
+      "summary": "马耳他博彩牌照分类详解，包括Class 1-4许可证类型、税收标准差异（如Class 1月税7000欧元，Class 1 on 4月税1220欧元）及B2B业务",
+      "keywords": [
+        "马耳他",
+        "博彩牌照",
+        "Class 1",
+        "Class 4",
+        "B2B"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.378,
+      "metrics": {
+        "input_chars": 3639.0,
+        "input_lines": 44.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.022,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 218.3
+      }
+    }
   }
 }

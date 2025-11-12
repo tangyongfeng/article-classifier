@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f5f69d05-f7ab-4834-b1b2-d1b06f3776fb",
+      "note_id": "34e0be15-0f33-4228-b883-7d722365c2cd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "个人需储备电子病历、保险、药品及社保知识，以规划健康与财务安全。",
+        "keywords": [
+          "电子病历",
+          "保险",
+          "药品",
+          "社保",
+          "生活规划"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:53:53.919892Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.464
+    }
+  ],
   "journal": {
     "id": "da68c518-0a27-45c7-8b44-643f80f2dc1a",
     "note_id": "34e0be15-0f33-4228-b883-7d722365c2cd",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:53:53.919732Z",
+    "latency_seconds": 21.3410157909384,
+    "attempts": 1,
+    "summary": {
+      "summary": "个人需储备电子病历、保险、药品及社保知识，以规划健康与财务安全。",
+      "keywords": [
+        "电子病历",
+        "保险",
+        "药品",
+        "社保",
+        "生活规划"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.464,
+      "metrics": {
+        "input_chars": 102.0,
+        "input_lines": 9.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.314,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.1
+      }
+    }
   }
 }

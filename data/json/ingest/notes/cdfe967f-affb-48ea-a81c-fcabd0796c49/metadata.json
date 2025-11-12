@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8bdbdf6f-6cd0-44f3-98d3-8e830f1ed27c",
+      "note_id": "cdfe967f-affb-48ea-a81c-fcabd0796c49",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "卫宁软件（300253）是上海HIS系统软件提供商，主营中小医院软件服务，市盈率超100倍，属医疗IT领域。",
+        "keywords": [
+          "HIS系统",
+          "医疗软件",
+          "中小医院",
+          "软件提供商",
+          "市盈率"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:16:22.045273Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.416
+    }
+  ],
   "journal": {
     "id": "1d832155-d38a-4df9-bc02-a5d61e80a852",
     "note_id": "cdfe967f-affb-48ea-a81c-fcabd0796c49",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:16:22.044982Z",
+    "latency_seconds": 14.287941583083011,
+    "attempts": 1,
+    "summary": {
+      "summary": "卫宁软件（300253）是上海HIS系统软件提供商，主营中小医院软件服务，市盈率超100倍，属医疗IT领域。",
+      "keywords": [
+        "HIS系统",
+        "医疗软件",
+        "中小医院",
+        "软件提供商",
+        "市盈率"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.416,
+      "metrics": {
+        "input_chars": 247.0,
+        "input_lines": 9.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.219,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.8
+      }
+    }
   }
 }

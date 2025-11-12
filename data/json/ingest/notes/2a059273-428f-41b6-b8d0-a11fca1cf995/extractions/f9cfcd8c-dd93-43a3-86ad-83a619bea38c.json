@@ -1,0 +1,27 @@
+{
+  "id": "f9cfcd8c-dd93-43a3-86ad-83a619bea38c",
+  "note_id": "2a059273-428f-41b6-b8d0-a11fca1cf995",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "记录唐倩茹的身份证号码信息，包含身份证号410928198703239623。",
+    "keywords": [
+      "身份证",
+      "唐倩茹",
+      "个人信息",
+      "中国身份证",
+      "身份信息"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:58:43.900086Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.367
+}

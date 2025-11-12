@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6aa4355e-5ab0-474e-896b-46a594868209",
+      "note_id": "d95e24d1-b4c9-4b15-9678-6a8bd90318e8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "街道设置6:00-8:00禁停区以腾出送货空间，引发花店和清洁店老板抱怨停车难、客户流失，要求增设停车位。",
+        "keywords": [
+          "街道停车",
+          "禁停区",
+          "送货卡车",
+          "客户流失",
+          "停车位需求"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "驾驶知识",
+          "驾驶规则"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:09:01.037060Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.087
+    }
+  ],
   "journal": {
     "id": "813bbf0b-c977-4d13-aee6-b117ec5b327a",
     "note_id": "d95e24d1-b4c9-4b15-9678-6a8bd90318e8",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:09:01.036913Z",
+    "latency_seconds": 33.13881779194344,
+    "attempts": 1,
+    "summary": {
+      "summary": "街道设置6:00-8:00禁停区以腾出送货空间，引发花店和清洁店老板抱怨停车难、客户流失，要求增设停车位。",
+      "keywords": [
+        "街道停车",
+        "禁停区",
+        "送货卡车",
+        "客户流失",
+        "停车位需求"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "驾驶知识",
+        "驾驶规则"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.087,
+      "metrics": {
+        "input_chars": 1337.0,
+        "input_lines": 7.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.04,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 80.2
+      }
+    }
   }
 }

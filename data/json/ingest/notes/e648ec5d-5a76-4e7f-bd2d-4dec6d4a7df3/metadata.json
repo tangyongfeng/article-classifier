@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7aefe7b5-bab4-4e44-8b12-b47ed77e0efc",
+      "note_id": "e648ec5d-5a76-4e7f-bd2d-4dec6d4a7df3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "余主任要求在九层建立公司系统测试环境，用于展示vlt相关功能与性能，测试部牵头，不连接生产系统。",
+        "keywords": [
+          "系统环境",
+          "测试部",
+          "vlt",
+          "展示",
+          "演示"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:19:49.350382Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.389
+    }
+  ],
   "journal": {
     "id": "4d24a7e7-2d9c-4b65-9573-d720f489d49f",
     "note_id": "e648ec5d-5a76-4e7f-bd2d-4dec6d4a7df3",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:19:49.350252Z",
+    "latency_seconds": 26.319960957975127,
+    "attempts": 1,
+    "summary": {
+      "summary": "余主任要求在九层建立公司系统测试环境，用于展示vlt相关功能与性能，测试部牵头，不连接生产系统。",
+      "keywords": [
+        "系统环境",
+        "测试部",
+        "vlt",
+        "展示",
+        "演示"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.389,
+      "metrics": {
+        "input_chars": 293.0,
+        "input_lines": 9.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.164,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.6
+      }
+    }
   }
 }

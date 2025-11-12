@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "939fdec2-2cb0-4ac4-9697-d77bf8616341",
+      "note_id": "c924e426-bdf1-4b5d-9a18-937a7bb877cf",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语连词'aber, denn, und, sondern, oder'在副词从句中的语法应用，涉及从句结构与连词用法。",
+        "keywords": [
+          "德语",
+          "连词",
+          "从句",
+          "语法",
+          "副词从句"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:47:30.509323Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.331
+    }
+  ],
   "journal": {
     "id": "4277830f-a495-4b19-8634-2315bb83c03d",
     "note_id": "c924e426-bdf1-4b5d-9a18-937a7bb877cf",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:47:30.509184Z",
+    "latency_seconds": 51.97069091594312,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语连词'aber, denn, und, sondern, oder'在副词从句中的语法应用，涉及从句结构与连词用法。",
+      "keywords": [
+        "德语",
+        "连词",
+        "从句",
+        "语法",
+        "副词从句"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.331,
+      "metrics": {
+        "input_chars": 147.0,
+        "input_lines": 7.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.408,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.8
+      }
+    }
   }
 }

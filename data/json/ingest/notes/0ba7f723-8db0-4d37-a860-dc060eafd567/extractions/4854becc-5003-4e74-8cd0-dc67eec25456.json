@@ -1,0 +1,28 @@
+{
+  "id": "4854becc-5003-4e74-8cd0-dc67eec25456",
+  "note_id": "0ba7f723-8db0-4d37-a860-dc060eafd567",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "家庭卡拉OK系统配置指南，涵盖点歌机、混响器、麦克风及音箱的选购、连接与设置方法，适用于家庭聚会娱乐场景。",
+    "keywords": [
+      "卡拉OK",
+      "点歌机",
+      "混响器",
+      "麦克风",
+      "音箱"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social",
+      "Family Events"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:39:50.364474Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.374
+}

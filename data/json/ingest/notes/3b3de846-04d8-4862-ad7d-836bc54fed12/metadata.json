@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6ae29b10-a23d-4ca9-95b0-206c5a9e6ed6",
+      "note_id": "3b3de846-04d8-4862-ad7d-836bc54fed12",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "咸卦为《易经》六十四卦之一，象征感应与互动，爻辞描述从脚趾到言语的感应过程，体现古代中国哲学对身心关系的思考。",
+        "keywords": [
+          "易经",
+          "咸卦",
+          "感应",
+          "爻辞",
+          "中国哲学"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:11:04.003370Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.268
+    }
+  ],
   "journal": {
     "id": "d79b2dad-a71d-4628-a42a-4e6926fc25eb",
     "note_id": "3b3de846-04d8-4862-ad7d-836bc54fed12",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:11:04.003192Z",
+    "latency_seconds": 41.361907916958444,
+    "attempts": 2,
+    "summary": {
+      "summary": "咸卦为《易经》六十四卦之一，象征感应与互动，爻辞描述从脚趾到言语的感应过程，体现古代中国哲学对身心关系的思考。",
+      "keywords": [
+        "易经",
+        "咸卦",
+        "感应",
+        "爻辞",
+        "中国哲学"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.268,
+      "metrics": {
+        "input_chars": 339.0,
+        "input_lines": 27.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.162,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 20.3
+      }
+    }
   }
 }

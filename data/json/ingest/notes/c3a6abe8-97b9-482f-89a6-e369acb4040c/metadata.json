@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b3c17410-2779-4da8-9c06-76d4e6b7e1b6",
+      "note_id": "c3a6abe8-97b9-482f-89a6-e369acb4040c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录妈妈的招商银行借记卡卡号信息。",
+        "keywords": [
+          "银行卡",
+          "招商银行",
+          "卡号",
+          "金融",
+          "支付服务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:01:17.512851Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.286
+    }
+  ],
   "journal": {
     "id": "d375364e-07b9-44ca-b732-940704259aea",
     "note_id": "c3a6abe8-97b9-482f-89a6-e369acb4040c",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:01:17.512699Z",
+    "latency_seconds": 21.961302500101738,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录妈妈的招商银行借记卡卡号信息。",
+      "keywords": [
+        "银行卡",
+        "招商银行",
+        "卡号",
+        "金融",
+        "支付服务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.286,
+      "metrics": {
+        "input_chars": 214.0,
+        "input_lines": 7.0,
+        "summary_chars": 17.0,
+        "summary_coverage_ratio": 0.079,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.8
+      }
+    }
   }
 }

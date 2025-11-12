@@ -1,0 +1,27 @@
+{
+  "id": "3edf5177-ddf8-41ef-abde-c12a7b28163d",
+  "note_id": "1c822c22-87b0-4e6c-8148-8899b851d92e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "提供加州多个地区租房地址及租金信息，包括Hacienda Heights、Rowland Heights等区域，涵盖不同户型价格。",
+    "keywords": [
+      "地址",
+      "加州",
+      "租房",
+      "租金",
+      "住址"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:06:31.671252Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.232
+}

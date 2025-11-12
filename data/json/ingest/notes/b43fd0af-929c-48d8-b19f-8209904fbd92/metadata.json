@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2b7bb6d1-4f70-43dc-b5a8-7fff72cbeb0b",
+      "note_id": "b43fd0af-929c-48d8-b19f-8209904fbd92",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "明影科漫科技有限公司在湖南开发手机应用‘锦绣中华’，提供即开票服务。",
+        "keywords": [
+          "明影科漫",
+          "湖南",
+          "锦绣中华",
+          "手机应用",
+          "即开票"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:36:48.451727Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.464
+    }
+  ],
   "journal": {
     "id": "cad8e9da-3d71-4319-9b2f-69b385b02955",
     "note_id": "b43fd0af-929c-48d8-b19f-8209904fbd92",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:36:48.451566Z",
+    "latency_seconds": 43.52832395792939,
+    "attempts": 1,
+    "summary": {
+      "summary": "明影科漫科技有限公司在湖南开发手机应用‘锦绣中华’，提供即开票服务。",
+      "keywords": [
+        "明影科漫",
+        "湖南",
+        "锦绣中华",
+        "手机应用",
+        "即开票"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.464,
+      "metrics": {
+        "input_chars": 108.0,
+        "input_lines": 7.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.315,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.5
+      }
+    }
   }
 }

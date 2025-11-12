@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ca5289a8-b124-4dce-b0da-23ac51fd142a",
+      "note_id": "e77f63c9-e5ce-4e8d-949e-58d31ed3a0b7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "可儿吸管杯（air up）优惠码TRIBE-9JMB93，用于产品促销活动。",
+        "keywords": [
+          "吸管杯",
+          "优惠码",
+          "air up",
+          "促销",
+          "折扣"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:26:23.187931Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.415
+    }
+  ],
   "journal": {
     "id": "413b72d8-2f35-448f-bb75-68391d28c427",
     "note_id": "e77f63c9-e5ce-4e8d-949e-58d31ed3a0b7",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:26:23.187789Z",
+    "latency_seconds": 26.602538082981482,
+    "attempts": 1,
+    "summary": {
+      "summary": "可儿吸管杯（air up）优惠码TRIBE-9JMB93，用于产品促销活动。",
+      "keywords": [
+        "吸管杯",
+        "优惠码",
+        "air up",
+        "促销",
+        "折扣"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.415,
+      "metrics": {
+        "input_chars": 113.0,
+        "input_lines": 8.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.336,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.8
+      }
+    }
   }
 }

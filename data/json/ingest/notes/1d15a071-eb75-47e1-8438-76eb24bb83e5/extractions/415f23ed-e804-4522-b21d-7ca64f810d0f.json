@@ -1,0 +1,27 @@
+{
+  "id": "415f23ed-e804-4522-b21d-7ca64f810d0f",
+  "note_id": "1d15a071-eb75-47e1-8438-76eb24bb83e5",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Open edX平台配置指南，涵盖服务器信息、管理员账户创建、主题更新及后台操作设置。",
+    "keywords": [
+      "Open edX",
+      "配置",
+      "管理员",
+      "主题",
+      "用户管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:07:02.063317Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.256
+}

@@ -1,0 +1,29 @@
+{
+  "id": "f484ed61-1291-4a91-a1d0-5e8956cdba23",
+  "note_id": "c6077c96-e7f7-491f-ab43-67537afb681e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语B1水平写作练习，描述杜塞尔多夫周末郊游经历（参观日本街道、购物等），需注意语法和邮件格式，包含原因说明与见面建议。",
+    "keywords": [
+      "德语写作",
+      "B1水平",
+      "语法练习",
+      "邮件格式",
+      "杜塞尔多夫"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:23:36.932105Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.092
+}

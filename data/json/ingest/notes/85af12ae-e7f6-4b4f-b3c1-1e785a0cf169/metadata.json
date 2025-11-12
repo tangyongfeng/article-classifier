@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7d6df961-4add-40f8-be53-c6f329c12ae4",
+      "note_id": "85af12ae-e7f6-4b4f-b3c1-1e785a0cf169",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "易经是中国古代哲学经典，阐述阴阳变化与六十四卦原理，涵盖卦象、爻辞、占验等内容，体现天人合一思想，是传统文化核心。",
+        "keywords": [
+          "易经",
+          "六十四卦",
+          "阴阳",
+          "爻辞",
+          "占卜"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:59:30.023885Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.204
+    }
+  ],
   "journal": {
     "id": "05a73cb0-bf74-4647-975e-ee6e7bd46d63",
     "note_id": "85af12ae-e7f6-4b4f-b3c1-1e785a0cf169",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:59:30.023710Z",
+    "latency_seconds": 47.94878316705581,
+    "attempts": 2,
+    "summary": {
+      "summary": "易经是中国古代哲学经典，阐述阴阳变化与六十四卦原理，涵盖卦象、爻辞、占验等内容，体现天人合一思想，是传统文化核心。",
+      "keywords": [
+        "易经",
+        "六十四卦",
+        "阴阳",
+        "爻辞",
+        "占卜"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.204,
+      "metrics": {
+        "input_chars": 1647.0,
+        "input_lines": 116.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.035,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 98.8
+      }
+    }
   }
 }

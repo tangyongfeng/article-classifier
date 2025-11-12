@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "739a5936-cfc0-41ed-bbe8-932879deed07",
+      "note_id": "dd33ae8a-46b9-4456-b2bd-668b540a1303",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "福州市仓山区金山碧水3期地址信息，用于招生联系。",
+        "keywords": [
+          "招生",
+          "地址",
+          "福州市",
+          "仓山区",
+          "林珊"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": [
+          "Education",
+          "招生"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:32:30.350855Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.403
+    }
+  ],
   "journal": {
     "id": "b8e55d4e-4c50-4862-be76-239cb148ad29",
     "note_id": "dd33ae8a-46b9-4456-b2bd-668b540a1303",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:32:30.350710Z",
+    "latency_seconds": 40.160017624963075,
+    "attempts": 1,
+    "summary": {
+      "summary": "福州市仓山区金山碧水3期地址信息，用于招生联系。",
+      "keywords": [
+        "招生",
+        "地址",
+        "福州市",
+        "仓山区",
+        "林珊"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": [
+        "Education",
+        "招生"
+      ]
+    },
+    "quality": {
+      "score": 0.403,
+      "metrics": {
+        "input_chars": 125.0,
+        "input_lines": 6.0,
+        "summary_chars": 24.0,
+        "summary_coverage_ratio": 0.192,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.5
+      }
+    }
   }
 }

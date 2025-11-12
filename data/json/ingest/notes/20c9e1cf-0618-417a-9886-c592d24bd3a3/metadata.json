@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "105d4396-6e7e-46fc-8f53-f0412a726132",
+      "note_id": "20c9e1cf-0618-417a-9886-c592d24bd3a3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语学习中描述妈妈带孩子在面包店购物的日常词汇短语，涉及面包、店员等基础词汇。",
+        "keywords": [
+          "面包店",
+          "孩子",
+          "妈妈",
+          "店员",
+          "面包"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:24:20.921374Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.185
+    }
+  ],
   "journal": {
     "id": "28a86d53-9388-4294-a30e-cb13281efc64",
     "note_id": "20c9e1cf-0618-417a-9886-c592d24bd3a3",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:24:20.921148Z",
+    "latency_seconds": 16.0746298750164,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语学习中描述妈妈带孩子在面包店购物的日常词汇短语，涉及面包、店员等基础词汇。",
+      "keywords": [
+        "面包店",
+        "孩子",
+        "妈妈",
+        "店员",
+        "面包"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.185,
+      "metrics": {
+        "input_chars": 334.0,
+        "input_lines": 6.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.117,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 20.0
+      }
+    }
   }
 }

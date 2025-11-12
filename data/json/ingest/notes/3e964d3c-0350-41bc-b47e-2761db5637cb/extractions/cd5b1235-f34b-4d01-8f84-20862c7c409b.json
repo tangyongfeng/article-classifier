@@ -1,0 +1,28 @@
+{
+  "id": "cd5b1235-f34b-4d01-8f84-20862c7c409b",
+  "note_id": "3e964d3c-0350-41bc-b47e-2761db5637cb",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "收房时需检查水、电、燃气、暖气等设施的收费、计量及安装情况，包括垃圾处理和花园使用。",
+    "keywords": [
+      "收房",
+      "水电气",
+      "收费计量",
+      "设施检查",
+      "房屋验收"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展",
+      "生活规划"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:23:32.125274Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.19
+}

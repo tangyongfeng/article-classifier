@@ -1,0 +1,28 @@
+{
+  "id": "840cd5a4-c518-4be1-9aed-172b4aadbc1e",
+  "note_id": "02dc6487-334f-415b-93de-a5af8e9c1ca6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "全球互联网速度数据统计，分析各国网络基础设施与技术指标，涉及国际网络性能对比。",
+    "keywords": [
+      "世界网速",
+      "网络速度",
+      "国际数据",
+      "技术指标",
+      "带宽"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T13:49:11.206361Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.374
+}

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "43d302f9-8f25-425a-b1b6-dedc462f422c",
+      "note_id": "46bb0795-c6e5-48be-b0c6-5c4bba1c0a2d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "北京新起点物业管理有限公司的银行账户信息，包含开户行、账号及交易金额数据。",
+        "keywords": [
+          "物业管理",
+          "银行账户",
+          "公司财务",
+          "开户行",
+          "账号"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:16:20.648159Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.365
+    }
+  ],
   "journal": {
     "id": "b1732f7b-e8d6-451a-8010-ced2f2d69938",
     "note_id": "46bb0795-c6e5-48be-b0c6-5c4bba1c0a2d",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:16:20.648009Z",
+    "latency_seconds": 25.440761083038524,
+    "attempts": 2,
+    "summary": {
+      "summary": "北京新起点物业管理有限公司的银行账户信息，包含开户行、账号及交易金额数据。",
+      "keywords": [
+        "物业管理",
+        "银行账户",
+        "公司财务",
+        "开户行",
+        "账号"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.365,
+      "metrics": {
+        "input_chars": 157.0,
+        "input_lines": 10.0,
+        "summary_chars": 37.0,
+        "summary_coverage_ratio": 0.236,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.4
+      }
+    }
   }
 }

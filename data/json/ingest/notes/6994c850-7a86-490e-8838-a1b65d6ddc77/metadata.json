@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "42b0935a-19a1-498b-8bd9-e829eb6233f9",
+      "note_id": "6994c850-7a86-490e-8838-a1b65d6ddc77",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "ESI系统在医疗领域的应用问题，包括处方审核机制、计算机辅助诊断及后台系统设计，涉及临床路径规范。",
+        "keywords": [
+          "ESI",
+          "处方审核",
+          "计算机学习",
+          "临床路径",
+          "医疗系统"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:39:39.363660Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.273
+    }
+  ],
   "journal": {
     "id": "dae19979-e0dd-4b2d-b299-6730ce9a6ebc",
     "note_id": "6994c850-7a86-490e-8838-a1b65d6ddc77",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:39:39.363468Z",
+    "latency_seconds": 72.40363708301447,
+    "attempts": 1,
+    "summary": {
+      "summary": "ESI系统在医疗领域的应用问题，包括处方审核机制、计算机辅助诊断及后台系统设计，涉及临床路径规范。",
+      "keywords": [
+        "ESI",
+        "处方审核",
+        "计算机学习",
+        "临床路径",
+        "医疗系统"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.273,
+      "metrics": {
+        "input_chars": 922.0,
+        "input_lines": 30.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.053,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 55.3
+      }
+    }
   }
 }

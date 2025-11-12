@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "504dd1c1-960a-40ae-9098-8ab5844eef2f",
+      "note_id": "86578624-d273-474b-8fed-b26c14cea029",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记记录Audi A4 Avant车辆的付款银行账号信息，包括账号DE83 3003 0880 0000 2230 93及车辆型号细节。",
+        "keywords": [
+          "汽车付款",
+          "银行账号",
+          "Audi A4",
+          "车辆信息",
+          "支付服务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Payment Services"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:05:54.625339Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.306
+    }
+  ],
   "journal": {
     "id": "6dd2f63d-064c-41e6-9e15-6bb377177543",
     "note_id": "86578624-d273-474b-8fed-b26c14cea029",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:05:54.625177Z",
+    "latency_seconds": 39.030366416904144,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记记录Audi A4 Avant车辆的付款银行账号信息，包括账号DE83 3003 0880 0000 2230 93及车辆型号细节。",
+      "keywords": [
+        "汽车付款",
+        "银行账号",
+        "Audi A4",
+        "车辆信息",
+        "支付服务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Payment Services"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.306,
+      "metrics": {
+        "input_chars": 192.0,
+        "input_lines": 9.0,
+        "summary_chars": 69.0,
+        "summary_coverage_ratio": 0.359,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.5
+      }
+    }
   }
 }

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "396ae1f4-11d2-4cfd-981e-9cf490355f57",
+      "note_id": "45c3de7e-5b80-4119-aace-c0f10fb530a7",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: HTC ONE M8 updated: 2015-06-19 12:25:42Z created: 2015-06-19 12:25:28",
+        "keywords": [
+          "---",
+          "title: HTC ONE M8",
+          "updated: 2015-06-19 12:25:42Z",
+          "created: 2015-06-19 12:25:28Z",
+          "<<<< Identifier Token Start >>>>"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:59:44.571530Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.17
+    }
+  ],
   "journal": {
     "id": "5ba694d1-6589-42e2-9869-ce8da5958c85",
     "note_id": "45c3de7e-5b80-4119-aace-c0f10fb530a7",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T18:59:44.571324Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: HTC ONE M8 updated: 2015-06-19 12:25:42Z created: 2015-06-19 12:25:28",
+      "keywords": [
+        "---",
+        "title: HTC ONE M8",
+        "updated: 2015-06-19 12:25:42Z",
+        "created: 2015-06-19 12:25:28Z",
+        "<<<< Identifier Token Start >>>>"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.17,
+      "metrics": {
+        "input_chars": 698.0,
+        "input_lines": 23.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.115,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 41.9
+      }
+    }
   }
 }

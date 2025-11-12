@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "dc94cbc3-3863-482a-ab03-cd6704e316ac",
+      "note_id": "08cfd117-d779-43d9-aae4-92a020cedacf",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "包含115网盘资源链接，涉及文件分享与下载服务。",
+        "keywords": [
+          "网盘链接",
+          "115.com",
+          "资源分享",
+          "文件下载",
+          "多媒体"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": [
+          "多媒体",
+          "资源分享"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:07:52.652084Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.18
+    }
+  ],
   "journal": {
     "id": "6d4e7ce1-2224-49e8-8e56-96b66cd8d7a7",
     "note_id": "08cfd117-d779-43d9-aae4-92a020cedacf",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:07:52.651954Z",
+    "latency_seconds": 29.756857250002213,
+    "attempts": 1,
+    "summary": {
+      "summary": "包含115网盘资源链接，涉及文件分享与下载服务。",
+      "keywords": [
+        "网盘链接",
+        "115.com",
+        "资源分享",
+        "文件下载",
+        "多媒体"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": [
+        "多媒体",
+        "资源分享"
+      ]
+    },
+    "quality": {
+      "score": 0.18,
+      "metrics": {
+        "input_chars": 227.0,
+        "input_lines": 8.0,
+        "summary_chars": 24.0,
+        "summary_coverage_ratio": 0.106,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.6
+      }
+    }
   }
 }

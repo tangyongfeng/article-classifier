@@ -1,0 +1,28 @@
+{
+  "id": "7fae1958-3bc7-4771-b59c-669ec1a6d6df",
+  "note_id": "a335e157-5159-4b4e-8117-1817b992ab40",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记列出洛杉矶地区月子中心及民宿的详细地址、电话等联系方式，包括小太阳月子中心、怀安待产民宿等具体位置信息。",
+    "keywords": [
+      "月子中心",
+      "民宿",
+      "地址",
+      "电话",
+      "洛杉矶"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Accommodation"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:24:41.734691Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.334
+}

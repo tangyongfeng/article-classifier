@@ -1,0 +1,28 @@
+{
+  "id": "138a2915-25f7-4833-8a3f-59087eb7cf66",
+  "note_id": "fd3c29a1-c0b2-4d6e-8ab1-dee94f0dab0f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "《易经》筹策占筮法起卦解卦步骤：使用50根蓍草分筹得爻，画出本卦与之卦，结合卦辞爻辞占断吉凶，体现中国古代占卜文化。",
+    "keywords": [
+      "易经",
+      "筹策",
+      "起卦",
+      "解卦",
+      "占卜"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T11:17:46.607643Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.328
+}

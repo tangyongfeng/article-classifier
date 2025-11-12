@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6cda0bbd-1b8d-487b-a55b-774fe7f8a389",
+      "note_id": "a14e95d2-0038-462d-a43e-e9a1a5b79624",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "大有卦为周易六十四卦之一，卦辞'元亨'表示顺利通达，爻辞阐释顺天休命、吉祥无咎的哲理，体现中国古代哲学智慧。",
+        "keywords": [
+          "大有卦",
+          "周易",
+          "爻辞",
+          "元亨",
+          "顺天休命"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:14:01.196529Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.346
+    }
+  ],
   "journal": {
     "id": "4d3833aa-187c-4d57-ab20-9ed52cee486b",
     "note_id": "a14e95d2-0038-462d-a43e-e9a1a5b79624",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:14:01.196392Z",
+    "latency_seconds": 37.17827299993951,
+    "attempts": 2,
+    "summary": {
+      "summary": "大有卦为周易六十四卦之一，卦辞'元亨'表示顺利通达，爻辞阐释顺天休命、吉祥无咎的哲理，体现中国古代哲学智慧。",
+      "keywords": [
+        "大有卦",
+        "周易",
+        "爻辞",
+        "元亨",
+        "顺天休命"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.346,
+      "metrics": {
+        "input_chars": 271.0,
+        "input_lines": 28.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.199,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.3
+      }
+    }
   }
 }

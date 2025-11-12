@@ -1,0 +1,30 @@
+{
+  "id": "7ae76efd-19b6-4c8f-9420-23dad7375113",
+  "note_id": "7e5102c3-8f3b-4444-b65d-2bd03182142c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "通过腾讯QQ邮箱代理（gp.mail.qq.com:443）实现Gmail登录，支持白名单域名如*.google.com，可配合SwitchyOmega插件使用",
+    "keywords": [
+      "QQ代理",
+      "Gmail",
+      "代理服务器",
+      "白名单",
+      "SwitchyOmega"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "网络技术",
+      "代理服务"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:22:39.159642Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.42
+}

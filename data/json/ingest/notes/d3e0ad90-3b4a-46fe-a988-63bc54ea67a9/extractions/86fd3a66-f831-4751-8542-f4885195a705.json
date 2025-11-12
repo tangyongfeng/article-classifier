@@ -1,0 +1,28 @@
+{
+  "id": "86fd3a66-f831-4751-8542-f4885195a705",
+  "note_id": "d3e0ad90-3b4a-46fe-a988-63bc54ea67a9",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "英语爽文写作是新兴低门槛创业项目，通过写女性向狗血小说（如后宫文、复仇文）在Goodnovel等平台盈利，语法错误不影响销量，成本低、周期短、易复制。",
+    "keywords": [
+      "英语爽文",
+      "女性向小说",
+      "创业项目",
+      "平台引流",
+      "低成本"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "创业"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:53:25.261339Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.26
+}

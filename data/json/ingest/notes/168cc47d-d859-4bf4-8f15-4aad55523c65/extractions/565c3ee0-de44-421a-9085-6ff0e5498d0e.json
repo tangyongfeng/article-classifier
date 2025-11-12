@@ -1,0 +1,28 @@
+{
+  "id": "565c3ee0-de44-421a-9085-6ff0e5498d0e",
+  "note_id": "168cc47d-d859-4bf4-8f15-4aad55523c65",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "wtcf技术性能评估讨论，涉及替代Oracle可行性、互联网系统需求分析及南粤铁路开发状态。",
+    "keywords": [
+      "wtcf",
+      "性能",
+      "Oracle",
+      "互联网系统",
+      "技术评估"
+    ],
+    "action_items": [
+      "分析响应时间"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:28:43.860398Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.403
+}

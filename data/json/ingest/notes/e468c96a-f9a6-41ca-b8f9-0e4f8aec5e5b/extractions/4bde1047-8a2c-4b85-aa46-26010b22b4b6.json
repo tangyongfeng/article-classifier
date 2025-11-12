@@ -1,0 +1,28 @@
+{
+  "id": "4bde1047-8a2c-4b85-aa46-26010b22b4b6",
+  "note_id": "e468c96a-f9a6-41ca-b8f9-0e4f8aec5e5b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "可儿日常护理记录，涵盖7月14-15日饮食安排（如炒米饭、饺子）、健康状况（呕吐）及活动时间，反映家庭照顾细节。",
+    "keywords": [
+      "护理",
+      "饮食",
+      "家庭",
+      "健康",
+      "记录"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social",
+      "Family Relationships"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:14:57.007204Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.301
+}

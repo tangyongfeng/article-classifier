@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f4ee153f-61a4-4fd7-ac0e-6170847d5f12",
+      "note_id": "467f9bd4-c8d5-49e1-945f-188663d5f3a4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记分析美国餐饮业经营策略（如IN-N-OUT模式），探讨新移民餐饮创业及L-1签证申请流程与挑战。",
+        "keywords": [
+          "餐饮创业",
+          "L-1签证",
+          "公司注册",
+          "餐饮模式",
+          "移民经营"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:10:33.924605Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.141
+    }
+  ],
   "journal": {
     "id": "8d896369-5639-4ee9-b3e7-3715ee2a49c8",
     "note_id": "467f9bd4-c8d5-49e1-945f-188663d5f3a4",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:10:33.924441Z",
+    "latency_seconds": 18.897774250013754,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记分析美国餐饮业经营策略（如IN-N-OUT模式），探讨新移民餐饮创业及L-1签证申请流程与挑战。",
+      "keywords": [
+        "餐饮创业",
+        "L-1签证",
+        "公司注册",
+        "餐饮模式",
+        "移民经营"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.141,
+      "metrics": {
+        "input_chars": 1725.0,
+        "input_lines": 35.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.029,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 103.5
+      }
+    }
   }
 }

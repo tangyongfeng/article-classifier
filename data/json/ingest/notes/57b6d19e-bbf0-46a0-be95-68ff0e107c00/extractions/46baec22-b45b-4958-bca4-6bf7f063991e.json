@@ -1,0 +1,27 @@
+{
+  "id": "46baec22-b45b-4958-bca4-6bf7f063991e",
+  "note_id": "57b6d19e-bbf0-46a0-be95-68ff0e107c00",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "客户投保成功通知，包含保单号、被保险人信息及保险期限，由平安保险提供服务。",
+    "keywords": [
+      "保单",
+      "投保",
+      "被保险人",
+      "保险期限",
+      "中国平安"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:05:43.872158Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.456
+}

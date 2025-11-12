@@ -1,0 +1,27 @@
+{
+  "id": "ab9d7c87-3b6b-41c3-926d-e43d04c561d8",
+  "note_id": "f4677163-c4d5-4ebd-be7e-b271a40d0cf6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "中通快递是中国主要快递企业，提供国内及国际包裹寄递、仓储配送等物流服务，覆盖电商物流及商业配送需求。",
+    "keywords": [
+      "中通快递",
+      "物流服务",
+      "快递公司",
+      "电商物流",
+      "包裹寄递"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:29:37.438144Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.39
+}

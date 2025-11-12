@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cc213684-3008-431d-9967-c979975228cd",
+      "note_id": "fd0a8a16-3649-45dc-b49f-9eee369fe657",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录了301医院张明群的慢性病健康分析及金欣等医疗相关人名。",
+        "keywords": [
+          "人名",
+          "医院",
+          "慢性病",
+          "健康分析",
+          "记录"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:15:50.422381Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.447
+    }
+  ],
   "journal": {
     "id": "f2ee81de-5142-4a9c-88fb-e59bafa526cf",
     "note_id": "fd0a8a16-3649-45dc-b49f-9eee369fe657",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:15:50.422217Z",
+    "latency_seconds": 88.00015258300118,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录了301医院张明群的慢性病健康分析及金欣等医疗相关人名。",
+      "keywords": [
+        "人名",
+        "医院",
+        "慢性病",
+        "健康分析",
+        "记录"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.447,
+      "metrics": {
+        "input_chars": 107.0,
+        "input_lines": 7.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.28,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.4
+      }
+    }
   }
 }

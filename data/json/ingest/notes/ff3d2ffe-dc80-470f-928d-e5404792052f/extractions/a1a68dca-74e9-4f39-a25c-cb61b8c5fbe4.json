@@ -1,0 +1,29 @@
+{
+  "id": "a1a68dca-74e9-4f39-a25c-cb61b8c5fbe4",
+  "note_id": "ff3d2ffe-dc80-470f-928d-e5404792052f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语祈使句中，使用正式形式'Sie'时，动词需提前。涉及德语语法核心规则。",
+    "keywords": [
+      "祈使句",
+      "德语",
+      "语法",
+      "Sie",
+      "动词提前"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T11:32:33.069963Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.448
+}

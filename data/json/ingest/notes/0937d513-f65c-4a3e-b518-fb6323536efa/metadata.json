@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "290af066-f90d-46f9-991e-072cf0516ee8",
+      "note_id": "0937d513-f65c-4a3e-b518-fb6323536efa",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "总结德语代词'ihr'的四种用法：作主语'你们'（第一格），第三格和第四格为'euch'；作为'她的'（仅限女性），用于阳性、中性名词的格变化。",
+        "keywords": [
+          "德语",
+          "代词",
+          "ihr",
+          "语法",
+          "用法"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:09:31.676342Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.269
+    }
+  ],
   "journal": {
     "id": "05ee2e48-24d7-474e-8983-b01173f9df2c",
     "note_id": "0937d513-f65c-4a3e-b518-fb6323536efa",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:09:31.676183Z",
+    "latency_seconds": 26.886771999998018,
+    "attempts": 1,
+    "summary": {
+      "summary": "总结德语代词'ihr'的四种用法：作主语'你们'（第一格），第三格和第四格为'euch'；作为'她的'（仅限女性），用于阳性、中性名词的格变化。",
+      "keywords": [
+        "德语",
+        "代词",
+        "ihr",
+        "语法",
+        "用法"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.269,
+      "metrics": {
+        "input_chars": 438.0,
+        "input_lines": 18.0,
+        "summary_chars": 72.0,
+        "summary_coverage_ratio": 0.164,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 26.3
+      }
+    }
   }
 }

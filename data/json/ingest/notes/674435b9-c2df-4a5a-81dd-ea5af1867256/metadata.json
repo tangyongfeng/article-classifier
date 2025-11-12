@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "18e01a1f-8dd4-4a5f-9715-123647455353",
+      "note_id": "674435b9-c2df-4a5a-81dd-ea5af1867256",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "美加边境设施简陋，仅以北纬49度线为界，缺乏有效监控，导致2018年上半年偷渡人数暴增142%。",
+        "keywords": [
+          "美加边界",
+          "偷渡",
+          "边境设施",
+          "北纬49度",
+          "非法入境"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:24:36.450621Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.383
+    }
+  ],
   "journal": {
     "id": "16f48150-0318-419d-b916-bd339c7829a8",
     "note_id": "674435b9-c2df-4a5a-81dd-ea5af1867256",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:24:36.450464Z",
+    "latency_seconds": 33.29594379209448,
+    "attempts": 1,
+    "summary": {
+      "summary": "美加边境设施简陋，仅以北纬49度线为界，缺乏有效监控，导致2018年上半年偷渡人数暴增142%。",
+      "keywords": [
+        "美加边界",
+        "偷渡",
+        "边境设施",
+        "北纬49度",
+        "非法入境"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.383,
+      "metrics": {
+        "input_chars": 1467.0,
+        "input_lines": 47.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.033,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 88.0
+      }
+    }
   }
 }

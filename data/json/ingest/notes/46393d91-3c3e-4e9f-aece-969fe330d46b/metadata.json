@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0eb13e92-2ced-4f0b-93d2-a1de3866a063",
+      "note_id": "46393d91-3c3e-4e9f-aece-969fe330d46b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "永峰致信Stinner讨论房屋看房事宜，道歉未及时回复确认，并承诺4月14日前确认。",
+        "keywords": [
+          "房屋",
+          "讨论",
+          "确认",
+          "道歉",
+          "回复"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Discussions"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:10:15.022969Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.083
+    }
+  ],
   "journal": {
     "id": "7c21c123-958e-4ee2-ad4c-84d8185d5705",
     "note_id": "46393d91-3c3e-4e9f-aece-969fe330d46b",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:10:15.022784Z",
+    "latency_seconds": 45.28001229208894,
+    "attempts": 1,
+    "summary": {
+      "summary": "永峰致信Stinner讨论房屋看房事宜，道歉未及时回复确认，并承诺4月14日前确认。",
+      "keywords": [
+        "房屋",
+        "讨论",
+        "确认",
+        "道歉",
+        "回复"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Discussions"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.083,
+      "metrics": {
+        "input_chars": 1256.0,
+        "input_lines": 15.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.033,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 75.4
+      }
+    }
   }
 }

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a8f7f769-5fa7-4cc4-b0dc-8ec5e3403ba2",
+      "note_id": "fd14e83b-d6a5-4b08-a9e4-3a94259a1ece",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "平安保险投保期150天，从4月1日至8月29日，两份保险合计1987元。",
+        "keywords": [
+          "保险",
+          "投保",
+          "期限",
+          "价格",
+          "平安"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:16:40.850627Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.424
+    }
+  ],
   "journal": {
     "id": "9d0d72be-d50b-48fa-98ed-890055c9664c",
     "note_id": "fd14e83b-d6a5-4b08-a9e4-3a94259a1ece",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:16:40.850464Z",
+    "latency_seconds": 50.42343045899179,
+    "attempts": 1,
+    "summary": {
+      "summary": "平安保险投保期150天，从4月1日至8月29日，两份保险合计1987元。",
+      "keywords": [
+        "保险",
+        "投保",
+        "期限",
+        "价格",
+        "平安"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.424,
+      "metrics": {
+        "input_chars": 154.0,
+        "input_lines": 9.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.234,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.2
+      }
+    }
   }
 }

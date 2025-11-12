@@ -1,0 +1,32 @@
+{
+  "id": "2ad855de-ab4a-4fed-b004-fd5aad537aa4",
+  "note_id": "4e935a1f-7ffe-4bb3-97cb-9de6bf3cf22a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "使用tar与openssl des3进行文件加密打包和解密解包的命令行操作示例，包含加密与解密的完整命令步骤。",
+    "keywords": [
+      "tar",
+      "openssl",
+      "des3",
+      "加密",
+      "命令行"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": [
+      "技术",
+      "系统管理",
+      "命令行工具"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:06:04.924931Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.36
+}

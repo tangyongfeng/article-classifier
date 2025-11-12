@@ -1,0 +1,28 @@
+{
+  "id": "002503fc-219b-4b36-a4ae-05b356d7fc26",
+  "note_id": "00f10942-1e22-4f3a-8d5e-ab7fac696778",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容涵盖医疗系统服务渠道、临床路径管理、合理用药系统（PASS）及省一级权责工作，涉及医疗信息化与服务流程优化。",
+    "keywords": [
+      "临床路径",
+      "合理用药系统",
+      "服务渠道",
+      "省一级权责",
+      "系统"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 2,
+  "created_at": "2025-11-11T13:41:13.250289Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.546
+}

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3b80f0f2-060a-4f6c-94c9-b9809f0ef711",
+      "note_id": "d9e0f260-3d65-4faf-8f40-50b003b43a4a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "巽卦为周易六十四卦之一，象征风，主顺从。爻辞如'小亨，利有攸住'，体现柔顺之道。",
+        "keywords": [
+          "巽卦",
+          "周易",
+          "爻辞",
+          "顺从",
+          "风"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:15:16.939192Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.192
+    }
+  ],
   "journal": {
     "id": "98d45992-3c0d-40ad-868c-7a87a43fb3ee",
     "note_id": "d9e0f260-3d65-4faf-8f40-50b003b43a4a",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:15:16.939045Z",
+    "latency_seconds": 42.86220720899291,
+    "attempts": 3,
+    "summary": {
+      "summary": "巽卦为周易六十四卦之一，象征风，主顺从。爻辞如'小亨，利有攸住'，体现柔顺之道。",
+      "keywords": [
+        "巽卦",
+        "周易",
+        "爻辞",
+        "顺从",
+        "风"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.192,
+      "metrics": {
+        "input_chars": 305.0,
+        "input_lines": 26.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.131,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 18.3
+      }
+    }
   }
 }

@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b7e2bbe8-0ec7-4c3b-9a83-ca5d475b7ef3",
+      "note_id": "8d82c888-4b74-4a74-9c5d-cfa70840491e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容涉及英语中'气球'（balloon）的词汇学习，可能用于语言教学或日常交流。",
+        "keywords": [
+          "气球",
+          "英语词汇",
+          "语言学习",
+          "balloon",
+          "词汇教学"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education",
+          "Language Learning",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:38:52.830185Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.259
+    }
+  ],
   "journal": {
     "id": "2a898e97-9978-49c4-92f9-a95a823f16f5",
     "note_id": "8d82c888-4b74-4a74-9c5d-cfa70840491e",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:38:52.830042Z",
+    "latency_seconds": 20.791533750016242,
+    "attempts": 3,
+    "summary": {
+      "summary": "笔记内容涉及英语中'气球'（balloon）的词汇学习，可能用于语言教学或日常交流。",
+      "keywords": [
+        "气球",
+        "英语词汇",
+        "语言学习",
+        "balloon",
+        "词汇教学"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education",
+        "Language Learning",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.259,
+      "metrics": {
+        "input_chars": 159.0,
+        "input_lines": 8.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.264,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.5
+      }
+    }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "id": "0eb0acba-d83e-437d-a614-996ed467733b",
+  "note_id": "f15a7f58-bfed-4748-9a99-8fce78a51871",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语动词变位规则示例，展示不同人称下动词'kommen'的变位形式，包括我、你、他/她/它、我们、你们、他们/她们/它们的变位。",
+    "keywords": [
+      "德语",
+      "动词变位",
+      "语法",
+      "人称",
+      "变位表"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Verb Conjugation"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:16:19.413171Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.236
+}

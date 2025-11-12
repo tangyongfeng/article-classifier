@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9fc95636-6c2c-40e3-8975-361b3db69cc3",
+      "note_id": "bd98a3a8-3db5-44e7-8fe7-3c85fd71a96f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "庭前会议是刑事诉讼法规定的开庭前会议，用于解决回避、证据排除等问题，提高庭审效率。律师通过庭前会议提前准备，缩短庭审时间。",
+        "keywords": [
+          "庭前会议",
+          "刑事诉讼法",
+          "证据排除",
+          "辩护律师",
+          "庭审程序"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:30:34.267836Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.333
+    }
+  ],
   "journal": {
     "id": "ee51f0b7-f6d9-4b8d-a319-1e59cbb5a0ab",
     "note_id": "bd98a3a8-3db5-44e7-8fe7-3c85fd71a96f",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:30:34.267582Z",
+    "latency_seconds": 38.23801741702482,
+    "attempts": 2,
+    "summary": {
+      "summary": "庭前会议是刑事诉讼法规定的开庭前会议，用于解决回避、证据排除等问题，提高庭审效率。律师通过庭前会议提前准备，缩短庭审时间。",
+      "keywords": [
+        "庭前会议",
+        "刑事诉讼法",
+        "证据排除",
+        "辩护律师",
+        "庭审程序"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.333,
+      "metrics": {
+        "input_chars": 1170.0,
+        "input_lines": 18.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.052,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 70.2
+      }
+    }
   }
 }

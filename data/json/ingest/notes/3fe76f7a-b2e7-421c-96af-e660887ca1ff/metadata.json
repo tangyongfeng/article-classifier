@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a414e0b4-5103-40b7-83f4-ef1c1dfc7282",
+      "note_id": "3fe76f7a-b2e7-421c-96af-e660887ca1ff",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讨论UTF-8中右向左控制字符U+202E被用于钓鱼邮件伪装文件扩展名的技术安全案例，涉及文件名反转攻击。",
+        "keywords": [
+          "控制字符",
+          "钓鱼邮件",
+          "UTF-8",
+          "文件扩展名",
+          "U+202E"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:27:11.283502Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.401
+    }
+  ],
   "journal": {
     "id": "59cf4dda-d0dd-4620-b00d-f24f443bd7c6",
     "note_id": "3fe76f7a-b2e7-421c-96af-e660887ca1ff",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:27:11.283379Z",
+    "latency_seconds": 14.566098042065278,
+    "attempts": 1,
+    "summary": {
+      "summary": "讨论UTF-8中右向左控制字符U+202E被用于钓鱼邮件伪装文件扩展名的技术安全案例，涉及文件名反转攻击。",
+      "keywords": [
+        "控制字符",
+        "钓鱼邮件",
+        "UTF-8",
+        "文件扩展名",
+        "U+202E"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.401,
+      "metrics": {
+        "input_chars": 172.0,
+        "input_lines": 6.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.308,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.3
+      }
+    }
   }
 }

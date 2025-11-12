@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "be39a9e0-acc8-4655-8d5e-3b24b45e4d44",
+      "note_id": "2bc58a67-3154-443f-a9ee-739521b557e5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "华闻传媒因短线交易和虚假陈述被证监会处罚，涉及股票买卖违规，属于公司财务问题。",
+        "keywords": [
+          "2B公司",
+          "股票交易",
+          "证监会处罚",
+          "短线交易",
+          "虚假陈述"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:06:25.144449Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.325
+    }
+  ],
   "journal": {
     "id": "e153682b-beb1-4bd5-83df-0375a2e5256b",
     "note_id": "2bc58a67-3154-443f-a9ee-739521b557e5",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:06:25.144278Z",
+    "latency_seconds": 14.169465666054748,
+    "attempts": 1,
+    "summary": {
+      "summary": "华闻传媒因短线交易和虚假陈述被证监会处罚，涉及股票买卖违规，属于公司财务问题。",
+      "keywords": [
+        "2B公司",
+        "股票交易",
+        "证监会处罚",
+        "短线交易",
+        "虚假陈述"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.325,
+      "metrics": {
+        "input_chars": 250.0,
+        "input_lines": 12.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.156,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.0
+      }
+    }
   }
 }

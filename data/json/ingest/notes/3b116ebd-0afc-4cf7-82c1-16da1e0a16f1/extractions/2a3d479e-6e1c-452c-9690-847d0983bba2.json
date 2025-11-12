@@ -1,0 +1,27 @@
+{
+  "id": "2a3d479e-6e1c-452c-9690-847d0983bba2",
+  "note_id": "3b116ebd-0afc-4cf7-82c1-16da1e0a16f1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "中国药品监督管理局官方查询系统的网址链接，用于药品监管信息查询。",
+    "keywords": [
+      "药监局",
+      "药品监管",
+      "官方网址",
+      "查询系统",
+      "政府机构"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:09:50.882560Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.185
+}

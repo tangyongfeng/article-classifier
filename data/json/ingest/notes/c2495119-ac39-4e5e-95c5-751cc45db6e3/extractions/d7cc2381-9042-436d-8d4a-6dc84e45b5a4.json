@@ -1,0 +1,28 @@
+{
+  "id": "d7cc2381-9042-436d-8d4a-6dc84e45b5a4",
+  "note_id": "c2495119-ac39-4e5e-95c5-751cc45db6e3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "C#实现Web服务返回DataSet并在客户端网格显示数据的代码示例，包含服务端数据查询与客户端绑定操作。",
+    "keywords": [
+      "Web服务",
+      "DataSet",
+      "C#",
+      "数据绑定",
+      "客户端"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T05:57:06.255191Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.197
+}

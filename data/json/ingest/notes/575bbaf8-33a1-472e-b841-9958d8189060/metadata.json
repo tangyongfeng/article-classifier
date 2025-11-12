@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6c296816-89dc-4169-90dd-ec035302bfb0",
+      "note_id": "575bbaf8-33a1-472e-b841-9958d8189060",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "系统默认根笔记，用于知识管理平台，包含基础URL www.qingzhuang.com 和凭证信息。",
+        "keywords": [
+          "根笔记",
+          "URL",
+          "凭证",
+          "系统",
+          "知识管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:04:34.167245Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.268
+    }
+  ],
   "journal": {
     "id": "ffa76dec-17ae-4657-b0e9-412118855f97",
     "note_id": "575bbaf8-33a1-472e-b841-9958d8189060",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:04:34.167063Z",
+    "latency_seconds": 42.63027670804877,
+    "attempts": 1,
+    "summary": {
+      "summary": "系统默认根笔记，用于知识管理平台，包含基础URL www.qingzhuang.com 和凭证信息。",
+      "keywords": [
+        "根笔记",
+        "URL",
+        "凭证",
+        "系统",
+        "知识管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.268,
+      "metrics": {
+        "input_chars": 124.0,
+        "input_lines": 8.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.403,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 3.0,
+        "estimated_read_seconds": 7.4
+      }
+    }
   }
 }

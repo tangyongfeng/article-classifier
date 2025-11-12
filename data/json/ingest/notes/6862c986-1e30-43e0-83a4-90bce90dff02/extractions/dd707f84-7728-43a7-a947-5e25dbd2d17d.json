@@ -1,0 +1,28 @@
+{
+  "id": "dd707f84-7728-43a7-a947-5e25dbd2d17d",
+  "note_id": "6862c986-1e30-43e0-83a4-90bce90dff02",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记涉及中福在线平台的个人贡献量数据，属于金融支付服务范畴。",
+    "keywords": [
+      "中福在线",
+      "个人贡献量",
+      "金融",
+      "支付服务",
+      "彩票"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:32:04.524876Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.343
+}

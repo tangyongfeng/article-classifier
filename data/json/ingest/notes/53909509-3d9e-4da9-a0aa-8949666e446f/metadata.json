@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "39b17212-f974-47c3-91ec-60137b558094",
+      "note_id": "53909509-3d9e-4da9-a0aa-8949666e446f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "解析德语动词brauchen（口语）与benötigen（书面）的用法差异，强调主观/客观需要及语法结构。",
+        "keywords": [
+          "德语",
+          "动词",
+          "用法",
+          "语法",
+          "区别"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:55:41.578078Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.181
+    }
+  ],
   "journal": {
     "id": "ef8b245c-fa60-4213-b763-177484a5fb1a",
     "note_id": "53909509-3d9e-4da9-a0aa-8949666e446f",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:55:41.577939Z",
+    "latency_seconds": 9.570146708982065,
+    "attempts": 1,
+    "summary": {
+      "summary": "解析德语动词brauchen（口语）与benötigen（书面）的用法差异，强调主观/客观需要及语法结构。",
+      "keywords": [
+        "德语",
+        "动词",
+        "用法",
+        "语法",
+        "区别"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.181,
+      "metrics": {
+        "input_chars": 231.0,
+        "input_lines": 13.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.229,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.9
+      }
+    }
   }
 }

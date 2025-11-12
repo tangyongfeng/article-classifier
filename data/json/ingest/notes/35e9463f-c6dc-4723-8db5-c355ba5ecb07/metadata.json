@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "47ddadaf-7c52-4a05-951d-910eee86b32b",
+      "note_id": "35e9463f-c6dc-4723-8db5-c355ba5ecb07",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "内部控制系统（ICS）是企业为确保财务报告可靠性、运营效率和合规性而建立的管理框架，涵盖风险评估与控制活动。",
+        "keywords": [
+          "内部控制系统",
+          "内部控制",
+          "企业治理",
+          "风险管理",
+          "财务报告"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:56:00.358453Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.399
+    }
+  ],
   "journal": {
     "id": "78789b58-fee7-48b1-afd6-4febd5d0b9e9",
     "note_id": "35e9463f-c6dc-4723-8db5-c355ba5ecb07",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:56:00.358283Z",
+    "latency_seconds": 31.292184708057903,
+    "attempts": 1,
+    "summary": {
+      "summary": "内部控制系统（ICS）是企业为确保财务报告可靠性、运营效率和合规性而建立的管理框架，涵盖风险评估与控制活动。",
+      "keywords": [
+        "内部控制系统",
+        "内部控制",
+        "企业治理",
+        "风险管理",
+        "财务报告"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.399,
+      "metrics": {
+        "input_chars": 127.0,
+        "input_lines": 7.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.425,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.6
+      }
+    }
   }
 }

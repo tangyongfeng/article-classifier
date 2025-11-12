@@ -77,7 +77,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "877eb183-bacf-4c4e-9f09-b7f83a232fcd",
+      "note_id": "d2702bf4-c1cb-4d7b-8edb-b84ccc41fede",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: openwrt 无线结构 - 华六的博客 - CSDN博客 updated: 2018-11-02 08:58:07Z created: ",
+        "keywords": [
+          "---",
+          "title: openwrt 无线结构 - 华六的博客 - CSDN博客",
+          "updated: 2018-11-02 08:58:07Z",
+          "created: 2018-11-02 08:58:07Z",
+          "source: https://blog.csdn.net/zimiao815/article/details/55511338"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:43:24.185711Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "6d376074-0a1c-436a-9d8d-7b28a45a5223",
     "note_id": "d2702bf4-c1cb-4d7b-8edb-b84ccc41fede",
@@ -100,5 +128,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T07:43:24.184952Z",
+    "latency_seconds": 44.29066345805768,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: openwrt 无线结构 - 华六的博客 - CSDN博客 updated: 2018-11-02 08:58:07Z created: ",
+      "keywords": [
+        "---",
+        "title: openwrt 无线结构 - 华六的博客 - CSDN博客",
+        "updated: 2018-11-02 08:58:07Z",
+        "created: 2018-11-02 08:58:07Z",
+        "source: https://blog.csdn.net/zimiao815/article/details/55511338"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 16325.0,
+        "input_lines": 354.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.005,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 979.5
+      }
+    }
   }
 }

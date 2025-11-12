@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "48a66fa1-db39-4a8d-9cc7-51764594162d",
+      "note_id": "86ff1ecd-dd29-461d-aa63-d3ea09136606",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 【原创】GSM Sniffing入门（硬件篇1-2楼，软件篇6楼） - 看雪安全论坛 updated: 2016-02-26 22:03:",
+        "keywords": [
+          "---",
+          "title: 【原创】GSM Sniffing入门（硬件篇1-2楼，软件篇6楼） - 看雪安全论坛",
+          "updated: 2016-02-26 22:03:39Z",
+          "created: 2016-02-26 22:03:39Z",
+          "source: http://bbs.pediy.com/showthread.php?t=182574"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:10:28.136087Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "20ab9421-417c-41c1-a9fa-28cc4662baea",
     "note_id": "86ff1ecd-dd29-461d-aa63-d3ea09136606",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T01:10:28.134384Z",
+    "latency_seconds": 38.9599086670205,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 【原创】GSM Sniffing入门（硬件篇1-2楼，软件篇6楼） - 看雪安全论坛 updated: 2016-02-26 22:03:",
+      "keywords": [
+        "---",
+        "title: 【原创】GSM Sniffing入门（硬件篇1-2楼，软件篇6楼） - 看雪安全论坛",
+        "updated: 2016-02-26 22:03:39Z",
+        "created: 2016-02-26 22:03:39Z",
+        "source: http://bbs.pediy.com/showthread.php?t=182574"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 25341.0,
+        "input_lines": 986.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.003,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 1520.5
+      }
+    }
   }
 }

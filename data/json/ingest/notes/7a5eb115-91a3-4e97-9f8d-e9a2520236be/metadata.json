@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ffbf5795-d120-4208-a337-605784d8e123",
+      "note_id": "7a5eb115-91a3-4e97-9f8d-e9a2520236be",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "给外汇管理局写信请求提供工资单副本，用于家属签证申请，内容为德语信件。",
+        "keywords": [
+          "外管局",
+          "工资单",
+          "德语信件",
+          "签证申请",
+          "行政事务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:01:34.911027Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.168
+    }
+  ],
   "journal": {
     "id": "46557ffd-3d2a-45a7-96d0-18244ef2c70f",
     "note_id": "7a5eb115-91a3-4e97-9f8d-e9a2520236be",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:01:34.910859Z",
+    "latency_seconds": 32.13400249998085,
+    "attempts": 1,
+    "summary": {
+      "summary": "给外汇管理局写信请求提供工资单副本，用于家属签证申请，内容为德语信件。",
+      "keywords": [
+        "外管局",
+        "工资单",
+        "德语信件",
+        "签证申请",
+        "行政事务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.168,
+      "metrics": {
+        "input_chars": 427.0,
+        "input_lines": 9.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.082,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 25.6
+      }
+    }
   }
 }

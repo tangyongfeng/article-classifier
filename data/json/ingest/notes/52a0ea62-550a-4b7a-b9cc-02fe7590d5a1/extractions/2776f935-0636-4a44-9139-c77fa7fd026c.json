@@ -1,0 +1,28 @@
+{
+  "id": "2776f935-0636-4a44-9139-c77fa7fd026c",
+  "note_id": "52a0ea62-550a-4b7a-b9cc-02fe7590d5a1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "强化学习是机器学习中通过环境交互优化决策的分支，强调探索与利用的平衡，应用于人工智能、博弈论及控制理论等领域。",
+    "keywords": [
+      "强化学习",
+      "机器学习",
+      "环境交互",
+      "最优策略",
+      "人工智能"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:50:59.689310Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.225
+}

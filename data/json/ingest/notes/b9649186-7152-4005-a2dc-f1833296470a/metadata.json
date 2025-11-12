@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6272b92a-9141-4783-a0f1-5c3a50becfd4",
+      "note_id": "b9649186-7152-4005-a2dc-f1833296470a",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: OsmocomBB SMS Sniffer | WooYun知识库 updated: 2016-02-28 16:32:25Z creat",
+        "keywords": [
+          "---",
+          "title: OsmocomBB SMS Sniffer | WooYun知识库",
+          "updated: 2016-02-28 16:32:25Z",
+          "created: 2016-02-28 16:32:25Z",
+          "source: http://drops.wooyun.org/"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:05:45.184064Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "361f5160-4772-4283-85be-8b8edebf9001",
     "note_id": "b9649186-7152-4005-a2dc-f1833296470a",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T05:05:45.183669Z",
+    "latency_seconds": 32.08785641693976,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: OsmocomBB SMS Sniffer | WooYun知识库 updated: 2016-02-28 16:32:25Z creat",
+      "keywords": [
+        "---",
+        "title: OsmocomBB SMS Sniffer | WooYun知识库",
+        "updated: 2016-02-28 16:32:25Z",
+        "created: 2016-02-28 16:32:25Z",
+        "source: http://drops.wooyun.org/"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 8596.0,
+        "input_lines": 301.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.009,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 515.8
+      }
+    }
   }
 }

@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "933bae8e-d89b-417e-9436-0d085fe6271e",
+      "note_id": "7ccd81d7-3d4f-4380-915d-b30d88dc6de3",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 德国开公司知识点大全 updated: 2018-01-15 09:48:26Z created: 2018-01-15 09:47:36",
+        "keywords": [
+          "---",
+          "title: 德国开公司知识点大全",
+          "updated: 2018-01-15 09:48:26Z",
+          "created: 2018-01-15 09:47:36Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:13:23.914849Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "46fa35a0-f634-445a-bc38-8809414b6680",
     "note_id": "7ccd81d7-3d4f-4380-915d-b30d88dc6de3",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T00:13:23.914358Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 德国开公司知识点大全 updated: 2018-01-15 09:48:26Z created: 2018-01-15 09:47:36",
+      "keywords": [
+        "---",
+        "title: 德国开公司知识点大全",
+        "updated: 2018-01-15 09:48:26Z",
+        "created: 2018-01-15 09:47:36Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 10523.0,
+        "input_lines": 205.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.008,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 631.4
+      }
+    }
   }
 }

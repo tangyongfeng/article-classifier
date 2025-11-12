@@ -1,0 +1,28 @@
+{
+  "id": "b6dbd81e-8262-48cb-b67a-00a5570ae3de",
+  "note_id": "d7f89c17-c89d-4984-9b48-24b5defad378",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "网站推广主题，聚焦广告投放与营销策略，内容涉及红包等促销活动。",
+    "keywords": [
+      "网站推广",
+      "广告投放",
+      "营销",
+      "红包",
+      "促销"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "广告投放商"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T08:06:39.235080Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.373
+}

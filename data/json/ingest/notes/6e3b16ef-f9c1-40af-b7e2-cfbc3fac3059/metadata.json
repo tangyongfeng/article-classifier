@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e54be417-8df2-468c-b6f8-ef13aa56e442",
+      "note_id": "6e3b16ef-f9c1-40af-b7e2-cfbc3fac3059",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语中仅接第三格的介词列表（如seit、mit、zu等），附带例句说明用法，属于德语语法核心内容。",
+        "keywords": [
+          "德语介词",
+          "第三格",
+          "语法规则",
+          "介词用法",
+          "德语语法"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:56:56.948128Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.191
+    }
+  ],
   "journal": {
     "id": "b3a21e8d-4bfd-4876-ae40-176aed396b42",
     "note_id": "6e3b16ef-f9c1-40af-b7e2-cfbc3fac3059",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:56:56.948006Z",
+    "latency_seconds": 16.158266250044107,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语中仅接第三格的介词列表（如seit、mit、zu等），附带例句说明用法，属于德语语法核心内容。",
+      "keywords": [
+        "德语介词",
+        "第三格",
+        "语法规则",
+        "介词用法",
+        "德语语法"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.191,
+      "metrics": {
+        "input_chars": 384.0,
+        "input_lines": 8.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.128,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.0
+      }
+    }
   }
 }

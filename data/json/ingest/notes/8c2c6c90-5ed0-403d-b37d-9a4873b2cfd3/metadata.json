@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9aab34bf-7c14-4fab-acd0-e6fd75454e9a",
+      "note_id": "8c2c6c90-5ed0-403d-b37d-9a4873b2cfd3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "整理'一带一路'政策文件，涵盖经济带建设、科技创新合作及国际合作战略。",
+        "keywords": [
+          "一带一路",
+          "走出去",
+          "科技合作",
+          "国际合作",
+          "政策"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:31:39.568779Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.392
+    }
+  ],
   "journal": {
     "id": "9a3642b0-a1ac-492d-a536-9a5b9d38a5cb",
     "note_id": "8c2c6c90-5ed0-403d-b37d-9a4873b2cfd3",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:31:39.568590Z",
+    "latency_seconds": 36.08872654195875,
+    "attempts": 1,
+    "summary": {
+      "summary": "整理'一带一路'政策文件，涵盖经济带建设、科技创新合作及国际合作战略。",
+      "keywords": [
+        "一带一路",
+        "走出去",
+        "科技合作",
+        "国际合作",
+        "政策"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.392,
+      "metrics": {
+        "input_chars": 688.0,
+        "input_lines": 23.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.051,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 41.3
+      }
+    }
   }
 }

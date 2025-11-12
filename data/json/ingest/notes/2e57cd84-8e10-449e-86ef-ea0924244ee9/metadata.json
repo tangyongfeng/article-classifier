@@ -67,7 +67,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "31fae95c-45cf-4668-bcf9-f7bdadee42d4",
+      "note_id": "2e57cd84-8e10-449e-86ef-ea0924244ee9",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "推荐Python库lxml，利用XPath高效解析HTML，替代BeautifulSoup，提升开发效率。",
+        "keywords": [
+          "Python",
+          "lxml",
+          "XPath",
+          "HTML解析",
+          "高效"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "Programming",
+          "Libraries"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:17:23.525915Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.315
+    }
+  ],
   "journal": {
     "id": "10c8950c-2c65-4bfe-8724-039b95baaf4a",
     "note_id": "2e57cd84-8e10-449e-86ef-ea0924244ee9",
@@ -90,5 +122,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:17:23.525784Z",
+    "latency_seconds": 47.3574185409816,
+    "attempts": 1,
+    "summary": {
+      "summary": "推荐Python库lxml，利用XPath高效解析HTML，替代BeautifulSoup，提升开发效率。",
+      "keywords": [
+        "Python",
+        "lxml",
+        "XPath",
+        "HTML解析",
+        "高效"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "Programming",
+        "Libraries"
+      ]
+    },
+    "quality": {
+      "score": 0.315,
+      "metrics": {
+        "input_chars": 389.0,
+        "input_lines": 10.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.136,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.3
+      }
+    }
   }
 }

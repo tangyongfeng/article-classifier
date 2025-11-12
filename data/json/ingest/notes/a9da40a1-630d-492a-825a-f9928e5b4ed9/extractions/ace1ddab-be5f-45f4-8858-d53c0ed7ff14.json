@@ -1,0 +1,29 @@
+{
+  "id": "ace1ddab-be5f-45f4-8858-d53c0ed7ff14",
+  "note_id": "a9da40a1-630d-492a-825a-f9928e5b4ed9",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "计划与同学前往杜塞尔多夫一日游的对话，涉及出发时间、交通方式、景点选择及费用预算讨论。",
+    "keywords": [
+      "城市观光",
+      "旅行计划",
+      "交通方式",
+      "景点选择",
+      "费用预算"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:49:14.254240Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.074
+}

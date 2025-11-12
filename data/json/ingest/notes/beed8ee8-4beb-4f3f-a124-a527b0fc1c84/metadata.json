@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "36a905e5-fe56-4620-b701-d448eec7c97b",
+      "note_id": "beed8ee8-4beb-4f3f-a124-a527b0fc1c84",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记展示了Python多进程模块的示例代码，使用进程池进行并行计算，实现结果收集功能，适用于并行处理任务。",
+        "keywords": [
+          "多进程",
+          "Python",
+          "代码示例",
+          "并行计算",
+          "进程池"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:44:04.773372Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.166
+    }
+  ],
   "journal": {
     "id": "6da4546a-6a6d-4219-9086-fc8681ac815a",
     "note_id": "beed8ee8-4beb-4f3f-a124-a527b0fc1c84",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:44:04.773153Z",
+    "latency_seconds": 54.69839425000828,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记展示了Python多进程模块的示例代码，使用进程池进行并行计算，实现结果收集功能，适用于并行处理任务。",
+      "keywords": [
+        "多进程",
+        "Python",
+        "代码示例",
+        "并行计算",
+        "进程池"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.166,
+      "metrics": {
+        "input_chars": 685.0,
+        "input_lines": 30.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.079,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 41.1
+      }
+    }
   }
 }

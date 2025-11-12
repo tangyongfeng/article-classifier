@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9d061c77-d695-4587-9290-d15223feeae1",
+      "note_id": "068513bd-d5ee-4576-8301-5b2d383a6303",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语中时间表达的常用方式，包括数字时间、分钟表达及时段用法，如'halb acht'（差一刻八点）和'am Morgen'（早上）。",
+        "keywords": [
+          "时间表达",
+          "德语",
+          "语法",
+          "分钟",
+          "时段"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:00:27.149866Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.214
+    }
+  ],
   "journal": {
     "id": "523e3e1b-194c-4269-ae66-89dcf75c9091",
     "note_id": "068513bd-d5ee-4576-8301-5b2d383a6303",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:00:27.149686Z",
+    "latency_seconds": 18.950423749978654,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语中时间表达的常用方式，包括数字时间、分钟表达及时段用法，如'halb acht'（差一刻八点）和'am Morgen'（早上）。",
+      "keywords": [
+        "时间表达",
+        "德语",
+        "语法",
+        "分钟",
+        "时段"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.214,
+      "metrics": {
+        "input_chars": 1198.0,
+        "input_lines": 91.0,
+        "summary_chars": 66.0,
+        "summary_coverage_ratio": 0.055,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 71.9
+      }
+    }
   }
 }

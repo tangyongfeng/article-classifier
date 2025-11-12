@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "91e30729-2547-4370-8a2f-5cd54c0e6957",
+      "note_id": "0aa1fe3c-ab5f-49a0-a455-a430462831ed",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "红旗轿车因品质低劣、刹车故障频发导致外交事故，技术落后于1981年停产，反映中国早期汽车工业的局限性。",
+        "keywords": [
+          "红旗轿车",
+          "质量问题",
+          "外交事故",
+          "刹车故障",
+          "停产"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:28:38.696446Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.27
+    }
+  ],
   "journal": {
     "id": "353b1238-3a8c-466a-905c-50e8b66b5ab2",
     "note_id": "0aa1fe3c-ab5f-49a0-a455-a430462831ed",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:28:38.696250Z",
+    "latency_seconds": 15.589782707975246,
+    "attempts": 1,
+    "summary": {
+      "summary": "红旗轿车因品质低劣、刹车故障频发导致外交事故，技术落后于1981年停产，反映中国早期汽车工业的局限性。",
+      "keywords": [
+        "红旗轿车",
+        "质量问题",
+        "外交事故",
+        "刹车故障",
+        "停产"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.27,
+      "metrics": {
+        "input_chars": 1076.0,
+        "input_lines": 15.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.047,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 64.6
+      }
+    }
   }
 }

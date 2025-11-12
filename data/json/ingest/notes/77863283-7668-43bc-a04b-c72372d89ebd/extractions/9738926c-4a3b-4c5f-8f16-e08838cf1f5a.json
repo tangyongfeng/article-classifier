@@ -1,0 +1,29 @@
+{
+  "id": "9738926c-4a3b-4c5f-8f16-e08838cf1f5a",
+  "note_id": "77863283-7668-43bc-a04b-c72372d89ebd",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "总结德语名词词性记忆技巧，基于自然性别、词尾规律（如-er阳性、-schaft阴性、-chen中性）及例外情况。",
+    "keywords": [
+      "德语词性",
+      "名词词性",
+      "语法规律",
+      "词尾规则",
+      "例外情况"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:49:51.481293Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.138
+}

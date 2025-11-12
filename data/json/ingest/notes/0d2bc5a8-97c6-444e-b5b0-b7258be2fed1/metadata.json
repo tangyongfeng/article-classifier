@@ -72,7 +72,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d1e01d7e-8f59-4d36-9af8-f1c3157fabb8",
+      "note_id": "0d2bc5a8-97c6-444e-b5b0-b7258be2fed1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "糖尿病是胰岛素不足导致的代谢疾病，分1型、2型及妊娠期，症状包括三多一少，诊断基于血糖值标准。",
+        "keywords": [
+          "糖尿病",
+          "胰岛素",
+          "血糖",
+          "1型",
+          "诊断标准"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "健康",
+          "疾病",
+          "糖尿病"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:50:07.148701Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.404
+    }
+  ],
   "journal": {
     "id": "165abe43-a1cd-4620-92d4-10696503fe01",
     "note_id": "0d2bc5a8-97c6-444e-b5b0-b7258be2fed1",
@@ -95,5 +127,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:50:07.148534Z",
+    "latency_seconds": 28.792236499954015,
+    "attempts": 2,
+    "summary": {
+      "summary": "糖尿病是胰岛素不足导致的代谢疾病，分1型、2型及妊娠期，症状包括三多一少，诊断基于血糖值标准。",
+      "keywords": [
+        "糖尿病",
+        "胰岛素",
+        "血糖",
+        "1型",
+        "诊断标准"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "健康",
+        "疾病",
+        "糖尿病"
+      ]
+    },
+    "quality": {
+      "score": 0.404,
+      "metrics": {
+        "input_chars": 639.0,
+        "input_lines": 35.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.074,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 38.3
+      }
+    }
   }
 }

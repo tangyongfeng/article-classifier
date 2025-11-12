@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4ff09893-e444-4f09-b585-60da44ace81d",
+      "note_id": "9bcc8f75-db90-4461-994d-740f0b7191bd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "《周易》蒙卦卦辞及爻辞解析，阐述启蒙教育与处世之道。",
+        "keywords": [
+          "蒙卦",
+          "周易",
+          "启蒙",
+          "爻辞",
+          "易经"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:45:26.568628Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.172
+    }
+  ],
   "journal": {
     "id": "ae641ad5-db89-4fec-aeb8-7150789b6d1d",
     "note_id": "9bcc8f75-db90-4461-994d-740f0b7191bd",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:45:26.568443Z",
+    "latency_seconds": 21.48077037499752,
+    "attempts": 1,
+    "summary": {
+      "summary": "《周易》蒙卦卦辞及爻辞解析，阐述启蒙教育与处世之道。",
+      "keywords": [
+        "蒙卦",
+        "周易",
+        "启蒙",
+        "爻辞",
+        "易经"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.172,
+      "metrics": {
+        "input_chars": 285.0,
+        "input_lines": 23.0,
+        "summary_chars": 26.0,
+        "summary_coverage_ratio": 0.091,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.1
+      }
+    }
   }
 }

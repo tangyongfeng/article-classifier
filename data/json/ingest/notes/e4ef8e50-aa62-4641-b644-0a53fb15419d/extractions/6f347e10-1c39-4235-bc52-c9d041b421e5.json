@@ -1,0 +1,30 @@
+{
+  "id": "6f347e10-1c39-4235-bc52-c9d041b421e5",
+  "note_id": "e4ef8e50-aa62-4641-b644-0a53fb15419d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "记录大头菜在周一上午的买入价格，分别为103元和96元。",
+    "keywords": [
+      "大头菜",
+      "价格",
+      "买入",
+      "周一",
+      "上午"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": [
+      "Finance",
+      "Consumer Prices"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:17:16.173367Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.496
+}

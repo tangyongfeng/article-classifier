@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ef14695c-f44f-4250-9e8e-5829e8f0e822",
+      "note_id": "ba5165fb-40ed-4610-a82c-f1afad36b773",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供Office 2019的下载链接、账号密码及安装激活步骤指南。",
+        "keywords": [
+          "Office 2019",
+          "安装",
+          "激活",
+          "账号密码",
+          "下载地址"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "商务",
+          "办公软件"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:06:23.926913Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.352
+    }
+  ],
   "journal": {
     "id": "3d926d23-99c3-42d8-bda3-0d19146574f0",
     "note_id": "ba5165fb-40ed-4610-a82c-f1afad36b773",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:06:23.926779Z",
+    "latency_seconds": 38.734531458001584,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供Office 2019的下载链接、账号密码及安装激活步骤指南。",
+      "keywords": [
+        "Office 2019",
+        "安装",
+        "激活",
+        "账号密码",
+        "下载地址"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "商务",
+        "办公软件"
+      ]
+    },
+    "quality": {
+      "score": 0.352,
+      "metrics": {
+        "input_chars": 366.0,
+        "input_lines": 11.0,
+        "summary_chars": 33.0,
+        "summary_coverage_ratio": 0.09,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 22.0
+      }
+    }
   }
 }

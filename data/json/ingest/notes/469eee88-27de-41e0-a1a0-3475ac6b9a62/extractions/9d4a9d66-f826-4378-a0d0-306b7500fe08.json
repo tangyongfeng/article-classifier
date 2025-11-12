@@ -1,0 +1,28 @@
+{
+  "id": "9d4a9d66-f826-4378-a0d0-306b7500fe08",
+  "note_id": "469eee88-27de-41e0-a1a0-3475ac6b9a62",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "古诗描述了青年时期的凌云壮志与岁月蹉跎后的名利无收，抒发了对人生理想的深刻感慨。",
+    "keywords": [
+      "古诗",
+      "中国历史",
+      "志向",
+      "蹉跎",
+      "名利"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:13:07.162752Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.424
+}

@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8a2af2e4-9a79-4243-97b1-4d51feaa3b66",
+      "note_id": "17ec5e3f-13c0-4fb8-9018-254fc9284da0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分享德国境内零花钱兼职机会，包括送报、医学测试、车票检查等，适合德语要求低的群体，可轻松增加生活收入。",
+        "keywords": [
+          "德国",
+          "兼职",
+          "零花钱",
+          "生活规划",
+          "工作机会"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:34:09.466000Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.207
+    }
+  ],
   "journal": {
     "id": "a04f5a27-8428-4073-900a-cf58d795f942",
     "note_id": "17ec5e3f-13c0-4fb8-9018-254fc9284da0",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:34:09.465807Z",
+    "latency_seconds": 35.05071508302353,
+    "attempts": 1,
+    "summary": {
+      "summary": "分享德国境内零花钱兼职机会，包括送报、医学测试、车票检查等，适合德语要求低的群体，可轻松增加生活收入。",
+      "keywords": [
+        "德国",
+        "兼职",
+        "零花钱",
+        "生活规划",
+        "工作机会"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.207,
+      "metrics": {
+        "input_chars": 1273.0,
+        "input_lines": 44.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.04,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 76.4
+      }
+    }
   }
 }

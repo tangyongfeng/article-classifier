@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2c35b927-c04d-409f-a561-238319a45924",
+      "note_id": "6874504a-4fa1-4a5e-bf60-186b424f8231",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "无标题笔记，目标语言为英语，无具体内容，需归类至未分类。分类路径为Unclassified。",
+        "keywords": [
+          "无标题",
+          "笔记",
+          "英语",
+          "未分类",
+          "待处理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:32:30.246337Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.394
+    }
+  ],
   "journal": {
     "id": "da06a19a-cb0d-4cb1-982a-186c5c5a1828",
     "note_id": "6874504a-4fa1-4a5e-bf60-186b424f8231",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:32:30.246183Z",
+    "latency_seconds": 25.715814832947217,
+    "attempts": 1,
+    "summary": {
+      "summary": "无标题笔记，目标语言为英语，无具体内容，需归类至未分类。分类路径为Unclassified。",
+      "keywords": [
+        "无标题",
+        "笔记",
+        "英语",
+        "未分类",
+        "待处理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.394,
+      "metrics": {
+        "input_chars": 111.0,
+        "input_lines": 6.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.414,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 6.7
+      }
+    }
   }
 }

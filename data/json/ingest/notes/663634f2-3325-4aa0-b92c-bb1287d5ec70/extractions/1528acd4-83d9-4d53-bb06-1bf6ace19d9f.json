@@ -1,0 +1,31 @@
+{
+  "id": "1528acd4-83d9-4d53-bb06-1bf6ace19d9f",
+  "note_id": "663634f2-3325-4aa0-b92c-bb1287d5ec70",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "医院挂号系统中查询未处理挂号、患者信息管理及诊疗单据提交的流程。",
+    "keywords": [
+      "挂号系统",
+      "患者管理",
+      "诊疗流程",
+      "医院管理",
+      "单据提交"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Healthcare",
+      "Hospital Management",
+      "Registration"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:23:22.185712Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.142
+}

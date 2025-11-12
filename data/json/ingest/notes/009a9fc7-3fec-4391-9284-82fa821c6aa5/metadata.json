@@ -67,7 +67,62 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8c1a6e79-6cf7-4d6a-a97d-e16a8ff910d1",
+      "note_id": "009a9fc7-3fec-4391-9284-82fa821c6aa5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "用户咨询Google涂鸦创意提交方式，团队通过doodleproposals@google.com接收建议，每日处理大量邮件。",
+        "keywords": [
+          "Google涂鸦",
+          "创意提交",
+          "用户建议",
+          "Doodle提案",
+          "邮箱地址"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:29:44.182401Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.244
+    },
+    {
+      "id": "a3ec7ec1-0d2a-4fea-a0a8-252f76d15924",
+      "note_id": "009a9fc7-3fec-4391-9284-82fa821c6aa5",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: Google涂鸦 updated: 2021-02-06 22:06:30Z created: 2021-02-06 22:06:13Z ",
+        "keywords": [
+          "---",
+          "title: Google涂鸦",
+          "updated: 2021-02-06 22:06:30Z",
+          "created: 2021-02-06 22:06:13Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 2,
+      "created_at": "2025-11-11T13:37:51.149377Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.206
+    }
+  ],
   "journal": {
     "id": "6c9f9f4c-7659-4bbd-899f-831e65b3b7df",
     "note_id": "009a9fc7-3fec-4391-9284-82fa821c6aa5",
@@ -90,5 +145,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T13:37:51.149220Z",
+    "latency_seconds": 33.88802895799745,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: Google涂鸦 updated: 2021-02-06 22:06:30Z created: 2021-02-06 22:06:13Z ",
+      "keywords": [
+        "---",
+        "title: Google涂鸦",
+        "updated: 2021-02-06 22:06:30Z",
+        "created: 2021-02-06 22:06:13Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.206,
+      "metrics": {
+        "input_chars": 268.0,
+        "input_lines": 10.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.295,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.1
+      }
+    }
   }
 }

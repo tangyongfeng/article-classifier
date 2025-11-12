@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "29a93027-3ead-4714-9529-f0c6fb1c4190",
+      "note_id": "f0c9a172-fb45-4fdb-8f45-770d98d689ec",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "2013年9月逆回购交易记录，包含品种、利率、数量、金额及到期收益数据，用于短期金融资金操作分析。",
+        "keywords": [
+          "逆回购",
+          "金融",
+          "利率",
+          "交易",
+          "收益"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:13:22.602643Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.283
+    }
+  ],
   "journal": {
     "id": "ff1abf70-b7af-4e60-9cee-1201859dcfaf",
     "note_id": "f0c9a172-fb45-4fdb-8f45-770d98d689ec",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:13:22.602462Z",
+    "latency_seconds": 41.38812766701449,
+    "attempts": 1,
+    "summary": {
+      "summary": "2013年9月逆回购交易记录，包含品种、利率、数量、金额及到期收益数据，用于短期金融资金操作分析。",
+      "keywords": [
+        "逆回购",
+        "金融",
+        "利率",
+        "交易",
+        "收益"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.283,
+      "metrics": {
+        "input_chars": 680.0,
+        "input_lines": 90.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.072,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 40.8
+      }
+    }
   }
 }

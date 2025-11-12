@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a92b2070-8f58-4bf0-8433-4068ceb7ff37",
+      "note_id": "180a2b81-f7a0-401d-a047-112b89de6cb7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "k600为产品型号，现有分类中无匹配类别，建议新增技术产品分类",
+        "keywords": [
+          "k600",
+          "产品型号",
+          "技术分类",
+          "设备",
+          "型号"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "Product Models"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:36:44.144677Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.309
+    }
+  ],
   "journal": {
     "id": "b3b8d907-7929-436e-89d9-12002369a3e7",
     "note_id": "180a2b81-f7a0-401d-a047-112b89de6cb7",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:36:44.144538Z",
+    "latency_seconds": 40.00364512496162,
+    "attempts": 1,
+    "summary": {
+      "summary": "k600为产品型号，现有分类中无匹配类别，建议新增技术产品分类",
+      "keywords": [
+        "k600",
+        "产品型号",
+        "技术分类",
+        "设备",
+        "型号"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "Product Models"
+      ]
+    },
+    "quality": {
+      "score": 0.309,
+      "metrics": {
+        "input_chars": 85.0,
+        "input_lines": 6.0,
+        "summary_chars": 31.0,
+        "summary_coverage_ratio": 0.365,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.1
+      }
+    }
   }
 }

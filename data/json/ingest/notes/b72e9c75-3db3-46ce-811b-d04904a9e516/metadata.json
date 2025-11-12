@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7f98f558-ec16-4f19-98e8-af6435f139f5",
+      "note_id": "b72e9c75-3db3-46ce-811b-d04904a9e516",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "关于系统或账户登录验证的口令说明，涉及密码安全与使用方法。",
+        "keywords": [
+          "口令",
+          "密码",
+          "安全",
+          "系统",
+          "验证"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "Security",
+          "Password Management"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:45:29.272918Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.249
+    }
+  ],
   "journal": {
     "id": "d54b789b-8965-416b-8512-b94b8bb3dd8a",
     "note_id": "b72e9c75-3db3-46ce-811b-d04904a9e516",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:45:29.272769Z",
+    "latency_seconds": 37.26088812504895,
+    "attempts": 1,
+    "summary": {
+      "summary": "关于系统或账户登录验证的口令说明，涉及密码安全与使用方法。",
+      "keywords": [
+        "口令",
+        "密码",
+        "安全",
+        "系统",
+        "验证"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "Security",
+        "Password Management"
+      ]
+    },
+    "quality": {
+      "score": 0.249,
+      "metrics": {
+        "input_chars": 119.0,
+        "input_lines": 7.0,
+        "summary_chars": 29.0,
+        "summary_coverage_ratio": 0.244,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.1
+      }
+    }
   }
 }

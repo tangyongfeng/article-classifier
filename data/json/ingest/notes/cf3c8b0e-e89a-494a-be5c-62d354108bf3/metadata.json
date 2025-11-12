@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "286ed05f-8e0e-42a2-8de1-f51f9a4b8b41",
+      "note_id": "cf3c8b0e-e89a-494a-be5c-62d354108bf3",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 大牛V课堂丨腾讯最赚钱的部门是怎么做运维的？ updated: 2015-07-14 14:35:47Z created: 2015-07",
+        "keywords": [
+          "---",
+          "title: 大牛V课堂丨腾讯最赚钱的部门是怎么做运维的？",
+          "updated: 2015-07-14 14:35:47Z",
+          "created: 2015-07-14 14:35:47Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:21:51.093540Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "a856ce47-708d-40aa-98b6-698dea6d15a2",
     "note_id": "cf3c8b0e-e89a-494a-be5c-62d354108bf3",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T07:21:51.093222Z",
+    "latency_seconds": 36.21342779090628,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 大牛V课堂丨腾讯最赚钱的部门是怎么做运维的？ updated: 2015-07-14 14:35:47Z created: 2015-07",
+      "keywords": [
+        "---",
+        "title: 大牛V课堂丨腾讯最赚钱的部门是怎么做运维的？",
+        "updated: 2015-07-14 14:35:47Z",
+        "created: 2015-07-14 14:35:47Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 6064.0,
+        "input_lines": 111.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 363.8
+      }
+    }
   }
 }

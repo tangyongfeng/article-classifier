@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "0dcfde6d-39ca-478e-926c-6b89c7746ef8",
+      "note_id": "5cc86931-9213-44a6-a462-acb667255690",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记记录了旅行中的位置快照，包含纬度、经度和海拔数据，用于地理参考。",
+        "keywords": [
+          "快照",
+          "地理位置",
+          "旅行",
+          "经纬度",
+          "海拔"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:33:45.570663Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.253
+    }
+  ],
   "journal": {
     "id": "0c275f73-5cf5-4d20-b1db-444071ee8412",
     "note_id": "5cc86931-9213-44a6-a462-acb667255690",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:33:45.570494Z",
+    "latency_seconds": 45.24964712501969,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记记录了旅行中的位置快照，包含纬度、经度和海拔数据，用于地理参考。",
+      "keywords": [
+        "快照",
+        "地理位置",
+        "旅行",
+        "经纬度",
+        "海拔"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.253,
+      "metrics": {
+        "input_chars": 139.0,
+        "input_lines": 8.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.252,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.3
+      }
+    }
   }
 }

@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ce153cb0-edd4-4802-ae2d-2aa3ab6cc33d",
+      "note_id": "96c6b11f-40bb-4aa1-9c0d-5eeef9291ed8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语形容词词尾变化的全面总结，涵盖各种变化规则和用法。",
+        "keywords": [
+          "德语",
+          "形容词",
+          "词尾",
+          "语法",
+          "变化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "形容词词尾"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:20:18.095171Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.248
+    }
+  ],
   "journal": {
     "id": "e2682be1-38a9-42b9-9483-0cea87292647",
     "note_id": "96c6b11f-40bb-4aa1-9c0d-5eeef9291ed8",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:20:18.094942Z",
+    "latency_seconds": 15.068656750023365,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语形容词词尾变化的全面总结，涵盖各种变化规则和用法。",
+      "keywords": [
+        "德语",
+        "形容词",
+        "词尾",
+        "语法",
+        "变化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "形容词词尾"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.248,
+      "metrics": {
+        "input_chars": 111.0,
+        "input_lines": 6.0,
+        "summary_chars": 27.0,
+        "summary_coverage_ratio": 0.243,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.7
+      }
+    }
   }
 }

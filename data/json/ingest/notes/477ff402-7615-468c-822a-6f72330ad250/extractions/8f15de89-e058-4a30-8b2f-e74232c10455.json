@@ -1,0 +1,28 @@
+{
+  "id": "8f15de89-e058-4a30-8b2f-e74232c10455",
+  "note_id": "477ff402-7615-468c-822a-6f72330ad250",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Papers With Code网站提供机器学习领域最新论文、代码及任务排行榜，涵盖计算机视觉、自然语言处理、语音识别等多类任务，支持研究与开发。",
+    "keywords": [
+      "机器学习",
+      "状态领先",
+      "论文代码",
+      "任务排行榜",
+      "计算机视觉"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:21:29.351699Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.07
+}

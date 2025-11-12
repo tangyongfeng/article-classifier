@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "338152bf-6707-4799-a274-fc47dace3655",
+      "note_id": "5ab564f4-c65b-419f-8841-9c52990f7b52",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 量化资源 updated: 2021-12-18 12:54:52Z created: 2021-12-18 12:54:00Z --- ",
+        "keywords": [
+          "---",
+          "title: 量化资源",
+          "updated: 2021-12-18 12:54:52Z",
+          "created: 2021-12-18 12:54:00Z",
+          "量化交易平台"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:25:26.266335Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "927d804b-70fd-49f8-84cf-af23d3914e14",
     "note_id": "5ab564f4-c65b-419f-8841-9c52990f7b52",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T21:25:26.265307Z",
+    "latency_seconds": 15.138175125000998,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 量化资源 updated: 2021-12-18 12:54:52Z created: 2021-12-18 12:54:00Z --- ",
+      "keywords": [
+        "---",
+        "title: 量化资源",
+        "updated: 2021-12-18 12:54:52Z",
+        "created: 2021-12-18 12:54:00Z",
+        "量化交易平台"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 13362.0,
+        "input_lines": 489.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.006,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 801.7
+      }
+    }
   }
 }

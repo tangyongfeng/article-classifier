@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3d2b8eec-484a-4a3b-9951-70423340e3cf",
+      "note_id": "a74816d1-c342-4dde-a151-c88164a36f88",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 美国大学生如何看待12大社交网络 updated: 2018-01-16 14:57:08Z created: 2018-01-16 14",
+        "keywords": [
+          "---",
+          "title: 美国大学生如何看待12大社交网络",
+          "updated: 2018-01-16 14:57:08Z",
+          "created: 2018-01-16 14:56:01Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:37:33.238335Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "9e67eaae-1c8e-469d-aec1-cc97d22b055e",
     "note_id": "a74816d1-c342-4dde-a151-c88164a36f88",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T03:37:33.238007Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 美国大学生如何看待12大社交网络 updated: 2018-01-16 14:57:08Z created: 2018-01-16 14",
+      "keywords": [
+        "---",
+        "title: 美国大学生如何看待12大社交网络",
+        "updated: 2018-01-16 14:57:08Z",
+        "created: 2018-01-16 14:56:01Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 5632.0,
+        "input_lines": 81.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.014,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 337.9
+      }
+    }
   }
 }

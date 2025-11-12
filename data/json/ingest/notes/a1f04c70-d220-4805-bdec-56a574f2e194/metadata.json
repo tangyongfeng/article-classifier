@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bd964300-b2bf-440d-8576-ecf394aabdbc",
+      "note_id": "a1f04c70-d220-4805-bdec-56a574f2e194",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分析可转债历史数据，涵盖发行规模、交易价格、收益率及强赎率等指标，截至2021年3月，平均收益率40.57%，强赎率94.22%。",
+        "keywords": [
+          "可转债",
+          "历史数据分析",
+          "收益率",
+          "强赎率",
+          "交易周期"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:20:08.892133Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.407
+    }
+  ],
   "journal": {
     "id": "d787d3e0-6520-47d1-aaf6-e0462d8375e0",
     "note_id": "a1f04c70-d220-4805-bdec-56a574f2e194",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:20:08.891871Z",
+    "latency_seconds": 21.330762291909195,
+    "attempts": 1,
+    "summary": {
+      "summary": "分析可转债历史数据，涵盖发行规模、交易价格、收益率及强赎率等指标，截至2021年3月，平均收益率40.57%，强赎率94.22%。",
+      "keywords": [
+        "可转债",
+        "历史数据分析",
+        "收益率",
+        "强赎率",
+        "交易周期"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.407,
+      "metrics": {
+        "input_chars": 798.0,
+        "input_lines": 15.0,
+        "summary_chars": 65.0,
+        "summary_coverage_ratio": 0.081,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 3.0,
+        "estimated_read_seconds": 47.9
+      }
+    }
   }
 }

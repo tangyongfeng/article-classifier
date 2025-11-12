@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "72ee04a8-db1e-4e53-ac42-bcaee191a159",
+      "note_id": "5f14d961-83f6-4508-899e-81642c8b0a71",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "对比德国FSK与美国MPAA电影分级制度，详细说明各年龄段限制标准，包括FSK 0/6/12/16/18及对应美国G/PG/PG-13/R/NC-17的年龄规定",
+        "keywords": [
+          "电影分级",
+          "FSK",
+          "年龄限制",
+          "文化政策",
+          "美国分级"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:41:02.867515Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.308
+    }
+  ],
   "journal": {
     "id": "acf4c18c-15ed-4a66-9ac0-c2210c6061c4",
     "note_id": "5f14d961-83f6-4508-899e-81642c8b0a71",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:41:02.867303Z",
+    "latency_seconds": 15.820540499989875,
+    "attempts": 2,
+    "summary": {
+      "summary": "对比德国FSK与美国MPAA电影分级制度，详细说明各年龄段限制标准，包括FSK 0/6/12/16/18及对应美国G/PG/PG-13/R/NC-17的年龄规定",
+      "keywords": [
+        "电影分级",
+        "FSK",
+        "年龄限制",
+        "文化政策",
+        "美国分级"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.308,
+      "metrics": {
+        "input_chars": 650.0,
+        "input_lines": 39.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.123,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 39.0
+      }
+    }
   }
 }

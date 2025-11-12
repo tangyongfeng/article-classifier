@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b0241ef8-0ebb-4ef6-b379-ce6dd3e8c0c3",
+      "note_id": "2ec67316-d709-4f4c-8c5f-a06a2f024620",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语数词结尾语法，展示阳性、阴性、中性词的变格形式，如eins, einen, eine, ein。",
+        "keywords": [
+          "德语",
+          "数词",
+          "结尾",
+          "语法",
+          "变格"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:19:50.530451Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.365
+    }
+  ],
   "journal": {
     "id": "577c0652-d11a-4db1-9aaf-4470995dc186",
     "note_id": "2ec67316-d709-4f4c-8c5f-a06a2f024620",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:19:50.530326Z",
+    "latency_seconds": 25.07545858307276,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语数词结尾语法，展示阳性、阴性、中性词的变格形式，如eins, einen, eine, ein。",
+      "keywords": [
+        "德语",
+        "数词",
+        "结尾",
+        "语法",
+        "变格"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.365,
+      "metrics": {
+        "input_chars": 140.0,
+        "input_lines": 13.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.357,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.4
+      }
+    }
   }
 }

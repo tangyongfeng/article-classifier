@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "911c2d98-9256-4879-8500-a377ee5e13c8",
+      "note_id": "7c555826-e5de-4e1e-bb7f-acc4ecdd1980",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "使用Python和GStreamer库实现MP4视频播放，无需OpenCV，提供代码示例并引用FFmpeg和scikit-image文档。",
+        "keywords": [
+          "Python",
+          "GStreamer",
+          "MP4",
+          "视频处理",
+          "FFmpeg"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:08:01.653197Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.273
+    }
+  ],
   "journal": {
     "id": "bc36e49f-4894-4f35-b1a9-ca42aef73909",
     "note_id": "7c555826-e5de-4e1e-bb7f-acc4ecdd1980",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:08:01.653030Z",
+    "latency_seconds": 24.828574166982435,
+    "attempts": 3,
+    "summary": {
+      "summary": "使用Python和GStreamer库实现MP4视频播放，无需OpenCV，提供代码示例并引用FFmpeg和scikit-image文档。",
+      "keywords": [
+        "Python",
+        "GStreamer",
+        "MP4",
+        "视频处理",
+        "FFmpeg"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.273,
+      "metrics": {
+        "input_chars": 1290.0,
+        "input_lines": 38.0,
+        "summary_chars": 69.0,
+        "summary_coverage_ratio": 0.053,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 77.4
+      }
+    }
   }
 }

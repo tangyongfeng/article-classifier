@@ -1,0 +1,32 @@
+{
+  "id": "91d01ff1-dfcd-4f15-80cb-4cc957acc874",
+  "note_id": "cdbe90c8-2c04-4c36-b216-e86b24483c8e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "机器学习的核心要素包括数据、模型、损失函数和优化算法；监督学习是常用方法，回归分析用于预测连续值。",
+    "keywords": [
+      "数据",
+      "模型",
+      "损失函数",
+      "优化算法",
+      "监督学习"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": [
+      "技术",
+      "人工智能",
+      "机器学习"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:15:31.690541Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.377
+}

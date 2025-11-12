@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "64ceb67c-3bc2-4ab5-abf5-1ec8d9cad58d",
+      "note_id": "728c046f-3816-40b7-825a-d081abdbb4a2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "flatex是德国在线券商，本笔记记录其IBAN账户号码DE73101308001039231375，用于股票交易服务。",
+        "keywords": [
+          "flatex",
+          "IBAN",
+          "德国",
+          "股票交易",
+          "账户"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:17:53.517457Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.515
+    }
+  ],
   "journal": {
     "id": "9365e3ec-5344-4e92-b415-18bf70c4c924",
     "note_id": "728c046f-3816-40b7-825a-d081abdbb4a2",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:17:53.517296Z",
+    "latency_seconds": 44.42697904200759,
+    "attempts": 1,
+    "summary": {
+      "summary": "flatex是德国在线券商，本笔记记录其IBAN账户号码DE73101308001039231375，用于股票交易服务。",
+      "keywords": [
+        "flatex",
+        "IBAN",
+        "德国",
+        "股票交易",
+        "账户"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.515,
+      "metrics": {
+        "input_chars": 112.0,
+        "input_lines": 6.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.536,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.7
+      }
+    }
   }
 }

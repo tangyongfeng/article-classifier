@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b7916229-cc4a-4765-a846-980943627e60",
+      "note_id": "ad111f06-ead8-4bf9-a43a-3dafc6b693b5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记推荐Dell SK 8115键盘，属于电脑外设设备，需归类至硬件相关类别。",
+        "keywords": [
+          "键盘",
+          "Dell",
+          "SK 8115",
+          "外设",
+          "硬件"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "电子设备",
+          "电脑外设"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:01:37.445695Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.403
+    }
+  ],
   "journal": {
     "id": "6d52ccd6-5983-40a8-93e1-981edea0767b",
     "note_id": "ad111f06-ead8-4bf9-a43a-3dafc6b693b5",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:01:37.445531Z",
+    "latency_seconds": 34.81388083298225,
+    "attempts": 2,
+    "summary": {
+      "summary": "笔记推荐Dell SK 8115键盘，属于电脑外设设备，需归类至硬件相关类别。",
+      "keywords": [
+        "键盘",
+        "Dell",
+        "SK 8115",
+        "外设",
+        "硬件"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "电子设备",
+        "电脑外设"
+      ]
+    },
+    "quality": {
+      "score": 0.403,
+      "metrics": {
+        "input_chars": 125.0,
+        "input_lines": 7.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.312,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.5
+      }
+    }
   }
 }

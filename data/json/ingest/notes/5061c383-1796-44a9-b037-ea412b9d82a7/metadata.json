@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d7f2c954-4c9c-4305-b5d5-2718c70ebfb6",
+      "note_id": "5061c383-1796-44a9-b037-ea412b9d82a7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "诊疗内容涵盖处方开具、静脉滴注、肌肉注射、器械治疗及监测单据等医疗操作流程，包含药品名录、计量、时间等详细信息。",
+        "keywords": [
+          "处方",
+          "静脉滴注",
+          "肌肉注射",
+          "器械治疗",
+          "监测单据"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "医疗",
+          "诊疗操作",
+          "医疗单据"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:26:53.735012Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.468
+    }
+  ],
   "journal": {
     "id": "10a375b0-bb5e-4475-a7a5-f0898bf79ce1",
     "note_id": "5061c383-1796-44a9-b037-ea412b9d82a7",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:26:53.734842Z",
+    "latency_seconds": 30.988555583986454,
+    "attempts": 2,
+    "summary": {
+      "summary": "诊疗内容涵盖处方开具、静脉滴注、肌肉注射、器械治疗及监测单据等医疗操作流程，包含药品名录、计量、时间等详细信息。",
+      "keywords": [
+        "处方",
+        "静脉滴注",
+        "肌肉注射",
+        "器械治疗",
+        "监测单据"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "医疗",
+        "诊疗操作",
+        "医疗单据"
+      ]
+    },
+    "quality": {
+      "score": 0.468,
+      "metrics": {
+        "input_chars": 276.0,
+        "input_lines": 12.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.203,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.6
+      }
+    }
   }
 }

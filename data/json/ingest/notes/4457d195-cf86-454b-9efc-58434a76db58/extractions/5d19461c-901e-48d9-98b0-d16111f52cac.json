@@ -1,0 +1,27 @@
+{
+  "id": "5d19461c-901e-48d9-98b0-d16111f52cac",
+  "note_id": "4457d195-cf86-454b-9efc-58434a76db58",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "指导零基础学习者通过学习Python、数据结构与算法及完成Leetcode题评估是否适合转码编程。",
+    "keywords": [
+      "零基础",
+      "转码",
+      "Python",
+      "算法",
+      "Leetcode"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:45:55.389094Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.436
+}

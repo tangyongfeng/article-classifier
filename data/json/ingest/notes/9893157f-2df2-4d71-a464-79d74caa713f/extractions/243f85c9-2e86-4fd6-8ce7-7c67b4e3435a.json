@@ -1,0 +1,30 @@
+{
+  "id": "243f85c9-2e86-4fd6-8ce7-7c67b4e3435a",
+  "note_id": "9893157f-2df2-4d71-a464-79d74caa713f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "药品、治疗、设备、设施及服务的分类目录，用于明确各类医疗资源的适用人群。",
+    "keywords": [
+      "药品目录",
+      "治疗目录",
+      "设备目录",
+      "设施目录",
+      "服务分类"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Healthcare",
+      "Medical Resources"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:27:29.003142Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.454
+}

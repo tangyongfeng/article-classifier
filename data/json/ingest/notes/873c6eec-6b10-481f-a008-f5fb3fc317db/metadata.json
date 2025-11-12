@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1078f99c-5578-4815-aaa0-db5943347901",
+      "note_id": "873c6eec-6b10-481f-a008-f5fb3fc317db",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "博客分享编译开源GSM协议栈osmocomBB的详细步骤，涵盖环境配置、依赖安装及编译流程。",
+        "keywords": [
+          "osmocomBB",
+          "编译",
+          "GSM协议",
+          "开源",
+          "环境配置"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:17:47.905067Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.319
+    }
+  ],
   "journal": {
     "id": "845b0787-3642-4eef-ada2-db3b147d481d",
     "note_id": "873c6eec-6b10-481f-a008-f5fb3fc317db",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:17:47.904917Z",
+    "latency_seconds": 33.039143958943896,
+    "attempts": 1,
+    "summary": {
+      "summary": "博客分享编译开源GSM协议栈osmocomBB的详细步骤，涵盖环境配置、依赖安装及编译流程。",
+      "keywords": [
+        "osmocomBB",
+        "编译",
+        "GSM协议",
+        "开源",
+        "环境配置"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.319,
+      "metrics": {
+        "input_chars": 1820.0,
+        "input_lines": 74.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.025,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 109.2
+      }
+    }
   }
 }

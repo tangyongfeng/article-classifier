@@ -1,0 +1,28 @@
+{
+  "id": "112083fc-dcc1-4407-9abd-cd997756a789",
+  "note_id": "6f421854-5aca-415a-9770-2a0e79987e91",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "屯卦为《易经》首卦，象征万物初生，上水下雷，生机萌发但需正固守持，体现初创阶段的艰难与机遇。",
+    "keywords": [
+      "屯卦",
+      "易经",
+      "中国历史",
+      "初创阶段",
+      "上水下雷"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:03:51.342665Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.225
+}

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "93d2928f-1463-4824-aa8d-ec371c83b685",
+      "note_id": "cdd4c096-69aa-46b3-ae60-68e326770136",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "2009年发行的银基债，发行日2009/11/6，上市日2009/11/20，兑付日2015/11/6，票面利率8%。",
+        "keywords": [
+          "银基债",
+          "发行日期",
+          "上市日期",
+          "兑付日期",
+          "票面利率"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:15:56.645842Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.565
+    }
+  ],
   "journal": {
     "id": "69764bb6-a91e-4a6f-a79d-6535fcda960d",
     "note_id": "cdd4c096-69aa-46b3-ae60-68e326770136",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:15:56.645665Z",
+    "latency_seconds": 24.95119212497957,
+    "attempts": 1,
+    "summary": {
+      "summary": "2009年发行的银基债，发行日2009/11/6，上市日2009/11/20，兑付日2015/11/6，票面利率8%。",
+      "keywords": [
+        "银基债",
+        "发行日期",
+        "上市日期",
+        "兑付日期",
+        "票面利率"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.565,
+      "metrics": {
+        "input_chars": 149.0,
+        "input_lines": 9.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.396,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.9
+      }
+    }
   }
 }

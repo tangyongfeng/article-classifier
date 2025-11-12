@@ -1,0 +1,31 @@
+{
+  "id": "c860126a-e45c-4a3f-a1ae-d7d2eaaff0f4",
+  "note_id": "678c3e2c-320f-48bc-91f8-4eb7c903444d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Odoo软件配置流程，包括发票设置、税率配置及银行账户建立。",
+    "keywords": [
+      "Odoo",
+      "配置",
+      "发票",
+      "税率",
+      "银行"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": [
+      "商务",
+      "软件配置",
+      "Odoo"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:25:31.300793Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.463
+}

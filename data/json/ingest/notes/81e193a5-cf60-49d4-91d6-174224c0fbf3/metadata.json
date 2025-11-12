@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fac7e6e7-f399-4a22-bb89-a966f311e45d",
+      "note_id": "81e193a5-cf60-49d4-91d6-174224c0fbf3",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: MySQL最常用分组聚合函数 updated: 2022-09-09 12:26:51Z created: 2022-08-21 15:1",
+        "keywords": [
+          "---",
+          "title: MySQL最常用分组聚合函数",
+          "updated: 2022-09-09 12:26:51Z",
+          "created: 2022-08-21 15:17:51Z",
+          "author: tangyongfeng"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:49:36.195539Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "ee3113ac-848a-4318-9aca-de7f33b6ad25",
     "note_id": "81e193a5-cf60-49d4-91d6-174224c0fbf3",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T00:49:36.194976Z",
+    "latency_seconds": 24.59569166705478,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: MySQL最常用分组聚合函数 updated: 2022-09-09 12:26:51Z created: 2022-08-21 15:1",
+      "keywords": [
+        "---",
+        "title: MySQL最常用分组聚合函数",
+        "updated: 2022-09-09 12:26:51Z",
+        "created: 2022-08-21 15:17:51Z",
+        "author: tangyongfeng"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 10153.0,
+        "input_lines": 1023.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.008,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 609.2
+      }
+    }
   }
 }

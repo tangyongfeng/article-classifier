@@ -1,0 +1,27 @@
+{
+  "id": "c789c7ff-33ef-4cba-8530-2646d190201a",
+  "note_id": "a7c8c002-9be2-452f-a58d-500a3d1e1e07",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "《佛说马有三相经》阐述善马三相（自能走、有力、端正好色）及善人三相（得意能走、得力、有色端正），体现佛教道德修养观。",
+    "keywords": [
+      "佛教",
+      "经文",
+      "善马",
+      "三相",
+      "道德"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:39:21.657603Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.249
+}

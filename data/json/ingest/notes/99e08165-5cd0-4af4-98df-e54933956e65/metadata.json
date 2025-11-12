@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bf819403-7464-4ac6-9f3b-0a81813d8468",
+      "note_id": "99e08165-5cd0-4af4-98df-e54933956e65",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "近期工作聚焦金融数据分析，完成双低策略模型、可转债信息表及公司信息整理，验证股票价格预测模型，同步更新股票公告与管理层数据。",
+        "keywords": [
+          "双低策略",
+          "可转债",
+          "股票分析",
+          "公司信息",
+          "海龟交易法"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:30:44.547637Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.388
+    }
+  ],
   "journal": {
     "id": "b7ff2c50-69f5-4343-9b47-aa3507156f25",
     "note_id": "99e08165-5cd0-4af4-98df-e54933956e65",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:30:44.547382Z",
+    "latency_seconds": 10.487289750017226,
+    "attempts": 1,
+    "summary": {
+      "summary": "近期工作聚焦金融数据分析，完成双低策略模型、可转债信息表及公司信息整理，验证股票价格预测模型，同步更新股票公告与管理层数据。",
+      "keywords": [
+        "双低策略",
+        "可转债",
+        "股票分析",
+        "公司信息",
+        "海龟交易法"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.388,
+      "metrics": {
+        "input_chars": 383.0,
+        "input_lines": 25.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.162,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.0
+      }
+    }
   }
 }

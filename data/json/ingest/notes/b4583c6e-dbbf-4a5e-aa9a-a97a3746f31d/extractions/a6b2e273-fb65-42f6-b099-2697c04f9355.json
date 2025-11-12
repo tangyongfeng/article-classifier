@@ -1,0 +1,28 @@
+{
+  "id": "a6b2e273-fb65-42f6-b099-2697c04f9355",
+  "note_id": "b4583c6e-dbbf-4a5e-aa9a-a97a3746f31d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本笔记针对代理意见文档的修改建议，旨在优化商务合作中的协议表述与沟通效率。",
+    "keywords": [
+      "代理",
+      "意见",
+      "修改",
+      "建议",
+      "合作"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:37:18.592250Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.524
+}

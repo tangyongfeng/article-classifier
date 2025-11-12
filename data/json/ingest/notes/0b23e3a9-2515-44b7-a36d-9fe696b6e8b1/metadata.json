@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ffacb10f-3166-44cf-b5b9-33b4d4164d85",
+      "note_id": "0b23e3a9-2515-44b7-a36d-9fe696b6e8b1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "区块链游戏加密猫（CryptoKitties）作为基于以太坊的创新应用，实现用户完全拥有虚拟猫资产，推动区块链走向主流，引发网络拥堵与行业反思。",
+        "keywords": [
+          "区块链",
+          "游戏",
+          "以太坊",
+          "虚拟资产",
+          "技术创新"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新",
+          "区块链应用"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:29:13.505650Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.318
+    }
+  ],
   "journal": {
     "id": "840a9655-c02f-427b-b4f6-b6d7bdff5656",
     "note_id": "0b23e3a9-2515-44b7-a36d-9fe696b6e8b1",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:29:13.505451Z",
+    "latency_seconds": 15.77412512502633,
+    "attempts": 1,
+    "summary": {
+      "summary": "区块链游戏加密猫（CryptoKitties）作为基于以太坊的创新应用，实现用户完全拥有虚拟猫资产，推动区块链走向主流，引发网络拥堵与行业反思。",
+      "keywords": [
+        "区块链",
+        "游戏",
+        "以太坊",
+        "虚拟资产",
+        "技术创新"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新",
+        "区块链应用"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.318,
+      "metrics": {
+        "input_chars": 3247.0,
+        "input_lines": 36.0,
+        "summary_chars": 72.0,
+        "summary_coverage_ratio": 0.022,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 194.8
+      }
+    }
   }
 }

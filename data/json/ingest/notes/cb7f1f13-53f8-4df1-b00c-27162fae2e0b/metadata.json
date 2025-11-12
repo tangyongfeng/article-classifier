@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "69c5aeb4-68f9-45a2-b017-509acac64811",
+      "note_id": "cb7f1f13-53f8-4df1-b00c-27162fae2e0b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国工资税等级分六级，适用人群各异；已婚人士可选三五级或四四级组合优化税负；家庭状况变化需申请变更税级。",
+        "keywords": [
+          "德国税收",
+          "工资税",
+          "税级划分",
+          "家庭税务组合",
+          "税级变更"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:03:06.659531Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.197
+    }
+  ],
   "journal": {
     "id": "d0e53e85-ca03-4798-bae1-d17104efd7b4",
     "note_id": "cb7f1f13-53f8-4df1-b00c-27162fae2e0b",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:03:06.659340Z",
+    "latency_seconds": 38.01168837491423,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国工资税等级分六级，适用人群各异；已婚人士可选三五级或四四级组合优化税负；家庭状况变化需申请变更税级。",
+      "keywords": [
+        "德国税收",
+        "工资税",
+        "税级划分",
+        "家庭税务组合",
+        "税级变更"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.197,
+      "metrics": {
+        "input_chars": 2464.0,
+        "input_lines": 54.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.021,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 147.8
+      }
+    }
   }
 }

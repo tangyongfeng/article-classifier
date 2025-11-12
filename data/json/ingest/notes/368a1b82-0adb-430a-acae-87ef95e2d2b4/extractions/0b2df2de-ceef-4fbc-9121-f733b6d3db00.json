@@ -1,0 +1,28 @@
+{
+  "id": "0b2df2de-ceef-4fbc-9121-f733b6d3db00",
+  "note_id": "368a1b82-0adb-430a-acae-87ef95e2d2b4",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "用户登录及支付操作记录，涉及账户验证与支付服务流程。",
+    "keywords": [
+      "支付",
+      "登录",
+      "账户",
+      "验证",
+      "服务"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:56:29.508739Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.312
+}

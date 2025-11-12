@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a6390961-63ca-4c71-98bc-1eba65e39fd9",
+      "note_id": "e2bff834-4e4e-4621-877c-886748e0eb60",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "维格转债因资不抵债存在违约风险，属金融领域公司分析范畴。",
+        "keywords": [
+          "转债",
+          "资不抵债",
+          "违约风险",
+          "金融分析",
+          "公司分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:08:00.324733Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.362
+    }
+  ],
   "journal": {
     "id": "3740c09c-e16a-4d99-a60b-371f23c50a12",
     "note_id": "e2bff834-4e4e-4621-877c-886748e0eb60",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:08:00.324586Z",
+    "latency_seconds": 12.988760165986605,
+    "attempts": 1,
+    "summary": {
+      "summary": "维格转债因资不抵债存在违约风险，属金融领域公司分析范畴。",
+      "keywords": [
+        "转债",
+        "资不抵债",
+        "违约风险",
+        "金融分析",
+        "公司分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.362,
+      "metrics": {
+        "input_chars": 122.0,
+        "input_lines": 7.0,
+        "summary_chars": 28.0,
+        "summary_coverage_ratio": 0.23,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.3
+      }
+    }
   }
 }

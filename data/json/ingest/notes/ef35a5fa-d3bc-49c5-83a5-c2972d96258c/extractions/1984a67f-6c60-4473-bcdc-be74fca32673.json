@@ -1,0 +1,29 @@
+{
+  "id": "1984a67f-6c60-4473-bcdc-be74fca32673",
+  "note_id": "ef35a5fa-d3bc-49c5-83a5-c2972d96258c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "讨论区块链存储技术的局限性、加密安全风险及与云存储的竞争优势，质疑其在量子计算时代的适用性。",
+    "keywords": [
+      "区块链存储",
+      "加密安全",
+      "量子计算",
+      "云存储",
+      "技术创新"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新",
+      "区块链应用"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:08:39.580183Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.298
+}

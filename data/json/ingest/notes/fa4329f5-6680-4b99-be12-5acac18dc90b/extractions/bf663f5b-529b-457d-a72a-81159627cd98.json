@@ -1,0 +1,27 @@
+{
+  "id": "bf663f5b-529b-457d-a72a-81159627cd98",
+  "note_id": "fa4329f5-6680-4b99-be12-5acac18dc90b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "母螃蟹55元/斤，公螃蟹35元/斤，4斤母蟹与2斤公蟹组合销售，涉及水产价格信息。",
+    "keywords": [
+      "母螃蟹",
+      "公螃蟹",
+      "价格",
+      "斤",
+      "销售"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:58:58.672470Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.403
+}

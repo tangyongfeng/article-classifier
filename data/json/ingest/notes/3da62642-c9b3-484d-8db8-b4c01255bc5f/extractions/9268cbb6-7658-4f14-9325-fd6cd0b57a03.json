@@ -1,0 +1,28 @@
+{
+  "id": "9268cbb6-7658-4f14-9325-fd6cd0b57a03",
+  "note_id": "3da62642-c9b3-484d-8db8-b4c01255bc5f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Zabbix是开源的分布式系统监控解决方案，提供WEB界面，支持SNMP、Agent等多种监视方式，适用于多平台，实现集中管理与实时报警。",
+    "keywords": [
+      "开源监控",
+      "分布式系统",
+      "WEB界面",
+      "系统监视",
+      "SNMP"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:22:20.544887Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.345
+}

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "833d842b-6a3c-4fae-b94c-ac357ed1c36c",
+      "note_id": "70392397-fd47-42dc-a928-199d58e915cc",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Facebook游戏策略包括保持在线人数、多人互动、小筹码规则、聊天功能及界面优化，以提升用户参与度和游戏留存率。",
+        "keywords": [
+          "Facebook游戏",
+          "策略",
+          "在线人数",
+          "多人互动",
+          "筹码规则"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:06:36.876361Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.323
+    }
+  ],
   "journal": {
     "id": "2d2c1f58-8cc1-4593-a3a7-a5446f049cee",
     "note_id": "70392397-fd47-42dc-a928-199d58e915cc",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:06:36.876164Z",
+    "latency_seconds": 27.54996845801361,
+    "attempts": 1,
+    "summary": {
+      "summary": "Facebook游戏策略包括保持在线人数、多人互动、小筹码规则、聊天功能及界面优化，以提升用户参与度和游戏留存率。",
+      "keywords": [
+        "Facebook游戏",
+        "策略",
+        "在线人数",
+        "多人互动",
+        "筹码规则"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.323,
+      "metrics": {
+        "input_chars": 375.0,
+        "input_lines": 18.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.152,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 22.5
+      }
+    }
   }
 }

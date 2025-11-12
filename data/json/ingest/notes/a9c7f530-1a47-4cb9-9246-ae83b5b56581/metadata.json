@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4cf11768-4889-4d22-a79b-19d41222648f",
+      "note_id": "a9c7f530-1a47-4cb9-9246-ae83b5b56581",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "表达了对关系的歉意，并希望双方能继续维持友谊的简短社交信息。",
+        "keywords": [
+          "友谊",
+          "歉意",
+          "社交",
+          "关系",
+          "维持"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:48:58.233042Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.145
+    }
+  ],
   "journal": {
     "id": "60f67aff-ccd1-4d9d-8969-311706abd983",
     "note_id": "a9c7f530-1a47-4cb9-9246-ae83b5b56581",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:48:58.232879Z",
+    "latency_seconds": 46.8150400420418,
+    "attempts": 1,
+    "summary": {
+      "summary": "表达了对关系的歉意，并希望双方能继续维持友谊的简短社交信息。",
+      "keywords": [
+        "友谊",
+        "歉意",
+        "社交",
+        "关系",
+        "维持"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.145,
+      "metrics": {
+        "input_chars": 191.0,
+        "input_lines": 6.0,
+        "summary_chars": 30.0,
+        "summary_coverage_ratio": 0.157,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.5
+      }
+    }
   }
 }

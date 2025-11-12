@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d4b4e0eb-d9af-4c72-bda6-9b1de91dd42d",
+      "note_id": "18575b58-749c-4c11-83aa-c105790a130c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "业务规划会议讨论公司游戏开发节奏、互联网同步界面工作及目标设定，强调更新换代速度和激励机制。",
+        "keywords": [
+          "业务规划",
+          "游戏开发",
+          "公司目标",
+          "互联网同步",
+          "激励机制"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:37:34.145556Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.361
+    }
+  ],
   "journal": {
     "id": "13df2d17-b653-48e1-82f9-2e681119c234",
     "note_id": "18575b58-749c-4c11-83aa-c105790a130c",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:37:34.145404Z",
+    "latency_seconds": 30.827937541995198,
+    "attempts": 1,
+    "summary": {
+      "summary": "业务规划会议讨论公司游戏开发节奏、互联网同步界面工作及目标设定，强调更新换代速度和激励机制。",
+      "keywords": [
+        "业务规划",
+        "游戏开发",
+        "公司目标",
+        "互联网同步",
+        "激励机制"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.361,
+      "metrics": {
+        "input_chars": 201.0,
+        "input_lines": 19.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.229,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.1
+      }
+    }
   }
 }

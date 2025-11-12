@@ -1,0 +1,28 @@
+{
+  "id": "1b9749f6-3327-482b-abcb-c10d6dd1e07e",
+  "note_id": "a861d690-1d9a-4c23-ba82-2dbf9d7c050c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "招商银行账户信息，涉及金融支付服务相关内容。",
+    "keywords": [
+      "招商银行",
+      "金融",
+      "支付服务",
+      "账户信息",
+      "银行服务"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:40:31.951254Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.229
+}

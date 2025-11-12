@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9a1e24af-838b-41ed-9616-2ae424661a0e",
+      "note_id": "19c8d5e8-f810-4d66-a4dc-940e57eea34f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语发音规则总结：元音后双辅音发短音，单辅音或无辅音发长音；au后ch发[h]；ch发[k]；sp发[shi]；涉及音素如Ö、Ü、Ä等。",
+        "keywords": [
+          "发音规则",
+          "德语",
+          "元音",
+          "辅音",
+          "音素"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:45:35.001093Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.449
+    }
+  ],
   "journal": {
     "id": "ab98f897-5ae0-42bc-81b0-8e51495561de",
     "note_id": "19c8d5e8-f810-4d66-a4dc-940e57eea34f",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:45:35.000931Z",
+    "latency_seconds": 32.9825251250295,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语发音规则总结：元音后双辅音发短音，单辅音或无辅音发长音；au后ch发[h]；ch发[k]；sp发[shi]；涉及音素如Ö、Ü、Ä等。",
+      "keywords": [
+        "发音规则",
+        "德语",
+        "元音",
+        "辅音",
+        "音素"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.449,
+      "metrics": {
+        "input_chars": 239.0,
+        "input_lines": 24.0,
+        "summary_chars": 68.0,
+        "summary_coverage_ratio": 0.285,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.3
+      }
+    }
   }
 }

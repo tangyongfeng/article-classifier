@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1a9261df-0fd5-4ac9-8f75-b97b2b109b3c",
+      "note_id": "a8b35020-0f20-4ff9-921f-37f7dd917099",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 三位一体改革思路，刘鹤起草 updated: 2013-10-26 14:11:46Z created: 2013-10-26 14:10",
+        "keywords": [
+          "---",
+          "title: 三位一体改革思路，刘鹤起草",
+          "updated: 2013-10-26 14:11:46Z",
+          "created: 2013-10-26 14:10:55Z",
+          "谢谢分享，后面的文章值得一看"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:44:27.744540Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "c5bff0f4-dbd0-439d-bf42-7119d6daa255",
     "note_id": "a8b35020-0f20-4ff9-921f-37f7dd917099",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T03:44:27.744178Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 三位一体改革思路，刘鹤起草 updated: 2013-10-26 14:11:46Z created: 2013-10-26 14:10",
+      "keywords": [
+        "---",
+        "title: 三位一体改革思路，刘鹤起草",
+        "updated: 2013-10-26 14:11:46Z",
+        "created: 2013-10-26 14:10:55Z",
+        "谢谢分享，后面的文章值得一看"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 9300.0,
+        "input_lines": 63.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.009,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 558.0
+      }
+    }
   }
 }

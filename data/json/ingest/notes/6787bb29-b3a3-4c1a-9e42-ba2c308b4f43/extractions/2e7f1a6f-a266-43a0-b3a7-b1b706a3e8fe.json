@@ -1,0 +1,29 @@
+{
+  "id": "2e7f1a6f-a266-43a0-b3a7-b1b706a3e8fe",
+  "note_id": "6787bb29-b3a3-4c1a-9e42-ba2c308b4f43",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语语法学习资料，涵盖德国语言语法结构与规则，适用于语言学习者。",
+    "keywords": [
+      "German",
+      "Grammar",
+      "Language Learning",
+      "Syntax",
+      "Linguistics"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:25:00.733046Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.243
+}

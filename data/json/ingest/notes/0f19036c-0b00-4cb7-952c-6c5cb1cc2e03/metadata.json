@@ -61,7 +61,40 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fc2ac0c7-061f-4fbd-8f24-7b2094a646c6",
+      "note_id": "0f19036c-0b00-4cb7-952c-6c5cb1cc2e03",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "百度链接解析笔记，提供百度网盘链接及密码分享内容。",
+        "keywords": [
+          "百度链接",
+          "网盘",
+          "密码",
+          "解析",
+          "分享"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "工具",
+          "链接解析"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:07:00.081187Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.301
+    }
+  ],
   "journal": {
     "id": "21d9101a-3a74-4215-b399-bdf9090887dc",
     "note_id": "0f19036c-0b00-4cb7-952c-6c5cb1cc2e03",
@@ -84,5 +117,48 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:07:00.081043Z",
+    "latency_seconds": 48.16761262505315,
+    "attempts": 1,
+    "summary": {
+      "summary": "百度链接解析笔记，提供百度网盘链接及密码分享内容。",
+      "keywords": [
+        "百度链接",
+        "网盘",
+        "密码",
+        "解析",
+        "分享"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "工具",
+        "链接解析"
+      ]
+    },
+    "quality": {
+      "score": 0.301,
+      "metrics": {
+        "input_chars": 229.0,
+        "input_lines": 14.0,
+        "summary_chars": 25.0,
+        "summary_coverage_ratio": 0.109,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.7
+      }
+    }
   }
 }

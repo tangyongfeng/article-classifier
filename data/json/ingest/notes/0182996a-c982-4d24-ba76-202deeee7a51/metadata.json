@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b34f5d3b-fa9e-4dc8-b463-ef05b0eadc2e",
+      "note_id": "0182996a-c982-4d24-ba76-202deeee7a51",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "IBM与CLO会议确定用户管理组件开发计划，涵盖功能范围、时间表及双方责任分配，目标11月底完成核心功能。",
+        "keywords": [
+          "IBM",
+          "CLO",
+          "用户管理",
+          "开发计划",
+          "合作"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:41:26.618882Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.203
+    }
+  ],
   "journal": {
     "id": "209c1a25-abe0-4720-a954-217ec4905006",
     "note_id": "0182996a-c982-4d24-ba76-202deeee7a51",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:41:26.618676Z",
+    "latency_seconds": 13.36514404101763,
+    "attempts": 1,
+    "summary": {
+      "summary": "IBM与CLO会议确定用户管理组件开发计划，涵盖功能范围、时间表及双方责任分配，目标11月底完成核心功能。",
+      "keywords": [
+        "IBM",
+        "CLO",
+        "用户管理",
+        "开发计划",
+        "合作"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.203,
+      "metrics": {
+        "input_chars": 1682.0,
+        "input_lines": 34.0,
+        "summary_chars": 53.0,
+        "summary_coverage_ratio": 0.032,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 100.9
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3cca8c80-7c83-4c4e-89b7-d9c1ba000049",
+      "note_id": "d96be21b-ee8a-4703-8cda-0526c4ab246d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "移民公司业务流程自动化，集成QuickBooks Online等SaaS系统实现信息采集、合同、发票、收款自动化，但部分系统受网络限制。",
+        "keywords": [
+          "自动化",
+          "SaaS集成",
+          "移民业务",
+          "财务软件",
+          "信息采集"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:10:56.003032Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.383
+    }
+  ],
   "journal": {
     "id": "7cdb4937-9098-43ba-a896-db8d1a66eb00",
     "note_id": "d96be21b-ee8a-4703-8cda-0526c4ab246d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:10:56.002881Z",
+    "latency_seconds": 20.191007167100906,
+    "attempts": 1,
+    "summary": {
+      "summary": "移民公司业务流程自动化，集成QuickBooks Online等SaaS系统实现信息采集、合同、发票、收款自动化，但部分系统受网络限制。",
+      "keywords": [
+        "自动化",
+        "SaaS集成",
+        "移民业务",
+        "财务软件",
+        "信息采集"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.383,
+      "metrics": {
+        "input_chars": 249.0,
+        "input_lines": 6.0,
+        "summary_chars": 68.0,
+        "summary_coverage_ratio": 0.273,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.9
+      }
+    }
   }
 }

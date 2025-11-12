@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "50144da1-0ae0-4e29-8ce6-cb66b3d6b566",
+      "note_id": "0c7a2e46-a605-4a55-8a5f-6b94542b00b2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "2020年弱智吧年度精选大陆资讯，涵盖电影、推特圈等娱乐新闻及社交内容。",
+        "keywords": [
+          "资讯",
+          "电影",
+          "推特圈",
+          "成人贴图",
+          "朋友圈"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:46:30.033997Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.398
+    }
+  ],
   "journal": {
     "id": "fbc9666f-7415-48b8-8caa-039de444975c",
     "note_id": "0c7a2e46-a605-4a55-8a5f-6b94542b00b2",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:46:30.033849Z",
+    "latency_seconds": 36.24923408299219,
+    "attempts": 1,
+    "summary": {
+      "summary": "2020年弱智吧年度精选大陆资讯，涵盖电影、推特圈等娱乐新闻及社交内容。",
+      "keywords": [
+        "资讯",
+        "电影",
+        "推特圈",
+        "成人贴图",
+        "朋友圈"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.398,
+      "metrics": {
+        "input_chars": 582.0,
+        "input_lines": 57.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.062,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 34.9
+      }
+    }
   }
 }

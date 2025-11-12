@@ -1,0 +1,27 @@
+{
+  "id": "fc60a362-c132-4c6c-91a3-9a33291f9600",
+  "note_id": "519d5993-2fb8-4445-a83b-2b7016a9e7e6",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美国特拉华州因无高利贷法、灵活公司法及高效法庭等优势，成为全球银行及上市公司首选注册地，包括摩根大通、苹果等机构。",
+    "keywords": [
+      "特拉华州",
+      "公司注册",
+      "银行",
+      "公司法",
+      "税务优惠"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:38:11.912992Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.324
+}

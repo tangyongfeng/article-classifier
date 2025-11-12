@@ -77,7 +77,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "699227fd-7147-4898-ab37-c2f28497b693",
+      "note_id": "ad752f34-a0ef-4f4e-b4b5-3cff1624002b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记总结德国驾驶规则，包括雾天限速50km/h、村庄限速50km/h、转弯遵循右让左原则（reich vor links）、禁止'imme ausweichen",
+        "keywords": [
+          "驾驶规则",
+          "限速",
+          "转弯准则",
+          "右让左",
+          "驾驶理论"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "交通",
+          "驾照",
+          "驾驶理论"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:03:21.385053Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.28
+    }
+  ],
   "journal": {
     "id": "802df55e-f16a-4dce-909c-822cf7a2fb20",
     "note_id": "ad752f34-a0ef-4f4e-b4b5-3cff1624002b",
@@ -100,5 +130,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:03:21.384900Z",
+    "latency_seconds": 41.29832375003025,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记总结德国驾驶规则，包括雾天限速50km/h、村庄限速50km/h、转弯遵循右让左原则（reich vor links）、禁止'imme ausweichen",
+      "keywords": [
+        "驾驶规则",
+        "限速",
+        "转弯准则",
+        "右让左",
+        "驾驶理论"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "交通",
+        "驾照",
+        "驾驶理论"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.28,
+      "metrics": {
+        "input_chars": 261.0,
+        "input_lines": 13.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.307,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.7
+      }
+    }
   }
 }

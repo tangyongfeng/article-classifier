@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "baba5da5-a289-4b14-9a7c-4e14f09a1759",
+      "note_id": "d968a2bf-8d17-4035-957a-cb586de29430",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: OsmocomBB SMS Sniffer - 游侠安全网 updated: 2016-04-03 13:12:46Z created: ",
+        "keywords": [
+          "---",
+          "title: OsmocomBB SMS Sniffer - 游侠安全网",
+          "updated: 2016-04-03 13:12:46Z",
+          "created: 2016-04-03 13:12:46Z",
+          "source: http://www.youxia.org/osmocombb-sms-sniffer.html"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:10:35.805548Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "a34d59cb-41b7-4cde-a93b-3ce6567df6fd",
     "note_id": "d968a2bf-8d17-4035-957a-cb586de29430",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T08:10:35.805143Z",
+    "latency_seconds": 31.56398320896551,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: OsmocomBB SMS Sniffer - 游侠安全网 updated: 2016-04-03 13:12:46Z created: ",
+      "keywords": [
+        "---",
+        "title: OsmocomBB SMS Sniffer - 游侠安全网",
+        "updated: 2016-04-03 13:12:46Z",
+        "created: 2016-04-03 13:12:46Z",
+        "source: http://www.youxia.org/osmocombb-sms-sniffer.html"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 8409.0,
+        "input_lines": 327.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.009,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 504.5
+      }
+    }
   }
 }

@@ -77,7 +77,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "87f94f63-f84b-461c-a42d-9bc7d84aa39f",
+      "note_id": "9bcc0282-2393-4eb7-a415-a027e89284ec",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: ✅一名车主处理“碰瓷”过程！强烈推荐！ updated: 2015-10-07 10:20:41Z created: 2015-10-07",
+        "keywords": [
+          "---",
+          "title: ✅一名车主处理“碰瓷”过程！强烈推荐！",
+          "updated: 2015-10-07 10:20:41Z",
+          "created: 2015-10-07 10:20:41Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:45:05.081409Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "55005cf0-6bb6-47e9-a3c3-a5c94b0ee66e",
     "note_id": "9bcc0282-2393-4eb7-a415-a027e89284ec",
@@ -100,5 +128,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T02:45:05.080541Z",
+    "latency_seconds": 38.701086792047136,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: ✅一名车主处理“碰瓷”过程！强烈推荐！ updated: 2015-10-07 10:20:41Z created: 2015-10-07",
+      "keywords": [
+        "---",
+        "title: ✅一名车主处理“碰瓷”过程！强烈推荐！",
+        "updated: 2015-10-07 10:20:41Z",
+        "created: 2015-10-07 10:20:41Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 11056.0,
+        "input_lines": 140.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.007,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 663.4
+      }
+    }
   }
 }

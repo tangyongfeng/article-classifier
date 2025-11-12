@@ -1,0 +1,27 @@
+{
+  "id": "7bf2e096-4eaf-495c-8670-23b8569c520a",
+  "note_id": "43e24833-be5e-450d-ba44-843d368aa6ad",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "个人收藏关于神华集团相关资料的笔记，主题涉及企业信息。",
+    "keywords": [
+      "神华",
+      "集团",
+      "商务",
+      "收藏",
+      "资料"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:44:58.901057Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.351
+}

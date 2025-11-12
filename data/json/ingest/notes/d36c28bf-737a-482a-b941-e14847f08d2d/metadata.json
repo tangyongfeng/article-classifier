@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "39e7f302-0047-4c3b-8bef-ef5dd871295b",
+      "note_id": "d36c28bf-737a-482a-b941-e14847f08d2d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "谷歌推出AI扒谱工具，仅需听一遍歌曲即可自动生成钢琴、小提琴乐谱，提供论文、源码及演示链接。",
+        "keywords": [
+          "AI",
+          "扒谱",
+          "乐谱",
+          "音乐",
+          "谷歌"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:51:20.506959Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.425
+    }
+  ],
   "journal": {
     "id": "0884fe3b-22bf-43c0-a716-5b98b3843ab0",
     "note_id": "d36c28bf-737a-482a-b941-e14847f08d2d",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:51:20.506762Z",
+    "latency_seconds": 38.27463720901869,
+    "attempts": 1,
+    "summary": {
+      "summary": "谷歌推出AI扒谱工具，仅需听一遍歌曲即可自动生成钢琴、小提琴乐谱，提供论文、源码及演示链接。",
+      "keywords": [
+        "AI",
+        "扒谱",
+        "乐谱",
+        "音乐",
+        "谷歌"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.425,
+      "metrics": {
+        "input_chars": 194.0,
+        "input_lines": 12.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.237,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.6
+      }
+    }
   }
 }

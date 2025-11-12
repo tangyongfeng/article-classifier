@@ -1,0 +1,27 @@
+{
+  "id": "84941652-2709-4382-8d01-78396af0ea69",
+  "note_id": "7363ff30-66cf-4944-bb6c-19c2f68b3d3a",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "经济刺激政策受阻于房地产市场萎缩、信用传导机制堵塞、中美利差扩大资本外流、企业停工资金需求不足及居民高负债消费意愿低迷。",
+    "keywords": [
+      "刺激经济",
+      "房地产",
+      "信用传导",
+      "降息",
+      "消费"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:19:35.818603Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.503
+}

@@ -1,0 +1,28 @@
+{
+  "id": "6beaa2a2-c404-4f04-a4a1-636cf0492809",
+  "note_id": "f3275ac7-b809-4484-9b37-b64ccdf740be",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Woocommerce是基于WordPress的电子商务插件，用于构建在线商店，属于商务技术应用，应归类于商务 > 技术创新。",
+    "keywords": [
+      "Woocommerce",
+      "电子商务",
+      "WordPress插件",
+      "商务工具",
+      "在线商店"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:25:51.098821Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.331
+}

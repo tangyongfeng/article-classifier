@@ -1,0 +1,28 @@
+{
+  "id": "77cb7883-1350-4a4a-8e6c-3daa6743a43e",
+  "note_id": "8d9ccc5d-fc50-4447-92c5-8b5f2cb6008b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记内容简要列举中国历史主要朝代序列：商周秦汉、隋唐宋、元明清及共和国时期。",
+    "keywords": [
+      "中国历史",
+      "朝代",
+      "商周秦汉",
+      "隋唐宋",
+      "元明清"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:39:35.497154Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.391
+}

@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "34759b14-baa8-4fff-9f9d-2ef56f1f2c18",
+      "note_id": "82bd616d-3c72-4751-a14f-70259e63af00",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分享中国教育部官网发布的教育政策链接，涉及教育法规与政府文件，提供官方政策参考。",
+        "keywords": [
+          "教育政策",
+          "教育部",
+          "政府文件",
+          "教育法规",
+          "政策链接"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:52:01.112274Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.164
+    }
+  ],
   "journal": {
     "id": "8db83cd1-adf2-41a3-85ea-f3b68152400f",
     "note_id": "82bd616d-3c72-4751-a14f-70259e63af00",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:52:01.112140Z",
+    "latency_seconds": 13.754945250111632,
+    "attempts": 1,
+    "summary": {
+      "summary": "分享中国教育部官网发布的教育政策链接，涉及教育法规与政府文件，提供官方政策参考。",
+      "keywords": [
+        "教育政策",
+        "教育部",
+        "政府文件",
+        "教育法规",
+        "政策链接"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.164,
+      "metrics": {
+        "input_chars": 205.0,
+        "input_lines": 8.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.195,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.3
+      }
+    }
   }
 }

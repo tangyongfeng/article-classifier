@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3b00d97c-c12f-4b17-b796-3c1ba69b9f3d",
+      "note_id": "e79d7592-0d55-4127-bd4a-b79dbcbfa674",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "东华科技股价于9月26日跌至2012年最低点19.81，涉及中石油窝案事件，属公司股价异常波动分析。",
+        "keywords": [
+          "东华科技",
+          "股价下跌",
+          "中石油窝案",
+          "2012最低点",
+          "公司分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:31:16.398317Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.358
+    }
+  ],
   "journal": {
     "id": "d7e86841-1036-484f-bef1-62fb58832884",
     "note_id": "e79d7592-0d55-4127-bd4a-b79dbcbfa674",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:31:16.398155Z",
+    "latency_seconds": 9.255185708985664,
+    "attempts": 1,
+    "summary": {
+      "summary": "东华科技股价于9月26日跌至2012年最低点19.81，涉及中石油窝案事件，属公司股价异常波动分析。",
+      "keywords": [
+        "东华科技",
+        "股价下跌",
+        "中石油窝案",
+        "2012最低点",
+        "公司分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.358,
+      "metrics": {
+        "input_chars": 146.0,
+        "input_lines": 9.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.342,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 8.8
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f29fe5d7-ae1f-42e2-9930-6f95b6c2af93",
+      "note_id": "6f6024d6-00a3-44fe-9b05-0d506ab4ba42",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "探讨互联网创业公司通过网络公关、技术协同与产品规划拓展业务的工作思路，强调创业公司视角和互联网运营策略。",
+        "keywords": [
+          "互联网",
+          "创业",
+          "技术协同",
+          "产品规划",
+          "网络公关"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:04:41.476503Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.287
+    }
+  ],
   "journal": {
     "id": "541c11aa-5a30-4195-82ef-5e02f19e82a9",
     "note_id": "6f6024d6-00a3-44fe-9b05-0d506ab4ba42",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:04:41.476311Z",
+    "latency_seconds": 26.10240341699682,
+    "attempts": 1,
+    "summary": {
+      "summary": "探讨互联网创业公司通过网络公关、技术协同与产品规划拓展业务的工作思路，强调创业公司视角和互联网运营策略。",
+      "keywords": [
+        "互联网",
+        "创业",
+        "技术协同",
+        "产品规划",
+        "网络公关"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.287,
+      "metrics": {
+        "input_chars": 652.0,
+        "input_lines": 44.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.08,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 39.1
+      }
+    }
   }
 }

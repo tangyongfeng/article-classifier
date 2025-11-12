@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "62a7d6f6-d962-462e-aeb1-86364def4104",
+      "note_id": "8c2c1903-0ab5-44c4-a837-19732acb46bd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语语法学习相关图片，用于语言学习参考资料，属于德语语法教学材料。",
+        "keywords": [
+          "德语",
+          "语法",
+          "语言学习",
+          "学习资料",
+          "语法练习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:31:03.475765Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.104
+    }
+  ],
   "journal": {
     "id": "8926bf3a-909d-4778-a550-4b6a6abb9a5e",
     "note_id": "8c2c1903-0ab5-44c4-a837-19732acb46bd",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:31:03.475619Z",
+    "latency_seconds": 26.32655254099518,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语语法学习相关图片，用于语言学习参考资料，属于德语语法教学材料。",
+      "keywords": [
+        "德语",
+        "语法",
+        "语言学习",
+        "学习资料",
+        "语法练习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.104,
+      "metrics": {
+        "input_chars": 447.0,
+        "input_lines": 12.0,
+        "summary_chars": 33.0,
+        "summary_coverage_ratio": 0.074,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 26.8
+      }
+    }
   }
 }

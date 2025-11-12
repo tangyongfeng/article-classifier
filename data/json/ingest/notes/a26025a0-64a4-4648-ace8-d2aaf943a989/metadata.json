@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f3a9faf2-9087-48dc-ad30-aa9cb426f4f1",
+      "note_id": "a26025a0-64a4-4648-ace8-d2aaf943a989",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "针对中国福利彩票官网的功能定位、用户分析及信息架构设计，强调品牌形象、宣传功能与多用户平衡。",
+        "keywords": [
+          "官网设计",
+          "福利彩票",
+          "功能定位",
+          "品牌形象",
+          "用户分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "品牌管理"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:22:43.292484Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.281
+    }
+  ],
   "journal": {
     "id": "f75b7049-1353-412b-a70b-e047b942e7ee",
     "note_id": "a26025a0-64a4-4648-ace8-d2aaf943a989",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:22:43.292291Z",
+    "latency_seconds": 18.500700833974406,
+    "attempts": 1,
+    "summary": {
+      "summary": "针对中国福利彩票官网的功能定位、用户分析及信息架构设计，强调品牌形象、宣传功能与多用户平衡。",
+      "keywords": [
+        "官网设计",
+        "福利彩票",
+        "功能定位",
+        "品牌形象",
+        "用户分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "品牌管理"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.281,
+      "metrics": {
+        "input_chars": 665.0,
+        "input_lines": 38.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.069,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 39.9
+      }
+    }
   }
 }

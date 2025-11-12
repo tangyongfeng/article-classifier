@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "296754db-f365-4808-a44e-792653f6ca93",
+      "note_id": "0564bc91-2f52-4efb-b7b9-ab84967a6f6a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "FreeBSD系统中screen命令的安装步骤与常用操作指南，包括窗口管理、会话分离及恢复等快捷键使用方法。",
+        "keywords": [
+          "screen命令",
+          "FreeBSD",
+          "窗口管理",
+          "会话分离",
+          "终端工具"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "System Tools",
+          "Terminal Utilities"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:56:28.372299Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.221
+    }
+  ],
   "journal": {
     "id": "0864c631-a2e8-4b99-aa60-17baedf8999b",
     "note_id": "0564bc91-2f52-4efb-b7b9-ab84967a6f6a",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:56:28.372124Z",
+    "latency_seconds": 18.931400290923193,
+    "attempts": 2,
+    "summary": {
+      "summary": "FreeBSD系统中screen命令的安装步骤与常用操作指南，包括窗口管理、会话分离及恢复等快捷键使用方法。",
+      "keywords": [
+        "screen命令",
+        "FreeBSD",
+        "窗口管理",
+        "会话分离",
+        "终端工具"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "System Tools",
+        "Terminal Utilities"
+      ]
+    },
+    "quality": {
+      "score": 0.221,
+      "metrics": {
+        "input_chars": 800.0,
+        "input_lines": 25.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.068,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 48.0
+      }
+    }
   }
 }

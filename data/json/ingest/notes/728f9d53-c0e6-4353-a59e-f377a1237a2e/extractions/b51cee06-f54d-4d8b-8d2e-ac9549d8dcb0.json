@@ -1,0 +1,28 @@
+{
+  "id": "b51cee06-f54d-4d8b-8d2e-ac9549d8dcb0",
+  "note_id": "728f9d53-c0e6-4353-a59e-f377a1237a2e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "内部系统访问凭证：IP地址192.168.2.126:5000，密码abcd1234，邮箱storyservice@ncbc-germany.de。",
+    "keywords": [
+      "IP地址",
+      "密码",
+      "邮箱",
+      "德国",
+      "内部系统"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区",
+      "德国"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:18:15.389916Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.278
+}

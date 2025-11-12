@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9ad3bf11-6459-41d1-ba00-2293a24db07d",
+      "note_id": "85d4a0fb-5054-469a-86a4-786f800015bf",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讼卦为周易六十四卦之一，阐释诉讼争端的吉凶，强调诚信中正，小有言终吉，过度争讼终凶，体现中国传统文化中的处事智慧。",
+        "keywords": [
+          "讼卦",
+          "周易",
+          "诉讼",
+          "爻辞",
+          "诚信"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:02:49.414456Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.208
+    }
+  ],
   "journal": {
     "id": "48ab0934-b55c-4c2f-a120-594f0abe392d",
     "note_id": "85d4a0fb-5054-469a-86a4-786f800015bf",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:02:49.414317Z",
+    "latency_seconds": 45.063804166042246,
+    "attempts": 1,
+    "summary": {
+      "summary": "讼卦为周易六十四卦之一，阐释诉讼争端的吉凶，强调诚信中正，小有言终吉，过度争讼终凶，体现中国传统文化中的处事智慧。",
+      "keywords": [
+        "讼卦",
+        "周易",
+        "诉讼",
+        "爻辞",
+        "诚信"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.208,
+      "metrics": {
+        "input_chars": 351.0,
+        "input_lines": 25.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.162,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 21.1
+      }
+    }
   }
 }

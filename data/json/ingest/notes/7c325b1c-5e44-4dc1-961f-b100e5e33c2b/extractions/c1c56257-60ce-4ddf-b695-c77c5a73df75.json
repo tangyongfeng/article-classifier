@@ -1,0 +1,27 @@
+{
+  "id": "c1c56257-60ce-4ddf-b695-c77c5a73df75",
+  "note_id": "7c325b1c-5e44-4dc1-961f-b100e5e33c2b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "汇总多个免费体育赛事直播网站链接，涵盖足球、篮球等赛事观看。",
+    "keywords": [
+      "免费",
+      "直播",
+      "体育",
+      "足球",
+      "网站"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "多媒体"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:04:26.818077Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.218
+}

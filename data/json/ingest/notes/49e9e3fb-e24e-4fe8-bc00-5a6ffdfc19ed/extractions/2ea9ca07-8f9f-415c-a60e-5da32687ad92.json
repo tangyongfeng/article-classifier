@@ -1,0 +1,31 @@
+{
+  "id": "2ea9ca07-8f9f-415c-a60e-5da32687ad92",
+  "note_id": "49e9e3fb-e24e-4fe8-bc00-5a6ffdfc19ed",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "常见扑克游戏玩法总结：包括三公、斗牛、金花、佳佳宝、9点半、9点、2点等游戏的规则说明。",
+    "keywords": [
+      "扑克游戏",
+      "玩法",
+      "三公",
+      "斗牛",
+      "金花"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": [
+      "娱乐",
+      "扑克游戏",
+      "玩法"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:33:57.075806Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.526
+}

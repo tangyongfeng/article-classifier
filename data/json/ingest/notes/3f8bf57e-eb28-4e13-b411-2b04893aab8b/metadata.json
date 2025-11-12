@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d1e7fafa-d550-4a99-94bb-ed3f4b13f8f1",
+      "note_id": "3f8bf57e-eb28-4e13-b411-2b04893aab8b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "青岛养老院调研计划总结：涵盖入住条件、医疗护理、费用结构及运营模式分析。",
+        "keywords": [
+          "养老院",
+          "医疗护理",
+          "费用结构",
+          "调研计划",
+          "运营模式"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:25:44.421236Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.286
+    }
+  ],
   "journal": {
     "id": "d123aaf5-a203-4caa-bf61-a64d357d938d",
     "note_id": "3f8bf57e-eb28-4e13-b411-2b04893aab8b",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:25:44.421086Z",
+    "latency_seconds": 45.07614370808005,
+    "attempts": 1,
+    "summary": {
+      "summary": "青岛养老院调研计划总结：涵盖入住条件、医疗护理、费用结构及运营模式分析。",
+      "keywords": [
+        "养老院",
+        "医疗护理",
+        "费用结构",
+        "调研计划",
+        "运营模式"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.286,
+      "metrics": {
+        "input_chars": 457.0,
+        "input_lines": 43.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.079,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 27.4
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3a6585a4-b262-4637-8b92-cde0362aada1",
+      "note_id": "096d320a-d70c-4ba5-b635-a22a14984d4b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Network Solutions是一家提供域名注册和网站托管服务的互联网企业，属于商务服务范畴，需归类至现有商务分类下的广告投放商子类。",
+        "keywords": [
+          "域名注册",
+          "网站托管",
+          "互联网服务",
+          "企业服务",
+          "网络解决方案"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:09:53.832284Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.258
+    }
+  ],
   "journal": {
     "id": "d4218cf9-4159-4754-8dac-f0574982363f",
     "note_id": "096d320a-d70c-4ba5-b635-a22a14984d4b",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:09:53.832135Z",
+    "latency_seconds": 22.15104337502271,
+    "attempts": 1,
+    "summary": {
+      "summary": "Network Solutions是一家提供域名注册和网站托管服务的互联网企业，属于商务服务范畴，需归类至现有商务分类下的广告投放商子类。",
+      "keywords": [
+        "域名注册",
+        "网站托管",
+        "互联网服务",
+        "企业服务",
+        "网络解决方案"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.258,
+      "metrics": {
+        "input_chars": 180.0,
+        "input_lines": 9.0,
+        "summary_chars": 69.0,
+        "summary_coverage_ratio": 0.383,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.8
+      }
+    }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "id": "37a8766f-0d16-49a1-bf9a-0a7940abb599",
+  "note_id": "77a26589-5ae2-4986-a5ed-827e0292572b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "美国加州蒙特利公园市佳佳月子中心地址及24小时服务热线信息。",
+    "keywords": [
+      "月子中心",
+      "Monterey Park",
+      "联系电话",
+      "产后护理",
+      "美国服务"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:50:11.743252Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.234
+}

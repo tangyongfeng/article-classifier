@@ -1,0 +1,27 @@
+{
+  "id": "cbc4cb46-22bb-4e06-aa1d-22061e6e0901",
+  "note_id": "a73613d8-6b7f-43bf-9c0c-81305cf7af5e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "劲嘉股份大股东深圳世纪运通减持1800万股，套现约1.88亿元，减持前持股5.23%，实际控制人为乔鲁予。",
+    "keywords": [
+      "劲嘉股份",
+      "大宗交易",
+      "股东减持",
+      "股票交易",
+      "公司分析"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:33:21.139321Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.329
+}

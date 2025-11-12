@@ -1,0 +1,27 @@
+{
+  "id": "83198969-b1d1-4f40-9ef7-ae16ebbc3c53",
+  "note_id": "cbaf2162-805e-4deb-a733-3b0d5e2a66fc",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "太阳纸业（002078）为山东兖州上市公司，总股本11.5亿，股东包括金太阳商贸等公司，提供公司BBS链接。",
+    "keywords": [
+      "太阳纸业",
+      "总股本",
+      "股东信息",
+      "公司BBS",
+      "股票代码"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:03:19.703160Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.378
+}

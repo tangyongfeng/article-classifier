@@ -1,0 +1,30 @@
+{
+  "id": "86041cc6-2fa7-47a4-9fc0-cd60d4e1a27c",
+  "note_id": "eab09a10-1d31-4142-8d72-63817620c17e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "华安基金账户密码信息，包含基金账号041310323735及银行关联密码，用于账户登录与交易操作。",
+    "keywords": [
+      "华安基金",
+      "账户密码",
+      "基金账号",
+      "银行关联",
+      "密码"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": [
+      "Finance",
+      "Fund Management"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:47:40.434798Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.496
+}

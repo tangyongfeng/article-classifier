@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3af68282-3f6b-46c4-8595-56b5fb4b441e",
+      "note_id": "03a95a86-c3ed-45e7-9932-937dd71a309d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语阅读材料描述柏林Tiergarten动物园场景，包含动物互动及日常对话，用于德语词汇学习。",
+        "keywords": [
+          "德语",
+          "词汇",
+          "动物园",
+          "阅读",
+          "语言学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:49:46.930308Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.101
+    }
+  ],
   "journal": {
     "id": "dd843a27-0bf0-4637-8251-e64f84afb552",
     "note_id": "03a95a86-c3ed-45e7-9932-937dd71a309d",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:49:46.930161Z",
+    "latency_seconds": 14.680233916966245,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语阅读材料描述柏林Tiergarten动物园场景，包含动物互动及日常对话，用于德语词汇学习。",
+      "keywords": [
+        "德语",
+        "词汇",
+        "动物园",
+        "阅读",
+        "语言学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.101,
+      "metrics": {
+        "input_chars": 680.0,
+        "input_lines": 6.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.069,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 40.8
+      }
+    }
   }
 }

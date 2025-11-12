@@ -1,0 +1,27 @@
+{
+  "id": "101c4830-d547-45f8-a33d-21a65a0c8b04",
+  "note_id": "398dc4f7-2b4f-4406-aff2-e2f8d3091ce0",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "系统化股票交易策略，涵盖资金管理、风险控制、趋势操作及止损原则，确保盈利稳定性。",
+    "keywords": [
+      "交易策略",
+      "资金管理",
+      "风险控制",
+      "止损",
+      "趋势分析"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:04:55.804666Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.314
+}

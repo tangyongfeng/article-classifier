@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e7499f1d-146c-4219-a601-4ce1735a0706",
+      "note_id": "17224d5b-43f1-4a6a-a188-754870cb9b8f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供加拿大孔雀园公寓3个月短租信息，月租约1400加元，含租赁部联系方式及管理公司网址。",
+        "keywords": [
+          "短租",
+          "公寓",
+          "价格",
+          "租赁部",
+          "住宿"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:30:12.889155Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.369
+    }
+  ],
   "journal": {
     "id": "b5c4dffe-5c9d-4d65-a64c-2dedabd3f1f4",
     "note_id": "17224d5b-43f1-4a6a-a188-754870cb9b8f",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:30:12.889000Z",
+    "latency_seconds": 9.715556250070222,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供加拿大孔雀园公寓3个月短租信息，月租约1400加元，含租赁部联系方式及管理公司网址。",
+      "keywords": [
+        "短租",
+        "公寓",
+        "价格",
+        "租赁部",
+        "住宿"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.369,
+      "metrics": {
+        "input_chars": 352.0,
+        "input_lines": 13.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.125,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 21.1
+      }
+    }
   }
 }

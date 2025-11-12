@@ -1,0 +1,29 @@
+{
+  "id": "bfba6623-45ee-492c-b45a-d69628c5c9a4",
+  "note_id": "68c1c7b5-3098-4a3c-9437-138966703a1d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语写作批改助手需求，涵盖拼写、动词变位、时态、标点及语法错误检查。",
+    "keywords": [
+      "德语",
+      "语法",
+      "拼写",
+      "动词变位",
+      "错误用词"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:33:44.337049Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.302
+}

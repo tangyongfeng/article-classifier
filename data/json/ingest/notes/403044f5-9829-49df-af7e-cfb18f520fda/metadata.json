@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3cd217cf-3557-4cee-9fa1-422bcd4efd47",
+      "note_id": "403044f5-9829-49df-af7e-cfb18f520fda",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "南京云锦博物馆是南京的传统文化展示机构，专注于中国传统云锦织造技艺，地址位于南京市建邺区茶亭东街240号，提供历史与工艺信息。",
+        "keywords": [
+          "中国",
+          "南京",
+          "云锦",
+          "博物馆",
+          "织造"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:27:58.029389Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.446
+    }
+  ],
   "journal": {
     "id": "1045c80f-b273-4b6e-91b0-9e979058ecb1",
     "note_id": "403044f5-9829-49df-af7e-cfb18f520fda",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:27:58.029218Z",
+    "latency_seconds": 28.71122833294794,
+    "attempts": 2,
+    "summary": {
+      "summary": "南京云锦博物馆是南京的传统文化展示机构，专注于中国传统云锦织造技艺，地址位于南京市建邺区茶亭东街240号，提供历史与工艺信息。",
+      "keywords": [
+        "中国",
+        "南京",
+        "云锦",
+        "博物馆",
+        "织造"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.446,
+      "metrics": {
+        "input_chars": 400.0,
+        "input_lines": 32.0,
+        "summary_chars": 63.0,
+        "summary_coverage_ratio": 0.158,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 24.0
+      }
+    }
   }
 }

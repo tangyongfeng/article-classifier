@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "aa374fa3-5269-456a-8248-4cba563378cc",
+      "note_id": "f4406c17-d568-484d-bce0-05bac0de1a24",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "比较Python访问MySQL不同驱动程序的性能，实测MySQLdb速度最快，mysql最慢。",
+        "keywords": [
+          "Python",
+          "MySQL",
+          "驱动程序",
+          "速度",
+          "性能测试"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:28:56.936999Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.354
+    }
+  ],
   "journal": {
     "id": "e31f30b1-f4cf-4b7d-9d66-8f351255fe45",
     "note_id": "f4406c17-d568-484d-bce0-05bac0de1a24",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:28:56.936821Z",
+    "latency_seconds": 20.463330499944277,
+    "attempts": 2,
+    "summary": {
+      "summary": "比较Python访问MySQL不同驱动程序的性能，实测MySQLdb速度最快，mysql最慢。",
+      "keywords": [
+        "Python",
+        "MySQL",
+        "驱动程序",
+        "速度",
+        "性能测试"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.354,
+      "metrics": {
+        "input_chars": 496.0,
+        "input_lines": 26.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.095,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 29.8
+      }
+    }
   }
 }

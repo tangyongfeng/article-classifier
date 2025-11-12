@@ -1,0 +1,29 @@
+{
+  "id": "e2360472-786b-4e92-921e-e16491838de8",
+  "note_id": "1f91fe55-d77f-46a7-ad5e-308f1faf6537",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语人称代词和物主代词的用法表格，涵盖阳性、中性、阴性及复数形式，用于德语语法学习基础。",
+    "keywords": [
+      "德语",
+      "人称代词",
+      "物主代词",
+      "语法",
+      "语言学习"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:15:41.692817Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.217
+}

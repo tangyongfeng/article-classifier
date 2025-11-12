@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "940a623d-1d84-4bc2-83aa-241c4d0c4eaa",
+      "note_id": "e13d99db-55cf-49be-80b1-076f3f373678",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "互联网系统需求包括移动设备支持、社交媒体整合、防沉溺机制及高并发处理，强调时间碎片化、分享文化和轻量化设计。",
+        "keywords": [
+          "移动设备",
+          "社交媒体",
+          "防沉溺",
+          "系统性能",
+          "轻量化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:55:56.586328Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.434
+    }
+  ],
   "journal": {
     "id": "d6583e97-daac-4929-8e6f-f585942193a5",
     "note_id": "e13d99db-55cf-49be-80b1-076f3f373678",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T08:55:56.586190Z",
+    "latency_seconds": 30.27523408399429,
+    "attempts": 1,
+    "summary": {
+      "summary": "互联网系统需求包括移动设备支持、社交媒体整合、防沉溺机制及高并发处理，强调时间碎片化、分享文化和轻量化设计。",
+      "keywords": [
+        "移动设备",
+        "社交媒体",
+        "防沉溺",
+        "系统性能",
+        "轻量化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.434,
+      "metrics": {
+        "input_chars": 212.0,
+        "input_lines": 18.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.255,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.7
+      }
+    }
   }
 }

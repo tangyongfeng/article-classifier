@@ -1,0 +1,28 @@
+{
+  "id": "db89ec6f-a96d-4741-815a-2199642cf5af",
+  "note_id": "649175eb-c024-4ae7-9bbe-b8dc87c4aeb5",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "The internet's history spans from Cold War military projects to a global societa",
+    "keywords": [
+      "internet history",
+      "ARPANET",
+      "TCP/IP",
+      "World Wide Web",
+      "societal impact"
+    ],
+    "action_items": [
+      "no action required"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T22:14:51.914959Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.08
+}

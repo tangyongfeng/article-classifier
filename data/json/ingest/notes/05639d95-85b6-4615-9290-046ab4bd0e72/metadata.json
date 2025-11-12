@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "aa1c2d39-b28c-4e29-8070-1854e384515d",
+      "note_id": "05639d95-85b6-4615-9290-046ab4bd0e72",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记讨论独自生活需独立管理时间与金钱，偏好自由放松的单独旅行，避免团体旅行的限制，强调个人空间与自主性。",
+        "keywords": [
+          "独自生活",
+          "时间管理",
+          "单独旅行",
+          "团体旅行",
+          "自由放松"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "Solo vs Group Travel"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:54:09.425604Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.111
+    }
+  ],
   "journal": {
     "id": "66499674-6a7c-4453-ab5e-dd1c40e68d96",
     "note_id": "05639d95-85b6-4615-9290-046ab4bd0e72",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:54:09.425437Z",
+    "latency_seconds": 17.739046292030253,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记讨论独自生活需独立管理时间与金钱，偏好自由放松的单独旅行，避免团体旅行的限制，强调个人空间与自主性。",
+      "keywords": [
+        "独自生活",
+        "时间管理",
+        "单独旅行",
+        "团体旅行",
+        "自由放松"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "Solo vs Group Travel"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.111,
+      "metrics": {
+        "input_chars": 586.0,
+        "input_lines": 12.0,
+        "summary_chars": 52.0,
+        "summary_coverage_ratio": 0.089,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 35.2
+      }
+    }
   }
 }

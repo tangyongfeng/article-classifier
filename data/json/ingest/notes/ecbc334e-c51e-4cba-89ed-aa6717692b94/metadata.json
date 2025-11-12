@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "2d1d7acb-de9b-40d4-9e64-747e2485884f",
+      "note_id": "ecbc334e-c51e-4cba-89ed-aa6717692b94",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语个人介绍，包含姓名、职业、居住地等基本信息，属于语言学习中的日常表达内容。",
+        "keywords": [
+          "德语",
+          "个人介绍",
+          "姓名",
+          "职业",
+          "居住地"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:58:29.515093Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.138
+    }
+  ],
   "journal": {
     "id": "e774fa93-3401-423f-beb0-5b859e3b5417",
     "note_id": "ecbc334e-c51e-4cba-89ed-aa6717692b94",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:58:29.514913Z",
+    "latency_seconds": 14.500628791050985,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语个人介绍，包含姓名、职业、居住地等基本信息，属于语言学习中的日常表达内容。",
+      "keywords": [
+        "德语",
+        "个人介绍",
+        "姓名",
+        "职业",
+        "居住地"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.138,
+      "metrics": {
+        "input_chars": 274.0,
+        "input_lines": 8.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.142,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 16.4
+      }
+    }
   }
 }

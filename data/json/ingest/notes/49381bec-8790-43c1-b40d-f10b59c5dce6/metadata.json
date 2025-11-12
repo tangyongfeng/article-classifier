@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8ed66e26-a766-4a7e-b916-9d0d8d8d0710",
+      "note_id": "49381bec-8790-43c1-b40d-f10b59c5dce6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语语法中时间从句的规则，涵盖als、wenn、bis等引导词的时态搭配及典型例句说明。",
+        "keywords": [
+          "德语",
+          "语法",
+          "时间从句",
+          "从句引导词",
+          "时态规则"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:27:59.026483Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.256
+    }
+  ],
   "journal": {
     "id": "6cc5e435-be1e-4bc3-bb58-6933783f80b6",
     "note_id": "49381bec-8790-43c1-b40d-f10b59c5dce6",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:27:59.026273Z",
+    "latency_seconds": 30.875561667024158,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语语法中时间从句的规则，涵盖als、wenn、bis等引导词的时态搭配及典型例句说明。",
+      "keywords": [
+        "德语",
+        "语法",
+        "时间从句",
+        "从句引导词",
+        "时态规则"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.256,
+      "metrics": {
+        "input_chars": 2512.0,
+        "input_lines": 57.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.018,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 150.7
+      }
+    }
   }
 }

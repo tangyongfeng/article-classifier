@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "10ca8ca4-0372-4afb-8f47-02cd04db5fb6",
+      "note_id": "3a2e92b1-6205-4a69-8872-e1d5708389c6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "会议讨论客户健康档案建立流程，明确区别于居民档案，包含初诊、住院等丰富内容，可与卫生局档案合并。",
+        "keywords": [
+          "健康档案",
+          "客户",
+          "建档",
+          "卫生局",
+          "档案合并"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "医疗健康",
+          "健康档案"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:07:50.753159Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.46
+    }
+  ],
   "journal": {
     "id": "8ed96f4b-4456-4a78-90bc-97ff89746435",
     "note_id": "3a2e92b1-6205-4a69-8872-e1d5708389c6",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:07:50.753007Z",
+    "latency_seconds": 38.988582207937725,
+    "attempts": 1,
+    "summary": {
+      "summary": "会议讨论客户健康档案建立流程，明确区别于居民档案，包含初诊、住院等丰富内容，可与卫生局档案合并。",
+      "keywords": [
+        "健康档案",
+        "客户",
+        "建档",
+        "卫生局",
+        "档案合并"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "医疗健康",
+        "健康档案"
+      ]
+    },
+    "quality": {
+      "score": 0.46,
+      "metrics": {
+        "input_chars": 257.0,
+        "input_lines": 14.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.187,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.4
+      }
+    }
   }
 }

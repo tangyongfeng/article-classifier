@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "68591d14-c64a-45f2-a16a-304a73e6f97b",
+      "note_id": "82a077c5-2d09-4f61-b415-e350fc2021a5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Jia Li GmbH为德国商务合作企业，归类至商务 > 合作类别。",
+        "keywords": [
+          "商务",
+          "合作",
+          "GmbH",
+          "企业",
+          "德国"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:51:47.353486Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.281
+    }
+  ],
   "journal": {
     "id": "d863991e-b20b-49b3-aeb0-ec73cfbe9385",
     "note_id": "82a077c5-2d09-4f61-b415-e350fc2021a5",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:51:47.353372Z",
+    "latency_seconds": 25.421934416983277,
+    "attempts": 1,
+    "summary": {
+      "summary": "Jia Li GmbH为德国商务合作企业，归类至商务 > 合作类别。",
+      "keywords": [
+        "商务",
+        "合作",
+        "GmbH",
+        "企业",
+        "德国"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.281,
+      "metrics": {
+        "input_chars": 110.0,
+        "input_lines": 6.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.309,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 6.6
+      }
+    }
   }
 }

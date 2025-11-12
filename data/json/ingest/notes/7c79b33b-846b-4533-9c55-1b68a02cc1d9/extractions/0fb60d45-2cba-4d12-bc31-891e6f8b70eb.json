@@ -1,0 +1,28 @@
+{
+  "id": "0fb60d45-2cba-4d12-bc31-891e6f8b70eb",
+  "note_id": "7c79b33b-846b-4533-9c55-1b68a02cc1d9",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "江苏体彩试点获批，涉及体育彩票管理，属于金融支付服务范畴。",
+    "keywords": [
+      "体育彩票",
+      "试点",
+      "江苏",
+      "金融",
+      "支付服务"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Payment Services"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:09:09.526890Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.251
+}

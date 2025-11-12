@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "551ab6c9-731b-4f3d-b5a8-76462bfdbb7d",
+      "note_id": "040862f7-50d2-4adc-8b1f-f2e7f5c52551",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "可汗学院是由萨尔曼·可汗创立的非营利教育组织，通过在线视频提供数学、历史、金融等多学科免费课程，采用翻转课堂模式教学。",
+        "keywords": [
+          "可汗学院",
+          "在线教育",
+          "免费课程",
+          "翻转课堂",
+          "多学科"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:50:16.503112Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.218
+    }
+  ],
   "journal": {
     "id": "1c330e86-bf19-4c89-b77b-c20b052ee6d9",
     "note_id": "040862f7-50d2-4adc-8b1f-f2e7f5c52551",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:50:16.502944Z",
+    "latency_seconds": 19.458793958998285,
+    "attempts": 1,
+    "summary": {
+      "summary": "可汗学院是由萨尔曼·可汗创立的非营利教育组织，通过在线视频提供数学、历史、金融等多学科免费课程，采用翻转课堂模式教学。",
+      "keywords": [
+        "可汗学院",
+        "在线教育",
+        "免费课程",
+        "翻转课堂",
+        "多学科"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.218,
+      "metrics": {
+        "input_chars": 954.0,
+        "input_lines": 16.0,
+        "summary_chars": 59.0,
+        "summary_coverage_ratio": 0.062,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 57.2
+      }
+    }
   }
 }

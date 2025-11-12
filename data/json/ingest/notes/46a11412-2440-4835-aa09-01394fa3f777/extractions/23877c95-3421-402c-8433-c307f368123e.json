@@ -1,0 +1,28 @@
+{
+  "id": "23877c95-3421-402c-8433-c307f368123e",
+  "note_id": "46a11412-2440-4835-aa09-01394fa3f777",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Winning ERP是企业资源规划系统，提供企业管理解决方案，属于商务软件范畴。",
+    "keywords": [
+      "ERP",
+      "企业资源规划",
+      "商务",
+      "系统",
+      "管理"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T19:13:55.195435Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.295
+}

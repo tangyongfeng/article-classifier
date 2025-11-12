@@ -1,0 +1,28 @@
+{
+  "id": "3b0d5680-cf88-400a-a912-55c27ca7eceb",
+  "note_id": "e4290b3d-b398-4228-a317-372cddf1d9fc",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "中国环境标准HJ/T 427-2008，规范钢铁行业高炉炼铁的清洁生产要求，强调环保与资源高效利用。",
+    "keywords": [
+      "清洁生产",
+      "钢铁行业",
+      "高炉炼铁",
+      "环保标准",
+      "行业规范"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:14:35.037282Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.282
+}

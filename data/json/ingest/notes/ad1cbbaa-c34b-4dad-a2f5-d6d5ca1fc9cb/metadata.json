@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3081724c-aba8-4008-b832-0ce1aea83082",
+      "note_id": "ad1cbbaa-c34b-4dad-a2f5-d6d5ca1fc9cb",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "A lonely girl discovers a book that reshapes reality through her heart, teaching",
+        "keywords": [
+          "magic",
+          "kindness",
+          "reality",
+          "growth",
+          "inner strength"
+        ],
+        "action_items": [
+          "none"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:02:40.081202Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.238
+    }
+  ],
   "journal": {
     "id": "a35eb5c4-bf57-4518-ba80-aea584e8edc4",
     "note_id": "ad1cbbaa-c34b-4dad-a2f5-d6d5ca1fc9cb",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:02:40.081047Z",
+    "latency_seconds": 62.62846324988641,
+    "attempts": 1,
+    "summary": {
+      "summary": "A lonely girl discovers a book that reshapes reality through her heart, teaching",
+      "keywords": [
+        "magic",
+        "kindness",
+        "reality",
+        "growth",
+        "inner strength"
+      ],
+      "action_items": [
+        "none"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.238,
+      "metrics": {
+        "input_chars": 234.0,
+        "input_lines": 14.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.342,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.0
+      }
+    }
   }
 }

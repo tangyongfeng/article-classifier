@@ -1,0 +1,27 @@
+{
+  "id": "ff87163f-9ca6-4072-91da-2c775cbf252e",
+  "note_id": "9c98b32a-f32f-4f22-853b-b82290c01ea8",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "蓝色光标是主营品牌传播与广告的上市公司，服务西门子、百度等客户，创始人团队控制股权，通过并购扩张业务，涉及公关战与广告投放策略。",
+    "keywords": [
+      "公关公司",
+      "品牌传播",
+      "广告投放",
+      "上市公司",
+      "并购战略"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:46:37.023092Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.215
+}

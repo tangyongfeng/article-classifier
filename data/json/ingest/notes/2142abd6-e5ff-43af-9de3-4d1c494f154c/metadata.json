@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "92cc379c-0dbd-47e2-94dd-c5ec0a74d1ab",
+      "note_id": "2142abd6-e5ff-43af-9de3-4d1c494f154c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "北京六家专门收治非典的医院地址列表，包括地坛医院、佑安医院等。",
+        "keywords": [
+          "非典",
+          "医院",
+          "北京",
+          "医疗",
+          "地址"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "城市生活"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:25:57.086683Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.319
+    }
+  ],
   "journal": {
     "id": "5dd16676-9c51-4eb0-91e0-d8e70666c891",
     "note_id": "2142abd6-e5ff-43af-9de3-4d1c494f154c",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:25:57.086490Z",
+    "latency_seconds": 22.379710584064014,
+    "attempts": 1,
+    "summary": {
+      "summary": "北京六家专门收治非典的医院地址列表，包括地坛医院、佑安医院等。",
+      "keywords": [
+        "非典",
+        "医院",
+        "北京",
+        "医疗",
+        "地址"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "城市生活"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.319,
+      "metrics": {
+        "input_chars": 214.0,
+        "input_lines": 6.0,
+        "summary_chars": 31.0,
+        "summary_coverage_ratio": 0.145,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 12.8
+      }
+    }
   }
 }

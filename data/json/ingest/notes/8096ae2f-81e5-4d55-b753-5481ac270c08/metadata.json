@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fcdad3b8-f072-4409-90a1-e5b288673111",
+      "note_id": "8096ae2f-81e5-4d55-b753-5481ac270c08",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "申诉德国签证拒签，因公司JiaLi GmbH注册未完成需赴德处理商业合作（如化妆师培训），附证件、家庭证明等材料。",
+        "keywords": [
+          "签证申诉",
+          "德国",
+          "公司注册",
+          "商业合作",
+          "家庭证明"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:38:24.546378Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.139
+    }
+  ],
   "journal": {
     "id": "2e829cbf-fc62-4d52-b9a3-291c50b84e80",
     "note_id": "8096ae2f-81e5-4d55-b753-5481ac270c08",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:38:24.546181Z",
+    "latency_seconds": 32.62127358303405,
+    "attempts": 1,
+    "summary": {
+      "summary": "申诉德国签证拒签，因公司JiaLi GmbH注册未完成需赴德处理商业合作（如化妆师培训），附证件、家庭证明等材料。",
+      "keywords": [
+        "签证申诉",
+        "德国",
+        "公司注册",
+        "商业合作",
+        "家庭证明"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.139,
+      "metrics": {
+        "input_chars": 2276.0,
+        "input_lines": 42.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.025,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 136.6
+      }
+    }
   }
 }

@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "90bfd753-2590-47a0-97f6-efd397613aea",
+      "note_id": "f12ef54d-cb46-4a10-a986-2f4e46df5e59",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: GSM Sniffing入门 | messageloop的脚印 updated: 2016-04-07 12:24:39Z created",
+        "keywords": [
+          "---",
+          "title: GSM Sniffing入门 | messageloop的脚印",
+          "updated: 2016-04-07 12:24:39Z",
+          "created: 2016-04-07 12:24:39Z",
+          "source: https://xmsg.org/wordpress/?p=406"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:15:29.178556Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "3a25d0ec-060f-4987-9053-9c6945259ce8",
     "note_id": "f12ef54d-cb46-4a10-a986-2f4e46df5e59",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T10:15:29.177579Z",
+    "latency_seconds": 43.91860233305488,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: GSM Sniffing入门 | messageloop的脚印 updated: 2016-04-07 12:24:39Z created",
+      "keywords": [
+        "---",
+        "title: GSM Sniffing入门 | messageloop的脚印",
+        "updated: 2016-04-07 12:24:39Z",
+        "created: 2016-04-07 12:24:39Z",
+        "source: https://xmsg.org/wordpress/?p=406"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 19384.0,
+        "input_lines": 462.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.004,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 1163.0
+      }
+    }
   }
 }

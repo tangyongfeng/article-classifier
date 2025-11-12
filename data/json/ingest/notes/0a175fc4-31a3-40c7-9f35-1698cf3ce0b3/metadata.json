@@ -77,7 +77,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4b2c1b71-50ee-492d-b2b8-47904ada9110",
+      "note_id": "0a175fc4-31a3-40c7-9f35-1698cf3ce0b3",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 一个简单的中文分词程序 -- 算法 -- IT技术博客大学习 -- 共学习 共进步！ updated: 2015-08-29 15:33:",
+        "keywords": [
+          "---",
+          "title: 一个简单的中文分词程序 -- 算法 -- IT技术博客大学习 -- 共学习 共进步！",
+          "updated: 2015-08-29 15:33:50Z",
+          "created: 2015-08-29 15:33:50Z",
+          "source: http://blogread.cn/it/wap/article/5872?f=wb"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:19:35.536766Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "68f20c43-a10d-48c6-bec0-26603bfa808a",
     "note_id": "0a175fc4-31a3-40c7-9f35-1698cf3ce0b3",
@@ -100,5 +128,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T14:19:35.536196Z",
+    "latency_seconds": 16.850658374954946,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 一个简单的中文分词程序 -- 算法 -- IT技术博客大学习 -- 共学习 共进步！ updated: 2015-08-29 15:33:",
+      "keywords": [
+        "---",
+        "title: 一个简单的中文分词程序 -- 算法 -- IT技术博客大学习 -- 共学习 共进步！",
+        "updated: 2015-08-29 15:33:50Z",
+        "created: 2015-08-29 15:33:50Z",
+        "source: http://blogread.cn/it/wap/article/5872?f=wb"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 6197.0,
+        "input_lines": 457.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 371.8
+      }
+    }
   }
 }

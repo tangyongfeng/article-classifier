@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a011da82-bec9-4e32-88f3-55bcd4bc7ec9",
+      "note_id": "65a33ba6-40a7-4636-8f1f-f9afb3d1e492",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记涉及电话彩票外围工作的代销商、银联及中心角度，讨论语音短信接口设计。",
+        "keywords": [
+          "电话彩票",
+          "外围工作",
+          "代销商",
+          "接口",
+          "商务合作"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T22:16:34.690873Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.428
+    }
+  ],
   "journal": {
     "id": "1c09655c-d7a5-4e1e-8b2f-9fdc0da3a626",
     "note_id": "65a33ba6-40a7-4636-8f1f-f9afb3d1e492",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T22:16:34.690720Z",
+    "latency_seconds": 14.92631887504831,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记涉及电话彩票外围工作的代销商、银联及中心角度，讨论语音短信接口设计。",
+      "keywords": [
+        "电话彩票",
+        "外围工作",
+        "代销商",
+        "接口",
+        "商务合作"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.428,
+      "metrics": {
+        "input_chars": 148.0,
+        "input_lines": 12.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.243,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.9
+      }
+    }
   }
 }

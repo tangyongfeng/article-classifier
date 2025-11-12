@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d65dc039-2d4d-453f-aaf2-8d45ccaf7604",
+      "note_id": "7d5d308c-84b9-4041-8c6a-335411e374d8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记涉及德国公司JLGMBH的网站信息，属于国家与地区分类下的德国子类，无需新增分类。",
+        "keywords": [
+          "德国企业",
+          "商务网站",
+          "JLGMBH",
+          "德语域名",
+          "公司信息"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:17:26.537803Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.259
+    }
+  ],
   "journal": {
     "id": "e426a430-2da7-481f-a3a1-98bf6185e261",
     "note_id": "7d5d308c-84b9-4041-8c6a-335411e374d8",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:17:26.537650Z",
+    "latency_seconds": 14.747305208002217,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记涉及德国公司JLGMBH的网站信息，属于国家与地区分类下的德国子类，无需新增分类。",
+      "keywords": [
+        "德国企业",
+        "商务网站",
+        "JLGMBH",
+        "德语域名",
+        "公司信息"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.259,
+      "metrics": {
+        "input_chars": 162.0,
+        "input_lines": 9.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.265,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.7
+      }
+    }
   }
 }

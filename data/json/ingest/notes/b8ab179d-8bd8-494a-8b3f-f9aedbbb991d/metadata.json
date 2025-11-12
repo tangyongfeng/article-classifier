@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "01d01d5b-d232-4944-9c9a-94d3a79bf299",
+      "note_id": "b8ab179d-8bd8-494a-8b3f-f9aedbbb991d",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 铁凝小说一篇：《对面》，选材独特，王朔曾经深深推许过。 updated: 2015-07-18 10:10:10Z created: 20",
+        "keywords": [
+          "---",
+          "title: 铁凝小说一篇：《对面》，选材独特，王朔曾经深深推许过",
+          "updated: 2015-07-18 10:10:10Z",
+          "created: 2015-07-18 10:10:10Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:57:26.148047Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.147
+    }
+  ],
   "journal": {
     "id": "3552ef58-3327-4b81-b3cf-0527880a2456",
     "note_id": "b8ab179d-8bd8-494a-8b3f-f9aedbbb991d",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T04:57:26.147338Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 铁凝小说一篇：《对面》，选材独特，王朔曾经深深推许过。 updated: 2015-07-18 10:10:10Z created: 20",
+      "keywords": [
+        "---",
+        "title: 铁凝小说一篇：《对面》，选材独特，王朔曾经深深推许过",
+        "updated: 2015-07-18 10:10:10Z",
+        "created: 2015-07-18 10:10:10Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.147,
+      "metrics": {
+        "input_chars": 28628.0,
+        "input_lines": 174.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.003,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 1717.7
+      }
+    }
   }
 }

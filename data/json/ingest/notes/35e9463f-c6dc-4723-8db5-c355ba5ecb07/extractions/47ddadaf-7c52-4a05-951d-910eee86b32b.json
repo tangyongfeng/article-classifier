@@ -1,0 +1,27 @@
+{
+  "id": "47ddadaf-7c52-4a05-951d-910eee86b32b",
+  "note_id": "35e9463f-c6dc-4723-8db5-c355ba5ecb07",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "内部控制系统（ICS）是企业为确保财务报告可靠性、运营效率和合规性而建立的管理框架，涵盖风险评估与控制活动。",
+    "keywords": [
+      "内部控制系统",
+      "内部控制",
+      "企业治理",
+      "风险管理",
+      "财务报告"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:56:00.358453Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.399
+}

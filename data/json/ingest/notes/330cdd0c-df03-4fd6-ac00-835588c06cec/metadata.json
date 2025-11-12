@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8fc4b62d-a5ca-4fea-a0a0-83452b30f883",
+      "note_id": "330cdd0c-df03-4fd6-ac00-835588c06cec",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "OSMOCOMBB开源GSM协议栈实现通信监听，分析A5加密算法，提供编译与操作指南，并讨论安全风险如短信窃听和黑产应用。",
+        "keywords": [
+          "OSMOCOMBB",
+          "GSM",
+          "监听",
+          "加密算法",
+          "黑产"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:46:31.061228Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.373
+    }
+  ],
   "journal": {
     "id": "fd7464d1-31dc-488c-8cf4-0af90b7f956a",
     "note_id": "330cdd0c-df03-4fd6-ac00-835588c06cec",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:46:31.060968Z",
+    "latency_seconds": 33.32945775007829,
+    "attempts": 1,
+    "summary": {
+      "summary": "OSMOCOMBB开源GSM协议栈实现通信监听，分析A5加密算法，提供编译与操作指南，并讨论安全风险如短信窃听和黑产应用。",
+      "keywords": [
+        "OSMOCOMBB",
+        "GSM",
+        "监听",
+        "加密算法",
+        "黑产"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.373,
+      "metrics": {
+        "input_chars": 5208.0,
+        "input_lines": 148.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.012,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 312.5
+      }
+    }
   }
 }

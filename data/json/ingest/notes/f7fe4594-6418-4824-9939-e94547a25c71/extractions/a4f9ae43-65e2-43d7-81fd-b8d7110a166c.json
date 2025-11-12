@@ -1,0 +1,28 @@
+{
+  "id": "a4f9ae43-65e2-43d7-81fd-b8d7110a166c",
+  "note_id": "f7fe4594-6418-4824-9939-e94547a25c71",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Figma社区提供的德国驾照相关设计模板资源，涉及交通类驾照主题的数字设计工具应用。",
+    "keywords": [
+      "驾照",
+      "Figma",
+      "设计工具",
+      "德国",
+      "交通"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "交通",
+      "驾照"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T10:50:26.297162Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.247
+}

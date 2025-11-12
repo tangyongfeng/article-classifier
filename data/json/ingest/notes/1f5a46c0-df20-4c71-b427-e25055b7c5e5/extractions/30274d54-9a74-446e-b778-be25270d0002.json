@@ -1,0 +1,27 @@
+{
+  "id": "30274d54-9a74-446e-b778-be25270d0002",
+  "note_id": "1f5a46c0-df20-4c71-b427-e25055b7c5e5",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "使用mysqldump工具按日期条件导出MySQL数据表的命令示例。",
+    "keywords": [
+      "mysqldump",
+      "MySQL",
+      "where",
+      "export",
+      "database"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:15:05.154705Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.312
+}

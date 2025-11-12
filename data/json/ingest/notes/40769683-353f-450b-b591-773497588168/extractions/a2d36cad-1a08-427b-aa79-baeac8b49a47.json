@@ -1,0 +1,28 @@
+{
+  "id": "a2d36cad-1a08-427b-aa79-baeac8b49a47",
+  "note_id": "40769683-353f-450b-b591-773497588168",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "习坎卦（《易经》第六卦）象征险中险，爻辞描述困境（如'入于坎窞'）及化解之道（如'樽酒簋贰，纳约自牖'），强调虔诚可避凶。",
+    "keywords": [
+      "习坎卦",
+      "易经",
+      "险中险",
+      "爻辞",
+      "纳约自牖"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:30:53.785294Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.25
+}

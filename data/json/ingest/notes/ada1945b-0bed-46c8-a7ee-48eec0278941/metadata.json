@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "61ef02bd-0103-483f-a4c6-55d3bf6c6e63",
+      "note_id": "ada1945b-0bed-46c8-a7ee-48eec0278941",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "利用遗传算法对美股新上市股票价格进行预测分析，属于金融量化分析范畴。",
+        "keywords": [
+          "遗传算法",
+          "股价预测",
+          "新股",
+          "金融分析",
+          "股票市场"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T04:04:28.208956Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.364
+    }
+  ],
   "journal": {
     "id": "619c5473-e0d9-42e7-94c4-c5cd15034ffd",
     "note_id": "ada1945b-0bed-46c8-a7ee-48eec0278941",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T04:04:28.208793Z",
+    "latency_seconds": 9.203519625007175,
+    "attempts": 1,
+    "summary": {
+      "summary": "利用遗传算法对美股新上市股票价格进行预测分析，属于金融量化分析范畴。",
+      "keywords": [
+        "遗传算法",
+        "股价预测",
+        "新股",
+        "金融分析",
+        "股票市场"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.364,
+      "metrics": {
+        "input_chars": 96.0,
+        "input_lines": 6.0,
+        "summary_chars": 34.0,
+        "summary_coverage_ratio": 0.354,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.8
+      }
+    }
   }
 }

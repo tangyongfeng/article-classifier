@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "cc2fae6a-66f1-4435-886e-14f130242d4b",
+      "note_id": "eb70e01a-25ed-4b07-a047-e9854fd1837b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语最常见的50个不规则动词列表，包含原形、现在时、过去式及第二分词，用于语言学习语法参考。",
+        "keywords": [
+          "德语",
+          "不规则动词",
+          "语法",
+          "动词",
+          "语言学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:51:34.868136Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.194
+    }
+  ],
   "journal": {
     "id": "1917ff91-884d-4d5c-ab5c-0bf1d3a22a2e",
     "note_id": "eb70e01a-25ed-4b07-a047-e9854fd1837b",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:51:34.867874Z",
+    "latency_seconds": 42.345498458016664,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语最常见的50个不规则动词列表，包含原形、现在时、过去式及第二分词，用于语言学习语法参考。",
+      "keywords": [
+        "德语",
+        "不规则动词",
+        "语法",
+        "动词",
+        "语言学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.194,
+      "metrics": {
+        "input_chars": 2978.0,
+        "input_lines": 346.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.015,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 178.7
+      }
+    }
   }
 }

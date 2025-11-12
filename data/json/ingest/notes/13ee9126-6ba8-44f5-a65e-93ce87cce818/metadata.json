@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d4813c1d-0767-47e0-b782-deef831c79f2",
+      "note_id": "13ee9126-6ba8-44f5-a65e-93ce87cce818",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供全球5000多个公共IPTV频道的列表，支持M3U播放列表格式，可直接在兼容播放器中使用，并附开源代码链接。",
+        "keywords": [
+          "IPTV",
+          "频道列表",
+          "M3U",
+          "播放器",
+          "开源"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:17:36.935100Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.413
+    }
+  ],
   "journal": {
     "id": "bf39cac6-4d58-437d-88ff-f8ff8f4389ee",
     "note_id": "13ee9126-6ba8-44f5-a65e-93ce87cce818",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:17:36.934947Z",
+    "latency_seconds": 48.82981529191602,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供全球5000多个公共IPTV频道的列表，支持M3U播放列表格式，可直接在兼容播放器中使用，并附开源代码链接。",
+      "keywords": [
+        "IPTV",
+        "频道列表",
+        "M3U",
+        "播放器",
+        "开源"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.413,
+      "metrics": {
+        "input_chars": 263.0,
+        "input_lines": 7.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.213,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.8
+      }
+    }
   }
 }

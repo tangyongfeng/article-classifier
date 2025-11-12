@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d69ef9d0-8f9c-4567-9c96-af6490fb33eb",
+      "note_id": "196d57a8-10fb-4bfd-882b-d1c2f22df18c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "圆觉经为佛教重要经典，属中国佛教文化核心文献，应归入历史类中国历史子类。",
+        "keywords": [
+          "圆觉经",
+          "佛教经典",
+          "中国历史",
+          "宗教文献",
+          "佛教文化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:43:12.552892Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.254
+    }
+  ],
   "journal": {
     "id": "a08fe7d1-7699-4290-922f-273c3f102b19",
     "note_id": "196d57a8-10fb-4bfd-882b-d1c2f22df18c",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:43:12.552742Z",
+    "latency_seconds": 24.418768542003818,
+    "attempts": 3,
+    "summary": {
+      "summary": "圆觉经为佛教重要经典，属中国佛教文化核心文献，应归入历史类中国历史子类。",
+      "keywords": [
+        "圆觉经",
+        "佛教经典",
+        "中国历史",
+        "宗教文献",
+        "佛教文化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.254,
+      "metrics": {
+        "input_chars": 142.0,
+        "input_lines": 8.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.254,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.5
+      }
+    }
   }
 }

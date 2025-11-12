@@ -1,0 +1,28 @@
+{
+  "id": "52d34c5b-b986-4f54-913d-ec5431ef5454",
+  "note_id": "d9557ee8-2cba-4df9-9d97-1555cf58297f",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "详细介绍了Google、Yahoo、新浪等平台获取实时股票数据的API接口，包括URL结构、数据字段解析及多股票查询示例。",
+    "keywords": [
+      "股票数据",
+      "API接口",
+      "Google财经",
+      "Yahoo财经",
+      "新浪股票"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T08:08:27.894304Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.134
+}

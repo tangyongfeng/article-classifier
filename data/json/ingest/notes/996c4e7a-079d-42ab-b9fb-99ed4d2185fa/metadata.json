@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "74fe07e7-74a1-412f-bb4c-fcc5807d2fdc",
+      "note_id": "996c4e7a-079d-42ab-b9fb-99ed4d2185fa",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "东德（DDR）的领土现属于德国的梅克伦堡-前波莫瑞、勃兰登堡、萨克森、萨克森-安哈尔特和图林根州，东柏林的纳入存在争议。",
+        "keywords": [
+          "东德",
+          "德国历史",
+          "联邦州",
+          "东柏林",
+          "领土"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "德国历史",
+          "东德"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:28:51.375607Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.137
+    }
+  ],
   "journal": {
     "id": "c5526412-83d8-4a09-837f-802f925a52bf",
     "note_id": "996c4e7a-079d-42ab-b9fb-99ed4d2185fa",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:28:51.375437Z",
+    "latency_seconds": 39.109747166978195,
+    "attempts": 2,
+    "summary": {
+      "summary": "东德（DDR）的领土现属于德国的梅克伦堡-前波莫瑞、勃兰登堡、萨克森、萨克森-安哈尔特和图林根州，东柏林的纳入存在争议。",
+      "keywords": [
+        "东德",
+        "德国历史",
+        "联邦州",
+        "东柏林",
+        "领土"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "德国历史",
+        "东德"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.137,
+      "metrics": {
+        "input_chars": 430.0,
+        "input_lines": 14.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.14,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 25.8
+      }
+    }
   }
 }

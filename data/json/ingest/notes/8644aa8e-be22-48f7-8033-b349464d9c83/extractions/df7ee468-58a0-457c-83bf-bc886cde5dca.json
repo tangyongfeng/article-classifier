@@ -1,0 +1,29 @@
+{
+  "id": "df7ee468-58a0-457c-83bf-bc886cde5dca",
+  "note_id": "8644aa8e-be22-48f7-8033-b349464d9c83",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "该推文内容聚焦德语语法学习，属于语言学习分类下的德语语法子类，与现有分类体系中的'Language Learning > German > Grammar'匹配",
+    "keywords": [
+      "德语",
+      "语法",
+      "语言学习",
+      "德语语法",
+      "语法学习"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Grammar"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:05:15.588955Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.203
+}

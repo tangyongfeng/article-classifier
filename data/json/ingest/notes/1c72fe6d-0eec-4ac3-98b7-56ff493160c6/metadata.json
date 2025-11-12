@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c746ffdf-7a6f-4ea8-97d8-088d2f654a57",
+      "note_id": "1c72fe6d-0eec-4ac3-98b7-56ff493160c6",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "互联网企业采用扁平小团队模式，通过文化和价值观统一思想，用利益激励团队创新，减少规则约束。",
+        "keywords": [
+          "互联网企业",
+          "扁平化团队",
+          "文化价值观",
+          "激励机制",
+          "团队创新"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:05:55.272131Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.2
+    }
+  ],
   "journal": {
     "id": "207280cc-750a-4fe9-b0dd-2b1c830d8985",
     "note_id": "1c72fe6d-0eec-4ac3-98b7-56ff493160c6",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:05:55.271965Z",
+    "latency_seconds": 24.266612333012745,
+    "attempts": 1,
+    "summary": {
+      "summary": "互联网企业采用扁平小团队模式，通过文化和价值观统一思想，用利益激励团队创新，减少规则约束。",
+      "keywords": [
+        "互联网企业",
+        "扁平化团队",
+        "文化价值观",
+        "激励机制",
+        "团队创新"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.2,
+      "metrics": {
+        "input_chars": 309.0,
+        "input_lines": 8.0,
+        "summary_chars": 45.0,
+        "summary_coverage_ratio": 0.146,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 18.5
+      }
+    }
   }
 }

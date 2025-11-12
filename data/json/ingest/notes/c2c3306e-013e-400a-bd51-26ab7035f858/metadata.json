@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "431eda05-9976-48ff-b02a-af9358b7521c",
+      "note_id": "c2c3306e-013e-400a-bd51-26ab7035f858",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Ubuntu 20系统下OpenEdX平台的安装步骤，涉及MySQL配置及libgnutls28-dev依赖问题的解决方法。",
+        "keywords": [
+          "OpenEdX",
+          "Ubuntu",
+          "MySQL",
+          "aptitude",
+          "安装"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:57:55.966317Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.47
+    }
+  ],
   "journal": {
     "id": "a297b2e1-8463-45b7-b144-01575560c2ad",
     "note_id": "c2c3306e-013e-400a-bd51-26ab7035f858",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:57:55.966160Z",
+    "latency_seconds": 19.75455166597385,
+    "attempts": 1,
+    "summary": {
+      "summary": "Ubuntu 20系统下OpenEdX平台的安装步骤，涉及MySQL配置及libgnutls28-dev依赖问题的解决方法。",
+      "keywords": [
+        "OpenEdX",
+        "Ubuntu",
+        "MySQL",
+        "aptitude",
+        "安装"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.47,
+      "metrics": {
+        "input_chars": 301.0,
+        "input_lines": 17.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.206,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 18.1
+      }
+    }
   }
 }

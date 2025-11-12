@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b71c0c61-0808-4d51-a4cd-851e1948ee55",
+      "note_id": "806df4e8-b45c-4c45-856e-ac47f6adc898",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: BlackJack术语表 updated: 2016-12-21 13:07:28Z created: 2016-12-21 13:07:",
+        "keywords": [
+          "---",
+          "title: BlackJack术语表",
+          "updated: 2016-12-21 13:07:28Z",
+          "created: 2016-12-21 13:07:12Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:37:51.919223Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "9894b898-41bb-4d47-84d9-dd4a5e4df668",
     "note_id": "806df4e8-b45c-4c45-856e-ac47f6adc898",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T00:37:51.918765Z",
+    "latency_seconds": 31.408260334050283,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: BlackJack术语表 updated: 2016-12-21 13:07:28Z created: 2016-12-21 13:07:",
+      "keywords": [
+        "---",
+        "title: BlackJack术语表",
+        "updated: 2016-12-21 13:07:28Z",
+        "created: 2016-12-21 13:07:12Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 5680.0,
+        "input_lines": 104.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.014,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 340.8
+      }
+    }
   }
 }

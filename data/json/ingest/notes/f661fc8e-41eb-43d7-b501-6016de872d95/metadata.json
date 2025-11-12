@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "66f7eafd-17d4-4730-9dd5-f11c113d727c",
+      "note_id": "f661fc8e-41eb-43d7-b501-6016de872d95",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "梳理德语动词'liegen'的介词搭配用法，包括liegen in（存在于）、liegen bei（达到数字）、liegen an（原因）等语法结构。",
+        "keywords": [
+          "德语",
+          "动词",
+          "介词搭配",
+          "语法",
+          "liegen"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:34:11.081181Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.344
+    }
+  ],
   "journal": {
     "id": "5b584b64-18f1-40e0-9317-e66cafe2f078",
     "note_id": "f661fc8e-41eb-43d7-b501-6016de872d95",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:34:11.080910Z",
+    "latency_seconds": 24.708198542008176,
+    "attempts": 1,
+    "summary": {
+      "summary": "梳理德语动词'liegen'的介词搭配用法，包括liegen in（存在于）、liegen bei（达到数字）、liegen an（原因）等语法结构。",
+      "keywords": [
+        "德语",
+        "动词",
+        "介词搭配",
+        "语法",
+        "liegen"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.344,
+      "metrics": {
+        "input_chars": 999.0,
+        "input_lines": 14.0,
+        "summary_chars": 75.0,
+        "summary_coverage_ratio": 0.075,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 59.9
+      }
+    }
   }
 }

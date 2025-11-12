@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "78b9ebf1-0dfb-4196-a262-365dda53d4f9",
+      "note_id": "4dc72d15-1c5b-4a12-8d1b-4ac755cb7a97",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "用户留存的核心是通过社交功能、竞争系统和成就感提升用户参与度；流失主因包括挫败感、高难度障碍、目标缺失及缺乏成就。",
+        "keywords": [
+          "用户留存",
+          "社交功能",
+          "竞争系统",
+          "成就感",
+          "挫败感"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:03:56.879859Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.419
+    }
+  ],
   "journal": {
     "id": "11bf2478-98b7-4798-a9ae-a9d12547f902",
     "note_id": "4dc72d15-1c5b-4a12-8d1b-4ac755cb7a97",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:03:56.879732Z",
+    "latency_seconds": 38.89485312497709,
+    "attempts": 1,
+    "summary": {
+      "summary": "用户留存的核心是通过社交功能、竞争系统和成就感提升用户参与度；流失主因包括挫败感、高难度障碍、目标缺失及缺乏成就。",
+      "keywords": [
+        "用户留存",
+        "社交功能",
+        "竞争系统",
+        "成就感",
+        "挫败感"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.419,
+      "metrics": {
+        "input_chars": 543.0,
+        "input_lines": 20.0,
+        "summary_chars": 57.0,
+        "summary_coverage_ratio": 0.105,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 32.6
+      }
+    }
   }
 }

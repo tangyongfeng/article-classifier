@@ -1,0 +1,28 @@
+{
+  "id": "da5493b0-a5b1-4d97-a0ec-5444b8d954d1",
+  "note_id": "dac39033-9917-4ab8-a438-a315919c4c25",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "介绍随机MAC地址的定义、设备支持情况及常用查询工具，包括IEEE官网和第三方网站。",
+    "keywords": [
+      "MAC地址",
+      "随机MAC",
+      "查询工具",
+      "IEEE",
+      "Wi-Fi"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T08:19:34.016977Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.332
+}

@@ -1,0 +1,28 @@
+{
+  "id": "d947cbf2-fea6-4209-bdf4-6c2e574ec08f",
+  "note_id": "e33b51e6-4163-4014-a8e4-2ef248ba82bf",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "用户撰写德语邮件，计划夏季拜访加拿大朋友Nico，询问住宿细节、家庭成员及礼物安排。",
+    "keywords": [
+      "德语",
+      "邮件",
+      "加拿大",
+      "拜访",
+      "家庭"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:12:33.823588Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.092
+}

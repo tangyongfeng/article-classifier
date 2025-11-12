@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "500e4624-c0ae-498e-82e3-835686bcfe27",
+      "note_id": "428557bb-7c7b-4b1e-8c47-794a49cdf91b",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "代购服务涵盖原版书籍、珍珠、红茶、电子产品等商品的跨境采购，常见于跨境购物场景。",
+        "keywords": [
+          "代购",
+          "原版书籍",
+          "珍珠",
+          "红茶",
+          "电子产品"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:37:23.545960Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.438
+    }
+  ],
   "journal": {
     "id": "ddd72d59-77bc-4aca-90dd-8fe39bb9cf51",
     "note_id": "428557bb-7c7b-4b1e-8c47-794a49cdf91b",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:37:23.545822Z",
+    "latency_seconds": 27.880329916020855,
+    "attempts": 1,
+    "summary": {
+      "summary": "代购服务涵盖原版书籍、珍珠、红茶、电子产品等商品的跨境采购，常见于跨境购物场景。",
+      "keywords": [
+        "代购",
+        "原版书籍",
+        "珍珠",
+        "红茶",
+        "电子产品"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.438,
+      "metrics": {
+        "input_chars": 152.0,
+        "input_lines": 14.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.263,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.1
+      }
+    }
   }
 }

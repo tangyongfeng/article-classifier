@@ -1,0 +1,27 @@
+{
+  "id": "e1320f1f-b1ab-4c38-a4da-825eb3fbfd2e",
+  "note_id": "28c56353-310d-4526-bd9b-b3c8d2283a11",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "移民服务产品设计需突出可靠性、隐私保护与高性价比，满足高价值客户信任需求，针对不同客户群定制服务方案。",
+    "keywords": [
+      "移民",
+      "产品设计",
+      "可靠性",
+      "隐私保护",
+      "高价值客户"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T16:56:37.614396Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.386
+}

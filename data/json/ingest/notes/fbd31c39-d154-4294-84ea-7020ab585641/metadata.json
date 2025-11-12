@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b0863251-5673-4931-9e5e-f541f177a954",
+      "note_id": "fbd31c39-d154-4294-84ea-7020ab585641",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记内容涉及SQL查询语句，用于从数据库分类表中检索特定名称，属于技术应用范畴。",
+        "keywords": [
+          "SQL",
+          "数据库",
+          "查询",
+          "分类",
+          "技术"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:05:27.505532Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.193
+    }
+  ],
   "journal": {
     "id": "7582b5d4-3944-40c5-bf17-2826ceec06e5",
     "note_id": "fbd31c39-d154-4294-84ea-7020ab585641",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:05:27.505241Z",
+    "latency_seconds": 18.68131816701498,
+    "attempts": 3,
+    "summary": {
+      "summary": "笔记内容涉及SQL查询语句，用于从数据库分类表中检索特定名称，属于技术应用范畴。",
+      "keywords": [
+        "SQL",
+        "数据库",
+        "查询",
+        "分类",
+        "技术"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.193,
+      "metrics": {
+        "input_chars": 301.0,
+        "input_lines": 13.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.133,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 18.1
+      }
+    }
   }
 }

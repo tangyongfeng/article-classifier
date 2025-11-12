@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bf16a2b7-b63c-42b2-b780-d345fc37d776",
+      "note_id": "be002a8b-1ed4-4cb7-8424-ba43c5e57295",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "FreeBSD系统中通过修改~/.login_conf文件设置UTF-8字符编码的配置方法",
+        "keywords": [
+          "FreeBSD",
+          "UTF-8",
+          "系统配置",
+          "字符编码",
+          "登录配置"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "System Configuration"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:34:51.268607Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.312
+    }
+  ],
   "journal": {
     "id": "f0cc2f39-dbb2-488a-9905-1b45231b2a50",
     "note_id": "be002a8b-1ed4-4cb7-8424-ba43c5e57295",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:34:51.268432Z",
+    "latency_seconds": 43.68446454196237,
+    "attempts": 1,
+    "summary": {
+      "summary": "FreeBSD系统中通过修改~/.login_conf文件设置UTF-8字符编码的配置方法",
+      "keywords": [
+        "FreeBSD",
+        "UTF-8",
+        "系统配置",
+        "字符编码",
+        "登录配置"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "System Configuration"
+      ]
+    },
+    "quality": {
+      "score": 0.312,
+      "metrics": {
+        "input_chars": 180.0,
+        "input_lines": 18.0,
+        "summary_chars": 45.0,
+        "summary_coverage_ratio": 0.25,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 10.8
+      }
+    }
   }
 }

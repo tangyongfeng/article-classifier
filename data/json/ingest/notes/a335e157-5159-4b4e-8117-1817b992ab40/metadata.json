@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7fae1958-3bc7-4771-b59c-669ec1a6d6df",
+      "note_id": "a335e157-5159-4b4e-8117-1817b992ab40",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记列出洛杉矶地区月子中心及民宿的详细地址、电话等联系方式，包括小太阳月子中心、怀安待产民宿等具体位置信息。",
+        "keywords": [
+          "月子中心",
+          "民宿",
+          "地址",
+          "电话",
+          "洛杉矶"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Accommodation"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:24:41.734691Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.334
+    }
+  ],
   "journal": {
     "id": "394ff2e9-fe5b-45f3-ad6b-55cab557fb39",
     "note_id": "a335e157-5159-4b4e-8117-1817b992ab40",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:24:41.734381Z",
+    "latency_seconds": 38.084585958044045,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记列出洛杉矶地区月子中心及民宿的详细地址、电话等联系方式，包括小太阳月子中心、怀安待产民宿等具体位置信息。",
+      "keywords": [
+        "月子中心",
+        "民宿",
+        "地址",
+        "电话",
+        "洛杉矶"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Accommodation"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.334,
+      "metrics": {
+        "input_chars": 997.0,
+        "input_lines": 48.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.054,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 59.8
+      }
+    }
   }
 }

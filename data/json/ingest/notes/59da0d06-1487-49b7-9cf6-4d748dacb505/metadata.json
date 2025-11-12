@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "180acac4-de14-4c18-b5e8-96c22457e3b5",
+      "note_id": "59da0d06-1487-49b7-9cf6-4d748dacb505",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录2013年股票交易明细，包括买入卖出价格、日期及具体股票代码如牛卡、金自天正等。",
+        "keywords": [
+          "股票",
+          "交易",
+          "价格",
+          "日期",
+          "记录"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:22:40.141758Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "907b51af-fe01-4ab6-9bc0-403f7c5115db",
     "note_id": "59da0d06-1487-49b7-9cf6-4d748dacb505",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:22:40.141512Z",
+    "latency_seconds": 29.90442787494976,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录2013年股票交易明细，包括买入卖出价格、日期及具体股票代码如牛卡、金自天正等。",
+      "keywords": [
+        "股票",
+        "交易",
+        "价格",
+        "日期",
+        "记录"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 964.0,
+        "input_lines": 36.0,
+        "summary_chars": 42.0,
+        "summary_coverage_ratio": 0.044,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 57.8
+      }
+    }
   }
 }

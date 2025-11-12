@@ -1,0 +1,28 @@
+{
+  "id": "32191b4c-1856-408d-b371-330a19f78fea",
+  "note_id": "ce17130a-3892-4c7e-a503-5a6bfe8ab7ca",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "阅文合约指网络文学平台阅文与作者间的版权及合作条款，涉及内容授权与收益分配，属商务合作范畴。",
+    "keywords": [
+      "阅文",
+      "合约",
+      "版权",
+      "网络文学",
+      "合作"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:16:40.368781Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.478
+}

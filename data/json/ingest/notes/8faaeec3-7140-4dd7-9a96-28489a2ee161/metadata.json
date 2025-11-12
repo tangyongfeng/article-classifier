@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4065f482-a679-4ebc-92f6-dd08d32a4e31",
+      "note_id": "8faaeec3-7140-4dd7-9a96-28489a2ee161",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "2012年11月15日至2013年4月30日期间，预订AVIS安飞士租车可使用优惠码H228201享受折扣。",
+        "keywords": [
+          "优惠码",
+          "租车",
+          "AVIS安飞士",
+          "促销",
+          "旅行"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:51:01.040160Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.43
+    }
+  ],
   "journal": {
     "id": "853a0ca5-065d-4689-958f-b6180f547781",
     "note_id": "8faaeec3-7140-4dd7-9a96-28489a2ee161",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:51:01.040016Z",
+    "latency_seconds": 35.88250333396718,
+    "attempts": 1,
+    "summary": {
+      "summary": "2012年11月15日至2013年4月30日期间，预订AVIS安飞士租车可使用优惠码H228201享受折扣。",
+      "keywords": [
+        "优惠码",
+        "租车",
+        "AVIS安飞士",
+        "促销",
+        "旅行"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.43,
+      "metrics": {
+        "input_chars": 147.0,
+        "input_lines": 6.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.367,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.8
+      }
+    }
   }
 }

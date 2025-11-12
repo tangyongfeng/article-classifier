@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9c08e30f-bfed-4af7-b4f8-6f39852a993c",
+      "note_id": "ec5cdf94-0bea-419a-825d-7f6e514413c1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "洛杉矶海关加强检查，建议赴美生子妈妈选择其他城市入关或生产；注意时间规划（妈妈1周、爸爸3周），危机时可找律师延期或以肚子痛避免入境拒载。",
+        "keywords": [
+          "赴美生子",
+          "海关检查",
+          "入境",
+          "法律延期",
+          "生活规划"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展",
+          "生活规划"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:56:43.951684Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.204
+    }
+  ],
   "journal": {
     "id": "0453d618-0cab-4b9e-996d-61172d63f026",
     "note_id": "ec5cdf94-0bea-419a-825d-7f6e514413c1",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:56:43.951501Z",
+    "latency_seconds": 87.23440587497316,
+    "attempts": 1,
+    "summary": {
+      "summary": "洛杉矶海关加强检查，建议赴美生子妈妈选择其他城市入关或生产；注意时间规划（妈妈1周、爸爸3周），危机时可找律师延期或以肚子痛避免入境拒载。",
+      "keywords": [
+        "赴美生子",
+        "海关检查",
+        "入境",
+        "法律延期",
+        "生活规划"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展",
+        "生活规划"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.204,
+      "metrics": {
+        "input_chars": 446.0,
+        "input_lines": 16.0,
+        "summary_chars": 69.0,
+        "summary_coverage_ratio": 0.155,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 26.8
+      }
+    }
   }
 }

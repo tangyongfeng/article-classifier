@@ -1,0 +1,27 @@
+{
+  "id": "f42c60cc-cba5-498c-b535-af5a331016aa",
+  "note_id": "4258c783-61c3-48b0-ae6b-58d41da3d241",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本文讲解Python函数中关键字参数（**kw）和命名关键字参数（*后参数名）的定义、用法及示例，说明其如何接收任意命名参数并扩展函数功能。",
+    "keywords": [
+      "Python",
+      "函数参数",
+      "关键字参数",
+      "命名关键字参数",
+      "可变参数"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:36:22.617429Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.319
+}

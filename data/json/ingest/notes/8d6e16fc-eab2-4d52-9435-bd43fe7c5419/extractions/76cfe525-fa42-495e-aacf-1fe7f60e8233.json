@@ -1,0 +1,32 @@
+{
+  "id": "76cfe525-fa42-495e-aacf-1fe7f60e8233",
+  "note_id": "8d6e16fc-eab2-4d52-9435-bd43fe7c5419",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "C#代码实现Code 128条码生成，通过指定字体显示数字与条码，涉及字体设置与图形渲染。",
+    "keywords": [
+      "C#",
+      "条码",
+      "Code 128",
+      "字体",
+      "编程"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": [
+      "技术",
+      "编程",
+      "条码"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T01:35:10.158159Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.331
+}

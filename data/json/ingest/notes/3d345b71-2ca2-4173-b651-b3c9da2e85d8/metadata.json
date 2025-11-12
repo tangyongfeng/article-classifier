@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a49bbd4d-3168-4dd9-88c1-993f3f35c23f",
+      "note_id": "3d345b71-2ca2-4173-b651-b3c9da2e85d8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "详解股市集合竞价规则，包括9:15-9:25开盘阶段、撤单机制及成交原则，助投资者把握交易时机。",
+        "keywords": [
+          "集合竞价",
+          "股市",
+          "股票交易",
+          "开盘规则",
+          "撤单"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:20:59.850418Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.254
+    }
+  ],
   "journal": {
     "id": "0cb342a9-c811-46c5-a9c6-2f9b36694ff0",
     "note_id": "3d345b71-2ca2-4173-b651-b3c9da2e85d8",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:20:59.850186Z",
+    "latency_seconds": 18.00497050001286,
+    "attempts": 1,
+    "summary": {
+      "summary": "详解股市集合竞价规则，包括9:15-9:25开盘阶段、撤单机制及成交原则，助投资者把握交易时机。",
+      "keywords": [
+        "集合竞价",
+        "股市",
+        "股票交易",
+        "开盘规则",
+        "撤单"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.254,
+      "metrics": {
+        "input_chars": 3142.0,
+        "input_lines": 55.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.015,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 188.5
+      }
+    }
   }
 }

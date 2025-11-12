@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4f3ddc57-70a3-485b-b03d-5953df2ab52c",
+      "note_id": "4aa8e81f-12f9-4ca4-8a2f-22b61ce50f1e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "唐人神公司主营猪饲料、种猪及生鲜肉生产，位于长沙，涉及可转换债券（唐人转债128092）。",
+        "keywords": [
+          "唐人神",
+          "猪饲料",
+          "种猪",
+          "生鲜肉",
+          "可转换债券"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:35:22.733174Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.451
+    }
+  ],
   "journal": {
     "id": "a1a32665-ff52-40c8-9724-c96ca1c929de",
     "note_id": "4aa8e81f-12f9-4ca4-8a2f-22b61ce50f1e",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:35:22.733032Z",
+    "latency_seconds": 16.628754833014682,
+    "attempts": 1,
+    "summary": {
+      "summary": "唐人神公司主营猪饲料、种猪及生鲜肉生产，位于长沙，涉及可转换债券（唐人转债128092）。",
+      "keywords": [
+        "唐人神",
+        "猪饲料",
+        "种猪",
+        "生鲜肉",
+        "可转换债券"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.451,
+      "metrics": {
+        "input_chars": 156.0,
+        "input_lines": 7.0,
+        "summary_chars": 45.0,
+        "summary_coverage_ratio": 0.288,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.4
+      }
+    }
   }
 }

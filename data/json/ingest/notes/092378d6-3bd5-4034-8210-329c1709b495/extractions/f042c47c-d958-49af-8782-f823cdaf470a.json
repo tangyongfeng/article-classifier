@@ -1,0 +1,29 @@
+{
+  "id": "f042c47c-d958-49af-8782-f823cdaf470a",
+  "note_id": "092378d6-3bd5-4034-8210-329c1709b495",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "小米2013年营收265.8亿元，净利润率仅1.5%，低于制造业5%安全线，财务风险极高，需警惕杠杆经营危机。",
+    "keywords": [
+      "小米",
+      "财务",
+      "利润率",
+      "制造业",
+      "风险"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Finance",
+      "Stock Market",
+      "Company Analysis"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:09:04.782718Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.272
+}

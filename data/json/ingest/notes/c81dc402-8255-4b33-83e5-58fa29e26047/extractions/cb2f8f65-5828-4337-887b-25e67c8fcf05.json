@@ -1,0 +1,27 @@
+{
+  "id": "cb2f8f65-5828-4337-887b-25e67c8fcf05",
+  "note_id": "c81dc402-8255-4b33-83e5-58fa29e26047",
+  "extractor": "llm_enhance:v0#fallback",
+  "payload": {
+    "summary": "--- title: Node.js 究竟是什么？ updated: 2013-06-21 07:17:47Z created: 2013-06-21 07:1",
+    "keywords": [
+      "---",
+      "title: Node.js 究竟是什么？",
+      "updated: 2013-06-21 07:17:47Z",
+      "created: 2013-06-21 07:10:37Z",
+      "source: http://www.ibm.com/developerworks/cn/opensource/os-nodejs/"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "fallback",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:42:34.092122Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.148
+}

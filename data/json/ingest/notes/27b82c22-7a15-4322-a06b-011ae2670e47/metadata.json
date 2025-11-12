@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ec35c12b-d19a-4ea6-aec0-d92aeaaac6cf",
+      "note_id": "27b82c22-7a15-4322-a06b-011ae2670e47",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "庭审程序要点涉及谈话、公示及制度修订等关键环节。",
+        "keywords": [
+          "庭审",
+          "谈话",
+          "公示",
+          "制度修订",
+          "司法"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区"
+        ],
+        "new_category_suggestion": [
+          "Legal",
+          "Court Proceedings"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:50:20.548379Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.35
+    }
+  ],
   "journal": {
     "id": "8bb08ef8-ef51-4520-81c4-48daae23299c",
     "note_id": "27b82c22-7a15-4322-a06b-011ae2670e47",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:50:20.548196Z",
+    "latency_seconds": 76.05606104200706,
+    "attempts": 1,
+    "summary": {
+      "summary": "庭审程序要点涉及谈话、公示及制度修订等关键环节。",
+      "keywords": [
+        "庭审",
+        "谈话",
+        "公示",
+        "制度修订",
+        "司法"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区"
+      ],
+      "new_category_suggestion": [
+        "Legal",
+        "Court Proceedings"
+      ]
+    },
+    "quality": {
+      "score": 0.35,
+      "metrics": {
+        "input_chars": 116.0,
+        "input_lines": 9.0,
+        "summary_chars": 24.0,
+        "summary_coverage_ratio": 0.207,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.0
+      }
+    }
   }
 }

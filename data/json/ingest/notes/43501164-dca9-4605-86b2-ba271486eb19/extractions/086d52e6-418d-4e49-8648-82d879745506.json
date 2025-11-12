@@ -1,0 +1,27 @@
+{
+  "id": "086d52e6-418d-4e49-8648-82d879745506",
+  "note_id": "43501164-dca9-4605-86b2-ba271486eb19",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "无标题笔记，内容缺失，需补充信息。",
+    "keywords": [
+      "无标题",
+      "内容缺失",
+      "待补充",
+      "笔记",
+      "未分类"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T18:44:26.519368Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.263
+}

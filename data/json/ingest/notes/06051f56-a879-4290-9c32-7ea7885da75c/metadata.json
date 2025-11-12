@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5b14e4ee-3414-4bdf-ba58-927d5dbc1d7d",
+      "note_id": "06051f56-a879-4290-9c32-7ea7885da75c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记无标题且内容为空，需补充信息后重新分类。",
+        "keywords": [
+          "无标题",
+          "空笔记",
+          "未分类",
+          "待整理",
+          "无内容"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T13:57:28.830760Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.27
+    }
+  ],
   "journal": {
     "id": "8349a077-53ff-4fb3-8c72-53dc7320e082",
     "note_id": "06051f56-a879-4290-9c32-7ea7885da75c",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T13:57:28.830598Z",
+    "latency_seconds": 24.157403458026238,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记无标题且内容为空，需补充信息后重新分类。",
+      "keywords": [
+        "无标题",
+        "空笔记",
+        "未分类",
+        "待整理",
+        "无内容"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.27,
+      "metrics": {
+        "input_chars": 80.0,
+        "input_lines": 5.0,
+        "summary_chars": 23.0,
+        "summary_coverage_ratio": 0.287,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.8
+      }
+    }
   }
 }

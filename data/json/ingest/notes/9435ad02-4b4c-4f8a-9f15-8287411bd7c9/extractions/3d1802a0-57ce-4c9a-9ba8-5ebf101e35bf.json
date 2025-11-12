@@ -1,0 +1,27 @@
+{
+  "id": "3d1802a0-57ce-4c9a-9ba8-5ebf101e35bf",
+  "note_id": "9435ad02-4b4c-4f8a-9f15-8287411bd7c9",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "无具体内容的笔记，需归类至语言学习类别，符合现有分类体系。",
+    "keywords": [
+      "语言学习",
+      "笔记分类",
+      "教育",
+      "分类体系",
+      "未指定"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:07:35.478665Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.248
+}

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "64c97d6c-db00-4f69-8155-7e711f4a7576",
+      "note_id": "fd9d17ca-e81e-41f2-92ca-dc1f38ce6803",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德国日常生活中的罚款条例，涉及环保、公共秩序等违规行为，各联邦州罚款标准不一，最高可达数万欧元。",
+        "keywords": [
+          "德国",
+          "罚款",
+          "生活",
+          "违规",
+          "联邦州"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区",
+          "德国"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:18:06.787226Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.391
+    }
+  ],
   "journal": {
     "id": "45a2f1eb-6be2-4fc3-8661-1d5ea5aa03e0",
     "note_id": "fd9d17ca-e81e-41f2-92ca-dc1f38ce6803",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T11:18:06.787088Z",
+    "latency_seconds": 20.175870792008936,
+    "attempts": 1,
+    "summary": {
+      "summary": "德国日常生活中的罚款条例，涉及环保、公共秩序等违规行为，各联邦州罚款标准不一，最高可达数万欧元。",
+      "keywords": [
+        "德国",
+        "罚款",
+        "生活",
+        "违规",
+        "联邦州"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区",
+        "德国"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.391,
+      "metrics": {
+        "input_chars": 1007.0,
+        "input_lines": 20.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.048,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 60.4
+      }
+    }
   }
 }

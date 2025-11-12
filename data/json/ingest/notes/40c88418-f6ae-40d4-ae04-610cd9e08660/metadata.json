@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "428f2fe8-8ad7-4dcf-8b9c-610f1067cef7",
+      "note_id": "40c88418-f6ae-40d4-ae04-610cd9e08660",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 中文学校：ABC成长的烦恼 updated: 2018-10-17 07:10:56Z created: 2018-10-17 07:10",
+        "keywords": [
+          "---",
+          "title: 中文学校：ABC成长的烦恼",
+          "updated: 2018-10-17 07:10:56Z",
+          "created: 2018-10-17 07:10:03Z",
+          "我大学第一堂中文课，老师问了一个让我念念不忘的问题：“告诉我，华裔在美国受歧视吗？”"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:34:17.347173Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "a8edc3d0-249a-4ee0-a992-e75bcb3c9392",
     "note_id": "40c88418-f6ae-40d4-ae04-610cd9e08660",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T18:34:17.346859Z",
+    "latency_seconds": 38.315244040917605,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 中文学校：ABC成长的烦恼 updated: 2018-10-17 07:10:56Z created: 2018-10-17 07:10",
+      "keywords": [
+        "---",
+        "title: 中文学校：ABC成长的烦恼",
+        "updated: 2018-10-17 07:10:56Z",
+        "created: 2018-10-17 07:10:03Z",
+        "我大学第一堂中文课，老师问了一个让我念念不忘的问题：“告诉我，华裔在美国受歧视吗？”"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 9160.0,
+        "input_lines": 74.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.009,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 549.6
+      }
+    }
   }
 }

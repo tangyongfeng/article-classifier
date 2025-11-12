@@ -1,0 +1,27 @@
+{
+  "id": "6bf932ba-62e4-4aa9-8d2d-e98105e7c69a",
+  "note_id": "5a8f320c-87ea-4084-b061-3b4246b3e579",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "本标准针对钢铁行业高炉炼铁工艺，规定清洁生产要求，涵盖工艺流程、现状分析及实施建议，旨在提升环保水平和资源利用效率。",
+    "keywords": [
+      "清洁生产",
+      "高炉炼铁",
+      "钢铁行业",
+      "工艺流程",
+      "环保标准"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:24:03.328570Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.326
+}

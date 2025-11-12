@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "408226fd-c790-413e-a3c1-ca1a02c3857b",
+      "note_id": "4add271d-2d93-4226-b329-d64c8498ac46",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供海通证券模拟交易系统的测试账号、密码及使用说明，包括登录绑定流程和下载链接。",
+        "keywords": [
+          "模拟账号",
+          "股票交易",
+          "测试环境",
+          "讯投mini柜台",
+          "下载链接"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:35:38.375843Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.298
+    }
+  ],
   "journal": {
     "id": "57da6cf6-b0dd-4cfa-bee2-65cb48759d93",
     "note_id": "4add271d-2d93-4226-b329-d64c8498ac46",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:35:38.375681Z",
+    "latency_seconds": 15.638626749976538,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供海通证券模拟交易系统的测试账号、密码及使用说明，包括登录绑定流程和下载链接。",
+      "keywords": [
+        "模拟账号",
+        "股票交易",
+        "测试环境",
+        "讯投mini柜台",
+        "下载链接"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.298,
+      "metrics": {
+        "input_chars": 392.0,
+        "input_lines": 18.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.102,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 23.5
+      }
+    }
   }
 }

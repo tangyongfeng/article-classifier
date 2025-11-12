@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "59a7e7f4-3bdb-4dc8-9791-d6daec87e84b",
+      "note_id": "a900efc7-a8f2-4f71-adaf-92f71b815c68",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "六十四卦是《易经》的核心卦象系统，由八卦重叠组合而成，每个卦象征自然现象和哲学概念。笔记详列卦象符号、名称、阴阳属性及对应元素。",
+        "keywords": [
+          "易经",
+          "六十四卦",
+          "八卦",
+          "阴阳",
+          "卦象"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:45:48.260411Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.262
+    }
+  ],
   "journal": {
     "id": "2ec7a1b3-6519-4777-8029-4b39fe4cd7d7",
     "note_id": "a900efc7-a8f2-4f71-adaf-92f71b815c68",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:45:48.260196Z",
+    "latency_seconds": 27.623812624951825,
+    "attempts": 1,
+    "summary": {
+      "summary": "六十四卦是《易经》的核心卦象系统，由八卦重叠组合而成，每个卦象征自然现象和哲学概念。笔记详列卦象符号、名称、阴阳属性及对应元素。",
+      "keywords": [
+        "易经",
+        "六十四卦",
+        "八卦",
+        "阴阳",
+        "卦象"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.262,
+      "metrics": {
+        "input_chars": 2110.0,
+        "input_lines": 359.0,
+        "summary_chars": 64.0,
+        "summary_coverage_ratio": 0.03,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 126.6
+      }
+    }
   }
 }

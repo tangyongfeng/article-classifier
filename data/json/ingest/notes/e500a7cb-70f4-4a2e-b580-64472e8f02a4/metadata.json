@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5c943a81-0ab1-4984-8a45-d3e1a8d1a227",
+      "note_id": "e500a7cb-70f4-4a2e-b580-64472e8f02a4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "博彩公司列表，包含Unibet、Bet365和威廉希尔等在线博彩平台的网址信息。",
+        "keywords": [
+          "博彩",
+          "在线平台",
+          "威廉希尔",
+          "博彩公司",
+          "网站"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:17:41.580508Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.373
+    }
+  ],
   "journal": {
     "id": "14843c97-ca68-4eb7-9771-eabdb4a3dd0b",
     "note_id": "e500a7cb-70f4-4a2e-b580-64472e8f02a4",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:17:41.580329Z",
+    "latency_seconds": 25.400871458929032,
+    "attempts": 1,
+    "summary": {
+      "summary": "博彩公司列表，包含Unibet、Bet365和威廉希尔等在线博彩平台的网址信息。",
+      "keywords": [
+        "博彩",
+        "在线平台",
+        "威廉希尔",
+        "博彩公司",
+        "网站"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.373,
+      "metrics": {
+        "input_chars": 158.0,
+        "input_lines": 9.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.253,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.5
+      }
+    }
   }
 }

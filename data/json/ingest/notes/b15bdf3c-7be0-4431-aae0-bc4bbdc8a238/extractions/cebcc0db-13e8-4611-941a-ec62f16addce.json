@@ -1,0 +1,27 @@
+{
+  "id": "cebcc0db-13e8-4611-941a-ec62f16addce",
+  "note_id": "b15bdf3c-7be0-4431-aae0-bc4bbdc8a238",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "edX在线教育平台报表所需数据库表，包括课程成绩表（grades_persistentsubsectiongrade）和课程数据表（courseware_stu",
+    "keywords": [
+      "edX",
+      "报表",
+      "数据库表",
+      "课程成绩",
+      "课程数据"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:20:35.281583Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.614
+}

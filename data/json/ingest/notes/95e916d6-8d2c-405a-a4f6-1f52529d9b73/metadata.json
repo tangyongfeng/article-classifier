@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "18a4186f-7d35-42b7-b166-5f2daea6dba6",
+      "note_id": "95e916d6-8d2c-405a-a4f6-1f52529d9b73",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "CLO与IBM合作基于WebSphere技术构建高并发彩票移动平台，解决4亿用户规模下的性能与扩展性挑战，属企业技术创新范畴。",
+        "keywords": [
+          "中国彩票在线",
+          "WebSphere Transaction Cluster Facility",
+          "移动互联网架构",
+          "高并发处理",
+          "技术创新"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:19:50.286208Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.135
+    }
+  ],
   "journal": {
     "id": "141c9118-93e5-413f-a674-ffeba1bdce89",
     "note_id": "95e916d6-8d2c-405a-a4f6-1f52529d9b73",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:19:50.285910Z",
+    "latency_seconds": 15.516865624929778,
+    "attempts": 1,
+    "summary": {
+      "summary": "CLO与IBM合作基于WebSphere技术构建高并发彩票移动平台，解决4亿用户规模下的性能与扩展性挑战，属企业技术创新范畴。",
+      "keywords": [
+        "中国彩票在线",
+        "WebSphere Transaction Cluster Facility",
+        "移动互联网架构",
+        "高并发处理",
+        "技术创新"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.135,
+      "metrics": {
+        "input_chars": 3704.0,
+        "input_lines": 42.0,
+        "summary_chars": 63.0,
+        "summary_coverage_ratio": 0.017,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 222.2
+      }
+    }
   }
 }

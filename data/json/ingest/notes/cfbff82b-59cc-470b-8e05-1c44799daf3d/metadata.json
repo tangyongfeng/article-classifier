@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6b5b3e98-9b41-463f-ba7b-0afbd9610721",
+      "note_id": "cfbff82b-59cc-470b-8e05-1c44799daf3d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讨论南京项目软件准备问题，涉及开发工具配置、数据库版本、知识库、版权状态及数据加密方法。",
+        "keywords": [
+          "Visual Studio",
+          "Oracle数据库",
+          "知识库",
+          "版权",
+          "数据加密"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:22:36.295987Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.402
+    }
+  ],
   "journal": {
     "id": "5613f25d-12f0-402c-8265-778199eeca71",
     "note_id": "cfbff82b-59cc-470b-8e05-1c44799daf3d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:22:36.295853Z",
+    "latency_seconds": 45.19517729105428,
+    "attempts": 1,
+    "summary": {
+      "summary": "讨论南京项目软件准备问题，涉及开发工具配置、数据库版本、知识库、版权状态及数据加密方法。",
+      "keywords": [
+        "Visual Studio",
+        "Oracle数据库",
+        "知识库",
+        "版权",
+        "数据加密"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.402,
+      "metrics": {
+        "input_chars": 231.0,
+        "input_lines": 14.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.19,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.9
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "76b80a7a-098e-43df-8aab-d28451a37412",
+  "note_id": "58e88a16-dd80-4ab1-bf34-8ee67732bc55",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "卫生部推广临床路径诊疗方案，使用hadoop技术结合药典代码和疾病代码规范化诊疗流程，北大医院等有成功应用案例。",
+    "keywords": [
+      "临床路径",
+      "hadoop",
+      "药典代码",
+      "疾病代码",
+      "卫生部"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T21:18:57.226810Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.455
+}

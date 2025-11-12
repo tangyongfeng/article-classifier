@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "8df2d0d4-f1f8-45cc-b2ff-c2aee3e12d64",
+      "note_id": "2e7b38d0-c118-4f67-b3d1-1a5e3db8b100",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Infant feeding guide covering taste development, introduction of complementary f",
+        "keywords": [
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T17:18:42.175370Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.078
+    }
+  ],
   "journal": {
     "id": "a159affa-6cc3-4496-8c25-b81c9efc2aeb",
     "note_id": "2e7b38d0-c118-4f67-b3d1-1a5e3db8b100",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T17:18:42.175155Z",
+    "latency_seconds": 48.286711458000354,
+    "attempts": 1,
+    "summary": {
+      "summary": "Infant feeding guide covering taste development, introduction of complementary f",
+      "keywords": [
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.078,
+      "metrics": {
+        "input_chars": 3556.0,
+        "input_lines": 114.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.022,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 213.4
+      }
+    }
   }
 }

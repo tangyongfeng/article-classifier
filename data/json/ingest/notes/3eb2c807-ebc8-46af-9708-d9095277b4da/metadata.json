@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e9018303-d988-4b9f-bbfa-c7b726b3d980",
+      "note_id": "3eb2c807-ebc8-46af-9708-d9095277b4da",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "客户版功能优化健康服务，提供血压心电数据异常提醒及自动下载医生审核的健身计划。",
+        "keywords": [
+          "客户版",
+          "健康服务",
+          "数据提醒",
+          "医生审核",
+          "健身计划"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展"
+        ],
+        "new_category_suggestion": [
+          "健康",
+          "健康 > 健康服务"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:24:26.944290Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.329
+    }
+  ],
   "journal": {
     "id": "fb936fff-5a95-41f2-bf43-55e9a9bc6ae9",
     "note_id": "3eb2c807-ebc8-46af-9708-d9095277b4da",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:24:26.944146Z",
+    "latency_seconds": 34.60780612495728,
+    "attempts": 1,
+    "summary": {
+      "summary": "客户版功能优化健康服务，提供血压心电数据异常提醒及自动下载医生审核的健身计划。",
+      "keywords": [
+        "客户版",
+        "健康服务",
+        "数据提醒",
+        "医生审核",
+        "健身计划"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展"
+      ],
+      "new_category_suggestion": [
+        "健康",
+        "健康 > 健康服务"
+      ]
+    },
+    "quality": {
+      "score": 0.329,
+      "metrics": {
+        "input_chars": 137.0,
+        "input_lines": 8.0,
+        "summary_chars": 39.0,
+        "summary_coverage_ratio": 0.285,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.2
+      }
+    }
   }
 }

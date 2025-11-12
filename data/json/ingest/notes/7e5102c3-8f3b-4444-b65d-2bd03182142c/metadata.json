@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7ae76efd-19b6-4c8f-9420-23dad7375113",
+      "note_id": "7e5102c3-8f3b-4444-b65d-2bd03182142c",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "通过腾讯QQ邮箱代理（gp.mail.qq.com:443）实现Gmail登录，支持白名单域名如*.google.com，可配合SwitchyOmega插件使用",
+        "keywords": [
+          "QQ代理",
+          "Gmail",
+          "代理服务器",
+          "白名单",
+          "SwitchyOmega"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "网络技术",
+          "代理服务"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:22:39.159642Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.42
+    }
+  ],
   "journal": {
     "id": "fe10ac3d-124f-49b5-bda0-6561c13b75fb",
     "note_id": "7e5102c3-8f3b-4444-b65d-2bd03182142c",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:22:39.159468Z",
+    "latency_seconds": 103.20664658292662,
+    "attempts": 1,
+    "summary": {
+      "summary": "通过腾讯QQ邮箱代理（gp.mail.qq.com:443）实现Gmail登录，支持白名单域名如*.google.com，可配合SwitchyOmega插件使用",
+      "keywords": [
+        "QQ代理",
+        "Gmail",
+        "代理服务器",
+        "白名单",
+        "SwitchyOmega"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "网络技术",
+        "代理服务"
+      ]
+    },
+    "quality": {
+      "score": 0.42,
+      "metrics": {
+        "input_chars": 352.0,
+        "input_lines": 17.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.227,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 6.0,
+        "estimated_read_seconds": 21.1
+      }
+    }
   }
 }

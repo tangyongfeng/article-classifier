@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bd4f5c2a-5109-4a00-a027-1098451f6f1e",
+      "note_id": "47e72658-7b7f-4988-a2b4-c39f5e869050",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "QQ群人数统计SQL查询，用于分析群组规模与成员数据，涉及数据库操作。",
+        "keywords": [
+          "QQ群",
+          "SQL查询",
+          "人数统计",
+          "群组分析",
+          "数据库管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:22:54.824805Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.109
+    }
+  ],
   "journal": {
     "id": "4a478f67-4bdc-48f0-96e4-09216399a6de",
     "note_id": "47e72658-7b7f-4988-a2b4-c39f5e869050",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:22:54.824671Z",
+    "latency_seconds": 16.883134416071698,
+    "attempts": 1,
+    "summary": {
+      "summary": "QQ群人数统计SQL查询，用于分析群组规模与成员数据，涉及数据库操作。",
+      "keywords": [
+        "QQ群",
+        "SQL查询",
+        "人数统计",
+        "群组分析",
+        "数据库管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.109,
+      "metrics": {
+        "input_chars": 412.0,
+        "input_lines": 70.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.085,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 24.7
+      }
+    }
   }
 }

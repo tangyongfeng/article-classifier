@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f6f21c38-70b1-47fd-87a5-eccd9bc756fd",
+      "note_id": "eb274b05-cc8a-4654-ae0a-e197524dc253",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 永不消逝的电波（四）：从无线电角度揭秘定位劫持 - K1two2 - 博客园 updated: 2016-03-11 17:35:59Z ",
+        "keywords": [
+          "---",
+          "title: 永不消逝的电波（四）：从无线电角度揭秘定位劫持 - K1two2 - 博客园",
+          "updated: 2016-03-11 17:35:59Z",
+          "created: 2016-03-11 17:35:59Z",
+          "source: http://www.cnblogs.com/k1two2/p/5197591.html"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:50:35.260430Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "c0e28a5d-7c90-4c1c-bae7-23c425cd2756",
     "note_id": "eb274b05-cc8a-4654-ae0a-e197524dc253",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T09:50:35.259890Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 永不消逝的电波（四）：从无线电角度揭秘定位劫持 - K1two2 - 博客园 updated: 2016-03-11 17:35:59Z ",
+      "keywords": [
+        "---",
+        "title: 永不消逝的电波（四）：从无线电角度揭秘定位劫持 - K1two2 - 博客园",
+        "updated: 2016-03-11 17:35:59Z",
+        "created: 2016-03-11 17:35:59Z",
+        "source: http://www.cnblogs.com/k1two2/p/5197591.html"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 10460.0,
+        "input_lines": 611.0,
+        "summary_chars": 79.0,
+        "summary_coverage_ratio": 0.008,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 627.6
+      }
+    }
   }
 }

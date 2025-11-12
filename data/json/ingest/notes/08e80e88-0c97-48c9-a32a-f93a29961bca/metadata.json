@@ -67,7 +67,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "3acb2f3a-4d65-43be-9276-0b66ca8e37ff",
+      "note_id": "08e80e88-0c97-48c9-a32a-f93a29961bca",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "FreeBSD ports技巧总结：涵盖软件包搜索、下载、安装等实用命令，如make search、make fetch、make install，提升系统软件",
+        "keywords": [
+          "FreeBSD",
+          "ports",
+          "软件包",
+          "命令",
+          "安装"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "System Management",
+          "FreeBSD Ports"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:08:39.993642Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.328
+    }
+  ],
   "journal": {
     "id": "4e0fcb70-5d3d-4afb-b931-1be4dbf54f3e",
     "note_id": "08e80e88-0c97-48c9-a32a-f93a29961bca",
@@ -90,5 +122,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:08:39.993450Z",
+    "latency_seconds": 47.33566600002814,
+    "attempts": 1,
+    "summary": {
+      "summary": "FreeBSD ports技巧总结：涵盖软件包搜索、下载、安装等实用命令，如make search、make fetch、make install，提升系统软件",
+      "keywords": [
+        "FreeBSD",
+        "ports",
+        "软件包",
+        "命令",
+        "安装"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "System Management",
+        "FreeBSD Ports"
+      ]
+    },
+    "quality": {
+      "score": 0.328,
+      "metrics": {
+        "input_chars": 1919.0,
+        "input_lines": 78.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.042,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 115.1
+      }
+    }
   }
 }

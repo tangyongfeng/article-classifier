@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4a974542-3eb9-4fcb-a8bd-46e7c0e41c26",
+      "note_id": "709e38f2-82ab-4930-bcdc-c68d65693aa8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "消毒液广告词及投放计划，拟在'一群猪'、'一群羊'、'一群牛'等群组发布。",
+        "keywords": [
+          "消毒液",
+          "广告",
+          "投放",
+          "群组",
+          "推广"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "广告投放商"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:07:10.055750Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.302
+    }
+  ],
   "journal": {
     "id": "527e4510-cce0-4fab-bc51-c5f8e017806b",
     "note_id": "709e38f2-82ab-4930-bcdc-c68d65693aa8",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:07:10.055528Z",
+    "latency_seconds": 33.17426766699646,
+    "attempts": 1,
+    "summary": {
+      "summary": "消毒液广告词及投放计划，拟在'一群猪'、'一群羊'、'一群牛'等群组发布。",
+      "keywords": [
+        "消毒液",
+        "广告",
+        "投放",
+        "群组",
+        "推广"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "广告投放商"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.302,
+      "metrics": {
+        "input_chars": 160.0,
+        "input_lines": 13.0,
+        "summary_chars": 37.0,
+        "summary_coverage_ratio": 0.231,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 9.6
+      }
+    }
   }
 }

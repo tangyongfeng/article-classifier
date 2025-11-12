@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "f44a3284-eb49-4665-9538-7951c4403e46",
+      "note_id": "97f01789-4822-4052-85ce-d797d68353db",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "杭州酒店地址：杭州市下城区庆春路182号金融大厦三楼，联系电话0571-87019995，开业于2012年3月8日。",
+        "keywords": [
+          "酒店",
+          "地址",
+          "杭州",
+          "金融大厦",
+          "联系电话"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Accommodation"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:25:47.942354Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.491
+    }
+  ],
   "journal": {
     "id": "97767cd4-e2ce-4664-965f-b2773811d90d",
     "note_id": "97f01789-4822-4052-85ce-d797d68353db",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:25:47.942194Z",
+    "latency_seconds": 38.10009787499439,
+    "attempts": 1,
+    "summary": {
+      "summary": "杭州酒店地址：杭州市下城区庆春路182号金融大厦三楼，联系电话0571-87019995，开业于2012年3月8日。",
+      "keywords": [
+        "酒店",
+        "地址",
+        "杭州",
+        "金融大厦",
+        "联系电话"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Accommodation"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.491,
+      "metrics": {
+        "input_chars": 233.0,
+        "input_lines": 9.0,
+        "summary_chars": 58.0,
+        "summary_coverage_ratio": 0.249,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.0
+      }
+    }
   }
 }

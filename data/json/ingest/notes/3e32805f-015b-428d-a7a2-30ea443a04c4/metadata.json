@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7c3840bc-70dd-4e23-bdf3-92aa373bab40",
+      "note_id": "3e32805f-015b-428d-a7a2-30ea443a04c4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "详解德语否定词nicht（副词否定）、kein（不定冠词否定）、nichts（代词否定）的用法区别及语法规则，包含否定对象、位置规则与例句。",
+        "keywords": [
+          "否定词",
+          "德语语法",
+          "nicht",
+          "kein",
+          "nichts"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:22:36.805230Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.33
+    }
+  ],
   "journal": {
     "id": "7ce85ffe-8329-4545-bbec-67d0f12c11c1",
     "note_id": "3e32805f-015b-428d-a7a2-30ea443a04c4",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:22:36.805138Z",
+    "latency_seconds": 16.258134457981214,
+    "attempts": 1,
+    "summary": {
+      "summary": "详解德语否定词nicht（副词否定）、kein（不定冠词否定）、nichts（代词否定）的用法区别及语法规则，包含否定对象、位置规则与例句。",
+      "keywords": [
+        "否定词",
+        "德语语法",
+        "nicht",
+        "kein",
+        "nichts"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.33,
+      "metrics": {
+        "input_chars": 1512.0,
+        "input_lines": 24.0,
+        "summary_chars": 70.0,
+        "summary_coverage_ratio": 0.046,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 90.7
+      }
+    }
   }
 }

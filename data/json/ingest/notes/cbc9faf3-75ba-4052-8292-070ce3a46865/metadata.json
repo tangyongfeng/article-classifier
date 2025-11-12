@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bff54871-8e4e-4660-b46c-721ca9856899",
+      "note_id": "cbc9faf3-75ba-4052-8292-070ce3a46865",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "重疾险保额30-50万对普通人不划算，因医保覆盖或费用不足，建议依赖医保并选择理财而非购买重疾险。",
+        "keywords": [
+          "重疾险",
+          "医保",
+          "保险设计",
+          "保额",
+          "理财"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:04:03.319723Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.385
+    }
+  ],
   "journal": {
     "id": "9d781dd6-3c3f-4b10-aa14-e49ce4c26291",
     "note_id": "cbc9faf3-75ba-4052-8292-070ce3a46865",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:04:03.319498Z",
+    "latency_seconds": 27.61389270797372,
+    "attempts": 1,
+    "summary": {
+      "summary": "重疾险保额30-50万对普通人不划算，因医保覆盖或费用不足，建议依赖医保并选择理财而非购买重疾险。",
+      "keywords": [
+        "重疾险",
+        "医保",
+        "保险设计",
+        "保额",
+        "理财"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.385,
+      "metrics": {
+        "input_chars": 1336.0,
+        "input_lines": 16.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.037,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 80.2
+      }
+    }
   }
 }

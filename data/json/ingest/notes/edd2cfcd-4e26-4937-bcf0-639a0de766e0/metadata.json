@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d27b8bc8-88d4-4af6-b1bd-3590597041ef",
+      "note_id": "edd2cfcd-4e26-4937-bcf0-639a0de766e0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "记录服务器在大压力下的横向扩展测试数据，包括CPU配置、内存使用及I/O等待性能分析。",
+        "keywords": [
+          "压力测试",
+          "服务器配置",
+          "CPU性能",
+          "内存加载",
+          "I/O等待"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "性能测试"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:03:23.538683Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.215
+    }
+  ],
   "journal": {
     "id": "a5ddd0ce-0dcd-4314-bbcf-d44bb6f3b67b",
     "note_id": "edd2cfcd-4e26-4937-bcf0-639a0de766e0",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:03:23.538533Z",
+    "latency_seconds": 46.28170383395627,
+    "attempts": 1,
+    "summary": {
+      "summary": "记录服务器在大压力下的横向扩展测试数据，包括CPU配置、内存使用及I/O等待性能分析。",
+      "keywords": [
+        "压力测试",
+        "服务器配置",
+        "CPU性能",
+        "内存加载",
+        "I/O等待"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "性能测试"
+      ]
+    },
+    "quality": {
+      "score": 0.215,
+      "metrics": {
+        "input_chars": 244.0,
+        "input_lines": 17.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.176,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.6
+      }
+    }
   }
 }

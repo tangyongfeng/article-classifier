@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b138284b-e275-448f-bbf3-bcb0e2e712d8",
+      "note_id": "604cb90a-06f5-4284-9009-d69e96eed2e2",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本笔记详细列出哌甲酯、利他林等精神类药物的常见及罕见副作用，包括食欲下降、失眠、焦虑等医学症状。",
+        "keywords": [
+          "药品",
+          "副作用",
+          "精神类药物",
+          "药物治疗",
+          "医学"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "健康",
+          "药物",
+          "副作用"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:55:13.964834Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.216
+    }
+  ],
   "journal": {
     "id": "01554e3e-4c4d-445f-9ede-40dba65e5851",
     "note_id": "604cb90a-06f5-4284-9009-d69e96eed2e2",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:55:13.964669Z",
+    "latency_seconds": 34.134337040944956,
+    "attempts": 2,
+    "summary": {
+      "summary": "本笔记详细列出哌甲酯、利他林等精神类药物的常见及罕见副作用，包括食欲下降、失眠、焦虑等医学症状。",
+      "keywords": [
+        "药品",
+        "副作用",
+        "精神类药物",
+        "药物治疗",
+        "医学"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "健康",
+        "药物",
+        "副作用"
+      ]
+    },
+    "quality": {
+      "score": 0.216,
+      "metrics": {
+        "input_chars": 811.0,
+        "input_lines": 26.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.059,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 48.7
+      }
+    }
   }
 }

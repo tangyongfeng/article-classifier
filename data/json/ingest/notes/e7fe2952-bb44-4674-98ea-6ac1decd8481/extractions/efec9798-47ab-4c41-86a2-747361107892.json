@@ -1,0 +1,27 @@
+{
+  "id": "efec9798-47ab-4c41-86a2-747361107892",
+  "note_id": "e7fe2952-bb44-4674-98ea-6ac1decd8481",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "软件架构设计课笔记涵盖UML图、部署图、组件图及架构视图（4+1视图），强调非功能性需求如性能、可扩展性，指导系统开发与维护。",
+    "keywords": [
+      "UML",
+      "软件架构",
+      "部署图",
+      "组件图",
+      "非功能性需求"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:35:17.314752Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.379
+}

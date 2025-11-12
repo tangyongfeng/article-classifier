@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b0182d01-71cd-426e-b221-3d9b43fffd09",
+      "note_id": "f8ba8b09-a0e6-4974-8b65-3df462db2377",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "加拿大社会福利完善但税收高，医疗等待时间长，生活便利性低，冬季漫长寒冷。",
+        "keywords": [
+          "社会福利",
+          "高税收",
+          "医疗等待",
+          "冬季寒冷",
+          "生活不便"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:53:08.289921Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.199
+    }
+  ],
   "journal": {
     "id": "3e9fedb4-99f6-41d8-a90a-e5dcbe760c1b",
     "note_id": "f8ba8b09-a0e6-4974-8b65-3df462db2377",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:53:08.289754Z",
+    "latency_seconds": 24.673790167085826,
+    "attempts": 1,
+    "summary": {
+      "summary": "加拿大社会福利完善但税收高，医疗等待时间长，生活便利性低，冬季漫长寒冷。",
+      "keywords": [
+        "社会福利",
+        "高税收",
+        "医疗等待",
+        "冬季寒冷",
+        "生活不便"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.199,
+      "metrics": {
+        "input_chars": 1481.0,
+        "input_lines": 22.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.024,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 88.9
+      }
+    }
   }
 }

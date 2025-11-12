@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "140a62af-161a-4600-b7d1-bd94766feaf4",
+      "note_id": "48155266-0712-4b51-983d-d2e4b90218ba",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: WIFI探针，是数据金矿还是数据噪音？ updated: 2022-09-05 11:37:12Z created: 2018-11-10",
+        "keywords": [
+          "---",
+          "title: WIFI探针，是数据金矿还是数据噪音？",
+          "updated: 2022-09-05 11:37:12Z",
+          "created: 2018-11-10 04:27:36Z",
+          "author: tangyongfeng@gmail.com"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:26:19.029679Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.15
+    }
+  ],
   "journal": {
     "id": "e6b78be5-a749-4428-8826-157742b5189e",
     "note_id": "48155266-0712-4b51-983d-d2e4b90218ba",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T19:26:19.029433Z",
+    "latency_seconds": 29.109112875070423,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: WIFI探针，是数据金矿还是数据噪音？ updated: 2022-09-05 11:37:12Z created: 2018-11-10",
+      "keywords": [
+        "---",
+        "title: WIFI探针，是数据金矿还是数据噪音？",
+        "updated: 2022-09-05 11:37:12Z",
+        "created: 2018-11-10 04:27:36Z",
+        "author: tangyongfeng@gmail.com"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.15,
+      "metrics": {
+        "input_chars": 5444.0,
+        "input_lines": 70.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.015,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 326.6
+      }
+    }
   }
 }

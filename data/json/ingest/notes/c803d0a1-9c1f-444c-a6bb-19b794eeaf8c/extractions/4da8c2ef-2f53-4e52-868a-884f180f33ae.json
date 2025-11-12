@@ -1,0 +1,27 @@
+{
+  "id": "4da8c2ef-2f53-4e52-868a-884f180f33ae",
+  "note_id": "c803d0a1-9c1f-444c-a6bb-19b794eeaf8c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "普京清洗FSB第五处高层，因贪污行贿乌克兰军方预算试图阻止入侵乌克兰计划，联系CIA寻求干预。",
+    "keywords": [
+      "普京",
+      "FSB第五处",
+      "贪污",
+      "行贿",
+      "乌克兰"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T06:38:41.786723Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.387
+}

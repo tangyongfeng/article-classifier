@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "24c7c713-0c8a-42eb-8115-8b393a0211c9",
+      "note_id": "48d1c707-8e10-466a-9652-edd806548841",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "该笔记为Twitter平台发布的1000×893像素jpg格式图片，属于多媒体图片类未分类内容。",
+        "keywords": [
+          "图片",
+          "1000x893像素",
+          "Twitter",
+          "jpg",
+          "多媒体"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体",
+          "图片",
+          "未分类"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:26:55.563322Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.262
+    }
+  ],
   "journal": {
     "id": "a2f7b001-9fb0-4342-848d-796c0340fae1",
     "note_id": "48d1c707-8e10-466a-9652-edd806548841",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:26:55.563172Z",
+    "latency_seconds": 11.809178708004765,
+    "attempts": 1,
+    "summary": {
+      "summary": "该笔记为Twitter平台发布的1000×893像素jpg格式图片，属于多媒体图片类未分类内容。",
+      "keywords": [
+        "图片",
+        "1000x893像素",
+        "Twitter",
+        "jpg",
+        "多媒体"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体",
+        "图片",
+        "未分类"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.262,
+      "metrics": {
+        "input_chars": 177.0,
+        "input_lines": 6.0,
+        "summary_chars": 48.0,
+        "summary_coverage_ratio": 0.271,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.6
+      }
+    }
   }
 }

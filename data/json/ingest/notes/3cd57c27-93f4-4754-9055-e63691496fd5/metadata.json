@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "b74d6786-ac0e-45dc-b74a-994ee324cff3",
+      "note_id": "3cd57c27-93f4-4754-9055-e63691496fd5",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "给外管局写信询问配偶和儿子的居住卡是否制作完成，需确认取件时间。",
+        "keywords": [
+          "居住卡",
+          "外管局",
+          "询问",
+          "取件",
+          "德语"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T18:20:22.944547Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.282
+    }
+  ],
   "journal": {
     "id": "a82cd68c-693c-4320-9b2c-5d892fee677b",
     "note_id": "3cd57c27-93f4-4754-9055-e63691496fd5",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T18:20:22.944383Z",
+    "latency_seconds": 36.12954849994276,
+    "attempts": 1,
+    "summary": {
+      "summary": "给外管局写信询问配偶和儿子的居住卡是否制作完成，需确认取件时间。",
+      "keywords": [
+        "居住卡",
+        "外管局",
+        "询问",
+        "取件",
+        "德语"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.282,
+      "metrics": {
+        "input_chars": 451.0,
+        "input_lines": 19.0,
+        "summary_chars": 32.0,
+        "summary_coverage_ratio": 0.071,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 27.1
+      }
+    }
   }
 }

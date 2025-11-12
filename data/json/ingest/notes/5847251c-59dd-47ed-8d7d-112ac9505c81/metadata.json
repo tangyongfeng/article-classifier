@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "ce9c2ec8-e8db-4672-a450-77244ae06455",
+      "note_id": "5847251c-59dd-47ed-8d7d-112ac9505c81",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "卡尔Kreiner学校是德国诺伊斯市北部的天主教教会小学，始建于1717年，现有约295名学生，由校长、教师及社工组成。",
+        "keywords": [
+          "学校",
+          "教会",
+          "小学",
+          "历史",
+          "德国"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:09:45.710072Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.405
+    }
+  ],
   "journal": {
     "id": "f34d9e4f-d8fc-4265-8da1-f986dffdcb15",
     "note_id": "5847251c-59dd-47ed-8d7d-112ac9505c81",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:09:45.709936Z",
+    "latency_seconds": 33.75011937506497,
+    "attempts": 2,
+    "summary": {
+      "summary": "卡尔Kreiner学校是德国诺伊斯市北部的天主教教会小学，始建于1717年，现有约295名学生，由校长、教师及社工组成。",
+      "keywords": [
+        "学校",
+        "教会",
+        "小学",
+        "历史",
+        "德国"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.405,
+      "metrics": {
+        "input_chars": 306.0,
+        "input_lines": 17.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.196,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 18.4
+      }
+    }
   }
 }

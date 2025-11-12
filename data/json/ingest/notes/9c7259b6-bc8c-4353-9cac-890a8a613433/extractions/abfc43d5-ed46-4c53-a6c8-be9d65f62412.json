@@ -1,0 +1,28 @@
+{
+  "id": "abfc43d5-ed46-4c53-a6c8-be9d65f62412",
+  "note_id": "9c7259b6-bc8c-4353-9cac-890a8a613433",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "探讨IT行业从单机到联网、C/S、B/S、无中心架构及区块链、人工智能的技术演进，强调技术创新与科技报国信念，应用于彩票、医疗、钢铁等领域。",
+    "keywords": [
+      "IT行业",
+      "区块链",
+      "人工智能",
+      "技术创新",
+      "科技报国"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:46:27.319502Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.364
+}

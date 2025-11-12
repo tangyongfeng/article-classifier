@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "1e928b11-1760-439d-af14-ad814c16a695",
+      "note_id": "087ff309-fe98-4b1e-9a47-3e29774dd38d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记涉及TD Ameritrade在线经纪平台，与股票交易和金融投资相关，应归入金融-股票市场分类。",
+        "keywords": [
+          "TD Ameritrade",
+          "股票交易",
+          "金融平台",
+          "在线经纪",
+          "投资服务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:04:53.626861Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.275
+    }
+  ],
   "journal": {
     "id": "2b122992-4163-45fb-8862-ccbc20104243",
     "note_id": "087ff309-fe98-4b1e-9a47-3e29774dd38d",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:04:53.626703Z",
+    "latency_seconds": 17.74235262500588,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记涉及TD Ameritrade在线经纪平台，与股票交易和金融投资相关，应归入金融-股票市场分类。",
+      "keywords": [
+        "TD Ameritrade",
+        "股票交易",
+        "金融平台",
+        "在线经纪",
+        "投资服务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.275,
+      "metrics": {
+        "input_chars": 120.0,
+        "input_lines": 8.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.417,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.2
+      }
+    }
   }
 }

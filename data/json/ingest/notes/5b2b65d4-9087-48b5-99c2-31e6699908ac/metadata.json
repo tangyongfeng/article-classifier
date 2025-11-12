@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "463c2222-c076-40c7-a77d-fc51b60e1f69",
+      "note_id": "5b2b65d4-9087-48b5-99c2-31e6699908ac",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "印度药指印度的药品产业、药物信息及相关话题，涉及仿制药、药品供应等议题。",
+        "keywords": [
+          "印度",
+          "药物",
+          "制药",
+          "药品",
+          "仿制药"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "国家与地区"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T21:26:05.271030Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.358
+    }
+  ],
   "journal": {
     "id": "933bc422-201f-42fd-88d0-de525c268084",
     "note_id": "5b2b65d4-9087-48b5-99c2-31e6699908ac",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T21:26:05.270885Z",
+    "latency_seconds": 39.001155958045274,
+    "attempts": 1,
+    "summary": {
+      "summary": "印度药指印度的药品产业、药物信息及相关话题，涉及仿制药、药品供应等议题。",
+      "keywords": [
+        "印度",
+        "药物",
+        "制药",
+        "药品",
+        "仿制药"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "国家与地区"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.358,
+      "metrics": {
+        "input_chars": 78.0,
+        "input_lines": 5.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.462,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.7
+      }
+    }
   }
 }

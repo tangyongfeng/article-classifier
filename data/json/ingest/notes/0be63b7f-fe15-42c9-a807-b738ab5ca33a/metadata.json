@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "57718f73-8c7a-4f22-9603-95b65f09278f",
+      "note_id": "0be63b7f-fe15-42c9-a807-b738ab5ca33a",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 被禁忌的游戏 updated: 2020-07-05 06:47:34Z created: 2020-07-05 06:46:53Z so",
+        "keywords": [
+          "---",
+          "title: 被禁忌的游戏",
+          "updated: 2020-07-05 06:47:34Z",
+          "created: 2020-07-05 06:46:53Z",
+          "source: https://mp.weixin.qq.com/s/zv7uxHSaQeTqozrB6udI7w"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:44:57.970466Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "9340e28a-480e-4b92-9714-99e0cb641cd6",
     "note_id": "0be63b7f-fe15-42c9-a807-b738ab5ca33a",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T14:44:57.970054Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 被禁忌的游戏 updated: 2020-07-05 06:47:34Z created: 2020-07-05 06:46:53Z so",
+      "keywords": [
+        "---",
+        "title: 被禁忌的游戏",
+        "updated: 2020-07-05 06:47:34Z",
+        "created: 2020-07-05 06:46:53Z",
+        "source: https://mp.weixin.qq.com/s/zv7uxHSaQeTqozrB6udI7w"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 9446.0,
+        "input_lines": 194.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.008,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 566.8
+      }
+    }
   }
 }

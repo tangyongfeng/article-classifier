@@ -1,0 +1,29 @@
+{
+  "id": "7b087cb2-4fdd-421d-8ebd-b3d99da86008",
+  "note_id": "09a10c87-1a86-4b67-ae64-76f0ccaf909b",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "家庭游客咨询酒店预订细节，包括餐饮选择、儿童设施及浴室配置，请求旅行社提供信息。",
+    "keywords": [
+      "家庭旅行",
+      "酒店预订",
+      "餐饮选择",
+      "儿童设施",
+      "浴室配置"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:15:36.927799Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.081
+}

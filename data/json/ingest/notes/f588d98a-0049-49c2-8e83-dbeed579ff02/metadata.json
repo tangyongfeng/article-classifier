@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "81b3a5bb-54e4-43c4-926d-e1096f227471",
+      "note_id": "f588d98a-0049-49c2-8e83-dbeed579ff02",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "华润双鹤因羟乙基淀粉退市事件受压，该产品销售额超15亿元，欧洲药品管理局建议退市，影响公司业务及股价。",
+        "keywords": [
+          "华润双鹤",
+          "羟乙基淀粉",
+          "退市",
+          "欧洲药品管理局",
+          "股价"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:33:07.583714Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.421
+    }
+  ],
   "journal": {
     "id": "84acb4e7-cbf9-4084-b7b9-c0e1b413bf55",
     "note_id": "f588d98a-0049-49c2-8e83-dbeed579ff02",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:33:07.583546Z",
+    "latency_seconds": 41.06311808398459,
+    "attempts": 1,
+    "summary": {
+      "summary": "华润双鹤因羟乙基淀粉退市事件受压，该产品销售额超15亿元，欧洲药品管理局建议退市，影响公司业务及股价。",
+      "keywords": [
+        "华润双鹤",
+        "羟乙基淀粉",
+        "退市",
+        "欧洲药品管理局",
+        "股价"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.421,
+      "metrics": {
+        "input_chars": 468.0,
+        "input_lines": 10.0,
+        "summary_chars": 51.0,
+        "summary_coverage_ratio": 0.109,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 28.1
+      }
+    }
   }
 }

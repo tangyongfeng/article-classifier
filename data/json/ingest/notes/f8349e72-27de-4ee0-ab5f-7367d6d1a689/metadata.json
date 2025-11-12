@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fe513fe2-174d-495c-af50-d29a3a10ed48",
+      "note_id": "f8349e72-27de-4ee0-ab5f-7367d6d1a689",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语动词变位列表，包含常用动词如' sein'、'kommen'的主语人称变位，覆盖单复数形式，适用于语言学习。",
+        "keywords": [
+          "动词变位",
+          "德语",
+          "语法",
+          "变位表",
+          "语言学习"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Verb Conjugation"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:50:59.374524Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.158
+    }
+  ],
   "journal": {
     "id": "79d190d7-0895-4da5-a391-7cc07d52e6b8",
     "note_id": "f8349e72-27de-4ee0-ab5f-7367d6d1a689",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:50:59.374357Z",
+    "latency_seconds": 33.07127574994229,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语动词变位列表，包含常用动词如' sein'、'kommen'的主语人称变位，覆盖单复数形式，适用于语言学习。",
+      "keywords": [
+        "动词变位",
+        "德语",
+        "语法",
+        "变位表",
+        "语言学习"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Verb Conjugation"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.158,
+      "metrics": {
+        "input_chars": 898.0,
+        "input_lines": 122.0,
+        "summary_chars": 56.0,
+        "summary_coverage_ratio": 0.062,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 53.9
+      }
+    }
   }
 }

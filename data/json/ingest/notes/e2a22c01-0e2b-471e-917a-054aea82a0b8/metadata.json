@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "4b0ccba8-c60d-4f48-a35b-e8d324cad34e",
+      "note_id": "e2a22c01-0e2b-471e-917a-054aea82a0b8",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "介绍Shopify电商平台，指导用户创建在线商店、设置域名和销售产品。",
+        "keywords": [
+          "电商",
+          "Shopify",
+          "在线商店",
+          "域名设置",
+          "销售"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:07:25.121891Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.158
+    }
+  ],
   "journal": {
     "id": "9e6030d0-bec6-491e-a463-95330a5d5b67",
     "note_id": "e2a22c01-0e2b-471e-917a-054aea82a0b8",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:07:25.121752Z",
+    "latency_seconds": 17.29066125000827,
+    "attempts": 1,
+    "summary": {
+      "summary": "介绍Shopify电商平台，指导用户创建在线商店、设置域名和销售产品。",
+      "keywords": [
+        "电商",
+        "Shopify",
+        "在线商店",
+        "域名设置",
+        "销售"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.158,
+      "metrics": {
+        "input_chars": 553.0,
+        "input_lines": 19.0,
+        "summary_chars": 35.0,
+        "summary_coverage_ratio": 0.063,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 33.2
+      }
+    }
   }
 }

@@ -72,7 +72,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e353d6b1-c2e5-4f33-9ae1-29f376cbba2b",
+      "note_id": "2107d8e1-300f-437d-9054-d29707601d12",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "本笔记系统整理德语疑问词，包括was、wie、wie viel等，解释其语法功能和使用例句，用于提问事物、方式、数量及时间。",
+        "keywords": [
+          "疑问词",
+          "德语",
+          "语法",
+          "提问",
+          "例句"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T16:24:58.761657Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.271
+    }
+  ],
   "journal": {
     "id": "ac48b97f-f08f-40ed-ac47-ba215980a70b",
     "note_id": "2107d8e1-300f-437d-9054-d29707601d12",
@@ -95,5 +125,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T16:24:58.761371Z",
+    "latency_seconds": 37.833806499955244,
+    "attempts": 1,
+    "summary": {
+      "summary": "本笔记系统整理德语疑问词，包括was、wie、wie viel等，解释其语法功能和使用例句，用于提问事物、方式、数量及时间。",
+      "keywords": [
+        "疑问词",
+        "德语",
+        "语法",
+        "提问",
+        "例句"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.271,
+      "metrics": {
+        "input_chars": 1285.0,
+        "input_lines": 90.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.048,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 77.1
+      }
+    }
   }
 }

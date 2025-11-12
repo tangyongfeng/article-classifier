@@ -72,7 +72,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "731698cc-0dad-49ab-8c4c-a6c1afbe42df",
+      "note_id": "8ab09131-6ae5-4693-941c-89d522ea5fcd",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "比特币技术专家撰写的指南，涵盖密码学、P2P协议、钱包使用及区块链应用，包括数字签名与多重签名技术。",
+        "keywords": [
+          "比特币",
+          "区块链",
+          "密码学",
+          "P2P技术",
+          "钱包"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新",
+          "区块链应用"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:24:15.883630Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.38
+    }
+  ],
   "journal": {
     "id": "b39e6409-34a3-4015-8964-5a86fabefd38",
     "note_id": "8ab09131-6ae5-4693-941c-89d522ea5fcd",
@@ -95,5 +125,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:24:15.883402Z",
+    "latency_seconds": 22.756171667017043,
+    "attempts": 1,
+    "summary": {
+      "summary": "比特币技术专家撰写的指南，涵盖密码学、P2P协议、钱包使用及区块链应用，包括数字签名与多重签名技术。",
+      "keywords": [
+        "比特币",
+        "区块链",
+        "密码学",
+        "P2P技术",
+        "钱包"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新",
+        "区块链应用"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.38,
+      "metrics": {
+        "input_chars": 1920.0,
+        "input_lines": 99.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.026,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 115.2
+      }
+    }
   }
 }

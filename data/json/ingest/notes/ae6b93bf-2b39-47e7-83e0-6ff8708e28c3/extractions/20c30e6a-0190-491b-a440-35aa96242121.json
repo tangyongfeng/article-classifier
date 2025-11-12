@@ -1,0 +1,31 @@
+{
+  "id": "20c30e6a-0190-491b-a440-35aa96242121",
+  "note_id": "ae6b93bf-2b39-47e7-83e0-6ff8708e28c3",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "评测手机游戏Lifeline，一款文字互动冒险游戏，玩家通过文字选择决定主角泰勒太空求生命运，游戏节奏优秀但对话过于闲聊影响紧张感。",
+    "keywords": [
+      "待补充",
+      "待补充",
+      "待补充",
+      "待补充",
+      "待补充"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Social"
+    ],
+    "new_category_suggestion": [
+      "Entertainment",
+      "Games",
+      "Mobile Games"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:08:00.250044Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.079
+}

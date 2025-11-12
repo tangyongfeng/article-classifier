@@ -1,0 +1,27 @@
+{
+  "id": "33d0c6d7-b4d5-47dc-bf4e-989f69333363",
+  "note_id": "b7a37db8-a3b8-4db0-94b4-aaf562412754",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "在edx-platform目录中，通过Django管理命令删除OpenEdX课程的步骤说明，包括获取课程ID和执行删除操作。",
+    "keywords": [
+      "openedx",
+      "课程删除",
+      "Django",
+      "管理命令",
+      "edx-platform"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T04:49:30.578985Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.364
+}

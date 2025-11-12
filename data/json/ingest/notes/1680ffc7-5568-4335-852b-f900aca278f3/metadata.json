@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "a89bcc64-08e5-4906-8cf4-841da401861a",
+      "note_id": "1680ffc7-5568-4335-852b-f900aca278f3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "唐太宗询问许敬宗为何有人非议，许敬宗以春雨秋月喻言之利弊，警示言语如龙泉杀人不见血。太宗称善。",
+        "keywords": [
+          "唐太宗",
+          "许敬宗",
+          "春雨秋月",
+          "舌上龙泉",
+          "慎言"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:28:04.357829Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.265
+    }
+  ],
   "journal": {
     "id": "9a7e76d9-dbae-4fb6-9fa3-ffefeaa3d31e",
     "note_id": "1680ffc7-5568-4335-852b-f900aca278f3",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:28:04.357714Z",
+    "latency_seconds": 33.250821041991,
+    "attempts": 2,
+    "summary": {
+      "summary": "唐太宗询问许敬宗为何有人非议，许敬宗以春雨秋月喻言之利弊，警示言语如龙泉杀人不见血。太宗称善。",
+      "keywords": [
+        "唐太宗",
+        "许敬宗",
+        "春雨秋月",
+        "舌上龙泉",
+        "慎言"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.265,
+      "metrics": {
+        "input_chars": 302.0,
+        "input_lines": 6.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.156,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 18.1
+      }
+    }
   }
 }

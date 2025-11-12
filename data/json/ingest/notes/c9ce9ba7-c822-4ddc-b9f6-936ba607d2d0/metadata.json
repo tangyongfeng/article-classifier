@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "af124765-ad48-40f7-859f-7722a4428a91",
+      "note_id": "c9ce9ba7-c822-4ddc-b9f6-936ba607d2d0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "MySQL数据库binlog日志过多时，可通过关闭binlog功能、设置expire_logs_days参数或使用PURGE MASTER LOGS命令进行自动",
+        "keywords": [
+          "mysql",
+          "binlog",
+          "日志清理",
+          "自动清理",
+          "手动删除"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:48:27.005249Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.322
+    }
+  ],
   "journal": {
     "id": "511cb256-c179-4522-b60f-bb6772e58ec8",
     "note_id": "c9ce9ba7-c822-4ddc-b9f6-936ba607d2d0",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:48:27.005058Z",
+    "latency_seconds": 56.489379082922824,
+    "attempts": 1,
+    "summary": {
+      "summary": "MySQL数据库binlog日志过多时，可通过关闭binlog功能、设置expire_logs_days参数或使用PURGE MASTER LOGS命令进行自动",
+      "keywords": [
+        "mysql",
+        "binlog",
+        "日志清理",
+        "自动清理",
+        "手动删除"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.322,
+      "metrics": {
+        "input_chars": 2624.0,
+        "input_lines": 75.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.03,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 157.4
+      }
+    }
   }
 }

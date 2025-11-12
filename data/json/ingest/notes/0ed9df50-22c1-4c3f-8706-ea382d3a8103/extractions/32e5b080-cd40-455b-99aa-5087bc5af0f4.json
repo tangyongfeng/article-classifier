@@ -1,0 +1,28 @@
+{
+  "id": "32e5b080-cd40-455b-99aa-5087bc5af0f4",
+  "note_id": "0ed9df50-22c1-4c3f-8706-ea382d3a8103",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "武汉病毒所发现瑞德西韦能抑制新冠病毒，1月21日申请专利，但未及时用于临床救治，引发公众对科研与临床脱节的质疑。",
+    "keywords": [
+      "瑞德西韦",
+      "专利申请",
+      "新冠病毒",
+      "武汉病毒所",
+      "临床应用"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:06:11.909245Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.273
+}

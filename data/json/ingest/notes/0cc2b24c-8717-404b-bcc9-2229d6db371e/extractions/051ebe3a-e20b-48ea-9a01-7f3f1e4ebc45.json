@@ -1,0 +1,29 @@
+{
+  "id": "051ebe3a-e20b-48ea-9a01-7f3f1e4ebc45",
+  "note_id": "0cc2b24c-8717-404b-bcc9-2229d6db371e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语食物词汇列表，包含煎香肠、面包、鱼、汤、鸡肉、水果、苹果、香蕉、土豆等常见食物名称，用于语言学习。",
+    "keywords": [
+      "德语",
+      "食物",
+      "词汇",
+      "学习",
+      "常见"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Vocabulary"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:47:38.342758Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.281
+}

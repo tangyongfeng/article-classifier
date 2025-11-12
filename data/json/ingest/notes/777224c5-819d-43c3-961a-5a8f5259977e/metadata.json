@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d6e13956-fa26-437e-8443-c86cf80e135a",
+      "note_id": "777224c5-819d-43c3-961a-5a8f5259977e",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "双低策略指投资价格低且转股溢价率低的可转债，兼顾防守与进攻；需警惕信用风险，结合正股基本面优化投资。",
+        "keywords": [
+          "可转债",
+          "双低策略",
+          "转股溢价率",
+          "正股基本面",
+          "投资风险"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:49:26.229730Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.268
+    }
+  ],
   "journal": {
     "id": "2fd378bb-04d2-44dd-9a0e-40105fc1b856",
     "note_id": "777224c5-819d-43c3-961a-5a8f5259977e",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:49:26.229571Z",
+    "latency_seconds": 18.64677145902533,
+    "attempts": 1,
+    "summary": {
+      "summary": "双低策略指投资价格低且转股溢价率低的可转债，兼顾防守与进攻；需警惕信用风险，结合正股基本面优化投资。",
+      "keywords": [
+        "可转债",
+        "双低策略",
+        "转股溢价率",
+        "正股基本面",
+        "投资风险"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.268,
+      "metrics": {
+        "input_chars": 1186.0,
+        "input_lines": 36.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.042,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 71.2
+      }
+    }
   }
 }

@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "9d0be08e-9dfa-4ab5-bf32-8277d7674f6b",
+      "note_id": "822e4d1b-e56f-46ab-984f-29d6c17afd26",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "使用Metabase工具进行数据分析效率极高，显著降低数据科学家门槛，使非技术背景人员也能轻松操作。",
+        "keywords": [
+          "数据分析",
+          "Metabase",
+          "数据科学家",
+          "效率",
+          "编程基础"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:51:21.928219Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.47
+    }
+  ],
   "journal": {
     "id": "c9d373e0-f848-4a66-91c2-16978c8db4d3",
     "note_id": "822e4d1b-e56f-46ab-984f-29d6c17afd26",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:51:21.928073Z",
+    "latency_seconds": 34.525211291969754,
+    "attempts": 1,
+    "summary": {
+      "summary": "使用Metabase工具进行数据分析效率极高，显著降低数据科学家门槛，使非技术背景人员也能轻松操作。",
+      "keywords": [
+        "数据分析",
+        "Metabase",
+        "数据科学家",
+        "效率",
+        "编程基础"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.47,
+      "metrics": {
+        "input_chars": 243.0,
+        "input_lines": 9.0,
+        "summary_chars": 50.0,
+        "summary_coverage_ratio": 0.206,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 14.6
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "2cccb89d-f74f-4c7b-b284-332fd761b70b",
+  "note_id": "ab8df2b9-3ce0-4c45-ac3f-e4996266ce2c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "个人笔记，记录购买袜子的日常消费行为，涉及生活规划中的购物习惯。",
+    "keywords": [
+      "袜子",
+      "购买",
+      "日常",
+      "购物",
+      "消费"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "个人发展",
+      "生活规划"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:56:30.798908Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.293
+}

@@ -1,0 +1,27 @@
+{
+  "id": "efe6369f-74f5-4d4f-ad0b-29e4191c9c52",
+  "note_id": "5591c2fb-2241-4fd9-986e-169bfad85de7",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "张鹏的护照号码G42804493，涉及个人身份信息及旅行证件管理，需归类至旅行相关类别。",
+    "keywords": [
+      "护照",
+      "证件号",
+      "身份信息",
+      "旅行证件",
+      "G42804493"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T20:58:28.470829Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.409
+}

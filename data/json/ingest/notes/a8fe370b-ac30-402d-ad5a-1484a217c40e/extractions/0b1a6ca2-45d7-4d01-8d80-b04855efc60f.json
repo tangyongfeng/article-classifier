@@ -1,0 +1,29 @@
+{
+  "id": "0b1a6ca2-45d7-4d01-8d80-b04855efc60f",
+  "note_id": "a8fe370b-ac30-402d-ad5a-1484a217c40e",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "企业税务注册信息，包含纳税人识别号、单位名称、注册地址等基本信息。",
+    "keywords": [
+      "增值税号",
+      "纳税人识别号",
+      "企业注册",
+      "税务信息",
+      "单位名称"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "创业",
+      "公司注册"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:45:20.631426Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.313
+}

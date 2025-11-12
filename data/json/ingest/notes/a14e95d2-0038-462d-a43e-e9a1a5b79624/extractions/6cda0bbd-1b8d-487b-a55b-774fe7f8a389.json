@@ -1,0 +1,28 @@
+{
+  "id": "6cda0bbd-1b8d-487b-a55b-774fe7f8a389",
+  "note_id": "a14e95d2-0038-462d-a43e-e9a1a5b79624",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "大有卦为周易六十四卦之一，卦辞'元亨'表示顺利通达，爻辞阐释顺天休命、吉祥无咎的哲理，体现中国古代哲学智慧。",
+    "keywords": [
+      "大有卦",
+      "周易",
+      "爻辞",
+      "元亨",
+      "顺天休命"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "历史",
+      "中国历史"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:14:01.196529Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.346
+}

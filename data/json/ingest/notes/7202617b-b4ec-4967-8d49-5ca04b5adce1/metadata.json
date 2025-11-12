@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "70af5cfa-34e7-43e9-b6e6-dc16f077b93a",
+      "note_id": "7202617b-b4ec-4967-8d49-5ca04b5adce1",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "妈妈生日记录，日期1953年3月29日（农历正月初七）。",
+        "keywords": [
+          "生日",
+          "家庭",
+          "1953年",
+          "农历",
+          "妈妈"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social",
+          "Family Events"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:10:24.739093Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.448
+    }
+  ],
   "journal": {
     "id": "f07f26e8-d7aa-4b89-ab45-6949ea1a2c8e",
     "note_id": "7202617b-b4ec-4967-8d49-5ca04b5adce1",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:10:24.738951Z",
+    "latency_seconds": 32.681787207955495,
+    "attempts": 1,
+    "summary": {
+      "summary": "妈妈生日记录，日期1953年3月29日（农历正月初七）。",
+      "keywords": [
+        "生日",
+        "家庭",
+        "1953年",
+        "农历",
+        "妈妈"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social",
+        "Family Events"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.448,
+      "metrics": {
+        "input_chars": 99.0,
+        "input_lines": 7.0,
+        "summary_chars": 28.0,
+        "summary_coverage_ratio": 0.283,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.9
+      }
+    }
   }
 }

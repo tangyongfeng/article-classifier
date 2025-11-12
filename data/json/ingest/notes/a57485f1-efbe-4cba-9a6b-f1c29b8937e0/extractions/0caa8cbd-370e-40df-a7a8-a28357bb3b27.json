@@ -1,0 +1,28 @@
+{
+  "id": "0caa8cbd-370e-40df-a7a8-a28357bb3b27",
+  "note_id": "a57485f1-efbe-4cba-9a6b-f1c29b8937e0",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "SQLite数据库的C#编程示例，展示连接数据库、创建表和批量插入数据的操作过程。",
+    "keywords": [
+      "SQLite",
+      "C#",
+      "Database",
+      "Example",
+      "Programming"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "技术创新"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T03:28:23.734837Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.265
+}

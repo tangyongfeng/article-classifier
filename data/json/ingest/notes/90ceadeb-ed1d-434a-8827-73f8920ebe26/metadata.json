@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "72372cdc-1b38-45c9-9ee3-b39c49ec2d90",
+      "note_id": "90ceadeb-ed1d-434a-8827-73f8920ebe26",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "班级旅行前需准备健康保险卡复印件、衣物、洗漱用品等物品，并禁止使用手机等电子设备。",
+        "keywords": [
+          "班级旅行",
+          "物品清单",
+          "健康保险",
+          "衣物准备",
+          "电子设备禁用"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T01:51:35.341137Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.236
+    }
+  ],
   "journal": {
     "id": "b07ec9f9-290e-4b65-bbe7-9e7c4a0ae826",
     "note_id": "90ceadeb-ed1d-434a-8827-73f8920ebe26",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T01:51:35.340959Z",
+    "latency_seconds": 18.421703790896572,
+    "attempts": 1,
+    "summary": {
+      "summary": "班级旅行前需准备健康保险卡复印件、衣物、洗漱用品等物品，并禁止使用手机等电子设备。",
+      "keywords": [
+        "班级旅行",
+        "物品清单",
+        "健康保险",
+        "衣物准备",
+        "电子设备禁用"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.236,
+      "metrics": {
+        "input_chars": 417.0,
+        "input_lines": 31.0,
+        "summary_chars": 41.0,
+        "summary_coverage_ratio": 0.098,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 25.0
+      }
+    }
   }
 }

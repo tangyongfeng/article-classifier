@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c0e5a430-8bba-4df6-9802-ece83b372a9b",
+      "note_id": "1a504d46-4a0b-459a-8af6-b89b07a989df",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 福山新作反对身份政治：新部落主义与民主的危机 updated: 2018-09-11 03:39:38Z created: 2018-09",
+        "keywords": [
+          "---",
+          "title: 福山新作反对身份政治：新部落主义与民主的危机",
+          "updated: 2018-09-11 03:39:38Z",
+          "created: 2018-09-11 03:38:57Z",
+          "author: tangyongfeng"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:56:56.683213Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.148
+    }
+  ],
   "journal": {
     "id": "47cec9a3-44b9-4ea4-b6d2-74a6550c2326",
     "note_id": "1a504d46-4a0b-459a-8af6-b89b07a989df",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-11T15:56:56.682753Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 福山新作反对身份政治：新部落主义与民主的危机 updated: 2018-09-11 03:39:38Z created: 2018-09",
+      "keywords": [
+        "---",
+        "title: 福山新作反对身份政治：新部落主义与民主的危机",
+        "updated: 2018-09-11 03:39:38Z",
+        "created: 2018-09-11 03:38:57Z",
+        "author: tangyongfeng"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.148,
+      "metrics": {
+        "input_chars": 16266.0,
+        "input_lines": 94.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.005,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 976.0
+      }
+    }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "id": "d7f33ce2-5223-4ba6-8eb1-6c86f35f224a",
+  "note_id": "16fa1b4d-f27f-4202-8a0d-899fd3341145",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "2019年1月计划游览德国童话之路，探访格林兄弟故乡、小红帽故乡等童话主题城市。",
+    "keywords": [
+      "德国童话之路",
+      "童话主题",
+      "旅行计划",
+      "城市探访",
+      "格林兄弟"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:29:32.466087Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.262
+}

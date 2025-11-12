@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "36d7f986-0437-4055-8e2f-76c799a67302",
+      "note_id": "74d6c01d-dd2a-4b27-93ff-6ccd1f9bdb4d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "2013年9月26日，雅化集团盈利率为0，市场处于拉锯战状态，筹码逐渐磨掉，近期无明确结果。",
+        "keywords": [
+          "雅化集团",
+          "盈利率0",
+          "拉锯战",
+          "筹码",
+          "公司分析"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:32:01.221478Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.473
+    }
+  ],
   "journal": {
     "id": "f4aee595-c597-4865-95cd-bd15e09fbf78",
     "note_id": "74d6c01d-dd2a-4b27-93ff-6ccd1f9bdb4d",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:32:01.221331Z",
+    "latency_seconds": 27.951888915966265,
+    "attempts": 1,
+    "summary": {
+      "summary": "2013年9月26日，雅化集团盈利率为0，市场处于拉锯战状态，筹码逐渐磨掉，近期无明确结果。",
+      "keywords": [
+        "雅化集团",
+        "盈利率0",
+        "拉锯战",
+        "筹码",
+        "公司分析"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.473,
+      "metrics": {
+        "input_chars": 138.0,
+        "input_lines": 8.0,
+        "summary_chars": 46.0,
+        "summary_coverage_ratio": 0.333,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.3
+      }
+    }
   }
 }

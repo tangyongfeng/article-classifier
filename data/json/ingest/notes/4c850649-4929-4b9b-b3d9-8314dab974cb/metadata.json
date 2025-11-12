@@ -61,7 +61,39 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "50cd07b2-5309-436a-8053-5b603592357b",
+      "note_id": "4c850649-4929-4b9b-b3d9-8314dab974cb",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "FreeBSD系统安装port时出现pkgdb数据库损坏错误，需修复数据库或重新安装。涉及系统操作技术问题。",
+        "keywords": [
+          "FreeBSD",
+          "port",
+          "安装",
+          "pkgdb",
+          "数据库错误"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "技术",
+          "操作系统",
+          "FreeBSD"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:46:38.259149Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.467
+    }
+  ],
   "journal": {
     "id": "93ec8861-bb43-4502-b5f9-5773ae2f13dc",
     "note_id": "4c850649-4929-4b9b-b3d9-8314dab974cb",
@@ -84,5 +116,47 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:46:38.258989Z",
+    "latency_seconds": 22.322372833034024,
+    "attempts": 2,
+    "summary": {
+      "summary": "FreeBSD系统安装port时出现pkgdb数据库损坏错误，需修复数据库或重新安装。涉及系统操作技术问题。",
+      "keywords": [
+        "FreeBSD",
+        "port",
+        "安装",
+        "pkgdb",
+        "数据库错误"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "技术",
+        "操作系统",
+        "FreeBSD"
+      ]
+    },
+    "quality": {
+      "score": 0.467,
+      "metrics": {
+        "input_chars": 168.0,
+        "input_lines": 7.0,
+        "summary_chars": 54.0,
+        "summary_coverage_ratio": 0.321,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 10.1
+      }
+    }
   }
 }

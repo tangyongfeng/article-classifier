@@ -72,7 +72,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "6a4ecdb7-249e-44c9-8d7d-ef89566f84cd",
+      "note_id": "e064b67e-e92d-43ed-a27e-b01720c73d35",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 关于奶油的一切 – 羊小聪养小葱 updated: 2021-12-13 15:47:50Z created: 2021-12-13 15",
+        "keywords": [
+          "---",
+          "title: 关于奶油的一切 – 羊小聪养小葱",
+          "updated: 2021-12-13 15:47:50Z",
+          "created: 2021-12-13 15:47:50Z",
+          "source: >-"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:53:01.332024Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.15
+    }
+  ],
   "journal": {
     "id": "339ff141-6382-4a9e-ab6d-8abf3177bebf",
     "note_id": "e064b67e-e92d-43ed-a27e-b01720c73d35",
@@ -95,5 +123,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T08:53:01.331680Z",
+    "latency_seconds": 26.817890875041485,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 关于奶油的一切 – 羊小聪养小葱 updated: 2021-12-13 15:47:50Z created: 2021-12-13 15",
+      "keywords": [
+        "---",
+        "title: 关于奶油的一切 – 羊小聪养小葱",
+        "updated: 2021-12-13 15:47:50Z",
+        "created: 2021-12-13 15:47:50Z",
+        "source: >-"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.15,
+      "metrics": {
+        "input_chars": 4601.0,
+        "input_lines": 230.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.017,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 276.1
+      }
+    }
   }
 }

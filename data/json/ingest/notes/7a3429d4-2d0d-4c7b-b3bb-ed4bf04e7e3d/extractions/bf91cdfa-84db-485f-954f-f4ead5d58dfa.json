@@ -1,0 +1,29 @@
+{
+  "id": "bf91cdfa-84db-485f-954f-f4ead5d58dfa",
+  "note_id": "7a3429d4-2d0d-4c7b-b3bb-ed4bf04e7e3d",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "提供四月赴美航班详情，包括4月7日洛杉矶-纽约UA534、4月21日纽约-洛杉矶UA703、4月27日洛杉矶-北京CA988等航班信息。",
+    "keywords": [
+      "航班",
+      "美国",
+      "洛杉矶",
+      "纽约",
+      "旅行"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Travel",
+      "Travel Experience",
+      "General"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T23:57:46.065904Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.341
+}

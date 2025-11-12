@@ -1,0 +1,34 @@
+{
+  "id": "8e55d11c-730f-4bd0-92e4-1bda7a066351",
+  "note_id": "185aad90-28f3-4cf7-8dc4-56f9258fc2d4",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "Heartfelt poem capturing sunset's quiet majesty through vivid, sensory imagery a",
+    "keywords": [
+      "sunset",
+      "beauty",
+      "tranquility",
+      "nature",
+      "reflection"
+    ],
+    "action_items": [
+      "n",
+      "o",
+      "n",
+      "e"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Unclassified"
+    ],
+    "new_category_suggestion": [
+      "Arts",
+      "Arts > Poetry",
+      "Arts > Poetry > Nature Poetry"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T15:38:56.256456Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.345
+}

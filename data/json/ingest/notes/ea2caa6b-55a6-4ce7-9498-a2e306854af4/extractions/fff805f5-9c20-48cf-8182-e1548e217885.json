@@ -1,0 +1,29 @@
+{
+  "id": "fff805f5-9c20-48cf-8182-e1548e217885",
+  "note_id": "ea2caa6b-55a6-4ce7-9498-a2e306854af4",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "德语中表示'到达'和'出发'的常用词汇，包括Ankunft、Abfahrt、Abflug，属于基础词汇学习。",
+    "keywords": [
+      "德语",
+      "词汇",
+      "到达",
+      "出发",
+      "航班"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Language Learning",
+      "German",
+      "Vocabulary"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T09:41:11.411679Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.36
+}

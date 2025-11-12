@@ -1,0 +1,28 @@
+{
+  "id": "bc4b06b3-8c0d-4e15-adf5-69baf5866959",
+  "note_id": "84f0b3e5-582d-4548-81ac-b83da072f7ac",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "海外仓库租赁信息，提供大中小型仓库及办公室出租，地址德国梅特曼，交通便利，适合物流、电商等公司合作。",
+    "keywords": [
+      "海外仓",
+      "仓库租赁",
+      "物流",
+      "电商",
+      "合作"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-12T00:57:53.874069Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.352
+}

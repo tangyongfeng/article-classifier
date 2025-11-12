@@ -67,7 +67,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "62885cb0-0c4d-471f-a805-358811217b10",
+      "note_id": "dd92f93c-4bc9-4929-bbfa-d37f88f3861e",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: rsync 用法教程 updated: 2022-09-06 20:58:50Z created: 2022-09-06 20:58:16",
+        "keywords": [
+          "---",
+          "title: rsync 用法教程",
+          "updated: 2022-09-06 20:58:50Z",
+          "created: 2022-09-06 20:58:16Z",
+          "作者："
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T08:36:00.382988Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.149
+    }
+  ],
   "journal": {
     "id": "ecc03beb-1d7e-4a6e-97db-8b1cf1fe37d4",
     "note_id": "dd92f93c-4bc9-4929-bbfa-d37f88f3861e",
@@ -90,5 +118,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T08:36:00.382457Z",
+    "latency_seconds": 73.72558545798529,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: rsync 用法教程 updated: 2022-09-06 20:58:50Z created: 2022-09-06 20:58:16",
+      "keywords": [
+        "---",
+        "title: rsync 用法教程",
+        "updated: 2022-09-06 20:58:50Z",
+        "created: 2022-09-06 20:58:16Z",
+        "作者："
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.149,
+      "metrics": {
+        "input_chars": 6293.0,
+        "input_lines": 364.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.013,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 377.6
+      }
+    }
   }
 }

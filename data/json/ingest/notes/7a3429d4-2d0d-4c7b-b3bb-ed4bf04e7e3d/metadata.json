@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "bf91cdfa-84db-485f-954f-f4ead5d58dfa",
+      "note_id": "7a3429d4-2d0d-4c7b-b3bb-ed4bf04e7e3d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "提供四月赴美航班详情，包括4月7日洛杉矶-纽约UA534、4月21日纽约-洛杉矶UA703、4月27日洛杉矶-北京CA988等航班信息。",
+        "keywords": [
+          "航班",
+          "美国",
+          "洛杉矶",
+          "纽约",
+          "旅行"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Travel",
+          "Travel Experience",
+          "General"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:57:46.065904Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.341
+    }
+  ],
   "journal": {
     "id": "44f3a635-d370-4bcd-af94-b79222fa59d7",
     "note_id": "7a3429d4-2d0d-4c7b-b3bb-ed4bf04e7e3d",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:57:46.065726Z",
+    "latency_seconds": 43.82347541593481,
+    "attempts": 1,
+    "summary": {
+      "summary": "提供四月赴美航班详情，包括4月7日洛杉矶-纽约UA534、4月21日纽约-洛杉矶UA703、4月27日洛杉矶-北京CA988等航班信息。",
+      "keywords": [
+        "航班",
+        "美国",
+        "洛杉矶",
+        "纽约",
+        "旅行"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Travel",
+        "Travel Experience",
+        "General"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.341,
+      "metrics": {
+        "input_chars": 359.0,
+        "input_lines": 20.0,
+        "summary_chars": 68.0,
+        "summary_coverage_ratio": 0.189,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 21.5
+      }
+    }
   }
 }

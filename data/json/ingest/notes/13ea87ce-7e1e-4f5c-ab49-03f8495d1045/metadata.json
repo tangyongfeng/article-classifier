@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "64e339aa-4afd-427e-97fc-928ba6dfbed5",
+      "note_id": "13ea87ce-7e1e-4f5c-ab49-03f8495d1045",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "介绍德语形容词词尾变化的三大类：零冠词后（强变化）、定冠词后（弱变化）、不定冠词后（混合变化），通过词尾体现名词性数格。",
+        "keywords": [
+          "德语",
+          "形容词",
+          "词尾变化",
+          "冠词",
+          "性数格"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "形容词词尾"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:16:48.098951Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.383
+    }
+  ],
   "journal": {
     "id": "ff6273e3-2a16-48ca-9e38-6cec9cd088e4",
     "note_id": "13ea87ce-7e1e-4f5c-ab49-03f8495d1045",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:16:48.098769Z",
+    "latency_seconds": 17.23824958410114,
+    "attempts": 1,
+    "summary": {
+      "summary": "介绍德语形容词词尾变化的三大类：零冠词后（强变化）、定冠词后（弱变化）、不定冠词后（混合变化），通过词尾体现名词性数格。",
+      "keywords": [
+        "德语",
+        "形容词",
+        "词尾变化",
+        "冠词",
+        "性数格"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "形容词词尾"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.383,
+      "metrics": {
+        "input_chars": 1842.0,
+        "input_lines": 101.0,
+        "summary_chars": 60.0,
+        "summary_coverage_ratio": 0.033,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 110.5
+      }
+    }
   }
 }

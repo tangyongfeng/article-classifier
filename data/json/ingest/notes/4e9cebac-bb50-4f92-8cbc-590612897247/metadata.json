@@ -67,7 +67,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "587069f8-7260-44e5-988d-ff70085cb6df",
+      "note_id": "4e9cebac-bb50-4f92-8cbc-590612897247",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "商业计划书模板涵盖企业构想、客户定位、营销策略、市场分析及财务预测，适用于创业初期规划，指导公司成立详细步骤。",
+        "keywords": [
+          "商业计划书",
+          "创业",
+          "市场分析",
+          "营销策略",
+          "财务预测"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "创业"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:06:28.127331Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.277
+    }
+  ],
   "journal": {
     "id": "20495b92-fe5c-4e31-98fe-9ff95849bdb5",
     "note_id": "4e9cebac-bb50-4f92-8cbc-590612897247",
@@ -90,5 +119,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:06:28.127184Z",
+    "latency_seconds": 23.196899625007063,
+    "attempts": 1,
+    "summary": {
+      "summary": "商业计划书模板涵盖企业构想、客户定位、营销策略、市场分析及财务预测，适用于创业初期规划，指导公司成立详细步骤。",
+      "keywords": [
+        "商业计划书",
+        "创业",
+        "市场分析",
+        "营销策略",
+        "财务预测"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "创业"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.277,
+      "metrics": {
+        "input_chars": 920.0,
+        "input_lines": 51.0,
+        "summary_chars": 55.0,
+        "summary_coverage_ratio": 0.06,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 55.2
+      }
+    }
   }
 }

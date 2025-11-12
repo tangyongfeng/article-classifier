@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5e2a5524-ad80-4447-a49b-2efc7a57d16a",
+      "note_id": "6ec1c27b-c98b-440a-8d85-ffffc12e1ef3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "蛊卦出自《易经》，象征继承父业与革新，强调先甲三日、后甲三日的循环，体现中国传统文化中的治国理念。",
+        "keywords": [
+          "蛊卦",
+          "易经",
+          "继承",
+          "父业",
+          "先甲三日"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T23:00:10.325768Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.341
+    }
+  ],
   "journal": {
     "id": "3c253ffd-e76f-426b-a825-299318a4d698",
     "note_id": "6ec1c27b-c98b-440a-8d85-ffffc12e1ef3",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T23:00:10.325594Z",
+    "latency_seconds": 42.150748124928214,
+    "attempts": 2,
+    "summary": {
+      "summary": "蛊卦出自《易经》，象征继承父业与革新，强调先甲三日、后甲三日的循环，体现中国传统文化中的治国理念。",
+      "keywords": [
+        "蛊卦",
+        "易经",
+        "继承",
+        "父业",
+        "先甲三日"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.341,
+      "metrics": {
+        "input_chars": 261.0,
+        "input_lines": 22.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.188,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 15.7
+      }
+    }
   }
 }

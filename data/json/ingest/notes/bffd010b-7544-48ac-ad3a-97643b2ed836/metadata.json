@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "fd747d70-2397-46a1-bb7e-2b3eb526d2e9",
+      "note_id": "bffd010b-7544-48ac-ad3a-97643b2ed836",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "《易经》遁卦详解，阐释退避之道，爻辞解析阳退阴长过程，强调君子远小人、不恶而严。",
+        "keywords": [
+          "遁卦",
+          "易经",
+          "退避",
+          "阳爻",
+          "阴爻"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "历史",
+          "中国历史"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T05:52:55.300663Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.361
+    }
+  ],
   "journal": {
     "id": "492d455a-2ce7-427c-a6c1-7408a943b4d7",
     "note_id": "bffd010b-7544-48ac-ad3a-97643b2ed836",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T05:52:55.300496Z",
+    "latency_seconds": 38.59880758298095,
+    "attempts": 1,
+    "summary": {
+      "summary": "《易经》遁卦详解，阐释退避之道，爻辞解析阳退阴长过程，强调君子远小人、不恶而严。",
+      "keywords": [
+        "遁卦",
+        "易经",
+        "退避",
+        "阳爻",
+        "阴爻"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "历史",
+        "中国历史"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.361,
+      "metrics": {
+        "input_chars": 369.0,
+        "input_lines": 28.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.108,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 22.1
+      }
+    }
   }
 }

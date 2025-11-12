@@ -67,7 +67,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5057250e-a042-4e55-8632-3d356740aaef",
+      "note_id": "d26b7211-af19-4f88-823d-a6bf8e0f98a0",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "儿童医院呼吸科挂号预约信息，含医师级别、预约码及取号要求。",
+        "keywords": [
+          "儿研所",
+          "呼吸科",
+          "挂号",
+          "预约",
+          "医院"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Social"
+        ],
+        "new_category_suggestion": [
+          "健康",
+          "健康 > 儿科"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T07:41:33.521093Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.402
+    }
+  ],
   "journal": {
     "id": "3a4f6091-df61-4433-ad2e-43a2575cacab",
     "note_id": "d26b7211-af19-4f88-823d-a6bf8e0f98a0",
@@ -90,5 +121,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T07:41:33.520910Z",
+    "latency_seconds": 22.588201125035994,
+    "attempts": 2,
+    "summary": {
+      "summary": "儿童医院呼吸科挂号预约信息，含医师级别、预约码及取号要求。",
+      "keywords": [
+        "儿研所",
+        "呼吸科",
+        "挂号",
+        "预约",
+        "医院"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Social"
+      ],
+      "new_category_suggestion": [
+        "健康",
+        "健康 > 儿科"
+      ]
+    },
+    "quality": {
+      "score": 0.402,
+      "metrics": {
+        "input_chars": 413.0,
+        "input_lines": 17.0,
+        "summary_chars": 29.0,
+        "summary_coverage_ratio": 0.07,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 24.8
+      }
+    }
   }
 }

@@ -1,0 +1,30 @@
+{
+  "id": "0be8f6d5-d738-4ffd-8069-7fd7af1ce229",
+  "note_id": "d034df04-326d-4817-ad5f-df29eadd9737",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "笔记包含SQL注入攻击查询语句，通过字符构造绕过密码验证，涉及数据库安全漏洞。",
+    "keywords": [
+      "SQL注入",
+      "密码验证",
+      "字符构造",
+      "数据库安全",
+      "安全漏洞"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务"
+    ],
+    "new_category_suggestion": [
+      "商务",
+      "网络安全"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T07:28:04.312447Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.132
+}

@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "55e08a7f-54bf-4394-a025-b2c6e2f1eafc",
+      "note_id": "c3756176-f82c-4853-8d31-216b5af42cde",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "中国福利彩票系统权限登录存在漏洞，涉及报表信息、彩民管理及短信发送功能。",
+        "keywords": [
+          "中国福彩",
+          "系统权限",
+          "漏洞",
+          "报表信息",
+          "彩民管理"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified",
+          "金融"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:00:55.548673Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.429
+    }
+  ],
   "journal": {
     "id": "0d32e825-f779-40ee-8c72-b531dff98a3d",
     "note_id": "c3756176-f82c-4853-8d31-216b5af42cde",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:00:55.548514Z",
+    "latency_seconds": 45.416870875051245,
+    "attempts": 1,
+    "summary": {
+      "summary": "中国福利彩票系统权限登录存在漏洞，涉及报表信息、彩民管理及短信发送功能。",
+      "keywords": [
+        "中国福彩",
+        "系统权限",
+        "漏洞",
+        "报表信息",
+        "彩民管理"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified",
+        "金融"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.429,
+      "metrics": {
+        "input_chars": 290.0,
+        "input_lines": 15.0,
+        "summary_chars": 36.0,
+        "summary_coverage_ratio": 0.124,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 17.4
+      }
+    }
   }
 }

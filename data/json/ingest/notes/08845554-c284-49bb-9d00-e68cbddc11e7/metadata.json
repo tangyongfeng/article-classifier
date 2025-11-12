@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "dc310688-43f5-48b8-93db-2c2b225f5de6",
+      "note_id": "08845554-c284-49bb-9d00-e68cbddc11e7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "分析各省电话投注系统容量，涉及分省账户管理、资金同步至中央系统，属于商务技术创新范畴。",
+        "keywords": [
+          "电话投注",
+          "系统容量",
+          "分省管理",
+          "账户资金",
+          "中央系统"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T14:07:22.889463Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.42
+    }
+  ],
   "journal": {
     "id": "69633663-d9bc-4167-8245-518d39f596bd",
     "note_id": "08845554-c284-49bb-9d00-e68cbddc11e7",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T14:07:22.889332Z",
+    "latency_seconds": 29.246982000069693,
+    "attempts": 2,
+    "summary": {
+      "summary": "分析各省电话投注系统容量，涉及分省账户管理、资金同步至中央系统，属于商务技术创新范畴。",
+      "keywords": [
+        "电话投注",
+        "系统容量",
+        "分省管理",
+        "账户资金",
+        "中央系统"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.42,
+      "metrics": {
+        "input_chars": 403.0,
+        "input_lines": 13.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.107,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 24.2
+      }
+    }
   }
 }

@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "188f251c-c499-48e6-8823-f51833e3e6e2",
+      "note_id": "f1ef061b-f929-46cb-8c4b-d54566b5c0a3",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "关于家庭宽带安装服务的笔记，涉及网络设置与家庭设施，建议归入城市生活下的家庭设施分类。",
+        "keywords": [
+          "宽带安装",
+          "家庭网络",
+          "城市生活",
+          "网络服务",
+          "家庭设施"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "城市生活"
+        ],
+        "new_category_suggestion": [
+          "城市生活",
+          "家庭设施"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T10:19:43.844037Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.342
+    }
+  ],
   "journal": {
     "id": "46adecb5-e972-437c-8687-946f7f27595e",
     "note_id": "f1ef061b-f929-46cb-8c4b-d54566b5c0a3",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T10:19:43.843880Z",
+    "latency_seconds": 43.157913957955316,
+    "attempts": 2,
+    "summary": {
+      "summary": "关于家庭宽带安装服务的笔记，涉及网络设置与家庭设施，建议归入城市生活下的家庭设施分类。",
+      "keywords": [
+        "宽带安装",
+        "家庭网络",
+        "城市生活",
+        "网络服务",
+        "家庭设施"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "城市生活"
+      ],
+      "new_category_suggestion": [
+        "城市生活",
+        "家庭设施"
+      ]
+    },
+    "quality": {
+      "score": 0.342,
+      "metrics": {
+        "input_chars": 78.0,
+        "input_lines": 5.0,
+        "summary_chars": 43.0,
+        "summary_coverage_ratio": 0.551,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.7
+      }
+    }
   }
 }

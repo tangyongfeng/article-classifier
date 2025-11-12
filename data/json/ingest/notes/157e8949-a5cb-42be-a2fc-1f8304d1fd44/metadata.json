@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "84da4191-1aa8-4757-819a-4f79d35f34ce",
+      "note_id": "157e8949-a5cb-42be-a2fc-1f8304d1fd44",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记主题为'移动机房'，涉及移动通信数据中心的技术配置或管理信息，可能包含相关技术细节。",
+        "keywords": [
+          "移动机房",
+          "通信技术",
+          "数据中心",
+          "IT基础设施",
+          "技术创新"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T15:21:07.299488Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.289
+    }
+  ],
   "journal": {
     "id": "d628ab56-2834-4574-88fb-f0a26276a4cb",
     "note_id": "157e8949-a5cb-42be-a2fc-1f8304d1fd44",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T15:21:07.299228Z",
+    "latency_seconds": 44.42230866709724,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记主题为'移动机房'，涉及移动通信数据中心的技术配置或管理信息，可能包含相关技术细节。",
+      "keywords": [
+        "移动机房",
+        "通信技术",
+        "数据中心",
+        "IT基础设施",
+        "技术创新"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.289,
+      "metrics": {
+        "input_chars": 136.0,
+        "input_lines": 8.0,
+        "summary_chars": 44.0,
+        "summary_coverage_ratio": 0.324,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 8.2
+      }
+    }
   }
 }

@@ -1,0 +1,28 @@
+{
+  "id": "4b6cc207-0cbe-4d1f-8ae6-9b712e344711",
+  "note_id": "33e8a8bb-824a-4dea-813c-8a7af6b0f1a1",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "行业分析需收集数据来源、运用5W2H/4P/SWOT方法、撰写市场/用户/竞争对手报告，并参考专家历史背景与政策指导建议。",
+    "keywords": [
+      "行业分析",
+      "数据来源",
+      "5W2H",
+      "SWOT",
+      "竞争对手分析"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "商务",
+      "合作"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:50:18.693553Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.37
+}

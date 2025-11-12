@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "26ed497b-04a2-4b0c-b285-99bb0edb76d1",
+      "note_id": "95ea42d1-a26a-4908-b724-675d6cd804d4",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "笔记涉及系统功能更新，包括支持第三方审计及防沉溺功能的细化升级，属于商务领域中的技术创新范畴。",
+        "keywords": [
+          "系统功能",
+          "第三方审计",
+          "防沉溺",
+          "技术创新",
+          "功能优化"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "技术创新"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:20:03.021184Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.372
+    }
+  ],
   "journal": {
     "id": "65aeb9dc-f0ea-4db9-a4d4-b15a025bc479",
     "note_id": "95ea42d1-a26a-4908-b724-675d6cd804d4",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:20:03.020981Z",
+    "latency_seconds": 12.727987666032277,
+    "attempts": 1,
+    "summary": {
+      "summary": "笔记涉及系统功能更新，包括支持第三方审计及防沉溺功能的细化升级，属于商务领域中的技术创新范畴。",
+      "keywords": [
+        "系统功能",
+        "第三方审计",
+        "防沉溺",
+        "技术创新",
+        "功能优化"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "技术创新"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.372,
+      "metrics": {
+        "input_chars": 127.0,
+        "input_lines": 8.0,
+        "summary_chars": 47.0,
+        "summary_coverage_ratio": 0.37,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 7.6
+      }
+    }
   }
 }

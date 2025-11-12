@@ -72,7 +72,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7c41ee18-0ebf-4728-be56-22ca47715599",
+      "note_id": "50abe207-0d29-498b-af54-8424717c84a7",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "德语句子描述情感互动，涉及发笑、不笑及嫉妒情绪，体现人际关系表达。",
+        "keywords": [
+          "德语",
+          "情感",
+          "嫉妒",
+          "发笑",
+          "人际关系"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Vocabulary"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T20:30:55.373922Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.14
+    }
+  ],
   "journal": {
     "id": "1cbaa778-fea2-4ad0-8a71-4e07c0991fd8",
     "note_id": "50abe207-0d29-498b-af54-8424717c84a7",
@@ -95,5 +125,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T20:30:55.373764Z",
+    "latency_seconds": 43.97964749997482,
+    "attempts": 1,
+    "summary": {
+      "summary": "德语句子描述情感互动，涉及发笑、不笑及嫉妒情绪，体现人际关系表达。",
+      "keywords": [
+        "德语",
+        "情感",
+        "嫉妒",
+        "发笑",
+        "人际关系"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Vocabulary"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.14,
+      "metrics": {
+        "input_chars": 224.0,
+        "input_lines": 9.0,
+        "summary_chars": 33.0,
+        "summary_coverage_ratio": 0.147,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 13.4
+      }
+    }
   }
 }

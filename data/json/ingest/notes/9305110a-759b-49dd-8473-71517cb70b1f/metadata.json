@@ -61,7 +61,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "59c77468-f7dd-4dd7-8398-d849cf7af636",
+      "note_id": "9305110a-759b-49dd-8473-71517cb70b1f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "莱宝高科公司盈利率为0，需进行财务分析，归类至金融领域股票市场公司分析类别。",
+        "keywords": [
+          "莱宝高科",
+          "公司分析",
+          "盈利率",
+          "财务",
+          "股票市场"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance",
+          "Stock Market",
+          "Company Analysis"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:01:40.575243Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.389
+    }
+  ],
   "journal": {
     "id": "6b3a8804-0926-4e83-89c2-4e7a61ebf9f2",
     "note_id": "9305110a-759b-49dd-8473-71517cb70b1f",
@@ -84,5 +114,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:01:40.575073Z",
+    "latency_seconds": 30.15976062498521,
+    "attempts": 1,
+    "summary": {
+      "summary": "莱宝高科公司盈利率为0，需进行财务分析，归类至金融领域股票市场公司分析类别。",
+      "keywords": [
+        "莱宝高科",
+        "公司分析",
+        "盈利率",
+        "财务",
+        "股票市场"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance",
+        "Stock Market",
+        "Company Analysis"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.389,
+      "metrics": {
+        "input_chars": 94.0,
+        "input_lines": 7.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.404,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 5.6
+      }
+    }
   }
 }

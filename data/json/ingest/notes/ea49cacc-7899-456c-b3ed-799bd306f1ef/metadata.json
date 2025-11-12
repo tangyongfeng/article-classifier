@@ -61,7 +61,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "7af5fb32-3331-4bde-9fee-972bc84f4ae4",
+      "note_id": "ea49cacc-7899-456c-b3ed-799bd306f1ef",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "2013年3月26日，中建二局大厦会议室召开中心演示第二次迭代会议，总结第一次迭代开发内容，参与人员包括姚彦松、李根行等。",
+        "keywords": [
+          "会议",
+          "迭代",
+          "开发",
+          "总结",
+          "商务"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "商务",
+          "合作"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T09:41:46.332504Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.477
+    }
+  ],
   "journal": {
     "id": "f739c27c-8a9c-4c45-8a95-6ac7d1cda15a",
     "note_id": "ea49cacc-7899-456c-b3ed-799bd306f1ef",
@@ -84,5 +113,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T09:41:46.332331Z",
+    "latency_seconds": 34.91471649997402,
+    "attempts": 1,
+    "summary": {
+      "summary": "2013年3月26日，中建二局大厦会议室召开中心演示第二次迭代会议，总结第一次迭代开发内容，参与人员包括姚彦松、李根行等。",
+      "keywords": [
+        "会议",
+        "迭代",
+        "开发",
+        "总结",
+        "商务"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "商务",
+        "合作"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.477,
+      "metrics": {
+        "input_chars": 179.0,
+        "input_lines": 10.0,
+        "summary_chars": 61.0,
+        "summary_coverage_ratio": 0.341,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.7
+      }
+    }
   }
 }

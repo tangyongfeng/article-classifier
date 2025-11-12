@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "42117999-3eab-417c-b04c-bb4b0befa339",
+      "note_id": "7ea9776a-dcf8-48a0-a66f-b5193ff4a945",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "watch命令用于定期执行命令并监控输出，支持beep、color等选项，常用于终端环境系统监控。",
+        "keywords": [
+          "watch",
+          "command",
+          "options",
+          "terminal",
+          "monitoring"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Unclassified"
+        ],
+        "new_category_suggestion": [
+          "Technology",
+          "Command Line Tools"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T00:24:47.407195Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.277
+    }
+  ],
   "journal": {
     "id": "c0fff7cd-6d41-491d-9107-46762e4d4444",
     "note_id": "7ea9776a-dcf8-48a0-a66f-b5193ff4a945",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T00:24:47.407068Z",
+    "latency_seconds": 46.91909949993715,
+    "attempts": 1,
+    "summary": {
+      "summary": "watch命令用于定期执行命令并监控输出，支持beep、color等选项，常用于终端环境系统监控。",
+      "keywords": [
+        "watch",
+        "command",
+        "options",
+        "terminal",
+        "monitoring"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Unclassified"
+      ],
+      "new_category_suggestion": [
+        "Technology",
+        "Command Line Tools"
+      ]
+    },
+    "quality": {
+      "score": 0.277,
+      "metrics": {
+        "input_chars": 806.0,
+        "input_lines": 21.0,
+        "summary_chars": 49.0,
+        "summary_coverage_ratio": 0.061,
+        "keyword_hit_rate": 0.6,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 48.4
+      }
+    }
   }
 }

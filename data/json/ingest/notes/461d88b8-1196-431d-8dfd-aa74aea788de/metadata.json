@@ -72,7 +72,36 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "5adb582d-9464-441f-aa38-1fad36bf12d9",
+      "note_id": "461d88b8-1196-431d-8dfd-aa74aea788de",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "Depix是一款开源工具，用于从像素化截图中恢复密码。它利用线性盒滤波器和图像匹配技术处理像素化区域，实现密码恢复。",
+        "keywords": [
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充",
+          "待补充"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "多媒体",
+          "图片"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-11T19:04:30.961791Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.071
+    }
+  ],
   "journal": {
     "id": "b5d353a5-9dcd-485f-acb4-e7a14e356954",
     "note_id": "461d88b8-1196-431d-8dfd-aa74aea788de",
@@ -95,5 +124,44 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-11T19:04:30.961531Z",
+    "latency_seconds": 56.87660295807291,
+    "attempts": 2,
+    "summary": {
+      "summary": "Depix是一款开源工具，用于从像素化截图中恢复密码。它利用线性盒滤波器和图像匹配技术处理像素化区域，实现密码恢复。",
+      "keywords": [
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充",
+        "待补充"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "多媒体",
+        "图片"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.071,
+      "metrics": {
+        "input_chars": 7206.0,
+        "input_lines": 279.0,
+        "summary_chars": 58.0,
+        "summary_coverage_ratio": 0.008,
+        "keyword_hit_rate": 0.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 2.0,
+        "estimated_read_seconds": 432.4
+      }
+    }
   }
 }

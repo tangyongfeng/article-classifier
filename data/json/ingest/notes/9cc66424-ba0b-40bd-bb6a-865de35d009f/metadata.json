@@ -61,7 +61,38 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "196f4959-eadf-41a6-aff5-2adac153147e",
+      "note_id": "9cc66424-ba0b-40bd-bb6a-865de35d009f",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "全球允许博彩的地区及主要组织信息，包括欧洲远程博彩联盟（RGA）的官方链接。",
+        "keywords": [
+          "博彩",
+          "地区",
+          "组织",
+          "欧洲",
+          "联盟"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Finance"
+        ],
+        "new_category_suggestion": [
+          "Finance",
+          "Gambling"
+        ]
+      },
+      "version": 1,
+      "created_at": "2025-11-12T02:49:50.190332Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.471
+    }
+  ],
   "journal": {
     "id": "a335d5b3-1419-4833-826d-dbc26804640f",
     "note_id": "9cc66424-ba0b-40bd-bb6a-865de35d009f",
@@ -84,5 +115,46 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T02:49:50.190106Z",
+    "latency_seconds": 38.163398333010264,
+    "attempts": 1,
+    "summary": {
+      "summary": "全球允许博彩的地区及主要组织信息，包括欧洲远程博彩联盟（RGA）的官方链接。",
+      "keywords": [
+        "博彩",
+        "地区",
+        "组织",
+        "欧洲",
+        "联盟"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Finance"
+      ],
+      "new_category_suggestion": [
+        "Finance",
+        "Gambling"
+      ]
+    },
+    "quality": {
+      "score": 0.471,
+      "metrics": {
+        "input_chars": 183.0,
+        "input_lines": 8.0,
+        "summary_chars": 38.0,
+        "summary_coverage_ratio": 0.208,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 11.0
+      }
+    }
   }
 }

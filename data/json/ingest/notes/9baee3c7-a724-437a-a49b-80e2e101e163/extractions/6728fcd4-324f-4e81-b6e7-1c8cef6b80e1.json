@@ -1,0 +1,30 @@
+{
+  "id": "6728fcd4-324f-4e81-b6e7-1c8cef6b80e1",
+  "note_id": "9baee3c7-a724-437a-a49b-80e2e101e163",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "讨论加拿大身份申请中涉及化妆师职业身份办理、工签获取方式及德国长期法人签证影响的问题。",
+    "keywords": [
+      "加拿大",
+      "签证",
+      "工签",
+      "身份",
+      "德国签证"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "国家与地区"
+    ],
+    "new_category_suggestion": [
+      "国家与地区",
+      "加拿大"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-12T02:41:29.207142Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.402
+}

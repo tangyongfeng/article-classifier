@@ -1,0 +1,31 @@
+{
+  "id": "31fae95c-45cf-4668-bcf9-f7bdadee42d4",
+  "note_id": "2e57cd84-8e10-449e-86ef-ea0924244ee9",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "推荐Python库lxml，利用XPath高效解析HTML，替代BeautifulSoup，提升开发效率。",
+    "keywords": [
+      "Python",
+      "lxml",
+      "XPath",
+      "HTML解析",
+      "高效"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "Education"
+    ],
+    "new_category_suggestion": [
+      "Technology",
+      "Programming",
+      "Libraries"
+    ]
+  },
+  "version": 1,
+  "created_at": "2025-11-11T17:17:23.525915Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.315
+}

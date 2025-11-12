@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "efc0b8aa-9bd4-47a0-a457-287175960b16",
+      "note_id": "c4640413-3116-46c0-aab0-f147a8b1f39d",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "蔡康永作为台湾知名主持人、作家，其内容聚焦个人成长与沟通技巧，属于个人发展领域。",
+        "keywords": [
+          "蔡康永",
+          "个人发展",
+          "沟通技巧",
+          "作家",
+          "主持人"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "个人发展"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:12:13.722812Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.383
+    }
+  ],
   "journal": {
     "id": "22f8c760-6ae6-458a-b11b-b2ebe2f0a72d",
     "note_id": "c4640413-3116-46c0-aab0-f147a8b1f39d",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:12:13.722662Z",
+    "latency_seconds": 25.945674875052646,
+    "attempts": 1,
+    "summary": {
+      "summary": "蔡康永作为台湾知名主持人、作家，其内容聚焦个人成长与沟通技巧，属于个人发展领域。",
+      "keywords": [
+        "蔡康永",
+        "个人发展",
+        "沟通技巧",
+        "作家",
+        "主持人"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "个人发展"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.383,
+      "metrics": {
+        "input_chars": 78.0,
+        "input_lines": 5.0,
+        "summary_chars": 40.0,
+        "summary_coverage_ratio": 0.513,
+        "keyword_hit_rate": 0.2,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 4.7
+      }
+    }
   }
 }

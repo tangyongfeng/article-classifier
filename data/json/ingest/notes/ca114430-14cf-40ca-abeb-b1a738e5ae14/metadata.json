@@ -67,7 +67,37 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "e7ed45fb-f79b-440c-bc9e-7741dc4cb27b",
+      "note_id": "ca114430-14cf-40ca-abeb-b1a738e5ae14",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "讲解德语疑问词'Wo'（位置）、'Wohin'（方向）、'Woher'（来源）的用法及介词搭配，涉及第三格与第四格变化规则。",
+        "keywords": [
+          "德语语法",
+          "疑问词",
+          "介词",
+          "第三格",
+          "第四格"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "Language Learning",
+          "German",
+          "Grammar"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T06:49:18.941584Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.322
+    }
+  ],
   "journal": {
     "id": "ae5cf9f6-a0c3-4949-831c-32bf282c8619",
     "note_id": "ca114430-14cf-40ca-abeb-b1a738e5ae14",
@@ -90,5 +120,45 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T06:49:18.941419Z",
+    "latency_seconds": 17.023164374986663,
+    "attempts": 1,
+    "summary": {
+      "summary": "讲解德语疑问词'Wo'（位置）、'Wohin'（方向）、'Woher'（来源）的用法及介词搭配，涉及第三格与第四格变化规则。",
+      "keywords": [
+        "德语语法",
+        "疑问词",
+        "介词",
+        "第三格",
+        "第四格"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "Language Learning",
+        "German",
+        "Grammar"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.322,
+      "metrics": {
+        "input_chars": 2084.0,
+        "input_lines": 61.0,
+        "summary_chars": 62.0,
+        "summary_coverage_ratio": 0.03,
+        "keyword_hit_rate": 0.8,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 125.0
+      }
+    }
   }
 }

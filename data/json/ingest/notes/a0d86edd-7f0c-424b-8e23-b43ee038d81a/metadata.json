@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "c7828a51-b59e-4eb6-87db-a75b0efa7bf7",
+      "note_id": "a0d86edd-7f0c-424b-8e23-b43ee038d81a",
+      "extractor": "llm_enhance:v0#qwen3:30b",
+      "payload": {
+        "summary": "北京市宜家会员相关服务信息，涉及会员活动及门店服务。",
+        "keywords": [
+          "宜家会员",
+          "北京市",
+          "城市生活",
+          "家居服务",
+          "会员活动"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "qwen3:30b",
+        "category_path": [
+          "城市生活"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T03:07:47.357810Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.26
+    }
+  ],
   "journal": {
     "id": "e7aa17d9-5442-4959-90c3-598d983e7887",
     "note_id": "a0d86edd-7f0c-424b-8e23-b43ee038d81a",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "success",
+    "model": "qwen3:30b",
+    "updated_at": "2025-11-12T03:07:47.357603Z",
+    "latency_seconds": 27.26436079107225,
+    "attempts": 1,
+    "summary": {
+      "summary": "北京市宜家会员相关服务信息，涉及会员活动及门店服务。",
+      "keywords": [
+        "宜家会员",
+        "北京市",
+        "城市生活",
+        "家居服务",
+        "会员活动"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "qwen3:30b",
+      "category_path": [
+        "城市生活"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.26,
+      "metrics": {
+        "input_chars": 177.0,
+        "input_lines": 9.0,
+        "summary_chars": 26.0,
+        "summary_coverage_ratio": 0.147,
+        "keyword_hit_rate": 0.4,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 10.6
+      }
+    }
   }
 }

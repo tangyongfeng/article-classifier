@@ -1,0 +1,27 @@
+{
+  "id": "da91bdae-227f-40d5-8dcb-2949f8e2b4f7",
+  "note_id": "0802be5d-e5a0-4890-bd24-d389560a389c",
+  "extractor": "llm_enhance:v0#qwen3:30b",
+  "payload": {
+    "summary": "在Windows家庭组中添加其他计算机的网络配置与共享设置指南，涉及家庭网络文件和打印机共享的步骤说明。",
+    "keywords": [
+      "家庭组",
+      "添加计算机",
+      "网络配置",
+      "文件共享",
+      "打印机共享"
+    ],
+    "action_items": [
+      "无"
+    ],
+    "source": "qwen3:30b",
+    "category_path": [
+      "多媒体"
+    ],
+    "new_category_suggestion": null
+  },
+  "version": 1,
+  "created_at": "2025-11-11T14:03:49.992834Z",
+  "created_by": "llm_enhance:v0",
+  "quality_score": 0.367
+}

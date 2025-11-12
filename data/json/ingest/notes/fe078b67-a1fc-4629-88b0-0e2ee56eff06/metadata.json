@@ -61,7 +61,35 @@
       }
     }
   ],
-  "extractions": [],
+  "extractions": [
+    {
+      "id": "d2fde89d-9ec6-4c50-89eb-3d30d64b458c",
+      "note_id": "fe078b67-a1fc-4629-88b0-0e2ee56eff06",
+      "extractor": "llm_enhance:v0#fallback",
+      "payload": {
+        "summary": "--- title: 莫諾托夫雞尾酒 updated: 2013-08-27 04:50:12Z created: 2013-07-05 15:11:33Z -",
+        "keywords": [
+          "---",
+          "title: 莫諾托夫雞尾酒",
+          "updated: 2013-08-27 04:50:12Z",
+          "created: 2013-07-05 15:11:33Z",
+          "莫諾托夫雞尾酒是土制燃烧弹的別稱。來自蘇聯的外交人民委員（外交部 長）维亚切斯拉夫·米哈伊洛维奇·莫洛托夫。二次大戰時蘇聯入侵芬兰，芬蘭士兵無論是人數或裝備皆處於下風。面對紅軍的坦克，芬蘭人借用了之前在西班牙内战時，這種由蘇聯人支持的共和派人發明的燃燒瓶武器"
+        ],
+        "action_items": [
+          "无"
+        ],
+        "source": "fallback",
+        "category_path": [
+          "Education"
+        ],
+        "new_category_suggestion": null
+      },
+      "version": 1,
+      "created_at": "2025-11-12T11:22:24.014991Z",
+      "created_by": "llm_enhance:v0",
+      "quality_score": 0.151
+    }
+  ],
   "journal": {
     "id": "591f63db-7cd3-44bb-87de-10d1fd0d8209",
     "note_id": "fe078b67-a1fc-4629-88b0-0e2ee56eff06",
@@ -84,5 +112,43 @@
       ]
     },
     "error_detail": null
+  },
+  "llm": {
+    "status": "fallback",
+    "model": "fallback",
+    "updated_at": "2025-11-12T11:22:24.014700Z",
+    "latency_seconds": null,
+    "attempts": 3,
+    "summary": {
+      "summary": "--- title: 莫諾托夫雞尾酒 updated: 2013-08-27 04:50:12Z created: 2013-07-05 15:11:33Z -",
+      "keywords": [
+        "---",
+        "title: 莫諾托夫雞尾酒",
+        "updated: 2013-08-27 04:50:12Z",
+        "created: 2013-07-05 15:11:33Z",
+        "莫諾托夫雞尾酒是土制燃烧弹的別稱。來自蘇聯的外交人民委員（外交部 長）维亚切斯拉夫·米哈伊洛维奇·莫洛托夫。二次大戰時蘇聯入侵芬兰，芬蘭士兵無論是人數或裝備皆處於下風。面對紅軍的坦克，芬蘭人借用了之前在西班牙内战時，這種由蘇聯人支持的共和派人發明的燃燒瓶武器"
+      ],
+      "action_items": [
+        "无"
+      ],
+      "source": "fallback",
+      "category_path": [
+        "Education"
+      ],
+      "new_category_suggestion": null
+    },
+    "quality": {
+      "score": 0.151,
+      "metrics": {
+        "input_chars": 4038.0,
+        "input_lines": 37.0,
+        "summary_chars": 80.0,
+        "summary_coverage_ratio": 0.02,
+        "keyword_hit_rate": 1.0,
+        "action_item_count": 1.0,
+        "unique_summary_sentences": 1.0,
+        "estimated_read_seconds": 242.3
+      }
+    }
   }
 }
